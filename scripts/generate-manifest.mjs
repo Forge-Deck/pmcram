@@ -20,6 +20,7 @@ const TARGETS = [
   { dir: 'glossary', type: 'glossary' },
   { dir: 'questions', type: 'question' },
   { dir: 'decks', type: 'card' },
+  { dir: 'guides', type: 'guide' },
 ];
 
 /** Last git commit time for a file (ISO), or file mtime as a fallback. */
@@ -36,7 +37,7 @@ function updatedAt(absPath, repoRelPath) {
 }
 
 const files = [];
-const totals = { glossary: 0, question: 0, card: 0 };
+const totals = { glossary: 0, question: 0, card: 0, guide: 0 };
 
 for (const { dir, type } of TARGETS) {
   const full = join(contentDir, dir);
@@ -72,4 +73,4 @@ const manifest = {
 };
 
 writeFileSync(join(contentDir, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-console.log(`✓ Wrote content/manifest.json — ${files.length} files, ${totals.glossary} terms / ${totals.question} questions / ${totals.card} cards.`);
+console.log(`✓ Wrote content/manifest.json — ${files.length} files, ${totals.glossary} terms / ${totals.question} questions / ${totals.card} cards / ${totals.guide} guides.`);

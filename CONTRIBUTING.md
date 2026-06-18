@@ -44,6 +44,12 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 
 ### Cards (`schema/deck.schema.json`)
 - Only for non-glossary content (formulas, mnemonics). `front` is the prompt, `back` the answer.
+- Multi-line backs: use `\n` for line breaks; put a formula on the first line (with `=`) and it renders in monospace.
+
+### Guides (`schema/guide.schema.json`)
+- Read-and-absorb notes (mindset, agile, exam strategy), keyed by `title`. **Text only — no images.**
+- Each `sections` entry has a `heading`, a `body`, and an optional `tip`. In `body`, a blank line starts a paragraph and `- ` lines become bullets.
+- Write original wording in your own voice; keep it current to the ECO-based exam.
 
 ## Validate before you PR
 

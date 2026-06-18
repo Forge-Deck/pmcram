@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "The Agile Mindset",
+    "category": "Agile",
+    "summary": "Agile is a mindset, not a methodology. Around half the PMP exam is agile or hybrid, so you apply these ideas to scenarios rather than reciting them.",
+    "sections": [
+      {
+        "heading": "What agile really is",
+        "body": "Agile means delivering value early and often in small increments, inspecting and adapting as you go, embracing change, and trusting an empowered, self-organising team. The goal is working outcomes and fast feedback, not a perfect up-front plan.",
+        "tip": "In agile scenarios, favour small increments, fast feedback, and team-driven decisions over big up-front planning."
+      },
+      {
+        "heading": "The four values",
+        "body": "Value the items on the left more highly, without throwing away the ones on the right:\n\n- Individuals and interactions over processes and tools\n- A working product over comprehensive documentation\n- Customer collaboration over contract negotiation\n- Responding to change over following a plan",
+        "tip": "When two options conflict, lean to the left of these pairs — collaboration and adaptation over rigidity."
+      },
+      {
+        "heading": "How the team works",
+        "body": "Agile teams are cross-functional and self-organising: they pull work and decide how to do it. The Scrum Master or agile project manager is a servant leader who facilitates and clears impediments rather than assigning tasks. The Product Owner owns the backlog and its priorities.",
+        "tip": "Let the team self-organise; the PM/Scrum Master facilitates and removes blockers instead of directing the work."
+      },
+      {
+        "heading": "Change and priorities",
+        "body": "Change is welcome, even late. New requests go to the product backlog, and the Product Owner reprioritises. Protect the focus of the current iteration, but adapt freely in the next one.",
+        "tip": "Mid-iteration change? Review it with the team and Product Owner and schedule it via the backlog — don't derail the active sprint or refuse outright."
+      },
+      {
+        "heading": "On the exam",
+        "body": "You will not be asked to recite the manifesto — you apply it to situations. Many questions are hybrid, mixing predictive and agile, so identify the approach before choosing an action.",
+        "tip": "Work out whether the scenario is predictive, agile, or hybrid first — the best action differs for each."
+      }
+    ],
+    "tags": ["agile", "hybrid", "exam"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

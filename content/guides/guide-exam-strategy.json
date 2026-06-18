@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Answering Tricky PMP Questions",
+    "category": "Exam strategy",
+    "summary": "Most PMP questions are scenarios with several plausible answers. A repeatable method makes the 'best' choice clearer.",
+    "sections": [
+      {
+        "heading": "Situational questions",
+        "body": "A scenario asks for the best action and every option looks reasonable. Read for three things: the project phase, the real underlying problem, and who is involved. Then choose the response a strong project manager would take.",
+        "tip": "Pick the response that is proactive, collaborative, and within the PM's authority."
+      },
+      {
+        "heading": "'What should you do first / next?'",
+        "body": "These test sequence. The usual order is: understand and analyse the situation, communicate with the team or stakeholders, review or update the plan, and only then act. Documenting and investigating almost always come before acting or escalating.",
+        "tip": "First steps are usually investigate, gather information, or review the plan — rarely 'escalate' or 'implement now'."
+      },
+      {
+        "heading": "Eliminate down to two",
+        "body": "Cross out the obvious losers first:\n\n- Extreme actions — fire someone, ignore it, blindly comply, go straight to the sponsor.\n- Options that take you out of the loop or abdicate responsibility.\n\nYou are usually left with two reasonable answers; choose the more proactive, value- and people-focused one.",
+        "tip": "Delete anything reactive, extreme, or that hands off the PM's responsibility — then decide between what remains."
+      },
+      {
+        "heading": "Read for predictive vs agile cues",
+        "body": "The wording tells you which approach applies. Baseline, change control board, and WBS point to predictive. Sprint, backlog, iteration, and Product Owner point to agile. A mix means hybrid. The best answer matches the approach in the scenario.",
+        "tip": "Match your answer to the implied approach — an agile fix to a predictive question (or vice versa) is usually wrong."
+      }
+    ],
+    "tags": ["exam", "strategy"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

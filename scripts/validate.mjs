@@ -24,6 +24,7 @@ const validators = {
   glossary: ajv.compile(readJson(join(schemaDir, 'glossary.schema.json'))),
   question: ajv.compile(readJson(join(schemaDir, 'question.schema.json'))),
   card: ajv.compile(readJson(join(schemaDir, 'deck.schema.json'))),
+  guide: ajv.compile(readJson(join(schemaDir, 'guide.schema.json'))),
 };
 
 /** folder → record type */
@@ -31,6 +32,7 @@ const TARGETS = [
   { dir: 'glossary', type: 'glossary' },
   { dir: 'questions', type: 'question' },
   { dir: 'decks', type: 'card' },
+  { dir: 'guides', type: 'guide' },
 ];
 
 const errors = [];
@@ -53,6 +55,7 @@ function checkQuestion(rec, file, i) {
 // Duplicate-key detection across the whole repo.
 const seenIds = new Map();
 const seenTerms = new Map();
+const seenTitles = new Map();
 
 let fileCount = 0;
 let recordCount = 0;
@@ -97,6 +100,10 @@ for (const { dir, type } of TARGETS) {
         const key = rec.Term.toLowerCase();
         if (seenTerms.has(key)) errors.push(`${file} [${i}]: duplicate Term "${rec.Term}" (also in ${seenTerms.get(key)}).`);
         else seenTerms.set(key, file);
+      } else if (type === 'guide' && rec.title) {
+        const key = rec.title.toLowerCase();
+        if (seenTitles.has(key)) errors.push(`${file} [${i}]: duplicate guide title "${rec.title}" (also in ${seenTitles.get(key)}).`);
+        else seenTitles.set(key, file);
       }
     });
   }

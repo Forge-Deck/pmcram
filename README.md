@@ -25,6 +25,7 @@ content/
   glossary/        # glossary terms — these double as flashcards
   questions/       # practice / exam questions (dynamically assembled)
   decks/           # OPTIONAL standalone flashcards (formulas, mnemonics)
+  guides/          # OPTIONAL read-and-absorb study guides (mindset, agile, strategy)
   schema/          # JSON Schemas used by CI + contributors to validate
     question.schema.json
     glossary.schema.json
@@ -79,6 +80,24 @@ Only for content that isn't a glossary term (formulas, mnemonics). Follow `schem
 renders as four lines. **Formula convention:** put the formula on the **first line** and include an `=`; the app shows that first line in monospace so it reads as a formula, with the explanation lines beneath it. (Use `\n\n` if you want a blank line between paragraphs.)
 
 ---
+
+### Study guides (`guides/`)
+Read-and-absorb material that isn't recall-tested — mindset, agile, exam strategy. Follow `schema/guide.schema.json`. A guide has a `title` (its natural key), a `category`, and an array of `sections`, each with a `heading`, a `body`, and an optional `tip` (shown as a highlighted exam-tip callout). **Text only — no images.**
+
+Body formatting is deliberately simple (no markdown): a **blank line** starts a new paragraph, and lines beginning with `- ` render as a bullet list.
+
+```jsonc
+{
+  "title": "The PMP Mindset",
+  "category": "Mindset",
+  "summary": "How PMI expects a project manager to think.",
+  "sections": [
+    { "heading": "Assess before you act",
+      "body": "Gather the facts and review the plan before deciding.\n\n- Don't react\n- Investigate first",
+      "tip": "The first step is usually to investigate, not to act or escalate." }
+  ]
+}
+```
 
 ## Append-only model
 

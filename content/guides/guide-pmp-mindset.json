@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "The PMP Mindset",
+    "category": "Mindset",
+    "summary": "How PMI expects a project manager to think. When several answers look right, the option that fits this mindset is usually the one.",
+    "sections": [
+      {
+        "heading": "Serve and lead the team",
+        "body": "A PMP-minded project manager leads by serving. You remove blockers, provide what the team needs, coach people, and build their skills rather than directing every task. You protect the team, encourage collaboration, and create an environment where people feel safe to raise problems.\n\nYou do not punish, threaten, or quietly remove people. If someone struggles, you understand why and help them improve — training, mentoring, or pairing them with a stronger team member.",
+        "tip": "Favour options that support, coach, or empower the team over options that direct, control, or remove people."
+      },
+      {
+        "heading": "Assess before you act",
+        "body": "Do not react to a scenario. Gather the facts, review the relevant plan or log, understand the impact, and only then decide. Calm, informed analysis beats a quick reaction almost every time.",
+        "tip": "When unsure, the first step is usually to investigate, analyse, or review the plan — not to act or escalate immediately."
+      },
+      {
+        "heading": "Be proactive",
+        "body": "Anticipate and prevent problems instead of firefighting them. Plan ahead, identify risks early, deal with small issues before they grow, and use root-cause analysis to fix the real problem rather than the symptom.",
+        "tip": "Prefer preventing a problem over reacting to one, and root-cause analysis over a quick patch."
+      },
+      {
+        "heading": "Engage stakeholders and communicate",
+        "body": "Know who your stakeholders are, understand what they need, and communicate continuously throughout the project. For conflict or anything sensitive, talk to people directly — a conversation usually beats an email.",
+        "tip": "Talk to the people involved directly before escalating, and prefer direct conversation over email for conflict."
+      },
+      {
+        "heading": "Handle change the right way",
+        "body": "Never implement an uncontrolled change, and never simply refuse one.\n\n- Predictive: run it through integrated change control — assess the impact, get approval, then update the baselines.\n- Agile: welcome the change, add it to the product backlog, and let the Product Owner reprioritise.",
+        "tip": "Predictive: assess impact and use change control. Agile: welcome it into the backlog. Never silently implement or flatly reject."
+      },
+      {
+        "heading": "Escalate last, avoid extremes",
+        "body": "You own the problem. Do what a project manager can reasonably do first — investigate, communicate, replan — and escalate to the sponsor or management only when it is genuinely beyond your authority. Treat extreme options (firing someone, ignoring the issue, blindly obeying, going straight to the sponsor) as almost always wrong.",
+        "tip": "Eliminate extreme or do-nothing options; escalate only after you have done what a PM can do."
+      }
+    ],
+    "tags": ["mindset", "exam"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]
