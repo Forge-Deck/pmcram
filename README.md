@@ -14,7 +14,7 @@ Glossary terms, flashcards, and practice questions for the **PM Cram: PMP Prep**
 
 Because the app merges *all* files, **content is added by dropping in new files — not by editing big ones.** See [Append-only model](#append-only-model).
 
-> The app points at this repo via `DEFAULT_CONFIG` in `src/content/sync.ts` (`owner` / `repo` / `branch`). If you host it somewhere other than `pmcram/content` on `main`, update those three values.
+> The app points at this repo via `DEFAULT_CONFIG` in `src/content/sync.ts` — currently `owner: Forge-Deck`, `repo: pmcram`, `branch: main`. If you move it, update those three values.
 
 ---
 
