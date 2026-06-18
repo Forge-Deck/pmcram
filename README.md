@@ -102,4 +102,14 @@ CI runs `npm run validate` on every pull request and push; the manifest is regen
 
 ## Licensing
 
-Study content here is contributed for open, independent PMP revision. Keep all wording original; cite PMI standards but never reproduce copyrighted text. (Add your chosen content license here, e.g. CC BY-SA 4.0, before accepting outside contributions.)
+The study content in this repository, including glossary terms, practice questions, and flashcard deck content under `content/`, is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+This license applies only to the open study content in this repository. It does not apply to the PM Cram app source code, app design, user interface, trademarks, branding, commercial services, or any private application infrastructure.
+
+Repository scripts, schemas, and workflow files are licensed separately under the MIT License unless stated otherwise.
+
+All contributed study content must be original wording. PMI references may be cited for study purposes, but PMI copyrighted text must not be copied or reproduced.
+
+## Contribution licensing
+
+By submitting content to this repository, you agree that your contribution is licensed under CC BY 4.0 and may be used, displayed, adapted, redistributed, and commercialised as part of the PM Cram app and related study services.
