@@ -1,0 +1,252 @@
+[
+  {
+    "id": "matrices-role-clarity-with-responsibility-assignments-01",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Role clarity with responsibility assignments",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is launching a cross-functional workstream and team members are confused about who approves deliverables, who performs the work, and who must be consulted before changes are made. Which matrix should the project manager create first?",
+      "A team needs a simple grid that clarifies who is responsible, accountable, consulted, and informed for each major deliverable. Which matrix best fits this task?"
+    ],
+    "correct": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "why": "This matrix directly maps work packages or deliverables to participation roles such as responsible, accountable, consulted, and informed. It is the best fit when the task is clarifying ownership and decision participation across people and work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that any project confusion is a risk analysis problem rather than a role-definition problem."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that deliverable ownership is the same as tracing requirements to outputs and verification."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that influence mapping can replace explicit assignment of execution and approval responsibilities."
+      },
+      {
+        "text": "Decision matrix",
+        "trap": "This reflects the misconception that choosing among alternatives will resolve unclear accountability for recurring work."
+      }
+    ],
+    "explanation": "The task asks for a matrix that defines who does the work, who approves it, and who must be consulted or informed. That is exactly the purpose of a RACI matrix, also called a responsibility assignment matrix. The other matrices serve different needs: risk prioritization, requirement traceability, stakeholder analysis, or alternative selection. Because the problem is role ambiguity around deliverables, the responsibility assignment matrix is the most appropriate tool.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Resource Management, Responsibility Assignment Matrix section",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Responsibility Assignment Matrix",
+      "Process Groups A Practice Guide, Develop Team and Manage Team discussion of roles and responsibilities artifacts"
+    ],
+    "tags": [
+      "matrices",
+      "role-clarity-with-responsibility-assignments"
+    ]
+  },
+  {
+    "id": "matrices-risk-prioritization-by-likelihood-and-consequence-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Risk prioritization by likelihood and consequence",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During risk planning, a team wants to classify identified risks so it can focus first on threats with both high likelihood and severe consequences. Which matrix should be used?",
+      "A risk workshop produces many threats and opportunities. The project manager needs a grid to interpret which risks deserve the most urgent response based on likelihood and consequence. Which matrix is best?"
+    ],
+    "correct": [
+      {
+        "text": "Probability-and-impact matrix",
+        "why": "This matrix is designed to assess and rank risks by combining estimated probability of occurrence with impact on project objectives. It supports qualitative risk analysis and helps determine priority for response planning."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that assigning owners alone is sufficient to prioritize risks."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that risks should be traced in the same way as requirements across deliverables and tests."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that influential stakeholders are the same thing as high-priority risks."
+      },
+      {
+        "text": "Prioritization or decision matrix",
+        "trap": "This reflects the misconception that generic weighted comparison is the standard tool for qualitative risk ranking by likelihood and impact."
+      }
+    ],
+    "explanation": "The scenario is explicitly about sorting risks by how likely they are and how much damage or benefit they could create. PMI describes the probability-and-impact matrix as the standard qualitative tool for this purpose. It helps the team interpret which risks need immediate attention. The other matrices may support ownership, traceability, stakeholder analysis, or general decision making, but none is as directly aligned to qualitative risk prioritization.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Risk Management, Perform Qualitative Risk Analysis, Probability and Impact Matrix",
+      "The Standard for Risk Management in Portfolios Programs and Projects, risk assessment and prioritization sections",
+      "Process Groups A Practice Guide, Project Risk Management domain guidance on qualitative analysis artifacts"
+    ],
+    "tags": [
+      "matrices",
+      "risk-prioritization-by-likelihood-and-consequence"
+    ]
+  },
+  {
+    "id": "matrices-tracing-requirements-through-delivery-and-validation-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Tracing requirements through delivery and validation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A product owner wants to show how each approved requirement connects to business objectives, solution components, test cases, and final acceptance. Which matrix should the team maintain?",
+      "The team keeps missing verification steps because requirements are not linked to design, build, and test artifacts. Which matrix best supports end-to-end tracing?"
+    ],
+    "correct": [
+      {
+        "text": "Requirements traceability matrix or RTM",
+        "why": "The RTM links each requirement to its source, related deliverables, verification activities, and acceptance evidence. It is the correct matrix when the need is end-to-end visibility from requirement definition through validation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that knowing who owns work automatically shows whether each requirement has been fulfilled and verified."
+      },
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that missed verification is mainly a risk ranking issue rather than a traceability issue."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that stakeholder influence mapping is enough to manage requirement alignment and test coverage."
+      },
+      {
+        "text": "Decision matrix",
+        "trap": "This reflects the misconception that selecting among alternatives is the same as maintaining requirement lineage across the life cycle."
+      }
+    ],
+    "explanation": "The requirement in this scenario is not to assign people or assess risks but to maintain visibility from approved requirements to design, build, test, and acceptance. The requirements traceability matrix is built for that exact purpose. It helps prevent missing work, scope gaps, and unverified requirements by preserving trace links across the project life cycle. The other matrices may be useful elsewhere, but they do not provide requirement lineage.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Scope Management, Collect Requirements, Requirements Traceability Matrix",
+      "Business Analysis for Practitioners A Practice Guide, requirements life cycle and traceability sections",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Traceability artifacts for requirements and deliverables"
+    ],
+    "tags": [
+      "matrices",
+      "tracing-requirements-through-delivery-and-validation"
+    ]
+  },
+  {
+    "id": "matrices-reading-the-stakeholder-power-interest-grid-04",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Reading the stakeholder power-interest grid",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor asks how to interpret a stakeholder grid where one regulator is high power and low interest. What engagement approach best matches that position on the grid?",
+      "A project manager plots stakeholders on a power-interest grid. One executive has strong authority but limited day-to-day interest. How should that stakeholder generally be managed?"
+    ],
+    "correct": [
+      {
+        "text": "Stakeholder power-interest grid, with the stakeholder generally kept satisfied",
+        "why": "In a power-interest grid, stakeholders with high power and lower immediate interest are typically managed by keeping them satisfied. The grid helps tailor engagement strategy based on influence and level of concern."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix, with the stakeholder marked accountable",
+        "trap": "This reflects the misconception that influential stakeholders must always hold formal accountability for deliverables."
+      },
+      {
+        "text": "Probability-and-impact matrix, because a powerful stakeholder is a high-impact risk",
+        "trap": "This reflects the misconception that stakeholder engagement planning should be replaced by risk scoring."
+      },
+      {
+        "text": "Requirements traceability matrix, because regulators should be linked to compliance requirements",
+        "trap": "This reflects the misconception that requirement mapping is the primary tool for deciding stakeholder engagement posture."
+      },
+      {
+        "text": "Decision matrix, because stakeholder attention should be weighted against cost and schedule",
+        "trap": "This reflects the misconception that stakeholder strategy is simply an alternative-selection exercise."
+      }
+    ],
+    "explanation": "The question is really about interpreting a stakeholder power-interest grid, not just naming it. PMI uses stakeholder mapping tools to understand who has authority and how engaged they are, then align communication and involvement accordingly. A stakeholder with high power but lower current interest is generally kept satisfied so the project maintains support without overloading that person with detail. The other choices confuse engagement analysis with role assignment, risk ranking, requirement tracing, or weighted decision making.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders, Power Interest Grid",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stakeholders performance domain and stakeholder analysis artifacts",
+      "Process Groups A Practice Guide, stakeholder identification and stakeholder engagement planning sections"
+    ],
+    "tags": [
+      "matrices",
+      "reading-the-stakeholder-power-interest-grid"
+    ]
+  },
+  {
+    "id": "matrices-weighted-comparison-of-alternatives-05",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Weighted comparison of alternatives",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team must choose one vendor from several options using weighted criteria such as technical fit, implementation speed, support model, and total value. Which matrix best supports this selection?",
+      "A project manager needs a structured way to compare alternatives against multiple criteria and assign scores before making a recommendation. Which matrix is most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Prioritization or decision matrix",
+        "why": "A decision matrix supports evaluation of alternatives against defined criteria, often with weights and scores. It is the best fit when the task is selecting among options based on multiple factors."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that assigning ownership for selection work also determines which option is best."
+      },
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that option evaluation should primarily be framed as risk severity rather than weighted decision criteria."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that tracing requirements to vendors automatically provides a balanced selection decision."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that the most influential stakeholders should determine the choice without structured criteria analysis."
+      }
+    ],
+    "explanation": "When a team needs to compare alternatives across several criteria, the appropriate tool is a prioritization or decision matrix. It creates transparency in how options are evaluated and helps reduce bias by using agreed criteria and relative weighting. The other matrices answer different questions: role assignment, risk exposure, requirement linkage, or stakeholder engagement. None of those directly provides a structured multi-criteria selection method.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Decision Matrix",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Data Analysis tools including alternatives analysis and prioritization techniques",
+      "Business Analysis for Practitioners A Practice Guide, decision analysis and option evaluation sections"
+    ],
+    "tags": [
+      "matrices",
+      "weighted-comparison-of-alternatives"
+    ]
+  }
+]

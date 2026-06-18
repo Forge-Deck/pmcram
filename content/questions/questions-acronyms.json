@@ -1,0 +1,256 @@
+[
+  {
+    "id": "acronyms-wbs-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "PMP Terminology",
+    "topic": "Acronyms & Abbreviations",
+    "subtopic": "WBS",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "What does WBS stand for in project management, and what is it primarily used for?",
+      "In PMP context, which option correctly expands WBS and explains its purpose?"
+    ],
+    "correct": [
+      {
+        "text": "Work Breakdown Structure; it decomposes project scope into smaller deliverable-oriented components for planning and control",
+        "why": "This is the PMI-standard meaning of WBS. It is a hierarchical decomposition of the total scope of work to accomplish the project objectives and create the required deliverables."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Work Backlog Schedule; it sequences pending work items into timeboxes",
+        "trap": "Confuses predictive scope decomposition with agile backlog scheduling."
+      },
+      {
+        "text": "Workflow Breakdown System; it maps operational process steps across departments",
+        "trap": "Mistakes process mapping for project scope decomposition."
+      },
+      {
+        "text": "Weighted Business Score; it ranks features by expected value",
+        "trap": "Confuses prioritization scoring with scope definition."
+      },
+      {
+        "text": "Work Breakdown Schedule; it is the approved timeline baseline for activities",
+        "trap": "Blends WBS with schedule baseline and activity sequencing."
+      }
+    ],
+    "explanation": "WBS means Work Breakdown Structure and is used to break project scope into manageable components based on deliverables. A common confusion is to treat it as a schedule, workflow map, or backlog tool, but PMI defines it as a scope structuring mechanism that supports estimating, assigning work, and controlling scope.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Project Work Performance Domain, decomposition and deliverable-based planning discussion",
+      "PMBOK Guide Sixth Edition, Section 5.4 Create WBS",
+      "Practice Standard for Work Breakdown Structures, Third Edition, Sections 1 through 3"
+    ],
+    "tags": [
+      "acronyms",
+      "wbs"
+    ]
+  },
+  {
+    "id": "acronyms-raci-matrix-02",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "PMP Terminology",
+    "topic": "Acronyms & Abbreviations",
+    "subtopic": "RACI matrix",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which statement best describes a RACI matrix?",
+      "In project management, what is RACI used for?"
+    ],
+    "correct": [
+      {
+        "text": "A responsibility assignment matrix that clarifies who is Responsible, Accountable, Consulted, and Informed for work or decisions",
+        "why": "RACI is used to define roles and participation levels so stakeholders understand execution and decision responsibilities."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A risk model that classifies issues as Recorded, Assessed, Controlled, and Insured",
+        "trap": "Confuses role clarity with risk management terminology."
+      },
+      {
+        "text": "A change control workflow meaning Review, Approve, Confirm, and Implement",
+        "trap": "Mistakes governance steps for role assignment."
+      },
+      {
+        "text": "A communications plan meaning Receive, Acknowledge, Communicate, and Inform",
+        "trap": "Assumes the acronym belongs to communication routing rather than accountability mapping."
+      },
+      {
+        "text": "A vendor evaluation tool meaning Rate, Analyze, Compare, and Integrate",
+        "trap": "Confuses procurement analysis with team responsibility definition."
+      }
+    ],
+    "explanation": "RACI is a common form of responsibility assignment matrix. Its purpose is to reduce ambiguity about ownership, decision authority, consultation, and communication. The most frequent misconception is treating RACI as a process flow or approval sequence instead of a role-clarification tool that supports stakeholder engagement and team coordination.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 9.1 Plan Resource Management, responsibility assignment matrix",
+      "PMBOK Guide Seventh Edition, Team Performance Domain, role clarity and accountability concepts",
+      "PMP Examination Content Outline, People domain, team roles and stakeholder engagement responsibilities"
+    ],
+    "tags": [
+      "acronyms",
+      "raci-matrix"
+    ]
+  },
+  {
+    "id": "acronyms-evm-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "PMP Terminology",
+    "topic": "Acronyms & Abbreviations",
+    "subtopic": "EVM",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which option correctly explains EVM?",
+      "In PMP terms, what is Earned Value Management used for?"
+    ],
+    "correct": [
+      {
+        "text": "Earned Value Management; a method that integrates scope, schedule, and cost data to assess project performance and forecast outcomes",
+        "why": "PMI defines EVM as a performance measurement approach that compares planned value, earned value, and actual cost."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Estimated Value Modeling; a technique for predicting product market value before initiation",
+        "trap": "Confuses project performance control with business valuation."
+      },
+      {
+        "text": "Economic Value Method; a procurement approach for selecting the lowest-cost qualified seller",
+        "trap": "Mistakes integrated performance measurement for procurement selection."
+      },
+      {
+        "text": "Earned Volume Metric; an agile measure of throughput completed per sprint",
+        "trap": "Blends EVM with agile velocity-style metrics."
+      },
+      {
+        "text": "Expected Variance Management; a risk technique for quantifying uncertainty ranges",
+        "trap": "Confuses cost and schedule control with statistical risk analysis."
+      }
+    ],
+    "explanation": "EVM stands for Earned Value Management and is used to measure project performance by integrating scope, schedule, and cost. It supports variance analysis and forecasting such as estimate at completion. Learners often confuse it with estimation, valuation, or agile throughput metrics, but PMI treats it as a formal project performance measurement method.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 7.4 Control Costs, earned value analysis",
+      "PMBOK Guide Sixth Edition, Section 6.6 Control Schedule, schedule performance measurements",
+      "PMBOK Guide Seventh Edition, Measurement Performance Domain, performance metrics and forecasting concepts"
+    ],
+    "tags": [
+      "acronyms",
+      "evm"
+    ]
+  },
+  {
+    "id": "acronyms-sow-and-rfp-04",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "PMP Terminology",
+    "topic": "Acronyms & Abbreviations",
+    "subtopic": "SOW and RFP",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "Select the acronyms that are formal procurement documents used to define need or solicit seller responses.",
+      "Which of the following are procurement-related artifacts rather than governance boards, estimates, or performance indicators?"
+    ],
+    "correct": [
+      {
+        "text": "SOW; Statement of Work that describes the products, services, or results to be delivered",
+        "why": "A SOW communicates the procurement need and defines the work to be performed or deliverables required."
+      },
+      {
+        "text": "RFP; Request for Proposal used to invite sellers to propose how they will meet project or procurement requirements",
+        "why": "An RFP is a bidder conference and solicitation document used when the buyer seeks proposed solutions from sellers."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ROM estimate; a detailed committed vendor quote used for contract award",
+        "trap": "Confuses rough order of magnitude estimating with a procurement solicitation or binding quotation."
+      },
+      {
+        "text": "CCB; a seller negotiation team that responds to proposal requests",
+        "trap": "Misidentifies the Change Control Board as a procurement body."
+      },
+      {
+        "text": "KPI; the contract clause that specifies acceptance criteria",
+        "trap": "Confuses performance metrics with procurement statement language."
+      },
+      {
+        "text": "RAID log; a formal bid package sent to prospective suppliers",
+        "trap": "Mistakes an internal tracking log for a procurement document."
+      }
+    ],
+    "explanation": "SOW and RFP are both procurement-related artifacts, but they serve different purposes. A SOW defines the work, deliverables, or service expectations, while an RFP solicits proposed seller solutions. The common traps are to confuse estimating artifacts, governance groups, or monitoring tools with procurement documentation.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 12.1 Plan Procurement Management, procurement statement of work",
+      "PMBOK Guide Sixth Edition, Section 12.2 Conduct Procurements, bid documents including requests for proposal",
+      "PMBOK Guide Seventh Edition, Delivery Performance Domain, procurement and external partnership considerations"
+    ],
+    "tags": [
+      "acronyms",
+      "sow-and-rfp"
+    ]
+  },
+  {
+    "id": "acronyms-ccb-05",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "PMP Terminology",
+    "topic": "Acronyms & Abbreviations",
+    "subtopic": "CCB",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "What is the primary role of a CCB in project management?",
+      "Which option best defines CCB and its purpose on a project?"
+    ],
+    "correct": [
+      {
+        "text": "Change Control Board; a formally chartered group that reviews, evaluates, approves, delays, or rejects change requests",
+        "why": "PMI uses CCB to describe the body responsible for governing changes to baselines and controlled project components."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Cost Control Baseline; the approved spending plan against which actual cost is measured",
+        "trap": "Confuses a governance body with a cost baseline artifact."
+      },
+      {
+        "text": "Configuration Change Budget; reserve funding held for design updates",
+        "trap": "Mistakes change governance for contingency budgeting."
+      },
+      {
+        "text": "Customer Coordination Board; a stakeholder group that prioritizes product features each sprint",
+        "trap": "Blends formal integrated change control with agile backlog refinement."
+      },
+      {
+        "text": "Control Communications Board; the team that approves external status reports",
+        "trap": "Invents a communication governance meaning because CCB sounds administrative."
+      }
+    ],
+    "explanation": "CCB stands for Change Control Board. Its function is governance over change requests, especially in integrated change control. The key confusion is with baselines, budgets, or customer review groups. PMI distinguishes the CCB as a decision-making body, not a document, reserve, or general coordination forum.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "PMBOK Guide Sixth Edition, Glossary, Change Control Board",
+      "PMBOK Guide Seventh Edition, Uncertainty and Measurement performance discussions related to change governance"
+    ],
+    "tags": [
+      "acronyms",
+      "ccb"
+    ]
+  }
+]

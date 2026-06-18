@@ -1,0 +1,416 @@
+[
+  {
+    "Term": "Backlog",
+    "Core Meaning": "An evolving, ordered list of work to be done.",
+    "Depth": "Standard",
+    "Expansion": "A backlog captures potential work items, often expressed as features, requirements, user stories, defects, or tasks, and keeps them visible in one place. It is prioritised and refined over time so the team can focus on the most valuable work next. In adaptive delivery, it supports progressive elaboration by allowing detail and priority to change as learning increases.",
+    "Deep Dive": null,
+    "Contrast": "Schedule — a backlog is a prioritised inventory of possible and planned work; a schedule maps activities and dates over time.",
+    "Example": "A product team maintains a release backlog of customer-reported enhancements, ranks them by business value, and pulls the highest-priority items into the next iteration.",
+    "Related Terms": [
+      "User story",
+      "Iteration",
+      "Increment",
+      "Prioritization",
+      "Adaptive approach"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide, Glossary, backlog"
+  },
+  {
+    "Term": "Baseline",
+    "Core Meaning": "An approved version of a work product that serves as the basis for comparison to actual results.",
+    "Depth": "Foundational",
+    "Expansion": "A baseline is the formally accepted reference point against which project performance or change is measured. In practice, projects commonly establish scope, schedule, and cost baselines once planning reaches an approved level of detail. Because it is controlled through change management, it helps distinguish planned performance from approved change and from unplanned variance.",
+    "Deep Dive": "What it is: A baseline is the authorised snapshot of a plan or project artifact at a point in time. It becomes the reference used to assess progress, variance, and the effect of change.\n\nWhy it matters and where it applies: without a baseline, a team has no stable point of comparison for performance reporting or control. Baselines are central in predictive planning and governance, especially for scope, schedule, and cost management, but the same logic can apply to other controlled artifacts.\n\nThe most common misconception: that a baseline is simply the latest version of a plan. It is not just the most recent draft; it is the approved reference version, and changing it normally requires formal change control.\n\nHow it shows up in real projects: a project approves its schedule baseline at the end of planning, then later reports that a key milestone has slipped by two weeks relative to that baseline after a supplier delay.",
+    "Contrast": "Forecast — a baseline is the approved reference plan; a forecast is the current prediction of future performance based on actual conditions.",
+    "Example": "A construction project approves a cost baseline during planning and later compares actual expenditures each month to identify cost variance and evaluate change requests.",
+    "Related Terms": [
+      "Cost baseline",
+      "Schedule baseline",
+      "Scope baseline",
+      "Variance",
+      "Change control"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, baseline"
+  },
+  {
+    "Term": "Benefit",
+    "Core Meaning": "A gain, value, or other positive effect realized from an outcome, capability, or result.",
+    "Depth": "Foundational",
+    "Expansion": "A benefit is the measurable or observable value that justifies undertaking or sustaining change. PMI treats benefits as outcomes to be realized, sustained, and evaluated rather than assuming delivery alone creates value. They can be financial or nonfinancial and often connect projects to programs, portfolios, and strategy through benefits realization management.",
+    "Deep Dive": "What it is: A benefit is the advantageous result an organization or stakeholder receives from a delivered capability, product, service, or outcome. It is about realized value, not merely completed work.\n\nWhy it matters and where it applies: projects exist to enable outcomes that matter to the organization, so benefits connect execution to strategy. They are especially important in business cases, program management, portfolio decisions, and post-implementation evaluation.\n\nThe most common misconception: that delivering the project output automatically means the benefit has been achieved. In reality, benefits often depend on adoption, operational change, timing, and sustained use after the project deliverable is complete.\n\nHow it shows up in real projects: an automation project delivers a new workflow platform, but the real benefit is the later reduction in cycle time and error rates once staff adopt the new process.",
+    "Contrast": "Output — an output is the delivered product, service, or result; a benefit is the value gained from using or applying that output.",
+    "Example": "A hospital implements online appointment scheduling, and the benefit is shorter patient wait times and fewer missed appointments after adoption increases.",
+    "Related Terms": [
+      "Benefits realization",
+      "Outcome",
+      "Value",
+      "Business case",
+      "Program management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The Standard for Program Management, Glossary, benefit"
+  },
+  {
+    "Term": "Business case",
+    "Core Meaning": "A documented justification for initiating a project, program, or other investment based on expected value, costs, risks, and alignment to strategy.",
+    "Depth": "Foundational",
+    "Expansion": "A business case explains why an initiative should be undertaken by comparing the expected benefits with the required investment, major risks, and available alternatives. It supports decision making before significant resources are committed and often informs prioritisation in portfolios and governance reviews. While it may be updated over time, its central purpose is to demonstrate that the proposed work is worth doing and strategically aligned.",
+    "Deep Dive": "What it is: A business case is the rationale for investment in proposed work. It brings together the problem or opportunity, options, expected benefits, assumptions, costs, and risks into a decision-oriented argument.\n\nWhy it matters and where it applies: organizations use business cases to choose where to invest limited funds and attention. It is especially relevant at initiation, stage-gate review, portfolio selection, and whenever leaders need to test whether expected value still justifies continued effort.\n\nThe most common misconception: that the business case is just a financial spreadsheet. Financials matter, but a sound business case also addresses strategic fit, qualitative benefits, assumptions, dependencies, and the consequences of doing nothing.\n\nHow it shows up in real projects: before approving a CRM replacement project, leaders review a business case that compares vendor options, implementation cost, adoption risk, and expected gains in sales conversion and customer retention.",
+    "Contrast": "Project charter — a business case justifies why the initiative should be approved; a project charter formally authorizes the project and defines initial authority and direction.",
+    "Example": "A retailer proposes a warehouse modernisation project and uses a business case to show that faster fulfilment and lower picking errors justify the investment and transition risk.",
+    "Related Terms": [
+      "Project charter",
+      "Benefits realization",
+      "Strategic alignment",
+      "Portfolio",
+      "Cost-benefit analysis"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), business case"
+  },
+  {
+    "Term": "Brainstorming",
+    "Core Meaning": "An elicitation technique used in a group setting to quickly generate ideas on a specific topic.",
+    "Depth": "Standard",
+    "Expansion": "Brainstorming is a facilitated technique for producing a broad set of ideas in a short period of time. PMI discusses it especially in business analysis and stakeholder engagement contexts where teams need to surface options, requirements, risks, or causes quickly. Its value comes from divergence first and evaluation later, so participants can contribute without immediate filtering or debate.",
+    "Deep Dive": null,
+    "Contrast": "Workshop — brainstorming focuses on rapid idea generation; a workshop is a broader structured session that may include analysis, decisions, and planning.",
+    "Example": "During requirements elicitation for a new customer portal, the facilitator leads a brainstorming session with service agents and users to surface needed features and pain points.",
+    "Related Terms": [
+      "Elicitation",
+      "Workshop",
+      "Requirements",
+      "Facilitation",
+      "Stakeholder"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The PMI Guide to Business Analysis, Glossary, brainstorming"
+  },
+  {
+    "Term": "Budget",
+    "Core Meaning": "The approved estimate for the project, program, portfolio, or a component of that work.",
+    "Depth": "Foundational",
+    "Expansion": "A budget is the authorised amount of money allocated to perform defined work. PMI uses the term as the approved estimate, which means it is more than an early calculation and becomes part of the basis for monitoring and control. Budgets may exist at multiple levels, from the total project to control accounts, work packages, or activities, depending on how the work is managed.",
+    "Deep Dive": "What it is: A budget is the approved financial expression of planned work. It converts estimates into an authorised spending framework against which actual cost performance can be tracked.\n\nWhy it matters and where it applies: projects need a clear spending boundary to support funding decisions, control, and reporting. Budgeting is central in cost management and is used across predictive, hybrid, and governed adaptive environments whenever financial accountability matters.\n\nThe most common misconception: that a budget is just an estimate. An estimate predicts likely cost, while a budget is the approved amount used for authorisation and control.\n\nHow it shows up in real projects: a project manager rolls up labour, vendor, equipment, and contingency amounts into an approved project budget, then compares monthly actuals against that approved figure to identify variances and escalation needs.",
+    "Contrast": "Estimate — an estimate forecasts probable cost; a budget is the approved amount authorised for the work.",
+    "Example": "A data-center migration project receives an approved budget covering hardware, consulting support, testing, and cutover activities, and the team tracks actual spending against it each month.",
+    "Related Terms": [
+      "Cost baseline",
+      "Estimate",
+      "Actual cost",
+      "Cost variance",
+      "Budget at Completion"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, budget"
+  },
+  {
+    "Term": "Budget at Completion",
+    "Core Meaning": "The sum of all approved budgets established for the work to be performed.",
+    "Depth": "Standard",
+    "Expansion": "Budget at Completion, or BAC, is the total planned value of the project or control account when all authorised work is included. It is a key earned value management reference point because it represents the full approved budget for the scope. Teams use it with cost and schedule performance data to forecast likely final cost and assess performance trends.",
+    "Deep Dive": null,
+    "Contrast": "Estimate at Completion — Budget at Completion is the approved total planned budget; Estimate at Completion is the current forecast of what the total cost will actually be.",
+    "Example": "On an infrastructure upgrade, the team sets the BAC after finalising the cost baseline, then compares it with the running Estimate at Completion as performance data accumulates.",
+    "Related Terms": [
+      "Earned value management",
+      "Estimate at Completion",
+      "Cost baseline",
+      "Planned value",
+      "Control account"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, budget at completion"
+  },
+  {
+    "Term": "Business value",
+    "Core Meaning": "The net quantifiable benefit derived from a business endeavor, whether tangible, intangible, or both.",
+    "Depth": "Foundational",
+    "Expansion": "Business value expresses the worthwhile benefit an organisation expects or realizes from an initiative. PMI frames it as net benefit, which means it goes beyond output delivery and considers the meaningful gain created for the enterprise or stakeholders. It can include financial return, strategic positioning, customer impact, capability improvement, compliance, or risk reduction, provided the benefit is tied to the endeavor.",
+    "Deep Dive": "What it is: Business value is the beneficial result an organization gains from work once costs and effort are considered. It links initiatives to meaningful outcomes rather than treating completion alone as success.\n\nWhy it matters and where it applies: project, program, and portfolio decisions are stronger when they are guided by expected value instead of activity volume. The concept is especially important in selection, prioritisation, benefits realization, and performance evaluation.\n\nThe most common misconception: that business value always means short-term financial profit. In practice it may also include strategic fit, customer retention, resilience, compliance, or capability gains that matter even when direct revenue is not immediate.\n\nHow it shows up in real projects: an organization approves a cybersecurity initiative not because it creates a sellable product, but because it reduces exposure, supports compliance, and protects customer trust, all of which contribute to business value.",
+    "Contrast": "Benefit — a benefit is a specific positive effect or gain; business value is the net beneficial worth derived from the endeavor as a whole.",
+    "Example": "A manufacturer funds predictive-maintenance software because the business value includes less downtime, lower repair cost, and more reliable customer delivery performance.",
+    "Related Terms": [
+      "Benefit",
+      "Benefits realization",
+      "Strategic alignment",
+      "Value",
+      "Portfolio management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, business value"
+  },
+  {
+    "Term": "Benefits realization",
+    "Core Meaning": "The process of ensuring that planned benefits are identified, executed, sustained, and measured from an initiative.",
+    "Depth": "Foundational",
+    "Expansion": "Benefits realization is the disciplined management of intended value from a project, program, or portfolio investment. PMI treats it as more than tracking outputs, because value often emerges only when outcomes are adopted and sustained in operations. It links strategy to execution by defining expected benefits, assigning ownership, measuring achievement, and adjusting actions when benefits are at risk.",
+    "Deep Dive": "What it is: Benefits realization is the structured work of turning delivered capabilities into actual value. It includes defining benefits early, planning how they will be achieved, monitoring them over time, and confirming whether they materialize.\n\nWhy it matters and where it applies: organizations invest in change to create value, not merely to finish deliverables. Benefits realization is especially important in programs, portfolios, and strategy-driven projects where long-term outcomes depend on adoption, transition, and sustained use.\n\nThe most common misconception: that benefits are fully achieved when the project closes. In reality, many benefits emerge after handoff to operations and require ownership, change management, and measurement beyond the delivery phase.\n\nHow it shows up in real projects: a digital-transformation program tracks not only system deployment, but also customer adoption, process-cycle reduction, and revenue uplift for months after implementation to confirm the intended benefits are being achieved.",
+    "Contrast": "Benefit — a benefit is a specific positive effect or gain; benefits realization is the ongoing process of making sure those gains actually occur and are sustained.",
+    "Example": "A claims-automation initiative delivers new software, then monitors processing speed and rework rates over two quarters to verify the promised operational improvement has been realized.",
+    "Related Terms": [
+      "Benefit",
+      "Business value",
+      "Outcome",
+      "Program management",
+      "Strategic alignment"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The Standard for Program Management, Glossary, benefits realization"
+  },
+  {
+    "Term": "Benefits management plan",
+    "Core Meaning": "The documented explanation of how and when project benefits will be delivered and measured.",
+    "Depth": "Standard",
+    "Expansion": "A benefits management plan describes the target benefits of an initiative, how they will be measured, when they are expected, and who is responsible for realizing them. PMI uses it to connect the project to strategic value beyond simple delivery of outputs. It is particularly useful where benefits depend on adoption, transition activities, or post-project operational change.",
+    "Deep Dive": null,
+    "Contrast": "Business case — a business case justifies why the initiative should be undertaken; a benefits management plan explains how intended benefits will be delivered and measured over time.",
+    "Example": "For a customer-service platform project, the team documents expected reductions in response time, defines the KPIs, assigns operational owners, and sets the review timeline in the benefits management plan.",
+    "Related Terms": [
+      "Benefits realization",
+      "Business case",
+      "Benefit",
+      "Outcome",
+      "Value delivery"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), benefits management plan"
+  },
+  {
+    "Term": "Burndown chart",
+    "Core Meaning": "A graphical representation of the work remaining versus the time left in an iteration, release, or project.",
+    "Depth": "Standard",
+    "Expansion": "A burndown chart visualizes how much work remains over time so a team can quickly see whether progress is tracking toward completion. It is commonly used in adaptive delivery settings such as iterations or releases to support transparency and short-cycle control. The chart is useful because it highlights pace, trend, and potential slippage without requiring a complex status narrative.",
+    "Deep Dive": null,
+    "Contrast": "Burnup chart — a burndown chart shows remaining work decreasing over time; a burnup chart shows completed work increasing and can also make scope growth more visible.",
+    "Example": "A Scrum team tracks remaining story points each day of a two-week sprint on a burndown chart to see whether the sprint goal is still achievable.",
+    "Related Terms": [
+      "Burnup chart",
+      "Iteration",
+      "Velocity",
+      "Sprint backlog",
+      "Information radiator"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide, Glossary, burndown chart"
+  },
+  {
+    "Term": "Burnup chart",
+    "Core Meaning": "A graphical representation of work completed over time compared with the total scope.",
+    "Depth": "Standard",
+    "Expansion": "A burnup chart shows cumulative completed work rising over time against a line representing total scope. PMI highlights it as a simple visual tool for tracking progress in adaptive environments because it makes both delivery and scope change easier to see. This helps teams and stakeholders distinguish slow progress from expanding scope, which can be harder to interpret on a burndown chart alone.",
+    "Deep Dive": null,
+    "Contrast": "Burndown chart — a burnup chart emphasizes completed work and visibility of scope growth; a burndown chart emphasizes remaining work declining over time.",
+    "Example": "A product team uses a burnup chart during a release to show completed features increasing while also revealing that added scope is pushing the target line upward.",
+    "Related Terms": [
+      "Burndown chart",
+      "Iteration",
+      "Release planning",
+      "Scope",
+      "Information radiator"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide, Glossary, burnup chart"
+  },
+  {
+    "Term": "Bottom-up estimating",
+    "Core Meaning": "A method of estimating duration or cost by aggregating estimates from the lowest-level components of the work breakdown structure.",
+    "Depth": "Standard",
+    "Expansion": "Bottom-up estimating starts with detailed estimates for individual work packages or activities and rolls them up to produce a higher-level total. PMI presents it as a more detailed estimating approach than top-down methods because it is built from the work itself rather than from broad analogies. It is useful when the scope is sufficiently defined and the team needs a more defensible estimate for planning and control.",
+    "Deep Dive": null,
+    "Contrast": "Analogous estimating — bottom-up estimating builds from detailed components; analogous estimating derives a figure from similar past work at a higher level.",
+    "Example": "A software team estimates each feature, integration task, and test activity separately, then sums the results to produce the release estimate.",
+    "Related Terms": [
+      "Work breakdown structure",
+      "Analogous estimating",
+      "Parametric estimating",
+      "Estimate",
+      "Planning"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, bottom-up estimating"
+  },
+  {
+    "Term": "Brain-netting",
+    "Core Meaning": "A variation of brainstorming in which participants generate ideas individually and share them electronically.",
+    "Depth": "Atomic",
+    "Expansion": "Brain-netting is used when a group wants the benefits of idea generation without requiring everyone to be in the same room at the same time. It can reduce dominance effects and allow quieter participants to contribute more freely.",
+    "Deep Dive": null,
+    "Contrast": "Brainstorming — brain-netting is typically asynchronous and electronic; brainstorming is usually a live group session led by a facilitator.",
+    "Example": "A distributed project team uses a shared online board to collect risks and improvement ideas before a planning workshop.",
+    "Related Terms": [
+      "Brainstorming",
+      "Brainwriting",
+      "Facilitation",
+      "Elicitation",
+      "Stakeholder engagement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Guide to Business Analysis, brain-netting"
+  },
+  {
+    "Term": "Brainwriting",
+    "Core Meaning": "A structured idea-generation technique in which participants write ideas individually before sharing them with the group.",
+    "Depth": "Atomic",
+    "Expansion": "Brainwriting helps teams generate a larger and more balanced set of ideas by giving each participant time to think before discussion begins. It is often used when a facilitator wants to avoid early anchoring or groupthink.",
+    "Deep Dive": null,
+    "Contrast": "Brainstorming — brainwriting emphasizes written individual contribution first; brainstorming emphasizes open verbal idea generation in the group.",
+    "Example": "Before selecting a vendor, the team writes possible evaluation criteria on cards, then combines and discusses them as a group.",
+    "Related Terms": [
+      "Brainstorming",
+      "Brain-netting",
+      "Facilitation",
+      "Requirements elicitation",
+      "Group decision-making"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Guide to Business Analysis, brainwriting"
+  },
+  {
+    "Term": "Cost budgeting",
+    "Core Meaning": "The process of aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline.",
+    "Depth": "Standard",
+    "Expansion": "Cost budgeting turns detailed estimates into an approved project budget structure. It aligns planned spending with scope, schedule, reserves, and control accounts so performance can be measured over time. In practice, it connects estimating with baseline approval and funding visibility.",
+    "Deep Dive": null,
+    "Contrast": "Cost estimate — a cost estimate predicts the likely cost of work; cost budgeting aggregates approved estimates into the authorized baseline for control.",
+    "Example": "After estimating site preparation, equipment installation, testing, and training, a construction team rolls the figures up into a phased budget for executive approval.",
+    "Related Terms": [
+      "Determine budget",
+      "Cost baseline",
+      "Control account",
+      "Reserve analysis",
+      "Funding requirements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 7"
+  },
+  {
+    "Term": "Cost management",
+    "Core Meaning": "A knowledge area or discipline concerned with planning, estimating, budgeting, financing, funding, managing, and controlling costs so the project can be completed within the approved budget.",
+    "Depth": "Foundational",
+    "Expansion": "Cost management covers the full set of activities used to define, organize, authorize, and control project spending. It begins with how costs will be managed, continues through estimating and budgeting, and extends into performance monitoring during delivery. PMI frames it as essential to financial predictability and informed decision-making across the project life cycle.",
+    "Deep Dive": "What it is: Cost management is the discipline that governs how a project plans and controls money. It includes the methods, baselines, thresholds, and reporting practices that keep financial performance visible and actionable.\n\nWhy it matters and where it applies: every project operates under resource constraints, and weak cost management can undermine scope, schedule, quality, and stakeholder confidence. It applies in predictive, adaptive, and hybrid settings, though the techniques and level of detail may differ.\n\nThe most common misconception: that cost management is only accounting or budget tracking after work starts. In practice it begins early with estimation logic, reserve decisions, and the design of a realistic baseline against which performance can be measured.\n\nHow it shows up in real projects: teams prepare estimates, establish a phased budget, define variance thresholds, review earned value or other performance signals, and take corrective action when spending trends threaten approved limits.",
+    "Contrast": "Financial management — cost management focuses on the project-level planning and control of spending; financial management is broader and covers organizational funding, accounting, and financial governance.",
+    "Example": "A product-development project defines estimating methods, sets a cost baseline by release, tracks monthly variances, and uses reserve analysis when supplier prices rise.",
+    "Related Terms": [
+      "Cost management plan",
+      "Cost estimate",
+      "Cost baseline",
+      "Determine budget",
+      "Control costs"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Sixth Edition, page 235"
+  },
+  {
+    "Term": "Cost management plan",
+    "Core Meaning": "A component of the project or program management plan that describes how costs will be planned, structured, and controlled.",
+    "Depth": "Standard",
+    "Expansion": "The cost management plan sets the rules for estimating, budgeting, managing, and controlling project costs. It defines matters such as units of measure, levels of precision, control thresholds, and reporting formats. It gives the team a consistent basis for cost decisions and performance monitoring.",
+    "Deep Dive": null,
+    "Contrast": "Cost baseline — the cost management plan defines how cost work will be performed and governed; the cost baseline is the approved time-phased budget used for measurement.",
+    "Example": "On a factory-upgrade project, the team documents that estimates will be produced in labor hours and local currency, tracked monthly, and escalated if variance exceeds the defined threshold.",
+    "Related Terms": [
+      "Project management plan",
+      "Cost baseline",
+      "Estimate costs",
+      "Determine budget",
+      "Control costs"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Seventh Edition, page 241"
+  },
+  {
+    "Term": "Cost-reimbursable contract",
+    "Core Meaning": "A contract type that involves payment to the seller for all legitimate actual costs incurred for completed work, plus a fee representing seller profit.",
+    "Depth": "Standard",
+    "Expansion": "A cost-reimbursable contract is used when work scope is uncertain or cannot be estimated precisely enough for a fixed-price arrangement. The buyer reimburses allowable costs and pays an additional fee according to the contract terms. This form increases flexibility but requires closer oversight of cost control and contract administration.",
+    "Deep Dive": null,
+    "Contrast": "Fixed-price contract — a cost-reimbursable contract repays allowable actual costs plus fee, while a fixed-price contract sets a defined price for the specified work.",
+    "Example": "A research project hires a specialist laboratory under a cost-reimbursable contract because the exact testing effort cannot be known at the start.",
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Fixed-price contract",
+      "Time and materials contract",
+      "Procurement management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 8"
+  },
+  {
+    "Term": "Backward pass",
+    "Core Meaning": "A calculation that works from the end of the schedule network back to the beginning to determine the late start and late finish dates of activities.",
+    "Depth": "Standard",
+    "Expansion": "The backward pass is used in schedule network analysis to identify how late each activity can occur without delaying the project or a required milestone. It starts with the project completion date or finish milestone and traces dependencies in reverse through the network. The results support float calculations and help identify which activities have scheduling flexibility and which do not.",
+    "Deep Dive": null,
+    "Contrast": "Forward pass — a forward pass calculates the earliest possible dates; a backward pass calculates the latest allowable dates.",
+    "Example": "In a plant upgrade project, the scheduler starts from the mandated commissioning date and performs a backward pass to find the latest dates each testing and installation activity can begin without moving the deadline.",
+    "Related Terms": [
+      "Forward pass",
+      "Critical path",
+      "Total float",
+      "Free float",
+      "Schedule network analysis"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, backward pass"
+  },
+  {
+    "Term": "Bidder conference",
+    "Core Meaning": "A meeting with prospective sellers before bid or proposal preparation to ensure a common understanding of the procurement requirement.",
+    "Depth": "Standard",
+    "Expansion": "A bidder conference is a procurement event held to explain requirements, answer questions, and reduce misunderstanding before sellers submit responses. It helps the buyer communicate expectations consistently and gives all invited sellers the same information at the same time. This supports fair competition and can improve the quality and comparability of submitted bids or proposals.",
+    "Deep Dive": null,
+    "Contrast": "Procurement negotiation — a bidder conference clarifies requirements before proposals are submitted; negotiation occurs later to reach agreement with a selected seller.",
+    "Example": "A public sector project team holds a bidder conference for software vendors so each supplier hears the same explanation of integration, security, and service-level requirements before preparing proposals.",
+    "Related Terms": [
+      "Procurement statement of work",
+      "Request for proposal",
+      "Source selection criteria",
+      "Seller",
+      "Procurement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, bidder conference"
+  },
+  {
+    "Term": "Bureaucracy",
+    "Core Meaning": "An organizational structure in which people are grouped by specialty into distinct functions, coordinated through formal rules and a clear hierarchy.",
+    "Depth": "Foundational",
+    "Expansion": "Bureaucracy is one of Mintzberg's organizational structure forms and is characterized by standardized work, specialized roles, and strong procedural control. In project settings, it often appears in environments where authority, decision rights, and reporting lines are defined primarily by function rather than by temporary project needs. It can create clarity and consistency, but it may also slow cross-functional coordination and reduce flexibility when rapid adaptation is needed.",
+    "Deep Dive": "What it is: Bureaucracy is a formal organizational form built around specialization, hierarchy, and standardization. Work is divided into functions, governed by established procedures, and coordinated through managerial authority.\n\nWhy it matters and where it applies: project work is shaped by the organization that hosts it, so bureaucracy affects decision speed, escalation paths, and resource access. It commonly appears in large enterprises, government bodies, and regulated environments where consistency, control, and compliance are important.\n\nThe most common misconception: that bureaucracy simply means inefficiency or unnecessary paperwork. In fact, it is a legitimate structural design that can provide stability, accountability, and repeatability, though those strengths can become constraints when work demands agility or rapid cross-functional collaboration.\n\nHow it shows up in real projects: a project manager in a functionally structured organization must secure approvals through department heads, follow formal change procedures, and coordinate work across specialized teams that report primarily to line managers rather than to the project.",
+    "Contrast": "Projectized organization — bureaucracy groups people by function and governs work through formal hierarchy; a projectized organization centers authority and resources around projects.",
+    "Example": "In a regulated pharmaceutical company, a packaging change project moves through formal quality, regulatory, engineering, and procurement departments, each with defined approval gates and specialist responsibilities.",
+    "Related Terms": [
+      "Organizational structure",
+      "Functional organization",
+      "Projectized organization",
+      "Governance",
+      "Standardization"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The Standard for Project Management and A Guide to the Project Management Body of Knowledge (PMBOK Guide), section on organizational structure based on Mintzberg, bureaucracy"
+  },
+  {
+    "Term": "Buyer",
+    "Core Meaning": "The acquirer of products, services, or results for an organization.",
+    "Depth": "Atomic",
+    "Expansion": "In procurement, the buyer is the party seeking to obtain goods or services from a seller. The buyer defines requirements, manages the solicitation and selection process, and administers the contract from the acquiring side.",
+    "Deep Dive": null,
+    "Contrast": "Seller — the buyer acquires and pays for the work; the seller provides the contracted product or service.",
+    "Example": "A city transit project acts as the buyer when it issues a request for proposal and awards a contract for station security equipment.",
+    "Related Terms": [
+      "Seller",
+      "Procurement",
+      "Contract",
+      "Bidder conference",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, buyer"
+  }
+]

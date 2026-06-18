@@ -1,0 +1,471 @@
+[
+  {
+    "id": "mentor-stakeholders-mentoring-versus-directing",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "mentoring versus directing",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that a newly assigned business analyst is struggling to facilitate stakeholder workshops. What is the best action to support the analyst while improving future performance?",
+      "A junior business analyst on the project has difficulty leading stakeholder workshops. Which action best reflects effective stakeholder mentoring and development?"
+    ],
+    "correct": [
+      {
+        "text": "Meet with the analyst after the workshop, share observations, provide practical guidance, and agree on development actions for the next session.",
+        "why": "This develops the team member through mentoring and knowledge sharing while preserving ownership of future performance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Take over all future stakeholder workshops personally to protect the project schedule.",
+        "trap": "Confuses short-term control with developing others and reduces team growth."
+      },
+      {
+        "text": "Escalate the analyst's poor facilitation skills to the functional manager immediately.",
+        "trap": "Assumes escalation is the first response instead of coaching or mentoring."
+      },
+      {
+        "text": "Send the analyst a template and ask them to improve independently without discussion.",
+        "trap": "Mistakes document sharing alone for active mentoring and guidance."
+      },
+      {
+        "text": "Replace the analyst with a more experienced resource before the next meeting.",
+        "trap": "Focuses on substitution rather than capability development."
+      }
+    ],
+    "explanation": "The best response is to mentor the analyst through observation, feedback, practical guidance, and agreed improvement actions. PMI emphasizes developing team members and enabling performance through supportive leadership rather than immediately taking over, escalating, or replacing people. This approach also improves stakeholder collaboration because the analyst becomes more effective in future interactions.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team and Leadership sections",
+      "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "mentoring-versus-directing"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-building-trust",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "building trust",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is working with a senior engineer who has strong technical expertise but weak relationships with key stakeholders. Which action best helps build trust and improve collaboration?",
+      "An experienced engineer delivers quality work but frequently creates tension with stakeholders. What should the project manager do first to strengthen trust and stakeholder collaboration?"
+    ],
+    "correct": [
+      {
+        "text": "Coach the engineer on active listening, stakeholder expectations, and constructive communication, then support application in upcoming interactions.",
+        "why": "This addresses the root cause of poor collaboration by improving behaviors that create trust and more productive stakeholder engagement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Limit the engineer's contact with stakeholders and route all communication through the project manager.",
+        "trap": "Reduces immediate conflict but avoids developing the team member and can weaken transparency."
+      },
+      {
+        "text": "Tell stakeholders to focus only on technical results and ignore communication style.",
+        "trap": "Assumes technical competence alone is sufficient for stakeholder engagement."
+      },
+      {
+        "text": "Document the issue in the risk register and wait to see if it affects deliverables.",
+        "trap": "Treats a people issue as passive monitoring instead of active leadership."
+      },
+      {
+        "text": "Move the engineer to another workstream without discussing the issue.",
+        "trap": "Uses avoidance instead of development and collaboration."
+      }
+    ],
+    "explanation": "Building trust requires transparent, respectful, and responsive interaction. Coaching the engineer on stakeholder-facing behaviors and then reinforcing those behaviors in practice is the most PMI-aligned action because it develops the individual while improving stakeholder relationships. Avoiding stakeholder contact or dismissing communication concerns may preserve short-term output but does not strengthen collaboration.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
+      "PMI, PMBOK Guide Seventh Edition, Team Performance Domain",
+      "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "building-trust"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-knowledge-sharing-and-collaboration",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "knowledge sharing and collaboration",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager wants to increase stakeholder alignment across a cross-functional project and also develop team capability. Which actions should the project manager take?",
+      "To improve collaboration with stakeholders while developing the team, which two actions are most appropriate on a cross-functional project?"
+    ],
+    "correct": [
+      {
+        "text": "Establish recurring collaborative sessions where team members and stakeholders review progress, clarify expectations, and share lessons learned.",
+        "why": "This promotes transparency, shared understanding, and continuous knowledge exchange with stakeholders."
+      },
+      {
+        "text": "Pair less experienced team members with experienced colleagues during stakeholder interactions to transfer knowledge and build confidence.",
+        "why": "This directly develops others through guided participation and supports stronger future collaboration."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Restrict stakeholder communication to formal status reports to avoid conflicting messages.",
+        "trap": "Confuses controlled communication with meaningful collaboration."
+      },
+      {
+        "text": "Ask the most senior team members to handle all stakeholder discussions because they are the most efficient.",
+        "trap": "Prioritizes short-term efficiency over developing others and distributing knowledge."
+      },
+      {
+        "text": "Delay stakeholder involvement until the team has finalized all internal decisions.",
+        "trap": "Assumes collaboration is safer after decisions are made rather than during decision formation."
+      },
+      {
+        "text": "Escalate minor stakeholder misunderstandings to the sponsor to ensure accountability.",
+        "trap": "Overuses escalation instead of resolving issues through direct collaboration."
+      }
+    ],
+    "explanation": "The most effective actions combine stakeholder collaboration with team development. Collaborative review sessions improve alignment, clarify expectations, and build trust through shared understanding. Pairing less experienced members with experienced colleagues supports mentoring, knowledge transfer, and capability growth. The distractors either centralize communication, delay engagement, or rely excessively on escalation, all of which weaken collaborative development.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
+      "PMI, PMBOK Guide Seventh Edition, Team Performance Domain",
+      "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "knowledge-sharing-and-collaboration"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-guidance-and-stakeholder-enablement",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "guidance and stakeholder enablement",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During a transformation project, a stakeholder lead asks the project manager for advice on how to help their team adapt to a new way of working. What is the best response?",
+      "A business stakeholder asks the project manager for guidance to help their team transition to new project-driven processes. Which action is best?"
+    ],
+    "correct": [
+      {
+        "text": "Work with the stakeholder lead to identify capability gaps, provide tailored guidance, and create opportunities for the team to practice and learn.",
+        "why": "This supports stakeholder collaboration and developing others through targeted guidance, learning, and shared ownership of adoption."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Tell the stakeholder lead that change management is outside the project scope and should be addressed after implementation.",
+        "trap": "Separates stakeholder readiness from project success and ignores collaborative leadership."
+      },
+      {
+        "text": "Issue a mandatory process document and require the stakeholder team to comply immediately.",
+        "trap": "Assumes compliance documents are sufficient for adoption and development."
+      },
+      {
+        "text": "Escalate the request to the sponsor because stakeholder teams are responsible for their own readiness.",
+        "trap": "Avoids the project manager's role in enabling collaboration and supporting stakeholders."
+      },
+      {
+        "text": "Assign the project manager to deliver all future stakeholder tasks until the team becomes comfortable.",
+        "trap": "Creates dependency rather than building stakeholder capability."
+      }
+    ],
+    "explanation": "The strongest PMI-aligned action is collaborative guidance that diagnoses capability gaps, tailors support, and enables learning through practice. Mentoring and collaboration are not limited to internal team members; they also apply to stakeholder groups whose readiness affects project outcomes. Directives, avoidance, or escalation without support do not build durable capability or trust.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
+      "PMI, PMBOK Guide Seventh Edition, Development Approach and Life Cycle Performance Domain",
+      "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "guidance-and-stakeholder-enablement"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-mentoring-and-coaching-distinction",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "mentoring and coaching distinction",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is deciding how to support a high-potential team member who wants to improve stakeholder influence. Which two actions best distinguish mentoring from coaching while developing the team member?",
+      "A team member asks for help becoming more effective with senior stakeholders. Which two actions best reflect appropriate use of mentoring and coaching?"
+    ],
+    "correct": [
+      {
+        "text": "Share personal experience and practical stakeholder strategies from similar projects to broaden the team member's perspective.",
+        "why": "This is mentoring because it draws on experience-based guidance and developmental advice."
+      },
+      {
+        "text": "Use questions to help the team member reflect on stakeholder interactions and identify their own improvement actions.",
+        "why": "This is coaching because it helps the individual generate insight and ownership of next steps."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Give the team member a script to follow exactly in all stakeholder meetings.",
+        "trap": "Confuses development with rigid instruction and discourages judgment."
+      },
+      {
+        "text": "Advise the team member to avoid senior stakeholders until they gain more confidence.",
+        "trap": "Avoids growth opportunities instead of developing capability."
+      },
+      {
+        "text": "Evaluate the team member only on whether stakeholders agree with every proposal.",
+        "trap": "Uses stakeholder approval as the sole measure and ignores learning and relationship quality."
+      },
+      {
+        "text": "Take over difficult stakeholder conversations so the team member can observe from a distance only.",
+        "trap": "Overuses leader substitution rather than guided development."
+      }
+    ],
+    "explanation": "PMI-aligned leadership distinguishes mentoring from coaching while recognizing that both support developing others. Mentoring typically includes sharing experience, advice, and perspective. Coaching relies more on inquiry, reflection, and helping the individual generate their own solutions. Together, these approaches improve stakeholder effectiveness, trust-building, and long-term capability more effectively than scripts, avoidance, or leader takeover.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, Team Performance Domain",
+      "PMI, PMBOK Guide Seventh Edition, Leadership sections",
+      "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "mentoring-and-coaching-distinction"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-developing-stakeholder-decision-capability",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "Developing stakeholder decision capability",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that a key stakeholder representative is new to cross-functional decision making and often delays approvals because they are unsure how to evaluate tradeoffs. What should the project manager do first to support the stakeholder while preserving ownership of decisions?",
+      "A stakeholder representative on a project is inexperienced with evaluating schedule, cost, and scope tradeoffs and is slowing approvals. What is the best first action by the project manager to help the stakeholder without taking over their role?"
+    ],
+    "correct": [
+      {
+        "text": "Explain the project decision criteria and walk through how to assess impacts so the stakeholder can make informed choices independently",
+        "why": "This develops the stakeholder's capability and supports effective participation without removing their accountability for decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Make the approval decisions on behalf of the stakeholder to avoid further schedule delays",
+        "trap": "This replaces stakeholder ownership with project manager control."
+      },
+      {
+        "text": "Escalate the stakeholder's inexperience to the sponsor and request a replacement",
+        "trap": "This treats a development need as a personnel problem before support is attempted."
+      },
+      {
+        "text": "Send the stakeholder the full project management plan and ask them to study it before the next review",
+        "trap": "This is passive information dumping rather than targeted capability building."
+      },
+      {
+        "text": "Restrict the stakeholder's involvement to status meetings until they gain more experience",
+        "trap": "This reduces engagement instead of helping the stakeholder become effective."
+      },
+      {
+        "text": "Have the functional manager approve decisions temporarily while the stakeholder observes",
+        "trap": "This bypasses the stakeholder and delays their development."
+      }
+    ],
+    "explanation": "The best response is to build the stakeholder's ability to participate effectively by clarifying decision criteria and helping them evaluate impacts in context. In PMP terms, mentoring and collaboration are intended to increase effectiveness, shared understanding, and ownership. Taking over decisions, bypassing the stakeholder, or overwhelming them with documentation may solve a short-term symptom but does not strengthen stakeholder performance or long-term project engagement.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, Team and Stakeholder performance domains",
+      "PMI, Project Manager Competency Development framework, communication and stakeholder capability development sections",
+      "PMI, PMP Examination Content Outline, People domain, task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "developing-stakeholder-decision-capability"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-facilitating-inclusive-stakeholder-participation",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "Facilitating inclusive stakeholder participation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During execution, a project manager sees that junior business representatives defer to senior stakeholders in workshops and rarely present their own analysis. Which action best helps develop these stakeholders' participation in collaboration sessions?",
+      "In stakeholder workshops, less experienced representatives stay silent and allow senior members to dominate decisions. What should the project manager do to develop more effective stakeholder participation?"
+    ],
+    "correct": [
+      {
+        "text": "Use structured facilitation techniques such as round-robin input and prework so less experienced stakeholders can prepare and contribute meaningfully",
+        "why": "This improves participation quality, develops confidence, and creates a fair collaboration environment without undermining stakeholder roles."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask senior stakeholders to make decisions privately and brief the junior representatives afterward",
+        "trap": "This increases exclusion and prevents stakeholder development."
+      },
+      {
+        "text": "Tell quieter stakeholders that speaking up is part of their responsibility and leave the workshop format unchanged",
+        "trap": "This relies on instruction without removing barriers to participation."
+      },
+      {
+        "text": "Document all workshop decisions more thoroughly so quieter stakeholders can review them later",
+        "trap": "This improves records but does not develop real-time collaboration capability."
+      },
+      {
+        "text": "Replace live workshops with email reviews to reduce pressure on less experienced participants",
+        "trap": "This weakens collaboration and reduces opportunities to build engagement skills."
+      }
+    ],
+    "explanation": "A project manager should shape the collaboration environment so stakeholders with different experience levels can participate effectively. Structured facilitation, including prework and equal-turn methods, helps develop stakeholder confidence and decision quality. Simply telling people to participate more, excluding them from decisions, or moving to less interactive channels does not address the underlying developmental need in stakeholder collaboration.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, Stakeholder and Team performance domains",
+      "PMI, Process Groups A Practice Guide, stakeholder engagement and facilitation related practices",
+      "PMI, PMP Examination Content Outline, People domain, task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "facilitating-inclusive-stakeholder-participation"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-developing-stakeholder-communication-effectiveness",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "Developing stakeholder communication effectiveness",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is leading a regulated product implementation. A stakeholder from compliance has strong technical expertise but struggles to frame requirements in business terms for other stakeholders. Which two actions should the project manager take to help this stakeholder become more effective in collaboration?",
+      "On a complex project, a compliance stakeholder understands the regulations well but cannot translate them into language the broader stakeholder group can act on. Which two actions best develop that stakeholder's effectiveness?"
+    ],
+    "correct": [
+      {
+        "text": "Work with the stakeholder to convert technical constraints into decision-oriented business impacts and examples for upcoming discussions",
+        "why": "This helps the stakeholder communicate in a way others can use for planning and decision making."
+      },
+      {
+        "text": "Provide opportunities for the stakeholder to co-present with a more experienced partner until they can communicate clearly on their own",
+        "why": "This supports development through practice in a real project setting while maintaining participation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Have the project manager present all compliance topics permanently to avoid communication issues",
+        "trap": "This removes development opportunities and makes the project manager a bottleneck."
+      },
+      {
+        "text": "Ask the stakeholder to provide detailed written regulations and let the team interpret them independently",
+        "trap": "This shifts translation effort to others and increases misunderstanding risk."
+      },
+      {
+        "text": "Escalate the communication gap as a performance issue before trying developmental support",
+        "trap": "This confuses a coachable skill gap with immediate formal performance management."
+      },
+      {
+        "text": "Limit the stakeholder to reviewing documents after meetings rather than participating in them",
+        "trap": "This reduces collaboration and delays capability growth."
+      }
+    ],
+    "explanation": "The strongest actions help the stakeholder become more effective in the actual collaboration context. Translating technical constraints into business impacts and co-presenting with an experienced partner both build communication capability while preserving stakeholder involvement. In contrast, taking over communication, relying only on documents, or sidelining the stakeholder avoids the symptom without developing the person or improving long-term collaboration quality.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, Stakeholder performance domain and tailoring communication",
+      "PMI, Business Analysis for Practitioners, communicating requirements and stakeholder engagement practices",
+      "PMI, PMP Examination Content Outline, People domain, task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "developing-stakeholder-communication-effectiveness"
+    ]
+  },
+  {
+    "id": "mentor-stakeholders-promoting-stakeholder-self-sufficiency",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor and Collaborate With Stakeholders",
+    "topic": "Mentor and Collaborate With Stakeholders",
+    "subtopic": "Promoting stakeholder self-sufficiency",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager inherits a project where community stakeholders have become dependent on the project team to prepare every issue for them. Engagement is high, but stakeholder self-sufficiency is low. What is the best action for the project manager?",
+      "On a project with external stakeholders, the project team has created strong participation but the stakeholders now rely on the team for every analysis and recommendation. How should the project manager respond?"
+    ],
+    "correct": [
+      {
+        "text": "Shift to a development approach that equips stakeholders with simple decision tools and expectations for preparing their own inputs before forums",
+        "why": "This maintains collaboration while reducing unhealthy dependence and increasing stakeholder effectiveness."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue preparing all materials because high engagement indicates the current approach is working",
+        "trap": "This confuses visible participation with sustainable stakeholder capability."
+      },
+      {
+        "text": "Reduce stakeholder involvement so the project team can regain efficiency",
+        "trap": "This solves dependency by cutting collaboration rather than developing stakeholders."
+      },
+      {
+        "text": "Assign a team member to support each stakeholder group at every meeting",
+        "trap": "This deepens dependency and consumes project resources."
+      },
+      {
+        "text": "Escalate the issue to governance and request that stakeholder groups appoint more experienced representatives",
+        "trap": "This avoids developing current stakeholders and may be unnecessary."
+      },
+      {
+        "text": "Move all issue analysis into formal reports reviewed only at milestone gates",
+        "trap": "This weakens continuous collaboration and does not build capability."
+      }
+    ],
+    "explanation": "Mentor and collaborate with stakeholders is not just about maintaining interaction; it is about increasing effectiveness and ownership. When stakeholders become dependent on the project team, the project manager should help them build the ability to prepare inputs and make informed contributions themselves. That approach strengthens engagement quality and sustainability. Reducing involvement, continuing dependency, or escalating too early misses the developmental intent of the task.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, Stakeholder performance domain",
+      "PMI, Process Groups A Practice Guide, stakeholder engagement and collaboration practices",
+      "PMI, PMP Examination Content Outline, People domain, task Mentor and Collaborate With Stakeholders"
+    ],
+    "tags": [
+      "mentor-stakeholders",
+      "promoting-stakeholder-self-sufficiency"
+    ]
+  }
+]

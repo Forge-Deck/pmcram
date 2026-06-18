@@ -1,0 +1,667 @@
+[
+  {
+    "id": "manage-conflict-confronting-and-problem-solving",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Confronting and problem-solving",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During project execution, two senior developers disagree over the design approach for a critical integration component. Their argument is delaying a decision and affecting team morale. What should the project manager do first?",
+      "A conflict between two key technical team members is slowing progress on an important deliverable. What is the best initial action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a discussion with both developers to identify the root cause and reach a solution based on project objectives",
+        "why": "Confronting or problem-solving addresses the actual source of conflict and seeks a win-win outcome aligned to project goals."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reassign one developer to another workstream to separate the individuals immediately",
+        "trap": "This uses withdrawal or avoidance and removes symptoms without resolving the underlying issue."
+      },
+      {
+        "text": "Escalate the disagreement to the sponsor because technical disputes are outside the project manager role",
+        "trap": "This assumes escalation should come before the project manager applies conflict management practices."
+      },
+      {
+        "text": "Select the approach preferred by the more experienced developer to save time",
+        "trap": "This reflects forcing based on authority or status rather than collaborative resolution."
+      },
+      {
+        "text": "Ask both developers to stop discussing the issue until the next status meeting",
+        "trap": "This delays resolution and represents avoidance instead of active management."
+      }
+    ],
+    "explanation": "The best first action is to use confronting or problem-solving by bringing the parties together to examine facts, interests, and project constraints. PMI recognizes this as the most constructive technique because it resolves the root cause while preserving working relationships and supporting decision quality. The other choices either postpone the conflict, impose a solution, or escalate prematurely.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain, conflict and collaboration concepts",
+      "Process Groups A Practice Guide, Manage Team, conflict management discussion"
+    ],
+    "tags": [
+      "manage-conflict",
+      "confronting-and-problem-solving"
+    ]
+  },
+  {
+    "id": "manage-conflict-compromise",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Compromise",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team member from quality assurance and a team member from operations are in conflict over weekend testing support. The project manager determines both positions are valid, but the issue must be resolved quickly to protect the schedule. Which conflict management approach is most appropriate?",
+      "Two functional representatives have competing but reasonable requests for limited weekend test time. A fast and practical settlement is needed. Which approach should the project manager use?"
+    ],
+    "correct": [
+      {
+        "text": "Negotiate a middle-ground solution in which each party gives up something to meet the immediate project need",
+        "why": "Compromise is appropriate when time is limited and a temporary or expedient resolution is needed between parties with roughly equal power."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require operations to accept the testing schedule because deployment has greater business visibility",
+        "trap": "This is forcing and may damage commitment and long-term cooperation."
+      },
+      {
+        "text": "Postpone the decision until more capacity becomes available next month",
+        "trap": "This is avoidance and ignores schedule urgency."
+      },
+      {
+        "text": "Fully accept the quality assurance request to maintain harmony with the testing team",
+        "trap": "This is accommodating and sacrifices one side without balancing interests."
+      },
+      {
+        "text": "Hold multiple workshops until both parties agree on an ideal long-term process redesign",
+        "trap": "This overuses collaboration when a quick practical resolution is needed now."
+      }
+    ],
+    "explanation": "Compromise is the best fit when both sides have legitimate concerns, neither can fully prevail, and the project needs a timely answer. It produces an acceptable if not optimal outcome and is often useful under schedule pressure. Forcing, avoidance, and accommodating each create imbalance or defer the issue, while full collaboration may be too slow for an urgent operational conflict.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict management techniques",
+      "Agile Practice Guide, servant leadership and team facilitation concepts"
+    ],
+    "tags": [
+      "manage-conflict",
+      "compromise"
+    ]
+  },
+  {
+    "id": "manage-conflict-sources-of-conflict",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Sources of conflict",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A new project manager inherits a cross-functional team with ongoing tension caused by unclear role boundaries between business analysts and solution architects. Which is the most likely source of the conflict?",
+      "Team friction is increasing because analysts and architects are duplicating work and disputing ownership of requirements decisions. What is the primary source of this conflict?"
+    ],
+    "correct": [
+      {
+        "text": "Unclear roles and responsibilities",
+        "why": "Ambiguity in role ownership commonly creates conflict because team members compete over authority, accountability, and decision rights."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Personality differences are always the main source of project conflict",
+        "trap": "This reflects the misconception that interpersonal style is usually the primary cause when structural issues are often more significant."
+      },
+      {
+        "text": "The conflict is mainly due to the project closing process",
+        "trap": "This ignores the scenario evidence and misattributes the issue to a lifecycle phase."
+      },
+      {
+        "text": "The problem is caused by excessive contingency reserve",
+        "trap": "This confuses cost management concepts with team conflict drivers."
+      },
+      {
+        "text": "The issue comes from a lack of procurement documentation",
+        "trap": "This introduces an unrelated process artifact rather than the evident team issue."
+      }
+    ],
+    "explanation": "The scenario points to role ambiguity, a classic and common source of conflict in projects. When responsibilities, authority, or ownership are not clearly defined, overlap and disputes naturally follow. PMI guidance emphasizes defining team roles and responsibilities clearly because many conflicts are structural rather than purely personal.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Plan Resource Management and Manage Team",
+      "Process Groups A Practice Guide, planning and managing team roles and responsibilities"
+    ],
+    "tags": [
+      "manage-conflict",
+      "sources-of-conflict"
+    ]
+  },
+  {
+    "id": "manage-conflict-force-versus-withdrawal-in-urgent-conflict",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Force versus withdrawal in urgent conflict",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A critical production issue occurs during go-live. Two infrastructure specialists are openly arguing in front of the team about who caused the outage. Immediate action is needed to restore service, and a detailed review can happen later. What should the project manager do now?",
+      "During a severe implementation incident, two specialists begin blaming each other while the outage continues. Service restoration is the top priority. What is the best action by the project manager in the moment?"
+    ],
+    "correct": [
+      {
+        "text": "Direct the specialists to stop the argument, assign immediate recovery actions, and defer root cause discussion until service is restored",
+        "why": "In an emergency, forcing or directing action can be appropriate to protect critical project or operational outcomes before returning later to collaborative problem-solving."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Allow the specialists to continue debating so the true cause is understood before any action is taken",
+        "trap": "This ignores the urgency of incident response and delays restoration."
+      },
+      {
+        "text": "Step away and let the technical team work it out on their own because they are the experts",
+        "trap": "This is withdrawal and abdicates leadership during a critical event."
+      },
+      {
+        "text": "Publicly support the specialist with the stronger past performance record",
+        "trap": "This misuses authority and risks bias rather than focusing on immediate service recovery."
+      },
+      {
+        "text": "Ask the team to pause all activity until the sponsor joins the call",
+        "trap": "This creates unnecessary delay and escalation during an urgent outage."
+      }
+    ],
+    "explanation": "When immediate restoration is the priority, the project manager may need to use a directing or forcing style temporarily to stop disruptive behavior and focus the team on critical actions. PMI recognizes that no single conflict mode is universally best; the context matters. Once stability is restored, the project manager should shift to root cause analysis and more collaborative resolution of the interpersonal conflict.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict management techniques",
+      "PMBOK Guide Seventh Edition, Team Performance domain, tailoring leadership and team interventions to context"
+    ],
+    "tags": [
+      "manage-conflict",
+      "force-versus-withdrawal-in-urgent-conflict"
+    ]
+  },
+  {
+    "id": "manage-conflict-smoothing-accommodating-and-selective-withdrawal",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Smoothing, accommodating, and selective withdrawal",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager notices tension between a senior subject matter expert and a junior scheduler during planning meetings. The expert dismisses the scheduler's concerns, but the immediate issue is minor and preserving the relationship is important because they must work closely for the next year. Which two actions are most appropriate?",
+      "In recurring planning sessions, a senior expert brushes aside a junior scheduler over a relatively low-impact issue. The project manager wants to maintain long-term collaboration while handling the current disagreement. Which two responses are best?"
+    ],
+    "correct": [
+      {
+        "text": "Emphasize shared project goals and areas of agreement to reduce immediate tension before addressing the issue further",
+        "why": "Smoothing can help de-escalate a minor conflict by reinforcing common purpose and preserving working relationships."
+      },
+      {
+        "text": "Temporarily defer the discussion to a calmer setting if emotions are rising and productive dialogue is unlikely",
+        "why": "Selective withdrawal can be appropriate when a pause will prevent escalation and create better conditions for later resolution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Formally reprimand the senior expert during the meeting to establish authority",
+        "trap": "This overreacts to a minor issue and uses forcing in a way that may damage trust."
+      },
+      {
+        "text": "Ignore the behavior permanently because low-impact conflicts resolve themselves",
+        "trap": "This confuses temporary withdrawal with neglect of an ongoing team dynamic."
+      },
+      {
+        "text": "Tell the scheduler to yield on every future concern to maintain harmony",
+        "trap": "This misapplies accommodating by making one party consistently sacrifice valid concerns."
+      },
+      {
+        "text": "Escalate the matter to functional management immediately as a performance issue",
+        "trap": "This assumes escalation is preferable before using proportionate team conflict techniques."
+      },
+      {
+        "text": "Replace both participants on the planning effort to remove interpersonal risk",
+        "trap": "This treats a manageable conflict as a staffing failure and avoids resolution."
+      }
+    ],
+    "explanation": "For a low-impact issue where relationship preservation matters, the project manager should use proportionate techniques. Smoothing can lower tension by focusing on common goals, and temporary withdrawal can help when emotions are too high for useful discussion. These are context-sensitive responses, not final solutions to every conflict. The other options are either excessive, neglectful, or unfairly one-sided.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict management techniques",
+      "Process Groups A Practice Guide, Manage Team, interpersonal and team skills"
+    ],
+    "tags": [
+      "manage-conflict",
+      "smoothing-accommodating-and-selective-withdrawal"
+    ]
+  },
+  {
+    "id": "manage-conflict-confronting-and-problem-solving-2",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Confronting and problem-solving",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices growing tension between the lead developer and the test manager over repeated defect rejections. The release is still six weeks away, and both parties have valid concerns about quality criteria and rework effort. What should the project manager do first?",
+      "During execution, conflict develops between development and testing because each side believes the other is causing unnecessary rework. There is adequate time before the release milestone. What is the best initial action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a private discussion with both parties to identify the root cause and reach a collaborative resolution",
+        "why": "PMI favors addressing conflict early, in private, and through a direct collaborative problem-solving approach that resolves the underlying issue."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask both parties to focus on areas of agreement so the team can maintain harmony until the next sprint review",
+        "trap": "This reflects smoothing or accommodating, which may reduce tension temporarily but does not resolve the root cause when time exists to address it properly."
+      },
+      {
+        "text": "Escalate the disagreement to the sponsor because quality disputes are outside the project manager's authority",
+        "trap": "This assumes escalation is the first step, when the project manager should first try to facilitate resolution within the team."
+      },
+      {
+        "text": "Separate the two managers from further interaction and assign all decisions to the business analyst",
+        "trap": "This is a form of avoidance and bypasses the actual conflict instead of resolving it."
+      },
+      {
+        "text": "Direct the test manager to accept the developer's criteria because schedule pressure will increase later",
+        "trap": "This reflects forcing without justification such as urgent safety or compliance concerns."
+      }
+    ],
+    "explanation": "The best response is to use confronting or problem-solving. PMI guidance emphasizes resolving conflict early, privately, and collaboratively so the root cause is addressed rather than masked. Because both parties have valid concerns and there is still time before the milestone, a collaborative discussion is more effective than smoothing, avoidance, or escalation.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, conflict management section on collaborate or problem solve",
+      "PMI, Project Management Professional PMP Examination Content Outline, People domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "confronting-and-problem-solving"
+    ]
+  },
+  {
+    "id": "manage-conflict-compromise-or-reconcile",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Compromise or reconcile",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Two senior engineers disagree over which reporting format to use for a one-time steering committee update. The difference is minor, time is limited, and either format will meet stakeholder needs. Which conflict management approach is most appropriate?",
+      "A project team is divided between two acceptable presentation formats for a single executive status meeting. The issue is low impact and must be decided quickly. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Use compromise by selecting a blended format that gives each side some of what it wants",
+        "why": "Compromise is appropriate when the issue is limited in impact, time is short, and a practical middle ground is acceptable."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use collaboration to conduct a detailed root cause analysis of each engineer's preference before deciding",
+        "trap": "Collaboration is valuable but can be inefficient for a low-stakes issue that requires a fast decision."
+      },
+      {
+        "text": "Withdraw from the dispute and tell the engineers to work it out on their own after the meeting",
+        "trap": "Avoidance risks delaying a needed decision and does not actively manage the conflict."
+      },
+      {
+        "text": "Accommodate the more senior engineer to preserve the relationship with technical leadership",
+        "trap": "This gives in based on hierarchy rather than choosing the most suitable method for the situation."
+      },
+      {
+        "text": "Force the format used on the last project because standardization is always preferable to discussion",
+        "trap": "Forcing is not justified merely for convenience when both options are acceptable."
+      }
+    ],
+    "explanation": "Compromise or reconcile is the best fit when the matter is relatively minor, both options are workable, and a timely decision matters more than optimizing the outcome. PMI recognizes compromise as a practical technique that gives each party partial satisfaction. Collaboration would consume more effort than the situation warrants, while avoidance, accommodation, and forcing are less appropriate here.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, conflict management section on compromise or reconcile",
+      "PMI, Project Management Professional PMP Examination Content Outline, People domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "compromise-or-reconcile"
+    ]
+  },
+  {
+    "id": "manage-conflict-force-or-direct-in-urgent-safety-conflict",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Force or direct in urgent safety conflict",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A heated disagreement breaks out during a daily coordination meeting between a safety officer and a site supervisor about whether work can continue near an unstable trench. What should the project manager do next?",
+      "During a construction coordination meeting, the safety lead insists that work stop immediately due to a trench hazard, while the site supervisor argues that stopping will affect the schedule baseline. What is the best action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Direct the team to stop work in the affected area immediately and resolve the dispute after the hazard is controlled",
+        "why": "Forcing or directing is appropriate when immediate action is required for safety, legal, or compliance reasons."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Facilitate a collaborative workshop so both parties can reach consensus before any action is taken",
+        "trap": "Collaboration is generally preferred, but not when delay could expose the team to immediate harm."
+      },
+      {
+        "text": "Smooth the disagreement by emphasizing that both sides care about project success and continue work for the day",
+        "trap": "Smoothing minimizes the conflict without addressing the urgent safety issue."
+      },
+      {
+        "text": "Avoid the conflict by asking functional management to decide after the meeting",
+        "trap": "Avoidance delays action when the project manager must respond to an immediate risk."
+      },
+      {
+        "text": "Compromise by reducing the work zone while allowing limited activity to continue near the trench",
+        "trap": "Compromise is inappropriate when safety requirements should not be traded off."
+      }
+    ],
+    "explanation": "Although PMI generally prefers collaborative problem-solving, urgent safety situations are a key exception where forcing or directing is appropriate. The project manager must protect people first and then address the disagreement. Smoothing, compromise, and avoidance all create unacceptable risk when the conflict involves an immediate hazard.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, conflict management section on force or direct",
+      "PMI, Project Management Professional PMP Examination Content Outline, People domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "force-or-direct-in-urgent-safety-conflict"
+    ]
+  },
+  {
+    "id": "manage-conflict-sources-of-conflict-2",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Sources of conflict",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager observes recurring conflict in a cross-functional team. Team members argue about who owns requirements clarification, and separate disputes arise when two work packages need the same specialist at the same time. Which two sources of conflict are present?",
+      "In a project team, repeated disagreements occur because role ownership is unclear and a specialized resource is overbooked across parallel tasks. Which two conflict sources best describe this situation?"
+    ],
+    "correct": [
+      {
+        "text": "Unclear role definition",
+        "why": "Ambiguity about who is responsible for requirements clarification is a classic source of conflict tied to role definition."
+      },
+      {
+        "text": "Scarce resources",
+        "why": "Competing demand for the same specialist across work packages reflects resource scarcity."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Positive risk exploitation",
+        "trap": "This is a risk response strategy, not a source of interpersonal conflict in the scenario."
+      },
+      {
+        "text": "Procurement closure",
+        "trap": "This concerns contract administration and is unrelated to the described team disputes."
+      },
+      {
+        "text": "Benefits realization planning",
+        "trap": "This is a business alignment activity, not the driver of the observed conflict."
+      },
+      {
+        "text": "Product scope validation",
+        "trap": "While scope issues can create discussion, the scenario specifically points to role ambiguity and resource contention."
+      }
+    ],
+    "explanation": "The scenario contains two common conflict sources recognized in PMI practice: unclear role definition and scarce resources. Unclear ownership creates friction over responsibilities, while competing need for a specialized resource creates tension over priorities and access. Identifying the real source matters because the project manager can then use tools such as clarifying responsibilities, improving communication, and adjusting resource plans.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, discussion of common sources of team conflict including scarce resources and role ambiguity",
+      "PMI, Project Management Professional PMP Examination Content Outline, People domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "sources-of-conflict"
+    ]
+  },
+  {
+    "id": "manage-conflict-early-private-intervention",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Early private intervention",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices two senior engineers exchanging passive-aggressive comments during design reviews. The disagreement has not yet affected deliverables, but team members are starting to avoid meetings. What should the project manager do first?",
+      "During recurring design review meetings, two technical leads show visible tension and sarcasm. No schedule impact exists yet, but the team atmosphere is deteriorating. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Meet privately with the individuals as soon as possible to understand the issue and facilitate respectful resolution before it escalates",
+        "why": "PMI guidance is to address conflict early and usually in private. Early intervention prevents broader team disruption and supports constructive resolution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Document the behavior and wait until a deliverable is missed before intervening",
+        "trap": "Assumes conflict only matters after measurable performance damage occurs"
+      },
+      {
+        "text": "Raise the issue in the next full team meeting so everyone can hear both sides",
+        "trap": "Confuses transparency with effective conflict handling and ignores privacy"
+      },
+      {
+        "text": "Ask the functional manager to decide which engineer is correct",
+        "trap": "Escalates too quickly instead of resolving at the project level first"
+      },
+      {
+        "text": "Reassign one engineer to another workstream immediately to separate them",
+        "trap": "Treats separation as the first response instead of understanding the root issue"
+      },
+      {
+        "text": "Issue a formal warning to both engineers to stop unprofessional conduct",
+        "trap": "Uses punitive action before diagnosis or facilitation"
+      }
+    ],
+    "explanation": "The best initial response is prompt, private intervention. PMI emphasizes addressing conflict early, directly, and usually in private before it spreads through the team. Because the issue has not yet harmed deliverables, the project manager should focus on understanding the situation, restoring professional interaction, and facilitating resolution rather than delaying, escalating, or punishing prematurely.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict management guidance",
+      "Exam Content Outline for PMP, People Domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "early-private-intervention"
+    ]
+  },
+  {
+    "id": "manage-conflict-cooling-off-through-temporary-withdrawal",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Cooling-off through temporary withdrawal",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team member becomes visibly angry in a meeting after receiving critical feedback and begins interrupting others. What is the most appropriate action for the project manager?",
+      "During a sprint review, a team member reacts emotionally to criticism and the discussion becomes heated. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Pause the discussion and allow a short cooling-off period before resuming the conversation in a calmer setting",
+        "why": "Temporary withdrawal can be appropriate when emotions are too high for productive dialogue. It is used to de-escalate and enable later resolution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue the discussion so the team can resolve the issue immediately while all facts are fresh",
+        "trap": "Assumes immediacy is always best even when emotions block productive problem solving"
+      },
+      {
+        "text": "Ask the team to vote on whether the criticism was justified",
+        "trap": "Turns a tense interpersonal issue into a public judgment"
+      },
+      {
+        "text": "Remove the team member from the project because emotional reactions indicate poor fit",
+        "trap": "Jumps to an extreme personnel action without attempting resolution"
+      },
+      {
+        "text": "Send a summary email reminding everyone to remain professional and move on",
+        "trap": "Relies on indirect communication rather than managing the live conflict"
+      },
+      {
+        "text": "Immediately escalate the incident to the sponsor as a people risk",
+        "trap": "Escalates before trying an appropriate team-level intervention"
+      }
+    ],
+    "explanation": "When emotions are elevated, productive conflict resolution may not be possible in the moment. A short pause or temporary withdrawal is appropriate to cool down the situation and prevent further damage. This does not mean avoiding the issue permanently. The project manager should resume the discussion once participants can engage constructively, ideally in a more controlled setting.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict management techniques",
+      "PMI Knowledge Base, Thomas-Kilmann conflict modes, avoiding as a temporary de-escalation approach"
+    ],
+    "tags": [
+      "manage-conflict",
+      "cooling-off-through-temporary-withdrawal"
+    ]
+  },
+  {
+    "id": "manage-conflict-role-clarity-and-communication-governance",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Role clarity and communication governance",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager learns that a key stakeholder has been bypassing the agreed communication channel and giving developers conflicting instructions directly. Team frustration is increasing because priorities keep changing. What should the project manager do?",
+      "Developers report that a business stakeholder is issuing direct task changes outside the project communication process, causing confusion and resentment. What is the best response from the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Meet with the stakeholder and team leads to reestablish communication protocols, decision rights, and the approved channel for directing work",
+        "why": "The conflict stems from unclear or violated communication and authority boundaries. Restoring agreed roles and channels addresses the root cause while preserving relationships."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Tell developers to ignore all requests that do not come from the project manager and avoid further discussion",
+        "trap": "Imposes a rule without resolving the stakeholder relationship or clarifying governance collaboratively"
+      },
+      {
+        "text": "Accept the stakeholder's direct requests because satisfying influential stakeholders reduces conflict",
+        "trap": "Assumes compliance with bypass behavior is a valid way to manage tension"
+      },
+      {
+        "text": "Log each request as a personal performance issue for the developers who followed it",
+        "trap": "Blames executors instead of addressing governance failure"
+      },
+      {
+        "text": "Escalate the stakeholder immediately to the steering committee for corrective action",
+        "trap": "Escalates before attempting direct resolution of process and role confusion"
+      },
+      {
+        "text": "Create additional status reports so the stakeholder feels more informed",
+        "trap": "Treats all conflict as an information deficiency rather than a channel and authority problem"
+      }
+    ],
+    "explanation": "This scenario is best handled by clarifying and reinforcing communication protocols, decision rights, and role boundaries. The conflict is not primarily about personality or technical disagreement. It arises because work is being redirected outside agreed governance. The project manager should address the issue directly with the relevant parties, restore the proper channel, and reduce future confusion without unnecessary escalation.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Communications Management, Manage Communications",
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team, conflict should be addressed directly and early"
+    ],
+    "tags": [
+      "manage-conflict",
+      "role-clarity-and-communication-governance"
+    ]
+  },
+  {
+    "id": "manage-conflict-cultural-intelligence-in-conflict-management",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Cultural intelligence in conflict management",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A globally distributed team has recurring conflict because one region interprets direct feedback as disrespectful, while another sees indirect feedback as evasive. Velocity is dropping as misunderstandings grow. What should the project manager do first?",
+      "Members of a multicultural project team are clashing over communication style. Some value blunt efficiency and others expect more relationship-oriented discussion. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a discussion to establish shared team working agreements for communication norms, feedback style, and meeting behavior across cultures",
+        "why": "The conflict arises from differing cultural expectations. Creating explicit team norms builds mutual understanding and reduces repeated friction."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require all team members to adopt the communication style used at headquarters",
+        "trap": "Assumes one culture should dominate rather than building an inclusive operating model"
+      },
+      {
+        "text": "Separate the regions into independent work packages to minimize interaction",
+        "trap": "Avoids the underlying issue instead of improving collaboration"
+      },
+      {
+        "text": "Advise the more sensitive team members to be less emotional during project communication",
+        "trap": "Frames cultural differences as individual weakness"
+      },
+      {
+        "text": "Replace the team retrospective with written status updates so conflict does not surface publicly",
+        "trap": "Suppresses symptoms but leaves the behavior pattern unchanged"
+      },
+      {
+        "text": "Escalate the matter to human resources because cultural tension is outside project management scope",
+        "trap": "Misunderstands the project manager's responsibility for team effectiveness"
+      }
+    ],
+    "explanation": "In multicultural teams, conflict often comes from unspoken assumptions about respectful communication, disagreement, and feedback. The project manager should not impose one norm or avoid interaction. The best first response is to help the team define explicit shared agreements for how it will communicate and work together. This supports trust, reduces misunderstanding, and strengthens team performance.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance Domain, collaboration and team norms",
+      "Exam Content Outline for PMP, People Domain, task Manage Conflict"
+    ],
+    "tags": [
+      "manage-conflict",
+      "cultural-intelligence-in-conflict-management"
+    ]
+  }
+]

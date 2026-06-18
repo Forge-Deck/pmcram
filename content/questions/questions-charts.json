@@ -1,0 +1,268 @@
+[
+  {
+    "id": "charts-schedule-timeline-visualization-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "schedule timeline visualization",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager needs to communicate the planned start and finish dates of work packages across several months to a steering committee. The audience wants a calendar-based view that shows task durations and overlap. Which visual tool is the best fit?",
+      "For an executive review, a project manager wants a time-scaled display of activities showing when each major task begins, ends, and overlaps with others. Which chart should be used?"
+    ],
+    "correct": [
+      {
+        "text": "Gantt chart or bar chart",
+        "why": "A Gantt or bar chart shows activities against a calendar timescale, making it the best choice to communicate planned start dates, finish dates, durations, and overlap among tasks."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Milestone chart",
+        "trap": "This assumes milestone reporting is enough, but milestone charts highlight only key events and do not show full task durations or overlap."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This reflects the misconception that dependency logic automatically makes it the best executive timeline view, even though network diagrams are less effective for showing calendar-based durations to stakeholders."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses time-phased performance trends with activity scheduling. An S-curve tracks cumulative values, not task bars and overlaps."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This mistake comes from focusing on staffing over time rather than on activity timing and sequencing."
+      },
+      {
+        "text": "Burndown chart",
+        "trap": "This represents an agile progress-tracking mindset, but burndown charts show remaining work over time, not planned task durations across a schedule."
+      }
+    ],
+    "explanation": "The key need is a time-scaled display of planned work across a calendar so stakeholders can quickly see when activities start, finish, and run in parallel. A Gantt or bar chart is designed for that purpose. Other charts may support reporting, logic analysis, staffing, or agile tracking, but they do not communicate full scheduled activity durations as clearly.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, bar charts section",
+      "Practice Standard for Scheduling, schedule presentation formats section",
+      "PMBOK Guide Sixth Edition, Project Schedule Management, schedule data and schedule presentation discussion"
+    ],
+    "tags": [
+      "charts",
+      "schedule-timeline-visualization"
+    ]
+  },
+  {
+    "id": "charts-high-level-milestone-reporting-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "high level milestone reporting",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor wants a one-page status view that shows only the major completion points such as design approved, prototype finished, and go-live. Detailed task bars are unnecessary. Which chart is the best fit?",
+      "A project manager needs a simple visual focused only on key dates and major delivery events for senior leadership. Which chart should be selected?"
+    ],
+    "correct": [
+      {
+        "text": "Milestone chart",
+        "why": "A milestone chart is best when the audience needs a concise view of significant events or checkpoints without detailed activity-level duration data."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This assumes more detail is always better, but a Gantt chart can overwhelm senior stakeholders when they only need major completion points."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This confuses dependency analysis with high-level reporting. Network diagrams are useful for sequencing logic, not simple executive milestone communication."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This reflects confusion between event-based status reporting and cumulative cost or progress trending."
+      },
+      {
+        "text": "Cumulative flow diagram",
+        "trap": "This mistake applies an agile flow metric where a simple checkpoint-based executive schedule summary is needed."
+      }
+    ],
+    "explanation": "When leadership wants only major checkpoints, the milestone chart is the most suitable visual because it strips away detailed activities and emphasizes significant planned or achieved events. A Gantt chart is richer but less concise, while network, cost, or agile flow visuals do not match the reporting objective.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, milestone charts section",
+      "Practice Standard for Scheduling, milestone schedule and summary schedule presentation section",
+      "PMBOK Guide Sixth Edition, Project Schedule Management, milestone list and schedule reporting discussion"
+    ],
+    "tags": [
+      "charts",
+      "high-level-milestone-reporting"
+    ]
+  },
+  {
+    "id": "charts-cumulative-cost-trend-monitoring-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "cumulative cost trend monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project controller wants to compare cumulative planned spending with cumulative actual spending over time to see whether the project is trending above or below the expected cost profile. Which visual tool is the best fit?",
+      "To monitor how total costs accumulate against the baseline across the life of the project, which chart should the team use?"
+    ],
+    "correct": [
+      {
+        "text": "S-curve",
+        "why": "An S-curve is specifically suited to displaying cumulative values such as planned cost, actual cost, or earned value over time, making trend comparison straightforward."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This confuses schedule timing with cumulative cost performance. Gantt charts show activities over time, not cumulative spending patterns."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This assumes major dates are enough to assess cost behavior, but milestones do not show cumulative expenditure trends."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This reflects the misconception that resource loading is the same as cumulative cost tracking. Histograms show distribution by period, not cumulative trend lines."
+      },
+      {
+        "text": "Burnup chart",
+        "trap": "This mixes agile scope completion tracking with cumulative cost monitoring. Burnup charts are not the standard choice for baseline versus actual cost accumulation."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This mistake focuses on logic relationships instead of time-phased financial performance."
+      }
+    ],
+    "explanation": "The task calls for monitoring cumulative planned and actual cost over time. That is exactly the kind of trend an S-curve is meant to show. Other visuals may support scheduling, staffing, or agile delivery tracking, but they do not present cumulative cost accumulation against a baseline as effectively.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Cost Management, earned value analysis and performance review discussion",
+      "Practice Standard for Earned Value Management, performance measurement baseline and cumulative performance graph discussion",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, trend charts and forecasting related artifacts"
+    ],
+    "tags": [
+      "charts",
+      "cumulative-cost-trend-monitoring"
+    ]
+  },
+  {
+    "id": "charts-dependency-and-critical-path-analysis-04",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "dependency and critical path analysis",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During schedule development, a project manager needs to analyze mandatory dependencies, identify the critical path, and understand which activities can occur in parallel. Which visual tool is the best fit?",
+      "A team is trying to determine sequence logic and critical path relationships among activities before finalizing the schedule. Which chart or diagram should be used?"
+    ],
+    "correct": [
+      {
+        "text": "Project network or precedence diagram",
+        "why": "A project network or precedence diagram maps activity sequencing and dependencies, enabling critical path analysis, float assessment, and identification of parallel work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This reflects the belief that timeline bars alone are sufficient for logic analysis, but Gantt charts are weaker than network diagrams for dependency reasoning and critical path calculation."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This mistake reduces schedule analysis to key dates, ignoring the activity-level relationships needed to determine critical path."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses cumulative performance trending with schedule logic modeling."
+      },
+      {
+        "text": "Burndown chart",
+        "trap": "This applies an agile work-remaining view where formal dependency and path analysis is required."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This assumes resource loading determines sequence logic, but histograms do not model precedence relationships."
+      }
+    ],
+    "explanation": "The need here is not simple schedule display but logical analysis of activity sequencing. A project network or precedence diagram is the most appropriate tool because it explicitly shows dependencies and supports critical path and float analysis. Timeline and reporting visuals may complement the schedule later, but they are not the primary tool for this task.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Schedule Management, sequence activities and precedence diagramming method",
+      "Practice Standard for Scheduling, network diagrams and critical path method sections",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, network diagrams section"
+    ],
+    "tags": [
+      "charts",
+      "dependency-and-critical-path-analysis"
+    ]
+  },
+  {
+    "id": "charts-agile-iteration-progress-tracking-05",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "agile iteration progress tracking",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An agile team wants to inspect how much work remains in the sprint each day so they can see whether they are on pace to finish the committed backlog by the sprint end date. Which visual tool is the best fit?",
+      "A Scrum team needs a daily chart showing remaining work trending toward zero during the sprint. Which chart should they use?"
+    ],
+    "correct": [
+      {
+        "text": "Burndown chart",
+        "why": "A burndown chart is designed to show remaining work over time, which makes it ideal for monitoring whether a sprint backlog is being completed at the expected pace."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Burnup chart",
+        "trap": "This reflects confusion between work completed and work remaining. Burnup charts emphasize completed scope growth, whereas the question specifically asks for remaining work trending toward zero."
+      },
+      {
+        "text": "Cumulative flow diagram",
+        "trap": "This assumes any agile chart is acceptable, but a cumulative flow diagram is better for monitoring flow stability, queue buildup, and work in process rather than sprint work remaining."
+      },
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This applies predictive scheduling logic to a day-by-day agile remaining-work signal."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This reduces sprint tracking to checkpoints and misses the need for continuous trend visibility of work left to do."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses cumulative trend graphs with the specific agile need to display remaining backlog."
+      }
+    ],
+    "explanation": "The defining clue is remaining work during a sprint. A burndown chart directly supports that purpose by plotting work left against time and helping the team inspect pace toward sprint completion. Burnup and cumulative flow diagrams are also agile visuals, but they answer different questions.",
+    "references": [
+      "Agile Practice Guide, agile metrics and information radiators discussion",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, burndown chart section",
+      "Disciplined Agile and agile delivery guidance on visual management metrics"
+    ],
+    "tags": [
+      "charts",
+      "agile-iteration-progress-tracking"
+    ]
+  }
+]

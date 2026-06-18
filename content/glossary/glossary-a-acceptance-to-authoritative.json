@@ -1,0 +1,497 @@
+[
+  {
+    "Term": "Acceptance criteria",
+    "Core Meaning": "A set of conditions that are met before deliverables are accepted.",
+    "Depth": "Standard",
+    "Expansion": "Acceptance criteria define the measurable conditions a deliverable, product, or result must satisfy before it can be formally accepted. They create a shared understanding between those producing the work and those approving it. In practice, they reduce ambiguity and make acceptance decisions more objective.",
+    "Deep Dive": null,
+    "Contrast": "Definition of Done — acceptance criteria apply to a specific deliverable or requirement; Definition of Done describes the broader conditions for work to be considered complete.",
+    "Example": "For a new customer portal, acceptance criteria for the login feature state that users must be able to reset passwords, receive a reset email within two minutes, and authenticate with multi-factor verification.",
+    "Related Terms": [
+      "Deliverable",
+      "Quality control",
+      "Requirements",
+      "Validation",
+      "Definition of Done"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Acceptance criteria"
+  },
+  {
+    "Term": "Activity",
+    "Core Meaning": "A distinct, scheduled portion of work performed during the course of a project.",
+    "Depth": "Foundational",
+    "Expansion": "An activity is a unit of scheduled work used to plan, sequence, assign, and control execution within a project. It is more specific than a broad deliverable and is usually linked to duration, resources, dependencies, and progress tracking. Activities are the building blocks of schedules and are central to forecasting completion dates and managing coordination across the project.",
+    "Deep Dive": "What it is: An activity is a defined piece of work that can be scheduled and managed. In scheduling practice, activities are sequenced, given durations, assigned resources, and monitored for status.\n\nWhy it matters and where it applies: projects become manageable when large outcomes are broken into activities that teams can plan and execute. Activities are essential in schedule development, critical path analysis, resource planning, and short-interval control across predictive and hybrid projects.\n\nThe most common misconception: that an activity is the same as a deliverable. A deliverable is the output or result, while an activity is the work performed to create that output.\n\nHow it shows up in real projects: a construction project may include activities such as pour foundation, install framing, and inspect electrical systems, each with predecessors, durations, and assigned crews.",
+    "Contrast": "Deliverable — an activity is the work performed; a deliverable is the result produced by that work.",
+    "Example": "In an office relocation project, 'configure network switches on the new floor' is an activity scheduled after cabling installation and before user move-in.",
+    "Related Terms": [
+      "Deliverable",
+      "Schedule",
+      "Work package",
+      "Dependency",
+      "Critical path"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Activity"
+  },
+  {
+    "Term": "Adaptive approach",
+    "Core Meaning": "A development approach in which the requirements are subject to a high level of uncertainty and volatility and are likely to change throughout the project.",
+    "Depth": "Foundational",
+    "Expansion": "An adaptive approach is used when the solution cannot be fully defined upfront and learning is expected during delivery. Work is planned progressively, with frequent feedback used to adjust scope, priorities, and design. PMI positions it as appropriate where uncertainty is high and responsiveness creates better outcomes than rigid upfront prediction.",
+    "Deep Dive": "What it is: An adaptive approach is a way of delivering work through short cycles, progressive elaboration, and continuous reprioritisation. It accepts that requirements will evolve and treats learning as part of delivery rather than as rework to be avoided.\n\nWhy it matters and where it applies: some projects operate in environments where customer needs, technology, or external conditions change too quickly for a fixed plan to remain valid. Adaptive approaches are especially useful in product development, software, innovation work, and other contexts with high uncertainty.\n\nThe most common misconception: that adaptive means unstructured or uncontrolled. In practice, it still relies on governance, planning, and accountability, but these are applied iteratively and updated as evidence emerges.\n\nHow it shows up in real projects: teams maintain a prioritised backlog, deliver in increments, gather stakeholder feedback frequently, and revise plans based on actual learning rather than only original assumptions.",
+    "Contrast": "Predictive approach — an adaptive approach expects requirements to evolve and plans progressively; a predictive approach seeks to define scope and plans more fully upfront.",
+    "Example": "A digital-services team releases a minimum viable feature set, gathers user analytics and stakeholder feedback, and updates the backlog each iteration as needs become clearer.",
+    "Related Terms": [
+      "Agile",
+      "Increment",
+      "Backlog",
+      "Iterative",
+      "Predictive approach"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide — Adaptive approach"
+  },
+  {
+    "Term": "Actual Cost",
+    "Core Meaning": "The realised cost incurred for the work performed on an activity during a specific time period.",
+    "Depth": "Standard",
+    "Expansion": "Actual Cost is the amount actually spent for work completed in a given period. It is a core earned value concept used to compare planned spending with real spending and assess cost performance. Actual Cost may be tracked at the activity, work package, or control account level depending on how the project is controlled.",
+    "Deep Dive": null,
+    "Contrast": "Planned Value — Actual Cost is what was actually spent; Planned Value is the authorised budget assigned to scheduled work.",
+    "Example": "A testing work package was budgeted at 10,000 for the month, but labour and tool charges totalled 12,000, so the Actual Cost for that period is 12,000.",
+    "Related Terms": [
+      "Earned Value",
+      "Planned Value",
+      "Cost Variance",
+      "Estimate at Completion",
+      "Budget at Completion"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Actual Cost"
+  },
+  {
+    "Term": "Analogous Estimating",
+    "Core Meaning": "A technique for estimating duration, cost, or resources using historical data from a similar activity or project.",
+    "Depth": "Standard",
+    "Expansion": "Analogous Estimating uses information from past similar work to produce a high-level estimate for current work. It is usually faster and less detailed than bottom-up estimating, which makes it useful early when information is limited. Its accuracy depends on how comparable the prior work really is and how well differences are adjusted.",
+    "Deep Dive": null,
+    "Contrast": "Bottom-up Estimating — Analogous Estimating uses comparison with similar past work for a quicker high-level estimate; Bottom-up Estimating builds the estimate from detailed component estimates.",
+    "Example": "A project manager estimates a new branch-office fit-out by comparing it with a similar office completed last year and adjusting for the larger floor area.",
+    "Related Terms": [
+      "Estimate",
+      "Bottom-up Estimating",
+      "Parametric Estimating",
+      "Duration Estimate",
+      "Cost Estimate"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Analogous Estimating"
+  },
+  {
+    "Term": "Assumption",
+    "Core Meaning": "A factor in the planning process that is considered to be true, real, or certain without complete proof.",
+    "Depth": "Foundational",
+    "Expansion": "An assumption is a planning premise accepted as valid so the project can move forward despite incomplete information. Projects use assumptions about resources, timing, stakeholder behaviour, technology, funding, or external conditions when certainty is not yet available. Because assumptions can later prove false, they need to be documented, reviewed, and monitored as part of disciplined project management.",
+    "Deep Dive": "What it is: An assumption is something the team treats as true for planning and decision-making even though it has not been fully verified. It allows work to proceed without waiting for perfect certainty.\n\nWhy it matters and where it applies: assumptions shape schedules, budgets, staffing plans, procurement decisions, and scope choices. They exist in nearly every project, especially early on, because uncertainty is unavoidable.\n\nThe most common misconception: that assumptions are harmless background notes. In practice, a wrong assumption can distort estimates, hide dependencies, and create material risk if nobody revisits it.\n\nHow it shows up in real projects: a team may assume a vendor will deliver hardware in six weeks, that a key subject matter expert will be available part time, or that approval will follow a standard review cycle. Strong teams record these assumptions, assign ownership, and check whether they remain valid.",
+    "Contrast": "Constraint — an Assumption is treated as true for planning purposes; a Constraint is a limiting factor the project must work within.",
+    "Example": "A construction project assumes environmental permits will be approved by the end of May, allowing site preparation to start on the planned date.",
+    "Related Terms": [
+      "Constraint",
+      "Risk",
+      "Assumption Log",
+      "Issue",
+      "Uncertainty"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Assumption"
+  },
+  {
+    "Term": "Assumption Log",
+    "Core Meaning": "A project document used to record assumptions and constraints throughout the project.",
+    "Depth": "Standard",
+    "Expansion": "The Assumption Log captures assumptions and constraints so they can be reviewed, tracked, and updated over time. It makes important planning premises visible instead of leaving them implicit in estimates or schedules. It also supports risk management because assumptions that prove false often become sources of risk, issue escalation, or change.",
+    "Deep Dive": null,
+    "Contrast": "Risk Register — an Assumption Log records planning premises and constraints; a Risk Register records uncertain events or conditions that may affect objectives.",
+    "Example": "A software integration project records the assumption that the external API will remain stable during testing and reviews that entry at each iteration boundary.",
+    "Related Terms": [
+      "Assumption",
+      "Constraint",
+      "Risk Register",
+      "Project Documents",
+      "Issue Log"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Assumption Log"
+  },
+  {
+    "Term": "Acceptance",
+    "Core Meaning": "The formal act of receiving, approving, or acknowledging something as suitable, complete, or satisfactory.",
+    "Depth": "Standard",
+    "Expansion": "Acceptance is the point at which a deliverable, result, or condition is formally recognized as meeting expectations or requirements. In PMI usage, it is tied to approval or sign-off rather than informal agreement. It commonly occurs after verification against defined requirements and marks a governance or handoff milestone.",
+    "Deep Dive": null,
+    "Contrast": "Acceptance criteria — acceptance is the formal approval decision; acceptance criteria are the conditions used to judge whether approval should be given.",
+    "Example": "A sponsor signs off on a completed training package after confirming it meets the agreed requirements.",
+    "Related Terms": [
+      "Acceptance criteria",
+      "Accepted deliverables",
+      "Validate Scope"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Accept; Acceptance"
+  },
+  {
+    "Term": "Acquire Resources",
+    "Core Meaning": "The process of obtaining team members, facilities, equipment, materials, supplies, and other resources needed to complete project work.",
+    "Depth": "Foundational",
+    "Expansion": "Acquire Resources is the process used to secure the people and physical resources required for execution. It turns planned resource needs into actual assignments, allocations, purchases, or reservations. The process matters because work cannot proceed as intended until the needed resources are available and committed. In practice, it often involves negotiation with functional managers, procurement activity, and coordination across organisational boundaries.",
+    "Deep Dive": "What it is: Acquire Resources is the process of getting the resources the project needs so work can start or continue. Those resources may include internal staff, contractors, equipment, materials, tools, or facilities.\n\nWhy it matters and where it applies: projects often slip not because planning was weak but because the right people or assets were unavailable at the right time. This process is important in almost every project environment, especially matrix organisations, vendor-dependent work, and projects with constrained specialist capacity.\n\nThe most common misconception: that identifying resource needs in the plan means the resources are effectively secured. In reality, planning defines the need, while Acquire Resources is the step where that need is fulfilled through assignment, negotiation, contracting, or purchase.\n\nHow it shows up in real projects: a project manager secures a data architect from a shared services team, arranges contractor onboarding, confirms hardware delivery dates, and reserves a testing environment before build work begins.",
+    "Contrast": "Plan Resource Management — Plan Resource Management defines how resources will be estimated, acquired, managed, and controlled; Acquire Resources is the process of actually obtaining them.",
+    "Example": "For an ERP rollout, the project manager negotiates for a finance SME, contracts a systems integrator, and books a training lab before configuration starts.",
+    "Related Terms": [
+      "Plan Resource Management",
+      "Physical resources",
+      "Project team",
+      "Procurement",
+      "Resource requirements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition — Acquire Resources, pp. 80, 82-84"
+  },
+  {
+    "Term": "Agreement",
+    "Core Meaning": "A document that defines the initial intentions of parties and may include terms and conditions for the exchange of goods or services.",
+    "Depth": "Standard",
+    "Expansion": "An agreement establishes how parties will work together or exchange value under defined terms. In PMI usage, it can include contracts, memoranda of understanding, service-level agreements, or other formal arrangements depending on context. It matters because it clarifies responsibilities, expectations, and boundaries before work begins.",
+    "Deep Dive": null,
+    "Contrast": "Contract — a contract is a legally binding type of agreement; agreement is the broader term that can include both binding and nonbinding arrangements.",
+    "Example": "A project team enters into a service agreement with a cloud provider that defines uptime targets, support obligations, and escalation paths.",
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Statement of work",
+      "Service-level agreement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Agreement"
+  },
+  {
+    "Term": "Alternatives Analysis",
+    "Core Meaning": "A technique used to evaluate identified options in order to select the best course of action.",
+    "Depth": "Standard",
+    "Expansion": "Alternatives analysis compares possible approaches against decision criteria such as cost, schedule, feasibility, risk, and strategic fit. PMI uses it when a team must choose among different ways to achieve an objective or solve a problem. It improves decision quality by making tradeoffs explicit and evidence-based.",
+    "Deep Dive": null,
+    "Contrast": "Decision tree — alternatives analysis is the broader evaluation of options; a decision tree is one specific analytical technique for mapping choices and outcomes.",
+    "Example": "A project team compares building a reporting feature internally, buying a commercial product, or outsourcing development before selecting the most practical option.",
+    "Related Terms": [
+      "Decision analysis",
+      "Decision tree",
+      "Feasibility study",
+      "Tradeoff"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Alternatives analysis"
+  },
+  {
+    "Term": "Activity-on-arrow",
+    "Core Meaning": "A diagramming method that shows activities on arrows and connects them through nodes to represent the sequence of work.",
+    "Depth": "Standard",
+    "Expansion": "Activity-on-arrow is a schedule network diagram method in which each activity is represented by an arrow and the nodes show the relationships between activities. It is one of the classic precedence representation approaches used in project scheduling. PMI treats it as a formal network-diagramming technique, though precedence diagramming is more commonly used in practice today.",
+    "Deep Dive": null,
+    "Contrast": "Precedence Diagramming Method — activity-on-arrow places activities on arrows; precedence diagramming places activities in nodes.",
+    "Example": "A scheduler models a facility upgrade using arrows for excavation, foundation work, framing, and inspection to show the required sequence.",
+    "Related Terms": [
+      "Schedule network diagram",
+      "Precedence Diagramming Method",
+      "Dummy activity",
+      "Dependency",
+      "Critical path"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), activity-on-arrow, page 699"
+  },
+  {
+    "Term": "Administrative closure",
+    "Core Meaning": "The process of formally completing project or phase records and documenting final results.",
+    "Depth": "Foundational",
+    "Expansion": "Administrative closure is the set of activities used to formally finalise a project or phase, including confirming completion, updating records, and archiving information. It ensures that contractual, procedural, and knowledge-capture obligations are completed rather than leaving closure informal. PMI treats it as part of disciplined project completion and governance.",
+    "Deep Dive": "What it is: Administrative closure is the formal wrap-up of project or phase information, decisions, approvals, and records. It includes confirming that required work is complete, documenting outcomes, and preserving information for organisational use.\n\nWhy it matters and where it applies: projects do not really finish when delivery work stops; they finish when the organisation can prove completion, transfer ownership, and retain usable records. This matters in regulated environments, procurement-heavy work, internal governance, and any setting where lessons learned and traceability affect future decisions.\n\nThe most common misconception: that closure is just a celebration, a final report, or a signature. In practice it is a controlled administrative process that protects the organisation by ensuring documentation, approvals, handoffs, and archives are complete.\n\nHow it shows up in real projects: the team closes contracts, confirms acceptance records, archives baselines and changes, captures lessons learned, updates final performance information, and releases remaining resources.",
+    "Contrast": "Close Project or Phase — administrative closure emphasises the formal record-completion and archival side of closure within the broader close process.",
+    "Example": "After deploying a new payroll system, the project manager archives approved requirements, final schedules, vendor records, acceptance documents, and lessons learned before releasing the team.",
+    "Related Terms": [
+      "Close Project or Phase",
+      "Lessons learned",
+      "Final report",
+      "Accepted deliverables",
+      "Archiving"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), administrative closure, page 698"
+  },
+  {
+    "Term": "Activity-on-node",
+    "Core Meaning": "A diagramming method that places activities in nodes and uses arrows to show logical relationships.",
+    "Depth": "Standard",
+    "Expansion": "Activity-on-node is a schedule network representation in which each activity is shown as a node and arrows indicate precedence relationships. It is closely associated with precedence diagramming and is widely used because it supports different dependency types clearly. PMI recognises it as a standard way to model project schedule logic.",
+    "Deep Dive": null,
+    "Contrast": "Activity-on-arrow — activity-on-node puts activities in boxes or nodes; activity-on-arrow puts activities on arrows.",
+    "Example": "A software implementation schedule shows requirements, configuration, testing, and deployment as nodes connected by finish-to-start and start-to-start relationships.",
+    "Related Terms": [
+      "Precedence Diagramming Method",
+      "Schedule network diagram",
+      "Dependency",
+      "Logical relationship",
+      "Activity-on-arrow"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), activity-on-node, page 699"
+  },
+  {
+    "Term": "Apportioned effort",
+    "Core Meaning": "An activity whose effort is directly tied to and distributed in proportion to another discrete work effort.",
+    "Depth": "Standard",
+    "Expansion": "Apportioned effort is support work that is planned as a proportion of related discrete effort rather than estimated independently. Its duration and resource use depend on the work it accompanies, such as quality assurance tied to production effort. PMI uses the term to distinguish this type of work from both discrete effort and level of effort in scheduling and earned value contexts.",
+    "Deep Dive": null,
+    "Contrast": "Level of effort — apportioned effort varies in proportion to related discrete work; level of effort is ongoing support work not measured by discrete output.",
+    "Example": "A testing oversight task is budgeted at a fixed percentage of the application-development effort and scales up or down as development work changes.",
+    "Related Terms": [
+      "Level of effort",
+      "Discrete effort",
+      "Earned value management",
+      "Activity",
+      "Work package"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), apportioned effort, page 700"
+  },
+  {
+    "Term": "Ambiguity",
+    "Core Meaning": "A state of being unclear, having difficulty identifying the cause of events, or having multiple options from which to choose.",
+    "Depth": "Foundational",
+    "Expansion": "Ambiguity is a condition in which information can be interpreted in more than one way or is too unclear to support confident decisions. In project work, it often appears when requirements are vague, stakeholder expectations are loosely expressed, or the causes of events are not yet understood. PMI treats ambiguity as a source of uncertainty that can affect planning, risk management, decision-making, and stakeholder alignment.",
+    "Deep Dive": "What it is: Ambiguity exists when the meaning of information is unclear, incomplete, or open to multiple interpretations. It is not simply a lack of data; it is a lack of clarity about what the data or situation actually means.\n\nWhy it matters and where it applies: ambiguous goals, roles, assumptions, and requirements create rework, conflict, and slow decisions. It is especially common in early project phases, innovation efforts, business change, and cross-functional initiatives where different stakeholders use the same words in different ways.\n\nThe most common misconception: that ambiguity is just another word for risk or uncertainty. Risk concerns uncertain events and their effects, while ambiguity concerns unclear meaning, unclear cause, or competing interpretations before the team can even assess events properly.\n\nHow it shows up in real projects: a sponsor asks for a user-friendly platform, a regulator gives principles but not exact design rules, or teams disagree on what minimally viable means. Project managers reduce ambiguity through clarification workshops, prototypes, decision records, and tighter acceptance definitions.",
+    "Contrast": "Uncertainty — ambiguity is about unclear meaning or multiple interpretations; uncertainty is about not knowing what will happen.",
+    "Example": "A project team is told to deliver a scalable reporting solution, but different stakeholders mean performance capacity, easier report creation, and broader data access, forcing clarification before planning can stabilize.",
+    "Related Terms": [
+      "Uncertainty",
+      "Risk",
+      "Requirements",
+      "Stakeholder",
+      "Assumption"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Seventh Edition, ambiguity definition in PMI terminology section, page 237"
+  },
+  {
+    "Term": "Artifact",
+    "Core Meaning": "A document or other item created during a portfolio, program, or project to help manage the work and provide information to stakeholders.",
+    "Depth": "Standard",
+    "Expansion": "An artifact is any created item used to support the management or understanding of project work. It can include documents, registers, logs, models, boards, and similar items that help teams organize information and make decisions. PMI uses the term broadly to cover work products that support planning, execution, monitoring, communication, and governance.",
+    "Deep Dive": null,
+    "Contrast": "Deliverable — an artifact helps manage or communicate the work; a deliverable is the product, service, or result produced by the project.",
+    "Example": "A project charter, risk register, and Kanban board are artifacts the team uses to guide and control the work.",
+    "Related Terms": [
+      "Deliverable",
+      "Register",
+      "Log",
+      "Model",
+      "Project document"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Seventh Edition, artifact definition in PMI terminology section, page 237"
+  },
+  {
+    "Term": "Accepted deliverables",
+    "Core Meaning": "Deliverables that have been formally signed off and approved by the customer or sponsor as meeting agreed requirements.",
+    "Depth": "Standard",
+    "Expansion": "Accepted deliverables are completed outputs that have passed review and received formal approval from the appropriate authority. Acceptance confirms that the deliverable satisfies agreed criteria and can move to handoff, use, or closure. In PMI usage, this concept is important in scope validation, quality confirmation, and phase or project closure.",
+    "Deep Dive": null,
+    "Contrast": "Validated deliverables — validated deliverables have been checked against requirements; accepted deliverables have also received formal approval.",
+    "Example": "After reviewing the finished training package against the agreed criteria, the client signs the approval form and the materials become accepted deliverables.",
+    "Related Terms": [
+      "Deliverable",
+      "Validate Scope",
+      "Acceptance criteria",
+      "Formal approval",
+      "Scope baseline"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition, accepted deliverables term used in Validate Scope, page 166"
+  },
+  {
+    "Term": "Audit",
+    "Core Meaning": "A structured and independent examination used to determine whether project activities comply with policies, processes, and procedures.",
+    "Depth": "Standard",
+    "Expansion": "An audit reviews how work is being performed against defined rules, standards, or governance expectations. It focuses on process compliance, control effectiveness, and opportunities for improvement rather than only on the technical quality of a single output. In PMI practice, audits appear in quality assurance, procurement, governance, and compliance contexts.",
+    "Deep Dive": null,
+    "Contrast": "Inspection — an audit examines process compliance and control; an inspection examines the product or deliverable itself.",
+    "Example": "An internal quality audit checks whether change requests, approvals, and procurement records were handled according to the project management plan and organizational policy.",
+    "Related Terms": [
+      "Quality assurance",
+      "Inspection",
+      "Compliance",
+      "Governance",
+      "Process analysis"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition, quality audit in Manage Quality tools and techniques, page 288"
+  },
+  {
+    "Term": "Avoid",
+    "Core Meaning": "A threat response strategy in which the project team acts to eliminate the threat or protect the project from its impact.",
+    "Depth": "Standard",
+    "Expansion": "Avoid is used when a negative risk is addressed by changing the plan so the threat no longer applies or can no longer affect the objective at risk. Typical actions include changing scope, approach, requirements, or technical solution choices. PMI treats avoid as one of the core strategies for responding to threats in project risk management.",
+    "Deep Dive": null,
+    "Contrast": "Mitigate — avoid removes the threat or its exposure; mitigate reduces the probability or impact without fully removing it.",
+    "Example": "A team avoids integration risk by selecting a standard interface already supported by both systems instead of building a custom connector.",
+    "Related Terms": [
+      "Threat",
+      "Risk response",
+      "Mitigate",
+      "Transfer",
+      "Accept"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition, Plan Risk Responses, page 443"
+  },
+  {
+    "Term": "Accuracy",
+    "Core Meaning": "The degree to which a measurement, estimate, or forecast is close to the true or accepted value.",
+    "Depth": "Standard",
+    "Expansion": "Accuracy describes closeness to correctness rather than consistency of repeated results. In project work it is used when discussing estimates, measurements, data quality, and reporting reliability. PMI distinguishes it from precision, which concerns the level of exactness or granularity rather than closeness to reality.",
+    "Deep Dive": null,
+    "Contrast": "Precision — accuracy is closeness to the true value, while precision is the degree of exactness or repeatability.",
+    "Example": "A cost engineer estimates foundation work at 1.02 million and the final verified cost is 1.00 million, so the estimate is considered highly accurate even if it was not expressed to many decimal places.",
+    "Related Terms": [
+      "Precision",
+      "Estimate",
+      "Data quality",
+      "Forecast"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition, Glossary, Accuracy, page 237"
+  },
+  {
+    "Term": "Affinity Diagram",
+    "Core Meaning": "A technique that organizes large numbers of ideas into groups based on their natural relationships.",
+    "Depth": "Standard",
+    "Expansion": "An affinity diagram helps teams sort raw inputs such as issues, requirements, risks, or stakeholder comments into meaningful clusters. It is commonly used during brainstorming, root cause work, and requirements analysis to reveal patterns that are hard to see in an unstructured list. The technique supports sense-making before prioritisation, decision-making, or further analysis.",
+    "Deep Dive": null,
+    "Contrast": "Mind mapping — an affinity diagram groups ideas by natural relationship after idea generation, while mind mapping typically starts from a central concept and branches outward.",
+    "Example": "During a lessons learned workshop, a project team groups dozens of schedule problems into clusters such as vendor delays, approval bottlenecks, and internal handoff issues before deciding improvement actions.",
+    "Related Terms": [
+      "Brainstorming",
+      "Requirements elicitation",
+      "Root cause analysis",
+      "Mind mapping"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Glossary, Affinity Diagram, page 694"
+  },
+  {
+    "Term": "Agile Manifesto",
+    "Core Meaning": "The statement of values and principles that underpins Agile ways of working.",
+    "Depth": "Foundational",
+    "Expansion": "The Agile Manifesto expresses the foundational values and principles behind Agile rather than prescribing a single method. PMI uses it to explain why Agile emphasises collaboration, responsiveness to change, working outcomes, and continuous learning. It matters because many Agile frameworks and practices make sense only when interpreted through those underlying values.",
+    "Deep Dive": "What it is: The Agile Manifesto is the short foundational statement created in 2001 that defines the core values and principles of Agile. It is not a delivery framework, governance model, or lifecycle by itself.\n\nWhy it matters and where it applies: It gives teams and leaders a common basis for choosing practices that support adaptability and value delivery. It is especially relevant in environments with evolving requirements, frequent feedback, and uncertainty about the best solution path.\n\nThe most common misconception: that the manifesto tells teams to reject planning, documentation, or discipline. In practice it reframes them so they support customer value and learning instead of becoming ends in themselves.\n\nHow it shows up in real projects: teams use it to justify incremental delivery, backlog reprioritisation, stakeholder collaboration, and regular retrospectives when conditions change or new information appears.",
+    "Contrast": "Agile Practice Guide — the Agile Manifesto states the values and principles; the Agile Practice Guide explains how those ideas can be applied in delivery.",
+    "Example": "A product team decides to shorten release cycles and involve users in each review because the manifesto's values push them toward faster feedback and closer collaboration.",
+    "Related Terms": [
+      "Agile",
+      "Agile Practice Guide",
+      "Adaptive approach",
+      "Increment",
+      "Iteration"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Agile Practice Guide, Appendix X3, Manifesto for Agile Software Development, page 167"
+  },
+  {
+    "Term": "Antecedent Condition",
+    "Core Meaning": "A predecessor relationship condition that must be true before a successor activity can begin or finish.",
+    "Depth": "Atomic",
+    "Expansion": "Antecedent condition is used in network logic to describe the prior condition that governs a following activity. It helps define sequencing logic in schedule development.",
+    "Deep Dive": null,
+    "Contrast": "Predecessor activity — an antecedent condition is the required prior state or logic condition, while a predecessor activity is the actual activity that creates that condition.",
+    "Example": "System integration testing cannot start until code completion and environment setup are both satisfied as antecedent conditions.",
+    "Related Terms": [
+      "Predecessor",
+      "Successor",
+      "Dependency",
+      "Sequence Activities"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Application area",
+    "Core Meaning": "A category of projects that have common components significant in such projects, but are not needed or present in all projects.",
+    "Depth": "Standard",
+    "Expansion": "An application area groups projects by shared subject matter, industry, or type of work. PMI uses the term to recognise that some practices, tools, and terminology are especially relevant in certain domains such as construction, information technology, or healthcare. It helps tailor project management approaches to the context in which the project operates.",
+    "Deep Dive": null,
+    "Contrast": "Industry — an application area is a project context with common components; an industry is the broader economic sector in which the work occurs.",
+    "Example": "A hospital information-system rollout is managed in the healthcare application area, where regulatory and clinical workflow concerns shape planning.",
+    "Related Terms": [
+      "Tailoring",
+      "Project context",
+      "Domain",
+      "Industry"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Fourth Edition, Glossary, Application Area, page 434"
+  },
+  {
+    "Term": "Appraisal cost",
+    "Core Meaning": "The cost of evaluating products, services, or results to determine whether they conform to requirements.",
+    "Depth": "Standard",
+    "Expansion": "Appraisal cost is one part of the cost of quality. It covers inspection, testing, audits, and other evaluation activities used to detect defects or nonconformance. PMI distinguishes it from prevention cost and failure cost because it is spent to assess quality rather than to build quality in upfront or to correct defects after they occur.",
+    "Deep Dive": null,
+    "Contrast": "Prevention cost — appraisal cost is spent to evaluate conformance; prevention cost is spent to avoid defects before they occur.",
+    "Example": "A software project pays for integration testing and independent quality audits, and those evaluation expenses are counted as appraisal cost.",
+    "Related Terms": [
+      "Cost of quality",
+      "Prevention cost",
+      "Failure cost",
+      "Quality control",
+      "Inspection"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Glossary, Appraisal Costs, page 695"
+  },
+  {
+    "Term": "Approved change request",
+    "Core Meaning": "A change request that has been reviewed and approved through the Perform Integrated Change Control process.",
+    "Depth": "Standard",
+    "Expansion": "An approved change request is a formal change that has been authorised for implementation. Once approved, it becomes an input to project execution and may require updates to plans, baselines, and project documents. PMI treats it as the controlled outcome of change governance rather than an informal idea, issue, or pending request.",
+    "Deep Dive": null,
+    "Contrast": "Change request — a change request is the proposed modification; an approved change request is the one that has been formally authorised for action.",
+    "Example": "A sponsor asks to add a compliance report to the product release, and after change review the request is approved and scheduled into the next delivery plan.",
+    "Related Terms": [
+      "Change request",
+      "Perform Integrated Change Control",
+      "Change control board",
+      "Baseline",
+      "Project management plan"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Fifth Edition, Glossary, Approved Change Request, page 537"
+  },
+  {
+    "Term": "Authoritative estimate",
+    "Core Meaning": "A credible estimate treated as dependable because it is grounded in validated data and expert judgement.",
+    "Depth": "Atomic",
+    "Expansion": "PMI does not define authoritative estimate as a formal glossary term. In practice, project teams use it to describe an estimate that carries strong confidence because its basis, assumptions, and review are robust.",
+    "Deep Dive": null,
+    "Contrast": "Basis of estimate — authoritative estimate describes the credibility of the estimate, while a basis of estimate explains the assumptions, methods, and sources behind it.",
+    "Example": "Before bid submission, the project manager uses reviewed supplier quotes, labour productivity history, and scope assumptions to produce an estimate the steering team treats as authoritative.",
+    "Related Terms": [
+      "Estimate",
+      "Basis of estimate",
+      "Expert judgment",
+      "Parametric estimating"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  }
+]

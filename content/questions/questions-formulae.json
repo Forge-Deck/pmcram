@@ -1,0 +1,252 @@
+[
+  {
+    "id": "formulae-earned-value-variances-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Monitor Project Work / Manage Schedule and Budget",
+    "topic": "Formulae & Calculations",
+    "subtopic": "Earned value variances",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project has EV = 120, AC = 150, and PV = 140. What are the cost variance and schedule variance?",
+      "Given EV 120, AC 150, and PV 140, which option correctly states CV and SV?"
+    ],
+    "correct": [
+      {
+        "text": "CV = -30 and SV = -20",
+        "why": "CV is EV minus AC, so 120 minus 150 equals -30. SV is EV minus PV, so 120 minus 140 equals -20."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "CV = 30 and SV = 20",
+        "trap": "This swaps the subtraction order and treats unfavorable variances as positive."
+      },
+      {
+        "text": "CV = -20 and SV = -30",
+        "trap": "This reverses the two formulas and confuses cost variance with schedule variance."
+      },
+      {
+        "text": "CV = 0.80 and SV = 0.86",
+        "trap": "This calculates performance indexes instead of variances by dividing rather than subtracting."
+      },
+      {
+        "text": "CV = -30 and SV = 20",
+        "trap": "This gets CV right but reverses the sign for SV by using PV minus EV."
+      }
+    ],
+    "explanation": "This question tests the basic earned value variance formulas. Cost variance measures cost performance and equals earned value minus actual cost. Schedule variance measures schedule performance and equals earned value minus planned value. Negative results indicate the project is over budget and behind schedule respectively.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Measurement Performance Domain, sections on work performance measures and forecasting",
+      "The Standard for Project Management, section on Measurement Performance Domain",
+      "Practice Standard for Earned Value Management, sections on basic EVM metrics and variance analysis"
+    ],
+    "tags": [
+      "formulae",
+      "earned-value-variances"
+    ]
+  },
+  {
+    "id": "formulae-eac-using-current-cpi-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Monitor Project Work / Manage Schedule and Budget",
+    "topic": "Formulae & Calculations",
+    "subtopic": "EAC using current CPI",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project has BAC = 1000, EV = 400, AC = 500, and management expects current cost performance to continue for the rest of the project. What is the appropriate estimate at completion?",
+      "If BAC is 1000, EV is 400, and AC is 500, and future work is expected to continue at the current CPI, what is EAC?"
+    ],
+    "correct": [
+      {
+        "text": "1250",
+        "why": "When current cost performance is expected to continue, EAC equals BAC divided by CPI. CPI is EV divided by AC, or 400 divided by 500, which is 0.8. EAC is therefore 1000 divided by 0.8, which equals 1250."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "800",
+        "trap": "This multiplies BAC by CPI instead of dividing BAC by CPI."
+      },
+      {
+        "text": "1100",
+        "trap": "This uses AC plus BAC minus EV, which is the EAC variant for atypical past variances and not for continued CPI performance."
+      },
+      {
+        "text": "900",
+        "trap": "This incorrectly subtracts the cost overrun from BAC instead of forecasting total completion cost."
+      },
+      {
+        "text": "1.25",
+        "trap": "This computes AC divided by EV, the inverse of CPI, but does not convert it into EAC."
+      }
+    ],
+    "explanation": "The key to EAC questions is selecting the correct forecasting assumption before calculating. Here the question states that present cost efficiency will continue, so the appropriate formula is EAC = BAC divided by CPI. Many distractors come from using a different EAC formula or confusing the direction of the CPI calculation.",
+    "references": [
+      "PMBOK Guide Sixth Edition, section 7.4 Control Costs, earned value analysis and forecasting formulas",
+      "Practice Standard for Earned Value Management, sections on estimate at completion forecasting methods",
+      "The Standard for Project Management, Measurement Performance Domain, forecasting and trend assessment"
+    ],
+    "tags": [
+      "formulae",
+      "eac-using-current-cpi"
+    ]
+  },
+  {
+    "id": "formulae-etc-vac-tcpi-formula-selection-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Monitor Project Work / Manage Schedule and Budget",
+    "topic": "Formulae & Calculations",
+    "subtopic": "ETC VAC TCPI formula selection",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which set correctly matches each earned value metric to its formula?",
+      "Identify the correct formula pairings for ETC, VAC, and TCPI."
+    ],
+    "correct": [
+      {
+        "text": "ETC = EAC - AC; VAC = BAC - EAC; TCPI based on BAC = (BAC - EV) divided by (BAC - AC)",
+        "why": "These are the standard formulas. ETC estimates remaining cost, VAC forecasts budget surplus or deficit at completion, and TCPI expresses the efficiency needed on remaining work to meet a target such as BAC."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ETC = AC - EAC; VAC = EAC - BAC; TCPI = (BAC - AC) divided by (BAC - EV)",
+        "trap": "This reverses all three relationships and inverts the TCPI formula."
+      },
+      {
+        "text": "ETC = BAC - EV; VAC = BAC - AC; TCPI = EV divided by AC",
+        "trap": "This confuses remaining budget and current performance index measures with ETC, VAC, and TCPI."
+      },
+      {
+        "text": "ETC = EAC - EV; VAC = PV - EAC; TCPI = EV divided by PV",
+        "trap": "This substitutes earned value or planned value where actual cost and budget at completion belong."
+      },
+      {
+        "text": "ETC = BAC - AC; VAC = EAC - AC; TCPI = AC divided by EV",
+        "trap": "This mixes budget remaining, forecast overrun, and inverse CPI into the wrong metrics."
+      }
+    ],
+    "explanation": "Formula selection questions test whether you recognize what each metric is measuring rather than just performing arithmetic. ETC focuses on the forecasted remaining cost from now forward, so it starts from EAC and subtracts actual cost already spent. VAC compares the original total budget to the revised completion forecast. TCPI compares remaining work to remaining funds and is especially easy to confuse with CPI.",
+    "references": [
+      "PMBOK Guide Sixth Edition, section 7.4 Control Costs, table and discussion of EVM formulas",
+      "Practice Standard for Earned Value Management, sections on forecasting and to-complete performance index",
+      "The Standard for Project Management, Measurement Performance Domain, performance measurement and forecasting"
+    ],
+    "tags": [
+      "formulae",
+      "etc-vac-tcpi-formula-selection"
+    ]
+  },
+  {
+    "id": "formulae-pert-expected-duration-and-standard-deviation-04",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Monitor Project Work / Manage Schedule and Budget",
+    "topic": "Formulae & Calculations",
+    "subtopic": "PERT expected duration and standard deviation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "For an activity with optimistic estimate 6 days, most likely estimate 10 days, and pessimistic estimate 20 days, what are the PERT expected duration and standard deviation?",
+      "Using three-point estimating with O = 6, M = 10, and P = 20, which option gives the correct expected time and standard deviation?"
+    ],
+    "correct": [
+      {
+        "text": "Expected duration = 11 days; standard deviation = 2.33 days",
+        "why": "PERT expected duration equals O plus 4M plus P, divided by 6. That is 6 plus 40 plus 20, divided by 6, which equals 11. Standard deviation equals P minus O, divided by 6, or 14 divided by 6, which is 2.33."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Expected duration = 12 days; standard deviation = 3.50 days",
+        "trap": "This uses the simple average of the three estimates for duration and half the range for variability."
+      },
+      {
+        "text": "Expected duration = 10 days; standard deviation = 2.33 days",
+        "trap": "This uses the most likely estimate alone as the expected duration."
+      },
+      {
+        "text": "Expected duration = 11 days; standard deviation = 14 days",
+        "trap": "This forgets to divide the range by 6 when computing standard deviation."
+      },
+      {
+        "text": "Expected duration = 14 days; standard deviation = 2.00 days",
+        "trap": "This adds the estimates incorrectly and divides by the wrong value."
+      }
+    ],
+    "explanation": "PERT uses a weighted average that gives the most likely estimate four times the influence of the optimistic and pessimistic values. The standard deviation is based on the spread between pessimistic and optimistic estimates divided by 6. Common mistakes include using a plain average, using only the most likely estimate, or forgetting the division in the standard deviation formula.",
+    "references": [
+      "PMBOK Guide Sixth Edition, section 6.4 Estimate Activity Durations, three-point estimating",
+      "PMBOK Guide Seventh Edition, Planning Performance Domain, estimating discussion",
+      "The Standard for Project Management, sections addressing estimation and uncertainty in planning"
+    ],
+    "tags": [
+      "formulae",
+      "pert-expected-duration-and-standard-deviation"
+    ]
+  },
+  {
+    "id": "formulae-communication-channels-05",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Monitor Project Work / Manage Schedule and Budget",
+    "topic": "Formulae & Calculations",
+    "subtopic": "Communication channels",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project has 15 stakeholders who all need direct communication paths with one another. How many communication channels are there?",
+      "Using the communication-channels formula, how many channels exist among 15 people?"
+    ],
+    "correct": [
+      {
+        "text": "105",
+        "why": "The number of communication channels is n times n minus 1, divided by 2. With 15 people, that is 15 times 14 divided by 2, which equals 105."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "210",
+        "trap": "This applies n times n minus 1 without dividing by 2, double-counting each pair."
+      },
+      {
+        "text": "120",
+        "trap": "This multiplies n by n minus 1 incorrectly and does not apply the pair formula correctly."
+      },
+      {
+        "text": "91",
+        "trap": "This uses 14 people instead of 15, a common off-by-one mistake."
+      },
+      {
+        "text": "225",
+        "trap": "This squares the number of stakeholders instead of using the channel formula."
+      }
+    ],
+    "explanation": "Communication complexity rises quickly as stakeholder count increases because each new person can connect with all existing participants. The formula n times n minus 1 divided by 2 counts unique two-way channels. The most common mistake is forgetting to divide by 2, which counts A to B and B to A as separate channels.",
+    "references": [
+      "PMBOK Guide Sixth Edition, section 10.1 Plan Communications Management, communication channels",
+      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain, communication complexity considerations",
+      "The Standard for Project Management, stakeholder and communication considerations across performance domains"
+    ],
+    "tags": [
+      "formulae",
+      "communication-channels"
+    ]
+  }
+]

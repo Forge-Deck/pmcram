@@ -1,0 +1,206 @@
+[
+  {
+    "id": "benefits-value-benefits-management-plan",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Benefits management plan",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading implementation of a new customer self-service portal. The business case states that the project should reduce call center volume by 20 percent within six months after go-live. During execution, a senior stakeholder asks how the team will confirm whether the expected value is actually achieved. What should the project manager reference first?",
+      "A customer portal project was approved because it is expected to lower call center demand by 20 percent within six months after deployment. A stakeholder asks which document defines how that expected benefit will be measured and tracked. What should the project manager use?"
+    ],
+    "correct": [
+      {
+        "text": "The benefits management plan, because it defines the targeted benefits, measures, timing, and accountability for realizing value",
+        "why": "This plan explains how benefits will be measured, tracked, and transitioned to operational ownership so the organization can verify that value is achieved."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The risk register, because it contains the uncertainties that might affect post-deployment performance",
+        "trap": "Confuses risk monitoring with the formal approach for measuring and realizing benefits."
+      },
+      {
+        "text": "The issue log, because it documents operational problems that may reduce the realized value",
+        "trap": "Focuses on current problems instead of the planned framework for benefits measurement."
+      },
+      {
+        "text": "The stakeholder register, because it identifies who is interested in the outcome of the portal deployment",
+        "trap": "Identifies stakeholders but does not define benefit metrics or realization methods."
+      },
+      {
+        "text": "The scope baseline, because it confirms the portal features that were approved in the original plan",
+        "trap": "Mistakes delivery of outputs for confirmation of outcomes and value."
+      }
+    ],
+    "explanation": "In PMI terminology, the business case justifies the investment, but the benefits management plan describes how expected benefits will be realized, measured, and sustained. It typically includes target benefits, strategic alignment, metrics such as KPIs, timing, assumptions, and the parties responsible for ongoing monitoring. A scope baseline confirms deliverables, not whether the organization actually receives the intended business value after implementation.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Measurement and Benefits",
+      "The Standard for Benefits Realization Management A Practice Guide, section on benefits realization planning"
+    ],
+    "tags": [
+      "benefits-value",
+      "benefits-management-plan"
+    ]
+  },
+  {
+    "id": "benefits-value-benefits-owner",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Benefits owner",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project to automate invoice processing has completed deployment. The expected benefit is a 30 percent reduction in invoice cycle time during operations. Who should be primarily accountable for monitoring and reporting whether that benefit is actually realized after transition to operations?",
+      "After a finance automation project goes live, the organization needs someone to monitor and report whether the targeted reduction in invoice cycle time is achieved. According to PMI terminology, who has primary accountability for this?"
+    ],
+    "correct": [
+      {
+        "text": "The benefits owner, because this role is accountable for monitoring, measuring, evaluating, and reporting benefit progress",
+        "why": "The benefits owner carries ongoing accountability for ensuring the intended business benefit is tracked and reported after delivery."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The project coordinator, because this role supports documentation and reporting across the project life cycle",
+        "trap": "Assigns benefit accountability to an administrative support role."
+      },
+      {
+        "text": "The entire project team, because benefits realization is always a collective responsibility with no single owner",
+        "trap": "Ignores PMI emphasis on clear accountability for benefit realization."
+      },
+      {
+        "text": "The scrum master, because this role ensures value delivery through iterative team performance",
+        "trap": "Applies an agile team facilitation role to organizational benefit accountability."
+      },
+      {
+        "text": "The change control board, because it approves decisions that affect project outcomes",
+        "trap": "Confuses governance over changes with ownership of realized benefits."
+      }
+    ],
+    "explanation": "PMI distinguishes between delivering project outputs and realizing business benefits. Although the project manager and sponsor remain important, the benefits owner is the role specifically accountable for monitoring, measuring, evaluating, and reporting benefit progress. This is especially important because many benefits are realized after project completion, when operational adoption and performance management drive actual value.",
+    "references": [
+      "The Standard for Benefits Realization Management A Practice Guide, section on benefit owner responsibilities",
+      "PMBOK Guide Seventh Edition, section on delivering value and outcomes"
+    ],
+    "tags": [
+      "benefits-value",
+      "benefits-owner"
+    ]
+  },
+  {
+    "id": "benefits-value-financial-appraisal-and-value-delivery",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Financial appraisal and value delivery",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A company is choosing between two approved project options to replace aging warehouse equipment. Option A has a higher net present value but a longer payback period. Option B has a lower net present value but a faster payback. The organization states that maximizing long-term financial value is the primary selection criterion. Which option should the project manager recommend?",
+      "Two warehouse modernization options are being evaluated. One option produces the greater net present value but recovers the investment more slowly. The other pays back faster but creates less total financial value. If the business case prioritizes long-term value creation, what is the best recommendation?"
+    ],
+    "correct": [
+      {
+        "text": "Recommend the option with the higher net present value, because the stated priority is maximizing long-term financial value",
+        "why": "When long-term value creation is the main criterion, net present value is generally the stronger measure because it reflects the overall present value of expected cash flows."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Recommend the option with the shorter payback period, because faster recovery always means greater organizational value",
+        "trap": "Treats payback as universally superior even when strategic criteria prioritize total value."
+      },
+      {
+        "text": "Recommend the option with the lower initial cost, because minimizing spending is the most reliable way to improve return",
+        "trap": "Reduces investment appraisal to cost avoidance rather than value optimization."
+      },
+      {
+        "text": "Recommend delaying both options until the internal rate of return is exactly equal for each alternative",
+        "trap": "Assumes identical IRR values are required before a decision can be made."
+      },
+      {
+        "text": "Recommend the option with the highest number of deliverables, because more outputs usually produce more benefits",
+        "trap": "Confuses quantity of outputs with financial value realization."
+      }
+    ],
+    "explanation": "Projects should be evaluated against the criteria established in the business case and organizational strategy. If the organization explicitly prioritizes long-term financial value, the option with the higher net present value is the better recommendation because NPV estimates the present value of total expected returns. Payback period can still be useful for liquidity or risk considerations, but it does not measure total value as comprehensively as NPV.",
+    "references": [
+      "PMBOK Guide Seventh Edition, section on value delivery and business value",
+      "The Standard for Benefits Realization Management A Practice Guide, section on valuing and appraising benefits"
+    ],
+    "tags": [
+      "benefits-value",
+      "financial-appraisal-and-value-delivery"
+    ]
+  },
+  {
+    "id": "benefits-value-kpis-and-benefits-realization-monitoring",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "KPIs and benefits realization monitoring",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A healthcare organization launched a patient scheduling platform. Three months after go-live, adoption is high, but the expected reduction in missed appointments has not occurred. Which two actions should the project manager and benefits owner take first to evaluate and improve benefits realization?",
+      "A scheduling system is in use and user adoption metrics are positive, yet the targeted decline in missed appointments has not been achieved. Which two actions are most appropriate first steps to assess and improve realization of benefits?"
+    ],
+    "correct": [
+      {
+        "text": "Review the benefits management plan and validate whether the defined KPIs, assumptions, and measurement timing still reflect the intended business outcome",
+        "why": "This action confirms whether the organization is measuring the right benefit, at the right time, with valid assumptions."
+      },
+      {
+        "text": "Analyze operational data with the benefits owner to identify root causes and determine whether additional transition or adoption actions are needed to realize value",
+        "why": "Benefit shortfalls often require joint analysis of outcome data, operating conditions, and change adoption to close the gap between deployment and realized value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the project permanently and record the benefit as unrealized, because post-go-live results cannot be influenced by the team",
+        "trap": "Assumes benefits cannot be improved after initial deployment."
+      },
+      {
+        "text": "Add more product features immediately, because more functionality is the most direct way to increase value delivery",
+        "trap": "Jumps to scope expansion without validating the cause of the missed outcome."
+      },
+      {
+        "text": "Replace the project sponsor, because failure to achieve the KPI proves inadequate executive support",
+        "trap": "Assigns blame prematurely instead of using structured benefits analysis."
+      },
+      {
+        "text": "Stop measuring the missed appointments KPI and report only adoption rates, because user uptake is a sufficient indicator of value",
+        "trap": "Confuses an output or intermediate metric with the actual business outcome."
+      },
+      {
+        "text": "Escalate a formal change request to revise the entire project scope baseline before reviewing any operational data",
+        "trap": "Uses integrated change control before confirming whether the problem lies in measurement, operations, or adoption."
+      }
+    ],
+    "explanation": "High adoption does not necessarily mean the intended business benefit has been realized. PMI guidance emphasizes measuring outcomes and value, not just outputs or usage. The right first steps are to revisit the benefits management approach, including KPIs, assumptions, and timing, and to work with the benefits owner to analyze operational data for root causes. This supports corrective action focused on realizing the target outcome rather than reacting with premature scope changes or misleading reporting.",
+    "references": [
+      "The Standard for Benefits Realization Management A Practice Guide, section on monitoring and measuring benefits",
+      "PMBOK Guide Seventh Edition, section on Measurement Performance Domain and outcomes"
+    ],
+    "tags": [
+      "benefits-value",
+      "kpis-and-benefits-realization-monitoring"
+    ]
+  }
+]

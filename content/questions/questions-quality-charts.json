@@ -1,0 +1,214 @@
+[
+  {
+    "id": "quality-charts-pareto-chart-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Pareto chart",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager reviews defect data from final testing and wants to identify the small number of defect categories causing most of the rework so the team can prioritize improvement efforts. Which tool should the project manager use?",
+      "A team has many different defect types and needs a visual technique to show which few categories account for most of the problems. What is the best tool to select?"
+    ],
+    "correct": [
+      {
+        "text": "Pareto chart",
+        "why": "A Pareto chart ranks categories by frequency or impact so the team can see the vital few contributors that drive most defects or issues. It is the best choice when the task is prioritizing problem categories for corrective action."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Fishbone diagram",
+        "trap": "Confuses identifying likely causes with prioritizing categories by frequency or impact. A fishbone diagram explores possible causes but does not show which categories contribute the most."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Assumes any quality problem calls for process stability analysis. A control chart is for variation over time and whether a process is in control, not for ranking defect categories."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Mistakes a general frequency display for a prioritization tool. A histogram shows distribution, but it does not explicitly organize categories to highlight the vital few."
+      },
+      {
+        "text": "Scatter diagram",
+        "trap": "Assumes the team should look for correlation between variables. The problem is prioritization of defect categories, not relationship analysis."
+      },
+      {
+        "text": "PDCA cycle",
+        "trap": "Selects an improvement approach instead of the specific chart needed to analyze the data. PDCA guides improvement work but does not itself rank categories."
+      }
+    ],
+    "explanation": "The key clue is the need to identify the few categories causing most of the problems. That is the classic use of a Pareto chart, which helps focus attention on the highest-value improvement targets. Other quality tools may support later analysis, but they do not provide the same category-by-category prioritization for decision making.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including Pareto charts",
+      "The PMI Guide to Business Analysis, Figure 4-6 Pareto Diagram Sample Format"
+    ],
+    "tags": [
+      "quality-tools",
+      "pareto-chart"
+    ]
+  },
+  {
+    "id": "quality-charts-fishbone-diagram-structure-and-purpose-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Fishbone diagram structure and purpose",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During a quality workshop, a facilitator asks the team to place the problem statement at the head of a diagram and organize potential causes along major branches such as methods, materials, machines, and people. Which technique is being used?",
+      "A team is building a visual diagram with a central problem on the right and branching bones for categories of possible causes. What quality tool is this?"
+    ],
+    "correct": [
+      {
+        "text": "Fishbone diagram",
+        "why": "This diagram is structured with the problem at the head and cause categories along branching bones. Its purpose is to visually organize possible causes and subcauses so the team can explore why a problem may be occurring."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses a branching cause map with a ranked bar chart. Pareto charts prioritize categories by magnitude, not by causal structure."
+      },
+      {
+        "text": "Cause-and-effect diagram used specifically to select the most likely root cause immediately",
+        "trap": "Overreaches the diagram's purpose. The diagram structures possible causes first; it does not by itself prove which cause is the root cause without further analysis or evidence."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Mistakes a causal brainstorming diagram for a time-series stability chart. Control charts track performance variation over time."
+      },
+      {
+        "text": "Process flowchart",
+        "trap": "Assumes any visual process tool fits. A flowchart maps steps and decisions, whereas a fishbone organizes categories of causes around a problem."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Confuses a frequency distribution display with a cause-organizing diagram. Histograms do not show causal branches."
+      }
+    ],
+    "explanation": "This question tests recognition of the diagram's structure and intent rather than simple terminology. A fishbone diagram is the same family of tool as an Ishikawa or cause-and-effect diagram, but here the best cue is the visual arrangement of head, bones, categories, and subcauses. Its primary value is to organize possible causes clearly so the team can investigate systematically.",
+    "references": [
+      "The PMI Guide to Business Analysis, p. 70, fishbone diagram as a visual tool with the problem at the head and causes and subcauses on the bones",
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including cause-and-effect diagrams"
+    ],
+    "tags": [
+      "quality-tools",
+      "fishbone-diagram-structure-and-purpose"
+    ]
+  },
+  {
+    "id": "quality-charts-deming-pdca-cycle-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Deming PDCA cycle",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team has implemented a process change to reduce recurring defects. The project manager now wants the team to test the change, review the results, standardize what works, and repeat the cycle for continuous improvement. Which technique best fits this need?",
+      "Which approach should a project manager use when the goal is iterative continuous improvement through planning a change, trying it, checking outcomes, and acting on what is learned?"
+    ],
+    "correct": [
+      {
+        "text": "Deming's PDCA cycle",
+        "why": "PDCA is designed for continuous improvement through an iterative sequence of plan, do, check, and act. It is the best fit when the task is to refine a process by testing changes, evaluating results, and institutionalizing improvements."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses prioritizing issue categories with managing an iterative improvement loop. A Pareto chart can inform what to improve, but it is not the improvement cycle itself."
+      },
+      {
+        "text": "Fishbone diagram",
+        "trap": "Assumes root-cause brainstorming is the same as continuous improvement. A fishbone diagram helps identify possible causes, not manage the plan-do-check-act sequence."
+      },
+      {
+        "text": "Scatter diagram",
+        "trap": "Focuses on correlation between variables rather than structured iterative improvement. Correlation analysis does not provide the improvement cycle."
+      },
+      {
+        "text": "Check sheet",
+        "trap": "Mistakes a data collection form for a management technique. A check sheet supports measurement but does not guide improvement iterations."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Selects monitoring over improvement governance. A control chart helps determine process stability, but PDCA is the broader method for driving and refining change."
+      }
+    ],
+    "explanation": "The task described is not just analyzing a defect or displaying data. It is about repeatedly improving a process by planning a change, trying it, evaluating the results, and taking action based on evidence. That pattern aligns directly with Deming's PDCA cycle. Several other quality tools may be used within the cycle, but they do not replace the cycle itself.",
+    "references": [
+      "PMI quality management knowledgebase content describing PDCA as a continuous improvement and process refinement cycle",
+      "PMBOK Guide Sixth Edition, Section 8 Project Quality Management, continuous improvement context within quality management"
+    ],
+    "tags": [
+      "quality-tools",
+      "deming-pdca-cycle"
+    ]
+  },
+  {
+    "id": "quality-charts-cause-and-effect-diagram-for-root-cause-analysis-04",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Cause-and-effect diagram for root-cause analysis",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager knows which defect category is most significant and now needs the team to explore underlying reasons for that problem so they can perform root-cause analysis. Which tool should be selected?",
+      "After identifying the highest-impact defect, the team wants to investigate possible underlying causes in a structured way. What is the best tool to use for root-cause analysis?"
+    ],
+    "correct": [
+      {
+        "text": "Cause-and-effect diagram",
+        "why": "A cause-and-effect diagram is appropriate when the team needs to perform structured root-cause analysis by organizing possible causes and subcauses of a specific problem. It helps move from the symptom toward likely underlying causes that need further validation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Fishbone diagram",
+        "trap": "Tests whether the learner recognizes the synonym issue. Fishbone diagram is effectively the same tool, but this option may distract candidates who fail to notice that cause-and-effect and fishbone refer to the same diagram family."
+      },
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses selecting the biggest problem with investigating why that problem occurs. Pareto helps choose the priority issue, not diagnose its causes."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Assumes any quality chart can reveal causes. A histogram shows distribution of data, not causal relationships behind a selected defect."
+      },
+      {
+        "text": "PDCA cycle",
+        "trap": "Chooses a broad improvement method instead of the specific root-cause analysis tool needed at this step."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Mistakes process stability monitoring for causal diagnosis. Control charts indicate variation patterns over time but do not map possible causes of a specific issue."
+      }
+    ],
+    "explanation": "This question is about the task, not just the label. Once the team already knows which problem matters most, the next step is root-cause analysis. A cause-and-effect diagram is the best fit because it structures possible causes under a defined problem. The deliberate presence of fishbone as a distractor tests whether the learner understands that the terms overlap, while still focusing on selecting the tool for the root-cause purpose.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, cause-and-effect diagrams and root cause analysis",
+      "The PMI Guide to Business Analysis, p. 70, fishbone diagram described as a good starting point for root-cause analysis"
+    ],
+    "tags": [
+      "quality-tools",
+      "cause-and-effect-diagram-for-root-cause-analysis"
+    ]
+  }
+]

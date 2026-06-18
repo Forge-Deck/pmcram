@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pmcram.app/schema/glossary.schema.json",
+  "title": "PM Cram glossary term",
+  "description": "A glossary term. Glossary terms double as flashcards in the app: the Term is the card front, Core Meaning / Expansion is the back. Field names and order follow the established generation prompt. STRICT JSON — never place a double-quote inside a string value; use single quotes for any inner quoting.",
+  "type": "object",
+  "required": ["Term", "Core Meaning", "Depth", "Expansion", "Deep Dive", "Contrast", "Example", "Related Terms", "Tier", "Source"],
+  "additionalProperties": false,
+  "properties": {
+    "Term": { "type": "string", "description": "The glossary term. Natural key used to dedupe across files (case-insensitive)." },
+    "Core Meaning": { "type": "string", "description": "One sentence." },
+    "Depth": { "type": "string", "enum": ["Atomic", "Standard", "Foundational"] },
+    "Expansion": { "type": "string", "description": "Atomic ~2 sentences; Standard 3-5; Foundational a tight 3-4 sentence summary. Do not pad to length." },
+    "Deep Dive": {
+      "type": ["string", "null"],
+      "description": "null unless Depth is Foundational. If Foundational: 2-4 short paragraphs (what it is -> why it matters / where it applies -> the most common misconception -> how it shows up in real projects), separated by \\n\\n."
+    },
+    "Contrast": { "type": "string", "description": "The most commonly confused term + the distinction, in one line." },
+    "Example": { "type": "string", "description": "One concrete project example." },
+    "Related Terms": { "type": "array", "items": { "type": "string" } },
+    "Tier": { "type": "string", "enum": ["Core glossary", "Adjacent concept", "Practitioner term"] },
+    "Source": {
+      "type": "string",
+      "description": "Cite the specific PMI standard + term (and page where known). Use 'not a formal PMI glossary entry' ONLY for Practitioner-tier terms. A Core glossary term must have a real PMI source. Write the standard name and term plainly, with no quotation marks around the term."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "Depth": { "const": "Foundational" } } },
+      "then": { "properties": { "Deep Dive": { "type": "string" } } },
+      "else": { "properties": { "Deep Dive": { "type": "null" } } }
+    }
+  ]
+}

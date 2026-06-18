@@ -1,0 +1,399 @@
+[
+  {
+    "id": "manage-scope-wbs",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "WBS",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is planning a warehouse automation project. Stakeholders keep discussing detailed activities like coding and testing, but the sponsor wants a clearer view of the total approved work. What should the project manager create first to decompose the deliverables into manageable components?",
+      "During planning for a warehouse automation project, the sponsor asks for a hierarchical breakdown of all approved project work into manageable pieces. Which artifact should the project manager develop?"
+    ],
+    "correct": [
+      {
+        "text": "Create a work breakdown structure that hierarchically decomposes the total project scope into work packages",
+        "why": "A WBS is the standard PMI artifact used to break down the total scope of work into smaller, manageable components."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Create an activity list that sequences all tasks in the order they will occur",
+        "trap": "Confuses scope decomposition with schedule development."
+      },
+      {
+        "text": "Create a stakeholder register to document who requested each deliverable",
+        "trap": "Focuses on stakeholder identification, not decomposition of scope."
+      },
+      {
+        "text": "Create a risk register to capture uncertainties related to each feature",
+        "trap": "Treats scope definition as a risk management activity."
+      },
+      {
+        "text": "Create a communications management plan to align stakeholder expectations",
+        "trap": "Addresses communication needs rather than defining total project work."
+      }
+    ],
+    "explanation": "The WBS is the appropriate tool for decomposing the total approved project scope into smaller components called work packages. It supports planning, estimating, assigning ownership, and later monitoring and controlling scope. An activity list belongs to scheduling, while the other options are useful project artifacts but do not define the full scope structure.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, 6th ed., Project Scope Management, Create WBS",
+      "PMI, PMI Knowledge Base, Work breakdown structure"
+    ],
+    "tags": [
+      "manage-scope",
+      "wbs"
+    ]
+  },
+  {
+    "id": "manage-scope-product-scope-vs-project-scope",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Product scope vs project scope",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team is defining scope for a mobile banking application. Stakeholders disagree about whether biometric login, customer training, and internal rollout support belong in scope. Which statement best distinguishes product scope from project scope?",
+      "While planning a mobile banking project, the project manager needs to explain the difference between product scope and project scope. Which statement is correct?"
+    ],
+    "correct": [
+      {
+        "text": "Product scope describes the features and functions of the product, while project scope describes the work required to deliver that product",
+        "why": "PMI distinguishes what the product is from the work the project must perform to create it."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Product scope and project scope are interchangeable because both define stakeholder expectations",
+        "trap": "Ignores the PMI distinction between the deliverable characteristics and the work to produce them."
+      },
+      {
+        "text": "Product scope is approved by the team, while project scope is approved only by the sponsor",
+        "trap": "Mistakes governance ownership for conceptual definition."
+      },
+      {
+        "text": "Product scope applies only to agile projects, while project scope applies only to predictive projects",
+        "trap": "Incorrectly links the concepts to life cycle types."
+      },
+      {
+        "text": "Product scope defines the WBS, while project scope defines acceptance criteria only",
+        "trap": "Reverses and oversimplifies the relationship among scope artifacts."
+      }
+    ],
+    "explanation": "Product scope refers to the characteristics, functions, and features of the product, service, or result. Project scope refers to all the work the project team must perform to deliver that product. Distinguishing the two helps prevent confusion during planning, especially when stakeholders discuss both solution features and implementation work in the same conversation.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, 6th ed., Project Scope Management overview",
+      "PMI, PMI Knowledge Base, Requirements"
+    ],
+    "tags": [
+      "manage-scope",
+      "product-scope-vs-project-scope"
+    ]
+  },
+  {
+    "id": "manage-scope-requirements-prioritization-with-moscow",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Requirements prioritization with MoSCoW",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is collecting requirements for an enterprise reporting system. Several stakeholders propose more ideas than the budget can support, and the sponsor asks the team to classify needs so the minimum viable release can be approved. Which technique is most appropriate?",
+      "During scope planning for a reporting system, the sponsor wants requirements grouped into Must have, Should have, Could have, and Will not have categories for the release. Which approach should the project manager use?"
+    ],
+    "correct": [
+      {
+        "text": "Use MoSCoW prioritization to classify requirements by relative necessity for the release",
+        "why": "MoSCoW is a prioritization technique that separates essential requirements from lower priority ones for planning and decision making."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use a WBS to rank requirements by stakeholder influence",
+        "trap": "Uses a decomposition artifact for prioritization, which is not its purpose."
+      },
+      {
+        "text": "Use validate scope to determine which requirements are mandatory before planning begins",
+        "trap": "Confuses acceptance of completed deliverables with prioritizing requirements."
+      },
+      {
+        "text": "Use control scope to assign each requirement to a work package before approval",
+        "trap": "Applies a monitoring and change control process during early prioritization."
+      },
+      {
+        "text": "Use gold plating to add highly desired features and increase sponsor satisfaction",
+        "trap": "Treats unauthorized enhancement as a valid prioritization method."
+      }
+    ],
+    "explanation": "MoSCoW is used to prioritize requirements into categories such as Must have, Should have, Could have, and Will not have. It is especially useful when demand exceeds time or budget and the team needs a shared basis for deciding what is essential in scope. The other options either misuse PMI processes or describe poor scope discipline.",
+    "references": [
+      "PMI, Business Analysis for Practitioners, requirements prioritization techniques",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, 6th ed., Collect Requirements"
+    ],
+    "tags": [
+      "manage-scope",
+      "requirements-prioritization-with-moscow"
+    ]
+  },
+  {
+    "id": "manage-scope-validate-scope-vs-control-scope",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Validate scope vs control scope",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor formally accepted a prototype at the end of an iteration. Two weeks later, the team discovers that a newly requested dashboard is not part of the approved scope baseline. Which action belongs to control scope rather than validate scope?",
+      "In a hybrid project, the customer has already accepted a completed deliverable. A new requested dashboard feature now appears outside the approved baseline. What should the project manager do as part of control scope?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the requested dashboard against the approved scope baseline and process it through integrated change control",
+        "why": "Control scope focuses on monitoring scope status and managing changes to the scope baseline."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Obtain formal signoff for the already accepted prototype deliverable from the sponsor again",
+        "trap": "Repeats validate scope instead of handling a proposed scope change."
+      },
+      {
+        "text": "Ask the team to build the dashboard immediately to maintain customer satisfaction",
+        "trap": "Allows scope creep by implementing unapproved work."
+      },
+      {
+        "text": "Reject the dashboard request because accepted deliverables can no longer be changed",
+        "trap": "Assumes accepted scope can never be modified through formal change control."
+      },
+      {
+        "text": "Move the dashboard into the quality management plan because it affects usability",
+        "trap": "Misclassifies a scope change as a quality planning issue."
+      }
+    ],
+    "explanation": "Validate scope is the process of formalizing acceptance of completed deliverables. Control scope is different: it monitors project and product scope status and manages changes to the scope baseline. Once a new dashboard is requested outside the approved baseline, the project manager should evaluate the request and route it through the established change control process rather than treat it as acceptance work.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, 6th ed., Validate Scope",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide, 6th ed., Control Scope",
+      "PMI, PMI Knowledge Base, Validate scope"
+    ],
+    "tags": [
+      "manage-scope",
+      "validate-scope-vs-control-scope"
+    ]
+  },
+  {
+    "id": "manage-scope-scope-creep-and-integrated-change-control",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Scope creep and integrated change control",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a software implementation. Several stakeholders keep proposing small enhancements during sprint reviews, saying they are minor and can be added quickly. The team has started adding a few of these requests without formal evaluation. What should the project manager do first?",
+      "During execution of a software implementation project, stakeholders suggest small enhancements and the team begins adding them informally because they seem easy. What is the project manager's best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Require the requested enhancements to be submitted through the formal change control process so their impact on scope, schedule, cost, and quality can be assessed",
+        "why": "This is correct because unauthorized additions to approved work are scope creep and must be evaluated through formal change control before inclusion in the project."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Allow the team to add the enhancements if they do not affect the critical path",
+        "trap": "Assumes schedule impact alone determines whether scope may change, ignoring the approved baseline and integrated impact analysis"
+      },
+      {
+        "text": "Ask the sponsor to approve all future enhancement requests verbally to save time",
+        "trap": "Treats informal sponsor approval as sufficient and bypasses the defined change control system"
+      },
+      {
+        "text": "Add the enhancements to the issue log and continue work because stakeholders requested them",
+        "trap": "Confuses issue tracking with authorization to alter approved scope"
+      },
+      {
+        "text": "Direct the team to implement only enhancements that improve customer satisfaction",
+        "trap": "Allows subjective additions outside approved scope and encourages unmanaged expansion"
+      }
+    ],
+    "explanation": "The scenario describes uncontrolled expansion of approved work. In PMI terms, once scope is baselined, proposed additions must be reviewed through the project change control process to determine effects on project objectives and other baselines. The key first step is not to judge whether the request seems small, valuable, or easy, but to ensure it is formally assessed and approved before implementation.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Performance Domain on Planning and Uncertainty, change and adaptation concepts",
+      "PMBOK Guide Sixth Edition, Project Scope Management, Control Scope section",
+      "PMBOK Guide Sixth Edition, Perform Integrated Change Control section"
+    ],
+    "tags": [
+      "manage-scope",
+      "scope-creep-and-integrated-change-control"
+    ]
+  },
+  {
+    "id": "manage-scope-acceptance-criteria-in-scope-definition",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Acceptance criteria in scope definition",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A construction project has detailed requirements documentation, but the client later says one completed deliverable does not meet expectations because the finish quality is not what they had in mind. Which scope-related artifact should have been defined more clearly to prevent this dispute?",
+      "On a construction project, a customer rejects a completed deliverable even though the documented requirements were implemented. The disagreement centers on whether the deliverable is acceptable. What should have been clarified earlier?"
+    ],
+    "correct": [
+      {
+        "text": "The acceptance criteria for the deliverable",
+        "why": "This is correct because acceptance criteria define the conditions that must be met for a deliverable to be formally accepted and reduce ambiguity about expected results."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The stakeholder engagement assessment matrix",
+        "trap": "Addresses stakeholder support levels rather than the measurable basis for accepting a deliverable"
+      },
+      {
+        "text": "The resource breakdown structure",
+        "trap": "Focuses on categorizing resources and has no direct role in defining deliverable acceptability"
+      },
+      {
+        "text": "The communications management plan",
+        "trap": "Improves information flow but does not establish the objective standards for acceptance"
+      },
+      {
+        "text": "The milestone list",
+        "trap": "Identifies major points in time but not the conditions required for deliverable approval"
+      }
+    ],
+    "explanation": "When stakeholders disagree over whether a completed deliverable is acceptable, the missing or weak element is often acceptance criteria. Requirements may describe features or needs, but acceptance criteria specify how fulfillment will be judged. Clear acceptance criteria create a shared standard for review, support formal acceptance, and reduce subjective interpretation late in the project.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Scope Management, Collect Requirements section",
+      "PMBOK Guide Sixth Edition, Project Scope Management, Define Scope section",
+      "Business Analysis for Practitioners, requirements and acceptance evaluation concepts"
+    ],
+    "tags": [
+      "manage-scope",
+      "acceptance-criteria-in-scope-definition"
+    ]
+  },
+  {
+    "id": "manage-scope-requirements-traceability-matrix",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Requirements traceability matrix",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager inherits a large engineering project. The scope statement is approved, but several teams are interpreting the same requirements differently and building inconsistent deliverables. Which tool would best help ensure each requirement is linked to business need, deliverables, and verification results throughout the project?",
+      "On a complex engineering project, teams are producing inconsistent outputs because requirements are being interpreted differently. What should the project manager use to connect each requirement to its source, related deliverables, and validation status?"
+    ],
+    "correct": [
+      {
+        "text": "A requirements traceability matrix",
+        "why": "This is correct because the matrix traces each requirement from origin through implementation and verification, helping maintain alignment and supporting scope control."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A stakeholder register",
+        "trap": "Identifies stakeholders and their characteristics but does not track fulfillment of individual requirements"
+      },
+      {
+        "text": "A risk register",
+        "trap": "Captures threats and opportunities rather than mapping requirements to deliverables and tests"
+      },
+      {
+        "text": "A network diagram",
+        "trap": "Shows activity sequencing, not requirement origin, ownership, and verification"
+      },
+      {
+        "text": "A lessons learned register",
+        "trap": "Captures knowledge for improvement but is not the primary mechanism for tracing requirement implementation"
+      }
+    ],
+    "explanation": "A requirements traceability matrix is used to maintain visibility from each requirement's origin to the work product and verification evidence associated with it. It is especially valuable on complex projects where multiple teams may interpret requirements differently. By linking requirements to business objectives, deliverables, owners, and status, the project manager can detect gaps, prevent overlooked work, and support impact analysis when changes are proposed.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Scope Management, Collect Requirements section",
+      "PMBOK Guide Sixth Edition, Project Scope Management, Control Scope section",
+      "Business Analysis for Practitioners, traceability and requirements life cycle concepts"
+    ],
+    "tags": [
+      "manage-scope",
+      "requirements-traceability-matrix"
+    ]
+  },
+  {
+    "id": "manage-scope-progressive-elaboration-and-rolling-wave-planning",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Scope",
+    "topic": "Plan and Manage Scope",
+    "subtopic": "Progressive elaboration and rolling wave planning",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project to modernize a call center is planned over 24 months. The near-term work is well understood, but later phases depend on vendor interfaces that are still being defined. How should the project manager plan the scope for the later phases?",
+      "In a long project, the early work can be defined in detail but future deliverables depend on information that is not yet available. What is the best approach for planning scope in the later phases?"
+    ],
+    "correct": [
+      {
+        "text": "Plan near-term scope in detail and keep later-phase scope at a higher level until more information is available, then elaborate it progressively",
+        "why": "This is correct because rolling wave planning allows the project team to define work progressively as uncertainty is reduced while still maintaining controlled planning."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Freeze the full detailed scope immediately so all teams can begin work under one complete baseline",
+        "trap": "Assumes uncertain future work should be decomposed in full despite insufficient information, creating rework and false precision"
+      },
+      {
+        "text": "Delay all scope planning until vendor interfaces are fully defined",
+        "trap": "Treats uncertainty as a reason to stop planning altogether instead of planning at an appropriate level of detail"
+      },
+      {
+        "text": "Ask each functional manager to define later work independently and consolidate it at project closeout",
+        "trap": "Removes integrated planning and delays alignment until too late"
+      },
+      {
+        "text": "Use only the schedule management plan to manage future uncertainty because scope planning is already complete",
+        "trap": "Confuses schedule planning with the ongoing elaboration of project scope"
+      }
+    ],
+    "explanation": "When future work cannot yet be fully defined, PMI practice supports progressive elaboration through rolling wave planning. The project manager should maintain enough approved scope direction to govern the project while detailing near-term work and deferring fine-grained definition of later work until information is available. This balances control with realism and helps avoid baselining speculative detail that will likely change.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Develop Schedule section, rolling wave planning",
+      "PMBOK Guide Sixth Edition, Project Scope Management, Define Scope section",
+      "PMBOK Guide Seventh Edition, Planning Performance Domain"
+    ],
+    "tags": [
+      "manage-scope",
+      "progressive-elaboration-and-rolling-wave-planning"
+    ]
+  }
+]

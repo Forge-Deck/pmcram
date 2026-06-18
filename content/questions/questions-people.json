@@ -1,0 +1,90 @@
+[
+  {
+    "id": "people-0001",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Promote Team Performance Through the Application of Emotional Intelligence",
+    "topic": "Team performance",
+    "subtopic": "Underperformance",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During project execution, the project manager realizes that a team member is not completing tasks in accordance with the project management plan. What is the first action the project manager should take?",
+      "A team member's deliverables are repeatedly out of line with the plan. What should the project manager do first?"
+    ],
+    "correct": [
+      {
+        "text": "Engage the team member to determine the reasons for poor performance",
+        "why": "Understanding the cause through direct, supportive engagement is the foundation for any effective corrective action."
+      }
+    ],
+    "distractors": [
+      { "text": "Reassign the uncompleted tasks to another team member", "trap": "Treats the symptom and adds load elsewhere without addressing the cause." },
+      { "text": "Ask all team members to focus more on the project", "trap": "Broad and impersonal; ignores the specific individual situation." },
+      { "text": "Build a matrix team to review relationships across all teams", "trap": "There is no indication the structure is the problem — over-engineered response." }
+    ],
+    "explanation": "The PM should first identify the change in the individual's behaviour and engage them to find the cause before deciding on corrective action.",
+    "references": ["PMBOK Guide Seventh Edition — 2.2 Team Performance Domain"],
+    "tags": ["emotional-intelligence", "performance", "conflict"]
+  },
+  {
+    "id": "people-0002",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Promote Team Performance Through the Application of Emotional Intelligence",
+    "topic": "Motivation",
+    "subtopic": "Demotivated senior member",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A senior team member who was influential on past projects no longer plays a crucial role on this project and has become demotivated. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Arrange a one-on-one meeting with the team member",
+        "why": "A private feedback session lets the PM understand the individual's concerns and rebuild motivation through relationship and informal influence."
+      }
+    ],
+    "distractors": [
+      { "text": "Provide incentives to increase motivation", "trap": "Addresses a symptom with reward before understanding the underlying concern." },
+      { "text": "Arrange a team meeting to discuss ways of increasing motivation", "trap": "A group setting is the wrong place for an individual, personal motivation issue." },
+      { "text": "Ask the functional manager to speak with the team member", "trap": "Delegates the relationship the PM should build directly." }
+    ],
+    "explanation": "Soft skills and informal networks matter more than formal structure here; a one-on-one feedback session is the most effective first step.",
+    "references": ["PMBOK Guide Sixth Edition — Section 3", "PMBOK Guide Seventh Edition — 2.2 Team Performance Domain"],
+    "tags": ["motivation", "one-on-one", "leadership"]
+  },
+  {
+    "id": "people-0003",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change / Cross-cultural Management",
+    "topic": "Culture",
+    "subtopic": "Global directives",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager runs projects in five countries and issues a new directive on workplace attire and office arrangements. It is resisted in three countries, causing misunderstandings, resentment, and potential legal issues. What should the project manager have done?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluated the cultural norms and values of the various countries before issuing a general directive",
+        "why": "Cultural norms vary widely; assessing them first lets the PM tailor the directive and avoid offence or legal exposure."
+      }
+    ],
+    "distractors": [
+      { "text": "Asked senior management for clarity and exceptions before issuing the directive", "trap": "May help in some cases but does not address the core cultural-fit problem." },
+      { "text": "Determined the socioeconomic status of team members first", "trap": "Socioeconomic status is not the relevant variable for attire/office norms." },
+      { "text": "Obtained a list of personal preferences from team members first", "trap": "Individual preferences are not the same as cultural norms and values." }
+    ],
+    "explanation": "Project managers working across regions must account for cultural differences; evaluating cultural norms and values first is the most appropriate approach.",
+    "references": ["PMBOK Guide Seventh Edition — 2.4 Planning Performance Domain"],
+    "tags": ["cross-cultural", "stakeholders", "ethics"]
+  }
+]

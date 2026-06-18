@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pmcram.app/schema/deck.schema.json",
+  "title": "PM Cram flashcard (custom deck)",
+  "description": "A standalone flashcard for content that is not a glossary term (e.g. formulas, mnemonics). Glossary terms do NOT need this — they render as flashcards automatically.",
+  "type": "object",
+  "required": ["id", "deck", "front", "back"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "schema": { "type": "string", "const": "card/v1" },
+    "deck": { "type": "string", "description": "Deck name this card belongs to." },
+    "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },
+    "topic": { "type": "string" },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "front": { "type": "string", "description": "Prompt side." },
+    "back": { "type": "string", "description": "Answer side." },
+    "related": { "type": "array", "items": { "type": "string" } },
+    "source": { "type": "string" },
+    "contributor": { "type": "string" }
+  }
+}

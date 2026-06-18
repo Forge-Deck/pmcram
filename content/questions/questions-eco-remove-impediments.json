@@ -1,0 +1,430 @@
+[
+  {
+    "id": "remove-impediments-daily-standup-blocker-removal",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Daily standup blocker removal",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During the daily standup, a developer says a test environment outage is preventing completion of a committed story. As the project manager using a servant leadership approach, what should you do first?",
+      "At the daily standup, a team member reports that an unavailable test environment is blocking progress on a planned user story. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Capture the blocker in the impediment log, confirm its impact, and work immediately with the environment support group to restore access or provide an alternative path",
+        "why": "This addresses the blocker promptly, makes the impediment visible, and reflects servant leadership by unblocking the team rather than waiting for the next reporting cycle"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask the developer to continue working independently until the next standup and revisit the issue if it still exists",
+        "trap": "Assumes blockers should be monitored passively instead of actively removed when they threaten committed work"
+      },
+      {
+        "text": "Document the issue in the lessons learned register for discussion during project closing",
+        "trap": "Confuses immediate impediment management with retrospective organizational learning"
+      },
+      {
+        "text": "Escalate the outage to the sponsor immediately before gathering any details from the team",
+        "trap": "Uses escalation too early without first assessing impact and attempting resolution at the appropriate level"
+      },
+      {
+        "text": "Reassign the blocked story to another developer while keeping the same sprint commitment unchanged",
+        "trap": "Treats the symptom as a staffing issue even though the underlying technical blocker affects the work itself"
+      }
+    ],
+    "explanation": "The best first action is to make the blocker transparent in the impediment log, understand the immediate effect on the team's commitment, and take direct action to remove or mitigate it. PMI-aligned servant leadership emphasizes enabling team performance, especially when blockers arise during daily coordination. Escalation is appropriate only if normal channels cannot resolve the issue in time.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain",
+      "Agile Practice Guide, section on servant leadership and impediment removal",
+      "PMP Examination Content Outline, People domain, task Address and Remove Impediments, Obstacles, and Blockers for the Team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "daily-standup-blocker-removal"
+    ]
+  },
+  {
+    "id": "remove-impediments-managing-external-dependencies",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Managing external dependencies",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A cross-functional agile team has reported the same external dependency blocker in three consecutive standups. The vendor team has not delivered an interface needed for integration testing. What should the project manager do next?",
+      "For three daily standups in a row, the team has reported that a vendor-owned interface is still unavailable and integration testing cannot proceed. What is the most appropriate next action?"
+    ],
+    "correct": [
+      {
+        "text": "Review the dependency and impediment log, engage the vendor counterpart and internal owner to obtain a committed delivery date, and escalate through defined channels if the blocker remains unresolved",
+        "why": "This manages the dependency actively, uses transparent tracking, and applies escalation only after direct coordination on the unresolved blocker"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Remove the item from the current iteration scope without informing stakeholders because the issue is outside the team's control",
+        "trap": "Assumes external blockers justify unilateral scope changes without coordinated decision making"
+      },
+      {
+        "text": "Instruct the team to stop raising the issue in standups until the vendor responds to avoid repetition",
+        "trap": "Suppresses visibility of an active blocker instead of managing it"
+      },
+      {
+        "text": "Replace the vendor immediately without reviewing contract, impact, or governance requirements",
+        "trap": "Jumps to a major procurement decision without proper analysis or authority"
+      },
+      {
+        "text": "Wait until the iteration review to explain why integration testing could not start",
+        "trap": "Delays action and transparency on a known impediment"
+      }
+    ],
+    "explanation": "Repeated blockers tied to external dependencies require active coordination, clear ownership, and timely escalation when direct resolution is ineffective. The project manager should use the dependency and impediment records to drive follow-through, align accountable parties, and protect team flow. Simply waiting, hiding the issue, or making unauthorized scope or vendor changes is inconsistent with effective blocker removal.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Stakeholders and Team Performance domains",
+      "Agile Practice Guide, section on working with external dependencies and impediments",
+      "PMP Examination Content Outline, People domain, task Address and Remove Impediments, Obstacles, and Blockers for the Team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "managing-external-dependencies"
+    ]
+  },
+  {
+    "id": "remove-impediments-escalation-of-organizational-blockers",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Escalation of organizational blockers",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A senior architect from another department repeatedly redirects team members to lower-priority work, preventing progress on critical deliverables. The team has raised the issue several times. What should the project manager do?",
+      "Team members report that a functional manager from another area keeps pulling them into unrelated urgent work, creating ongoing blockers to committed project deliverables. What is the best response by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Clarify priorities and team working agreements with the architect and functional leadership, document the recurring impediment and its impact, and escalate through governance if the conflict is not resolved",
+        "why": "This addresses the root organizational blocker, protects the team, and uses escalation appropriately after direct alignment efforts"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Advise the team to work extra hours so both sets of requests can be completed",
+        "trap": "Normalizes overwork instead of removing the blocker and protecting sustainable pace"
+      },
+      {
+        "text": "Tell team members to ignore the architect's requests without informing anyone else",
+        "trap": "Encourages conflict escalation through informal resistance rather than structured resolution"
+      },
+      {
+        "text": "Record the issue as a risk and monitor it for another iteration before taking action",
+        "trap": "Treats an active impediment as a future uncertainty"
+      },
+      {
+        "text": "Replace the affected team members with contractors to avoid the resource conflict",
+        "trap": "Focuses on substitution rather than resolving the systemic organizational issue"
+      }
+    ],
+    "explanation": "When blockers arise from organizational priority conflicts, the project manager should act as a servant leader and system navigator by protecting the team, aligning stakeholders, and using formal escalation if direct resolution fails. This is more effective than asking the team to absorb the problem through overtime or avoidance. Active impediments should be managed as present constraints with visible impact.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance and Stakeholders domains",
+      "Agile Practice Guide, section on servant leadership and organizational impediments",
+      "PMP Examination Content Outline, People domain, task Address and Remove Impediments, Obstacles, and Blockers for the Team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "escalation-of-organizational-blockers"
+    ]
+  },
+  {
+    "id": "remove-impediments-dependency-and-resource-unblocking",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Dependency and resource unblocking",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project team is blocked because two shared specialists are assigned across multiple initiatives, and work cannot proceed in sequence as planned. Which two actions should the project manager take?",
+      "Critical activities are stalled because specialized resources are shared with other projects and predecessor work cannot finish on time. What two actions best help remove the blockers?"
+    ],
+    "correct": [
+      {
+        "text": "Visualize the resource and task dependencies, then work with the relevant managers to resequence or reprioritize work based on project value and constraint impact",
+        "why": "This targets the root cause by making dependencies transparent and coordinating decisions that unblock constrained work"
+      },
+      {
+        "text": "Document the blocker and response plan in the impediment log, then monitor ownership and due dates until the constraint is resolved",
+        "why": "This creates accountability and ensures the blocker is actively managed rather than informally discussed and forgotten"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Direct the team to start all downstream tasks in parallel regardless of unresolved predecessors",
+        "trap": "Ignores logical dependencies and increases rework risk"
+      },
+      {
+        "text": "Freeze communication with the resource managers until the current iteration ends so the team can focus",
+        "trap": "Reduces coordination when more coordination is needed to remove the blocker"
+      },
+      {
+        "text": "Move all delayed activities to the end of the schedule baseline without reassessing outcomes or critical path effects",
+        "trap": "Performs administrative rescheduling without solving the cause of the impediment"
+      },
+      {
+        "text": "Ask the specialists to divide their time equally across every project to appear fair",
+        "trap": "Confuses fairness with value-based prioritization and may worsen delays"
+      },
+      {
+        "text": "Escalate to the sponsor immediately and stop local coordination efforts",
+        "trap": "Skips appropriate first-level resolution among accountable managers and teams"
+      }
+    ],
+    "explanation": "Complex blockers involving shared resources and dependencies require visibility, coordination, and disciplined follow-up. The project manager should first make the constraints explicit, collaborate with decision makers to resequence or reprioritize based on value and impact, and maintain the impediment log so ownership is clear and progress is tracked. Actions that ignore dependencies or rely on premature escalation do not remove the real blocker.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Planning Performance and Team Performance domains",
+      "Agile Practice Guide, section on constraints, flow, and impediment management",
+      "PMP Examination Content Outline, People domain, task Address and Remove Impediments, Obstacles, and Blockers for the Team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "dependency-and-resource-unblocking"
+    ]
+  },
+  {
+    "id": "remove-impediments-psychological-safety-for-surfacing-impediments",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Psychological safety for surfacing impediments",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A newly formed agile team rarely raises issues until deadlines are at risk. During a sprint review, several team members admit they stayed silent about testing delays because they feared blame. What should the project manager do first to better address and remove future impediments?",
+      "On a project using an agile approach, team members are withholding blocker information because they fear negative reactions. What is the most appropriate first action by the project manager to improve impediment removal?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a team conversation to establish working agreements that encourage transparent reporting of impediments without blame",
+        "why": "This strengthens psychological safety and creates a team norm that allows impediments to be surfaced early, which is a prerequisite to removing them effectively."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require all impediments to be reported only through the functional managers",
+        "trap": "Adds hierarchy and delay instead of enabling direct team transparency."
+      },
+      {
+        "text": "Privately document the issue and wait until the next phase gate to address the behavior",
+        "trap": "Delays action on a current team impediment pattern."
+      },
+      {
+        "text": "Reassign team members who did not raise concerns early enough",
+        "trap": "Uses punishment rather than servant leadership and worsens fear."
+      },
+      {
+        "text": "Create a more detailed schedule baseline so blockers become easier to identify later",
+        "trap": "Improves planning detail but does not address the root cause of silence."
+      },
+      {
+        "text": "Ask the sponsor to remind the team that missed issues will affect performance reviews",
+        "trap": "Increases pressure and reduces openness."
+      }
+    ],
+    "explanation": "The immediate issue is not the testing delay itself but the team environment that prevented early disclosure. PMI guidance emphasizes servant leadership, team agreements, and a safe environment where impediments can be raised quickly and addressed collaboratively. Establishing or reinforcing working agreements is the best first step because it addresses the behavioral root cause and improves the team's ability to identify and remove blockers going forward.",
+    "references": [
+      "PMI, Agile Practice Guide, section on servant leadership and team environment",
+      "PMI, Process Groups A Practice Guide, section on team ground rules",
+      "PMI, PMBOK Guide Seventh Edition, section on team and stakeholder interactions"
+    ],
+    "tags": [
+      "remove-impediments",
+      "psychological-safety-for-surfacing-impediments"
+    ]
+  },
+  {
+    "id": "remove-impediments-resolving-decision-ambiguity-blocking-team-progress",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Resolving decision ambiguity blocking team progress",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A cross functional project team keeps losing time because two senior specialists give conflicting technical direction. Team members are unsure whose guidance to follow and work stops while they wait for clarification. What should the project manager do first?",
+      "Work on a project has slowed because experts are giving inconsistent instructions, creating confusion and hesitation across the team. What is the best first action for the project manager to remove this blocker?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate alignment between the specialists and clarify decision rights so the team has one clear path forward",
+        "why": "The blocker is conflicting authority and unclear ownership. Clarifying decision rights and aligning the specialists removes the confusion that is stopping work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Allow the team to choose whichever direction appears faster so delivery can resume immediately",
+        "trap": "May increase rework because the root conflict remains unresolved."
+      },
+      {
+        "text": "Escalate the disagreement to the sponsor before attempting team level resolution",
+        "trap": "Skips appropriate facilitation and uses escalation too early."
+      },
+      {
+        "text": "Add both technical approaches to the backlog for later comparison",
+        "trap": "Defers a blocker that is already halting execution."
+      },
+      {
+        "text": "Update the risk register and continue work according to the original plan",
+        "trap": "Documents the issue without actually removing the obstacle."
+      },
+      {
+        "text": "Ask each specialist to coach the team separately on their preferred solution",
+        "trap": "Intensifies ambiguity instead of creating one accountable direction."
+      }
+    ],
+    "explanation": "When conflicting guidance causes work to stall, the project manager should first act as a facilitator and servant leader by bringing the relevant parties together, resolving the conflict, and clarifying who has decision authority. PMI practice favors addressing blockers at the lowest effective level before escalating. Removing ambiguity restores flow, reduces wasted effort, and helps the team move forward with confidence.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, section on leadership and team performance",
+      "PMI, Agile Practice Guide, section on servant leadership and facilitation",
+      "PMI, Process Groups A Practice Guide, section on manage team and ground rules"
+    ],
+    "tags": [
+      "remove-impediments",
+      "resolving-decision-ambiguity-blocking-team-progress"
+    ]
+  },
+  {
+    "id": "remove-impediments-definition-of-ready-and-backlog-quality-as-blocker-prevention",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Definition of ready and backlog quality as blocker prevention",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A delivery team repeatedly discovers late in the iteration that user stories cannot be completed because acceptance criteria were too vague. The issue is appearing across several sprints and is now a recurring blocker. Which two actions should the project manager take?",
+      "The team is frequently blocked because work enters execution without sufficiently clear acceptance criteria, causing rework and delays. What two actions best address this impediment pattern?"
+    ],
+    "correct": [
+      {
+        "text": "Work with the product owner and team to refine backlog items and define clearer entry criteria before work begins",
+        "why": "Improving backlog quality and establishing entry criteria reduces preventable blockers caused by unclear scope and expectations."
+      },
+      {
+        "text": "Capture the recurring issue in an impediment log and inspect the pattern during retrospectives to drive corrective action",
+        "why": "This treats the problem as a systemic impediment rather than a one time event and supports continuous improvement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Instruct the team to start all stories sooner so ambiguity is discovered earlier",
+        "trap": "Starts work faster without improving readiness or clarity."
+      },
+      {
+        "text": "Move unclear stories to the end of the release and continue with partially defined work",
+        "trap": "Avoids the issue temporarily instead of fixing the cause."
+      },
+      {
+        "text": "Have the scrum master independently rewrite all acceptance criteria without team involvement",
+        "trap": "Treats a collaborative quality problem as an individual administrative task."
+      },
+      {
+        "text": "Increase management reporting frequency on blocked stories",
+        "trap": "Adds oversight but does not improve story readiness."
+      },
+      {
+        "text": "Extend iteration length so the team has more time to interpret requirements",
+        "trap": "Uses schedule expansion instead of removing the blocker source."
+      }
+    ],
+    "explanation": "A recurring impediment caused by vague acceptance criteria is best addressed through prevention and continuous improvement. PMI aligned agile practice emphasizes collaboration between the team and product owner to improve backlog readiness, as well as using retrospectives and impediment tracking to identify patterns and implement corrective actions. These actions remove the root cause of recurring blockers rather than merely coping with their symptoms.",
+    "references": [
+      "PMI, Agile Practice Guide, section on backlog refinement and retrospectives",
+      "PMI, PMBOK Guide Seventh Edition, section on quality and tailoring for delivery approach",
+      "PMI, Process Groups A Practice Guide, section on monitor and control project work and manage team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "definition-of-ready-and-backlog-quality-as-blocker-prevention"
+    ]
+  },
+  {
+    "id": "remove-impediments-skill-bottleneck-and-cross-training",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "topic": "Address and Remove Impediments, Obstacles, and Blockers for the Team",
+    "subtopic": "Skill bottleneck and cross training",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Midway through execution, one team member becomes the only person able to configure a critical integration environment. Whenever that person is unavailable, work stops for several others. What should the project manager do to best remove this blocker over time?",
+      "A project team has developed a single point of failure because only one specialist can perform a critical setup task, causing repeated delays when that person is absent. What is the best action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Promote knowledge sharing and cross training so multiple team members can perform the task",
+        "why": "This removes the structural blocker by reducing reliance on one individual and increasing team resilience."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Make the specialist solely accountable for all future environment work to avoid configuration errors",
+        "trap": "Formalizes the bottleneck instead of removing it."
+      },
+      {
+        "text": "Escalate every future delay related to the specialist's availability to the steering committee",
+        "trap": "Escalates symptoms while leaving the root cause unchanged."
+      },
+      {
+        "text": "Compress the schedule so the specialist can complete the setup tasks earlier in the project",
+        "trap": "May shift timing but does not solve the capability concentration risk."
+      },
+      {
+        "text": "Outsource the setup task immediately to an external vendor",
+        "trap": "Introduces a new dependency without addressing internal team capability."
+      },
+      {
+        "text": "Track the unavailable time as a resource risk and accept occasional delays",
+        "trap": "Accepts the blocker rather than removing it."
+      }
+    ],
+    "explanation": "The blocker is a persistent skill bottleneck and a single point of failure. PMI aligned leadership and team development practices support coaching, mentoring, pairing, and cross training to build a more capable and adaptable team. By broadening capability rather than relying on one expert, the project manager removes the repeated obstacle and improves delivery continuity.",
+    "references": [
+      "PMI, PMBOK Guide Seventh Edition, section on team development and resilience",
+      "PMI, Agile Practice Guide, section on cross functional teams and knowledge sharing",
+      "PMI, Process Groups A Practice Guide, section on develop team and manage team"
+    ],
+    "tags": [
+      "remove-impediments",
+      "skill-bottleneck-and-cross-training"
+    ]
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "closure-transition-final-acceptance",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "final acceptance",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is nearing completion, and the customer informally states that the deliverable looks acceptable. What should the project manager do NEXT to complete closure properly?",
+      "At the end of a phase, a key stakeholder verbally confirms satisfaction with the output. What is the most appropriate next action by the project manager to support proper phase closure?"
+    ],
+    "correct": [
+      {
+        "text": "Obtain formal documented acceptance of the deliverable from the authorized stakeholder",
+        "why": "Formal acceptance is required to confirm that scope has been completed and accepted according to agreed criteria before closure proceeds."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Release the project team immediately because the work is essentially complete",
+        "trap": "Assumes verbal satisfaction is enough to trigger closure activities and resource release."
+      },
+      {
+        "text": "Archive all project records before confirming acceptance",
+        "trap": "Reverses the proper order by performing administrative closure before formal acceptance."
+      },
+      {
+        "text": "Begin procurement closure for all contracts regardless of deliverable status",
+        "trap": "Treats contract closure as the first step even though product acceptance should be confirmed first."
+      },
+      {
+        "text": "Transfer the deliverable to operations without additional approval",
+        "trap": "Confuses handover with formal acceptance and skips governance requirements."
+      }
+    ],
+    "explanation": "In PMI terminology, project or phase closure requires formal acceptance of completed deliverables by the appropriate authorized stakeholder, not merely verbal approval or general satisfaction. Once acceptance is documented, the project manager can proceed with transition, administrative closure, records archiving, and resource release in an orderly manner.",
+    "references": [
+      "PMBOK Guide Sixth Edition Section 4.7 Close Project or Phase",
+      "PMBOK Guide Sixth Edition Section 5.5 Validate Scope",
+      "Process Groups Practice Guide Closing Process Group"
+    ],
+    "tags": [
+      "closure-transition",
+      "final-acceptance"
+    ]
+  },
+  {
+    "id": "closure-transition-lessons-learned",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "lessons learned",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is closing a phase of an infrastructure project. Which action best ensures organizational learning is preserved for future work?",
+      "During phase closure, what should the project manager do to maximize reuse of experience on future projects?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a lessons learned review and store the resulting knowledge in organizational process assets",
+        "why": "Lessons learned should be captured, validated, and archived in a reusable repository so future projects can benefit from the experience."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Document only major failures because successes are already reflected in the final deliverable",
+        "trap": "Misunderstands lessons learned as a defect log rather than balanced organizational knowledge."
+      },
+      {
+        "text": "Wait until the entire program ends so that all lessons can be collected at one time",
+        "trap": "Ignores the value of capturing lessons at phase closure while information is current."
+      },
+      {
+        "text": "Send an informal email summary to the team and consider the knowledge captured",
+        "trap": "Assumes ad hoc communication replaces structured capture and archiving."
+      },
+      {
+        "text": "Focus on performance reports because they automatically contain all lessons learned",
+        "trap": "Confuses reporting data with reflective analysis and explicit knowledge capture."
+      }
+    ],
+    "explanation": "PMI guidance emphasizes capturing lessons learned throughout the project and especially during phase or project closure. The project manager should conduct a structured review, identify what worked and what did not, and place that information into organizational process assets so that it becomes retrievable and useful beyond the immediate team.",
+    "references": [
+      "PMBOK Guide Sixth Edition Section 4.4 Manage Project Knowledge",
+      "PMBOK Guide Sixth Edition Section 4.7 Close Project or Phase",
+      "Process Groups Practice Guide Closing Process Group"
+    ],
+    "tags": [
+      "closure-transition",
+      "lessons-learned"
+    ]
+  },
+  {
+    "id": "closure-transition-transition-and-handover-plan",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "transition and handover plan",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A software implementation project is moving from delivery into operations. Which TWO actions should the project manager take to support an effective transition?",
+      "A project deliverable has been accepted and will now be handed over to the operations team. Which TWO actions are most appropriate during closure and transition?"
+    ],
+    "correct": [
+      {
+        "text": "Confirm that the transition or handover plan includes training, support needs, and operational readiness activities",
+        "why": "A complete transition plan ensures the receiving organization can sustain and use the deliverable effectively after project closure."
+      },
+      {
+        "text": "Transfer required documentation, knowledge, and ownership responsibilities to the receiving team",
+        "why": "Handover is not just physical delivery of an output; it includes documentation, accountability, and knowledge transfer."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep project ownership in place until the next project starts to avoid accountability gaps",
+        "trap": "Assumes ownership should remain with the project rather than transferring to operations after acceptance."
+      },
+      {
+        "text": "Delay transition until all project team members have been reassigned",
+        "trap": "Makes resource logistics a prerequisite for operational handover."
+      },
+      {
+        "text": "Close the project immediately after acceptance because operations can determine transition details later",
+        "trap": "Separates acceptance from transition planning and risks operational disruption."
+      },
+      {
+        "text": "Archive all records before sharing technical and support documentation with operations",
+        "trap": "Places record storage ahead of essential handover activities."
+      }
+    ],
+    "explanation": "A proper transition from project work to operations requires an intentional handover approach. PMI terminology supports ensuring readiness of the receiving organization, including training, support arrangements, documentation transfer, and clear ownership. Acceptance alone does not guarantee successful operational adoption; a structured transition plan closes that gap.",
+    "references": [
+      "PMBOK Guide Sixth Edition Section 4.7 Close Project or Phase",
+      "PMBOK Guide Seventh Edition Delivery and Measurement performance domains",
+      "Process Groups Practice Guide Closing Process Group"
+    ],
+    "tags": [
+      "closure-transition",
+      "transition-and-handover-plan"
+    ]
+  },
+  {
+    "id": "closure-transition-contract-closure-and-archiving-records",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "contract closure and archiving records",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project has completed all deliverables and received final acceptance. Several contractors are still engaged and some records remain scattered across team drives. What should the project manager do NEXT to complete closure properly?",
+      "After customer acceptance, a project manager discovers open procurement files and incomplete records retention. What is the best next step in closing the project?"
+    ],
+    "correct": [
+      {
+        "text": "Complete contract closure activities and archive project and procurement records in accordance with organizational policy",
+        "why": "Closure includes finalizing procurements and preserving project information as organizational process assets and official records."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Release internal staff first because contractors can finish their administrative work independently",
+        "trap": "Assumes resource release should occur before formal procurement and records closure."
+      },
+      {
+        "text": "Issue the final project report and treat the remaining activities as operational tasks",
+        "trap": "Misclassifies closure obligations as post project operations work."
+      },
+      {
+        "text": "Extend the project until every contract team member is reassigned to a new initiative",
+        "trap": "Confuses reassignment timing with completion of formal closeout activities."
+      },
+      {
+        "text": "Focus on updating the risk register to reflect residual risks before addressing contracts",
+        "trap": "Elevates a secondary administrative task over required contractual closure."
+      },
+      {
+        "text": "Conduct a stakeholder celebration meeting to confirm that closure is accepted informally",
+        "trap": "Replaces formal closeout steps with symbolic stakeholder engagement."
+      }
+    ],
+    "explanation": "Once final acceptance is obtained, the project manager still must perform formal closure work. This includes closing procurements, ensuring claims and obligations are resolved, collecting and archiving project and contract records, and completing administrative closure according to policy. These activities protect the organization legally, financially, and operationally.",
+    "references": [
+      "PMBOK Guide Sixth Edition Section 4.7 Close Project or Phase",
+      "PMBOK Guide Sixth Edition Section 12.4 Control Procurements and procurement closure discussion",
+      "PMI Knowledgebase Close Procurements"
+    ],
+    "tags": [
+      "closure-transition",
+      "contract-closure-and-archiving-records"
+    ]
+  },
+  {
+    "id": "closure-transition-administrative-closure-and-releasing-resources",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "administrative closure and releasing resources",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 3,
+    "present": 6,
+    "prompts": [
+      "A project manager is closing a multinational deployment project. Which THREE actions are appropriate as part of administrative closure?",
+      "During formal project closure, which THREE actions belong to administrative closure rather than execution or monitoring activities?"
+    ],
+    "correct": [
+      {
+        "text": "Release project resources according to the resource management and transition approach",
+        "why": "Administrative closure includes orderly demobilization and reassignment or release of people and other resources."
+      },
+      {
+        "text": "Update and archive final project records, including performance information and closure documents",
+        "why": "Administrative closure requires preserving the official project history for compliance and future reference."
+      },
+      {
+        "text": "Finalize closure reporting and communicate completion status to relevant stakeholders",
+        "why": "Stakeholders need formal communication that the project or phase has been completed and closed."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve new change requests that improve the deliverable before transition",
+        "trap": "Reopens execution and integrated change control instead of closing the work."
+      },
+      {
+        "text": "Add contingency reserves in case defects are found after closure",
+        "trap": "Treats closure as a time to adjust active cost baselines."
+      },
+      {
+        "text": "Rebaseline the schedule to reflect actual finish dates",
+        "trap": "Confuses historical reporting with changing the approved baseline after completion."
+      },
+      {
+        "text": "Continue monitoring team velocity until the receiving department stabilizes",
+        "trap": "Applies agile execution metrics beyond the project closure boundary."
+      }
+    ],
+    "explanation": "Administrative closure is the structured completion of project management work after deliverables are accepted. It typically includes final communications, closure reporting, orderly release of resources, and archiving of records and organizational knowledge. Activities that reopen scope, cost, or schedule control are inconsistent with proper closure because the focus should be on formal completion, transition, and preservation of information.",
+    "references": [
+      "PMBOK Guide Sixth Edition Section 4.7 Close Project or Phase",
+      "PMBOK Guide Sixth Edition Section 9 Project Resource Management",
+      "Process Groups Practice Guide Closing Process Group"
+    ],
+    "tags": [
+      "closure-transition",
+      "administrative-closure-and-releasing-resources"
+    ]
+  },
+  {
+    "id": "closure-transition-operational-readiness-verification",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "operational readiness verification",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is closing after deploying a new warehouse management system. Operations will assume support next week, but the service desk says it has not received the runbooks, escalation paths, or known error database. What should the project manager do first?",
+      "A project manager is preparing to close an implementation project. The receiving operations team reports that key support artifacts are missing, including support procedures and escalation contacts. What is the best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Verify the transition readiness criteria and complete the required operational support knowledge transfer before closure",
+        "why": "This is correct because closure or transition should not proceed until predefined readiness criteria for the receiving function are satisfied and the support organization can sustain the deliverable."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the project because the product has already been deployed and support issues can be handled through normal operations",
+        "trap": "Confuses technical deployment with a complete and controlled transition into ongoing operations."
+      },
+      {
+        "text": "Escalate to the sponsor to obtain formal signoff that the service desk accepts the missing materials",
+        "trap": "Assumes missing transition deliverables can be bypassed through authority rather than meeting agreed closure criteria."
+      },
+      {
+        "text": "Move all unresolved support documentation into the lessons learned register and close the project on time",
+        "trap": "Treats a transition deficiency as an observational lesson instead of work that must be completed."
+      },
+      {
+        "text": "Transfer ownership immediately and ask the product owner to create the missing support artifacts after closure",
+        "trap": "Improperly shifts project completion work to the receiving party without confirming readiness."
+      },
+      {
+        "text": "Begin performance reporting for operations and defer the remaining transition tasks to a future enhancement phase",
+        "trap": "Reframes incomplete transition work as future scope rather than closure criteria."
+      }
+    ],
+    "explanation": "In PMI terms, project or phase closure and transition require confirming that agreed transition conditions are met, not merely that the deliverable was implemented. If the receiving operational group lacks essential support artifacts such as runbooks, escalation paths, and known issue information, the project manager should verify transition readiness criteria and complete the knowledge transfer needed for sustained operations before closure is finalized.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Delivery Performance Domain, transition to operations and sustainment",
+      "PMBOK Guide Sixth Edition, Close Project or Phase, page 123",
+      "Exam Content Outline for PMP, Process domain, task Plan and Manage Project or Phase Closure or Transitions"
+    ],
+    "tags": [
+      "closure-transition",
+      "operational-readiness-verification"
+    ]
+  },
+  {
+    "id": "closure-transition-phase-end-compliance-closeout",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "phase-end compliance closeout",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A phase of a regulated medical device project is ending. The product increment is accepted, but the quality team notes that traceability evidence and approval logs are not yet assembled for the phase-end review. What should the project manager do?",
+      "At the end of a project phase in a regulated environment, deliverables are complete but compliance evidence for the phase closeout package is still fragmented. What is the most appropriate action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Complete and validate the phase closeout package so required governance and compliance evidence is available before authorizing the phase transition",
+        "why": "This is correct because a controlled phase transition requires complete closeout documentation, including required evidence for governance, traceability, and regulatory accountability."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed to the next phase because accepted deliverables are sufficient evidence that the phase is complete",
+        "trap": "Mistakes deliverable completion for full phase closure in a regulated setting."
+      },
+      {
+        "text": "Ask the quality team to reconstruct the missing records after the next phase starts to avoid schedule impact",
+        "trap": "Defers essential closeout controls and increases compliance risk."
+      },
+      {
+        "text": "Submit a change request to remove the traceability records from the closeout scope since the product increment passed testing",
+        "trap": "Assumes mandatory compliance artifacts are optional scope elements."
+      },
+      {
+        "text": "Replace the missing approval logs with an informal email summary from the project manager",
+        "trap": "Substitutes informal communication for required auditable records."
+      },
+      {
+        "text": "Capture the documentation gap as a process improvement item and continue with transition activities",
+        "trap": "Treats an active closure requirement as a future improvement opportunity."
+      }
+    ],
+    "explanation": "When closing a phase, especially in a regulated environment, the project manager must ensure the closeout package is complete and auditable. PMI closure practice includes confirming that governance, documentation, and required records are finalized so the organization can support review, accountability, and downstream work. Accepted deliverables alone do not justify a phase transition if mandatory closeout evidence is incomplete.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Close Project or Phase, page 123",
+      "PMBOK Guide Sixth Edition, Project documents updates and organizational process assets updates from closure, page 124",
+      "Exam Content Outline for PMP, Process domain, task Plan and Manage Project or Phase Closure or Transitions"
+    ],
+    "tags": [
+      "closure-transition",
+      "phase-end-compliance-closeout"
+    ]
+  },
+  {
+    "id": "closure-transition-benefits-transition-accountability",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "benefits transition accountability",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A transformation project is ending, and the sponsor asks for confirmation that the project can be closed. Several benefits are expected to materialize over the next six months under business ownership. What should the project manager do next?",
+      "A project deliverable is in use, but many planned benefits will be realized only after closure by the business unit. How should the project manager support proper closure?"
+    ],
+    "correct": [
+      {
+        "text": "Confirm that post-project benefits ownership, measurement approach, and reporting responsibilities are assigned before closing the project",
+        "why": "This is correct because the project manager should ensure accountability for benefits realization is transitioned appropriately when benefits extend beyond the project life cycle."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep the project open until every planned benefit has been fully realized and verified",
+        "trap": "Confuses project closure with the entire benefits realization time horizon."
+      },
+      {
+        "text": "Close the project immediately because benefits management is outside the scope of project closure",
+        "trap": "Ignores the need to transition ownership for ongoing value tracking."
+      },
+      {
+        "text": "Transfer the benefits realization risk register to the project team for periodic review after closure",
+        "trap": "Assumes the disbanded project team retains accountability after closure."
+      },
+      {
+        "text": "Revise the business case to remove benefits that occur after project completion so the closure report stays accurate",
+        "trap": "Improperly changes expected outcomes instead of transitioning accountability."
+      },
+      {
+        "text": "Request new acceptance criteria from the sponsor to cover the future benefits period before closure",
+        "trap": "Mixes acceptance of deliverables with long-term benefits tracking."
+      }
+    ],
+    "explanation": "PMI practice recognizes that many benefits are realized after a project closes. The project manager does not need to hold the project open until all benefits are achieved, but should support a sound transition by confirming who owns the benefits, how they will be measured, and how reporting will continue. This ensures continuity between project delivery and organizational value realization.",
+    "references": [
+      "The Standard for Project Management and PMBOK Guide Seventh Edition, focus on value delivery and outcomes",
+      "PMBOK Guide Sixth Edition, Business documents and benefits management plan context, page 30",
+      "Exam Content Outline for PMP, Process domain, task Plan and Manage Project or Phase Closure or Transitions"
+    ],
+    "tags": [
+      "closure-transition",
+      "benefits-transition-accountability"
+    ]
+  },
+  {
+    "id": "closure-transition-configuration-and-support-alignment-for-transition",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Project/Phase Closure or Transitions",
+    "topic": "Plan and Manage Project/Phase Closure or Transitions",
+    "subtopic": "configuration and support alignment for transition",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A global infrastructure program is closing a project that will be maintained by regional teams. The work is complete, but each region uses different support procedures and asset identifiers. Which two actions should the project manager take before closure?",
+      "Before closing a multinational deployment project, the project manager learns that the receiving regional teams use different maintenance standards and naming conventions. Which two actions best support a controlled transition?"
+    ],
+    "correct": [
+      {
+        "text": "Reconcile configuration information and operational asset records so the receiving teams inherit accurate baselines",
+        "why": "This is correct because ongoing support depends on accurate configuration and asset information that aligns with operational control systems."
+      },
+      {
+        "text": "Validate that region-specific operating procedures are aligned with the delivered solution and documented transition assumptions",
+        "why": "This is correct because transition success requires compatibility between the delivered solution and the receiving teams' operating procedures."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Standardize all regional operating procedures globally before the project can be closed",
+        "trap": "Assumes closure depends on enterprise-wide process harmonization rather than fit-for-use local transition readiness."
+      },
+      {
+        "text": "Defer the asset identification differences because configuration details belong only to technical teams",
+        "trap": "Underestimates the role of configuration accuracy in sustaining the deliverable after transition."
+      },
+      {
+        "text": "Replace regional procedures with the project team's procedures so there is one consistent handoff package",
+        "trap": "Treats project execution procedures as a substitute for operational support procedures."
+      },
+      {
+        "text": "Close the project after obtaining sponsor approval since regional support variance is an operational issue",
+        "trap": "Improperly bypasses transition quality and readiness concerns."
+      },
+      {
+        "text": "Convert all outstanding alignment issues into low-priority risks and transfer them without further action",
+        "trap": "Uses risk transfer to avoid resolving known transition dependencies."
+      }
+    ],
+    "explanation": "A controlled closure or transition includes ensuring that the receiving organization can support the delivered outcome using accurate configuration information and workable operating procedures. In distributed environments, the project manager should not force unnecessary global standardization, but should reconcile asset and configuration records and validate that local support procedures can sustain the solution as transitioned. These actions reduce operational disruption and preserve continuity after closure.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Close Project or Phase, page 123",
+      "PMBOK Guide Sixth Edition, Project management plan components including configuration management plan, page 98",
+      "Exam Content Outline for PMP, Process domain, task Plan and Manage Project or Phase Closure or Transitions"
+    ],
+    "tags": [
+      "closure-transition",
+      "configuration-and-support-alignment-for-transition"
+    ]
+  }
+]
