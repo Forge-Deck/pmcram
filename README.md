@@ -68,7 +68,15 @@ Follow `schema/question.schema.json`. **Options are never stored as a fixed A/B/
 **Only `id`, `domain`, `type`, `select`, `present`, `prompts`, `correct`, and `distractors` are required.** `why`, `trap`, `explanation`, and `references` are optional — a bare question still works (scored right/wrong, no review notes), but adding rationale is most of the study value.
 
 ### Custom flashcards (`decks/`)
-Only for content that isn't a glossary term (formulas, mnemonics). Follow `schema/deck.schema.json` (`front` / `back`).
+Only for content that isn't a glossary term (formulas, mnemonics). Follow `schema/deck.schema.json` (`front` / `back`), grouped by a `deck` name (the app lists each deck for focused study).
+
+**Multi-line backs:** put real line breaks in the `back` string with `\n` — the app renders each line separately, so don't run everything into one sentence. Example:
+
+```json
+"back": "CPI = EV / AC\nCPI > 1 means under budget.\nCPI < 1 means over budget.\nCPI = 1.0 is exactly on budget."
+```
+
+renders as four lines. **Formula convention:** put the formula on the **first line** and include an `=`; the app shows that first line in monospace so it reads as a formula, with the explanation lines beneath it. (Use `\n\n` if you want a blank line between paragraphs.)
 
 ---
 
