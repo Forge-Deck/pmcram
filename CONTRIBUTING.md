@@ -19,9 +19,9 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 - Contribution files: `contrib-YYYY-MM-yourhandle.json` (e.g. `contrib-2026-06-jdoe.json`).
 - Curated/topic files (maintainers): `questions-<topic>.json`, `glossary-<range>.json`, `cards-<deck>.json`.
 
-## IDs and keys (don't create duplicates)
+## IDs and keys
 
-- **Questions / cards** need a unique, stable, kebab-case `id` (e.g. `risk-0042`, `evm-cpi`). Prefix with the topic. Never reuse an `id` that already exists — search the repo first.
+- **Questions / cards:** you do **not** need to write an `id`. The app derives a stable id from the record's content, so there's nothing to invent, look up, or keep unique. Only set an explicit kebab-case `id` (e.g. `risk-0042`) if you're a maintainer pinning a *correctable* identity — a question you intend to edit later without it counting as new. If you do set one, don't reuse an existing id.
 - **Glossary** records are keyed by `Term` (case-insensitive). Don't add a term that already exists; improve the existing one instead (a correction PR).
 
 ## Rules by type
@@ -58,7 +58,7 @@ CI runs the same `npm run validate` on your pull request, so fixing it locally f
 
 - [ ] One new file in the correct folder, named per convention.
 - [ ] Valid JSON array; validates against the schema.
-- [ ] No duplicate `id` / `Term` already in the repo.
+- [ ] No duplicate `Term` (glossary) already in the repo. (Question/card ids are optional and auto-derived — only check for dupes if you set one explicitly.)
 - [ ] Sources cited; no copyrighted text reproduced.
 - [ ] Questions: `select` / `present` / `correct` / `distractors` counts are consistent.
 

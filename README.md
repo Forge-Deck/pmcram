@@ -65,7 +65,7 @@ Follow `schema/question.schema.json`. **Options are never stored as a fixed A/B/
 | Choose 4 of 6 | `type:multi, select:4, present:6`, `correct` has 4, ≥2 distractors |
 | "Which is NOT…" | `type:single, select:1`, the odd-one-out is the single `correct` |
 
-**Only `id`, `domain`, `type`, `select`, `present`, `prompts`, `correct`, and `distractors` are required.** `why`, `trap`, `explanation`, and `references` are optional — a bare question still works (scored right/wrong, no review notes), but adding rationale is most of the study value.
+**Required: `domain`, `type`, `select`, `present`, `prompts`, `correct`, `distractors`.** You do **not** need to write an `id` — the app derives a stable one from the question's content, so contributors never have to invent or track ids. (`why`, `trap`, `explanation`, `references` are optional too — a bare question still works, scored right/wrong; adding rationale is most of the study value.)
 
 ### Custom flashcards (`decks/`)
 Only for content that isn't a glossary term (formulas, mnemonics). Follow `schema/deck.schema.json` (`front` / `back`), grouped by a `deck` name (the app lists each deck for focused study).

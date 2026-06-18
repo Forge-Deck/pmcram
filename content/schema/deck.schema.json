@@ -4,10 +4,10 @@
   "title": "PM Cram flashcard (custom deck)",
   "description": "A standalone flashcard for content that is not a glossary term (e.g. formulas, mnemonics). Glossary terms do NOT need this — they render as flashcards automatically.",
   "type": "object",
-  "required": ["id", "deck", "front", "back"],
+  "required": ["deck", "front", "back"],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "id": { "type": "string", "description": "OPTIONAL. Derived from content by the app when omitted; set one only to pin a correctable identity (kebab-case).", "pattern": "^[a-z0-9][a-z0-9-]*$" },
     "schema": { "type": "string", "const": "card/v1" },
     "deck": { "type": "string", "description": "Deck name this card belongs to." },
     "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },

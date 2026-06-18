@@ -4,10 +4,10 @@
   "title": "PM Cram practice question",
   "description": "A single practice/exam question. The app assembles the on-screen options at runtime from `correct` + `distractors`, so options are never hard-coded as A/B/C/D and never appear in a fixed order.",
   "type": "object",
-  "required": ["id", "domain", "type", "select", "present", "prompts", "correct", "distractors"],
+  "required": ["domain", "type", "select", "present", "prompts", "correct", "distractors"],
   "additionalProperties": false,
   "properties": {
-    "id": { "type": "string", "description": "Globally unique, stable, kebab-case. Used to dedupe across files.", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "id": { "type": "string", "description": "OPTIONAL. The app derives a stable id from the question's content when none is given, so contributors don't need to invent or track ids. Set one only to pin a correctable identity (kebab-case); never reuse an existing id.", "pattern": "^[a-z0-9][a-z0-9-]*$" },
     "schema": { "type": "string", "const": "question/v1" },
     "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"], "description": "PMP ECO domain." },
     "eco_task": { "type": "string", "description": "ECO task / enabler this question maps to (free text)." },
