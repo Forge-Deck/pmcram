@@ -12,6 +12,7 @@ Thanks for helping improve the question bank and glossary. Contributions are JSO
    - Study guides → `content/guides/guide-yourtopic.json`
    - Sequencing questions → `content/sequences/seq-yourtopic.json`
    - Multi-step cases → `content/cases/case-yourtopic.json`
+   - Point-and-click questions → `content/pointclick/pc-yourtopic.json`
 3. Each file is a **JSON array** of records that validate against the matching file in `content/schema/`.
 4. **Open a pull request.** CI validates your file; a maintainer reviews accuracy and merges.
 
@@ -65,6 +66,11 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 - A shared `scenario` plus `steps[]` (2–8). **Each step is a mini-question** with `prompt`, `correct[]` and `distractors[]` (same shape and rules as a normal question — `why`/`trap` optional but encouraged).
 - Steps are answered in order and a later step may reveal the answer to an earlier one — that's fine, the app hides the next step until the current is answered. Order the steps so the case builds naturally.
 - Set a per-step `domain` so misses feed the right weak area; add an optional `label` (e.g. "People + Process").
+
+### Point-and-click (`schema/pointclick.schema.json`)
+- A `prompt`, a `figure.svg` (theme-aware, **must have a `viewBox`**), and `regions[]` — rectangular hotspots in the SVG's viewBox coordinates (`x,y,w,h`), at least one flagged `correct: true`.
+- Hotspots are invisible at runtime, so the **graphic must make the clickable spots obvious**; align each region's box to its SVG element. Add `why` per region for review.
+- `select` defaults to the number of correct regions; set it only to require fewer picks. Use `currentColor` for ink and `<polygon>` arrowheads (no `<marker>`).
 
 ## Validate before you PR
 

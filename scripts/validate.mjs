@@ -27,6 +27,7 @@ const validators = {
   guide: ajv.compile(readJson(join(schemaDir, 'guide.schema.json'))),
   sequence: ajv.compile(readJson(join(schemaDir, 'sequence.schema.json'))),
   case: ajv.compile(readJson(join(schemaDir, 'case.schema.json'))),
+  pointclick: ajv.compile(readJson(join(schemaDir, 'pointclick.schema.json'))),
 };
 
 /** folder → record type */
@@ -37,6 +38,7 @@ const TARGETS = [
   { dir: 'guides', type: 'guide' },
   { dir: 'sequences', type: 'sequence' },
   { dir: 'cases', type: 'case' },
+  { dir: 'pointclick', type: 'pointclick' },
 ];
 
 const errors = [];
@@ -122,12 +124,24 @@ for (const { dir, type } of TARGETS) {
         const key = rec.title.toLowerCase();
         if (seenTitles.has(key)) errors.push(`${file} [${i}]: duplicate guide title "${rec.title}" (also in ${seenTitles.get(key)}).`);
         else seenTitles.set(key, file);
-      } else if ((type === 'sequence' || type === 'case') && rec.id) {
+      } else if ((type === 'sequence' || type === 'case' || type === 'pointclick') && rec.id) {
         if (seenIds.has(rec.id)) errors.push(`${file} [${i}]: duplicate id "${rec.id}" (also in ${seenIds.get(rec.id)}).`);
         else seenIds.set(rec.id, file);
       }
       if (type === 'case' && Array.isArray(rec.steps)) {
         rec.steps.forEach((st, j) => checkCaseStep(st, file, `[${i}].steps[${j}]`));
+      }
+      if (type === 'pointclick' && Array.isArray(rec.regions)) {
+        const correct = rec.regions.filter((r) => r.correct).length;
+        if (correct < 1) errors.push(`${file} [${i}]: at least one region must have correct:true.`);
+        if (typeof rec.select === 'number' && rec.select > correct) {
+          errors.push(`${file} [${i}]: select (${rec.select}) exceeds the number of correct regions (${correct}).`);
+        }
+        const ids = rec.regions.map((r) => r.id);
+        if (new Set(ids).size !== ids.length) errors.push(`${file} [${i}]: region ids must be unique.`);
+        if (rec.figure?.svg && !/viewBox=/.test(rec.figure.svg)) {
+          errors.push(`${file} [${i}]: figure.svg must declare a viewBox (regions use its coordinates).`);
+        }
       }
     });
   }
