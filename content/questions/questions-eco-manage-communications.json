@@ -1,0 +1,463 @@
+[
+  {
+    "id": "manage-communications-communications-management-plan",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "communications management plan",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that several stakeholders say they are not receiving the information they need at the right time. What should the project manager review first to improve project communications?",
+      "Stakeholders report that project information is inconsistent and often arrives too late. What should the project manager examine first?"
+    ],
+    "correct": [
+      {
+        "text": "Review the communications management plan to confirm stakeholder information needs, methods, frequency, and escalation paths",
+        "why": "The communications management plan defines how, when, and to whom information is communicated. It is the primary source for aligning communication activities with stakeholder needs."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Immediately increase the number of status meetings for all stakeholders",
+        "trap": "Assumes more communication is always better instead of first checking planned requirements and appropriate methods"
+      },
+      {
+        "text": "Update the risk register because communication issues are always risk events first",
+        "trap": "Confuses a communication planning issue with a risk response action"
+      },
+      {
+        "text": "Ask the sponsor to send all future communications to reinforce authority",
+        "trap": "Escalates too early and ignores the project manager responsibility to manage communications"
+      },
+      {
+        "text": "Issue a change request to revise the scope baseline",
+        "trap": "Treats a communication problem as a scope change without evidence of scope impact"
+      },
+      {
+        "text": "Replace the project dashboard with a more detailed work breakdown structure",
+        "trap": "Substitutes a planning artifact for the communication framework that governs stakeholder information flow"
+      }
+    ],
+    "explanation": "When stakeholders say they are receiving the wrong information or receiving it too late, the first step is to review the communications management plan. That plan documents stakeholder communication requirements, formats, timing, methods, roles, and escalation expectations. PMI guidance emphasizes tailoring communication to stakeholder needs rather than simply increasing message volume or escalating prematurely.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts section on communications management plan",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Communications Management section including Plan Communications Management"
+    ],
+    "tags": [
+      "manage-communications",
+      "communications-management-plan"
+    ]
+  },
+  {
+    "id": "manage-communications-push-pull-interactive-methods",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "push pull interactive methods",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A distributed project team needs a method for sharing updated procedures and reference documents that stakeholders can access whenever needed. Which communication method is best?",
+      "The project manager must make technical reference materials available for stakeholders to retrieve on demand across time zones. Which method should be used?"
+    ],
+    "correct": [
+      {
+        "text": "Use pull communication through a shared repository or intranet site",
+        "why": "Pull communication is appropriate when large volumes of information are made available for recipients to access at their convenience."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use interactive communication through daily video conferences for all document reviews",
+        "trap": "Uses high effort two way communication when stakeholders mainly need self service access to reference information"
+      },
+      {
+        "text": "Use push communication by emailing every document revision to all stakeholders",
+        "trap": "Push communication can distribute information but is inefficient for large reference libraries and broad audiences"
+      },
+      {
+        "text": "Use informal verbal updates through team leads only",
+        "trap": "Relies on incomplete transmission and does not provide controlled access to current documents"
+      },
+      {
+        "text": "Use issue escalation to the sponsor for document distribution",
+        "trap": "Misuses escalation instead of selecting an appropriate communication method"
+      }
+    ],
+    "explanation": "PMI distinguishes among interactive, push, and pull communication. Pull communication is best when information is substantial in volume or must be available for many stakeholders to retrieve as needed, such as procedures, templates, and technical references. Push communication distributes information directly, while interactive communication is best for real time understanding and rapid feedback.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Communications section on communication methods",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts section on communication methods"
+    ],
+    "tags": [
+      "manage-communications",
+      "push-pull-interactive-methods"
+    ]
+  },
+  {
+    "id": "manage-communications-channels-formula",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "channels formula",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager adds three new stakeholders to a core group of seven people who all need direct communication with one another. How many total communication channels are there now?",
+      "A project team had seven participants with full pairwise communication. After three additional stakeholders join and all ten require direct communication, what is the total number of communication channels?"
+    ],
+    "correct": [
+      {
+        "text": "45",
+        "why": "The number of communication channels is n times n minus 1 divided by 2. With 10 participants the result is 10 times 9 divided by 2, which equals 45."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "21",
+        "trap": "Uses the original group of seven instead of the updated stakeholder count"
+      },
+      {
+        "text": "24",
+        "trap": "Calculates only the incremental increase incorrectly rather than total channels"
+      },
+      {
+        "text": "30",
+        "trap": "Assumes one directional reporting lines rather than two way communication channels"
+      },
+      {
+        "text": "55",
+        "trap": "Uses an incorrect arithmetic result for the channels formula"
+      }
+    ],
+    "explanation": "The PMI communication channels formula is n times n minus 1 divided by 2, where n is the number of participants who need direct communication. The scenario results in 10 stakeholders, so the total is 45 channels. This concept highlights how communication complexity rises rapidly as stakeholder count increases, reinforcing the need for structured communication planning.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Plan Communications Management section on communication channels",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Systems Thinking and complexity related communication considerations"
+    ],
+    "tags": [
+      "manage-communications",
+      "channels-formula"
+    ]
+  },
+  {
+    "id": "manage-communications-feedback-and-confirmation-of-understanding",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "feedback and confirmation of understanding",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During a design review, the project manager sees that team members nod in agreement, but later deliverables show they interpreted the decision differently. What should the project manager do next to improve communication effectiveness?",
+      "A team appears aligned in meetings, yet later work outputs reveal different interpretations of the same message. What is the best action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Use feedback loops such as paraphrasing, read backs, or written confirmation to verify shared understanding",
+        "why": "Communication effectiveness depends on confirming that the receiver interpreted the message as intended. Feedback is essential in the communication model."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Send more detailed emails after each meeting without asking for responses",
+        "trap": "Improves message volume but not confirmation that the receiver understood the content correctly"
+      },
+      {
+        "text": "Assume nonverbal agreement is sufficient because the team is experienced",
+        "trap": "Treats visible agreement as proof of accurate understanding"
+      },
+      {
+        "text": "Escalate the issue to the sponsor because the team failed to comply",
+        "trap": "Jumps to escalation before addressing a probable communication breakdown"
+      },
+      {
+        "text": "Reduce stakeholder participation in meetings to avoid confusion",
+        "trap": "Mistakes collaboration breadth for the root cause instead of verifying message decoding"
+      },
+      {
+        "text": "Update the schedule baseline to reflect the misunderstanding",
+        "trap": "Responds to downstream effects instead of fixing the communication process itself"
+      }
+    ],
+    "explanation": "PMI communication models emphasize that successful communication is not just transmission of a message but shared understanding between sender and receiver. Feedback closes the loop and helps validate that encoding and decoding were successful. Techniques such as paraphrasing, read back, written confirmation, and active listening reduce the risk of false agreement and latent misunderstanding.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Communications section on communication models and methods",
+      "PMI The Standard for Project Management and PMBOK Guide Seventh Edition, Stakeholders and Team performance domain communication considerations"
+    ],
+    "tags": [
+      "manage-communications",
+      "feedback-and-confirmation-of-understanding"
+    ]
+  },
+  {
+    "id": "manage-communications-communication-barriers-and-tailored-methods",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "communication barriers and tailored methods",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is leading a cross cultural virtual team. Important decisions made in online meetings are often misunderstood because of language differences, jargon, and poor audio quality. Which actions should the project manager take to address the communication barriers?",
+      "In a global remote project, decision messages are being distorted by semantic differences and noisy technology channels. Which two actions best improve communication effectiveness?"
+    ],
+    "correct": [
+      {
+        "text": "Simplify language and reduce jargon while tailoring messages to the audience cultural and functional context",
+        "why": "Semantic barriers are reduced when the sender uses clear language and adapts communication to the receiver context."
+      },
+      {
+        "text": "Follow interactive meetings with concise written summaries that confirm decisions, owners, and next steps",
+        "why": "Combining interactive communication with written confirmation improves clarity, creates a record, and strengthens feedback and understanding."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rely only on real time verbal communication because immediate discussion always prevents misunderstanding",
+        "trap": "Assumes interactive communication alone is enough even when language and technology barriers exist"
+      },
+      {
+        "text": "Copy all stakeholders on every message to maximize transparency",
+        "trap": "Confuses broad distribution with effective targeted communication"
+      },
+      {
+        "text": "Use more technical terminology so expert team members can communicate precisely",
+        "trap": "Increases semantic barriers for parts of a diverse audience"
+      },
+      {
+        "text": "Escalate routine misunderstandings to the sponsor to reinforce discipline",
+        "trap": "Treats communication barriers as compliance failures rather than process issues to be managed"
+      },
+      {
+        "text": "Reduce communication frequency so team members have more time to interpret messages",
+        "trap": "Less communication does not resolve noise, ambiguity, or decoding problems"
+      }
+    ],
+    "explanation": "This scenario combines multiple communication barriers: semantics, culture, and noise in the transmission channel. PMI terminology supports tailoring messages to stakeholder needs, reducing jargon, selecting appropriate methods, and using feedback to confirm understanding. For critical decisions, interactive discussion is valuable, but reinforcing it with concise written summaries helps overcome language and technology limitations while preserving alignment and accountability.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Communications section on communication methods, models, and barriers",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts sections related to communication, tailoring, and stakeholder engagement"
+    ],
+    "tags": [
+      "manage-communications",
+      "communication-barriers-and-tailored-methods"
+    ]
+  },
+  {
+    "id": "manage-communications-communication-requirements-analysis",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "communication requirements analysis",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that several stakeholders are receiving detailed status information they do not use, while others say they are missing information needed for decisions. What should the project manager do first to improve communications?",
+      "On a project, some stakeholders are overloaded with unnecessary updates and others lack decision-ready information. What is the best first action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze stakeholder communication requirements and align information needs, format, and frequency to each audience",
+        "why": "This addresses the root issue by determining who needs what information, when, and in what form so communications are relevant and useful."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Increase the frequency of status reporting to all stakeholders",
+        "trap": "Assumes more communication automatically solves a mismatch in stakeholder information needs."
+      },
+      {
+        "text": "Send the same dashboard to every stakeholder to ensure consistency",
+        "trap": "Confuses consistency with effectiveness and ignores different stakeholder needs."
+      },
+      {
+        "text": "Escalate the problem to the sponsor because stakeholders are dissatisfied",
+        "trap": "Escalates too early instead of addressing a communication planning problem within the project manager's control."
+      },
+      {
+        "text": "Ask team leads to decide what information each stakeholder should receive",
+        "trap": "Delegates a core project management responsibility without a structured analysis."
+      }
+    ],
+    "explanation": "The best first step is to perform communication requirements analysis. PMI emphasizes that effective communication begins with understanding stakeholder information needs, including content, timing, format, and level of detail. The problem described is not a lack of volume but a lack of fit between the message and the audience. Tailoring communications based on stakeholder needs improves decision making and engagement.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Communications Management, Plan Communications Management",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, section on communication requirements analysis",
+      "Project Manager Competency Development and PMI ECO, People domain, task Manage Communications"
+    ],
+    "tags": [
+      "manage-communications",
+      "communication-requirements-analysis"
+    ]
+  },
+  {
+    "id": "manage-communications-meeting-management",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "meeting management",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During a recurring cross functional meeting, discussions drift, decisions are unclear, and the same issues reappear each week. What should the project manager do to improve communication effectiveness?",
+      "A weekly project meeting consumes time but produces little clarity because conversations wander and actions are not captured. What is the most appropriate action?"
+    ],
+    "correct": [
+      {
+        "text": "Apply meeting management practices by defining objectives, using an agenda, controlling time, and documenting decisions and action owners",
+        "why": "Structured meeting management improves clarity, decision quality, accountability, and follow through."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Replace the meetings with more frequent status emails",
+        "trap": "Assumes the issue is the meeting channel rather than poor facilitation and decision capture."
+      },
+      {
+        "text": "Allow the team to continue open discussion to encourage collaboration",
+        "trap": "Confuses unstructured conversation with productive collaboration."
+      },
+      {
+        "text": "Wait until the next phase to reset communication practices",
+        "trap": "Delays correction of a current communication problem affecting project performance."
+      },
+      {
+        "text": "Limit attendance to senior stakeholders so decisions are made faster",
+        "trap": "May exclude essential contributors and does not solve weak meeting discipline."
+      }
+    ],
+    "explanation": "The most effective response is to improve meeting management. PMI recognizes meeting management as a practical communication technique that supports efficient information exchange and decision making. When meetings lack purpose, structure, and documented outcomes, the result is repeated discussion and unresolved issues. Clear objectives, agendas, facilitation, and action tracking directly address the problem.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Communications, tools and techniques, meetings",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Stakeholder Engagement, interpersonal and team skills",
+      "Project Manager Competency Development and PMI ECO, People domain, task Manage Communications"
+    ],
+    "tags": [
+      "manage-communications",
+      "meeting-management"
+    ]
+  },
+  {
+    "id": "manage-communications-active-listening",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "active listening",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A stakeholder raises the same project concern in multiple forums even after the project manager has addressed it several times. Which action would best improve the project manager's communication approach?",
+      "Despite repeated responses, one stakeholder continues to restate an unresolved concern. What should the project manager do to communicate more effectively?"
+    ],
+    "correct": [
+      {
+        "text": "Use active listening to explore the stakeholder's underlying concern, paraphrase it, and respond to the actual issue being expressed",
+        "why": "Active listening helps uncover the real concern, builds trust, and improves the quality of communication beyond simply repeating a response."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Provide a more detailed written explanation of the same answer",
+        "trap": "Assumes the problem is insufficient detail instead of incomplete understanding of the stakeholder's concern."
+      },
+      {
+        "text": "Ask the sponsor to speak with the stakeholder directly",
+        "trap": "Escalates prematurely instead of using interpersonal communication skills."
+      },
+      {
+        "text": "Remove the stakeholder from optional meetings to reduce disruption",
+        "trap": "Avoids engagement and may worsen stakeholder resistance."
+      },
+      {
+        "text": "Record the concern in the issue log and close it after the response is sent",
+        "trap": "Treats communication as a documentation exercise rather than a human interaction requiring understanding."
+      }
+    ],
+    "explanation": "When a stakeholder repeats a concern, the issue is often not the amount of information provided but whether the concern has been understood and addressed at the right level. PMI highlights active listening as an interpersonal skill that supports effective communication and stakeholder engagement. By listening for the underlying issue, paraphrasing, and responding to what matters most to the stakeholder, the project manager improves clarity and trust.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Communications, communication skills",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Manage Stakeholder Engagement, interpersonal and team skills",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stakeholders and Team performance domains"
+    ],
+    "tags": [
+      "manage-communications",
+      "active-listening"
+    ]
+  },
+  {
+    "id": "manage-communications-emotional-intelligence-in-communication",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "emotional intelligence in communication",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a globally distributed team. In a tense design review, technical disagreement quickly becomes personal and information sharing shuts down. What should the project manager do first?",
+      "During a virtual design review with a distributed team, emotions escalate and the discussion stops being productive. What is the best immediate action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Use emotional intelligence to acknowledge tension, deescalate the interaction, and reestablish a respectful discussion focused on facts and project objectives",
+        "why": "Emotional intelligence helps the project manager recognize emotions, regulate the interaction, and restore productive communication."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue the review and focus only on technical facts so emotions do not influence the decision",
+        "trap": "Ignores the reality that unmanaged emotions are already affecting communication quality."
+      },
+      {
+        "text": "Cancel all future live reviews and require written comments only",
+        "trap": "Avoids the interpersonal issue rather than managing it."
+      },
+      {
+        "text": "Select the most senior engineer's recommendation to end the conflict quickly",
+        "trap": "Uses authority to force closure instead of resolving the communication breakdown."
+      },
+      {
+        "text": "Escalate the disagreement to the steering committee immediately",
+        "trap": "Escalates before attempting appropriate people leadership and facilitation."
+      }
+    ],
+    "explanation": "This situation calls for emotional intelligence in communication. PMI recognizes emotional intelligence as a leadership capability that supports relationship management, stakeholder engagement, and productive team interaction. When a discussion becomes personal, communication effectiveness drops sharply. The project manager should first stabilize the interaction, acknowledge the tension, and redirect the team toward respectful, objective dialogue so information can flow again.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on emotional intelligence",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, interpersonal and team skills in stakeholder engagement and communications",
+      "Project Manager Competency Development and PMI ECO, People domain, task Manage Communications"
+    ],
+    "tags": [
+      "manage-communications",
+      "emotional-intelligence-in-communication"
+    ]
+  }
+]

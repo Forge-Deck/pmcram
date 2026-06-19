@@ -1,0 +1,398 @@
+[
+  {
+    "id": "schedule-leads-and-lags",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Leads and lags",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is developing the schedule for a facility upgrade. Activity B can start only after Activity A finishes. Activity C can start 2 days before Activity B finishes. Which scheduling technique is being used between Activities B and C?",
+      "During schedule development for a plant retrofit, Activity C is allowed to begin 2 days before Activity B is complete. What does this relationship represent?"
+    ],
+    "correct": [
+      {
+        "text": "Lead time on a finish-to-start relationship",
+        "why": "A lead allows a successor to start before the predecessor is fully complete, which is schedule acceleration by overlapping work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Lag time on a finish-to-start relationship",
+        "trap": "Confuses delay after a predecessor with overlap before predecessor completion."
+      },
+      {
+        "text": "Mandatory dependency based on regulation",
+        "trap": "Mistakes relationship timing logic for dependency type."
+      },
+      {
+        "text": "Resource leveling caused by limited staff",
+        "trap": "Confuses sequencing logic with a resource optimization technique."
+      },
+      {
+        "text": "Crashing because additional resources were assigned",
+        "trap": "Assumes any schedule acceleration is crashing rather than relationship adjustment."
+      }
+    ],
+    "explanation": "A lead is the amount of time a successor can be advanced relative to a predecessor. In this scenario, Activity C starts before Activity B finishes, which indicates overlap. That is a lead, not a lag. A lag inserts waiting time, while crashing and resource leveling are different schedule management actions.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Scheduling",
+      "PMBOK Guide Sixth Edition, Project Schedule Management, Sequence Activities"
+    ],
+    "tags": [
+      "schedule",
+      "leads-and-lags"
+    ]
+  },
+  {
+    "id": "schedule-schedule-baseline-and-milestones",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Schedule baseline and milestones",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A software implementation project has a contractual go-live date shown in the approved schedule baseline. A key stakeholder asks the project manager to move the user training milestone by 2 weeks without changing the overall completion date. What should the project manager do first?",
+      "In an approved project schedule baseline, a sponsor requests that a milestone be shifted earlier. What is the first appropriate action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact on the schedule baseline and process the requested change through integrated change control",
+        "why": "Milestones in the approved baseline cannot be changed informally. The project manager should evaluate impacts and use formal change control."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Update the milestone date immediately because milestones do not consume duration",
+        "trap": "Assumes milestone dates can change freely because they have zero duration."
+      },
+      {
+        "text": "Revise the schedule management plan instead of the schedule baseline",
+        "trap": "Confuses management planning documents with approved performance baselines."
+      },
+      {
+        "text": "Compress all near-term activities without analysis to preserve the completion date",
+        "trap": "Jumps to action before impact assessment and approval."
+      },
+      {
+        "text": "Remove the milestone from the schedule because it is only a reporting marker",
+        "trap": "Misunderstands milestones as optional rather than controlled schedule points."
+      }
+    ],
+    "explanation": "Milestones are significant points or events in the schedule and can be part of the approved schedule baseline. Any requested shift to a baseline date requires impact analysis and formal change control. The project manager should first determine effects on logic, resources, risk, and other constraints before implementing any approved revision.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Baseline",
+      "PMBOK Guide Sixth Edition, Control Schedule, schedule baseline"
+    ],
+    "tags": [
+      "schedule",
+      "schedule-baseline-and-milestones"
+    ]
+  },
+  {
+    "id": "schedule-critical-path-and-total-float",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Critical path and total float",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project network has the following finish-to-start sequence with no leads or lags: Activity A duration 4 days, Activity B duration 6 days after A, Activity C duration 5 days after A, and Activity D duration 3 days after both B and C. What is the total float of Activity C if the project finishes as early as possible?",
+      "In a project schedule network, A takes 4 days. B takes 6 days after A. C takes 5 days after A. D takes 3 days after both B and C. Assuming earliest completion, how much total float does Activity C have?"
+    ],
+    "correct": [
+      {
+        "text": "1 day",
+        "why": "Path A-B-D lasts 13 days and path A-C-D lasts 12 days, so Activity C can slip by 1 day before affecting project finish."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "0 days",
+        "trap": "Assumes both parallel branches are critical."
+      },
+      {
+        "text": "2 days",
+        "trap": "Incorrectly subtracts only B and C durations without considering shared predecessor and successor."
+      },
+      {
+        "text": "3 days",
+        "trap": "Mistakes the duration of D for available float."
+      },
+      {
+        "text": "5 days",
+        "trap": "Confuses activity duration with float."
+      }
+    ],
+    "explanation": "The critical path is A-B-D with a total duration of 13 days. The alternate path A-C-D is 12 days. Total float is the amount of time an activity can be delayed without delaying the project finish date, so Activity C has 1 day of total float. This requires identifying the longest path through the network first.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Critical Path Method",
+      "PMBOK Guide Sixth Edition, Develop Schedule, Critical Path Method"
+    ],
+    "tags": [
+      "schedule",
+      "critical-path-and-total-float"
+    ]
+  },
+  {
+    "id": "schedule-total-float-versus-free-float",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Total float versus free float",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is reviewing a schedule network. Activity E has 3 days of total float and 0 days of free float. What does this mean?",
+      "In a project schedule, an activity shows total float of 3 days and free float of 0 days. Which statement is correct?"
+    ],
+    "correct": [
+      {
+        "text": "Activity E can slip 3 days without delaying the project finish, but any delay will delay at least one immediate successor",
+        "why": "Total float protects project completion, while free float protects early start dates of immediate successors. Zero free float means successors are affected immediately."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Activity E is on the critical path because free float is zero",
+        "trap": "Confuses zero free float with zero total float."
+      },
+      {
+        "text": "Activity E can slip 3 days without affecting either the project finish or any successor",
+        "trap": "Treats total float and free float as identical."
+      },
+      {
+        "text": "Activity E cannot slip at all because successors determine the project end date",
+        "trap": "Ignores the stated total float."
+      },
+      {
+        "text": "Activity E has a scheduling error because free float cannot be less than total float",
+        "trap": "Misunderstands the normal relationship where free float can be less than total float."
+      }
+    ],
+    "explanation": "Total float is the amount of time an activity can be delayed without delaying the project completion date or violating a schedule constraint. Free float is the amount of time an activity can be delayed without delaying the early start of any immediate successor. Therefore, an activity can have positive total float but zero free float when successor timing is tight even though overall project completion still has some flexibility.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Scheduling",
+      "PMBOK Guide Sixth Edition, Develop Schedule, total float and free float"
+    ],
+    "tags": [
+      "schedule",
+      "total-float-versus-free-float"
+    ]
+  },
+  {
+    "id": "schedule-resource-calendars-in-schedule-development",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Resource calendars in schedule development",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is developing the schedule for a manufacturing equipment upgrade. A specialized testing team is available only during the last week of each month, as defined in the resource calendar. The draft schedule places system testing in the second week of the month. What should the project manager do first?",
+      "While building a schedule for an equipment upgrade, the project manager notices that the assigned testing specialists are only available in the final week of each month, but the current plan shows testing earlier. What is the best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Revise the activity dates to align the testing work with the resource calendar constraints",
+        "why": "Resource calendars define when specific resources are available, so the schedule should be adjusted to reflect realistic timing before further optimization."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep the current dates and ask the testing team to work outside their availability window",
+        "trap": "Assumes schedule targets override documented resource availability."
+      },
+      {
+        "text": "Approve overtime immediately to preserve the planned testing dates",
+        "trap": "Treats overtime as the first response instead of validating the schedule against resource constraints."
+      },
+      {
+        "text": "Change the schedule baseline so the testing dates remain valid",
+        "trap": "Confuses planning and baselining; a baseline should not be changed to hide an unrealistic plan."
+      },
+      {
+        "text": "Remove the testing activity from the critical path to avoid delay",
+        "trap": "Assumes critical path status can be manually reassigned rather than derived from network logic."
+      }
+    ],
+    "explanation": "The best first action is to align planned activity dates with the documented availability of required resources. Resource calendars are key inputs to schedule development because they constrain when work can occur. If a specialized team is only available during a certain time window, the schedule must reflect that reality before the project manager considers optimization actions such as overtime or compression. Changing the baseline or ignoring the constraint would create an invalid and unmanageable schedule.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.5 Develop Schedule",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.5.1.2 Project Documents, resource calendars"
+    ],
+    "tags": [
+      "schedule",
+      "resource-calendars-in-schedule-development"
+    ]
+  },
+  {
+    "id": "schedule-schedule-baseline-performance-assessment",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Schedule baseline performance assessment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is monitoring a software deployment and sees that several activities are slipping, but the final completion date is still forecast to meet the approved schedule baseline. Which action is most appropriate?",
+      "During schedule monitoring, multiple tasks finish later than planned, yet the overall completion date remains within the approved schedule baseline. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Continue monitoring and analyze variance trends against the schedule baseline",
+        "why": "The schedule baseline is the approved basis for comparison, and if the forecast still meets it, the project manager should assess trends and control the schedule rather than react prematurely."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Issue a formal change request immediately because any slippage requires rebaselining",
+        "trap": "Assumes every activity variance requires a baseline change even when overall performance remains within approved limits."
+      },
+      {
+        "text": "Compress all remaining activities to recover the lost time before reporting status",
+        "trap": "Applies corrective action without confirming whether the overall schedule objective is actually threatened."
+      },
+      {
+        "text": "Escalate to the sponsor because the project has already missed its scheduled finish date",
+        "trap": "Incorrectly equates task slippage with missing the project end date."
+      },
+      {
+        "text": "Remove the delayed tasks from reporting because they are no longer relevant to the baseline",
+        "trap": "Misunderstands baseline control and schedule reporting."
+      }
+    ],
+    "explanation": "An approved schedule baseline is used to measure schedule performance and determine whether variance is acceptable or requires action. If individual activities have slipped but the forecast completion date still meets the baseline, the project manager should continue monitoring, analyze variance patterns, and determine whether corrective action is needed based on trends and risk to future work. Immediate rebaselining or compression would be premature unless performance indicates the approved target is no longer achievable.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.6 Control Schedule",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.6.1.1 Project Management Plan, schedule baseline",
+      "PMI Exam Content Outline for PMP Certification, Process Domain, Plan and Manage Schedule"
+    ],
+    "tags": [
+      "schedule",
+      "schedule-baseline-performance-assessment"
+    ]
+  },
+  {
+    "id": "schedule-choosing-appropriate-schedule-compression-strategy",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Choosing appropriate schedule compression strategy",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A construction project is behind schedule. The project manager proposes adding a second qualified crew to a foundation activity that can be performed in parallel work zones for additional cost. Another stakeholder suggests starting interior finishing before structural inspection is complete. Which action is the better schedule compression approach?",
+      "To recover schedule on a construction project, one option is to add another qualified crew to work in parallel areas for extra cost. Another option is to begin downstream finishing before required inspection is completed. Which is the better choice?"
+    ],
+    "correct": [
+      {
+        "text": "Add the second qualified crew because it shortens duration with lower schedule risk than overlapping work that violates logical dependencies",
+        "why": "Crashing can reduce duration by adding resources at additional cost, while starting work before required inspection is complete introduces significant rework and compliance risk."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Start interior finishing early because fast-tracking is always cheaper and therefore preferable",
+        "trap": "Assumes fast-tracking is automatically the better option and ignores increased rework risk."
+      },
+      {
+        "text": "Use both options immediately because any delay justifies maximum compression",
+        "trap": "Ignores the need to evaluate feasibility, risk, and logical relationships before applying compression."
+      },
+      {
+        "text": "Do neither because schedule compression is not allowed after execution begins",
+        "trap": "Incorrectly assumes compression techniques are limited to planning only."
+      },
+      {
+        "text": "Change the milestone dates so the project is no longer considered late",
+        "trap": "Confuses schedule control with simply redefining targets."
+      }
+    ],
+    "explanation": "The better choice is to add a second qualified crew because that approach aligns with crashing, which shortens activity duration by adding resources at additional cost when feasible. Starting interior finishing before structural inspection is complete resembles fast-tracking, but in this case it would violate sound sequencing and create a substantial risk of rework or compliance issues. PMP style decision making favors the option that is both technically feasible and risk aware, not merely the one that appears faster on paper.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.5.2.6 Schedule Compression",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 11 Risk Management considerations across planning and responses",
+      "PMI Exam Content Outline for PMP Certification, Process Domain, Plan and Manage Schedule"
+    ],
+    "tags": [
+      "schedule",
+      "choosing-appropriate-schedule-compression-strategy"
+    ]
+  },
+  {
+    "id": "schedule-milestone-dependency-management",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "Milestone dependency management",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A telecom project has a contractual milestone for regulatory approval by September 30. The team reports that all predecessor activities are on track except one documentation package that is trending late. The milestone has zero duration and cannot be compressed directly. What should the project manager focus on?",
+      "In a telecom project, a required regulatory approval milestone must be achieved by September 30. One predecessor deliverable is slipping, and the milestone itself has no duration. What is the most appropriate focus for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze and recover the predecessor activities driving the milestone date",
+        "why": "A milestone represents a significant point in time with zero duration, so schedule control must target the activities and dependencies that determine whether the milestone can be met."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Shorten the milestone duration by reallocating additional resources to it",
+        "trap": "Misunderstands that milestones have zero duration and cannot be compressed as activities."
+      },
+      {
+        "text": "Convert the milestone into a task so the team can assign float to it",
+        "trap": "Assumes a milestone should be changed structurally instead of managing the network that leads to it."
+      },
+      {
+        "text": "Delay reporting until the milestone date is actually missed",
+        "trap": "Ignores proactive schedule control and forecasting."
+      },
+      {
+        "text": "Remove the milestone from the schedule because external approvals are outside the team control",
+        "trap": "Confuses external dependency with irrelevance to the schedule."
+      }
+    ],
+    "explanation": "Milestones are zero duration schedule markers that indicate significant events or required achievement points. Because they do not consume time themselves, the project manager cannot compress or resource load the milestone directly. The correct approach is to analyze the predecessor activities and dependencies that drive the milestone date and take action there. This reflects proper schedule network thinking and proactive control of externally significant commitments such as regulatory approvals.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.2 Define Activities, milestone list",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 6.5 Develop Schedule",
+      "PMI Exam Content Outline for PMP Certification, Process Domain, Plan and Manage Schedule"
+    ],
+    "tags": [
+      "schedule",
+      "milestone-dependency-management"
+    ]
+  }
+]

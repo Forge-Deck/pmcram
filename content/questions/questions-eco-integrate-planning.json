@@ -1,0 +1,417 @@
+[
+  {
+    "id": "integrate-planning-project-management-plan-integration",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "project management plan integration",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is consolidating planning outputs from all knowledge areas into a single, approved framework for execution and control. Which document should be integrated and approved first as the primary source for how the project will be managed?",
+      "A project has completed scope, schedule, cost, risk, quality, resource, and communications planning. What should the project manager finalize as the overarching integrated document that guides execution and monitoring?"
+    ],
+    "correct": [
+      {
+        "text": "The project management plan",
+        "why": "It is the integrated, approved document that combines subsidiary management plans and baselines and defines how the project will be executed, monitored, and controlled."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The project charter",
+        "trap": "Confuses authorization of the project with the integrated plan used to manage the work."
+      },
+      {
+        "text": "The benefits management plan",
+        "trap": "Assumes a business document replaces the detailed integrated planning framework."
+      },
+      {
+        "text": "The issue log",
+        "trap": "Mistakes a current tracking artifact for a planning and governance document."
+      },
+      {
+        "text": "The requirements traceability matrix",
+        "trap": "Focuses narrowly on requirements rather than overall project integration."
+      }
+    ],
+    "explanation": "The project management plan is the central integrated planning artifact for the project. It consolidates approved subsidiary management plans and baselines into a coherent framework for directing, executing, monitoring, controlling, and closing the project. The charter authorizes the project, but it does not replace the detailed integrated plan used for day to day management.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Project management plan",
+      "PMBOK Guide Sixth Edition, Section 4.2 Develop Project Management Plan"
+    ],
+    "tags": [
+      "integrate-planning",
+      "project-management-plan-integration"
+    ]
+  },
+  {
+    "id": "integrate-planning-subsidiary-plan-alignment",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "subsidiary plan alignment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During planning, the project manager notices that the schedule management plan assumes weekly progress reporting, but the communications management plan specifies monthly reporting. What is the best action to support integration of planning activities?",
+      "A review of planning documents shows inconsistencies among subsidiary management plans. What should the project manager do first to properly integrate the plans?"
+    ],
+    "correct": [
+      {
+        "text": "Reconcile the inconsistencies and update the subsidiary plans so they are aligned within the project management plan",
+        "why": "Integrated planning requires that subsidiary plans be consistent with one another and support a coherent project management approach."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use the schedule management plan because time objectives take priority over all other plans",
+        "trap": "Assumes one knowledge area automatically overrides the others."
+      },
+      {
+        "text": "Ask the sponsor to choose which plan should remain unchanged",
+        "trap": "Escalates a planning integration responsibility that should first be handled by the project manager and team."
+      },
+      {
+        "text": "Leave the plans as written and resolve differences during execution",
+        "trap": "Treats planning conflicts as acceptable even though they create preventable execution issues."
+      },
+      {
+        "text": "Create a change request immediately to revise the project charter",
+        "trap": "Confuses internal planning alignment with charter level change management."
+      }
+    ],
+    "explanation": "A key part of integrating project planning activities is ensuring that subsidiary management plans are internally consistent and collectively support the project management plan. Conflicts among planning components should be reconciled during planning, not deferred to execution. The project manager is responsible for facilitating alignment so governance, reporting, controls, and delivery approaches work together.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 4.2 Develop Project Management Plan",
+      "PMBOK Guide Sixth Edition, Section 4.2.3.1 Project Management Plan"
+    ],
+    "tags": [
+      "integrate-planning",
+      "subsidiary-plan-alignment"
+    ]
+  },
+  {
+    "id": "integrate-planning-integrated-change-control-and-baselines",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "integrated change control and baselines",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A stakeholder requests adding a new regulatory reporting feature after the scope, schedule, and cost baselines have been approved. What should the project manager do next?",
+      "After approval of project baselines, a compliance driven feature request is submitted. Which action is most appropriate under integrated change control?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate the impacts across all affected baselines and submit the change for formal review through integrated change control",
+        "why": "A proposed change that may affect approved scope, schedule, or cost baselines must be assessed holistically and processed through the formal change control system."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Update the scope baseline immediately because the request is compliance related",
+        "trap": "Assumes urgency or regulatory importance removes the need for formal change review."
+      },
+      {
+        "text": "Reject the request because approved baselines cannot be changed",
+        "trap": "Misunderstands baselines as fixed forever rather than controlled through approved changes."
+      },
+      {
+        "text": "Ask the team to implement the feature and document it later",
+        "trap": "Represents uncontrolled change and bypasses governance."
+      },
+      {
+        "text": "Revise only the requirements documentation because baselines are unaffected until work starts",
+        "trap": "Ignores the likely impact on integrated planning documents and approved baselines."
+      }
+    ],
+    "explanation": "Once baselines are approved, any requested change that could affect scope, schedule, cost, or other controlled project components must be evaluated for integrated impact and processed through Perform Integrated Change Control. Baselines are not immutable, but they can only be updated through formal approval. This ensures decisions reflect cross functional consequences rather than isolated adjustments.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "PMBOK Guide Sixth Edition, Section 4.2.3.1 Project Management Plan"
+    ],
+    "tags": [
+      "integrate-planning",
+      "integrated-change-control-and-baselines"
+    ]
+  },
+  {
+    "id": "integrate-planning-configuration-control-versus-change-control",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "configuration control versus change control",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project team is designing controls for a complex product. The project manager wants to distinguish between approving changes to product specifications and tracking version identity of approved components. Which statements are correct?",
+      "While integrating planning for governance, a project manager explains the difference between change control and configuration control. Which actions belong to the correct control approach?"
+    ],
+    "correct": [
+      {
+        "text": "Change control evaluates, approves, delays, or rejects proposed modifications to project documents, deliverables, or baselines",
+        "why": "Change control governs the decision process for proposed changes and their authorization status."
+      },
+      {
+        "text": "Configuration control focuses on specification consistency and on identifying and documenting the characteristics and versions of product components",
+        "why": "Configuration control is concerned with the functional and physical characteristics of a product and maintaining traceable configuration information."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Configuration control replaces integrated change control when the project uses predictive life cycles",
+        "trap": "Incorrectly treats configuration control as a substitute for overall change governance."
+      },
+      {
+        "text": "Change control is used only for schedule and cost changes, while configuration control covers scope changes",
+        "trap": "Creates a false split by knowledge area rather than by control purpose."
+      },
+      {
+        "text": "Configuration control is an informal team level process, while change control is only for sponsor approval",
+        "trap": "Misrepresents both processes and oversimplifies governance roles."
+      },
+      {
+        "text": "Once a configuration item is baselined, no further changes can be proposed",
+        "trap": "Confuses controlled change with prohibited change."
+      }
+    ],
+    "explanation": "Configuration control and change control are related but distinct. Change control governs the formal evaluation and disposition of proposed changes to project artifacts, deliverables, and baselines. Configuration control is a component of that broader discipline that focuses on the identification, documentation, and status of configuration items and on maintaining consistency between specifications and the actual product. Strong plan integration clarifies both mechanisms in advance.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "PMBOK Guide Sixth Edition, Glossary, Configuration Management System",
+      "PMBOK Guide Sixth Edition, Glossary, Change Control"
+    ],
+    "tags": [
+      "integrate-planning",
+      "configuration-control-versus-change-control"
+    ]
+  },
+  {
+    "id": "integrate-planning-cross-plan-assumption-consistency",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "cross-plan assumption consistency",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is finalizing planning for a global ERP rollout. During review, the procurement lead selects a contract type that shifts most delivery risk to the seller, but the risk register and cost estimates still assume the buyer will absorb major rework costs. What should the project manager do next?",
+      "While integrating planning outputs for an ERP implementation, the project manager notices the procurement approach transfers risk differently than the assumptions documented in the risk register and estimating basis. What is the best next action?"
+    ],
+    "correct": [
+      {
+        "text": "Reconcile the planning assumptions across procurement, risk, and cost documents and update the affected planning components before final plan approval",
+        "why": "Integrating planning activities requires checking that assumptions, risk ownership, and estimating logic are consistent across planning components so the approved plan is internally coherent."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve the procurement approach first because contract strategy takes precedence over all other planning documents",
+        "trap": "Assumes one subsidiary plan overrides the need for integrated alignment."
+      },
+      {
+        "text": "Ask the sponsor to choose whether the procurement strategy or the risk assumptions should remain unchanged",
+        "trap": "Escalates a planning integration issue that the project manager should resolve through coordinated planning."
+      },
+      {
+        "text": "Keep the original estimates because procurement decisions are validated only after seller selection",
+        "trap": "Confuses progressive elaboration with ignoring known planning inconsistencies."
+      },
+      {
+        "text": "Issue a change request because any planning update requires formal change control before the project management plan is approved",
+        "trap": "Mistakes pre-approval planning refinement for post-baseline change control."
+      },
+      {
+        "text": "Revise only the procurement management plan because contract type decisions should not affect cost or risk planning",
+        "trap": "Ignores the integrated nature of planning outputs."
+      }
+    ],
+    "explanation": "Before the project management plan is approved, the project manager integrates planning outputs so they work together as one coherent decision framework. If procurement decisions alter risk allocation or cost exposure, related planning components such as risk responses, assumptions, and estimates should be reconciled. This is plan integration rather than formal change control because the plan is still being finalized.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts section, Project Management Plan",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Develop Project Management Plan section"
+    ],
+    "tags": [
+      "integrate-planning",
+      "cross-plan-assumption-consistency"
+    ]
+  },
+  {
+    "id": "integrate-planning-integrated-plan-readiness-review",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "integrated plan readiness review",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team has completed scope, schedule, cost, resource, communications, risk, procurement, and stakeholder planning. The sponsor asks how the project manager will determine whether the combined plan is ready for approval. Which action best demonstrates integration of planning activities?",
+      "After all major planning components are drafted, what should the project manager do to confirm the project management plan is ready to be approved as an integrated whole?"
+    ],
+    "correct": [
+      {
+        "text": "Verify that dependencies, assumptions, constraints, decision rules, and management approaches are mutually consistent across all planning components",
+        "why": "An integrated readiness review focuses on whether the planning components fit together logically and support coordinated execution and monitoring."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Confirm that each functional lead has approved only the section they authored",
+        "trap": "Treats planning as siloed approval instead of integrated management."
+      },
+      {
+        "text": "Ensure that every planning section has the same level of detail regardless of project need",
+        "trap": "Assumes uniform detail is the goal rather than fit for purpose and consistency."
+      },
+      {
+        "text": "Wait until execution begins to identify conflicts between planning components",
+        "trap": "Defers integration work that should occur during planning."
+      },
+      {
+        "text": "Focus on whether the schedule network is complete because the schedule drives all other plans",
+        "trap": "Overemphasizes one planning element and ignores overall integration."
+      }
+    ],
+    "explanation": "The project management plan is not just a collection of separate sections. Integrating planning activities means ensuring that assumptions, constraints, dependencies, and management approaches work together across the full set of planning components. Readiness for approval depends on internal coherence and decision usefulness, not merely on section completion or isolated signoffs.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts section, Project Management Plan",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Develop Project Management Plan section"
+    ],
+    "tags": [
+      "integrate-planning",
+      "integrated-plan-readiness-review"
+    ]
+  },
+  {
+    "id": "integrate-planning-cadence-alignment-across-planning-artifacts",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "cadence alignment across planning artifacts",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A hybrid project is preparing for execution. The release roadmap shows monthly feature drops, but the stakeholder engagement approach promises formal quarterly demonstrations to all business units. Several key stakeholders say they expect monthly visibility into progress. What should the project manager do?",
+      "During final planning on a hybrid product project, the cadence in the release roadmap does not match the stakeholder engagement approach. What is the best action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Align stakeholder engagement activities with the delivery cadence and update the affected planning components so expectations match how value will be reviewed",
+        "why": "Integrated planning requires consistency between delivery cadence and stakeholder communication and engagement mechanisms."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Retain the quarterly demonstrations because stakeholder engagement should remain stable once drafted",
+        "trap": "Assumes stability is more important than alignment with how the project will operate."
+      },
+      {
+        "text": "Follow the release roadmap and ignore the stakeholder engagement approach because delivery planning is more authoritative",
+        "trap": "Treats one plan component as dominant rather than integrated."
+      },
+      {
+        "text": "Ask stakeholders to choose whichever cadence they prefer after execution starts",
+        "trap": "Postpones a planning integration issue that affects expectations and governance."
+      },
+      {
+        "text": "Create a change request to update stakeholder expectations before the project has started",
+        "trap": "Confuses refinement during plan finalization with formal change control."
+      },
+      {
+        "text": "Add more status reports so both cadences can coexist without modifying the plan",
+        "trap": "Adds reporting overhead instead of resolving the underlying inconsistency."
+      }
+    ],
+    "explanation": "Integrated planning includes aligning management approaches with the way the project will actually deliver value. If the delivery cadence is monthly but stakeholder engagement is structured around quarterly interactions, stakeholders may not receive feedback opportunities at the right time. The project manager should harmonize those planning components before approval so expectations, governance, and review timing are synchronized.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts section, Project Management Plan",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Develop Project Management Plan section",
+      "PMI Exam Content Outline for PMP Certification, Process domain, task Integrate Project Planning Activities"
+    ],
+    "tags": [
+      "integrate-planning",
+      "cadence-alignment-across-planning-artifacts"
+    ]
+  },
+  {
+    "id": "integrate-planning-resource-and-schedule-planning-reconciliation",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "resource and schedule planning reconciliation",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager inherits a complex infrastructure project. The schedule planning assumptions rely on a six-day workweek during deployment, but the resource calendars approved by functional managers allow only a five-day workweek. No baseline has been approved yet. Which two actions should the project manager take first?",
+      "Before approval of the project management plan, the project manager discovers that schedule assumptions and resource availability are inconsistent. What are the best two initial actions?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze the effect of the calendar mismatch on planned durations and sequencing",
+        "why": "The project manager should first understand how the inconsistency changes the feasibility of the planned work."
+      },
+      {
+        "text": "Coordinate with the responsible planning owners to reconcile calendars, assumptions, and resulting plan components before approval",
+        "why": "Integrating planning means resolving cross-functional inconsistencies and updating the affected planning components into one workable plan."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Submit a formal change request to preserve governance discipline",
+        "trap": "Applies post-approval change control to pre-approval planning integration."
+      },
+      {
+        "text": "Freeze the schedule assumptions because early stability is more important than precision",
+        "trap": "Prioritizes false stability over feasibility."
+      },
+      {
+        "text": "Ask team members to volunteer overtime so the current schedule remains intact",
+        "trap": "Uses informal execution tactics instead of resolving planning inconsistencies."
+      },
+      {
+        "text": "Approve the resource calendars as the single source of truth without revisiting the schedule",
+        "trap": "Corrects one side of the issue but fails to integrate dependent planning outputs."
+      },
+      {
+        "text": "Escalate the conflict to the change control board for a final decision",
+        "trap": "Misuses governance bodies for a planning issue that should be reconciled by the project manager and planning participants."
+      }
+    ],
+    "explanation": "When planning components conflict before approval, the project manager should evaluate the impact and then reconcile the affected planning elements. Here, schedule feasibility depends on resource calendars, so the right response is to analyze the mismatch and coordinate updates across planning owners. Formal integrated change control is not the first step because the plan has not yet been approved as a baseline.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Develop Schedule section",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Plan Resource Management section",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Develop Project Management Plan section"
+    ],
+    "tags": [
+      "integrate-planning",
+      "resource-and-schedule-planning-reconciliation"
+    ]
+  }
+]

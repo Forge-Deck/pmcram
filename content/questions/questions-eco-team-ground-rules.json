@@ -1,0 +1,410 @@
+[
+  {
+    "id": "team-ground-rules-team-charter",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "team charter",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During kickoff for a cross-functional software project, the project manager notices that team members have different expectations about meeting etiquette, response times, and escalation paths. What should the project manager do first to define team ground rules?",
+      "At the start of a project, team members are unclear about how they should communicate, raise issues, and behave in meetings. What is the best first action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate creation of a team charter with the team to document working agreements, norms, and expected behaviors",
+        "why": "A team charter is a primary PMI-aligned mechanism for defining ground rules collaboratively. It establishes shared expectations for behavior, communication, and decision making early in the project."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Issue a directive that all team members must follow the project manager's preferred meeting rules",
+        "trap": "Assumes ground rules are most effective when imposed unilaterally rather than developed with team ownership."
+      },
+      {
+        "text": "Wait until the first conflict occurs so the team can see which rules are actually needed",
+        "trap": "Treats ground rules as reactive instead of proactively establishing norms to prevent confusion and conflict."
+      },
+      {
+        "text": "Escalate the matter to the sponsor so the sponsor can define the team's code of conduct",
+        "trap": "Confuses sponsor governance with the project manager's facilitation role in team development."
+      },
+      {
+        "text": "Develop a detailed work breakdown structure before discussing team behavior expectations",
+        "trap": "Confuses scope decomposition with people management and team norm setting."
+      }
+    ],
+    "explanation": "The best first step is to facilitate a team charter or equivalent working agreement with the team. PMI practice emphasizes collaborative definition of norms and behavioral expectations so the team has clarity and ownership. This charter can include communication protocols, meeting norms, escalation paths, and decision rules, which helps reduce misunderstandings and supports team performance from the outset.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team Charter discussion in models, methods, and artifacts section",
+      "PMI, Process Groups A Practice Guide, Develop Team and Manage Team sections discussing ground rules and team agreements",
+      "PMI, Exam Content Outline for PMP Certification, People domain, task Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "team-charter"
+    ]
+  },
+  {
+    "id": "team-ground-rules-decision-making-rules",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "decision-making rules",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A newly formed hybrid project team agrees on core working agreements, but several members ask how routine design decisions will be made when consensus cannot be reached. Which additional ground rule should the project manager help the team define?",
+      "While establishing team norms, the team asks what should happen when discussion does not lead to agreement on a routine technical choice. What should be included in the ground rules?"
+    ],
+    "correct": [
+      {
+        "text": "Document a decision-making rule that specifies who decides, when consensus is expected, and how ties or deadlocks will be resolved",
+        "why": "Decision-making rules are an important part of ground rules because they reduce ambiguity and delay. Clear rules improve efficiency and prevent repeated conflict over authority and process."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "State that every decision must be approved by the sponsor to avoid disagreement within the team",
+        "trap": "Over-centralizes routine decisions and ignores the need for timely team-level decision making."
+      },
+      {
+        "text": "Allow the most senior functional expert to make all decisions without discussion",
+        "trap": "Assumes hierarchy alone is the best basis for decisions and bypasses agreed team processes."
+      },
+      {
+        "text": "Postpone defining decision rules until after the team completes its first sprint or phase",
+        "trap": "Delays an important component of ground rules that should be set early."
+      },
+      {
+        "text": "Rely on informal discussions and trust that the team will decide appropriately each time",
+        "trap": "Confuses good intent with clear process and ignores the value of explicit norms."
+      }
+    ],
+    "explanation": "Ground rules should include not only behavioral expectations but also how decisions will be made. A defined decision-making rule clarifies when consensus is needed, who has authority for which decisions, and how unresolved disagreements are handled. This supports smoother execution, reduces conflict, and aligns with PMI emphasis on clear team norms and working agreements.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team Charter and collaborative decision making concepts in models, methods, and artifacts",
+      "PMI, Agile Practice Guide, sections on team agreements and collaborative decision making",
+      "PMI, Exam Content Outline for PMP Certification, People domain, task Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "decision-making-rules"
+    ]
+  },
+  {
+    "id": "team-ground-rules-enforcement-of-ground-rules",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "enforcement of ground rules",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team created ground rules during kickoff, including timely attendance, respectful communication, and raising risks within one business day. Two senior specialists repeatedly interrupt others in meetings and ignore the escalation rule. What should the project manager do next?",
+      "After team ground rules have been agreed and documented, a few influential team members repeatedly violate them. What is the most appropriate response from the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Address the behavior promptly by referring to the agreed ground rules, coaching the individuals, and reinforcing consistent accountability across the team",
+        "why": "Ground rules are only effective if they are reinforced consistently. The project manager should use the agreed standards as the basis for coaching and accountability rather than ignoring violations or escalating prematurely."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ignore the issue because senior specialists often need flexibility to work effectively",
+        "trap": "Assumes expertise exempts some members from team norms, which undermines fairness and trust."
+      },
+      {
+        "text": "Immediately replace the specialists with team members who are more cooperative",
+        "trap": "Jumps to a drastic staffing action before attempting appropriate team management and coaching."
+      },
+      {
+        "text": "Cancel the ground rules because they are clearly unrealistic for experienced team members",
+        "trap": "Treats violations as proof that norms are invalid instead of addressing behavior and fit."
+      },
+      {
+        "text": "Escalate directly to functional managers without first referencing the team agreement",
+        "trap": "Skips the project manager's responsibility to manage team behavior using established norms."
+      }
+    ],
+    "explanation": "Once the team has defined ground rules, the project manager should reinforce them consistently and fairly. The first response is to reference the agreed working agreements, coach the individuals involved, and hold the team accountable to its own standards. This maintains psychological safety, fairness, and trust while showing that team norms are meaningful and operational rather than symbolic.",
+    "references": [
+      "PMI, Process Groups A Practice Guide, Manage Team section addressing team norms, conflict management, and team performance",
+      "PMI, Agile Practice Guide, sections on working agreements and servant leadership support for team accountability",
+      "PMI, Exam Content Outline for PMP Certification, People domain, task Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "enforcement-of-ground-rules"
+    ]
+  },
+  {
+    "id": "team-ground-rules-code-of-conduct-integration",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "code of conduct integration",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A global project team is drafting its working agreements. The organization already has a formal corporate code of conduct covering ethics, harassment, and compliance. Which two actions should the project manager take when defining team ground rules?",
+      "While creating team norms for an international project, the team asks how its working agreements should relate to the organization's existing code of conduct. Which two actions are most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Align team ground rules with the organization's code of conduct and ensure the team understands nonnegotiable behavioral expectations",
+        "why": "Team ground rules should complement and not conflict with enterprise standards. Organizational conduct requirements set minimum expectations that the team must follow."
+      },
+      {
+        "text": "Use the team charter or working agreement to add project-specific norms such as meeting behavior, communication channels, and decision protocols",
+        "why": "The team charter expands beyond corporate policy by defining practical day-to-day collaboration rules tailored to the project context."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Replace the corporate code of conduct with a project-specific agreement so the team can work more flexibly",
+        "trap": "Incorrectly assumes project teams can override enterprise ethical and compliance requirements."
+      },
+      {
+        "text": "Avoid documenting team norms because the corporate code of conduct already covers all necessary behavior",
+        "trap": "Confuses broad organizational policy with practical project-level working agreements."
+      },
+      {
+        "text": "Limit discussion of conduct expectations to the project manager and sponsor to avoid making team members uncomfortable",
+        "trap": "Assumes conduct and norms should not be openly established with the team."
+      },
+      {
+        "text": "Allow each functional subgroup to apply its own separate behavioral rules without a common team standard",
+        "trap": "Ignores the need for shared norms across the integrated project team."
+      }
+    ],
+    "explanation": "The organizational code of conduct provides mandatory behavioral and ethical boundaries, while team ground rules provide project-specific working norms. Effective practice is to align the team agreement with enterprise standards and then define additional practical norms for communication, meetings, issue escalation, and decision making. This combination ensures both compliance and effective day-to-day collaboration.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team Charter artifact and tailoring of team practices",
+      "PMI, Code of Ethics and Professional Conduct, sections on responsibility, respect, fairness, and honesty",
+      "PMI, Exam Content Outline for PMP Certification, People domain, task Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "code-of-conduct-integration"
+    ]
+  },
+  {
+    "id": "team-ground-rules-working-agreements-for-communication-and-meeting-norms",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "working agreements for communication and meeting norms",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is onboarding a newly formed cross-functional team that spans four time zones. Early meetings are inefficient because some members join unprepared and status updates are duplicated across channels. What should the project manager do first to define effective team ground rules?",
+      "A distributed project team has started work, but meetings are inconsistent and communication expectations are unclear. What is the best first action to establish ground rules?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a team session to agree on communication response times, meeting preparation expectations, and where work updates will be recorded",
+        "why": "Ground rules are most effective when the team collaboratively defines practical working agreements that clarify expected behaviors and reduce ambiguity."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask the functional managers to issue communication instructions for their team members",
+        "trap": "Assumes external authority should define team norms instead of building team ownership."
+      },
+      {
+        "text": "Publish a detailed status reporting calendar and require compliance without team input",
+        "trap": "Confuses administrative reporting with collaboratively defined ground rules."
+      },
+      {
+        "text": "Escalate the meeting inefficiency issue to the sponsor to gain support for stricter oversight",
+        "trap": "Escalates too early instead of resolving a team working practice issue at the team level."
+      },
+      {
+        "text": "Delay defining expectations until the team has completed the first major milestone",
+        "trap": "Ignores that ground rules are most useful early to prevent avoidable friction."
+      }
+    ],
+    "explanation": "The best first step is to facilitate agreement among team members on practical collaboration expectations such as response times, meeting readiness, and where information is maintained. These are core ground rules because they shape how the team works day to day. PMI emphasizes collaborative team agreements to promote commitment, transparency, and accountability rather than imposing rules unilaterally or escalating prematurely.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain",
+      "PMBOK Guide Sixth Edition, Develop Team section",
+      "PMP Examination Content Outline, People domain, Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "working-agreements-for-communication-and-meeting-norms"
+    ]
+  },
+  {
+    "id": "team-ground-rules-inclusive-participation-norms",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "inclusive participation norms",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team includes senior specialists who dominate discussions, while newer members remain silent even when they identify risks. The project manager wants to define team ground rules that improve participation quality. Which ground rule would be most appropriate?",
+      "On a complex project, junior team members rarely speak during issue reviews because senior experts control the conversation. Which ground rule should the project manager help the team establish?"
+    ],
+    "correct": [
+      {
+        "text": "Agree that each attendee contributes before discussion closes and that concerns are raised without interruption or criticism",
+        "why": "This creates a norm that encourages balanced participation and psychological safety, which improves issue identification and team collaboration."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require all technical concerns to be submitted privately to the project manager before meetings",
+        "trap": "Reduces open collaboration and does not build team-based norms."
+      },
+      {
+        "text": "Assign only senior specialists the authority to speak during risk reviews to improve efficiency",
+        "trap": "Equates rank with value and suppresses diverse input that ground rules should protect."
+      },
+      {
+        "text": "Replace discussion meetings with written updates so conflict is avoided",
+        "trap": "Avoids the participation problem rather than defining healthier interaction norms."
+      },
+      {
+        "text": "Tell quieter team members to be more assertive during meetings",
+        "trap": "Places responsibility on individuals instead of establishing shared team expectations."
+      }
+    ],
+    "explanation": "A strong ground rule for this situation is one that ensures all voices are heard and concerns can be raised respectfully. Ground rules should shape team behavior in ways that improve trust, collaboration, and risk visibility. PMI practice supports creating norms that promote open participation and respectful dialogue, especially when status differences might otherwise suppress useful information.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain",
+      "PMBOK Guide Sixth Edition, Develop Team section",
+      "The Standard for Project Management, Team and stakeholder interaction principles"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "inclusive-participation-norms"
+    ]
+  },
+  {
+    "id": "team-ground-rules-information-flow-and-transparency-norms",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "information flow and transparency norms",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A hybrid project team struggles because urgent requests are posted in chat, decisions are buried in email threads, and action items are lost after virtual meetings. The project manager is defining team ground rules. Which two rules would best address this problem?",
+      "A project team uses multiple communication channels without consistency, causing missed actions and unclear decisions. Which two ground rules should the project manager establish?"
+    ],
+    "correct": [
+      {
+        "text": "Define which channels are used for urgent issues, formal decisions, and routine collaboration",
+        "why": "Clear channel norms reduce confusion and help the team route information consistently."
+      },
+      {
+        "text": "Require decisions and action items to be captured in a shared location after each meeting",
+        "why": "A transparent source of record improves accountability and reduces rework caused by lost information."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Allow each team member to choose the communication method that feels most efficient",
+        "trap": "Prioritizes individual preference over shared norms and consistency."
+      },
+      {
+        "text": "Move all communications to email because it is the most formal medium",
+        "trap": "Assumes one channel fits every purpose and ignores the need for fit-for-purpose communication rules."
+      },
+      {
+        "text": "Ask the scheduler to track action items separately from the rest of the team",
+        "trap": "Creates a silo instead of a transparent team working agreement."
+      },
+      {
+        "text": "Increase the number of weekly meetings so fewer updates are missed",
+        "trap": "Treats symptoms with more meetings instead of fixing the ground rules for information management."
+      }
+    ],
+    "explanation": "The most effective ground rules here define how information should flow and where it should be recorded. Teams work better when they share a common understanding of which channel serves which purpose and when decisions and actions are documented in a visible repository. PMI terminology supports establishing norms that enhance transparency, coordination, and accountability across the team.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain",
+      "PMBOK Guide Sixth Edition, Manage Communications section",
+      "PMP Examination Content Outline, People domain, Define Team Ground Rules"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "information-flow-and-transparency-norms"
+    ]
+  },
+  {
+    "id": "team-ground-rules-preparedness-and-issue-parking-norms",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Define Team Ground Rules",
+    "topic": "Define Team Ground Rules",
+    "subtopic": "preparedness and issue parking norms",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During project execution, recurring debates in workshops consume time because participants reopen previously settled assumptions and arrive with different expectations about readiness. The project manager wants to define stronger team ground rules. Which approach is best?",
+      "A project team repeatedly loses time in working sessions because agreed assumptions are revisited and some members arrive unprepared. What ground rule approach should the project manager implement?"
+    ],
+    "correct": [
+      {
+        "text": "Establish readiness criteria for meetings and use a visible parking lot for out of scope issues that need later review",
+        "why": "This directly addresses unprepared participation and prevents side topics from derailing progress while still preserving important items."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reduce stakeholder attendance so fewer opinions are introduced into workshops",
+        "trap": "Treats participation as the problem instead of improving team working norms."
+      },
+      {
+        "text": "Have the project manager decide which assumptions are final without further discussion",
+        "trap": "Overcentralizes control and bypasses healthy collaborative alignment."
+      },
+      {
+        "text": "Escalate repeated debate as a governance issue to the steering committee",
+        "trap": "Escalates an internal team practice issue before applying team-level solutions."
+      },
+      {
+        "text": "Convert workshops into one-way presentations to maintain schedule discipline",
+        "trap": "Eliminates collaboration rather than structuring it with effective ground rules."
+      }
+    ],
+    "explanation": "When meetings are derailed by lack of preparation and off-topic discussion, effective ground rules should set expectations for readiness and provide a mechanism to manage tangential issues. Readiness criteria support productive participation, while a parking lot preserves relevant concerns without disrupting the current objective. This aligns with PMI practice of defining norms that improve focus, efficiency, and shared accountability.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Team Performance domain",
+      "PMBOK Guide Sixth Edition, Develop Team section",
+      "The Standard for Project Management, tailoring team practices for effective collaboration"
+    ],
+    "tags": [
+      "team-ground-rules",
+      "preparedness-and-issue-parking-norms"
+    ]
+  }
+]

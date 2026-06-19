@@ -1,0 +1,402 @@
+[
+  {
+    "id": "governance-governance-framework",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "governance framework",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is initiating a cross-functional software implementation. Several department heads are giving conflicting direction on scope changes and budget tradeoffs. What should the project manager establish first to clarify how decisions will be made?",
+      "During project initiation, functional leaders are issuing inconsistent instructions about scope and funding priorities. What is the best action to define how project decisions will be governed?"
+    ],
+    "correct": [
+      {
+        "text": "Define the project governance framework, including decision rights, approval thresholds, and escalation paths",
+        "why": "A governance framework sets the structure for oversight and decision-making, clarifies who has authority, and defines how issues are escalated when limits are exceeded."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask each functional manager to approve only the changes affecting that manager's department",
+        "trap": "This fragments authority and can create inconsistent decisions instead of an integrated governance structure."
+      },
+      {
+        "text": "Allow the project team to vote on all scope and budget decisions to increase engagement",
+        "trap": "Team input can help, but governance decisions require defined authority, not informal voting."
+      },
+      {
+        "text": "Create a detailed communications management plan before assigning decision authority",
+        "trap": "Communications planning is important but does not resolve who has the right to make decisions."
+      },
+      {
+        "text": "Escalate every decision directly to the sponsor until the project is complete",
+        "trap": "This bypasses scalable governance and overloads the sponsor with routine decisions."
+      }
+    ],
+    "explanation": "When multiple stakeholders provide conflicting direction, the project manager should first establish a governance framework that defines roles, decision rights, approval thresholds, and escalation paths. This creates a consistent method for directing the project and prevents confusion over who can authorize changes, resolve conflicts, and make tradeoff decisions.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Governance principle and tailoring discussion",
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on governance framework and decision-making authorities"
+    ],
+    "tags": [
+      "governance",
+      "governance-framework"
+    ]
+  },
+  {
+    "id": "governance-steering-committee",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "steering committee",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is entering execution and major vendor selection decisions will affect cost, schedule, and regulatory compliance. The sponsor wants a body that provides oversight and makes strategic decisions when issues exceed the project manager's authority. Which governance component is most appropriate?",
+      "For a high-visibility project, the sponsor needs a formal group to review major issues, provide direction, and approve decisions beyond the project manager's authority. What should be established?"
+    ],
+    "correct": [
+      {
+        "text": "A steering committee with defined oversight responsibilities and decision authority for escalated matters",
+        "why": "A steering committee is an appropriate governance body for high-level oversight, strategic alignment, and decisions that exceed the project manager's delegated authority."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A daily project team standup to approve strategic vendor and compliance decisions",
+        "trap": "Team coordination meetings are not governance bodies for major strategic decisions."
+      },
+      {
+        "text": "A lessons learned register to capture governance concerns for future projects",
+        "trap": "A lessons learned register records insights but does not provide active oversight or decision authority."
+      },
+      {
+        "text": "An issue log owned by procurement to resolve all escalated matters independently",
+        "trap": "An issue log tracks issues, but ownership by one function does not create cross-functional governance."
+      },
+      {
+        "text": "A work performance report that allows the sponsor to review decisions after implementation",
+        "trap": "Reporting supports governance but is not itself the governance mechanism."
+      }
+    ],
+    "explanation": "A steering committee is commonly used to provide governance oversight on complex or high-risk projects. It serves as the forum for strategic guidance, cross-functional alignment, and decisions on matters that exceed the project manager's delegated authority, especially when vendor, compliance, and business tradeoffs are involved.",
+    "references": [
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on governing bodies and steering committees",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, stakeholder and governance related guidance"
+    ],
+    "tags": [
+      "governance",
+      "steering-committee"
+    ]
+  },
+  {
+    "id": "governance-escalation-paths",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "escalation paths",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager on an infrastructure project discovers that team members are escalating minor issues directly to the sponsor, while critical safety concerns are being delayed because no one knows when to escalate. Which action best strengthens the project governance structure?",
+      "On a construction project, routine issues go straight to the sponsor and serious risks are not escalated quickly because thresholds are unclear. What should the project manager do to improve governance?"
+    ],
+    "correct": [
+      {
+        "text": "Document escalation paths with clear thresholds, authority levels, and response expectations",
+        "why": "Defined escalation criteria ensure routine issues are handled at the proper level and urgent matters are raised promptly to the correct authority."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require the sponsor to attend all team meetings so issues can be addressed immediately",
+        "trap": "This is inefficient and does not create a scalable governance structure."
+      },
+      {
+        "text": "Ask team members to use their judgment and escalate only when they feel it is necessary",
+        "trap": "Informal judgment alone creates inconsistency and delays in high-consequence situations."
+      },
+      {
+        "text": "Direct all issues to the PMO because governance belongs only to the PMO",
+        "trap": "The PMO may support governance, but not all escalations should default there."
+      },
+      {
+        "text": "Increase the frequency of status reports to compensate for unclear issue handling",
+        "trap": "More reporting does not replace defined escalation thresholds and authority levels."
+      }
+    ],
+    "explanation": "An effective governance structure includes explicit escalation paths that define what types of issues must be elevated, when that should occur, and who has authority to respond. This prevents both over-escalation of minor items and under-escalation of significant threats such as safety or compliance concerns.",
+    "references": [
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on escalation and authority structures",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, uncertainty and stakeholder related guidance"
+    ],
+    "tags": [
+      "governance",
+      "escalation-paths"
+    ]
+  },
+  {
+    "id": "governance-pmo-types-and-governance",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "PMO types and governance",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager works in an organization where the PMO provides templates, governance standards, and periodic compliance reviews, but project managers still control their own projects. Which type of PMO does this describe?",
+      "In an organization, the PMO offers guidance, standard methods, and governance oversight while project managers retain primary authority over project delivery. What PMO type is this?"
+    ],
+    "correct": [
+      {
+        "text": "Controlling PMO",
+        "why": "A controlling PMO provides support and requires compliance with frameworks or standards, while project managers retain direct management responsibility."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Supportive PMO",
+        "trap": "A supportive PMO offers guidance and templates but generally has low control and limited compliance enforcement."
+      },
+      {
+        "text": "Directive PMO",
+        "trap": "A directive PMO directly manages projects rather than leaving primary authority with project managers."
+      },
+      {
+        "text": "Functional PMO",
+        "trap": "This is not the standard PMI classification used for PMO authority types in this context."
+      },
+      {
+        "text": "Administrative PMO",
+        "trap": "This label may sound plausible but is not the PMI category that describes governance control level."
+      }
+    ],
+    "explanation": "PMI commonly distinguishes PMOs by degree of control and authority. A supportive PMO offers consultative help, a controlling PMO enforces standards and governance compliance, and a directive PMO takes direct control of projects. In this scenario, the PMO governs through standards and reviews, but project managers still run their projects, which aligns with a controlling PMO.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Organizational structures and PMO discussion",
+      "PMI Lexicon of Project Management Terms, definition of project management office"
+    ],
+    "tags": [
+      "governance",
+      "pmo-types-and-governance"
+    ]
+  },
+  {
+    "id": "governance-decision-rights-and-authority-levels",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "decision rights and authority levels",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is initiating a complex product development project with multiple delivery vendors and internal functional managers. Several decisions are expected about scope trade-offs, acceptance criteria, and release readiness. What should the project manager define first to establish an effective project governance structure?",
+      "During project startup, a project manager anticipates frequent cross-functional decisions on priorities, quality acceptance, and release approval. Which action best establishes the project governance structure?"
+    ],
+    "correct": [
+      {
+        "text": "Document decision authorities, approval thresholds, and who can authorize scope, funding, and release decisions",
+        "why": "Governance is strengthened when decision rights are explicitly defined so the right people make timely and appropriate decisions within agreed authority limits."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Create a detailed work breakdown structure before assigning any approval authority",
+        "trap": "Assumes planning detail should come before governance clarity, even though governance enables disciplined planning and control."
+      },
+      {
+        "text": "Ask each functional manager to approve only the deliverables from that function",
+        "trap": "Confuses functional review with integrated project decision authority across the full project."
+      },
+      {
+        "text": "Allow the project team to make all scope and budget decisions to improve agility",
+        "trap": "Ignores the need for defined authority boundaries and accountability for constrained decisions."
+      },
+      {
+        "text": "Delay approval roles until the first major issue occurs so governance can be tailored to actual problems",
+        "trap": "Treats governance as reactive rather than something that should be established proactively."
+      }
+    ],
+    "explanation": "To establish project governance structure, the project manager should first clarify decision rights, approval thresholds, and authority boundaries for key project decisions. This creates accountability, reduces delay, and ensures that scope, funding, quality, and release decisions are made by the appropriate role at the appropriate level. Other planning artifacts are important, but they are not substitutes for governance authority definitions.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on governance systems and project governance",
+      "The Standard for Project Management, section on governance",
+      "PMI PMP Examination Content Outline, Process domain, task Establish Project Governance Structure"
+    ],
+    "tags": [
+      "governance",
+      "decision-rights-and-authority-levels"
+    ]
+  },
+  {
+    "id": "governance-tailoring-governance-to-delivery-approach",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "tailoring governance to delivery approach",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is asked to tailor governance for a hybrid project that includes predictive procurement work and iterative software delivery. Executive reviewers want visibility without slowing delivery. Which governance approach is most appropriate?",
+      "For a hybrid project with fixed vendor milestones and iterative product increments, how should the project manager establish governance so that control is maintained while delivery remains adaptable?"
+    ],
+    "correct": [
+      {
+        "text": "Define a tailored governance model with formal approvals for contractual and phase commitments and lighter decision mechanisms for iterative backlog and increment reviews",
+        "why": "Hybrid projects require governance aligned to the work type, with stronger control where commitments are fixed and adaptive decision flow where learning and reprioritization are expected."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use one uniform governance approach for all work packages so there is no variation in oversight",
+        "trap": "Assumes consistency is more important than fit for purpose, ignoring tailoring."
+      },
+      {
+        "text": "Apply only agile team norms because hybrid projects should minimize formal governance",
+        "trap": "Mistakes adaptive delivery practices for a complete governance structure."
+      },
+      {
+        "text": "Govern only vendor activities formally and leave internal delivery without defined controls",
+        "trap": "Creates governance gaps across integrated project work."
+      },
+      {
+        "text": "Require executive approval for every backlog reprioritization and technical decision",
+        "trap": "Over-governs routine delivery decisions and slows value delivery."
+      }
+    ],
+    "explanation": "Effective project governance should be tailored to the nature of the work. In a hybrid environment, formal controls are appropriate for contractual obligations, funding commitments, and major stage decisions, while adaptive mechanisms support rapid product decisions within team authority. A single rigid model or an overly lightweight model both create risk because they do not align governance intensity to the work being governed.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on tailoring",
+      "The Standard for Project Management, section on tailoring and governance",
+      "PMI PMP Examination Content Outline, Process domain, task Establish Project Governance Structure"
+    ],
+    "tags": [
+      "governance",
+      "tailoring-governance-to-delivery-approach"
+    ]
+  },
+  {
+    "id": "governance-phase-gates-and-exit-criteria",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "phase gates and exit criteria",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is defining governance for a regulated medical device project. The organization requires objective evidence before authorizing design completion, testing, and market release. Which two governance elements should be established?",
+      "On a highly regulated product project, leadership requires formal points where continuation depends on verified criteria and documented approval. Which two actions best establish the governance structure?"
+    ],
+    "correct": [
+      {
+        "text": "Define phase gate entry and exit criteria tied to required deliverables, compliance evidence, and approval authority",
+        "why": "Phase gates are governance control points that require clear criteria and authority for continuation decisions."
+      },
+      {
+        "text": "Assign gate reviewers and specify the information package needed to support each go no-go decision",
+        "why": "Governance is actionable only when reviewers, inputs, and decision expectations are clearly established."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Let each workstream decide independently when it is ready to move into the next phase",
+        "trap": "Ignores integrated governance and formal continuation decisions."
+      },
+      {
+        "text": "Replace formal gate reviews with weekly status meetings to reduce administrative effort",
+        "trap": "Confuses routine communication with control point governance."
+      },
+      {
+        "text": "Approve all future phases during initiation so later reviews do not delay the schedule",
+        "trap": "Eliminates the purpose of gated governance and evidence-based continuation."
+      },
+      {
+        "text": "Use cost performance as the only basis for go no-go decisions at each gate",
+        "trap": "Overlooks scope, quality, risk, compliance, and readiness criteria."
+      }
+    ],
+    "explanation": "Projects with significant compliance, safety, or investment exposure often require formal phase gates or tollgates. The governance structure should define what evidence is needed, who reviews it, what criteria determine readiness, and who has the authority to approve continuation. Status meetings and informal readiness judgments do not provide the same governance discipline or accountability.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on governance and measurement",
+      "The Standard for Project Management, section on governance and life cycle",
+      "PMI PMP Examination Content Outline, Process domain, task Establish Project Governance Structure"
+    ],
+    "tags": [
+      "governance",
+      "phase-gates-and-exit-criteria"
+    ]
+  },
+  {
+    "id": "governance-decision-matrix-and-role-clarity",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Establish Project Governance Structure",
+    "topic": "Establish Project Governance Structure",
+    "subtopic": "decision matrix and role clarity",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A large transformation project has repeated delays because architectural decisions are being made by different managers with conflicting priorities. The sponsor asks the project manager to strengthen governance. What is the best action?",
+      "In a complex enterprise project, technical and business managers are making overlapping decisions, causing rework and delay. Which governance action best resolves this problem?"
+    ],
+    "correct": [
+      {
+        "text": "Create a governance decision matrix that maps major decision categories to accountable roles, consultation requirements, and approval limits",
+        "why": "A decision matrix clarifies who decides, who is consulted, and where authority stops, reducing overlap, conflict, and delay."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Increase the frequency of status reporting so leaders can observe decisions as they happen",
+        "trap": "Uses reporting visibility as a substitute for governance role clarity."
+      },
+      {
+        "text": "Assign all architecture decisions to the project manager to speed execution",
+        "trap": "Assumes centralization is always best and ignores role expertise and authority boundaries."
+      },
+      {
+        "text": "Allow subject matter experts to vote informally on each major decision",
+        "trap": "Confuses collaborative input with formal accountable decision making."
+      },
+      {
+        "text": "Defer architectural decisions until detailed design is complete",
+        "trap": "Delays governance resolution and likely increases rework."
+      }
+    ],
+    "explanation": "When multiple roles make overlapping or conflicting decisions, the governance structure needs explicit role and decision clarity. A governance decision matrix establishes accountability, consultation paths, and authority thresholds for categories such as architecture, scope trade-offs, quality acceptance, and release approval. More reporting or informal consensus does not fix unclear decision ownership.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on governance systems",
+      "The Standard for Project Management, section on accountability and governance",
+      "PMI PMP Examination Content Outline, Process domain, task Establish Project Governance Structure"
+    ],
+    "tags": [
+      "governance",
+      "decision-matrix-and-role-clarity"
+    ]
+  }
+]

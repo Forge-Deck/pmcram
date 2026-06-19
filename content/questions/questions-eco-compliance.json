@@ -1,0 +1,467 @@
+[
+  {
+    "id": "compliance-identify-and-classify-compliance-requirements",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Identify and classify compliance requirements",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is initiating a pharmaceutical packaging project in multiple countries. Before finalizing the management plan, the project manager reviews labeling laws, workplace safety rules, and data retention obligations. What should the project manager do first to plan and manage project compliance?",
+      "A project manager is starting a regulated product rollout across several jurisdictions. The team has identified safety, labeling, and recordkeeping obligations. What is the best first action to support project compliance?"
+    ],
+    "correct": [
+      {
+        "text": "Classify the applicable compliance requirements and incorporate them into project planning and controls",
+        "why": "This aligns with the ECO task to confirm compliance requirements, classify compliance categories, and determine the approach needed to manage them within the project."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Defer compliance work until execution so the team can focus on scope definition first",
+        "trap": "Assumes compliance can be handled later rather than being identified and embedded during planning"
+      },
+      {
+        "text": "Ask the sponsor to accept responsibility for all regulatory obligations",
+        "trap": "Misunderstands that the project manager still must plan and manage compliance within the project"
+      },
+      {
+        "text": "Treat compliance items as optional quality enhancements if they increase cost",
+        "trap": "Confuses mandatory compliance obligations with discretionary quality improvements"
+      },
+      {
+        "text": "Wait for an external audit to determine which laws and standards apply",
+        "trap": "Assumes audits replace proactive compliance planning"
+      }
+    ],
+    "explanation": "The best action is to identify, classify, and integrate compliance obligations into the project approach from the start. PMI frames project compliance as confirming requirements such as legal, regulatory, safety, and standards related obligations, then selecting methods and controls to support ongoing compliance. Deferring this work increases exposure to penalties, delays, and rework.",
+    "references": [
+      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on governance and compliance aligned performance considerations"
+    ],
+    "tags": [
+      "compliance",
+      "identify-and-classify-compliance-requirements"
+    ]
+  },
+  {
+    "id": "compliance-respond-to-regulatory-change",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Respond to regulatory change",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During execution of a construction project, a new environmental regulation takes effect and may affect disposal procedures for hazardous material. What should the project manager do next?",
+      "Midway through a construction project, the jurisdiction changes environmental disposal rules. What is the most appropriate action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the new regulation, update compliance plans and project documents, and implement required changes through governance and change control",
+        "why": "PMI expects the project manager to monitor compliance needs, determine the necessary approach and action, and measure continued compliance when legal or regulatory conditions change."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue work as planned unless an inspector formally cites the project",
+        "trap": "Relies on enforcement action instead of proactive compliance management"
+      },
+      {
+        "text": "Record the regulation as a lesson learned for future projects and avoid disrupting the current baseline",
+        "trap": "Treats an immediate compliance obligation as only an organizational learning issue"
+      },
+      {
+        "text": "Transfer all accountability to the contractor because disposal is an operational matter",
+        "trap": "Assumes contractual delegation removes project accountability for compliance"
+      },
+      {
+        "text": "Escalate the issue only if the cost impact exceeds the contingency reserve",
+        "trap": "Frames compliance solely as a cost issue rather than a mandatory obligation"
+      }
+    ],
+    "explanation": "When regulations change, the project manager should evaluate the impact, revise the compliance approach, and route necessary updates through the project governance and change process. Compliance management is ongoing, not a one time planning activity. Waiting for an external citation or treating the issue as optional exposes the project to legal, schedule, and reputational consequences.",
+    "references": [
+      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections addressing controls, reviews, and compliance oversight"
+    ],
+    "tags": [
+      "compliance",
+      "respond-to-regulatory-change"
+    ]
+  },
+  {
+    "id": "compliance-methods-to-support-compliance",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Methods to support compliance",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 3,
+    "present": 6,
+    "prompts": [
+      "A project manager is preparing a compliance strategy for a public sector digital service. Which actions should be included to support compliance throughout the project?",
+      "For a government digital platform project, which actions best help the team plan and manage compliance on an ongoing basis?"
+    ],
+    "correct": [
+      {
+        "text": "Define compliance controls, reviews, and audit points within the project governance approach",
+        "why": "Governance mechanisms such as controls, reviews, and audits are recognized PMI methods for supporting and measuring compliance."
+      },
+      {
+        "text": "Document applicable legal, regulatory, security, and standards obligations in project plans and work procedures",
+        "why": "Compliance obligations should be explicitly identified and integrated into the project management approach and execution procedures."
+      },
+      {
+        "text": "Monitor for compliance threats and assess the impact of noncompliance on the project and organization",
+        "why": "This reflects PMI guidance to determine potential threats to compliance and analyze the consequences of noncompliance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rely on team experience instead of documented compliance procedures to preserve agility",
+        "trap": "Confuses adaptive delivery with informal handling of mandatory obligations"
+      },
+      {
+        "text": "Delay compliance checks until final acceptance to minimize administrative effort",
+        "trap": "Assumes compliance is a closing activity instead of a continuous responsibility"
+      },
+      {
+        "text": "Remove requirements that create regulatory burden if stakeholders are under schedule pressure",
+        "trap": "Treats compliance obligations as negotiable scope tradeoffs"
+      },
+      {
+        "text": "Manage compliance only through the risk register without adding governance controls",
+        "trap": "Reduces compliance to generic risk management and omits specific control mechanisms"
+      }
+    ],
+    "explanation": "Effective compliance management uses defined controls, documentation, and monitoring throughout the project life cycle. PMI emphasizes confirming and classifying compliance requirements, identifying threats, selecting support methods, and measuring compliance. Governance reviews and audits complement risk management rather than being replaced by it.",
+    "references": [
+      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on monitoring compliance and conducting compliance related audits"
+    ],
+    "tags": [
+      "compliance",
+      "methods-to-support-compliance"
+    ]
+  },
+  {
+    "id": "compliance-compliance-categories-and-classification",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Compliance categories and classification",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team wants to classify several obligations on an energy infrastructure project. Which item is the best example of a legal or regulatory compliance requirement rather than an internal standard?",
+      "On a utility project, which obligation should the project manager classify as external legal or regulatory compliance?"
+    ],
+    "correct": [
+      {
+        "text": "A government mandated emissions reporting requirement tied to the project permit",
+        "why": "This is an externally imposed regulatory obligation and is a direct example of legal or regulatory compliance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A team preference to use a familiar status report format",
+        "trap": "This is an internal working preference, not a compliance obligation"
+      },
+      {
+        "text": "A project office guideline for color coding action logs",
+        "trap": "This is an internal administrative convention rather than a legal or regulatory requirement"
+      },
+      {
+        "text": "A sponsor request to hold weekly coordination meetings",
+        "trap": "This is a stakeholder management expectation, not a compliance category"
+      },
+      {
+        "text": "A voluntary brainstorming technique selected by the scrum team",
+        "trap": "This is a team practice choice and not a compliance requirement"
+      }
+    ],
+    "explanation": "Classifying compliance correctly matters because the response, urgency, and consequences differ across categories. External legal and regulatory obligations, such as permit based reporting, can trigger penalties, delays, or legal action if ignored. Internal standards and preferred practices may still be useful, but they do not carry the same compliance exposure unless they are formally mandated by policy or contract.",
+    "references": [
+      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
+      "PMI knowledge content on compliance categories classification including legal, regulatory, safety, environmental, quality, and process related categories"
+    ],
+    "tags": [
+      "compliance",
+      "compliance-categories-and-classification"
+    ]
+  },
+  {
+    "id": "compliance-audits-and-consequences-of-noncompliance",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Audits and consequences of noncompliance",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 3,
+    "present": 6,
+    "prompts": [
+      "An internal audit finds that a medical device project has incomplete traceability records required by regulation. The product is nearly ready for release. Which consequences and actions should the project manager consider?",
+      "A compliance audit reveals missing required traceability documentation shortly before launch of a regulated product. Which responses are appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Pause the release decision until the compliance gap is assessed and addressed through the appropriate governance path",
+        "why": "A confirmed compliance gap in a regulated environment requires controlled assessment and action before proceeding."
+      },
+      {
+        "text": "Analyze potential consequences such as fines, legal exposure, delayed approval, and reputational harm",
+        "why": "PMI explicitly associates noncompliance with penalties and broader organizational consequences that must be evaluated."
+      },
+      {
+        "text": "Implement corrective actions and verify the extent to which the project returns to compliance",
+        "why": "The ECO includes determining action to address compliance needs and measuring the degree of compliance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed with release because the audit issue concerns documentation rather than product scope",
+        "trap": "Assumes documentation gaps are minor even when regulation requires them"
+      },
+      {
+        "text": "Reclassify the finding as a quality preference to avoid escalation",
+        "trap": "Mislabels mandatory compliance deficiencies as optional quality matters"
+      },
+      {
+        "text": "Close the issue after the team verbally confirms that records can be recreated later",
+        "trap": "Accepts unsupported assurance instead of verified compliance restoration"
+      },
+      {
+        "text": "Ignore the finding unless the customer submits a complaint after launch",
+        "trap": "Waits for external impact instead of managing known noncompliance"
+      }
+    ],
+    "explanation": "Audit findings in regulated projects must be treated as compliance issues, not merely administrative inconveniences. The project manager should assess the gap, understand the consequences of noncompliance, use governance channels to control release decisions, and verify corrective action effectiveness. PMI emphasizes both the analysis of noncompliance impact and the measurement of actual compliance status after remediation.",
+    "references": [
+      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
+      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on audits, controls, and compliance oversight"
+    ],
+    "tags": [
+      "compliance",
+      "audits-and-consequences-of-noncompliance"
+    ]
+  },
+  {
+    "id": "compliance-compliance-impact-analysis-for-scope-change",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Compliance impact analysis for scope change",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A healthcare software project is preparing for deployment in multiple regions. The project manager learns that patient data will move through a new cloud logging feature not covered in the original scope. What should the project manager do first to plan and manage project compliance?",
+      "During rollout planning for a healthcare application, the team adds a cloud-based logging capability that could capture protected health information. What is the first action the project manager should take to maintain compliance?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the compliance impact of the new feature and update project requirements, controls, and relevant plans before implementation",
+        "why": "A scope change that alters data handling can create new compliance obligations. The project manager should first evaluate the impact and incorporate the resulting requirements and controls into project work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed with implementation because compliance review can be completed during user acceptance testing",
+        "trap": "Assumes compliance can be deferred to late-stage testing instead of being planned into the work"
+      },
+      {
+        "text": "Ask the cloud vendor to certify the feature as compliant and treat that certification as sufficient",
+        "trap": "Confuses vendor assurance with full project compliance responsibility"
+      },
+      {
+        "text": "Remove the logging feature from the release without reviewing business need or regulatory impact",
+        "trap": "Treats avoidance as the first step instead of performing impact analysis and decision-making"
+      },
+      {
+        "text": "Transfer ownership of compliance decisions to the development lead because the feature is technical",
+        "trap": "Misunderstands that the project manager must ensure compliance is planned and managed across the project"
+      }
+    ],
+    "explanation": "When a project change affects how regulated information, materials, or processes are handled, the project manager should first determine the compliance impact. That analysis informs updates to requirements documentation, planning artifacts, acceptance criteria, monitoring activities, and stakeholder responsibilities. Compliance is integrated into project management rather than left solely to testing, vendors, or technical specialists.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Planning",
+      "PMI, Process Groups A Practice Guide, Integrated Change Control section",
+      "PMI, PMI Code of Ethics and Professional Conduct, Responsibility section"
+    ],
+    "tags": [
+      "compliance",
+      "compliance-impact-analysis-for-scope-change"
+    ]
+  },
+  {
+    "id": "compliance-multiple-sources-of-mandatory-compliance-obligations",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Multiple sources of mandatory compliance obligations",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A global manufacturing project must comply with internal engineering standards, customer contract terms, and an industry safety standard. Team members are treating only the legal requirements as mandatory. What should the project manager emphasize?",
+      "On a manufacturing project, the team believes only laws and regulations require compliance. The project also has customer obligations and internal standards. What is the best guidance from the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Compliance obligations can come from regulations, contracts, and organizational standards, so all applicable obligations must be incorporated into project planning and control",
+        "why": "Project compliance is broader than statutory law. Contractual commitments and binding internal standards can also create mandatory obligations that must be managed."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only external regulations are mandatory, while customer and organizational standards are optional unless a defect occurs",
+        "trap": "Incorrectly narrows compliance to government-imposed requirements"
+      },
+      {
+        "text": "Internal standards should be ignored if they increase project cost because schedule and budget take precedence",
+        "trap": "Assumes performance constraints override binding compliance obligations"
+      },
+      {
+        "text": "Customer contract terms belong to procurement management and do not affect project compliance planning",
+        "trap": "Separates contractual obligations from overall compliance management"
+      },
+      {
+        "text": "The project team should manage safety standards, but the project manager should focus only on legal reporting",
+        "trap": "Misunderstands the project manager's role in integrating all applicable compliance requirements"
+      }
+    ],
+    "explanation": "Projects may be constrained by several sources of obligation, including laws and regulations, customer contract commitments, and organizational policies or standards that the project is required to follow. The project manager should ensure these obligations are translated into requirements, controls, acceptance criteria, reporting expectations, and decision thresholds. Treating only legal requirements as mandatory creates avoidable exposure for the project and organization.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Measurement",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Delivery",
+      "PMI, Process Groups A Practice Guide, Plan Quality Management section"
+    ],
+    "tags": [
+      "compliance",
+      "multiple-sources-of-mandatory-compliance-obligations"
+    ]
+  },
+  {
+    "id": "compliance-traceability-of-compliance-obligations",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Traceability of compliance obligations",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A public sector infrastructure project requires proof that every permit condition is reflected in design, construction, and inspection activities. Which actions should the project manager take to strengthen compliance traceability?",
+      "An infrastructure project sponsor asks for end-to-end evidence showing how permit conditions are addressed throughout the project. Which two actions best support compliance traceability?"
+    ],
+    "correct": [
+      {
+        "text": "Create and maintain a traceability mechanism linking each compliance obligation to deliverables, owners, verification methods, and status",
+        "why": "Traceability provides visibility from obligation to implementation and verification, which is essential for demonstrating compliance."
+      },
+      {
+        "text": "Define objective evidence for each obligation, such as inspection records, approvals, test results, or signed certifications",
+        "why": "Compliance must be supported by verifiable evidence, not only by statements that work was completed."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rely on the work breakdown structure alone because all project work is already captured there",
+        "trap": "Assumes decomposition of work automatically creates compliance traceability"
+      },
+      {
+        "text": "Use informal verbal confirmation from discipline leads instead of documented verification",
+        "trap": "Confuses team assurance with auditable evidence"
+      },
+      {
+        "text": "Track only obligations that affect critical path activities and omit the rest to reduce overhead",
+        "trap": "Treats compliance obligations as optional if they do not affect schedule"
+      },
+      {
+        "text": "Wait until project closing to compile compliance documentation in one package",
+        "trap": "Defers traceability rather than maintaining it throughout execution"
+      }
+    ],
+    "explanation": "Compliance traceability requires more than listing obligations. The project manager should connect each applicable obligation to the relevant scope components, accountable owners, monitoring and verification activities, and current status. In addition, the team should define what objective evidence will prove fulfillment. This approach supports ongoing control, transparent reporting, and defensible demonstration of compliance throughout the project life cycle.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Project Work",
+      "PMI, Process Groups A Practice Guide, Control Quality section",
+      "PMI, Process Groups A Practice Guide, Monitor and Control Project Work section"
+    ],
+    "tags": [
+      "compliance",
+      "traceability-of-compliance-obligations"
+    ]
+  },
+  {
+    "id": "compliance-third-party-compliance-accountability",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Third-party compliance accountability",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A financial services project uses a third-party provider to process customer transactions. The provider states that its platform is certified to industry standards. What should the project manager do to manage project compliance?",
+      "On a payments project, a vendor claims its platform meets all required standards. What is the best action for the project manager regarding compliance?"
+    ],
+    "correct": [
+      {
+        "text": "Validate vendor compliance obligations, define acceptance and oversight mechanisms, and monitor that the provider's controls satisfy project and organizational requirements",
+        "why": "Third-party involvement does not remove the project's responsibility to ensure applicable compliance obligations are met and evidenced."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the provider's certification statement as complete evidence and close the compliance item",
+        "trap": "Overrelies on vendor assertion without project-level verification"
+      },
+      {
+        "text": "Shift all compliance accountability to procurement because the work is outsourced",
+        "trap": "Incorrectly assumes outsourcing transfers overall accountability"
+      },
+      {
+        "text": "Focus only on technical integration because compliance is handled by the vendor's legal team",
+        "trap": "Separates operational delivery from compliance responsibility"
+      },
+      {
+        "text": "Delay compliance review until after go-live because active transactions are needed to confirm conformance",
+        "trap": "Allows exposure before controls and evidence are established"
+      }
+    ],
+    "explanation": "Using an external provider can introduce dependencies, but it does not eliminate the need for project-level compliance management. The project manager should ensure applicable obligations are identified, flowed into supplier requirements where appropriate, verified through agreed evidence and acceptance criteria, and monitored during delivery. Vendor certifications may be useful inputs, but they are not automatically sufficient to demonstrate compliance in the project's specific context.",
+    "references": [
+      "PMI, Process Groups A Practice Guide, Plan Procurement Management section",
+      "PMI, Process Groups A Practice Guide, Control Procurements section",
+      "PMI, PMI Code of Ethics and Professional Conduct, Responsibility section"
+    ],
+    "tags": [
+      "compliance",
+      "third-party-compliance-accountability"
+    ]
+  }
+]

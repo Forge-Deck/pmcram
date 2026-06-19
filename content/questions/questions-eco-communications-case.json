@@ -1,0 +1,402 @@
+[
+  {
+    "id": "communications-case-missed-stakeholder-notification",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "missed stakeholder notification",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "At ABC Electric Company, a regional operations director says a planned power shutdown notice never reached her team, causing revenue loss and public complaints. As the project manager, what should you do first?",
+      "During the ABC Electric Company loss case, a key stakeholder states they were not informed about a service interruption. What is the project manager's best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Review the communications management plan and stakeholder register to confirm notification requirements, channels, and stakeholder expectations",
+        "why": "This is the best first step because it verifies whether the right stakeholder was identified, what communication was required, and whether the agreed method and timing were followed before taking corrective action."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Escalate the matter immediately to the sponsor and request disciplinary action for the communications coordinator",
+        "trap": "Assumes blame and escalation should happen before the facts and process expectations are verified."
+      },
+      {
+        "text": "Issue a public statement explaining that the stakeholder should have monitored project updates independently",
+        "trap": "Shifts responsibility to stakeholders instead of assessing project communication obligations."
+      },
+      {
+        "text": "Update the lessons learned register and close the issue because the impact has already occurred",
+        "trap": "Captures learning too early without first addressing the live communication failure."
+      },
+      {
+        "text": "Replace the communications management plan with informal team messaging to speed future updates",
+        "trap": "Assumes ad hoc communication is preferable to controlled project communication management."
+      }
+    ],
+    "explanation": "When a stakeholder reports a missed notification, the project manager should first verify the agreed communication requirements and stakeholder information needs. PMI practice emphasizes using the communications management plan and stakeholder register to understand who needed what information, when it was needed, and through which channel. Only after validating the baseline expectations should the project manager determine root cause, corrective action, and whether escalation is needed.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Project Performance Domains, Stakeholders domain",
+      "PMBOK Guide Sixth Edition, Project Communications Management, Plan Communications Management",
+      "PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders"
+    ],
+    "tags": [
+      "communications-case",
+      "missed-stakeholder-notification"
+    ]
+  },
+  {
+    "id": "communications-case-escalation-failure",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "escalation failure",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In the ABC Electric Company loss case, an internal team member noticed that a plant manager had not acknowledged a critical outage notice but did not raise the concern. The outage proceeded and the plant reported major losses. What should the project manager have established to reduce this risk?",
+      "A communications breakdown at ABC Electric worsened because nonresponse from a critical stakeholder was never raised. Which action would have best reduced the chance of this failure?"
+    ],
+    "correct": [
+      {
+        "text": "Define escalation triggers and response responsibilities in the communications and stakeholder engagement approach for missing acknowledgments on critical messages",
+        "why": "Critical communications need predefined triggers, such as no acknowledgment by a specific deadline, so the team knows when and how to escalate communication risk."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require all stakeholders to attend daily status meetings regardless of their role in the outage",
+        "trap": "Confuses broad meeting frequency with targeted communication control for critical notifications."
+      },
+      {
+        "text": "Allow functional managers to decide independently whether stakeholder nonresponse matters",
+        "trap": "Creates inconsistency and weakens the project manager's responsibility for communication governance."
+      },
+      {
+        "text": "Wait until the next phase retrospective to discuss the missed acknowledgment pattern",
+        "trap": "Delays action on an active communication risk that requires immediate control."
+      },
+      {
+        "text": "Remove acknowledgment tracking to simplify reporting and reduce administrative work",
+        "trap": "Eliminates a key control needed for high impact communication events."
+      }
+    ],
+    "explanation": "In high impact situations, a communication is not effective simply because it was sent. PMI practice distinguishes transmission from understanding and receipt. For critical stakeholder messages, the project manager should define escalation thresholds, ownership, and timing for follow up when expected acknowledgment or response does not occur. This creates a controlled path for intervention before business damage occurs.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Communications Management, Monitor Communications",
+      "PMBOK Guide Sixth Edition, Project Stakeholder Management, Manage Stakeholder Engagement",
+      "PMBOK Guide Seventh Edition, Project Performance Domains, Team domain"
+    ],
+    "tags": [
+      "communications-case",
+      "escalation-failure"
+    ]
+  },
+  {
+    "id": "communications-case-communication-plan-gaps",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "communication plan gaps",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "Following ABC Electric Company's service disruption loss, the project manager is asked to prevent a similar communication breakdown on future outages. Which actions should be taken?",
+      "After a failed outage notification at ABC Electric caused stakeholder losses, which two actions are most appropriate for the project manager to implement going forward?"
+    ],
+    "correct": [
+      {
+        "text": "Update the communications management plan to specify critical stakeholder groups, required message content, timing, channel, owner, and acknowledgment method",
+        "why": "A stronger communications management plan closes planning gaps by defining who receives critical information, how it is sent, who owns delivery, and how completion is confirmed."
+      },
+      {
+        "text": "Review and update the stakeholder register and stakeholder engagement plan to ensure all affected operational stakeholders are identified and actively engaged",
+        "why": "The failure may reflect incomplete stakeholder identification or insufficient engagement, so both stakeholder records and engagement strategies should be refined."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reduce communications to one standard email for all stakeholders to maintain consistency",
+        "trap": "Treats all stakeholders as having the same information needs, influence, and urgency."
+      },
+      {
+        "text": "Avoid documenting communication procedures because flexibility is more effective during disruptions",
+        "trap": "Assumes less structure improves performance in high risk communication scenarios."
+      },
+      {
+        "text": "Transfer accountability for all future stakeholder communication to the sponsor",
+        "trap": "Misunderstands the project manager's responsibility for communication planning and control."
+      },
+      {
+        "text": "Close the issue once the outage is complete because future projects will have different stakeholders",
+        "trap": "Ignores organizational learning and recurring operational interfaces."
+      }
+    ],
+    "explanation": "When communication breakdown reveals process gaps, the project manager should strengthen both communication planning and stakeholder analysis. PMI practice supports tailoring communication methods, ownership, timing, and acknowledgment mechanisms, while also revisiting stakeholder identification and engagement strategies. These actions address root causes rather than only reacting to the immediate incident.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Communications Management, Plan Communications Management",
+      "PMBOK Guide Sixth Edition, Project Stakeholder Management, Plan Stakeholder Engagement",
+      "PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders"
+    ],
+    "tags": [
+      "communications-case",
+      "communication-plan-gaps"
+    ]
+  },
+  {
+    "id": "communications-case-communication-effectiveness",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "communication effectiveness",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In the ABC Electric Company loss case, several stakeholders received the outage notice, but one critical facility leader misunderstood the timing and believed the shutdown would occur the next weekend. What is the best interpretation by the project manager?",
+      "A key stakeholder at ABC Electric received the message but misinterpreted the outage date, resulting in operational loss. Which conclusion is most accurate?"
+    ],
+    "correct": [
+      {
+        "text": "The communication process failed because effective communication requires shared understanding, not just message transmission",
+        "why": "PMI terminology emphasizes that communication is only effective when the intended meaning is correctly understood by the recipient."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The project team succeeded because proof of email delivery is sufficient evidence of successful communication",
+        "trap": "Confuses technical delivery with actual communication effectiveness."
+      },
+      {
+        "text": "The stakeholder is solely responsible because interpretation is always outside project communication control",
+        "trap": "Ignores the project manager's duty to tailor messages and verify understanding for critical information."
+      },
+      {
+        "text": "The issue belongs only in risk management because communications management ends once a notice is issued",
+        "trap": "Incorrectly narrows communications management to message distribution only."
+      },
+      {
+        "text": "The sponsor should take over all future notifications because communication is not a project manager responsibility",
+        "trap": "Misstates standard project manager accountability for managing communications."
+      }
+    ],
+    "explanation": "PMI practice treats communication as successful only when information is received and understood as intended. In a critical outage scenario, merely sending a message or proving delivery is insufficient. The project manager should design communications that reduce ambiguity, use suitable channels, and verify stakeholder understanding where the consequences of misinterpretation are significant.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Communications Management, Manage Communications",
+      "PMBOK Guide Sixth Edition, Project Communications Management, Monitor Communications",
+      "PMBOK Guide Seventh Edition, Project Performance Domains, Stakeholders domain"
+    ],
+    "tags": [
+      "communications-case",
+      "communication-effectiveness"
+    ]
+  },
+  {
+    "id": "communications-case-information-distribution-and-version-control",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "information distribution and version control",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "At ABC Electric Company, a critical design revision was approved, but several team members kept using an outdated drawing version because the latest file was stored in multiple locations. What should the project manager do first to strengthen communications management and reduce repeated confusion?",
+      "During execution at ABC Electric Company, inconsistent document locations caused field and engineering staff to rely on different drawing versions. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Establish a single source of truth for project documents and reinforce how updates are issued and acknowledged by the team",
+        "why": "This addresses the root cause of inconsistent information flow by improving how project information is shared, accessed, and understood across the team."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask the sponsor to personally remind everyone to check for revised drawings each week",
+        "trap": "This shifts a team communication responsibility to the sponsor instead of fixing the project communication mechanism."
+      },
+      {
+        "text": "Replace the engineers who used the wrong version to show the importance of compliance",
+        "trap": "This treats a process and communication problem as a personnel problem without addressing the underlying information management issue."
+      },
+      {
+        "text": "Increase the number of status meetings so updates are repeated more often",
+        "trap": "More meetings do not necessarily solve document control or ensure one authoritative information source."
+      },
+      {
+        "text": "Issue a risk register update and continue using the current file-sharing approach",
+        "trap": "Documenting the risk is useful, but it does not resolve the communication breakdown already affecting work."
+      }
+    ],
+    "explanation": "The best first action is to improve the method of distributing and maintaining project information so team members consistently use current documents. In PMI terms, managing communications includes ensuring timely, appropriate collection, creation, distribution, storage, retrieval, and disposition of project information. A single authoritative repository with clear update and acknowledgment expectations directly improves team coordination and reduces avoidable rework.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Project Work and Delivery domain, information flows and shared understanding",
+      "PMBOK Guide Sixth Edition, Project Communications Management, Manage Communications section"
+    ],
+    "tags": [
+      "communications-case",
+      "information-distribution-and-version-control"
+    ]
+  },
+  {
+    "id": "communications-case-conflict-resolution-through-direct-communication",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "conflict resolution through direct communication",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "At ABC Electric Company, a conflict emerged between the field supervisor and the design lead after each claimed the other failed to share a material substitution update. The disagreement is now reducing trust across the team. What should the project manager do next?",
+      "A communication dispute between functional leads at ABC Electric Company is damaging collaboration after a material change was misunderstood. What is the most appropriate action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a focused discussion between the involved parties to clarify facts, align expectations, and agree on a communication approach going forward",
+        "why": "The project manager should address the interpersonal conflict directly and restore collaboration by promoting clarity, shared understanding, and team agreement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Escalate the issue immediately to senior management so accountability can be assigned",
+        "trap": "Escalation is premature when the project manager can first resolve the team conflict through direct facilitation."
+      },
+      {
+        "text": "Document the disagreement in the issue log and wait until the next governance review meeting",
+        "trap": "Passive documentation delays resolution and allows team dysfunction to continue."
+      },
+      {
+        "text": "Send a broad email to the entire team describing who was responsible for the misunderstanding",
+        "trap": "Publicly assigning blame undermines psychological safety and worsens collaboration."
+      },
+      {
+        "text": "Revise the project schedule to account for expected future misunderstandings",
+        "trap": "Schedule adjustment does not address the immediate people and communication problem."
+      }
+    ],
+    "explanation": "This scenario centers on team collaboration and conflict management within project communications. Under the People domain, the project manager should first facilitate constructive dialogue, clarify what information was shared, identify where understanding broke down, and create a practical agreement for future interactions. PMI emphasizes leadership behaviors that build trust, resolve conflict, and maintain a collaborative environment rather than defaulting to blame or unnecessary escalation.",
+    "references": [
+      "PMP Examination Content Outline, People domain, lead a team and address impediments and blockers",
+      "PMBOK Guide Sixth Edition, Project Resource Management, Manage Team section"
+    ],
+    "tags": [
+      "communications-case",
+      "conflict-resolution-through-direct-communication"
+    ]
+  },
+  {
+    "id": "communications-case-lessons-learned-integration",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "lessons learned integration",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "ABC Electric Company completed a failed handoff between procurement and installation teams that caused incompatible equipment to arrive on site. The project manager wants to prevent similar breakdowns on future phases. What should be done?",
+      "After a poor cross-team handoff at ABC Electric Company led to wrong equipment being installed, what should the project manager do to improve future project performance?"
+    ],
+    "correct": [
+      {
+        "text": "Conduct a lessons learned review with the affected teams and update working practices so future handoffs include defined communication checkpoints",
+        "why": "This promotes continuous improvement by capturing what went wrong and embedding practical communication improvements into team operations."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the issue because the immediate equipment problem has already been corrected",
+        "trap": "Fixing the current problem without learning from it allows the same weakness to recur."
+      },
+      {
+        "text": "Delay any review until project closing so the team is not distracted during execution",
+        "trap": "Waiting too long reduces the value of learning and misses the opportunity to improve current and upcoming work."
+      },
+      {
+        "text": "Add more detailed procurement clauses without involving installation personnel",
+        "trap": "This addresses only one function and ignores the communication failure across teams."
+      },
+      {
+        "text": "Require all future handoffs to be approved only by the sponsor",
+        "trap": "This creates unnecessary bottlenecks and does not build team capability or communication discipline."
+      }
+    ],
+    "explanation": "A lessons learned review is the most effective response because it helps the team examine the communication breakdown while the details are fresh and then adapt future handoffs accordingly. PMI supports continuous learning throughout the project, not only at closure. By turning the incident into an improvement mechanism, the project manager strengthens collaboration and helps the team work more effectively in subsequent phases.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Integration Management, Manage Project Knowledge section",
+      "PMBOK Guide Seventh Edition, Tailoring and continuous improvement concepts"
+    ],
+    "tags": [
+      "communications-case",
+      "lessons-learned-integration"
+    ]
+  },
+  {
+    "id": "communications-case-stakeholder-engagement-communication-tailoring",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Managing Communications: ABC Electric Company's Loss (case study)",
+    "topic": "Managing Communications: ABC Electric Company's Loss",
+    "subtopic": "stakeholder engagement communication tailoring",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "At ABC Electric Company, specialized contractors attend coordination meetings but rarely contribute concerns until issues become severe. The project manager suspects the communication method does not fit their working preferences. What should the project manager do?",
+      "Several external specialists on the ABC Electric Company project remain silent in meetings and share critical concerns only after delays occur. What is the best response by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Assess stakeholder communication preferences and adjust engagement methods so concerns can be surfaced through channels that encourage timely participation",
+        "why": "Tailoring communication to stakeholder needs improves participation, trust, and the likelihood that important information is raised early."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep the same meeting format because all stakeholders receive identical treatment",
+        "trap": "Equal treatment is not the same as effective engagement; different stakeholders may need different communication approaches."
+      },
+      {
+        "text": "Instruct the contractors to submit all concerns only through formal contract correspondence",
+        "trap": "This may slow information flow and reduce practical collaboration during project execution."
+      },
+      {
+        "text": "Remove the contractors from coordination meetings and communicate only through their managers",
+        "trap": "This increases distance from key experts and can further weaken transparency."
+      },
+      {
+        "text": "Create a more detailed weekly status report for the full project team",
+        "trap": "Additional reporting may not solve the participation problem if the communication channel itself is ineffective."
+      }
+    ],
+    "explanation": "The issue is not simply the amount of communication but whether the communication approach is effective for the stakeholders involved. PMI emphasizes engaging stakeholders in ways that suit their needs, influence, and preferred channels. By tailoring communication methods, the project manager creates conditions for earlier issue surfacing and stronger collaboration, which is especially important when external specialists hold critical knowledge.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Stakeholder Management, Manage Stakeholder Engagement section",
+      "PMP Examination Content Outline, People domain, engage and support virtual teams and stakeholders"
+    ],
+    "tags": [
+      "communications-case",
+      "stakeholder-engagement-communication-tailoring"
+    ]
+  }
+]

@@ -202,5 +202,221 @@
       "benefits-value",
       "kpis-and-benefits-realization-monitoring"
     ]
+  },
+  {
+    "id": "benefits-value-change-adoption-alignment-for-value-realization",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Change adoption alignment for value realization",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project to deploy a new field service mobile app is nearing rollout. The expected value depends on technicians actually using the app instead of paper work orders. During pilot testing, adoption is low because supervisors still reward paper based completion speed. What should the project manager do first to best support delivery of project benefits and value?",
+      "A mobile app implementation is technically on track, but pilot users continue following old paper based processes because local incentives favor the legacy approach. Which action should the project manager take first to protect expected business value?"
+    ],
+    "correct": [
+      {
+        "text": "Escalate the misalignment between operational incentives and the target future state so business leaders can align adoption measures, roles, and transition actions",
+        "why": "Benefits depend on operational behavior change, not only technical deployment. Resolving organizational incentive misalignment is the most direct first step to enable the intended value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the project on schedule because the product has met its functional acceptance criteria",
+        "trap": "Confuses deliverable acceptance with realization of intended business value."
+      },
+      {
+        "text": "Add more technical features to make the app more attractive to technicians",
+        "trap": "Assumes low adoption is caused by product capability rather than organizational resistance and incentive structure."
+      },
+      {
+        "text": "Replace the pilot supervisors with project team members during rollout",
+        "trap": "Treats a governance and business ownership issue as a staffing substitution problem."
+      },
+      {
+        "text": "Increase the testing period until technicians become comfortable with the app",
+        "trap": "Uses more testing to solve a change management and operating model issue."
+      },
+      {
+        "text": "Issue a defect log entry for each technician who avoids the app",
+        "trap": "Misclassifies stakeholder behavior and process adoption issues as product defects."
+      }
+    ],
+    "explanation": "The core issue is that expected benefits rely on sustained operational adoption, but current incentives reinforce the old process. In PMI terms, the project manager should surface business environment constraints and work with leaders to align transition readiness, operating procedures, and stakeholder behaviors with the target outcome. Delivering the product alone does not guarantee value; the organization must be prepared and motivated to use it in a way that enables the intended benefit.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Value Delivery System",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Measurement",
+      "Process Groups A Practice Guide, section on business documents and benefits linkage"
+    ],
+    "tags": [
+      "benefits-value",
+      "change-adoption-alignment-for-value-realization"
+    ]
+  },
+  {
+    "id": "benefits-value-business-case-revalidation-after-external-change",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Business case revalidation after external change",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A regulatory reporting project is in execution when a new law changes the required compliance deadline and reporting format. The sponsor asks whether the project should continue as planned. What should the project manager recommend first?",
+      "Midway through a compliance project, external regulations change and the original scope may no longer satisfy the business need. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Reassess the continued business justification against the updated regulatory requirement and recommend adjustment, acceleration, or termination based on that review",
+        "why": "When external conditions materially change, the project should be revalidated against its current business justification rather than continued automatically."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Freeze all scope changes and finish the current baseline before reviewing the impact",
+        "trap": "Assumes baseline protection is more important than confirming the project still addresses the right business need."
+      },
+      {
+        "text": "Submit a change request to add the new legal requirements without further analysis",
+        "trap": "Moves directly to solutioning before confirming strategic and economic viability."
+      },
+      {
+        "text": "Ask the team to continue because compliance projects always remain mandatory",
+        "trap": "Overgeneralizes and ignores whether the current approach still provides the needed outcome."
+      },
+      {
+        "text": "Delay the project until regulators provide implementation examples",
+        "trap": "Introduces waiting as the default response instead of evaluating justified action."
+      },
+      {
+        "text": "Transfer ownership of the project to the legal department immediately",
+        "trap": "Treats a governance change as the first response instead of assessing business justification."
+      }
+    ],
+    "explanation": "PMI practice emphasizes ongoing validation that the project remains aligned to business needs and organizational strategy. A major regulatory change can alter assumptions, urgency, scope relevance, and expected value. The project manager should therefore facilitate revalidation of the business justification before deciding whether to continue unchanged, pivot, accelerate, or stop. This protects organizational resources and ensures the project still contributes the intended benefit in the new environment.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Stewardship",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Uncertainty",
+      "Process Groups A Practice Guide, section on the business case"
+    ],
+    "tags": [
+      "benefits-value",
+      "business-case-revalidation-after-external-change"
+    ]
+  },
+  {
+    "id": "benefits-value-post-deployment-outcome-gap-analysis",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Post deployment outcome gap analysis",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A company implemented a new customer portal. The project delivered all approved scope, but six weeks after launch the call center volume has not decreased as expected. Which two actions should the project manager take to best evaluate and support project benefits and value?",
+      "A digital self service portal went live successfully, yet the expected reduction in service calls has not appeared. Which two actions are most appropriate for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze whether assumptions behind the expected operational outcome remain valid and identify causes of the benefits gap",
+        "why": "A realized value shortfall often reflects invalid assumptions, adoption barriers, or changed operating conditions that must be examined before corrective action."
+      },
+      {
+        "text": "Work with operational stakeholders to define targeted corrective actions such as process updates, communications, training, or service design refinements",
+        "why": "When outcomes lag after deployment, coordinated operational actions are often needed to enable the intended benefit rather than treating the project as complete and detached."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Declare the project fully successful because all scope items were delivered",
+        "trap": "Confuses output completion with outcome realization."
+      },
+      {
+        "text": "Rebaseline the original scope so the expected reduction in calls is no longer measured",
+        "trap": "Attempts to remove the value problem administratively rather than address it."
+      },
+      {
+        "text": "Transfer the issue to the help desk because benefits are no longer a project concern after go live",
+        "trap": "Assumes the project manager has no role in evaluating benefit shortfalls during transition and early value delivery."
+      },
+      {
+        "text": "Start a new project immediately to replace the portal with a different platform",
+        "trap": "Jumps to a major solution change without diagnosing root causes."
+      }
+    ],
+    "explanation": "A gap between delivered scope and observed business outcome requires evaluation of assumptions, adoption conditions, process interactions, and other drivers of value. PMI oriented thinking distinguishes outputs from outcomes and encourages collaboration with business stakeholders to understand why expected value has not materialized. The project manager should help assess the shortfall and support targeted actions that improve transition into benefits realization rather than assuming deployment alone equals success.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Outcomes",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Systems Thinking",
+      "Process Groups A Practice Guide, section on monitoring project work in relation to business value"
+    ],
+    "tags": [
+      "benefits-value",
+      "post-deployment-outcome-gap-analysis"
+    ]
+  },
+  {
+    "id": "benefits-value-operational-readiness-and-transition-to-sustain-value",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Operational readiness and transition to sustain value",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An infrastructure modernization project will be technically completed this quarter, but the receiving operations group has not finalized staffing, support procedures, or service desk scripts. The sponsor wants to announce success immediately after deployment. What should the project manager do?",
+      "A major technology rollout is about to go live, but the business unit that must run the new service is not operationally ready. What is the best action for the project manager to protect intended value?"
+    ],
+    "correct": [
+      {
+        "text": "Advise that technical completion does not equal realized value and address transition readiness gaps before declaring success",
+        "why": "Sustainable benefits require the receiving organization to be ready to operate, support, and absorb the change. Declaring success before readiness threatens value delivery."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Declare the project complete because operations readiness belongs entirely to functional managers",
+        "trap": "Separates project success from the organizational ability to sustain outcomes."
+      },
+      {
+        "text": "Extend the project indefinitely until every downstream process reaches full maturity",
+        "trap": "Overcorrects by requiring perfection rather than managing defined readiness criteria."
+      },
+      {
+        "text": "Transfer unresolved readiness activities into the issue log after project closure",
+        "trap": "Defers critical transition work while still claiming success."
+      },
+      {
+        "text": "Reduce deployment scope so the project can meet the original date without involving operations",
+        "trap": "Optimizes schedule at the expense of value and organizational adoption."
+      },
+      {
+        "text": "Replace operations procedures with project team workarounds for the first year",
+        "trap": "Creates unsustainable temporary support rather than enabling the business to own the outcome."
+      }
+    ],
+    "explanation": "PMI emphasizes value delivery across the full system, including handoff, adoption, and sustainment. If the receiving organization lacks staffing, support procedures, and operational preparedness, the project may produce a technically correct output without delivering the intended benefit. The project manager should highlight that readiness criteria must be addressed before success is declared, because durable value depends on the organization being able to run and support the new capability effectively.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Value",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Team and Stakeholders in a system context",
+      "Process Groups A Practice Guide, section on closing or transitioning a project or phase"
+    ],
+    "tags": [
+      "benefits-value",
+      "operational-readiness-and-transition-to-sustain-value"
+    ]
   }
 ]

@@ -1,0 +1,413 @@
+[
+  {
+    "id": "negotiate-agreements-contract-type-selection-for-stable-scope",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Contract type selection for stable scope",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is negotiating with a supplier for a well-defined package of standard network switches. The statement of work is complete, specifications are stable, and the buyer wants price certainty. Which contract type is most appropriate?",
+      "During procurement negotiations for a clearly specified hardware purchase with low technical uncertainty, which contract type best aligns with the buyer's objective of cost predictability?"
+    ],
+    "correct": [
+      {
+        "text": "Firm-fixed-price FFP contract",
+        "why": "FFP is most appropriate when scope is well defined and stable because it provides the buyer with high price certainty and places most cost risk on the seller."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Cost-plus-fixed-fee CPFF contract",
+        "trap": "Assumes reimbursable contracts are suitable even when requirements are stable and cost certainty is preferred."
+      },
+      {
+        "text": "Cost-plus-incentive-fee CPIF contract",
+        "trap": "Confuses incentive alignment with the need for a fixed total price in a low-uncertainty procurement."
+      },
+      {
+        "text": "Time and materials T&M contract",
+        "trap": "Treats a flexible labor-based vehicle as ideal despite a clearly defined deliverable."
+      },
+      {
+        "text": "Fixed-price-incentive-fee FPIF contract",
+        "trap": "Overcomplicates the situation by adding incentive mechanics when a straightforward fixed price is sufficient."
+      }
+    ],
+    "explanation": "When the deliverable is standard, specifications are complete, and uncertainty is low, the buyer typically prefers a firm-fixed-price arrangement. This contract type supports strong cost control from the buyer perspective and reduces administrative effort associated with tracking allowable costs. Incentive or cost-reimbursable structures are more useful when uncertainty or performance tradeoffs justify additional complexity.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Procurement documentation and agreements",
+      "PMBOK Guide Sixth Edition, Project Procurement Management, Control Procurements section"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "contract-type-selection-for-stable-scope"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-point-of-total-assumption",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Point of total assumption",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A buyer and seller are negotiating an FPIF contract for a component with a target cost of 100000, target profit of 10000, sharing ratio of 80 buyer and 20 seller, and a ceiling price of 118000. At what actual cost does the point of total assumption occur?",
+      "During FPIF negotiations, the project manager wants to identify the cost at which the seller assumes all additional costs. Given target cost 100000, target profit 10000, buyer seller share 80 20, and ceiling price 118000, what is the point of total assumption cost?"
+    ],
+    "correct": [
+      {
+        "text": "140000",
+        "why": "The point of total assumption equals target cost plus ceiling price minus target price divided by the seller share ratio. Target price is 110000, so PTA equals 100000 plus 118000 minus 110000 divided by 0.20, which is 140000."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "118000",
+        "trap": "Mistakes the ceiling price for the seller cost at the point of total assumption."
+      },
+      {
+        "text": "128000",
+        "trap": "Adds ceiling price and target profit logic incorrectly without applying the seller share ratio."
+      },
+      {
+        "text": "150000",
+        "trap": "Uses the buyer share ratio or a reversed formula."
+      },
+      {
+        "text": "110000",
+        "trap": "Confuses target price with the point of total assumption."
+      }
+    ],
+    "explanation": "In an FPIF arrangement, the point of total assumption is the actual cost level beyond which the seller bears all additional costs because the final price has reached the ceiling. The standard formula is PTA equals target cost plus ceiling price minus target price, divided by the seller share. Correct use of target price and seller share is essential during negotiation because it clarifies risk transfer and helps both parties understand the true economic incentives in the agreement.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Procurement Management, Conduct Procurements and contract types discussion",
+      "Practice Standard for Project Risk Management, procurement risk allocation concepts"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "point-of-total-assumption"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-batna-in-negotiation",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "BATNA in negotiation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager enters a negotiation with a software vendor after developing a strong BATNA that uses an internal team to deliver a minimal viable solution if talks fail. How should this BATNA be used during the negotiation?",
+      "During contract negotiations, the project manager has a credible BATNA based on an alternate sourcing approach. What is the best way to apply it?"
+    ],
+    "correct": [
+      {
+        "text": "Use the BATNA to define the walk-away point and evaluate proposed terms objectively",
+        "why": "A BATNA is primarily a decision benchmark. It helps the project manager judge whether negotiated terms are better than the best available alternative and prevents accepting an unfavorable agreement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reveal the BATNA immediately to pressure the seller into concessions",
+        "trap": "Assumes full disclosure of negotiation leverage is always the strongest tactic."
+      },
+      {
+        "text": "Ignore the BATNA once the preferred seller enters formal discussions",
+        "trap": "Treats BATNA as pre-negotiation preparation only rather than an ongoing decision baseline."
+      },
+      {
+        "text": "Use the BATNA to justify changing project scope without stakeholder approval",
+        "trap": "Confuses sourcing alternatives with scope governance."
+      },
+      {
+        "text": "Convert the BATNA into a mandatory contract clause for the seller",
+        "trap": "Misunderstands BATNA as a contractual term instead of a negotiation fallback position."
+      }
+    ],
+    "explanation": "BATNA means best alternative to a negotiated agreement and serves as a critical preparation tool in procurement negotiations. Its main value is not theatrics or coercion, but disciplined decision making. By comparing the evolving offer against a viable alternative, the project manager protects the project from accepting terms that are inferior in cost, schedule, risk, or performance. This supports principled negotiation and stronger agreement outcomes.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, negotiation and procurement-related artifacts",
+      "PMIstandards Plus, stakeholder engagement and negotiation techniques"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "batna-in-negotiation"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-terms-and-conditions-negotiation",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Terms and conditions negotiation",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A buyer and seller are deadlocked over liability language, acceptance criteria, and change order turnaround times in a draft agreement. Which actions should the project manager take to reach a win-win agreement while protecting the project? Select two.",
+      "During final contract negotiations, unresolved terms and conditions involve indemnification, product acceptance, and response times for changes. Which two actions best support a mutually beneficial agreement and sound project governance?"
+    ],
+    "correct": [
+      {
+        "text": "Clarify measurable acceptance criteria and responsibilities so both parties share the same interpretation of successful delivery",
+        "why": "Clear acceptance terms reduce disputes, support governance, and create shared understanding that is central to a sustainable agreement."
+      },
+      {
+        "text": "Seek balanced risk allocation by negotiating terms that each party can realistically manage and control",
+        "why": "Win-win negotiation emphasizes fair allocation of risk to the party best able to manage it, improving performance and reducing adversarial behavior."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Delay discussion of ambiguous clauses until execution so the team can preserve schedule momentum",
+        "trap": "Assumes unresolved terms can be safely handled later without increasing claims and conflict risk."
+      },
+      {
+        "text": "Accept broad liability language because legal details are outside the project manager role",
+        "trap": "Minimizes the project manager's responsibility to ensure contract terms support project objectives and risk management."
+      },
+      {
+        "text": "Push all change order response risk to the seller regardless of operational feasibility",
+        "trap": "Confuses aggressive bargaining with effective risk allocation."
+      },
+      {
+        "text": "Remove acceptance criteria from the agreement and rely on stakeholder goodwill",
+        "trap": "Assumes relationship quality can replace objective contractual definitions."
+      }
+    ],
+    "explanation": "Effective project agreement negotiation goes beyond price and includes terms and conditions that govern delivery, risk, quality, acceptance, and change handling. PMI-aligned practice favors clarity, mutual understanding, and allocation of risk to the party best able to manage it. This approach supports a win-win outcome because it improves contract performance and reduces the likelihood of claims, rework, and disputes during execution.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Procurement Management, Conduct Procurements section",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, agreements and procurement documentation"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "terms-and-conditions-negotiation"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-t-m-for-uncertain-near-term-work",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "T&M for uncertain near-term work",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project must begin urgent field engineering support before the full scope can be defined. The buyer expects labor rates to be known, materials to vary, and work packages to be authorized incrementally. Which contract type is most appropriate?",
+      "During early mobilization on a high-uncertainty effort, the project manager needs contractual flexibility because the exact hours and quantities are not yet known, but unit rates can be established. Which contract type best fits?"
+    ],
+    "correct": [
+      {
+        "text": "Time and materials T&M contract",
+        "why": "T&M is appropriate when the scope cannot yet be fully defined but labor rates and unit pricing can be set, allowing work to start with controlled flexibility."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Firm-fixed-price FFP contract",
+        "trap": "Assumes a fixed total price is suitable even when the level of effort is not yet known."
+      },
+      {
+        "text": "Cost-plus-fixed-fee CPFF contract",
+        "trap": "Chooses a reimbursable structure without recognizing that agreed labor rates and incremental authorization better align with T&M."
+      },
+      {
+        "text": "Fixed-price-incentive-fee FPIF contract",
+        "trap": "Applies incentive pricing despite insufficient scope definition for a meaningful target cost and ceiling structure."
+      },
+      {
+        "text": "Cost-plus-incentive-fee CPIF contract",
+        "trap": "Overemphasizes incentive mechanisms when immediate contractual flexibility is the primary need."
+      }
+    ],
+    "explanation": "A T&M contract is often used when work must begin quickly but the exact effort cannot yet be estimated reliably. It combines the flexibility of reimbursable arrangements with pre-negotiated labor rates or unit prices, making it useful for staff augmentation, field support, and emergent technical tasks. The project manager should still negotiate strong controls such as not-to-exceed limits, rate cards, and authorization procedures to manage cost exposure.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Procurement Management, contract types and procurement controls",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, procurement and agreement considerations"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "t-m-for-uncertain-near-term-work"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-protecting-acceptance-criteria-during-negotiation",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Protecting acceptance criteria during negotiation",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is preparing for contract negotiations with a shortlisted seller for a critical equipment package. The procurement statement of work is complete, and the evaluation criteria ranked technical compliance and delivery capability above price. During negotiation, the seller asks to remove several acceptance test obligations to shorten delivery. What should the project manager do first?",
+      "During final negotiations for a critical equipment procurement, a preferred seller proposes deleting some contractual acceptance testing requirements in exchange for faster delivery. The procurement statement of work and source selection criteria emphasized technical compliance and delivery reliability. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the proposed change against the procurement statement of work, quality requirements, and source selection rationale before changing the draft agreement",
+        "why": "This is correct because negotiated concessions should be evaluated against documented requirements and the basis on which the seller was selected. Acceptance testing is tied to quality verification and risk control, so the buyer should confirm whether the proposal still satisfies procurement objectives before agreeing."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the change because faster delivery creates value and strengthens the buyer seller relationship",
+        "trap": "This assumes schedule acceleration automatically outweighs quality protection and ignores contractual risk."
+      },
+      {
+        "text": "Reject the seller immediately because requesting any change to acceptance testing is unethical",
+        "trap": "This confuses negotiation with misconduct. Sellers may propose changes, and the buyer should evaluate them objectively."
+      },
+      {
+        "text": "Escalate the issue to the sponsor so the sponsor can negotiate directly with the seller",
+        "trap": "This bypasses the procurement process and the project manager's role in supporting structured negotiations."
+      },
+      {
+        "text": "Convert the procurement to cost reimbursable so testing can be managed after award",
+        "trap": "This changes the commercial model unnecessarily and does not address whether the acceptance obligations should remain."
+      },
+      {
+        "text": "Delay the negotiation until contract execution so the testing language can be clarified later through change control",
+        "trap": "This pushes a key contractual ambiguity downstream instead of resolving it before agreement."
+      }
+    ],
+    "explanation": "In PMI terms, negotiation should clarify rights, obligations, and performance expectations before contract award. When a seller requests removal of acceptance test obligations, the buyer should first evaluate the effect on the procurement statement of work, quality requirements, and the criteria used in source selection. A win win outcome does not mean conceding critical controls; it means finding an agreement that preserves value for both parties while keeping the contract aligned to project objectives and risk tolerances.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Procurement Management, contract agreement and procurement documentation",
+      "PMBOK Guide Sixth Edition, Section 12.1 Plan Procurement Management, procurement statement of work and source selection criteria",
+      "PMBOK Guide Sixth Edition, Section 12.2 Conduct Procurements, negotiation and seller selection"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "protecting-acceptance-criteria-during-negotiation"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-aligning-negotiation-with-source-selection-criteria",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Aligning negotiation with source selection criteria",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A buyer is negotiating with two highly qualified sellers for specialized engineering services. One seller offers the lowest price, while the other has stronger past performance, a more credible staffing plan, and better schedule controls. The procurement documents stated that nonprice factors would be weighted more heavily than price. Which action best aligns with PMI practice?",
+      "In a negotiated procurement for specialized engineering support, price is not the most heavily weighted source selection criterion. One seller is cheaper, but another seller is stronger in performance history, key personnel, and schedule realism. What should the project manager support during negotiation and award?"
+    ],
+    "correct": [
+      {
+        "text": "Continue negotiations with the seller that best satisfies the weighted selection criteria and document the tradeoff decision",
+        "why": "This is correct because award decisions should remain consistent with the published source selection approach. If nonprice factors carry greater weight, the buyer may select a higher priced seller when that seller offers better overall value and lower delivery risk."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Award to the lowest priced seller because objective procurement decisions must prioritize price over judgment",
+        "trap": "This mistakes lowest cost selection for all procurements and ignores the stated evaluation model."
+      },
+      {
+        "text": "Split the work equally between both sellers to avoid a protest and preserve fairness",
+        "trap": "This introduces scope fragmentation and is not supported unless the procurement strategy planned for multiple awards."
+      },
+      {
+        "text": "Restart the procurement because any higher priced award violates the principle of free and open competition",
+        "trap": "This misinterprets fair competition. A higher priced award can be appropriate when the evaluation criteria support best value."
+      },
+      {
+        "text": "Negotiate only on price because technical factors were already assessed before negotiations began",
+        "trap": "This assumes negotiation is isolated from the evaluation basis and ignores value tradeoffs."
+      },
+      {
+        "text": "Ask the sponsor to override the criteria because executive judgment is more important than procurement documentation",
+        "trap": "This undermines governance and the integrity of the procurement process."
+      }
+    ],
+    "explanation": "Negotiated agreements should remain anchored to the source selection criteria communicated in the procurement documents. PMI recognizes that sellers may be selected using methods that consider more than price, including qualifications, technical quality, and schedule credibility. If nonprice factors are weighted more heavily, the project manager should support a documented best value tradeoff and negotiate terms with the seller that best fits the procurement objectives rather than defaulting to the lowest bidder.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 12.1 Plan Procurement Management, source selection criteria",
+      "PMBOK Guide Sixth Edition, Section 12.2 Conduct Procurements, selected sellers and negotiations",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Procurement Management"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "aligning-negotiation-with-source-selection-criteria"
+    ]
+  },
+  {
+    "id": "negotiate-agreements-negotiating-risk-allocation-and-governance-clauses",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Negotiate Project Agreements",
+    "topic": "Negotiate Project Agreements",
+    "subtopic": "Negotiating risk allocation and governance clauses",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is negotiating a software integration agreement. During discussions, the preferred seller proposes broad limitations of liability, unrestricted use of subcontractors, and vague language for data ownership. The project schedule is aggressive, and pressure is mounting to sign quickly. Which two actions should the project manager take?",
+      "In contract negotiations for a software integration vendor, the seller requests a liability cap that excludes key failure scenarios, wants freedom to substitute subcontractors without approval, and proposes unclear wording on ownership of project data. The project is under severe schedule pressure. Which two actions are best?"
+    ],
+    "correct": [
+      {
+        "text": "Clarify and negotiate the clauses so responsibilities, approvals, and ownership rights are unambiguous before signature",
+        "why": "This is correct because unclear contractual language creates execution risk, disputes, and weak control over deliverables and intellectual property. Negotiation should establish clear rights and obligations before award."
+      },
+      {
+        "text": "Engage procurement and legal specialists to review the proposed clauses and ensure they align with organizational risk tolerance",
+        "why": "This is correct because complex liability, subcontracting, and ownership terms often require specialist review. The project manager supports the negotiation, but risk allocation must also align with organizational policy and legal requirements."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the clauses for now and rely on the issue log if disputes arise during execution",
+        "trap": "This treats a contract defect as an operational issue and ignores the importance of resolving ambiguity before award."
+      },
+      {
+        "text": "Approve unrestricted subcontractor substitution because staffing flexibility always benefits schedule performance",
+        "trap": "This ignores governance, quality control, and the need to manage who performs contracted work."
+      },
+      {
+        "text": "Avoid legal review because involving specialists can damage the collaborative tone of the negotiation",
+        "trap": "This falsely frames expert review as incompatible with constructive negotiation."
+      },
+      {
+        "text": "Sign the agreement immediately and revise the clauses later through procurement audits",
+        "trap": "This confuses audits with contract formation and postpones critical risk decisions."
+      }
+    ],
+    "explanation": "Negotiating project agreements is not limited to price and schedule. PMI emphasizes that negotiation clarifies the structure, rights, and obligations of the contract so both parties understand performance expectations and risk allocation. When liability limits, subcontracting authority, and ownership rights are unclear or misaligned, the project manager should work with procurement and legal functions to clarify the language before signature. A win win agreement is one that is workable, clear, and aligned to organizational risk tolerance, not merely one that is signed quickly.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 12.2 Conduct Procurements, negotiations and contract award",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Procurement Management, agreements and documentation",
+      "PMBOK Guide Sixth Edition, Section 12.1 Plan Procurement Management, procurement management plan and risk allocation considerations"
+    ],
+    "tags": [
+      "negotiate-agreements",
+      "negotiating-risk-allocation-and-governance-clauses"
+    ]
+  }
+]

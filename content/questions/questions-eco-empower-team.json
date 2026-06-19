@@ -1,0 +1,468 @@
+[
+  {
+    "id": "empower-team-decision-authority",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "decision authority",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading an agile product team that repeatedly waits for managerial approval before making routine technical choices. Sprint progress is slowing, and team morale is declining. What should the project manager do first to empower the team while maintaining alignment?",
+      "An agile team delays routine implementation decisions because members believe only the project manager can approve them. Velocity is dropping. What is the best first action for the project manager to empower team members and preserve control at the right level?"
+    ],
+    "correct": [
+      {
+        "text": "Define clear decision boundaries and delegate routine technical decisions to the team within agreed guardrails",
+        "why": "This empowers the team by bestowing an appropriate level of decision-making authority while preserving alignment through explicit boundaries and constraints."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require all technical decisions to continue through the project manager until the team proves complete consistency",
+        "trap": "This reflects centralized control and delays empowerment instead of developing autonomy."
+      },
+      {
+        "text": "Ask the sponsor to approve a detailed list of all future technical decisions before each sprint begins",
+        "trap": "This escalates unnecessarily and confuses governance with day-to-day team decision making."
+      },
+      {
+        "text": "Allow each developer to make any decision independently without shared criteria or team visibility",
+        "trap": "This mistakes empowerment for absence of governance and can create misalignment."
+      },
+      {
+        "text": "Reassign the most junior team members so only senior specialists remain to make decisions",
+        "trap": "This avoids coaching and empowerment by narrowing participation rather than building team capability."
+      }
+    ],
+    "explanation": "PMI guidance supports empowering team members by determining and bestowing the right level of decision-making authority. The best response is not to remove oversight entirely or keep all authority centralized, but to clarify guardrails so the team can act autonomously within defined limits. This increases ownership, reduces delay, and strengthens accountability.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, People domain, task 'Empower Team Members and Stakeholders', section 1.4.4",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team performance domain",
+      "PMI, Process Groups A Practice Guide, section on team development and empowerment"
+    ],
+    "tags": [
+      "empower-team",
+      "decision-authority"
+    ]
+  },
+  {
+    "id": "empower-team-accountability-vs-responsibility",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "accountability vs responsibility",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that work packages are completed, but no one accepts ownership when defects are found. Team members say they were only responsible for completing assigned tasks. What should the project manager emphasize to improve team empowerment and performance?",
+      "In a cross-functional project, deliverables are produced on time, yet quality issues persist because team members claim they only executed their assigned work and are not accountable for outcomes. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Clarify expected ownership of outcomes and reinforce that the team is accountable for the quality and completeness of committed work",
+        "why": "PMI distinguishes performing assigned work from owning outcomes. Empowered teams accept accountability for results, not just task execution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Assign all accountability to the quality manager because responsibility and accountability should belong to different roles",
+        "trap": "This incorrectly transfers ownership away from the team and oversimplifies role design."
+      },
+      {
+        "text": "Increase status reporting frequency so team members can document that they completed their assigned activities",
+        "trap": "This focuses on administrative proof of effort rather than ownership of results."
+      },
+      {
+        "text": "Hold only the functional managers accountable because team members should not be accountable in a matrix environment",
+        "trap": "This misunderstands shared accountability in project work."
+      },
+      {
+        "text": "Avoid discussing accountability because it may reduce psychological safety and autonomy",
+        "trap": "This assumes accountability is punitive rather than a core part of empowerment and trust."
+      }
+    ],
+    "explanation": "Empowerment is closely tied to accountability. PMI expects project leaders to support team task accountability and evaluate how accountability is demonstrated. Responsibility refers to performing work, while accountability concerns ownership of outcomes and commitments. The project manager should make outcome ownership explicit so the team can operate with autonomy and accountability together.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, People domain, sections 1.4.2 and 1.4.3",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team performance domain",
+      "PMI, Process Groups A Practice Guide, section on roles, accountability, and team performance"
+    ],
+    "tags": [
+      "empower-team",
+      "accountability-vs-responsibility"
+    ]
+  },
+  {
+    "id": "empower-team-self-organizing-teams",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "self-organizing teams",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A self-organizing team has strong technical capability, but the project manager continues assigning tasks directly based on personal judgment. Team initiative is decreasing. Which two actions should the project manager take to better empower the team?",
+      "On an adaptive project, the project manager manually allocates nearly all work despite having a mature self-organizing team. Team engagement is falling. Which two actions best support empowerment?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate team-based work planning so members can pull tasks according to skills, capacity, and sprint goals",
+        "why": "Self-organizing teams are empowered when they collaborate on planning and commit to work based on shared understanding and capacity."
+      },
+      {
+        "text": "Organize work around team strengths while allowing the team to decide how to accomplish agreed outcomes",
+        "why": "This aligns with the ECO emphasis on organizing around strengths and enabling autonomy in execution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue assigning tasks centrally because self-organizing teams still require the project manager to direct daily execution",
+        "trap": "This confuses facilitation with command-and-control management."
+      },
+      {
+        "text": "Rotate all tasks randomly regardless of skill fit so empowerment is perceived as equal distribution",
+        "trap": "This mistakes fairness for effective empowerment and ignores strengths."
+      },
+      {
+        "text": "Limit planning participation to senior specialists to reduce debate and improve efficiency",
+        "trap": "This reduces shared ownership and weakens self-organization."
+      },
+      {
+        "text": "Require functional managers to approve each team member's task selection before work starts",
+        "trap": "This reintroduces external control and slows decentralized decision making."
+      },
+      {
+        "text": "Avoid defining outcomes so the team has full freedom to interpret objectives independently",
+        "trap": "This mistakes autonomy for lack of clarity and undermines alignment."
+      }
+    ],
+    "explanation": "PMI supports empowering teams by organizing around strengths and granting appropriate autonomy over how work is completed. In a self-organizing environment, the project manager should facilitate planning and define outcomes, not micromanage task allocation. Empowerment works best when teams understand goals, use their collective strengths, and retain authority over execution decisions within agreed boundaries.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, People domain, sections 1.4.1 and 1.4.4",
+      "PMI, Agile Practice Guide, section on servant leadership and self-organizing teams",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team performance domain"
+    ],
+    "tags": [
+      "empower-team",
+      "self-organizing-teams"
+    ]
+  },
+  {
+    "id": "empower-team-decentralized-control",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "decentralized control",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project involves multiple regional stakeholders. To speed decisions, the project manager wants local leads to resolve customer-facing issues without waiting for the central office, but recent decisions have been inconsistent with program objectives. What is the best approach?",
+      "In a distributed project, local team leads are encouraged to make stakeholder decisions quickly. However, their decisions are starting to diverge from overall business objectives. How should the project manager respond?"
+    ],
+    "correct": [
+      {
+        "text": "Establish a decentralized decision framework with escalation thresholds, guiding principles, and shared success criteria",
+        "why": "This preserves local autonomy while ensuring decisions remain aligned to program goals, governance expectations, and stakeholder outcomes."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Revoke local decision authority and require the central office to approve all stakeholder actions",
+        "trap": "This overcorrects by eliminating empowerment and slowing response time."
+      },
+      {
+        "text": "Allow each regional lead to continue making independent decisions because autonomy is more important than consistency",
+        "trap": "This ignores the need for alignment and controlled decentralization."
+      },
+      {
+        "text": "Replace local leads with more experienced managers from headquarters",
+        "trap": "This focuses on personnel substitution instead of designing effective decision governance."
+      },
+      {
+        "text": "Add a weekly status meeting to review all decisions after they are implemented",
+        "trap": "This is retrospective monitoring, not a proactive empowerment structure."
+      }
+    ],
+    "explanation": "Decentralized control is effective only when paired with explicit decision rights, criteria, and escalation paths. PMI emphasizes empowering team members and stakeholders through appropriate authority, not unlimited authority. The strongest response preserves speed and ownership at the local level while defining the guardrails needed to keep decentralized decisions aligned with broader project and business objectives.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, People domain, task 'Empower Team Members and Stakeholders', section 1.4.4",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stewardship and Team performance domains",
+      "PMI, Agile Practice Guide, section on decentralized decision making and servant leadership"
+    ],
+    "tags": [
+      "empower-team",
+      "decentralized-control"
+    ]
+  },
+  {
+    "id": "empower-team-delegation-with-accountability",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "delegation with accountability",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager has delegated stakeholder engagement decisions to a product owner and team leads. After a significant stakeholder concern is missed, the project manager considers taking back all authority. Which two actions are most appropriate?",
+      "Authority for stakeholder-facing decisions was delegated to team leaders on an adaptive project. A major concern was not escalated in time. Which two responses best reflect effective empowerment and accountability?"
+    ],
+    "correct": [
+      {
+        "text": "Review whether the delegated authority, decision criteria, and escalation triggers were sufficiently clear",
+        "why": "Effective delegation requires explicit boundaries and escalation rules. A failure may indicate unclear authority design rather than poor delegation itself."
+      },
+      {
+        "text": "Coach the delegated leaders on accountability for stakeholder outcomes and adjust the delegation model as needed",
+        "why": "This supports learning and preserves empowerment while reinforcing accountability for results."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Immediately centralize all stakeholder decisions under the project manager to prevent recurrence",
+        "trap": "This assumes delegation itself was the problem and abandons empowerment without diagnosis."
+      },
+      {
+        "text": "Keep the current arrangement unchanged because empowered teams should solve all issues independently",
+        "trap": "This ignores the need to inspect and adapt delegation mechanisms."
+      },
+      {
+        "text": "Issue a warning that future missed concerns will result in removal from leadership roles",
+        "trap": "This uses punishment rather than clarifying authority and strengthening accountability."
+      },
+      {
+        "text": "Transfer accountability for stakeholder satisfaction to the sponsor because authority was delegated",
+        "trap": "This confuses delegation of authority with removal of accountability."
+      },
+      {
+        "text": "Require written approval from every stakeholder before any future engagement decision is made",
+        "trap": "This creates bureaucracy and undermines timely empowered action."
+      }
+    ],
+    "explanation": "PMI-aligned empowerment does not mean granting authority without structure, nor does it mean removing accountability after delegation. When delegated decisions lead to missed concerns, the project manager should inspect the design of delegation, including decision criteria and escalation thresholds, then coach leaders and refine the model. This approach preserves autonomy, strengthens accountability, and improves future stakeholder responsiveness.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, People domain, sections 1.4.2, 1.4.3, and 1.4.4",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team performance domain",
+      "PMI, Process Groups A Practice Guide, section on delegation, accountability, and stakeholder engagement"
+    ],
+    "tags": [
+      "empower-team",
+      "delegation-with-accountability"
+    ]
+  },
+  {
+    "id": "empower-team-psychological-safety-for-open-participation",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "psychological safety for open participation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager notices that several experienced team members hesitate to raise risks during planning sessions because senior stakeholders often dismiss concerns. What should the project manager do first to better empower the team and stakeholders?",
+      "During planning, team members avoid surfacing risks because influential stakeholders tend to shut down discussion. What is the best first action for the project manager to empower participation?"
+    ],
+    "correct": [
+      {
+        "text": "Establish working agreements for respectful discussion and facilitate a structured forum where concerns can be raised without interruption",
+        "why": "This directly creates psychological safety and inclusive participation, which enables team members and stakeholders to contribute candidly and effectively."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Escalate the dismissive stakeholder behavior to the sponsor immediately and request replacement of those stakeholders",
+        "trap": "Assumes escalation and removal are the best first steps before attempting facilitation and team norms."
+      },
+      {
+        "text": "Ask team members to document risks privately and send them only to the project manager",
+        "trap": "Reduces transparency and shared ownership instead of empowering open collaboration."
+      },
+      {
+        "text": "Limit planning sessions to senior stakeholders so decisions can be made more efficiently",
+        "trap": "Confuses speed with empowerment and excludes the people closest to the work."
+      },
+      {
+        "text": "Postpone risk discussions until execution begins and more data is available",
+        "trap": "Avoids the participation problem and weakens proactive risk management."
+      }
+    ],
+    "explanation": "The best first step is to create conditions for safe and productive participation. PMI leadership practices emphasize enabling contribution through trust, respect, and facilitation rather than relying immediately on authority or exclusion. A structured discussion process and agreed behavioral norms help team members and stakeholders speak openly about risks, improving both empowerment and decision quality.",
+    "references": [
+      "PMP Examination Content Outline, People Domain, Task: Empower team members and stakeholders",
+      "PMBOK Guide Seventh Edition, Team Performance Domain",
+      "Agile Practice Guide, Servant Leadership section"
+    ],
+    "tags": [
+      "empower-team",
+      "psychological-safety-for-open-participation"
+    ]
+  },
+  {
+    "id": "empower-team-team-ownership-through-working-agreements",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "team ownership through working agreements",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A newly formed cross-functional team has the technical skills to deliver, but members depend on the project manager for routine coordination and issue follow-through. What should the project manager do to increase empowerment?",
+      "Team members keep waiting for the project manager to coordinate routine actions and chase follow-ups, even though the team is fully capable. What action would best empower the team?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate team-created working agreements that define coordination norms, commitments, and follow-through expectations",
+        "why": "Working agreements help the team own how it collaborates, making routine coordination part of team behavior rather than manager-driven control."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue coordinating all actions until the team proves it can operate independently",
+        "trap": "Reinforces dependence and delays empowerment."
+      },
+      {
+        "text": "Assign one team member to monitor every other member's commitments",
+        "trap": "Creates internal policing rather than shared ownership."
+      },
+      {
+        "text": "Increase the frequency of status meetings so the project manager can track every action",
+        "trap": "Mistakes tighter oversight for empowerment."
+      },
+      {
+        "text": "Request functional managers to remind their staff to respond faster",
+        "trap": "Pushes responsibility outward instead of helping the team self-manage."
+      }
+    ],
+    "explanation": "When a capable team relies on the project manager for everyday coordination, the issue is often the absence of explicit team norms. Working agreements created by the team clarify expected behaviors, response patterns, and commitment management. This builds ownership and supports empowerment without repeating the covered topics of formal authority allocation or self-organizing theory.",
+    "references": [
+      "PMP Examination Content Outline, People Domain, Task: Empower team members and stakeholders",
+      "PMBOK Guide Seventh Edition, Team Performance Domain",
+      "Agile Practice Guide, Team Chartering and Working Agreements"
+    ],
+    "tags": [
+      "empower-team",
+      "team-ownership-through-working-agreements"
+    ]
+  },
+  {
+    "id": "empower-team-stakeholder-capability-building",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "stakeholder capability building",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A key stakeholder group will begin using a new project deliverable in two months. They are supportive, but they lack the knowledge needed to participate effectively in reviews and adoption planning. What should the project manager do?",
+      "Stakeholders are willing to engage with an upcoming solution, but they do not yet understand enough to contribute meaningfully to reviews or adoption preparation. What is the most appropriate action?"
+    ],
+    "correct": [
+      {
+        "text": "Provide targeted training and knowledge-sharing sessions tailored to stakeholder roles before key review points",
+        "why": "Empowerment includes ensuring stakeholders are adequately prepared to engage, evaluate, and support the work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reduce stakeholder involvement until the deliverable is complete so the team can avoid confusion",
+        "trap": "Treats lack of knowledge as a reason for exclusion rather than development."
+      },
+      {
+        "text": "Ask the sponsor to represent the stakeholder group in all future reviews",
+        "trap": "Substitutes one voice for many and weakens stakeholder engagement."
+      },
+      {
+        "text": "Send the full technical documentation to all stakeholders and assume they will study it independently",
+        "trap": "Confuses information distribution with effective learning and empowerment."
+      },
+      {
+        "text": "Delay reviews until the stakeholder group requests training on its own",
+        "trap": "Places responsibility on unprepared stakeholders instead of proactively enabling them."
+      }
+    ],
+    "explanation": "PMI links empowerment not only to team effectiveness but also to stakeholder readiness. When stakeholders lack the knowledge required to participate meaningfully, the project manager should build their capability through intentional training and knowledge transfer. This supports higher-quality feedback, smoother adoption, and stronger shared ownership of outcomes.",
+    "references": [
+      "PMP Examination Content Outline, People Domain, Task: Empower team members and stakeholders",
+      "PMP Examination Content Outline, People Domain, Task: Ensure team members and stakeholders are adequately trained",
+      "PMBOK Guide Seventh Edition, Stakeholder Performance Domain"
+    ],
+    "tags": [
+      "empower-team",
+      "stakeholder-capability-building"
+    ]
+  },
+  {
+    "id": "empower-team-knowledge-transfer-and-skill-distribution",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Empower Team Members and Stakeholders",
+    "topic": "Empower Team Members and Stakeholders",
+    "subtopic": "knowledge transfer and skill distribution",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A high-performing specialist on the project consistently solves urgent issues alone, but the rest of the team is becoming dependent on that person. Which action best empowers the broader team over time?",
+      "One expert keeps resolving critical problems quickly, yet team capability is not spreading and others now rely on that individual. What should the project manager do to improve empowerment?"
+    ],
+    "correct": [
+      {
+        "text": "Create deliberate knowledge transfer through pairing, walkthroughs, and shared problem-solving so capability is distributed across the team",
+        "why": "Empowerment is stronger when knowledge is shared and more team members can act confidently without depending on one expert."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue using the specialist as the main troubleshooter because it is the fastest way to protect the schedule",
+        "trap": "Optimizes short-term speed at the expense of sustainable team empowerment."
+      },
+      {
+        "text": "Promote the specialist to approve all technical fixes before implementation",
+        "trap": "Centralizes expertise further instead of expanding team capability."
+      },
+      {
+        "text": "Document the specialist's solutions in a repository and require others to read it when needed",
+        "trap": "Assumes passive documentation alone creates applied capability."
+      },
+      {
+        "text": "Move lower-performing team members off the project and replace them with more experienced staff",
+        "trap": "Treats a development opportunity as a staffing problem."
+      }
+    ],
+    "explanation": "A team is not truly empowered when execution depends on a single expert. PMI guidance emphasizes developing people and maintaining knowledge transfer so the team can perform resiliently. Pairing, coaching, and shared problem-solving create practical capability, reduce bottlenecks, and strengthen collective confidence without relying on command-based intervention.",
+    "references": [
+      "PMP Examination Content Outline, People Domain, Task: Empower team members and stakeholders",
+      "PMP Examination Content Outline, People Domain, Task: Support team performance",
+      "PMBOK Guide Seventh Edition, Team Performance Domain"
+    ],
+    "tags": [
+      "empower-team",
+      "knowledge-transfer-and-skill-distribution"
+    ]
+  }
+]

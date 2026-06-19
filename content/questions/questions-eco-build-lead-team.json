@@ -1,0 +1,414 @@
+[
+  {
+    "id": "build-lead-team-tuckman-forming-and-role-clarification",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Tuckman forming and role clarification",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A newly assembled cross-functional project team is polite in meetings but unclear about roles, decision rights, and ways of working. Several members ask the project manager what they are supposed to do and who approves deliverables. What should the project manager do first?",
+      "A project team has just been formed. Team members are courteous but uncertain about responsibilities and authority. What is the best initial action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate a team kickoff to clarify roles, expectations, and working agreements, and review a responsibility assignment matrix",
+        "why": "In the forming stage, the team needs structure, clarity, and shared understanding of responsibilities. A kickoff with explicit role clarification and a responsibility assignment matrix helps the team establish alignment and move toward effective collaboration."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Escalate the lack of role clarity to the sponsor and request replacement of uncertain team members",
+        "trap": "Treats a normal early team development condition as a performance failure requiring escalation."
+      },
+      {
+        "text": "Allow the team to self-organize without any guidance so that autonomy develops immediately",
+        "trap": "Confuses empowerment with absence of facilitation during an early stage when structure is still needed."
+      },
+      {
+        "text": "Conduct individual performance reviews to identify accountability gaps before planning team work",
+        "trap": "Applies formal evaluation too early instead of first establishing roles and expectations."
+      },
+      {
+        "text": "Issue a detailed directive assigning all future tasks personally to maintain control",
+        "trap": "Uses an overly controlling approach that may suppress collaboration and team development."
+      }
+    ],
+    "explanation": "This scenario reflects the forming stage of Tuckman team development, where members look for direction, structure, and clarity. The project manager should help the team understand responsibilities, interfaces, and decision authority. Using a team kickoff, team charter elements, and a responsibility assignment matrix such as RACI is consistent with PMI guidance for building and leading a team effectively.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Teamwork principle",
+      "Process Groups A Practice Guide, Develop Team section",
+      "PMI Talent Triangle and PMP Examination Content Outline, People domain task Build and Lead a Team"
+    ],
+    "tags": [
+      "build-lead-team",
+      "tuckman-forming-and-role-clarification"
+    ]
+  },
+  {
+    "id": "build-lead-team-storming-and-conflict-management",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Storming and conflict management",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During execution, two senior specialists openly disagree in team meetings about technical ownership, and their conflict is beginning to slow deliverables. The team had previously been collaborating well. What should the project manager do next?",
+      "A project team that had been working effectively starts showing friction between key experts over responsibilities and approach. Which action best helps the project manager lead the team?"
+    ],
+    "correct": [
+      {
+        "text": "Meet with the team members to address the conflict, clarify responsibilities, and facilitate agreement on how work will be coordinated",
+        "why": "Constructive conflict resolution and role clarification are appropriate when a team enters or returns to storming. The project manager should address the issue directly, facilitate collaboration, and remove ambiguity that is driving the dispute."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ignore the disagreement because conflict is always healthy and the team will resolve it without intervention",
+        "trap": "Assumes all conflict is beneficial and overlooks the project manager's role in preventing disruption to performance."
+      },
+      {
+        "text": "Immediately reassign one of the specialists off the project to restore harmony",
+        "trap": "Uses a punitive staffing response before attempting facilitation and root cause resolution."
+      },
+      {
+        "text": "Escalate the technical disagreement to the steering committee for a final decision on ownership",
+        "trap": "Escalates a team leadership issue too early instead of resolving it at the lowest appropriate level."
+      },
+      {
+        "text": "Delay discussion until the next performance appraisal cycle so evidence can be collected",
+        "trap": "Confuses ongoing team leadership with formal personnel evaluation processes."
+      }
+    ],
+    "explanation": "The team appears to be experiencing storming behavior, possibly after a disruption or change in work. PMI practice emphasizes managing conflict early, clarifying interfaces, and facilitating collaboration so the team can return to norming and performing. The project manager should not ignore the issue or escalate prematurely when the conflict can be addressed through direct facilitation and clearer accountability.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Teamwork principle",
+      "Process Groups A Practice Guide, Manage Team section",
+      "PMI Examination Content Outline for PMP, People domain task Build and Lead a Team"
+    ],
+    "tags": [
+      "build-lead-team",
+      "storming-and-conflict-management"
+    ]
+  },
+  {
+    "id": "build-lead-team-motivation-and-recognition",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Motivation and recognition",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A high-performing agile team is technically strong, but morale declines after several months of intense delivery pressure. Team members say their work is noticed only when something goes wrong. Which action by the project manager is most appropriate?",
+      "A project team in a mature stage of development is delivering results, yet motivation is slipping because members feel unrecognized. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Implement timely recognition and rewards tied to meaningful contributions and reinforce the purpose and value of the team's work",
+        "why": "Recognition supports motivation, engagement, and sustained performance. PMI guidance identifies recognition and rewards as a key technique for leading teams, especially when the team is already capable but needs renewed commitment and morale."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Increase oversight and require daily approval for all work products to ensure quality stays high",
+        "trap": "Responds to a motivation issue with excessive control, which often reduces autonomy and engagement."
+      },
+      {
+        "text": "Replace under-motivated team members with new resources who appear more enthusiastic",
+        "trap": "Assumes morale problems are individual defects rather than a team leadership issue."
+      },
+      {
+        "text": "Avoid discussing morale and focus only on schedule metrics because performance is still acceptable",
+        "trap": "Ignores an early warning sign that can damage long-term productivity and retention."
+      },
+      {
+        "text": "Offer only corrective feedback so the team understands the seriousness of delivery commitments",
+        "trap": "Assumes pressure and criticism are the primary drivers of motivation."
+      }
+    ],
+    "explanation": "When a capable team loses motivation, the project manager should focus on engagement rather than tighter control. PMI recognizes recognition and rewards as a practical team leadership technique. Reinforcing purpose, acknowledging contributions, and using appropriate forms of recognition help sustain commitment and preserve team performance. This aligns with effective people leadership under the Build and Lead a Team task.",
+    "references": [
+      "Process Groups A Practice Guide, Develop Team section on recognition and rewards",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Teamwork principle",
+      "PMI Examination Content Outline for PMP, People domain"
+    ],
+    "tags": [
+      "build-lead-team",
+      "motivation-and-recognition"
+    ]
+  },
+  {
+    "id": "build-lead-team-raci-and-accountability",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "RACI and accountability",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager inherits a matrix team with recurring confusion about who is responsible for creating requirements, approving design decisions, testing features, and signing off deliverables. Which actions should the project manager take to improve accountability? Select 2.",
+      "In a matrix environment, team members repeatedly duplicate work and miss handoffs because ownership is unclear. What should the project manager do? Select 2."
+    ],
+    "correct": [
+      {
+        "text": "Create or refine a RACI matrix for key deliverables and decisions so each activity has clear responsibility and accountability",
+        "why": "A RACI matrix clarifies who is responsible, accountable, consulted, and informed. This reduces ambiguity, duplication, and missed handoffs in cross-functional work."
+      },
+      {
+        "text": "Review the matrix with stakeholders and team members to confirm understanding and gain commitment to the defined roles",
+        "why": "A responsibility assignment tool is effective only when it is understood and accepted. Socializing and validating it with the team supports alignment and execution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Assign every major activity to more than one accountable person to ensure shared ownership",
+        "trap": "Confuses collaboration with accountability. Multiple accountable owners often create ambiguity rather than clarity."
+      },
+      {
+        "text": "Leave ownership flexible so the most available team member can decide in the moment",
+        "trap": "Mistakes adaptability for lack of role definition and control."
+      },
+      {
+        "text": "Use only the organizational chart because reporting lines are sufficient to define project responsibilities",
+        "trap": "Assumes functional hierarchy alone resolves project work ownership."
+      },
+      {
+        "text": "Escalate all role questions to the sponsor instead of documenting responsibilities within the team",
+        "trap": "Avoids the project manager's role in clarifying team accountability."
+      }
+    ],
+    "explanation": "In matrix and cross-functional settings, unclear ownership often causes rework, delay, and conflict. PMI practice supports using responsibility assignment artifacts to define and communicate roles for work products and decisions. The strongest response combines creation or refinement of a RACI matrix with facilitated review to ensure the team and stakeholders share the same understanding of responsibilities and accountabilities.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Resource Management section on responsibility assignment matrix",
+      "Process Groups A Practice Guide, Plan Resource Management and Manage Team sections",
+      "PMI Examination Content Outline for PMP, People domain task Build and Lead a Team"
+    ],
+    "tags": [
+      "build-lead-team",
+      "raci-and-accountability"
+    ]
+  },
+  {
+    "id": "build-lead-team-tuckman-performing-stage",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Tuckman performing stage",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A cross-functional agile team has worked together for six months and consistently delivers sprint goals with little supervision. Team members openly challenge ideas, resolve most issues themselves, and adapt plans quickly when priorities shift. What stage of team development is the team MOST likely in?",
+      "A project manager observes that an established team collaborates smoothly, solves problems independently, and maintains high productivity despite changing priorities. Which Tuckman stage best describes this team?"
+    ],
+    "correct": [
+      {
+        "text": "Performing",
+        "why": "The team demonstrates high trust, self-organization, adaptive behavior, and sustained productivity, which are hallmark characteristics of the performing stage."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Forming",
+        "trap": "Assumes any collaborative team is newly assembled, ignoring that forming is marked by orientation and dependence on guidance."
+      },
+      {
+        "text": "Storming",
+        "trap": "Confuses healthy debate with unresolved power struggles and interpersonal friction."
+      },
+      {
+        "text": "Norming",
+        "trap": "Recognizes cohesion but misses that the team has already moved beyond stabilization to sustained high performance."
+      },
+      {
+        "text": "Adjourning",
+        "trap": "Mistakes mature performance for project closeout or team dissolution."
+      }
+    ],
+    "explanation": "In the performing stage, the team functions with a high degree of autonomy, trust, and effectiveness. Members collaborate productively, address issues directly, and focus on achieving outcomes rather than clarifying relationships or authority. The scenario shows a mature team that can adjust rapidly and resolve issues with minimal intervention, which is more advanced than norming and clearly not forming, storming, or adjourning.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team Development concepts",
+      "Process Groups A Practice Guide, Team development and leadership discussion",
+      "PMP Examination Content Outline, People domain, task Build and Lead a Team"
+    ],
+    "tags": [
+      "build-lead-team",
+      "tuckman-performing-stage"
+    ]
+  },
+  {
+    "id": "build-lead-team-directive-leadership-style-selection",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Directive leadership style selection",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is assigned to a highly regulated infrastructure project with inexperienced team members and a fixed deadline. Several critical work packages require strict compliance with prescribed procedures. Which leadership style should the project manager apply FIRST?",
+      "On a compliance-driven project, the team is inexperienced and must follow exact procedures under severe schedule pressure. What is the MOST appropriate initial leadership style for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Use a directive leadership style to provide clear instructions, structure, and close guidance",
+        "why": "A directive approach is appropriate when work is tightly constrained, the team lacks experience, and compliance and speed are critical."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use a laissez-faire approach so the team can determine its own methods",
+        "trap": "Assumes empowerment is always best, even when the team lacks capability and the environment requires control."
+      },
+      {
+        "text": "Use a delegating style because deadlines are fixed and decisions must be decentralized",
+        "trap": "Confuses urgency with readiness for delegation."
+      },
+      {
+        "text": "Use a servant leadership approach only by avoiding any direct instruction",
+        "trap": "Misinterprets servant leadership as the absence of direction rather than enabling team success."
+      },
+      {
+        "text": "Use a consensus-based style for every technical decision before work begins",
+        "trap": "Overuses collaboration in a setting where procedural clarity and timeliness are primary."
+      }
+    ],
+    "explanation": "Leadership style should be matched to the context, team maturity, and delivery constraints. In this scenario, the team is inexperienced and the project environment is regulated and deadline driven, so the project manager should first provide strong direction and structure. This does not prevent later coaching or empowerment, but the immediate need is clarity, compliance, and control over critical work.",
+    "references": [
+      "PMP Examination Content Outline, People domain, task Build and Lead a Team",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Leadership and team performance concepts",
+      "Agile Practice Guide, Leadership and tailoring team approach"
+    ],
+    "tags": [
+      "build-lead-team",
+      "directive-leadership-style-selection"
+    ]
+  },
+  {
+    "id": "build-lead-team-team-regression-after-membership-change",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Team regression after membership change",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A new specialist joins a high-performing delivery team midway through execution. Within two iterations, communication becomes cautious, decisions slow down, and previously settled working agreements are revisited. What should the project manager do FIRST?",
+      "A mature project team adds a new member with a critical skill set. Soon after, the team begins rechecking norms, hesitating in discussions, and relying more on the project manager. What is the BEST initial response?"
+    ],
+    "correct": [
+      {
+        "text": "Facilitate team re-alignment on working agreements, interactions, and integration of the new member",
+        "why": "Changes in team composition can move a team back to an earlier development stage, so the project manager should help the team re-establish norms and effective collaboration."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Escalate the issue to the sponsor because productivity has declined",
+        "trap": "Escalates a normal team development issue before attempting team-level intervention."
+      },
+      {
+        "text": "Replace the new specialist to preserve the original team dynamics",
+        "trap": "Treats a predictable adjustment period as a personnel failure."
+      },
+      {
+        "text": "Immediately enforce formal reporting lines and approval gates for all team communications",
+        "trap": "Introduces unnecessary control instead of supporting team adaptation."
+      },
+      {
+        "text": "Ignore the behavior because high-performing teams should self-correct without support",
+        "trap": "Assumes mature teams never need facilitation after disruption."
+      },
+      {
+        "text": "Conduct individual performance appraisals to identify who caused the slowdown",
+        "trap": "Frames the issue as poor performance rather than team re-development."
+      }
+    ],
+    "explanation": "Team development is dynamic rather than linear. When a new member joins, even a previously high-performing team may temporarily regress as members re-negotiate norms, trust, and interaction patterns. The project manager should recognize this as a team development issue and facilitate re-alignment, integration, and renewed clarity on how the team works together before considering escalation or punitive measures.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team development and team performance concepts",
+      "Process Groups A Practice Guide, Develop Team and Manage Team related guidance",
+      "PMP Examination Content Outline, People domain, task Build and Lead a Team"
+    ],
+    "tags": [
+      "build-lead-team",
+      "team-regression-after-membership-change"
+    ]
+  },
+  {
+    "id": "build-lead-team-servant-leadership-in-obstacle-removal",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and Lead a Team",
+    "topic": "Build and Lead a Team",
+    "subtopic": "Servant leadership in obstacle removal",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager on a hybrid project notices that team members wait for direction whenever a dependency or blocker arises, even though they are technically capable of resolving many issues. Which action best reflects servant leadership?",
+      "A capable delivery team regularly escalates minor obstacles instead of addressing them directly. Which project manager action most closely aligns with servant leadership?"
+    ],
+    "correct": [
+      {
+        "text": "Coach the team to make local decisions within agreed boundaries and remove systemic impediments that prevent autonomy",
+        "why": "Servant leadership emphasizes enabling the team, removing impediments, and fostering self-management rather than centralizing decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Take ownership of all blocker resolution so the team can focus only on task execution",
+        "trap": "Confuses helping the team with creating dependency on the project manager."
+      },
+      {
+        "text": "Assign a deputy project manager to approve all day-to-day decisions",
+        "trap": "Adds hierarchy instead of building team capability."
+      },
+      {
+        "text": "Instruct the team to stop raising blockers unless they threaten the final milestone",
+        "trap": "Suppresses transparency rather than improving team effectiveness."
+      },
+      {
+        "text": "Rebaseline the schedule to accommodate delayed decisions",
+        "trap": "Treats the symptom without addressing the team leadership problem."
+      },
+      {
+        "text": "Move all issue resolution to weekly steering committee meetings",
+        "trap": "Escalates operational decisions away from the team and slows delivery."
+      }
+    ],
+    "explanation": "Servant leadership is not passive and it is not equivalent to doing the work for the team. It centers on enabling team success by coaching, removing impediments, and creating conditions for ownership and self-management. In this case, the best action is to establish decision boundaries, build confidence in local decision making, and address structural blockers that keep the team dependent on the project manager.",
+    "references": [
+      "PMP Examination Content Outline, People domain, task Build and Lead a Team",
+      "Agile Practice Guide, Servant leadership concepts",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stewardship and team performance concepts"
+    ],
+    "tags": [
+      "build-lead-team",
+      "servant-leadership-in-obstacle-removal"
+    ]
+  }
+]

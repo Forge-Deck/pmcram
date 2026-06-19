@@ -1,0 +1,110 @@
+[
+  {
+    "id": "recovered-stakeholder-concern-discovery-and-collaborative-improvement",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders and Build Shared Understanding",
+    "topic": "Engage Stakeholders and Build Shared Understanding",
+    "subtopic": "Stakeholder concern discovery and collaborative improvement",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a nationwide employee wellness app rollout for a retail company. During initiation, the head of Human Resources says the proposed feature set is too complex for frontline staff and worries adoption will be low, which could undermine the program's expected benefits. What should the project manager do first?",
+      "A retail company is launching an employee wellness mobile app, and a senior stakeholder from Human Resources raises concerns that the current approach may not drive enough user adoption to achieve the intended business outcomes. What is the best action for the project manager to take first?"
+    ],
+    "correct": [
+      {
+        "text": "Set up a focused discussion with the stakeholder and relevant team members to clarify the concern, understand the underlying expectations, and explore practical adjustments.",
+        "why": "This is correct because the project manager should first build shared understanding of the stakeholder's concerns before deciding on changes or escalating."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Direct the product team to simplify the feature list immediately so the stakeholder sees rapid action.",
+        "trap": "Assumes the requested change is valid before confirming the real issue or evaluating impact."
+      },
+      {
+        "text": "Ask the sponsor to overrule the stakeholder so the approved approach can move forward without delay.",
+        "trap": "Uses authority to suppress concerns instead of engaging stakeholders constructively."
+      },
+      {
+        "text": "Record the concern in the issue log and wait until execution begins to see whether adoption actually becomes a problem.",
+        "trap": "Defers meaningful engagement even though the concern could affect planning and value realization now."
+      },
+      {
+        "text": "Send a project update explaining the business case and expected return on investment to reassure the stakeholder.",
+        "trap": "Treats the issue as a communication gap without verifying the stakeholder's actual concerns."
+      },
+      {
+        "text": "Submit a formal change request to remove advanced features from the initial release.",
+        "trap": "Jumps to a solution and formal control process before understanding whether a change is necessary."
+      }
+    ],
+    "explanation": "The strongest PMP response is to engage the concerned stakeholder directly and understand the root of the objection before acting. Early collaboration can reveal whether the concern relates to usability, training, rollout sequencing, or benefit expectations. Prematurely changing scope, escalating, or dismissing the issue risks misalignment and weaker outcomes.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Stakeholders and Value Delivery System",
+      "PMBOK Guide Sixth Edition, Section 13 Stakeholder Management",
+      "Process Groups Practice Guide, Stakeholder Engagement"
+    ],
+    "tags": [
+      "recovered",
+      "stakeholder-concern-discovery-and-collaborative-improvement"
+    ]
+  },
+  {
+    "id": "recovered-facilitated-stakeholder-compromise",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Conflict",
+    "topic": "Manage Conflict",
+    "subtopic": "Facilitated stakeholder compromise",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading the development of a citywide emergency notification app. Midway through execution, the user experience team wants to simplify the alert acknowledgment flow to improve speed, while the legal and privacy advisors insist on additional consent steps that they believe are necessary for compliance. The disagreement is delaying a key design decision, and each group is pushing the project manager to back its position immediately. What should the project manager do first?",
+      "A project manager is managing a public safety mobile application project. The product designers argue that a streamlined workflow is essential for adoption, but compliance stakeholders insist on extra confirmation screens to reduce regulatory exposure. The conflict is blocking progress on a major feature decision. What is the best first action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Hold a structured meeting with both groups to review the impacts of each option and work toward a mutually acceptable solution",
+        "why": "This addresses the conflict through collaboration and shared understanding before forcing a decision."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Choose the option that best supports the original schedule baseline and direct the team to proceed",
+        "trap": "This treats schedule pressure as more important than resolving stakeholder conflict appropriately."
+      },
+      {
+        "text": "Escalate the disagreement to the sponsor so leadership can decide which group is correct",
+        "trap": "This avoids the project manager's responsibility to facilitate resolution at the appropriate level first."
+      },
+      {
+        "text": "Implement the legal advisors' recommendation because compliance concerns always take precedence over usability",
+        "trap": "This assumes one stakeholder group must automatically win without evaluating tradeoffs."
+      },
+      {
+        "text": "Ask each group to submit its preferred design in writing and select the option with the strongest justification",
+        "trap": "This turns the issue into a document comparison instead of a collaborative problem-solving discussion."
+      },
+      {
+        "text": "Defer the feature decision to a later release so the team can continue development on other components",
+        "trap": "This postpones the conflict rather than resolving the current blocker."
+      }
+    ],
+    "explanation": "The best response is to facilitate direct collaboration so stakeholders can understand the consequences of each position and find a workable compromise. PMP judgment favors resolving conflict through engagement and analysis rather than unilateral decisions, premature escalation, or avoidance. This helps preserve relationships while moving the project forward responsibly.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
+      "PMBOK Guide Seventh Edition, Team Performance Domain",
+      "PMBOK Guide Sixth Edition, Manage Stakeholder Engagement"
+    ],
+    "tags": [
+      "recovered",
+      "facilitated-stakeholder-compromise"
+    ]
+  }
+]

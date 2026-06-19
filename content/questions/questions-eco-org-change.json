@@ -1,0 +1,422 @@
+[
+  {
+    "id": "org-change-adoption-and-resistance",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "adoption and resistance",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is deploying a new enterprise resource planning system. The technical build is complete, but many finance users still use spreadsheets and avoid the new workflow. What should the project manager do first to support organizational change?",
+      "After go-live of a new enterprise system, end users continue using old manual workarounds instead of the approved process. What is the best first action for the project manager to support change adoption?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the sources of resistance and stakeholder readiness, then tailor communication, training, and reinforcement actions to address the adoption gap.",
+        "why": "This is correct because poor adoption signals a change management issue, not just a technical completion issue. PMI practice emphasizes evaluating stakeholder impacts and readiness, then using targeted engagement actions to drive sustained use of the new way of working."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Submit an integrated change request to force all users to stop using spreadsheets immediately.",
+        "trap": "Confuses organizational change management with formal change control of project baselines."
+      },
+      {
+        "text": "Close the project because the deliverable has already been implemented.",
+        "trap": "Assumes deployment equals success even when intended business outcomes are not being adopted."
+      },
+      {
+        "text": "Escalate the issue to the sponsor before gathering any stakeholder data.",
+        "trap": "Skips diagnosis and treats all resistance as an executive enforcement problem."
+      },
+      {
+        "text": "Replace the training vendor because resistance always indicates poor training materials.",
+        "trap": "Overgeneralizes one possible cause and ignores culture, incentives, readiness, and stakeholder concerns."
+      }
+    ],
+    "explanation": "Support Organizational Change focuses on enabling stakeholders to transition to and sustain the future state. When users revert to legacy behaviors, the project manager should first understand readiness and resistance drivers, then apply targeted communication, training, coaching, and reinforcement. This aligns with common change frameworks such as ADKAR, where awareness, desire, knowledge, ability, and reinforcement all matter for adoption.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, Business Environment, task Support Organizational Change.",
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, section on stakeholders and change in the organizational environment.",
+      "PMI, Process Groups A Practice Guide, section on Manage Stakeholder Engagement and Monitor Stakeholder Engagement."
+    ],
+    "tags": [
+      "org-change",
+      "adoption-and-resistance"
+    ]
+  },
+  {
+    "id": "org-change-change-management-versus-change-control",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "change management versus change control",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor asks the project manager to raise a change request because employees are resisting a new operating model. Which response is most appropriate?",
+      "During a transformation project, the sponsor says employee resistance should be handled through the project's change control process. What should the project manager clarify?"
+    ],
+    "correct": [
+      {
+        "text": "Explain that resistance to the future state is primarily managed through organizational change management activities, while change control is used for evaluating modifications to project baselines or approved deliverables.",
+        "why": "This is correct because it distinguishes two different disciplines precisely. Change management addresses stakeholder transition and adoption, whereas change control governs proposed changes to scope, schedule, cost, or other baselines."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve the request because all resistance must be logged as a scope change.",
+        "trap": "Treats human adoption issues as if they are automatically scope changes."
+      },
+      {
+        "text": "Reject the request because people issues are outside project management responsibilities.",
+        "trap": "Ignores the ECO expectation that project leaders support organizational change."
+      },
+      {
+        "text": "Move the issue to the risk register only, since no response planning is needed until an impact occurs.",
+        "trap": "Assumes resistance is only a passive risk and not an active stakeholder management concern."
+      },
+      {
+        "text": "Escalate to human resources because only functional managers can address adoption problems.",
+        "trap": "Improperly delegates change leadership and overlooks the project manager's coordination role."
+      }
+    ],
+    "explanation": "PMP questions often test the difference between change control and change management. Integrated change control is a formal project governance process for assessing and approving changes to baselines or deliverables. Organizational change management, by contrast, prepares, equips, and supports stakeholders to adopt the new state. Resistance may create risks or issues, but it is not itself a baseline change unless the proposed response alters approved project work.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, Business Environment, task Support Organizational Change.",
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, section on tailoring and the organizational environment.",
+      "PMI, Process Groups A Practice Guide, section on Perform Integrated Change Control."
+    ],
+    "tags": [
+      "org-change",
+      "change-management-versus-change-control"
+    ]
+  },
+  {
+    "id": "org-change-adkar-desire-and-reinforcement",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "ADKAR desire and reinforcement",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A company is introducing a new global procurement process. Surveys show employees know a change is coming, but many do not believe it will benefit them and managers are not actively sponsoring the transition. Which action best aligns with ADKAR?",
+      "Readiness data shows stakeholders understand that a new process is planned, yet they are reluctant to support it and local managers are passive. What should the project manager emphasize first using an ADKAR lens?"
+    ],
+    "correct": [
+      {
+        "text": "Focus on building desire by clarifying stakeholder impacts, engaging managers as active sponsors, and connecting the change to meaningful benefits for affected groups.",
+        "why": "This is correct because awareness exists, but desire is weak. In ADKAR, stakeholders may know a change is happening yet still resist unless they understand why it matters to them and see credible sponsorship."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Provide more detailed system job aids because the main gap is knowledge.",
+        "trap": "Confuses awareness and desire gaps with a training or knowledge gap."
+      },
+      {
+        "text": "Measure benefits realization after deployment because adoption should be addressed only after implementation.",
+        "trap": "Delays change actions until too late and ignores proactive readiness work."
+      },
+      {
+        "text": "Freeze all local process variations immediately to create urgency.",
+        "trap": "Assumes enforcement alone will create commitment and overlooks stakeholder engagement."
+      },
+      {
+        "text": "Escalate every resistant manager to the steering committee for corrective action.",
+        "trap": "Uses escalation as the first tactic instead of targeted sponsor and stakeholder engagement."
+      }
+    ],
+    "explanation": "ADKAR helps identify where adoption is breaking down. In this scenario, stakeholders are aware of the impending change but lack desire to participate and support it. The project manager should strengthen sponsorship, explain personal and organizational benefits, and address concerns that influence motivation. Training is important later, but it will not solve a commitment problem by itself.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, Business Environment, task Support Organizational Change.",
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, section on stakeholders and value delivery.",
+      "PMI, Process Groups A Practice Guide, section on stakeholder engagement planning and management."
+    ],
+    "tags": [
+      "org-change",
+      "adkar-desire-and-reinforcement"
+    ]
+  },
+  {
+    "id": "org-change-culture-and-readiness-assessment",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "culture and readiness assessment",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A regulated healthcare organization is implementing a digital intake platform. The culture is risk averse, approvals are hierarchical, and frontline supervisors were not involved in planning. Which combination of actions would best support organizational change?",
+      "In a highly regulated and hierarchical culture, a project introducing new digital workflows faces slow decisions and low frontline buy in. Which actions should the project manager take?"
+    ],
+    "correct": [
+      {
+        "text": "Conduct a change readiness assessment across impacted groups to identify cultural barriers, sponsor gaps, and capability needs before finalizing the rollout approach.",
+        "why": "This is correct because readiness assessment helps tailor the deployment and engagement approach to the actual organizational context rather than assuming one generic rollout method will work."
+      },
+      {
+        "text": "Engage formal leaders and frontline supervisors early as visible change agents so communications, escalation paths, and reinforcement align with the hierarchical culture.",
+        "why": "This is correct because in a hierarchical and risk averse environment, visible support from legitimate authority figures and local supervisors is often essential for adoption and sustained behavior change."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Minimize stakeholder involvement to avoid slowing down compliance approvals.",
+        "trap": "Assumes engagement is optional in regulated settings and ignores adoption risk."
+      },
+      {
+        "text": "Use the same communication plan used successfully in a prior startup project.",
+        "trap": "Fails to tailor to a very different organizational culture and governance context."
+      },
+      {
+        "text": "Delay supervisor involvement until after go live so they do not influence user perceptions.",
+        "trap": "Excludes key influencers who are critical to local adoption and reinforcement."
+      },
+      {
+        "text": "Treat resistance as noncompliance and document it only as a lessons learned item.",
+        "trap": "Frames resistance too narrowly and postpones active response."
+      }
+    ],
+    "explanation": "Organizational culture is a major factor in how change should be introduced. In a regulated, hierarchical, and risk averse environment, the project manager should tailor the change approach through readiness assessment and visible sponsor and supervisor engagement. These actions improve legitimacy, address concerns early, and increase the probability that the new process will be accepted and sustained in operations.",
+    "references": [
+      "PMI, Exam Content Outline for PMP Certification, Business Environment, task Support Organizational Change.",
+      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, section on organizational culture and enterprise environmental factors.",
+      "PMI, Process Groups A Practice Guide, section on stakeholder identification and engagement."
+    ],
+    "tags": [
+      "org-change",
+      "culture-and-readiness-assessment"
+    ]
+  },
+  {
+    "id": "org-change-change-sponsorship-and-role-modeling",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "change sponsorship and role modeling",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading deployment of a new enterprise workflow tool across several departments. Training has been completed, but usage metrics remain low because managers are not modeling the new behaviors. Which action should the project manager take first to better support organizational change?",
+      "After rollout of a new workflow platform, employees attended training yet adoption remains weak because department leaders still use legacy methods. What should the project manager do first to support the change?"
+    ],
+    "correct": [
+      {
+        "text": "Engage functional leaders to actively sponsor the change and demonstrate the expected future-state behaviors",
+        "why": "Visible sponsorship and leader role modeling are foundational to sustained organizational change because employees look to local leaders for cues on what behaviors are truly expected."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Submit a formal change request to update the project management plan",
+        "trap": "Confuses organizational change adoption with integrated change control inside the project."
+      },
+      {
+        "text": "Escalate the issue immediately to the change control board for a mandatory compliance decision",
+        "trap": "Assumes low adoption is primarily a governance approval problem rather than a sponsorship and behavior alignment problem."
+      },
+      {
+        "text": "Increase the number of technical training sessions for all users",
+        "trap": "Assumes lack of adoption is caused by missing knowledge even though the scenario indicates training is already complete."
+      },
+      {
+        "text": "Delay the implementation until every department reports full support",
+        "trap": "Treats imperfect alignment as a reason to stop the project instead of strengthening change leadership."
+      },
+      {
+        "text": "Issue a directive requiring users to stop discussing the previous process",
+        "trap": "Relies on coercion and suppresses feedback instead of addressing the leadership conditions needed for adoption."
+      }
+    ],
+    "explanation": "The best first action is to strengthen active sponsorship through functional leaders. In organizational change, training alone rarely drives adoption if leaders continue signaling that the old way is acceptable. PMI change guidance emphasizes stakeholder engagement, leadership alignment, and actions that help move the organization toward the desired future state. This scenario is not primarily about revising baselines or obtaining approval through project change control; it is about ensuring leaders visibly support and embody the change so users perceive it as real, important, and durable.",
+    "references": [
+      "PMI, Managing Change in Organizations: A Practice Guide, sections on sponsorship and stakeholder engagement",
+      "PMI, Exam Content Outline for PMP, Business Environment domain, task Support Organizational Change"
+    ],
+    "tags": [
+      "org-change",
+      "change-sponsorship-and-role-modeling"
+    ]
+  },
+  {
+    "id": "org-change-guiding-coalition",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "guiding coalition",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team is preparing a major process transition. A stakeholder analysis shows that frontline supervisors understand the benefits, but there is no coalition of influential leaders coordinating messaging across business units. Which action best aligns with a structured organizational change approach?",
+      "Before introducing a new operating model, the project manager finds that supervisors are individually supportive but no influential cross-functional group is aligned to drive the effort. What should be done next?"
+    ],
+    "correct": [
+      {
+        "text": "Form a cross-functional coalition of influential leaders to align communication, remove barriers, and champion the change",
+        "why": "A guiding coalition creates coordinated leadership across functions, which is essential when organizational change affects multiple business units and requires consistent reinforcement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ask each supervisor to manage the transition independently within their own area",
+        "trap": "Mistakes local support for enterprise alignment and ignores the need for coordinated leadership."
+      },
+      {
+        "text": "Freeze all project communications until the sponsor issues a final policy memo",
+        "trap": "Assumes centralized announcement alone is sufficient and delays the engagement needed to build momentum."
+      },
+      {
+        "text": "Move the project into execution immediately because stakeholders already understand the benefits",
+        "trap": "Confuses awareness of benefits with the leadership structure needed to drive broad organizational change."
+      },
+      {
+        "text": "Replace the stakeholder engagement plan with a procurement management plan update",
+        "trap": "Introduces an unrelated process artifact and ignores the actual organizational change gap."
+      },
+      {
+        "text": "Focus only on updating the risk register because leadership alignment is outside project scope",
+        "trap": "Underestimates the project manager role in supporting organizational change under the ECO."
+      }
+    ],
+    "explanation": "Creating a cross-functional coalition is the strongest response because organizational change that spans functions requires aligned leaders who can communicate consistently, resolve local obstacles, and maintain credibility with affected teams. Individual supervisors may be supportive, but without a coordinated coalition the change effort can fragment across departments. This aligns with structured change approaches that emphasize building leadership support and coordinated momentum rather than assuming that understanding the benefits is enough to secure successful transition.",
+    "references": [
+      "PMI, Managing Change in Organizations: A Practice Guide, sections on governance, stakeholder engagement, and leadership alignment",
+      "PMI, Exam Content Outline for PMP, Business Environment domain, task Support Organizational Change"
+    ],
+    "tags": [
+      "org-change",
+      "guiding-coalition"
+    ]
+  },
+  {
+    "id": "org-change-adoption-measurement",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "adoption measurement",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is introducing a new reporting process required by a strategic initiative. Senior leaders want evidence that the organization is moving from awareness to measurable use of the new process. Which metric is the best indicator of change adoption?",
+      "Leadership asks how to verify that a newly introduced reporting process is being embedded in daily operations rather than merely announced. Which measure best demonstrates adoption?"
+    ],
+    "correct": [
+      {
+        "text": "Percentage of teams consistently using the new process in live operations over a defined period",
+        "why": "Sustained operational usage is a direct measure of adoption because it shows the new way of working has been implemented in practice, not just communicated or trained."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Number of presentation slides used in executive town halls",
+        "trap": "Measures communication activity rather than behavioral adoption."
+      },
+      {
+        "text": "Count of approved change requests related to the project baseline",
+        "trap": "Confuses project change control activity with organizational uptake of a new way of working."
+      },
+      {
+        "text": "Attendance rate for kickoff meetings",
+        "trap": "Shows exposure to the initiative but not whether people are actually using the new process."
+      },
+      {
+        "text": "Total hours the project team spent preparing training materials",
+        "trap": "Measures effort spent by the project team, not realized adoption by users."
+      },
+      {
+        "text": "Number of issues logged during system testing",
+        "trap": "Reflects product or implementation quality concerns, not whether the organization has adopted the process."
+      }
+    ],
+    "explanation": "The most meaningful indicator of adoption is sustained use of the new process in real operations. PMI-oriented change support focuses on moving stakeholders from communication and training activities to actual behavior change and business use. Activity metrics such as training hours, attendance, or communication volume can be useful leading indicators, but they do not confirm that the organization has transitioned to the future-state behavior. Adoption must be evidenced by consistent execution in the workplace.",
+    "references": [
+      "PMI, Managing Change in Organizations: A Practice Guide, sections on transition, sustainment, and measurement of change outcomes",
+      "PMI, Exam Content Outline for PMP, Business Environment domain, task Support Organizational Change"
+    ],
+    "tags": [
+      "org-change",
+      "adoption-measurement"
+    ]
+  },
+  {
+    "id": "org-change-resistance-source-analysis",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support Organizational Change",
+    "topic": "Support Organizational Change",
+    "subtopic": "resistance source analysis",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is supporting a digital transformation that will alter decision rights, reporting lines, and daily workflows. Several middle managers are quietly delaying local implementation because they fear loss of influence. Which two actions should the project manager take to address the resistance effectively?",
+      "During a transformation initiative, some middle managers are slowing rollout because the future-state model reduces their current authority. Which two actions best address this source of resistance?"
+    ],
+    "correct": [
+      {
+        "text": "Identify the specific impacts on the affected managers and tailor engagement around their concerns, responsibilities, and incentives",
+        "why": "Effective resistance management begins by diagnosing the source of concern and addressing how the change affects stakeholder roles, influence, and expected outcomes."
+      },
+      {
+        "text": "Work with sponsors and business leaders to clarify the future-state roles and reinforce the benefits and expectations tied to them",
+        "why": "Resistance linked to loss of influence is reduced when leaders clearly define the future operating model, explain why it matters, and reinforce aligned expectations."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Exclude the resistant managers from future planning sessions to avoid delays",
+        "trap": "Attempts to remove resistance by cutting out key stakeholders, which often intensifies opposition."
+      },
+      {
+        "text": "Submit a schedule compression request so rollout finishes before resistance can spread",
+        "trap": "Treats resistance as a timing problem instead of a stakeholder impact problem."
+      },
+      {
+        "text": "Reclassify the resistance as a product defect and transfer it to quality management",
+        "trap": "Mislabels a people and organizational issue as a technical quality issue."
+      },
+      {
+        "text": "Issue a general communication stating that noncompliance will be tracked",
+        "trap": "Uses broad pressure without addressing the actual reasons stakeholders are resisting."
+      },
+      {
+        "text": "Assume the resistance will disappear after go-live once users become familiar with the new tools",
+        "trap": "Ignores the political and structural nature of the resistance in the scenario."
+      }
+    ],
+    "explanation": "The strongest response is to analyze the root cause of the resistance and then engage leaders to clarify the future-state roles, expectations, and benefits. In this case, the resistance is not primarily about technical skills or system usability; it is about perceived loss of authority and uncertainty in the new operating model. PMI-aligned organizational change support requires stakeholder-specific engagement, leadership reinforcement, and actions that help people understand what is changing for them and why. Excluding resistant stakeholders or simply accelerating rollout generally worsens hidden opposition.",
+    "references": [
+      "PMI, Managing Change in Organizations: A Practice Guide, sections on stakeholder impacts, resistance management, and reinforcement by leadership",
+      "PMI, Exam Content Outline for PMP, Business Environment domain, task Support Organizational Change"
+    ],
+    "tags": [
+      "org-change",
+      "resistance-source-analysis"
+    ]
+  }
+]

@@ -1,0 +1,414 @@
+[
+  {
+    "id": "procurement-make-or-buy-analysis",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "make-or-buy analysis",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is planning procurement for a specialized testing environment. The internal team could build the environment in four months, but an external seller can provide a proven solution in six weeks with support included. The project has a fixed regulatory deadline and limited internal expertise. What should the project manager do first?",
+      "During procurement planning, a project manager compares building a specialized testing environment internally versus purchasing it from a qualified seller. The project faces a hard compliance deadline and the organization has limited in-house capability. What is the best initial action?"
+    ],
+    "correct": [
+      {
+        "text": "Perform a make-or-buy analysis to compare internal development against external procurement based on cost, schedule, capability, and risk",
+        "why": "This is the appropriate planning technique to determine whether the work should be performed by the project team or procured from a seller."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Issue a request for proposal immediately to shorten the procurement cycle",
+        "trap": "Assumes the buyer should begin seller solicitation before deciding whether external procurement is the best sourcing approach."
+      },
+      {
+        "text": "Select a seller based on prior relationships to reduce evaluation effort",
+        "trap": "Confuses procurement planning with source selection and bypasses objective analysis."
+      },
+      {
+        "text": "Create the bid package before defining whether the work will be done internally or externally",
+        "trap": "Reverses the logical sequence of procurement planning activities."
+      },
+      {
+        "text": "Transfer ownership of the deliverable to the sponsor so the sponsor can choose the seller",
+        "trap": "Misunderstands the project manager role and governance responsibilities in procurement planning."
+      }
+    ],
+    "explanation": "The first step is to determine the sourcing strategy through make-or-buy analysis. In this scenario, schedule pressure, lack of internal expertise, and the availability of a proven external solution are key decision factors. The buyer should evaluate internal capability, total cost, timing, risk exposure, and strategic considerations before deciding to procure. Only after that decision should the team prepare bid documents or begin source selection.",
+    "references": [
+      "PMBOK Guide Sixth Edition section 12.1 Plan Procurement Management pages 466 to 477",
+      "PMBOK Guide Sixth Edition glossary make-or-buy analysis page 471",
+      "PMP Examination Content Outline 2021 Process domain task Plan and Manage Procurement"
+    ],
+    "tags": [
+      "procurement",
+      "make-or-buy-analysis"
+    ]
+  },
+  {
+    "id": "procurement-bid-documents",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "bid documents",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A buyer has completed a clear procurement statement of work for 500 standard laptops with defined technical specifications. Several qualified sellers can provide the items and the main objective is to obtain the lowest price from a responsible source. Which bid document should the project manager use?",
+      "A project requires a standard commercial product with exact specifications already defined in the procurement SOW. The buyer wants competitive pricing from multiple sellers. Which procurement document is most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Use an RFQ because the requirement is well defined and the buyer is seeking price quotations for a standard item",
+        "why": "An RFQ is appropriate when the product is clearly specified and price is a primary evaluation factor."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use an RFI because the buyer already knows exactly what to procure and only needs seller pricing",
+        "trap": "Confuses information gathering with soliciting firm quotations."
+      },
+      {
+        "text": "Use an RFP because every procurement should begin with detailed seller proposals regardless of complexity",
+        "trap": "Assumes the most formal document is always best even when requirements are straightforward."
+      },
+      {
+        "text": "Use a change request because the procurement SOW is complete",
+        "trap": "Confuses procurement documentation with integrated change control."
+      },
+      {
+        "text": "Use a lessons learned register to compare sellers",
+        "trap": "Misapplies a knowledge artifact as a bid solicitation document."
+      }
+    ],
+    "explanation": "When the buyer has a precise description of a standard product and is primarily comparing seller pricing, an RFQ is the best choice. An RFI is used earlier when the buyer needs market information or capability input. An RFP is better suited for complex solutions where sellers may propose differing technical or management approaches. Here, the procurement SOW already defines the requirement clearly enough for sellers to provide quotations.",
+    "references": [
+      "PMBOK Guide Sixth Edition section 12.1 Plan Procurement Management pages 471 to 474",
+      "PMBOK Guide Sixth Edition section 12.2 Conduct Procurements pages 482 to 489",
+      "PMP Examination Content Outline 2021 Process domain task Plan and Manage Procurement"
+    ],
+    "tags": [
+      "procurement",
+      "bid-documents"
+    ]
+  },
+  {
+    "id": "procurement-rfp-versus-rfq-versus-rfi",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "RFP versus RFQ versus RFI",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is procuring development of an innovative analytics platform. The buyer can describe the required business outcomes, but sellers may propose different technical approaches and support models. Which document should the buyer issue to obtain the best overall solution?",
+      "For a complex procurement in which the buyer knows the desired outcome but expects sellers to recommend different approaches, what is the most appropriate solicitation document?"
+    ],
+    "correct": [
+      {
+        "text": "Issue an RFP so qualified sellers can submit detailed proposals describing how they will meet the procurement SOW and evaluation criteria",
+        "why": "An RFP is used when the buyer needs more than price and expects sellers to propose different methods, solutions, or management approaches."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Issue an RFQ because price should always be the main source selection criterion",
+        "trap": "Overlooks that complex solution procurements require evaluation of technical and management capability, not just cost."
+      },
+      {
+        "text": "Issue an RFI because the buyer is ready to evaluate final offers from sellers",
+        "trap": "Misunderstands that an RFI is for gathering market information, not receiving formal solution proposals."
+      },
+      {
+        "text": "Use a fixed price contract immediately without seller proposals",
+        "trap": "Confuses contract type selection with the solicitation process."
+      },
+      {
+        "text": "Ask the sponsor to select a preferred seller before issuing procurement documents",
+        "trap": "Bypasses fair procurement planning and objective source selection."
+      }
+    ],
+    "explanation": "An RFP is appropriate when the buyer seeks a solution to a complex requirement and wants sellers to describe their proposed approach, capability, schedule, staffing, and commercial terms. Unlike an RFQ, which is used for clearly defined standard items with price-focused evaluation, an RFP supports best value assessment across multiple criteria. An RFI may precede this step if the buyer still needs market intelligence, but once the buyer is ready to solicit full proposals, the RFP is the correct document.",
+    "references": [
+      "PMBOK Guide Sixth Edition section 12.1 Plan Procurement Management pages 471 to 474",
+      "PMBOK Guide Sixth Edition section 12.2 Conduct Procurements pages 482 to 489",
+      "PMP Examination Content Outline 2021 Process domain task Plan and Manage Procurement"
+    ],
+    "tags": [
+      "procurement",
+      "rfp-versus-rfq-versus-rfi"
+    ]
+  },
+  {
+    "id": "procurement-source-selection-criteria",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "source selection criteria",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A buyer is procuring a well defined equipment installation package. The procurement SOW is complete, but the project manager wants to minimize the risk of selecting a seller solely based on lowest price. Which action is most appropriate during procurement planning?",
+      "Before soliciting bids for a clearly scoped installation package, a project manager wants to ensure seller evaluation reflects more than cost alone. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Establish weighted source selection criteria such as technical capability, past performance, schedule commitment, and price before issuing the solicitation",
+        "why": "Defining source selection criteria in advance supports objective evaluation and helps the buyer select the seller offering the best value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until proposals are received and then decide which criteria seem most relevant",
+        "trap": "Creates bias and weakens procurement fairness and consistency."
+      },
+      {
+        "text": "Use only the lowest bid because the procurement SOW is complete",
+        "trap": "Assumes well defined scope removes the need to assess capability, performance, and delivery risk."
+      },
+      {
+        "text": "Ask each seller to define the buyer evaluation criteria in its proposal",
+        "trap": "Improperly shifts buyer governance responsibility to sellers."
+      },
+      {
+        "text": "Replace the procurement SOW with a stakeholder register so seller proposals are easier to compare",
+        "trap": "Confuses procurement documentation with stakeholder management artifacts."
+      }
+    ],
+    "explanation": "The buyer should define source selection criteria before issuing procurement documents so evaluation is transparent, objective, and aligned with project priorities. Even when the scope is clear, choosing solely on lowest price can increase risk if a seller lacks capability, quality performance, or schedule reliability. Weighted criteria allow the project manager to evaluate best value across commercial and noncommercial factors. This is a core part of planning and managing procurement effectively.",
+    "references": [
+      "PMBOK Guide Sixth Edition section 12.1 Plan Procurement Management pages 471 to 477",
+      "PMBOK Guide Sixth Edition section 12.2 Conduct Procurements pages 482 to 489",
+      "PMP Examination Content Outline 2021 Process domain task Plan and Manage Procurement"
+    ],
+    "tags": [
+      "procurement",
+      "source-selection-criteria"
+    ]
+  },
+  {
+    "id": "procurement-inspection-and-acceptance",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "Inspection and acceptance",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A buyer has awarded a contract for specialized equipment. Before approving the seller's final invoice, the project manager needs objective evidence that the delivered items meet contractual quality and performance requirements. What should the project manager do first?",
+      "On a project using external suppliers, the buyer is ready to authorize final payment. The project manager wants to confirm that the seller's deliverables conform to the contract before acceptance. What is the best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Conduct procurement inspections and audits against the contract requirements before formal acceptance",
+        "why": "Inspection and audit activities verify conformance to contractual requirements and support acceptance and payment decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the contract because delivery has occurred and operational use can validate quality later",
+        "trap": "Assumes delivery alone is enough for closure without verifying conformance."
+      },
+      {
+        "text": "Approve the invoice first and document any defects as lessons learned after project closure",
+        "trap": "Confuses financial processing and retrospective learning with contractual verification."
+      },
+      {
+        "text": "Ask the seller to certify that all requirements were met and treat that certification as acceptance",
+        "trap": "Relies on seller assertion instead of buyer validation."
+      },
+      {
+        "text": "Issue a project change request to replace the acceptance review with stakeholder signoff",
+        "trap": "Misunderstands change control as a substitute for contract compliance checks."
+      },
+      {
+        "text": "Transfer responsibility for inspection to the sponsor because acceptance is a governance activity",
+        "trap": "Incorrectly shifts buyer contract administration responsibility away from the project manager and team."
+      }
+    ],
+    "explanation": "When procured deliverables are ready for acceptance, the buyer should verify them against contractual requirements through inspections and audits before approving final acceptance or payment. This confirms that quality, performance, and compliance obligations have been met and reduces the risk of closing a contract with unresolved defects or nonconformance.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Control Procurements section",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Close Procurements section"
+    ],
+    "tags": [
+      "procurement",
+      "inspection-and-acceptance"
+    ]
+  },
+  {
+    "id": "procurement-contract-change-control",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "Contract change control",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During execution, a seller states that a design change requested informally by a functional manager increased its costs and now seeks additional compensation. What should the project manager do next?",
+      "A contractor claims it performed extra work based on verbal direction from a stakeholder and requests more money. As the buyer's project manager, what is the most appropriate next step?"
+    ],
+    "correct": [
+      {
+        "text": "Apply the formal contract change control process and evaluate the request against contract terms before any adjustment is approved",
+        "why": "Contract modifications must be reviewed and approved through formal contract change control rather than informal direction."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reject the request immediately because verbal direction can never affect seller performance",
+        "trap": "Overstates the rule and ignores the need to assess facts and contract provisions."
+      },
+      {
+        "text": "Approve the added cost if the work benefited the project and update the cost baseline afterward",
+        "trap": "Bypasses procurement governance and formal contract review."
+      },
+      {
+        "text": "Escalate directly to legal counsel and suspend all seller work until litigation is prepared",
+        "trap": "Treats a manageable contract issue as if legal escalation is always the first step."
+      },
+      {
+        "text": "Issue payment from management reserve while the team decides whether the change was necessary",
+        "trap": "Confuses funding mechanisms with contractual entitlement."
+      },
+      {
+        "text": "Ask the seller to submit the issue as a risk because risks are addressed before contract matters",
+        "trap": "Misclassifies a current contractual claim as a general project risk."
+      }
+    ],
+    "explanation": "When a seller requests additional compensation tied to changed work, the buyer should use the formal contract change control process. The project manager evaluates whether the direction was authorized, whether the work is within scope, and what the contract allows before approving or rejecting an adjustment. Informal approvals create liability and weaken procurement governance.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Control Procurements section",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Integration Management, Perform Integrated Change Control section"
+    ],
+    "tags": [
+      "procurement",
+      "contract-change-control"
+    ]
+  },
+  {
+    "id": "procurement-claims-and-dispute-resolution",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "Claims and dispute resolution",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is nearing completion, but the buyer and seller disagree on whether delay damages apply. The seller asserts the delay was caused by the buyer, while the buyer disagrees. What should the project manager do?",
+      "Near contract closeout, a dispute arises over responsibility for schedule slippage and related compensation. What is the best action for the buyer's project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Follow the contract's claims administration and dispute resolution procedures to resolve the disagreement",
+        "why": "Contract disputes should be handled through the agreed claims and dispute resolution mechanisms defined in the contract."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Close the contract on time and record the disagreement separately so the project is not delayed",
+        "trap": "Assumes unresolved claims can be ignored during closeout."
+      },
+      {
+        "text": "Use the issue log only and avoid contractual procedures because they increase conflict",
+        "trap": "Confuses internal issue tracking with formal contract administration."
+      },
+      {
+        "text": "Accept the seller's position if the seller has performed well in the past",
+        "trap": "Uses relationship history instead of contractual evidence and procedure."
+      },
+      {
+        "text": "Submit the dispute to the product owner because acceptance authority overrides the contract",
+        "trap": "Misunderstands governance roles and contract administration."
+      },
+      {
+        "text": "Convert the disagreement into a project assumption and continue with closure activities",
+        "trap": "Treats an active contractual conflict as if it were planning uncertainty."
+      }
+    ],
+    "explanation": "Claims and disputes are formal contractual matters, not just general project issues. When buyer and seller disagree on entitlement, responsibility, or compensation, the project manager should rely on the contract's documented claims and dispute resolution procedures. This protects both parties, supports fair resolution, and helps ensure procurement closure is completed properly.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Control Procurements section",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Close Procurements section"
+    ],
+    "tags": [
+      "procurement",
+      "claims-and-dispute-resolution"
+    ]
+  },
+  {
+    "id": "procurement-procurement-statement-of-work-quality",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "Procurement statement of work quality",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A buyer is preparing to outsource a regulated data migration service. To avoid ambiguity and disputes later, what should be included most clearly in the procurement statement of work?",
+      "For a complex outsourced service subject to compliance review, which content is most critical to define in the procurement statement of work?"
+    ],
+    "correct": [
+      {
+        "text": "Detailed deliverable requirements including measurable acceptance criteria and required performance standards",
+        "why": "Clear deliverables and acceptance criteria reduce ambiguity and allow the buyer to verify fulfillment objectively."
+      },
+      {
+        "text": "Work location, period of performance, and any required supporting services or compliance obligations",
+        "why": "Operational conditions and compliance expectations are core elements that sellers need in order to plan and price the work accurately."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The seller's preferred organizational structure and internal staffing hierarchy",
+        "trap": "Focuses on seller internal management detail rather than buyer requirements."
+      },
+      {
+        "text": "The exact format of the buyer's lessons learned register from prior projects",
+        "trap": "Uses historical documentation as if it were a core procurement requirement."
+      },
+      {
+        "text": "The identities of all future source selection panel members",
+        "trap": "Confuses procurement planning content with confidential evaluation administration."
+      },
+      {
+        "text": "A complete draft of every possible change order that might be needed later",
+        "trap": "Attempts to predict all future changes instead of defining present requirements."
+      }
+    ],
+    "explanation": "A strong procurement statement of work gives prospective sellers a clear description of what must be delivered, under what conditions, and how success will be evaluated. For complex services, measurable acceptance criteria, performance requirements, period of performance, work location, and compliance or support expectations are especially important because they reduce misunderstandings and improve contract administration after award.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Procurement Management, Plan Procurement Management section",
+      "PMI, The Standard for Project Management and A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Delivery Performance Domain"
+    ],
+    "tags": [
+      "procurement",
+      "procurement-statement-of-work-quality"
+    ]
+  }
+]

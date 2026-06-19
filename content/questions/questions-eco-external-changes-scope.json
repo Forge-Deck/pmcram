@@ -1,0 +1,418 @@
+[
+  {
+    "id": "external-changes-scope-regulatory-change-and-initial-scope-assessment",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "regulatory change and initial scope assessment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager leading a medical device software project learns that a new privacy regulation will take effect before deployment and will require additional consent tracking. What should the project manager do first to evaluate the impact on project scope?",
+      "During execution of a healthcare software project, a new data privacy law is announced that affects a planned product release. What is the most appropriate first action to address the external change for scope impact?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the regulatory change for impact on the project scope baseline and submit a change request through integrated change control if needed.",
+        "why": "This aligns with PMI practice by first evaluating the external change against the approved scope baseline and then formally processing any required modification through change control."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Direct the team to add the consent tracking feature immediately to avoid compliance risk.",
+        "trap": "Assumes urgent external changes justify bypassing formal change control."
+      },
+      {
+        "text": "Update the risk register only and continue with the current scope until a sponsor review meeting.",
+        "trap": "Treats a realized external change as only a risk item instead of assessing actual scope impact."
+      },
+      {
+        "text": "Ask the legal department to own the issue because it is outside the project boundary.",
+        "trap": "Confuses stakeholder support with the project manager responsibility to assess business environment impacts."
+      },
+      {
+        "text": "Delay evaluation until the next phase gate so the team can avoid rework.",
+        "trap": "Postpones impact analysis even though the external change is already known and time sensitive."
+      }
+    ],
+    "explanation": "When an external regulatory change emerges, the project manager should first evaluate its effect on deliverables, acceptance criteria, and the scope baseline. If the impact requires modification, the proper response is to raise a formal change request and route it through integrated change control. Immediate implementation without review undermines governance, while delaying action can increase compliance and delivery risk.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Project Work, change management and adaptation to internal and external conditions",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "Examination Content Outline for PMP, Business Environment domain, task Evaluate and Address External Business Environment Changes for Impact on Scope"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "regulatory-change-and-initial-scope-assessment"
+    ]
+  },
+  {
+    "id": "external-changes-scope-pestle-environmental-scanning",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "PESTLE environmental scanning",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is reviewing external market and policy trends for a consumer energy project. Which analysis technique is most appropriate for systematically evaluating political, economic, social, technological, legal, and environmental factors that could affect project scope?",
+      "Which technique should a project manager use to structure an assessment of external business environment changes across political, economic, social, technological, legal, and environmental dimensions?"
+    ],
+    "correct": [
+      {
+        "text": "Use a PESTLE analysis to identify external factors that may require scope evaluation and possible change requests.",
+        "why": "PESTLE is specifically designed to examine external macroenvironment factors and helps the project manager determine whether scope or related plans need adjustment."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use a resource histogram to determine whether external changes affect project scope.",
+        "trap": "Confuses internal resource planning with external environmental analysis."
+      },
+      {
+        "text": "Use a control chart to identify political and legal changes affecting deliverables.",
+        "trap": "Applies a quality control tool to macroenvironment assessment."
+      },
+      {
+        "text": "Use a stakeholder engagement assessment matrix as the main tool for scanning external market forces.",
+        "trap": "Focuses on stakeholder current and desired engagement rather than broad external factors."
+      },
+      {
+        "text": "Use analogous estimating to quantify legal and environmental impacts on the scope baseline.",
+        "trap": "Uses an estimating technique where an environmental scanning framework is needed first."
+      }
+    ],
+    "explanation": "PESTLE is the most appropriate tool for structured evaluation of the external business environment because it examines political, economic, social, technological, legal, and environmental influences. In PMI terms, this supports proactive assessment of enterprise environmental factors and external conditions that may affect scope, compliance, priorities, and change decisions.",
+    "references": [
+      "Examination Content Outline for PMP, Business Environment domain, task Evaluate and Address External Business Environment Changes for Impact on Scope",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, tailoring and adaptation in response to internal and external environment",
+      "Business Analysis for Practitioners A Practice Guide, strategy analysis and assessment of external environment"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "pestle-environmental-scanning"
+    ]
+  },
+  {
+    "id": "external-changes-scope-market-shift-and-formal-scope-response",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "market shift and formal scope response",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Midway through a retail mobile app project, a major competitor launches a feature that shifts customer expectations. The sponsor asks the project manager to add a similar capability immediately. What should the project manager do next?",
+      "A sudden market shift changes customer expectations during product development, and the sponsor wants scope added right away. What is the best next step for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Perform an impact assessment on scope, schedule, cost, and benefits, then submit the proposed addition through the change control process.",
+        "why": "A market shift is an external business environment change that should be assessed holistically before any scope adjustment is approved and implemented."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Add the feature to the backlog immediately because market competitiveness overrides scope baseline controls.",
+        "trap": "Assumes business urgency eliminates the need for formal evaluation and approval."
+      },
+      {
+        "text": "Reject the request because market changes are not valid reasons to alter approved scope.",
+        "trap": "Ignores that external business conditions can justify scope changes when properly assessed."
+      },
+      {
+        "text": "Escalate the request to operations because customer expectations are not part of project management.",
+        "trap": "Misunderstands the project manager role in aligning deliverables with business environment changes."
+      },
+      {
+        "text": "Wait until product launch and collect user feedback before considering any response.",
+        "trap": "Delays decision making even though the sponsor has already identified a potentially material external shift."
+      }
+    ],
+    "explanation": "External market changes can alter expected value, success criteria, and the relevance of current scope. PMI practice calls for assessing the impact across the baselines and expected benefits, then routing the proposed change through formal governance. This preserves alignment with strategy while avoiding uncontrolled scope growth or premature implementation.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Measurement Performance Domain and adaptation to changing conditions",
+      "Examination Content Outline for PMP, Business Environment domain, task Evaluate and Address External Business Environment Changes for Impact on Scope"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "market-shift-and-formal-scope-response"
+    ]
+  },
+  {
+    "id": "external-changes-scope-legal-change-and-enterprise-environmental-factors",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "legal change and enterprise environmental factors",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager on a construction project is informed that a new environmental permitting rule will affect excavation work. Which two actions best address the external change from a PMI perspective?",
+      "A legal environmental requirement changes during execution of an infrastructure project. Which two actions should the project manager take to properly evaluate and address the scope impact?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze how the new rule affects scope, assumptions, constraints, and acceptance criteria.",
+        "why": "A thorough impact assessment is required to understand whether the external legal change alters approved project scope and related baselines."
+      },
+      {
+        "text": "Prepare a change request and engage the appropriate governance body for review and decision.",
+        "why": "If the legal change affects planned work or deliverables, formal change control and governance are required before updating baselines or executing revised work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Update the lessons learned register and treat the issue as closed until the next audit.",
+        "trap": "Captures knowledge but fails to manage an active external compliance impact."
+      },
+      {
+        "text": "Instruct the contractor to revise the work package immediately because compliance issues are always preapproved.",
+        "trap": "Assumes compliance concerns permit bypassing integrated change control."
+      },
+      {
+        "text": "Remove the affected deliverable from scope to keep the schedule baseline unchanged.",
+        "trap": "Optimizes one constraint without governance or assessment of business objectives."
+      },
+      {
+        "text": "Transfer ownership entirely to the compliance department because legal changes are enterprise environmental factors.",
+        "trap": "Misreads enterprise environmental factors as outside project management responsibility."
+      },
+      {
+        "text": "Focus only on procurement impacts because permitting changes do not affect product scope.",
+        "trap": "Artificially narrows the impact when regulatory changes can alter deliverables and acceptance conditions."
+      }
+    ],
+    "explanation": "A new permitting rule is an external legal change and part of the broader business environment in which the project operates. The project manager must assess its effect on scope related elements such as assumptions, constraints, and acceptance criteria, then use formal change control to obtain a decision from the appropriate authority. Compliance support functions may contribute expertise, but they do not replace project governance.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 5 Project Scope Management",
+      "Examination Content Outline for PMP, Business Environment domain, task Evaluate and Address External Business Environment Changes for Impact on Scope"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "legal-change-and-enterprise-environmental-factors"
+    ]
+  },
+  {
+    "id": "external-changes-scope-supplier-disruption-and-assumption-review",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "supplier disruption and assumption review",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team is delivering a medical device software update. Mid-project, a key supplier announces a permanent component discontinuation that affects an interface assumed in the approved scope baseline. What should the project manager do first to evaluate and address the external business environment change for impact on scope?",
+      "During execution of a medical device project, a supplier exits the market and a discontinued component invalidates an approved interface assumption. What is the project manager's first action to address the potential scope impact?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact on scope baseline, requirements, and assumptions, then raise a formal change request if updates are needed",
+        "why": "This addresses the external change through structured impact assessment before modifying approved scope, which aligns with integrated change control and disciplined scope management."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Immediately replace the component and direct the team to update deliverables to avoid schedule delay",
+        "trap": "Assumes urgent implementation can bypass evaluation and formal approval."
+      },
+      {
+        "text": "Ask procurement to negotiate with the supplier and wait to see whether the issue resolves itself",
+        "trap": "Treats a scope-affecting issue as only a procurement matter and delays analysis."
+      },
+      {
+        "text": "Remove the affected interface from the scope baseline because the supplier change is outside project control",
+        "trap": "Confuses external cause with authority to change approved scope unilaterally."
+      },
+      {
+        "text": "Escalate directly to the sponsor for a decision without documenting impacts on requirements",
+        "trap": "Skips the project manager's responsibility to perform impact assessment and provide decision-ready information."
+      }
+    ],
+    "explanation": "When an external supplier disruption invalidates a planning assumption, the project manager should first evaluate the effect on requirements, product scope, project scope, and baselines. If the impact requires modification to approved scope or related plans, the next step is to submit a formal change request through the project's change control process. Acting before assessment or approval creates uncontrolled scope change and weakens governance.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Business Environment",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Measurement, section on baselines and performance information",
+      "PMI, Process Groups A Practice Guide, Monitor and Control Project Work and Perform Integrated Change Control"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "supplier-disruption-and-assumption-review"
+    ]
+  },
+  {
+    "id": "external-changes-scope-trade-restriction-and-alternatives-analysis",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "trade restriction and alternatives analysis",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A construction project is using an imported material specified in the requirements documentation. A sudden trade restriction increases lead time and limits availability, but the project objective remains unchanged. Which action best evaluates the external change for impact on scope?",
+      "On a construction project, a new trade restriction affects availability of a specified imported material. The business need is still valid. What should the project manager do to address the potential scope impact appropriately?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze whether approved requirements can be met with alternative materials, document impacts on scope and quality, and submit a change request if the baseline must change",
+        "why": "This keeps focus on fulfilling business objectives while formally assessing whether the external constraint requires a scope change and related updates."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Issue a directive to engineering to substitute the closest available material because the change originates outside the project",
+        "trap": "Mistakes external origin for authorization to bypass change control and quality evaluation."
+      },
+      {
+        "text": "Accept the delay and preserve the original material specification without further analysis",
+        "trap": "Assumes schedule impact is preferable without considering feasible scope-preserving options."
+      },
+      {
+        "text": "Update the scope baseline to reflect the new material and communicate the decision at the next status meeting",
+        "trap": "Changes an approved baseline without review and approval."
+      },
+      {
+        "text": "Transfer ownership of the issue to procurement since supply constraints are part of vendor management",
+        "trap": "Narrows a business environment change to a functional silo instead of integrated project impact assessment."
+      }
+    ],
+    "explanation": "External business environment changes such as trade restrictions can constrain materials, vendors, and logistics. The project manager should evaluate whether the original requirements and acceptance criteria can still be achieved through alternatives, while considering impacts on scope, quality, schedule, cost, and risk. If approved baselines or requirements need modification, the change must be documented and processed formally rather than implemented informally.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Business Environment",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Planning, section on requirements and quality considerations",
+      "PMI, Process Groups A Practice Guide, Perform Integrated Change Control"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "trade-restriction-and-alternatives-analysis"
+    ]
+  },
+  {
+    "id": "external-changes-scope-organizational-policy-change-and-governance-alignment",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "organizational policy change and governance alignment",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A digital banking project is nearing user acceptance testing when a national standards body publishes a new accessibility standard that is not legally mandatory but is immediately adopted by the organization's governance board as a policy requirement. Which TWO actions should the project manager take?",
+      "Late in a digital banking project, a new accessibility standard becomes an internal organizational policy even though it is not yet a legal requirement. Which two actions are most appropriate for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate the policy change as an enterprise environmental factor and assess impacts on scope, requirements, acceptance criteria, and delivery approach",
+        "why": "Internal governance policies shape the project environment and can necessitate updates to product and project scope."
+      },
+      {
+        "text": "Prepare a documented change request with impact analysis for governance review before altering baselines or deliverables",
+        "why": "A policy-driven scope impact still requires formal review and approval before implementation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Treat the standard as optional because it is not yet a statutory requirement",
+        "trap": "Ignores that internal policy can still create binding project constraints."
+      },
+      {
+        "text": "Direct the team to add accessibility features immediately because they clearly improve product value",
+        "trap": "Confuses desirable enhancement with authorized scope change."
+      },
+      {
+        "text": "Wait until user acceptance testing finishes to avoid disrupting the current plan, then revisit the issue in operations",
+        "trap": "Defers a current governance requirement and risks noncompliance with organizational policy."
+      },
+      {
+        "text": "Ask quality assurance to revise test scripts first and update requirements later if defects appear",
+        "trap": "Addresses downstream verification before controlling the underlying scope and requirements change."
+      },
+      {
+        "text": "Escalate the issue only if the sponsor personally requests a scope review",
+        "trap": "Misunderstands the project manager's responsibility to surface and assess environmental changes proactively."
+      }
+    ],
+    "explanation": "A newly adopted internal policy is part of the project's business environment and may function as an enterprise environmental factor that changes what the project must deliver or how acceptance will be judged. The project manager should assess impacts comprehensively and then use formal change control to present governance with informed options. Neither optional treatment nor informal implementation is appropriate when organizational policy alters the conditions under which the project is considered successful.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Business Environment",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on enterprise environmental factors and organizational governance systems",
+      "PMI, Process Groups A Practice Guide, Perform Integrated Change Control and Control Scope"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "organizational-policy-change-and-governance-alignment"
+    ]
+  },
+  {
+    "id": "external-changes-scope-stakeholder-expectation-shift-from-external-standards",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "stakeholder expectation shift from external standards",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A public sector project is building a data-sharing platform. Midway through execution, a neighboring jurisdiction announces interoperability standards that major partner agencies say they will require for future participation. The project charter objective remains the same, but stakeholder expectations are shifting. What is the best response?",
+      "During a public sector data platform project, external partner agencies begin requiring interoperability standards from a neighboring jurisdiction. The original objective still stands, but stakeholder expectations change. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the evolving external standards on stakeholder requirements and scope, then process any needed updates through formal change control",
+        "why": "This recognizes that external ecosystem changes can reshape stakeholder needs and may require controlled scope updates."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reject the request because the standards come from another jurisdiction and are not in the current contract",
+        "trap": "Assumes only contracted or local mandates matter, ignoring strategic stakeholder needs and business environment changes."
+      },
+      {
+        "text": "Add the interoperability features to maintain stakeholder satisfaction and document the changes after release",
+        "trap": "Encourages scope creep in response to pressure from stakeholders."
+      },
+      {
+        "text": "Instruct the communications lead to manage stakeholder concerns without changing project documents",
+        "trap": "Treats a potential product scope issue as only a communications problem."
+      },
+      {
+        "text": "Defer the standards review until project closing because the charter objective has not changed",
+        "trap": "Confuses stable project purpose with unchanged scope requirements."
+      }
+    ],
+    "explanation": "External standards adopted by influential ecosystem participants can change stakeholder expectations and affect product fit, even when the core business case remains intact. The project manager should evaluate the implications for stakeholder requirements, scope baseline, and acceptance conditions, then use integrated change control if formal updates are justified. Ignoring such shifts can lead to a delivered product that technically meets the old baseline but fails the current business environment.",
+    "references": [
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Stakeholders",
+      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Business Environment",
+      "PMI, Process Groups A Practice Guide, Collect Requirements, Control Scope, and Perform Integrated Change Control"
+    ],
+    "tags": [
+      "external-changes-scope",
+      "stakeholder-expectation-shift-from-external-standards"
+    ]
+  }
+]
