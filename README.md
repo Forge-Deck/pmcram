@@ -8,7 +8,7 @@ Glossary terms, flashcards, and practice questions for the **PM Cram: PMP Prep**
 
 ## How the app uses this repo
 
-1. On sync, the app reads **`content/manifest.json`** (a CI-generated index) — or, as a fallback, **lists the files** in `content/glossary/`, `content/questions/`, and `content/decks/` via the GitHub Contents API.
+1. On sync, the app reads **`content/manifest.json`** (a CI-generated index) — or, as a fallback, **lists the files** in each `content/` subfolder (`glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`) via the GitHub Contents API.
 2. It downloads each file from `raw.githubusercontent.com`, parses the JSON array, and **merges all records into a local store** keyed by `id` (questions/cards) or `Term` (glossary).
 3. The store is **cached on-device** so the app works offline; sync only re-fetches files whose hash / `updatedAt` changed.
 
@@ -26,10 +26,15 @@ content/
   questions/       # practice / exam questions (dynamically assembled)
   decks/           # OPTIONAL standalone flashcards (formulas, mnemonics)
   guides/          # OPTIONAL read-and-absorb study guides (mindset, agile, strategy)
+  sequences/       # OPTIONAL drag-to-order ("put the steps in sequence") questions
+  cases/           # OPTIONAL multi-step case studies (one scenario, linked questions)
   schema/          # JSON Schemas used by CI + contributors to validate
-    question.schema.json
     glossary.schema.json
+    question.schema.json
     deck.schema.json
+    guide.schema.json
+    sequence.schema.json
+    case.schema.json
   manifest.json    # CI-generated sync index (do not edit by hand)
 scripts/
   validate.mjs           # validates every file against the schemas (+ cross-field checks)
@@ -41,7 +46,7 @@ CONTRIBUTING.md
 README.md
 ```
 
-Every `.json` file under `glossary/`, `questions/`, and `decks/` is a **JSON array of records**.
+Every `.json` file under `glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, and `cases/` is a **JSON array of records**.
 
 ---
 
@@ -95,6 +100,41 @@ Body formatting is deliberately simple (no markdown): a **blank line** starts a 
     { "heading": "Assess before you act",
       "body": "Gather the facts and review the plan before deciding.\n\n- Don't react\n- Investigate first",
       "tip": "The first step is usually to investigate, not to act or escalate." }
+  ]
+}
+```
+
+### Sequencing questions (`sequences/`)
+Drag-to-order questions. Follow `schema/sequence.schema.json`. Store a `prompt` and a `steps[]` array **in the correct order** — the app shuffles them and the user drags them back into sequence. Each step has `text` and an optional one-line `note` (shown on review). `id` is optional (derived). 3–8 steps.
+
+```jsonc
+{
+  "prompt": "Order the steps for handling an underperforming team member.",
+  "domain": "People",
+  "steps": [
+    { "text": "Hold a private 1:1 to understand the cause", "note": "Start supportively and in private." },
+    { "text": "Document expectations and follow up" },
+    { "text": "Agree a Performance Improvement Plan" }
+  ],
+  "explanation": "Coach and document before escalating; replacement is the last resort."
+}
+```
+
+### Multi-step cases (`cases/`)
+One shared scenario with several linked questions answered in order. Follow `schema/case.schema.json`. Store a `scenario` and a `steps[]` array; **each step is a mini-question** with its own `prompt`, `correct[]` and `distractors[]` (same shape as a normal question, so options still shuffle). The app pins the scenario, reveals one step at a time, and **only unlocks the next step once the current one is answered** (so a later step can't spoil an earlier one). Optional per-step `domain`/`label`. `id` is optional (derived). 2–8 steps.
+
+```jsonc
+{
+  "title": "Underperformer on a hybrid project",
+  "scenario": "You are leading a hybrid digital-transformation project …",
+  "steps": [
+    {
+      "label": "Business Environment focus",
+      "prompt": "The sponsor worries delays threaten ESG targets. What do you do first?",
+      "correct":     [ { "text": "Analyse the impact on value, benefits and ESG alignment", "why": "…" } ],
+      "distractors": [ { "text": "Request a replacement from HR", "trap": "…" } ],
+      "domain": "Business Environment"
+    }
   ]
 }
 ```

@@ -9,6 +9,9 @@ Thanks for helping improve the question bank and glossary. Contributions are JSO
    - Glossary terms → `content/glossary/contrib-YYYY-MM-yourhandle.json`
    - Questions → `content/questions/contrib-YYYY-MM-yourhandle.json`
    - Custom flashcards → `content/decks/cards-yourdeck.json`
+   - Study guides → `content/guides/guide-yourtopic.json`
+   - Sequencing questions → `content/sequences/seq-yourtopic.json`
+   - Multi-step cases → `content/cases/case-yourtopic.json`
 3. Each file is a **JSON array** of records that validate against the matching file in `content/schema/`.
 4. **Open a pull request.** CI validates your file; a maintainer reviews accuracy and merges.
 
@@ -49,7 +52,18 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 ### Guides (`schema/guide.schema.json`)
 - Read-and-absorb notes (mindset, agile, exam strategy), keyed by `title`. **Text only — no images.**
 - Each `sections` entry has a `heading`, a `body`, and an optional `tip`. In `body`, a blank line starts a paragraph and `- ` lines become bullets.
+- A section may also carry a `figure` (an inline `svg` string, or an `image` path) — see the README for the figure rules.
 - Write original wording in your own voice; keep it current to the ECO-based exam.
+
+### Sequencing questions (`schema/sequence.schema.json`)
+- A `prompt` plus a `steps[]` array **in the correct order** (3–8 steps); the app shuffles them for the user to rearrange. Don't pre-shuffle.
+- Each step is `{ "text": "…" }` with an optional one-line `note` shown on review. Add an `explanation` for the overall ordering where you can.
+- Order must be genuinely unambiguous — if two steps could reasonably swap, reword so there's one defensible sequence.
+
+### Multi-step cases (`schema/case.schema.json`)
+- A shared `scenario` plus `steps[]` (2–8). **Each step is a mini-question** with `prompt`, `correct[]` and `distractors[]` (same shape and rules as a normal question — `why`/`trap` optional but encouraged).
+- Steps are answered in order and a later step may reveal the answer to an earlier one — that's fine, the app hides the next step until the current is answered. Order the steps so the case builds naturally.
+- Set a per-step `domain` so misses feed the right weak area; add an optional `label` (e.g. "People + Process").
 
 ## Validate before you PR
 
