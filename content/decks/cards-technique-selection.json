@@ -1,0 +1,106 @@
+[
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "medium",
+    "front": "You need a fast, high-level cost or duration estimate with very limited detailed information available.",
+    "back": "Use Analogous Estimating (top-down). It is quick and uses historical data from similar projects. Less accurate than bottom-up but useful early in planning.",
+    "tip": "Analogous = fast but lower accuracy. Bottom-up = high accuracy but time-consuming.",
+    "related": ["Bottom-up Estimating", "Parametric Estimating"],
+    "source": "PMBOK Guide – Estimate Activity Durations / Estimate Costs"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "medium",
+    "front": "You have a detailed WBS, resource requirements, and historical data per work package. Which estimating method is most accurate?",
+    "back": "Bottom-up Estimating. It aggregates detailed estimates from the lowest level of the WBS. Most accurate but requires the most effort and information.",
+    "tip": "Bottom-up is preferred when you have good decomposition and data. It is the most reliable for final estimates.",
+    "related": ["Analogous Estimating", "Three-Point Estimating"],
+    "source": "PMBOK Guide – Estimate Activity Durations"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Quality Management",
+    "difficulty": "medium",
+    "front": "You want to identify the root causes of recurring defects or quality problems.",
+    "back": "Use a Fishbone (Ishikawa) diagram or 5 Whys analysis. These tools help systematically explore cause-and-effect relationships.",
+    "tip": "Fishbone is excellent for brainstorming causes. 5 Whys is good for drilling down to root cause quickly.",
+    "related": ["Pareto Chart", "Control Charts"],
+    "source": "PMBOK Guide – Quality Management"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Quality Management",
+    "difficulty": "medium",
+    "front": "You need to prioritize problems or defects by frequency or impact to focus improvement efforts.",
+    "back": "Use a Pareto Chart (80/20 rule). It helps you focus on the ‘vital few’ causes that create most of the problems.",
+    "tip": "Pareto is a prioritization tool. Combine it with fishbone for analysis + prioritization.",
+    "related": ["Fishbone Diagram", "Control Charts"],
+    "source": "PMBOK Guide – Quality Management"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Risk Analysis",
+    "difficulty": "medium",
+    "front": "You have many identified risks and limited time. You need to prioritize them quickly for further analysis.",
+    "back": "Use Qualitative Risk Analysis (Probability × Impact matrix). It is fast and helps you focus on high-priority risks before doing quantitative analysis.",
+    "tip": "Qualitative first for prioritization. Quantitative (EMV, Monte Carlo) for high-priority risks when more precision is needed.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 230 196' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='52' y='24' width='52' height='46' fill='#F5ECD8' stroke='currentColor' stroke-width='0.8'/><rect x='104' y='24' width='52' height='46' fill='#F6E4DF' stroke='currentColor' stroke-width='0.8'/><rect x='156' y='24' width='52' height='46' fill='#F6E4DF' stroke='currentColor' stroke-width='0.8'/><rect x='52' y='70' width='52' height='46' fill='#E7F1ED' stroke='currentColor' stroke-width='0.8'/><rect x='104' y='70' width='52' height='46' fill='#F5ECD8' stroke='currentColor' stroke-width='0.8'/><rect x='156' y='70' width='52' height='46' fill='#F6E4DF' stroke='currentColor' stroke-width='0.8'/><rect x='52' y='116' width='52' height='46' fill='#E7F1ED' stroke='currentColor' stroke-width='0.8'/><rect x='104' y='116' width='52' height='46' fill='#E7F1ED' stroke='currentColor' stroke-width='0.8'/><rect x='156' y='116' width='52' height='46' fill='#F5ECD8' stroke='currentColor' stroke-width='0.8'/><text x='44' y='51' fill='currentColor' font-size='10' text-anchor='end'>H</text><text x='44' y='97' fill='currentColor' font-size='10' text-anchor='end'>M</text><text x='44' y='143' fill='currentColor' font-size='10' text-anchor='end'>L</text><text x='78' y='178' fill='currentColor' font-size='9' text-anchor='middle'>Low</text><text x='130' y='178' fill='currentColor' font-size='9' text-anchor='middle'>Med</text><text x='182' y='178' fill='currentColor' font-size='9' text-anchor='middle'>High</text><text transform='rotate(-90 14 93)' x='14' y='93' fill='currentColor' font-size='9' text-anchor='middle'>Probability</text><text x='130' y='192' fill='currentColor' font-size='9' text-anchor='middle'>Impact</text></svg>",
+      "caption": "Probability × impact: red cells (top-right) are your high-priority risks."
+    },
+    "related": ["Quantitative Risk Analysis", "Expected Monetary Value"],
+    "source": "PMBOK Guide – Perform Qualitative Risk Analysis"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Communication",
+    "difficulty": "easy",
+    "front": "You need to communicate complex or sensitive information where immediate feedback and clarification are important.",
+    "back": "Use Interactive Communication (face-to-face meetings, video calls, workshops). It is the most effective for complex or emotional topics.",
+    "tip": "Interactive > Pull > Push for important or complex messages. Choose the method based on the message and audience.",
+    "related": ["Push Communication", "Pull Communication"],
+    "source": "PMBOK Guide – Plan Communications Management"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Risk Analysis",
+    "difficulty": "hard",
+    "front": "You need to quantify the potential financial impact of key risks and compare different response options.",
+    "back": "Use Expected Monetary Value (EMV) analysis, often as part of a decision tree. Multiply probability by impact for each outcome and sum per option, then pick the highest EMV.",
+    "tip": "EMV is excellent for comparing options in a decision tree. Remember: threats are negative, opportunities are positive.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 330 200' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='18' y='92' width='16' height='16' stroke='currentColor' stroke-width='1.4'/><text x='26' y='126' fill='currentColor' font-size='9' text-anchor='middle'>decision</text><line x1='34' y1='98' x2='119' y2='56' stroke='currentColor' stroke-width='1.2'/><line x1='34' y1='102' x2='119' y2='146' stroke='currentColor' stroke-width='1.2'/><circle cx='130' cy='54' r='11' stroke='currentColor' stroke-width='1.3'/><text x='130' y='58' fill='currentColor' font-size='11' text-anchor='middle'>A</text><circle cx='130' cy='146' r='11' stroke='currentColor' stroke-width='1.3'/><text x='130' y='150' fill='currentColor' font-size='11' text-anchor='middle'>B</text><line x1='141' y1='50' x2='236' y2='34' stroke='currentColor' stroke-width='1'/><text x='240' y='37' fill='currentColor' font-size='9'>+100 × 0.6</text><line x1='141' y1='58' x2='236' y2='76' stroke='currentColor' stroke-width='1'/><text x='240' y='79' fill='currentColor' font-size='9'>−20 × 0.4</text><line x1='141' y1='142' x2='236' y2='124' stroke='currentColor' stroke-width='1'/><text x='240' y='127' fill='currentColor' font-size='9'>+40 × 0.9</text><line x1='141' y1='150' x2='236' y2='168' stroke='currentColor' stroke-width='1'/><text x='240' y='171' fill='currentColor' font-size='9'>−10 × 0.1</text><text x='150' y='100' fill='#1F5FA8' font-size='10'>A = +52</text><text x='150' y='116' fill='#2F6F5E' font-size='10'>B = +35</text></svg>",
+      "caption": "Each branch = probability × impact; sum per option, choose the higher EMV (A)."
+    },
+    "related": ["Decision Tree Analysis", "Monte Carlo Simulation"],
+    "source": "PMBOK Guide – Perform Quantitative Risk Analysis"
+  },
+  {
+    "schema": "card/v1",
+    "deck": "Technique Selection",
+    "domain": "Process",
+    "topic": "Scope & Requirements",
+    "difficulty": "medium",
+    "front": "Requirements are unclear, likely to change, and stakeholder needs are evolving rapidly.",
+    "back": "Use Agile/Iterative approaches with user stories, backlog prioritization, and frequent feedback loops. Avoid heavy upfront detailed requirements documentation.",
+    "tip": "When uncertainty is high, favor adaptive approaches over predictive detailed planning.",
+    "related": ["User Stories", "Backlog Refinement"],
+    "source": "Agile Practice Guide"
+  }
+]
