@@ -1,0 +1,402 @@
+[
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Team Performance Management",
+    "difficulty": "medium",
+    "prompt": "A team member is consistently missing deadlines with no training gap identified. Arrange the project manager's actions in the correct order.",
+    "steps": [
+      {
+        "text": "Hold a private one-on-one meeting to understand root causes and set clear expectations",
+        "note": "Start with supportive, private conversation."
+      },
+      {
+        "text": "Document specific examples, discussions, and agreements reached",
+        "note": "Build an objective record from the start."
+      },
+      {
+        "text": "Implement a formal Performance Improvement Plan (PIP) with measurable goals and timeline",
+        "note": "Formalise support and accountability after initial coaching."
+      },
+      {
+        "text": "Escalate to the functional/resource manager with full documentation",
+        "note": "Personnel decisions usually sit with the resource manager."
+      },
+      {
+        "text": "Work with HR on reassignment or replacement if performance does not improve",
+        "note": "Last resort after all prior steps are exhausted."
+      }
+    ],
+    "explanation": "PMI emphasises early supportive intervention, documentation, formal improvement plans, then escalation with evidence. Replacement is always the final step after due process.",
+    "references": [
+      "PMBOK Guide 7th/8th Edition – Team Performance Domain",
+      "PMI PMP Examination Content Outline 2026 – People domain"
+    ],
+    "tags": [
+      "people",
+      "performance",
+      "sequence",
+      "escalation"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Risk Management Process",
+    "difficulty": "medium",
+    "prompt": "Arrange the standard risk management steps in the correct logical order for a project.",
+    "steps": [
+      {
+        "text": "Identify risks through various techniques (brainstorming, checklists, interviews, SWOT, etc.)",
+        "note": "Risk management starts with identification."
+      },
+      {
+        "text": "Perform qualitative risk analysis (probability × impact) to prioritise risks",
+        "note": "Prioritise risks before detailed analysis."
+      },
+      {
+        "text": "Perform quantitative risk analysis on high-priority risks (EMV, Monte Carlo, etc.)",
+        "note": "Apply numerical analysis to the most important risks."
+      },
+      {
+        "text": "Plan risk responses (avoid, mitigate, transfer, accept, exploit, enhance, share)",
+        "note": "Develop strategies after analysis."
+      },
+      {
+        "text": "Implement risk responses and monitor risks throughout the project",
+        "note": "Execution and ongoing monitoring close the loop."
+      }
+    ],
+    "explanation": "The risk management process follows a logical flow: Identify → Qualitatively Analyse → Quantitatively Analyse (selected risks) → Plan Responses → Implement & Monitor. This is a core process in both predictive and hybrid projects.",
+    "references": [
+      "PMBOK Guide – Risk Management Knowledge Area / Performance Domain",
+      "PMI Practice Standard for Risk Management"
+    ],
+    "tags": [
+      "process",
+      "risk",
+      "sequence",
+      "planning"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Change Control Process",
+    "difficulty": "medium",
+    "prompt": "A stakeholder requests a significant scope change. Put the change control steps in the correct order.",
+    "steps": [
+      {
+        "text": "Document the change request with full details and justification",
+        "note": "All changes must be formally documented."
+      },
+      {
+        "text": "Perform integrated impact analysis (scope, schedule, cost, risk, quality, resources)",
+        "note": "Assess the full effect before any decision."
+      },
+      {
+        "text": "Present the change request and impact analysis to the Change Control Board (CCB) or appropriate authority",
+        "note": "Escalate for approval/rejection decision."
+      },
+      {
+        "text": "Update the project management plan, baselines, and documents if the change is approved",
+        "note": "Approved changes must be reflected in the baseline."
+      },
+      {
+        "text": "Communicate the decision and updated plans to all affected stakeholders",
+        "note": "Ensure transparency after the decision."
+      }
+    ],
+    "explanation": "Change control is a disciplined process: Document → Analyse Impact → Decide (CCB) → Update Baselines → Communicate. Skipping steps leads to scope creep and loss of control.",
+    "references": [
+      "PMBOK Guide – Change Control & Integrated Change Control",
+      "PMI Practice Standard for Project Configuration Management"
+    ],
+    "tags": [
+      "process",
+      "change-control",
+      "scope",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Business Environment",
+    "topic": "Benefits Realization & Value Delivery",
+    "difficulty": "medium",
+    "prompt": "Arrange the key steps for managing project benefits and value delivery in the correct order.",
+    "steps": [
+      {
+        "text": "Identify and define expected benefits during project initiation and business case development",
+        "note": "Value starts with clear definition of expected outcomes."
+      },
+      {
+        "text": "Develop a benefits management plan linking project outputs to strategic objectives",
+        "note": "Create the roadmap from deliverables to benefits."
+      },
+      {
+        "text": "Track and measure benefits realisation throughout the project lifecycle",
+        "note": "Monitor progress toward value, not just deliverables."
+      },
+      {
+        "text": "Report on benefits achievement to stakeholders and governance bodies",
+        "note": "Provide transparency on value delivered vs planned."
+      },
+      {
+        "text": "Conduct post-project benefits review and capture lessons for future initiatives",
+        "note": "Confirm actual value realised and improve future projects."
+      }
+    ],
+    "explanation": "In the 2026 PMP exam, Business Environment and Value Delivery are heavily emphasised. Benefits management flows from identification → planning → tracking → reporting → review. This is a key shift from pure output-focused thinking.",
+    "references": [
+      "PMI PMP Examination Content Outline 2026 – Business Environment domain",
+      "PMBOK Guide 8th Edition – Value Delivery"
+    ],
+    "tags": [
+      "business-environment",
+      "value-delivery",
+      "benefits",
+      "sequence",
+      "2026-exam"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Conflict Resolution",
+    "difficulty": "medium",
+    "prompt": "Two team members have a serious interpersonal conflict affecting team performance. Arrange the project manager's response steps in order.",
+    "steps": [
+      {
+        "text": "Meet privately with each individual to understand their perspective without taking sides",
+        "note": "Gather information separately first."
+      },
+      {
+        "text": "Facilitate a joint discussion focused on the issue and project impact, not personalities",
+        "note": "Bring parties together with a project-focused mindset."
+      },
+      {
+        "text": "Help the team members identify and agree on a mutually acceptable resolution",
+        "note": "Empower them to own the solution where possible."
+      },
+      {
+        "text": "Document the agreed resolution and follow up to ensure it is working",
+        "note": "Create accountability and monitor effectiveness."
+      },
+      {
+        "text": "Escalate to HR or functional management if the conflict remains unresolved or escalates",
+        "note": "Last resort when internal resolution fails."
+      }
+    ],
+    "explanation": "PMI recommends a collaborative, step-by-step approach to conflict: separate fact-finding → facilitated discussion → mutual resolution → documentation & follow-up → escalation only if needed. This protects the team and project.",
+    "references": [
+      "PMBOK Guide – Manage Team & Conflict Management",
+      "PMI Agile Practice Guide – Psychological Safety"
+    ],
+    "tags": [
+      "people",
+      "conflict",
+      "sequence",
+      "team"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Stakeholder Engagement",
+    "difficulty": "medium",
+    "prompt": "Arrange the key stakeholder engagement steps in the logical order for a new project.",
+    "steps": [
+      {
+        "text": "Identify all stakeholders (internal, external, positive, negative, neutral)",
+        "note": "Start with comprehensive identification."
+      },
+      {
+        "text": "Analyse stakeholders (power/interest grid, influence, engagement level, expectations)",
+        "note": "Understand their position and needs."
+      },
+      {
+        "text": "Develop a stakeholder engagement plan with tailored strategies",
+        "note": "Create targeted approaches for different groups."
+      },
+      {
+        "text": "Execute the engagement plan through communication, meetings, and relationship building",
+        "note": "Actively manage relationships throughout the project."
+      },
+      {
+        "text": "Monitor stakeholder engagement and adjust the plan as needed",
+        "note": "Continuously assess and adapt engagement effectiveness."
+      }
+    ],
+    "explanation": "Stakeholder engagement follows: Identify → Analyse → Plan → Engage → Monitor. This is a continuous process, not a one-time activity, and is critical in both predictive and agile environments.",
+    "references": [
+      "PMBOK Guide – Stakeholder Management",
+      "PMI Practice Standard for Stakeholder Engagement"
+    ],
+    "tags": [
+      "process",
+      "stakeholder",
+      "sequence",
+      "engagement"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Quality Management",
+    "difficulty": "medium",
+    "prompt": "Arrange the quality management activities in the correct order.",
+    "steps": [
+      {
+        "text": "Define quality standards, metrics, and the Quality Management Plan during planning",
+        "note": "Quality must be planned, not inspected in."
+      },
+      {
+        "text": "Perform quality assurance activities (audits, process improvements, training)",
+        "note": "Proactively ensure the right processes are followed."
+      },
+      {
+        "text": "Conduct quality control (inspections, testing, statistical sampling) on deliverables",
+        "note": "Verify that outputs meet defined quality standards."
+      },
+      {
+        "text": "Analyse quality data and identify root causes of defects or variances",
+        "note": "Use data to drive improvement."
+      },
+      {
+        "text": "Implement corrective and preventive actions and update processes",
+        "note": "Close the loop with continuous improvement."
+      }
+    ],
+    "explanation": "Quality management flows from planning standards → assurance (process focus) → control (product focus) → analysis → improvement. Prevention is preferred over inspection.",
+    "references": [
+      "PMBOK Guide – Quality Management",
+      "PMI Practice Standard for Project Quality"
+    ],
+    "tags": [
+      "process",
+      "quality",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Business Environment",
+    "topic": "Project Alignment with Organizational Strategy",
+    "difficulty": "medium",
+    "prompt": "A new project idea emerges. Arrange the steps to ensure strategic alignment in the correct order.",
+    "steps": [
+      {
+        "text": "Evaluate the proposed project against organizational strategic objectives and portfolio priorities",
+        "note": "Confirm strategic fit before detailed planning."
+      },
+      {
+        "text": "Develop or validate the business case showing expected benefits and ROI",
+        "note": "Quantify the value and justification."
+      },
+      {
+        "text": "Secure formal authorization through project charter or equivalent governance approval",
+        "note": "Obtain official go-ahead from sponsors/governance."
+      },
+      {
+        "text": "Align project objectives, success criteria, and KPIs with strategic goals",
+        "note": "Ensure day-to-day work supports the bigger picture."
+      },
+      {
+        "text": "Continuously monitor strategic alignment and benefits throughout the project lifecycle",
+        "note": "Revalidate fit as the environment or strategy changes."
+      }
+    ],
+    "explanation": "Strategic alignment starts with evaluation against strategy → business case → authorization → objective alignment → ongoing monitoring. This is heavily tested in the 2026 Business Environment domain.",
+    "references": [
+      "PMI PMP Examination Content Outline 2026 – Business Environment",
+      "PMBOK Guide 8th Edition – Strategic Alignment"
+    ],
+    "tags": [
+      "business-environment",
+      "strategy",
+      "alignment",
+      "sequence",
+      "2026-exam"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Issue Management / Impediment Resolution",
+    "difficulty": "easy",
+    "prompt": "An issue or impediment is blocking progress. Arrange the resolution steps in order.",
+    "steps": [
+      {
+        "text": "Identify and log the issue with clear description, impact, and owner",
+        "note": "Capture the problem formally."
+      },
+      {
+        "text": "Analyse the issue to determine root cause and potential solutions",
+        "note": "Understand why it exists and options to resolve it."
+      },
+      {
+        "text": "Develop and implement a resolution or workaround",
+        "note": "Take action to remove or mitigate the blocker."
+      },
+      {
+        "text": "Verify that the issue is resolved and update the issue log",
+        "note": "Confirm closure and document outcome."
+      },
+      {
+        "text": "Review for preventive actions and update processes or risk register if needed",
+        "note": "Prevent recurrence and capture learning."
+      }
+    ],
+    "explanation": "Issue management follows a clear flow: Log → Analyse → Resolve → Verify & Close → Prevent. This applies in both predictive and agile environments (e.g., Scrum impediments).",
+    "references": [
+      "PMBOK Guide – Monitor & Control Project Work",
+      "Agile Practice Guide – Impediment Removal"
+    ],
+    "tags": [
+      "process",
+      "issue-management",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Team Development Stages (Tuckman Model)",
+    "difficulty": "easy",
+    "prompt": "A new project team has just formed. Arrange Tuckman’s stages of team development in the correct order.",
+    "steps": [
+      {
+        "text": "Forming – Team members are polite, uncertain, and dependent on the leader",
+        "note": "Initial stage of politeness and orientation."
+      },
+      {
+        "text": "Storming – Conflicts emerge as members assert opinions and compete for roles",
+        "note": "Natural conflict phase as roles are negotiated."
+      },
+      {
+        "text": "Norming – Team develops cohesion, norms, and better collaboration",
+        "note": "Team starts working together effectively."
+      },
+      {
+        "text": "Performing – Team is highly productive, autonomous, and focused on results",
+        "note": "High-performance stage with minimal supervision needed."
+      },
+      {
+        "text": "Adjourning (or Mourning) – Team disbands after project completion",
+        "note": "Final stage when the project ends."
+      }
+    ],
+    "explanation": "Tuckman’s model (Forming → Storming → Norming → Performing → Adjourning) is a classic framework for understanding team dynamics. Project managers should adapt their leadership style to the current stage.",
+    "references": [
+      "PMBOK Guide – Develop Team & Team Performance Domain",
+      "Tuckman’s Stages of Group Development"
+    ],
+    "tags": [
+      "people",
+      "team-development",
+      "tuckman",
+      "sequence"
+    ]
+  }
+]
