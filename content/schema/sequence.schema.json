@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pmcram.app/schema/sequence.schema.json",
+  "title": "PM Cram sequencing question",
+  "description": "A drag-to-order question: the steps are stored in the CORRECT order and the app presents them shuffled for the user to rearrange. id is optional (the app derives a stable one).",
+  "type": "object",
+  "required": ["prompt", "steps"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "type": "string", "const": "sequence/v1" },
+    "id": { "type": "string", "description": "OPTIONAL — derived from content if omitted.", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },
+    "topic": { "type": "string" },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "prompt": { "type": "string", "description": "The scenario / instruction, e.g. 'Order the steps for handling an underperforming team member.'" },
+    "steps": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "description": "Steps in their CORRECT order. The app shuffles them for the user to rearrange.",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "additionalProperties": false,
+        "properties": {
+          "text": { "type": "string" },
+          "note": { "type": "string", "description": "Optional one-line rationale shown on review for this step's position." }
+        }
+      }
+    },
+    "explanation": { "type": "string" },
+    "references": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "contributor": { "type": "string" }
+  }
+}

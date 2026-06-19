@@ -3,35 +3,45 @@
     "schema": "guide/v1",
     "title": "The Agile Mindset",
     "category": "Agile",
-    "summary": "Agile is a mindset, not a methodology. Around half the PMP exam is agile or hybrid, so you apply these ideas to scenarios rather than reciting them.",
+    "summary": "Agile is a way of thinking and working that focuses on delivering value, learning fast, and adapting with the team and stakeholders.",
     "sections": [
       {
         "heading": "What agile really is",
-        "body": "Agile means delivering value early and often in small increments, inspecting and adapting as you go, embracing change, and trusting an empowered, self-organising team. The goal is working outcomes and fast feedback, not a perfect up-front plan.",
-        "tip": "In agile scenarios, favour small increments, fast feedback, and team-driven decisions over big up-front planning."
+        "body": "Agile is not one method. In PMI terms, it is a mindset and approach built around iterative delivery, rapid feedback, continuous learning, and adaptation. The Agile Practice Guide emphasizes delivering value frequently, making work visible, and adjusting based on feedback instead of trying to predict everything up front.\n\nOn the PMP exam, agile answers usually favor collaboration, transparency, and incremental value delivery over heavy control and detailed early planning. In hybrid scenarios, use enough planning and governance to manage risk, but still seek feedback and adapt as the work unfolds.",
+        "tip": "If an exam option delivers value sooner, improves feedback, or helps the team adapt, it is often the stronger agile choice."
       },
       {
-        "heading": "The four values",
-        "body": "Value the items on the left more highly, without throwing away the ones on the right:\n\n- Individuals and interactions over processes and tools\n- A working product over comprehensive documentation\n- Customer collaboration over contract negotiation\n- Responding to change over following a plan",
-        "tip": "When two options conflict, lean to the left of these pairs — collaboration and adaptation over rigidity."
+        "heading": "Values and principles behind the mindset",
+        "body": "The Agile Manifesto values still matter for exam thinking:\n\nIndividuals and interactions over processes and tools\nWorking product over comprehensive documentation\nCustomer collaboration over contract negotiation\nResponding to change over following a plan\n\nFor PMP alignment, connect those values to the PMBOK Guide Seventh Edition. Relevant principles include focusing on value, building quality into processes and deliverables, engaging stakeholders, leading with stewardship, and tailoring based on context. The exam tests application of these ideas, not memorization.",
+        "tip": "When two answers seem plausible, prefer the one that best supports value, stakeholder engagement, and adaptation to change."
       },
       {
-        "heading": "How the team works",
-        "body": "Agile teams are cross-functional and self-organising: they pull work and decide how to do it. The Scrum Master or agile project manager is a servant leader who facilitates and clears impediments rather than assigning tasks. The Product Owner owns the backlog and its priorities.",
-        "tip": "Let the team self-organise; the PM/Scrum Master facilitates and removes blockers instead of directing the work."
+        "heading": "How agile teams operate",
+        "body": "Agile teams are typically cross-functional and self-managing. They decide how to accomplish the work, collaborate closely, and improve through regular feedback loops. The Agile Practice Guide uses 'self-managing' more broadly than older 'self-organizing' language, so either idea points to team empowerment rather than command-and-control direction.\n\nIn Scrum-based examples, the Product Owner orders the product backlog to maximize value, the Scrum Master enables the team and helps remove impediments, and developers create the increment. In broader PMP scenarios, the project manager often acts with a servant leadership style by facilitating, coaching, and supporting decision making rather than assigning every task.",
+        "tip": "Do not jump in to solve everything yourself. In agile scenarios, the best first move is often to enable the team to solve the problem."
       },
       {
-        "heading": "Change and priorities",
-        "body": "Change is welcome, even late. New requests go to the product backlog, and the Product Owner reprioritises. Protect the focus of the current iteration, but adapt freely in the next one.",
-        "tip": "Mid-iteration change? Review it with the team and Product Owner and schedule it via the backlog — don't derail the active sprint or refuse outright."
+        "heading": "Backlog, increments, and feedback",
+        "body": "Agile work is usually managed as a prioritized backlog and delivered in small increments. The goal is to create usable outcomes, gather feedback early, and refine the product over time. The Agile Practice Guide supports using reviews, demos, retrospectives, and frequent stakeholder interaction to inspect and adapt.\n\nExam questions often reward actions that improve backlog clarity, stakeholder feedback, and shared understanding of value. If requirements are uncertain, the agile response is usually to clarify with stakeholders, refine backlog items, and learn through small releases rather than freeze scope too early.",
+        "tip": "If requirements are unclear, refine the backlog and get feedback on a small increment instead of forcing detailed up-front requirements."
       },
       {
-        "heading": "On the exam",
-        "body": "You will not be asked to recite the manifesto — you apply it to situations. Many questions are hybrid, mixing predictive and agile, so identify the approach before choosing an action.",
-        "tip": "Work out whether the scenario is predictive, agile, or hybrid first — the best action differs for each."
+        "heading": "How agile handles change",
+        "body": "Agile welcomes change when it improves value, but it does not mean uncontrolled change. New ideas, defects, risks, and stakeholder requests are evaluated, added to the backlog as needed, and prioritized. The team protects the current iteration goal as much as possible, then adapts in the next planning cycle unless an urgent issue justifies immediate action.\n\nThis fits the PMP Examination Content Outline expectation to assess and manage changes, risks, and stakeholder needs using the delivery approach in play. In hybrid work, some changes may still require formal governance, so tailor the response to the project context.",
+        "tip": "In a sprint or iteration, avoid disruptive mid-cycle changes unless the issue is urgent. Capture, assess, and reprioritize through the backlog."
+      },
+      {
+        "heading": "Ethics and mindset on the exam",
+        "body": "Agile behavior on the exam should also align with the PMI Code of Ethics and Professional Conduct. That means being honest and transparent, showing respect for team members and stakeholders, taking responsibility, and acting fairly. If a scenario includes conflict, hidden information, pressure to cut corners, or blame, choose the response that is ethical, transparent, and collaborative.\n\nMany PMP questions are not purely agile or purely predictive. The PMP Examination Content Outline reflects a mix of predictive, agile, and hybrid ways of working across People, Process, and Business Environment. First identify the environment, then choose the action that best fits that context.",
+        "tip": "Before answering, identify the delivery approach and eliminate any option that violates ethics, hides information, or weakens collaboration."
       }
     ],
-    "tags": ["agile", "hybrid", "exam"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": [
+      "agile",
+      "hybrid",
+      "pmp",
+      "exam"
+    ],
+    "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide Seventh Edition, Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct."
   }
 ]

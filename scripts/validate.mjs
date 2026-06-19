@@ -25,6 +25,8 @@ const validators = {
   question: ajv.compile(readJson(join(schemaDir, 'question.schema.json'))),
   card: ajv.compile(readJson(join(schemaDir, 'deck.schema.json'))),
   guide: ajv.compile(readJson(join(schemaDir, 'guide.schema.json'))),
+  sequence: ajv.compile(readJson(join(schemaDir, 'sequence.schema.json'))),
+  case: ajv.compile(readJson(join(schemaDir, 'case.schema.json'))),
 };
 
 /** folder → record type */
@@ -33,6 +35,8 @@ const TARGETS = [
   { dir: 'questions', type: 'question' },
   { dir: 'decks', type: 'card' },
   { dir: 'guides', type: 'guide' },
+  { dir: 'sequences', type: 'sequence' },
+  { dir: 'cases', type: 'case' },
 ];
 
 const errors = [];
@@ -49,6 +53,20 @@ function checkQuestion(rec, file, i) {
   const pool = (rec.correct?.length ?? 0) + (rec.distractors?.length ?? 0);
   if (typeof rec.present === 'number' && rec.present > pool) {
     errors.push(`${where}: present (${rec.present}) exceeds correct + distractors (${pool}).`);
+  }
+}
+
+/** Same count checks for a case step (a mini-question). */
+function checkCaseStep(step, file, where) {
+  if (Array.isArray(step.correct) && typeof step.select === 'number' && step.correct.length !== step.select) {
+    errors.push(`${file} ${where}: select (${step.select}) must equal correct.length (${step.correct.length}).`);
+  }
+  if (typeof step.present === 'number' && typeof step.select === 'number' && step.present <= step.select) {
+    errors.push(`${file} ${where}: present (${step.present}) must be greater than select (${step.select}).`);
+  }
+  const pool = (step.correct?.length ?? 0) + (step.distractors?.length ?? 0);
+  if (typeof step.present === 'number' && step.present > pool) {
+    errors.push(`${file} ${where}: present (${step.present}) exceeds correct + distractors (${pool}).`);
   }
 }
 
@@ -104,6 +122,12 @@ for (const { dir, type } of TARGETS) {
         const key = rec.title.toLowerCase();
         if (seenTitles.has(key)) errors.push(`${file} [${i}]: duplicate guide title "${rec.title}" (also in ${seenTitles.get(key)}).`);
         else seenTitles.set(key, file);
+      } else if ((type === 'sequence' || type === 'case') && rec.id) {
+        if (seenIds.has(rec.id)) errors.push(`${file} [${i}]: duplicate id "${rec.id}" (also in ${seenIds.get(rec.id)}).`);
+        else seenIds.set(rec.id, file);
+      }
+      if (type === 'case' && Array.isArray(rec.steps)) {
+        rec.steps.forEach((st, j) => checkCaseStep(st, file, `[${i}].steps[${j}]`));
       }
     });
   }

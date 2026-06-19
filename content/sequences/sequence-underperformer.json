@@ -1,0 +1,34 @@
+[
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Team performance",
+    "difficulty": "medium",
+    "prompt": "A team member keeps missing deliverables, and training isn't the issue. Put the project manager's steps in order, from first to last.",
+    "steps": [
+      {
+        "text": "Hold a private 1:1 to discuss the performance and understand root causes",
+        "note": "Start supportively and in private — never raise it publicly."
+      },
+      {
+        "text": "Follow up with regular check-ins and document expectations, examples and outcomes",
+        "note": "Build an objective record before any formal step."
+      },
+      {
+        "text": "Agree a formal Performance Improvement Plan (PIP) with measurable goals and a timeline",
+        "note": "Formalise the support and a fair chance to improve."
+      },
+      {
+        "text": "Escalate to the functional / resource manager and inform the sponsor of project impact",
+        "note": "Bring your documentation; personnel decisions often sit with the resource manager."
+      },
+      {
+        "text": "Involve HR to manage reassignment or replacement, then update the plan and the team",
+        "note": "Replacement is the last resort — handled with HR and due process."
+      }
+    ],
+    "explanation": "PMI's people focus is early, supportive, documented intervention before escalation: coach first, document, formalise a PIP, escalate with evidence, and only then involve HR for replacement — protecting both the individual and the project.",
+    "references": ["PMBOK Guide Seventh Edition — Team performance domain"],
+    "tags": ["people", "conflict", "sequence"]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pmcram.app/schema/case.schema.json",
+  "title": "PM Cram multi-step case",
+  "description": "A shared scenario with 3-6 linked questions answered in sequence. Each step is a mini-question; the app assembles + shuffles its options, reveals feedback, and only unlocks the next step once the current one is answered (so a later step can't spoil an earlier one). id is optional (derived).",
+  "type": "object",
+  "required": ["scenario", "steps"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "type": "string", "const": "case/v1" },
+    "id": { "type": "string", "description": "OPTIONAL — derived from content if omitted.", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "title": { "type": "string", "description": "Short label for the case list." },
+    "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },
+    "topic": { "type": "string" },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "scenario": { "type": "string", "description": "The shared situation, shown pinned above every step." },
+    "steps": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["prompt", "correct", "distractors"],
+        "additionalProperties": false,
+        "properties": {
+          "prompt": { "type": "string", "description": "This step's question." },
+          "label": { "type": "string", "description": "Optional tag, e.g. 'Business Environment focus'." },
+          "type": { "type": "string", "enum": ["single", "multi"] },
+          "select": { "type": "integer", "minimum": 1 },
+          "present": { "type": "integer", "minimum": 2 },
+          "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },
+          "topic": { "type": "string" },
+          "correct": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["text"],
+              "additionalProperties": false,
+              "properties": { "text": { "type": "string" }, "why": { "type": "string" } }
+            }
+          },
+          "distractors": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["text"],
+              "additionalProperties": false,
+              "properties": { "text": { "type": "string" }, "trap": { "type": "string" } }
+            }
+          },
+          "explanation": { "type": "string" },
+          "references": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "references": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "contributor": { "type": "string" }
+  }
+}

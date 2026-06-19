@@ -3,30 +3,62 @@
     "schema": "guide/v1",
     "title": "Answering Tricky PMP Questions",
     "category": "Exam strategy",
-    "summary": "Most PMP questions are scenarios with several plausible answers. A repeatable method makes the 'best' choice clearer.",
+    "summary": "Most PMP questions are scenario-based with several plausible answers; a repeatable method helps you identify the best PMI-aligned response.",
     "sections": [
       {
-        "heading": "Situational questions",
-        "body": "A scenario asks for the best action and every option looks reasonable. Read for three things: the project phase, the real underlying problem, and who is involved. Then choose the response a strong project manager would take.",
-        "tip": "Pick the response that is proactive, collaborative, and within the PM's authority."
+        "heading": "Start with the exam lens",
+        "body": "The current PMP exam is built around the PMP Examination Content Outline and tests how you apply judgment in realistic situations across People, Process, and Business Environment. Read each scenario for the real decision the question is testing, not just the surface problem.\n\nBefore looking at the options, identify the work approach and context: predictive, agile, or hybrid; where the team is in the work; what outcome is at risk; and which stakeholder or team dynamic matters most. Then choose the response that best reflects effective leadership, delivery focus, and value.",
+        "tip": "Anchor your choice to the PMP Examination Content Outline mindset: practical judgment, not memorized definitions."
       },
       {
-        "heading": "'What should you do first / next?'",
-        "body": "These test sequence. The usual order is: understand and analyse the situation, communicate with the team or stakeholders, review or update the plan, and only then act. Documenting and investigating almost always come before acting or escalating.",
-        "tip": "First steps are usually investigate, gather information, or review the plan — rarely 'escalate' or 'implement now'."
+        "heading": "'First' and 'next' questions",
+        "body": "For 'what should the project manager do first' or 'next' questions, sequence matters. In most scenarios, the strongest answer begins by assessing the situation: gather relevant information, review the project artifacts or plans, and understand root cause before changing direction, escalating, or taking corrective action.\n\nThis pattern aligns with current PMI thinking across predictive, agile, and hybrid work. In predictive contexts, that often means reviewing the relevant plan, baseline, risk register, issue log, stakeholder engagement approach, or change process. In agile contexts, it often means making the work visible, inspecting what is happening with the team, and using feedback loops described in the Agile Practice Guide before forcing a top-down decision.",
+        "tip": "On PMP questions, 'first' is usually assess, review, or clarify. Escalate only when the issue is outside the project manager's authority or cannot be resolved at the appropriate level."
       },
       {
-        "heading": "Eliminate down to two",
-        "body": "Cross out the obvious losers first:\n\n- Extreme actions — fire someone, ignore it, blindly comply, go straight to the sponsor.\n- Options that take you out of the loop or abdicate responsibility.\n\nYou are usually left with two reasonable answers; choose the more proactive, value- and people-focused one.",
-        "tip": "Delete anything reactive, extreme, or that hands off the PM's responsibility — then decide between what remains."
+        "heading": "Use PMI's preferred action pattern",
+        "body": "When two answers both seem reasonable, choose the one that follows PMI's usual pattern: collaborate, analyze, act through the right process, and then communicate as needed. The PMBOK Guide Seventh Edition emphasizes tailoring, team collaboration, stakeholder engagement, and focus on value.\n\nThat usually means the better answer is the one that engages the right people, respects the way of working, and addresses the cause rather than the symptom. It is often stronger to facilitate discussion, coach the team, review impacts, and use agreed project processes than to jump straight to command-and-control actions.",
+        "tip": "Prefer responses that are proactive, collaborative, and process-aware rather than reactive, punitive, or purely administrative."
       },
       {
-        "heading": "Read for predictive vs agile cues",
-        "body": "The wording tells you which approach applies. Baseline, change control board, and WBS point to predictive. Sprint, backlog, iteration, and Product Owner point to agile. A mix means hybrid. The best answer matches the approach in the scenario.",
-        "tip": "Match your answer to the implied approach — an agile fix to a predictive question (or vice versa) is usually wrong."
+        "heading": "Eliminate answers that violate PMI logic",
+        "body": "Many distractors are designed to sound decisive but conflict with PMI guidance. Remove options that skip analysis, ignore stakeholders, bypass agreed processes, or treat people problems as paperwork problems.\n\nCommon weak answers include:\n\nimmediately escalating to the sponsor, steering committee, or management without first trying to resolve the issue at the proper level\ntaking unilateral action that ignores team input or stakeholder engagement\nimplementing a change before evaluating impact and following the appropriate change approach for the scenario\nignoring a conflict, complaint, risk, or compliance concern\nchoosing an answer that is dishonest, disrespectful, unfair, or self-protective, which conflicts with the PMI Code of Ethics and Professional Conduct\n\nAfter eliminating those, compare the remaining choices for which one best protects value, relationships, and project integrity.",
+        "tip": "Delete anything extreme, evasive, or ethics-blind first; then choose the option that shows sound judgment and stewardship."
+      },
+      {
+        "heading": "Match the answer to predictive, agile, or hybrid cues",
+        "body": "The scenario usually signals the delivery approach. Predictive cues include approved plans, baselines, detailed scope, formal change control, and staged delivery. Agile cues include product backlog, iteration or sprint, Product Owner, servant leadership, daily coordination, review, retrospective, and continuous feedback. A mix of structured governance with iterative delivery points to hybrid.\n\nYour answer should fit that context. In predictive settings, plan-driven control and integrated change practices are often central. In agile settings, the Agile Practice Guide points more toward collaboration, backlog refinement, transparency, adaptation, and empowering a self-managing team. In hybrid settings, the best choice often combines governance discipline with iterative learning.",
+        "tip": "A strong answer that fits the wrong delivery approach is usually still the wrong answer."
+      },
+      {
+        "heading": "Read stakeholder and team questions through a people-first lens",
+        "body": "The current exam strongly emphasizes leadership, team effectiveness, and stakeholder engagement. For conflict, performance, resistance, confusion, or alignment problems, first look for answers that encourage direct communication, coaching, facilitation, and shared understanding.\n\nThis aligns with the PMP Examination Content Outline's People domain and with PMBOK Guide Seventh Edition principles such as creating a collaborative team environment and engaging stakeholders. The project manager is expected to lead with emotional intelligence, help clarify expectations, and support productive decision-making rather than simply enforce compliance.",
+        "tip": "When the issue is mainly human, the best answer is often a conversation, coaching action, or facilitated resolution before a process step."
+      },
+      {
+        "heading": "Treat ethics, compliance, and transparency as hard boundaries",
+        "body": "If a question involves honesty, reporting, conflicts of interest, favoritism, harassment, manipulation, hidden defects, or pressure to mislead, use the PMI Code of Ethics and Professional Conduct as your filter. The exam expects behavior grounded in responsibility, respect, fairness, and honesty.\n\nThat means you should not conceal facts, falsify status, skip required reporting, or accept clearly improper behavior just to protect schedule or relationships. The best answer usually addresses the issue directly, documents it through the proper channel when appropriate, and protects both stakeholders and the integrity of the project.",
+        "tip": "If an option improves results by being misleading, unfair, or nontransparent, eliminate it."
+      },
+      {
+        "heading": "Use artifacts and plans as evidence, not as reflexes",
+        "body": "PMI exam questions often reward knowing which project artifact helps you understand or address the situation. Review the relevant source before acting: the risk register for emerging threats, the issue log for active problems, the stakeholder engagement approach for communication needs, team working agreements for behavior expectations, or the backlog or plan for delivery decisions.\n\nThis is why answers that say to review the relevant plan or artifact are often strong, but not automatically correct. The best answer is the one that uses the right artifact for the actual problem and then moves toward resolution. Process Groups: A Practice Guide is especially useful here because it reinforces that actions should connect logically to the situation and to the project's way of working.",
+        "tip": "Choose the artifact that fits the problem. Reviewing the wrong document is just a polished distractor."
+      },
+      {
+        "heading": "When stuck between two answers",
+        "body": "If you are down to two choices, ask which one better reflects current PMI priorities: value delivery, collaboration, stakeholder engagement, tailoring, quality of decision-making, and ethical conduct. The PMBOK Guide Seventh Edition shifts the focus from rigid rule-following to principles and performance domains, so the best answer is often the one that shows adaptable, context-aware judgment.\n\nA useful tie-breaker is this: prefer the option that solves the problem at the lowest effective level, involves the right people, respects the chosen delivery approach, and preserves long-term trust and value. That is usually more PMI-aligned than an answer that is merely fast or forceful.",
+        "tip": "When two options look good, choose the one that is more collaborative, more tailored to context, and more aligned to value delivery."
       }
     ],
-    "tags": ["exam", "strategy"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": [
+      "exam",
+      "strategy",
+      "pmp",
+      "agile",
+      "predictive",
+      "ethics"
+    ],
+    "source": "Draws on the PMP Examination Content Outline, PMBOK Guide Seventh Edition, Agile Practice Guide, PMI Code of Ethics and Professional Conduct, and Process Groups: A Practice Guide."
   }
 ]

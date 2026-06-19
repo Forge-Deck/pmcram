@@ -1,0 +1,49 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "PMBOK 7 Principles & Performance Domains",
+    "category": "Mindset",
+    "summary": "A concise exam-focused guide to the PMBOK Guide Seventh Edition principles, performance domains, and how they support People, Process, and Business Environment reasoning on the PMP exam.",
+    "sections": [
+      {
+        "heading": "Why this matters for the PMP exam",
+        "body": "The current PMP exam is built on broad PMI guidance rather than memorization of one process map. PMBOK Guide Seventh Edition provides twelve principles and eight performance domains that shape how a project manager should think, decide, and act across predictive, agile, and hybrid environments.\n\nUse them as a reasoning lens. In scenario questions, the best answer is usually the one that protects value, engages people well, respects context, and responds in a disciplined but adaptable way."
+      },
+      {
+        "heading": "The twelve principles",
+        "body": "- Stewardship: Be a diligent, respectful, and caring custodian of project resources, people, and outcomes; act in line with the PMI Code of Ethics and Professional Conduct.\n- Team: Build a collaborative environment where the project team can perform effectively, grow, and self-organize as appropriate.\n- Stakeholders: Engage stakeholders proactively and continuously to understand needs, build support, and navigate expectations.\n- Value: Keep focus on outcomes, benefits, and what the work is meant to deliver, not just on completing activities.\n- Systems thinking: See the project as part of a wider system with interdependencies, feedback loops, and organizational impacts.\n- Leadership: Demonstrate leadership behaviors that fit the situation, including listening, influencing, coaching, and decision-making.\n- Tailoring: Adapt methods, artifacts, governance, and ways of working to the project's context rather than applying one model mechanically.\n- Quality: Design quality into both process and deliverables so outputs are fit for purpose and meet acceptance needs.\n- Complexity: Recognize and respond to human, technical, and environmental complexity instead of oversimplifying the situation.\n- Risk: Address uncertainty proactively by identifying, analyzing, and responding to threats and opportunities.\n- Adaptability and resilience: Stay flexible, recover quickly from setbacks, and adjust to new information or conditions.\n- Change: Prepare for, enable, and guide change so that desired future outcomes can be achieved.",
+        "tip": "On the exam, principles help eliminate rigid, overly bureaucratic, or purely reactive options."
+      },
+      {
+        "heading": "The eight performance domains",
+        "body": "The performance domains in PMBOK Guide Seventh Edition describe what needs sustained attention for successful outcomes.\n\n- Stakeholders: Build productive stakeholder relationships and support alignment, engagement, and communication.\n- Team: Create an environment that enables team capability, collaboration, accountability, and high performance.\n\nDevelopment approach and life cycle: Select and adapt predictive, iterative, incremental, agile, or hybrid approaches based on context.\n\n- Planning: Continuously plan and adjust direction, scope, schedule, resources, and responses as more information emerges.\n- Project work: Establish efficient project processes, governance, coordination, learning, and execution practices.\n- Delivery: Focus on delivering value, validating outcomes, and making sure increments or final outputs are usable and beneficial.\n- Measurement: Track meaningful performance information to support decisions, learning, forecasting, and transparency.\n- Uncertainty: Address risk, ambiguity, volatility, and complexity with appropriate responses and resilience.",
+        "tip": "Think of the domains as lenses for what must be managed well, not as a sequence of steps."
+      },
+      {
+        "heading": "How principles and domains map to the PMP Examination Content Outline",
+        "body": "The PMP Examination Content Outline organizes questions into People, Process, and Business Environment. The PMBOK 7 principles and performance domains support all three.\n\nPeople is most directly supported by the principles of team, stakeholders, leadership, stewardship, adaptability and resilience, and change. It also aligns strongly with the stakeholder and team performance domains. In exam scenarios, this domain often points to coaching, conflict resolution, stakeholder engagement, collaboration, emotional intelligence, and servant leadership behaviors described in the Agile Practice Guide and the PMP Examination Content Outline.\n\nProcess is most directly supported by tailoring, quality, risk, complexity, systems thinking, and value. It aligns strongly with the development approach and life cycle, planning, project work, measurement, delivery, and uncertainty performance domains. In exam scenarios, this domain often points to selecting the right approach, following appropriate governance, assessing impacts, using change control where needed, monitoring performance, and taking disciplined corrective or preventive action.\n\nBusiness Environment is most directly supported by stewardship, value, systems thinking, and change. It also connects to stakeholders, delivery, and uncertainty. In exam scenarios, this domain often points to benefits realization, compliance, organizational change, strategic alignment, and understanding how project decisions affect the larger enterprise and external environment.",
+        "tip": "The same answer choice can span more than one ECO domain; choose the option that best balances people, delivery discipline, and organizational value."
+      },
+      {
+        "heading": "How to reason to the best answer in a scenario",
+        "body": "Start with value and stewardship. Ask which option best protects the intended outcome, treats people and resources responsibly, and aligns with PMI's ethical and professional expectations.\n\nThen check the people dimension. The strongest answer usually engages the right stakeholders, supports the team, addresses conflict directly, and uses leadership before authority. If an option ignores communication, bypasses collaboration, or punishes prematurely, it is often weak.\n\nNext, check context and tailoring. Ask whether the response fits the delivery approach. In predictive work, formal review and change control may be appropriate. In agile work, reprioritizing the backlog, collaborating with the product owner, and inspecting and adapting may be more appropriate. In hybrid work, the best answer respects both structured controls and adaptive learning.\n\nThen consider quality, risk, complexity, and uncertainty. Strong answers address root causes, not just symptoms. They assess impacts before acting, use data where available, and reduce future problems rather than creating hidden risk.\n\nFinally, look through a systems thinking lens. Ask what downstream effect the choice will have on stakeholders, governance, delivery, compliance, and long-term value. The best PMP answer is often the one that solves the immediate issue while preserving trust, alignment, and sustainable delivery.",
+        "tip": "A reliable exam pattern is assess first, engage the right people, use the appropriate process for the context, and act in a way that protects value."
+      },
+      {
+        "heading": "Quick exam mindset",
+        "body": "Use PMBOK Guide Seventh Edition principles as decision anchors and the performance domains as coverage checks. If two options both seem plausible, prefer the one that is ethical, collaborative, context-aware, value-focused, and proactive about uncertainty.\n\nThis is why PMI sources work together: PMBOK Guide Seventh Edition gives the mindset, the PMP Examination Content Outline defines what is tested, the Agile Practice Guide helps with adaptive ways of working, and Process Groups: A Practice Guide helps connect disciplined delivery practices to situational judgment."
+      }
+    ],
+    "tags": [
+      "pmp",
+      "mindset",
+      "pmbok7",
+      "principles",
+      "performance-domains",
+      "people",
+      "process",
+      "business-environment"
+    ],
+    "source": "Drawn from PMBOK Guide Seventh Edition, the PMP Examination Content Outline, the Agile Practice Guide, Process Groups: A Practice Guide, and the PMI Code of Ethics and Professional Conduct."
+  }
+]
