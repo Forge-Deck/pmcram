@@ -31,6 +31,24 @@
           "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='44' y1='34' x2='296' y2='158' stroke='currentColor' stroke-width='1.4' stroke-dasharray='5 4'/><polyline points='44,34 90,52 136,86 182,96 228,128 296,158' stroke='#1F5FA8' stroke-width='2'/><text x='250' y='52' fill='currentColor' font-size='10'>ideal</text><text x='150' y='80' fill='#1F5FA8' font-size='10'>actual</text><text x='170' y='182' fill='currentColor' font-size='11' text-anchor='middle'>sprint days</text></svg>",
           "caption": "Work remaining vs the ideal line, across the sprint."
         }
+      },
+      {
+        "heading": "Burn-up chart",
+        "body": "The companion to the burndown. Instead of work remaining, it plots work completed (rising) against a separate line for total scope. Because scope is its own line, you can see scope changes that a burndown would hide.\n\n- Completed line climbs toward the scope line\n- The scope line steps up when work is added",
+        "tip": "Burn-up separates progress from scope — a jump in the top line means scope was added, not that the team slowed down.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.5'/><polyline points='44,60 170,60 170,42 296,42' stroke='#B5462F' stroke-width='1.6' stroke-dasharray='5 4'/><polyline points='44,158 92,140 140,110 188,96 236,70 296,46' stroke='#2F6F5E' stroke-width='2'/><text x='250' y='36' fill='#B5462F' font-size='10'>scope</text><text x='150' y='118' fill='#2F6F5E' font-size='10'>completed</text><text x='170' y='182' fill='currentColor' font-size='11' text-anchor='middle'>sprint days</text></svg>",
+          "caption": "Completed work rising toward total scope (which steps up when scope is added)."
+        }
+      },
+      {
+        "heading": "Cause-and-effect (fishbone / Ishikawa)",
+        "body": "A root-cause tool. The 'effect' (the problem) sits at the head; angled 'bones' group the possible causes into categories, with finer sub-causes branching off each. It structures a team's brainstorming so you investigate causes by category rather than at random.",
+        "tip": "Fishbone = Ishikawa = cause-and-effect diagram (three names, one tool). It explores possible causes; it doesn't prove them.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
+          "caption": "Causes grouped on bones; the problem (effect) at the head."
+        }
       }
     ],
     "tags": ["charts", "quality", "agile", "exam"],
