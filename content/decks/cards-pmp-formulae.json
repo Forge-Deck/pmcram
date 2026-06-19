@@ -1,0 +1,310 @@
+[
+  {
+    "id": "evm-basics",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "front": "Earned Value basics — PV, EV, AC, BAC",
+    "formula": "EV = % complete × BAC",
+    "legend": [
+      { "symbol": "BAC", "meaning": "Budget at Completion — the total approved budget" },
+      { "symbol": "PV", "meaning": "Planned Value — budgeted cost of work scheduled by now" },
+      { "symbol": "EV", "meaning": "Earned Value — budgeted cost of work actually done" },
+      { "symbol": "AC", "meaning": "Actual Cost — what's really been spent so far" }
+    ],
+    "back": "Earned value compares three S-curves over time. Read them at 'time now':\n\n- EV below PV → behind schedule\n- AC above EV → over budget",
+    "figure": {
+      "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.4'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.4'/><line x1='200' y1='26' x2='200' y2='160' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='200' y='176' fill='currentColor' font-size='9' text-anchor='middle'>time now</text><polyline points='40,160 90,150 140,118 200,92 258,52 292,38' stroke='currentColor' stroke-width='1.6'/><polyline points='40,160 92,150 140,128 200,108' stroke='#1F5FA8' stroke-width='2'/><polyline points='40,160 92,146 140,116 200,88' stroke='#B5462F' stroke-width='2'/><circle cx='200' cy='92' r='3' fill='currentColor'/><circle cx='200' cy='108' r='3' fill='#1F5FA8'/><circle cx='200' cy='88' r='3' fill='#B5462F'/><text x='296' y='34' fill='currentColor' font-size='10' text-anchor='end'>PV</text><text x='150' y='104' fill='#B5462F' font-size='10'>AC</text><text x='150' y='140' fill='#1F5FA8' font-size='10'>EV</text></svg>",
+      "caption": "PV (planned), EV (earned), AC (actual). Here EV < PV (behind) and AC > EV (over budget)."
+    },
+    "related": ["Cost Performance Index", "Schedule Performance Index"],
+    "source": "PMBOK Guide — Earned Value Management"
+  },
+  {
+    "id": "evm-pv",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "front": "Planned Value (PV)",
+    "formula": "PV = Planned % complete × BAC",
+    "legend": [{ "symbol": "BAC", "meaning": "Budget at Completion" }],
+    "back": "The budgeted cost of the work scheduled to be done by a point in time — your baseline of where you planned to be."
+  },
+  {
+    "id": "evm-ev",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "front": "Earned Value (EV)",
+    "formula": "EV = Actual % complete × BAC",
+    "legend": [{ "symbol": "BAC", "meaning": "Budget at Completion" }],
+    "back": "The budgeted cost of the work actually completed. EV is the heart of EVM — every index and variance compares against it.",
+    "tip": "EV uses the BUDGETED cost of completed work, not the actual money spent (that's AC)."
+  },
+  {
+    "id": "evm-cv",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "front": "Cost Variance (CV)",
+    "formula": "CV = EV − AC",
+    "legend": [
+      { "symbol": "EV", "meaning": "Earned Value" },
+      { "symbol": "AC", "meaning": "Actual Cost" }
+    ],
+    "back": "- Positive → under budget\n- Negative → over budget",
+    "tip": "Variances are EV minus something; indices are EV divided by something. Negative variance = bad."
+  },
+  {
+    "id": "evm-sv",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "front": "Schedule Variance (SV)",
+    "formula": "SV = EV − PV",
+    "legend": [
+      { "symbol": "EV", "meaning": "Earned Value" },
+      { "symbol": "PV", "meaning": "Planned Value" }
+    ],
+    "back": "- Positive → ahead of schedule\n- Negative → behind schedule"
+  },
+  {
+    "id": "evm-cpi",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "hard",
+    "front": "Cost Performance Index (CPI)",
+    "formula": "CPI = EV / AC",
+    "legend": [
+      { "symbol": "EV", "meaning": "Earned Value" },
+      { "symbol": "AC", "meaning": "Actual Cost" }
+    ],
+    "back": "Value earned for every unit of cost spent — your cost efficiency.\n\n- > 1.0 → under budget\n- = 1.0 → on budget\n- < 1.0 → over budget",
+    "figure": {
+      "svg": "<svg viewBox='0 0 320 110' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='30' y1='52' x2='290' y2='52' stroke='currentColor' stroke-width='2'/><line x1='160' y1='40' x2='160' y2='64' stroke='#1F5FA8' stroke-width='2'/><text x='160' y='32' fill='#1F5FA8' font-size='11' text-anchor='middle'>1.0</text><circle cx='40' cy='52' r='3' fill='#B5462F'/><circle cx='280' cy='52' r='3' fill='#2F6F5E'/><text x='44' y='82' fill='#B5462F' font-size='10'>&lt; 1.0 · over budget</text><text x='276' y='82' fill='#2F6F5E' font-size='10' text-anchor='end'>&gt; 1.0 · under budget</text></svg>",
+      "caption": "CPI above 1.0 is good (under budget); below 1.0 is over budget."
+    },
+    "tip": "Above 1.0 is always good for CPI and SPI. Both divide BY Earned Value's counterpart."
+  },
+  {
+    "id": "evm-spi",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "hard",
+    "front": "Schedule Performance Index (SPI)",
+    "formula": "SPI = EV / PV",
+    "legend": [
+      { "symbol": "EV", "meaning": "Earned Value" },
+      { "symbol": "PV", "meaning": "Planned Value" }
+    ],
+    "back": "Rate of progress against plan — your schedule efficiency.\n\n- > 1.0 → ahead of schedule\n- = 1.0 → on schedule\n- < 1.0 → behind schedule"
+  },
+  {
+    "id": "evm-eac-typical",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "hard",
+    "front": "Estimate at Completion (EAC) — typical variances",
+    "formula": "EAC = BAC / CPI",
+    "legend": [
+      { "symbol": "BAC", "meaning": "Budget at Completion" },
+      { "symbol": "CPI", "meaning": "Cost Performance Index" }
+    ],
+    "back": "Use when current cost performance is expected to continue for the rest of the project — the most common EAC on the exam."
+  },
+  {
+    "id": "evm-eac-atypical",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "hard",
+    "front": "Estimate at Completion (EAC) — atypical variance",
+    "formula": "EAC = AC + (BAC − EV)",
+    "legend": [
+      { "symbol": "AC", "meaning": "Actual Cost" },
+      { "symbol": "BAC", "meaning": "Budget at Completion" },
+      { "symbol": "EV", "meaning": "Earned Value" }
+    ],
+    "back": "Use when the current variance is a one-off and remaining work will go to plan — finish the rest at the budgeted rate."
+  },
+  {
+    "id": "evm-eac-etc",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "hard",
+    "front": "Estimate at Completion (EAC) — new estimate",
+    "formula": "EAC = AC + ETC",
+    "legend": [
+      { "symbol": "AC", "meaning": "Actual Cost to date" },
+      { "symbol": "ETC", "meaning": "Estimate to Complete (a fresh bottom-up estimate)" }
+    ],
+    "back": "Use when the original estimate is flawed and you re-forecast the remaining work from scratch."
+  },
+  {
+    "id": "evm-eac-cpi-spi",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "hard",
+    "front": "Estimate at Completion (EAC) — cost and schedule",
+    "formula": "EAC = AC + (BAC − EV) / (CPI × SPI)",
+    "legend": [
+      { "symbol": "CPI", "meaning": "Cost Performance Index" },
+      { "symbol": "SPI", "meaning": "Schedule Performance Index" }
+    ],
+    "back": "Use when both cost and schedule performance will affect the remaining work — the most pessimistic EAC."
+  },
+  {
+    "id": "evm-etc",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "medium",
+    "front": "Estimate to Complete (ETC)",
+    "formula": "ETC = EAC − AC",
+    "legend": [
+      { "symbol": "EAC", "meaning": "Estimate at Completion" },
+      { "symbol": "AC", "meaning": "Actual Cost to date" }
+    ],
+    "back": "The expected cost to finish the remaining work — what's left of the forecast after what you've already spent."
+  },
+  {
+    "id": "evm-vac",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "medium",
+    "front": "Variance at Completion (VAC)",
+    "formula": "VAC = BAC − EAC",
+    "legend": [
+      { "symbol": "BAC", "meaning": "Budget at Completion" },
+      { "symbol": "EAC", "meaning": "Estimate at Completion" }
+    ],
+    "back": "How much over or under the original budget you expect to finish.\n\n- Positive → under budget\n- Negative → over budget"
+  },
+  {
+    "id": "evm-tcpi",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Forecasting",
+    "difficulty": "hard",
+    "front": "To-Complete Performance Index (TCPI)",
+    "formula": "TCPI = (BAC − EV) / (BAC − AC)",
+    "legend": [
+      { "symbol": "BAC", "meaning": "Budget at Completion" },
+      { "symbol": "EV", "meaning": "Earned Value" },
+      { "symbol": "AC", "meaning": "Actual Cost" }
+    ],
+    "back": "The cost efficiency you must hit on the remaining work to still finish on budget.\n\n- > 1.0 → you must perform better than before (harder)\n- < 1.0 → you have slack",
+    "tip": "Use (BAC − AC) in the denominator to hit the original budget; use (EAC − AC) to hit the new forecast."
+  },
+  {
+    "id": "est-pert-beta",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "medium",
+    "front": "Three-point estimate (PERT / Beta)",
+    "formula": "E = (O + 4M + P) / 6",
+    "legend": [
+      { "symbol": "O", "meaning": "Optimistic estimate" },
+      { "symbol": "M", "meaning": "Most likely estimate" },
+      { "symbol": "P", "meaning": "Pessimistic estimate" }
+    ],
+    "back": "A weighted average that leans heavily on the most likely value, giving a realistic expected duration or cost.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 320 180' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='30' y1='150' x2='300' y2='150' stroke='currentColor' stroke-width='1.4'/><path d='M50,150 C95,150 110,46 138,46 C176,46 235,150 290,150' stroke='#1F5FA8' stroke-width='2' fill='none'/><line x1='60' y1='150' x2='60' y2='138' stroke='currentColor' stroke-width='1.2'/><line x1='138' y1='150' x2='138' y2='48' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><line x1='180' y1='150' x2='180' y2='96' stroke='#B5462F' stroke-width='1.4' stroke-dasharray='3 3'/><line x1='280' y1='150' x2='280' y2='138' stroke='currentColor' stroke-width='1.2'/><text x='60' y='166' fill='currentColor' font-size='10' text-anchor='middle'>O</text><text x='138' y='166' fill='currentColor' font-size='10' text-anchor='middle'>M</text><text x='180' y='166' fill='#B5462F' font-size='10' text-anchor='middle'>E</text><text x='280' y='166' fill='currentColor' font-size='10' text-anchor='middle'>P</text><text x='160' y='28' fill='currentColor' font-size='11' text-anchor='middle'>E = (O + 4M + P) / 6</text></svg>",
+      "caption": "The expected value E sits between Most likely and Pessimistic."
+    },
+    "tip": "The 4× weight on Most Likely is what makes PERT a weighted (beta) average."
+  },
+  {
+    "id": "est-pert-triangular",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "medium",
+    "front": "Three-point estimate (Triangular)",
+    "formula": "E = (O + M + P) / 3",
+    "legend": [
+      { "symbol": "O", "meaning": "Optimistic" },
+      { "symbol": "M", "meaning": "Most likely" },
+      { "symbol": "P", "meaning": "Pessimistic" }
+    ],
+    "back": "A simple average of the three estimates — used when you don't want to weight the most likely value.",
+    "tip": "Triangular = simple average (÷3). Beta/PERT = weighted average with 4× on M (÷6)."
+  },
+  {
+    "id": "est-pert-sd",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "hard",
+    "front": "PERT standard deviation",
+    "formula": "SD = (P − O) / 6",
+    "legend": [
+      { "symbol": "P", "meaning": "Pessimistic" },
+      { "symbol": "O", "meaning": "Optimistic" }
+    ],
+    "back": "The spread of the estimate — a measure of its risk. A wider gap between optimistic and pessimistic means more uncertainty."
+  },
+  {
+    "id": "risk-emv",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "Process",
+    "topic": "Risk",
+    "difficulty": "medium",
+    "front": "Expected Monetary Value (EMV)",
+    "formula": "EMV = Probability × Impact",
+    "legend": [
+      { "symbol": "P", "meaning": "Probability of the risk occurring (0–1)" },
+      { "symbol": "Impact", "meaning": "Financial effect if it occurs (+ opportunity, − threat)" }
+    ],
+    "back": "The average outcome of a risk. Sum the EMV of every branch in a decision tree to compare options.\n\n- Threats are negative, opportunities positive",
+    "tip": "A risk with 20% probability and a $50k threat has an EMV of −$10k."
+  },
+  {
+    "id": "comm-channels",
+    "schema": "card/v1",
+    "deck": "PMP Formulae",
+    "domain": "People",
+    "topic": "Communications",
+    "difficulty": "easy",
+    "front": "Communication channels",
+    "formula": "Channels = n (n − 1) / 2",
+    "legend": [{ "symbol": "n", "meaning": "Number of people (stakeholders) involved" }],
+    "back": "The number of two-way communication paths. It grows fast — adding people adds disproportionately more channels to manage.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 300 195' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='150' y1='30' x2='217' y2='78' stroke='currentColor' stroke-width='1'/><line x1='150' y1='30' x2='191' y2='158' stroke='currentColor' stroke-width='1'/><line x1='150' y1='30' x2='109' y2='158' stroke='currentColor' stroke-width='1'/><line x1='150' y1='30' x2='83' y2='78' stroke='currentColor' stroke-width='1'/><line x1='217' y1='78' x2='191' y2='158' stroke='currentColor' stroke-width='1'/><line x1='217' y1='78' x2='109' y2='158' stroke='currentColor' stroke-width='1'/><line x1='217' y1='78' x2='83' y2='78' stroke='currentColor' stroke-width='1'/><line x1='191' y1='158' x2='109' y2='158' stroke='currentColor' stroke-width='1'/><line x1='191' y1='158' x2='83' y2='78' stroke='currentColor' stroke-width='1'/><line x1='109' y1='158' x2='83' y2='78' stroke='currentColor' stroke-width='1'/><circle cx='150' cy='30' r='9' fill='#1F5FA8'/><circle cx='217' cy='78' r='9' fill='#1F5FA8'/><circle cx='191' cy='158' r='9' fill='#1F5FA8'/><circle cx='109' cy='158' r='9' fill='#1F5FA8'/><circle cx='83' cy='78' r='9' fill='#1F5FA8'/><text x='150' y='185' fill='currentColor' font-size='11' text-anchor='middle'>5 people = 5(4)/2 = 10 channels</text></svg>",
+      "caption": "Every line is a channel; 5 people already means 10."
+    },
+    "tip": "If a question adds people, recompute both n values — the jump is often the trap."
+  }
+]

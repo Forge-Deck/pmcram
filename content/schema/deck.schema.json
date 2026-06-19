@@ -14,7 +14,32 @@
     "topic": { "type": "string" },
     "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
     "front": { "type": "string", "description": "Prompt side." },
-    "back": { "type": "string", "description": "Answer side." },
+    "back": { "type": "string", "description": "Answer side. Blank lines separate paragraphs; lines starting with '- ' become bullets." },
+    "formula": { "type": "string", "description": "OPTIONAL equation, shown prominently above the answer (e.g. 'CPI = EV / AC')." },
+    "legend": {
+      "type": "array",
+      "description": "OPTIONAL variable key shown under the formula.",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "meaning"],
+        "additionalProperties": false,
+        "properties": {
+          "symbol": { "type": "string" },
+          "meaning": { "type": "string" }
+        }
+      }
+    },
+    "figure": {
+      "type": "object",
+      "description": "OPTIONAL explanatory diagram/graph (same model as guide figures).",
+      "additionalProperties": false,
+      "properties": {
+        "svg": { "type": "string", "description": "Inline theme-aware <svg> markup (use currentColor for ink)." },
+        "image": { "type": "string", "description": "Repo-relative path or absolute URL of a raster image." },
+        "caption": { "type": "string" }
+      }
+    },
+    "tip": { "type": "string", "description": "OPTIONAL accent exam-tip callout." },
     "related": { "type": "array", "items": { "type": "string" } },
     "source": { "type": "string" },
     "contributor": { "type": "string" }

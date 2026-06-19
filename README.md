@@ -76,13 +76,30 @@ Follow `schema/question.schema.json`. **Options are never stored as a fixed A/B/
 ### Custom flashcards (`decks/`)
 Only for content that isn't a glossary term (formulas, mnemonics). Follow `schema/deck.schema.json` (`front` / `back`), grouped by a `deck` name (the app lists each deck for focused study).
 
-**Multi-line backs:** put real line breaks in the `back` string with `\n` — the app renders each line separately, so don't run everything into one sentence. Example:
+Cards can be **enriched** beyond plain front/back — all optional:
+- **`formula`** — the equation, shown prominently above the answer (e.g. `"CPI = EV / AC"`).
+- **`legend`** — a variable key: `[{ "symbol": "EV", "meaning": "Earned Value" }, …]`.
+- **`figure`** — an explanatory diagram/graph, same model as guides (`svg` inline markup using `currentColor`, or an `image` path, plus a `caption`).
+- **`tip`** — an accent exam-tip callout.
 
-```json
-"back": "CPI = EV / AC\nCPI > 1 means under budget.\nCPI < 1 means over budget.\nCPI = 1.0 is exactly on budget."
+The `back` uses the same light formatting as guides: a **blank line** starts a new paragraph, and lines beginning with `- ` render as a bullet list.
+
+```jsonc
+{
+  "deck": "PMP Formulae",
+  "front": "Cost Performance Index (CPI)",
+  "formula": "CPI = EV / AC",
+  "legend": [
+    { "symbol": "EV", "meaning": "Earned Value" },
+    { "symbol": "AC", "meaning": "Actual Cost" }
+  ],
+  "back": "Cost efficiency.\n\n- > 1.0 → under budget\n- < 1.0 → over budget",
+  "figure": { "svg": "<svg viewBox='0 0 320 110' …>…</svg>", "caption": "Above 1.0 is good." },
+  "tip": "Above 1.0 is always good for CPI and SPI."
+}
 ```
 
-renders as four lines. **Formula convention:** put the formula on the **first line** and include an `=`; the app shows that first line in monospace so it reads as a formula, with the explanation lines beneath it. (Use `\n\n` if you want a blank line between paragraphs.)
+The front is the prompt (e.g. the formula's name); `formula` is revealed on the **back**, so recall still works.
 
 ---
 

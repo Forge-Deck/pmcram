@@ -47,7 +47,8 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 
 ### Cards (`schema/deck.schema.json`)
 - Only for non-glossary content (formulas, mnemonics). `front` is the prompt, `back` the answer.
-- Multi-line backs: use `\n` for line breaks; put a formula on the first line (with `=`) and it renders in monospace.
+- `back` formats like a guide body: blank line = new paragraph, `- ` lines = bullets.
+- Optional enrichment: `formula` (shown prominently, revealed on the back), `legend` (`[{symbol, meaning}]` variable key), `figure` (`{svg|image, caption}` — same as guide figures), and `tip` (accent callout). Use these to make a card genuinely explain the concept, not just state it.
 
 ### Guides (`schema/guide.schema.json`)
 - Read-and-absorb notes (mindset, agile, exam strategy), keyed by `title`. **Text only — no images.**
