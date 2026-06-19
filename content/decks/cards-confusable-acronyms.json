@@ -8,14 +8,29 @@
     "difficulty": "medium",
     "front": "Procurement requests: RFI vs RFQ vs RFP vs IFB — when do you use each?",
     "legend": [
-      { "symbol": "RFI", "meaning": "Request for Information — early; gauge the market and supplier capabilities (not a purchase)" },
-      { "symbol": "RFQ", "meaning": "Request for Quotation — price-driven; standard / commodity items" },
-      { "symbol": "RFP", "meaning": "Request for Proposal — solution-driven; complex needs, sellers propose how + price" },
-      { "symbol": "IFB", "meaning": "Invitation for Bid (a.k.a. RFB) — detailed sealed bids; award the lowest compliant price" }
+      {
+        "symbol": "RFI",
+        "meaning": "Request for Information — early; gauge the market and supplier capabilities (not a purchase)"
+      },
+      {
+        "symbol": "RFQ",
+        "meaning": "Request for Quotation — price-driven; standard / commodity items"
+      },
+      {
+        "symbol": "RFP",
+        "meaning": "Request for Proposal — solution-driven; complex needs, sellers propose how + price"
+      },
+      {
+        "symbol": "IFB",
+        "meaning": "Invitation for Bid (a.k.a. RFB) — detailed sealed bids; award the lowest compliant price"
+      }
     ],
     "back": "Think information → price → solution. RFI just gathers information. RFQ and IFB compete on price for well-defined work. RFP invites proposed solutions when the work is complex.",
     "tip": "Trap: RFC is NOT a procurement document — in PMP it means Request for Change. Don't let the 'RF' prefix fool you.",
-    "related": ["Contract types", "Request for change"],
+    "related": [
+      "Contract types",
+      "Request for change"
+    ],
     "source": "PMBOK Guide — Procurement management"
   },
   {
@@ -27,9 +42,18 @@
     "difficulty": "hard",
     "front": "Contract types: Fixed-Price vs Cost-Reimbursable vs T&M — who carries the risk?",
     "legend": [
-      { "symbol": "FFP / FPIF / FP-EPA", "meaning": "Fixed-Price family — seller carries the cost risk; best when scope is well defined" },
-      { "symbol": "CPFF / CPIF / CPAF", "meaning": "Cost-Reimbursable family — buyer carries the cost risk; for uncertain scope" },
-      { "symbol": "T&M", "meaning": "Time & Materials — hybrid; good for staff augmentation or short, unclear scope" }
+      {
+        "symbol": "FFP / FPIF / FP-EPA",
+        "meaning": "Fixed-Price family — seller carries the cost risk; best when scope is well defined"
+      },
+      {
+        "symbol": "CPFF / CPIF / CPAF",
+        "meaning": "Cost-Reimbursable family — buyer carries the cost risk; for uncertain scope"
+      },
+      {
+        "symbol": "T&M",
+        "meaning": "Time & Materials — hybrid; good for staff augmentation or short, unclear scope"
+      }
     ],
     "back": "Cost risk shifts from the seller (fixed price) to the buyer (cost-reimbursable), with T&M in between. The clearer the scope, the more you can fix the price.",
     "tip": "FFP = firm fixed price · FPIF = + incentive fee · FP-EPA = + economic price adjustment. CPFF / CPIF / CPAF = cost plus fixed / incentive / award fee.",
@@ -37,7 +61,10 @@
       "svg": "<svg viewBox='0 0 320 120' xmlns='http://www.w3.org/2000/svg' fill='none'><text x='44' y='24' fill='currentColor' font-size='9'>less buyer risk</text><text x='276' y='24' fill='currentColor' font-size='9' text-anchor='end'>more buyer risk</text><line x1='44' y1='34' x2='276' y2='34' stroke='currentColor' stroke-width='1.2'/><polygon points='276,30 285,34 276,38' fill='currentColor'/><rect x='40' y='50' width='92' height='26' fill='#E7F1ED' stroke='currentColor' stroke-width='0.8'/><rect x='132' y='50' width='68' height='26' fill='#F5ECD8' stroke='currentColor' stroke-width='0.8'/><rect x='200' y='50' width='84' height='26' fill='#F6E4DF' stroke='currentColor' stroke-width='0.8'/><text x='86' y='67' fill='currentColor' font-size='10' text-anchor='middle'>Fixed price</text><text x='166' y='67' fill='currentColor' font-size='10' text-anchor='middle'>T&amp;M</text><text x='242' y='67' fill='currentColor' font-size='10' text-anchor='middle'>Cost-reimb.</text><text x='86' y='94' fill='currentColor' font-size='8.5' text-anchor='middle'>seller carries risk</text><text x='242' y='94' fill='currentColor' font-size='8.5' text-anchor='middle'>buyer carries risk</text></svg>",
       "caption": "Cost risk moves from seller (fixed price) to buyer (cost-reimbursable)."
     },
-    "related": ["Procurement requests", "Risk allocation"],
+    "related": [
+      "Procurement requests",
+      "Risk allocation"
+    ],
     "source": "PMBOK Guide — Procurement management"
   },
   {
@@ -49,12 +76,21 @@
     "difficulty": "medium",
     "front": "OPA vs EEF — what's the difference?",
     "legend": [
-      { "symbol": "OPA", "meaning": "Organizational Process Assets — your org's processes, templates, lessons learned, knowledge bases" },
-      { "symbol": "EEF", "meaning": "Enterprise Environmental Factors — conditions outside the team's control (culture, market, regulations, systems)" }
+      {
+        "symbol": "OPA",
+        "meaning": "Organizational Process Assets — your org's processes, templates, lessons learned, knowledge bases"
+      },
+      {
+        "symbol": "EEF",
+        "meaning": "Enterprise Environmental Factors — conditions outside the team's control (culture, market, regulations, systems)"
+      }
     ],
     "back": "OPAs are things the organization HAS that help you — you can use and update them. EEFs are conditions you must work WITHIN and generally can't change.",
     "tip": "Lessons learned, templates, processes = OPA. Government regulations, market conditions, org culture = EEF.",
-    "related": ["Governance", "Knowledge management"],
+    "related": [
+      "Governance",
+      "Knowledge management"
+    ],
     "source": "PMBOK Guide — Foundational concepts"
   },
   {
@@ -66,12 +102,21 @@
     "difficulty": "hard",
     "front": "Contingency reserve vs Management reserve?",
     "legend": [
-      { "symbol": "Contingency", "meaning": "For KNOWN risks (identified). Inside the cost baseline. The PM can authorise its use." },
-      { "symbol": "Management", "meaning": "For UNKNOWN risks (unforeseen). Outside the cost baseline. Management must authorise its use." }
+      {
+        "symbol": "Contingency",
+        "meaning": "For KNOWN risks (identified). Inside the cost baseline. The PM can authorise its use."
+      },
+      {
+        "symbol": "Management",
+        "meaning": "For UNKNOWN risks (unforeseen). Outside the cost baseline. Management must authorise its use."
+      }
     ],
     "back": "Known-unknowns get a contingency reserve held inside the baseline; unknown-unknowns get a management reserve held above the baseline.",
     "tip": "Contingency = inside the baseline, PM controls. Management = outside the baseline, needs management approval.",
-    "related": ["Cost baseline", "Risk management"],
+    "related": [
+      "Cost baseline",
+      "Risk management"
+    ],
     "source": "PMBOK Guide — Cost & Uncertainty"
   },
   {
@@ -83,14 +128,29 @@
     "difficulty": "medium",
     "front": "Breakdown structures: WBS vs OBS vs RBS vs RAM?",
     "legend": [
-      { "symbol": "WBS", "meaning": "Work Breakdown Structure — decomposition of the project SCOPE (lowest level = work package)" },
-      { "symbol": "OBS", "meaning": "Organizational Breakdown Structure — work arranged by org unit / department" },
-      { "symbol": "RBS", "meaning": "Risk Breakdown Structure — risks by category (also: Resource Breakdown Structure!)" },
-      { "symbol": "RAM", "meaning": "Responsibility Assignment Matrix — who does what, e.g. a RACI chart" }
+      {
+        "symbol": "WBS",
+        "meaning": "Work Breakdown Structure — decomposition of the project SCOPE (lowest level = work package)"
+      },
+      {
+        "symbol": "OBS",
+        "meaning": "Organizational Breakdown Structure — work arranged by org unit / department"
+      },
+      {
+        "symbol": "RBS",
+        "meaning": "Risk Breakdown Structure — risks by category (also: Resource Breakdown Structure!)"
+      },
+      {
+        "symbol": "RAM",
+        "meaning": "Responsibility Assignment Matrix — who does what, e.g. a RACI chart"
+      }
     ],
     "back": "WBS = scope, OBS = org units, RBS = risk (or resource) categories, RAM = responsibilities.",
     "tip": "RBS is itself confusable: Risk Breakdown Structure vs Resource Breakdown Structure — read the context.",
-    "related": ["RACI", "Work package"],
+    "related": [
+      "RACI",
+      "Work package"
+    ],
     "source": "PMBOK Guide — Scope & Resources"
   },
   {
@@ -102,13 +162,25 @@
     "difficulty": "medium",
     "front": "Quality Assurance (QA) vs Quality Control (QC)?",
     "legend": [
-      { "symbol": "QA", "meaning": "Quality Assurance — PROCESS focused; prevention; 'are we using the right processes?' (Manage Quality)" },
-      { "symbol": "QC", "meaning": "Quality Control — PRODUCT focused; inspection; 'is the deliverable correct?' (Control Quality)" },
-      { "symbol": "CoQ", "meaning": "Cost of Quality — total cost of prevention, appraisal and failure" }
+      {
+        "symbol": "QA",
+        "meaning": "Quality Assurance — PROCESS focused; prevention; 'are we using the right processes?' (Manage Quality)"
+      },
+      {
+        "symbol": "QC",
+        "meaning": "Quality Control — PRODUCT focused; inspection; 'is the deliverable correct?' (Control Quality)"
+      },
+      {
+        "symbol": "CoQ",
+        "meaning": "Cost of Quality — total cost of prevention, appraisal and failure"
+      }
     ],
     "back": "QA improves and assures the processes (proactive, prevention). QC inspects the actual deliverables (reactive, detection).",
     "tip": "QA = process / prevention / Manage Quality. QC = product / inspection / Control Quality.",
-    "related": ["Cost of quality", "Inspection"],
+    "related": [
+      "Cost of quality",
+      "Inspection"
+    ],
     "source": "PMBOK Guide — Quality management"
   },
   {
@@ -120,13 +192,25 @@
     "difficulty": "medium",
     "front": "Estimate accuracy: ROM vs Budget vs Definitive?",
     "legend": [
-      { "symbol": "ROM", "meaning": "Rough Order of Magnitude — early, −25% to +75%" },
-      { "symbol": "Budget", "meaning": "Budget estimate — −10% to +25%" },
-      { "symbol": "Definitive", "meaning": "Definitive estimate — late & detailed, −5% to +10%" }
+      {
+        "symbol": "ROM",
+        "meaning": "Rough Order of Magnitude — early, −25% to +75%"
+      },
+      {
+        "symbol": "Budget",
+        "meaning": "Budget estimate — −10% to +25%"
+      },
+      {
+        "symbol": "Definitive",
+        "meaning": "Definitive estimate — late & detailed, −5% to +10%"
+      }
     ],
     "back": "Estimates get tighter as the project progresses and detail grows — from a wide ROM early to a narrow definitive estimate later.",
     "tip": "ROM is the widest (−25/+75); definitive is the tightest (−5/+10). Ranges narrow over time.",
-    "related": ["Cost estimating", "Progressive elaboration"],
+    "related": [
+      "Cost estimating",
+      "Progressive elaboration"
+    ],
     "source": "PMBOK Guide — Cost management"
   },
   {
@@ -138,14 +222,29 @@
     "difficulty": "medium",
     "front": "Change terms: CR vs RFC vs CCB vs ICC?",
     "legend": [
-      { "symbol": "CR", "meaning": "Change Request — the formal request to change something" },
-      { "symbol": "RFC", "meaning": "Request for Change — another name for a change request" },
-      { "symbol": "CCB", "meaning": "Change Control Board — the group that approves or rejects changes" },
-      { "symbol": "ICC", "meaning": "Integrated Change Control — the process of reviewing and deciding changes" }
+      {
+        "symbol": "CR",
+        "meaning": "Change Request — the formal request to change something"
+      },
+      {
+        "symbol": "RFC",
+        "meaning": "Request for Change — another name for a change request"
+      },
+      {
+        "symbol": "CCB",
+        "meaning": "Change Control Board — the group that approves or rejects changes"
+      },
+      {
+        "symbol": "ICC",
+        "meaning": "Integrated Change Control — the process of reviewing and deciding changes"
+      }
     ],
-    "back": "A CR / RFC is the request; the CCB is who decides; integrated change control is the process that runs it.",
-    "tip": "Here RFC = Request for CHANGE (not a procurement request). CR and RFC mean the same thing.",
-    "related": ["Procurement requests", "Change control board"],
+    "back": "A change request (CR) is the request; the change control board (CCB) decides; integrated change control is the process that runs it. ('RFC' / 'Request for Change' is an ITIL term, not PMI.)",
+    "tip": "In PMI the term is Change Request (CR). 'RFC' (Request for Change) is ITIL, not PMI — don't expect it on the exam.",
+    "related": [
+      "Procurement requests",
+      "Change control board"
+    ],
     "source": "PMBOK Guide — Integrated change control"
   },
   {
@@ -157,13 +256,25 @@
     "difficulty": "medium",
     "front": "PMO types: Supportive vs Controlling vs Directive?",
     "legend": [
-      { "symbol": "Supportive", "meaning": "Low control — provides templates, training and lessons learned (consultative)" },
-      { "symbol": "Controlling", "meaning": "Moderate control — requires compliance with frameworks / standards" },
-      { "symbol": "Directive", "meaning": "High control — directly manages the projects" }
+      {
+        "symbol": "Supportive",
+        "meaning": "Low control — provides templates, training and lessons learned (consultative)"
+      },
+      {
+        "symbol": "Controlling",
+        "meaning": "Moderate control — requires compliance with frameworks / standards"
+      },
+      {
+        "symbol": "Directive",
+        "meaning": "High control — directly manages the projects"
+      }
     ],
     "back": "Authority rises Supportive → Controlling → Directive. Supportive helps, Controlling requires, Directive runs the projects.",
     "tip": "Degree of control is the differentiator: support < compliance < direct management.",
-    "related": ["Governance", "Organizational structure"],
+    "related": [
+      "Governance",
+      "Organizational structure"
+    ],
     "source": "PMBOK Guide — Project management office"
   },
   {
@@ -175,12 +286,21 @@
     "difficulty": "hard",
     "front": "Free float vs Total float?",
     "legend": [
-      { "symbol": "Free float", "meaning": "Delay an activity without delaying the EARLY START of any successor" },
-      { "symbol": "Total float", "meaning": "Delay an activity without delaying the PROJECT end date" }
+      {
+        "symbol": "Free float",
+        "meaning": "Delay an activity without delaying the EARLY START of any successor"
+      },
+      {
+        "symbol": "Total float",
+        "meaning": "Delay an activity without delaying the PROJECT end date"
+      }
     ],
     "back": "Total float is slack against the project finish; free float is slack against the next activity. Critical-path activities have zero total float.",
     "tip": "Free = relative to the next activity; Total = relative to the project end.",
-    "related": ["Critical path", "Schedule network"],
+    "related": [
+      "Critical path",
+      "Schedule network"
+    ],
     "source": "PMBOK Guide — Schedule management"
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "AI in Project Management",
+    "category": "Emerging trends",
+    "summary": "The 2026 exam treats artificial intelligence as part of everyday project work. The exam tests your judgement in using it - not how the tools work.",
+    "sections": [
+      {
+        "heading": "Why AI is on the exam now",
+        "body": "PMI named artificial intelligence as one of the trends driving the 2026 update, so AI shows up inside ordinary scenarios across all three domains - not as a separate topic. You will not be asked how an algorithm works. You will be asked what a project manager should do when AI is involved.\n\nThe through-line is simple: AI is a powerful assistant, but the project manager stays accountable for the decision.",
+        "tip": "Treat AI like a very fast junior analyst: useful for a first draft, never the final authority."
+      },
+      {
+        "heading": "Where AI genuinely helps",
+        "body": "AI can accelerate real project work:\n\n- Estimating and scheduling - drafting estimates, spotting schedule risk, suggesting sequences.\n- Reporting and communication - summarising status, drafting stakeholder updates.\n- Risk and data analysis - surfacing patterns, candidate risks, and anomalies in large data sets.\n\nIn each case AI produces an input the project manager evaluates - it speeds up the work, it does not own the outcome.",
+        "tip": "Favour answers where AI augments the team's analysis, not ones where it replaces the project manager's decision."
+      },
+      {
+        "heading": "You stay accountable - human oversight",
+        "body": "Accountability cannot be delegated to a tool. AI output is a recommendation to verify against project context, data, and expert judgement before acting. Blindly implementing an AI-generated estimate, schedule, or risk response - or letting it make a stakeholder decision - is the wrong answer.\n\nIf an AI suggestion conflicts with the team's knowledge or the project's reality, investigate the discrepancy rather than defer to the tool.",
+        "tip": "On the exam, 'act on the AI output immediately' is almost always a trap. 'Validate it, then decide' is the mindset."
+      },
+      {
+        "heading": "Data quality and bias",
+        "body": "AI is only as good as the data behind it. Incomplete, outdated, or biased data produces confident-but-wrong output. Before relying on an AI result, the project manager should consider where the data came from, whether it is representative, and what it might be missing.\n\nThis matters most for decisions affecting people and stakeholders, where biased data can lead to unfair or non-compliant outcomes.",
+        "tip": "When an AI result looks surprising, question the data and assumptions first - garbage in, garbage out."
+      },
+      {
+        "heading": "Governance, ethics, privacy, and security",
+        "body": "Using AI raises governance questions the project manager must respect:\n\n- Transparency - disclose where AI was used in analysis or deliverables.\n- Data privacy and security - don't feed confidential or personal data into tools that aren't approved for it.\n- Intellectual property and compliance - follow organizational policy, contracts, and regulations.\n- Ethics - align with the PMI Code of Ethics (responsibility, respect, fairness, honesty).\n\nWhen organizational AI policy exists, follow it; when it doesn't, escalate to establish one rather than improvising.",
+        "tip": "If a scenario hints at confidential data going into a public AI tool, the safe answer protects privacy and checks policy first."
+      },
+      {
+        "heading": "AI as a risk and a stakeholder concern",
+        "body": "AI introduces its own risks - inaccurate output, security exposure, over-reliance, and unclear accountability - that belong in the risk register and response planning. It also creates stakeholder concerns, including fears about job impact and trust in automated decisions.\n\nManage both the way you would any risk and any stakeholder issue: identify, analyse, plan responses, and engage people openly to build understanding.",
+        "tip": "Address AI anxiety with engagement and transparency, not by ignoring it or forcing adoption."
+      }
+    ],
+    "tags": ["ai", "emerging-trends", "2026", "ethics", "risk"],
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (AI as an emerging trend), PMBOK Guide Eighth Edition, and the PMI Code of Ethics and Professional Conduct."
+  }
+]

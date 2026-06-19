@@ -1,0 +1,921 @@
+[
+  {
+    "id": "ai-ai-assisted-estimating-and-human-accountability",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Budget and Resources",
+    "topic": "Plan and Manage Budget and Resources",
+    "subtopic": "AI assisted estimating and human accountability",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager uses an AI estimating tool to generate cost and effort estimates for a software modernization project. The sponsor wants to approve the baseline immediately because the tool used years of historical data and produced results in minutes. What should the project manager do first?",
+      "During planning, an AI tool creates a detailed cost and effort estimate for a complex product upgrade. Senior leaders want to accept the numbers as the project baseline without further review because the model was trained on prior projects. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Review the AI assumptions, validate the source data quality and relevance, and have qualified team members and subject matter experts confirm the estimate before baselining it",
+        "why": "The project manager remains accountable for the estimate and should use AI as decision support, not as a substitute for expert validation and governance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve the estimate because AI reduces human error and historical data makes the result objective",
+        "trap": "Assumes AI output is inherently reliable and removes the need for human judgment."
+      },
+      {
+        "text": "Ask the vendor to certify the estimate so accountability transfers from the project manager to the tool provider",
+        "trap": "Incorrectly attempts to abdicate project accountability to a third party."
+      },
+      {
+        "text": "Use the AI estimate only if the sponsor signs a risk acceptance statement and then skip further review",
+        "trap": "Treats governance as a waiver instead of performing proper validation."
+      },
+      {
+        "text": "Replace all analogous and expert based estimating methods because AI is more current than traditional techniques",
+        "trap": "Frames AI as a full replacement rather than one input among multiple estimating approaches."
+      },
+      {
+        "text": "Lock the baseline now and adjust it later if the team reports problems during execution",
+        "trap": "Defers due diligence and accepts preventable planning risk."
+      }
+    ],
+    "explanation": "PMP judgment favors verification before commitment. AI can accelerate estimating, but the project manager is still responsible for validating assumptions, checking data quality, and applying expert review before using outputs in a baseline. Fast output does not reduce accountability.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Measurement Performance Domain",
+      "Process Groups A Practice Guide, Develop Budget and Estimate Activity Resources"
+    ],
+    "tags": [
+      "ai",
+      "ai-assisted-estimating-and-human-accountability"
+    ]
+  },
+  {
+    "id": "ai-ai-scheduling-limits-and-compliance",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "AI scheduling limits and compliance",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager adopts an AI scheduling assistant that automatically resequences activities and shortens the schedule by removing what it labels as low value testing tasks. The team is impressed, but the quality lead says the tool may not understand regulatory validation requirements. What should the project manager do?",
+      "An AI scheduling application proposes a compressed timeline and recommends dropping several verification activities to meet an aggressive launch date. A compliance specialist warns that the model may not reflect mandatory validation work. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Pause adoption of the revised schedule, verify the logic against quality and compliance requirements, and update the plan only after human review confirms the changes are acceptable",
+        "why": "When AI recommendations conflict with mandatory requirements, the project manager should validate constraints and retain human control over schedule decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the AI schedule because shorter duration indicates better optimization than manual planning",
+        "trap": "Equates optimization with validity and ignores regulatory and quality constraints."
+      },
+      {
+        "text": "Tell the quality lead that compliance is outside scheduling and can be handled during execution",
+        "trap": "Separates schedule planning from required quality and compliance considerations."
+      },
+      {
+        "text": "Use the compressed schedule and remove the flagged tasks because AI identified them as low value",
+        "trap": "Lets the model redefine scope and required controls without governance."
+      },
+      {
+        "text": "Keep both schedules active and let the team choose whichever version seems most practical",
+        "trap": "Avoids accountable decision making and creates governance ambiguity."
+      },
+      {
+        "text": "Delegate the decision to the AI tool administrator because they understand the model better than the project team",
+        "trap": "Transfers project decision authority away from the responsible project leadership role."
+      }
+    ],
+    "explanation": "AI can support schedule analysis, but it cannot override required quality, compliance, or scope constraints. Sound practice is to review the recommendation against project requirements and only implement changes after accountable human evaluation. Schedule compression is not beneficial if it introduces noncompliance or product failure risk.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Delivery Performance Domain",
+      "Process Groups A Practice Guide, Develop Schedule and Plan Quality Management"
+    ],
+    "tags": [
+      "ai",
+      "ai-scheduling-limits-and-compliance"
+    ]
+  },
+  {
+    "id": "ai-ai-generated-reporting-transparency-and-oversight",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "AI generated reporting transparency and oversight",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager uses AI to draft weekly status reports and stakeholder summaries. After distribution, a key stakeholder points out that the report overstated progress and omitted a major unresolved dependency. What should the project manager do first?",
+      "To save time, a project manager begins sending AI generated project updates directly to stakeholders. A functional manager then notices the update contains an inaccurate completion percentage and leaves out an important blocker. What is the best immediate action?"
+    ],
+    "correct": [
+      {
+        "text": "Correct the report promptly, explain that AI generated content must be reviewed before release, and establish a human verification step for future stakeholder communications",
+        "why": "The project manager is accountable for accurate communications and should add transparent controls rather than relying on unreviewed automation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Continue using the AI reports because minor errors are acceptable if communication is faster overall",
+        "trap": "Prioritizes speed over accuracy and stakeholder trust."
+      },
+      {
+        "text": "Stop reporting the blocker until the AI model improves enough to capture it consistently",
+        "trap": "Withholds material project information due to tool limitations."
+      },
+      {
+        "text": "Have stakeholders submit corrections each week so the AI can learn from the audience instead of the project team",
+        "trap": "Shifts reporting accountability to stakeholders."
+      },
+      {
+        "text": "Label all future reports as draft and send them without review to preserve efficiency",
+        "trap": "Uses disclaimers to justify weak governance and inaccurate communications."
+      },
+      {
+        "text": "Restrict status reporting to dashboards only because visual outputs are less likely to be wrong than narrative summaries",
+        "trap": "Confuses format with validity and avoids the root control problem."
+      }
+    ],
+    "explanation": "Communications remain a project manager responsibility even when AI helps draft them. The right response is to correct misinformation quickly, maintain transparency, and add a review control before distribution. Stakeholder trust is damaged when automation is used without oversight.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Stakeholders Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Measurement Performance Domain",
+      "Process Groups A Practice Guide, Manage Communications"
+    ],
+    "tags": [
+      "ai",
+      "ai-generated-reporting-transparency-and-oversight"
+    ]
+  },
+  {
+    "id": "ai-data-quality-bias-privacy-and-ai-governance",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Data quality bias privacy and AI governance",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team wants to use an AI risk analysis tool trained on organizational incident data from several regions. During review, the legal advisor notes the dataset includes personal information and may underrepresent newer markets, while the model output gives very confident rankings. What should the project manager do?",
+      "An AI application is proposed to analyze project risks using historical operational data. The data owner warns that the dataset contains sensitive personal records and has limited coverage for the newest business units, yet leaders want to use the output immediately because the confidence score is high. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Escalate for governance review, address privacy and security requirements, evaluate bias and data representativeness, and use the tool only with approved safeguards and human interpretation",
+        "why": "AI use must comply with governance, ethics, privacy, and data quality expectations before its outputs inform project decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed because risk tools are advisory and therefore privacy and bias concerns do not apply until execution starts",
+        "trap": "Treats early analysis as exempt from compliance and ethical obligations."
+      },
+      {
+        "text": "Remove the personal identifiers after the analysis is complete and keep the current results because the confidence score is strong",
+        "trap": "Applies privacy controls too late and overtrusts model certainty."
+      },
+      {
+        "text": "Use the output for the underrepresented markets only, since fewer data points make the AI more neutral there",
+        "trap": "Misunderstands bias and assumes sparse data improves fairness."
+      },
+      {
+        "text": "Ask the sponsor to approve the tool and then classify the issue as accepted project risk",
+        "trap": "Attempts to bypass governance by using sponsor approval as a substitute for compliance."
+      },
+      {
+        "text": "Replace the existing risk review process with the AI model so all teams use one consistent ranking method",
+        "trap": "Assumes consistency is more important than data fitness, privacy, and human scrutiny."
+      }
+    ],
+    "explanation": "This scenario combines several core AI concerns: sensitive data, biased or incomplete training data, and false confidence from model outputs. PMP aligned action is to apply governance and compliance before use, not after, and to preserve accountable human interpretation of the analysis. High confidence does not mean the model is appropriate or lawful to use.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Uncertainty Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Eighth Edition, Governance considerations across performance domains",
+      "Process Groups A Practice Guide, Plan Risk Management and Plan Compliance Management"
+    ],
+    "tags": [
+      "ai",
+      "data-quality-bias-privacy-and-ai-governance"
+    ]
+  },
+  {
+    "id": "ai-ai-use-boundaries-in-regulated-deliverables",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Plan and Manage Quality of Products/Deliverables",
+    "subtopic": "AI use boundaries in regulated deliverables",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team wants to use a generative AI tool to draft acceptance criteria and test scenarios for a regulated product increment. The tool was trained on mixed public and internal data, and the sponsor is pressing for speed. What should the project manager do first to apply sound project management judgment?",
+      "During planning for a regulated product release, the team proposes using generative AI to create acceptance criteria and test scenarios from historical artifacts. The AI output appears complete, but the data sources are mixed and not fully traceable. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Require subject matter expert review of the AI draft, validate traceability to approved requirements, and allow use only within defined quality and compliance controls",
+        "why": "This keeps accountability with humans and ensures AI output is verified before it influences a regulated deliverable."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the AI generated criteria because the tool has produced accurate work on earlier projects",
+        "trap": "Assumes past usefulness removes the need for current verification and context specific quality checks"
+      },
+      {
+        "text": "Use the AI output as the baseline immediately and plan to correct errors during execution",
+        "trap": "Treats rework as acceptable instead of managing quality proactively"
+      },
+      {
+        "text": "Let the vendor certify that the output is compliant and transfer responsibility to the tool provider",
+        "trap": "Abdicates project accountability to an external party"
+      },
+      {
+        "text": "Ban all AI use on the project because regulated work can never involve AI support",
+        "trap": "Applies an absolute rule instead of selecting controlled and appropriate use"
+      }
+    ],
+    "explanation": "The best PMP style response is to keep human accountability for decisions that affect product quality and compliance. AI can support work, but it should not replace expert review, traceability, or established quality controls, especially where deliverables are regulated or safety relevant.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Quality and Verification sections",
+      "PMBOK Guide Eighth Edition, Emerging Trends and AI enabled delivery guidance",
+      "PMP Examination Content Outline 2026, Process domain"
+    ],
+    "tags": [
+      "ai",
+      "ai-use-boundaries-in-regulated-deliverables"
+    ]
+  },
+  {
+    "id": "ai-ai-enabled-risk-sensing-with-privacy-controls",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Assess and Manage Risks",
+    "topic": "Assess and Manage Risks",
+    "subtopic": "AI enabled risk sensing with privacy controls",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager is considering an AI tool to identify emerging risk patterns from team chat, issue logs, and vendor updates. Several stakeholders are concerned that the tool may misread sarcasm, create false signals, and expose sensitive information. What should the project manager do next?",
+      "An AI based risk sensing tool is proposed to scan collaboration channels and supplier reports for warning signs. The team sees possible value, but stakeholders raise concerns about false positives and data exposure. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Define what data can be used, apply privacy and security controls, and confirm that the use aligns with organizational governance before deployment",
+        "why": "AI risk analysis should be governed by approved data handling and security rules before project data is processed."
+      },
+      {
+        "text": "Pilot the tool on a limited dataset and compare its findings with expert risk review before relying on it for decisions",
+        "why": "A controlled pilot validates usefulness and limits harm from inaccurate or biased signals."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Enable the tool across all communication channels immediately so no early warning is missed",
+        "trap": "Assumes broader surveillance automatically improves risk management despite privacy and accuracy concerns"
+      },
+      {
+        "text": "Use only the AI identified risks in the register because automated analysis is more objective than people",
+        "trap": "Over trusts automation and removes necessary human judgment"
+      },
+      {
+        "text": "Avoid documenting the tool's limitations so stakeholders do not resist adoption",
+        "trap": "Ignores transparency and undermines informed stakeholder engagement"
+      },
+      {
+        "text": "Transfer responsibility for any incorrect conclusions to the software vendor in the risk plan",
+        "trap": "Treats accountability as transferable instead of managed by the project"
+      }
+    ],
+    "explanation": "The project manager should manage both delivery risk and AI related risk. That means governing the data used by the tool and validating performance in a pilot before decisions depend on it. Privacy, security, and model reliability are part of sound risk management, not separate concerns.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Risk and Uncertainty sections",
+      "PMBOK Guide Eighth Edition, Governance and Information stewardship sections",
+      "PMP Examination Content Outline 2026, Process domain"
+    ],
+    "tags": [
+      "ai",
+      "ai-enabled-risk-sensing-with-privacy-controls"
+    ]
+  },
+  {
+    "id": "ai-stakeholder-trust-and-job-impact-concerns",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders and Build Shared Understanding",
+    "topic": "Engage Stakeholders and Build Shared Understanding",
+    "subtopic": "Stakeholder trust and job impact concerns",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor wants an AI chatbot to answer stakeholder questions about a transformation project because response times are slow. Several employees fear the tool signals future job cuts and say they do not trust automated answers on sensitive topics. What should the project manager do?",
+      "To improve communication speed, a sponsor proposes using an AI assistant to handle most stakeholder inquiries about a transformation initiative. Team members and impacted employees worry about job impact and do not trust automated responses for sensitive issues. What should the project manager do first?"
+    ],
+    "correct": [
+      {
+        "text": "Engage stakeholders to understand concerns, explain the intended use and limits of the AI tool, and reserve sensitive communications for human led channels",
+        "why": "This addresses trust, change impact, and appropriate channel selection while keeping people centered in stakeholder engagement."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Deploy the chatbot quickly so stakeholders become accustomed to it through repeated exposure",
+        "trap": "Assumes adoption problems are solved by forcing use instead of addressing stakeholder concerns"
+      },
+      {
+        "text": "Tell employees that staffing decisions are outside the project and therefore irrelevant to communication planning",
+        "trap": "Dismisses legitimate stakeholder concerns that affect engagement and project outcomes"
+      },
+      {
+        "text": "Use the chatbot for all responses to ensure consistency and avoid emotional conversations",
+        "trap": "Confuses consistency with effective stakeholder engagement and removes empathy from sensitive interactions"
+      },
+      {
+        "text": "Delay all communication until leadership finalizes an organization wide AI policy",
+        "trap": "Creates unnecessary delay instead of managing concerns within current project governance"
+      }
+    ],
+    "explanation": "A PMP aligned response recognizes that stakeholder concerns about trust and job impact are real project factors. The project manager should build shared understanding, communicate transparently about the role and limits of AI, and keep sensitive communications under human leadership.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Stakeholders and Communication sections",
+      "PMBOK Guide Eighth Edition, Change and Human centered leadership sections",
+      "PMP Examination Content Outline 2026, People domain"
+    ],
+    "tags": [
+      "ai",
+      "stakeholder-trust-and-job-impact-concerns"
+    ]
+  },
+  {
+    "id": "ai-ai-transparency-in-procurement-decisions",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "AI transparency in procurement decisions",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is using an AI assistant to suggest procurement language and summarize supplier proposals. The legal advisor warns that the tool may generate unsupported clauses and cannot show how it derived recommendations. What should the project manager do?",
+      "During vendor selection, the team wants to rely on AI generated summaries and contract clause suggestions to save time. Legal counsel notes that the recommendations are not fully explainable and may include fabricated content. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Use the AI only as a drafting aid, require legal and procurement review of all outputs, and document decision criteria independently of the tool",
+        "why": "This preserves transparency, keeps accountable roles in control, and avoids relying on non explainable output for binding decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the AI recommendations because procurement speed is more important than understanding how the output was produced",
+        "trap": "Prioritizes speed over explainability and control in a high consequence process"
+      },
+      {
+        "text": "Remove legal review because the AI has been trained on many contracts and should be more current than internal staff",
+        "trap": "Replaces required expert oversight with unsupported confidence in training data"
+      },
+      {
+        "text": "Allow the tool to negotiate directly with suppliers to reduce bias from the team",
+        "trap": "Misunderstands governance and delegates accountable judgment to automation"
+      },
+      {
+        "text": "Avoid documenting the role of AI so stakeholders focus on the final decision rather than the method",
+        "trap": "Ignores transparency and weakens auditability"
+      }
+    ],
+    "explanation": "Procurement decisions require traceability, review, and defensible criteria. AI can help prepare drafts or summaries, but procurement and legal accountability remains with people, and final decisions should be based on documented evaluation logic that does not depend on opaque output.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Procurement and Decision making sections",
+      "PMBOK Guide Eighth Edition, Governance and Transparency sections",
+      "PMP Examination Content Outline 2026, Process domain"
+    ],
+    "tags": [
+      "ai",
+      "ai-transparency-in-procurement-decisions"
+    ]
+  },
+  {
+    "id": "ai-ai-supported-planning-with-expert-validation",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "AI supported planning with expert validation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a cross-functional project and the team wants to use a generative AI assistant to draft the work breakdown structure, user stories, and acceptance criteria to accelerate planning. The outputs look polished, but several team leads note that the AI does not understand key dependencies, architecture constraints, and contractual exclusions. What should the project manager do first?",
+      "During project planning, a team proposes using an AI tool to produce the initial scope decomposition and backlog content. The draft appears complete, yet subject matter experts identify missing dependencies and incorrect assumptions. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Use the AI draft as an input, then facilitate expert review and refine the planning artifacts before baselining any commitments",
+        "why": "AI can accelerate drafting, but the project manager remains accountable for integrating validated inputs into reliable plans."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Adopt the AI output immediately because faster planning increases business value and the tool has already synthesized large amounts of data",
+        "trap": "Assumes speed and apparent completeness are enough to replace validation"
+      },
+      {
+        "text": "Ask the AI tool to approve its own work by running additional iterations until the responses converge",
+        "trap": "Treats repeated AI output as equivalent to independent verification"
+      },
+      {
+        "text": "Delegate ownership of scope accuracy to the business analyst because they prompted the tool",
+        "trap": "Abdicates the project manager's integration and accountability role"
+      },
+      {
+        "text": "Freeze the planning workshop until the organization creates a perfect enterprise AI policy",
+        "trap": "Overcorrects by halting reasonable progress instead of applying immediate human oversight"
+      },
+      {
+        "text": "Remove subject matter experts from the review to avoid biasing the AI generated baseline",
+        "trap": "Misunderstands bias mitigation and excludes the very experts needed for validation"
+      }
+    ],
+    "explanation": "The best PMP style response is to treat AI output as a draft that requires human review, integration, and confirmation with relevant experts. The project manager should not baseline scope or downstream commitments from unverified AI content, especially when constraints and dependencies are contested. Sound judgment balances efficiency with accountability.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Project Work Performance and Integration concepts",
+      "PMP Examination Content Outline, Process Domain",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "ai-supported-planning-with-expert-validation"
+    ]
+  },
+  {
+    "id": "ai-bias-awareness-in-ai-supported-resource-decisions",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Budget and Resources",
+    "topic": "Plan and Manage Budget and Resources",
+    "subtopic": "Bias awareness in AI supported resource decisions",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is considering an AI assistant to recommend resource assignments across several workstreams. Team members are concerned that the recommendations may favor people with the most historical data in the system while overlooking newer staff and creating unfair development opportunities. What should the project manager do next?",
+      "An AI based staffing support tool recommends resource allocations for an ongoing project. Several stakeholders raise concerns that the model may encode past assignment patterns and disadvantage newer or less visible team members. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Review the recommendation criteria, test for biased patterns with appropriate stakeholders, and make the final assignment decision using transparent human judgment",
+        "why": "The project manager should evaluate data quality and fairness risks before using AI supported recommendations in resource decisions."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the AI recommendations because algorithms are more objective than human managers",
+        "trap": "Assumes AI is inherently unbiased"
+      },
+      {
+        "text": "Ignore the concern because resource optimization is an internal team matter and not a stakeholder issue",
+        "trap": "Dismisses legitimate fairness and stakeholder trust concerns"
+      },
+      {
+        "text": "Use only the recommendations for current high performers since historical data makes those assignments the least risky",
+        "trap": "Reinforces biased historical patterns"
+      },
+      {
+        "text": "Require the team to stop questioning the tool so the project can preserve schedule performance",
+        "trap": "Prioritizes speed over ethical and quality considerations"
+      },
+      {
+        "text": "Let the vendor decide whether the model is fair enough for the project environment",
+        "trap": "Transfers governance responsibility to an external party"
+      }
+    ],
+    "explanation": "PMP judgment emphasizes responsible decision making, stakeholder awareness, and quality of inputs used in planning. When AI recommendations may reflect biased historical data, the project manager should examine the basis of those recommendations, involve relevant stakeholders, and retain accountable decision authority. Transparent human review is essential.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Resource Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Quality Performance Domain",
+      "PMP Examination Content Outline, Process Domain",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "bias-awareness-in-ai-supported-resource-decisions"
+    ]
+  },
+  {
+    "id": "ai-privacy-and-security-boundaries-for-ai-use",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "Privacy and security boundaries for AI use",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor asks the project manager to use a public generative AI tool to summarize internal lessons learned, vendor performance notes, and incident records before a governance review. The project includes confidential client information and sensitive security findings. What should the project manager do?",
+      "Before a portfolio review, a project manager is asked to speed up knowledge consolidation with a public AI service using internal project records that include confidential client and security details. What should the project manager do first?"
+    ],
+    "correct": [
+      {
+        "text": "Confirm organizational policy and data handling requirements, protect sensitive information, and use only an approved approach for any AI assisted summarization",
+        "why": "Compliance, privacy, and security controls must be honored before any project information is shared with AI tools."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed because the output is only a summary and summaries are not subject to data protection concerns",
+        "trap": "Assumes transformed data is automatically safe to disclose"
+      },
+      {
+        "text": "Upload the files after removing only client names because that fully eliminates security and privacy risk",
+        "trap": "Treats superficial anonymization as sufficient without policy review"
+      },
+      {
+        "text": "Use the tool now and document the decision later if no incident occurs",
+        "trap": "Places convenience ahead of compliance and governance"
+      },
+      {
+        "text": "Ask the AI vendor to certify that the project manager is no longer responsible for data exposure",
+        "trap": "Attempts to contract away accountability"
+      },
+      {
+        "text": "Avoid documenting lessons learned so no sensitive information can be exposed",
+        "trap": "Abandons knowledge management instead of applying controlled handling"
+      }
+    ],
+    "explanation": "The correct action is to start with policy, compliance, and data protection obligations, then choose an approved method consistent with those requirements. PMP style reasoning does not permit convenience or sponsor pressure to override privacy and security responsibilities. The project manager remains accountable for proper handling of project information.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Uncertainty and Compliance concepts",
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Measurement and Knowledge Management concepts",
+      "PMP Examination Content Outline, Business Environment Domain",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "privacy-and-security-boundaries-for-ai-use"
+    ]
+  },
+  {
+    "id": "ai-when-not-to-rely-on-ai-over-direct-evidence",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Manage Project Issues",
+    "topic": "Manage Project Issues",
+    "subtopic": "When not to rely on AI over direct evidence",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager uses an AI assistant to help identify emerging issue patterns from defect logs, team messages, and change requests. The tool flags a likely integration problem and recommends no immediate action because the confidence score is low. However, the technical lead reports early signs of production impact. What should the project manager do?",
+      "An AI tool that monitors project signals rates a possible integration issue as low confidence and suggests waiting for more data. At the same time, a technical lead observes credible evidence of escalating impact. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Treat the AI result as one input, assess the issue with the team using current evidence, and take timely action based on risk and impact",
+        "why": "AI confidence scores do not override credible project evidence or the need for prompt issue management."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until the AI confidence score rises before opening an issue log entry or escalating the concern",
+        "trap": "Lets a tool threshold delay responsible action"
+      },
+      {
+        "text": "Follow the AI recommendation because using a consistent automated method avoids human overreaction",
+        "trap": "Over trusts automation despite contrary evidence"
+      },
+      {
+        "text": "Disable all AI monitoring because one questionable recommendation proves the technology has no value",
+        "trap": "Swings to an absolute rejection instead of calibrated use"
+      },
+      {
+        "text": "Ask the technical lead to stop raising concerns until the data model is retrained",
+        "trap": "Suppresses expert judgment in favor of the tool"
+      },
+      {
+        "text": "Close the matter informally because no confirmed incident has yet been reported by customers",
+        "trap": "Confuses early issue management with confirmed external impact"
+      }
+    ],
+    "explanation": "PMP style decision making requires the project manager to synthesize multiple signals and act proportionately to emerging impact. AI can support pattern detection, but it should not override credible human evidence or delay timely issue response. Human oversight means using judgment, not merely following a score.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Uncertainty Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Process Groups A Practice Guide, Issue and Escalation concepts",
+      "PMP Examination Content Outline, Process Domain",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "when-not-to-rely-on-ai-over-direct-evidence"
+    ]
+  },
+  {
+    "id": "ai-human-review-of-ai-communications",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Manage Communications",
+    "topic": "Manage Communications",
+    "subtopic": "human review of AI communications",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager on a product development project uses an internal AI tool to consolidate status inputs and draft the weekly stakeholder update. The draft highlights only positive trends and omits a recently escalated defect that could affect a key milestone. The sponsor asks the project manager to send the AI draft immediately to save time. What should the project manager do first?",
+      "A project manager uses an approved AI assistant to prepare a weekly project update. The generated report is polished but leaves out a newly raised issue with potential schedule impact. The sponsor wants the report sent right away because the team is busy. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Review the AI draft against current project data, correct omissions, and communicate the validated status with clear ownership by the project manager.",
+        "why": "The project manager remains accountable for accurate communications and should verify AI output before distribution."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Send the AI generated report as is because the tool is approved for internal project use.",
+        "trap": "Assumes tool approval removes the need for human accountability and validation."
+      },
+      {
+        "text": "Remove all negative information so the report remains aligned with stakeholder preferences and preserves confidence in the AI tool.",
+        "trap": "Confuses stakeholder satisfaction with transparent and accurate reporting."
+      },
+      {
+        "text": "Delegate final ownership of status accuracy to the team leads because they supplied the source inputs.",
+        "trap": "Abdicates the project manager's responsibility for integrated communications."
+      },
+      {
+        "text": "Pause all future use of AI on the project because one report contained an omission.",
+        "trap": "Overreacts by banning the tool instead of applying appropriate oversight and controls."
+      },
+      {
+        "text": "Ask the sponsor to decide whether the omitted defect is material enough to include before the report is sent.",
+        "trap": "Shifts responsibility for truthful project communication to the sponsor."
+      }
+    ],
+    "explanation": "AI can help draft communications, but it does not replace the project manager's accountability for completeness, accuracy, and transparency. Sound PMP judgment is to validate generated content against current project information, then issue a corrected update with the project manager retaining ownership. The issue is not the use of AI itself, but the failure to apply human oversight.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Stewardship",
+      "PMBOK Guide Eighth Edition, Performance Domain: Measurement",
+      "PMBOK Guide Eighth Edition, Performance Domain: Stakeholders",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "human-review-of-ai-communications"
+    ]
+  },
+  {
+    "id": "ai-ai-data-handling-and-governance",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "AI data handling and governance",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is planning a global rollout and considers using a public AI tool to analyze historical incident logs and customer records to identify implementation risks. A compliance lead warns that the dataset may include personal and confidential information from multiple jurisdictions. What should the project manager do next?",
+      "During risk analysis for an international deployment, the project manager wants to upload operational records into a public AI service to detect patterns. A compliance specialist notes that the records may contain regulated and sensitive data. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Confirm approved data handling rules, avoid exposing sensitive data to unapproved tools, and use a compliant method with sanitized or authorized data before proceeding.",
+        "why": "The project manager should align AI use with privacy, security, and compliance requirements before using project data."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Proceed because the goal is internal risk reduction and the AI output will not be shared outside the project.",
+        "trap": "Assumes internal intent eliminates privacy and compliance obligations."
+      },
+      {
+        "text": "Upload the full dataset but require the AI tool to delete the information after analysis.",
+        "trap": "Overtrusts tool settings instead of following organizational and legal controls."
+      },
+      {
+        "text": "Ask a team member to remove only customer names and then use the public AI tool without further review.",
+        "trap": "Treats basic masking as sufficient without validating broader sensitive data risks and approved usage."
+      },
+      {
+        "text": "Skip risk analysis entirely because AI cannot be used when any sensitive information exists.",
+        "trap": "Mistakes governance for prohibition and ignores compliant alternatives."
+      },
+      {
+        "text": "Let the vendor decide whether the data is safe to process because the vendor built the AI capability.",
+        "trap": "Transfers governance responsibility away from the project and organization."
+      }
+    ],
+    "explanation": "The correct action is to apply governance before using AI, especially when data may contain personal, confidential, or regulated information. PMP judgment favors protecting privacy and security, using approved tools and controls, and ensuring the analysis method is compliant. AI can support risk work only within clear organizational and legal boundaries.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Stewardship",
+      "PMBOK Guide Eighth Edition, Performance Domain: Uncertainty",
+      "PMBOK Guide Eighth Edition, Performance Domain: Planning",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "ai-data-handling-and-governance"
+    ]
+  },
+  {
+    "id": "ai-fairness-and-bias-review-in-ai-supported-decisions",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Budget and Resources",
+    "topic": "Plan and Manage Budget and Resources",
+    "subtopic": "fairness and bias review in AI supported decisions",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager receives an AI generated recommendation for assigning critical work packages. The recommendation consistently favors one geographic group and excludes several qualified team members. The team has begun to question fairness and morale is declining. What should the project manager do?",
+      "An AI based resource recommendation used on a project repeatedly selects similar team members for high visibility assignments while overlooking other qualified contributors. Team members raise concerns about fairness. What should the project manager do first?"
+    ],
+    "correct": [
+      {
+        "text": "Review the recommendation criteria and underlying data for potential bias, then make resource decisions using validated information and transparent judgment.",
+        "why": "The project manager should investigate possible bias and retain accountable decision making rather than blindly following AI output."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Use the AI recommendation because algorithmic decisions are more objective than human judgment.",
+        "trap": "Assumes AI is inherently unbiased and superior to reviewed human judgment."
+      },
+      {
+        "text": "Randomly rotate assignments across the team to avoid any appearance of bias, regardless of skills or project needs.",
+        "trap": "Replaces one flawed process with an unqualified allocation method that ignores project requirements."
+      },
+      {
+        "text": "Tell the team that assignment logic is confidential because it comes from an advanced AI model.",
+        "trap": "Uses opacity to avoid transparency and stakeholder trust concerns."
+      },
+      {
+        "text": "Allow the functional managers to accept or reject the AI suggestions without any project level review.",
+        "trap": "Abandons integrated oversight of resource decisions affecting project outcomes."
+      },
+      {
+        "text": "Stop discussing the issue until the project is complete so productivity is not disrupted.",
+        "trap": "Ignores a current people and governance issue that can worsen trust and performance."
+      }
+    ],
+    "explanation": "When AI supported recommendations raise fairness concerns, the project manager should inspect the data and logic used, then apply transparent and accountable judgment. Resource decisions must remain aligned with project needs, ethics, and team trust. The best response is neither blind acceptance nor arbitrary rejection, but verified decision making.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Stewardship",
+      "PMBOK Guide Eighth Edition, Performance Domain: Team",
+      "PMBOK Guide Eighth Edition, Performance Domain: Stakeholders",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "fairness-and-bias-review-in-ai-supported-decisions"
+    ]
+  },
+  {
+    "id": "ai-challenging-unrealistic-ai-optimization",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule",
+    "topic": "Plan and Manage Schedule",
+    "subtopic": "challenging unrealistic AI optimization",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is under pressure to compress a delivery timeline. An AI scheduling tool recommends a highly optimized sequence that removes all contingency and assumes uninterrupted specialist availability. Several team members say the plan does not reflect known operational constraints. What should the project manager do?",
+      "To recover a slipping milestone, a project manager uses an AI tool to generate a revised schedule. The proposal appears efficient but ignores recurring access windows, specialist time limits, and likely interruptions identified by the team. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Validate the assumptions with the team and constraints data, then revise the schedule using realistic dependencies, capacity limits, and reserves before baselining changes.",
+        "why": "The project manager should test AI recommendations against actual delivery conditions and maintain a credible schedule."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Adopt the AI schedule immediately because optimization produces the fastest path to the milestone.",
+        "trap": "Equates computational efficiency with feasibility and ignores delivery realities."
+      },
+      {
+        "text": "Remove team members from schedule review because human skepticism slows innovation.",
+        "trap": "Dismisses expert input and weakens collaborative planning."
+      },
+      {
+        "text": "Use the AI schedule as the committed baseline and adjust only after work begins to see whether concerns are valid.",
+        "trap": "Treats execution as the test environment for known planning flaws."
+      },
+      {
+        "text": "Escalate the schedule to the sponsor without analysis so leadership can decide whether realism matters more than speed.",
+        "trap": "Avoids the project manager's responsibility to integrate planning information."
+      },
+      {
+        "text": "Abandon formal scheduling and direct the team to work in whatever order the AI reprioritizes each day.",
+        "trap": "Confuses adaptability with lack of disciplined schedule management."
+      }
+    ],
+    "explanation": "AI may generate optimized schedules, but the project manager must confirm that assumptions reflect real constraints, capacity, dependencies, and uncertainty. A usable schedule is credible, not merely fast on paper. Human review and integration of expert input are essential before committing to changes.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain: Planning",
+      "PMBOK Guide Eighth Edition, Performance Domain: Delivery",
+      "PMBOK Guide Eighth Edition, Performance Domain: Team",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "challenging-unrealistic-ai-optimization"
+    ]
+  },
+  {
+    "id": "ai-addressing-stakeholder-concern-about-ai-adoption",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders and Build Shared Understanding",
+    "topic": "Engage Stakeholders and Build Shared Understanding",
+    "subtopic": "addressing stakeholder concern about AI adoption",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project manager introduces AI tools to improve project analysis and routine work. Several stakeholders and team members express concern that the technology will replace roles, reduce trust in decisions, and make the project less transparent. What should the project manager do?",
+      "After AI capabilities are added to a project workflow, team members and business stakeholders worry about job impact, decision opacity, and loss of control. What is the best action for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Engage stakeholders in open discussions about how AI will and will not be used, including decision ownership, limits, and expected benefits.",
+        "why": "Clear communication about boundaries and accountability builds understanding and trust."
+      },
+      {
+        "text": "Provide a change approach that includes training, feedback channels, and reinforcement that people remain responsible for key judgments and outcomes.",
+        "why": "AI adoption is an organizational change that requires support, transparency, and human accountability."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Minimize discussion of AI details so resistance does not spread before the benefits become visible.",
+        "trap": "Assumes silence reduces risk instead of increasing mistrust."
+      },
+      {
+        "text": "Tell stakeholders the organization selected the tool, so concerns about role impact are outside the project's scope.",
+        "trap": "Avoids stakeholder engagement and ignores change impacts on the project."
+      },
+      {
+        "text": "Promise that AI recommendations will replace subjective human decisions to ensure consistency.",
+        "trap": "Frames AI as a substitute for accountable judgment rather than a support mechanism."
+      },
+      {
+        "text": "Require all teams to use the AI tool immediately without exceptions to accelerate adoption.",
+        "trap": "Forces compliance without change support, readiness, or trust building."
+      },
+      {
+        "text": "Limit AI usage announcements to senior leadership because detailed communication could confuse end users.",
+        "trap": "Restricts transparency and excludes affected stakeholders from shared understanding."
+      }
+    ],
+    "explanation": "Concerns about AI often involve trust, role impact, and transparency, so the project manager should address them through stakeholder engagement and structured change support. The best response makes boundaries explicit, keeps humans accountable for decisions, and creates room for training and feedback. Overly directive or opaque approaches usually increase resistance and risk.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain: Stakeholders",
+      "PMBOK Guide Eighth Edition, Performance Domain: Team",
+      "PMBOK Guide Eighth Edition, Performance Domain: Measurement",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "ai",
+      "addressing-stakeholder-concern-about-ai-adoption"
+    ]
+  }
+]

@@ -1,0 +1,799 @@
+[
+  {
+    "id": "sustainability-sustainability-as-scope-and-planning-requirement",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "Sustainability as scope and planning requirement",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a facility upgrade project. During planning, a key stakeholder says the product must meet the organization's ESG commitments, reduce energy use, and avoid suppliers with poor environmental practices, but the sponsor is worried this could slow delivery. What should the project manager do first?",
+      "A project manager hears from stakeholders that a new project must align with sustainability goals such as lower emissions, responsible sourcing, and measurable social impact, while staying on a tight timeline. What is the best initial action?"
+    ],
+    "correct": [
+      {
+        "text": "Incorporate sustainability requirements, constraints, assumptions, acceptance criteria, and related measures into the integrated project management plan and baselines with stakeholder agreement",
+        "why": "Sustainability should be embedded as a normal project requirement across planning artifacts rather than treated as an optional add-on."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Defer sustainability considerations until execution so the team can protect the approved schedule baseline",
+        "trap": "Assumes sustainability can be postponed without affecting scope definition, procurement, quality, and benefits."
+      },
+      {
+        "text": "Create a separate ESG workstream outside the project scope so the delivery team can stay focused on core outputs",
+        "trap": "Treats sustainability as disconnected from mainstream project management processes."
+      },
+      {
+        "text": "Ask the sponsor to choose either sustainability or schedule because both cannot be managed together",
+        "trap": "Frames the issue as a false binary instead of an integration and tradeoff decision."
+      },
+      {
+        "text": "Record the request only in the lessons learned register because sustainability is primarily an organizational strategy topic",
+        "trap": "Misclassifies a current project requirement as future knowledge capture."
+      },
+      {
+        "text": "Limit sustainability to a communication plan message so stakeholders see that the team supports ESG values",
+        "trap": "Confuses messaging with planning, scope, and measurable delivery commitments."
+      }
+    ],
+    "explanation": "The best response is to translate sustainability and ESG expectations into formal project requirements and integrate them into planning, governance, and performance measures. That includes scope, quality criteria, procurement standards, risks, and benefits realization. The project manager should not isolate sustainability from normal planning or delay it until execution.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Value Delivery System and Principles",
+      "PMBOK Guide Eighth Edition, Performance Domain Planning",
+      "PMBOK Guide Eighth Edition, Performance Domain Measurement",
+      "Process Groups A Practice Guide, Plan Scope Management and Develop Project Management Plan",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-as-scope-and-planning-requirement"
+    ]
+  },
+  {
+    "id": "sustainability-triple-bottom-line-and-benefits-tradeoff",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "Triple bottom line and benefits tradeoff",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project team proposes using lower cost materials that meet minimum technical specifications, but an alternative design would reduce waste, improve worker safety, and lower operating emissions over the product life cycle. The sponsor asks how to evaluate the decision. What should the project manager recommend?",
+      "During design review, a project manager must compare a cheaper option with a more sustainable option that improves social, environmental, and long-term economic outcomes. What is the best approach?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate alternatives using total value and life cycle impacts across people, planet, and profit, then align the chosen option with the approved business case and benefits measures",
+        "why": "This reflects triple bottom line thinking and links sustainability decisions to benefits realization rather than only initial cost."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Choose the lowest initial cost option because project managers are accountable only for delivery cost during the project phase",
+        "trap": "Ignores long-term value, operating impact, and benefits accountability."
+      },
+      {
+        "text": "Choose the safest option for the environment even if it undermines the business case and expected value",
+        "trap": "Overcorrects by ignoring economic viability and balanced decision making."
+      },
+      {
+        "text": "Ask procurement to select whichever supplier offers the largest discount because savings can offset future ESG initiatives",
+        "trap": "Treats sustainability as separate from current sourcing and value decisions."
+      },
+      {
+        "text": "Escalate immediately to the PMO because sustainability decisions belong outside the project team",
+        "trap": "Avoids the project manager's responsibility to structure the decision and present integrated analysis."
+      },
+      {
+        "text": "Base the decision only on stakeholder preferences because sustainability is subjective and cannot be measured",
+        "trap": "Assumes sustainability outcomes cannot be operationalized through defined criteria and metrics."
+      }
+    ],
+    "explanation": "A PMP style answer should integrate sustainability into value delivery and the business case. Triple bottom line means considering social, environmental, and economic effects together, often through life cycle analysis and benefits measures. The decision should be evidence based and aligned to expected outcomes, not just first cost or a single advocacy perspective.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Value Focused and Systems Thinking Principles",
+      "PMBOK Guide Eighth Edition, Performance Domain Measurement",
+      "PMBOK Guide Eighth Edition, Performance Domain Delivery",
+      "Process Groups A Practice Guide, Develop Business Case and Plan Benefits Management",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "sustainability",
+      "triple-bottom-line-and-benefits-tradeoff"
+    ]
+  },
+  {
+    "id": "sustainability-cost-of-quality-and-compliance",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Plan and Manage Quality of Products/Deliverables",
+    "subtopic": "Cost of quality and compliance",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A manufacturing project is under pressure to accelerate delivery. The team suggests reducing supplier audits and environmental verification testing to save time and money, arguing that the deliverable will still function. What should the project manager do?",
+      "On a fast-track project, team members propose cutting sustainability inspections and compliance checks because they see them as nonessential overhead. What is the best action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Maintain quality and compliance activities by defining sustainability related prevention and appraisal work, because avoiding these costs can increase failure costs, rework, penalties, and reputational damage later",
+        "why": "Sustainability related verification and prevention are part of cost of quality and reduce downstream defects and compliance failures."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the shortcut because cost of quality applies only to technical defects and not to sustainability criteria",
+        "trap": "Misunderstands quality as excluding environmental and regulatory requirements."
+      },
+      {
+        "text": "Replace all audits with a team verbal agreement to act responsibly so the schedule can be preserved",
+        "trap": "Substitutes informal intent for defined quality assurance and control activities."
+      },
+      {
+        "text": "Move sustainability checks to project closure since they are not needed to produce deliverables",
+        "trap": "Confuses acceptance and closure with in-process quality management."
+      },
+      {
+        "text": "Remove the sustainability criteria from acceptance thresholds because the sponsor wants speed",
+        "trap": "Allows stakeholder pressure to override approved quality and compliance requirements."
+      },
+      {
+        "text": "Transfer the decision entirely to the procurement manager because supplier sustainability is not a project quality matter",
+        "trap": "Artificially separates procurement decisions from product and deliverable quality management."
+      }
+    ],
+    "explanation": "In PMP terms, sustainability criteria become part of quality when they define acceptance, conformance, reliability, safety, or regulatory expectations. Prevention and appraisal costs such as audits, testing, and supplier verification can reduce external failure costs such as rework, recalls, fines, and brand damage. The project manager should integrate sustainability into normal quality management, not remove it under pressure.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain Quality",
+      "PMBOK Guide Eighth Edition, Performance Domain Uncertainty",
+      "Process Groups A Practice Guide, Plan Quality Management and Manage Quality",
+      "PMBOK Guide Eighth Edition, Cost of Quality concept"
+    ],
+    "tags": [
+      "sustainability",
+      "cost-of-quality-and-compliance"
+    ]
+  },
+  {
+    "id": "sustainability-esg-compliance-and-green-procurement",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and Manage Project Compliance",
+    "topic": "Plan and Manage Project Compliance",
+    "subtopic": "ESG compliance and green procurement",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A construction project will operate in a jurisdiction with new environmental reporting rules and stricter waste disposal controls taking effect mid-project. Several subcontractors have weak records on responsible sourcing. What should the project manager do next?",
+      "During execution, a project manager learns that new ESG reporting and environmental compliance requirements will soon apply, and some potential suppliers may not meet the expected standards. What is the best response?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the new requirements on scope, schedule, cost, risk, and reporting, then update plans and governance controls accordingly",
+        "why": "Regulatory and compliance changes should be analyzed for project impact and formally integrated into management plans and controls."
+      },
+      {
+        "text": "Update procurement criteria and contracts to include sustainability and responsible sourcing requirements with verification and monitoring mechanisms",
+        "why": "Embedding green and responsible supplier expectations in procurement is how sustainability is enforced operationally."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until regulators issue a warning before changing the project approach so unnecessary work is avoided",
+        "trap": "Takes a reactive stance to known compliance obligations."
+      },
+      {
+        "text": "Treat the new rules as a legal issue for the sponsor only and continue execution under the existing baselines",
+        "trap": "Ignores the project manager's role in adapting plans to external business environment changes."
+      },
+      {
+        "text": "Keep current suppliers if they are low cost because procurement should not use nonfinancial criteria",
+        "trap": "Assumes supplier selection should ignore sustainability, compliance, and total value considerations."
+      },
+      {
+        "text": "Remove sustainability reporting from the project to avoid creating documentary evidence of noncompliance",
+        "trap": "Confuses risk reduction with concealment and violates governance expectations."
+      },
+      {
+        "text": "Ask the team to focus on delivery speed because compliance can be validated after the product is handed over",
+        "trap": "Misunderstands compliance as a post-project check rather than a built-in delivery requirement."
+      }
+    ],
+    "explanation": "When external environmental or ESG requirements change, the project manager should evaluate impacts and integrate the changes into planning, controls, and governance. Procurement is a key lever because responsible sourcing, supplier due diligence, and contract clauses help ensure compliance. The correct mindset is proactive adaptation, not delay or segregation of sustainability from delivery.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain Uncertainty",
+      "PMBOK Guide Eighth Edition, Performance Domain Planning",
+      "PMBOK Guide Eighth Edition, Performance Domain Stakeholders",
+      "Process Groups A Practice Guide, Plan Procurement Management and Plan Compliance Management",
+      "PMP Examination Content Outline 2026"
+    ],
+    "tags": [
+      "sustainability",
+      "esg-compliance-and-green-procurement"
+    ]
+  },
+  {
+    "id": "sustainability-sustainability-requirements-integration",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "sustainability requirements integration",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading the design of a new public facility. During planning, a sponsor says the team should focus on opening the facility on time and discuss sustainability later if budget remains. The business case includes reduced energy use, community accessibility, and long term operating savings. What should the project manager do first?",
+      "A project manager is planning a capital project with expected benefits tied to lower emissions, inclusive access for users, and lower lifecycle operating costs. A senior stakeholder suggests treating sustainability as optional because schedule pressure is increasing. What is the best first action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Incorporate sustainability objectives, acceptance criteria, assumptions, constraints, and benefit measures into the integrated project management plan and related baselines before execution proceeds.",
+        "why": "This treats sustainability as part of normal planning and value delivery rather than an optional add on."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Defer sustainability discussions until after the schedule baseline is approved so the team can avoid early planning delays.",
+        "trap": "Assumes sustainability can be postponed without affecting scope, value, and governance decisions."
+      },
+      {
+        "text": "Ask the team to capture sustainability ideas in a lessons learned register for possible use on future projects.",
+        "trap": "Confuses current project requirements with organizational knowledge capture."
+      },
+      {
+        "text": "Remove nonfinancial sustainability targets from planning documents because only direct cost savings can be managed objectively.",
+        "trap": "Ignores people and planet outcomes that may be explicit project requirements and benefits."
+      },
+      {
+        "text": "Create a separate sustainability workstream outside the main project plan so delivery teams are not distracted from core scope.",
+        "trap": "Treats sustainability as parallel and optional instead of integrated into standard planning."
+      },
+      {
+        "text": "Escalate immediately to the PMO and request a decision on whether sustainability should remain in the charter.",
+        "trap": "Escalates too early instead of integrating approved business case drivers into planning."
+      }
+    ],
+    "explanation": "When sustainability outcomes are part of the business case, they belong in scope definition, acceptance criteria, constraints, assumptions, and benefit measures. The project manager should integrate them into normal planning artifacts so tradeoff decisions remain aligned with intended value. Deferring them creates rework, weak governance, and misalignment with stakeholder expectations.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Value Delivery System, sustainability and long term value",
+      "PMBOK Guide Eighth Edition, Planning Performance Domain, integrating plans and baselines",
+      "PMP Examination Content Outline 2026, Process, Integrate Project Planning Activities"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-requirements-integration"
+    ]
+  },
+  {
+    "id": "sustainability-triple-bottom-line-decision-making",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "triple bottom line decision making",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is evaluating solution options for a product launch. One option has the lowest initial cost and fastest implementation, but it increases waste and may reduce workforce safety during operations. Another option has a slightly longer delivery timeline but improves worker safety, reduces environmental impact, and preserves the expected financial return over time. What should the project manager recommend?",
+      "During selection of a delivery approach, a project manager must advise the steering committee on two alternatives. The first favors short term schedule and upfront cost only. The second better supports workforce well being, environmental stewardship, and sustained business value with a manageable schedule impact. What is the best recommendation?"
+    ],
+    "correct": [
+      {
+        "text": "Recommend the option that best optimizes people, planet, and profit outcomes while still meeting essential delivery constraints and documented benefit targets.",
+        "why": "This reflects balanced value delivery and recognizes sustainability as part of benefits realization."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Recommend the fastest option because schedule performance is always the most visible measure of project success.",
+        "trap": "Overweights schedule and ignores broader value criteria."
+      },
+      {
+        "text": "Recommend the lowest upfront cost option because operating impacts belong to operations and are outside project responsibility.",
+        "trap": "Separates lifecycle value from project decision making."
+      },
+      {
+        "text": "Recommend delaying the decision until the team can prove environmental and social outcomes with absolute certainty.",
+        "trap": "Creates analysis paralysis and sets an unrealistic standard for decision quality."
+      },
+      {
+        "text": "Recommend splitting the difference by combining both options even though the hybrid approach has not been assessed for feasibility.",
+        "trap": "Assumes compromise is best without evidence or integrated analysis."
+      }
+    ],
+    "explanation": "PMI guidance emphasizes delivering value, not only meeting short term cost and schedule targets. In sustainability related decisions, the project manager should evaluate tradeoffs across people, planet, and profit and recommend the option that best supports approved benefits within constraints. That is stronger than treating social and environmental impacts as external to the project.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Value Performance Domain, benefits and outcomes",
+      "PMBOK Guide Eighth Edition, Business Environment Performance Domain, organizational value and sustainability context",
+      "PMP Examination Content Outline 2026, Business Environment, Evaluate and Deliver Project Benefits and Value"
+    ],
+    "tags": [
+      "sustainability",
+      "triple-bottom-line-decision-making"
+    ]
+  },
+  {
+    "id": "sustainability-sustainability-compliance-change-impact",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "sustainability compliance change impact",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A manufacturing project is entering execution in a region where environmental reporting rules are becoming more stringent. A regulator has announced that projects with certain emissions profiles may require additional documentation and inspections. What should the project manager do next?",
+      "A project manager learns that external environmental reporting obligations may change during execution of an infrastructure project. The change could affect required documentation, approvals, and permitted operating conditions. What is the best immediate action?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the regulatory change on scope, requirements, risks, schedule, and stakeholder expectations, then update plans and governance actions accordingly.",
+        "why": "External sustainability related changes should be evaluated systematically for project impacts and integrated through normal controls."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until the regulation is formally enforced before analyzing impacts so the team does not react to uncertainty.",
+        "trap": "Ignores the need for proactive assessment of emerging external changes."
+      },
+      {
+        "text": "Transfer responsibility to the legal department because compliance is not part of project management work.",
+        "trap": "Treats compliance as external to project governance and planning."
+      },
+      {
+        "text": "Freeze technical scope immediately and reject any further design changes until regulators issue final guidance.",
+        "trap": "Uses an overly rigid response that may increase risk and reduce adaptability."
+      },
+      {
+        "text": "Ask the team to continue as planned and add a contingency reserve only if an audit finding occurs.",
+        "trap": "Confuses reactive budgeting with integrated impact assessment."
+      }
+    ],
+    "explanation": "Regulatory and environmental developments are external business environment changes that can alter scope, requirements, risks, approvals, and stakeholder needs. The project manager should analyze likely impacts early and use established governance and change mechanisms to update project work. Waiting for certainty or treating compliance as someone else's concern weakens control.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Business Environment Performance Domain, external factors and compliance context",
+      "PMBOK Guide Eighth Edition, Uncertainty Performance Domain, risk and response planning",
+      "PMP Examination Content Outline 2026, Business Environment, Evaluate and Address External Business Environment Changes for Impact on Scope"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-compliance-change-impact"
+    ]
+  },
+  {
+    "id": "sustainability-sustainability-risk-management",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Assess and Manage Risks",
+    "topic": "Assess and Manage Risks",
+    "subtopic": "sustainability risk management",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 2,
+    "present": 5,
+    "prompts": [
+      "A project team identifies a risk that a key material may become restricted due to environmental concerns, which could disrupt supply and increase cost. The same material also affects the project's expected sustainability outcomes. What should the project manager do?",
+      "During risk review, a project manager learns that a critical component may face future environmental restrictions and supplier instability. If the issue occurs, the project could miss both delivery targets and sustainability commitments. What is the best response?"
+    ],
+    "correct": [
+      {
+        "text": "Add the threat to the risk register with probability, impact, triggers, and response strategies that address both delivery and sustainability consequences.",
+        "why": "This ensures the risk is analyzed and managed as part of normal project risk practice."
+      },
+      {
+        "text": "Evaluate response options such as alternative materials, supplier diversification, or design changes and compare their effect on value, schedule, cost, and sustainability targets.",
+        "why": "Effective response planning considers integrated tradeoffs rather than a single dimension."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Convert the risk into an issue immediately because any sustainability related threat should be treated as already occurring.",
+        "trap": "Confuses uncertain future events with current issues."
+      },
+      {
+        "text": "Ignore the sustainability aspect and manage only the potential cost increase because financial exposure is the only measurable impact.",
+        "trap": "Narrows risk analysis to cost and omits approved sustainability outcomes."
+      },
+      {
+        "text": "Transfer the entire risk to procurement and remove it from the project risk register once suppliers are notified.",
+        "trap": "Assumes ownership can be outsourced without project level monitoring."
+      },
+      {
+        "text": "Accept the risk because environmentally preferable alternatives often take too long to evaluate during execution.",
+        "trap": "Treats schedule pressure as justification for unmanaged exposure."
+      }
+    ],
+    "explanation": "Sustainability related uncertainty belongs in the same risk management system as other project threats and opportunities. The project manager should document the risk, analyze triggers and impacts, and evaluate practical response options that balance performance dimensions. That approach preserves delivery feasibility while protecting intended sustainability results.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Uncertainty Performance Domain, risk identification and response",
+      "PMBOK Guide Eighth Edition, Measurement Performance Domain, monitoring impacts and outcomes",
+      "PMP Examination Content Outline 2026, Process, Assess and Manage Risks"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-risk-management"
+    ]
+  },
+  {
+    "id": "sustainability-sustainability-outcomes-measurement",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "sustainability outcomes measurement",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a facility upgrade. The sponsor states that the project must reduce operational energy use by 20 percent within one year of handoff while still meeting the approved launch date. The team has not captured this in the scope baseline or success measures because some members view sustainability as a future enhancement. What should the project manager do first?",
+      "A project sponsor tells the project manager that a new product launch must achieve a measurable reduction in post-implementation energy consumption, but the team has treated that expectation as optional because it is not yet in the baseline documents. The delivery date is fixed. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Update requirements and success criteria to include the sustainability outcome, define how it will be measured and verified, and integrate it into scope, schedule, and stakeholder planning through formal planning processes.",
+        "why": "This treats sustainability as a project requirement with measurable acceptance criteria and embeds it into normal integrated planning."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep the current baseline unchanged and track the energy reduction informally as a lessons learned item after implementation.",
+        "trap": "Treats sustainability as optional and outside formal project management controls."
+      },
+      {
+        "text": "Ask the operations team to own the energy target after handoff because benefits are not part of project planning.",
+        "trap": "Assumes benefits and outcome measures should not be planned during the project."
+      },
+      {
+        "text": "Remove lower-priority functional requirements immediately so the team can pursue sustainability without using change control.",
+        "trap": "Bypasses integrated change and assumes tradeoffs can be made unilaterally."
+      },
+      {
+        "text": "Delay documenting the sustainability target until execution starts so the team can preserve schedule flexibility.",
+        "trap": "Postpones definition of a key requirement and increases delivery risk."
+      },
+      {
+        "text": "Create a separate sustainability workstream managed outside the project plan to avoid disrupting the approved baseline.",
+        "trap": "Separates sustainability from core planning instead of integrating it."
+      }
+    ],
+    "explanation": "When a sponsor identifies a sustainability outcome, the project manager should convert it into explicit requirements, acceptance criteria, and benefit measures, then align supporting plans and baselines through integrated planning. The key is not to treat sustainability as an optional add-on, but as part of the project's definition of success and value delivery.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Project Performance Domains, Planning Performance Domain",
+      "PMBOK Guide Eighth Edition, Project Performance Domains, Measurement Performance Domain",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Eighth Edition, Section 5 Project Scope Management"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-outcomes-measurement"
+    ]
+  },
+  {
+    "id": "sustainability-responsible-supplier-selection",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Procurement",
+    "topic": "Plan and Manage Procurement",
+    "subtopic": "responsible supplier selection",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project to launch a new consumer product is on a compressed timeline. A key material has become unavailable, and the procurement team proposes a substitute supplier with faster delivery. The supplier can meet technical specifications, but its environmental practices have not been verified and the organization has a responsible sourcing policy tied to project benefits. What should the project manager do?",
+      "During execution, a schedule risk threatens a product launch date. Procurement identifies a supplier that can recover the schedule, but the supplier has not been screened against the organization's sustainability sourcing criteria. What should the project manager do next?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate the substitute supplier against procurement criteria that include responsible sourcing requirements, assess the schedule and value tradeoffs, and follow the approved procurement and governance process before selection.",
+        "why": "This integrates sustainability into procurement decisions while balancing delivery constraints through formal project processes."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve the substitute immediately because meeting technical specifications and recovering schedule are more important during execution.",
+        "trap": "Ignores approved sourcing criteria and treats sustainability as secondary."
+      },
+      {
+        "text": "Reject any supplier change automatically because the original procurement plan is already baselined.",
+        "trap": "Assumes plans cannot be adapted through controlled decision making."
+      },
+      {
+        "text": "Ask procurement to choose the supplier without further project involvement because sourcing practices are outside the project manager's responsibility.",
+        "trap": "Avoids integration across procurement, benefits, and project objectives."
+      },
+      {
+        "text": "Accept the supplier now and perform the environmental screening after the contract is signed to save time.",
+        "trap": "Moves key decision criteria after commitment and increases exposure."
+      },
+      {
+        "text": "Escalate the issue to the sponsor without analyzing impacts because procurement policy already determines the answer.",
+        "trap": "Skips the project manager's role in analysis and recommendation."
+      }
+    ],
+    "explanation": "Sustainability in procurement is part of normal decision criteria, not an optional preference. The project manager should ensure supplier evaluation reflects responsible sourcing requirements, then weigh schedule implications and route the decision through the appropriate procurement and governance process.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Eighth Edition, Section 12 Project Procurement Management",
+      "PMBOK Guide Eighth Edition, Project Performance Domains, Delivery Performance Domain",
+      "The Standard for Project Management, Tailoring and Governance"
+    ],
+    "tags": [
+      "sustainability",
+      "responsible-supplier-selection"
+    ]
+  },
+  {
+    "id": "sustainability-external-sustainability-risk-response",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "external sustainability risk response",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A construction project is operating in a region with changing environmental reporting rules. Midway through execution, the government announces a new requirement for waste tracking and disclosure that may affect reporting effort, approval timing, and reputational exposure if missed. What should the project manager do first?",
+      "During project execution, a new environmental disclosure rule is announced. Compliance is not yet mandatory for current work packages, but it could affect approvals, stakeholder confidence, and future acceptance if the project is not prepared. What is the best first action?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact of the new external requirement on scope, reporting, approvals, and risk exposure, then update risk responses and recommend any needed plan changes through governance channels.",
+        "why": "This addresses sustainability-related external change as both a business environment shift and a project risk needing integrated analysis and response."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until the rule becomes fully enforceable before taking action so the team avoids unnecessary work.",
+        "trap": "Uses passive monitoring when early impact assessment is required."
+      },
+      {
+        "text": "Add the reporting activity directly to the schedule because regulatory items should always be implemented immediately.",
+        "trap": "Jumps to execution without assessing broader impacts or using governance."
+      },
+      {
+        "text": "Transfer ownership of the issue to the legal department because external regulation is not part of project risk management.",
+        "trap": "Treats external change as outside the project manager's integration role."
+      },
+      {
+        "text": "Inform stakeholders that compliance will be handled during closure once deliverables are complete.",
+        "trap": "Delays response to an active external risk and possible acceptance issue."
+      },
+      {
+        "text": "Rebaseline the project immediately to add contingency for all possible environmental changes in the region.",
+        "trap": "Overreacts without analyzing the specific impact and likelihood."
+      }
+    ],
+    "explanation": "The first PMP style action is impact assessment. External environmental rule changes can affect scope, approvals, reporting, and risk, so the project manager should analyze the change, update risk information, and use governance to implement any necessary plan adjustments.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Project Performance Domains, Uncertainty Performance Domain",
+      "PMBOK Guide Eighth Edition, Project Performance Domains, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Eighth Edition, Section 11 Project Risk Management"
+    ],
+    "tags": [
+      "sustainability",
+      "external-sustainability-risk-response"
+    ]
+  },
+  {
+    "id": "sustainability-sustainability-as-an-integrated-requirement",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Integrate Project Planning Activities",
+    "topic": "Integrate Project Planning Activities",
+    "subtopic": "sustainability as an integrated requirement",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is initiating a manufacturing line upgrade. The business case states the project must reduce energy use and waste while maintaining the approved launch date and budget target. Some team members suggest documenting sustainability goals later in benefits tracking so scope definition can move faster. What should the project manager do first?",
+      "During project initiation for a facility modernization effort, the sponsor emphasizes lower emissions and reduced material waste as expected outcomes, but the team wants to treat those items as future enhancements to avoid slowing planning. What is the best action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Incorporate measurable sustainability requirements, acceptance criteria, assumptions, and constraints into the project charter and management plans before baselining scope",
+        "why": "Sustainability should be integrated into normal planning artifacts so it drives scope, decisions, and tradeoff management from the start."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Record sustainability as a desirable benefit only after the team confirms the schedule baseline is achievable",
+        "trap": "Treats sustainability as optional and outside core planning."
+      },
+      {
+        "text": "Defer sustainability details to the closing phase because actual environmental performance can only be validated after delivery",
+        "trap": "Confuses outcome validation with requirement definition."
+      },
+      {
+        "text": "Ask the sponsor to remove sustainability expectations from the business case until the team finishes technical design",
+        "trap": "Assumes uncertainty justifies eliminating a stated project driver."
+      },
+      {
+        "text": "Create a lessons learned entry about sustainability and wait for procurement to define applicable standards",
+        "trap": "Misplaces planning work into organizational learning and another function."
+      }
+    ],
+    "explanation": "When sustainability is part of the business case, it belongs in the project's integrated planning baseline, not in a side list of aspirations. The project manager should translate those expectations into requirements, constraints, and acceptance criteria early so later scope, schedule, cost, and quality decisions remain aligned with intended value.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain of Planning",
+      "PMBOK Guide Eighth Edition, Performance Domain of Measurement",
+      "PMP Examination Content Outline 2026, Process Domain"
+    ],
+    "tags": [
+      "sustainability",
+      "sustainability-as-an-integrated-requirement"
+    ]
+  },
+  {
+    "id": "sustainability-triple-bottom-line-decision-framing",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Deliver Project Benefits and Value",
+    "topic": "Evaluate and Deliver Project Benefits and Value",
+    "subtopic": "triple bottom line decision framing",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A city transit project can meet its delivery date using a low-cost material with shorter service life and higher waste, or a more durable design that slightly increases near-term cost but lowers long-term maintenance and environmental impact for riders and the community. How should the project manager frame the recommendation?",
+      "In a public infrastructure project, the team identifies two design options. One option is cheaper now but creates more waste and community disruption over time, while the other improves lifecycle durability and reduces environmental burden with a moderate initial cost increase. What is the best basis for the project manager's recommendation?"
+    ],
+    "correct": [
+      {
+        "text": "Recommend the option that best optimizes lifecycle value across people, planet, and profit, and document the rationale in benefits management and decision records",
+        "why": "The triple bottom line requires balancing social, environmental, and economic outcomes rather than focusing only on initial spend."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Recommend the lowest initial cost option because schedule and budget baselines override broader value considerations",
+        "trap": "Assumes baselines always take priority over approved strategic outcomes."
+      },
+      {
+        "text": "Select the option with the strongest environmental result even if it undermines business viability and user adoption",
+        "trap": "Overcorrects by treating only one sustainability dimension as decisive."
+      },
+      {
+        "text": "Escalate the decision immediately because sustainability choices belong only to the sponsor and not the project manager",
+        "trap": "Ignores the project manager's role in evaluating alternatives and presenting integrated recommendations."
+      },
+      {
+        "text": "Choose the option that minimizes team effort because operational impacts after handoff are outside the project boundary",
+        "trap": "Narrows value delivery to project execution convenience."
+      }
+    ],
+    "explanation": "A PMP style response should connect sustainability to benefits realization and value delivery, not isolate it as a special topic. The strongest recommendation uses lifecycle thinking and the triple bottom line to compare alternatives transparently, then records the decision basis so stakeholders understand the tradeoff.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain of Value Delivery",
+      "PMBOK Guide Eighth Edition, Performance Domain of Stakeholders",
+      "PMP Examination Content Outline 2026, Business Environment Domain"
+    ],
+    "tags": [
+      "sustainability",
+      "triple-bottom-line-decision-framing"
+    ]
+  },
+  {
+    "id": "sustainability-quality-management-with-sustainability-criteria",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Plan and Manage Quality of Products/Deliverables",
+    "subtopic": "quality management with sustainability criteria",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A software enabled construction project has an aggressive deadline. The team proposes skipping planned verification of energy performance and material traceability to recover two weeks of schedule float. The sponsor says sustainability reporting can be fixed after go live if needed. What should the project manager do?",
+      "Near the end of a fast track project, a team lead suggests removing testing for energy efficiency and documentation checks for sustainability commitments so the launch date is protected. What is the best response from the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Maintain the defined quality activities, analyze schedule recovery options elsewhere, and explain that sustainability acceptance criteria are part of deliverable quality",
+        "why": "Sustainability related verification belongs to quality management when it is part of accepted requirements and should not be dropped casually."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Remove the checks because quality can be inspected during operations after the project is accepted",
+        "trap": "Treats prevention and verification as post project issues instead of project quality work."
+      },
+      {
+        "text": "Replace formal verification with team judgment so the deadline can still be met without a change request",
+        "trap": "Bypasses agreed controls and governance."
+      },
+      {
+        "text": "Accept the sponsor direction because schedule is always the primary success criterion in predictive delivery",
+        "trap": "Assumes one constraint automatically overrides approved quality requirements."
+      },
+      {
+        "text": "Transfer ownership of the checks to procurement because sustainability evidence is only a supplier responsibility",
+        "trap": "Confuses supplier inputs with project accountability for deliverable quality."
+      }
+    ],
+    "explanation": "If energy performance and traceability are part of agreed acceptance criteria, they are quality requirements, not optional extras. The project manager should preserve the quality plan and pursue schedule recovery through other means or formal change control rather than silently reducing required assurance.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain of Delivery",
+      "PMBOK Guide Eighth Edition, Performance Domain of Measurement",
+      "Process Groups A Practice Guide, Planning and Monitoring and Controlling"
+    ],
+    "tags": [
+      "sustainability",
+      "quality-management-with-sustainability-criteria"
+    ]
+  },
+  {
+    "id": "sustainability-emerging-sustainability-regulatory-risk",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "topic": "Evaluate and Address External Business Environment Changes for Impact on Scope",
+    "subtopic": "emerging sustainability regulatory risk",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A global project must deliver a new packaging process before a market launch. During execution, the team learns that a pending environmental rule in one target region could restrict the planned packaging material within months of release. The rule is not final yet, and changing now may affect schedule and cost. What should the project manager do next?",
+      "While executing a product launch project, the project manager hears that regulators may soon restrict the material currently specified for packaging in a key market. The team argues that the project should ignore the issue until the law is finalized because no current violation exists. What is the best action?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the potential impact on scope, schedule, cost, and benefits, update risk and issue artifacts as appropriate, and bring response options to governance for timely decision making",
+        "why": "An emerging regulatory change is an external business environment signal that should be analyzed early and integrated into formal project controls."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until the regulation is enacted because acting earlier would create unnecessary rework and could alarm stakeholders",
+        "trap": "Assumes uncertainty means no action is warranted."
+      },
+      {
+        "text": "Change the material immediately without analysis because possible environmental restrictions always outweigh approved baselines",
+        "trap": "Skips impact assessment and governance."
+      },
+      {
+        "text": "Treat the matter as an operational concern for after transition since the current project plan is still compliant today",
+        "trap": "Ignores foreseeable external changes that affect delivered value."
+      },
+      {
+        "text": "Ask legal counsel to own the problem completely and remove it from the project risk register",
+        "trap": "Transfers accountability away from project management integration."
+      }
+    ],
+    "explanation": "The project manager should neither ignore a credible regulatory signal nor react impulsively without analysis. The PMP aligned approach is to assess impact, update relevant artifacts, and use governance to decide whether preventive scope or design changes are justified while there is still time to act.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Performance Domain of Uncertainty",
+      "PMBOK Guide Eighth Edition, Performance Domain of Planning",
+      "PMP Examination Content Outline 2026, Business Environment Domain"
+    ],
+    "tags": [
+      "sustainability",
+      "emerging-sustainability-regulatory-risk"
+    ]
+  }
+]

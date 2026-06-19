@@ -15,8 +15,8 @@
         "note": "Build an objective record from the start."
       },
       {
-        "text": "Implement a formal Performance Improvement Plan (PIP) with measurable goals and timeline",
-        "note": "Formalise support and accountability after initial coaching."
+        "text": "Agree a documented, time-bound improvement plan with measurable goals, coordinated with the resource or functional manager",
+        "note": "Document support and accountability after initial coaching."
       },
       {
         "text": "Escalate to the functional/resource manager with full documentation",
@@ -27,7 +27,7 @@
         "note": "Last resort after all prior steps are exhausted."
       }
     ],
-    "explanation": "PMI emphasises early supportive intervention, documentation, formal improvement plans, then escalation with evidence. Replacement is always the final step after due process.",
+    "explanation": "PMI emphasises early supportive intervention, documentation, a coordinated, time-bound improvement plan, then escalation with evidence. Replacement is usually the final step after due process; serious ethics, safety, or policy issues can warrant earlier escalation.",
     "references": [
       "PMBOK Guide 7th/8th Edition – Team Performance Domain",
       "PMI PMP Examination Content Outline 2026 – People domain"
@@ -46,6 +46,10 @@
     "difficulty": "medium",
     "prompt": "Arrange the standard risk management steps in the correct logical order for a project.",
     "steps": [
+      {
+        "text": "Plan risk management — define how risk activities will be conducted, early in the project",
+        "note": "PMBOK 8 opens the Risk performance domain with Plan Risk Management."
+      },
       {
         "text": "Identify risks through various techniques (brainstorming, checklists, interviews, SWOT, etc.)",
         "note": "Risk management starts with identification."
@@ -67,10 +71,10 @@
         "note": "Execution and ongoing monitoring close the loop."
       }
     ],
-    "explanation": "The risk management process follows a logical flow: Identify → Qualitatively Analyse → Quantitatively Analyse (selected risks) → Plan Responses → Implement & Monitor. This is a core process in both predictive and hybrid projects.",
+    "explanation": "The risk process flows: Plan Risk Management -> Identify Risks -> Analyse (qualitative then quantitative) -> Plan Responses -> Implement & Monitor. PMBOK 8 begins the Risk performance domain with Plan Risk Management.",
     "references": [
-      "PMBOK Guide – Risk Management Knowledge Area / Performance Domain",
-      "PMI Practice Standard for Risk Management"
+      "PMBOK Guide Eighth Edition - Risk Performance Domain",
+      "The Standard for Risk Management in Portfolios, Programs, and Projects"
     ],
     "tags": [
       "process",
@@ -252,7 +256,7 @@
         "note": "Quality must be planned, not inspected in."
       },
       {
-        "text": "Perform quality assurance activities (audits, process improvements, training)",
+        "text": "Manage quality — audits, process improvements, and training",
         "note": "Proactively ensure the right processes are followed."
       },
       {
@@ -270,8 +274,7 @@
     ],
     "explanation": "Quality management flows from planning standards → assurance (process focus) → control (product focus) → analysis → improvement. Prevention is preferred over inspection.",
     "references": [
-      "PMBOK Guide – Quality Management",
-      "PMI Practice Standard for Project Quality"
+      "PMBOK Guide Eighth Edition - Quality Performance Domain"
     ],
     "tags": [
       "process",
