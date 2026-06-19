@@ -21,7 +21,17 @@
         "properties": {
           "heading": { "type": "string" },
           "body": { "type": "string", "description": "Plain text. Blank line = new paragraph; lines starting with '- ' render as a bullet list." },
-          "tip": { "type": "string", "description": "Optional exam-tip callout, shown highlighted under the section." }
+          "tip": { "type": "string", "description": "Optional exam-tip callout, shown highlighted under the section." },
+          "figure": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional diagram. Provide EITHER an inline SVG string (vector, theme-aware, preferred) OR a raster image path (repo-relative, e.g. content/assets/charts/x.png, shown on a light figure card).",
+            "properties": {
+              "svg": { "type": "string", "description": "Inline <svg> markup. Use single quotes for attributes and 'currentColor' for axes/labels so it themes." },
+              "image": { "type": "string", "description": "Repo-relative path or absolute URL of a raster image." },
+              "caption": { "type": "string" }
+            }
+          }
         }
       }
     },
