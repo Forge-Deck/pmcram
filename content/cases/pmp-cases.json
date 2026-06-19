@@ -1,0 +1,921 @@
+[
+  {
+    "schema": "case/v1",
+    "title": "Underperformer on a hybrid ESG project",
+    "domain": "Process",
+    "topic": "Hybrid delivery + Performance Management",
+    "difficulty": "hard",
+    "scenario": "You are leading a hybrid (agile + predictive) digital-transformation project for a retailer aiming to cut its carbon footprint by 30% while lifting revenue through AI-personalised recommendations. A key developer on the agile stream has missed three sprints' deliverables, hurting the MVP timeline and stakeholder confidence. The project must stay aligned with corporate ESG goals and deliver measurable business value within budget.",
+    "steps": [
+      {
+        "label": "Business Environment focus",
+        "prompt": "The sponsor worries the delays could threaten the organisation's sustainability targets and market position. What should you do first?",
+        "correct": [
+          {
+            "text": "Analyse the impact on overall value delivery, benefits realisation and strategic alignment with the ESG objectives",
+            "why": "In the 2026 PMP ECO, the Business Environment domain (now 26%) requires project managers to first evaluate how performance issues affect organizational strategy, benefits realization, and value delivery. Per PMBOK 8 Performance Domains (Business Environment and Value Delivery), understanding strategic impact frames all subsequent decisions and prevents reactive actions that could harm long-term outcomes."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Immediately request a resource replacement from HR",
+            "trap": "Jumps to removal before assessing impact, root cause, or support options. Violates the principle of exhausting lower-level interventions first (Team Performance Domain)."
+          },
+          {
+            "text": "Escalate straight to the steering committee for a go/no-go decision",
+            "trap": "Premature escalation before analysing the situation or exhausting PM-level actions. PMP situational questions reward owning the issue first."
+          },
+          {
+            "text": "Reassign the developer to non-critical predictive tasks without further assessment",
+            "trap": "An impulsive reshuffle that ignores value impact, root cause, team dynamics, and strategic ESG alignment."
+          }
+        ],
+        "explanation": "Correct answer prioritises strategic assessment (Business Environment domain). In the new exam, you must demonstrate judgment by linking team performance to organisational value, benefits, and ESG objectives before choosing tactical actions. This aligns with the shift toward outcome-focused leadership rather than pure process execution.",
+        "domain": "Business Environment"
+      },
+      {
+        "label": "People + Process",
+        "prompt": "After 1:1s and coaching there's still no improvement, and no skills gap that training would fix. The team runs Kanban. What is the next best action to protect outcomes?",
+        "correct": [
+          {
+            "text": "Agree a formal performance improvement plan with measurable goals tied to flow and business-value metrics",
+            "why": "Once informal coaching is exhausted, the next step per standard performance management and PMP best practice is a documented PIP. This provides due process, clear expectations, and measurable criteria linked to value (sprint flow + business outcomes). It protects both the individual and the project while building the required audit trail for any future escalation (People & Team Performance Domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Review the developer's performance publicly in the daily standup to drive accountability",
+            "trap": "Public criticism damages psychological safety and team morale. PMP emphasises servant leadership and creating a safe environment (Team Performance Domain)."
+          },
+          {
+            "text": "Ignore the short-term delays because agile is flexible",
+            "trap": "Agility does not mean tolerating repeated missed commitments that threaten value delivery. Flexibility has limits when business outcomes are at risk."
+          },
+          {
+            "text": "Shift the entire workstream to predictive planning",
+            "trap": "A disproportionate change of delivery approach that does not address the root performance issue and may reduce adaptability needed for the ESG/AI goals."
+          }
+        ],
+        "explanation": "The formal, documented PIP is the correct next step. It balances fairness to the team member with protection of project value. In hybrid environments, tying goals to both flow metrics (Kanban) and business value ensures alignment with the 2026 exam's emphasis on outcomes over outputs.",
+        "domain": "People"
+      },
+      {
+        "label": "Integrated approach",
+        "prompt": "The functional manager suggests reassigning the developer permanently. Given the hybrid nature and sustainability goals, what should you prioritise in your recommendation?",
+        "correct": [
+          {
+            "text": "Evaluate reassignment against value delivery, team morale, knowledge retention and alignment with long-term ESG and AI-capability goals",
+            "why": "The 2026 exam tests integrated thinking across domains. Reassignment decisions must weigh multiple factors: immediate value delivery, team health (People domain), knowledge loss, and strategic fit with ESG and AI capability building (Business Environment). This reflects real-world PM responsibility in hybrid, value-driven projects."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Focus solely on recovering the schedule",
+            "trap": "Single-dimensional thinking that ignores people, knowledge, and strategic alignment — contrary to the balanced approach expected in the new ECO."
+          },
+          {
+            "text": "Accept the reassignment immediately to avoid further escalation",
+            "trap": "Avoidance behaviour rather than value-based decision making. PMP situational questions penalise passing the buck without analysis."
+          },
+          {
+            "text": "Request AI tools to automate the developer's tasks as a replacement",
+            "trap": "Technology gimmick that sidesteps the real issues of performance management, capability development, and human factors."
+          }
+        ],
+        "explanation": "Correct answer demonstrates holistic judgment: schedule recovery is important, but must be balanced against value, people, knowledge retention, and long-term strategic goals (ESG + AI capability). This is the type of integrated reasoning the 2026 exam rewards.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI PMP Examination Content Outline 2026 (Business Environment domain 26%, Value Delivery emphasis)",
+      "PMBOK Guide 8th Edition – Performance Domains (Team, Business Environment, Value Delivery)",
+      "Agile Practice Guide (hybrid approaches, flow metrics, psychological safety)",
+      "PMI Standard for Project Management – Principles of stewardship, collaboration, and value"
+    ],
+    "tags": [
+      "hybrid",
+      "people",
+      "esg",
+      "value-delivery",
+      "performance-management",
+      "2026-exam"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "AI Model Accuracy Risk from Underperforming Data Analyst",
+    "domain": "Business Environment",
+    "topic": "AI integration + Performance Management",
+    "difficulty": "hard",
+    "scenario": "You are the project manager for a hybrid predictive-maintenance initiative in a manufacturing firm. The project uses AI/ML models to predict equipment failures, reduce downtime by 25%, and lower energy waste (supporting corporate net-zero targets). A senior data analyst on the agile data stream is consistently delivering poor-quality datasets, which is degrading model accuracy and threatening the projected ROI and sustainability benefits. The project is high-visibility with tight governance on AI ethics and data quality.",
+    "steps": [
+      {
+        "label": "Business Environment + Value focus",
+        "prompt": "Executive stakeholders are concerned that poor data quality will undermine both the financial ROI and the sustainability (energy reduction) benefits. What is the most appropriate first action?",
+        "correct": [
+          {
+            "text": "Quantify the impact of current data quality issues on model performance, projected ROI, energy savings, and strategic net-zero goals, then develop mitigation options",
+            "why": "The 2026 ECO places heavy weight on Business Environment. You must first translate technical performance issues into business and strategic language (value, benefits, ESG alignment) before tactical fixes. This demonstrates the judgment expected when AI and sustainability intersect with project delivery."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Immediately remove the analyst from the AI workstream",
+            "trap": "Reactive removal before understanding full business impact or attempting structured support — violates due process."
+          },
+          {
+            "text": "Escalate to the AI ethics committee for an investigation",
+            "trap": "Premature escalation to a governance body before the PM has performed basic impact analysis and internal interventions."
+          },
+          {
+            "text": "Add more AI engineers to compensate for the data issues",
+            "trap": "Throwing resources at symptoms rather than addressing root cause and strategic alignment."
+          }
+        ],
+        "explanation": "Correct first step is impact quantification in business terms. In the new exam, questions on emerging tech (AI) and sustainability test your ability to connect team performance issues directly to organisational value and strategic objectives before choosing people-process actions.",
+        "domain": "Business Environment"
+      },
+      {
+        "label": "People + AI-specific process",
+        "prompt": "After private coaching and root-cause discussion, the analyst's data quality remains inconsistent. No obvious skills gap exists that standard training would resolve quickly. What is the next best step?",
+        "correct": [
+          {
+            "text": "Implement a time-bound Performance Improvement Plan with specific, measurable data-quality KPIs tied to AI model accuracy targets and sustainability outcomes",
+            "why": "Once coaching is exhausted, formalise expectations via PIP with metrics directly linked to AI performance and business value. This creates accountability while protecting the project and providing documentation. It reflects modern performance management in technically complex, value-driven projects."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Move the analyst to a non-AI work package and bring in a contractor",
+            "trap": "Avoids addressing the performance issue and risks knowledge loss in a critical data domain."
+          },
+          {
+            "text": "Publicly highlight data quality problems in sprint reviews to increase pressure",
+            "trap": "Damages psychological safety and is inappropriate for performance issues (Team Performance Domain)."
+          },
+          {
+            "text": "Reduce the AI model scope to require less data quality",
+            "trap": "Compromises the core value proposition and sustainability benefits without proper stakeholder alignment."
+          }
+        ],
+        "explanation": "A documented PIP with AI-specific and value-linked metrics is the correct formal step. The 2026 exam expects you to adapt traditional performance tools to new contexts (AI accuracy, ESG metrics) while maintaining fairness and due process.",
+        "domain": "People"
+      },
+      {
+        "label": "Strategic recommendation on capability",
+        "prompt": "The functional manager wants to reassign the analyst. Considering AI ethics governance, data capability building, and long-term sustainability goals, what should guide your recommendation?",
+        "correct": [
+          {
+            "text": "Recommend a decision that balances immediate project recovery with long-term data/AI capability development, knowledge retention, team health, and alignment to net-zero and AI ethics commitments",
+            "why": "Integrated decision-making across People, Process, and Business Environment domains. Reassignment is not just a resource move — it affects capability building, ethical AI governance, knowledge, and strategic ESG outcomes. The new exam rewards this holistic view."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Accept reassignment immediately to protect short-term model accuracy",
+            "trap": "Short-term tactical fix that ignores capability development and strategic alignment."
+          },
+          {
+            "text": "Insist on keeping the analyst and adding heavy oversight",
+            "trap": "Ignores the functional manager's input and may not be sustainable or fair."
+          },
+          {
+            "text": "Propose replacing the analyst with an external AI specialist firm",
+            "trap": "Outsourcing decision without evaluating internal capability needs or cost-benefit in context of long-term strategy."
+          }
+        ],
+        "explanation": "The best recommendation weighs multiple strategic factors: project recovery, capability building, knowledge retention, team health, and alignment with AI ethics + sustainability commitments. This reflects the increased Business Environment emphasis in the 2026 exam.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI PMP Examination Content Outline 2026 (Business Environment 26%, AI & emerging technology integration, Value Delivery)",
+      "PMBOK Guide 8th Edition – Performance Domains (Business Environment, Team, Value)",
+      "PMI AI in Project Management resources and ethical guidelines",
+      "Agile Practice Guide + Disciplined Agile for hybrid AI/data projects"
+    ],
+    "tags": [
+      "ai",
+      "data-quality",
+      "esg",
+      "performance-management",
+      "value-delivery",
+      "2026-exam",
+      "hybrid"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Sustainability Compliance Delay from Underperforming Procurement Lead",
+    "domain": "Business Environment",
+    "topic": "Sustainability + Regulatory Compliance",
+    "difficulty": "medium",
+    "scenario": "You are managing a large infrastructure project with strong sustainability mandates. The project must achieve specific ESG targets and comply with new regional green procurement regulations to secure government funding and avoid penalties. A procurement lead responsible for sustainable vendor selection is repeatedly missing deadlines for qualified green supplier shortlists, putting both compliance and project timeline at risk.",
+    "steps": [
+      {
+        "label": "Business Environment + Compliance focus",
+        "prompt": "The steering committee is concerned about regulatory non-compliance and loss of funding eligibility. What should you do first?",
+        "correct": [
+          {
+            "text": "Assess the full impact of the delays on regulatory compliance, funding eligibility, ESG targets, project schedule, and overall business case",
+            "why": "Business Environment domain requires starting with strategic and external impact analysis (regulatory, funding, ESG reputation). This is the lens the 2026 exam uses for compliance-related performance issues."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Immediately escalate to legal/compliance for a formal warning to the lead",
+            "trap": "Bypasses PM responsibility to analyse and attempt internal resolution first."
+          },
+          {
+            "text": "Reassign the procurement activities to another team member right away",
+            "trap": "Reactive move without impact assessment or root-cause understanding."
+          },
+          {
+            "text": "Request an extension from regulators without internal analysis",
+            "trap": "External request before understanding internal options and true impact."
+          }
+        ],
+        "explanation": "Correct first step is comprehensive impact assessment from a Business Environment perspective. In the updated exam, compliance and sustainability questions test your ability to connect team performance directly to external obligations and strategic consequences.",
+        "domain": "Business Environment"
+      },
+      {
+        "label": "People + Process intervention",
+        "prompt": "After discussion, the procurement lead cites unclear sustainability criteria from the new regulations. Performance has not improved despite clarification. What is the appropriate next step?",
+        "correct": [
+          {
+            "text": "Create a formal Performance Improvement Plan with clear, time-bound deliverables for green supplier qualification, including support for interpreting new regulations",
+            "why": "When root cause includes capability/understanding gaps, a structured PIP with support is appropriate. It addresses both performance and the identified need while documenting efforts — standard PMP practice adapted to regulatory context."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Send the lead on external sustainability certification training immediately",
+            "trap": "Training may help but should be part of a broader documented plan, not the sole action."
+          },
+          {
+            "text": "Take over the procurement tasks yourself to meet the deadline",
+            "trap": "Micromanagement that avoids developing the team member and does not build sustainable capability."
+          },
+          {
+            "text": "Ignore the issue and proceed with non-compliant vendors to protect schedule",
+            "trap": "Unethical and high-risk approach that violates governance and ESG commitments."
+          }
+        ],
+        "explanation": "A formal PIP that includes support for the regulatory knowledge gap is the balanced, professional next step. It demonstrates both accountability and development focus expected in People domain questions.",
+        "domain": "People"
+      },
+      {
+        "label": "Strategic decision on compliance risk",
+        "prompt": "Despite the PIP, the lead continues to struggle with the volume and complexity of green supplier evaluation. The compliance deadline is approaching. What is the best recommendation to leadership?",
+        "correct": [
+          {
+            "text": "Recommend a combination of targeted support (additional analyst resource for evaluation) + phased reassignment of complex categories, while maintaining overall accountability and protecting compliance timeline and ESG commitments",
+            "why": "Integrated recommendation that protects critical compliance and value while supporting the individual and building capability. Reflects mature judgment across Business Environment, People, and Process domains."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Request full termination of the procurement lead to eliminate risk",
+            "trap": "Overly harsh without exhausting reasonable support options; ignores knowledge retention."
+          },
+          {
+            "text": "Delay the entire project until the lead improves",
+            "trap": "Disproportionate response that harms overall value delivery."
+          },
+          {
+            "text": "Bypass internal processes and hire an external sustainability consultancy for the short term only",
+            "trap": "Short-term fix that may not build internal capability and could be costly without strategic review."
+          }
+        ],
+        "explanation": "The recommended approach shows balanced leadership: protect the non-negotiable compliance and ESG outcomes while providing reasonable support and minimising long-term capability loss. This is the type of nuanced decision the 2026 exam tests.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI PMP Examination Content Outline 2026 (Business Environment domain emphasis on compliance, ESG, and external factors)",
+      "PMBOK Guide 8th Edition – Business Environment and Value Delivery Performance Domains",
+      "PMI Standard for Sustainability in Project Management",
+      "Project Management Institute – Governance and Compliance resources"
+    ],
+    "tags": [
+      "sustainability",
+      "esg",
+      "compliance",
+      "procurement",
+      "performance-management",
+      "2026-exam"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Velocity Drop Due to Underperforming Team Member in Scrum",
+    "domain": "People",
+    "topic": "Agile Team Performance",
+    "difficulty": "medium",
+    "scenario": "You are the Scrum Master for a mature Scrum team delivering a customer portal. Over the last three sprints, velocity has dropped 35%. One senior developer is consistently completing fewer story points than committed, with quality issues appearing in the increment. The Product Owner is concerned about the release roadmap and value delivery to customers.",
+    "steps": [
+      {
+        "label": "Initial Assessment",
+        "prompt": "During the Sprint Retrospective, the team avoids discussing the velocity drop directly. What should you do first as Scrum Master?",
+        "correct": [
+          {
+            "text": "Facilitate a safe, blame-free retrospective focused on data (velocity trend, Definition of Done adherence) and ask open questions about what is helping or hindering the team",
+            "why": "Servant leadership and psychological safety are core to the Team Performance Domain. Starting with data and facilitation (not accusation) encourages honest dialogue while modelling agile values."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Privately confront the underperforming developer immediately after the retrospective",
+            "trap": "Public or immediate confrontation without team context can damage trust and psychological safety."
+          },
+          {
+            "text": "Report the velocity drop directly to senior management as a performance issue",
+            "trap": "Bypasses team self-organization and agile principles of transparency within the team first."
+          },
+          {
+            "text": "Increase story point estimates for future sprints to 'fix' the velocity number",
+            "trap": "Gaming the metrics rather than addressing root cause — violates empirical process control."
+          }
+        ],
+        "explanation": "Correct approach protects the retrospective as a safe space and uses data to surface issues collaboratively. This aligns with agile values and PMP emphasis on team development.",
+        "domain": "People"
+      },
+      {
+        "label": "Performance Support",
+        "prompt": "One-on-one coaching reveals the developer is struggling with a new technology stack introduced mid-project and feels overwhelmed. What is the next best action?",
+        "correct": [
+          {
+            "text": "Work with the team and Product Owner to adjust sprint commitments, pair the developer with a mentor, and update the Definition of Done to include knowledge sharing for the new technology",
+            "why": "Agile teams are cross-functional and self-organizing. Supporting capability development while protecting the increment and value delivery is the balanced response (People + Process domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Remove the developer from the team immediately",
+            "trap": "Ignores root cause (skill gap) and team dynamics; violates due process and development focus."
+          },
+          {
+            "text": "Tell the developer to 'figure it out' as they are senior",
+            "trap": "Ignores servant leadership and the reality of new technology introduction."
+          },
+          {
+            "text": "Add more stories to the sprint to 'make up' for lost velocity",
+            "trap": "Overcommits the team and increases risk of further quality issues."
+          }
+        ],
+        "explanation": "The correct action combines support, realistic planning, and team capability building — core to sustainable agile delivery.",
+        "domain": "People"
+      },
+      {
+        "label": "Value Protection",
+        "prompt": "Despite support, the next sprint still shows quality issues in the increment. The Product Owner wants to know how this affects the upcoming release value. What should you recommend?",
+        "correct": [
+          {
+            "text": "Inspect the current increment quality, update the release burndown with realistic projections, and facilitate a discussion with the Product Owner on scope trade-offs or release date adjustment to protect customer value",
+            "why": "Agile emphasizes delivering valuable increments. Transparent forecasting and collaborative decision-making with the Product Owner protects value while maintaining trust (Value Delivery + Stakeholder domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Promise the original release date will be met regardless",
+            "trap": "False commitment that damages credibility and ignores empirical reality."
+          },
+          {
+            "text": "Hide the quality issues from the Product Owner",
+            "trap": "Violates transparency principle and risks bigger problems later."
+          },
+          {
+            "text": "Blame the developer publicly in the Sprint Review",
+            "trap": "Destroys psychological safety and team morale."
+          }
+        ],
+        "explanation": "Correct recommendation focuses on transparency, realistic forecasting, and protecting customer value — key agile and PMP principles in the new exam.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI Agile Practice Guide",
+      "Scrum Guide 2020",
+      "PMBOK Guide 8th Edition – Team Performance Domain & Value Delivery"
+    ],
+    "tags": [
+      "agile",
+      "scrum",
+      "velocity",
+      "performance",
+      "people",
+      "value-delivery"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Changing Requirements Mid-Sprint from Key Stakeholder",
+    "domain": "Process",
+    "topic": "Agile Scope & Change Management",
+    "difficulty": "medium",
+    "scenario": "Your Scrum team is in the middle of a two-week sprint building critical reporting features. On day 7, a senior stakeholder (not the Product Owner) demands an urgent new regulatory report be added immediately, threatening to escalate if not done. The team is already at capacity and the Sprint Goal is at risk.",
+    "steps": [
+      {
+        "label": "Protect the Sprint",
+        "prompt": "The stakeholder approaches you directly demanding the change. What is your first response?",
+        "correct": [
+          {
+            "text": "Acknowledge the request, explain the current Sprint Goal and team capacity, and redirect them to the Product Owner for proper backlog prioritization and potential scope trade-off discussion",
+            "why": "Protects the sprint boundary (a core agile principle) while maintaining good stakeholder relationships. The Product Owner owns prioritization (Process + Stakeholder domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Agree to add the item immediately to keep the stakeholder happy",
+            "trap": "Breaks sprint commitment and undermines team focus and predictability."
+          },
+          {
+            "text": "Tell the stakeholder it is impossible without discussion",
+            "trap": "Dismissive and damages relationships; agile values collaboration."
+          },
+          {
+            "text": "Escalate immediately to senior management",
+            "trap": "Bypasses Product Owner authority and agile self-organization."
+          }
+        ],
+        "explanation": "Correct first action protects the sprint while keeping communication channels open through the proper role (Product Owner).",
+        "domain": "Process"
+      },
+      {
+        "label": "Collaborative Resolution",
+        "prompt": "The Product Owner agrees the new report is important but does not want to break the sprint. What is the best way forward?",
+        "correct": [
+          {
+            "text": "Facilitate a quick impact assessment with the team, identify what can be descoped or deferred from the current sprint, and negotiate a realistic plan with the stakeholder for the next sprint or as an expedited item if truly urgent",
+            "why": "Balances stakeholder needs with team sustainability. Uses transparency and inspection to find the best value-driven compromise (Agile principles + Business Environment awareness)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Force the team to work overtime to include everything",
+            "trap": "Unsustainable and damages long-term velocity and morale."
+          },
+          {
+            "text": "Reject the change outright without exploring options",
+            "trap": "Ignores legitimate business needs and agile adaptability."
+          },
+          {
+            "text": "Add the item and remove an equal amount of existing work without team input",
+            "trap": "Undermines self-organization and may remove higher-value items."
+          }
+        ],
+        "explanation": "Correct approach uses collaboration and data-driven trade-offs to protect value and team health.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI Agile Practice Guide – Managing Change in Agile",
+      "Scrum Guide – Sprint boundaries and Product Owner role"
+    ],
+    "tags": [
+      "agile",
+      "scrum",
+      "change-management",
+      "stakeholder",
+      "sprint"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Definition of Done Not Being Followed – Quality Issues",
+    "domain": "Process",
+    "topic": "Agile Quality & DoD",
+    "difficulty": "medium",
+    "scenario": "Your Kanban team has a clear Definition of Done (DoD) that includes automated tests, code review, and security scan. However, items are being moved to 'Done' without all criteria met, leading to production incidents and rework. The team claims 'we are under pressure to deliver faster'.",
+    "steps": [
+      {
+        "label": "Surface the Problem",
+        "prompt": "During a team meeting, members admit they sometimes skip steps in the DoD to meet deadlines. What should you do first?",
+        "correct": [
+          {
+            "text": "Facilitate a discussion on why the DoD is being bypassed, the impact on quality and customer trust, and what systemic issues (workload, tooling, pressure) are driving the behaviour",
+            "why": "Empirical process control requires transparency about problems. Understanding root cause before changing process or applying pressure is key (Process + People domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Immediately enforce the DoD strictly and punish non-compliance",
+            "trap": "Creates fear and hiding of problems rather than solving root cause."
+          },
+          {
+            "text": "Relax the DoD to reduce pressure",
+            "trap": "Sacrifices quality and long-term value for short-term speed."
+          },
+          {
+            "text": "Add more checkpoints and approvals to the workflow",
+            "trap": "Increases bureaucracy without addressing why people are bypassing existing controls."
+          }
+        ],
+        "explanation": "Correct first step uses transparency and root-cause analysis — fundamental to agile and continuous improvement.",
+        "domain": "Process"
+      },
+      {
+        "label": "Sustainable Improvement",
+        "prompt": "Root cause analysis shows the team is overloaded and some DoD steps (especially security scans) are slow and manual. What is the best improvement approach?",
+        "correct": [
+          {
+            "text": "Work with the team to improve tooling (automate security scans), negotiate realistic WIP limits with stakeholders, and evolve the DoD collaboratively so it is both valuable and achievable",
+            "why": "Sustainable agility comes from improving the system, not pressuring people. Automation + realistic limits + team ownership leads to better quality and flow (Lean + Agile principles)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Hire more testers to enforce quality",
+            "trap": "Adds cost without fixing the underlying process and overload issues."
+          },
+          {
+            "text": "Make the DoD optional for 'urgent' items",
+            "trap": "Creates two standards and erodes quality culture."
+          },
+          {
+            "text": "Blame individuals for not following process",
+            "trap": "Ignores systemic issues and damages psychological safety."
+          }
+        ],
+        "explanation": "Correct approach improves the system (tooling, limits, DoD ownership) — true continuous improvement in agile.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI Agile Practice Guide – Definition of Done",
+      "Kanban Guide – Flow and explicit policies"
+    ],
+    "tags": [
+      "agile",
+      "kanban",
+      "quality",
+      "definition-of-done",
+      "continuous-improvement"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Governance vs Agility Conflict in Hybrid Transformation",
+    "domain": "Business Environment",
+    "topic": "Hybrid Governance",
+    "difficulty": "hard",
+    "scenario": "Your organization is running a large hybrid transformation program. The predictive governance layer requires detailed stage-gate approvals and heavy documentation, while the agile delivery teams want fast iterations and minimal documentation. A critical compliance milestone is approaching and agile teams are resisting the documentation overhead.",
+    "steps": [
+      {
+        "label": "Understand the Tension",
+        "prompt": "Agile team leads complain that governance requirements are slowing them down and adding no value. What should you do first?",
+        "correct": [
+          {
+            "text": "Map the minimum viable governance artifacts required for the compliance milestone against what the agile teams are already producing, identifying true gaps vs perceived overhead",
+            "why": "Business Environment + Process: First understand regulatory/compliance needs vs delivery reality before forcing changes. This prevents unnecessary bureaucracy while protecting compliance (key in hybrid environments)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Tell agile teams they must follow all governance rules without exception",
+            "trap": "Ignores agile principles and may create resentment or workarounds."
+          },
+          {
+            "text": "Allow agile teams to skip governance documentation to maintain speed",
+            "trap": "Risks compliance failure and organizational governance requirements."
+          },
+          {
+            "text": "Escalate immediately to the PMO for enforcement",
+            "trap": "Premature escalation before analysing what is truly needed."
+          }
+        ],
+        "explanation": "Correct first step uses analysis to find the real overlap/gaps — essential in hybrid where both worlds must coexist.",
+        "domain": "Business Environment"
+      },
+      {
+        "label": "Tailored Approach",
+        "prompt": "Analysis shows some governance artifacts can be satisfied with existing agile artifacts (e.g., Definition of Done, sprint reviews) with minor additions. What is the best next step?",
+        "correct": [
+          {
+            "text": "Propose a tailored 'minimum viable governance' approach that reuses agile outputs where possible, adds only essential predictive artifacts, and gets agreement from both governance and delivery sides",
+            "why": "Hybrid success comes from tailoring, not forcing one methodology on the other. This balances compliance, speed, and value (Business Environment + Process integration)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Create a completely new parallel governance process for agile teams",
+            "trap": "Adds more overhead instead of reducing it."
+          },
+          {
+            "text": "Force all agile teams to produce full predictive documentation",
+            "trap": "Kills agility and team motivation."
+          },
+          {
+            "text": "Ignore the compliance milestone and hope for the best",
+            "trap": "High-risk approach that can have serious organizational consequences."
+          }
+        ],
+        "explanation": "Tailored, minimal viable governance that respects both paradigms is the hallmark of effective hybrid project management.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI Agile Practice Guide – Hybrid Approaches",
+      "PMBOK Guide 8th Edition – Tailoring & Governance"
+    ],
+    "tags": [
+      "hybrid",
+      "governance",
+      "agile",
+      "predictive",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "MVP Scope Creep in Incremental Delivery",
+    "domain": "Process",
+    "topic": "Incremental Value Delivery",
+    "difficulty": "medium",
+    "scenario": "You are delivering a new customer portal incrementally. The first MVP was supposed to include only core login + basic dashboard. Stakeholders are now pushing to add reporting, notifications, and admin features into the first increment 'because it will be more valuable'. This risks delaying the first release significantly.",
+    "steps": [
+      {
+        "label": "Protect the MVP",
+        "prompt": "Stakeholders want to expand the first increment significantly. What should you do first?",
+        "correct": [
+          {
+            "text": "Clearly articulate the purpose of the MVP (learn fast, validate assumptions, deliver early value), show the impact of scope expansion on time-to-value, and facilitate a prioritization session to identify what truly must be in the first increment vs later ones",
+            "why": "Incremental delivery succeeds by protecting early value and learning. Expanding scope without discipline defeats the purpose (Value Delivery + Process domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Agree to include everything to keep stakeholders happy",
+            "trap": "Turns the MVP into a big-bang release and loses incremental benefits."
+          },
+          {
+            "text": "Reject all additional requests without discussion",
+            "trap": "Damages relationships and may miss genuinely high-value items."
+          },
+          {
+            "text": "Move the release date without stakeholder alignment",
+            "trap": "Hides the trade-off instead of making it visible."
+          }
+        ],
+        "explanation": "Correct first step protects the core purpose of incremental delivery while engaging stakeholders transparently.",
+        "domain": "Process"
+      },
+      {
+        "label": "Value-Based Prioritization",
+        "prompt": "After discussion, some additional features have real business value. What is the best approach?",
+        "correct": [
+          {
+            "text": "Use MoSCoW or similar prioritization with the Product Owner and stakeholders to clearly separate Must have (for MVP), Should have, Could have, and Won't have for this increment. Release the true MVP on time and plan the next increment for high-value additions",
+            "why": "Incremental delivery requires ruthless prioritization to deliver value early while building the full solution over time. Clear categorization maintains discipline (Value Delivery focus in 2026 exam)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Include everything and extend the timeline",
+            "trap": "Defeats the purpose of incremental delivery."
+          },
+          {
+            "text": "Deliver a compromised MVP missing core functionality",
+            "trap": "Fails to deliver real value and damages credibility."
+          },
+          {
+            "text": "Let the development team decide what to include",
+            "trap": "Removes business prioritization from the process."
+          }
+        ],
+        "explanation": "Correct approach uses disciplined prioritization to protect early value delivery while planning future increments — core to incremental methodology.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMI Agile Practice Guide – Incremental Delivery",
+      "PMBOK Guide 8th Edition – Value Delivery"
+    ],
+    "tags": [
+      "incremental",
+      "mvp",
+      "value-delivery",
+      "prioritization",
+      "scope"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Prototyping Feedback Loop Not Closing – Iterative Project",
+    "domain": "Process",
+    "topic": "Iterative Development & Feedback",
+    "difficulty": "medium",
+    "scenario": "You are managing an iterative software project using multiple prototypes to refine a complex user interface. After three prototype cycles, user feedback is still not being incorporated effectively. The design team complains that feedback is vague and conflicting, while users say the prototypes don't address their real pain points.",
+    "steps": [
+      {
+        "label": "Diagnose the Feedback Problem",
+        "prompt": "Stakeholder feedback on the latest prototype is contradictory and low quality. What should you do first?",
+        "correct": [
+          {
+            "text": "Analyse the feedback collection process: Who is providing input? How is it gathered? Is it structured? Then facilitate a session with key users and the design team to clarify expectations and improve feedback quality",
+            "why": "Iterative projects live or die by effective feedback loops. First diagnose why the loop is broken (process, people, or method) before changing the prototype itself (Process + People domains)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Ignore conflicting feedback and proceed with the design team's preferred solution",
+            "trap": "Defeats the purpose of iterative feedback and risks building the wrong product."
+          },
+          {
+            "text": "Create more prototypes to 'test' which feedback is correct",
+            "trap": "Wastes cycles without fixing the root cause of poor feedback quality."
+          },
+          {
+            "text": "Blame the users for giving bad feedback",
+            "trap": "Damages relationships and ignores the PM's role in facilitating better input."
+          }
+        ],
+        "explanation": "Correct first step diagnoses the feedback process itself — critical in iterative approaches where learning depends on quality input.",
+        "domain": "Process"
+      },
+      {
+        "label": "Improve the Loop",
+        "prompt": "Root cause: Feedback is collected via email without structure, and users have not been properly trained on how to give actionable input. What is the best improvement?",
+        "correct": [
+          {
+            "text": "Implement structured feedback sessions (e.g., usability testing with tasks + think-aloud protocol), train users on giving specific, actionable feedback, and create a feedback triage process with the design team",
+            "why": "Iterative success requires deliberate improvement of the learning loop. Structured methods + training + triage create sustainable, high-quality feedback (Process + People integration)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Switch to a waterfall approach because iteration is not working",
+            "trap": "Throws away the benefits of iteration instead of fixing the execution."
+          },
+          {
+            "text": "Have the design team decide what feedback to accept",
+            "trap": "Removes user voice and defeats the purpose of iterative validation."
+          },
+          {
+            "text": "Reduce the number of prototype cycles to save time",
+            "trap": "Reduces learning opportunities when the problem is feedback quality, not quantity."
+          }
+        ],
+        "explanation": "Correct action improves the system for gathering and using feedback — true iterative improvement.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMBOK Guide 8th Edition – Iterative Development Principles",
+      "Agile Practice Guide – Feedback and Adaptation"
+    ],
+    "tags": [
+      "iterative",
+      "prototyping",
+      "feedback",
+      "user-experience",
+      "continuous-improvement"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Scope Creep in Predictive Project – Change Control Failure",
+    "domain": "Process",
+    "topic": "Predictive Scope Management",
+    "difficulty": "medium",
+    "scenario": "You are managing a large predictive infrastructure project with a fixed scope baseline approved 8 months ago. Multiple stakeholders are requesting 'small' changes that are accumulating. The project is now 15% over budget and the critical path is slipping. There is no formal change control board functioning effectively.",
+    "steps": [
+      {
+        "label": "Assess Current State",
+        "prompt": "You discover that several 'minor' changes have been implemented without going through the change control process. What should you do first?",
+        "correct": [
+          {
+            "text": "Perform an impact analysis on all implemented changes (cost, schedule, risk, quality) and document the current baseline deviation before taking any corrective action",
+            "why": "In predictive projects, you must first understand the true current state against the approved baseline. Acting without data risks making poor decisions (Process domain – Monitor & Control)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Immediately stop all work and enforce strict change control going forward",
+            "trap": "Reactive and may damage relationships without understanding the full picture."
+          },
+          {
+            "text": "Approve the changes retroactively to 'catch up'",
+            "trap": "Rewards bad behaviour and hides the real scope creep problem."
+          },
+          {
+            "text": "Blame the stakeholders for causing the problems",
+            "trap": "Damages relationships and does not solve the process failure."
+          }
+        ],
+        "explanation": "Correct first step is data-driven assessment of actual impact — fundamental to controlling scope in predictive projects.",
+        "domain": "Process"
+      },
+      {
+        "label": "Restore Control",
+        "prompt": "Impact analysis shows significant deviation. The sponsor wants to know options. What is the best recommendation?",
+        "correct": [
+          {
+            "text": "Present options: (1) Formal change requests for all future changes with impact analysis, (2) Re-baseline the project with updated scope/cost/schedule after approved changes, or (3) De-scope lower-value items to recover baseline. Recommend option 2 with strong change control going forward",
+            "why": "Predictive projects require formal change control and baseline management. Offering data-driven options while recommending re-baselining + strict future control is professional and realistic (Process + Business Environment)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Continue as is and absorb the changes",
+            "trap": "Leads to uncontrolled scope creep and likely project failure."
+          },
+          {
+            "text": "Reject all changes and return to original baseline",
+            "trap": "Ignores legitimate business needs and may not be feasible."
+          },
+          {
+            "text": "Blame the change control process failure on the team",
+            "trap": "Avoids PM accountability for process enforcement."
+          }
+        ],
+        "explanation": "Correct recommendation balances reality with proper process restoration — key in predictive environments.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMBOK Guide 8th Edition – Scope Management & Change Control",
+      "PMI Practice Standard for Project Configuration Management"
+    ],
+    "tags": [
+      "waterfall",
+      "predictive",
+      "scope-management",
+      "change-control",
+      "baseline"
+    ]
+  },
+  {
+    "schema": "case/v1",
+    "title": "Earned Value Analysis Shows Project in Trouble",
+    "domain": "Process",
+    "topic": "Predictive Cost & Schedule Control",
+    "difficulty": "hard",
+    "scenario": "You are managing a predictive project with a $5M budget and 18-month timeline. At month 9, your latest EVM report shows: SPI = 0.82, CPI = 0.78, EAC significantly higher than BAC. Several key risks have materialized.",
+    "steps": [
+      {
+        "label": "Interpret the Data",
+        "prompt": "Senior management asks for an explanation of the EVM numbers. What should your first response include?",
+        "correct": [
+          {
+            "text": "Explain what SPI and CPI mean in plain language, show the trend over time, identify root causes (risks materialized + scope creep), and present the forecasted EAC with confidence level",
+            "why": "Effective reporting translates data into actionable insight. Explaining trends and root causes before proposing solutions demonstrates control (Process domain – Monitor & Control Project Work)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Just present the raw numbers and say 'the project is behind'",
+            "trap": "Does not provide context or actionable information to decision makers."
+          },
+          {
+            "text": "Blame external factors only",
+            "trap": "Avoids taking ownership of what the PM can influence."
+          },
+          {
+            "text": "Promise recovery without analysis",
+            "trap": "Unrealistic commitment without understanding drivers."
+          }
+        ],
+        "explanation": "Correct approach educates stakeholders with clear interpretation and root cause — essential for earned value management.",
+        "domain": "Process"
+      },
+      {
+        "label": "Recovery Options",
+        "prompt": "Management wants to know recovery options. What is the most appropriate set of recommendations?",
+        "correct": [
+          {
+            "text": "Present a range of options: crashing critical path activities (with cost impact), fast-tracking (with risk impact), scope reduction of low-value items, and re-baselining with new EAC. Recommend a combination based on business priorities",
+            "why": "Predictive projects use formal techniques (crashing, fast-tracking, scope management) when EVM indicates trouble. Offering options with trade-offs shows mature control (Process domain)."
+          }
+        ],
+        "distractors": [
+          {
+            "text": "Recommend only adding more resources",
+            "trap": "Ignores other levers and may not be the most cost-effective."
+          },
+          {
+            "text": "Recommend cancelling the project immediately",
+            "trap": "Extreme without exploring recovery options first."
+          },
+          {
+            "text": "Hide the bad news and hope it improves",
+            "trap": "Unethical and damages trust when reality eventually surfaces."
+          }
+        ],
+        "explanation": "Correct response uses multiple project management techniques with clear trade-off analysis — expected in predictive control questions.",
+        "domain": "Process"
+      }
+    ],
+    "references": [
+      "PMBOK Guide 8th Edition – Earned Value Management",
+      "PMI Practice Standard for Earned Value Management"
+    ],
+    "tags": [
+      "waterfall",
+      "predictive",
+      "earned-value",
+      "control",
+      "recovery"
+    ]
+  }
+]
