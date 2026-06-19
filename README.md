@@ -1,6 +1,6 @@
 # PM Cram — open content
 
-Glossary terms, flashcards, and practice questions for the **PM Cram: PMP Prep** app. Everything here is plain JSON, version-controlled, schema-validated, and open to contribution.
+Study content for the **PM Cram: PMP Prep** app — glossary terms, flashcards, practice questions, study guides, sequencing (drag-to-order) and multi-step case questions. Everything here is plain JSON, version-controlled, schema-validated, and open to contribution.
 
 > **Independent PMP revision content. Not affiliated with or endorsed by PMI.** PMP and PMI are marks of the Project Management Institute, Inc. Citations reference PMI standards for study purposes only; no PMI text is reproduced.
 
@@ -104,7 +104,7 @@ The front is the prompt (e.g. the formula's name); `formula` is revealed on the 
 ---
 
 ### Study guides (`guides/`)
-Read-and-absorb material that isn't recall-tested — mindset, agile, exam strategy. Follow `schema/guide.schema.json`. A guide has a `title` (its natural key), a `category`, and an array of `sections`, each with a `heading`, a `body`, and an optional `tip` (shown as a highlighted exam-tip callout). **Text only — no images.**
+Read-and-absorb material that isn't recall-tested — mindset, agile, exam strategy, charts & diagrams. Follow `schema/guide.schema.json`. A guide has a `title` (its natural key), a `category`, and an array of `sections`, each with a `heading`, a `body`, an optional `tip` (highlighted exam-tip callout), and an optional `figure`.
 
 Body formatting is deliberately simple (no markdown): a **blank line** starts a new paragraph, and lines beginning with `- ` render as a bullet list.
 
@@ -116,10 +116,20 @@ Body formatting is deliberately simple (no markdown): a **blank line** starts a 
   "sections": [
     { "heading": "Assess before you act",
       "body": "Gather the facts and review the plan before deciding.\n\n- Don't react\n- Investigate first",
-      "tip": "The first step is usually to investigate, not to act or escalate." }
+      "tip": "The first step is usually to investigate, not to act or escalate.",
+      "figure": { "svg": "<svg viewBox='0 0 320 180' …>…</svg>", "caption": "Optional diagram." } }
   ]
 }
 ```
+
+### Figures (guides & deck cards)
+Both guide sections and deck cards accept an optional **`figure`** — `{ svg?, image?, caption? }`:
+
+- **`svg`** — inline SVG markup. Use **`currentColor`** for strokes/labels so it themes to light/dark automatically; the app reads the `viewBox` to size it, so choose whatever aspect fits (e.g. `viewBox='0 0 320 190'`). Accent colours (blue `#1F5FA8`, red `#B5462F`, green `#2F6F5E`) are fine for data; avoid hard-coded greys for ink. **Single-quote** attributes (the JSON wraps the SVG in double quotes), and use `&lt;`/`&gt;` for literal `<`/`>` in labels.
+- **`image`** — a repo-relative path (e.g. `content/assets/foo.png`) or absolute URL; rendered on a white card so photos read in dark mode.
+- **`caption`** — a short line shown beneath the figure.
+
+> `react-native-svg` doesn't support `<marker>`, so draw arrowheads as small `<polygon>`s.
 
 ### Sequencing questions (`sequences/`)
 Drag-to-order questions. Follow `schema/sequence.schema.json`. Store a `prompt` and a `steps[]` array **in the correct order** — the app shuffles them and the user drags them back into sequence. Each step has `text` and an optional one-line `note` (shown on review). `id` is optional (derived). 3–8 steps.
@@ -160,7 +170,7 @@ One shared scenario with several linked questions answered in order. Follow `sch
 
 - **Adding content?** Create a **new file** (e.g. `questions/contrib-2026-06-yourhandle.json`). Don't append to the large curated files.
 - **Fixing an error?** Edit the record **in the file where it lives** — corrections are the one time you edit existing files.
-- Records are keyed by `id` (questions/cards) or `Term` (glossary); if two share a key, the **last one merged wins**, so canonical corrections take precedence. Don't duplicate an existing key — CI rejects duplicates.
+- Records are keyed by `id` (questions / cards / sequences / cases — derived from the record's content when you don't set one), `Term` (glossary), or `title` (guides); if two share a key, the **last one merged wins**, so canonical corrections take precedence. Don't duplicate an existing key — CI rejects duplicates.
 
 ---
 

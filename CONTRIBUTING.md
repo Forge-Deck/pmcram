@@ -51,9 +51,9 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 - Optional enrichment: `formula` (shown prominently, revealed on the back), `legend` (`[{symbol, meaning}]` variable key), `figure` (`{svg|image, caption}` — same as guide figures), and `tip` (accent callout). Use these to make a card genuinely explain the concept, not just state it.
 
 ### Guides (`schema/guide.schema.json`)
-- Read-and-absorb notes (mindset, agile, exam strategy), keyed by `title`. **Text only — no images.**
+- Read-and-absorb notes (mindset, agile, exam strategy, charts & diagrams), keyed by `title`.
 - Each `sections` entry has a `heading`, a `body`, and an optional `tip`. In `body`, a blank line starts a paragraph and `- ` lines become bullets.
-- A section may also carry a `figure` (an inline `svg` string, or an `image` path) — see the README for the figure rules.
+- A section may also carry a `figure` (`{svg|image, caption}`) — see **Figures** in the README for the rules (theme-aware SVG via `currentColor`, `viewBox` sets the aspect, single-quote attributes).
 - Write original wording in your own voice; keep it current to the ECO-based exam.
 
 ### Sequencing questions (`schema/sequence.schema.json`)
