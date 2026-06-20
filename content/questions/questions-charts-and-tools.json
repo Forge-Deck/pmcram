@@ -1,0 +1,730 @@
+[
+  {
+    "id": "charts-schedule-timeline-visualization-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "schedule timeline visualization",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager needs to communicate the planned start and finish dates of work packages across several months to a steering committee. The audience wants a calendar-based view that shows task durations and overlap. Which visual tool is the best fit?",
+      "For an executive review, a project manager wants a time-scaled display of activities showing when each major task begins, ends, and overlaps with others. Which chart should be used?"
+    ],
+    "correct": [
+      {
+        "text": "Gantt chart or bar chart",
+        "why": "A Gantt or bar chart shows activities against a calendar timescale, making it the best choice to communicate planned start dates, finish dates, durations, and overlap among tasks."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Milestone chart",
+        "trap": "This assumes milestone reporting is enough, but milestone charts highlight only key events and do not show full task durations or overlap."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This reflects the misconception that dependency logic automatically makes it the best executive timeline view, even though network diagrams are less effective for showing calendar-based durations to stakeholders."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses time-phased performance trends with activity scheduling. An S-curve tracks cumulative values, not task bars and overlaps."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This mistake comes from focusing on staffing over time rather than on activity timing and sequencing."
+      },
+      {
+        "text": "Burndown chart",
+        "trap": "This represents an agile progress-tracking mindset, but burndown charts show remaining work over time, not planned task durations across a schedule."
+      }
+    ],
+    "explanation": "The key need is a time-scaled display of planned work across a calendar so stakeholders can quickly see when activities start, finish, and run in parallel. A Gantt or bar chart is designed for that purpose. Other charts may support reporting, logic analysis, staffing, or agile tracking, but they do not communicate full scheduled activity durations as clearly.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, bar charts section",
+      "Practice Standard for Scheduling, schedule presentation formats section",
+      "PMBOK Guide Sixth Edition, Project Schedule Management, schedule data and schedule presentation discussion"
+    ],
+    "tags": [
+      "charts",
+      "schedule-timeline-visualization"
+    ]
+  },
+  {
+    "id": "charts-high-level-milestone-reporting-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "high level milestone reporting",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor wants a one-page status view that shows only the major completion points such as design approved, prototype finished, and go-live. Detailed task bars are unnecessary. Which chart is the best fit?",
+      "A project manager needs a simple visual focused only on key dates and major delivery events for senior leadership. Which chart should be selected?"
+    ],
+    "correct": [
+      {
+        "text": "Milestone chart",
+        "why": "A milestone chart is best when the audience needs a concise view of significant events or checkpoints without detailed activity-level duration data."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This assumes more detail is always better, but a Gantt chart can overwhelm senior stakeholders when they only need major completion points."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This confuses dependency analysis with high-level reporting. Network diagrams are useful for sequencing logic, not simple executive milestone communication."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This reflects confusion between event-based status reporting and cumulative cost or progress trending."
+      },
+      {
+        "text": "Cumulative flow diagram",
+        "trap": "This mistake applies an agile flow metric where a simple checkpoint-based executive schedule summary is needed."
+      }
+    ],
+    "explanation": "When leadership wants only major checkpoints, the milestone chart is the most suitable visual because it strips away detailed activities and emphasizes significant planned or achieved events. A Gantt chart is richer but less concise, while network, cost, or agile flow visuals do not match the reporting objective.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, milestone charts section",
+      "Practice Standard for Scheduling, milestone schedule and summary schedule presentation section",
+      "PMBOK Guide Sixth Edition, Project Schedule Management, milestone list and schedule reporting discussion"
+    ],
+    "tags": [
+      "charts",
+      "high-level-milestone-reporting"
+    ]
+  },
+  {
+    "id": "charts-cumulative-cost-trend-monitoring-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "cumulative cost trend monitoring",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project controller wants to compare cumulative planned spending with cumulative actual spending over time to see whether the project is trending above or below the expected cost profile. Which visual tool is the best fit?",
+      "To monitor how total costs accumulate against the baseline across the life of the project, which chart should the team use?"
+    ],
+    "correct": [
+      {
+        "text": "S-curve",
+        "why": "An S-curve is specifically suited to displaying cumulative values such as planned cost, actual cost, or earned value over time, making trend comparison straightforward."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This confuses schedule timing with cumulative cost performance. Gantt charts show activities over time, not cumulative spending patterns."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This assumes major dates are enough to assess cost behavior, but milestones do not show cumulative expenditure trends."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This reflects the misconception that resource loading is the same as cumulative cost tracking. Histograms show distribution by period, not cumulative trend lines."
+      },
+      {
+        "text": "Burnup chart",
+        "trap": "This mixes agile scope completion tracking with cumulative cost monitoring. Burnup charts are not the standard choice for baseline versus actual cost accumulation."
+      },
+      {
+        "text": "Project network or precedence diagram",
+        "trap": "This mistake focuses on logic relationships instead of time-phased financial performance."
+      }
+    ],
+    "explanation": "The task calls for monitoring cumulative planned and actual cost over time. That is exactly the kind of trend an S-curve is meant to show. Other visuals may support scheduling, staffing, or agile delivery tracking, but they do not present cumulative cost accumulation against a baseline as effectively.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Cost Management, earned value analysis and performance review discussion",
+      "Practice Standard for Earned Value Management, performance measurement baseline and cumulative performance graph discussion",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, trend charts and forecasting related artifacts"
+    ],
+    "tags": [
+      "charts",
+      "cumulative-cost-trend-monitoring"
+    ]
+  },
+  {
+    "id": "charts-dependency-and-critical-path-analysis-04",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "dependency and critical path analysis",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During schedule development, a project manager needs to analyze mandatory dependencies, identify the critical path, and understand which activities can occur in parallel. Which visual tool is the best fit?",
+      "A team is trying to determine sequence logic and critical path relationships among activities before finalizing the schedule. Which chart or diagram should be used?"
+    ],
+    "correct": [
+      {
+        "text": "Project network or precedence diagram",
+        "why": "A project network or precedence diagram maps activity sequencing and dependencies, enabling critical path analysis, float assessment, and identification of parallel work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This reflects the belief that timeline bars alone are sufficient for logic analysis, but Gantt charts are weaker than network diagrams for dependency reasoning and critical path calculation."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This mistake reduces schedule analysis to key dates, ignoring the activity-level relationships needed to determine critical path."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses cumulative performance trending with schedule logic modeling."
+      },
+      {
+        "text": "Burndown chart",
+        "trap": "This applies an agile work-remaining view where formal dependency and path analysis is required."
+      },
+      {
+        "text": "Resource histogram",
+        "trap": "This assumes resource loading determines sequence logic, but histograms do not model precedence relationships."
+      }
+    ],
+    "explanation": "The need here is not simple schedule display but logical analysis of activity sequencing. A project network or precedence diagram is the most appropriate tool because it explicitly shows dependencies and supports critical path and float analysis. Timeline and reporting visuals may complement the schedule later, but they are not the primary tool for this task.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Project Schedule Management, sequence activities and precedence diagramming method",
+      "Practice Standard for Scheduling, network diagrams and critical path method sections",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, network diagrams section"
+    ],
+    "tags": [
+      "charts",
+      "dependency-and-critical-path-analysis"
+    ]
+  },
+  {
+    "id": "charts-agile-iteration-progress-tracking-05",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Schedule / Monitor Project Work",
+    "topic": "Charts & Visual Tools",
+    "subtopic": "agile iteration progress tracking",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An agile team wants to inspect how much work remains in the sprint each day so they can see whether they are on pace to finish the committed backlog by the sprint end date. Which visual tool is the best fit?",
+      "A Scrum team needs a daily chart showing remaining work trending toward zero during the sprint. Which chart should they use?"
+    ],
+    "correct": [
+      {
+        "text": "Burndown chart",
+        "why": "A burndown chart is designed to show remaining work over time, which makes it ideal for monitoring whether a sprint backlog is being completed at the expected pace."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Burnup chart",
+        "trap": "This reflects confusion between work completed and work remaining. Burnup charts emphasize completed scope growth, whereas the question specifically asks for remaining work trending toward zero."
+      },
+      {
+        "text": "Cumulative flow diagram",
+        "trap": "This assumes any agile chart is acceptable, but a cumulative flow diagram is better for monitoring flow stability, queue buildup, and work in process rather than sprint work remaining."
+      },
+      {
+        "text": "Gantt chart or bar chart",
+        "trap": "This applies predictive scheduling logic to a day-by-day agile remaining-work signal."
+      },
+      {
+        "text": "Milestone chart",
+        "trap": "This reduces sprint tracking to checkpoints and misses the need for continuous trend visibility of work left to do."
+      },
+      {
+        "text": "S-curve",
+        "trap": "This confuses cumulative trend graphs with the specific agile need to display remaining backlog."
+      }
+    ],
+    "explanation": "The defining clue is remaining work during a sprint. A burndown chart directly supports that purpose by plotting work left against time and helping the team inspect pace toward sprint completion. Burnup and cumulative flow diagrams are also agile visuals, but they answer different questions.",
+    "references": [
+      "Agile Practice Guide, agile metrics and information radiators discussion",
+      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, burndown chart section",
+      "Disciplined Agile and agile delivery guidance on visual management metrics"
+    ],
+    "tags": [
+      "charts",
+      "agile-iteration-progress-tracking"
+    ]
+  },
+  {
+    "id": "matrices-role-clarity-with-responsibility-assignments-01",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Role clarity with responsibility assignments",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is launching a cross-functional workstream and team members are confused about who approves deliverables, who performs the work, and who must be consulted before changes are made. Which matrix should the project manager create first?",
+      "A team needs a simple grid that clarifies who is responsible, accountable, consulted, and informed for each major deliverable. Which matrix best fits this task?"
+    ],
+    "correct": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "why": "This matrix directly maps work packages or deliverables to participation roles such as responsible, accountable, consulted, and informed. It is the best fit when the task is clarifying ownership and decision participation across people and work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that any project confusion is a risk analysis problem rather than a role-definition problem."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that deliverable ownership is the same as tracing requirements to outputs and verification."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that influence mapping can replace explicit assignment of execution and approval responsibilities."
+      },
+      {
+        "text": "Decision matrix",
+        "trap": "This reflects the misconception that choosing among alternatives will resolve unclear accountability for recurring work."
+      }
+    ],
+    "explanation": "The task asks for a matrix that defines who does the work, who approves it, and who must be consulted or informed. That is exactly the purpose of a RACI matrix, also called a responsibility assignment matrix. The other matrices serve different needs: risk prioritization, requirement traceability, stakeholder analysis, or alternative selection. Because the problem is role ambiguity around deliverables, the responsibility assignment matrix is the most appropriate tool.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Resource Management, Responsibility Assignment Matrix section",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Responsibility Assignment Matrix",
+      "Process Groups A Practice Guide, Develop Team and Manage Team discussion of roles and responsibilities artifacts"
+    ],
+    "tags": [
+      "matrices",
+      "role-clarity-with-responsibility-assignments"
+    ]
+  },
+  {
+    "id": "matrices-risk-prioritization-by-likelihood-and-consequence-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Risk prioritization by likelihood and consequence",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During risk planning, a team wants to classify identified risks so it can focus first on threats with both high likelihood and severe consequences. Which matrix should be used?",
+      "A risk workshop produces many threats and opportunities. The project manager needs a grid to interpret which risks deserve the most urgent response based on likelihood and consequence. Which matrix is best?"
+    ],
+    "correct": [
+      {
+        "text": "Probability-and-impact matrix",
+        "why": "This matrix is designed to assess and rank risks by combining estimated probability of occurrence with impact on project objectives. It supports qualitative risk analysis and helps determine priority for response planning."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that assigning owners alone is sufficient to prioritize risks."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that risks should be traced in the same way as requirements across deliverables and tests."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that influential stakeholders are the same thing as high-priority risks."
+      },
+      {
+        "text": "Prioritization or decision matrix",
+        "trap": "This reflects the misconception that generic weighted comparison is the standard tool for qualitative risk ranking by likelihood and impact."
+      }
+    ],
+    "explanation": "The scenario is explicitly about sorting risks by how likely they are and how much damage or benefit they could create. PMI describes the probability-and-impact matrix as the standard qualitative tool for this purpose. It helps the team interpret which risks need immediate attention. The other matrices may support ownership, traceability, stakeholder analysis, or general decision making, but none is as directly aligned to qualitative risk prioritization.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Risk Management, Perform Qualitative Risk Analysis, Probability and Impact Matrix",
+      "The Standard for Risk Management in Portfolios Programs and Projects, risk assessment and prioritization sections",
+      "Process Groups A Practice Guide, Project Risk Management domain guidance on qualitative analysis artifacts"
+    ],
+    "tags": [
+      "matrices",
+      "risk-prioritization-by-likelihood-and-consequence"
+    ]
+  },
+  {
+    "id": "matrices-tracing-requirements-through-delivery-and-validation-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Tracing requirements through delivery and validation",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A product owner wants to show how each approved requirement connects to business objectives, solution components, test cases, and final acceptance. Which matrix should the team maintain?",
+      "The team keeps missing verification steps because requirements are not linked to design, build, and test artifacts. Which matrix best supports end-to-end tracing?"
+    ],
+    "correct": [
+      {
+        "text": "Requirements traceability matrix or RTM",
+        "why": "The RTM links each requirement to its source, related deliverables, verification activities, and acceptance evidence. It is the correct matrix when the need is end-to-end visibility from requirement definition through validation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that knowing who owns work automatically shows whether each requirement has been fulfilled and verified."
+      },
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that missed verification is mainly a risk ranking issue rather than a traceability issue."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that stakeholder influence mapping is enough to manage requirement alignment and test coverage."
+      },
+      {
+        "text": "Decision matrix",
+        "trap": "This reflects the misconception that selecting among alternatives is the same as maintaining requirement lineage across the life cycle."
+      }
+    ],
+    "explanation": "The requirement in this scenario is not to assign people or assess risks but to maintain visibility from approved requirements to design, build, test, and acceptance. The requirements traceability matrix is built for that exact purpose. It helps prevent missing work, scope gaps, and unverified requirements by preserving trace links across the project life cycle. The other matrices may be useful elsewhere, but they do not provide requirement lineage.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Scope Management, Collect Requirements, Requirements Traceability Matrix",
+      "Business Analysis for Practitioners A Practice Guide, requirements life cycle and traceability sections",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Traceability artifacts for requirements and deliverables"
+    ],
+    "tags": [
+      "matrices",
+      "tracing-requirements-through-delivery-and-validation"
+    ]
+  },
+  {
+    "id": "matrices-reading-the-stakeholder-power-interest-grid-04",
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Reading the stakeholder power-interest grid",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor asks how to interpret a stakeholder grid where one regulator is high power and low interest. What engagement approach best matches that position on the grid?",
+      "A project manager plots stakeholders on a power-interest grid. One executive has strong authority but limited day-to-day interest. How should that stakeholder generally be managed?"
+    ],
+    "correct": [
+      {
+        "text": "Stakeholder power-interest grid, with the stakeholder generally kept satisfied",
+        "why": "In a power-interest grid, stakeholders with high power and lower immediate interest are typically managed by keeping them satisfied. The grid helps tailor engagement strategy based on influence and level of concern."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix, with the stakeholder marked accountable",
+        "trap": "This reflects the misconception that influential stakeholders must always hold formal accountability for deliverables."
+      },
+      {
+        "text": "Probability-and-impact matrix, because a powerful stakeholder is a high-impact risk",
+        "trap": "This reflects the misconception that stakeholder engagement planning should be replaced by risk scoring."
+      },
+      {
+        "text": "Requirements traceability matrix, because regulators should be linked to compliance requirements",
+        "trap": "This reflects the misconception that requirement mapping is the primary tool for deciding stakeholder engagement posture."
+      },
+      {
+        "text": "Decision matrix, because stakeholder attention should be weighted against cost and schedule",
+        "trap": "This reflects the misconception that stakeholder strategy is simply an alternative-selection exercise."
+      }
+    ],
+    "explanation": "The question is really about interpreting a stakeholder power-interest grid, not just naming it. PMI uses stakeholder mapping tools to understand who has authority and how engaged they are, then align communication and involvement accordingly. A stakeholder with high power but lower current interest is generally kept satisfied so the project maintains support without overloading that person with detail. The other choices confuse engagement analysis with role assignment, risk ranking, requirement tracing, or weighted decision making.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders, Power Interest Grid",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stakeholders performance domain and stakeholder analysis artifacts",
+      "Process Groups A Practice Guide, stakeholder identification and stakeholder engagement planning sections"
+    ],
+    "tags": [
+      "matrices",
+      "reading-the-stakeholder-power-interest-grid"
+    ]
+  },
+  {
+    "id": "matrices-weighted-comparison-of-alternatives-05",
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Engage Stakeholders / Plan and Manage Project Work",
+    "topic": "Matrices & Grids",
+    "subtopic": "Weighted comparison of alternatives",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team must choose one vendor from several options using weighted criteria such as technical fit, implementation speed, support model, and total value. Which matrix best supports this selection?",
+      "A project manager needs a structured way to compare alternatives against multiple criteria and assign scores before making a recommendation. Which matrix is most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Prioritization or decision matrix",
+        "why": "A decision matrix supports evaluation of alternatives against defined criteria, often with weights and scores. It is the best fit when the task is selecting among options based on multiple factors."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "RACI matrix or responsibility assignment matrix",
+        "trap": "This reflects the misconception that assigning ownership for selection work also determines which option is best."
+      },
+      {
+        "text": "Probability-and-impact matrix",
+        "trap": "This reflects the misconception that option evaluation should primarily be framed as risk severity rather than weighted decision criteria."
+      },
+      {
+        "text": "Requirements traceability matrix",
+        "trap": "This reflects the misconception that tracing requirements to vendors automatically provides a balanced selection decision."
+      },
+      {
+        "text": "Stakeholder power-interest grid",
+        "trap": "This reflects the misconception that the most influential stakeholders should determine the choice without structured criteria analysis."
+      }
+    ],
+    "explanation": "When a team needs to compare alternatives across several criteria, the appropriate tool is a prioritization or decision matrix. It creates transparency in how options are evaluated and helps reduce bias by using agreed criteria and relative weighting. The other matrices answer different questions: role assignment, risk exposure, requirement linkage, or stakeholder engagement. None of those directly provides a structured multi-criteria selection method.",
+    "references": [
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Decision Matrix",
+      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Data Analysis tools including alternatives analysis and prioritization techniques",
+      "Business Analysis for Practitioners A Practice Guide, decision analysis and option evaluation sections"
+    ],
+    "tags": [
+      "matrices",
+      "weighted-comparison-of-alternatives"
+    ]
+  },
+  {
+    "id": "quality-charts-pareto-chart-01",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Pareto chart",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager reviews defect data from final testing and wants to identify the small number of defect categories causing most of the rework so the team can prioritize improvement efforts. Which tool should the project manager use?",
+      "A team has many different defect types and needs a visual technique to show which few categories account for most of the problems. What is the best tool to select?"
+    ],
+    "correct": [
+      {
+        "text": "Pareto chart",
+        "why": "A Pareto chart ranks categories by frequency or impact so the team can see the vital few contributors that drive most defects or issues. It is the best choice when the task is prioritizing problem categories for corrective action."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Fishbone diagram",
+        "trap": "Confuses identifying likely causes with prioritizing categories by frequency or impact. A fishbone diagram explores possible causes but does not show which categories contribute the most."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Assumes any quality problem calls for process stability analysis. A control chart is for variation over time and whether a process is in control, not for ranking defect categories."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Mistakes a general frequency display for a prioritization tool. A histogram shows distribution, but it does not explicitly organize categories to highlight the vital few."
+      },
+      {
+        "text": "Scatter diagram",
+        "trap": "Assumes the team should look for correlation between variables. The problem is prioritization of defect categories, not relationship analysis."
+      },
+      {
+        "text": "PDCA cycle",
+        "trap": "Selects an improvement approach instead of the specific chart needed to analyze the data. PDCA guides improvement work but does not itself rank categories."
+      }
+    ],
+    "explanation": "The key clue is the need to identify the few categories causing most of the problems. That is the classic use of a Pareto chart, which helps focus attention on the highest-value improvement targets. Other quality tools may support later analysis, but they do not provide the same category-by-category prioritization for decision making.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including Pareto charts",
+      "The PMI Guide to Business Analysis, Figure 4-6 Pareto Diagram Sample Format"
+    ],
+    "tags": [
+      "quality-tools",
+      "pareto-chart"
+    ]
+  },
+  {
+    "id": "quality-charts-fishbone-diagram-structure-and-purpose-02",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Fishbone diagram structure and purpose",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During a quality workshop, a facilitator asks the team to place the problem statement at the head of a diagram and organize potential causes along major branches such as methods, materials, machines, and people. Which technique is being used?",
+      "A team is building a visual diagram with a central problem on the right and branching bones for categories of possible causes. What quality tool is this?"
+    ],
+    "correct": [
+      {
+        "text": "Fishbone diagram",
+        "why": "This diagram is structured with the problem at the head and cause categories along branching bones. Its purpose is to visually organize possible causes and subcauses so the team can explore why a problem may be occurring."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses a branching cause map with a ranked bar chart. Pareto charts prioritize categories by magnitude, not by causal structure."
+      },
+      {
+        "text": "Cause-and-effect diagram used specifically to select the most likely root cause immediately",
+        "trap": "Overreaches the diagram's purpose. The diagram structures possible causes first; it does not by itself prove which cause is the root cause without further analysis or evidence."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Mistakes a causal brainstorming diagram for a time-series stability chart. Control charts track performance variation over time."
+      },
+      {
+        "text": "Process flowchart",
+        "trap": "Assumes any visual process tool fits. A flowchart maps steps and decisions, whereas a fishbone organizes categories of causes around a problem."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Confuses a frequency distribution display with a cause-organizing diagram. Histograms do not show causal branches."
+      }
+    ],
+    "explanation": "This question tests recognition of the diagram's structure and intent rather than simple terminology. A fishbone diagram is the same family of tool as an Ishikawa or cause-and-effect diagram, but here the best cue is the visual arrangement of head, bones, categories, and subcauses. Its primary value is to organize possible causes clearly so the team can investigate systematically.",
+    "references": [
+      "The PMI Guide to Business Analysis, p. 70, fishbone diagram as a visual tool with the problem at the head and causes and subcauses on the bones",
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including cause-and-effect diagrams"
+    ],
+    "tags": [
+      "quality-tools",
+      "fishbone-diagram-structure-and-purpose"
+    ]
+  },
+  {
+    "id": "quality-charts-deming-pdca-cycle-03",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Deming PDCA cycle",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team has implemented a process change to reduce recurring defects. The project manager now wants the team to test the change, review the results, standardize what works, and repeat the cycle for continuous improvement. Which technique best fits this need?",
+      "Which approach should a project manager use when the goal is iterative continuous improvement through planning a change, trying it, checking outcomes, and acting on what is learned?"
+    ],
+    "correct": [
+      {
+        "text": "Deming's PDCA cycle",
+        "why": "PDCA is designed for continuous improvement through an iterative sequence of plan, do, check, and act. It is the best fit when the task is to refine a process by testing changes, evaluating results, and institutionalizing improvements."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses prioritizing issue categories with managing an iterative improvement loop. A Pareto chart can inform what to improve, but it is not the improvement cycle itself."
+      },
+      {
+        "text": "Fishbone diagram",
+        "trap": "Assumes root-cause brainstorming is the same as continuous improvement. A fishbone diagram helps identify possible causes, not manage the plan-do-check-act sequence."
+      },
+      {
+        "text": "Scatter diagram",
+        "trap": "Focuses on correlation between variables rather than structured iterative improvement. Correlation analysis does not provide the improvement cycle."
+      },
+      {
+        "text": "Check sheet",
+        "trap": "Mistakes a data collection form for a management technique. A check sheet supports measurement but does not guide improvement iterations."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Selects monitoring over improvement governance. A control chart helps determine process stability, but PDCA is the broader method for driving and refining change."
+      }
+    ],
+    "explanation": "The task described is not just analyzing a defect or displaying data. It is about repeatedly improving a process by planning a change, trying it, evaluating the results, and taking action based on evidence. That pattern aligns directly with Deming's PDCA cycle. Several other quality tools may be used within the cycle, but they do not replace the cycle itself.",
+    "references": [
+      "PMI quality management knowledgebase content describing PDCA as a continuous improvement and process refinement cycle",
+      "PMBOK Guide Sixth Edition, Section 8 Project Quality Management, continuous improvement context within quality management"
+    ],
+    "tags": [
+      "quality-tools",
+      "deming-pdca-cycle"
+    ]
+  },
+  {
+    "id": "quality-charts-cause-and-effect-diagram-for-root-cause-analysis-04",
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and Manage Quality of Products/Deliverables",
+    "topic": "Quality",
+    "subtopic": "Cause-and-effect diagram for root-cause analysis",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager knows which defect category is most significant and now needs the team to explore underlying reasons for that problem so they can perform root-cause analysis. Which tool should be selected?",
+      "After identifying the highest-impact defect, the team wants to investigate possible underlying causes in a structured way. What is the best tool to use for root-cause analysis?"
+    ],
+    "correct": [
+      {
+        "text": "Cause-and-effect diagram",
+        "why": "A cause-and-effect diagram is appropriate when the team needs to perform structured root-cause analysis by organizing possible causes and subcauses of a specific problem. It helps move from the symptom toward likely underlying causes that need further validation."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Fishbone diagram",
+        "trap": "Tests whether the learner recognizes the synonym issue. Fishbone diagram is effectively the same tool, but this option may distract candidates who fail to notice that cause-and-effect and fishbone refer to the same diagram family."
+      },
+      {
+        "text": "Pareto chart",
+        "trap": "Confuses selecting the biggest problem with investigating why that problem occurs. Pareto helps choose the priority issue, not diagnose its causes."
+      },
+      {
+        "text": "Histogram",
+        "trap": "Assumes any quality chart can reveal causes. A histogram shows distribution of data, not causal relationships behind a selected defect."
+      },
+      {
+        "text": "PDCA cycle",
+        "trap": "Chooses a broad improvement method instead of the specific root-cause analysis tool needed at this step."
+      },
+      {
+        "text": "Control chart",
+        "trap": "Mistakes process stability monitoring for causal diagnosis. Control charts indicate variation patterns over time but do not map possible causes of a specific issue."
+      }
+    ],
+    "explanation": "This question is about the task, not just the label. Once the team already knows which problem matters most, the next step is root-cause analysis. A cause-and-effect diagram is the best fit because it structures possible causes under a defined problem. The deliberate presence of fishbone as a distractor tests whether the learner understands that the terms overlap, while still focusing on selecting the tool for the root-cause purpose.",
+    "references": [
+      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, cause-and-effect diagrams and root cause analysis",
+      "The PMI Guide to Business Analysis, p. 70, fishbone diagram described as a good starting point for root-cause analysis"
+    ],
+    "tags": [
+      "quality-tools",
+      "cause-and-effect-diagram-for-root-cause-analysis"
+    ]
+  }
+]

@@ -401,5 +401,1127 @@
       "tuckman",
       "sequence"
     ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "procurement-process-from-planning-to-closeout",
+    "domain": "Process",
+    "topic": "Procurement process from planning to closeout",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for managing procurement from planning through closeout in the correct order.",
+    "steps": [
+      {
+        "text": "Create the procurement management plan",
+        "note": "This sets the rules, roles, contract approach, and timing before any seller engagement begins."
+      },
+      {
+        "text": "Prepare procurement documents and source selection criteria",
+        "note": "The buyer needs clear requirements and evaluation criteria before requesting seller responses."
+      },
+      {
+        "text": "Conduct procurements and select sellers",
+        "note": "Soliciting bids or proposals and awarding the contract occurs after planning and document preparation."
+      },
+      {
+        "text": "Control procurements during contract performance",
+        "note": "Once the contract is active, the team monitors performance, compliance, payments, and changes."
+      },
+      {
+        "text": "Verify all contract obligations are complete and accepted",
+        "note": "Formal confirmation of completed work is needed before administrative closure."
+      },
+      {
+        "text": "Close procurements and archive contract records",
+        "note": "The final step completes administrative closure and preserves records for future use."
+      }
+    ],
+    "explanation": "Procurement work starts by deciding how external purchases will be managed, then moves into solicitation and seller selection. After contract performance is controlled and obligations are confirmed complete, the contract can be formally closed.",
+    "references": [
+      "PMI Knowledge Base, procurement management plan guidance",
+      "PMI Knowledge Base, Conduct Procurements",
+      "PMI Knowledge Base, Control Procurements",
+      "PMI Knowledge Base, procurement closure practices"
+    ],
+    "tags": [
+      "procurement",
+      "contracts",
+      "planning",
+      "control",
+      "closeout",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "developing-a-project-schedule",
+    "domain": "Process",
+    "topic": "Developing a project schedule",
+    "difficulty": "easy",
+    "prompt": "Arrange the steps for developing a project schedule in the correct order.",
+    "steps": [
+      {
+        "text": "Define activities from the work to be performed",
+        "note": "You must identify the activities before you can arrange or estimate them."
+      },
+      {
+        "text": "Sequence activities by identifying logical relationships",
+        "note": "Dependencies are established only after the activities themselves are known."
+      },
+      {
+        "text": "Estimate activity durations",
+        "note": "Duration estimates depend on knowing both the activities and their sequencing context."
+      },
+      {
+        "text": "Develop the schedule",
+        "note": "The schedule is created by integrating activities, dependencies, durations, and constraints."
+      },
+      {
+        "text": "Establish the schedule baseline",
+        "note": "The baseline is set after the schedule has been developed and approved."
+      }
+    ],
+    "explanation": "Schedule development proceeds from identifying the work to arranging it logically, estimating how long it will take, and building the integrated schedule. The approved version then becomes the schedule baseline for control.",
+    "references": [
+      "PMI Knowledge Base, Define Activities",
+      "PMI Knowledge Base, Sequence Activities",
+      "PMI Knowledge Base, Estimate Activity Durations",
+      "PMI Knowledge Base, Develop Schedule"
+    ],
+    "tags": [
+      "schedule",
+      "activities",
+      "sequencing",
+      "durations",
+      "baseline",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "determining-the-project-budget",
+    "domain": "Process",
+    "topic": "Determining the project budget",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for determining the project budget from estimates to funding in the correct order.",
+    "steps": [
+      {
+        "text": "Estimate costs for project activities and resources",
+        "note": "Individual cost estimates are the foundation for all later budget work."
+      },
+      {
+        "text": "Aggregate estimated costs into cost accounts and work packages",
+        "note": "Detailed estimates must be rolled up before a total budget can be formed."
+      },
+      {
+        "text": "Determine the project budget",
+        "note": "The budget is established by combining rolled-up estimates with reserves as appropriate."
+      },
+      {
+        "text": "Establish the cost baseline",
+        "note": "The approved budget becomes the baseline used to measure cost performance."
+      },
+      {
+        "text": "Determine project funding requirements",
+        "note": "Funding needs are derived after the time-phased budget and baseline are known."
+      }
+    ],
+    "explanation": "Budgeting begins with estimating costs at a detailed level and rolling them up to higher levels. After the budget is approved and baselined, the organization can define when and how much funding is required.",
+    "references": [
+      "PMI Knowledge Base, Estimate Costs",
+      "PMI Knowledge Base, Determine Budget",
+      "PMI Knowledge Base, cost baseline and funding requirements guidance"
+    ],
+    "tags": [
+      "cost",
+      "budget",
+      "estimates",
+      "baseline",
+      "funding",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "closing-a-project-or-phase",
+    "domain": "Process",
+    "topic": "Closing a project or phase",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for closing a project or phase in the correct order.",
+    "steps": [
+      {
+        "text": "Confirm all deliverables are completed and formally accepted",
+        "note": "Closure cannot begin correctly until scope completion and acceptance are verified."
+      },
+      {
+        "text": "Complete final product, service, or result transition",
+        "note": "Handover to operations, the customer, or the next phase follows acceptance."
+      },
+      {
+        "text": "Close procurements and confirm contract closure",
+        "note": "External commitments should be closed after deliverable acceptance and transition activities are complete."
+      },
+      {
+        "text": "Capture and finalize lessons learned and the final report",
+        "note": "Administrative closure includes documenting outcomes, performance, and insights before archiving."
+      },
+      {
+        "text": "Archive project information and release team and resources",
+        "note": "Records are retained and resources released as the final step of formal closure."
+      }
+    ],
+    "explanation": "A project or phase closes only after deliverables are accepted and transitioned appropriately. Contract closure and administrative closure artifacts follow, and the work ends with archiving and releasing resources.",
+    "references": [
+      "PMI Knowledge Base, Close Project or Phase",
+      "PMI Knowledge Base, accepted deliverables as an input to closure",
+      "PMI Knowledge Base, final report and lessons learned register in project closure"
+    ],
+    "tags": [
+      "closure",
+      "phase close",
+      "accepted deliverables",
+      "lessons learned",
+      "handover",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "scope-definition-and-wbs-to-validated-scope-baseline",
+    "domain": "Process",
+    "topic": "Scope definition and WBS to validated scope baseline",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for moving from requirements to a validated scope baseline in the correct order.",
+    "steps": [
+      {
+        "text": "Collect and analyze stakeholder requirements and acceptance criteria",
+        "note": "Requirements need to be understood before scope can be defined or decomposed."
+      },
+      {
+        "text": "Define the project and product scope in the project scope statement",
+        "note": "The scope statement translates approved requirements into a clear boundary for the work and deliverables."
+      },
+      {
+        "text": "Create the WBS and WBS dictionary by decomposing deliverables into manageable components",
+        "note": "The WBS organizes the approved scope into a deliverable-oriented structure for planning and control."
+      },
+      {
+        "text": "Establish the scope baseline from the project scope statement, WBS, and WBS dictionary",
+        "note": "These three components together form the approved baseline for scope management."
+      },
+      {
+        "text": "Validate completed deliverables against the scope baseline with stakeholders",
+        "note": "Validation happens after the baseline exists and is used as the basis for formal acceptance."
+      }
+    ],
+    "explanation": "PMI sequencing moves from requirements to scope definition, then to decomposition in the WBS, then to formal establishment of the scope baseline. Validation uses that baseline to confirm completed deliverables meet approved scope.",
+    "references": [
+      "PMBOK Guide, Project Scope Management, Collect Requirements",
+      "PMBOK Guide, Project Scope Management, Define Scope",
+      "PMBOK Guide, Project Scope Management, Create WBS",
+      "PMBOK Guide, Project Scope Management, Validate Scope"
+    ],
+    "tags": [
+      "scope",
+      "WBS",
+      "scope baseline",
+      "requirements",
+      "validate scope"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "single-sprint-or-iteration-event-order",
+    "domain": "Process",
+    "topic": "Single sprint or iteration event order",
+    "difficulty": "easy",
+    "prompt": "Arrange the events of a single sprint or iteration in the correct order.",
+    "steps": [
+      {
+        "text": "Conduct iteration planning to select work and align on the iteration goal",
+        "note": "The team first decides what will be delivered and how the iteration begins."
+      },
+      {
+        "text": "Execute the work while holding daily standups for coordination",
+        "note": "Daily coordination occurs during the iteration as the team builds the increment."
+      },
+      {
+        "text": "Hold the iteration review to inspect the increment with stakeholders",
+        "note": "The review occurs near the end of the iteration to examine what was produced."
+      },
+      {
+        "text": "Conduct the retrospective to identify improvements for the next iteration",
+        "note": "Improvement discussion follows the review so the team can adapt its way of working."
+      }
+    ],
+    "explanation": "A single iteration starts with planning, continues with execution and daily coordination, then closes with review and retrospective. This order preserves the inspect-and-adapt cadence used in Agile delivery.",
+    "references": [
+      "Agile Practice Guide, Iteration Planning",
+      "Agile Practice Guide, Daily Standup",
+      "Agile Practice Guide, Iteration Review",
+      "Agile Practice Guide, Retrospective"
+    ],
+    "tags": [
+      "agile",
+      "sprint",
+      "iteration",
+      "review",
+      "retrospective"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "lessons-learned-and-knowledge-capture",
+    "domain": "Process",
+    "topic": "Lessons learned and knowledge capture",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for capturing and reusing lessons learned in the correct order.",
+    "steps": [
+      {
+        "text": "Identify a project event, result, or issue worth examining",
+        "note": "Knowledge capture starts when the team recognizes a meaningful experience or outcome."
+      },
+      {
+        "text": "Facilitate discussion to determine what happened, why it happened, and what should change",
+        "note": "The team analyzes the experience before documenting conclusions."
+      },
+      {
+        "text": "Document the lesson in the lessons learned register with context and recommendation",
+        "note": "The insight needs to be recorded clearly so others can understand and apply it."
+      },
+      {
+        "text": "Share the lesson with relevant stakeholders and future project teams",
+        "note": "Knowledge only creates value when it is transferred beyond the immediate discussion."
+      },
+      {
+        "text": "Apply the lesson to current or future work through updated approaches or decisions",
+        "note": "The process is completed when captured knowledge influences action."
+      }
+    ],
+    "explanation": "PMI treats lessons learned as part of managing project knowledge: identify useful experience, analyze it, document it, transfer it, and apply it. The ordering is meant to turn experience into reusable organizational knowledge rather than just archived notes.",
+    "references": [
+      "PMBOK Guide, Manage Project Knowledge",
+      "PMBOK Guide, Lessons Learned Register",
+      "PMBOK Guide, Project Work Performance Domain"
+    ],
+    "tags": [
+      "lessons learned",
+      "knowledge",
+      "manage project knowledge",
+      "continuous improvement",
+      "organizational learning"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "onboarding-and-developing-a-newly-formed-team",
+    "domain": "People",
+    "topic": "Onboarding and developing a newly formed team",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for onboarding and developing a newly formed project team in the correct order.",
+    "steps": [
+      {
+        "text": "Orient new team members to the project purpose, outcomes, and key stakeholder expectations",
+        "note": "People need a shared understanding of the mission before they can align their work."
+      },
+      {
+        "text": "Clarify roles, responsibilities, and ways of working",
+        "note": "Role clarity reduces confusion and creates an initial operating model for the team."
+      },
+      {
+        "text": "Establish team ground rules and working agreements",
+        "note": "Ground rules create shared behavioral expectations once roles and interactions are understood."
+      },
+      {
+        "text": "Build trust and cohesion through collaboration, support, and constructive feedback",
+        "note": "Trust develops after members begin working within a defined team environment."
+      },
+      {
+        "text": "Develop team capability through coaching, training, and ongoing performance support",
+        "note": "Capability building is most effective after the team has basic alignment and cohesion."
+      }
+    ],
+    "explanation": "New teams develop more effectively when they first gain shared context, then role clarity, then explicit norms, before deeper trust-building and capability development. This sequence supports progression from formation toward effective performance.",
+    "references": [
+      "PMBOK Guide, Team Performance Domain",
+      "PMBOK Guide, Develop Team",
+      "PMBOK Guide, Manage Team"
+    ],
+    "tags": [
+      "team development",
+      "onboarding",
+      "roles",
+      "ground rules",
+      "trust"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "three-point-pert-estimate",
+    "domain": "Process",
+    "topic": "Three-point PERT estimate",
+    "difficulty": "easy",
+    "prompt": "Arrange the steps for performing a three-point PERT estimate in the correct order.",
+    "steps": [
+      {
+        "text": "Define the activity or work package to estimate and confirm its scope boundaries.",
+        "note": "You need a clearly defined item before selecting estimate inputs."
+      },
+      {
+        "text": "Determine the optimistic, most likely, and pessimistic estimates for the work.",
+        "note": "The three-point method starts by establishing the three scenario values."
+      },
+      {
+        "text": "Apply the PERT formula to calculate the expected estimate.",
+        "note": "The expected value is calculated only after all three estimates are available."
+      },
+      {
+        "text": "Review the result against assumptions, constraints, and known risks.",
+        "note": "The calculated value should be checked for realism before adoption."
+      },
+      {
+        "text": "Document the estimate basis and use the result in schedule or cost planning.",
+        "note": "Once validated, the estimate is recorded and incorporated into planning artifacts."
+      }
+    ],
+    "explanation": "The sequence moves from defining what is being estimated, to collecting the three required inputs, to calculating the expected value. It then validates the result and documents it for use in planning.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Planning Performance Domain",
+      "A Guide to the Project Management Body of Knowledge, Sixth Edition, Estimate Activity Durations and Estimate Costs"
+    ],
+    "tags": [
+      "estimating",
+      "pert",
+      "three-point-estimating",
+      "schedule",
+      "cost"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "choose-and-tailor-the-development-approach",
+    "domain": "Process",
+    "topic": "Choose and tailor the development approach",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for choosing and tailoring the development approach in the correct order.",
+    "steps": [
+      {
+        "text": "Assess project characteristics such as requirements uncertainty, risk, stakeholder engagement needs, and delivery cadence.",
+        "note": "The approach should be based on the nature of the work and its context."
+      },
+      {
+        "text": "Select an initial development approach such as predictive, iterative, incremental, agile, or hybrid.",
+        "note": "You choose the broad approach only after evaluating the project environment."
+      },
+      {
+        "text": "Tailor governance, life cycle, planning detail, and delivery practices to fit the selected approach.",
+        "note": "Tailoring refines the approach into a workable model for this project."
+      },
+      {
+        "text": "Align stakeholders and the team on how work will be planned, executed, monitored, and controlled.",
+        "note": "Shared understanding is needed before execution begins."
+      },
+      {
+        "text": "Review performance and adapt the tailored approach through change control as the project evolves.",
+        "note": "The development approach may need adjustment based on learning and results."
+      }
+    ],
+    "explanation": "The order begins with evaluating project context, then choosing the broad approach, then tailoring it into practical ways of working. Stakeholder alignment follows before execution, and adaptation occurs as performance data emerges.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Development Approach and Life Cycle Performance Domain",
+      "Process Groups A Practice Guide, Tailoring"
+    ],
+    "tags": [
+      "development-approach",
+      "tailoring",
+      "life-cycle",
+      "hybrid",
+      "agile"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "manage-project-compliance",
+    "domain": "Business Environment",
+    "topic": "Manage project compliance",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for managing project compliance from identifying requirements to measuring compliance in the correct order.",
+    "steps": [
+      {
+        "text": "Identify applicable compliance requirements from laws, regulations, standards, contracts, and organizational policies.",
+        "note": "Compliance management starts with knowing what obligations apply."
+      },
+      {
+        "text": "Analyze the requirements to determine their impact on project scope, deliverables, processes, and controls.",
+        "note": "The project team must understand how each requirement affects project work."
+      },
+      {
+        "text": "Plan how compliance will be addressed, including roles, procedures, documentation, and monitoring methods.",
+        "note": "A defined approach is needed before implementation can begin."
+      },
+      {
+        "text": "Implement the required compliance activities and integrate them into project execution and oversight.",
+        "note": "The planned controls and practices must be carried out during project work."
+      },
+      {
+        "text": "Measure and report compliance performance using audits, reviews, inspections, and documented results.",
+        "note": "Measurement occurs after controls are in place and operating."
+      }
+    ],
+    "explanation": "This sequence progresses from identifying obligations, to understanding their impact, to planning and executing compliance activities, and finally to measuring results. That creates a clear path from requirement discovery to evidence-based compliance monitoring.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Business Environment Performance Domain",
+      "Process Groups A Practice Guide, Monitoring and Controlling Process Group"
+    ],
+    "tags": [
+      "compliance",
+      "governance",
+      "business-environment",
+      "monitoring",
+      "controls"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "embed-sustainability-into-a-project",
+    "domain": "Business Environment",
+    "topic": "Embed sustainability into a project",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for embedding sustainability into a project in the correct order.",
+    "steps": [
+      {
+        "text": "Identify sustainability drivers, stakeholder expectations, and organizational commitments relevant to the project.",
+        "note": "You first establish why sustainability matters and what is expected."
+      },
+      {
+        "text": "Assess the project for environmental, social, and economic impacts, opportunities, and risks.",
+        "note": "The project must be evaluated before sustainability actions can be defined."
+      },
+      {
+        "text": "Define sustainability objectives, success criteria, and requirements for the project and deliverables.",
+        "note": "Objectives and requirements come after understanding impacts and expectations."
+      },
+      {
+        "text": "Integrate sustainability actions into plans, decisions, procurement, delivery practices, and risk responses.",
+        "note": "Once defined, sustainability is embedded into how the project is managed and executed."
+      },
+      {
+        "text": "Monitor sustainability performance and update actions through regular review and change control.",
+        "note": "Ongoing measurement and adjustment ensure sustainability remains active throughout the project."
+      }
+    ],
+    "explanation": "The order starts with understanding sustainability expectations, then assessing impacts, then setting concrete objectives and requirements. Those are integrated into project work, and performance is then monitored and adjusted over time.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Business Environment Performance Domain",
+      "PMI Sustainability in Project Management"
+    ],
+    "tags": [
+      "sustainability",
+      "esg",
+      "business-environment",
+      "stakeholders",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "ai-tool-adoption-with-human-oversight-and-governance",
+    "domain": "Business Environment",
+    "topic": "AI tool adoption with human oversight and governance",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for adopting an AI tool in a project environment with proper human oversight and governance in the correct order.",
+    "steps": [
+      {
+        "text": "Define the use case, expected value, decision boundaries, and governance requirements for the AI tool.",
+        "note": "The project must first establish why the tool is being adopted and what controls are required."
+      },
+      {
+        "text": "Assess risks, data quality, privacy, bias, security, and compliance impacts before use.",
+        "note": "Risk and control analysis comes before implementation so safeguards can be designed intentionally."
+      },
+      {
+        "text": "Set human oversight rules, approval thresholds, auditability needs, and escalation paths.",
+        "note": "Oversight mechanisms must be defined before live operation so AI outputs are not acted on without accountability."
+      },
+      {
+        "text": "Pilot the AI tool in a limited setting and evaluate output quality against defined acceptance criteria.",
+        "note": "A pilot validates whether the tool performs acceptably under controlled conditions."
+      },
+      {
+        "text": "Deploy with ongoing monitoring, exception handling, and periodic governance review.",
+        "note": "Full use comes only after controls and pilot evidence are in place, followed by continuous review."
+      }
+    ],
+    "explanation": "The sequence moves from defining purpose and guardrails to assessing exposure, establishing human control, validating in a pilot, and then operating under continuing governance. This creates a single clear progression from concept to controlled use.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "Process Groups A Practice Guide",
+      "PMI Infinity guidance on responsible AI adoption in project environments"
+    ],
+    "tags": [
+      "AI",
+      "governance",
+      "human-oversight",
+      "risk",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "earned-value-analysis-from-data-gathering-to-corrective-acti",
+    "domain": "Process",
+    "topic": "Earned value analysis from data gathering to corrective action",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for performing earned value analysis and moving from data gathering to corrective action in the correct order.",
+    "steps": [
+      {
+        "text": "Collect current scope progress, planned value data, actual cost data, and baseline information.",
+        "note": "Earned value analysis starts with reliable performance and baseline data."
+      },
+      {
+        "text": "Calculate earned value measures and performance indicators such as cost and schedule variance.",
+        "note": "The raw data must be converted into measures before interpretation is possible."
+      },
+      {
+        "text": "Interpret variances and trends to determine root causes and forecast likely outcomes.",
+        "note": "Analysis of what the numbers mean logically follows calculation."
+      },
+      {
+        "text": "Identify response options and select corrective actions to address the performance gap.",
+        "note": "Only after understanding the cause can the team choose the most appropriate correction."
+      },
+      {
+        "text": "Submit a change request if the selected action affects approved baselines or controlled components.",
+        "note": "Formal change control is required when the response alters approved plans or baselines."
+      }
+    ],
+    "explanation": "The order is data first, calculations second, interpretation third, response selection fourth, and formal change action last if needed. This avoids acting on incomplete or unanalyzed performance information.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "The Standard for Project Management",
+      "Practice Standard for Earned Value Management"
+    ],
+    "tags": [
+      "earned-value",
+      "monitoring",
+      "variance",
+      "forecasting",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "acquiring-and-managing-project-resources",
+    "domain": "People",
+    "topic": "Acquiring and managing project resources",
+    "difficulty": "easy",
+    "prompt": "Arrange the steps for acquiring and managing project resources in the correct order.",
+    "steps": [
+      {
+        "text": "Identify the roles, skills, quantities, and timing needed for project resources.",
+        "note": "Resource work begins by determining what is needed and when."
+      },
+      {
+        "text": "Acquire resources through negotiation, assignment, procurement, or onboarding.",
+        "note": "The team cannot be managed until the required resources are secured."
+      },
+      {
+        "text": "Assign responsibilities, confirm availability, and integrate resources into the work plan.",
+        "note": "Once acquired, resources need clear placement into the project structure."
+      },
+      {
+        "text": "Manage team performance, communication, conflict, and development during execution.",
+        "note": "Active management occurs after people are assigned and working."
+      },
+      {
+        "text": "Control resources by tracking utilization, resolving shortfalls, and adjusting allocations.",
+        "note": "Ongoing control follows execution to keep resource use aligned with the plan."
+      }
+    ],
+    "explanation": "The sequence follows the natural lifecycle of resource management: define needs, acquire people or materials, assign them, manage their work, and then control ongoing usage and adjustments. Each step depends on the previous one being completed first.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "The Standard for Project Management",
+      "Process Groups A Practice Guide"
+    ],
+    "tags": [
+      "resources",
+      "team",
+      "acquire-resources",
+      "manage-team",
+      "control-resources"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "phase-gate-or-tollgate-governance-review",
+    "domain": "Business Environment",
+    "topic": "Phase-gate or tollgate governance review",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for running a phase-gate or tollgate governance review in the correct order.",
+    "steps": [
+      {
+        "text": "Define gate criteria, required evidence, decision authority, and review timing for the phase exit.",
+        "note": "A governance review must begin with clear criteria and decision rights."
+      },
+      {
+        "text": "Prepare and compile performance results, deliverables, risk status, issues, and business case updates.",
+        "note": "The review body needs complete evidence before evaluating readiness."
+      },
+      {
+        "text": "Conduct the gate review and compare actual results against exit criteria and strategic objectives.",
+        "note": "Formal evaluation occurs only after the evidence package is ready."
+      },
+      {
+        "text": "Record the governance decision to proceed, conditionally proceed, recycle, pause, or stop.",
+        "note": "A decision is the direct output of the review itself."
+      },
+      {
+        "text": "Issue follow-up actions, update plans through change control as needed, and communicate the outcome.",
+        "note": "Implementation of the decision comes after the decision has been formally made."
+      }
+    ],
+    "explanation": "The order starts with establishing the rules of the gate, then assembling evidence, then holding the review, then making the decision, and finally implementing and communicating that decision. This keeps governance orderly and auditable.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "The Standard for Project Management",
+      "Benefits Realization Management and governance guidance from PMI"
+    ],
+    "tags": [
+      "phase-gate",
+      "tollgate",
+      "governance",
+      "decision-making",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "negotiating-project-agreements",
+    "domain": "Business Environment",
+    "topic": "Negotiating project agreements",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for negotiating a project agreement in the correct order.",
+    "steps": [
+      {
+        "text": "Prepare for the negotiation by clarifying objectives, constraints, stakeholders, and desired outcomes.",
+        "note": "Preparation comes first because the project manager needs a clear position before entering discussion."
+      },
+      {
+        "text": "Understand the BATNA and reservation limits for both sides.",
+        "note": "Knowing the best alternative and walk-away boundaries informs negotiation strategy before active bargaining."
+      },
+      {
+        "text": "Negotiate terms, trade-offs, and commitments with the other party.",
+        "note": "Actual bargaining follows preparation and BATNA analysis."
+      },
+      {
+        "text": "Reach agreement on the final terms and mutual obligations.",
+        "note": "Agreement is reached only after negotiation converges on acceptable terms."
+      },
+      {
+        "text": "Document the agreement, approvals, and follow-up actions.",
+        "note": "Documentation is last because it formalizes what was agreed rather than what is still being discussed."
+      }
+    ],
+    "explanation": "The order moves from readiness, to evaluating negotiating leverage, to conducting the negotiation, then finalizing terms, and finally recording the outcome. Documenting too early would capture unresolved positions rather than a completed agreement.",
+    "references": [
+      "PMI PMP Examination Content Outline, Business Environment domain, task on negotiating project agreements",
+      "A Guide to the Project Management Body of Knowledge"
+    ],
+    "tags": [
+      "agreements",
+      "negotiation",
+      "BATNA",
+      "procurement",
+      "business-environment"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "structured-problem-solving-and-decision-making",
+    "domain": "Process",
+    "topic": "Structured problem-solving and decision-making",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for structured problem-solving and decision-making on a project in the correct order.",
+    "steps": [
+      {
+        "text": "Define the problem or decision clearly, including scope, impact, and success criteria.",
+        "note": "A clear problem statement comes first so the team solves the right issue."
+      },
+      {
+        "text": "Gather relevant data, assumptions, constraints, and stakeholder input.",
+        "note": "Decision quality depends on factual inputs collected after the issue is defined."
+      },
+      {
+        "text": "Generate feasible options or solution alternatives.",
+        "note": "Options are developed only after the team understands the problem context."
+      },
+      {
+        "text": "Evaluate alternatives against criteria such as risk, value, cost, time, and feasibility.",
+        "note": "Assessment follows option generation so choices can be compared consistently."
+      },
+      {
+        "text": "Select the best course of action and implement the decision.",
+        "note": "Selection and execution occur after analysis identifies the preferred option."
+      },
+      {
+        "text": "Review outcomes and adjust through change requests if needed.",
+        "note": "Monitoring the result is last because the team must first implement the chosen action."
+      }
+    ],
+    "explanation": "This sequence follows a disciplined decision path: define, inform, create alternatives, evaluate, act, and then verify results. It prevents premature solutioning and supports traceable project decisions.",
+    "references": [
+      "PMI PMP Examination Content Outline, Process domain, task on problem solving",
+      "A Guide to the Project Management Body of Knowledge"
+    ],
+    "tags": [
+      "problem-solving",
+      "decision-making",
+      "analysis",
+      "change-request",
+      "process"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "root-cause-analysis",
+    "domain": "Process",
+    "topic": "Root-cause analysis",
+    "difficulty": "easy",
+    "prompt": "Arrange the steps for performing root-cause analysis from problem definition to corrective action in the correct order.",
+    "steps": [
+      {
+        "text": "Define the problem clearly, including what is happening, where, when, and the impact.",
+        "note": "Root-cause analysis starts by framing the problem precisely."
+      },
+      {
+        "text": "Collect data and evidence about the symptoms, process conditions, and affected deliverables.",
+        "note": "Evidence is needed before causes can be tested or confirmed."
+      },
+      {
+        "text": "Identify possible causes using analysis techniques such as cause-and-effect thinking.",
+        "note": "Potential causes are explored only after enough factual information is available."
+      },
+      {
+        "text": "Confirm the most likely root cause by validating it against the evidence.",
+        "note": "Validation separates the true root cause from superficial symptoms."
+      },
+      {
+        "text": "Develop and implement corrective action to address the verified root cause.",
+        "note": "Corrective action is taken after the underlying cause is confirmed."
+      }
+    ],
+    "explanation": "The sequence moves from understanding the issue, to investigating evidence, to isolating and validating the root cause, and only then correcting it. Acting before validation risks treating symptoms instead of the underlying source.",
+    "references": [
+      "PMI PMP Examination Content Outline, Process domain, task on problem solving",
+      "A Guide to the Project Management Body of Knowledge"
+    ],
+    "tags": [
+      "root-cause-analysis",
+      "corrective-action",
+      "quality",
+      "issue-management",
+      "process"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "planning-and-managing-communications",
+    "domain": "People",
+    "topic": "Planning and managing communications",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for planning and managing project communications in the correct order.",
+    "steps": [
+      {
+        "text": "Identify stakeholder communication needs, preferences, and required information.",
+        "note": "Communication planning begins with understanding who needs what information."
+      },
+      {
+        "text": "Define the communication approach, channels, frequency, format, and responsibilities.",
+        "note": "Once needs are known, the project manager can design the communication method."
+      },
+      {
+        "text": "Document the communication plan and align it with stakeholder expectations.",
+        "note": "The plan is formalized after the approach is defined."
+      },
+      {
+        "text": "Distribute project information and facilitate communication according to the plan.",
+        "note": "Execution follows planning and documented agreement on how communication will occur."
+      },
+      {
+        "text": "Monitor communication effectiveness and adjust the approach as needed.",
+        "note": "Effectiveness can be monitored only after communications are being carried out."
+      }
+    ],
+    "explanation": "The order follows the natural flow of communication management: determine needs, design the approach, document it, execute it, and then monitor whether it is working. Monitoring before implementation would provide no meaningful feedback.",
+    "references": [
+      "PMI PMP Examination Content Outline, People domain, task on communications",
+      "A Guide to the Project Management Body of Knowledge"
+    ],
+    "tags": [
+      "communications",
+      "stakeholders",
+      "engagement",
+      "monitoring",
+      "people"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "procurement-source-selection",
+    "domain": "Process",
+    "topic": "Procurement source selection",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for awarding a contract using source selection criteria in the correct order.",
+    "steps": [
+      {
+        "text": "Define the procurement need and procurement statement of work",
+        "note": "The buyer must first clarify what is being purchased and the required outcomes."
+      },
+      {
+        "text": "Establish source selection criteria",
+        "note": "Evaluation criteria are set before supplier responses are reviewed to ensure fairness and consistency."
+      },
+      {
+        "text": "Issue the procurement documents to sellers",
+        "note": "Sellers can only prepare responses after the requirements and award basis are documented."
+      },
+      {
+        "text": "Evaluate seller proposals against the source selection criteria",
+        "note": "Proposals are assessed using the predefined criteria to identify the best fit."
+      },
+      {
+        "text": "Negotiate and award the contract",
+        "note": "Contract award happens after proposal evaluation identifies the preferred seller."
+      }
+    ],
+    "explanation": "The sequence moves from defining what is needed, to deciding how sellers will be judged, to soliciting and evaluating proposals, and finally awarding the contract. Setting criteria before reviewing bids is what makes the order unambiguous.",
+    "references": [
+      "PMBOK Guide Seventh Edition, Project Work Performance Domain, procurement and delivery considerations",
+      "Process Groups A Practice Guide, Conduct Procurements",
+      "PMIstandards+ guidance on procurement evaluation and source selection"
+    ],
+    "tags": [
+      "procurement",
+      "source selection",
+      "contract award",
+      "seller evaluation",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "agile-release-planning",
+    "domain": "Process",
+    "topic": "Agile release planning",
+    "difficulty": "easy",
+    "prompt": "Arrange the steps from product vision to iteration plan in the correct order.",
+    "steps": [
+      {
+        "text": "Define the product vision",
+        "note": "The vision sets the direction and desired outcome for the product."
+      },
+      {
+        "text": "Create and refine the product backlog",
+        "note": "Backlog items are derived from the vision and captured as candidate work."
+      },
+      {
+        "text": "Prioritize backlog items for value and sequencing",
+        "note": "The team and product owner must order work before deciding release contents."
+      },
+      {
+        "text": "Develop the release plan",
+        "note": "The release plan groups prioritized work into a broader delivery horizon."
+      },
+      {
+        "text": "Create the iteration plan for the upcoming iteration",
+        "note": "Iteration planning breaks the near-term release work into actionable tasks."
+      }
+    ],
+    "explanation": "Agile planning starts with vision, translates that into backlog items, orders the backlog, then maps work into a release before detailing the next iteration. The release plan logically precedes the iteration plan because it sets the delivery context.",
+    "references": [
+      "Agile Practice Guide, agile planning horizons",
+      "PMBOK Guide Seventh Edition, Development Approach and Life Cycle Performance Domain",
+      "PMIstandards+ guidance on release and iteration planning"
+    ],
+    "tags": [
+      "agile",
+      "release planning",
+      "iteration planning",
+      "product vision",
+      "backlog"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "validate-and-control-scope",
+    "domain": "Process",
+    "topic": "Validate and control scope",
+    "difficulty": "hard",
+    "prompt": "Arrange the steps for verifying deliverables and managing scope changes in the correct order.",
+    "steps": [
+      {
+        "text": "Inspect completed deliverables with the customer or sponsor",
+        "note": "Deliverables must be reviewed before formal acceptance can occur."
+      },
+      {
+        "text": "Obtain formal acceptance through Validate Scope",
+        "note": "Formal acceptance confirms the deliverables meet agreed requirements."
+      },
+      {
+        "text": "Monitor project and product scope against the scope baseline",
+        "note": "Once acceptance is addressed, the team tracks whether scope remains under control."
+      },
+      {
+        "text": "Submit a change request for any needed scope adjustment",
+        "note": "A change request is required when actual or desired scope differs from the approved baseline."
+      },
+      {
+        "text": "Review the change request through integrated change control and update baselines if approved",
+        "note": "Approved changes are processed through change control board governance and then incorporated."
+      }
+    ],
+    "explanation": "Validate Scope comes before scope change handling because the team first verifies and accepts deliverables, then monitors for deviations or needed changes. Any scope adjustment must move through formal change control before the baseline is updated.",
+    "references": [
+      "Process Groups A Practice Guide, Validate Scope",
+      "Process Groups A Practice Guide, Control Scope",
+      "PMBOK Guide Seventh Edition, Measurement Performance Domain and uncertainty of change considerations"
+    ],
+    "tags": [
+      "validate scope",
+      "control scope",
+      "deliverables",
+      "change request",
+      "change control board"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "implement-and-monitor-risk-responses",
+    "domain": "Process",
+    "topic": "Implement and monitor risk responses",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for implementing and monitoring risk responses in the correct order.",
+    "steps": [
+      {
+        "text": "Plan Risk Management",
+        "note": "Risk work begins by defining the approach, roles, thresholds, and methods."
+      },
+      {
+        "text": "Perform Risk Analysis",
+        "note": "Risks must be assessed before the team selects appropriate responses."
+      },
+      {
+        "text": "Plan risk responses",
+        "note": "Response actions are chosen after analysis clarifies priority and exposure."
+      },
+      {
+        "text": "Implement risk responses",
+        "note": "Planned response actions are executed during project work."
+      },
+      {
+        "text": "Monitor risks and assess response effectiveness",
+        "note": "The team tracks residual risk, new risk, and whether the chosen responses are working."
+      }
+    ],
+    "explanation": "The sequence follows PMI risk logic: establish the risk approach, analyze risks, decide responses, implement them, and then monitor outcomes. Monitoring comes last because it evaluates the effectiveness of actions already put in place.",
+    "references": [
+      "Process Groups A Practice Guide, Plan Risk Management",
+      "Process Groups A Practice Guide, Plan Risk Responses",
+      "Process Groups A Practice Guide, Implement Risk Responses and Monitor Risks"
+    ],
+    "tags": [
+      "risk management",
+      "risk responses",
+      "monitor risks",
+      "perform risk analysis",
+      "pmp"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "create-team-charter-and-ground-rules",
+    "domain": "People",
+    "topic": "Create team charter and ground rules",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for creating a team charter and ground rules in the correct order.",
+    "steps": [
+      {
+        "text": "Review the project charter, key stakeholder expectations, and delivery approach to identify team operating needs.",
+        "note": "The team needs project context before defining how it will work together."
+      },
+      {
+        "text": "Facilitate a team discussion to define shared values, working agreements, decision methods, and expected behaviors.",
+        "note": "Ground rules should be created collaboratively so the team owns them."
+      },
+      {
+        "text": "Document the agreed team charter and ground rules, including communication norms, conflict management, and accountability expectations.",
+        "note": "The agreements are captured after the team reaches alignment on them."
+      },
+      {
+        "text": "Confirm understanding and commitment from team members and relevant stakeholders.",
+        "note": "Explicit commitment comes after the charter is documented."
+      },
+      {
+        "text": "Use the team charter during execution and revisit it when team conditions or project needs change.",
+        "note": "The charter is then applied and updated as the team evolves."
+      }
+    ],
+    "explanation": "The order moves from understanding project context to co-creating agreements, documenting them, securing commitment, and then using and refining the charter during execution. This reflects PMI guidance that team charters and ground rules are collaborative working agreements that guide team behavior.",
+    "references": [
+      "PMI Talent Triangle and PMP Exam Content Outline, People domain, tasks related to building and leading a team",
+      "PMBOK Guide, current PMI guidance on team charter and ground rules as collaborative team working agreements"
+    ],
+    "tags": [
+      "pmp",
+      "people",
+      "team-charter",
+      "ground-rules",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "id": "transition-benefits-and-hand-over-to-operations-at-closure",
+    "domain": "Business Environment",
+    "topic": "Transition benefits and hand over to operations at closure",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for transitioning benefits and handing over deliverables to operations at project closure in the correct order.",
+    "steps": [
+      {
+        "text": "Confirm acceptance criteria have been met and obtain formal acceptance of the final deliverables.",
+        "note": "Operational handover should start only after deliverables are formally accepted."
+      },
+      {
+        "text": "Assess operational readiness, including support capability, training needs, documentation completeness, and transition risks.",
+        "note": "The receiving organization must be ready before ownership is transferred."
+      },
+      {
+        "text": "Prepare and execute the transition plan for handover, knowledge transfer, and support responsibilities.",
+        "note": "Once readiness is understood, the actual handover activities are organized and performed."
+      },
+      {
+        "text": "Transfer ownership of deliverables and identified benefit sustainment responsibilities to operations or the designated benefit owner.",
+        "note": "Responsibility moves after the handover activities are completed."
+      },
+      {
+        "text": "Close the project or phase by archiving records, releasing resources, and documenting lessons learned and transition outcomes.",
+        "note": "Administrative closure follows the completed transfer to operations."
+      }
+    ],
+    "explanation": "The sequence starts with formal acceptance, then verifies that operations can receive the outcome, executes the transition, transfers ownership for ongoing benefits, and finally completes closure activities. This separates project delivery from operational ownership in a controlled handover.",
+    "references": [
+      "PMP Exam Content Outline, Business Environment domain, tasks related to compliance, benefits realization, and project closure",
+      "PMBOK Guide, current PMI guidance on transition, handover, and closure responsibilities"
+    ],
+    "tags": [
+      "pmp",
+      "business-environment",
+      "closure",
+      "benefits",
+      "operations",
+      "handover",
+      "sequence"
+    ]
   }
 ]

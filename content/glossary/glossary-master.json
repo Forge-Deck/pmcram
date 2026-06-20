@@ -23140,5 +23140,96 @@
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Project success",
+    "Core Meaning": "The consensus view, across beneficiaries and stakeholders, that a project delivered value worth the effort and expense.",
+    "Depth": "Standard",
+    "Expansion": "PMBOK Guide Eighth Edition reframes project success beyond the traditional 'on time, on budget, in scope' triple constraint. A project is considered successful when its intended beneficiaries, other stakeholders, and the project participants agree that the value delivered was worth the effort and expense invested. This shifts the emphasis from outputs to outcomes and realized value, and it underpins the 2026 ECO's focus on value-based delivery.",
+    "Deep Dive": null,
+    "Contrast": "Triple constraint — meeting scope, schedule, and cost is necessary but no longer sufficient; success now hinges on perceived value.",
+    "Example": "A platform ships slightly late and over budget, yet stakeholders agree it transformed the business, so it is judged a success.",
+    "Related Terms": [
+      "Business value",
+      "Benefits realization",
+      "Value delivery",
+      "Triple constraint",
+      "Stakeholder"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Eighth Edition, Glossary."
+  },
+  {
+    "Term": "Requirement",
+    "Core Meaning": "A condition or capability that must be present in a product, service, or result to satisfy a business need.",
+    "Depth": "Standard",
+    "Expansion": "A requirement specifies what a deliverable must do or possess to meet a stakeholder or business need. Requirements are elicited and analyzed, documented, prioritized, and traced through delivery and validation. They may be functional (what it does), nonfunctional (qualities such as performance or security), or constraints, and together they form the basis of scope and acceptance criteria.",
+    "Deep Dive": null,
+    "Contrast": "Scope — a requirement is a single needed condition or capability; scope is the total set of work and deliverables that satisfies the requirements.",
+    "Example": "'The portal must authenticate users within two seconds' is a nonfunctional requirement that feeds the scope baseline.",
+    "Related Terms": [
+      "Functional requirement",
+      "Nonfunctional requirement",
+      "Collect Requirements",
+      "Requirements documentation",
+      "Scope",
+      "Acceptance criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Eighth Edition, Glossary."
+  },
+  {
+    "Term": "Waterfall",
+    "Core Meaning": "A predictive, sequential delivery approach where each phase is largely completed before the next begins.",
+    "Depth": "Standard",
+    "Expansion": "Waterfall is the common informal name for a fully predictive, plan-driven life cycle in which requirements, design, build, test, and deploy proceed as distinct sequential phases with formal hand-offs. It suits work with stable, well-understood requirements and low expected change, where up-front planning and baselines provide control. It contrasts with adaptive approaches that deliver iteratively and welcome change.",
+    "Deep Dive": null,
+    "Contrast": "Agile — waterfall front-loads planning and delivers once at the end; agile delivers in increments and adapts to change throughout.",
+    "Example": "A regulated construction project runs design, build, then commission in sequence, with sign-off gates between phases.",
+    "Related Terms": [
+      "Predictive approach",
+      "Adaptive approach",
+      "Development approach",
+      "Life cycle",
+      "Phase gate"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Common industry term; aligns with the predictive development approach in the PMBOK Guide Eighth Edition."
+  },
+  {
+    "Term": "PRINCE2",
+    "Core Meaning": "A process-based project management methodology (PRojects IN Controlled Environments) used widely in the UK and internationally.",
+    "Depth": "Standard",
+    "Expansion": "PRINCE2 is a structured, process-driven method organized around defined principles, themes, and processes, with strong emphasis on continued business justification, clearly defined roles, and managing by stages and by exception. It is agnostic about technical delivery and is often adopted as an organizational standard alongside or instead of PMI-based approaches. The PMP exam is not based on PRINCE2, but practitioners may encounter it in governance-heavy environments.",
+    "Deep Dive": null,
+    "Contrast": "PMBOK Guide — PRINCE2 is a prescriptive methodology with set processes; the PMBOK Guide is a principles-and-domains body of knowledge, not a methodology.",
+    "Example": "A UK government programme mandates PRINCE2 stage boundaries and a project board for governance decisions.",
+    "Related Terms": [
+      "Methodology",
+      "Governance",
+      "Business case",
+      "Phase gate",
+      "Predictive approach"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Not a formal PMI glossary entry; widely used industry methodology (AXELOS)."
+  },
+  {
+    "Term": "Cost overrun",
+    "Core Meaning": "The amount by which actual project costs exceed the budgeted or baselined cost.",
+    "Depth": "Standard",
+    "Expansion": "A cost overrun occurs when the money actually spent surpasses the cost baseline, signalling unfavorable cost performance — a negative cost variance and a CPI below 1.0. Overruns may stem from poor estimating, scope creep, realized risks, or inefficiency, and are detected through earned value analysis and variance monitoring. The response is to analyze the cause and apply corrective or preventive action through the change-control and governance processes.",
+    "Deep Dive": null,
+    "Contrast": "Sunk cost — a cost overrun is spend above plan; a sunk cost is money already spent that should not influence future decisions.",
+    "Example": "Halfway through, $600k is spent against a $500k earned-value baseline, a $100k cost overrun with CPI below 1.0.",
+    "Related Terms": [
+      "Cost variance",
+      "Cost performance index",
+      "Cost baseline",
+      "Earned value management",
+      "Scope creep"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "Common practitioner term; relates to cost variance and CPI in the PMBOK Guide Eighth Edition."
   }
 ]

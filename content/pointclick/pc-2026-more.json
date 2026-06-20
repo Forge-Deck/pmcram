@@ -1,0 +1,425 @@
+[
+  {
+    "schema": "pointclick/v1",
+    "domain": "Process",
+    "topic": "Pareto analysis",
+    "difficulty": "easy",
+    "prompt": "On this Pareto chart, tap the bar where the cumulative line first reaches at least 80% (the vital-few cut-off).",
+    "figure": {
+      "svg": "<svg viewBox='0 0 320 188' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='172' x2='312' y2='172' stroke='currentColor' stroke-width='1.3'/><line x1='40' y1='22' x2='40' y2='172' stroke='currentColor' stroke-width='1.3'/><line x1='40' y1='52' x2='312' y2='52' stroke='#B5462F' stroke-width='1' stroke-dasharray='4 4'/><text x='312' y='49' fill='#B5462F' font-size='8' text-anchor='end'>80%</text><rect x='46' y='112' width='36' height='60' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='64' y='183' fill='currentColor' font-size='7' text-anchor='middle'>Missing reqs</text><rect x='88' y='136' width='36' height='36' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='106' y='183' fill='currentColor' font-size='7' text-anchor='middle'>Test data</text><rect x='130' y='148' width='36' height='24' rx='3' stroke='#1F5FA8' stroke-width='1' fill='#1F5FA8'/><text x='148' y='183' fill='currentColor' font-size='7' text-anchor='middle'>Env setup</text><rect x='172' y='157' width='36' height='15' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='190' y='183' fill='currentColor' font-size='7' text-anchor='middle'>UI defects</text><rect x='214' y='163' width='36' height='9' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='232' y='183' fill='currentColor' font-size='7' text-anchor='middle'>Training</text><rect x='256' y='166' width='36' height='6' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='274' y='183' fill='currentColor' font-size='7' text-anchor='middle'>Other</text><polyline points='64,112 106,76 148,52 190,37 232,28 274,22' stroke='#2F6F5E' stroke-width='1.6'/><circle cx='64' cy='112' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><circle cx='106' cy='76' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><circle cx='148' cy='52' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><circle cx='190' cy='37' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><circle cx='232' cy='28' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><circle cx='274' cy='22' r='2.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/></svg>",
+      "caption": "Bars = defect counts; green line = cumulative %."
+    },
+    "regions": [
+      {
+        "id": "b0",
+        "x": 46,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "label": "Missing reqs",
+        "why": "Cumulative is 40% at this bar."
+      },
+      {
+        "id": "b1",
+        "x": 88,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "label": "Test data",
+        "why": "Cumulative is 64% at this bar."
+      },
+      {
+        "id": "b2",
+        "x": 130,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "correct": true,
+        "label": "Env setup",
+        "why": "Cumulative reaches 80% here (80%) — the vital few cut-off."
+      },
+      {
+        "id": "b3",
+        "x": 172,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "label": "UI defects",
+        "why": "Cumulative is 90% at this bar."
+      },
+      {
+        "id": "b4",
+        "x": 214,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "label": "Training",
+        "why": "Cumulative is 96% at this bar."
+      },
+      {
+        "id": "b5",
+        "x": 256,
+        "y": 22,
+        "w": 36,
+        "h": 150,
+        "label": "Other",
+        "why": "Cumulative is 100% at this bar."
+      }
+    ],
+    "explanation": "The cumulative line passes 80% at the third bar (40+24+16 = 80 of 100). Those first three categories are the 'vital few' to fix first.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Quality Performance Domain",
+      "Process Groups: A Practice Guide, Manage Quality"
+    ],
+    "tags": [
+      "pareto",
+      "quality",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "People",
+    "topic": "Resource overallocation",
+    "difficulty": "medium",
+    "prompt": "This resource histogram shows planned hours per week against a 40h capacity. Tap the week with the greatest overallocation.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 314 188' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='34' y1='172' x2='308' y2='172' stroke='currentColor' stroke-width='1.3'/><line x1='34' y1='24' x2='34' y2='172' stroke='currentColor' stroke-width='1.3'/><line x1='34' y1='66.3' x2='308' y2='66.3' stroke='#B5462F' stroke-width='1.2' stroke-dasharray='5 3'/><text x='308' y='63.3' fill='#B5462F' font-size='8' text-anchor='end'>capacity 40h</text><rect x='40' y='87.4' width='34' height='84.6' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='57' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk1</text><text x='57' y='84.4' fill='currentColor' font-size='8' text-anchor='middle'>32</text><rect x='82' y='76.9' width='34' height='95.1' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='99' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk2</text><text x='99' y='73.9' fill='currentColor' font-size='8' text-anchor='middle'>36</text><rect x='124' y='55.7' width='34' height='116.3' rx='3' stroke='#B5462F' stroke-width='1' fill='#B5462F'/><text x='141' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk3</text><text x='141' y='52.7' fill='currentColor' font-size='8' text-anchor='middle'>44</text><rect x='166' y='71.6' width='34' height='100.4' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='183' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk4</text><text x='183' y='68.6' fill='currentColor' font-size='8' text-anchor='middle'>38</text><rect x='208' y='45.1' width='34' height='126.9' rx='3' stroke='#B5462F' stroke-width='1' fill='#B5462F'/><text x='225' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk5</text><text x='225' y='42.1' fill='currentColor' font-size='8' text-anchor='middle'>48</text><rect x='250' y='92.7' width='34' height='79.3' rx='3' stroke='#1F5FA8' stroke-width='1' fill='none'/><text x='267' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Wk6</text><text x='267' y='89.7' fill='currentColor' font-size='8' text-anchor='middle'>30</text></svg>",
+      "caption": "Bars = planned hours; dashed red = capacity."
+    },
+    "regions": [
+      {
+        "id": "w1",
+        "x": 40,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "label": "Week 1",
+        "why": "32h: within capacity."
+      },
+      {
+        "id": "w2",
+        "x": 82,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "label": "Week 2",
+        "why": "36h: within capacity."
+      },
+      {
+        "id": "w3",
+        "x": 124,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "label": "Week 3",
+        "why": "44h: over by 4h, but not the most."
+      },
+      {
+        "id": "w4",
+        "x": 166,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "label": "Week 4",
+        "why": "38h: within capacity."
+      },
+      {
+        "id": "w5",
+        "x": 208,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "correct": true,
+        "label": "Week 5",
+        "why": "Over capacity by 8h — the largest overallocation."
+      },
+      {
+        "id": "w6",
+        "x": 250,
+        "y": 24,
+        "w": 34,
+        "h": 148,
+        "label": "Week 6",
+        "why": "30h: within capacity."
+      }
+    ],
+    "explanation": "Week 5 is booked at 48h, 8h over the 40h capacity — more than week 3's 44h (4h over). It is the worst overallocation to level first.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Planning Performance Domain",
+      "Process Groups: A Practice Guide, Estimate Activity Resources"
+    ],
+    "tags": [
+      "resource-histogram",
+      "people",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "Process",
+    "topic": "Earned value analysis",
+    "difficulty": "medium",
+    "prompt": "On this earned-value chart at month 4 (PV 80, AC 70, EV 60), tap the point that proves the project is behind schedule.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 330 226' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='50' y1='210' x2='312' y2='210' stroke='currentColor' stroke-width='1.3'/><line x1='50' y1='24' x2='50' y2='210' stroke='currentColor' stroke-width='1.3'/><line x1='207.2' y1='24' x2='207.2' y2='210' stroke='currentColor' stroke-width='0.8' stroke-dasharray='3 3'/><text x='207.2' y='221' fill='currentColor' font-size='8' text-anchor='middle'>month 4</text><polyline points='50,210 102.4,182.1 154.8,151.1 207.2,120.1 259.6,86 312,55' stroke='#1F5FA8' stroke-width='1.8'/><polyline points='50,210 102.4,185.2 154.8,157.3 207.2,129.4 259.6,101.5 312,67.4' stroke='#B5462F' stroke-width='1.8'/><polyline points='50,210 102.4,188.3 154.8,163.5 207.2,141.8 259.6,117 312,89.1' stroke='#2F6F5E' stroke-width='1.8'/><text x='314' y='86' fill='#1F5FA8' font-size='9' text-anchor='start'>PV</text><text x='314' y='101.5' fill='#B5462F' font-size='9' text-anchor='start'>AC</text><text x='314' y='120.1' fill='#2F6F5E' font-size='9' text-anchor='start'>EV</text><circle cx='207.2' cy='86' r='3.2' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='207.2' cy='101.5' r='3.2' stroke='#B5462F' stroke-width='1.4' fill='#B5462F'/><circle cx='207.2' cy='117' r='3.2' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/></svg>",
+      "caption": "Blue PV, red AC, green EV; dashed line = month 4."
+    },
+    "regions": [
+      {
+        "id": "pv",
+        "x": 195.2,
+        "y": 79.0,
+        "w": 24,
+        "h": 14,
+        "label": "PV = 80",
+        "why": "Planned value — the baseline, not a status result."
+      },
+      {
+        "id": "ac",
+        "x": 195.2,
+        "y": 94.5,
+        "w": 24,
+        "h": 14,
+        "label": "AC = 70",
+        "why": "Actual cost relates to spend (cost), not schedule status."
+      },
+      {
+        "id": "ev",
+        "x": 195.2,
+        "y": 110.0,
+        "w": 24,
+        "h": 14,
+        "correct": true,
+        "label": "EV = 60",
+        "why": "EV (60) is below PV (80) at the status date — the project is behind schedule (SV < 0, SPI < 1)."
+      }
+    ],
+    "explanation": "Schedule status compares EV to PV. EV (60) is below PV (80), so SV is negative and SPI < 1 — behind schedule. AC concerns cost, not schedule.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Measurement Performance Domain",
+      "Process Groups: A Practice Guide, Monitor and Control Project Work"
+    ],
+    "tags": [
+      "earned-value",
+      "evm",
+      "schedule",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "People",
+    "topic": "Stakeholder analysis",
+    "difficulty": "easy",
+    "prompt": "On this power/interest grid, tap the stakeholder who should be managed closely.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 300 230' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='56' y='24' width='232' height='172' rx='3' stroke='currentColor' stroke-width='1' fill='none'/><line x1='172' y1='24' x2='172' y2='196' stroke='currentColor' stroke-width='0.7'/><line x1='56' y1='110' x2='288' y2='110' stroke='currentColor' stroke-width='0.7'/><text x='114' y='19' fill='currentColor' font-size='7' text-anchor='middle'>Keep satisfied</text><text x='230' y='19' fill='currentColor' font-size='7' text-anchor='middle'>Manage closely</text><text x='114' y='207' fill='currentColor' font-size='7' text-anchor='middle'>Monitor</text><text x='230' y='207' fill='currentColor' font-size='7' text-anchor='middle'>Keep informed</text><text x='52' y='110' fill='currentColor' font-size='8' text-anchor='end'>Power</text><text x='172' y='218' fill='currentColor' font-size='8' text-anchor='middle'>Interest →</text><circle cx='230' cy='67' r='4' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><text x='230' y='60' fill='currentColor' font-size='8' text-anchor='middle'>Sponsor</text><circle cx='114' cy='67' r='4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='114' y='60' fill='currentColor' font-size='8' text-anchor='middle'>Legal</text><circle cx='230' cy='153' r='4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='230' y='146' fill='currentColor' font-size='8' text-anchor='middle'>End users</text><circle cx='114' cy='153' r='4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='114' y='146' fill='currentColor' font-size='8' text-anchor='middle'>Supplier</text></svg>",
+      "caption": "Quadrants by power (y) and interest (x)."
+    },
+    "regions": [
+      {
+        "id": "sponsor",
+        "x": 208.0,
+        "y": 51.0,
+        "w": 44,
+        "h": 30,
+        "correct": true,
+        "label": "Sponsor",
+        "why": "High power + high interest → manage closely."
+      },
+      {
+        "id": "legal",
+        "x": 92.0,
+        "y": 51.0,
+        "w": 44,
+        "h": 30,
+        "label": "Legal",
+        "why": "High power, low interest → keep satisfied, not manage closely."
+      },
+      {
+        "id": "users",
+        "x": 208.0,
+        "y": 137.0,
+        "w": 44,
+        "h": 30,
+        "label": "End users",
+        "why": "Low power, high interest → keep informed."
+      },
+      {
+        "id": "supplier",
+        "x": 92.0,
+        "y": 137.0,
+        "w": 44,
+        "h": 30,
+        "label": "Supplier",
+        "why": "Low power, low interest → monitor."
+      }
+    ],
+    "explanation": "Stakeholders with high power and high interest (the Sponsor) sit in the top-right quadrant and need active, close management.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Stakeholders Performance Domain",
+      "Process Groups: A Practice Guide, Identify Stakeholders"
+    ],
+    "tags": [
+      "stakeholder",
+      "power-interest",
+      "people",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "Business Environment",
+    "topic": "Risk prioritization",
+    "difficulty": "easy",
+    "prompt": "On this probability/impact matrix, tap the risk with the highest priority score (probability × impact).",
+    "figure": {
+      "svg": "<svg viewBox='0 0 300 285' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='50' y='30' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='96' y='30' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='142' y='30' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='188' y='30' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='234' y='30' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='50' y='76' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='96' y='76' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='142' y='76' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='188' y='76' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='234' y='76' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='50' y='122' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='96' y='122' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='142' y='122' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='188' y='122' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='234' y='122' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#B5462F' fill-opacity='0.25'/><rect x='50' y='168' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='96' y='168' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='142' y='168' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='188' y='168' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='234' y='168' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='#caa24a' fill-opacity='0.25'/><rect x='50' y='214' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='96' y='214' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='142' y='214' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='188' y='214' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><rect x='234' y='214' width='46' height='46' stroke='currentColor' stroke-width='0.7' fill='none' fill-opacity='0.25'/><text x='165' y='274' fill='currentColor' font-size='8' text-anchor='middle'>Impact →</text><text x='44' y='145' fill='currentColor' font-size='8' text-anchor='end'>Prob</text><circle cx='211' cy='53' r='6' stroke='#2F6F5E' stroke-width='1.4' fill='#2F6F5E'/><text x='211' y='56' fill='#ffffff' font-size='8' text-anchor='middle'>R1</text><circle cx='257' cy='145' r='6' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='257' y='148' fill='#ffffff' font-size='8' text-anchor='middle'>R2</text><circle cx='165' cy='99' r='6' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='165' y='102' fill='#ffffff' font-size='8' text-anchor='middle'>R3</text><circle cx='211' cy='191' r='6' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='211' y='194' fill='#ffffff' font-size='8' text-anchor='middle'>R4</text></svg>",
+      "caption": "Cells shaded by score; dots are plotted risks."
+    },
+    "regions": [
+      {
+        "id": "r1",
+        "x": 188.0,
+        "y": 30.0,
+        "w": 46,
+        "h": 46,
+        "correct": true,
+        "label": "R1",
+        "why": "Score 5×4 = 20 — the highest, deepest in the red zone."
+      },
+      {
+        "id": "r2",
+        "x": 234.0,
+        "y": 122.0,
+        "w": 46,
+        "h": 46,
+        "label": "R2",
+        "why": "Score 3×5 = 15 — high, but below R1."
+      },
+      {
+        "id": "r3",
+        "x": 142.0,
+        "y": 76.0,
+        "w": 46,
+        "h": 46,
+        "label": "R3",
+        "why": "Score 4×3 = 12."
+      },
+      {
+        "id": "r4",
+        "x": 188.0,
+        "y": 168.0,
+        "w": 46,
+        "h": 46,
+        "label": "R4",
+        "why": "Score 2×4 = 8."
+      }
+    ],
+    "explanation": "Priority = probability × impact. R1 (5×4 = 20) outranks R2 (15), R3 (12), and R4 (8), and sits deepest in the red zone.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Uncertainty Performance Domain",
+      "Process Groups: A Practice Guide, Perform Qualitative Risk Analysis"
+    ],
+    "tags": [
+      "risk-matrix",
+      "probability-impact",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "Business Environment",
+    "topic": "Decision tree / EMV",
+    "difficulty": "hard",
+    "prompt": "Tap the decision branch with the higher expected monetary value (EMV). Option A: 60% +100k / 40% -20k. Option B: 30% +180k / 70% -10k.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 330 200' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='24' y='92' width='16' height='16' stroke='currentColor' stroke-width='1.4' fill='none'/><line x1='40' y1='100' x2='150' y2='54' stroke='currentColor' stroke-width='1.4'/><line x1='40' y1='100' x2='150' y2='150' stroke='currentColor' stroke-width='1.4'/><text x='88' y='70' fill='#2F6F5E' font-size='9' text-anchor='middle'>Option A</text><text x='88' y='132' fill='#1F5FA8' font-size='9' text-anchor='middle'>Option B</text><circle cx='150' cy='54' r='7' stroke='#2F6F5E' stroke-width='1.4' fill='none'/><circle cx='150' cy='150' r='7' stroke='#1F5FA8' stroke-width='1.4' fill='none'/><line x1='157' y1='52' x2='250' y2='34' stroke='currentColor' stroke-width='1.3'/><polygon points='250,34 245.4,37.8 244.3,32.2' fill='currentColor'/><text x='300' y='34' fill='currentColor' font-size='8' text-anchor='middle'>0.6: +100k</text><line x1='157' y1='56' x2='250' y2='78' stroke='currentColor' stroke-width='1.3'/><polygon points='250,78 244.2,79.6 245.5,74' fill='currentColor'/><text x='300' y='78' fill='currentColor' font-size='8' text-anchor='middle'>0.4: -20k</text><line x1='157' y1='148' x2='250' y2='128' stroke='currentColor' stroke-width='1.3'/><polygon points='250,128 245.5,131.9 244.2,126.3' fill='currentColor'/><text x='300' y='128' fill='currentColor' font-size='8' text-anchor='middle'>0.3: +180k</text><line x1='157' y1='152' x2='250' y2='172' stroke='currentColor' stroke-width='1.3'/><polygon points='250,172 244.2,173.7 245.5,168.1' fill='currentColor'/><text x='300' y='172' fill='currentColor' font-size='8' text-anchor='middle'>0.7: -10k</text></svg>",
+      "caption": "Square = decision; circles = chance nodes."
+    },
+    "regions": [
+      {
+        "id": "a",
+        "x": 40,
+        "y": 50,
+        "w": 130,
+        "h": 40,
+        "correct": true,
+        "label": "Option A",
+        "why": "EMV = 0.6(100k) + 0.4(-20k) = +52k — the higher EMV."
+      },
+      {
+        "id": "b",
+        "x": 40,
+        "y": 110,
+        "w": 130,
+        "h": 40,
+        "label": "Option B",
+        "why": "EMV = 0.3(180k) + 0.7(-10k) = +47k — bigger upside but lower EMV."
+      }
+    ],
+    "explanation": "EMV(A) = 0.6×100k + 0.4×(-20k) = 52k. EMV(B) = 0.3×180k + 0.7×(-10k) = 47k. Option A is higher despite B's larger upside.",
+    "references": [
+      "PMBOK Guide Eighth Edition, Uncertainty Performance Domain",
+      "Process Groups: A Practice Guide, Perform Quantitative Risk Analysis"
+    ],
+    "tags": [
+      "decision-tree",
+      "emv",
+      "risk",
+      "pointclick"
+    ]
+  },
+  {
+    "schema": "pointclick/v1",
+    "domain": "Process",
+    "topic": "Agile burndown",
+    "difficulty": "medium",
+    "prompt": "On this sprint burndown, tap the point showing the sprint is forecast to miss completion.",
+    "figure": {
+      "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='172' x2='304' y2='172' stroke='currentColor' stroke-width='1.3'/><line x1='40' y1='20' x2='40' y2='172' stroke='currentColor' stroke-width='1.3'/><polyline points='40,20 300,172' stroke='currentColor' stroke-width='1.3' stroke-dasharray='5 3'/><text x='242.2' y='145.4' fill='currentColor' font-size='8' text-anchor='middle'>ideal</text><polyline points='40,20 68.9,27.6 97.8,39 126.7,46.6 155.6,54.2 184.4,58 213.3,65.6 242.2,77 271.1,96 300,103.6' stroke='#1F5FA8' stroke-width='2'/><circle cx='40' cy='20' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='68.9' cy='27.6' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='97.8' cy='39' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='126.7' cy='46.6' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='155.6' cy='54.2' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='184.4' cy='58' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='213.3' cy='65.6' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='242.2' cy='77' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='271.1' cy='96' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><circle cx='300' cy='103.6' r='2.4' stroke='#1F5FA8' stroke-width='1.4' fill='#1F5FA8'/><text x='300' y='97.6' fill='#1F5FA8' font-size='8' text-anchor='middle'>18 left</text><text x='36' y='20' fill='currentColor' font-size='8' text-anchor='end'>40</text><text x='36' y='172' fill='currentColor' font-size='8' text-anchor='end'>0</text><text x='40' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Day 1</text><text x='300' y='183' fill='currentColor' font-size='8' text-anchor='middle'>Day 10</text></svg>",
+      "caption": "Dashed = ideal; blue = actual remaining work."
+    },
+    "regions": [
+      {
+        "id": "actual_end",
+        "x": 288.0,
+        "y": 91.6,
+        "w": 24,
+        "h": 22,
+        "correct": true,
+        "label": "Actual @ day 10",
+        "why": "18 points still remain at sprint end — committed work was not completed."
+      },
+      {
+        "id": "ideal_end",
+        "x": 288.0,
+        "y": 160.0,
+        "w": 24,
+        "h": 20,
+        "label": "Ideal @ day 10",
+        "why": "The ideal line reaching 0 is the plan/target, not the observed result."
+      },
+      {
+        "id": "actual_start",
+        "x": 28.0,
+        "y": 8.0,
+        "w": 24,
+        "h": 22,
+        "label": "Day 1",
+        "why": "The starting backlog, not the forecast outcome."
+      }
+    ],
+    "explanation": "The actual line ends at 18 points remaining on day 10 instead of 0 — the team will not finish all committed work. The ideal endpoint at 0 is only the plan.",
+    "references": [
+      "Agile Practice Guide, Information Radiators",
+      "PMBOK Guide Eighth Edition, Delivery Performance Domain"
+    ],
+    "tags": [
+      "burndown",
+      "agile",
+      "pointclick"
+    ]
+  }
+]
