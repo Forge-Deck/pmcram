@@ -46,5 +46,52 @@
       ]
     },
     "explanation": "Nonconformance = failure costs (internal + external). {{worstLabel}} is the larger of the two failure buckets; prevention and appraisal are conformance costs."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "histogram-spec",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Quality / specification",
+    "difficulty": "medium",
+    "viewBox": [350, 188],
+    "prompt": "Tap the histogram bar that falls outside the specification limits.",
+    "caption": "Dashed lines = LSL and USL.",
+    "vars": { "outHigh": { "pick": [0, 1] }, "j": { "sampleInt": [-6, 6], "count": 7 }, "badH": { "int": [70, 96] } },
+    "derived": {
+      "heights": "outHigh ? [30+j[0],64+j[1],108+j[2],132+j[3],96+j[4],58+j[5],28+j[6],badH] : [badH,30+j[0],64+j[1],108+j[2],132+j[3],96+j[4],58+j[5],28+j[6]]",
+      "badIdx": "outHigh ? 7 : 0",
+      "lslX": "54 + (outHigh ? 0 : 1)*36 - 4",
+      "uslX": "54 + (outHigh ? 7 : 8)*36 - 2"
+    },
+    "draw": [
+      { "op": "line", "x1": 48, "y1": 168, "x2": 342, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": "lslX", "y1": 24, "x2": "lslX", "y2": 168, "width": 1.1, "dash": "5 3" },
+      { "op": "text", "x": "lslX", "y": 20, "text": "'LSL'", "size": 8, "anchor": "middle" },
+      { "op": "line", "x1": "uslX", "y1": 24, "x2": "uslX", "y2": 168, "width": 1.1, "dash": "5 3" },
+      { "op": "text", "x": "uslX", "y": 20, "text": "'USL'", "size": 8, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "heights",
+        "as": "h",
+        "do": [{ "op": "rect", "x": "54 + i*36", "y": "168 - h", "w": 30, "h": "h", "rx": 2, "fill": "ink", "fillOpacity": 0.1 }]
+      }
+    ],
+    "regions": {
+      "repeat": "heights",
+      "as": "h",
+      "items": [
+        {
+          "id": "i",
+          "x": "54 + i*36",
+          "y": 24,
+          "w": 30,
+          "h": 144,
+          "correct": "i == badIdx",
+          "why": "i==badIdx ? ('Beyond the ' + (outHigh ? 'upper' : 'lower') + ' spec limit — out of specification.') : ('Within the spec limits.')"
+        }
+      ]
+    },
+    "explanation": "One bar lies beyond the {{outHigh ? 'USL' : 'LSL'}}; the rest sit within spec. Out-of-spec output is a quality concern."
   }
 ]

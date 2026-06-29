@@ -1,0 +1,49 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "resource-histogram",
+    "kind": "hotspot",
+    "domain": "People",
+    "topic": "Resource levelling",
+    "difficulty": "medium",
+    "viewBox": [298, 188],
+    "prompt": "Planned hours per week against a 40h capacity. Tap the week with the greatest over-allocation.",
+    "caption": "Bars = planned hours; dashed line = capacity.",
+    "vars": { "hours": { "sampleInt": [28, 52], "count": 6 } },
+    "guard": "max(hours) > 40 && count([hours[0]>40,hours[1]>40,hours[2]>40,hours[3]>40,hours[4]>40,hours[5]>40]) >= 2 && count([hours[0]==max(hours),hours[1]==max(hours),hours[2]==max(hours),hours[3]==max(hours),hours[4]==max(hours),hours[5]==max(hours)]) == 1",
+    "derived": { "worst": "argmax(hours)" },
+    "draw": [
+      { "op": "line", "x1": 34, "y1": 168, "x2": 292, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": 34, "y1": 20, "x2": 34, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": 34, "y1": "168 - 40*148/56", "x2": 292, "y2": "168 - 40*148/56", "width": 1.1, "dash": "5 3" },
+      { "op": "text", "x": 292, "y": "168 - 40*148/56 - 3", "text": "'capacity 40h'", "size": 8, "anchor": "end" },
+      {
+        "op": "repeat",
+        "over": "hours",
+        "as": "h",
+        "do": [
+          { "op": "rect", "x": "40 + i*42", "y": "168 - h*148/56", "w": 34, "h": "h*148/56", "rx": 3, "fill": "ink", "fillOpacity": 0.1 },
+          { "op": "text", "x": "40 + i*42 + 17", "y": "168 - h*148/56 - 3", "text": "h", "size": 8, "anchor": "middle" },
+          { "op": "text", "x": "40 + i*42 + 17", "y": 183, "text": "'Wk' + (i+1)", "size": 8, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "hours",
+      "as": "h",
+      "items": [
+        {
+          "id": "i",
+          "x": "40 + i*42",
+          "y": 20,
+          "w": 34,
+          "h": 148,
+          "correct": "i == worst",
+          "label": "'Week ' + (i+1)",
+          "why": "h > 40 ? ('Booked ' + h + 'h — over by ' + (h-40) + 'h' + (i==worst ? ' (the most).' : '.')) : ('Booked ' + h + 'h — within capacity.')"
+        }
+      ]
+    },
+    "explanation": "Week {{worst+1}} is booked at {{hours[worst]}}h — {{hours[worst]-40}}h over the 40h capacity, the largest overage to level first."
+  }
+]
