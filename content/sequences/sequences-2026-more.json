@@ -1,0 +1,324 @@
+[
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Critical path analysis",
+    "difficulty": "medium",
+    "prompt": "You have a network diagram with activity durations and dependencies. Arrange the steps of the critical path method to find the critical path and project duration.",
+    "steps": [
+      {
+        "text": "Run a forward pass through the network to calculate each activity early start and early finish",
+        "note": "Working left to right sets the earliest dates the work can begin and end"
+      },
+      {
+        "text": "Run a backward pass from the project end to calculate each activity late start and late finish",
+        "note": "Working right to left sets the latest dates that still protect the finish"
+      },
+      {
+        "text": "Calculate total float for each activity as late start minus early start",
+        "note": "Float exists only once both passes are known"
+      },
+      {
+        "text": "Identify the critical path as the chain of activities with zero total float",
+        "note": "The longest, no-slack path drives the schedule"
+      },
+      {
+        "text": "Determine the total project duration from the length of that critical path",
+        "note": "The project cannot finish sooner than its longest path"
+      }
+    ],
+    "explanation": "The critical path method is strictly sequential: the forward pass gives early dates, the backward pass gives late dates, and only with both can you compute float. Activities with zero total float form the critical path, and that path length equals the shortest possible project duration. Trying to name the critical path before computing float is the classic ordering error.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "critical path",
+      "cpm",
+      "forward pass",
+      "backward pass",
+      "float",
+      "schedule"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Schedule compression decision",
+    "difficulty": "medium",
+    "prompt": "A sponsor needs the project finished earlier than the current schedule allows. Order the steps to decide how to compress the schedule responsibly.",
+    "steps": [
+      {
+        "text": "Confirm the binding constraint and the firm target date the schedule must meet",
+        "note": "Compress only what is genuinely constrained, not the whole plan"
+      },
+      {
+        "text": "Evaluate fast-tracking by overlapping activities that were planned in sequence",
+        "note": "Try the option that adds no cost before the one that does"
+      },
+      {
+        "text": "Evaluate crashing by adding resources to critical path activities",
+        "note": "Crashing buys time but increases cost"
+      },
+      {
+        "text": "Assess the added cost and added risk of each compression option",
+        "note": "Fast-tracking adds rework risk and crashing adds cost, so quantify both"
+      },
+      {
+        "text": "Choose the best option, then rebaseline the schedule and communicate it",
+        "note": "Lock in the decision so the team works to one agreed plan"
+      }
+    ],
+    "explanation": "Schedule compression keeps scope and finish quality intact while shortening duration. You confirm what actually constrains the date, then weigh fast-tracking (overlap, no extra cost but more risk) against crashing (extra resources and cost). Only after comparing cost and risk do you select an option and rebaseline. Crashing before checking whether fast-tracking suffices wastes money the project may not need to spend.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "schedule compression",
+      "fast-tracking",
+      "crashing",
+      "rebaseline",
+      "schedule"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Make-or-buy analysis",
+    "difficulty": "medium",
+    "prompt": "The team must decide whether to build a component in-house or procure it externally. Arrange the steps of a sound make-or-buy analysis.",
+    "steps": [
+      {
+        "text": "Define the need, including the required capability, quality, and timing",
+        "note": "You cannot compare options until the requirement is clear"
+      },
+      {
+        "text": "Gather internal cost and capability data and external supplier cost and capability data",
+        "note": "A fair comparison needs both sides costed on the same basis"
+      },
+      {
+        "text": "Exclude sunk costs that have already been incurred regardless of the choice",
+        "note": "Past spend is irrelevant to a forward-looking decision"
+      },
+      {
+        "text": "Compare the make and buy options on cost, capability, and risk",
+        "note": "Decide on total value, not price alone"
+      },
+      {
+        "text": "Make the decision and document the rationale in the procurement records",
+        "note": "Record the reasoning so the choice is traceable and auditable"
+      }
+    ],
+    "explanation": "Make-or-buy weighs producing internally against acquiring externally. The need is defined first, then comparable cost and capability data is gathered for both options. Sunk costs are deliberately excluded because they are unrecoverable and would bias the choice. Only then are the options compared on cost, capability, and risk, and the documented decision feeds the procurement strategy.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "make-or-buy",
+      "procurement",
+      "sunk cost",
+      "cost analysis",
+      "risk"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Decision-tree EMV analysis",
+    "difficulty": "hard",
+    "prompt": "You must choose between competing options under uncertainty using a decision tree. Order the steps to find the option with the best expected monetary value.",
+    "steps": [
+      {
+        "text": "Map the decision tree, laying out the decision nodes and the chance nodes that follow them",
+        "note": "Structure the problem before putting numbers on it"
+      },
+      {
+        "text": "Assign a probability to each chance branch and a payoff value to each outcome",
+        "note": "Probabilities on one chance node must total 100 percent"
+      },
+      {
+        "text": "Calculate the expected monetary value of each branch by multiplying payoff by probability and summing",
+        "note": "EMV folds the uncertain outcomes into one comparable number"
+      },
+      {
+        "text": "Select the decision path with the highest expected monetary value",
+        "note": "Choose the branch that maximises expected value, net of its cost"
+      }
+    ],
+    "explanation": "Decision-tree analysis values choices under uncertainty. You first build the tree of decisions and the chance events that follow, then attach probabilities and payoffs. EMV is computed by rolling back the tree, multiplying each outcome by its probability and summing per branch, and the highest-EMV path is selected. Calculating EMV before the tree is structured leaves the chance events undefined.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "decision tree",
+      "emv",
+      "expected monetary value",
+      "probability",
+      "risk analysis"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Requirements handling",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps for handling project requirements from collection through to a managed baseline.",
+    "steps": [
+      {
+        "text": "Elicit requirements from stakeholders through interviews, workshops, and observation",
+        "note": "Gather the raw needs from the people who hold them"
+      },
+      {
+        "text": "Analyse the requirements and separate functional from non-functional ones",
+        "note": "Distinguish what the solution must do from how well it must do it"
+      },
+      {
+        "text": "Prioritise the requirements using a method such as MoSCoW",
+        "note": "Agree must-have, should-have, could-have, and will-not-have to guide scope"
+      },
+      {
+        "text": "Baseline the agreed requirements and trace them with a requirements traceability matrix",
+        "note": "A baseline plus traceability links each requirement to its deliverable"
+      }
+    ],
+    "explanation": "Requirements management moves from raw input to a controlled baseline. Elicitation captures needs, analysis classifies them into functional and non-functional, prioritisation (for example MoSCoW) ranks them so scope decisions are deliberate, and baselining with traceability locks the agreed set and links each item forward to design and test. Prioritising before analysing risks ranking duplicates and unclear items.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "requirements",
+      "elicitation",
+      "moscow",
+      "traceability",
+      "scope"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Business Environment",
+    "topic": "Resolving a contract claim or dispute",
+    "difficulty": "medium",
+    "prompt": "A seller has submitted a contested claim on your contract. Order the steps to work the dispute from least to most adversarial.",
+    "steps": [
+      {
+        "text": "Review the contract terms and the supporting evidence for the claim",
+        "note": "Ground the position in what the contract actually says"
+      },
+      {
+        "text": "Negotiate directly with the other party in good faith to reach a settlement",
+        "note": "Direct negotiation is the cheapest and fastest path"
+      },
+      {
+        "text": "Attempt alternative dispute resolution such as mediation if negotiation stalls",
+        "note": "A neutral facilitator can break a deadlock without a binding ruling"
+      },
+      {
+        "text": "Escalate to arbitration or litigation only if all earlier efforts fail",
+        "note": "Binding adjudication is the last resort because of cost and relationship damage"
+      }
+    ],
+    "explanation": "Contract dispute resolution escalates deliberately. You first establish the facts against the contract, then try direct negotiation, then mediation as assisted negotiation, and resort to binding arbitration or litigation only when collaborative routes are exhausted. Jumping straight to litigation is expensive, slow, and usually destroys the working relationship the project still depends on.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business environment",
+      "contract",
+      "claim",
+      "dispute resolution",
+      "mediation",
+      "arbitration"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Responding to a chaotic situation with Cynefin",
+    "difficulty": "hard",
+    "prompt": "An incident has thrown the project into chaos with no clear cause-and-effect. Using the Cynefin chaotic domain, order the leader response.",
+    "steps": [
+      {
+        "text": "Act immediately to establish a basic order and stop the situation deteriorating",
+        "note": "In chaos you act first because there is no time to analyse"
+      },
+      {
+        "text": "Sense how the situation responds to that intervention and read the new reality",
+        "note": "Observe what changed once order begins to return"
+      },
+      {
+        "text": "Respond to stabilise the situation based on what the sensing revealed",
+        "note": "Adjust the response to the feedback you just gathered"
+      },
+      {
+        "text": "Move the now-stabilised work into the complex or complicated domain for normal management",
+        "note": "Once cause and effect reappear, switch out of crisis mode"
+      }
+    ],
+    "explanation": "Cynefin prescribes act-sense-respond for the chaotic domain, the reverse of the sense-first patterns used elsewhere. You act to impose enough order to halt the crisis, sense how things respond, then respond to stabilise. The final move is to transition the settled work into the complex or complicated domain so it can be managed with probing or analysis rather than emergency action.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "cynefin",
+      "chaotic",
+      "complexity",
+      "crisis response",
+      "sense-making"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Establishing flow with Kanban",
+    "difficulty": "medium",
+    "prompt": "Your team wants to adopt Kanban to improve delivery flow. Arrange the steps to establish and continuously improve that flow.",
+    "steps": [
+      {
+        "text": "Visualise the workflow on a board with a column for each stage of work",
+        "note": "You can only manage flow you can see"
+      },
+      {
+        "text": "Set work-in-progress limits on the columns to cap concurrent work",
+        "note": "Limiting WIP is what actually creates pull and flow"
+      },
+      {
+        "text": "Manage and measure the flow using metrics such as lead time and throughput",
+        "note": "Track how work actually moves, not just how busy people are"
+      },
+      {
+        "text": "Identify the bottlenecks where work piles up against the WIP limits",
+        "note": "The constraint reveals itself once flow is measured"
+      },
+      {
+        "text": "Improve the process continuously by relieving bottlenecks and refining policies",
+        "note": "Kanban is evolutionary, so improvement never stops"
+      }
+    ],
+    "explanation": "Kanban builds flow incrementally. Visualising the workflow exposes the real process, WIP limits convert it from push to pull, and measuring lead time and throughput shows where work stalls. The bottlenecks that emerge become the targets for continuous, evolutionary improvement. Setting WIP limits before the board is visualised gives you nothing meaningful to limit.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "kanban",
+      "flow",
+      "wip limits",
+      "bottleneck",
+      "continuous improvement",
+      "lean"
+    ]
+  }
+]

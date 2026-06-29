@@ -1,0 +1,1046 @@
+[
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "When choosing among candidate projects using Net Present Value, what is the decision rule?"
+    ],
+    "correct": [
+      {
+        "text": "Prefer the project with the higher positive NPV; reject options with a negative NPV",
+        "why": "A positive NPV adds value in present-money terms, and higher is better when comparing options."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Prefer the project with the lower NPV because it costs less to fund",
+        "trap": "Lower NPV means less value created; a lower figure is not cheaper, it is worth less."
+      },
+      {
+        "text": "Accept any project whose NPV is below the discount rate",
+        "trap": "NPV is a currency amount, not a rate, so comparing it to the discount rate is a category error."
+      },
+      {
+        "text": "Accept only projects whose NPV exactly equals zero",
+        "trap": "A zero NPV is merely break-even; you want positive value, and higher among the positives."
+      }
+    ],
+    "explanation": "NPV rule: positive is good, higher is better. A negative NPV destroys value and should be rejected.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "npv",
+      "decision-rule",
+      "selection"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor compares four financial figures across candidate projects. Which decision rule is stated correctly?"
+    ],
+    "correct": [
+      {
+        "text": "Choose the higher Internal Rate of Return, the higher Benefit-Cost Ratio, and the shorter payback period",
+        "why": "Higher IRR and BCR signal stronger returns, and a shorter payback recovers the investment sooner."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Choose the lower Internal Rate of Return, the lower Benefit-Cost Ratio, and the longer payback period",
+        "trap": "Every direction is inverted; lower IRR and BCR are weaker and a longer payback is worse."
+      },
+      {
+        "text": "Choose the higher Internal Rate of Return but the lower Benefit-Cost Ratio and longer payback",
+        "trap": "BCR should be higher and payback shorter; only the IRR direction here is right."
+      },
+      {
+        "text": "Choose the lower Internal Rate of Return and shorter payback but the higher Benefit-Cost Ratio",
+        "trap": "IRR should be higher; mixing a lower IRR with the other correct directions is inconsistent."
+      }
+    ],
+    "explanation": "Rules of thumb: IRR higher is better, BCR higher is better (and above 1 to be worthwhile), payback shorter is better.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "irr",
+      "bcr",
+      "payback",
+      "decision-rule"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A business case reports a Benefit-Cost Ratio of 1.4. How should this be read for a go or no-go decision?"
+    ],
+    "correct": [
+      {
+        "text": "Expected benefits exceed expected costs (a ratio above 1 is favorable), so the initiative is financially justified",
+        "why": "A BCR greater than 1 means the present value of benefits outweighs the present value of costs."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Costs exceed benefits because the ratio is greater than 1",
+        "trap": "A BCR above 1 means benefits exceed costs; costs would dominate only below 1."
+      },
+      {
+        "text": "The project will break even because any ratio near 1 means no net value",
+        "trap": "Break-even is exactly 1.0; 1.4 clearly favors benefits, not break-even."
+      },
+      {
+        "text": "The discount rate is 1.4, which is too high to proceed",
+        "trap": "BCR is a ratio of benefits to costs, not a discount rate; the two are unrelated readings."
+      }
+    ],
+    "explanation": "BCR above 1 equals benefits beat costs (favorable); below 1 equals costs beat benefits (unfavorable); 1.0 equals break-even.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "bcr",
+      "interpretation",
+      "decision-rule"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Present value and net present value are easy to conflate. Which statement separates them correctly?"
+    ],
+    "correct": [
+      {
+        "text": "Present value is the discounted worth of a single future amount or cash flow stream; net present value sums the discounted benefits and costs to show the overall net gain or loss",
+        "why": "PV discounts future money to today; NPV nets the discounted inflows against the discounted outflows."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Present value already nets benefits against costs; net present value only discounts a single inflow",
+        "trap": "Reversed - it is NPV that nets benefits and costs; PV is the discounting of an amount or stream."
+      },
+      {
+        "text": "Present value is always larger than the future amount it represents",
+        "trap": "Discounting makes present value smaller than the future amount when the rate is positive, not larger."
+      },
+      {
+        "text": "Net present value ignores the discount rate while present value depends on it",
+        "trap": "Both rely on the discount rate; NPV cannot net discounted cash flows without one."
+      }
+    ],
+    "explanation": "PV equals today's worth of future money; NPV equals the sum of discounted benefits minus discounted costs - the net result.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "present-value",
+      "npv",
+      "discounting",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "If a fixed amount of money is expected three years from now, how does its present value compare to its future value, assuming a positive discount rate?"
+    ],
+    "correct": [
+      {
+        "text": "Its present value is lower than its future value, because discounting reduces future money to today's worth",
+        "why": "A positive discount rate means a dollar in the future is worth less than a dollar today, so present value is the smaller figure."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Its present value is higher than its future value because money grows over time",
+        "trap": "Growth describes compounding future value; discounting to the present moves the other direction and lowers the figure."
+      },
+      {
+        "text": "Present value and future value are equal whenever the rate is positive",
+        "trap": "They are equal only at a zero rate; any positive rate creates a gap between them."
+      },
+      {
+        "text": "Present value is negative because future money has not been earned yet",
+        "trap": "Discounting reduces magnitude but does not flip the sign; a positive future amount has a positive present value."
+      }
+    ],
+    "explanation": "Discounting shrinks future money. With a positive rate, present value is always below the future value of the same amount.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "present-value",
+      "future-value",
+      "discount-rate",
+      "interpretation"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver business value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In project financial evaluation, how does the discount rate differ from an ordinary interest rate?"
+    ],
+    "correct": [
+      {
+        "text": "The discount rate is the factor used to translate future cash flows into present value; an interest rate is the cost of borrowing or the return on lending",
+        "why": "Discounting converts future money to today's terms for selection decisions, whereas an interest rate prices the use of money over time."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The discount rate grows a present amount into a future amount; the interest rate shrinks future money to today",
+        "trap": "Reversed roles - discounting brings future money back to the present, not the other way around."
+      },
+      {
+        "text": "They are identical terms and can always be swapped in any calculation",
+        "trap": "They are related but not identical; the discount rate is chosen for evaluation and may reflect more than just a borrowing rate."
+      },
+      {
+        "text": "The discount rate only applies to benefits while the interest rate only applies to costs",
+        "trap": "The discount rate is applied to all future cash flows, benefits and costs alike, not just one side."
+      }
+    ],
+    "explanation": "Discount rate equals the conversion factor for future-to-present value; interest rate equals the price of money borrowed or lent.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "discount-rate",
+      "interest-rate",
+      "present-value",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Distinguish project program and portfolio",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A leadership team groups a set of otherwise unrelated initiatives together for one purpose: to decide which to fund, pause, or stop so the overall mix best advances company strategy. Which structure are they managing?"
+    ],
+    "correct": [
+      {
+        "text": "Portfolio",
+        "why": "A portfolio is a collection of projects, programs, and operations managed as a group to meet strategic objectives, and its components need not be related."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Program",
+        "trap": "A program coordinates related components for benefits unavailable separately, but a portfolio groups components mainly for strategic selection and funding."
+      },
+      {
+        "text": "Project",
+        "trap": "A project is a temporary endeavor producing a unique result, not a strategic grouping of many initiatives."
+      },
+      {
+        "text": "Subprogram",
+        "trap": "A subprogram is a managed component inside a program, not the strategic selection layer described here."
+      }
+    ],
+    "explanation": "Selecting and balancing a group of components to align investment with strategy is the defining job of portfolio management; relatedness is not required.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "portfolio",
+      "program",
+      "project",
+      "strategic alignment",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Distinguish program from portfolio",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "What most clearly distinguishes a program from a portfolio?"
+    ],
+    "correct": [
+      {
+        "text": "A program coordinates related components to obtain benefits not available by managing them separately, while a portfolio groups components mainly to align investment with strategy",
+        "why": "Programs exist to deliver coordinated benefits across related work; portfolios exist to select and balance work against strategic objectives."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A program selects which initiatives to fund, while a portfolio delivers coordinated benefits from related work",
+        "trap": "Reversed: selection and funding balance is the portfolio role, and coordinated benefit delivery is the program role."
+      },
+      {
+        "text": "A program is temporary and a portfolio is always permanent and unchanging",
+        "trap": "Both can be ongoing or change over time; permanence is not the distinguishing feature."
+      },
+      {
+        "text": "They are the same concept described at different organizational levels",
+        "trap": "Synonym trap: programs and portfolios have genuinely different purposes, not just different labels."
+      }
+    ],
+    "explanation": "Program equals coordinated benefits from related components; portfolio equals strategic selection and balancing of components that need not be related.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "program",
+      "portfolio",
+      "benefits",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Relate outputs outcomes and benefits",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An output is the delivered product, service, or result of the work. In the value chain, a benefit is best described as which of the following?"
+    ],
+    "correct": [
+      {
+        "text": "The measurable gain or value realized from using or applying that output",
+        "why": "A benefit is the value that accrues once an output is put to use and produces an outcome, not the deliverable itself."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The deliverable itself, once it has been formally accepted by the customer",
+        "trap": "An accepted deliverable is still an output; acceptance does not turn it into the realized value."
+      },
+      {
+        "text": "The change in capability or behavior that the output enables",
+        "trap": "That describes an outcome, which sits between output and benefit rather than being the benefit itself."
+      },
+      {
+        "text": "The documented justification for starting the work",
+        "trap": "That is the business case, not a benefit produced by the work."
+      }
+    ],
+    "explanation": "Outputs are produced, outcomes are the resulting change in state, and benefits are the value realized from those outcomes.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "output",
+      "outcome",
+      "benefit",
+      "value",
+      "relationship"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Differentiate business case and benefits management plan",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor asks for the single document that explains how and when each promised benefit will be delivered, measured, and sustained after delivery. Which document is being requested?"
+    ],
+    "correct": [
+      {
+        "text": "Benefits management plan",
+        "why": "The benefits management plan documents how and when benefits are delivered, the metrics used, and who is responsible for sustaining them."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Business case",
+        "trap": "The business case justifies why the investment should be undertaken; it does not lay out the ongoing how and when of realizing benefits."
+      },
+      {
+        "text": "Project charter",
+        "trap": "The charter authorizes the project and names the project manager; it is not the benefits tracking document."
+      },
+      {
+        "text": "Project management plan",
+        "trap": "The project management plan covers how the work is executed and controlled, not the lifecycle of benefit realization."
+      }
+    ],
+    "explanation": "Business case answers why invest; benefits management plan answers how and when promised value is delivered and measured.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "benefits management plan",
+      "business case",
+      "benefits",
+      "confusable"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Classify enterprise environmental factors",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 3,
+    "present": 5,
+    "prompts": [
+      "From the list below, select every item that is an Enterprise Environmental Factor rather than an Organizational Process Asset."
+    ],
+    "correct": [
+      {
+        "text": "Government regulations and industry standards",
+        "why": "Regulations are conditions outside the team's control that constrain the project, the hallmark of an EEF."
+      },
+      {
+        "text": "Marketplace conditions and competitor activity",
+        "why": "Market conditions influence the project but are not controlled by the team, making them environmental factors."
+      },
+      {
+        "text": "Organizational culture and management style",
+        "why": "Culture is an existing internal condition that shapes the project but is not a reusable process asset."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The company lessons learned repository from past projects",
+        "trap": "A lessons learned repository is a reusable knowledge asset, which is an OPA, not an environmental factor."
+      },
+      {
+        "text": "Standard risk register and status report templates",
+        "trap": "Templates are organizational process assets the team reuses, not external or contextual EEFs."
+      }
+    ],
+    "explanation": "EEFs are conditions not under the team's control such as regulations, market, and culture; OPAs are internal assets like templates and lessons learned that the organization owns and reuses.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "enterprise environmental factors",
+      "organizational process assets",
+      "categorise",
+      "odd-one-out"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Apply the OPA versus EEF distinction",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "To plan a new project, a manager reuses the company standard risk register template and mines a database of lessons learned from earlier projects. These inputs are best classified as which of the following?"
+    ],
+    "correct": [
+      {
+        "text": "Organizational process assets",
+        "why": "Templates and lessons learned databases are internal assets the organization owns and reuses, the definition of OPAs."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Enterprise environmental factors",
+        "trap": "EEFs are external or contextual conditions outside the team's control, not reusable internal assets like templates."
+      },
+      {
+        "text": "Project charter inputs",
+        "trap": "These are general planning inputs available to many projects, not specifically charter authorizing content."
+      },
+      {
+        "text": "Work performance data",
+        "trap": "Work performance data is raw measurement from executing the current project, not pre-existing reusable assets."
+      }
+    ],
+    "explanation": "Internal, reusable items such as templates and lessons learned are organizational process assets; external conditions are enterprise environmental factors.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "organizational process assets",
+      "enterprise environmental factors",
+      "templates",
+      "application"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Identify PMO type by degree of control",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In one organization the PMO does not merely advise or audit; it actually takes over and runs the projects directly, and project managers report into it. Which PMO type is this?"
+    ],
+    "correct": [
+      {
+        "text": "Directive PMO",
+        "why": "A directive PMO exercises the highest degree of control by directly managing the projects, with project managers assigned from and reporting to the PMO."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Controlling PMO",
+        "trap": "A controlling PMO requires compliance with frameworks and methods but does not take over running the projects itself."
+      },
+      {
+        "text": "Supportive PMO",
+        "trap": "A supportive PMO provides templates, training, and advice with low control, the opposite of directly managing projects."
+      },
+      {
+        "text": "Enterprise PMO",
+        "trap": "An enterprise PMO operates at the strategic portfolio level; the control description here is the directive type, not the organizational scope."
+      }
+    ],
+    "explanation": "Supportive, controlling, and directive PMOs sit on an increasing scale of control; directive is the high-control type that manages the projects directly.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "pmo",
+      "directive",
+      "degree of control",
+      "application"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Contrast controlling and supportive PMO",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "What best distinguishes a controlling PMO from a supportive PMO?"
+    ],
+    "correct": [
+      {
+        "text": "A controlling PMO requires compliance with defined methods and standards, while a supportive PMO mainly provides templates, training, and advice with low control",
+        "why": "The defining difference between PMO types is the degree of control, and a controlling PMO mandates conformance the supportive type does not."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A controlling PMO directly manages every project, while a supportive PMO requires compliance with standards",
+        "trap": "Directly managing projects describes the directive PMO, not the controlling type."
+      },
+      {
+        "text": "A supportive PMO has more control than a controlling PMO over how work is done",
+        "trap": "Reversed: supportive sits at the low end of the control scale, below controlling."
+      },
+      {
+        "text": "They are identical and differ only in size of staff",
+        "trap": "Synonym trap: the difference is degree of control, not headcount."
+      }
+    ],
+    "explanation": "The PMO scale runs supportive (low control, advisory) to controlling (compliance required) to directive (direct management).",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "pmo",
+      "controlling",
+      "supportive",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Differentiate EPMO from a project PMO",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A governance body sits at the top of the organization, links the entire portfolio to enterprise strategy, and ensures the right initiatives are selected to meet strategic objectives. Which structure is described?"
+    ],
+    "correct": [
+      {
+        "text": "Enterprise PMO",
+        "why": "An enterprise PMO operates at the strategic level, aligning the whole portfolio of programs and projects with organizational strategy."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Directive PMO",
+        "trap": "A directive PMO is defined by directly managing projects, not by enterprise strategic alignment of the whole portfolio."
+      },
+      {
+        "text": "Supportive PMO",
+        "trap": "A supportive PMO offers advisory services at low control and is not the enterprise strategic alignment function."
+      },
+      {
+        "text": "Change Control Board",
+        "trap": "A change control board decides on project change requests, not enterprise portfolio-to-strategy alignment."
+      }
+    ],
+    "explanation": "An enterprise PMO is the strategic, organization-wide office that aligns the portfolio to strategy, distinct from the control-based supportive, controlling, and directive project PMO types.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "epmo",
+      "pmo",
+      "strategic alignment",
+      "confusable"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Contrast governance and management",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A steering committee insists that its role is to direct and oversee rather than to run the day-to-day work. Which statement best captures governance versus management?"
+    ],
+    "correct": [
+      {
+        "text": "Governance is the framework by which the organization is directed and controlled, while management carries out the work within that framework",
+        "why": "Governance sets direction, authority, and oversight; management executes within those boundaries."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Governance performs the daily delivery work, while management only sets policy and oversight",
+        "trap": "Reversed: oversight and direction belong to governance, and execution belongs to management."
+      },
+      {
+        "text": "Governance and management are the same activity at different times of the project",
+        "trap": "Synonym trap: they are distinct functions, direction and oversight versus execution, not phases of one activity."
+      },
+      {
+        "text": "Governance applies only to portfolios, while management applies only to projects",
+        "trap": "Both governance and management operate at portfolio, program, and project levels."
+      }
+    ],
+    "explanation": "Governance equals directing and controlling through a framework; management equals executing the work within that framework.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "governance",
+      "management",
+      "oversight",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Contrast benefit-cost ratio and net present value",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Two financial measures are offered to compare candidate projects. One expresses benefits relative to costs as a ratio, the other expresses net value in monetary terms after discounting cash flows. Which statement pairs them correctly?"
+    ],
+    "correct": [
+      {
+        "text": "Benefit-cost ratio expresses benefits relative to costs as a ratio, while net present value expresses net value in money after discounting",
+        "why": "A benefit-cost ratio is a relative measure, whereas net present value is an absolute monetary figure derived from discounted cash flows."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Benefit-cost ratio expresses net value in money, while net present value expresses a ratio of benefits to costs",
+        "trap": "Reversed: the ratio is benefit-cost ratio, and the absolute discounted money figure is net present value."
+      },
+      {
+        "text": "Both measures ignore the time value of money entirely",
+        "trap": "Net present value is built on discounting cash flows, so the time value of money is central to it."
+      },
+      {
+        "text": "A higher benefit-cost ratio always means a negative net present value",
+        "trap": "There is no such inverse rule; a ratio above one generally aligns with positive value, not negative."
+      }
+    ],
+    "explanation": "Benefit-cost ratio equals a relative ratio of benefits to costs; net present value equals an absolute discounted monetary figure.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "benefit-cost ratio",
+      "net present value",
+      "business case",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Differentiate discount rate from interest rate",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In a project selection analysis, a rate is used to translate future cash flows into present value. How does this rate differ from an interest rate?"
+    ],
+    "correct": [
+      {
+        "text": "A discount rate translates future value into present value for evaluation, while an interest rate is the cost of borrowing or the return on lending",
+        "why": "In project evaluation the discount rate is the factor used to present-value future cash flows, distinct from the borrowing or lending rate."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A discount rate is the cost of borrowing, while an interest rate present-values future cash flows",
+        "trap": "Reversed: the borrowing cost is the interest rate, and present-valuing is the discount rate's role here."
+      },
+      {
+        "text": "They are always numerically identical in every analysis",
+        "trap": "They may differ; a discount rate often reflects required return or opportunity cost rather than a market interest rate."
+      },
+      {
+        "text": "A discount rate applies only to benefits and an interest rate only to costs",
+        "trap": "The discount rate applies to all future cash flows, both benefits and costs, not benefits alone."
+      }
+    ],
+    "explanation": "Discount rate equals the factor for converting future cash flows to present value; interest rate equals the cost of borrowing or return on lending.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "discount rate",
+      "interest rate",
+      "net present value",
+      "confusable"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Differentiate governing body from project team",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which group holds the formal authority to provide oversight, set direction, and make key decisions for a project, as opposed to performing the delivery work?"
+    ],
+    "correct": [
+      {
+        "text": "Governing body",
+        "why": "A governing body is the person or group with formal authority for oversight, direction, and key decisions, separate from those who deliver the work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Project team",
+        "trap": "The project team performs the delivery work and day-to-day management; it does not hold the oversight and decision authority described."
+      },
+      {
+        "text": "Customer",
+        "trap": "The customer uses or receives the result but does not provide the project's internal governance oversight."
+      },
+      {
+        "text": "Vendor",
+        "trap": "A vendor supplies goods or services under contract and is not the body that governs the project."
+      }
+    ],
+    "explanation": "Governing body equals formal oversight and decision authority; project team equals execution and day-to-day delivery.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "governing body",
+      "project team",
+      "governance",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Differentiate feasibility study from business case",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Before approving funding, leadership wants the document that tests whether a proposed solution is practical and viable to build at all, not the one that argues why the investment should be made. Which is requested?"
+    ],
+    "correct": [
+      {
+        "text": "Feasibility study",
+        "why": "A feasibility study examines whether a proposed solution is practical and viable, focusing on whether it can be done."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Business case",
+        "trap": "A business case justifies why the investment should be made based on value, cost, and risk, not whether the solution is technically viable."
+      },
+      {
+        "text": "Benefits management plan",
+        "trap": "A benefits management plan describes how and when benefits are realized, not whether the solution is feasible to build."
+      },
+      {
+        "text": "Project charter",
+        "trap": "A charter authorizes the project; it does not perform the viability test that a feasibility study provides."
+      }
+    ],
+    "explanation": "Feasibility study answers can it be done; business case answers why it should be done. They are easily confused inputs to selection.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "feasibility study",
+      "business case",
+      "selection",
+      "confusable"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Categorise PMO types by control",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 3,
+    "present": 5,
+    "prompts": [
+      "Select the three recognized PMO types defined by their increasing degree of control over projects."
+    ],
+    "correct": [
+      {
+        "text": "Supportive",
+        "why": "A supportive PMO sits at the low-control end, providing templates, training, and advisory services."
+      },
+      {
+        "text": "Controlling",
+        "why": "A controlling PMO occupies the middle, requiring compliance with defined methods and standards."
+      },
+      {
+        "text": "Directive",
+        "why": "A directive PMO sits at the high-control end, directly managing the projects itself."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Enterprise",
+        "trap": "An enterprise PMO is defined by strategic, organization-wide scope, not by a position on the supportive-to-directive control scale."
+      },
+      {
+        "text": "Functional",
+        "trap": "Functional describes an organizational structure type, not one of the control-based PMO categories."
+      }
+    ],
+    "explanation": "The control-based PMO types are supportive, controlling, and directive; enterprise is a scope-based concept and functional is an organizational structure.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "pmo",
+      "supportive",
+      "controlling",
+      "directive",
+      "categorise"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and address external business environment changes",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "When comparing bids, a buyer includes acquisition, operating, support, and disposal costs across the asset's full life rather than only the upfront figure. Which concept guides this evaluation?"
+    ],
+    "correct": [
+      {
+        "text": "Total cost of ownership",
+        "why": "Total cost of ownership captures the full life-cycle cost of acquiring, operating, supporting, and retiring an item, not just its purchase price."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Purchase price",
+        "trap": "Purchase price reflects only the initial acquisition amount, which is exactly what this evaluation goes beyond."
+      },
+      {
+        "text": "Ceiling price",
+        "trap": "A ceiling price is a contractual cap on buyer payment, not a life-cycle cost comparison concept."
+      },
+      {
+        "text": "Sunk cost",
+        "trap": "A sunk cost is unrecoverable past spending, unrelated to projecting full life-cycle costs of a purchase."
+      }
+    ],
+    "explanation": "Total cost of ownership evaluates the full direct and indirect costs over an asset's life, including operation, support, and disposal, giving a truer comparison than purchase price alone.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "procurement",
+      "total-cost-of-ownership",
+      "life-cycle-cost",
+      "evaluation",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and manage project compliance",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A mandatory obligation that is enforceable by external law or regulation, as opposed to an internal rule that merely supports compliance, is best described as which of the following?"
+    ],
+    "correct": [
+      {
+        "text": "Legal requirement",
+        "why": "A legal requirement is a mandatory obligation created by law, regulation, or formal authority and is externally enforceable."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Policy",
+        "trap": "A policy is an internal organizational rule that may support compliance but is not itself enforceable law."
+      },
+      {
+        "text": "Procedure",
+        "trap": "A procedure is an internal step-by-step method, not an externally enforceable legal obligation."
+      },
+      {
+        "text": "Guideline",
+        "trap": "A guideline is advisory internal guidance, not a mandatory externally enforceable requirement."
+      }
+    ],
+    "explanation": "A legal requirement is externally and formally enforceable through law or regulation. Policies, procedures, and guidelines are internal instruments that may support compliance but do not carry the force of law.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "compliance",
+      "legal-requirement",
+      "policy",
+      "regulation",
+      "contrast"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and address external business environment changes",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Union-negotiated employment terms between the employer and a unionized workforce constrain how and when the project may schedule certain team members. Which instrument governs these terms?"
+    ],
+    "correct": [
+      {
+        "text": "Collective bargaining agreement",
+        "why": "A collective bargaining agreement is the negotiated contract between an employer and a unionized group that governs employment terms and can constrain scheduling."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Service-level agreement",
+        "trap": "An SLA defines service performance targets with a provider, not unionized employment terms."
+      },
+      {
+        "text": "Resource management plan",
+        "trap": "A resource management plan is an internal planning document; it does not establish binding union employment terms."
+      },
+      {
+        "text": "Memorandum of understanding",
+        "trap": "A memorandum of understanding records general intentions and is typically nonbinding, unlike a negotiated union contract."
+      }
+    ],
+    "explanation": "A collective bargaining agreement is a binding negotiated contract governing unionized employment terms. It acts as an enterprise environmental factor that constrains how project resources can be assigned and scheduled.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "collective-bargaining-agreement",
+      "eef",
+      "constraint",
+      "application"
+    ]
+  }
+]
