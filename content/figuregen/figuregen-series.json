@@ -1,0 +1,153 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "burndown",
+    "kind": "choice",
+    "domain": "Process",
+    "topic": "Agile burndown",
+    "difficulty": "easy",
+    "viewBox": [320, 190],
+    "prompt": "What does this sprint burndown tell you?",
+    "caption": "Dashed = ideal; solid = actual remaining work.",
+    "vars": {
+      "status": { "pick": ["ahead", "behind", "ontrack"] },
+      "off": { "int": [7, 11] }
+    },
+    "derived": {
+      "isOn": "status=='ontrack'",
+      "eoff": "isOn ? 0 : off",
+      "sgn": "status=='behind' ? 1 : (status=='ahead' ? -1 : 0)",
+      "ir": "[40, 40-40/9, 40-2*40/9, 40-3*40/9, 40-4*40/9, 40-5*40/9, 40-6*40/9, 40-7*40/9, 40-8*40/9, 0]",
+      "ar": "[ir[0], max(0,ir[1]+sgn*eoff*1/9), max(0,ir[2]+sgn*eoff*2/9), max(0,ir[3]+sgn*eoff*3/9), max(0,ir[4]+sgn*eoff*4/9), max(0,ir[5]+sgn*eoff*5/9), max(0,ir[6]+sgn*eoff*6/9), max(0,ir[7]+sgn*eoff*7/9), max(0,ir[8]+sgn*eoff*8/9), max(0,ir[9]+sgn*eoff)]",
+      "xs": "[44, 44+256/9, 44+2*256/9, 44+3*256/9, 44+4*256/9, 44+5*256/9, 44+6*256/9, 44+7*256/9, 44+8*256/9, 300]",
+      "iy": "[168-(ir[0]/40)*148, 168-(ir[1]/40)*148, 168-(ir[2]/40)*148, 168-(ir[3]/40)*148, 168-(ir[4]/40)*148, 168-(ir[5]/40)*148, 168-(ir[6]/40)*148, 168-(ir[7]/40)*148, 168-(ir[8]/40)*148, 168-(ir[9]/40)*148]",
+      "ay": "[168-(ar[0]/40)*148, 168-(ar[1]/40)*148, 168-(ar[2]/40)*148, 168-(ar[3]/40)*148, 168-(ar[4]/40)*148, 168-(ar[5]/40)*148, 168-(ar[6]/40)*148, 168-(ar[7]/40)*148, 168-(ar[8]/40)*148, 168-(ar[9]/40)*148]"
+    },
+    "draw": [
+      { "op": "line", "x1": 44, "y1": 168, "x2": 304, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": 44, "y1": 20, "x2": 44, "y2": 168, "width": 1.3 },
+      {
+        "op": "polyline",
+        "points": ["xs[0]", "iy[0]", "xs[1]", "iy[1]", "xs[2]", "iy[2]", "xs[3]", "iy[3]", "xs[4]", "iy[4]", "xs[5]", "iy[5]", "xs[6]", "iy[6]", "xs[7]", "iy[7]", "xs[8]", "iy[8]", "xs[9]", "iy[9]"],
+        "width": 1.2,
+        "dash": "5 3"
+      },
+      { "op": "text", "x": "44+7.5*256/9", "y": "168-((40-7.5*40/9)/40)*148-5", "text": "'ideal'", "size": 8, "anchor": "middle" },
+      {
+        "op": "polyline",
+        "points": ["xs[0]", "ay[0]", "xs[1]", "ay[1]", "xs[2]", "ay[2]", "xs[3]", "ay[3]", "xs[4]", "ay[4]", "xs[5]", "ay[5]", "xs[6]", "ay[6]", "xs[7]", "ay[7]", "xs[8]", "ay[8]", "xs[9]", "ay[9]"],
+        "width": 2
+      },
+      { "op": "text", "x": 38, "y": 24, "text": "'40'", "size": 8, "anchor": "end" },
+      { "op": "text", "x": 44, "y": 182, "text": "'Day 1'", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 300, "y": 182, "text": "'Day 10'", "size": 8, "anchor": "middle" }
+    ],
+    "choices": [
+      { "id": "ahead", "text": "'The sprint is ahead of schedule.'", "correct": "status=='ahead'", "why": "'The actual line is below ideal — less work remaining than planned.'" },
+      { "id": "behind", "text": "'The sprint is behind schedule.'", "correct": "status=='behind'", "why": "'The actual line is above ideal — more work remaining than planned.'" },
+      { "id": "ontrack", "text": "'The sprint is on track.'", "correct": "status=='ontrack'", "why": "'The actual line tracks the ideal line closely.'" }
+    ],
+    "explanation": "{{ status=='behind' ? 'The actual line sits above the ideal — work is burning down slower than planned, so the sprint is behind.' : (status=='ahead' ? 'The actual line sits below the ideal — work is burning down faster than planned, so the sprint is ahead.' : 'The actual line follows the ideal closely — the sprint is on track.') }}"
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "evm-status",
+    "kind": "choice",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "medium",
+    "viewBox": [280, 184],
+    "prompt": "At the status date PV = {{pv}}, EV = {{ev}}, AC = {{ac}}. What is the project status?",
+    "caption": "PV planned · EV earned · AC actual cost.",
+    "vars": {
+      "pv": { "int": [60, 90] },
+      "sEv": { "pick": [-1, 1] },
+      "dEv": { "int": [10, 22] },
+      "sAc": { "pick": [-1, 1] },
+      "dAc": { "int": [10, 22] }
+    },
+    "derived": {
+      "ev": "pv + sEv*dEv",
+      "ac": "ev + sAc*dAc",
+      "behind": "ev < pv",
+      "over": "ev < ac",
+      "maxV": "max(pv, ev, ac, 100)",
+      "bars": "[['PV', pv], ['EV', ev], ['AC', ac]]"
+    },
+    "draw": [
+      { "op": "line", "x1": 44, "y1": 150, "x2": 264, "y2": 150, "width": 1.3 },
+      { "op": "line", "x1": 44, "y1": 22, "x2": 44, "y2": 150, "width": 1.3 },
+      {
+        "op": "repeat",
+        "over": "bars",
+        "as": "b",
+        "do": [
+          { "op": "rect", "x": "70 + i*64", "y": "150 - (b[1]/maxV)*122", "w": 48, "h": "(b[1]/maxV)*122", "rx": 3, "fill": "ink", "fillOpacity": 0.12 },
+          { "op": "text", "x": "70 + i*64 + 24", "y": "150 - (b[1]/maxV)*122 - 5", "text": "b[1]", "size": 9, "anchor": "middle" },
+          { "op": "text", "x": "70 + i*64 + 24", "y": 164, "text": "b[0]", "size": 9, "anchor": "middle" }
+        ]
+      }
+    ],
+    "choices": [
+      { "id": "behind-over", "text": "'Behind schedule and over budget.'", "correct": "behind && over" },
+      { "id": "behind-under", "text": "'Behind schedule and under budget.'", "correct": "behind && !over" },
+      { "id": "ahead-over", "text": "'Ahead of schedule and over budget.'", "correct": "!behind && over" },
+      { "id": "ahead-under", "text": "'Ahead of schedule and under budget.'", "correct": "!behind && !over" }
+    ],
+    "explanation": "SV = EV − PV = {{ev-pv}} ({{behind ? 'behind' : 'ahead of'}} schedule); CV = EV − AC = {{ev-ac}} ({{over ? 'over' : 'under'}} budget)."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "run-chart",
+    "kind": "choice",
+    "domain": "Process",
+    "topic": "Run chart",
+    "difficulty": "medium",
+    "viewBox": [312, 188],
+    "prompt": "What does this run chart indicate?",
+    "caption": "Solid line = mean.",
+    "vars": {
+      "rollK": { "int": [0, 9] },
+      "len2": { "int": [5, 6] },
+      "len3": { "int": [7, 9] },
+      "above": { "pick": [0, 1] },
+      "startSeed": { "int": [0, 100] },
+      "jit": { "sampleInt": [10, 34], "count": 11 },
+      "rj": { "sampleInt": [0, 26], "count": 11 }
+    },
+    "derived": {
+      "kind": "rollK<4 ? 'normal' : (rollK<7 ? 'near' : 'run')",
+      "runLen": "kind=='near' ? len2 : (kind=='run' ? len3 : 0)",
+      "hasSignal": "kind=='run'",
+      "maxStart": "runLen>0 ? 11 - runLen : 0",
+      "runStart": "runLen>0 ? startSeed % (maxStart+1) : 0",
+      "runEnd": "runStart + runLen",
+      "ys": "[(runLen>0 && 0>=runStart && 0<runEnd) ? ((above?60:106)+rj[0]) : (-jit[0]+96), (runLen>0 && 1>=runStart && 1<runEnd) ? ((above?60:106)+rj[1]) : (jit[1]+96), (runLen>0 && 2>=runStart && 2<runEnd) ? ((above?60:106)+rj[2]) : (-jit[2]+96), (runLen>0 && 3>=runStart && 3<runEnd) ? ((above?60:106)+rj[3]) : (jit[3]+96), (runLen>0 && 4>=runStart && 4<runEnd) ? ((above?60:106)+rj[4]) : (-jit[4]+96), (runLen>0 && 5>=runStart && 5<runEnd) ? ((above?60:106)+rj[5]) : (jit[5]+96), (runLen>0 && 6>=runStart && 6<runEnd) ? ((above?60:106)+rj[6]) : (-jit[6]+96), (runLen>0 && 7>=runStart && 7<runEnd) ? ((above?60:106)+rj[7]) : (jit[7]+96), (runLen>0 && 8>=runStart && 8<runEnd) ? ((above?60:106)+rj[8]) : (-jit[8]+96), (runLen>0 && 9>=runStart && 9<runEnd) ? ((above?60:106)+rj[9]) : (jit[9]+96), (runLen>0 && 10>=runStart && 10<runEnd) ? ((above?60:106)+rj[10]) : (-jit[10]+96)]",
+      "xs": "[48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288]"
+    },
+    "draw": [
+      { "op": "line", "x1": 42, "y1": 172, "x2": 294, "y2": 172, "width": 1.3 },
+      { "op": "line", "x1": 42, "y1": 24, "x2": 42, "y2": 172, "width": 1.3 },
+      { "op": "line", "x1": 42, "y1": 96, "x2": 294, "y2": 96, "width": 1.1 },
+      { "op": "text", "x": 292, "y": 93, "text": "'mean'", "size": 8, "anchor": "end" },
+      {
+        "op": "polyline",
+        "points": ["xs[0]", "ys[0]", "xs[1]", "ys[1]", "xs[2]", "ys[2]", "xs[3]", "ys[3]", "xs[4]", "ys[4]", "xs[5]", "ys[5]", "xs[6]", "ys[6]", "xs[7]", "ys[7]", "xs[8]", "ys[8]", "xs[9]", "ys[9]", "xs[10]", "ys[10]"],
+        "width": 1.6
+      },
+      {
+        "op": "repeat",
+        "over": "ys",
+        "as": "y",
+        "do": [{ "op": "circle", "cx": "48 + i*24", "cy": "y", "r": 2.6, "fill": "ink" }]
+      }
+    ],
+    "choices": [
+      { "id": "run", "text": "'A non-random run.'", "correct": "hasSignal", "why": "hasSignal ? (runLen + ' consecutive points sit on the same side of the mean — the rule of seven.') : ''" },
+      { "id": "normal", "text": "'Normal random variation.'", "correct": "!hasSignal", "why": "!hasSignal ? (kind=='near' ? ('Only ' + runLen + ' points sit on one side — a run needs seven (the rule of seven), so this is still random.') : 'The points cross the mean regularly — no run or trend.') : ''" },
+      { "id": "limits", "text": "'A point out of control.'", "why": "'A run chart has no control limits to breach.'" },
+      { "id": "trend", "text": "'A steady upward trend.'", "why": "'The points do not climb steadily.'" }
+    ],
+    "explanation": "{{ hasSignal ? 'Seven or more consecutive points on one side of the mean is a non-random signal (the rule of seven), even with no limits breached.' : (kind=='near' ? ('A streak of ' + runLen + ' points on one side looks like a run, but the rule of seven needs at least seven — so this is still ordinary random variation.') : 'The points alternate across the mean with no run or trend — ordinary random variation.') }}"
+  }
+]

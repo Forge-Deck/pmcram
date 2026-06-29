@@ -32,7 +32,7 @@
   },
   "additionalProperties": false,
   "$defs": {
-    "expr": { "type": ["number", "string"] },
+    "expr": { "type": ["number", "string", "boolean"] },
     "drawOp": {
       "type": "object",
       "required": ["op"],

@@ -1,0 +1,481 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "risk-matrix",
+    "kind": "hotspot",
+    "domain": "Business Environment",
+    "topic": "Qualitative risk analysis",
+    "difficulty": "medium",
+    "viewBox": [
+      296,
+      282
+    ],
+    "prompt": "Each dot is a risk on the probability/impact matrix. Tap the highest-priority risk (probability × impact).",
+    "caption": "Rows = probability, columns = impact (1–5).",
+    "vars": {
+      "cells": {
+        "sampleInt": [
+          0,
+          24
+        ],
+        "count": 4,
+        "unique": true
+      },
+      "k6": {
+        "range": 6
+      },
+      "k5": {
+        "range": 5
+      }
+    },
+    "guard": "(count([(floor(cells[0]/5)+1)*(cells[0]%5+1)==max((floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)),(floor(cells[1]/5)+1)*(cells[1]%5+1)==max((floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)),(floor(cells[2]/5)+1)*(cells[2]%5+1)==max((floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)),(floor(cells[3]/5)+1)*(cells[3]%5+1)==max((floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1))])==1) && (count([((cells[0]%5+1)>[(cells[0]%5+1),(cells[1]%5+1),(cells[2]%5+1),(cells[3]%5+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]||(floor(cells[0]/5)+1)>[(floor(cells[0]/5)+1),(floor(cells[1]/5)+1),(floor(cells[2]/5)+1),(floor(cells[3]/5)+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]),((cells[1]%5+1)>[(cells[0]%5+1),(cells[1]%5+1),(cells[2]%5+1),(cells[3]%5+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]||(floor(cells[1]/5)+1)>[(floor(cells[0]/5)+1),(floor(cells[1]/5)+1),(floor(cells[2]/5)+1),(floor(cells[3]/5)+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]),((cells[2]%5+1)>[(cells[0]%5+1),(cells[1]%5+1),(cells[2]%5+1),(cells[3]%5+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]||(floor(cells[2]/5)+1)>[(floor(cells[0]/5)+1),(floor(cells[1]/5)+1),(floor(cells[2]/5)+1),(floor(cells[3]/5)+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]),((cells[3]%5+1)>[(cells[0]%5+1),(cells[1]%5+1),(cells[2]%5+1),(cells[3]%5+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])]||(floor(cells[3]/5)+1)>[(floor(cells[0]/5)+1),(floor(cells[1]/5)+1),(floor(cells[2]/5)+1),(floor(cells[3]/5)+1)][argmax([(floor(cells[0]/5)+1)*(cells[0]%5+1),(floor(cells[1]/5)+1)*(cells[1]%5+1),(floor(cells[2]/5)+1)*(cells[2]%5+1),(floor(cells[3]/5)+1)*(cells[3]%5+1)])])])>=1)",
+    "derived": {
+      "P": "[floor(cells[0]/5)+1,floor(cells[1]/5)+1,floor(cells[2]/5)+1,floor(cells[3]/5)+1]",
+      "Imp": "[cells[0]%5+1,cells[1]%5+1,cells[2]%5+1,cells[3]%5+1]",
+      "prod": "[P[0]*Imp[0],P[1]*Imp[1],P[2]*Imp[2],P[3]*Imp[3]]",
+      "wi": "argmax(prod)",
+      "risks": "[[P[0],Imp[0]],[P[1],Imp[1]],[P[2],Imp[2]],[P[3],Imp[3]]]"
+    },
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "k6",
+        "as": "k",
+        "do": [
+          {
+            "op": "line",
+            "x1": "56 + k*44",
+            "y1": 28,
+            "x2": "56 + k*44",
+            "y2": 248,
+            "width": 0.5
+          },
+          {
+            "op": "line",
+            "x1": 56,
+            "y1": "28 + k*44",
+            "x2": 276,
+            "y2": "28 + k*44",
+            "width": 0.5
+          }
+        ]
+      },
+      {
+        "op": "repeat",
+        "over": "k5",
+        "as": "c",
+        "do": [
+          {
+            "op": "text",
+            "x": "78 + c*44",
+            "y": 262,
+            "text": "c+1",
+            "size": 8,
+            "anchor": "middle"
+          },
+          {
+            "op": "text",
+            "x": 46,
+            "y": "28 + (4-c)*44 + 25",
+            "text": "c+1",
+            "size": 8,
+            "anchor": "end"
+          }
+        ]
+      },
+      {
+        "op": "text",
+        "x": 166,
+        "y": 276,
+        "text": "'Impact →'",
+        "size": 8.5,
+        "anchor": "middle"
+      },
+      {
+        "op": "text",
+        "x": 56,
+        "y": 20,
+        "text": "'Probability ↑'",
+        "size": 8.5,
+        "anchor": "start"
+      },
+      {
+        "op": "repeat",
+        "over": "risks",
+        "as": "b",
+        "do": [
+          {
+            "op": "circle",
+            "cx": "56 + (b[1]-1)*44 + 22",
+            "cy": "28 + (5-b[0])*44 + 22",
+            "r": 10,
+            "color": "ink",
+            "width": 1.4
+          },
+          {
+            "op": "text",
+            "x": "56 + (b[1]-1)*44 + 22",
+            "y": "28 + (5-b[0])*44 + 22 + 3.2",
+            "text": "'R' + (i+1)",
+            "size": 9,
+            "anchor": "middle"
+          }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "risks",
+      "as": "b",
+      "items": [
+        {
+          "id": "'r' + i",
+          "x": "56 + (b[1]-1)*44",
+          "y": "28 + (5-b[0])*44",
+          "w": 44,
+          "h": 44,
+          "correct": "i == wi",
+          "label": "'R' + (i+1)",
+          "why": "'Probability ' + b[0] + ' × impact ' + b[1] + ' = ' + (b[0]*b[1]) + (i==wi ? ' — the highest priority.' : '.')"
+        }
+      ]
+    },
+    "explanation": "Priority = probability × impact. R{{wi+1}} scores {{prod[wi]}}, the highest — priority multiplies the two axes, so the dot nearest a corner doesn’t automatically win."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "power-interest",
+    "kind": "hotspot",
+    "domain": "People",
+    "topic": "Stakeholder analysis",
+    "difficulty": "easy",
+    "viewBox": [
+      300,
+      222
+    ],
+    "prompt": "On this power/interest grid, tap the stakeholder you should manage closely.",
+    "caption": "Axes only — quadrant strategies not labelled.",
+    "vars": {
+      "names": {
+        "sample": [
+          "Sponsor",
+          "Regulator",
+          "End users",
+          "Vendor",
+          "Ops lead",
+          "Director"
+        ],
+        "count": 4
+      },
+      "ox": {
+        "sampleInt": [
+          0,
+          80
+        ],
+        "count": 4
+      },
+      "oy": {
+        "sampleInt": [
+          0,
+          56
+        ],
+        "count": 4
+      }
+    },
+    "derived": {
+      "qx": "[188,76,188,76]",
+      "qy": "[40,40,126,126]"
+    },
+    "draw": [
+      {
+        "op": "rect",
+        "x": 56,
+        "y": 26,
+        "w": 232,
+        "h": 170,
+        "rx": 3,
+        "color": "ink",
+        "width": 1
+      },
+      {
+        "op": "line",
+        "x1": 172,
+        "y1": 26,
+        "x2": 172,
+        "y2": 196,
+        "width": 0.5
+      },
+      {
+        "op": "line",
+        "x1": 56,
+        "y1": 111,
+        "x2": 288,
+        "y2": 111,
+        "width": 0.5
+      },
+      {
+        "op": "text",
+        "x": 58,
+        "y": 20,
+        "text": "'Power ↑'",
+        "size": 8,
+        "anchor": "start"
+      },
+      {
+        "op": "text",
+        "x": 172,
+        "y": 212,
+        "text": "'Interest →'",
+        "size": 8.5,
+        "anchor": "middle"
+      },
+      {
+        "op": "repeat",
+        "over": "names",
+        "as": "nm",
+        "do": [
+          {
+            "op": "circle",
+            "cx": "qx[i] + ox[i]",
+            "cy": "qy[i] + oy[i]",
+            "r": 5,
+            "color": "ink",
+            "width": 1.4,
+            "fill": "ink",
+            "fillOpacity": 0.12
+          },
+          {
+            "op": "text",
+            "x": "qx[i] + ox[i]",
+            "y": "qy[i] + oy[i] - 9",
+            "text": "nm",
+            "size": 8,
+            "anchor": "middle"
+          }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "names",
+      "as": "nm",
+      "items": [
+        {
+          "id": "'q' + i",
+          "x": "qx[i] + ox[i] - 22",
+          "y": "qy[i] + oy[i] - 20",
+          "w": 44,
+          "h": 34,
+          "correct": "i == 0",
+          "label": "nm",
+          "why": "i == 0 ? 'High power and high interest → manage closely.' : 'Not in the high-power, high-interest quadrant.'"
+        }
+      ]
+    },
+    "explanation": "Manage closely = the top-right quadrant: high power and high interest. The others are keep-satisfied, keep-informed or monitor."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "raci-error",
+    "kind": "hotspot",
+    "domain": "People",
+    "topic": "RACI",
+    "difficulty": "hard",
+    "viewBox": [
+      322,
+      188
+    ],
+    "prompt": "Tap the row{{nBad>1 ? 's' : ''}} where the RACI assignment is set up incorrectly.",
+    "caption": "R responsible · A accountable · C consulted · I informed.",
+    "vars": {
+      "perm0": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "perm1": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "perm2": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "perm3": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "perm4": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "rc": {
+        "sampleInt": [
+          1,
+          2
+        ],
+        "count": 5
+      },
+      "ci": {
+        "sampleInt": [
+          0,
+          1
+        ],
+        "count": 25
+      },
+      "badCoin": {
+        "int": [
+          0,
+          99
+        ]
+      },
+      "badPerm": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "badType": {
+        "sampleInt": [
+          0,
+          1
+        ],
+        "count": 5
+      },
+      "roles": {
+        "sample": [
+          "PM",
+          "Sponsor",
+          "BA",
+          "Dev",
+          "QA",
+          "Architect",
+          "Lead"
+        ],
+        "count": 5
+      },
+      "tasks": {
+        "sample": [
+          "Charter",
+          "Scope def",
+          "Schedule",
+          "Budget",
+          "Risk plan",
+          "Test plan",
+          "Deploy",
+          "Sign-off"
+        ],
+        "count": 5
+      },
+      "rows5": {
+        "range": 5
+      },
+      "cols5": {
+        "range": 5
+      }
+    },
+    "derived": {
+      "perms": "[perm0,perm1,perm2,perm3,perm4]",
+      "nBad": "badCoin < 40 ? 2 : 1"
+    },
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "roles",
+        "as": "rl",
+        "do": [
+          {
+            "op": "text",
+            "x": "76 + i*48 + 24",
+            "y": 22,
+            "text": "rl",
+            "size": 8.5,
+            "anchor": "middle"
+          }
+        ]
+      },
+      {
+        "op": "repeat",
+        "over": "rows5",
+        "as": "r",
+        "do": [
+          {
+            "op": "text",
+            "x": 68,
+            "y": "30 + r*30 + 18",
+            "text": "tasks[r]",
+            "size": 8,
+            "anchor": "end"
+          },
+          {
+            "op": "repeat",
+            "over": "cols5",
+            "as": "c",
+            "do": [
+              {
+                "op": "rect",
+                "x": "76 + c*48",
+                "y": "30 + r*30",
+                "w": 48,
+                "h": 30,
+                "rx": 2,
+                "color": "ink",
+                "width": 0.6
+              },
+              {
+                "op": "text",
+                "x": "76 + c*48 + 24",
+                "y": "30 + r*30 + 18.5",
+                "text": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? (perms[r][0]==c ? 'A' : (perms[r][1]==c ? 'A' : ((rc[r]==2 && perms[r][2]==c) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))) : (perms[r][0]==c ? 'R' : ((perms[r][1]==c||(rc[r]==2 && perms[r][2]==c)) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))) : (perms[r][0]==c ? 'A' : ((perms[r][1]==c||(rc[r]==2 && perms[r][2]==c)) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))",
+                "size": 10,
+                "anchor": "middle"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "rows5",
+      "as": "r",
+      "items": [
+        {
+          "id": "'row' + r",
+          "x": 6,
+          "y": "30 + r*30",
+          "w": 310,
+          "h": 30,
+          "correct": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r))",
+          "label": "tasks[r]",
+          "why": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? 'Two people are Accountable — a row may have only one A.' : 'No one is Accountable — every row needs exactly one A.') : 'Valid: exactly one A, at least one R.'"
+        }
+      ]
+    },
+    "explanation": "A valid RACI row needs exactly one Accountable (A) and at least one Responsible (R). The {{tasks[badPerm[0]]}} row {{badType[badPerm[0]]==0 ? 'has two A’s' : 'has no A'}}.{{nBad==2 ? (' The ' + tasks[badPerm[1]] + ' row ' + (badType[badPerm[1]]==0 ? 'has two A’s' : 'has no A') + '.') : ''}}"
+  }
+]
