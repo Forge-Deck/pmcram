@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "figuregen template",
+  "description": "A dynamic point-and-click template. Rolls a randomised variant in-app via the figuregen engine. Numeric fields marked as expr may be a number or an expression string evaluated against the rolled scope. (A content file is a JSON array of these; the validator checks each record.)",
+  "type": "object",
+  "required": ["schema", "id", "kind", "domain", "viewBox", "prompt"],
+  "properties": {
+    "schema": { "const": "figuregen/v1" },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "kind": { "enum": ["hotspot", "choice"] },
+    "domain": { "enum": ["People", "Process", "Business Environment"] },
+    "topic": { "type": "string" },
+    "difficulty": { "enum": ["easy", "medium", "hard"] },
+    "viewBox": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+    "chart": { "type": "string" },
+    "params": { "type": "object" },
+    "prompt": { "$ref": "#/$defs/expr" },
+    "caption": { "$ref": "#/$defs/expr" },
+    "explanation": { "$ref": "#/$defs/expr" },
+    "select": { "$ref": "#/$defs/expr" },
+    "multi": { "type": "boolean" },
+    "vars": { "type": "object" },
+    "derived": { "type": "object", "additionalProperties": { "type": "string" } },
+    "guard": { "type": "string" },
+    "draw": { "type": "array", "items": { "$ref": "#/$defs/drawOp" } },
+    "regions": {
+      "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/region" } }, { "$ref": "#/$defs/itemsBlock" }]
+    },
+    "choices": {
+      "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/choice" } }, { "$ref": "#/$defs/itemsBlock" }]
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "expr": { "type": ["number", "string"] },
+    "drawOp": {
+      "type": "object",
+      "required": ["op"],
+      "properties": {
+        "op": { "enum": ["line", "rect", "circle", "polygon", "polyline", "text", "arrow", "repeat"] }
+      },
+      "additionalProperties": true
+    },
+    "region": {
+      "type": "object",
+      "required": ["id", "x", "y", "w", "h"],
+      "properties": {
+        "id": { "$ref": "#/$defs/expr" },
+        "x": { "$ref": "#/$defs/expr" },
+        "y": { "$ref": "#/$defs/expr" },
+        "w": { "$ref": "#/$defs/expr" },
+        "h": { "$ref": "#/$defs/expr" },
+        "correct": { "$ref": "#/$defs/expr" },
+        "label": { "$ref": "#/$defs/expr" },
+        "why": { "$ref": "#/$defs/expr" }
+      },
+      "additionalProperties": false
+    },
+    "choice": {
+      "type": "object",
+      "required": ["text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/expr" },
+        "text": { "$ref": "#/$defs/expr" },
+        "correct": { "$ref": "#/$defs/expr" },
+        "why": { "$ref": "#/$defs/expr" }
+      },
+      "additionalProperties": false
+    },
+    "itemsBlock": {
+      "type": "object",
+      "required": ["items"],
+      "properties": {
+        "repeat": { "type": "string" },
+        "as": { "type": "string" },
+        "items": { "type": "array" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

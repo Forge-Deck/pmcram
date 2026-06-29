@@ -1,0 +1,50 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "cost-of-quality",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Cost of quality",
+    "difficulty": "medium",
+    "viewBox": [270, 204],
+    "prompt": "Tap the bar for the largest cost of NONconformance (a failure cost).",
+    "caption": "Prevention & appraisal = conformance; internal & external failure = nonconformance.",
+    "vars": { "v": { "sampleInt": [6, 24], "count": 4 } },
+    "guard": "v[2] != v[3]",
+    "derived": {
+      "worst": "v[2] > v[3] ? 2 : 3",
+      "bars": "[['Prevention',v[0],0],['Appraisal',v[1],0],['Internal',v[2],1],['External',v[3],1]]",
+      "worstLabel": "v[2] > v[3] ? 'Internal failure' : 'External failure'"
+    },
+    "draw": [
+      { "op": "line", "x1": 24, "y1": 168, "x2": 264, "y2": 168, "width": 1.3 },
+      {
+        "op": "repeat",
+        "over": "bars",
+        "as": "b",
+        "do": [
+          { "op": "rect", "x": "30 + i*60", "y": "168 - 138*b[1]/26", "w": 46, "h": "138*b[1]/26", "rx": 3, "fill": "ink", "fillOpacity": 0.1 },
+          { "op": "text", "x": "30 + i*60 + 23", "y": "168 - 138*b[1]/26 - 4", "text": "b[1]", "size": 8, "anchor": "middle" },
+          { "op": "text", "x": "30 + i*60 + 23", "y": 184, "text": "b[0]", "size": 7.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "bars",
+      "as": "b",
+      "items": [
+        {
+          "id": "i",
+          "x": "30 + i*60",
+          "y": 30,
+          "w": 46,
+          "h": 138,
+          "correct": "i == worst",
+          "label": "b[0]",
+          "why": "b[2]==0 ? 'A conformance cost (prevention/appraisal), not a failure cost.' : (i==worst ? 'A failure (nonconformance) cost, and the larger of the two.' : 'A failure cost, but smaller than the other failure bucket.')"
+        }
+      ]
+    },
+    "explanation": "Nonconformance = failure costs (internal + external). {{worstLabel}} is the larger of the two failure buckets; prevention and appraisal are conformance costs."
+  }
+]
