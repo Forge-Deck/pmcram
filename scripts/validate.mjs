@@ -27,7 +27,6 @@ const validators = {
   guide: ajv.compile(readJson(join(schemaDir, 'guide.schema.json'))),
   sequence: ajv.compile(readJson(join(schemaDir, 'sequence.schema.json'))),
   case: ajv.compile(readJson(join(schemaDir, 'case.schema.json'))),
-  pointclick: ajv.compile(readJson(join(schemaDir, 'pointclick.schema.json'))),
   figuregen: ajv.compile(readJson(join(schemaDir, 'figuregen.schema.json'))),
 };
 
@@ -39,7 +38,6 @@ const TARGETS = [
   { dir: 'guides', type: 'guide' },
   { dir: 'sequences', type: 'sequence' },
   { dir: 'cases', type: 'case' },
-  { dir: 'pointclick', type: 'pointclick' },
   { dir: 'figuregen', type: 'figuregen' },
 ];
 

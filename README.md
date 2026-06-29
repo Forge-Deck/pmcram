@@ -8,7 +8,7 @@ Study content for the **PM Cram: PMP Prep** app — glossary terms, flashcards, 
 
 ## How the app uses this repo
 
-1. On sync, the app reads **`content/manifest.json`** (a CI-generated index) — or, as a fallback, **lists the files** in each `content/` subfolder (`glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`, `pointclick/`) via the GitHub Contents API.
+1. On sync, the app reads **`content/manifest.json`** (a CI-generated index) — or, as a fallback, **lists the files** in each `content/` subfolder (`glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`, `figuregen/`) via the GitHub Contents API.
 2. It downloads each file from `raw.githubusercontent.com`, parses the JSON array, and **merges all records into a local store** keyed by `id` (questions/cards) or `Term` (glossary).
 3. The store is **cached on-device** so the app works offline; sync only re-fetches files whose hash / `updatedAt` changed.
 
@@ -28,7 +28,7 @@ content/
   guides/          # OPTIONAL read-and-absorb study guides (mindset, agile, strategy)
   sequences/       # OPTIONAL drag-to-order ("put the steps in sequence") questions
   cases/           # OPTIONAL multi-step case studies (one scenario, linked questions)
-  pointclick/      # OPTIONAL point-and-click questions (tap hotspots on a graphic)
+  figuregen/       # OPTIONAL dynamic point-and-click templates (rolled into random variants)
   schema/          # JSON Schemas used by CI + contributors to validate
     glossary.schema.json
     question.schema.json
@@ -36,7 +36,7 @@ content/
     guide.schema.json
     sequence.schema.json
     case.schema.json
-    pointclick.schema.json
+    figuregen.schema.json
   manifest.json    # CI-generated sync index (do not edit by hand)
 scripts/
   validate.mjs           # validates every file against the schemas (+ cross-field checks)
@@ -48,7 +48,7 @@ CONTRIBUTING.md
 README.md
 ```
 
-Every `.json` file under `glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`, and `pointclick/` is a **JSON array of records**.
+Every `.json` file under `glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`, and `figuregen/` is a **JSON array of records**.
 
 ---
 
@@ -168,23 +168,24 @@ One shared scenario with several linked questions answered in order. Follow `sch
 }
 ```
 
-### Point-and-click questions (`pointclick/`)
-A 2026-style point-and-click: a graphic with **hidden hotspot regions**; the candidate taps the correct location(s). Follow `schema/pointclick.schema.json`. Store a `prompt`, a `figure` (inline theme-aware `svg` **with a `viewBox`**), and `regions[]` — rectangular hotspots **in the SVG's viewBox coordinates** (`x, y, w, h`), each flagged `correct` (with optional `label`/`why` shown on review). `select` defaults to the number of correct regions. `id` optional (derived).
+### Dynamic figure / point-and-click templates (`figuregen/`)
+A 2026-style point-and-click (hotspot **or** multiple-choice) authored as a **template** that the app rolls into a fresh randomised variant each time — no app build needed to add or edit one. Follow `schema/figuregen.schema.json`.
+
+A template declares random `vars`, optional `derived` values + a re-roll `guard`, a `draw` list of figure primitives (or a named `chart` style), and `regions`/`choices` whose fields are **expressions** evaluated against the roll. The app's engine (`src/study/figuregen/`) renders the figure and grades the answer.
 
 ```jsonc
 {
-  "prompt": "Tap the activity that is NOT on the critical path.",
-  "domain": "Process",
-  "figure": { "svg": "<svg viewBox='0 0 320 210' …>…</svg>" },
-  "regions": [
-    { "id": "a", "x": 14, "y": 46, "w": 56, "h": 46 },
-    { "id": "c", "x": 132, "y": 146, "w": 56, "h": 46, "correct": true, "why": "C has float — off the critical path." }
-  ],
-  "explanation": "The critical path A→B→D has zero float; C can slip."
+  "schema": "figuregen/v1", "id": "cost-of-quality", "kind": "hotspot", "domain": "Process",
+  "viewBox": [270, 204], "prompt": "Tap the largest cost of NONconformance.",
+  "vars": { "v": { "sampleInt": [6, 24], "count": 4 } },
+  "guard": "v[2] != v[3]",
+  "derived": { "worst": "v[2] > v[3] ? 2 : 3", "bars": "[['Prevention',v[0]],['Appraisal',v[1]],['Internal',v[2]],['External',v[3]]]" },
+  "draw": [ { "op": "repeat", "over": "bars", "as": "b", "do": [ { "op": "rect", "x": "30 + i*60", "y": "168 - 138*b[1]/26", "w": 46, "h": "138*b[1]/26" } ] } ],
+  "regions": { "repeat": "bars", "as": "b", "items": [ { "id": "i", "x": "30 + i*60", "y": 30, "w": 46, "h": 138, "correct": "i == worst" } ] }
 }
 ```
 
-The hotspots are invisible (like the real exam) — the graphic must make the clickable spots obvious. Regions are scaled from the `viewBox` to the rendered image, so use the **same coordinates** as your SVG elements. Draw arrowheads as `<polygon>` (no `<marker>`), use `currentColor` for ink.
+See the worked templates in `content/figuregen/` and the engine (expression functions, draw ops, `chart` styles) under `src/study/figuregen/` in the app repo. Numeric/string fields may be a literal or an expression; arrowheads use the auto-oriented `arrow` op; don't use XML entities in text.
 
 ## Append-only model
 

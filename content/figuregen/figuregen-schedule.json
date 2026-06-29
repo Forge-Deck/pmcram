@@ -7,14 +7,13 @@
     "topic": "Scatter / correlation",
     "difficulty": "easy",
     "viewBox": [294, 196],
-    "prompt": "These points show a positive correlation. Tap the outlier that does not fit the pattern.",
-    "caption": "Each dot is one observation.",
+    "prompt": "These two variables are correlated. Tap the single observation that breaks the pattern.",
     "vars": {
       "ix": { "range": 9 },
       "outlier": { "int": [2, 7] },
       "above": { "pick": [0, 1] },
-      "jit": { "sampleInt": [-4, 4], "count": 9 },
-      "off": { "int": [46, 64] }
+      "jit": { "sampleInt": [-5, 5], "count": 9 },
+      "off": { "int": [24, 38] }
     },
     "draw": [
       { "op": "line", "x1": 44, "y1": 172, "x2": 286, "y2": 172, "width": 1.3 },

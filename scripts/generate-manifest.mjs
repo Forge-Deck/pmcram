@@ -23,7 +23,6 @@ const TARGETS = [
   { dir: 'guides', type: 'guide' },
   { dir: 'sequences', type: 'sequence' },
   { dir: 'cases', type: 'case' },
-  { dir: 'pointclick', type: 'pointclick' },
   { dir: 'figuregen', type: 'figuregen' },
 ];
 
@@ -41,7 +40,7 @@ function updatedAt(absPath, repoRelPath) {
 }
 
 const files = [];
-const totals = { glossary: 0, question: 0, card: 0, guide: 0, sequence: 0, case: 0, pointclick: 0, figuregen: 0 };
+const totals = { glossary: 0, question: 0, card: 0, guide: 0, sequence: 0, case: 0, figuregen: 0 };
 
 for (const { dir, type } of TARGETS) {
   const full = join(contentDir, dir);
@@ -78,5 +77,5 @@ const manifest = {
 
 writeFileSync(join(contentDir, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
 console.log(
-  `✓ Wrote content/manifest.json — ${files.length} files: ${totals.glossary} terms / ${totals.question} questions / ${totals.card} cards / ${totals.guide} guides / ${totals.sequence} sequences / ${totals.case} cases / ${totals.pointclick} point-click / ${totals.figuregen} figuregen.`,
+  `✓ Wrote content/manifest.json — ${files.length} files: ${totals.glossary} terms / ${totals.question} questions / ${totals.card} cards / ${totals.guide} guides / ${totals.sequence} sequences / ${totals.case} cases / ${totals.figuregen} figuregen.`,
 );
