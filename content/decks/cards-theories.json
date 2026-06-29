@@ -1,0 +1,188 @@
+[
+  {
+    "id": "th-motivation",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Motivation",
+    "difficulty": "medium",
+    "front": "Motivation theories — how do Maslow, Herzberg, McGregor, McClelland, Vroom and Pink compare?",
+    "legend": [
+      { "symbol": "Maslow", "meaning": "Needs in five ascending levels; lower needs must be largely met before higher ones motivate" },
+      { "symbol": "Herzberg", "meaning": "Two factors — hygiene (pay, conditions) prevents dissatisfaction; motivators (achievement, growth) drive satisfaction" },
+      { "symbol": "McGregor", "meaning": "Theory X (people avoid work, need control) vs Theory Y (self-motivated, seek responsibility) — the manager's assumptions" },
+      { "symbol": "McClelland", "meaning": "Three acquired needs — achievement, affiliation, power; match the work to a person's dominant need" },
+      { "symbol": "Vroom", "meaning": "Expectancy — motivation = expectancy x instrumentality x valence; people weigh the odds of effort leading to a valued reward" },
+      { "symbol": "Pink", "meaning": "Intrinsic drive for knowledge work — autonomy, mastery, purpose (carrots and sticks backfire)" }
+    ],
+    "back": "All explain what energises people, and most separate true motivators from baseline conditions that merely prevent unhappiness.\n\nThey differ in lens: Maslow ranks needs; Herzberg splits factors into two types; McGregor is about the manager's beliefs; McClelland matches the individual's dominant need; Vroom is a calculation of perceived odds; Pink rejects rewards/punishments for creative work in favour of intrinsic drivers.",
+    "tip": "Herzberg trap: a pay rise or better conditions are hygiene — they remove dissatisfaction but do not motivate. Recognition, growth and purpose do.",
+    "related": ["Maslow's Hierarchy of Needs", "Herzberg's Two-Factor Theory", "McGregor's Theory X", "McClelland's Theory of Needs", "Expectancy Theory", "Daniel Pink's Drive"],
+    "source": "Maslow, Herzberg, McGregor, McClelland, Vroom, Pink — motivation theories"
+  },
+  {
+    "id": "th-team-development",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Team development",
+    "difficulty": "medium",
+    "front": "Team models — Tuckman vs Drexler-Sibbet vs Belbin?",
+    "legend": [
+      { "symbol": "Tuckman", "meaning": "Five stages a team passes through — forming, storming, norming, performing, adjourning" },
+      { "symbol": "Drexler-Sibbet", "meaning": "Seven stages with a key question to resolve at each, from creating the team to sustaining and renewing it" },
+      { "symbol": "Belbin", "meaning": "Nine behavioural ROLES people adopt (action, people, thinking) — about team composition, not stages" }
+    ],
+    "back": "Tuckman and Drexler-Sibbet both describe how a team MATURES over time, and both say high performance comes only after early friction.\n\nThe difference: Tuckman is the simple five-stage view; Drexler-Sibbet is a richer seven-stage view with a question to answer at each. Belbin is orthogonal — it describes the MIX of roles in the team, not a sequence.",
+    "tip": "Stages (Tuckman, Drexler-Sibbet) say WHEN a team performs; Belbin roles say WHO does what. Don't conflate a stage model with a role model.",
+    "related": ["Tuckman's Stages of Team Development", "Drexler-Sibbet Team Performance Model", "Belbin Team Roles"],
+    "source": "Tuckman; Drexler-Sibbet; Belbin — team development and roles"
+  },
+  {
+    "id": "th-conflict",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Conflict",
+    "difficulty": "medium",
+    "front": "Conflict models — Thomas-Kilmann modes vs Pondy's stages?",
+    "legend": [
+      { "symbol": "Thomas-Kilmann (TKI)", "meaning": "Five ways to HANDLE conflict — competing, collaborating, compromising, avoiding, accommodating (by assertiveness x cooperativeness)" },
+      { "symbol": "Pondy", "meaning": "Five STAGES a conflict moves through — latent, perceived, felt, manifest, aftermath" }
+    ],
+    "back": "Both are five-part models of workplace conflict, but they answer different questions.\n\nThomas-Kilmann is about the RESPONSE you choose in the moment; Pondy is about the LIFECYCLE a conflict goes through over time. PMI favours collaborating (confront/problem-solve) for the most durable resolution, with the right mode depending on stakes and time.",
+    "tip": "TKI = how to respond (modes); Pondy = how a conflict develops (stages). Collaborate is the PMI-preferred mode.",
+    "related": ["Thomas-Kilmann Conflict Mode Instrument (TKI)", "Conflict management", "Negotiation"],
+    "source": "Thomas-Kilmann; Pondy — conflict mode and conflict stages"
+  },
+  {
+    "id": "th-leadership",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Leadership",
+    "difficulty": "medium",
+    "front": "Leadership styles — Situational vs Servant vs Transformational/Transactional?",
+    "legend": [
+      { "symbol": "Situational (Hersey-Blanchard / SLII)", "meaning": "Adapt your style — directing, coaching, supporting, delegating — to the follower's competence and commitment" },
+      { "symbol": "Servant", "meaning": "Lead by serving the team first — remove impediments, grow people; central to agile" },
+      { "symbol": "Transformational vs Transactional", "meaning": "Inspire and elevate around a vision vs exchange rewards for performance" }
+    ],
+    "back": "All are relationship and behaviour styles, and none is universally best.\n\nSituational leadership flexes to the person and task; servant leadership puts the team's needs first; transformational inspires change while transactional trades rewards for results. The PMP mindset and agile lean servant and situational.",
+    "tip": "There is no single best style. Agile favours servant leadership; Situational says match the style to the follower's readiness.",
+    "related": ["Situational Leadership II", "Hersey-Blanchard Situational Leadership", "Servant leadership"],
+    "source": "Hersey-Blanchard; Greenleaf; Burns/Bass — leadership models"
+  },
+  {
+    "id": "th-change",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Change management",
+    "difficulty": "hard",
+    "front": "Change models — Lewin vs Kotter vs ADKAR vs Bridges vs Satir?",
+    "legend": [
+      { "symbol": "Lewin", "meaning": "Three steps — unfreeze, change, refreeze" },
+      { "symbol": "Kotter", "meaning": "Eight steps, org-wide — from creating urgency to anchoring change in the culture" },
+      { "symbol": "ADKAR", "meaning": "Individual adoption — Awareness, Desire, Knowledge, Ability, Reinforcement" },
+      { "symbol": "Bridges", "meaning": "The psychological TRANSITION — Ending, Neutral Zone, New Beginning (separate from the external change)" },
+      { "symbol": "Satir", "meaning": "The performance curve — late status quo, resistance, chaos (a dip), integration, new status quo" }
+    ],
+    "back": "All address the PEOPLE side of change, not the technical rollout.\n\nLewin is the simplest three-phase frame; Kotter is an organisation-level process; ADKAR works one individual at a time; Bridges focuses on the inner psychological transition versus the external event; Satir normalises the temporary drop in performance that change causes.",
+    "tip": "Bridges and Satir describe the human transition (slower); Lewin and Kotter describe the change process; ADKAR works person by person.",
+    "related": ["Lewin Change Model", "Kotter 8-Step Model", "ADKAR", "Bridges Transition Model", "Satir Change Model"],
+    "source": "Lewin; Kotter; Prosci ADKAR; Bridges; Satir — change models"
+  },
+  {
+    "id": "th-complexity",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "Process",
+    "topic": "Tailoring",
+    "difficulty": "medium",
+    "front": "Complexity frameworks — Cynefin vs Stacey?",
+    "legend": [
+      { "symbol": "Cynefin", "meaning": "Five domains — clear, complicated, complex, chaotic, disorder — each with its own response, from best practice to emergent" },
+      { "symbol": "Stacey", "meaning": "A grid of agreement (on requirements) against certainty (on approach), pointing to simple, complicated, complex or chaotic" }
+    ],
+    "back": "Both sort a situation by its uncertainty so you can choose predictive versus adaptive delivery, and both say more uncertainty or less agreement calls for experimentation.\n\nCynefin names five domains with response heuristics; Stacey plots two continuous dimensions — how much people agree and how certain the approach is.",
+    "tip": "Both say: more uncertainty or disagreement points to adaptive delivery. Cynefin names domains; Stacey plots agreement x certainty.",
+    "related": ["Cynefin Framework", "Stacey Matrix"],
+    "source": "Snowden (Cynefin); Stacey — complexity frameworks"
+  },
+  {
+    "id": "th-quality-gurus",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "Process",
+    "topic": "Quality",
+    "difficulty": "medium",
+    "front": "Quality thinkers — Deming vs Juran vs Crosby vs Ishikawa?",
+    "legend": [
+      { "symbol": "Deming", "meaning": "Systems thinking, PDCA and 14 points; most problems come from the system, not the worker" },
+      { "symbol": "Juran", "meaning": "Quality Trilogy — planning, control, improvement; 'fitness for use'; popularised the Pareto principle" },
+      { "symbol": "Crosby", "meaning": "'Quality is free'; Zero Defects; quality is conformance to requirements, achieved by prevention" },
+      { "symbol": "Ishikawa", "meaning": "Cause-and-effect (fishbone) diagram, quality circles, and the seven basic quality tools" }
+    ],
+    "back": "All four champion prevention over inspection — quality is planned and built in, then measured and improved continuously.\n\nTheir emphasis differs: Deming on the system and PDCA; Juran on fitness for use and the trilogy; Crosby on zero defects and the cost of quality; Ishikawa on practical tools like the fishbone.",
+    "tip": "Prevention over inspection is the shared creed. 'Quality is free' = Crosby; 'fitness for use' = Juran; PDCA and the system = Deming; fishbone = Ishikawa.",
+    "related": ["Deming Cycle", "Juran's Quality Trilogy", "Crosby's Zero Defects", "Cost of quality"],
+    "source": "Deming; Juran; Crosby; Ishikawa — quality management thinkers"
+  },
+  {
+    "id": "th-power-bases",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Power & influence",
+    "difficulty": "medium",
+    "front": "Sources of power — the five bases (French & Raven)?",
+    "legend": [
+      { "symbol": "Legitimate (positional)", "meaning": "Authority that comes from the role or title" },
+      { "symbol": "Reward", "meaning": "Ability to give bonuses, recognition, or desirable assignments" },
+      { "symbol": "Coercive (penalty)", "meaning": "Ability to punish or threaten negative consequences" },
+      { "symbol": "Expert", "meaning": "Influence earned through knowledge, skill, and credibility" },
+      { "symbol": "Referent", "meaning": "Influence from respect, charisma, or association with someone respected" }
+    ],
+    "back": "All five explain why people comply with a project manager who has little formal authority.\n\nThe key split: legitimate, reward and coercive power come WITH the position; expert and referent power are EARNED. Expert and referent are the most effective and durable; coercive is the weakest and a last resort.",
+    "tip": "Earned beats granted: expert and referent are the strongest forms of power; coercive (penalty) is the weakest and a last resort.",
+    "related": ["Expert power", "Referent power", "Coercive power", "Legitimate power", "Reward power"],
+    "source": "French and Raven — the five bases of power"
+  },
+  {
+    "id": "th-stakeholder-models",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Stakeholders",
+    "difficulty": "medium",
+    "front": "Stakeholder analysis — Power/Interest grid vs Salience vs Stakeholder Cube?",
+    "legend": [
+      { "symbol": "Power/Interest grid", "meaning": "Two dimensions, power x interest, giving four strategies: manage closely, keep satisfied, keep informed, monitor" },
+      { "symbol": "Salience", "meaning": "Three attributes — power, legitimacy, urgency — giving seven classes (definitive, dominant, dependent, and so on)" },
+      { "symbol": "Stakeholder Cube", "meaning": "Three dimensions — power x interest x attitude (backer/blocker) — giving eight characters" }
+    ],
+    "back": "All three classify stakeholders so you can decide how to engage each one.\n\nThey differ in nuance: the grid uses two dimensions; salience adds legitimacy and urgency; the cube adds attitude. More dimensions capture more reality but take more effort — match the model to the complexity of your stakeholders.",
+    "tip": "Power + interest = the grid; + legitimacy + urgency = salience; + attitude = the cube. See the Stakeholder Models guide for the diagrams.",
+    "related": ["Power interest grid", "Salience model", "Stakeholder cube"],
+    "source": "Power/Interest grid; Mitchell-Agle-Wood salience; Murray-Webster and Simon stakeholder cube"
+  },
+  {
+    "id": "th-mastery",
+    "schema": "card/v1",
+    "deck": "Theories & Models",
+    "domain": "People",
+    "topic": "Skill development",
+    "difficulty": "medium",
+    "front": "Paths to mastery — Shu-Ha-Ri vs Dreyfus vs the Four Stages of Competence?",
+    "legend": [
+      { "symbol": "Shu-Ha-Ri", "meaning": "Follow the rules, then break the rules, then transcend the rules — an agile adoption pattern" },
+      { "symbol": "Dreyfus", "meaning": "Five skill levels — novice, advanced beginner, competent, proficient, expert" },
+      { "symbol": "Four Stages of Competence", "meaning": "Unconscious incompetence, conscious incompetence, conscious competence, unconscious competence" }
+    ],
+    "back": "All three describe the journey from beginner to mastery, where the highest level becomes intuitive and unconscious.\n\nThey differ in framing: Shu-Ha-Ri has three rules-centred stages from martial arts and agile; Dreyfus grades five levels of skill; the Four Stages of Competence is about your AWARENESS of your own (in)competence.",
+    "tip": "All map novice to expert: Shu-Ha-Ri (three, rules-based), Dreyfus (five skill levels), Four Stages (awareness of competence).",
+    "related": ["Shu-Ha-Ri", "Dreyfus Model", "Four Stages of Competence"],
+    "source": "Shu-Ha-Ri; Dreyfus; the Four Stages of Competence — learning and mastery models"
+  }
+]

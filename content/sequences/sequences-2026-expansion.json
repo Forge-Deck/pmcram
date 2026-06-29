@@ -1,0 +1,746 @@
+[
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "DMAIC improvement cycle",
+    "difficulty": "medium",
+    "prompt": "Order the steps of the DMAIC improvement cycle used to improve an existing, repeatable process.",
+    "steps": [
+      {
+        "text": "Define the problem, improvement goal, scope, and the critical-to-quality customer requirements",
+        "note": "Agree the charter and what good looks like before touching data"
+      },
+      {
+        "text": "Measure current process performance and collect reliable baseline data",
+        "note": "You cannot improve what you have not first quantified"
+      },
+      {
+        "text": "Analyse the data to find and verify the root causes of the defects or variation",
+        "note": "Confirm causes with evidence before designing any fix"
+      },
+      {
+        "text": "Improve the process by developing, piloting, and implementing solutions that target the verified root causes",
+        "note": "Solutions come only after causes are proven"
+      },
+      {
+        "text": "Control the improved process with monitoring, standard work, and response plans to hold the gains",
+        "note": "Lock in the gain so the problem does not return"
+      }
+    ],
+    "explanation": "DMAIC is a structured, data-driven Lean Six Sigma cycle for improving an existing process. Each phase gates the next: you scope the problem (Define), establish a fact base (Measure), prove the causes (Analyse), fix them (Improve), then sustain the result (Control). Jumping to solutions before Analyse is the classic failure mode the sequence prevents.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "dmaic",
+      "lean six sigma",
+      "continuous improvement",
+      "quality"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Analysing and responding to a single risk",
+    "difficulty": "medium",
+    "prompt": "A new threat has just been logged in the risk register. Arrange the steps to analyse, respond to, and monitor that individual risk.",
+    "steps": [
+      {
+        "text": "Perform qualitative analysis to rate the risk probability and impact and set its priority",
+        "note": "Fast screening decides which risks deserve deeper effort"
+      },
+      {
+        "text": "Perform quantitative analysis on the risk if it is high priority, modelling its effect on cost or schedule",
+        "note": "Only high-priority risks justify numerical modelling"
+      },
+      {
+        "text": "Select and plan a response strategy such as avoid, transfer, mitigate, or accept the threat",
+        "note": "Strategy follows analysis, not the other way round"
+      },
+      {
+        "text": "Assign a risk owner and implement the agreed response actions",
+        "note": "A response delivers nothing until an owner acts on it"
+      },
+      {
+        "text": "Monitor the risk, watch for residual and secondary risks, and check the response is working",
+        "note": "Conditions change, so effectiveness must be tracked"
+      },
+      {
+        "text": "Close the risk and update the risk register once it can no longer occur",
+        "note": "Retire spent risks and capture the outcome"
+      }
+    ],
+    "explanation": "This is the life cycle of one already-identified risk, not the whole risk-management planning process. Qualitative screening prioritises, quantitative modelling is reserved for the high-priority few, a strategy is chosen, an owner implements it, and the risk is monitored until it can be closed. Acting before analysing, or planning a response with no owner, are common ordering errors.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "risk",
+      "qualitative analysis",
+      "quantitative analysis",
+      "risk register",
+      "monitor"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Integrated change control end to end",
+    "difficulty": "medium",
+    "prompt": "Arrange the full integrated change control steps, from logging a change request through implementing and verifying the approved change.",
+    "steps": [
+      {
+        "text": "Record the change request in the change log with its description and justification",
+        "note": "Every change starts as a logged, traceable request"
+      },
+      {
+        "text": "Assess the impact of the change across scope, schedule, cost, quality, resources, and risk",
+        "note": "Decisions need an integrated view of all constraints"
+      },
+      {
+        "text": "Submit the request and impact analysis to the change control board or authorised decision maker",
+        "note": "The proper authority decides, not the PM alone"
+      },
+      {
+        "text": "Update the baselines, project management plan, and affected documents once the change is approved",
+        "note": "Approved changes must be reflected in the baselines"
+      },
+      {
+        "text": "Communicate the decision and revised plans to all affected stakeholders",
+        "note": "People can only act on changes they know about"
+      },
+      {
+        "text": "Direct and manage the work to implement the approved change in the deliverables",
+        "note": "Execution is where the change actually happens"
+      },
+      {
+        "text": "Verify the change was carried out correctly and close the change request",
+        "note": "Confirm the outcome before closing the loop"
+      }
+    ],
+    "explanation": "Integrated change control is more than getting a decision: a logged request is impact-assessed, taken to the CCB, then if approved the baselines and plan are updated, stakeholders are informed, the change is implemented in the work, and finally verified and closed. Updating baselines before approval, or implementing before the CCB decides, breaks the controlled flow.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "change control",
+      "ccb",
+      "baseline",
+      "configuration management"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Business Environment",
+    "topic": "Benefits realisation lifecycle",
+    "difficulty": "medium",
+    "prompt": "Arrange the stages of the benefits realisation lifecycle, from identifying expected benefits to sustaining them in operations.",
+    "steps": [
+      {
+        "text": "Identify the expected benefits and link them to organisational strategy in the business case",
+        "note": "Benefits are defined before the project is authorised"
+      },
+      {
+        "text": "Plan benefits realisation, defining metrics, baselines, owners, and target dates",
+        "note": "Make every benefit measurable and owned"
+      },
+      {
+        "text": "Deliver the project outputs and capabilities that enable the benefits",
+        "note": "Outputs are the means; benefits are the end"
+      },
+      {
+        "text": "Transition the capabilities and benefit ownership to operations or the business",
+        "note": "Most benefits accrue after handover, so ownership must move"
+      },
+      {
+        "text": "Sustain and measure the benefits in operations, comparing actuals to targets and optimising",
+        "note": "Value is confirmed only by measuring realised benefits over time"
+      }
+    ],
+    "explanation": "Benefits realisation spans well beyond project delivery. Benefits are identified and tied to strategy, planned with measurable targets and owners, enabled by the delivered capability, transitioned to operations, and then sustained and measured where the value is actually realised. Treating handover as the end, rather than sustaining and measuring benefits, is the gap this lifecycle closes.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business environment",
+      "benefits realisation",
+      "value delivery",
+      "business case",
+      "transition"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Estimate refinement from ROM to definitive",
+    "difficulty": "medium",
+    "prompt": "Arrange the cost estimate classes in the order they are typically produced as a project is progressively elaborated.",
+    "steps": [
+      {
+        "text": "Produce a rough order of magnitude (ROM) estimate early, when little detail is known",
+        "note": "A wide accuracy range suits initiation-stage uncertainty"
+      },
+      {
+        "text": "Develop a budget estimate as scope and planning detail firm up",
+        "note": "A tighter range supports funding and approval decisions"
+      },
+      {
+        "text": "Produce a definitive estimate once scope, design, and work packages are well defined",
+        "note": "The narrowest range supports the cost baseline"
+      },
+      {
+        "text": "Baseline the definitive estimate and refine it through change control as work proceeds",
+        "note": "Estimates keep converging as remaining uncertainty falls"
+      }
+    ],
+    "explanation": "Estimate accuracy improves as a project is progressively elaborated. A ROM estimate is made early with a broad range, a budget estimate narrows it as detail grows, and a definitive estimate is produced once the work is well defined and supports the cost baseline. The ranges narrow in that order because uncertainty falls as detail increases.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "estimating",
+      "rom estimate",
+      "definitive estimate",
+      "progressive elaboration",
+      "cost"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Quality processes for a deliverable",
+    "difficulty": "medium",
+    "prompt": "Arrange the project quality processes in the order they are applied to produce and accept a quality deliverable.",
+    "steps": [
+      {
+        "text": "Plan quality management, defining the quality standards, metrics, and acceptance criteria for the deliverable",
+        "note": "Decide what quality means and how it will be measured first"
+      },
+      {
+        "text": "Manage quality by auditing processes and building quality into the work to prevent defects",
+        "note": "Assurance is process-focused and prevention-oriented"
+      },
+      {
+        "text": "Control quality by inspecting, testing, and measuring the deliverables against the standards",
+        "note": "Control is product-focused and detection-oriented"
+      },
+      {
+        "text": "Analyse the control results and feed corrective actions, preventive actions, and process improvements back in",
+        "note": "Findings drive both fixes and prevention"
+      },
+      {
+        "text": "Submit the verified, quality-checked deliverables for customer validation and formal acceptance",
+        "note": "Internal control precedes external acceptance"
+      }
+    ],
+    "explanation": "The quality processes run plan, then assure, then control. Plan Quality sets the standards and acceptance criteria; Manage Quality (assurance) is process-focused and prevents defects; Control Quality is product-focused and inspects deliverables; results feed corrective and preventive action; only verified deliverables go forward for customer validation. The common confusion is reversing assurance (process) and control (product).",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "quality",
+      "quality assurance",
+      "control quality",
+      "prevention",
+      "inspection"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Procurement life cycle processes",
+    "difficulty": "easy",
+    "prompt": "Arrange the four procurement management processes in the order a buyer applies them across a contract life cycle.",
+    "steps": [
+      {
+        "text": "Plan procurement management, deciding make-or-buy, contract type, and source selection criteria",
+        "note": "Planning sets what to buy and how"
+      },
+      {
+        "text": "Conduct procurements by soliciting and evaluating sellers and awarding the contract",
+        "note": "Executing: obtain responses and select a seller"
+      },
+      {
+        "text": "Control procurements by managing contract performance, payments, and changes",
+        "note": "Monitoring and controlling the active agreement"
+      },
+      {
+        "text": "Close the procurement by confirming deliverables, settling the contract, and archiving records",
+        "note": "Formal closure of the completed agreement"
+      }
+    ],
+    "explanation": "Procurement maps cleanly onto the process groups: Plan Procurements (planning) decides make-or-buy and how to buy; Conduct Procurements (executing) solicits and awards; Control Procurements (monitoring and controlling) manages the live contract; and closure confirms completion and archives records. Awarding before planning, or closing before performance is controlled, breaks the contract life cycle.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "procurement",
+      "contract",
+      "make-or-buy",
+      "close procurements"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Recovering a troubled project",
+    "difficulty": "hard",
+    "prompt": "A project is in serious trouble and badly off track. Arrange the recovery steps in the correct order.",
+    "steps": [
+      {
+        "text": "Assess the situation and stabilise the project to stop further damage, pausing risky work and steadying the team",
+        "note": "Stop the bleeding before diagnosing"
+      },
+      {
+        "text": "Get the true status by validating scope, schedule, cost, and quality against reality",
+        "note": "Recovery needs honest data, not the official story"
+      },
+      {
+        "text": "Identify the root causes of the distress and engage stakeholders on realistic options",
+        "note": "Fix causes, not just symptoms"
+      },
+      {
+        "text": "Re-plan the project and re-baseline it with an achievable recovery plan",
+        "note": "Build a credible path forward"
+      },
+      {
+        "text": "Take the recovery plan through a go or kill decision gate with the sponsor",
+        "note": "Confirm the project is still worth continuing"
+      },
+      {
+        "text": "Execute the recovery plan and monitor closely against the new baseline",
+        "note": "Tight control until the project is back on track"
+      }
+    ],
+    "explanation": "Recovering a distressed project starts by stabilising it, then establishing the real status before diagnosing root causes. Only then can a realistic re-plan be built, tested at a go/kill gate with the sponsor, and executed under close monitoring. Re-planning before you know the true status, or skipping the go/kill decision, are the usual ordering mistakes.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "project recovery",
+      "troubled project",
+      "turnaround",
+      "re-baseline",
+      "governance"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Rolling-wave planning",
+    "difficulty": "medium",
+    "prompt": "Arrange the steps of rolling-wave planning, where near-term work is planned in detail and later work is progressively elaborated.",
+    "steps": [
+      {
+        "text": "Plan the overall project at a high level, establishing scope, phases, and major milestones",
+        "note": "Set the big picture before detailing any wave"
+      },
+      {
+        "text": "Decompose and plan the imminent near-term work in fine detail",
+        "note": "Detail is added where certainty is highest"
+      },
+      {
+        "text": "Keep later, less certain work at a coarse, high-level placeholder",
+        "note": "Avoid false precision on distant work"
+      },
+      {
+        "text": "Execute the detailed near-term wave of work",
+        "note": "Deliver the planned wave"
+      },
+      {
+        "text": "As the next wave approaches, progressively elaborate it into detailed plans using what was learned",
+        "note": "Replan each wave with fresh information"
+      },
+      {
+        "text": "Repeat the elaborate-then-execute cycle through successive waves until the work is complete",
+        "note": "Iterate until everything is fully planned and done"
+      }
+    ],
+    "explanation": "Rolling-wave planning is progressive elaboration applied to scheduling: an overall high-level plan is fixed, the nearest work is detailed, distant work is left coarse, and the team executes the near wave before elaborating the next one with what it has learned. Trying to detail all work up front, or executing before elaborating the imminent wave, defeats the purpose.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "rolling-wave planning",
+      "progressive elaboration",
+      "planning",
+      "iterative"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "ADKAR change model",
+    "difficulty": "medium",
+    "prompt": "An individual on your team must adopt a new way of working. Arrange the ADKAR change model elements in the correct order.",
+    "steps": [
+      {
+        "text": "Awareness of the need for change",
+        "note": "People first have to understand why the change is happening."
+      },
+      {
+        "text": "Desire to support and participate in the change",
+        "note": "Once aware, the individual must choose to engage rather than resist."
+      },
+      {
+        "text": "Knowledge of how to change",
+        "note": "Motivated people then need to learn the new processes, skills, and behaviours."
+      },
+      {
+        "text": "Ability to implement the change day to day",
+        "note": "Knowledge becomes real capability only when applied in actual work."
+      },
+      {
+        "text": "Reinforcement to sustain the change",
+        "note": "Recognition and follow-up keep the new behaviour from slipping back."
+      }
+    ],
+    "explanation": "ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement) is an individual-level change model. Each element is a sequential building block: you cannot build desire without awareness, or ability without knowledge, and the change only sticks when it is reinforced.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "change-management",
+      "adkar",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Kotter 8-step change model",
+    "difficulty": "hard",
+    "prompt": "You are leading a major organisational change. Arrange Kotter's eight steps for leading change in the correct order.",
+    "steps": [
+      {
+        "text": "Create a sense of urgency",
+        "note": "Change starts by helping people see why action is needed now."
+      },
+      {
+        "text": "Build a guiding coalition",
+        "note": "A credible, influential group is needed to drive the effort."
+      },
+      {
+        "text": "Form a strategic vision and initiatives",
+        "note": "The coalition shapes a clear picture of the future and how to get there."
+      },
+      {
+        "text": "Enlist a volunteer army by communicating the vision",
+        "note": "Broad buy-in comes from sharing the vision widely and often."
+      },
+      {
+        "text": "Enable action by removing barriers",
+        "note": "Obstacles, silos, and outdated systems must be cleared so people can act."
+      },
+      {
+        "text": "Generate short-term wins",
+        "note": "Early visible successes build momentum and credibility."
+      },
+      {
+        "text": "Sustain acceleration by building on the change",
+        "note": "Use the credibility from wins to tackle bigger changes, not declare victory early."
+      },
+      {
+        "text": "Institute change by anchoring it in the culture",
+        "note": "The change lasts only when it becomes the way things are done here."
+      }
+    ],
+    "explanation": "Kotter's model moves from establishing urgency and a coalition, through creating and communicating a vision, enabling action and early wins, and finally embedding the change in culture. The order matters because anchoring change in culture too early, or declaring victory before momentum is built, are classic causes of failed change.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "change-management",
+      "kotter",
+      "leadership",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Bridges transition model",
+    "difficulty": "easy",
+    "prompt": "A team is going through a significant change. Arrange the phases of the Bridges transition model in the correct order.",
+    "steps": [
+      {
+        "text": "Ending, losing, and letting go",
+        "note": "Transition begins with people letting go of the old way and acknowledging the loss."
+      },
+      {
+        "text": "The neutral zone",
+        "note": "An in-between phase of uncertainty where the old is gone but the new is not yet comfortable."
+      },
+      {
+        "text": "The new beginning",
+        "note": "People accept the new identity, gain energy, and adopt the new ways of working."
+      }
+    ],
+    "explanation": "Bridges focuses on the psychological transition people experience, not the external change event. It always moves through an Ending, then a disorienting Neutral Zone, before a New Beginning. Leaders who skip the emotional ending or rush the neutral zone tend to meet stronger resistance.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "change-management",
+      "bridges",
+      "transition",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Lewin change model",
+    "difficulty": "easy",
+    "prompt": "You are introducing a new process to a team. Arrange the stages of Lewin's change model in the correct order.",
+    "steps": [
+      {
+        "text": "Unfreeze the current state",
+        "note": "Prepare people to let go of existing habits by showing why change is needed."
+      },
+      {
+        "text": "Change to the new state",
+        "note": "Introduce and implement the new processes, behaviours, and ways of working."
+      },
+      {
+        "text": "Refreeze to stabilise the new state",
+        "note": "Embed and reinforce the change so it becomes the new normal."
+      }
+    ],
+    "explanation": "Lewin's classic three-stage model is Unfreeze, Change, Refreeze. You must first loosen the status quo, then move to the new way, then lock it in. Without unfreezing, people resist; without refreezing, they revert to old habits.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "change-management",
+      "lewin",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "GROW coaching conversation",
+    "difficulty": "easy",
+    "prompt": "You are coaching a team member using the GROW model. Arrange the stages of the coaching conversation in the correct order.",
+    "steps": [
+      {
+        "text": "Goal - clarify what the person wants to achieve",
+        "note": "A coaching conversation starts by agreeing the outcome being worked toward."
+      },
+      {
+        "text": "Reality - explore the current situation",
+        "note": "Understand where things stand now before considering ways forward."
+      },
+      {
+        "text": "Options - generate possible ways forward",
+        "note": "With the gap clear, brainstorm choices and alternatives together."
+      },
+      {
+        "text": "Will - agree the actions and commitment",
+        "note": "Close by confirming what the person will actually do and when."
+      }
+    ],
+    "explanation": "GROW (Goal, Reality, Options, Will) structures a coaching dialogue so the coachee owns the outcome. You set the goal, ground it in current reality, explore options, then secure commitment to action. Jumping to options before understanding reality undermines the conversation.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "coaching",
+      "grow",
+      "leadership",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Interest-based conflict resolution",
+    "difficulty": "medium",
+    "prompt": "Two team members disagree over an approach. Arrange the interest-based conflict resolution steps in the correct order.",
+    "steps": [
+      {
+        "text": "Acknowledge that a conflict exists and bring it into the open",
+        "note": "Naming the conflict respectfully is the first step toward resolving it."
+      },
+      {
+        "text": "Understand each party's underlying interests and concerns",
+        "note": "Look past stated positions to the real needs driving them."
+      },
+      {
+        "text": "Find common ground and shared objectives",
+        "note": "Identifying where interests overlap creates a basis for agreement."
+      },
+      {
+        "text": "Agree a solution that satisfies the key interests",
+        "note": "Collaborate on an option both parties can commit to."
+      },
+      {
+        "text": "Follow up to confirm the resolution is holding",
+        "note": "Checking back ensures the agreement works and the relationship is repaired."
+      }
+    ],
+    "explanation": "Interest-based or collaborative conflict resolution moves from acknowledging the conflict, to surfacing each side's underlying interests, to finding common ground, agreeing a solution, and following up. Focusing on interests rather than positions produces durable, win-win outcomes consistent with PMI's collaborate or problem-solve approach.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "conflict",
+      "interests",
+      "collaboration",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "People",
+    "topic": "Onboarding and empowering a new team member",
+    "difficulty": "medium",
+    "prompt": "A new member joins your established project team mid-project. Arrange the steps to onboard and empower them in the correct order.",
+    "steps": [
+      {
+        "text": "Welcome the new member and explain the project purpose, goals, and how their role contributes",
+        "note": "Shared context and a sense of belonging come first."
+      },
+      {
+        "text": "Clarify their specific responsibilities, expectations, and the team's ways of working",
+        "note": "Role clarity prevents confusion and overlap from day one."
+      },
+      {
+        "text": "Provide access, tools, information, and a buddy or point of contact",
+        "note": "People need the means and support before they can contribute fully."
+      },
+      {
+        "text": "Delegate a meaningful early task with appropriate authority to act",
+        "note": "Empowerment grows from real ownership, not just observation."
+      },
+      {
+        "text": "Give feedback, recognition, and progressively greater autonomy",
+        "note": "Coaching and trust build the person toward full self-sufficiency."
+      }
+    ],
+    "explanation": "Effective onboarding moves from context and belonging, to role clarity, to providing the means to work, then delegating real responsibility, and finally building autonomy through feedback. Empowerment is intentional and progressive, reflecting PMI's emphasis on servant leadership and developing team members.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "people",
+      "onboarding",
+      "empowerment",
+      "delegation",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Facilitating an agile retrospective",
+    "difficulty": "medium",
+    "prompt": "You are facilitating an iteration retrospective. Arrange the five phases of an effective retrospective in the correct order.",
+    "steps": [
+      {
+        "text": "Set the stage",
+        "note": "Open the session, establish safety, and focus the team on the goal of the retrospective."
+      },
+      {
+        "text": "Gather data",
+        "note": "Collect facts and observations about what happened during the iteration."
+      },
+      {
+        "text": "Generate insights",
+        "note": "Analyse the data together to understand root causes and patterns."
+      },
+      {
+        "text": "Decide what to do",
+        "note": "Agree a small number of concrete, owned improvement actions."
+      },
+      {
+        "text": "Close the retrospective",
+        "note": "Summarise, confirm the actions, and appreciate the team's contributions."
+      }
+    ],
+    "explanation": "The five-phase retrospective structure (Set the Stage, Gather Data, Generate Insights, Decide What to Do, Close) ensures the team first creates safety, then works from facts to insights to concrete actions before closing. Skipping straight to actions without gathering data or generating insights produces shallow, unowned improvements.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "agile",
+      "retrospective",
+      "continuous-improvement",
+      "sequence"
+    ]
+  },
+  {
+    "schema": "sequence/v1",
+    "domain": "Process",
+    "topic": "Stakeholder engagement assessment matrix",
+    "difficulty": "medium",
+    "prompt": "A key stakeholder is resisting your project. Arrange the steps for using a stakeholder engagement assessment matrix to improve engagement in the correct order.",
+    "steps": [
+      {
+        "text": "Assess each stakeholder's current engagement level (unaware, resistant, neutral, supportive, or leading)",
+        "note": "You must know where each stakeholder stands today before acting."
+      },
+      {
+        "text": "Determine the desired engagement level needed for project success",
+        "note": "Define the target so the gap can be measured."
+      },
+      {
+        "text": "Identify the gaps between current and desired engagement",
+        "note": "The gaps highlight where engagement effort is most needed."
+      },
+      {
+        "text": "Plan and carry out tailored actions to close the priority gaps",
+        "note": "Targeted communication and involvement move stakeholders toward the desired level."
+      },
+      {
+        "text": "Reassess engagement and adapt the approach",
+        "note": "Engagement is dynamic, so the matrix is revisited and actions adjusted over time."
+      }
+    ],
+    "explanation": "The stakeholder engagement assessment matrix maps current versus desired engagement levels to focus effort where it matters. The flow is assess current, set desired, identify gaps, act, then reassess and adapt. This technique sits inside the broader monitor and adapt of stakeholder engagement and keeps engagement responsive rather than one-off.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "process",
+      "stakeholder",
+      "engagement",
+      "assessment-matrix",
+      "sequence"
+    ]
+  }
+]
