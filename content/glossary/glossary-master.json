@@ -26898,5 +26898,651 @@
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Focus Areas (PMBOK 8)",
+    "Core Meaning": "PMBOK 8's renaming of the five Process Groups into Focus Areas that organize the 40 project management processes.",
+    "Depth": "Standard",
+    "Expansion": "In the PMBOK Guide Eighth Edition, the five traditional Process Groups (Initiating, Planning, Executing, Monitoring and Controlling, Closing) are reframed as Focus Areas. They group the 40 processes by the kind of work being performed rather than implying a strict sequence, reinforcing that project work is iterative and overlapping. The terminology sits alongside the 7 performance domains carried forward from the principles-based structure.",
+    "Deep Dive": null,
+    "Contrast": "Performance domain - performance domains are outcome-oriented groupings of project activity, while Focus Areas re-label the process-based Process Groups.",
+    "Example": "A team maps each of the 40 processes to one of the five Focus Areas when tailoring its methodology for a new construction project.",
+    "Related Terms": [
+      "Process group",
+      "PMBOK Guide",
+      "Performance domain",
+      "Tailoring"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Eighth Edition - Focus Areas"
+  },
+  {
+    "Term": "Enterprise PMO (EPMO)",
+    "Core Meaning": "A PMO positioned at the top of the organization that aligns the entire portfolio of projects and programs with enterprise strategy.",
+    "Depth": "Standard",
+    "Expansion": "An Enterprise PMO operates at the strategic, organization-wide level rather than within a single department or project. It connects executive strategy to portfolio prioritization, governance, and benefits realization, and typically reports to a C-level executive. Unlike a delivery-focused departmental PMO, the EPMO emphasizes strategic alignment and value delivery across the whole enterprise.",
+    "Deep Dive": null,
+    "Contrast": "Project management office - a standard PMO usually supports projects within a unit, whereas an EPMO governs strategy and portfolio decisions enterprise-wide.",
+    "Example": "The EPMO reviews every proposed initiative against corporate strategic objectives before funding is released.",
+    "Related Terms": [
+      "PMO",
+      "Portfolio management",
+      "Governance",
+      "Strategic alignment"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Pulse of the Profession - enterprise PMO"
+  },
+  {
+    "Term": "Balanced Scorecard",
+    "Core Meaning": "A strategic performance framework that measures organizational health across financial, customer, internal process, and learning-and-growth perspectives.",
+    "Depth": "Standard",
+    "Expansion": "Developed by Kaplan and Norton, the Balanced Scorecard translates strategy into a balanced set of objectives and metrics beyond purely financial measures. The four perspectives - financial, customer, internal business process, and learning and growth - give a holistic view of performance. In a project context it helps ensure benefits map to strategic outcomes rather than only cost and schedule.",
+    "Deep Dive": null,
+    "Contrast": "Key performance indicator - a KPI is a single measure of progress, while the Balanced Scorecard is a structured framework organizing many measures across four perspectives.",
+    "Example": "A program reports its outcomes on a balanced scorecard so executives see customer satisfaction and capability growth alongside financial return.",
+    "Related Terms": [
+      "Key performance indicator",
+      "Strategic alignment",
+      "Benefits realization",
+      "Metric"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kaplan and Norton - the Balanced Scorecard"
+  },
+  {
+    "Term": "Niko-Niko Calendar",
+    "Core Meaning": "A visual chart where team members record their daily mood to surface morale trends over time.",
+    "Depth": "Atomic",
+    "Expansion": "A Niko-Niko calendar, also called a mood board, is an information radiator on which each team member marks a simple happy, neutral, or unhappy face each day. Tracking these moods across a sprint reveals patterns that can prompt the team to address morale or impediment issues in retrospectives.",
+    "Deep Dive": null,
+    "Contrast": "Mood Chart - the two are essentially synonymous, though Niko-Niko specifically refers to the smiley-face daily logging that originated in agile practice.",
+    "Example": "After two weeks the Niko-Niko calendar shows a dip in morale every Thursday, prompting the team to investigate the recurring late-day deployment crunch.",
+    "Related Terms": [
+      "Information radiator",
+      "Retrospective",
+      "Mood Chart",
+      "Team dynamics"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Three Amigos",
+    "Core Meaning": "A practice where a business representative, developer, and tester jointly review a requirement before development to build shared understanding.",
+    "Depth": "Atomic",
+    "Expansion": "The Three Amigos meeting brings together three perspectives - business or product, development, and testing or quality - to examine a user story or its acceptance criteria before work begins. It surfaces ambiguities, edge cases, and differing assumptions early, and is closely associated with behavior-driven development.",
+    "Deep Dive": null,
+    "Contrast": "Backlog refinement - refinement prepares and estimates many backlog items, while the Three Amigos focuses three roles on clarifying a single story's acceptance criteria.",
+    "Example": "Before coding the payment story, the analyst, developer, and tester hold a Three Amigos session and discover an unhandled currency-conversion case.",
+    "Related Terms": [
+      "Behavior-driven development",
+      "Acceptance criteria",
+      "User story",
+      "Definition of Ready"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Chickens and Pigs",
+    "Core Meaning": "A Scrum metaphor distinguishing those committed to the work (pigs) from those merely involved (chickens).",
+    "Depth": "Atomic",
+    "Expansion": "Drawn from a fable about a pig and chicken opening a restaurant, the metaphor labels people committed and accountable for delivering the sprint as pigs, and interested but not accountable stakeholders as chickens. Historically it governed who could speak in the daily scrum, though modern Scrum has largely retired the terminology as potentially demeaning.",
+    "Deep Dive": null,
+    "Contrast": "Stakeholder - all chickens and pigs are stakeholders; the metaphor specifically separates committed delivery team members from merely involved observers.",
+    "Example": "During the daily standup the Scrum Master reminds attending managers they are chickens and should observe rather than redirect the team.",
+    "Related Terms": [
+      "Scrum",
+      "Daily Standup",
+      "Stakeholder",
+      "Scrum team"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Parking Lot",
+    "Core Meaning": "A facilitation technique for capturing off-topic but important points to address later without derailing the current discussion.",
+    "Depth": "Atomic",
+    "Expansion": "A parking lot is a visible list where a facilitator records tangential issues, questions, or ideas that arise during a meeting so they are not lost but do not consume current agenda time. The captured items are revisited at the meeting's end or assigned as follow-up actions.",
+    "Deep Dive": null,
+    "Contrast": "Issue log - an issue log is a formal project artifact tracking issues to resolution, while a parking lot is an informal in-meeting holding place for deferred topics.",
+    "Example": "When a discussion about hosting costs erupts during sprint planning, the facilitator adds it to the parking lot and returns the team to story estimation.",
+    "Related Terms": [
+      "Facilitation",
+      "Issue log",
+      "Action item",
+      "Workshop"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Release Train Engineer",
+    "Core Meaning": "The servant-leader and chief facilitator of an Agile Release Train in the Scaled Agile Framework.",
+    "Depth": "Standard",
+    "Expansion": "In SAFe, the Release Train Engineer coordinates the Agile Release Train, the set of multiple agile teams working toward a common set of objectives. The RTE facilitates program-level events such as PI planning, manages risks and dependencies across teams, and removes impediments, acting in effect as a chief Scrum Master at scale.",
+    "Deep Dive": null,
+    "Contrast": "Scrum Master - a Scrum Master serves one team, whereas the RTE serves the entire release train of multiple teams.",
+    "Example": "The RTE facilitates quarterly PI planning so eight teams align their commitments and surface cross-team dependencies.",
+    "Related Terms": [
+      "Scrum Master",
+      "Servant leadership",
+      "Disciplined Agile",
+      "Impediment removal"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "GROW Model",
+    "Core Meaning": "A four-stage coaching framework structured around Goal, Reality, Options, and Will.",
+    "Depth": "Standard",
+    "Expansion": "The GROW model guides a coaching conversation through four steps: clarifying the Goal, examining the current Reality, exploring Options, and confirming the Will or way forward. Project managers use it to coach team members toward their own solutions rather than directing them, supporting a servant-leadership style.",
+    "Deep Dive": null,
+    "Contrast": "OSCAR Model - both are coaching frameworks, but OSCAR adds explicit Affirm-style review and follow-up steps that GROW does not name separately.",
+    "Example": "A project manager uses the GROW model to help a developer define a personal growth goal and commit to concrete next steps.",
+    "Related Terms": [
+      "OSCAR Model",
+      "Servant leadership",
+      "Emotional intelligence",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Whitmore - Coaching for Performance"
+  },
+  {
+    "Term": "OSCAR Model",
+    "Core Meaning": "A coaching framework built on Outcome, Situation, Choices, Actions, and Review.",
+    "Depth": "Atomic",
+    "Expansion": "The OSCAR coaching model structures a development conversation around the desired Outcome, the current Situation, the Choices available, the Actions to take, and a Review of progress. It is solution-focused and emphasizes ongoing follow-up to sustain change.",
+    "Deep Dive": null,
+    "Contrast": "GROW Model - GROW ends at securing the will to act, while OSCAR explicitly builds in a Review stage for accountability and reinforcement.",
+    "Example": "A team lead applies the OSCAR model to coach a tester, agreeing on actions and scheduling a review to track improvement.",
+    "Related Terms": [
+      "GROW Model",
+      "Leadership style",
+      "Servant leadership",
+      "Emotional intelligence"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Gilbert and Whittleworth - OSCAR coaching model"
+  },
+  {
+    "Term": "Situational Leadership II",
+    "Core Meaning": "A leadership model that matches leader behavior to a follower's competence and commitment on a specific task.",
+    "Depth": "Standard",
+    "Expansion": "Situational Leadership II, developed by Blanchard building on the original Hersey and Blanchard model, holds that effective leaders flex between directing, coaching, supporting, and delegating styles based on the follower's development level for the task at hand. There is no single best style; the leader diagnoses the individual's competence and commitment and adapts accordingly.",
+    "Deep Dive": null,
+    "Contrast": "Servant leadership - servant leadership is a consistent values-based orientation toward serving the team, whereas Situational Leadership II prescribes deliberately switching styles by follower readiness.",
+    "Example": "A project manager directs a new analyst closely but delegates fully to a seasoned engineer, applying Situational Leadership II.",
+    "Related Terms": [
+      "Leadership style",
+      "Servant leadership",
+      "Delegation",
+      "Emotional intelligence"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Blanchard - Situational Leadership II"
+  },
+  {
+    "Term": "ADKAR",
+    "Core Meaning": "A goal-oriented change management model describing the five sequential outcomes an individual must achieve to adopt a change: Awareness, Desire, Knowledge, Ability, and Reinforcement.",
+    "Depth": "Foundational",
+    "Expansion": "ADKAR, from Prosci, frames change as something that happens one person at a time. The five elements are sequential building blocks: Awareness of the need to change, Desire to participate, Knowledge of how to change, Ability to implement, and Reinforcement to sustain it. Identifying which element a person is stuck on pinpoints the barrier and the targeted intervention required.",
+    "Deep Dive": "Because ADKAR is sequential, a gap in any earlier element blocks the later ones; for instance, no amount of training (Knowledge) helps if the person lacks Desire. Change practitioners diagnose the first weak element, the barrier point, and focus effort there rather than pushing later stages. ADKAR complements organization-level frameworks like Kotter by operating at the individual level, making it useful for assessing readiness and tailoring communication, sponsorship, and coaching per stakeholder group.",
+    "Contrast": "Kotter 8-Step Model - Kotter is an organization-level sequence led from the top, while ADKAR targets the individual's personal transition.",
+    "Example": "A rollout stalls until the team realizes users have Awareness and Knowledge but lack Ability, so hands-on coaching is added.",
+    "Related Terms": [
+      "Kotter 8-Step Model",
+      "Organizational change",
+      "Readiness assessment",
+      "Change management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Prosci - ADKAR model"
+  },
+  {
+    "Term": "Kotter 8-Step Model",
+    "Core Meaning": "An eight-step process for leading organizational change, from creating urgency to anchoring the change in the culture.",
+    "Depth": "Standard",
+    "Expansion": "John Kotter's model sequences large-scale change through eight steps: create urgency, build a guiding coalition, form a strategic vision, enlist a volunteer army, enable action by removing barriers, generate short-term wins, sustain acceleration, and institute change in the culture. It emphasizes top-down leadership and momentum, treating the early steps as essential groundwork often skipped in failed change efforts.",
+    "Deep Dive": null,
+    "Contrast": "ADKAR - Kotter operates at the organizational level through leadership action, whereas ADKAR diagnoses and supports change within each individual.",
+    "Example": "A PMO uses Kotter's model, securing executive sponsorship and quick wins before rolling a new methodology across the organization.",
+    "Related Terms": [
+      "ADKAR",
+      "Organizational change",
+      "Lewin Change Model",
+      "Change management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kotter - Leading Change"
+  },
+  {
+    "Term": "Bridges Transition Model",
+    "Core Meaning": "A change model distinguishing the external event of change from the internal psychological transition people pass through in three phases.",
+    "Depth": "Standard",
+    "Expansion": "William Bridges argued that change is situational and external, while transition is the internal three-phase psychological process people experience: Ending or letting go, the Neutral Zone of uncertain in-between, and the New Beginning. Leaders support people through each phase, recognizing that resistance often stems from incomplete endings rather than the change itself.",
+    "Deep Dive": null,
+    "Contrast": "Lewin Change Model - Lewin's unfreeze-change-refreeze describes managing the change process, while Bridges focuses on the emotional transition individuals undergo.",
+    "Example": "When a reorganization is announced, the manager helps staff acknowledge what they are losing before pushing the new structure, honoring the Ending phase.",
+    "Related Terms": [
+      "Lewin Change Model",
+      "Satir Change Model",
+      "Organizational change",
+      "ADKAR"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Bridges - Managing Transitions"
+  },
+  {
+    "Term": "Satir Change Model",
+    "Core Meaning": "A five-stage model describing how performance dips and then recovers as a group absorbs a disruptive change.",
+    "Depth": "Standard",
+    "Expansion": "Virginia Satir's model traces change through five stages: Late Status Quo, Resistance triggered by a foreign element, Chaos, the Transforming Idea, and a New Status Quo at higher performance. It explicitly predicts a temporary performance and morale dip during Chaos, helping leaders normalize that decline rather than abandon the change prematurely.",
+    "Deep Dive": null,
+    "Contrast": "Bridges Transition Model - Satir emphasizes the performance dip and recovery curve of a system, while Bridges focuses on the individual's psychological phases of letting go.",
+    "Example": "A team's velocity drops after adopting a new tool; the coach cites the Satir model to reassure them the Chaos stage precedes higher performance.",
+    "Related Terms": [
+      "Bridges Transition Model",
+      "Lewin Change Model",
+      "Organizational change",
+      "Team dynamics"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Satir - the Satir change model"
+  },
+  {
+    "Term": "Lewin Change Model",
+    "Core Meaning": "A three-stage change model of unfreezing the status quo, changing, and refreezing the new state.",
+    "Depth": "Standard",
+    "Expansion": "Kurt Lewin's model frames change as unfreeze (creating motivation and loosening current behaviors), change (implementing the new way), and refreeze (stabilizing and embedding the new state so it becomes the norm). It is one of the earliest and most cited change frameworks and underpins many later models.",
+    "Deep Dive": null,
+    "Contrast": "Kotter 8-Step Model - Lewin offers three broad phases, while Kotter expands the change journey into eight prescriptive, leadership-driven steps.",
+    "Example": "Before introducing remote work, leadership builds the case for change (unfreeze), pilots new norms (change), then formalizes policy (refreeze).",
+    "Related Terms": [
+      "Kotter 8-Step Model",
+      "Bridges Transition Model",
+      "Organizational change",
+      "Change management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Lewin - field theory in social science"
+  },
+  {
+    "Term": "Shu-Ha-Ri",
+    "Core Meaning": "A Japanese concept of skill mastery in three stages: follow the rules, break the rules, and transcend the rules.",
+    "Depth": "Atomic",
+    "Expansion": "Originating in martial arts, Shu-Ha-Ri describes a learning progression: Shu (obey and follow established practices exactly), Ha (consciously adapt and break from the rules as understanding grows), and Ri (transcend rules and operate intuitively). Agile coaches use it to set the expectation that new teams should first follow a framework faithfully before tailoring it.",
+    "Deep Dive": null,
+    "Contrast": "Dreyfus Model - Dreyfus describes five graded stages of skill acquisition, while Shu-Ha-Ri compresses mastery into three stages centered on one's relationship to the rules.",
+    "Example": "A coach insists a new team practice Scrum by the book (Shu) before customizing ceremonies once they understand the intent (Ha).",
+    "Related Terms": [
+      "Dreyfus Model",
+      "Tailoring",
+      "Agile",
+      "Continuous improvement"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Bowtie Method",
+    "Core Meaning": "A visual risk analysis technique that maps the causes and consequences of a risk event around a central knot with preventive and mitigating barriers.",
+    "Depth": "Standard",
+    "Expansion": "The bowtie method diagrams a single hazard or risk event in the center, with threats and their preventive controls on the left and consequences with their mitigating controls on the right, forming a bowtie shape. It makes the relationship between causes, the event, controls, and outcomes visible, supporting both qualitative analysis and barrier management.",
+    "Deep Dive": null,
+    "Contrast": "Cause and effect diagram - a fishbone diagram explores only the causes of a problem, while the bowtie also maps consequences and the barriers on both sides of the risk event.",
+    "Example": "A safety team builds a bowtie for a data-breach risk, listing preventive controls like access management and mitigating controls like incident response.",
+    "Related Terms": [
+      "Risk analysis",
+      "Cause and effect diagram",
+      "Risk response",
+      "Contingency plan"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "IEC 31010 - bowtie analysis"
+  },
+  {
+    "Term": "Antifragility",
+    "Core Meaning": "A property of systems that gain capability and improve from stressors, volatility, and disorder rather than merely resisting them.",
+    "Depth": "Standard",
+    "Expansion": "Coined by Nassim Taleb, antifragility goes beyond resilience: a resilient system withstands shocks and returns to baseline, while an antifragile system actually benefits and grows stronger from a degree of stress, error, and uncertainty. In project and agile contexts it argues for small, frequent experiments and fast feedback so teams improve through controlled exposure to failure.",
+    "Deep Dive": null,
+    "Contrast": "Resilience - resilience is the ability to absorb disruption and recover to the prior state, whereas antifragility means improving beyond the prior state because of the disruption.",
+    "Example": "A team that runs frequent small releases learns from each minor failure, becoming antifragile compared with one chasing a single flawless big-bang launch.",
+    "Related Terms": [
+      "Volatility",
+      "Fail Fast",
+      "Empiricism",
+      "VUCA"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Taleb - Antifragile"
+  },
+  {
+    "Term": "Citizen Development",
+    "Core Meaning": "The practice of business users building applications using low-code or no-code platforms without formal software development skills.",
+    "Depth": "Standard",
+    "Expansion": "Citizen development empowers non-IT employees, called citizen developers, to create applications on approved low-code and no-code platforms governed by IT. PMI has promoted it as a way to accelerate solution delivery and digital transformation, while stressing the governance needed to manage security, quality, and shadow-IT risks.",
+    "Deep Dive": null,
+    "Contrast": "Shadow IT - shadow IT is unsanctioned technology built outside governance, whereas citizen development is sanctioned, governed, business-led app building.",
+    "Example": "A finance analyst builds an approval-workflow app on a no-code platform under the IT-approved citizen development program.",
+    "Related Terms": [
+      "Digital Product",
+      "Center of Excellence",
+      "Governance",
+      "Innovation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Citizen Developer"
+  },
+  {
+    "Term": "Center of Excellence",
+    "Core Meaning": "A centralized team that provides leadership, best practices, standards, and support for a discipline across an organization.",
+    "Depth": "Standard",
+    "Expansion": "A Center of Excellence concentrates expertise in a discipline - such as agile, project management, or citizen development - to define standards, share knowledge, provide training, and raise maturity organization-wide. It promotes consistency and capability building rather than executing the work of individual projects itself.",
+    "Deep Dive": null,
+    "Contrast": "PMO - a PMO governs and supports project delivery and portfolio decisions, while a Center of Excellence focuses on building competence and standards in a specific discipline.",
+    "Example": "An agile Center of Excellence publishes coaching guides and certifies internal Scrum Masters to standardize practice across teams.",
+    "Related Terms": [
+      "PMO",
+      "Governance",
+      "Knowledge management",
+      "Capability development"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "organizational center of excellence model"
+  },
+  {
+    "Term": "Anchoring Bias",
+    "Core Meaning": "A cognitive bias where an initial piece of information disproportionately influences subsequent judgments and estimates.",
+    "Depth": "Standard",
+    "Expansion": "Anchoring bias occurs when an early reference point - such as a first cost figure or schedule guess - anchors later thinking, so adjustments remain insufficiently far from that anchor. It distorts estimating and negotiation, for example when a stakeholder's casual deadline becomes the fixed expectation regardless of analysis.",
+    "Deep Dive": null,
+    "Contrast": "Confirmation Bias - anchoring fixes judgment to an initial value, while confirmation bias filters evidence to support a pre-existing belief.",
+    "Example": "After a sponsor mentions a budget figure offhand, all later estimates cluster near it despite scope suggesting a higher cost.",
+    "Related Terms": [
+      "Confirmation Bias",
+      "Optimism Bias",
+      "Estimating",
+      "Negotiation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Tversky and Kahneman - anchoring and adjustment"
+  },
+  {
+    "Term": "Optimism Bias",
+    "Core Meaning": "The systematic tendency to overestimate favorable outcomes and underestimate costs, durations, and risks.",
+    "Depth": "Standard",
+    "Expansion": "Optimism bias leads planners to expect things to go better than they realistically will, producing underestimated budgets and schedules and underweighted risks. It is a root cause of the planning fallacy and is often countered with reference class forecasting, which grounds estimates in the outcomes of similar past projects.",
+    "Deep Dive": null,
+    "Contrast": "Planning Fallacy - optimism bias is the broad tendency toward rosy expectations, while the planning fallacy is its specific manifestation in underestimating task time and cost.",
+    "Example": "A team confident in a three-month delivery ignores that every similar past project took six, exhibiting optimism bias.",
+    "Related Terms": [
+      "Planning Fallacy",
+      "Anchoring Bias",
+      "Reserve analysis",
+      "Estimating"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kahneman - Thinking Fast and Slow"
+  },
+  {
+    "Term": "Sunk Cost Fallacy",
+    "Core Meaning": "The error of continuing an endeavor because of already-spent resources that cannot be recovered, rather than future value.",
+    "Depth": "Standard",
+    "Expansion": "The sunk cost fallacy occurs when prior investments of money, time, or effort irrationally justify further commitment, even when objective analysis says to stop. Sound decisions should weigh only future costs and benefits, because sunk costs are gone regardless. The fallacy frequently drives organizations to keep funding failing projects.",
+    "Deep Dive": null,
+    "Contrast": "Sunk cost - a sunk cost is simply an unrecoverable past expenditure, while the sunk cost fallacy is the decision error of letting it drive future choices.",
+    "Example": "A steering committee keeps funding a doomed system because abandoning it would waste the large sum already spent.",
+    "Related Terms": [
+      "Sunk cost",
+      "Escalation of Commitment",
+      "Opportunity cost",
+      "Go/no-go decision"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "behavioral economics - sunk cost fallacy"
+  },
+  {
+    "Term": "Escalation of Commitment",
+    "Core Meaning": "The tendency to increase investment in a failing course of action to justify prior decisions.",
+    "Depth": "Standard",
+    "Expansion": "Escalation of commitment describes decision makers doubling down on a losing path rather than cutting losses, often to avoid admitting a mistake or because of sunk costs and ego. It explains why troubled projects receive more resources instead of being cancelled, and it is countered by independent reviews and clear kill criteria.",
+    "Deep Dive": null,
+    "Contrast": "Sunk Cost Fallacy - the sunk cost fallacy is the reasoning error about past spending, while escalation of commitment is the resulting behavior of pouring in still more resources.",
+    "Example": "A sponsor approves yet another budget increase for a late project to avoid conceding the original plan failed.",
+    "Related Terms": [
+      "Sunk Cost Fallacy",
+      "Go/no-go decision",
+      "Governance",
+      "Optimism Bias"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Staw - escalation of commitment research"
+  },
+  {
+    "Term": "Dunning-Kruger Effect",
+    "Core Meaning": "A cognitive bias in which people with low competence overestimate their ability while experts may underestimate theirs.",
+    "Depth": "Standard",
+    "Expansion": "The Dunning-Kruger effect describes how those least skilled in an area lack the metacognition to recognize their own gaps, inflating their self-assessment, while highly competent people often assume tasks are equally easy for others and underrate their relative skill. It cautions project managers to validate self-reported confidence with objective evidence.",
+    "Deep Dive": null,
+    "Contrast": "Impostor Syndrome - Dunning-Kruger has the unskilled overrating themselves, whereas impostor syndrome has capable people doubting their genuine competence.",
+    "Example": "A junior developer confidently promises a quick fix, unaware of the complexity an expert would immediately flag.",
+    "Related Terms": [
+      "Impostor Syndrome",
+      "Confirmation Bias",
+      "Competency",
+      "Dreyfus Model"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Dunning and Kruger - unskilled and unaware"
+  },
+  {
+    "Term": "Impostor Syndrome",
+    "Core Meaning": "A psychological pattern of doubting one's accomplishments and fearing being exposed as a fraud despite evident competence.",
+    "Depth": "Atomic",
+    "Expansion": "Impostor syndrome is the persistent internal experience of believing one is not as capable as others perceive, attributing success to luck rather than skill. In teams it can suppress contributions from capable members and is addressed through psychological safety, mentoring, and recognition.",
+    "Deep Dive": null,
+    "Contrast": "Dunning-Kruger Effect - impostor syndrome is competent people underrating themselves, the inverse of low performers overrating their ability.",
+    "Example": "A skilled engineer hesitates to volunteer expertise, privately fearing colleagues will discover she does not belong.",
+    "Related Terms": [
+      "Dunning-Kruger Effect",
+      "Emotional intelligence",
+      "Team dynamics",
+      "Leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Clance and Imes - impostor phenomenon"
+  },
+  {
+    "Term": "Brooks's Law",
+    "Core Meaning": "The principle that adding manpower to a late software project makes it later.",
+    "Depth": "Standard",
+    "Expansion": "Articulated by Fred Brooks in The Mythical Man-Month, Brooks's Law observes that new people require ramp-up time and training from existing staff, and that added headcount multiplies communication paths, so reinforcing a delayed project often slows it further. It warns against treating effort and progress as simply interchangeable.",
+    "Deep Dive": null,
+    "Contrast": "Crashing - crashing adds resources to shorten a schedule and can work on partitionable work, while Brooks's Law warns that on complex, late, interdependent work adding people backfires.",
+    "Example": "A manager assigns five new developers to a slipping release, but onboarding and coordination overhead pushes delivery even later.",
+    "Related Terms": [
+      "Crashing",
+      "Resource leveling",
+      "Communication",
+      "Technical debt"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Brooks - The Mythical Man-Month"
+  },
+  {
+    "Term": "Cynefin Framework",
+    "Core Meaning": "A sense-making framework that sorts situations into clear, complicated, complex, chaotic, and disordered domains to guide the appropriate response.",
+    "Depth": "Foundational",
+    "Expansion": "Created by Dave Snowden, Cynefin helps leaders match their approach to the nature of the problem. Clear or obvious problems have known best practices; complicated ones need analysis or expertise, that is good practice; complex ones require safe-to-fail experiments to let solutions emerge; chaotic ones demand immediate action to establish order; and disorder is not yet knowing which domain applies.",
+    "Deep Dive": "The framework's power is in prescribing different decision approaches per domain: in Clear you sense-categorize-respond, in Complicated you sense-analyze-respond, in Complex you probe-sense-respond, and in Chaotic you act-sense-respond. Predictive, plan-driven methods fit the clear and complicated domains, while agile, iterative, and emergent methods suit the complex domain where cause and effect are only clear in hindsight. A key danger is the cliff between Clear and Chaotic: over-applying rigid best practice to a complacent clear domain can trigger sudden collapse into chaos. Cynefin thus underpins tailoring and hybrid delivery decisions.",
+    "Contrast": "Stacey Matrix - both classify uncertainty, but Stacey plots agreement against certainty on two axes, while Cynefin offers five named domains each with a distinct decision heuristic.",
+    "Example": "A project manager treats a regulatory report as Complicated and hires experts, but treats a novel product feature as Complex and runs small experiments.",
+    "Related Terms": [
+      "Stacey Matrix",
+      "Complexity",
+      "Tailoring",
+      "Empiricism"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Snowden - Cynefin framework"
+  },
+  {
+    "Term": "Stacey Matrix",
+    "Core Meaning": "A model that plots the degree of agreement against the degree of certainty to recommend simple, complicated, complex, or chaotic management approaches.",
+    "Depth": "Standard",
+    "Expansion": "The Stacey matrix, from Ralph Stacey, positions a decision on two axes: how much stakeholders agree on what to do, and how certain the cause-and-effect knowledge is. Combinations near agreement and certainty suit traditional plan-driven control, while areas of low agreement or low certainty call for collaborative, adaptive, or experimental approaches. It is widely used to justify selecting agile over predictive methods.",
+    "Deep Dive": null,
+    "Contrast": "Cynefin Framework - the Stacey matrix uses two continuous axes of agreement and certainty, whereas Cynefin presents discrete domains each with its own response strategy.",
+    "Example": "Because stakeholders disagree on requirements and the technology is unproven, the team places the work in the complex zone and chooses an adaptive approach.",
+    "Related Terms": [
+      "Cynefin Framework",
+      "Complexity",
+      "Development approach",
+      "Uncertainty"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Stacey - Stacey matrix"
+  },
+  {
+    "Term": "PMI Talent Triangle",
+    "Core Meaning": "PMI's framework of three skill domains project professionals need: ways of working, power skills, and business acumen.",
+    "Depth": "Standard",
+    "Expansion": "The PMI Talent Triangle defines the balanced skill set modern project professionals require. Its current three sides are Ways of Working, covering technical and methodological skills; Power Skills, covering interpersonal and leadership abilities; and Business Acumen, covering strategic and organizational understanding. PMI uses it to structure continuing certification education and professional development.",
+    "Deep Dive": null,
+    "Contrast": "Power skills - power skills are one side of the triangle, the interpersonal abilities, while the Talent Triangle is the complete three-part competency framework.",
+    "Example": "A PMP earns PDUs across all three Talent Triangle sides to maintain certification and round out their capabilities.",
+    "Related Terms": [
+      "Power skills",
+      "Business acumen",
+      "Professional development",
+      "Competency"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Talent Triangle"
+  },
+  {
+    "Term": "Scoring Model",
+    "Core Meaning": "A project selection technique that ranks options by scoring them against weighted criteria.",
+    "Depth": "Atomic",
+    "Expansion": "A scoring model, or weighted scoring model, evaluates candidate projects or solutions by rating each against defined criteria and multiplying by criterion weights to produce a comparable total score. It is a benefit-measurement method that makes selection transparent and reduces bias in prioritization.",
+    "Deep Dive": null,
+    "Contrast": "Decision matrix - a scoring model is typically used to prioritize and select among projects, while a decision matrix is the general grid tool that can support many kinds of multi-criteria choices.",
+    "Example": "A portfolio board scores five proposals on strategic fit, ROI, and risk, then funds the two with the highest weighted totals.",
+    "Related Terms": [
+      "Project selection methods",
+      "Benefit measurement methods",
+      "Multicriteria decision analysis",
+      "Prioritization Matrix"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - project selection methods"
+  },
+  {
+    "Term": "Pull Scheduling",
+    "Core Meaning": "A planning approach where work is scheduled backward from a target milestone based on what downstream activities actually need.",
+    "Depth": "Standard",
+    "Expansion": "Pull scheduling, common in Lean and the Last Planner System, builds a plan by starting from a completion milestone and having teams define handoffs based on what the next activity requires, pulling work rather than pushing it from a central master schedule. It increases reliability and ownership because those doing the work commit to their own handoffs.",
+    "Deep Dive": null,
+    "Contrast": "Critical path method - CPM pushes a centrally computed forward-pass schedule, while pull scheduling derives commitments backward from the milestone based on downstream need.",
+    "Example": "In a construction pull-planning session, trades work backward from the handover date, each committing to the predecessors the next trade needs.",
+    "Related Terms": [
+      "Lean",
+      "Last Responsible Moment",
+      "Pull System",
+      "Lookahead planning"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Lean Construction - Last Planner System"
+  },
+  {
+    "Term": "Dreyfus Model",
+    "Core Meaning": "A model of skill acquisition describing progression through five stages from novice to expert.",
+    "Depth": "Standard",
+    "Expansion": "The Dreyfus model of skill acquisition holds that learners pass through novice, advanced beginner, competent, proficient, and expert stages. Novices rely on rigid rules and context-free guidance, while experts act intuitively from deep tacit experience. It informs how project managers coach, delegate, and set expectations based on an individual's stage.",
+    "Deep Dive": null,
+    "Contrast": "Shu-Ha-Ri - the Dreyfus model details five graded stages of competence, while Shu-Ha-Ri offers three stages framed around the learner's relationship to rules.",
+    "Example": "A coach gives a novice tester explicit checklists but lets a proficient tester rely on judgment, applying the Dreyfus model.",
+    "Related Terms": [
+      "Shu-Ha-Ri",
+      "Competency",
+      "Generalizing specialist",
+      "Talent development"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Dreyfus and Dreyfus - skill acquisition model"
+  },
+  {
+    "Term": "DIKW",
+    "Core Meaning": "A hierarchy showing how data becomes information, then knowledge, and finally wisdom.",
+    "Depth": "Standard",
+    "Expansion": "The DIKW pyramid models increasing context and value: Data are raw facts, Information is data given meaning and structure, Knowledge is information applied with experience, and Wisdom is knowing how and when to act on that knowledge. It underpins knowledge management and explains why raw project metrics must be interpreted before they can guide decisions.",
+    "Deep Dive": null,
+    "Contrast": "Knowledge management - knowledge management is the discipline of capturing and sharing knowledge, while DIKW is the conceptual hierarchy describing how data ascends toward wisdom.",
+    "Example": "Sensor readings as data become a defect-rate report as information, guide a process fix as knowledge, and inform when to release as wisdom.",
+    "Related Terms": [
+      "Knowledge management",
+      "Data analysis",
+      "Explicit Knowledge",
+      "Tacit knowledge"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Ackoff - DIKW hierarchy"
+  },
+  {
+    "Term": "DMAIC",
+    "Core Meaning": "The five-phase Six Sigma improvement cycle: Define, Measure, Analyze, Improve, and Control.",
+    "Depth": "Standard",
+    "Expansion": "DMAIC is the structured Six Sigma method for improving an existing process. Define frames the problem and goals, Measure baselines current performance, Analyze finds root causes, Improve implements and verifies solutions, and Control sustains the gains. It is data-driven and aims to reduce variation and defects.",
+    "Deep Dive": null,
+    "Contrast": "Deming Cycle - both are improvement cycles, but DMAIC is a rigorous, metrics-heavy Six Sigma method for existing processes, while the Deming Cycle is a simpler general-purpose plan-do-check-act loop.",
+    "Example": "A team uses DMAIC to cut invoice errors, measuring the baseline rate, analyzing causes, piloting a fix, and adding controls to hold the gain.",
+    "Related Terms": [
+      "Six Sigma",
+      "Deming Cycle",
+      "Continuous improvement",
+      "Root cause analysis"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Six Sigma - DMAIC methodology"
+  },
+  {
+    "Term": "Takt Time",
+    "Core Meaning": "The rate at which a unit must be completed to meet customer demand, calculated as available time divided by demand.",
+    "Depth": "Standard",
+    "Expansion": "Takt time, from Lean manufacturing, sets the pace of production by dividing available working time by customer demand over that period, giving the maximum time allowed per unit to keep up with demand. Used in location-based and Lean scheduling, it synchronizes flow and exposes bottlenecks where work exceeds the takt.",
+    "Deep Dive": null,
+    "Contrast": "Cycle Time - takt time is the demand-driven target pace you must meet, while cycle time is the actual time a unit takes to complete.",
+    "Example": "With 8 productive hours and demand for 16 units a day, takt time is 30 minutes, so each station must finish a unit every half hour.",
+    "Related Terms": [
+      "Cycle Time",
+      "Lean",
+      "Throughput",
+      "Line of balance"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Lean manufacturing - takt time"
+  },
+  {
+    "Term": "Planning Fallacy",
+    "Core Meaning": "The tendency to underestimate the time, cost, and risk of future actions despite knowing that similar past efforts overran.",
+    "Depth": "Standard",
+    "Expansion": "The planning fallacy, identified by Kahneman and Tversky, is the systematic underestimation of how long tasks will take and how much they will cost, even when people know that comparable past projects exceeded their plans. It stems from taking an inside view focused on the specifics of the current plan; the remedy is an outside view using reference class forecasting.",
+    "Deep Dive": null,
+    "Contrast": "Optimism Bias - optimism bias is the general tendency toward favorable expectations, while the planning fallacy is its specific form applied to time and cost estimates.",
+    "Example": "Despite every past audit taking six weeks, the team again commits to four, falling into the planning fallacy.",
+    "Related Terms": [
+      "Optimism Bias",
+      "Estimating",
+      "Reserve analysis",
+      "Student Syndrome"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kahneman and Tversky - planning fallacy"
   }
 ]

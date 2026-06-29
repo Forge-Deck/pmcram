@@ -31032,5 +31032,178 @@
       "edwel1",
       "modernized"
     ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Mentor stakeholders and transfer project knowledge",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A retiring senior engineer holds deep, hard-to-document intuition about how a legacy system fails under load. The project manager wants to transfer this knowledge before the engineer leaves. Which approach best fits the nature of this knowledge?"
+    ],
+    "correct": [
+      {
+        "text": "Use interaction-based methods such as pairing, mentoring, shadowing, or a community of practice",
+        "why": "Tacit knowledge is personal and hard to codify, so it transfers best through direct human interaction."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Require the engineer to write a comprehensive document and store it in the repository, since all knowledge can be codified",
+        "trap": "This treats tacit knowledge as explicit; deep intuition resists full documentation and needs interaction to transfer."
+      },
+      {
+        "text": "Record the system configuration files and logs in the lessons learned register",
+        "trap": "That captures explicit artifacts, not the engineer's tacit intuition about failure behavior."
+      },
+      {
+        "text": "Schedule a single lessons-learned meeting at project closeout",
+        "trap": "Too late and too shallow to capture deep tacit knowledge before the engineer departs."
+      }
+    ],
+    "explanation": "Tacit knowledge (personal know-how and intuition) is difficult to articulate and transfers best through interaction such as mentoring, pairing, and shadowing. Explicit knowledge can be codified into documents, but the engineer's intuition cannot be fully captured that way.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "knowledge management",
+      "tacit knowledge",
+      "explicit knowledge",
+      "mentoring"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Support organizational change and adoption",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager needs a change model focused on guiding each affected employee individually through awareness, desire, knowledge, ability, and reinforcement so adoption sticks at the personal level. Which model best fits this need?"
+    ],
+    "correct": [
+      {
+        "text": "ADKAR, because it targets individual transitions through awareness, desire, knowledge, ability, and reinforcement",
+        "why": "ADKAR is a goal-oriented, individual-level change model that maps directly to the five stages described."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kotter's eight steps, because it focuses on individual employee transitions",
+        "trap": "Kotter is an organization-wide, top-down sequence for leading large-scale change, not an individual-level model."
+      },
+      {
+        "text": "The Bridges transition model, because it sequences awareness, desire, knowledge, ability, and reinforcement",
+        "trap": "Bridges addresses the psychological transition (ending, neutral zone, new beginning), not the ADKAR stages named here."
+      },
+      {
+        "text": "The Tuckman model, because it guides individuals through adopting a change",
+        "trap": "Tuckman describes team development stages (forming, storming, norming, performing), not individual change adoption."
+      }
+    ],
+    "explanation": "ADKAR is an individual-level change model (awareness, desire, knowledge, ability, reinforcement). Kotter's eight steps drive organization-wide change. Bridges focuses on the psychological transition people go through. Tuckman describes team formation. The five named stages identify ADKAR.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "adkar",
+      "kotter",
+      "bridges",
+      "change-management",
+      "models"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Build and lead the team using situational leadership",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Using Situational Leadership II, a new team member is enthusiastic and highly committed but has low competence for the task (an enthusiastic beginner). Which leadership style best matches this development level?"
+    ],
+    "correct": [
+      {
+        "text": "A directing style (high directive, low supportive), giving clear instructions and close guidance",
+        "why": "A development level of low competence and high commitment (D1) is matched by the directing style (S1) with high direction and low support."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A delegating style (low directive, low supportive), handing over responsibility with little involvement",
+        "trap": "Delegating (S4) suits a high-competence, high-commitment performer (D4), not a low-competence beginner."
+      },
+      {
+        "text": "A supporting style (low directive, high supportive), encouraging and facilitating their decisions",
+        "trap": "Supporting (S3) fits a capable but variably committed member (D3), not someone who still lacks competence."
+      },
+      {
+        "text": "A coaching style (high directive, high supportive), because their high commitment needs reinforcement",
+        "trap": "Coaching (S2) targets a disillusioned learner (D2) with some competence and low commitment, not an enthusiastic beginner."
+      }
+    ],
+    "explanation": "Situational Leadership II matches leadership style to development level. D1 (low competence, high commitment, the enthusiastic beginner) needs S1 directing. D2 (some competence, low commitment) needs S2 coaching. D3 (high competence, variable commitment) needs S3 supporting. D4 (high competence, high commitment) needs S4 delegating. The enthusiastic beginner maps to directing.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "situational-leadership",
+      "directing",
+      "development-level",
+      "models"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "People",
+    "eco_task": "Recognize and counter cognitive biases in decisions",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project is already 1.2 million over budget and far behind, with data showing little chance of success. The sponsor argues the team must keep funding it because stopping now would waste everything already invested. Which cognitive bias is the sponsor displaying, and what is the sound response?"
+    ],
+    "correct": [
+      {
+        "text": "Escalation of commitment driven by the sunk-cost fallacy; base the go or no-go decision only on expected future costs and benefits",
+        "why": "Justifying more funding to avoid wasting past spend is escalation of commitment; sound decisions ignore sunk costs and weigh remaining value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Anchoring bias; re-anchor the team on the original approved budget figure",
+        "trap": "Anchoring is over-reliance on an initial reference value; re-anchoring on the old budget does not address the sunk-cost reasoning here."
+      },
+      {
+        "text": "Confirmation bias; gather more data that supports continuing the project",
+        "trap": "Seeking only supportive data is confirmation bias and would worsen, not cure, the flawed decision."
+      },
+      {
+        "text": "Optimism bias; simply add more schedule and budget reserve to recover",
+        "trap": "Optimism bias is unrealistic positivity, and padding reserves does not address the irrational attachment to sunk costs."
+      }
+    ],
+    "explanation": "Continuing to invest because of money already spent is escalation of commitment, rooted in the sunk-cost fallacy. The correct response is to disregard unrecoverable past spend and decide based on expected remaining costs versus remaining benefits. Anchoring, confirmation, and optimism biases describe different errors.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - People"
+    ],
+    "tags": [
+      "sunk-cost",
+      "escalation-of-commitment",
+      "cognitive-bias",
+      "decision-making"
+    ]
   }
 ]

@@ -1,0 +1,61 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Project Selection & Business-Case Math",
+    "category": "Process",
+    "summary": "How to choose which projects to fund and the numbers behind the business case.",
+    "sections": [
+      {
+        "heading": "Why selection methods matter",
+        "body": "Funding is limited, so the organisation must back the projects with the best value and strongest strategic fit. This is a Business-Environment concern, and the 2026 ECO raises Business Environment to 26 percent of the exam.\n\nSelection methods fall into two families. Benefit-measurement methods are comparative: they rank candidate projects using numbers such as NPV, IRR, BCR, payback period, and scoring models. Constrained-optimisation methods are mathematical (linear and integer programming) used to allocate scarce resources across many options.\n\nFor the exam, you mostly compare projects using benefit-measurement figures and apply a clear decision rule to each.",
+        "tip": "Two families: benefit-measurement (comparative) and constrained-optimisation (mathematical programming)."
+      },
+      {
+        "heading": "Net Present Value (NPV)",
+        "body": "NPV discounts all future cash inflows and outflows back to today using a discount rate, then sums them. It captures the time value of money: money received now is worth more than the same amount later.\n\nDecision rules:\n- Pick the project with the HIGHER NPV.\n- An NPV greater than 0 means the project is viable.\n- A negative NPV means it destroys value and should be rejected.\n\nNPV already accounts for the cost of capital, so it is the most trusted comparative measure.",
+        "tip": "Higher NPV wins; NPV greater than 0 is viable, ignore the raw project duration."
+      },
+      {
+        "heading": "Internal Rate of Return (IRR)",
+        "body": "IRR is the discount rate at which a project's NPV equals exactly 0. It expresses return as a percentage rather than a money amount.\n\nDecision rule: the HIGHER the IRR, the better the project. A project clears the bar when its IRR exceeds the organisation's required rate of return.\n\nWatch the exam trap: a longer project with a bigger absolute return can still have a lower IRR than a short, efficient one. IRR and NPV can occasionally rank projects differently.",
+        "tip": "IRR is the rate where NPV equals 0 — higher IRR is better."
+      },
+      {
+        "heading": "Benefit-Cost Ratio (BCR)",
+        "body": "BCR divides the present value of benefits by the present value of costs.\n\n- BCR greater than 1: benefits exceed costs, viable.\n- BCR equal to 1: break-even.\n- BCR less than 1: reject.\n\nRead the question carefully. A benefit-cost ratio above 1 is good, but a COST ratio (costs over benefits) inverts the logic, so there a value below 1 is the favourable one.",
+        "tip": "BCR greater than 1 is good; a cost-benefit (cost over benefit) ratio flips the rule."
+      },
+      {
+        "heading": "Payback period",
+        "body": "The payback period is the time taken to recover the original investment from net cash inflows. The SHORTER the payback, the more attractive the project, because cash is recovered sooner and exposure is lower.\n\nIts weaknesses make it a poor sole criterion:\n- It ignores the time value of money (cash is not discounted).\n- It ignores all cash flows that arrive after the investment is recovered.\n\nUse it as a quick liquidity screen, not as the deciding figure over NPV or IRR.",
+        "tip": "Shorter payback is better, but it ignores time value and later cash flows."
+      },
+      {
+        "heading": "Present Value vs Future Value",
+        "body": "Present value and future value are the building blocks behind NPV, IRR, and BCR. The core relationship is:\n\nPV = FV / (1 + r)^n\n\nHere r is the discount rate per period and n is the number of periods. Future value is what an amount grows to; present value is what a future amount is worth in today's money. Discounting (dividing) converts future cash back to present value; compounding (multiplying) does the reverse.",
+        "tip": "PV = FV / (1 + r)^n — discount future cash back to today before comparing."
+      },
+      {
+        "heading": "Make-or-buy analysis",
+        "body": "Make-or-buy analysis compares producing or delivering something in-house against purchasing it externally. It feeds the procurement decision in the business case.\n\nKey rule: EXCLUDE sunk costs. Money already spent is gone and must not influence whether to make or buy going forward — only future costs and benefits count.\n\nWeigh more than price alone:\n- Direct and indirect cost over the full life cycle.\n- Internal capability and capacity.\n- Intellectual property and who owns the result.\n- Risk, control, and long-term strategic fit.",
+        "tip": "Ignore sunk costs — decide make-or-buy on future cost, capability, IP, and risk."
+      },
+      {
+        "heading": "Ranking with EMV and scoring models",
+        "body": "When choices carry uncertainty, Expected Monetary Value (EMV) weights each outcome's value by its probability to give a single expected figure for comparison. See the PMP Formulas guide for the full EMV calculation rather than repeating it here.\n\nWeighted scoring models rank projects against multiple criteria (strategic fit, cost, risk, benefit) by scoring each criterion and applying a weight, then summing. They are useful when value is not purely financial.\n\nAcross every method, the exam hooks are the same: know the decision direction (higher NPV and IRR, BCR greater than 1, shorter payback) and never let sunk costs sway a forward-looking decision.",
+        "tip": "Memorise the directions: higher NPV/IRR, BCR over 1, shorter payback, ignore sunk costs."
+      }
+    ],
+    "tags": [
+      "business case",
+      "project selection",
+      "NPV",
+      "IRR",
+      "BCR",
+      "payback",
+      "make-or-buy",
+      "business environment"
+    ],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Business Analysis & Requirements",
+    "category": "Process",
+    "summary": "How to elicit, analyse and manage requirements, and how business analysis underpins project success.",
+    "sections": [
+      {
+        "heading": "BA vs PM roles",
+        "body": "Business analysis is about understanding the problem: defining and managing requirements and the solution scope so the right product gets built. The project manager focuses on delivering the project: planning, coordinating work and managing constraints so it gets built right.\n\nOn many projects there is no separate business analyst, so the PM performs the BA work. Where both roles exist they collaborate closely throughout, from problem framing to validating the delivered solution.",
+        "tip": "BA = build the right thing; PM = build the thing right."
+      },
+      {
+        "heading": "Requirement types",
+        "body": "- Business requirements: the why - higher-level goals, objectives and the need the project addresses.\n- Stakeholder requirements: the needs of specific stakeholders or groups, bridging business goals and the solution.\n- Solution requirements: what the product must do and how well it must do it.\n- Transition requirements: temporary capabilities needed to move from the current to the future state, such as training, data migration or parallel running; they fall away once transition is complete.\n\nSolution requirements split into functional (what the system does - a feature or behaviour) and non-functional (how well it performs - performance, security, usability, reliability, scalability).",
+        "tip": "Transition requirements are temporary - they retire once the new state is live."
+      },
+      {
+        "heading": "Functional vs non-functional",
+        "body": "Functional requirements describe behaviour: actions, data and outcomes the solution must produce - for example, the system shall let a user reset a password.\n\nNon-functional requirements describe qualities and constraints on that behaviour - for example, a page must load in under two seconds, or data must be encrypted at rest. Same feature, different lens: what it does versus how well it does it.",
+        "tip": "If it answers how fast, how secure or how usable, it is non-functional."
+      },
+      {
+        "heading": "Elicitation techniques",
+        "body": "- Interviews: targeted, one-to-one or small group, good for detail and sensitive topics.\n- Facilitated workshops: bring stakeholders together to build shared understanding and resolve issues quickly.\n- Brainstorming: generate many ideas or options before narrowing.\n- Observation and job shadowing: see the real process, surfacing tacit needs people forget to mention.\n- Document analysis: mine existing material - policies, contracts, current-system docs.\n- Surveys and questionnaires: reach many stakeholders cheaply when they are dispersed.\n- Prototyping: make requirements tangible to refine them through feedback.\n\nChoose techniques by stakeholder availability and the level of uncertainty: high uncertainty favours workshops and prototyping; dispersed stakeholders favour surveys.",
+        "tip": "Match the technique to availability and uncertainty - not personal habit."
+      },
+      {
+        "heading": "Analysing and managing requirements",
+        "body": "Analysis turns raw input into clear, agreed requirements: model them (process, data, interface models), prioritise them - MoSCoW (Must, Should, Could, Won't) is common - and resolve conflicts and overlaps between stakeholders.\n\nTrace each requirement through a requirements traceability matrix to its source (the business need) and forward to the deliverable and test that satisfies it. Once baselined, manage changes through integrated change control rather than ad hoc edits, so impact is assessed and approved.\n\nThe Scope Management guide covers the scope baseline and the RTM at a high level; here the focus is the depth of requirements work itself.",
+        "tip": "No requirement without a source and a destination - that is what the RTM enforces."
+      },
+      {
+        "heading": "Visioning and current-state assessment",
+        "body": "A product vision gives stakeholders a shared, concise picture of the desired future state and keeps decisions aligned to it.\n\nAssess where things stand today before designing change. SWOT (strengths, weaknesses, opportunities, threats) frames internal and external factors, and gap analysis compares the current state with the desired state to define the work needed to close the difference.",
+        "tip": "Vision sets the target; gap analysis measures the distance to it."
+      },
+      {
+        "heading": "Acceptance criteria vs Definition of Done",
+        "body": "Acceptance criteria are per-requirement conditions of acceptance: specific, testable statements that say when a single requirement or user story is satisfied. They are usually owned by the product owner and sit at story level, varying from item to item.\n\nDefinition of Done is the team's shared, fixed checklist of what shippable means - for example, coded, tested, reviewed, documented. It applies to every item at product level and does not change story by story.",
+        "tip": "Acceptance criteria are per-story and owner-set; DoD is one shared bar for all work."
+      }
+    ],
+    "tags": ["business analysis", "requirements", "elicitation", "RTM", "acceptance criteria", "non-functional"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

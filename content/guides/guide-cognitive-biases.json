@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Cognitive Biases in PM Decisions",
+    "category": "Mindset",
+    "summary": "How mental shortcuts quietly distort estimates, risk reads and stakeholder judgement, and the practical habits that counter them.",
+    "sections": [
+      {
+        "heading": "What cognitive biases are",
+        "body": "Cognitive biases are systematic errors in judgement that come from heuristics, the mental shortcuts the brain uses to decide quickly. They feel rational and fast, but they skew estimates, risk assessments and how we read stakeholders.\n\nThey are predictable, not random. The same mistakes recur, which is good news: once you can name a bias you can design a check against it.\n\nThis guide covers individual judgement error. Group failures such as groupthink (a team converging on consensus and suppressing dissent) and the halo effect are handled in the Group Decision-Making guide and the glossary, so see those for voting and facilitation.",
+        "tip": "If a judgement feels obvious and effortless, that is exactly when to slow down and check it."
+      },
+      {
+        "heading": "Estimation biases",
+        "body": "Optimism bias is the tendency to expect things to go better than they realistically will. The planning fallacy is its classic form: we underestimate the time and cost of our own work even when we know similar tasks ran over. Overconfidence then narrows our ranges so they feel certain.\n\nExample: a team commits to a four-week migration because the happy path is four weeks, ignoring that every past migration slipped.\n\nCounter with the outside view and reference-class forecasting: base the estimate on how comparable past projects actually turned out, not on the inside story of this one. Use three-point and range estimates rather than single numbers so uncertainty stays visible.",
+        "tip": "Ask how long this took last time, not how long it should take."
+      },
+      {
+        "heading": "Anchoring",
+        "body": "Anchoring is over-weighting the first number you hear. An opening budget figure or a sponsor's target date sets a mental peg, and later estimates drift toward it even when the peg was arbitrary.\n\nExample: a sponsor says we are thinking around 100k, and every quote that follows clusters near 100k regardless of true scope.\n\nCounter by estimating independently before anyone is exposed to the anchor. Have estimators produce their own figures first, then compare against the proposed number.",
+        "tip": "Form your estimate before you let the sponsor's number into the room."
+      },
+      {
+        "heading": "Confirmation bias",
+        "body": "Confirmation bias is seeking and favouring evidence that fits a belief you already hold, while discounting evidence that does not. On a project it shows up as reading a green status into red-flag signals because you want the project to be on track.\n\nExample: a manager dismisses a slipping test pass rate as a blip because the plan says delivery is fine.\n\nCounter with disconfirming questions: deliberately ask what would prove me wrong. Invite diverse reviewers who are not invested in the current plan to pressure-test it.",
+        "tip": "Make someone argue the case that the project is in trouble."
+      },
+      {
+        "heading": "Sunk-cost fallacy and escalation",
+        "body": "The sunk-cost fallacy is continuing a failing effort because of money, time or effort already spent. Escalation of commitment is the spiral that follows, pouring in more to justify what is gone.\n\nExample: a vendor build is clearly unviable, but the team pushes on because we have already spent six figures.\n\nThe correct stance is to ignore sunk costs entirely. Past spend cannot be recovered by either choice, so decide only on future value: what does finishing cost from here, and is that worth the expected benefit?",
+        "tip": "Sunk costs are gone whatever you choose; decide on the money still ahead."
+      },
+      {
+        "heading": "Availability and recency",
+        "body": "The availability heuristic over-weights whatever comes to mind easily, usually events that were vivid or emotionally charged. Recency bias does the same for whatever happened most lately.\n\nIn risk work this distorts the register: the last incident gets treated as the biggest threat while quieter, more probable risks are under-rated.\n\nExample: one dramatic outage last sprint dominates planning, so the team over-invests against it and ignores the steady supplier risk that is more likely to bite.\n\nCounter by grounding risk on data and base rates rather than memorability, and by reviewing the full register, not just recent headlines.",
+        "tip": "Rate risks on probability and impact, not on how recent or scary they feel."
+      },
+      {
+        "heading": "Self-assessment biases",
+        "body": "Dunning-Kruger describes how low competence tends to overrate itself: people who know little also lack the knowledge to see how little they know, so they sound confident. Impostor syndrome is the mirror image, where high competence underrates itself and capable people doubt their own judgement.\n\nBoth distort whose voice carries weight in a room. The loudest, most confident estimate is not automatically the best informed.\n\nExample: a junior gives a firm delivery date with no doubt while the experienced engineer hedges; weigh the evidence, not the confidence.",
+        "tip": "Weight input by evidence and track record, not by how certain it sounds."
+      },
+      {
+        "heading": "Debiasing toolkit",
+        "body": "Practical defences for high-stakes calls:\n\n- Premortem: imagine the project has already failed and work backwards to list why, surfacing risks optimism would hide.\n- Structured and independent estimates: gather views separately before discussion so anchoring and groupthink cannot set in.\n- Devil's advocate: assign someone to argue against the favoured plan.\n- Checklists: encode the questions you always forget so judgement does not rely on memory.\n- Slow down: reserve deliberate, evidence-based thinking for decisions that matter and let fast intuition handle the trivial ones.",
+        "tip": "Build the check into the process so it does not depend on remembering to be objective."
+      }
+    ],
+    "tags": ["cognitive bias", "decision-making", "estimation", "risk", "mindset", "planning fallacy", "anchoring", "sunk cost"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

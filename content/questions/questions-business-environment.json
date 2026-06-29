@@ -19216,5 +19216,220 @@
       "edwel1",
       "modernized"
     ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Support organizational governance and PMO structures",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An organization wants a project management office that lets project managers run their own projects but requires them to adopt mandated templates, tools, and a compliance review at each gate, with moderate control over how work is done. Which PMO type best fits this intent?"
+    ],
+    "correct": [
+      {
+        "text": "A controlling PMO, which mandates frameworks and compliance while leaving day-to-day delivery with the project managers",
+        "why": "A controlling PMO exerts a moderate degree of control by requiring conformance to specified methodologies, templates, and governance reviews."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A supportive PMO, because it enforces mandatory templates and gate compliance across all projects",
+        "trap": "A supportive PMO only provides advice, templates, and a knowledge repository on a consultative basis and does not mandate compliance."
+      },
+      {
+        "text": "A directive PMO, because project managers keep ownership of delivery decisions",
+        "trap": "A directive PMO takes over and runs the projects directly, which is the opposite of leaving delivery with the project managers."
+      },
+      {
+        "text": "An enterprise PMO, because it selects which projects the organization will fund",
+        "trap": "Project selection and funding is a strategic portfolio function, not the moderate delivery-control role described here."
+      }
+    ],
+    "explanation": "PMOs sit on a spectrum of control. Supportive PMOs advise and supply templates with low control. Controlling PMOs require conformance to methods, templates, and governance with moderate control. Directive PMOs take direct control by managing the projects themselves. Mandating frameworks and gate compliance while leaving delivery to the project managers describes a controlling PMO.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "pmo",
+      "controlling-pmo",
+      "governance",
+      "pmo-types"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver project benefits and value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A large company is deciding whether ongoing decisions about which initiatives to fund and how they map to strategy should sit with its enterprise PMO (EPMO) or with the delivery-focused PMOs in each business unit. Which division of responsibility is most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "The EPMO owns strategic alignment and selection of the right initiatives, while the delivery PMOs own execution standards and support",
+        "why": "An EPMO operates at the enterprise level to align the portfolio with strategy and prioritize investments, leaving delivery enablement to business-unit PMOs."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The delivery PMOs should own strategic selection because they are closest to the work",
+        "trap": "Proximity to delivery does not give a business-unit PMO the enterprise vantage point needed for portfolio-level strategic selection."
+      },
+      {
+        "text": "The EPMO should own both strategic selection and the day-to-day delivery standards for every project",
+        "trap": "Centralizing all delivery standards in the EPMO removes the local support role of delivery PMOs and is not the typical EPMO mandate."
+      },
+      {
+        "text": "Strategic selection should be removed from both and handled only by individual project sponsors",
+        "trap": "Sponsors champion single initiatives but cannot perform cross-portfolio prioritization, which is an enterprise governance function."
+      }
+    ],
+    "explanation": "An enterprise PMO works at the strategic, portfolio level: aligning investments to strategy, prioritizing, and selecting the right initiatives. Delivery-oriented PMOs focus on execution: standards, methods, tooling, and support. Splitting strategic selection (EPMO) from delivery enablement (business-unit PMOs) reflects the standard EPMO model.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "epmo",
+      "pmo",
+      "portfolio",
+      "strategic-alignment"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Distinguish project, program, and portfolio management",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An executive committee maintains a collection of projects, programs, and operational initiatives that are grouped and prioritized together to meet strategic objectives, even though many of the items are unrelated to one another. What is this collection called?"
+    ],
+    "correct": [
+      {
+        "text": "A portfolio, because it groups projects, programs, and operations for strategic selection and prioritization regardless of interdependence",
+        "why": "A portfolio is a collection of components managed together to achieve strategic objectives; the components need not be related."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A program, because it coordinates related work to deliver shared benefits",
+        "trap": "A program manages related components for benefits not available individually; the items here are explicitly unrelated."
+      },
+      {
+        "text": "A project, because it is a temporary effort to create a unique result",
+        "trap": "A single project produces specific deliverables and cannot describe a grouping of many programs and operations."
+      },
+      {
+        "text": "A product, because it is an ongoing collection of deliverables",
+        "trap": "A product is an artifact produced by work, not a strategic grouping of initiatives for prioritization."
+      }
+    ],
+    "explanation": "Portfolios group projects, programs, and operations and manage them together for strategic alignment and prioritization; components do not need to be related. Programs coordinate related components for collective benefits. Projects deliver specific unique results. The defining clue here is unrelated items grouped for strategy, which is a portfolio.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "portfolio",
+      "program",
+      "project",
+      "strategic-selection"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Evaluate and deliver project benefits and value",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project delivers a new mobile app (the deliverable). Three months later customers complete purchases faster, and a year later the company reports higher annual revenue. In value terms, which item is the benefit?"
+    ],
+    "correct": [
+      {
+        "text": "The higher annual revenue, because it is the measurable end value the organization gains from the change",
+        "why": "Benefits are the net measurable gains realized by the organization, such as increased revenue, that result from outcomes."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The new mobile app, because the finished deliverable is the value the project produced",
+        "trap": "The app is an output; outputs enable value but are not themselves the benefit."
+      },
+      {
+        "text": "The faster customer purchases, because the changed behavior is the ultimate value",
+        "trap": "Faster purchasing is an outcome, the change in state that enables the benefit, but it is not the realized benefit itself."
+      },
+      {
+        "text": "The project schedule completion, because finishing on time is the value delivered",
+        "trap": "On-time completion is a delivery measure, not a value benefit to the organization."
+      }
+    ],
+    "explanation": "Outputs are the tangible products of the work (the app). Outcomes are the resulting changes in state or behavior (faster purchases). Benefits are the net measurable value realized (higher revenue). The benefit is the higher annual revenue.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "outputs",
+      "outcomes",
+      "benefits",
+      "value-realization"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Plan and manage the business case and financial selection",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor reviews a business case and sees the project has a benefit-cost ratio (BCR) of 1.4. What does this value indicate about the project?"
+    ],
+    "correct": [
+      {
+        "text": "The expected benefits exceed the costs, since a BCR greater than 1 means benefits outweigh costs",
+        "why": "A BCR above 1 means the present value of benefits is greater than the present value of costs, indicating a financially favorable case."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The costs exceed the benefits, so the project should be rejected",
+        "trap": "A BCR above 1 means benefits exceed costs; a value below 1 would indicate costs outweigh benefits."
+      },
+      {
+        "text": "The project will break even exactly, returning value equal to its cost",
+        "trap": "Break-even corresponds to a BCR of exactly 1.0, not 1.4."
+      },
+      {
+        "text": "The project will be delivered 40 percent faster than the baseline schedule",
+        "trap": "BCR is a ratio of value to cost, not a measure of schedule performance."
+      }
+    ],
+    "explanation": "Benefit-cost ratio compares the present value of benefits to the present value of costs. A BCR above 1 means benefits exceed costs and the case is financially favorable; exactly 1 is break-even; below 1 means costs exceed benefits. A BCR of 1.4 indicates benefits outweigh costs.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "bcr",
+      "business-case",
+      "project-selection",
+      "benefit-cost-ratio"
+    ]
   }
 ]

@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Quality Management",
+    "category": "Process",
+    "summary": "How to plan, assure and control quality so deliverables conform to requirements and meet customer needs.",
+    "sections": [
+      {
+        "heading": "Cost of Quality (CoQ)",
+        "body": "Cost of Quality is the total cost of all effort spent to achieve quality across the product's life. It splits into two families.\n\nConformance costs are money spent to avoid defects: prevention (training, documenting processes, equipment, time to do it right) and appraisal (testing, inspection, audits).\n\nNon-conformance costs are money spent because of defects: internal failure (rework and scrap found before the customer sees it) and external failure (warranty work, liabilities, lost reputation found after delivery).\n\nThe core message is that prevention is almost always cheaper than failure, and the cost of fixing a defect rises sharply the later it is found.",
+        "tip": "Cost of conformance = prevention + appraisal; cost of non-conformance = internal + external failure. Prevention buys down failure."
+      },
+      {
+        "heading": "Quality vs grade",
+        "body": "Quality is the degree to which a deliverable conforms to its requirements. Grade is a category assigned to deliverables that have the same functional use but different technical characteristics.\n\nLow quality is always a problem because it means the requirements were not met. Low grade may be perfectly acceptable if it was the agreed specification.\n\nFor example, a basic mobile phone (low grade) with no defects is high quality; a feature-rich phone (high grade) that keeps crashing is low quality.",
+        "tip": "Low grade can be acceptable; low quality never is."
+      },
+      {
+        "heading": "Accuracy vs precision",
+        "body": "Accuracy is how close a measured value is to the true or target value. Precision is how close repeated measurements are to one another, regardless of the target.\n\nThese are independent properties. You can be precise but inaccurate (tightly clustered shots, all off-centre) or accurate but imprecise (scattered shots that average onto the bullseye).\n\nThe team should decide the required level of accuracy and precision during quality planning, because chasing more of either than the requirement needs adds cost.",
+        "tip": "Accuracy = on target; precision = tightly grouped. They are separate; do not assume one implies the other."
+      },
+      {
+        "heading": "Verification vs validation",
+        "body": "Verification asks 'did we build it right?' It is an internal check that a deliverable conforms to its specification, standards and regulations.\n\nValidation asks 'did we build the right thing?' It is an external check that the deliverable meets the customer's needs and is fit for purpose.\n\nIn practice, verification maps to Control Quality, where the team inspects deliverables against the specification. Validation maps to Validate Scope, where the customer or sponsor reviews completed deliverables and formally accepts them.\n\nSequence matters: deliverables are verified internally in Control Quality before being taken to the customer for validated acceptance in Validate Scope.",
+        "tip": "Verification = built right (internal, spec); Validation = built the right thing (customer acceptance). Control Quality before Validate Scope."
+      },
+      {
+        "heading": "Quality assurance vs quality control",
+        "body": "Quality assurance (QA) is process-focused and preventive. It asks 'are we following the right processes that will produce good deliverables?' Its main tool is the audit, which examines whether processes and procedures are being applied correctly.\n\nQuality control (QC) is product-focused and inspection-based. It asks 'is this specific deliverable correct?' Its main tool is inspection, which measures or examines the actual output against requirements.\n\nA simple memory aid: assurance is about doing the right things (process), control is about checking the things are right (product). Audits belong to assurance; inspections belong to control.",
+        "tip": "QA = process, prevention, audits. QC = product, inspection. Audit a process, inspect a deliverable."
+      },
+      {
+        "heading": "Prevention over inspection, and sampling",
+        "body": "A founding principle of modern quality is that prevention is preferable to inspection. It is better to design quality in than to inspect defects out after they occur.\n\nWhen you do measure, two sampling approaches apply. Attribute sampling is pass or fail: the result either conforms or it does not. Variable sampling measures a result on a continuous scale (length, weight, time), giving a degree of conformity rather than a simple yes or no.",
+        "tip": "Attribute = pass/fail (counts); variable = measured on a scale (degrees)."
+      },
+      {
+        "heading": "Control limits, specification limits and the Rule of Seven",
+        "body": "On a control chart, control limits represent the voice of the process: the range of natural variation the process produces when it is stable. They are calculated from the process data, usually at plus or minus three standard deviations.\n\nSpecification limits represent the voice of the customer: the boundaries the customer or requirements allow. They sit outside the control chart and are not derived from the process. A capable process keeps its control limits comfortably inside the specification limits.\n\nThe Rule of Seven is a heuristic: if seven consecutive points fall on one side of the mean (or trend in one direction), the process should be investigated even though no single point breached a control limit. Such a run is statistically unlikely by chance and signals a non-random, assignable cause.",
+        "tip": "Control limits = voice of the process; spec limits = voice of the customer. Seven points one side of the mean = assignable cause, investigate."
+      }
+    ],
+    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "PMP"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

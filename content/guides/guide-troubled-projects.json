@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Recovering Troubled Projects",
+    "category": "Process",
+    "summary": "How to spot a project sliding towards failure and lead a disciplined, honest turnaround that salvages value.",
+    "sections": [
+      {
+        "heading": "Recognising trouble early",
+        "body": "Trouble rarely announces itself. It shows up as a pattern of small signals that, taken together, say the project is drifting. Watch for milestones that keep slipping, budget burning faster than work is getting done, scope that churns without ever settling, and a team whose morale is sinking or whose best people are quietly leaving. Rising defect counts and rework are another tell.\n\nThe most revealing signal is often social, not technical: status reports that go quiet, turn vague, or stay stubbornly 'green' while everyone senses things are off. When reporting stops matching reality, you have a trust problem on top of a delivery problem.\n\nLean on objective trends to cut through the optimism. Earned value indices that sit below 1 (CPI or SPI under 1) show you are behind on cost or schedule, and watching how fast schedule or budget buffers are being consumed surfaces trouble before a deadline is formally missed.",
+        "tip": "A report that is always green is itself a red flag - dig into how the status is being measured."
+      },
+      {
+        "heading": "Common root causes",
+        "body": "Most troubled projects fail for a handful of familiar reasons rather than one dramatic event. Requirements that were ambiguous, or that keep shifting, mean the team is forever building against a moving target.\n\nOptimistic estimates and schedules compressed to hit a desired date leave no room for the normal friction of delivery. Thin up-front planning and risks that were identified but never actively managed then turn predictable problems into surprises.\n\nUnderneath many failures sits a sponsorship problem: a sponsor who is absent, disengaged, or who keeps changing what 'done' looks like. Without a steady owner, decisions stall and the project cannot self-correct.",
+        "tip": "Name the real root causes honestly - fixing symptoms while the causes remain just buys a short reprieve."
+      },
+      {
+        "heading": "What recovery actually aims for",
+        "body": "Recovery is not the same as the original definition of success. The original plan promised a certain scope by a certain date for a certain cost, and that promise is usually already broken. Chasing it anyway tends to deepen the hole.\n\nThe goal of a recovery is to minimise total failure and salvage as much value as possible from here. That may mean a reduced scope, a later date, or delivering only the part that still makes business sense.\n\nThis starts with resetting expectations honestly. Sponsors and stakeholders need to hear what is genuinely achievable now, not a re-run of the comforting numbers that got the project into trouble.",
+        "tip": "Measure recovery against value salvaged from today, not against a baseline that is already gone."
+      },
+      {
+        "heading": "The recovery process",
+        "body": "Work the turnaround in clear stages rather than flailing at the loudest problem.\n\n- Assess and stabilise: stop the bleeding and establish the real status. Pause low-value churn, confirm what is actually complete versus reported, and get an unvarnished picture before committing to anything.\n- Re-plan from current reality: rebuild the plan from where the project truly is, with estimates and risks grounded in what has actually been learned, not the original wishful figures.\n- Decide at a gate: before more money goes in, hold an explicit go / continue-with-changes / kill decision. Funding the next phase should be a deliberate choice, not the default.",
+        "tip": "Stabilise first - you cannot re-plan credibly on top of a status you do not trust."
+      },
+      {
+        "heading": "Leading the turnaround",
+        "body": "A recovery is led as much through people as through plans. Communicate transparently with the sponsor and stakeholders: bad news delivered early and clearly rebuilds the credibility that the troubled phase eroded.\n\nPut any reset scope, schedule, or budget through proper change control and re-baseline formally, so the new targets are agreed and visible rather than informally assumed. Then protect and re-motivate the team - people are often demoralised and stretched, and burning them out guarantees a second failure.\n\nSequence the work by risk. Tackle the biggest threats and the most uncertain assumptions first, so you learn early whether the recovery is viable while you still have options.",
+        "tip": "Attack the largest risks first - they decide whether recovery is even possible."
+      },
+      {
+        "heading": "Sunk-cost discipline",
+        "body": "The hardest judgement in a recovery is deciding whether to continue at all. Money and effort already spent are gone whatever you choose next, so they should not drive the decision.\n\nDecide on future value: weigh the cost and risk of finishing from here against the benefit still available. A project can have consumed a fortune and still be the right thing to cancel today.\n\nKilling a doomed project early is a success, not a defeat. It frees people, money, and attention for work that can actually pay off - failing cheap beats failing expensively after pouring in more.",
+        "tip": "Ask what finishing is worth from here - never what has already been spent."
+      }
+    ],
+    "tags": ["troubled projects", "recovery", "earned value", "sunk cost", "change control", "stakeholder communication", "risk"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

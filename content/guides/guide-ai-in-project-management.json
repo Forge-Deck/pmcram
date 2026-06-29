@@ -11,6 +11,11 @@
         "tip": "Treat AI like a very fast junior analyst: useful for a first draft, never the final authority."
       },
       {
+        "heading": "Three ways to apply AI (Automation, Assistant, Augmentation)",
+        "body": "PMBOK Guide Eighth Edition addresses AI in an appendix and frames three modes of use:\n\n- Automation - AI performs repetitive, rules-based execution on its own (generating routine reports, updating logs), freeing the team for higher-value work.\n- Assistant - AI acts like a junior team member that drafts or proposes while a person reviews and approves before anything is used (a first-draft estimate, status update, or candidate risk list).\n- Augmentation - AI enhances a person's own judgement by surfacing options, patterns, and analysis that the manager then weighs and decides.\n\nA rule of thumb: automate execution, augment decisions, but never delegate accountability. The further a use moves from routine execution toward judgement, the more human oversight it needs.",
+        "tip": "Match the mode to the task: automate the routine, let AI assist on drafts, augment your judgement on decisions - and still own the outcome."
+      },
+      {
         "heading": "Where AI genuinely helps",
         "body": "AI can accelerate real project work:\n\n- Estimating and scheduling - drafting estimates, spotting schedule risk, suggesting sequences.\n- Reporting and communication - summarising status, drafting stakeholder updates.\n- Risk and data analysis - surfacing patterns, candidate risks, and anomalies in large data sets.\n\nIn each case AI produces an input the project manager evaluates - it speeds up the work, it does not own the outcome.",
         "tip": "Favour answers where AI augments the team's analysis, not ones where it replaces the project manager's decision."

@@ -1,0 +1,46 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Lean, Six Sigma & Continuous Improvement",
+    "category": "Process",
+    "summary": "The main process-improvement approaches and where each one fits on the exam.",
+    "sections": [
+      {
+        "heading": "Continuous improvement as a mindset",
+        "body": "PMBOK Guide 7 and 8 treat quality and improvement as ongoing work, not a one-off phase. Small, regular gains compound and beat occasional big pushes, so teams build improvement into the normal flow of delivery.\n\nThe underlying loop is PDCA (Plan-Do-Check-Act), often called the Deming cycle. You plan a change, do it on a small scale, check the result against expectations, then act to standardise what worked or adjust what did not, and repeat.",
+        "tip": "If a question rewards steady, iterative refinement over a single large intervention, that is the continuous-improvement mindset."
+      },
+      {
+        "heading": "Lean: maximise value, eliminate waste",
+        "body": "Lean comes from the Toyota Production System. Its aim is to maximise customer value while removing waste (muda) - anything the customer would not pay for.\n\nThe wastes are:\n- Overproduction\n- Waiting\n- Transport\n- Over-processing\n- Inventory\n- Motion\n- Defects\n- Under-used talent (the eighth, people-focused waste)\n\nCore tools and ideas: value stream mapping to see the whole flow, creating smooth flow, using pull so work is drawn by demand, and takt time to pace output to customer demand.",
+        "tip": "Remember the wastes with TIMWOOD plus the eighth - under-used talent."
+      },
+      {
+        "heading": "Six Sigma: reduce variation and defects",
+        "body": "Six Sigma uses data and statistics to reduce variation and defects. Its symbolic goal is around 3.4 defects per million opportunities, and it is driven by the voice of the customer - what the customer actually defines as a defect.\n\nTo improve an existing process it uses DMAIC: Define, Measure, Analyse, Improve, Control. For designing a new process or product it uses DMADV (Define, Measure, Analyse, Design, Verify).",
+        "tip": "DMAIC improves what exists; DMADV designs something new - the M-A split is the giveaway.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 132' xmlns='http://www.w3.org/2000/svg' fill='none'><path d='M290,68 C 300,108 30,108 36,70' stroke='currentColor' stroke-width='1.1' stroke-dasharray='4 3'/><polygon points='36,70 31,80 41,79' fill='currentColor'/><circle cx='34' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='34' y='53' fill='currentColor' font-size='13' text-anchor='middle'>D</text><text x='34' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Define</text><circle cx='98' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='98' y='53' fill='currentColor' font-size='13' text-anchor='middle'>M</text><text x='98' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Measure</text><circle cx='162' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='162' y='53' fill='currentColor' font-size='13' text-anchor='middle'>A</text><text x='162' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Analyse</text><circle cx='226' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='226' y='53' fill='currentColor' font-size='13' text-anchor='middle'>I</text><text x='226' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Improve</text><circle cx='290' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='290' y='53' fill='currentColor' font-size='13' text-anchor='middle'>C</text><text x='290' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Control</text><line x1='54' y1='48' x2='76' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='80,48 72,44 72,52' fill='currentColor'/><line x1='118' y1='48' x2='140' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='144,48 136,44 136,52' fill='currentColor'/><line x1='182' y1='48' x2='204' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='208,48 200,44 200,52' fill='currentColor'/><line x1='246' y1='48' x2='268' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='272,48 264,44 264,52' fill='currentColor'/><text x='162' y='122' fill='currentColor' font-size='8' text-anchor='middle'>improve an existing process, then sustain and repeat</text></svg>",
+          "caption": "DMAIC: the Six Sigma cycle for improving an existing process."
+        }
+      },
+      {
+        "heading": "Lean Six Sigma",
+        "body": "Lean Six Sigma combines Lean's focus on waste and speed with Six Sigma's focus on variation and quality, so teams make processes both faster and more consistent.\n\nPractitioners hold belt roles by skill level: yellow belt (basic awareness and support), green belt (leads smaller projects part-time), and black belt (leads major projects and coaches others full-time).",
+        "tip": "Lean attacks speed and waste; Six Sigma attacks variation - Lean Six Sigma does both at once."
+      },
+      {
+        "heading": "Kaizen and Theory of Constraints",
+        "body": "Kaizen means continuous small improvements made by everyone, every day, as part of normal work. It can also be run as a focused Kaizen event - a short, intensive burst aimed at one process or area.\n\nTheory of Constraints (TOC) takes a different angle: a system is limited by its single biggest bottleneck, so you find that constraint, exploit it, and subordinate everything else to it before improving elsewhere.",
+        "tip": "Kaizen is a culture of many small wins; TOC says fix the one bottleneck first."
+      },
+      {
+        "heading": "When each approach fits",
+        "body": "Match the method to the problem:\n- Lean for flow, speed and waste problems\n- Six Sigma for variation and defect problems where data is available\n- Kaizen for building an everyday improvement culture\n- Theory of Constraints when one bottleneck caps throughput\n\nAs always, tailor to context. These approaches are complementary, and the right answer depends on the symptom the question describes.",
+        "tip": "Read for the symptom - waste and flow point to Lean, inconsistency and defects point to Six Sigma."
+      }
+    ],
+    "tags": ["lean", "six sigma", "continuous improvement", "kaizen", "DMAIC", "quality", "process"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

@@ -56554,5 +56554,963 @@
       "edwel1",
       "modernized"
     ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Manage scope changes and protect the baseline",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "With spare time before a deadline, a developer adds an unrequested data-export feature because they assume the client will like it. Separately, a stakeholder emails asking to widen the reporting filters beyond the approved baseline. How should the project manager characterize and handle these two situations?"
+    ],
+    "correct": [
+      {
+        "text": "Treat both as uncontrolled scope additions (the unrequested feature is gold plating, the stakeholder request is scope creep) and implement neither without integrated change control",
+        "why": "Any change to baselined scope, even well-intentioned or value-adding, must be routed through integrated change control before work proceeds."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Implement the stakeholder filter request immediately because it came from the customer, and keep the export feature since it adds value at no extra cost",
+        "trap": "Customer origin does not bypass change control, and added scope is never truly free; both still alter the baseline."
+      },
+      {
+        "text": "Allow the export feature because the developer had slack time, but reject the filter request as scope creep",
+        "trap": "Gold plating is also unauthorized scope; having slack time does not authorize adding unrequested work."
+      },
+      {
+        "text": "Add both to the backlog and let the team self-organize without involving change control",
+        "trap": "On a baselined predictive effort the backlog is not the control mechanism; baselined scope changes need integrated change control."
+      }
+    ],
+    "explanation": "Gold plating (team-added extras) and scope creep (stakeholder-driven additions) are both uncontrolled changes to baselined scope. The correct response is the same for both: do not implement them until they pass through integrated change control.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "scope",
+      "scope creep",
+      "gold plating",
+      "change control",
+      "baseline"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and manage quality of products and deliverables",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team plots repeated measurements of a machined part on a target diagram. The points cluster tightly together but sit well away from the true target value. How is this measurement system best described?"
+    ],
+    "correct": [
+      {
+        "text": "Precise but not accurate",
+        "why": "Tight clustering shows low variability (precision), while the consistent offset from the true value shows a lack of accuracy."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accurate but not precise",
+        "trap": "Reversed: accuracy means closeness to the true value, but here the points are far from target."
+      },
+      {
+        "text": "Both accurate and precise",
+        "trap": "The clustering gives precision, but the offset from target means the system is not accurate."
+      },
+      {
+        "text": "Neither accurate nor precise",
+        "trap": "Tight clustering is precision; only accuracy is missing, so it is not neither."
+      }
+    ],
+    "explanation": "Precision is the repeatability or tightness of measurements; accuracy is closeness to the true value. Points that cluster tightly but off-target are precise yet inaccurate, indicating a systematic bias.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "quality",
+      "accuracy",
+      "precision",
+      "measurement"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and manage schedule and resources",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A schedule shows a key resource over-allocated beyond what is available. The project manager must keep within the resource limit even if the finish date slips, and is concerned the critical path could change. Which technique applies, and what is the key caution?"
+    ],
+    "correct": [
+      {
+        "text": "Resource leveling, with the caution that it adjusts start and finish dates to honor resource limits and can change or extend the critical path",
+        "why": "Leveling is used when resource limits are hard constraints; it may delay activities beyond their float and therefore can shift the critical path and finish date."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Resource smoothing, because it adjusts activities within float and can extend the critical path",
+        "trap": "Smoothing only moves work within free and total float and does not change the critical path or the finish date."
+      },
+      {
+        "text": "Resource smoothing, because it never delays the finish and is therefore always preferred",
+        "trap": "Smoothing cannot resolve true over-allocation that exceeds available float, so it fails the hard resource-limit requirement."
+      },
+      {
+        "text": "Fast tracking, to overlap activities and relieve the resource conflict",
+        "trap": "Fast tracking compresses the schedule and adds risk but does not address a resource being over-allocated."
+      }
+    ],
+    "explanation": "Resource leveling enforces resource availability limits and can move activities beyond their float, so it may lengthen the schedule and shift the critical path. Resource smoothing, by contrast, stays within float and never changes the critical path or finish date.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "schedule",
+      "resource leveling",
+      "resource smoothing",
+      "critical path"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Ensure deliverables meet specifications and business need",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "After an increment is built, the QA team checks the work against the requirements and design specifications to confirm it was built correctly. Separately, the customer confirms the delivered feature satisfies their actual business need. Which pair of activities is described, in order?"
+    ],
+    "correct": [
+      {
+        "text": "Verification, then validation",
+        "why": "Verification confirms conformance to specifications (built correctly); validation confirms fitness for the intended use by the customer (built the right thing)."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Validation, then verification",
+        "trap": "Order reversed: checking against specifications is verification, and the customer fitness check is validation."
+      },
+      {
+        "text": "Both activities are verification, since each compares the product to documented criteria",
+        "trap": "The customer fitness-for-use confirmation is validation, not verification."
+      },
+      {
+        "text": "Both activities are validation, since any post-build check validates the product",
+        "trap": "Checking against specifications and design is verification, not validation."
+      }
+    ],
+    "explanation": "Verification asks whether the product conforms to its specifications; validation asks whether the product meets the customer need in actual use. The spec check is verification and the customer fitness check is validation.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "quality",
+      "verification",
+      "validation"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Apply continuous improvement methods",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A Six Sigma team has already confirmed the root causes of a recurring defect through data analysis. They now need to develop, pilot, and implement solutions that address those causes. Which DMAIC phase are they entering?"
+    ],
+    "correct": [
+      {
+        "text": "Improve",
+        "why": "Once root causes are confirmed in Analyze, the Improve phase develops, pilots, and implements solutions to address them."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Analyze",
+        "trap": "Analyze identifies and confirms root causes; that work is already complete, so the next phase is Improve."
+      },
+      {
+        "text": "Control",
+        "trap": "Control sustains and monitors the gains after improvements are in place, not where solutions are first developed."
+      },
+      {
+        "text": "Define",
+        "trap": "Define scopes the problem at the start; the problem is already defined and analyzed."
+      }
+    ],
+    "explanation": "DMAIC proceeds Define, Measure, Analyze, Improve, Control. After confirming root causes in Analyze, developing and piloting solutions is the Improve phase; Control comes later to hold the gains.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "six sigma",
+      "dmaic",
+      "process improvement"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Apply Lean thinking to reduce waste",
+    "difficulty": "easy",
+    "type": "multi",
+    "select": 3,
+    "present": 6,
+    "prompts": [
+      "Which of the following are classic forms of muda (waste) that Lean seeks to eliminate? Select three."
+    ],
+    "correct": [
+      {
+        "text": "Overproduction (producing more or earlier than needed)",
+        "why": "Overproduction is the foundational Lean waste because it generates inventory and hides other problems."
+      },
+      {
+        "text": "Waiting (idle time when work or people are blocked)",
+        "why": "Waiting is a core Lean waste representing time when value is not being added."
+      },
+      {
+        "text": "Defects (work that must be reworked or scrapped)",
+        "why": "Defects are a classic Lean waste, consuming effort on correction rather than value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Standardized work",
+        "trap": "Standardized work is a Lean practice for stabilizing a process, not a form of waste."
+      },
+      {
+        "text": "Customer value",
+        "trap": "Delivering customer value is the goal of Lean, the opposite of waste."
+      },
+      {
+        "text": "Kaizen",
+        "trap": "Kaizen is the Lean philosophy of continuous improvement, a method rather than a waste."
+      }
+    ],
+    "explanation": "The wastes of muda include overproduction, waiting, transportation, over-processing, inventory, motion, and defects. Standardized work, customer value, and kaizen are Lean concepts and goals, not wastes.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "lean",
+      "muda",
+      "waste"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Define completion and acceptance on an agile team",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An agile team disputes two concepts. One is the shared, story-independent standard that all work must meet to be considered complete, owned by the development team. The other is the specific set of conditions a particular feature must satisfy to be accepted, owned by the product owner. Which mapping is correct?"
+    ],
+    "correct": [
+      {
+        "text": "The Definition of Done is the team-owned, story-independent completion standard; Acceptance Criteria are product-owner-defined, story-specific conditions for acceptance",
+        "why": "The DoD is a global quality bar owned by the developers; acceptance criteria are feature-specific and owned by the product owner."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Acceptance Criteria are the team-owned global completion standard; the Definition of Done is the product owner's per-story conditions",
+        "trap": "Ownership and scope are reversed for both terms."
+      },
+      {
+        "text": "Both the Definition of Done and the Acceptance Criteria are owned by the product owner",
+        "trap": "The Definition of Done is owned by the development team, not the product owner."
+      },
+      {
+        "text": "They are identical and interchangeable, so only one needs to be maintained",
+        "trap": "They serve different purposes: a global completion standard versus feature-specific acceptance conditions."
+      }
+    ],
+    "explanation": "Definition of Done is a team-owned, story-independent standard ensuring consistent quality across all work. Acceptance Criteria are product-owner-owned and unique to each story, defining what that feature must do to be accepted.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "agile",
+      "definition of done",
+      "acceptance criteria",
+      "scope"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Elicit and classify requirements",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A requirement states that the system must process a payment within two seconds and remain available 99.9 percent of the time. How is this requirement best classified?"
+    ],
+    "correct": [
+      {
+        "text": "Non-functional requirement",
+        "why": "Performance and availability are quality attributes describing how well the system must behave, which makes them non-functional."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Functional requirement, because processing a payment is a function the system performs",
+        "trap": "Payment processing is the function, but the two-second and availability targets are quality attributes, which are non-functional."
+      },
+      {
+        "text": "Business requirement, because it describes a high-level organizational need",
+        "trap": "Business requirements state the why and the goals; this is a measurable solution quality attribute, not a business goal."
+      },
+      {
+        "text": "Stakeholder requirement, because availability matters to users",
+        "trap": "Stakeholder requirements describe a stakeholder group's needs; specific performance and availability metrics are non-functional requirements."
+      }
+    ],
+    "explanation": "Functional requirements describe what the system does; non-functional requirements describe quality attributes such as performance, availability, security, and usability. Response-time and uptime targets are classic non-functional requirements.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "business analysis",
+      "requirements",
+      "non-functional",
+      "functional"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Manage cost of quality",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A quality manager is categorizing cost-of-quality items for a project. Which item is a cost of conformance rather than a cost of non-conformance?"
+    ],
+    "correct": [
+      {
+        "text": "Quality training and product inspection and testing",
+        "why": "Prevention costs (training) and appraisal costs (inspection and testing) are spent to avoid defects, making them costs of conformance."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rework and scrap caused by internal defects",
+        "trap": "These are internal failure costs, which are costs of non-conformance."
+      },
+      {
+        "text": "Warranty claims and product recalls",
+        "trap": "These are external failure costs found after delivery, which are costs of non-conformance."
+      },
+      {
+        "text": "Liability and lost business from defects reaching the customer",
+        "trap": "These are external failure costs, a category of cost of non-conformance."
+      }
+    ],
+    "explanation": "Cost of conformance covers prevention (training, quality planning) and appraisal (inspection, testing) costs spent to prevent and detect defects. Cost of non-conformance covers internal failures (rework, scrap) and external failures (warranty, recalls, liability) when defects occur.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "quality",
+      "cost of quality",
+      "conformance",
+      "non-conformance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Obtain formal acceptance of deliverables",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A deliverable has passed the team's internal quality checks confirming it was built correctly. What is the next process, what is its purpose, and who performs it?"
+    ],
+    "correct": [
+      {
+        "text": "Validate Scope, in which the customer or sponsor formally inspects and accepts the deliverable",
+        "why": "Validate Scope follows Control Quality and focuses on the customer's formal acceptance of completed deliverables."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Control Quality again, performed by QA, to re-verify correctness before release",
+        "trap": "Control Quality precedes Validate Scope and checks correctness; the deliverable already passed it."
+      },
+      {
+        "text": "Close Project or Phase, since a correct deliverable can be closed without customer sign-off",
+        "trap": "Formal acceptance through Validate Scope must occur before closure."
+      },
+      {
+        "text": "Direct and Manage Project Work, to begin producing the next deliverable",
+        "trap": "This skips obtaining formal acceptance of the completed deliverable."
+      }
+    ],
+    "explanation": "Control Quality verifies correctness against requirements; its verified deliverables then go to Validate Scope, where the customer or sponsor formally accepts them. Acceptance must precede closure.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "scope",
+      "validate scope",
+      "control quality",
+      "acceptance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Decompose scope into a WBS",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "While decomposing scope into a WBS, a team lead proposes adding a work package for a feature that is not in the project scope statement, and quietly omitting a small piece of approved scope to save time. Which WBS principle is being violated?"
+    ],
+    "correct": [
+      {
+        "text": "The 100 percent rule",
+        "why": "The WBS must capture 100 percent of the approved work and nothing outside it, so adding out-of-scope work or dropping approved scope violates it."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The rolling wave principle, which allows any work to be added later",
+        "trap": "Rolling wave is progressive elaboration of detail over time, not a license to add out-of-scope work or drop approved scope."
+      },
+      {
+        "text": "The 8/80 rule, which dictates which features belong in scope",
+        "trap": "The 8/80 heuristic guides work package size and duration, not whether something is in scope."
+      },
+      {
+        "text": "MoSCoW prioritization, which permits silently dropping low-priority approved scope",
+        "trap": "Prioritization does not authorize unilaterally removing baselined scope without change control."
+      }
+    ],
+    "explanation": "The 100 percent rule states that the WBS includes all of the work defined by the project scope, and only that work. Adding unauthorized features or omitting approved scope both break it.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "scope",
+      "wbs",
+      "100 percent rule",
+      "decomposition"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Manage project knowledge across the lifecycle",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During execution a team continually records insights as they occur. At closeout these are finalized and moved into an organizational asset so future projects can benefit. Which two artifacts are described, in order?"
+    ],
+    "correct": [
+      {
+        "text": "The lessons learned register during the project, then the lessons learned repository at closeout",
+        "why": "The register is the live project document; at closeout its contents feed the lessons learned repository, an organizational process asset for future projects."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The lessons learned repository during the project, then the register at closeout",
+        "trap": "Reversed: the register is the active project document and the repository is the organizational store."
+      },
+      {
+        "text": "The risk register, then the issue log",
+        "trap": "These track risks and issues, not captured lessons learned."
+      },
+      {
+        "text": "A single lessons learned register that is simply renamed at closeout",
+        "trap": "They are distinct: a project document versus an enterprise-level repository (organizational process asset)."
+      }
+    ],
+    "explanation": "The lessons learned register is created early and updated throughout the project. At closeout its entries are transferred into the organizational lessons learned repository so future projects can reuse them.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "knowledge management",
+      "lessons learned",
+      "register",
+      "repository"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Trace requirements to objectives and tests",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Midway through delivery a stakeholder asks whether a particular test actually maps back to an approved business objective, and whether any requirements have been left untested. Which single tool best answers both concerns?"
+    ],
+    "correct": [
+      {
+        "text": "The requirements traceability matrix",
+        "why": "It links each requirement from its origin and business objective through design and test, exposing untested requirements and orphaned tests."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The requirements management plan",
+        "trap": "It defines how requirements will be managed and processed but does not itself trace individual requirements to objectives and tests."
+      },
+      {
+        "text": "The scope baseline",
+        "trap": "It defines approved scope (scope statement, WBS, WBS dictionary) but does not provide requirement-to-test traceability."
+      },
+      {
+        "text": "The product backlog",
+        "trap": "It is an ordered list of work items and does not provide bidirectional traceability to objectives and tests."
+      }
+    ],
+    "explanation": "The requirements traceability matrix maps requirements bidirectionally from business objectives through design, build, and test. It reveals both untested requirements and tests that trace to no approved objective.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "business analysis",
+      "requirements traceability matrix",
+      "requirements"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Improve flow using Lean and Kanban",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A Kanban team finds work piling up in the testing column while developers keep pulling new stories into development. The team wants a Lean mechanism that exposes the bottleneck and forces work to be finished before more is started. What should they apply?"
+    ],
+    "correct": [
+      {
+        "text": "Set a work-in-progress (WIP) limit on the board columns",
+        "why": "Limiting WIP surfaces bottlenecks and pulls the team toward finishing started work before pulling in new work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Increase batch size so more stories move through testing at once",
+        "trap": "Larger batches worsen flow and hide bottlenecks, the opposite of Lean flow principles."
+      },
+      {
+        "text": "Move the unfinished testing work to the next iteration and keep developers starting new stories",
+        "trap": "This ignores the bottleneck and increases work in progress, which is the root problem."
+      },
+      {
+        "text": "Remove the testing column from the board to simplify the flow",
+        "trap": "This hides the problem rather than managing flow; the testing work still must be done."
+      }
+    ],
+    "explanation": "WIP limits are the core Lean and Kanban mechanism for managing flow. By capping how much work can be in a column, they make bottlenecks visible and create pull pressure to finish before starting, easing the testing pile-up.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "lean",
+      "kanban",
+      "wip limit",
+      "flow"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Prioritize requirements with stakeholders",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Two senior stakeholders disagree about which requirements are mandatory for the first release versus merely desirable. The business analyst needs a transparent technique to classify each requirement by necessity. Which technique fits best?"
+    ],
+    "correct": [
+      {
+        "text": "MoSCoW prioritization",
+        "why": "MoSCoW classifies each requirement as Must have, Should have, Could have, or Will not have this time, giving a transparent necessity ranking."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Decomposition into a WBS",
+        "trap": "A WBS organizes scope and deliverables; it is not a requirements prioritization technique."
+      },
+      {
+        "text": "Monte Carlo simulation",
+        "trap": "Monte Carlo is a quantitative risk and schedule analysis method, not a way to prioritize requirements."
+      },
+      {
+        "text": "A fishbone (Ishikawa) diagram",
+        "trap": "A cause-and-effect diagram is a root-cause analysis tool, not a prioritization technique."
+      }
+    ],
+    "explanation": "MoSCoW is a widely used requirements prioritization technique that sorts requirements into Must, Should, Could, and Will not have categories, making necessity decisions explicit and reducing stakeholder disputes.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "business analysis",
+      "requirements",
+      "prioritization",
+      "moscow"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and manage the business case and financial selection",
+    "difficulty": "medium",
+    "type": "multi",
+    "select": 3,
+    "present": 5,
+    "prompts": [
+      "When comparing two approved candidate projects using standard financial selection criteria, which decision rules correctly favor the more financially attractive option? Select three."
+    ],
+    "correct": [
+      {
+        "text": "Prefer the project with the higher net present value",
+        "why": "A higher NPV means greater total value created in present-value terms, so it is preferred."
+      },
+      {
+        "text": "Prefer the project with the higher internal rate of return",
+        "why": "A higher IRR indicates a greater return relative to the cost of capital, so it is preferred."
+      },
+      {
+        "text": "Prefer the project with the shorter payback period",
+        "why": "A shorter payback recovers the investment faster, reducing exposure, so it is preferred when other factors are equal."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Prefer the project with the lower benefit-cost ratio",
+        "trap": "A higher benefit-cost ratio is better; a BCR above 1 means benefits exceed costs, so lower is the wrong direction."
+      },
+      {
+        "text": "Prefer the project with the larger sunk cost already incurred",
+        "trap": "Sunk costs are unrecoverable and must be excluded from forward-looking selection decisions entirely."
+      }
+    ],
+    "explanation": "Standard business-case selection rules: choose higher NPV, higher IRR, BCR greater than 1 (and higher is better), and shorter payback. Lower BCR is the wrong direction, and sunk cost should never influence a go-forward selection.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "business-case",
+      "npv",
+      "irr",
+      "bcr",
+      "payback",
+      "project-selection"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Assess and manage risk using quantitative analysis",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team builds a decision tree for two design paths. Path A has a 60 percent chance of a 100k gain and a 40 percent chance of a 50k loss. Path B has a 50 percent chance of an 80k gain and a 50 percent chance of a 10k gain. Using expected monetary value to decide, which path should be selected?"
+    ],
+    "correct": [
+      {
+        "text": "Path B, because its expected monetary value of 45k exceeds Path A at 40k",
+        "why": "Path B EMV = 0.5(80k) + 0.5(10k) = 45k, which is higher than Path A EMV = 0.6(100k) + 0.4(-50k) = 40k."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Path A, because it offers the single largest possible payoff of 100k",
+        "trap": "EMV decisions weigh probability-adjusted outcomes, not the largest possible payoff in isolation."
+      },
+      {
+        "text": "Path A, because its expected monetary value of 60k is the highest",
+        "trap": "This ignores the 40 percent chance of a 50k loss; the correct EMV for Path A is 40k, not 60k."
+      },
+      {
+        "text": "Path B, because it has no possibility of a loss regardless of expected value",
+        "trap": "Avoiding any loss is risk preference, not the EMV rule; the EMV comparison, not loss avoidance, is what selects B here."
+      }
+    ],
+    "explanation": "Expected monetary value multiplies each outcome by its probability and sums them. Path A = 0.6(100k) + 0.4(-50k) = 40k. Path B = 0.5(80k) + 0.5(10k) = 45k. The higher EMV is Path B, so the EMV decision rule selects Path B.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "emv",
+      "decision-tree",
+      "quantitative-risk",
+      "expected-monetary-value"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Plan and manage procurement and make-or-buy analysis",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project has already spent 200k building a component in-house. To finish it internally will cost another 150k, while buying an equivalent finished component from a vendor costs 120k. Using a proper make-or-buy analysis, what should the project manager recommend?"
+    ],
+    "correct": [
+      {
+        "text": "Buy the component, because the remaining cost to make it (150k) exceeds the purchase cost (120k) and the 200k already spent is a sunk cost",
+        "why": "Make-or-buy compares only future costs; 150k to finish versus 120k to buy favors buying, and the 200k sunk cost is excluded."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Make the component, because the organization has already invested 200k that would be wasted if it switched to buying",
+        "trap": "This is escalation of commitment; the 200k is unrecoverable and must not drive the forward decision."
+      },
+      {
+        "text": "Make the component, because the total make cost of 350k still creates more value than buying",
+        "trap": "Adding the 200k sunk cost into the make total double-counts unrecoverable spend and distorts the comparison."
+      },
+      {
+        "text": "Buy the component, because purchasing is always cheaper than building in-house",
+        "trap": "Buy is not automatically cheaper; the decision rests on the comparison of remaining costs, not a blanket rule."
+      }
+    ],
+    "explanation": "Make-or-buy analysis compares the relevant future costs of each option. Only the 150k to finish in-house versus the 120k to buy matters. The 200k already spent is a sunk cost and is excluded. Because 120k is less than 150k, buying is the better recommendation.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "make-or-buy",
+      "sunk-cost",
+      "procurement",
+      "cost-analysis"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Select an appropriate delivery approach using sense-making models",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Using the Cynefin framework, a project faces a problem where cause and effect are not knowable in advance and only become clear in hindsight, so the right path must emerge through experimentation. Which response is most appropriate?"
+    ],
+    "correct": [
+      {
+        "text": "Probe, sense, and respond, running safe-to-fail experiments to let patterns emerge",
+        "why": "In the complex domain, cause and effect are only clear in retrospect, so probing with experiments to surface emergent practice is correct."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Sense, categorize, and respond by applying an established best practice",
+        "trap": "Categorize and apply best practice is the clear (simple) domain response, where cause and effect are obvious."
+      },
+      {
+        "text": "Sense, analyze, and respond by bringing in experts to find the right answer",
+        "trap": "Expert analysis is the complicated domain response, where good practice exists but requires analysis; complex problems have no knowable answer in advance."
+      },
+      {
+        "text": "Act, sense, and respond by taking immediate action to establish order",
+        "trap": "Immediate action to establish order is the chaotic domain response, used when there is no time to probe."
+      }
+    ],
+    "explanation": "Cynefin matches problem domains to responses. Clear: sense-categorize-respond with best practice. Complicated: sense-analyze-respond with expert good practice. Complex: probe-sense-respond with emergent experiments. Chaotic: act-sense-respond to establish order. Cause and effect knowable only in hindsight describes the complex domain, so probe-sense-respond is correct.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "cynefin",
+      "complex-domain",
+      "sense-making",
+      "models"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Select an appropriate delivery approach using sense-making models",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A critical production system has just failed during a live event and there is no time to analyze options or run experiments. Under the Cynefin framework, which domain is this and what is the correct first move?"
+    ],
+    "correct": [
+      {
+        "text": "Chaotic domain: act first to stabilize, then sense and respond",
+        "why": "In the chaotic domain there is no time to gather data, so the leader acts immediately to establish order before sensing and responding."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Complex domain: probe with small experiments before acting",
+        "trap": "Probing takes time the crisis does not allow; experimentation fits the complex domain, not an urgent collapse."
+      },
+      {
+        "text": "Complicated domain: pause and bring in experts to analyze the failure",
+        "trap": "Analysis by experts fits the complicated domain; in chaos there is no time to analyze before acting."
+      },
+      {
+        "text": "Clear domain: apply the standard documented best-practice procedure",
+        "trap": "A clear-domain best practice assumes a stable, well-understood situation, which an unfolding crisis is not."
+      }
+    ],
+    "explanation": "A live, urgent collapse with no time to analyze is the chaotic Cynefin domain. The correct sequence is act-sense-respond: take immediate action to establish stability, then sense the new situation and respond to move toward order. Probing, analyzing, or applying routine best practice all assume time or stability that does not exist.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "cynefin",
+      "chaotic-domain",
+      "crisis-response",
+      "models"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Recognize and counter cognitive biases in estimating",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During estimation, a stakeholder opens by stating the project should cost about 500k. Even after the team gathers detailed bottom-up data, every revised estimate clusters tightly around that first 500k figure. Which cognitive bias is most likely at work?"
+    ],
+    "correct": [
+      {
+        "text": "Anchoring bias, because the initial 500k figure is unduly influencing all subsequent estimates",
+        "why": "Anchoring is the tendency to rely too heavily on the first piece of information, pulling later judgments toward it."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Sunk-cost fallacy, because past spending is dictating the estimate",
+        "trap": "No money has been spent yet; sunk cost concerns unrecoverable past expenditure, not an initial reference number."
+      },
+      {
+        "text": "Groupthink, because the team is conforming to avoid conflict",
+        "trap": "Groupthink is suppression of dissent for harmony; the issue here is fixation on a starting number, not conformity pressure."
+      },
+      {
+        "text": "Availability bias, because recent memorable events shape the estimate",
+        "trap": "Availability bias relies on easily recalled examples; the distortion here stems from a stated opening figure, not recall ease."
+      }
+    ],
+    "explanation": "Anchoring bias occurs when an initial value disproportionately influences later judgments. Estimates clustering around the first 500k figure despite fresh bottom-up data signal anchoring. Countermeasures include estimating independently before sharing numbers and using ranges. Sunk cost, groupthink, and availability describe different biases.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "anchoring",
+      "cognitive-bias",
+      "estimating",
+      "decision-making"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "eco_task": "Recover and stabilize a troubled project",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager inherits a troubled project: morale is low, the schedule and budget are unreliable, and stakeholders distrust the status reports. What should the project manager do first to begin recovery?"
+    ],
+    "correct": [
+      {
+        "text": "Stabilize the situation and run an honest, independent assessment of true scope, schedule, cost, and risks before committing to a recovery plan",
+        "why": "Recovery starts with stabilizing and establishing the real baseline so decisions and a credible reset rest on facts, not optimistic reports."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Immediately commit to the original deadline and add overtime to catch up",
+        "trap": "Committing to the old deadline before assessing reality repeats the optimism that caused the trouble and ignores root causes."
+      },
+      {
+        "text": "Cancel the project at once because troubled projects rarely recover",
+        "trap": "A kill decision may be valid, but it should follow an honest assessment at a defined gate, not precede any analysis."
+      },
+      {
+        "text": "Replace the entire team to signal a fresh start before reviewing the facts",
+        "trap": "Wholesale replacement destroys knowledge and trust without addressing the actual scope, schedule, and risk problems."
+      }
+    ],
+    "explanation": "Recovering a troubled project begins with stabilizing operations and conducting an honest, independent assessment to expose the true state of scope, schedule, cost, quality, and risk. Only with a credible baseline can the project manager propose an honest reset, and only at a defined decision gate should a kill or continue choice be made. Jumping to deadlines, cancellation, or team changes before the assessment is premature.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Process"
+    ],
+    "tags": [
+      "troubled-project",
+      "recovery",
+      "stabilize",
+      "assessment",
+      "reset"
+    ]
   }
 ]
