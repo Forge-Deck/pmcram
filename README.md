@@ -127,11 +127,11 @@ Body formatting is deliberately simple (no markdown): a **blank line** starts a 
 ### Figures (guides & deck cards)
 Both guide sections and deck cards accept an optional **`figure`** — `{ svg?, image?, caption? }`:
 
-- **`svg`** — inline SVG markup. Use **`currentColor`** for strokes/labels so it themes to light/dark automatically; the app reads the `viewBox` to size it, so choose whatever aspect fits (e.g. `viewBox='0 0 320 190'`). Accent colours (blue `#1F5FA8`, red `#B5462F`, green `#2F6F5E`) are fine for data; avoid hard-coded greys for ink. **Single-quote** attributes (the JSON wraps the SVG in double quotes), and use `&lt;`/`&gt;` for literal `<`/`>` in labels.
+- **`svg`** — inline SVG markup. Use **`currentColor`** for strokes/labels so it themes to light/dark automatically; the app reads the `viewBox` to size it, so choose whatever aspect fits (e.g. `viewBox='0 0 320 190'`). Accent colours (blue `#1F5FA8`, red `#B5462F`, green `#2F6F5E`) are fine for data; avoid hard-coded greys for ink. **Single-quote** attributes (the JSON wraps the SVG in double quotes). **Do not use XML entities in `<text>`:** react-native-svg renders `&amp;`/`&lt;`/`&gt;` **literally** (you'd see `&lt;` on screen), and a literal `<`/`>` breaks SVG parsing — so write a literal `&` for ampersands (e.g. `T&M`) and use Unicode glyphs (`‹`/`›`) or words for less-/greater-than. The app injects its own font into figure text, so don't set `font-family`.
 - **`image`** — a repo-relative path (e.g. `content/assets/foo.png`) or absolute URL; rendered on a white card so photos read in dark mode.
 - **`caption`** — a short line shown beneath the figure.
 
-> `react-native-svg` doesn't support `<marker>`, so draw arrowheads as small `<polygon>`s.
+> `react-native-svg` doesn't support `<marker>`, so draw arrowheads as small `<polygon>`s — and **orient each arrowhead to its line's angle** (derive the triangle from the line's direction so the tip sits on the line end and points along it). A fixed horizontal triangle on a diagonal line renders visibly misaligned.
 
 ### Sequencing questions (`sequences/`)
 Drag-to-order questions. Follow `schema/sequence.schema.json`. Store a `prompt` and a `steps[]` array **in the correct order** — the app shuffles them and the user drags them back into sequence. Each step has `text` and an optional one-line `note` (shown on review). `id` is optional (derived). 3–8 steps.
