@@ -1,0 +1,41 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Project Artifacts & Governance",
+    "category": "Process",
+    "summary": "The key documents that authorise, control, and track a project — and the governance that keeps them aligned to value.",
+    "sections": [
+      {
+        "heading": "The project charter",
+        "body": "The charter is the document that formally authorises the project to exist and gives the project manager the authority to apply organisational resources. Without it, the PM has no mandate.\n\nIt is deliberately high-level. Typical contents include:\n- Project purpose and high-level objectives\n- High-level scope and key deliverables\n- Key milestones and a summary (order-of-magnitude) budget\n- Key risks, assumptions and constraints\n- Success criteria and the named sponsor\n\nThe charter is signed or issued by the sponsor or initiator — someone external to the project who holds authority to fund it — not by the PM. It is created at the very start, before detailed planning.",
+        "tip": "Trap: the PM does not approve the charter. The sponsor authorises it; the PM is named in it."
+      },
+      {
+        "heading": "Governance & decision rights",
+        "body": "Governance is the framework of authority that surrounds the project: who makes which decisions, who is accountable, how issues escalate, and how the project connects to the sponsor, steering committee or board, and the wider organisation.\n\nGood governance gives clear accountability and a defined path for resolving issues and approving changes, so decisions are made at the right level rather than stalling or being made by the wrong people.\n\nThink of governance as the rules of the road, while management is the day-to-day driving. The PM operates within the decision rights that governance defines.",
+        "tip": "Remember: governance sets WHO decides and HOW issues escalate — not the work itself."
+      },
+      {
+        "heading": "Phase-gate (stage-gate) reviews",
+        "body": "Predictive and hybrid projects are often split into phases separated by gates. A gate is a formal checkpoint, not just a milestone.\n\nAt each gate, leadership reviews the completed deliverables and re-tests whether the business case is still valid, then makes a decision before more money is committed: go, no-go, hold, recycle (rework), or kill.\n\nGates control investment incrementally and keep the project aligned to expected value — if the business case has collapsed, the gate is where you stop spending.",
+        "tip": "A gate asks two questions: are the deliverables sound, and is the business case still worth funding?",
+        "figure": {
+          "svg": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='10' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='38' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 1</text><rect x='106' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='134' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 2</text><rect x='202' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='230' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 3</text><line x1='66' y1='69' x2='74' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='98' y1='69' x2='106' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='162' y1='69' x2='170' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='194' y1='69' x2='202' y2='69' stroke='currentColor' stroke-width='1.2'/><polygon points='86,56 98,69 86,82 74,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='182,56 194,69 182,82 170,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='278,56 290,69 278,82 266,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><text x='86' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='182' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='278' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='150' y='126' fill='currentColor' font-size='9' text-anchor='middle'>each gate: go / hold / recycle / kill</text></svg>",
+          "caption": "Phases (boxes) are separated by gates (diamonds) where the project is continued or stopped."
+        }
+      },
+      {
+        "heading": "Tracking with a RAID log",
+        "body": "A RAID log is a single consolidated view of Risks, Assumptions, Issues and Dependencies, used in the real world to keep all four visible in one place.\n\nFor the exam, know the nuance: PMI formally keeps these as separate artifacts. Risks live in the risk register, assumptions in the assumption log, issues in the issue log, and dependencies are tracked within the schedule. Treat RAID as a practical consolidation, but recognise the individual PMI documents.\n\nDistinguish the two that are most often confused:\n- A risk is a future, uncertain event that may or may not happen.\n- An issue is something already happening now that needs action.",
+        "tip": "Risk = future uncertainty (risk register). Issue = happening now (issue log). Don't merge them."
+      },
+      {
+        "heading": "How the artifacts work together",
+        "body": "These documents form a chain of authority and control. The charter authorises the work and points to the business case that justifies it; governance defines who may decide what; gates re-confirm value at set points; and the RAID artifacts keep risks, assumptions, issues and dependencies under continuous control.\n\nScope is decomposed separately in the Work Breakdown Structure — see the Schedule & Network Diagrams guide for the WBS in full.\n\nEvery change request and decision should be traceable back through this structure, so authority, value and accountability stay connected from start to close.",
+        "tip": "Follow the thread: business case justifies, charter authorises, governance decides, gates confirm value."
+      }
+    ],
+    "tags": ["charter", "governance", "stage-gate", "raid", "artifacts", "process"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

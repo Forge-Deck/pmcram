@@ -1,0 +1,41 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Estimating Techniques",
+    "category": "Process",
+    "summary": "How projects estimate cost and duration, and how those estimates tighten in accuracy as the work is progressively elaborated.",
+    "sections": [
+      {
+        "heading": "Estimate accuracy and ranges",
+        "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as the project progresses and detail emerges (progressive elaboration), the range narrows and accuracy improves.\n\nClassic ranges to remember:\n- Rough Order of Magnitude (ROM): roughly -25% to +75%, used very early when information is scarce.\n- Definitive estimate: roughly -5% to +10%, produced later once scope and detail are well understood.\n\nAlways express an estimate with its range and assumptions, and refine it as better information becomes available rather than treating the first figure as fixed.",
+        "tip": "Trap: a number with no range is not an estimate. ROM is wide (-25/+75); definitive is tight (-5/+10).",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='100' x2='304' y2='100' stroke='currentColor' stroke-width='1' stroke-dasharray='4 4'/><path d='M46,46 L298,93 L298,107 L46,154 Z' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><text x='52' y='40' fill='currentColor' font-size='9'>+75%</text><text x='52' y='168' fill='currentColor' font-size='9'>-25%</text><text x='300' y='86' fill='currentColor' font-size='9' text-anchor='end'>+10%</text><text x='300' y='124' fill='currentColor' font-size='9' text-anchor='end'>-5%</text><text x='80' y='100' fill='currentColor' font-size='9' text-anchor='middle'>ROM</text><text x='268' y='100' fill='currentColor' font-size='9' text-anchor='middle'>definitive</text><text x='172' y='184' fill='currentColor' font-size='10' text-anchor='middle'>more detail / later in project →</text></svg>",
+          "caption": "The cone of uncertainty: a wide ROM range early, narrowing to a definitive estimate."
+        }
+      },
+      {
+        "heading": "Analogous (top-down) estimating",
+        "body": "Analogous estimating takes the actual cost or duration of a similar past project and adjusts it for known differences in size, scope or complexity. It is a form of expert judgment that leans on historical experience.\n\nIt is fast and cheap but the least accurate of the techniques, because it assumes the past project is genuinely comparable. Use it early, when there is little detail to work with, or for a quick high-level figure.",
+        "tip": "Analogous = analogy to a past project. Fast, cheap, rough, top-down, expert judgment."
+      },
+      {
+        "heading": "Parametric estimating",
+        "body": "Parametric estimating uses a statistical relationship between historical data and project variables. You multiply a known rate by a quantity, for example cost per square metre x area, or hours per unit x number of units.\n\nIt is more accurate than analogous when the underlying data is sound and the relationship scales reliably across the range you are estimating. Accuracy depends entirely on the quality of the data and the validity of the model.",
+        "tip": "Parametric = parameter x quantity (rate-based). Only as good as the historical data behind it."
+      },
+      {
+        "heading": "Bottom-up estimating",
+        "body": "Bottom-up estimating decomposes the work to a low level, typically the work-package level of the WBS, estimates each piece in detail, then rolls the detailed estimates up to a project total.\n\nIt is the most accurate technique because nothing is averaged away, but it is also the most time-consuming and effort-intensive, and it requires a defined scope and WBS before you can start.",
+        "tip": "Bottom-up = build up from the work packages. Most accurate, most costly; needs a defined WBS."
+      },
+      {
+        "heading": "Choosing a technique and refining",
+        "body": "Match the technique to how much you know:\n- Analogous early, when there is little information.\n- Parametric when you have good historical data and reliable parameters.\n- Bottom-up when scope is well defined and accuracy matters most.\n\nThree-point (PERT) estimating adds a risk-weighted average across optimistic, most likely and pessimistic values; the detailed PERT formula E = (O + 4M + P) / 6 is covered in the Schedule & Network Diagrams guide.\n\nFinally, reserves sit on top of your estimates, not inside them: contingency reserve for identified ('known-unknown') risks and management reserve for unknown-unknowns. The detail on reserves is covered in the Risk Management guide.",
+        "tip": "Pick by information available. Estimates feed the baseline; reserves are added on top."
+      }
+    ],
+    "tags": ["estimating", "cost", "duration", "analogous", "parametric", "bottom-up", "process"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

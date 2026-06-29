@@ -1,0 +1,41 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Team Development & Leadership",
+    "category": "Mindset",
+    "summary": "How project managers build, motivate, and lead teams through predictable development stages and conflicts.",
+    "sections": [
+      {
+        "heading": "Tuckman's stages of team development",
+        "body": "Teams mature through predictable stages. As they do, the PM shifts leadership style from directing to coaching to facilitating to delegating:\n\n- Forming — polite, uncertain, dependent on the leader for direction. PM directs: set goals, roles and ground rules.\n- Storming — friction surfaces as members assert opinions; conflict over approach is common. PM coaches: surface issues, build trust, keep things moving.\n- Norming — norms and working agreements settle; cooperation and cohesion grow. PM facilitates: support collaboration, step back from control.\n- Performing — high-trust, self-organising, focused on results with minimal oversight. PM delegates: empower the team, remove impediments.\n- Adjourning (mourning) — work completes and the team disbands; recognise contributions and capture lessons.\n\nStages are not strictly one-way. A change such as a new member, a new leader or a major scope shift can send a settled team back to storming.",
+        "tip": "Forming-Storming-Norming-Performing-Adjourning. Leadership goes directing -> coaching -> facilitating -> delegating."
+      },
+      {
+        "heading": "Conflict resolution modes (Thomas-Kilmann)",
+        "body": "PMI recognises five ways to handle conflict; the right one depends on the situation:\n\n- Collaborate / Problem-solve (confront) — work the problem together to reach a win-win that incorporates multiple viewpoints. PMI's preferred mode and the best lasting outcome.\n- Compromise / Reconcile — give-and-take so each side gets partial satisfaction; quick but often a lose-lose where no one is fully happy.\n- Smooth / Accommodate — emphasise areas of agreement and yield your position to keep harmony; only a temporary fix.\n- Force / Direct — push your own view at others' expense (win-lose); fast but breeds resentment, so reserve it for emergencies or safety.\n- Withdraw / Avoid — retreat from or postpone the issue; not a true resolution.",
+        "tip": "Collaborate/confront is always the best answer unless time, stakes or safety force otherwise.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 210' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='48' y1='14' x2='48' y2='174' stroke='currentColor' stroke-width='1.5'/><line x1='48' y1='174' x2='304' y2='174' stroke='currentColor' stroke-width='1.5'/><circle cx='90' cy='48' r='3.5' fill='#B5462F'/><text x='90' y='40' fill='#B5462F' font-size='10' text-anchor='middle'>Force</text><circle cx='258' cy='48' r='3.5' fill='#2F6F5E'/><text x='258' y='40' fill='#2F6F5E' font-size='10' text-anchor='middle'>Collaborate</text><circle cx='174' cy='96' r='3.5' fill='#1F5FA8'/><text x='174' y='88' fill='#1F5FA8' font-size='10' text-anchor='middle'>Compromise</text><circle cx='90' cy='150' r='3.5' fill='currentColor'/><text x='90' y='166' fill='currentColor' font-size='10' text-anchor='middle'>Withdraw</text><circle cx='258' cy='150' r='3.5' fill='currentColor'/><text x='258' y='166' fill='currentColor' font-size='10' text-anchor='middle'>Smooth</text><text x='30' y='94' fill='currentColor' font-size='10' text-anchor='middle' transform='rotate(-90 30 94)'>Assertiveness</text><text x='176' y='196' fill='currentColor' font-size='10' text-anchor='middle'>Cooperativeness</text></svg>",
+          "caption": "The five modes by assertiveness vs cooperativeness; Collaborate (top-right) is win-win."
+        }
+      },
+      {
+        "heading": "Sources of conflict",
+        "body": "Conflict is natural and inevitable on projects, and it is best resolved openly and directly by the people involved, with the PM facilitating rather than imposing.\n\nThe classic ranking of conflict causes, from most to least common, is:\n\n- Schedules\n- Project priorities\n- Resources (staff and equipment)\n- Technical opinions\n- Administrative procedures\n- Cost\n- Personality\n\nPersonality clashes sit last, not first. Most conflict is driven by the work and how it is organised, not by people simply disliking each other.",
+        "tip": "Schedules cause the most conflict; personality the least. Resolve early, openly, by those involved."
+      },
+      {
+        "heading": "Motivation theories",
+        "body": "Several models explain what drives people; the exam expects you to recognise each:\n\n- Maslow's hierarchy — needs are met bottom-up: physiological -> safety -> social/belonging -> esteem -> self-actualisation. Lower needs must be reasonably satisfied before higher ones motivate.\n- Herzberg's two-factor — hygiene factors (salary, working conditions, policies) only prevent dissatisfaction; they do not motivate. True motivators are achievement, recognition, responsibility and growth.\n- McGregor's Theory X / Y — Theory X assumes people dislike work and need control and supervision; Theory Y assumes they are self-motivated and seek responsibility.\n- McClelland's needs (acquired needs) — people are driven mainly by achievement, affiliation or power; match work to a person's dominant need.",
+        "tip": "Herzberg trap: a pay rise removes dissatisfaction but does not motivate. Recognition and growth do."
+      },
+      {
+        "heading": "Power & influence",
+        "body": "A PM's authority comes from several sources of power:\n\n- Formal / positional — authority from the role or title.\n- Reward — ability to give bonuses, recognition or desirable assignments.\n- Coercive / penalty — ability to punish or threaten consequences.\n- Expert — influence earned through knowledge, skill and credibility.\n- Referent — influence from respect, charisma or association with someone respected.\n\nExpert and referent power are generally the most effective and are earned over time, so favour them. Coercive power is the least effective and should be a last resort.",
+        "tip": "Earned beats granted: expert and referent are best; coercive/penalty is last resort."
+      }
+    ],
+    "tags": ["leadership", "team development", "conflict", "motivation", "power", "people"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam. Tuckman; Thomas-Kilmann; Maslow/Herzberg/McGregor/McClelland."
+  }
+]

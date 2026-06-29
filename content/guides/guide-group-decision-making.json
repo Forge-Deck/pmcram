@@ -1,0 +1,41 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Group Decision-Making",
+    "category": "Mindset",
+    "summary": "How teams generate options and commit to a choice — decision rules, Delphi, and the quick consensus tools agile teams use.",
+    "sections": [
+      {
+        "heading": "How groups decide (decision rules)",
+        "body": "When a group must commit to a choice, the decision rule sets the bar for agreement:\n\n- Unanimity — everyone agrees. Strong buy-in but slow; techniques like Delphi and fist of five help reach it.\n- Majority — more than half agree (over 50%). Common and quick.\n- Plurality — the largest single block decides, even if it is under half; used when several options split the vote and no one has a majority.\n- Autocratic — one individual decides on behalf of the group. Fastest, but the weakest buy-in.\n\nMost agile teams aim for consensus — broad agreement everyone can live with and support — rather than strict unanimity.",
+        "tip": "Plurality = the biggest group wins (no majority needed). Majority = over half. Don't confuse them."
+      },
+      {
+        "heading": "Generating options first",
+        "body": "Good decisions start with a wide set of ideas, generated before any are judged:\n\n- Brainstorming — produce many ideas freely, deferring all criticism until later.\n- Nominal group technique — brainstorm, then privately rank the ideas, so louder voices don't dominate the outcome.\n- Mind mapping — branch related ideas out from a central theme to reveal structure and links.\n- Affinity diagram — cluster a large pile of ideas into natural groupings to make sense of them.",
+        "tip": "Nominal group technique = brainstorming PLUS private voting, so the loudest person in the room doesn't win."
+      },
+      {
+        "heading": "Delphi & weighted decision matrices",
+        "body": "Two structured techniques remove bias from harder judgements:\n\n- Delphi technique — a panel of experts responds in anonymous rounds; a facilitator summarises each round and feeds it back until the answers converge. Anonymity removes seniority bias, bandwagon effects and groupthink. Used for estimates, risk and forecasts.\n- Multi-criteria decision analysis (a weighted decision matrix) — score each option against weighted criteria such as cost, risk and value, then total the weighted scores to compare options objectively rather than on gut feel.",
+        "tip": "Delphi = anonymous + iterative + expert. The anonymity is the whole point — it kills bias and bandwagons."
+      },
+      {
+        "heading": "Quick agile consensus tools",
+        "body": "Agile teams use fast, visible techniques to read the room:\n\n- Fist of five (fist to five) — on a count, everyone shows zero to five fingers: a fist (0) is a block or strong objection, 5 is enthusiastic support, 3 means \"I can live with it\". Anything below 3 is discussed before proceeding.\n- Roman voting — thumbs up, sideways or down for an instant read of agreement.\n- Dot voting — each person places a fixed number of dots on the options they favour.\n- Planning poker — estimators reveal their cards at the same moment, so no one anchors on the first number spoken.",
+        "tip": "Fist of five: a 1 or 2 means \"I have concerns\" — keep discussing; you don't proceed until everyone is at 3 or above.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='30' y1='48' x2='300' y2='48' stroke='currentColor' stroke-width='1.3'/><circle cx='30' cy='48' r='6' fill='#B5462F'/><circle cx='84' cy='48' r='6' fill='#B5462F' fill-opacity='0.55'/><circle cx='138' cy='48' r='6' fill='#C98A1F'/><circle cx='192' cy='48' r='6' fill='#C98A1F' fill-opacity='0.7'/><circle cx='246' cy='48' r='6' fill='#2F6F5E' fill-opacity='0.7'/><circle cx='300' cy='48' r='6' fill='#2F6F5E'/><text x='30' y='32' fill='currentColor' font-size='11' text-anchor='middle'>0</text><text x='84' y='32' fill='currentColor' font-size='11' text-anchor='middle'>1</text><text x='138' y='32' fill='currentColor' font-size='11' text-anchor='middle'>2</text><text x='192' y='32' fill='currentColor' font-size='11' text-anchor='middle'>3</text><text x='246' y='32' fill='currentColor' font-size='11' text-anchor='middle'>4</text><text x='300' y='32' fill='currentColor' font-size='11' text-anchor='middle'>5</text><text x='30' y='72' fill='#B5462F' font-size='8' text-anchor='middle'>block</text><text x='300' y='72' fill='#2F6F5E' font-size='8' text-anchor='middle'>full support</text><text x='165' y='92' fill='currentColor' font-size='8' text-anchor='middle'>below 3 = keep discussing before you proceed</text></svg>",
+          "caption": "Fist of five: 0 blocks, 3 is 'can live with it', 5 is full support."
+        }
+      },
+      {
+        "heading": "Choosing the approach",
+        "body": "Match the technique to the decision:\n\n- High stakes that need buy-in — aim for consensus or unanimity, accepting it is slower.\n- Routine or time-boxed calls — majority, plurality, or let the accountable person decide.\n- Expert judgement under uncertainty — use Delphi.\n- Comparing options across several factors — use a weighted decision matrix.\n\nWhatever rule you use, agree it before the discussion starts, so everyone accepts the outcome it produces.",
+        "tip": "Agree the decision rule up front. Changing the rule after you see the result destroys trust."
+      }
+    ],
+    "tags": ["decision-making", "consensus", "delphi", "facilitation", "agile", "people"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]

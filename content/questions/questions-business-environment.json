@@ -16663,5 +16663,2558 @@
       "adaptive-governance",
       "business-environment"
     ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 1",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "The need to make a decision has surfaced that exceeds the project manager's documented authorization — a budget reallocation of about 8% across two work streams. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Follow the escalation path, providing the decision-maker with analysis, options, and a recommendation.",
+        "why": "Escalation with options is the PM's value-add, not abdication."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Cancel the project rather than escalate the decision that exceeds the project manager's authority.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      },
+      {
+        "text": "Wait passively for the responsible decision-maker to eventually notice the issue on their own.",
+        "trap": "Passive waiting fails to take ownership of the issue."
+      },
+      {
+        "text": "Make the decision anyway so as to maintain momentum on the project and avoid administrative delays.",
+        "trap": "Acts prematurely, skipping needed analysis or governance."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.1 and ECO Task 1 enabler 'Outline governance escalation paths and thresholds.' Escalation with options is the PM's value-add, not abdication.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1",
+      "PMP Examination Content Outline 2026 - Business Environment Task 1"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "escalation",
+      "governance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 1",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A traditional PMO is debating how to govern an upcoming portfolio of agile-delivered product development efforts. Which of the following is GENERALLY appropriate for agile governance?"
+    ],
+    "correct": [
+      {
+        "text": "Value-based reviews at release boundaries that can decide to continue, adjust, or stop the work.",
+        "why": "Agile Practice Guide §6 governance: outcome-based reviews at release boundaries align oversight with the value flow."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No oversight at all, since adaptive teams are fully self-organizing and need no governance.",
+        "trap": "Heavy stage gates (C) clash with adaptive delivery; no oversight (B) is not governance; daily executive approval (D) violates team empowerment."
+      },
+      {
+        "text": "Stage gates requiring complete detailed plans for the entire project before any execution begins.",
+        "trap": "Heavy stage gates (C) clash with adaptive delivery; no oversight (B) is not governance; daily executive approval (D) violates team empowerment."
+      },
+      {
+        "text": "Daily approval of every line of code by an executive sponsor before it is committed to the codebase.",
+        "trap": "Heavy stage gates (C) clash with adaptive delivery; no oversight (B) is not governance; daily executive approval (D) violates team empowerment."
+      }
+    ],
+    "explanation": "Agile Practice Guide §6 governance: outcome-based reviews at release boundaries align oversight with the value flow. Heavy stage gates (C) clash with adaptive delivery; no oversight (B) is not governance; daily executive approval (D) violates team empowerment.",
+    "references": [
+      "Agile Practice Guide §6",
+      "PMP Examination Content Outline 2026 - Business Environment Task 1"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "governance",
+      "value-delivery"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 7",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A planned organizational change will affect a project's resourcing model mid-execution. What should the PM do?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate the impact on the project, raise it with governance, and update plans to align with the new model.",
+        "why": "ECO Task 7 enabler 'Evaluate the impact of organizational change on the project and determine required actions.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Lock the project's resourcing model as it is and refuse to align with the planned organizational change.",
+        "trap": "Declining sidesteps a responsibility the PM should own."
+      },
+      {
+        "text": "Cancel the project on the grounds that the planned organizational change has made the project unviable.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      },
+      {
+        "text": "Ignore the planned organizational change until the project's current execution work has been finished.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      }
+    ],
+    "explanation": "ECO Task 7 enabler 'Evaluate the impact of organizational change on the project and determine required actions.' Misalignment with org change creates avoidable friction.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1, §2.2",
+      "PMP Examination Content Outline 2026 - Business Environment Task 7"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 7",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project's deliverable will significantly change how a large user group works. What should the project manager consider?"
+    ],
+    "correct": [
+      {
+        "text": "Stakeholder readiness, communication, training, support, and feedback alongside technical delivery.",
+        "why": "PMBOK Guide 8 (Stakeholders and Governance) and ECO Business Task 7 enablers: 'Assess organizational culture' and 'Evaluate the impact of organizational change.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only the technical implementation of the project's planned deliverable for the user population.",
+        "trap": "The correct choice — stakeholder readiness, communication, training, support, and feedback alongside technical delivery — addresses the situation more effectively."
+      },
+      {
+        "text": "Pushing the change to the operations team without preparing them for the new way of working at all.",
+        "trap": "Acts unilaterally without the needed coordination or preparation."
+      },
+      {
+        "text": "Delaying the project's deliverable indefinitely until the change concerns have all been resolved.",
+        "trap": "Deferring stalls progress instead of acting now."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Stakeholders and Governance) and ECO Business Task 7 enablers: 'Assess organizational culture' and 'Evaluate the impact of organizational change.' Adoption is part of value realization.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1, §2.5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 7"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "stakeholders",
+      "governance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A traditional PMO leader asks the project manager to walk through how change is governed on the agile portion of a hybrid project. How does change control typically operate on an agile project?"
+    ],
+    "correct": [
+      {
+        "text": "Within an iteration, the team protects the iteration goal; between iterations, the PO reprioritizes.",
+        "why": "The Agile Practice Guide §5: the iteration is protected to allow focused work; between iterations, the PO re-orders the backlog."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only the project manager has the authority to change the backlog at any point during the project.",
+        "trap": "The correct choice — within an iteration, the team protects the iteration goal; between iterations… — addresses the situation more effectively."
+      },
+      {
+        "text": "There is no change control on agile projects; all changes are accepted as part of being agile.",
+        "trap": "Misstates change governance; it ignores right-sized, risk-based control."
+      },
+      {
+        "text": "Every change request requires formal CCB approval, regardless of how small or routine the change is.",
+        "trap": "Misstates change governance; it ignores right-sized, risk-based control."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §5: the iteration is protected to allow focused work; between iterations, the PO re-orders the backlog. Light-weight 'change control' is embedded in the backlog management process.",
+    "references": [
+      "Agile Practice Guide §5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "change-control",
+      "backlog"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A senior developer on the agile team has just messaged the Scrum Master to say that a missing third-party API key is blocking the most important item in this iteration. A developer reports an impediment that blocks a critical work item. What is the Scrum Master / project manager's MOST appropriate response?"
+    ],
+    "correct": [
+      {
+        "text": "Evaluate impact, prioritize relative to other issues, and apply an intervention to remove the blocker.",
+        "why": "ECO Business Task 4 enablers: 'Evaluate the impact of impediments,' 'Prioritize and highlight impediments,' 'Determine and apply an intervention strategy.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reassign the blocked work to another developer without addressing the underlying impediment itself.",
+        "trap": "The correct choice — evaluate impact, prioritize relative to other issues, and apply an intervention… — addresses the situation more effectively."
+      },
+      {
+        "text": "Tell the developer to find a workaround so that the work item is not actually blocked anymore in the current circumstances.",
+        "trap": "The correct choice — evaluate impact, prioritize relative to other issues, and apply an intervention… — addresses the situation more effectively."
+      },
+      {
+        "text": "Wait until the next retrospective to discuss the impediment with the team in a structured setting.",
+        "trap": "Deferring stalls progress instead of acting now."
+      }
+    ],
+    "explanation": "The Agile Practice Guide: removing impediments is a core servant-leadership responsibility. ECO Business Task 4 enablers: 'Evaluate the impact of impediments,' 'Prioritize and highlight impediments,' 'Determine and apply an intervention strategy.'",
+    "references": [
+      "Agile Practice Guide §4",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "impediments",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 6",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An organization with five active programs is trying to make its lessons-learned practice produce results across projects, not just within them. How can lessons learned BEST contribute to continuous improvement at the organizational level?"
+    ],
+    "correct": [
+      {
+        "text": "Captured in OPAs, surfaced at relevant moments in future projects, and used to update standards.",
+        "why": "PMBOK Guide 8 §2.2 OPAs: organizational improvement requires institutional capture and re-use."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Disposed of at project closure once the team has had a chance to discuss them in a session.",
+        "trap": "Discarding the knowledge throws away a valuable organizational asset."
+      },
+      {
+        "text": "Stored privately by each individual project manager for use in their own future projects later on.",
+        "trap": "The correct choice — captured in OPAs, surfaced at relevant moments in future projects, and… — addresses the situation more effectively."
+      },
+      {
+        "text": "Discussed informally only at the end of each project without any formal documentation produced.",
+        "trap": "The correct choice — captured in OPAs, surfaced at relevant moments in future projects, and… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.2 OPAs: organizational improvement requires institutional capture and re-use. ECO Business Task 6 enabler 'Utilize lessons learned' and 'Update organizational process assets (OPAs).'",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.2",
+      "PMP Examination Content Outline 2026 - Business Environment Task 6"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 3,
+    "present": 5,
+    "prompts": [
+      "You are leading a software development team building a mobile banking application using an agile approach. The team has just completed Sprint 4, and during the retrospective, several team members raised concerns about uncertainties they've been quietly worrying about — potential third-party API changes, unclear regulatory requirements, and a key developer planning to take extended leave in two months. The product owner asks how the team should handle these concerns going forward. Which of the following are valid ways to surface and manage risks on this project? Which of the following are valid ways to surface and manage risks on an agile project? (Choose 3)"
+    ],
+    "correct": [
+      {
+        "text": "Include risks responses as items in the backlog with appropriate priority.",
+        "why": "The Agile Practice Guide §5: risks can be backlogged, discussed in iteration events, and tracked on visible boards."
+      },
+      {
+        "text": "Discuss risks during iteration planning, daily meetings, and retrospectives.",
+        "why": "The Agile Practice Guide §5: risks can be backlogged, discussed in iteration events, and tracked on visible boards."
+      },
+      {
+        "text": "Maintain a visible risk board or use notes on the team's Kanban board.",
+        "why": "The Agile Practice Guide §5: risks can be backlogged, discussed in iteration events, and tracked on visible boards."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Skip risk discussions to keep iterations short and focused on quick progress.",
+        "trap": "Skipping the step undermines the proper process."
+      },
+      {
+        "text": "Reserve risk discussions for executive-only meetings.",
+        "trap": "The correct choice — include risks responses as items in the backlog with appropriate priority — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §5: risks can be backlogged, discussed in iteration events, and tracked on visible boards. Skipping (C) and executive-only treatment (E) hide risks from the people best able to act.",
+    "references": [
+      "Agile Practice Guide §5 risk",
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "risk",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A change request affecting the project's scope and schedule has just been approved by the change control board. A change request is approved. What is the project manager's next step?"
+    ],
+    "correct": [
+      {
+        "text": "Implement the change and update all affected artifacts — plan, baselines, risk register, communications.",
+        "why": "Approval without follow-through erodes plan integrity."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "File the change approval document and continue executing the project against the old plan as before.",
+        "trap": "Approval without follow-through erodes plan integrity."
+      },
+      {
+        "text": "Inform only the sponsor about the approved change, since they are the change's primary authorizer.",
+        "trap": "The correct choice — implement the change and update all affected artifacts — plan — addresses the situation more effectively."
+      },
+      {
+        "text": "Inform only the team about the approved change, since they are the ones who will implement it in accordance with the existing plan.",
+        "trap": "The correct choice — implement the change and update all affected artifacts — plan — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 and ECO Task 3 enabler 'Implement approved changes' and 'Update project documentation to reflect changes.' Approval without follow-through erodes plan integrity.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "change-control",
+      "schedule"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In your project, open change requests that are pending review and decision have been piling up. What is the MOST appropriate response?"
+    ],
+    "correct": [
+      {
+        "text": "Communicate status, accelerate decisions where possible, and address the bottleneck causing the backlog.",
+        "why": "ECO Task 3 enabler 'Communicate the status of proposed changes' and root-cause analysis (governance bottleneck)."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve all pending change requests as a batch in order to swiftly clear the backlog of pending items.",
+        "trap": "The correct choice — communicate status, accelerate decisions where possible, and address the bottleneck causing… — addresses the situation more effectively."
+      },
+      {
+        "text": "Reject all pending change requests as a batch in order to clear the backlog of pending items.",
+        "trap": "The correct choice — communicate status, accelerate decisions where possible, and address the bottleneck causing… — addresses the situation more effectively."
+      },
+      {
+        "text": "Ignore the pile of pending change requests entirely until they expire on their own from age.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      }
+    ],
+    "explanation": "ECO Task 3 enabler 'Communicate the status of proposed changes' and root-cause analysis (governance bottleneck). Bulk decisions without analysis (A, B) misuse the process.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "governance",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A new manager is questioning the project manager about the leadership style they use on agile teams. Which is the BEST description of 'servant leadership' as applied to impediment removal?"
+    ],
+    "correct": [
+      {
+        "text": "The leader removes the obstacles in the team's way so that the team can do its best work.",
+        "why": "The Agile Practice Guide §4 and Scrum Guide: servant leaders create conditions for the team to succeed by clearing obstacles and protecting focus, not by doing the work or controlling it."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The leader avoids exhibiting any leadership behaviors in order to maximize the team's autonomy.",
+        "trap": "The correct choice — the leader removes the obstacles in the team's way so that… — addresses the situation more effectively."
+      },
+      {
+        "text": "The leader takes over and does the team's work themselves so that the team can focus elsewhere.",
+        "trap": "The Agile Practice Guide §4 and Scrum Guide: servant leaders create conditions for the team to succeed by clearing obstacles and protecting focus, not by doing."
+      },
+      {
+        "text": "The leader controls every individual team decision in order to ensure quality and consistency.",
+        "trap": "The correct choice — the leader removes the obstacles in the team's way so that… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §4 and Scrum Guide: servant leaders create conditions for the team to succeed by clearing obstacles and protecting focus, not by doing the work or controlling it.",
+    "references": [
+      "Agile Practice Guide §4",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "impediments",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 2",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Sustainability requirements are increasingly a compliance category. What does it mean to 'integrate sustainability' into a project?"
+    ],
+    "correct": [
+      {
+        "text": "Consider environmental, social, and economic impacts in decisions, design, processes, and outcomes.",
+        "why": "PMBOK Guide 8 §3.7 'Integrate Sustainability Within All Project Areas' makes sustainability an integrated principle."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Always choose the highest-cost project option, since this is assumed to be the most sustainable.",
+        "trap": "Assuming rather than verifying introduces avoidable risk."
+      },
+      {
+        "text": "Always choose the lowest-cost project option, since this minimizes the project's overall resource use.",
+        "trap": "An absolute stance that ignores project context."
+      },
+      {
+        "text": "Mention sustainability briefly in the project's charter and then proceed with the project unchanged.",
+        "trap": "The correct choice — consider environmental, social, and economic impacts in decisions, design, processes, and… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §3.7 'Integrate Sustainability Within All Project Areas' makes sustainability an integrated principle. The 2026 ECO lists sustainability across Tasks 1, 2, 5, and 7. Integration ≠ tokenism.",
+    "references": [
+      "PMBOK Guide Eighth Edition §3.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 2 , Process Tasks 1, 5, 7"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "compliance",
+      "requirements"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A team member uses the words 'risk' and 'issue' interchangeably when reporting status. What is the difference between a risk and an issue?"
+    ],
+    "correct": [
+      {
+        "text": "A risk is a potential future event; an issue is one that has already occurred and requires action.",
+        "why": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "They are the same thing, with risk being the term used at the start and issue at the end of a project.",
+        "trap": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality."
+      },
+      {
+        "text": "An issue is always more serious than a risk in terms of its impact on the project's objectives.",
+        "trap": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality."
+      },
+      {
+        "text": "A risk is always more serious than an issue in terms of its impact on the project's objectives.",
+        "trap": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertain future; issue is present reality. ECO Task 4 enabler 'Recognize when a risk becomes an issue.'",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4 , Business Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is challenged on why they communicate about pending changes that haven't been decided yet. Why is it important to communicate the status of proposed changes to relevant stakeholders?"
+    ],
+    "correct": [
+      {
+        "text": "To set realistic expectations, prevent surprises, and let affected stakeholders plan around it.",
+        "why": "PMBOK Guide 8 (Stakeholders) and ECO Task 3 enabler 'Communicate the status of proposed changes.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "To delay execution of the change while waiting for stakeholder feedback on the proposed decision.",
+        "trap": "The correct choice — to set realistic expectations — addresses the situation more effectively."
+      },
+      {
+        "text": "Communication of pending change status is not necessary as long as the final decision is shared.",
+        "trap": "The correct choice — to set realistic expectations — addresses the situation more effectively."
+      },
+      {
+        "text": "To create additional project paperwork that documents the team's compliance with the process.",
+        "trap": "The correct choice — to set realistic expectations — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Stakeholders) and ECO Task 3 enabler 'Communicate the status of proposed changes.' Silence on pending changes undermines trust and downstream planning.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "stakeholders",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 1",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "What is the PRIMARY purpose of project governance?"
+    ],
+    "correct": [
+      {
+        "text": "To establish the structure, rules, procedures, and decision rights that align project with strategy.",
+        "why": "PMBOK Guide 8 (Governance Performance Domain): governance frames decision rights, escalation, and alignment with strategy."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "To replace the project management plan with a separate document focused on governance only.",
+        "trap": "The correct choice — to establish the structure — addresses the situation more effectively."
+      },
+      {
+        "text": "To slow down the project's decisions and increase the deliberation time on each significant choice.",
+        "trap": "The correct choice — to establish the structure — addresses the situation more effectively."
+      },
+      {
+        "text": "To create additional paperwork that demonstrates the project is being run in a disciplined way.",
+        "trap": "The correct choice — to establish the structure — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Governance Performance Domain): governance frames decision rights, escalation, and alignment with strategy. ECO Business Task 1 enablers cover structure, rules, procedures, reporting, ethics, and policies.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1 Governance Performance Domain",
+      "PMP Examination Content Outline 2026 - Business Environment Task 1"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "escalation",
+      "governance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 8",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A competitor has launched a similar product faster than your project's planned delivery. What should the project manager do FIRST?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the competitive impact on the project's value with stakeholders and consider strategy adjustments.",
+        "why": "PMBOK Guide 8 §3.4 'Focus on Value' and ECO Task 8 enabler 'Assess and prioritize the impact on project scope/backlog based on changes in the external business environment.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Cancel the project immediately on the grounds that the competitor has already captured the available market.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      },
+      {
+        "text": "Match the competitor's product exactly so that the project's deliverable retains a competitive position.",
+        "trap": "The correct choice — assess the competitive impact on the project's value with stakeholders and… — addresses the situation more effectively."
+      },
+      {
+        "text": "Continue with the project as originally planned without performing any further analysis on the competitor.",
+        "trap": "The correct choice — assess the competitive impact on the project's value with stakeholders and… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §3.4 'Focus on Value' and ECO Task 8 enabler 'Assess and prioritize the impact on project scope/backlog based on changes in the external business environment.' Value depends on the external context.",
+    "references": [
+      "PMBOK Guide Eighth Edition §3.4",
+      "PMP Examination Content Outline 2026 - Business Environment Task 8"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "change-control",
+      "backlog"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Continuing the same training session, the project manager moves on to opportunities. Common risk response strategies for a POSITIVE risk (opportunity) include:"
+    ],
+    "correct": [
+      {
+        "text": "Exploit, share, enhance, accept — with escalate available for opportunities beyond project authority.",
+        "why": "PMBOK Guide 8 §2.7: for opportunities, strategies are exploit, share, enhance, accept, with escalate for those outside project authority."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ignore, suppress, deny — the strategies used when an opportunity is too uncertain to manage actively.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      },
+      {
+        "text": "Avoid, transfer, mitigate, accept — the strategies designed for negative risks and threats.",
+        "trap": "Avoidance defers the problem rather than resolving it."
+      },
+      {
+        "text": "Always exploit the opportunity immediately, regardless of its probability of actually occurring.",
+        "trap": "An absolute stance that ignores project context."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7: for opportunities, strategies are exploit, share, enhance, accept, with escalate for those outside project authority. (B) lists threat strategies.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk",
+      "escalation"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A high-impact risk has been identified for which probability of occurrence is also high. What is the MOST appropriate immediate action?"
+    ],
+    "correct": [
+      {
+        "text": "Develop and implement an appropriate response — avoid, mitigate, or transfer — and continue to monitor.",
+        "why": "PMBOK Guide 8 §2.7: high probability + high impact threats demand active response."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait for the identified risk to materialize and become an issue requiring direct team intervention to streamline the decision process.",
+        "trap": "The correct choice — develop and implement an appropriate response — avoid — addresses the situation more effectively."
+      },
+      {
+        "text": "Accept the identified risk passively and proceed with the project's execution as originally planned.",
+        "trap": "Passive waiting fails to take ownership of the issue."
+      },
+      {
+        "text": "Remove the identified risk from the project's risk register so that the team can focus on other items.",
+        "trap": "The correct choice — develop and implement an appropriate response — avoid — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7: high probability + high impact threats demand active response. Passive acceptance (B) and removal (C) ignore project objectives; waiting (A) sacrifices early action value.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "risk",
+      "value-delivery"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A stakeholder informally asks the PM to add a feature. The PM thinks the feature is small and beneficial. What should the PM do?"
+    ],
+    "correct": [
+      {
+        "text": "Apply change control — assess impact, route through the proper authority, document the decision.",
+        "why": "All changes — regardless of perceived size — go through change control to preserve integrity of plans, baselines, and stakeholder expectations."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Refuse the requested feature outright without performing any analysis or holding any discussion.",
+        "trap": "Declining sidesteps a responsibility the PM should own."
+      },
+      {
+        "text": "Add the feature in secret so that the customer is pleased and the team's overhead is not increased.",
+        "trap": "The correct choice — apply change control — assess impact — addresses the situation more effectively."
+      },
+      {
+        "text": "Add the feature directly without going through the project's established change control process.",
+        "trap": "The correct choice — apply change control — assess impact — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 and ECO Business Task 3 enabler 'Execute the change control process.' All changes — regardless of perceived size — go through change control to preserve integrity of plans, baselines, and stakeholder expectations.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "stakeholders",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 6",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An agile team's retrospectives generate the same action items iteration after iteration without resolution. What is the BEST corrective action?"
+    ],
+    "correct": [
+      {
+        "text": "Investigate why actions are not being done, address root causes, and commit to a smaller action set.",
+        "why": "The Agile Practice Guide §5: retrospectives only drive improvement when actions are implemented."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Stop running team retrospectives, since the actions they generate are not being implemented anyway.",
+        "trap": "Removing a valuable feedback ceremony loses inspect-and-adapt benefits."
+      },
+      {
+        "text": "Skip retrospectives until the team's backlog has been cleared of the existing work in progress.",
+        "trap": "Skipping the step undermines the proper process."
+      },
+      {
+        "text": "Replace the project team entirely with a new team that will be more disciplined about follow-through.",
+        "trap": "Repeating items signal a follow-through problem to be addressed at the system level."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §5: retrospectives only drive improvement when actions are implemented. Repeating items signal a follow-through problem to be addressed at the system level.",
+    "references": [
+      "Agile Practice Guide §5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 6"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "retrospective",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 7",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager assigned to a new business unit has noticed cultural differences from their previous unit that may affect how the team can work. Organizational culture affects a project's likelihood of success. Which is the MOST useful action by the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Assess how culture supports or hinders required ways of working, and tailor the approach accordingly.",
+        "why": "PMBOK Guide 8 §2.2 (EEFs) and ECO Task 7 enabler 'Assess organizational culture.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Force a culture change on the organization in order to make it more suitable for the project's needs.",
+        "trap": "The correct choice — assess how culture supports or hinders required ways of working — addresses the situation more effectively."
+      },
+      {
+        "text": "Ignore organizational culture entirely and focus only on the project's schedule and budget outcomes.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      },
+      {
+        "text": "Treat the prevailing organizational culture as fixed and unchangeable by the project manager's actions.",
+        "trap": "The correct choice — assess how culture supports or hinders required ways of working — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.2 (EEFs) and ECO Task 7 enabler 'Assess organizational culture.' Tailoring acknowledges culture as a constraint and resource without trying to force change beyond the project's mandate.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.2 EEFs",
+      "PMP Examination Content Outline 2026 - Business Environment Task 7"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "change-control",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A risk in the project's risk register has now actually happened: a critical vendor has just confirmed a slippage that the team had been tracking as a probability. A previously-identified risk has materialized into an issue. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Move it to the issue log, execute the planned response, and learn from the event for risk improvement.",
+        "why": "PMBOK Guide 8 §2.7 and ECO Task 4/5: risks-turned-issues move into the issue log and trigger planned response."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Remove the now-materialized risk from all of the project's artifacts to clean up the historical record.",
+        "trap": "The correct choice — move it to the issue log — addresses the situation more effectively."
+      },
+      {
+        "text": "Continue managing it as an active entry within the project's existing risk register going forward.",
+        "trap": "The risk register entry is closed; lessons feed forward."
+      },
+      {
+        "text": "Blame the project's team for the occurrence of the now-materialized risk on the project's outcomes.",
+        "trap": "Blaming people damages trust and ignores systemic causes."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7 and ECO Task 4/5: risks-turned-issues move into the issue log and trigger planned response. The risk register entry is closed; lessons feed forward.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4 , Business Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk",
+      "vendor"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 2",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A digital project handling sensitive customer information is being planned. A project must comply with data protection regulations. Compliance requirements should be:"
+    ],
+    "correct": [
+      {
+        "text": "Integrated into requirements, design, quality criteria, and testing throughout the project lifecycle.",
+        "why": "PMBOK Guide 8 (Business Environment): compliance is integrated throughout."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Left entirely to the legal team without any involvement from the project team or project manager.",
+        "trap": "Too absolute; it overlooks the balanced, situational response."
+      },
+      {
+        "text": "Documented in the project's risk register but not actually implemented during execution.",
+        "trap": "The correct choice — integrated into requirements, design, quality criteria, and testing throughout the project… — addresses the situation more effectively."
+      },
+      {
+        "text": "Treated as a separate workstream addressed at the very end of the project as a final activity.",
+        "trap": "The correct choice — integrated into requirements, design, quality criteria, and testing throughout the project… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Business Environment): compliance is integrated throughout. ECO Task 2 enabler 'Use methods to support compliance.' Late or detached compliance creates expensive rework and regulatory risk.",
+    "references": [
+      "PMBOK Guide Eighth Edition Business Environment chapter",
+      "PMP Examination Content Outline 2026 - Business Environment Task 2"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "hard",
+    "type": "multi",
+    "select": 3,
+    "present": 5,
+    "prompts": [
+      "Which of the following are appropriate ways to address an impediment that is blocking team progress? (Choose 3)"
+    ],
+    "correct": [
+      {
+        "text": "Directly resolve issues within the project manager's authority.",
+        "why": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D)."
+      },
+      {
+        "text": "Escalate issues beyond the project manager's authority with context and options.",
+        "why": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D)."
+      },
+      {
+        "text": "Engage relevant stakeholders to collaborate on resolution.",
+        "why": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D)."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Suppress mention of the impediment to avoid alarming stakeholders.",
+        "trap": "Suppressing conflict hides problems instead of resolving them."
+      },
+      {
+        "text": "Penalize the team member who raised the impediment.",
+        "trap": "The correct choice — directly resolve issues within the project manager's authority — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D). Suppression (C) hides risk; penalizing the messenger (E) destroys psychological safety and future signal.",
+    "references": [
+      "Agile Practice Guide §4",
+      "PMBOK Guide Eighth Edition §2.1",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "risk",
+      "escalation"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Benefits alignment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "In a software company a large number of simultaneously performed projects utilize the same groups of human and other resources from a corporate resource directory and support the organization's strategic objectives. What is the term commonly used for this grouping of multiple projects?"
+    ],
+    "correct": [
+      {
+        "text": "Portfolio",
+        "why": "A portfolio is a collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Strategic plan",
+        "trap": "(A) is incorrect because a strategic plan is the document that defines the organization's strategy and direction; it is not a grouping of work."
+      },
+      {
+        "text": "Project",
+        "trap": "The correct choice — portfolio — addresses the situation more effectively."
+      },
+      {
+        "text": "Program",
+        "trap": "The correct choice — portfolio — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "A portfolio is a collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives. The scenario captures the two defining characteristics: multiple components grouped together (the projects and the program shown in the diagram), and alignment to organizational strategy (the \"Strategic Objectives\" shown as the receiving element). Portfolio components are not necessarily related by deliverable or customer — they are grouped because they share resources and contribute to the same strategic goals, which matches the software company sharing a corporate resource directory across many simultaneous projects. (A) is incorrect because a strategic plan is the document that defines the organization's strategy and direction; it is not a grouping of work. (C) is incorrect because a project is a single temporary endeavor undertaken to produce a unique product, service, or result — the scenario describes many such endeavors together, not one. (D) is incorrect because a program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually; programs are about benefit-related coordination, not strategy-aligned grouping of unrelated work. The diagram reinforces this by showing Program 1 as one component within the portfolio alongside individual projects.",
+    "references": [
+      "PMBOK Guide Eighth Edition §1 (project, program, portfolio definitions and relationships)",
+      "PMP Examination Content Outline 2026 - Business Environment (strategy alignment context)"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "benefits"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 2",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An agile team is delivering in a regulated industry. How can the team maintain compliance without sacrificing agility?"
+    ],
+    "correct": [
+      {
+        "text": "Build compliance into the DoD, automate checks where possible, and engage compliance stakeholders early.",
+        "why": "The Agile Practice Guide: regulated agile environments embed compliance into DoD, automate verification, and treat compliance partners as collaborative stakeholders."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Outsource all of the project's compliance activities to external vendors specializing in compliance.",
+        "trap": "The correct choice — build compliance into the DoD — addresses the situation more effectively."
+      },
+      {
+        "text": "Drop the agile delivery approach entirely and use a fully predictive approach to manage compliance.",
+        "trap": "Too absolute; it overlooks the balanced, situational response."
+      },
+      {
+        "text": "Skip the compliance activities until the end of the project to avoid slowing down development.",
+        "trap": "Skipping the step undermines the proper process."
+      }
+    ],
+    "explanation": "The Agile Practice Guide: regulated agile environments embed compliance into DoD, automate verification, and treat compliance partners as collaborative stakeholders. Late or external compliance creates rework cycles.",
+    "references": [
+      "Agile Practice Guide §6 regulated environments",
+      "PMP Examination Content Outline 2026 - Business Environment Task 2"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "stakeholders",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An impediment is outside the project team's authority to resolve. What should the project manager do?"
+    ],
+    "correct": [
+      {
+        "text": "Escalate to the appropriate authority with the relevant context, options, and a recommended action.",
+        "why": "ECO Task 4 and PMBOK Guide 8 (Governance): impediments beyond team authority require escalation with sufficient context for the decision-maker."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Hide the impediment from stakeholders so as not to alarm them about the progress of the project.",
+        "trap": "Withholding information erodes transparency and trust."
+      },
+      {
+        "text": "Blame the project team for not having been able to resolve the impediment on their own authority.",
+        "trap": "Blaming people damages trust and ignores systemic causes."
+      },
+      {
+        "text": "Wait passively until the impediment resolves itself through the actions of other people in the organization.",
+        "trap": "Passive waiting fails to take ownership of the issue."
+      }
+    ],
+    "explanation": "ECO Task 4 and PMBOK Guide 8 (Governance): impediments beyond team authority require escalation with sufficient context for the decision-maker.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "escalation",
+      "governance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 3",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Mid-iteration, a stakeholder requests adding a new item to the current iteration. The team has already committed to its iteration goal. What should the project manager / Scrum Master do?"
+    ],
+    "correct": [
+      {
+        "text": "Help the stakeholder, PO, and team evaluate it — defer by default, or swap an item out if urgent.",
+        "why": "The Agile Practice Guide and Scrum Guide: the team protects the iteration goal; new urgent work, when admitted, displaces other work — there is no free addition."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Force the newly requested item into the current iteration to satisfy the requesting stakeholder.",
+        "trap": "The correct choice — help the stakeholder, PO, and team evaluate it — defer by… — addresses the situation more effectively."
+      },
+      {
+        "text": "Add the newly requested item to the iteration silently without informing the rest of the team.",
+        "trap": "Acts unilaterally without the needed coordination or preparation."
+      },
+      {
+        "text": "Reject the stakeholder's request without any discussion of its urgency, value, or business impact.",
+        "trap": "The correct choice — help the stakeholder, PO, and team evaluate it — defer by… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide and Scrum Guide: the team protects the iteration goal; new urgent work, when admitted, displaces other work — there is no free addition. The default is to handle requests at the next planning event.",
+    "references": [
+      "Agile Practice Guide §5",
+      "Scrum Guide 'Sprint'",
+      "PMP Examination Content Outline 2026 - Business Environment Task 3"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "stakeholders",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which BEST describes the purpose of qualitative risk analysis?"
+    ],
+    "correct": [
+      {
+        "text": "To rank risks by probability and impact so the team can focus response effort where it matters most.",
+        "why": "PMBOK Guide 8 §2.7: qualitative analysis prioritizes risks for further attention or response."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "To remove low-priority risks from the project's risk register so that the team can focus elsewhere.",
+        "trap": "The correct choice — to rank risks by probability and impact so the team can… — addresses the situation more effectively."
+      },
+      {
+        "text": "To produce precise numerical risk projections that drive the project's specific financial reserve sizing.",
+        "trap": "The correct choice — to rank risks by probability and impact so the team can… — addresses the situation more effectively."
+      },
+      {
+        "text": "To replace the team's quantitative risk analysis entirely with a simpler qualitative judgment.",
+        "trap": "PMBOK Guide 8 §2.7: qualitative analysis prioritizes risks for further attention or response."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7: qualitative analysis prioritizes risks for further attention or response. Quantitative analysis (when warranted) follows. ECO Task 5 enabler 'Analyze risks.'",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 8",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Generative AI tools are rapidly evolving and could affect the project's deliverable. What is the MOST appropriate stance for the project manager?"
+    ],
+    "correct": [
+      {
+        "text": "Monitor relevant changes; adapt scope, backlog, and approach when warranted by validated impact.",
+        "why": "Validated impact (not hype) drives adoption."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Avoid all AI tools regardless of their potential value to the project or to its end-user beneficiaries.",
+        "trap": "Avoidance defers the problem rather than resolving it."
+      },
+      {
+        "text": "Adopt every new technology tool that appears in the market in order to stay competitive on the project.",
+        "trap": "The correct choice — monitor relevant changes; adapt scope — addresses the situation more effectively."
+      },
+      {
+        "text": "Assume that the technology landscape will remain stable for the entire duration of the project.",
+        "trap": "Assuming rather than verifying introduces avoidable risk."
+      }
+    ],
+    "explanation": "The 2026 ECO explicitly lists AI as a trend to consider. PMBOK Guide 8 (Business Environment) and ECO Task 8 enabler 'Survey changes to the external business environment.' Validated impact (not hype) drives adoption.",
+    "references": [
+      "PMP Examination Content Outline 2026 - Introduction",
+      "PMP Examination Content Outline 2026 - Business Environment Task 8"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "change-control"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An impediment log has grown long and items are sitting open for weeks. What is the BEST corrective action?"
+    ],
+    "correct": [
+      {
+        "text": "Review the log, prioritize, assign clear owners, set timeboxes, and escalate items that are stuck.",
+        "why": "ECO Task 4 enabler 'Reassess continually to help ensure impediments, obstacles, and blockers for the team are being addressed.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Stop tracking impediments on the grounds that the existing log is no longer adding value to the team.",
+        "trap": "The correct choice — review the log, prioritize, assign clear owners, set timeboxes, and escalate… — addresses the situation more effectively."
+      },
+      {
+        "text": "Make the impediment log private to the Scrum Master, since it is the SM's responsibility to act.",
+        "trap": "The correct choice — review the log, prioritize, assign clear owners, set timeboxes, and escalate… — addresses the situation more effectively."
+      },
+      {
+        "text": "Close all the impediment items from the log as 'old' without resolving the actual underlying issues.",
+        "trap": "The correct choice — review the log, prioritize, assign clear owners, set timeboxes, and escalate… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "ECO Task 4 enabler 'Reassess continually to help ensure impediments, obstacles, and blockers for the team are being addressed.' Stale impediment logs hide real problems.",
+    "references": [
+      "Agile Practice Guide §5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "impediments",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 6",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A program manager is being asked whether the project should defer improvement work until closure to avoid distraction during execution. A predictive project's process improvement opportunities should be:"
+    ],
+    "correct": [
+      {
+        "text": "Identified and applied throughout execution as well as at phase ends and at project closure.",
+        "why": "PMBOK Guide 8 §3.5 and ECO Task 6: continuous improvement applies throughout, not only at closure."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Avoided during the project to preserve consistency with the originally approved execution plan.",
+        "trap": "The correct choice — identified and applied throughout execution as well as at phase ends… — addresses the situation more effectively."
+      },
+      {
+        "text": "Reserved for the organization's next project, when the team can apply what it has learned earlier.",
+        "trap": "The correct choice — identified and applied throughout execution as well as at phase ends… — addresses the situation more effectively."
+      },
+      {
+        "text": "Reserved for the project's closure phase, when the team has time to reflect on what to improve.",
+        "trap": "The correct choice — identified and applied throughout execution as well as at phase ends… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §3.5 and ECO Task 6: continuous improvement applies throughout, not only at closure. Improvements caught mid-project benefit the current project.",
+    "references": [
+      "PMBOK Guide Eighth Edition §3.5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 6"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "benefits"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Geopolitical instability affects a key supplier in a predictive project. The project manager should:"
+    ],
+    "correct": [
+      {
+        "text": "Reassess supply risk, identify alternative sources or strategies, and update the risk register and plan.",
+        "why": "PMBOK Guide 8 (Business Environment §2.1, Risk §2.7): external environment shifts require active reassessment and contingency planning."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Assume the supplier will continue to deliver as planned despite the geopolitical events affecting them.",
+        "trap": "Assuming rather than verifying introduces avoidable risk."
+      },
+      {
+        "text": "Hide the geopolitical situation from stakeholders to avoid causing them any unnecessary worry about it.",
+        "trap": "Withholding information erodes transparency and trust."
+      },
+      {
+        "text": "Cancel the project on the grounds that the geopolitical instability has made the supply chain unworkable.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Business Environment §2.1, Risk §2.7): external environment shifts require active reassessment and contingency planning. ECO Task 8 + Task 5.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1, §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5 , Business Task 8"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 7",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Why is leadership behavior particularly important during an organizational change?"
+    ],
+    "correct": [
+      {
+        "text": "Leaders' actions signal what is genuinely valued; inconsistency between words and actions undermines adoption.",
+        "why": "PMBOK Guide 8 §3.6 'Be an Accountable Leader' and the Agile Practice Guide §6: organizational change depends heavily on consistent leadership modeling; mixed signals stall adoption."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Leadership behavior is irrelevant if proper training is provided to the affected staff in the organization.",
+        "trap": "The correct choice — leaders' actions signal what is genuinely valued; inconsistency between words and… — addresses the situation more effectively."
+      },
+      {
+        "text": "It is not important; only the formal organizational communications about the change matter in practice.",
+        "trap": "PMBOK Guide 8 §3.6 'Be an Accountable Leader' and the Agile Practice Guide §6: organizational change depends heavily on consistent leadership modeling; mixed signals stall adoption."
+      },
+      {
+        "text": "Only middle-manager behavior matters during change, since these are the people closest to the affected teams.",
+        "trap": "The correct choice — leaders' actions signal what is genuinely valued; inconsistency between words and… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §3.6 'Be an Accountable Leader' and the Agile Practice Guide §6: organizational change depends heavily on consistent leadership modeling; mixed signals stall adoption.",
+    "references": [
+      "PMBOK Guide Eighth Edition §3.6",
+      "Agile Practice Guide §6",
+      "PMP Examination Content Outline 2026 - Business Environment Task 7"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "change-control",
+      "leadership"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 8",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A new external regulation will affect the project's deliverable in six months. What should the PM do?"
+    ],
+    "correct": [
+      {
+        "text": "Assess the impact on scope and plans, engage stakeholders, and incorporate changes via change control.",
+        "why": "PMBOK Guide 8 (Business Environment) and ECO Task 8 enablers: 'Survey changes,' 'Assess and prioritize the impact on project scope/backlog,' and 'Continually review.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Wait until the new external regulation actually takes effect before making any project adjustments.",
+        "trap": "The correct choice — assess the impact on scope and plans — addresses the situation more effectively."
+      },
+      {
+        "text": "Ignore the new external regulation entirely until the project's next compliance audit takes place.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      },
+      {
+        "text": "Cancel the project on the grounds that the new external regulation has made the project unviable throughout the project's execution phase.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 (Business Environment) and ECO Task 8 enablers: 'Survey changes,' 'Assess and prioritize the impact on project scope/backlog,' and 'Continually review.' Early action is cheaper than late.",
+    "references": [
+      "PMBOK Guide Eighth Edition Business Environment",
+      "PMP Examination Content Outline 2026 - Business Environment Task 8"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "change-control",
+      "backlog"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 1",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Which BEST describes 'success metrics' for governance purposes?"
+    ],
+    "correct": [
+      {
+        "text": "Measures of intended outcomes and value — financial, customer, quality, sustainability, as applicable.",
+        "why": "PMBOK Guide 8 §2.1 and §3.4: success metrics span baseline conformance and outcomes/value."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The number of team members assigned to the project at any point during its overall duration based on the project context.",
+        "trap": "The correct choice — measures of intended outcomes and value — financial — addresses the situation more effectively."
+      },
+      {
+        "text": "Schedule and cost compliance only, measured against the originally approved project baseline.",
+        "trap": "Too absolute; it overlooks the balanced, situational response."
+      },
+      {
+        "text": "Whichever metric the project manager happens to find easiest to compute on the project today.",
+        "trap": "The correct choice — measures of intended outcomes and value — financial — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.1 and §3.4: success metrics span baseline conformance and outcomes/value. ECO Business Task 1 enabler 'Define success metrics.'",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.1, §3.4",
+      "PMP Examination Content Outline 2026 - Business Environment Task 1"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "governance",
+      "value-delivery"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is preparing a risk-response training for a newly formed team. Common risk response strategies for a NEGATIVE risk (threat) include:"
+    ],
+    "correct": [
+      {
+        "text": "Avoid, transfer, mitigate, accept — with escalate available for risks beyond project authority.",
+        "why": "PMBOK Guide 8 §2.7: for threats, the strategies are avoid, transfer, mitigate, accept; with escalate for risks outside the project's authority."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Add to the project's budget or cut from it, depending on the magnitude of the identified risk.",
+        "trap": "The correct choice — avoid, transfer, mitigate, accept — with escalate available for risks beyond… — addresses the situation more effectively."
+      },
+      {
+        "text": "Exploit, share, enhance, accept — the strategies designed for positive risks and opportunities.",
+        "trap": "PMBOK Guide 8 §2.7: for threats, the strategies are avoid, transfer, mitigate, accept; with escalate for risks outside the project's authority."
+      },
+      {
+        "text": "Ignore the risk until it materializes and becomes an issue requiring direct team intervention.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7: for threats, the strategies are avoid, transfer, mitigate, accept; with escalate for risks outside the project's authority. (A) lists opportunity strategies. (D) is an antipattern.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk",
+      "escalation"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 6",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An improvement idea would benefit other teams in the organization. The PM should:"
+    ],
+    "correct": [
+      {
+        "text": "Share it with relevant stakeholders, contribute to OPAs, and help update organizational standards.",
+        "why": "PMBOK Guide 8 §2.2 and ECO Task 6: continuous improvement at the organizational level depends on cross-team sharing."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Publish the improvement externally without any internal review by the project's stakeholders.",
+        "trap": "The correct choice — share it with relevant stakeholders — addresses the situation more effectively."
+      },
+      {
+        "text": "Keep the improvement idea within the team in order to maintain a competitive advantage internally.",
+        "trap": "The correct choice — share it with relevant stakeholders — addresses the situation more effectively."
+      },
+      {
+        "text": "Wait passively for the rest of the organization to discover the same improvement independently.",
+        "trap": "Passive waiting fails to take ownership of the issue."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.2 and ECO Task 6: continuous improvement at the organizational level depends on cross-team sharing. Hoarding (B) and waiting (D) miss the leverage.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.2",
+      "PMP Examination Content Outline 2026 - Business Environment Task 6"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "benefits",
+      "team"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 6",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Inspect-and-adapt cycles in agile delivery serve continuous improvement primarily by:"
+    ],
+    "correct": [
+      {
+        "text": "By building in regular moments to examine outcomes and ways of working, then making targeted adjustments.",
+        "why": "The Agile Practice Guide §5: inspect-and-adapt is the engine of agile continuous improvement; events like reviews and retrospectives create the regular cadence."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "By producing additional formal project documentation describing the team's improvement activities.",
+        "trap": "The correct choice — by building in regular moments to examine outcomes and ways of… — addresses the situation more effectively."
+      },
+      {
+        "text": "By replacing the project's formal risk management process with an inspect-and-adapt approach.",
+        "trap": "The correct choice — by building in regular moments to examine outcomes and ways of… — addresses the situation more effectively."
+      },
+      {
+        "text": "By allowing the project's scope to grow naturally without any formal change control checks.",
+        "trap": "The correct choice — by building in regular moments to examine outcomes and ways of… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §5: inspect-and-adapt is the engine of agile continuous improvement; events like reviews and retrospectives create the regular cadence.",
+    "references": [
+      "Agile Practice Guide §5",
+      "PMBOK Guide Eighth Edition §3.5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 6"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "retrospective"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 2",
+    "difficulty": "hard",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "While auditing the project's compliance posture, the project manager has uncovered a potential gap against a regulation that may apply to the deliverable. A potential compliance gap is identified. What is the MOST appropriate first response?"
+    ],
+    "correct": [
+      {
+        "text": "Analyze the consequences of noncompliance, determine the action needed, and engage stakeholders.",
+        "why": "ECO Task 2 enablers 'Analyze the consequences of noncompliance' and 'Determine the necessary approach and action(s) to address compliance needs.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ignore the identified compliance gap until an external auditor or regulator eventually finds it.",
+        "trap": "Ignoring the issue lets it grow instead of addressing it."
+      },
+      {
+        "text": "Hide the identified compliance gap from the project sponsor in order to avoid alarming them.",
+        "trap": "Withholding information erodes transparency and trust."
+      },
+      {
+        "text": "Cancel the project on the grounds that the identified compliance gap has made it unviable.",
+        "trap": "Cancelling is a disproportionate overreaction to the situation."
+      }
+    ],
+    "explanation": "ECO Task 2 enablers 'Analyze the consequences of noncompliance' and 'Determine the necessary approach and action(s) to address compliance needs.' Active management beats avoidance.",
+    "references": [
+      "PMBOK Guide Eighth Edition Business Environment",
+      "PMP Examination Content Outline 2026 - Business Environment Task 2"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 7",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A multi-year transformation moving multiple delivery teams from waterfall to agile is meeting strong resistance from several team leads. An organization is moving from predictive to agile delivery. Several teams are resisting. What should the PMO / change leader do?"
+    ],
+    "correct": [
+      {
+        "text": "Engage the resistance, understand root causes, and tailor support — training, coaching, pilots, leadership.",
+        "why": "The Agile Practice Guide §6 and PMBOK Guide 8: organizational change requires addressing the human side."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Mandate the move to agile delivery across the organization without further discussion or consultation.",
+        "trap": "The correct choice — engage the resistance, understand root causes, and tailor support — training… — addresses the situation more effectively."
+      },
+      {
+        "text": "Replace the resistant teams with new teams that are more enthusiastic about the move to agile delivery.",
+        "trap": "The correct choice — engage the resistance, understand root causes, and tailor support — training… — addresses the situation more effectively."
+      },
+      {
+        "text": "Revert to predictive delivery at the first sign of resistance from any team within the organization.",
+        "trap": "The correct choice — engage the resistance, understand root causes, and tailor support — training… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §6 and PMBOK Guide 8: organizational change requires addressing the human side. Mandates without engagement create compliance without commitment.",
+    "references": [
+      "Agile Practice Guide §6 organizational change",
+      "PMP Examination Content Outline 2026 - Business Environment Task 7"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "change-control",
+      "compliance"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 4",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An issue has affected multiple stakeholders. Who should the PM collaborate with to resolve it?"
+    ],
+    "correct": [
+      {
+        "text": "Engage the relevant stakeholders in the resolution, balancing perspectives, constraints, and authority.",
+        "why": "ECO Task 4 enabler 'Collaborate with relevant stakeholders on an approach to resolve the issues.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Resolve the issue unilaterally as the project manager, since this saves time and avoids long meetings.",
+        "trap": "The correct choice — engage the relevant stakeholders in the resolution — addresses the situation more effectively."
+      },
+      {
+        "text": "Engage only the project sponsor, since the sponsor is the final decision-maker on all project issues.",
+        "trap": "Too absolute; it overlooks the balanced, situational response."
+      },
+      {
+        "text": "Engage only the project team, since the team is the group with the most operational knowledge.",
+        "trap": "The correct choice — engage the relevant stakeholders in the resolution — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "ECO Task 4 enabler 'Collaborate with relevant stakeholders on an approach to resolve the issues.' Multi-stakeholder issues need multi-stakeholder solutions; PMBOK Guide 8 (Stakeholders) reinforces this.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.5",
+      "PMP Examination Content Outline 2026 - Business Environment Task 4"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "stakeholders"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A risk register typically captures which information?"
+    ],
+    "correct": [
+      {
+        "text": "Risk identification, probability/impact analysis, response strategies, owners, and status, updated continuously.",
+        "why": "PMBOK Guide 8 §2.7 and ECO Task 5 enabler 'Maintain a risk register.'"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only the project's largest single risk, since other smaller risks do not warrant register tracking.",
+        "trap": "PMBOK Guide 8 §2.7 and ECO Task 5 enabler 'Maintain a risk register.'"
+      },
+      {
+        "text": "Only the risks that the executive project sponsor has explicitly approved for active management.",
+        "trap": "The correct choice — risk identification, probability/impact analysis, response strategies, owners, and status, updated continuously — addresses the situation more effectively."
+      },
+      {
+        "text": "Only the descriptions of the risks themselves, with no additional information about each one as a standard precaution.",
+        "trap": "Too absolute; it overlooks the balanced, situational response."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7 and ECO Task 5 enabler 'Maintain a risk register.' The register is a living artifact.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "risk"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "During the kickoff of a new project, the project manager wants to make sure everyone shares the same understanding of basic terms. Which is the BEST definition of project risk?"
+    ],
+    "correct": [
+      {
+        "text": "An uncertain future event or condition that, if it occurs, has a positive or negative project effect.",
+        "why": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertainty with potential effect — including opportunities (positive) and threats (negative)."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Any problem that the project team is currently facing during the execution of their planned work.",
+        "trap": "The correct choice — an uncertain future event or condition that — addresses the situation more effectively."
+      },
+      {
+        "text": "Only negative future events, since opportunities are tracked through a different project artifact.",
+        "trap": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertainty with potential effect — including opportunities (positive) and threats (negative)."
+      },
+      {
+        "text": "An event that has already occurred and is currently affecting the project's outcomes negatively given the team's current capacity.",
+        "trap": "The correct choice — an uncertain future event or condition that — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 §2.7 Risk Performance Domain: risk is uncertainty with potential effect — including opportunities (positive) and threats (negative). Events that have occurred are issues, not risks.",
+    "references": [
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "predictive",
+      "risk"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 2",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is preparing the compliance section of a new project's planning documents. Which category of compliance requirements should a project manager identify?"
+    ],
+    "correct": [
+      {
+        "text": "Legal/regulatory, security, health and safety, sustainability, and contractual, as applicable.",
+        "why": "Compliance scope spans regulatory, security, H&S, sustainability, contractual."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only the compliance requirements that the project team finds interesting or technically appealing.",
+        "trap": "The correct choice — legal/regulatory, security, health and safety, sustainability, and contractual, as applicable — addresses the situation more effectively."
+      },
+      {
+        "text": "Only the compliance requirements that are inexpensive to meet within the existing project budget.",
+        "trap": "The correct choice — legal/regulatory, security, health and safety, sustainability, and contractual, as applicable — addresses the situation more effectively."
+      },
+      {
+        "text": "Only legal and regulatory compliance, since these are the categories that carry the most risk.",
+        "trap": "The correct choice — legal/regulatory, security, health and safety, sustainability, and contractual, as applicable — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "PMBOK Guide 8 and ECO Business Task 2 enabler 'Classify compliance categories.' Compliance scope spans regulatory, security, H&S, sustainability, contractual.",
+    "references": [
+      "PMBOK Guide Eighth Edition Business Environment",
+      "PMP Examination Content Outline 2026 - Business Environment Task 2"
+    ],
+    "tags": [
+      "business-environment",
+      "hybrid",
+      "compliance",
+      "contracts"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "eco_task": "Business Environment Task 5",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "How does an agile approach inherently address some categories of project risk?"
+    ],
+    "correct": [
+      {
+        "text": "Incremental delivery, frequent feedback, and short iterations expose uncertainty and limit each bet.",
+        "why": "The Agile Practice Guide §3: iterative-incremental delivery is itself a risk-management strategy for requirement and technology uncertainty."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "By transferring all of the project's risk to the product owner, who manages it on behalf of the team.",
+        "trap": "The correct choice — incremental delivery, frequent feedback, and short iterations expose uncertainty and limit… — addresses the situation more effectively."
+      },
+      {
+        "text": "By avoiding the formal risk identification activity entirely in favor of just-in-time responses.",
+        "trap": "Avoidance defers the problem rather than resolving it."
+      },
+      {
+        "text": "By eliminating project risk altogether through the use of team self-organization and empowerment.",
+        "trap": "The correct choice — incremental delivery, frequent feedback, and short iterations expose uncertainty and limit… — addresses the situation more effectively."
+      }
+    ],
+    "explanation": "The Agile Practice Guide §3: iterative-incremental delivery is itself a risk-management strategy for requirement and technology uncertainty. PMBOK Guide 8 §2.7 acknowledges that delivery approach affects risk exposure.",
+    "references": [
+      "Agile Practice Guide §3",
+      "PMBOK Guide Eighth Edition §2.7",
+      "PMP Examination Content Outline 2026 - Business Environment Task 5"
+    ],
+    "tags": [
+      "business-environment",
+      "agile",
+      "risk",
+      "requirements"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is asked to prepare a business case for an internal initiative. What information should this document provide?"
+    ],
+    "correct": [
+      {
+        "text": "The business information needed to determine whether the initiative is worth the investment",
+        "why": "A business case supports investment decisions by showing whether the proposed initiative is justified from a business perspective."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Detailed commercial information to determine whether the organization can win the work",
+        "trap": "This fits a bid or sales decision rather than an internal business case"
+      },
+      {
+        "text": "Detailed project management information to determine whether the delivery approach will succeed",
+        "trap": "This focuses on delivery planning rather than investment justification"
+      },
+      {
+        "text": "Detailed technical information to determine whether the proposed solution will perform as intended",
+        "trap": "Technical feasibility may inform the case, but it is not the document’s primary purpose"
+      }
+    ],
+    "explanation": "A business case explains why an organization should invest in a proposed initiative by considering expected value, costs, risks, and strategic alignment. It helps decision-makers judge whether the effort should move forward. It is not the same as a delivery plan or a technical design document.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "You take over a project being performed under a time-and-materials contract and discover that two team members billed time to the customer without doing project work. The customer is unaware, and you confirm the charges were used to keep the employees billable. What should you do?"
+    ],
+    "correct": [
+      {
+        "text": "Remove the employees from the project and arrange for the customer to be refunded for the improper charges",
+        "why": "The project manager must address unethical billing immediately, stop the misconduct, and correct the harm to the customer."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Keep the employees on the project and assign them productive work going forward",
+        "trap": "Finding work later does not resolve the ethical breach or the improper billing already made"
+      },
+      {
+        "text": "Take no action because the customer is unlikely to notice",
+        "trap": "Ignoring misconduct violates professional responsibility and organizational integrity"
+      },
+      {
+        "text": "Identify who approved the billing and focus on holding that person accountable",
+        "trap": "Accountability matters, but correcting the unethical situation and customer impact comes first"
+      }
+    ],
+    "explanation": "Current PMI expectations emphasize ethics, stewardship, and transparency. When fraudulent or improper billing is discovered, the project manager should stop the behavior, protect the customer’s interests, and ensure corrective action is taken promptly.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "You are managing a project for a customer under a firm-fixed-price contract. The customer requests refinements they believe are included in the agreed price, but you assess them as a major scope increase. The customer insists the work must be done with no added cost or schedule impact. What should you do next?"
+    ],
+    "correct": [
+      {
+        "text": "Review the contract and scope-related agreements, then use dispute resolution procedures if the issue cannot be resolved collaboratively",
+        "why": "Under a fixed-price contract, the next step is to verify contractual and scope obligations and follow formal resolution paths when interpretation is disputed."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Approve the request, track the added effort, and bill the customer afterward",
+        "trap": "You cannot unilaterally perform disputed work and expect reimbursement without contractual agreement"
+      },
+      {
+        "text": "Perform earned value analysis and escalate the issue to the change control board for a decision",
+        "trap": "Earned value does not determine contractual entitlement or resolve scope interpretation disputes"
+      },
+      {
+        "text": "Coordinate with sales to prepare the strongest possible rejection of the request",
+        "trap": "The goal is to resolve the issue based on contract terms and relationship management, not simply reject the customer."
+      }
+    ],
+    "explanation": "PMI expects the project manager to act within governance, contract terms, and organizational policy while preserving the customer relationship. The correct response is to review the relevant agreements, clarify whether the request is in scope, and use formal dispute resolution only if direct resolution fails.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A product was released, and a follow-up survey showed its Net Promoter Score (NPS) was close to zero. What does this most likely indicate?"
+    ],
+    "correct": [
+      {
+        "text": "The product is not creating strong advocacy or strong dissatisfaction",
+        "why": "An NPS near zero generally indicates a neutral overall response, with neither strong promoter energy nor severe detractor sentiment dominating."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Users like the product, but their managers do not support it",
+        "trap": "NPS does not distinguish between users and managers in that way"
+      },
+      {
+        "text": "The product experience is highly frustrating for users",
+        "trap": "A highly frustrating experience would typically produce a strongly negative NPS, not one near zero"
+      },
+      {
+        "text": "The product is generating strong satisfaction and enthusiasm",
+        "trap": "Strong satisfaction and delight would typically produce a clearly positive NPS."
+      }
+    ],
+    "explanation": "In PMI terms, this is a benefits and value signal rather than a delivery metric. A near-zero NPS suggests the product is not yet creating meaningful customer enthusiasm, but it also is not failing so badly that detractors strongly outweigh promoters.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "When are bidder conferences typically held during a procurement?"
+    ],
+    "correct": [
+      {
+        "text": "Before sellers submit their bids or proposals.",
+        "why": "Bidder conferences are held before bid or proposal submission to ensure all prospective sellers have a common understanding of the procurement need."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "After the contract is awarded so alternatives remain available.",
+        "trap": "Once the contract is awarded, the bidder conference is no longer relevant"
+      },
+      {
+        "text": "After proposals are submitted but before the contract is awarded.",
+        "trap": "By that point proposals have already been prepared, so the conference is too late"
+      },
+      {
+        "text": "After separate technical meetings are completed with individual bidders.",
+        "trap": "Separate technical discussions are not the standard purpose or timing of a bidder conference"
+      }
+    ],
+    "explanation": "A bidder conference supports fairness, clarity, and consistent communication with potential sellers before they respond. It helps reduce misunderstandings and gives all bidders access to the same information before proposal preparation.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "An organization has many projects underway at the same time, and these projects draw from shared resources while supporting strategic objectives. What is this grouping of projects called?"
+    ],
+    "correct": [
+      {
+        "text": "Portfolio",
+        "why": "A portfolio is a collection of projects, programs, and other work grouped to support strategic business objectives."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Unassigned staff",
+        "trap": "This refers to resource availability, not a strategic grouping of work"
+      },
+      {
+        "text": "Project team",
+        "trap": "A project team supports one project rather than an organizational collection of initiatives"
+      },
+      {
+        "text": "Program team",
+        "trap": "A program team supports a program, not the broader grouping of multiple projects aligned to strategy"
+      }
+    ],
+    "explanation": "In PMI terminology, portfolios are managed to align investments and resources with organizational strategy. Shared resources may exist across the work, but the defining characteristic is strategic alignment rather than team structure.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "You lead the PMO in an organization running many concurrent projects that draw from the same pool of technical specialists. Leaders report growing delays, overloaded staff, and declining morale. What should the PMO do next?"
+    ],
+    "correct": [
+      {
+        "text": "Standardize and validate performance and resource data across projects, consolidate the information, and provide management with a clear view of the problem",
+        "why": "The PMO should first create reliable, consistent visibility across the portfolio so leadership can make informed decisions about resource constraints."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Immediately implement enterprise software to automatically level resources across all projects",
+        "trap": "A tool may help later, but implementing software before understanding the problem is premature"
+      },
+      {
+        "text": "Take no action unless senior leadership specifically requests PMO involvement",
+        "trap": "PMOs commonly support portfolio visibility and decision making proactively"
+      },
+      {
+        "text": "Review portfolio scheduling tools but avoid managing shared resource availability because that is outside the PMO’s role",
+        "trap": "Managing insight into shared resource capacity is a valid PMO responsibility in many organizations"
+      }
+    ],
+    "explanation": "PMI-aligned practice emphasizes governance, transparency, and decision support at the portfolio level. Before selecting solutions, the PMO should establish trustworthy data, identify the nature and scale of the overload, and communicate actionable insight to management.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A sponsor is considering moving team members from one software project that is more than 80% complete to another equally strategic software project that is behind schedule. What is the most likely outcome?"
+    ],
+    "correct": [
+      {
+        "text": "The first project will slow down, and the second project may also slow down as the reassigned team members ramp up.",
+        "why": "Moving people late in a project disrupts the original team and may not accelerate the receiving project because onboarding and coordination take time."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Reassigning people late in the work will improve cost efficiency across both projects.",
+        "trap": "Late resource shifts usually create inefficiency rather than improving cost performance."
+      },
+      {
+        "text": "Reassigning people late in the work will improve schedule performance across both projects.",
+        "trap": "Adding or moving people late does not typically create immediate schedule gains."
+      },
+      {
+        "text": "The combined projects will show a higher cost variance because returns naturally diminish when resources are consolidated.",
+        "trap": "Diminishing returns is too general and does not best explain the likely near-term impact on both projects."
+      }
+    ],
+    "explanation": "Under current PMI thinking, resource changes should be evaluated for system effects, team dynamics, and transition costs. In knowledge work such as software delivery, moving people late often reduces productivity on the source project and may not help the target project quickly because context transfer and collaboration overhead increase.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "When assessing a project's internal rate of return (IRR), what are you evaluating?"
+    ],
+    "correct": [
+      {
+        "text": "The discount rate at which the project's net present value becomes zero.",
+        "why": "IRR is the discount rate that makes the present value of expected benefits equal to the present value of costs."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The discounted time needed for the project to recover its original investment.",
+        "trap": "This describes discounted payback period, not IRR."
+      },
+      {
+        "text": "The level of downside risk the project can absorb before expected value turns negative.",
+        "trap": "This refers to risk tolerance, not a financial valuation measure."
+      },
+      {
+        "text": "The percentage return on the original investment over a defined period.",
+        "trap": "This is closer to a simple return measure, not the IRR calculation."
+      }
+    ],
+    "explanation": "IRR is used in project selection to compare the attractiveness of investment options. It represents the project's implied yield rate based on projected cash inflows and outflows over time.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Senior management is reviewing a proposed project but is unsure whether the investment is justified. A project manager is asked to prepare a document describing the expected benefits, including financial and nonfinancial value, and this document will later help evaluate whether the initiative was worthwhile. What document is this?"
+    ],
+    "correct": [
+      {
+        "text": "Project business case",
+        "why": "A business case justifies the investment by describing expected value and supporting the decision to approve the project."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Benefits management plan",
+        "trap": "A benefits management plan is primarily used to describe how benefits will be measured and sustained after approval"
+      },
+      {
+        "text": "Project charter",
+        "trap": "A project charter formally authorizes the project but does not serve as the main investment justification document"
+      },
+      {
+        "text": "Project statement of work",
+        "trap": "A statement of work describes required work or deliverables, not the business justification"
+      }
+    ],
+    "explanation": "Under current PMI guidance, the business case is used to support a go/no-go decision by explaining why the project should be undertaken. Once the initiative is approved, benefits-related artifacts may be used to track realization, but the investment justification still begins with the business case.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager is leading a project with contract partners in multiple countries. What should the project manager keep in mind when working with these agreements?"
+    ],
+    "correct": [
+      {
+        "text": "Local culture and laws may influence whether a contract is enforceable",
+        "why": "Contract enforceability can vary based on the legal and cultural context in which the agreement operates."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The seller is responsible for ensuring the procurement fully meets the project’s needs",
+        "trap": "The buyer must also define needs clearly and manage procurement appropriately, so responsibility is not solely the seller’s"
+      },
+      {
+        "text": "Clear contract language can overcome all differences in local laws",
+        "trap": "Even well-written contracts remain subject to applicable laws and legal interpretations"
+      },
+      {
+        "text": "Contracts should generally avoid appendices and annexes on projects",
+        "trap": "Appendices and annexes are common and can be useful when they improve clarity"
+      }
+    ],
+    "explanation": "PMI expects project managers to recognize that projects operate within broader organizational, legal, and cultural environments. For international contracts, local laws and business norms can materially affect how an agreement is interpreted and enforced.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A contractor has signed an agreement to deliver a project for a customer, and the customer's statement of work is incorporated into the contract as part of the binding agreement. What should the contractor do next to support effective project initiation and planning?"
+    ],
+    "correct": [
+      {
+        "text": "Ensure the project team understands that the contract statement of work is a key input to planning and delivery",
+        "why": "Once incorporated into the contract, the statement of work becomes part of the binding agreement and should guide how the seller plans and manages the work."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rely mainly on the main contract terms because the attached statement of work is less important",
+        "trap": "An incorporated statement of work remains contractually relevant and cannot be disregarded"
+      },
+      {
+        "text": "Treat the contract statement of work as the only binding source of direction for the project",
+        "trap": "The project must be guided by the full contract, not only one attachment"
+      },
+      {
+        "text": "Proceed by clarifying needs directly with the customer without relying on the contract documents",
+        "trap": "Direct clarification may help, but it does not replace the need to work from binding contract documents"
+      }
+    ],
+    "explanation": "In a contracted project, the seller's team needs a clear understanding of the contractual baseline for scope and obligations. PMI practice supports using the contract statement of work as an important planning input while aligning it with the rest of the agreement and delivery approach.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "medium",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager has just been assigned to an organizational change project that already includes a business case and a benefits management plan. Before moving toward project charter development, what should the project manager do first?"
+    ],
+    "correct": [
+      {
+        "text": "Review the business documents to understand the project objectives and expected business value",
+        "why": "Reviewing the business documents first helps the project manager understand why the project exists and how it is expected to support organizational goals."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Collect requirements so the scope statement and work breakdown structure can be developed",
+        "trap": "Requirements collection comes later and should be informed by the project purpose and value expectations"
+      },
+      {
+        "text": "Develop a backlog of product features and create a bill of materials",
+        "trap": "A backlog and bill of materials are not the first step and may not fit the delivery approach or project type"
+      },
+      {
+        "text": "Develop a resource plan showing assigned team members and availability",
+        "trap": "Resource planning should follow a clear understanding of the project's objectives and intended benefits"
+      }
+    ],
+    "explanation": "PMI expects the project manager to start by understanding the business context, desired outcomes, and value case for the project. That foundation supports informed chartering, stakeholder alignment, and appropriate planning decisions.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "oliver1",
+      "modernized"
+    ]
+  },
+  {
+    "schema": "question/v1",
+    "domain": "Business Environment",
+    "difficulty": "easy",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "A project manager identifies a low-probability risk that employee attendance at a company event may be lower than expected. The team decides not to take any specific action unless the risk occurs. Which risk response strategy is being used?"
+    ],
+    "correct": [
+      {
+        "text": "Acceptance",
+        "why": "Acceptance is appropriate when the team consciously decides to take no proactive action for a low-priority risk."
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Avoidance",
+        "trap": "Avoidance changes the plan to eliminate the threat entirely"
+      },
+      {
+        "text": "Mitigation",
+        "trap": "Mitigation reduces the probability or impact of the risk"
+      },
+      {
+        "text": "Transference",
+        "trap": "Transference shifts ownership or financial impact to a third party."
+      }
+    ],
+    "explanation": "In current PMI practice, not every risk requires an active response beyond monitoring. When a threat is low priority and the team chooses no immediate action, that is risk acceptance, often with a plan to respond only if the event happens.",
+    "references": [
+      "PMBOK Guide Eighth Edition",
+      "PMP Examination Content Outline 2026 - Business Environment"
+    ],
+    "tags": [
+      "business-environment",
+      "edwel1",
+      "modernized"
+    ]
   }
 ]

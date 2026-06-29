@@ -1,0 +1,36 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Agile & Hybrid Techniques",
+    "category": "Agile",
+    "summary": "Practical techniques for planning, prioritising the backlog, and choosing a delivery cadence across agile and hybrid projects.",
+    "sections": [
+      {
+        "heading": "Progressive elaboration & rolling wave planning",
+        "body": "Progressive elaboration means planning imminent work in detail while leaving distant work at a high level, then adding detail as you learn more. You commit to what is clear now and refine the rest as understanding and information improve.\n\nRolling wave planning applies this idea to scheduling: near-term work packages are decomposed to activity level, while later phases stay as coarse milestones or planning packages until they draw closer.\n\nBoth suit uncertain, long, or fast-changing projects and underpin hybrid delivery, where a stable overall plan coexists with adaptive detail emerging iteration by iteration.",
+        "tip": "Progressive elaboration adds detail over time; rolling wave is the same idea applied specifically to the schedule."
+      },
+      {
+        "heading": "Prioritising the backlog",
+        "body": "MoSCoW sorts backlog items into four bands:\n\n- Must have — non-negotiable; the release fails without it.\n- Should have — important but not vital; a painful omission with a workaround.\n- Could have — desirable, low impact; the first to drop under pressure.\n- Won't have (this time) — explicitly out of scope for now, recorded to manage expectations.\n\nOther common techniques: WSJF (Weighted Shortest Job First = cost of delay / job size, from SAFe) to sequence by economic value; the Kano model, classifying features as basic, performance, or delighter; and 100-point or dot voting for quick collaborative ranking.",
+        "tip": "The fourth MoSCoW band is 'Won't have this time' — deferred and recorded, not deleted.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='14' y='12' width='30' height='28' rx='4' fill='#B5462F'/><text x='29' y='31' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>M</text><text x='54' y='25' fill='currentColor' font-size='11'>Must have</text><text x='54' y='38' fill='currentColor' font-size='9'>non-negotiable — the release fails without it</text><rect x='14' y='48' width='30' height='28' rx='4' fill='#1F5FA8'/><text x='29' y='67' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>S</text><text x='54' y='61' fill='currentColor' font-size='11'>Should have</text><text x='54' y='74' fill='currentColor' font-size='9'>important, but has a workaround</text><rect x='14' y='84' width='30' height='28' rx='4' fill='#2F6F5E'/><text x='29' y='103' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>C</text><text x='54' y='97' fill='currentColor' font-size='11'>Could have</text><text x='54' y='110' fill='currentColor' font-size='9'>desirable; the first to drop under pressure</text><rect x='14' y='120' width='30' height='28' rx='4' fill='none' stroke='currentColor' stroke-width='1.3' stroke-dasharray='4 3'/><text x='29' y='139' fill='currentColor' font-size='13' text-anchor='middle' font-weight='bold'>W</text><text x='54' y='133' fill='currentColor' font-size='11'>Won't have (this time)</text><text x='54' y='146' fill='currentColor' font-size='9'>out of scope for now, recorded</text></svg>",
+          "caption": "MoSCoW: Must / Should / Could are in; Won't have is explicitly deferred."
+        }
+      },
+      {
+        "heading": "Scrum, Kanban & Scrumban",
+        "body": "These are three cadence choices for adaptive work:\n\n- Scrum — fixed-length, timeboxed iterations (sprints) with defined roles and events; strong for feature delivery against a prioritised backlog.\n- Kanban — continuous flow with WIP limits and no fixed iterations; strong for steady streams of varied work such as support or maintenance.\n- Scrumban — a hybrid that keeps Scrum's structure but pulls work continuously under WIP limits like Kanban; useful when transitioning between the two or smoothing unpredictable demand.",
+        "tip": "Steady, unpredictable inflow (e.g. support tickets) points to Kanban; planned feature batches point to Scrum."
+      },
+      {
+        "heading": "Choosing & combining (hybrid)",
+        "body": "Match cadence and level of detail to the nature of the work. Stable, well-understood scope can stay predictive; uncertain, fast-changing work suits an adaptive cadence.\n\nMany real projects are hybrid — for example, predictive delivery of hardware combined with agile development of the software that runs on it. See the Tailoring guide for how to weigh project, product, and organisational factors when deciding.",
+        "tip": "There is no single right approach — tailor the cadence to the work, not the work to the cadence."
+      }
+    ],
+    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban"],
+    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+  }
+]
