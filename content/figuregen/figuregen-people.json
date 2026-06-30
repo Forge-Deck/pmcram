@@ -8,7 +8,7 @@
     "difficulty": "hard",
     "freeSelect": true,
     "viewBox": [298, 200],
-    "prompt": "Bars are planned hours per week against a 40h capacity; weeks tagged CP carry critical-path work. Tap every week that is over capacity AND on the critical path — those must be levelled first or the project slips.",
+    "prompt": "Bars are planned hours per week against a 40h capacity. Tap every week that must be levelled first or the project slips.",
     "vars": {
       "hours": { "sampleInt": [28, 52], "count": 6 },
       "cpFlags": { "sampleInt": [0, 1], "count": 6 }
