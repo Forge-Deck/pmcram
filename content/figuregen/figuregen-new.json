@@ -252,7 +252,6 @@
     "difficulty": "medium",
     "viewBox": [320, 175],
     "prompt": "Two milestones sit on this schedule. Tap the one that marks {{mode == 1 ? 'project completion' : 'the project kickoff'}}.",
-    "caption": "Diamonds are zero-duration milestones; bars are tasks with duration.",
     "vars": {
       "mPair": { "sample": [0, 1, 2, 3, 4], "count": 2 },
       "mxA": { "int": [108, 188] },
@@ -341,8 +340,7 @@
         "over": "r5",
         "do": [
           { "op": "circle", "cx": "34 + i*64", "cy": 44, "r": 18, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.5 },
-          { "op": "text", "x": "34 + i*64", "y": 49, "text": "letters[i]", "size": 13, "anchor": "middle" },
-          { "op": "text", "x": "34 + i*64", "y": 82, "text": "full[i]", "size": 8, "anchor": "middle" }
+          { "op": "text", "x": "34 + i*64", "y": 49, "text": "letters[i]", "size": 14, "anchor": "middle" }
         ]
       }
     ],

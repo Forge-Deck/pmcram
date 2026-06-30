@@ -19,6 +19,7 @@
     "explanation": { "$ref": "#/$defs/expr" },
     "select": { "$ref": "#/$defs/expr" },
     "multi": { "type": "boolean" },
+    "freeSelect": { "type": "boolean" },
     "vars": { "type": "object" },
     "derived": { "type": "object", "additionalProperties": { "type": "string" } },
     "guard": { "type": "string" },

@@ -153,7 +153,6 @@
       222
     ],
     "prompt": "On this power/interest grid, tap the stakeholder you should manage closely.",
-    "caption": "Axes only — quadrant strategies not labelled.",
     "vars": {
       "names": {
         "sample": [
@@ -279,6 +278,7 @@
     "domain": "People",
     "topic": "RACI",
     "difficulty": "hard",
+    "freeSelect": true,
     "viewBox": [
       322,
       188
