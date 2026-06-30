@@ -1,0 +1,117 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Brads cheat sheet",
+    "category": "Exam Strategy",
+    "summary": "Master exam-thinking cheat sheet: how to dissect any question, the keyword→answer map, the high-yield traps, and quick-reference theory, formulas and contract/risk/schedule rules.",
+    "sections": [
+      {
+        "heading": "How to dissect any question (do this every time)",
+        "body": "Run this checklist on every question:\n\n- Read the LAST sentence first. What is it actually asking — what should the PM do FIRST, NEXT, BEST, or what is MOST important? The call word changes the answer.\n- Classify the situation: predictive / agile / hybrid? planning / executing / monitoring & controlling / closing? a current problem (issue) or a future uncertainty (risk)? a role question (who should act?) or a process question (what comes next?).\n- Scan for keyword triggers (next section).\n- Eliminate aggressively: anything that bypasses formal process (especially touching a baseline), jumps to \"escalate to the sponsor\" or \"remove the person\", or has the PM deciding for an agile team, is usually wrong. So is anything passive (\"just log it / just monitor / just inform\") when action is needed.\n- Choose the option that is proactive, follows the correct process/order, and gives authority to the right role.",
+        "tip": "\"First / Next\" rewards the correct process ORDER and the least-drastic correct action. \"Best / Most appropriate\" rewards the option that addresses the root cause through proper process."
+      },
+      {
+        "heading": "Agile vs predictive vs hybrid — read the signals",
+        "body": "Spotting the delivery approach tells you the flavour of the right answer.\n\n- Agile signals: self-organising team, sprint, iteration, user story, backlog, Product Owner, daily standup, increment. Correct-answer flavour: empower the team, diagnose WITH the team, support the PO, inspect-and-adapt.\n- Predictive signals: baseline, WBS, change request, CCB, critical path, earned value. Correct-answer flavour: follow formal process, submit a change request, respect the plan.\n- Hybrid signals: mixes both, or mentions tailoring. Correct-answer flavour: fit the tool to each part — structure where you need control, flexibility where you need learning.",
+        "tip": "Sprints / backlog / PO → lean Agile. Baselines / WBS / CCB / critical path → lean Predictive. Mixes both or \"tailoring\" → Hybrid. Don't apply pure agile or pure predictive to everything."
+      },
+      {
+        "heading": "The keyword → move map (memorise this)",
+        "body": "A large share of the exam is pattern-matching these triggers to the right move:\n\n- \"Baseline\" / \"approved schedule/cost/scope\" → raise a Change Request (Integrated Change Control).\n- \"Has happened / is happening / was pulled / is delaying\" → Issue Log.\n- \"May / could / potential / in the future\" → Risk Register.\n- \"New stakeholder / new role appeared\" → update the Stakeholder Engagement (Management) Plan.\n- \"Team is struggling / missing milestones / bored\" → meet and diagnose WITH the team (training, conflict, skills) before changing timelines or adding rewards.\n- \"Value is in doubt / long timeline / may not meet needs\" → build a prototype or MVP to show value.\n- \"Functional manager pulled/took the resource\" → talk to the functional manager FIRST to get them back.\n- \"Don't know current vs desired engagement\" → Stakeholder Engagement Assessment Matrix.\n- \"Stakeholders not attending meetings\" → reach out to them individually to understand why.\n- \"Delays in implementing risk responses\" → missing or unclear Risk Owners.\n- \"Keep projects aligned with business objectives across the org\" → PMO.\n- \"High-risk user stories\" → schedule them in EARLIER iterations.",
+        "tip": "Drill these until they're reflexes. On a close question, find the trigger phrase first — it usually decides the answer."
+      },
+      {
+        "heading": "Issue vs Risk — now vs later",
+        "body": "The single most repeated distinction. Ask: has it happened yet?\n\n- Issue = a current, realised problem (it is happening now) → Issue Log.\n- Risk = a future uncertain event (it might happen) → Risk Register.\n\nThe classic trap is treating a current, realised event as a future risk.",
+        "tip": "\"Has it happened?\" Yes → Issue Log. No / uncertain → Risk Register."
+      },
+      {
+        "heading": "Plan vs Register — the document trap",
+        "body": "Distractors constantly swap the Plan and the Register, for both risk and stakeholders.\n\n- A Plan describes HOW you'll do something — the strategy, methodology, roles, thresholds. Created (mostly) once during planning.\n  - Risk Management Plan = how risk will be run.\n  - Stakeholder Engagement Plan = how you'll engage each stakeholder.\n- A Register is the living LIST — the actual items, updated continuously.\n  - Risk Register = the individual risks, analysis, owners, responses.\n  - Stakeholder Register = the people, roles, interest/influence.\n\nWhen the engagement STRATEGY or risk APPROACH changes, you update the Plan — not just the Register.",
+        "tip": "Strategy / approach / how-we-engage → the PLAN. A specific item or person → the REGISTER."
+      },
+      {
+        "heading": "Risk management — the highest-yield area",
+        "body": "Know the process order cold:\n1. Plan Risk Management — defines HOW risk will be managed.\n2. Identify Risks — create the Risk Register (high-level first).\n3. Perform Qualitative Risk Analysis — prioritise by probability × impact.\n4. Perform Quantitative Risk Analysis — model the numeric effect (not always done).\n5. Plan Risk Responses — develop the response actions (the \"risk action plan\").\n6. Implement Risk Responses — owners carry them out.\n7. Monitor Risks — track residual/secondary risks, watch for new ones, check response effectiveness.\n\nResponse strategies:\n- Threats: Escalate, Avoid, Transfer, Mitigate, Accept.\n- Opportunities: Escalate, Exploit, Share, Enhance, Accept.\n\nRules: identify before you respond; when a new initiative or worry appears, identify high-level risks first (don't quantify yet); each response gets a Risk Owner who implements it; if something already identified as a risk needs handling, review the Risk Management Plan's strategy first.",
+        "tip": "New risk situation → identify/assess first, never jump to a number or a solution. \"Risk action plan\" = Plan Risk Responses, not the overall Risk Management Plan."
+      },
+      {
+        "heading": "Risk numbers & reserves (expansion)",
+        "body": "Often-confused risk concepts the exam loves:\n\n- EMV (Expected Monetary Value) = Probability × Impact. Sum the EMVs of identified risks to size contingency.\n- Contingency reserve = for KNOWN (identified) risks. It sits INSIDE the cost/schedule baseline and the PM can use it.\n- Management reserve = for UNKNOWN (unidentified) risks. It sits OUTSIDE the baseline and needs management approval to release.\n- Secondary risk = a new risk created BY a response you implemented.\n- Residual risk = the risk that REMAINS after a response.\n- Risk appetite / tolerance / threshold = how much risk the organisation will accept; thresholds are set in the Risk Management Plan.",
+        "tip": "Known risk → contingency reserve (in the baseline, PM controls). Unknown risk → management reserve (outside the baseline, needs approval)."
+      },
+      {
+        "heading": "Change control & baselines",
+        "body": "Once scope, schedule or cost is baselined you cannot edit it directly. Any baseline change runs through Perform Integrated Change Control: raise a formal Change Request → assess impact across all constraints → CCB decides → only then update the baseline and affected documents.\n\nMany documents update freely WITHOUT a change request: Stakeholder Register, Risk Register, Issue Log, Assumption Log, Lessons Learned Register.\n\nConfiguration management controls the product's specs/versions; change control governs changes to the plan. Even a longer-than-expected procurement lead time that shifts the schedule needs a Change Request.",
+        "tip": "\"Update / revise the baseline\" → Change Request, almost every time. Logs and registers are fair game to update without one."
+      },
+      {
+        "heading": "Roles & authority",
+        "body": "Keep these straight — the exam confuses them on purpose:\n\n- Project Manager — delivers the project day to day; in agile, facilitates and removes impediments.\n- Sponsor — funds and champions ONE project, owns the business case, removes high-level obstacles.\n- PMO (Project/Program Management Office) — sets standards, methods and governance, and can be a key decision-maker keeping projects aligned to business objectives ACROSS the organisation.\n- Product Owner — owns the product, the backlog and its priority, and what gets released.\n- Functional Manager — owns the people/resources in a matrix org.\n\nProgram = a group of related projects managed together for benefits you can't get separately. Portfolio = all projects/programs/operations aligned to strategy.",
+        "tip": "\"Aligns/standardises across projects\" = PMO. \"Funds & champions THIS project\" = Sponsor. Confusing the two is the classic trap."
+      },
+      {
+        "heading": "PM authority by org structure (expansion)",
+        "body": "How much power the PM has depends on the structure:\n\n- Functional — PM has little/no authority; the functional manager runs the show. PM is often a coordinator.\n- Weak matrix — PM is a coordinator/expediter; limited authority.\n- Balanced matrix — authority shared between PM and functional manager.\n- Strong matrix — PM has moderate-to-high authority; resources still report functionally.\n- Projectized — PM has high/full authority; the team reports to the PM.",
+        "tip": "More \"matrix/functional\" in the scenario → the PM must negotiate with functional managers for people, rather than direct them."
+      },
+      {
+        "heading": "Leadership styles (expansion)",
+        "body": "- Directive (Directing) — task and results focused; tells the team what and how. Good for crises, inexperienced teams, or when structure is needed.\n- Servant leadership — serves the team, removes impediments, builds the environment. The agile default.\n- Situational — adapt the style to the team's maturity: Directing → Coaching → Supporting → Delegating.\n- Transactional — motivates through rewards and penalties tied to performance.\n- Transformational — inspires through vision and growth.\n- Laissez-faire — hands-off; suits a highly capable, self-directed team (but risky if they're not).",
+        "tip": "Agile / self-organising team → servant leadership. Crisis or brand-new team → directive. Match the style to the team's maturity."
+      },
+      {
+        "heading": "Motivation theories (expansion)",
+        "body": "High-yield and easily confused:\n\n- Maslow — hierarchy of needs (physiological → safety → social → esteem → self-actualisation); lower needs first.\n- Herzberg — hygiene factors (salary, conditions, policy) only PREVENT dissatisfaction; motivators (achievement, recognition, growth) drive satisfaction.\n- McGregor — Theory X (people dislike work, need control) vs Theory Y (people are self-motivated, seek responsibility).\n- McClelland — needs for Achievement, Affiliation, Power.\n- Vroom's Expectancy — motivation = Expectancy × Instrumentality × Valence: effort → performance → a reward the person actually values.\n- Ouchi — Theory Z: long-term employment and loyalty drive productivity.",
+        "tip": "\"Effort leads to a reward they value\" = Expectancy. \"Pay/conditions don't motivate, they only stop dissatisfaction\" = Herzberg."
+      },
+      {
+        "heading": "Conflict & team development (expansion)",
+        "body": "Conflict modes (Thomas-Kilmann):\n- Collaborate / Problem-solve — confront the issue with those involved for a win/win. The PMP-preferred mode in most cases.\n- Compromise — both give something up (lose/lose).\n- Smooth / Accommodate — emphasise agreement, downplay differences.\n- Force / Direct — impose a solution (win/lose); fast but damages relationships; for emergencies.\n- Withdraw / Avoid — retreat; only for trivial issues or to cool down.\n\nMost project conflict is over schedules, priorities and resources — not personalities. Tuckman's stages: Forming → Storming → Norming → Performing → Adjourning (a re-formed team can regress).",
+        "tip": "When in doubt, pick Collaborate/Confront — address the root cause directly with the people involved. Avoid/Force are rarely the best answer."
+      },
+      {
+        "heading": "Stakeholder engagement",
+        "body": "- Plan vs Register: update the Engagement (Management) Plan when roles or strategies change; the Register holds the who.\n- Stakeholder Engagement Assessment Matrix — maps each stakeholder's CURRENT vs DESIRED engagement (Unaware → Resistant → Neutral → Supportive → Leading). Use it when you don't know the gap.\n- Power/Interest grid — high/high = Manage Closely; high power/low interest = Keep Satisfied; low power/high interest = Keep Informed; low/low = Monitor.\n- Salience model — Power, Legitimacy, Urgency (all three = Definitive, top priority).\n- Stakeholders not attending → reach out individually to understand why; don't just escalate or cancel.",
+        "tip": "Engagement is tailored per stakeholder — and that tailoring lives in the PLAN, not the register."
+      },
+      {
+        "heading": "Procurement & contracts (expansion)",
+        "body": "Risk shifts with contract type:\n\n- Fixed Price — seller carries the most risk. FFP (firm fixed); FPIF (incentive); FPEPA (economic price adjustment) for long-term/international deals with inflation or currency risk.\n- Cost-Reimbursable — buyer carries the most risk. CPFF (fixed fee); CPIF (incentive fee); CPAF (award fee).\n- Time & Material (T&M) — medium risk; good for staff augmentation or small/uncertain scope.\n\nTransfer risk (e.g. penalty clauses, warranties) → contract or insurance. Make-or-buy compares building vs buying. For FPIF, the Point of Total Assumption (PTA) is where the seller starts absorbing all extra cost.",
+        "tip": "Well-defined scope → Fixed Price. Unclear/evolving scope → Cost-Reimbursable or T&M. Long international + inflation → FPEPA. Transfer a specific risk → insurance/contract clause."
+      },
+      {
+        "heading": "Schedule (expansion)",
+        "body": "- Critical path = the LONGEST path through the network; it has zero float and drives the project duration. With two independent paths, the critical one is the longer.\n- Float/slack: total float = how long an activity can slip without delaying the project end; free float = without delaying its successor. Critical path activities have zero total float.\n- Compression: Crashing = add resources to the critical path (costs money). Fast-tracking = run sequential work in parallel (adds risk/rework). Both only help on the critical path.\n- Leads (overlap a successor) and lags (insert a wait).\n- Resource leveling can extend the schedule; resource smoothing stays within float.\n- A longer-than-planned procurement lead time still needs a Change Request to move the baseline.",
+        "tip": "Two paths → critical = longest. Need it shorter: Crash = money, Fast-track = risk. Only the critical path matters for either."
+      },
+      {
+        "heading": "Estimating & earned value — quick reference (expansion)",
+        "body": "Estimating methods:\n- Analogous — top-down from a similar past project; fast, cheap, least accurate.\n- Parametric — rate × quantity (e.g. cost per unit); accurate if the data is good.\n- Bottom-up — sum the detailed pieces; most accurate, most effort.\n- Three-point (PERT) — tE = (O + 4M + P) / 6; range/standard deviation ≈ (P − O) / 6.\n\nEarned Value (memorise the signs):\n- PV planned, EV earned, AC actual.\n- Schedule Variance SV = EV − PV; Cost Variance CV = EV − AC. Negative = behind / over.\n- SPI = EV / PV; CPI = EV / AC. Below 1 = behind / over.\n- EAC = BAC / CPI (when the current rate continues); VAC = BAC − EAC.",
+        "tip": "Variance = EV minus (PV or AC). Index = EV over (PV or AC). Anything negative or below 1 is bad. Schedule uses PV; cost uses AC."
+      },
+      {
+        "heading": "Quality — quick reference (expansion)",
+        "body": "- Cost of Quality: conformance costs (Prevention + Appraisal — building it right and checking) vs nonconformance costs (Internal + External Failure — fixing/escaping defects). Investing in prevention is cheaper than paying for failure.\n- Control limits vs specification limits: control limits are the process's own voice (typically ±3σ, set by the process); specification limits come from the customer. A point inside spec can still be out of control, and vice-versa.\n- Rule of seven: seven consecutive points on one side of the mean signals a non-random pattern to investigate — even with no limit breached.\n- Prevention over inspection; quality is planned in, not inspected in.",
+        "tip": "Prevention (conformance) beats failure (nonconformance) on cost. Control limits = the process; spec limits = the customer."
+      },
+      {
+        "heading": "Common wrong-answer patterns — eliminate fast",
+        "body": "On a close call, strike out options that:\n\n- Bypass formal process — especially editing a baseline without a Change Request.\n- Have the PM deciding for a self-organising agile team.\n- Jump straight to \"escalate to the sponsor\" or \"remove/replace the person\".\n- Are passive (\"just inform\", \"just monitor\", \"just log it\") when action is needed.\n- Treat a current, realised problem as a future risk.\n- Update the wrong artifact (the Register when it should be the Plan).\n- Ignore the correct process order, or jump to quantification before identification.\n- Assume the team needs rewards when the real issue is support, skills or conflict.",
+        "tip": "If an option does any of these, it's probably the distractor — even if it sounds reasonable."
+      },
+      {
+        "heading": "When in doubt — the mindset table",
+        "body": "- Baseline needs changing → Change Request (not modify directly).\n- Current problem → Issue Log (not Risk Register).\n- Future uncertainty → Risk Register (not Issue Log).\n- Agile team struggling → diagnose WITH the team (not PM decides / change the timeline).\n- Value questioned → Prototype / MVP (not extend the timeline or just log it).\n- Resource pulled by a functional manager → talk to the functional manager first (not analyse impact first).\n- New stakeholder / role → update the Stakeholder Engagement Plan (not the register only).\n- Organisation-wide alignment → PMO (not the Sponsor).\n- High-risk items in agile → address EARLIER (not later).\n- Conflict → collaborate/confront the root cause (not avoid or force).",
+        "tip": "These cover a large fraction of the exam. If you can recall the left column from the right-hand cue, you'll bank easy marks."
+      },
+      {
+        "heading": "Exam-day reminders",
+        "body": "- Read the LAST sentence first, then the scenario.\n- \"First / next / best\" → think process order and the least-drastic correct action.\n- Agile/hybrid questions → favour empowerment, team diagnosis and Product Owner authority.\n- Predictive questions → favour formal process and Change Requests for baselines.\n- Eliminate answers that are passive, skip process, or put the wrong person in charge.\n- Manage the clock — flag and move on; don't sink five minutes into one item.\n- Trust the PMP mindset: proactive, servant-leader, value-driven, process-respecting.",
+        "tip": "Most ties break the same way: the proactive option that follows process and empowers the right role wins."
+      }
+    ],
+    "tags": ["exam strategy", "personal", "cheat sheet", "risk", "agile", "leadership", "procurement", "earned value", "quality", "schedule"],
+    "source": "Personal master cheat sheet (PMBOK 7 focus)"
+  }
+]
