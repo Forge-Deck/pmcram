@@ -133,9 +133,10 @@
     "derived": {
       "causes": "['Investigation shows an operator skipped a required training step.', 'The approval workflow has no quality checkpoint, so errors pass straight through.', 'A machine was found running well out of calibration.', 'Defects appear only on units built from one supplier’s batch of raw parts.', 'Two gauges on the line give inconsistent readings for the same part.', 'High humidity on the floor warped the parts before assembly.']",
       "causeCats": "['People','Process','Machines','Materials','Measurement','Environment']",
+      "descByCause": "['skills, training and staffing', 'the workflow, procedures and checkpoints', 'tools, calibration and maintenance', 'inputs, parts and supplies', 'gauges, inspection and data accuracy', 'workplace conditions like heat, humidity and space']",
       "topCats": "[['People',70],['Process',146],['Measurement',222]]",
       "botCats": "[['Machines',92],['Materials',168],['Environment',244]]",
-      "regs": "[['People',44,24],['Process',120,24],['Measurement',196,24],['Machines',66,170],['Materials',142,170],['Environment',218,170]]"
+      "regs": "[['People',44,24,'skills, training and staffing'],['Process',120,24,'the workflow, procedures and checkpoints'],['Measurement',196,24,'gauges, inspection and data accuracy'],['Machines',66,170,'tools, calibration and maintenance'],['Materials',142,170,'inputs, parts and supplies'],['Environment',218,170,'workplace conditions like heat, humidity and space']]"
     },
     "draw": [
       { "op": "arrow", "x1": 24, "y1": 110, "x2": 314, "y2": 110, "width": 1.6, "head": 14 },
@@ -163,9 +164,9 @@
       "repeat": "regs",
       "as": "g",
       "items": [
-        { "id": "g[0]", "x": "g[1] - 36", "y": "g[2]", "w": 72, "h": 30, "correct": "g[0] == causeCats[ci]", "label": "g[0]", "why": "g[0] == causeCats[ci] ? (g[0] + ' — that is where this cause belongs.') : (g[0] + ' is a different category.')" }
+        { "id": "g[0]", "x": "g[1] - 36", "y": "g[2]", "w": 72, "h": 30, "correct": "g[0] == causeCats[ci]", "label": "g[0]", "why": "g[0] == causeCats[ci] ? (g[0] + ' covers ' + g[3] + ' — and this cause is a breakdown in exactly that.') : (g[0] + ' covers ' + g[3] + ', which is not what this cause describes.')" }
       ]
     },
-    "explanation": "A fishbone groups causes by category (the 6 M's). This cause is a {{causeCats[ci]}} one."
+    "explanation": "A fishbone groups causes by the 6 M's. This is a {{causeCats[ci]}} cause — it is about {{descByCause[ci]}}, which is why it hangs off that branch rather than the others."
   }
 ]

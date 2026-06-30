@@ -8,7 +8,7 @@
     "difficulty": "medium",
     "freeSelect": true,
     "viewBox": [302, 188],
-    "prompt": "Defect causes, ranked. Under the 80/20 rule, tap every category in the vital few — the ones to fix first to clear ~80% of the defects.",
+    "prompt": "{{context}}, ranked highest-first. Under the 80/20 rule, tap every category in the vital few — fix those first to clear ~80% of the total.",
     "caption": "Bars = counts; line = cumulative %.",
     "vars": {
       "v0": { "int": [44, 64] },
@@ -17,7 +17,8 @@
       "v3": { "int": [6, 11] },
       "v4": { "int": [3, 6] },
       "v5": { "int": [2, 4] },
-      "cats": { "value": ["Reqs", "Test data", "Env", "UI", "Training", "Docs"] }
+      "cats": { "sample": ["Reqs", "Test data", "Env", "UI", "Training", "Docs", "Config", "Access", "Data qual", "Vendor", "Comms", "Tooling"], "count": 6 },
+      "context": { "pick": ["Defect causes", "Customer complaints", "Support tickets", "Cost drivers", "Rework reasons"] }
     },
     "derived": {
       "s": "[v0, v1, v2, v3, v4, v5]",
@@ -69,7 +70,7 @@
         }
       ]
     },
-    "explanation": "The vital few run up to where the cumulative line first crosses 80% (here \"{{cats[cutoff]}}\"). Fixing those clears ~80% of the defects, so they take priority over the trivial many."
+    "explanation": "The vital few run up to where the cumulative line first crosses 80% (here \"{{cats[cutoff]}}\"). Fixing those clears ~80% of the total, so they take priority over the trivial many."
   },
   {
     "schema": "figuregen/v1",
