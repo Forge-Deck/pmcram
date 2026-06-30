@@ -6,10 +6,35 @@
     "domain": "Process",
     "topic": "Cost of quality",
     "difficulty": "medium",
-    "viewBox": [270, 204],
+    "viewBox": [
+      270,
+      204
+    ],
     "prompt": "{{mode==1 ? 'Failure costs are eating the budget. To cut the total cost of quality, tap the category to invest MORE in to stop defects upstream.' : 'Tap the bar for the largest cost of NONconformance.'}}",
     "caption": "Prevention & appraisal = conformance; internal & external failure = nonconformance.",
-    "vars": { "v": { "sampleInt": [6, 24], "count": 4 }, "order": { "shuffle": [0, 1, 2, 3] }, "mode": { "pick": [0, 1] } },
+    "vars": {
+      "v": {
+        "sampleInt": [
+          6,
+          24
+        ],
+        "count": 4
+      },
+      "order": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "mode": {
+        "pick": [
+          0,
+          1
+        ]
+      }
+    },
     "guard": "v[2] != v[3]",
     "derived": {
       "baseN": "['Prevention','Appraisal','Internal','External']",
@@ -20,15 +45,45 @@
       "worstName": "v[2] > v[3] ? 'Internal failure' : 'External failure'"
     },
     "draw": [
-      { "op": "line", "x1": 24, "y1": 168, "x2": 264, "y2": 168, "width": 1.3 },
+      {
+        "op": "line",
+        "x1": 24,
+        "y1": 168,
+        "x2": 264,
+        "y2": 168,
+        "width": 1.3
+      },
       {
         "op": "repeat",
         "over": "bars",
         "as": "b",
         "do": [
-          { "op": "rect", "x": "30 + i*60", "y": "168 - 138*b[1]/26", "w": 46, "h": "138*b[1]/26", "rx": 3, "fill": "ink", "fillOpacity": 0.1 },
-          { "op": "text", "x": "30 + i*60 + 23", "y": "168 - 138*b[1]/26 - 4", "text": "b[1]", "size": 8, "anchor": "middle" },
-          { "op": "text", "x": "30 + i*60 + 23", "y": 184, "text": "b[0]", "size": 7.5, "anchor": "middle" }
+          {
+            "op": "rect",
+            "x": "30 + i*60",
+            "y": "168 - 138*b[1]/26",
+            "w": 46,
+            "h": "138*b[1]/26",
+            "rx": 3,
+            "fill": "ink",
+            "fillOpacity": 0.1
+          },
+          {
+            "op": "text",
+            "x": "30 + i*60 + 23",
+            "y": "168 - 138*b[1]/26 - 4",
+            "text": "b[1]",
+            "size": 8,
+            "anchor": "middle"
+          },
+          {
+            "op": "text",
+            "x": "30 + i*60 + 23",
+            "y": 184,
+            "text": "b[0]",
+            "size": 7.5,
+            "anchor": "middle"
+          }
         ]
       }
     ],
@@ -57,43 +112,118 @@
     "domain": "Process",
     "topic": "Quality / specification",
     "difficulty": "hard",
-    "viewBox": [360, 188],
-    "prompt": "Every bar is within the specification limits, but the process is poorly centred. Tap the bar with the least clearance to a limit — the first output to fail if the process drifts.",
-    "vars": { "side": { "pick": [0, 1] }, "j": { "sampleInt": [-7, 7], "count": 5 } },
+    "freeSelect": true,
+    "viewBox": [
+      360,
+      188
+    ],
+    "prompt": "Tap every bar that falls outside the specification limits — check against BOTH the LSL and the USL.",
+    "caption": "Dashed lines = LSL and USL.",
+    "vars": {
+      "outLow": {
+        "int": [
+          0,
+          2
+        ]
+      },
+      "outHigh": {
+        "int": [
+          0,
+          2
+        ]
+      },
+      "h": {
+        "sampleInt": [
+          55,
+          130
+        ],
+        "count": 9
+      },
+      "r9": {
+        "range": 9
+      }
+    },
+    "guard": "outLow + outHigh >= 1 && outLow + outHigh <= 3",
     "derived": {
-      "x0": "side==0 ? 192 : 56",
-      "heights": "[42+j[0], 82+j[1], 122+j[2], 88+j[3], 50+j[4]]",
-      "badIdx": "side==0 ? 4 : 0",
-      "nearName": "side==0 ? 'USL' : 'LSL'"
+      "lslX": "40 + outLow*32 - 5",
+      "uslX": "40 + (9-outHigh)*32 - 5",
+      "nOut": "outLow + outHigh"
     },
     "draw": [
-      { "op": "line", "x1": 44, "y1": 168, "x2": 352, "y2": 168, "width": 1.3 },
-      { "op": "line", "x1": 50, "y1": 24, "x2": 50, "y2": 168, "width": 1.1, "dash": "5 3" },
-      { "op": "text", "x": 50, "y": 20, "text": "'LSL'", "size": 8, "anchor": "middle" },
-      { "op": "line", "x1": 344, "y1": 24, "x2": 344, "y2": 168, "width": 1.1, "dash": "5 3" },
-      { "op": "text", "x": 344, "y": 20, "text": "'USL'", "size": 8, "anchor": "middle" },
+      {
+        "op": "line",
+        "x1": 34,
+        "y1": 168,
+        "x2": 336,
+        "y2": 168,
+        "width": 1.3
+      },
+      {
+        "op": "line",
+        "x1": "lslX",
+        "y1": 24,
+        "x2": "lslX",
+        "y2": 168,
+        "width": 1.1,
+        "dash": "5 3"
+      },
+      {
+        "op": "text",
+        "x": "lslX",
+        "y": 20,
+        "text": "'LSL'",
+        "size": 8,
+        "anchor": "middle"
+      },
+      {
+        "op": "line",
+        "x1": "uslX",
+        "y1": 24,
+        "x2": "uslX",
+        "y2": 168,
+        "width": 1.1,
+        "dash": "5 3"
+      },
+      {
+        "op": "text",
+        "x": "uslX",
+        "y": 20,
+        "text": "'USL'",
+        "size": 8,
+        "anchor": "middle"
+      },
       {
         "op": "repeat",
-        "over": "heights",
-        "as": "h",
-        "do": [{ "op": "rect", "x": "x0 + i*30", "y": "168 - h", "w": 24, "h": "h", "rx": 2, "fill": "ink", "fillOpacity": 0.1 }]
+        "over": "r9",
+        "do": [
+          {
+            "op": "rect",
+            "x": "40 + i*32",
+            "y": "168 - h[i]",
+            "w": 26,
+            "h": "h[i]",
+            "rx": 2,
+            "fill": "ink",
+            "fillOpacity": 0.1
+          }
+        ]
       }
     ],
     "regions": {
-      "repeat": "heights",
-      "as": "h",
+      "repeat": "r9",
       "items": [
         {
           "id": "i",
-          "x": "x0 + i*30 - 3",
+          "x": "40 + i*32 - 3",
           "y": 24,
-          "w": 30,
+          "w": 32,
           "h": 144,
-          "correct": "i == badIdx",
-          "why": "i == badIdx ? ('Closest to the ' + nearName + ' with almost no margin — the first to go out of spec if the process drifts.') : 'Has comfortable clearance to both limits.'"
+          "correct": "(i < outLow) || (i >= 9-outHigh)",
+          "label": "'Bar ' + (i+1)",
+          "why": "(i < outLow || i >= 9-outHigh) ? ('Beyond the ' + (i < outLow ? 'LSL' : 'USL') + ' — out of specification.') : ((i==outLow || i==8-outHigh) ? 'Sits just inside a limit — tempting, but still in spec.' : 'Comfortably within the limits.')"
         }
       ]
     },
-    "explanation": "Inside the limits isn't enough: this process is shifted toward the {{nearName}}, so the nearest bar has almost no margin. Centring the process (better Cpk) would restore clearance on both sides."
+    "explanation": "{{nOut}} bar(s) fall outside the limits ({{outLow}} below the LSL, {{outHigh}} above the USL). Height is a red herring — a tall in-spec bar is fine, a short out-of-spec bar is still a defect; only the position relative to each limit decides it."
   }
 ]
