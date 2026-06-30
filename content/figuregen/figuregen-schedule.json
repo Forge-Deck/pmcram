@@ -56,19 +56,20 @@
     "kind": "hotspot",
     "domain": "Process",
     "topic": "Control charts",
-    "difficulty": "medium",
+    "difficulty": "hard",
+    "freeSelect": true,
     "viewBox": [312, 188],
-    "prompt": "Tap the data point that signals the process is out of control.",
+    "prompt": "Quality is being monitored on this control chart. Tap every point that signals special-cause variation (a breach of a control limit) — there may be more than one.",
     "caption": "Dashed = control limits; solid = mean.",
     "vars": {
-      "bad": { "int": [1, 7] },
-      "above": { "pick": [0, 1] },
-      "inside": { "sampleInt": [58, 134], "count": 8 },
-      "hi": { "int": [20, 32] },
-      "lo": { "int": [160, 172] }
+      "inside": { "sampleInt": [56, 136], "count": 8 },
+      "badFlags": { "sampleInt": [0, 1], "count": 8 },
+      "dir": { "sampleInt": [0, 1], "count": 8 }
     },
+    "guard": "count([badFlags[0]==1,badFlags[1]==1,badFlags[2]==1,badFlags[3]==1,badFlags[4]==1,badFlags[5]==1,badFlags[6]==1,badFlags[7]==1]) >= 1 && count([badFlags[0]==1,badFlags[1]==1,badFlags[2]==1,badFlags[3]==1,badFlags[4]==1,badFlags[5]==1,badFlags[6]==1,badFlags[7]==1]) <= 3",
     "derived": {
-      "ys": "[bad==0?(above?hi:lo):inside[0], bad==1?(above?hi:lo):inside[1], bad==2?(above?hi:lo):inside[2], bad==3?(above?hi:lo):inside[3], bad==4?(above?hi:lo):inside[4], bad==5?(above?hi:lo):inside[5], bad==6?(above?hi:lo):inside[6], bad==7?(above?hi:lo):inside[7]]"
+      "nBad": "count([badFlags[0]==1,badFlags[1]==1,badFlags[2]==1,badFlags[3]==1,badFlags[4]==1,badFlags[5]==1,badFlags[6]==1,badFlags[7]==1])",
+      "ys": "[badFlags[0]==1 ? (dir[0]==1 ? (28+inside[0]%12) : (154+inside[0]%12)) : inside[0], badFlags[1]==1 ? (dir[1]==1 ? (28+inside[1]%12) : (154+inside[1]%12)) : inside[1], badFlags[2]==1 ? (dir[2]==1 ? (28+inside[2]%12) : (154+inside[2]%12)) : inside[2], badFlags[3]==1 ? (dir[3]==1 ? (28+inside[3]%12) : (154+inside[3]%12)) : inside[3], badFlags[4]==1 ? (dir[4]==1 ? (28+inside[4]%12) : (154+inside[4]%12)) : inside[4], badFlags[5]==1 ? (dir[5]==1 ? (28+inside[5]%12) : (154+inside[5]%12)) : inside[5], badFlags[6]==1 ? (dir[6]==1 ? (28+inside[6]%12) : (154+inside[6]%12)) : inside[6], badFlags[7]==1 ? (dir[7]==1 ? (28+inside[7]%12) : (154+inside[7]%12)) : inside[7]]"
     },
     "draw": [
       { "op": "line", "x1": 40, "y1": 40, "x2": 266, "y2": 40, "width": 1, "dash": "4 4" },
@@ -99,14 +100,13 @@
           "y": "y - 11",
           "w": 22,
           "h": 22,
-          "correct": "i == bad",
+          "correct": "badFlags[i]==1",
           "label": "'Point ' + (i+1)",
-          "why": "i == bad ? ('Beyond the ' + (above ? 'upper' : 'lower') + ' control limit — an out-of-control signal.') : 'Within the control limits.'"
+          "why": "badFlags[i]==1 ? ('Beyond the ' + (dir[i]==1 ? 'upper (UCL)' : 'lower (LCL)') + ' limit — special-cause variation.') : 'Within the control limits — common-cause variation.'"
         }
       ]
     },
-    "select": 1,
-    "explanation": "A process is out of control when a point falls outside the control limits. Point {{bad+1}} breaches the {{above ? 'UCL' : 'LCL'}}; the rest sit within the limits."
+    "explanation": "Special-cause variation shows as points beyond the control limits. {{nBad}} point(s) breach a limit here; the rest are common-cause variation within the limits, which you leave alone."
   },
   {
     "schema": "figuregen/v1",

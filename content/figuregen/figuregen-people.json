@@ -5,26 +5,31 @@
     "kind": "hotspot",
     "domain": "People",
     "topic": "Resource levelling",
-    "difficulty": "medium",
-    "viewBox": [298, 188],
-    "prompt": "Planned hours per week against a 40h capacity. Tap the week with the greatest over-allocation.",
-    "caption": "Bars = planned hours; dashed line = capacity.",
-    "vars": { "hours": { "sampleInt": [28, 52], "count": 6 } },
-    "guard": "max(hours) > 40 && count([hours[0]>40,hours[1]>40,hours[2]>40,hours[3]>40,hours[4]>40,hours[5]>40]) >= 2 && count([hours[0]==max(hours),hours[1]==max(hours),hours[2]==max(hours),hours[3]==max(hours),hours[4]==max(hours),hours[5]==max(hours)]) == 1",
-    "derived": { "worst": "argmax(hours)" },
+    "difficulty": "hard",
+    "freeSelect": true,
+    "viewBox": [298, 200],
+    "prompt": "Bars are planned hours per week against a 40h capacity; weeks tagged CP carry critical-path work. Tap every week that is over capacity AND on the critical path — those must be levelled first or the project slips.",
+    "vars": {
+      "hours": { "sampleInt": [28, 52], "count": 6 },
+      "cpFlags": { "sampleInt": [0, 1], "count": 6 }
+    },
+    "guard": "count([hours[0]>40 && cpFlags[0]==1, hours[1]>40 && cpFlags[1]==1, hours[2]>40 && cpFlags[2]==1, hours[3]>40 && cpFlags[3]==1, hours[4]>40 && cpFlags[4]==1, hours[5]>40 && cpFlags[5]==1]) >= 1 && count([hours[0]>40, hours[1]>40, hours[2]>40, hours[3]>40, hours[4]>40, hours[5]>40]) >= count([hours[0]>40 && cpFlags[0]==1, hours[1]>40 && cpFlags[1]==1, hours[2]>40 && cpFlags[2]==1, hours[3]>40 && cpFlags[3]==1, hours[4]>40 && cpFlags[4]==1, hours[5]>40 && cpFlags[5]==1]) + 1",
+    "derived": {
+      "nCorr": "count([hours[0]>40 && cpFlags[0]==1, hours[1]>40 && cpFlags[1]==1, hours[2]>40 && cpFlags[2]==1, hours[3]>40 && cpFlags[3]==1, hours[4]>40 && cpFlags[4]==1, hours[5]>40 && cpFlags[5]==1])"
+    },
     "draw": [
       { "op": "line", "x1": 34, "y1": 168, "x2": 292, "y2": 168, "width": 1.3 },
       { "op": "line", "x1": 34, "y1": 20, "x2": 34, "y2": 168, "width": 1.3 },
       { "op": "line", "x1": 34, "y1": "168 - 40*148/56", "x2": 292, "y2": "168 - 40*148/56", "width": 1.1, "dash": "5 3" },
-      { "op": "text", "x": 292, "y": "168 - 40*148/56 - 3", "text": "'capacity 40h'", "size": 8, "anchor": "end" },
+      { "op": "text", "x": 30, "y": "168 - 40*148/56 + 3", "text": "'40h'", "size": 8, "anchor": "end" },
       {
         "op": "repeat",
         "over": "hours",
         "as": "h",
         "do": [
           { "op": "rect", "x": "40 + i*42", "y": "168 - h*148/56", "w": 34, "h": "h*148/56", "rx": 3, "fill": "ink", "fillOpacity": 0.1 },
-          { "op": "text", "x": "40 + i*42 + 17", "y": "168 - h*148/56 - 3", "text": "h", "size": 8, "anchor": "middle" },
-          { "op": "text", "x": "40 + i*42 + 17", "y": 183, "text": "'Wk' + (i+1)", "size": 8, "anchor": "middle" }
+          { "op": "text", "x": "40 + i*42 + 17", "y": 182, "text": "'Wk' + (i+1)", "size": 8, "anchor": "middle" },
+          { "op": "text", "x": "40 + i*42 + 17", "y": 194, "text": "cpFlags[i]==1 ? 'CP' : ''", "size": 7.5, "anchor": "middle", "color": "blue" }
         ]
       }
     ],
@@ -38,12 +43,12 @@
           "y": 20,
           "w": 34,
           "h": 148,
-          "correct": "i == worst",
+          "correct": "h > 40 && cpFlags[i]==1",
           "label": "'Week ' + (i+1)",
-          "why": "h > 40 ? ('Booked ' + h + 'h — over by ' + (h-40) + 'h' + (i==worst ? ' (the most).' : '.')) : ('Booked ' + h + 'h — within capacity.')"
+          "why": "(h > 40 && cpFlags[i]==1) ? ('Booked ' + h + 'h (over by ' + (h-40) + 'h) and on the critical path — level this first.') : (h > 40 ? ('Over by ' + (h-40) + 'h, but off the critical path — levelling here won’t protect the end date.') : (cpFlags[i]==1 ? ('Critical-path work, but ' + h + 'h is within the 40h capacity.') : ('Within capacity and off the critical path.')))"
         }
       ]
     },
-    "explanation": "Week {{worst+1}} is booked at {{hours[worst]}}h — {{hours[worst]-40}}h over the 40h capacity, the largest overage to level first."
+    "explanation": "Level the weeks that are BOTH over capacity AND on the critical path first — easing over-allocation off the critical path doesn't protect the finish date. {{nCorr}} week(s) qualify here."
   }
 ]
