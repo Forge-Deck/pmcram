@@ -6,24 +6,24 @@
     "domain": "Process",
     "topic": "Pareto analysis",
     "difficulty": "medium",
+    "freeSelect": true,
     "viewBox": [302, 188],
-    "prompt": "Tap the bar where the cumulative line first reaches 80% — the vital-few cut-off.",
+    "prompt": "Defect causes, ranked. Under the 80/20 rule, tap every category in the vital few — the ones to fix first to clear ~80% of the defects.",
     "caption": "Bars = counts; line = cumulative %.",
     "vars": {
-      "c": { "sampleInt": [6, 40], "count": 6 },
+      "v0": { "int": [44, 64] },
+      "v1": { "int": [24, 36] },
+      "v2": { "int": [12, 20] },
+      "v3": { "int": [6, 11] },
+      "v4": { "int": [3, 6] },
+      "v5": { "int": [2, 4] },
       "cats": { "value": ["Reqs", "Test data", "Env", "UI", "Training", "Docs"] }
     },
-    "guard": "max(c) < 0.8*sum(c) && min(c) <= 0.2*sum(c)",
     "derived": {
-      "p1": "[max(c[0],c[1]),min(c[0],c[1]),max(c[2],c[3]),min(c[2],c[3]),max(c[4],c[5]),min(c[4],c[5])]",
-      "p2": "[p1[0],max(p1[1],p1[2]),min(p1[1],p1[2]),max(p1[3],p1[4]),min(p1[3],p1[4]),p1[5]]",
-      "p3": "[max(p2[0],p2[1]),min(p2[0],p2[1]),max(p2[2],p2[3]),min(p2[2],p2[3]),max(p2[4],p2[5]),min(p2[4],p2[5])]",
-      "p4": "[p3[0],max(p3[1],p3[2]),min(p3[1],p3[2]),max(p3[3],p3[4]),min(p3[3],p3[4]),p3[5]]",
-      "p5": "[max(p4[0],p4[1]),min(p4[0],p4[1]),max(p4[2],p4[3]),min(p4[2],p4[3]),max(p4[4],p4[5]),min(p4[4],p4[5])]",
-      "s": "[p5[0],max(p5[1],p5[2]),min(p5[1],p5[2]),max(p5[3],p5[4]),min(p5[3],p5[4]),p5[5]]",
+      "s": "[v0, v1, v2, v3, v4, v5]",
       "total": "sum(s)",
       "t8": "0.8*total",
-      "cum": "[s[0],s[0]+s[1],s[0]+s[1]+s[2],s[0]+s[1]+s[2]+s[3],s[0]+s[1]+s[2]+s[3]+s[4],total]",
+      "cum": "[s[0], s[0]+s[1], s[0]+s[1]+s[2], s[0]+s[1]+s[2]+s[3], s[0]+s[1]+s[2]+s[3]+s[4], total]",
       "cutoff": "cum[0]>=t8?0:cum[1]>=t8?1:cum[2]>=t8?2:cum[3]>=t8?3:cum[4]>=t8?4:5",
       "maxv": "s[0]"
     },
@@ -63,13 +63,13 @@
           "y": 26,
           "w": 36,
           "h": 140,
-          "correct": "i == cutoff",
+          "correct": "i <= cutoff",
           "label": "cats[i]",
-          "why": "'Cumulative ' + round(cum[i]/total*100) + '% here' + (i==cutoff ? ' — first to reach 80%.' : '.')"
+          "why": "i <= cutoff ? ('Cumulative ' + round(cum[i]/total*100) + '% — in the vital few, fix first.') : ('Cumulative ' + round(cum[i]/total*100) + '% — trivial many, lower priority.')"
         }
       ]
     },
-    "explanation": "Reading the cumulative line, 80% is first crossed at \"{{cats[cutoff]}}\". Those categories up to it are the vital few to tackle first."
+    "explanation": "The vital few run up to where the cumulative line first crosses 80% (here \"{{cats[cutoff]}}\"). Fixing those clears ~80% of the defects, so they take priority over the trivial many."
   },
   {
     "schema": "figuregen/v1",
@@ -78,11 +78,12 @@
     "domain": "Process",
     "topic": "Kanban / flow",
     "difficulty": "medium",
+    "freeSelect": true,
     "viewBox": [320, 196],
-    "prompt": "Each flow column shows its WIP limit. Tap the column that has breached its limit.",
+    "prompt": "Work is piling up on the board. Each column shows its WIP limit — tap every column that has breached it (the flow constraints to clear before pulling in more work).",
     "caption": "Cards stacked per column; WIP = the column's limit.",
     "vars": {
-      "over": { "pick": [1, 2, 3] },
+      "overFlags": { "sampleInt": [0, 1], "count": 3 },
       "lim": { "sampleInt": [3, 4], "count": 3 },
       "und": { "sampleInt": [1, 4], "count": 3 },
       "ovr": { "int": [1, 2] },
@@ -92,9 +93,11 @@
       "slots": { "range": 6 },
       "limIdx": { "value": [1, 2, 3] }
     },
+    "guard": "count([overFlags[0]==1,overFlags[1]==1,overFlags[2]==1]) >= 1 && count([overFlags[0]==1,overFlags[1]==1,overFlags[2]==1]) <= 2",
     "derived": {
       "limArr": "[0, lim[0], lim[1], lim[2], 0]",
-      "cards": "[back, (1==over ? lim[0]+ovr : min(und[0],lim[0])), (2==over ? lim[1]+ovr : min(und[1],lim[1])), (3==over ? lim[2]+ovr : min(und[2],lim[2])), done]"
+      "cards": "[back, overFlags[0]==1 ? lim[0]+ovr : min(und[0],lim[0]), overFlags[1]==1 ? lim[1]+ovr : min(und[1],lim[1]), overFlags[2]==1 ? lim[2]+ovr : min(und[2],lim[2]), done]",
+      "nOver": "count([overFlags[0]==1,overFlags[1]==1,overFlags[2]==1])"
     },
     "draw": [
       {
@@ -133,14 +136,13 @@
           "y": 40,
           "w": 58,
           "h": 144,
-          "correct": "ci == over",
+          "correct": "overFlags[ci-1]==1",
           "label": "names[ci]",
-          "why": "ci == over ? (cards[ci] + ' cards against a WIP limit of ' + limArr[ci] + ' — over the limit.') : (cards[ci] + ' of ' + limArr[ci] + ' — within its WIP limit.')"
+          "why": "overFlags[ci-1]==1 ? (cards[ci] + ' cards against a WIP limit of ' + limArr[ci] + ' — over the limit.') : (cards[ci] + ' of ' + limArr[ci] + ' — within its WIP limit.')"
         }
       ]
     },
-    "select": 1,
-    "explanation": "The {{names[over]}} column holds {{cards[over]}} cards against a WIP limit of {{limArr[over]}} — it has breached its limit and is the flow bottleneck to clear."
+    "explanation": "{{nOver}} column(s) exceed their WIP limit — those are the flow constraints. Clear them before pulling in new work, rather than feeding the upstream columns."
   },
   {
     "schema": "figuregen/v1",
@@ -149,8 +151,9 @@
     "domain": "People",
     "topic": "Stakeholder engagement",
     "difficulty": "medium",
+    "freeSelect": true,
     "viewBox": [322, 176],
-    "prompt": "C = current, D = desired engagement. Tap the stakeholder with the largest gap to close.",
+    "prompt": "C = current, D = desired engagement. Tap every stakeholder that must move up 2+ levels — those need a focused engagement plan before the next phase gate.",
     "caption": "Columns: Unaware → Leading.",
     "vars": {
       "people": { "sample": ["Sponsor", "Regulator", "End users", "Vendor", "Ops team", "Steering"], "count": 4 },
@@ -159,11 +162,11 @@
       "levels": { "value": ["Unaware", "Resistant", "Neutral", "Supportive", "Leading"] },
       "verts": { "range": 6 }
     },
-    "guard": "max([max(0,desRaw[0]-cur[0]),max(0,desRaw[1]-cur[1]),max(0,desRaw[2]-cur[2]),max(0,desRaw[3]-cur[3])]) >= 2 && count([max(0,desRaw[0]-cur[0])==max([max(0,desRaw[0]-cur[0]),max(0,desRaw[1]-cur[1]),max(0,desRaw[2]-cur[2]),max(0,desRaw[3]-cur[3])]),max(0,desRaw[1]-cur[1])==max([max(0,desRaw[0]-cur[0]),max(0,desRaw[1]-cur[1]),max(0,desRaw[2]-cur[2]),max(0,desRaw[3]-cur[3])]),max(0,desRaw[2]-cur[2])==max([max(0,desRaw[0]-cur[0]),max(0,desRaw[1]-cur[1]),max(0,desRaw[2]-cur[2]),max(0,desRaw[3]-cur[3])]),max(0,desRaw[3]-cur[3])==max([max(0,desRaw[0]-cur[0]),max(0,desRaw[1]-cur[1]),max(0,desRaw[2]-cur[2]),max(0,desRaw[3]-cur[3])])]) == 1",
+    "guard": "count([max(0,desRaw[0]-cur[0])>=2,max(0,desRaw[1]-cur[1])>=2,max(0,desRaw[2]-cur[2])>=2,max(0,desRaw[3]-cur[3])>=2]) >= 1 && count([max(0,desRaw[0]-cur[0])>=2,max(0,desRaw[1]-cur[1])>=2,max(0,desRaw[2]-cur[2])>=2,max(0,desRaw[3]-cur[3])>=2]) <= 3",
     "derived": {
       "des": "[max(cur[0],desRaw[0]),max(cur[1],desRaw[1]),max(cur[2],desRaw[2]),max(cur[3],desRaw[3])]",
       "gaps": "[des[0]-cur[0],des[1]-cur[1],des[2]-cur[2],des[3]-cur[3]]",
-      "worst": "argmax(gaps)"
+      "nBig": "count([des[0]-cur[0]>=2,des[1]-cur[1]>=2,des[2]-cur[2]>=2,des[3]-cur[3]>=2])"
     },
     "draw": [
       {
@@ -200,12 +203,12 @@
           "y": "40 + i*30",
           "w": 310,
           "h": 30,
-          "correct": "i == worst",
+          "correct": "gaps[i] >= 2",
           "label": "p",
-          "why": "levels[cur[i]-1] + ' → ' + levels[des[i]-1] + ' (gap ' + gaps[i] + ')' + (i==worst ? ' — the largest.' : '.')"
+          "why": "levels[cur[i]-1] + ' → ' + levels[des[i]-1] + ' (gap ' + gaps[i] + ')' + (gaps[i]>=2 ? ' — needs a focused plan.' : ' — minor gap.')"
         }
       ]
     },
-    "explanation": "{{people[worst]}} must move {{gaps[worst]}} levels ({{levels[cur[worst]-1]}} → {{levels[des[worst]-1]}}), the biggest gap — so it needs the most engagement effort."
+    "explanation": "{{nBig}} stakeholder(s) have a 2+ level gap — they need active engagement work before the gate. A 0–1 level gap is minor and can be managed passively."
   }
 ]
