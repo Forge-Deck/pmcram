@@ -43,17 +43,17 @@
   {
     "schema": "figuregen/v1",
     "id": "conflict-modes",
-    "kind": "choice",
+    "kind": "hotspot",
     "domain": "People",
     "topic": "Conflict management",
     "difficulty": "medium",
     "viewBox": [300, 222],
-    "prompt": "On this conflict-handling grid (assertiveness vs cooperativeness), which mode sits at the marked point?",
-    "caption": "Axes only — the modes are not labelled.",
-    "vars": { "mi": { "int": [0, 4] } },
+    "prompt": "{{scen[si]}} Tap the conflict-handling mode you should use.",
+    "vars": { "si": { "int": [0, 4] } },
     "derived": {
-      "names": "['Compete (force)','Collaborate (problem-solve)','Avoid (withdraw)','Accommodate (smooth)','Compromise']",
-      "descs": "['high assertiveness, low cooperation','high assertiveness and high cooperation — win/win','low assertiveness and low cooperation','low assertiveness, high cooperation','moderate on both axes']",
+      "names": "['Compete','Collaborate','Avoid','Accommodate','Compromise']",
+      "scen": "['A safety hazard needs an immediate, non-negotiable call.', 'A complex dispute where both sides have valid needs and there is time to work through it for a win/win.', 'The issue is trivial and tempers are running high — better to let it cool first.', 'You are wrong on a minor point and the working relationship matters more than winning it.', 'Both sides have equal power and you need a quick, workable middle ground.']",
+      "descs": "['high assertiveness, low cooperation — you push your position', 'high assertiveness and high cooperation — a win/win', 'low assertiveness and low cooperation — you step back', 'low assertiveness, high cooperation — you yield', 'moderate on both — split the difference']",
       "xs": "[117,233,117,233,175]",
       "ys": "[66,66,156,156,111]"
     },
@@ -63,17 +63,24 @@
       { "op": "line", "x1": 60, "y1": 111, "x2": 290, "y2": 111, "width": 0.5, "opacity": 0.5 },
       { "op": "text", "x": 54, "y": 111, "text": "'Assertiveness →'", "size": 8, "anchor": "middle", "rotate": -90 },
       { "op": "text", "x": 175, "y": 212, "text": "'Cooperativeness →'", "size": 8.5, "anchor": "middle" },
-      { "op": "circle", "cx": "xs[mi]", "cy": "ys[mi]", "r": 9, "color": "ink", "width": 1.6, "fill": "ink", "fillOpacity": 0.12 },
-      { "op": "circle", "cx": "xs[mi]", "cy": "ys[mi]", "r": 2.4, "fill": "ink" }
+      {
+        "op": "repeat",
+        "over": "names",
+        "as": "nm",
+        "do": [
+          { "op": "circle", "cx": "xs[i]", "cy": "ys[i]", "r": 4, "color": "ink", "fill": "ink", "fillOpacity": 0.12, "width": 1.3 },
+          { "op": "text", "x": "xs[i]", "y": "ys[i] - 9", "text": "nm", "size": 8, "anchor": "middle" }
+        ]
+      }
     ],
-    "choices": {
+    "regions": {
       "repeat": "names",
       "as": "nm",
       "items": [
-        { "text": "nm", "correct": "i == mi", "why": "i == mi ? ('Marked spot = ' + descs[i] + '.') : ''" }
+        { "id": "nm", "x": "xs[i] - 30", "y": "ys[i] - 22", "w": 60, "h": 30, "correct": "i == si", "label": "nm", "why": "i == si ? ('Correct — that situation calls for ' + nm + ' (' + descs[i] + ').') : (nm + ' is ' + descs[i] + ' — a different situation.')" }
       ]
     },
-    "explanation": "Thomas-Kilmann maps five modes by assertiveness and cooperativeness. The marked point is {{descs[mi]}} → {{names[mi]}}."
+    "explanation": "Thomas-Kilmann picks the mode by assertiveness × cooperativeness. This situation calls for {{names[si]}} ({{descs[si]}})."
   },
   {
     "schema": "figuregen/v1",
@@ -83,17 +90,16 @@
     "topic": "Stakeholder salience",
     "difficulty": "medium",
     "viewBox": [300, 236],
-    "prompt": "On this salience model, what type of stakeholder is at the marked spot?",
-    "caption": "Power · Legitimacy · Urgency (overlaps unlabelled).",
+    "prompt": "{{scen[corr]}} Which salience type are they?",
+    "caption": "Power · Legitimacy · Urgency.",
     "vars": {
       "perm": { "shuffle": [0, 1, 2, 3, 4, 5, 6] },
       "ki": { "int": [0, 3] }
     },
     "derived": {
       "names": "['Dormant','Discretionary','Demanding','Dominant','Dangerous','Dependent','Definitive']",
-      "descs": "['power only','legitimacy only','urgency only','power + legitimacy','power + urgency','legitimacy + urgency','all three (highest priority)']",
-      "px": "[86,214,150,150,110,190,150]",
-      "py": "[82,82,196,72,142,142,114]",
+      "descs": "['power only','legitimacy only','urgency only','power + legitimacy','power + urgency','legitimacy + urgency','all three']",
+      "scen": "['A stakeholder has the power to disrupt the project but no legitimate claim and nothing urgent.', 'A stakeholder has a legitimate interest but no power and nothing urgent.', 'A stakeholder is loudly urgent but has neither power nor a legitimate claim.', 'A stakeholder has formal authority and a legitimate claim, but no urgency right now.', 'A stakeholder has power and is pressing urgently, but lacks a legitimate claim.', 'A stakeholder has a legitimate, urgent claim but no power of their own.', 'A stakeholder has power, a legitimate claim, and urgency all at once.']",
       "shown": "[perm[0],perm[1],perm[2],perm[3]]",
       "corr": "shown[ki]"
     },
@@ -103,18 +109,16 @@
       { "op": "circle", "cx": 150, "cy": 150, "r": 58, "color": "ink", "width": 1.3 },
       { "op": "text", "x": 92, "y": 26, "text": "'Power'", "size": 9, "anchor": "middle" },
       { "op": "text", "x": 208, "y": 26, "text": "'Legitimacy'", "size": 9, "anchor": "middle" },
-      { "op": "text", "x": 150, "y": 226, "text": "'Urgency'", "size": 9, "anchor": "middle" },
-      { "op": "circle", "cx": "px[corr]", "cy": "py[corr]", "r": 8, "color": "ink", "width": 1.6, "fill": "ink", "fillOpacity": 0.14 },
-      { "op": "circle", "cx": "px[corr]", "cy": "py[corr]", "r": 2.4, "fill": "ink" }
+      { "op": "text", "x": 150, "y": 226, "text": "'Urgency'", "size": 9, "anchor": "middle" }
     ],
     "choices": {
       "repeat": "shown",
       "as": "s",
       "items": [
-        { "text": "names[s]", "correct": "s == corr", "why": "s == corr ? ('The marked spot sits in: ' + descs[s] + '.') : ''" }
+        { "text": "names[s]", "correct": "s == corr", "why": "s == corr ? ('Those attributes (' + descs[s] + ') define a ' + names[s] + ' stakeholder.') : (names[s] + ' = ' + descs[s] + '.')" }
       ]
     },
-    "explanation": "Salience combines power, legitimacy and urgency. The marked region is {{descs[corr]}} → a {{names[corr]}} stakeholder."
+    "explanation": "Salience combines power, legitimacy and urgency. Those attributes ({{descs[corr]}}) make them a {{names[corr]}} stakeholder."
   },
   {
     "schema": "figuregen/v1",

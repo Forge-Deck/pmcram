@@ -7,7 +7,7 @@
     "topic": "Scatter / correlation",
     "difficulty": "easy",
     "viewBox": [294, 196],
-    "prompt": "These two variables are correlated. Tap the single observation that breaks the pattern.",
+    "prompt": "Across these projects, review hours and defects-escaped look correlated. Tap the one observation to investigate before you trust that correlation — it breaks the pattern.",
     "vars": {
       "ix": { "range": 9 },
       "outlier": { "int": [2, 7] },

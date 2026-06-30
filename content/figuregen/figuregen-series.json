@@ -7,7 +7,7 @@
     "topic": "Agile burndown",
     "difficulty": "easy",
     "viewBox": [320, 190],
-    "prompt": "What does this sprint burndown tell you?",
+    "prompt": "This sprint burndown is partway through. Based on it, what is the best next step?",
     "caption": "Dashed = ideal; solid = actual remaining work.",
     "vars": {
       "status": { "pick": ["ahead", "behind", "ontrack"] },
@@ -43,11 +43,12 @@
       { "op": "text", "x": 300, "y": 182, "text": "'Day 10'", "size": 8, "anchor": "middle" }
     ],
     "choices": [
-      { "id": "ahead", "text": "'The sprint is ahead of schedule.'", "correct": "status=='ahead'", "why": "'The actual line is below ideal — less work remaining than planned.'" },
-      { "id": "behind", "text": "'The sprint is behind schedule.'", "correct": "status=='behind'", "why": "'The actual line is above ideal — more work remaining than planned.'" },
-      { "id": "ontrack", "text": "'The sprint is on track.'", "correct": "status=='ontrack'", "why": "'The actual line tracks the ideal line closely.'" }
+      { "id": "behind", "text": "'Surface the shortfall at the daily standup and re-plan scope with the Product Owner.'", "correct": "status=='behind'", "why": "status=='behind' ? 'Behind (actual above ideal) — make the gap visible and adjust scope; you cannot add time to a fixed-length sprint.' : ''" },
+      { "id": "ahead", "text": "'Pull the next backlog item forward, or help unblock teammates.'", "correct": "status=='ahead'", "why": "status=='ahead' ? 'Ahead (actual below ideal) — there is slack to pull more value in or help the team.' : ''" },
+      { "id": "ontrack", "text": "'Keep going — the burn rate matches the plan.'", "correct": "status=='ontrack'", "why": "status=='ontrack' ? 'On track — the actual line tracks the ideal, so no intervention is needed.' : ''" },
+      { "id": "addppl", "text": "'Add developers to the sprint to catch up faster.'", "correct": "false", "why": "'Adding people mid-sprint rarely speeds delivery (ramp-up and coordination cost) and is not the first move.'" }
     ],
-    "explanation": "{{ status=='behind' ? 'The actual line sits above the ideal — work is burning down slower than planned, so the sprint is behind.' : (status=='ahead' ? 'The actual line sits below the ideal — work is burning down faster than planned, so the sprint is ahead.' : 'The actual line follows the ideal closely — the sprint is on track.') }}"
+    "explanation": "{{ status=='behind' ? 'The actual line sits above the ideal — the sprint is behind, so surface it and re-plan scope.' : (status=='ahead' ? 'The actual line sits below the ideal — the sprint is ahead, so there is room to pull work in.' : 'The actual line tracks the ideal — on track, keep going.') }}"
   },
   {
     "schema": "figuregen/v1",
