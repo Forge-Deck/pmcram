@@ -11,6 +11,7 @@
     "schema": { "type": "string", "const": "question/v1" },
     "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"], "description": "PMP ECO domain." },
     "eco_task": { "type": "string", "description": "ECO task / enabler this question maps to (free text)." },
+    "subDomain": { "type": "string", "description": "Canonical PMP ECO task (one of the official 35), normalized for sub-domain tracking." },
     "topic": { "type": "string" },
     "subtopic": { "type": "string" },
     "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
