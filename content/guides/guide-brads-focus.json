@@ -1,0 +1,97 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Brads Focus",
+    "category": "Exam Strategy",
+    "summary": "Your personal weak-area playbook — the principle, the trap, and the fix for every theme you've been missing in practice exams.",
+    "sections": [
+      {
+        "heading": "How to use this",
+        "body": "These are the exact themes you've been getting wrong in practice — pulled straight from your exam feedback. Most of your misses aren't knowledge gaps; they're reflexes: reaching for the wrong document, acting too soon (or too late), or taking the decision off the team.\n\nEach section below gives you three things:\n- The principle you missed.\n- Your trap — the wrong choice you keep reaching for.\n- A one-line fix to catch yourself on exam day.\n\nRead the trap lines twice. On a tricky question, when two answers feel close, ask: \"Am I about to do my trap?\" — and pick the disciplined PMP move instead.",
+        "tip": "Your misses cluster around a few instincts: Plan vs Register, now vs later, identify before respond, empower vs decide, and Change Request before touching a baseline. Master those five and most of these questions fall."
+      },
+      {
+        "heading": "Risk: identify first, respond second — in that order",
+        "body": "The risk processes run in a fixed order, and the exam tests whether you respect it:\nPlan Risk Management → Identify Risks → Perform Qualitative Analysis → Perform Quantitative Analysis → Plan Risk Responses → Implement Risk Responses → Monitor Risks.\n\nWhen a new initiative, event or problem appears, your first move is almost always to identify and assess high-level risks — not to jump to a solution, a number, or the response.\n\nWatch the wording: a \"risk action plan\" or \"response planning\" means Identify Risks + Plan Risk Responses — it is NOT the same as the overall Risk Management Plan (which is just the strategy for how you'll do risk).",
+        "tip": "New risk situation? First action = identify / assess. Not respond, not quantify. If an option says \"quantify\" before risks are even identified, it's the trap."
+      },
+      {
+        "heading": "Risk Management Plan vs Risk Register",
+        "body": "These are constantly swapped in distractors, and you tend to reach for the register first.\n\n- Risk Management Plan = the HOW. Methodology, roles and responsibilities, risk categories, probability/impact definitions, thresholds. Created once during planning. When a question asks you to review your approach or strategy, it's the Plan.\n- Risk Register = the WHAT. The living list of individual risks, their analysis, owners and responses. Populated and updated continuously.\n\nThe Plan always comes first; you can't sensibly fill a register before you've defined how you'll run risk.",
+        "tip": "\"Review/adjust our risk strategy or thresholds\" → Risk Management Plan. \"Log, analyse or update a specific risk\" → Risk Register."
+      },
+      {
+        "heading": "Assign a risk owner and act",
+        "body": "Every risk response gets a risk owner — the person responsible for carrying out the agreed response and monitoring that risk. The PM does not sit on responses or wait.\n\nYour pattern here is delaying: choosing options that defer the response. Once a response is planned, it is owned and executed.",
+        "tip": "After Plan Risk Responses, the next move is assign an owner and implement — not \"wait and see\"."
+      },
+      {
+        "heading": "Issue Log vs Risk Register: now vs later",
+        "body": "This is one of your most repeated misses. The test is a single question: has it happened yet?\n\n- An issue is a current, realised problem — it is happening now. It goes in the Issue Log.\n- A risk is a future uncertainty — it might happen. It goes in the Risk Register.\n\nYou keep treating current, realised events as future risks. If the scenario describes something that has already occurred and needs handling, it is an issue, full stop.",
+        "tip": "Ask \"Has it happened yet?\" — Yes → Issue Log. No / uncertain → Risk Register."
+      },
+      {
+        "heading": "Stakeholders: update the Plan, not the Register",
+        "body": "Same Plan-vs-Register trap as risk, and again you reach for the register.\n\n- Stakeholder Register = WHO they are: names, roles, contact details, interest/influence. Update it when the people or their details change.\n- Stakeholder Engagement Plan = HOW you'll engage them: the strategies to move each stakeholder to the engagement level you need. Update it when roles change or your engagement approach must be tailored.\n\nEngagement is tailored — different stakeholders need different strategies, and that tailoring lives in the Plan.",
+        "tip": "Engagement strategy or a stakeholder's role changes → update the Stakeholder Engagement/Management Plan. A new person or contact detail → update the Register."
+      },
+      {
+        "heading": "Change control: a baseline change needs a Change Request",
+        "body": "Once scope, schedule or cost is baselined, you cannot just edit the document. Any change to a baseline flows through Perform Integrated Change Control: raise a formal Change Request, assess the impact across all constraints, and take it to the Change Control Board (CCB) for a decision before anything is updated.\n\nYour trap is modifying baselined documents directly — quietly updating the plan because the change seems small or obvious.",
+        "tip": "If it's baselined, you can't just change it. The answer is almost always \"submit/raise a Change Request,\" not \"update the document.\""
+      },
+      {
+        "heading": "Schedule compression: crash vs fast-track",
+        "body": "Both shorten the schedule by compressing the critical path, but they trade different things — and you confuse them.\n\n- Crashing = add resources to critical-path activities (overtime, more people, faster equipment). It costs more money. Use when you can spend to save time.\n- Fast-tracking = run activities that were sequential in parallel or overlap them. It costs no extra money but adds risk and potential rework.\n\nNeither helps unless it's applied to the critical path.",
+        "tip": "Crash = money (resources). Fast-track = risk (parallel work). Pick by what the scenario says you can afford to trade."
+      },
+      {
+        "heading": "Resources: recover and negotiate before you recreate",
+        "body": "For shared, scarce or specialised resources in a matrix organisation, you negotiate with the functional managers who own them — and you develop the skills of the people you already have rather than standing up something new.\n\nYour trap is reaching for \"create new\" — a new team, a new tool, a new process — when the PMP answer is to recover, negotiate for, or upskill existing resources.",
+        "tip": "First recover / negotiate / develop what you already have. \"Create something new\" is rarely the best PMP move."
+      },
+      {
+        "heading": "Agile roles & authority: support the Product Owner",
+        "body": "On an agile team the Product Owner owns product decisions — priorities, the backlog and its ordering, and what \"done\" delivers value. The PO is ultimately accountable for maximising product value.\n\nYou support and enable the PO; you do not override their product decisions. And you treat agile as agile — empirical, incremental, value-driven — not as predictive with different labels.",
+        "tip": "Product or priority decision → the Product Owner's call. Your job is to support and unblock, not to override."
+      },
+      {
+        "heading": "Empower the self-organising team",
+        "body": "Self-organising teams decide how to do the work. When a problem appears, the servant-leader's first move is usually to let the team diagnose and solve it — facilitate, ask, coach — not to step in and decide immediately.\n\nYour trap is the PM deciding too fast. On agile/people questions, the empowering option (bring it to the team, help them resolve it) beats the directive one far more often than feels comfortable.",
+        "tip": "\"What should the PM/Scrum Master do?\" on an agile team → usually empower / facilitate / take it to the team, not decide for them."
+      },
+      {
+        "heading": "Servant leadership: remove blockers now",
+        "body": "Impediments and blockers are removed quickly so the team keeps flowing — that's a core servant-leadership duty. You don't spend time analysing the impact of a blocker before acting on it; you clear it.\n\nYour trap is analysing before acting. For an impediment, action comes first.",
+        "tip": "Blocker or impediment → remove it fast. If an option says \"analyse the impact first,\" it's usually wrong for an impediment."
+      },
+      {
+        "heading": "Prove value with an MVP or prototype",
+        "body": "When stakeholders question the value of the product or a requirement is uncertain, you demonstrate value by building something real — a prototype, a proof of concept, or a Minimum Viable Product that delivers a usable slice early.\n\nYour trap is passive responses: more meetings, more documentation, more analysis. The agile answer is to show, not tell.",
+        "tip": "\"Stakeholders doubt the value\" or \"requirements are unclear\" → prototype / MVP / early increment to get real feedback."
+      },
+      {
+        "heading": "People theories: Expectancy & Directive",
+        "body": "Two specific ones trip you up:\n\n- Vroom's Expectancy Theory: motivation = Expectancy × Instrumentality × Valence. People are motivated when they believe effort will lead to performance, performance will lead to a reward, and they actually value that reward. If a scenario hinges on \"effort leads to a reward they care about,\" it's Expectancy — not Maslow, Herzberg or McGregor.\n- Directive leadership is task- and results-focused — telling the team what to do and how. It suits crises, inexperienced teams, or when clear structure is needed. Don't apply a coaching/supportive style where the scenario calls for direction (or vice versa).",
+        "tip": "\"Effort → performance → a valued reward\" = Expectancy Theory. \"Task/results focused, tells the team what to do\" = Directive style."
+      },
+      {
+        "heading": "Cultural intelligence in global teams",
+        "body": "On multinational teams, the PMP answer to cultural friction is to build cultural intelligence across the whole team — cultural sensitivity/awareness training, shared norms, mutual understanding — not to just learn the local customs of one location or expect one side to adapt.",
+        "tip": "Multinational friction → invest in cultural awareness/training for everyone. Avoid options that adapt only one way or focus on a single site's customs."
+      },
+      {
+        "heading": "PMO vs Sponsor vs PM",
+        "body": "Keep these three straight:\n\n- PMO (Project/Program Management Office) — sets standards, methods and governance, and can act as an integral stakeholder and key decision-maker for business alignment ACROSS projects (prioritisation, portfolio fit, shared resources).\n- Sponsor — funds and champions THIS project, removes high-level obstacles, owns the business case.\n- Project Manager — delivers this project day to day.\n\nYour trap is confusing the PMO with the Sponsor. The PMO works across the portfolio; the Sponsor backs one project.",
+        "tip": "\"Aligns/standardises across projects, decides on prioritisation\" = PMO. \"Funds and champions this project\" = Sponsor."
+      },
+      {
+        "heading": "Your recurring traps — the meta-pattern",
+        "body": "If you remember nothing else, override these reflexes. Each one has cost you marks more than once:\n\n- Reaching for the Register when the answer is the Plan (both risk and stakeholder).\n- Treating a current, realised problem as a future risk — it's the Issue Log, not the Risk Register.\n- Jumping to solutions or quantification before you've identified/assessed.\n- The PM deciding when a self-organising team should be empowered.\n- Editing a baselined document instead of raising a Change Request.\n- Analysing a blocker instead of removing it.\n- Creating something new instead of recovering, negotiating for, or upskilling what you already have.\n- Overriding the Product Owner instead of supporting them.",
+        "tip": "When two options feel close, name your reflex from this list — then deliberately pick the opposite, disciplined move. That single habit will lift these themes the most."
+      }
+    ],
+    "tags": ["exam strategy", "personal", "risk", "stakeholders", "agile", "change control", "leadership"],
+    "source": "Personal practice-exam feedback"
+  }
+]
