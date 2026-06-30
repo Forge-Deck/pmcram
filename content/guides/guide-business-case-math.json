@@ -12,7 +12,7 @@
       },
       {
         "heading": "Net Present Value (NPV)",
-        "body": "NPV discounts all future cash inflows and outflows back to today using a discount rate, then sums them. It captures the time value of money: money received now is worth more than the same amount later.\n\nDecision rules:\n- Pick the project with the HIGHER NPV.\n- An NPV greater than 0 means the project is viable.\n- A negative NPV means it destroys value and should be rejected.\n\nNPV already accounts for the cost of capital, so it is the most trusted comparative measure.",
+        "body": "NPV discounts all future cash inflows and outflows back to today using a discount rate, then sums them. It captures the time value of money: money received now is worth more than the same amount later.\n\nDecision rules:\n\n- Pick the project with the HIGHER NPV.\n- An NPV greater than 0 means the project is viable.\n- A negative NPV means it destroys value and should be rejected.\n\nNPV already accounts for the cost of capital, so it is the most trusted comparative measure.",
         "tip": "Higher NPV wins; NPV greater than 0 is viable, ignore the raw project duration."
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "heading": "Payback period",
-        "body": "The payback period is the time taken to recover the original investment from net cash inflows. The SHORTER the payback, the more attractive the project, because cash is recovered sooner and exposure is lower.\n\nIts weaknesses make it a poor sole criterion:\n- It ignores the time value of money (cash is not discounted).\n- It ignores all cash flows that arrive after the investment is recovered.\n\nUse it as a quick liquidity screen, not as the deciding figure over NPV or IRR.",
+        "body": "The payback period is the time taken to recover the original investment from net cash inflows. The SHORTER the payback, the more attractive the project, because cash is recovered sooner and exposure is lower.\n\nIts weaknesses make it a poor sole criterion:\n\n- It ignores the time value of money (cash is not discounted).\n- It ignores all cash flows that arrive after the investment is recovered.\n\nUse it as a quick liquidity screen, not as the deciding figure over NPV or IRR.",
         "tip": "Shorter payback is better, but it ignores time value and later cash flows."
       },
       {
@@ -37,7 +37,7 @@
       },
       {
         "heading": "Make-or-buy analysis",
-        "body": "Make-or-buy analysis compares producing or delivering something in-house against purchasing it externally. It feeds the procurement decision in the business case.\n\nKey rule: EXCLUDE sunk costs. Money already spent is gone and must not influence whether to make or buy going forward — only future costs and benefits count.\n\nWeigh more than price alone:\n- Direct and indirect cost over the full life cycle.\n- Internal capability and capacity.\n- Intellectual property and who owns the result.\n- Risk, control, and long-term strategic fit.",
+        "body": "Make-or-buy analysis compares producing or delivering something in-house against purchasing it externally. It feeds the procurement decision in the business case.\n\nKey rule: EXCLUDE sunk costs. Money already spent is gone and must not influence whether to make or buy going forward — only future costs and benefits count.\n\nWeigh more than price alone:\n\n- Direct and indirect cost over the full life cycle.\n- Internal capability and capacity.\n- Intellectual property and who owns the result.\n- Risk, control, and long-term strategic fit.",
         "tip": "Ignore sunk costs — decide make-or-buy on future cost, capability, IP, and risk."
       },
       {

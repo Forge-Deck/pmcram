@@ -7,7 +7,7 @@
     "sections": [
       {
         "heading": "Identifying risks & the Risk Breakdown Structure",
-        "body": "A risk is an uncertain event or condition that, if it occurs, has an effect on one or more project objectives. Crucially, that effect can be negative (a threat) or positive (an opportunity) — PMI treats both as risk, so good risk management is not only about avoiding harm but also about capturing upside.\n\nRisk identification is iterative and team-driven: it continues throughout the project, not just at the start, because new risks emerge as work progresses and old ones expire.\n\nThe Risk Breakdown Structure (RBS) is a hierarchical chart of risk categories — not individual risks — used to prompt systematic identification so nothing obvious is missed. A typical top level is:\n- Technical (requirements, technology, complexity, interfaces, quality)\n- External (suppliers, regulation, market, weather)\n- Organisational (resources, funding, priorities, dependencies)\n- Project management (estimating, planning, controlling, communication)",
+        "body": "A risk is an uncertain event or condition that, if it occurs, has an effect on one or more project objectives. Crucially, that effect can be negative (a threat) or positive (an opportunity) — PMI treats both as risk, so good risk management is not only about avoiding harm but also about capturing upside.\n\nRisk identification is iterative and team-driven: it continues throughout the project, not just at the start, because new risks emerge as work progresses and old ones expire.\n\nThe Risk Breakdown Structure (RBS) is a hierarchical chart of risk categories — not individual risks — used to prompt systematic identification so nothing obvious is missed. A typical top level is:\n\n- Technical (requirements, technology, complexity, interfaces, quality)\n- External (suppliers, regulation, market, weather)\n- Organisational (resources, funding, priorities, dependencies)\n- Project management (estimating, planning, controlling, communication)",
         "tip": "RBS organises risk by SOURCE/category; the WBS organises deliverable work. Don't confuse them."
       },
       {
@@ -26,7 +26,7 @@
       },
       {
         "heading": "Risk responses — threats and opportunities",
-        "body": "Each strategy for a threat has a mirror for an opportunity. Choose responses proportionate to the risk's priority.\n\nThreats:\n- Avoid — eliminate the threat entirely or remove its cause (e.g. change scope or approach)\n- Transfer — shift the impact to a third party via insurance, contracts or warranties; the risk still exists, ownership of its consequence moves\n- Mitigate — reduce the probability and/or the impact to an acceptable level\n- Accept — take no proactive action; active acceptance sets aside a contingency reserve, passive acceptance simply deals with it if it occurs\n- Escalate — the threat is outside the project's authority, so raise it to programme, portfolio or senior management\n\nOpportunities:\n- Exploit — make certain the opportunity happens (the mirror of avoid)\n- Enhance — increase its probability and/or impact (mirror of mitigate)\n- Share — allocate it to a partner best able to capture it, e.g. a joint venture or teaming agreement (mirror of transfer)\n- Accept — take it if it arrives but don't actively pursue it\n- Escalate — beyond the project's remit, so raise it upward",
+        "body": "Each strategy for a threat has a mirror for an opportunity. Choose responses proportionate to the risk's priority.\n\nThreats:\n\n- Avoid — eliminate the threat entirely or remove its cause (e.g. change scope or approach)\n- Transfer — shift the impact to a third party via insurance, contracts or warranties; the risk still exists, ownership of its consequence moves\n- Mitigate — reduce the probability and/or the impact to an acceptable level\n- Accept — take no proactive action; active acceptance sets aside a contingency reserve, passive acceptance simply deals with it if it occurs\n- Escalate — the threat is outside the project's authority, so raise it to programme, portfolio or senior management\n\nOpportunities:\n\n- Exploit — make certain the opportunity happens (the mirror of avoid)\n- Enhance — increase its probability and/or impact (mirror of mitigate)\n- Share — allocate it to a partner best able to capture it, e.g. a joint venture or teaming agreement (mirror of transfer)\n- Accept — take it if it arrives but don't actively pursue it\n- Escalate — beyond the project's remit, so raise it upward",
         "tip": "Transfer and Share both involve a third party. Escalate and Accept are the two strategies shared by threats and opportunities."
       },
       {
@@ -44,7 +44,15 @@
         "tip": "Known + in baseline + PM controls = contingency. Unknown + outside baseline + needs approval = management reserve."
       }
     ],
-    "tags": ["risk", "threats", "opportunities", "emv", "rbs", "reserves", "process"],
+    "tags": [
+      "risk",
+      "threats",
+      "opportunities",
+      "emv",
+      "rbs",
+      "reserves",
+      "process"
+    ],
     "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
   }
 ]

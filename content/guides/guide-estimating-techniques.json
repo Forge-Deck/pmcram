@@ -7,7 +7,7 @@
     "sections": [
       {
         "heading": "Estimate accuracy and ranges",
-        "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as the project progresses and detail emerges (progressive elaboration), the range narrows and accuracy improves.\n\nClassic ranges to remember:\n- Rough Order of Magnitude (ROM): roughly -25% to +75%, used very early when information is scarce.\n- Definitive estimate: roughly -5% to +10%, produced later once scope and detail are well understood.\n\nAlways express an estimate with its range and assumptions, and refine it as better information becomes available rather than treating the first figure as fixed.",
+        "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as the project progresses and detail emerges (progressive elaboration), the range narrows and accuracy improves.\n\nClassic ranges to remember:\n\n- Rough Order of Magnitude (ROM): roughly -25% to +75%, used very early when information is scarce.\n- Definitive estimate: roughly -5% to +10%, produced later once scope and detail are well understood.\n\nAlways express an estimate with its range and assumptions, and refine it as better information becomes available rather than treating the first figure as fixed.",
         "tip": "Trap: a number with no range is not an estimate. ROM is wide (-25/+75); definitive is tight (-5/+10).",
         "figure": {
           "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='100' x2='304' y2='100' stroke='currentColor' stroke-width='1' stroke-dasharray='4 4'/><path d='M46,46 L298,93 L298,107 L46,154 Z' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><text x='52' y='40' fill='currentColor' font-size='9'>+75%</text><text x='52' y='168' fill='currentColor' font-size='9'>-25%</text><text x='300' y='86' fill='currentColor' font-size='9' text-anchor='end'>+10%</text><text x='300' y='124' fill='currentColor' font-size='9' text-anchor='end'>-5%</text><text x='80' y='100' fill='currentColor' font-size='9' text-anchor='middle'>ROM</text><text x='268' y='100' fill='currentColor' font-size='9' text-anchor='middle'>definitive</text><text x='172' y='184' fill='currentColor' font-size='10' text-anchor='middle'>more detail / later in project →</text></svg>",
@@ -31,11 +31,19 @@
       },
       {
         "heading": "Choosing a technique and refining",
-        "body": "Match the technique to how much you know:\n- Analogous early, when there is little information.\n- Parametric when you have good historical data and reliable parameters.\n- Bottom-up when scope is well defined and accuracy matters most.\n\nThree-point (PERT) estimating adds a risk-weighted average across optimistic, most likely and pessimistic values; the detailed PERT formula E = (O + 4M + P) / 6 is covered in the Schedule & Network Diagrams guide.\n\nFinally, reserves sit on top of your estimates, not inside them: contingency reserve for identified ('known-unknown') risks and management reserve for unknown-unknowns. The detail on reserves is covered in the Risk Management guide.",
+        "body": "Match the technique to how much you know:\n\n- Analogous early, when there is little information.\n- Parametric when you have good historical data and reliable parameters.\n- Bottom-up when scope is well defined and accuracy matters most.\n\nThree-point (PERT) estimating adds a risk-weighted average across optimistic, most likely and pessimistic values; the detailed PERT formula E = (O + 4M + P) / 6 is covered in the Schedule & Network Diagrams guide.\n\nFinally, reserves sit on top of your estimates, not inside them: contingency reserve for identified ('known-unknown') risks and management reserve for unknown-unknowns. The detail on reserves is covered in the Risk Management guide.",
         "tip": "Pick by information available. Estimates feed the baseline; reserves are added on top."
       }
     ],
-    "tags": ["estimating", "cost", "duration", "analogous", "parametric", "bottom-up", "process"],
+    "tags": [
+      "estimating",
+      "cost",
+      "duration",
+      "analogous",
+      "parametric",
+      "bottom-up",
+      "process"
+    ],
     "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
   }
 ]

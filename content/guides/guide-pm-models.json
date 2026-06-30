@@ -12,7 +12,7 @@
       },
       {
         "heading": "Complexity models: Cynefin and Stacey",
-        "body": "Cynefin sorts a situation into five domains, each calling for a different response:\n- Clear (obvious): cause and effect are plain. Sense-categorise-respond, apply best practice.\n- Complicated: knowable but needs expertise. Sense-analyse-respond, apply good practice.\n- Complex: cause and effect only clear in hindsight. Probe-sense-respond, let practice emerge through safe-to-fail experiments.\n- Chaotic: no clear cause and effect, act first. Act-sense-respond to establish order.\n- Disorder: the centre, where you do not yet know which domain you are in.\n\nStacey matrix plots agreement (on requirements) against certainty (on technology/approach). Close to both agreement and certainty is simple, suggesting predictive delivery; far from both tends toward chaos; the middle ground is complicated or complex, favouring adaptive or hybrid approaches.",
+        "body": "Cynefin sorts a situation into five domains, each calling for a different response:\n\n- Clear (obvious): cause and effect are plain. Sense-categorise-respond, apply best practice.\n- Complicated: knowable but needs expertise. Sense-analyse-respond, apply good practice.\n- Complex: cause and effect only clear in hindsight. Probe-sense-respond, let practice emerge through safe-to-fail experiments.\n- Chaotic: no clear cause and effect, act first. Act-sense-respond to establish order.\n- Disorder: the centre, where you do not yet know which domain you are in.\n\nStacey matrix plots agreement (on requirements) against certainty (on technology/approach). Close to both agreement and certainty is simple, suggesting predictive delivery; far from both tends toward chaos; the middle ground is complicated or complex, favouring adaptive or hybrid approaches.",
         "tip": "Complex and adaptive go together: high uncertainty or low agreement points to iterative, experiment-led delivery.",
         "figure": {
           "svg": "<svg viewBox='0 0 320 205' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='20' y='16' width='140' height='88' fill='#2F6F5E' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='160' y='16' width='140' height='88' fill='#1F5FA8' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='20' y='104' width='140' height='88' fill='#B5462F' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='160' y='104' width='140' height='88' fill='#C98A1F' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><text x='90' y='50' fill='currentColor' font-size='11' text-anchor='middle'>Complex</text><text x='90' y='66' fill='currentColor' font-size='8' text-anchor='middle'>probe-sense-respond</text><text x='230' y='50' fill='currentColor' font-size='11' text-anchor='middle'>Complicated</text><text x='230' y='66' fill='currentColor' font-size='8' text-anchor='middle'>sense-analyse-respond</text><text x='90' y='142' fill='currentColor' font-size='11' text-anchor='middle'>Chaotic</text><text x='90' y='158' fill='currentColor' font-size='8' text-anchor='middle'>act-sense-respond</text><text x='230' y='142' fill='currentColor' font-size='11' text-anchor='middle'>Clear</text><text x='230' y='158' fill='currentColor' font-size='8' text-anchor='middle'>sense-categorise-respond</text><circle cx='160' cy='104' r='23' fill='none' stroke='currentColor' stroke-width='1'/><text x='160' y='107' fill='currentColor' font-size='8' text-anchor='middle'>Disorder</text></svg>",
@@ -21,12 +21,12 @@
       },
       {
         "heading": "Change models: the people side",
-        "body": "These describe how people and organisations move through change, not the technical rollout:\n- Lewin: unfreeze (loosen the status quo), change (move to the new way), refreeze (embed it).\n- ADKAR: an individual adoption sequence - Awareness, Desire, Knowledge, Ability, Reinforcement. Each person must move through all five.\n- Kotter 8-Step: an org-wide sequence from creating urgency, building a coalition and vision, through enabling and short-term wins, to anchoring change in the culture.\n- Bridges Transition Model: separates the external change from the internal psychological transition - Ending (letting go), Neutral Zone (the messy in-between), New Beginning. People transition slower than systems change.\n- Satir Change Model: late status quo, then resistance, then chaos as performance dips, then integration, then a new status quo. It normalises the temporary dip in performance.",
+        "body": "These describe how people and organisations move through change, not the technical rollout:\n\n- Lewin: unfreeze (loosen the status quo), change (move to the new way), refreeze (embed it).\n- ADKAR: an individual adoption sequence - Awareness, Desire, Knowledge, Ability, Reinforcement. Each person must move through all five.\n- Kotter 8-Step: an org-wide sequence from creating urgency, building a coalition and vision, through enabling and short-term wins, to anchoring change in the culture.\n- Bridges Transition Model: separates the external change from the internal psychological transition - Ending (letting go), Neutral Zone (the messy in-between), New Beginning. People transition slower than systems change.\n- Satir Change Model: late status quo, then resistance, then chaos as performance dips, then integration, then a new status quo. It normalises the temporary dip in performance.",
         "tip": "Bridges is about transition (psychology); Lewin and Kotter are about change (the process) - the exam tests that distinction."
       },
       {
         "heading": "Coaching and situational leadership",
-        "body": "Situational Leadership II adapts your style to the follower's development level (competence x commitment) on a given task:\n- Directing: low competence, high commitment - tell and show.\n- Coaching: some competence, low commitment - explain and persuade.\n- Supporting: high competence, variable commitment - encourage and share decisions.\n- Delegating: high competence, high commitment - hand over responsibility.\n\nGROW is a coaching conversation structure: Goal, Reality (current state), Options, Will (the way forward and commitment).\n\nOSCAR is a related coaching frame: Outcome, Situation, Choices, Actions, Review - useful for longer-term development with built-in follow-up.",
+        "body": "Situational Leadership II adapts your style to the follower's development level (competence x commitment) on a given task:\n\n- Directing: low competence, high commitment - tell and show.\n- Coaching: some competence, low commitment - explain and persuade.\n- Supporting: high competence, variable commitment - encourage and share decisions.\n- Delegating: high competence, high commitment - hand over responsibility.\n\nGROW is a coaching conversation structure: Goal, Reality (current state), Options, Will (the way forward and commitment).\n\nOSCAR is a related coaching frame: Outcome, Situation, Choices, Actions, Review - useful for longer-term development with built-in follow-up.",
         "tip": "There is no single best leadership style - the answer is the one matched to the person and task."
       },
       {
@@ -36,11 +36,25 @@
       },
       {
         "heading": "Where the other models live",
-        "body": "To keep this catalogue complete, the models covered in their own guides are:\n- Tuckman - team development (forming, storming, norming, performing, adjourning).\n- Thomas-Kilmann - conflict modes (competing, collaborating, compromising, avoiding, accommodating).\n- Motivation theories - Maslow, Herzberg, McGregor X/Y, McClelland and others.\n- Stakeholder salience / Power-Interest - prioritising stakeholders.\n- Group Decision-Making - reaching and recording a decision.\n\nUse those guides for depth; use this one to recognise the complexity, change, coaching and planning models at a glance.",
+        "body": "To keep this catalogue complete, the models covered in their own guides are:\n\n- Tuckman - team development (forming, storming, norming, performing, adjourning).\n- Thomas-Kilmann - conflict modes (competing, collaborating, compromising, avoiding, accommodating).\n- Motivation theories - Maslow, Herzberg, McGregor X/Y, McClelland and others.\n- Stakeholder salience / Power-Interest - prioritising stakeholders.\n- Group Decision-Making - reaching and recording a decision.\n\nUse those guides for depth; use this one to recognise the complexity, change, coaching and planning models at a glance.",
         "tip": "In the exam, first name the family (complexity, change, leadership), then pick the specific model."
       }
     ],
-    "tags": ["models", "cynefin", "stacey", "change-management", "adkar", "kotter", "bridges", "situational-leadership", "grow", "coaching", "pmbok7", "pmbok8", "mindset"],
+    "tags": [
+      "models",
+      "cynefin",
+      "stacey",
+      "change-management",
+      "adkar",
+      "kotter",
+      "bridges",
+      "situational-leadership",
+      "grow",
+      "coaching",
+      "pmbok7",
+      "pmbok8",
+      "mindset"
+    ],
     "source": "PM Cram study notes — reworded for the current ECO-based PMP exam. Models per PMBOK Guide 7/8."
   }
 ]

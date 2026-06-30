@@ -12,7 +12,7 @@
       },
       {
         "heading": "Lean: maximise value, eliminate waste",
-        "body": "Lean comes from the Toyota Production System. Its aim is to maximise customer value while removing waste (muda) - anything the customer would not pay for.\n\nThe wastes are:\n- Overproduction\n- Waiting\n- Transport\n- Over-processing\n- Inventory\n- Motion\n- Defects\n- Under-used talent (the eighth, people-focused waste)\n\nCore tools and ideas: value stream mapping to see the whole flow, creating smooth flow, using pull so work is drawn by demand, and takt time to pace output to customer demand.",
+        "body": "Lean comes from the Toyota Production System. Its aim is to maximise customer value while removing waste (muda) - anything the customer would not pay for.\n\nThe wastes are:\n\n- Overproduction\n- Waiting\n- Transport\n- Over-processing\n- Inventory\n- Motion\n- Defects\n- Under-used talent (the eighth, people-focused waste)\n\nCore tools and ideas: value stream mapping to see the whole flow, creating smooth flow, using pull so work is drawn by demand, and takt time to pace output to customer demand.",
         "tip": "Remember the wastes with TIMWOOD plus the eighth - under-used talent."
       },
       {
@@ -36,11 +36,19 @@
       },
       {
         "heading": "When each approach fits",
-        "body": "Match the method to the problem:\n- Lean for flow, speed and waste problems\n- Six Sigma for variation and defect problems where data is available\n- Kaizen for building an everyday improvement culture\n- Theory of Constraints when one bottleneck caps throughput\n\nAs always, tailor to context. These approaches are complementary, and the right answer depends on the symptom the question describes.",
+        "body": "Match the method to the problem:\n\n- Lean for flow, speed and waste problems\n- Six Sigma for variation and defect problems where data is available\n- Kaizen for building an everyday improvement culture\n- Theory of Constraints when one bottleneck caps throughput\n\nAs always, tailor to context. These approaches are complementary, and the right answer depends on the symptom the question describes.",
         "tip": "Read for the symptom - waste and flow point to Lean, inconsistency and defects point to Six Sigma."
       }
     ],
-    "tags": ["lean", "six sigma", "continuous improvement", "kaizen", "DMAIC", "quality", "process"],
+    "tags": [
+      "lean",
+      "six sigma",
+      "continuous improvement",
+      "kaizen",
+      "DMAIC",
+      "quality",
+      "process"
+    ],
     "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
   }
 ]

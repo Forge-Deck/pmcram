@@ -7,7 +7,7 @@
     "sections": [
       {
         "heading": "The project charter",
-        "body": "The charter is the document that formally authorises the project to exist and gives the project manager the authority to apply organisational resources. Without it, the PM has no mandate.\n\nIt is deliberately high-level. Typical contents include:\n- Project purpose and high-level objectives\n- High-level scope and key deliverables\n- Key milestones and a summary (order-of-magnitude) budget\n- Key risks, assumptions and constraints\n- Success criteria and the named sponsor\n\nThe charter is signed or issued by the sponsor or initiator — someone external to the project who holds authority to fund it — not by the PM. It is created at the very start, before detailed planning.",
+        "body": "The charter is the document that formally authorises the project to exist and gives the project manager the authority to apply organisational resources. Without it, the PM has no mandate.\n\nIt is deliberately high-level. Typical contents include:\n\n- Project purpose and high-level objectives\n- High-level scope and key deliverables\n- Key milestones and a summary (order-of-magnitude) budget\n- Key risks, assumptions and constraints\n- Success criteria and the named sponsor\n\nThe charter is signed or issued by the sponsor or initiator — someone external to the project who holds authority to fund it — not by the PM. It is created at the very start, before detailed planning.",
         "tip": "Trap: the PM does not approve the charter. The sponsor authorises it; the PM is named in it."
       },
       {
@@ -26,7 +26,7 @@
       },
       {
         "heading": "Tracking with a RAID log",
-        "body": "A RAID log is a single consolidated view of Risks, Assumptions, Issues and Dependencies, used in the real world to keep all four visible in one place.\n\nFor the exam, know the nuance: PMI formally keeps these as separate artifacts. Risks live in the risk register, assumptions in the assumption log, issues in the issue log, and dependencies are tracked within the schedule. Treat RAID as a practical consolidation, but recognise the individual PMI documents.\n\nDistinguish the two that are most often confused:\n- A risk is a future, uncertain event that may or may not happen.\n- An issue is something already happening now that needs action.",
+        "body": "A RAID log is a single consolidated view of Risks, Assumptions, Issues and Dependencies, used in the real world to keep all four visible in one place.\n\nFor the exam, know the nuance: PMI formally keeps these as separate artifacts. Risks live in the risk register, assumptions in the assumption log, issues in the issue log, and dependencies are tracked within the schedule. Treat RAID as a practical consolidation, but recognise the individual PMI documents.\n\nDistinguish the two that are most often confused:\n\n- A risk is a future, uncertain event that may or may not happen.\n- An issue is something already happening now that needs action.",
         "tip": "Risk = future uncertainty (risk register). Issue = happening now (issue log). Don't merge them."
       },
       {
@@ -35,7 +35,14 @@
         "tip": "Follow the thread: business case justifies, charter authorises, governance decides, gates confirm value."
       }
     ],
-    "tags": ["charter", "governance", "stage-gate", "raid", "artifacts", "process"],
+    "tags": [
+      "charter",
+      "governance",
+      "stage-gate",
+      "raid",
+      "artifacts",
+      "process"
+    ],
     "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
   }
 ]
