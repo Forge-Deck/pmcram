@@ -26,18 +26,28 @@
         "tip": "After Plan Risk Responses, the next move is assign an owner and implement — not \"wait and see\"."
       },
       {
+        "heading": "Risk analysis: Monte Carlo and audits",
+        "body": "Two techniques the exam expects you to name by scenario:\n\n- Variability or uncertainty in a value — durations, costs, quantities — is a risk you model with Monte Carlo simulation: quantitative analysis that runs the numbers thousands of times to produce a probability distribution and confidence ranges. If a question gives uncertain estimates and asks how to analyse the overall impact, think Monte Carlo.\n- When the risk process itself looks weak — risks keep slipping through, responses aren't landing — request a risk audit. A risk audit examines how effective your risk management process and responses are, not just the individual risks.",
+        "tip": "\"Uncertain estimates, model the range\" → Monte Carlo (quantitative). \"Is our risk process actually working?\" → risk audit."
+      },
+      {
+        "heading": "New initiatives: identify risks, then align",
+        "body": "For a new project, phase or initiative, your first move is to identify and assess the high-level risks — before solutions, before committing.\n\nOn a genuinely high-risk project, add a second move: get early, explicit alignment from the key stakeholders and the sponsor before you proceed. High risk raises the bar for buy-in — you want everyone signed up to the approach up front, not a quiet start you'll have to defend later.\n\nYour trap is jumping to a solution without first surfacing the risks and securing that alignment.",
+        "tip": "New or high-risk initiative → identify the high-level risks first, then get the sponsor and key stakeholders explicitly aligned before proceeding."
+      },
+      {
         "heading": "Issue Log vs Risk Register: now vs later",
         "body": "This is one of your most repeated misses. The test is a single question: has it happened yet?\n\n- An issue is a current, realised problem — it is happening now. It goes in the Issue Log.\n- A risk is a future uncertainty — it might happen. It goes in the Risk Register.\n\nYou keep treating current, realised events as future risks. If the scenario describes something that has already occurred and needs handling, it is an issue, full stop.",
         "tip": "Ask \"Has it happened yet?\" — Yes → Issue Log. No / uncertain → Risk Register."
       },
       {
         "heading": "Stakeholders: update the Plan, not the Register",
-        "body": "Same Plan-vs-Register trap as risk, and again you reach for the register.\n\n- Stakeholder Register = WHO they are: names, roles, contact details, interest/influence. Update it when the people or their details change.\n- Stakeholder Engagement Plan = HOW you'll engage them: the strategies to move each stakeholder to the engagement level you need. Update it when roles change or your engagement approach must be tailored.\n\nEngagement is tailored — different stakeholders need different strategies, and that tailoring lives in the Plan.",
-        "tip": "Engagement strategy or a stakeholder's role changes → update the Stakeholder Engagement/Management Plan. A new person or contact detail → update the Register."
+        "body": "Same Plan-vs-Register trap as risk, and again you reach for the register.\n\n- Stakeholder Register = WHO they are: names, roles, contact details, interest/influence. Update it when the people or their details change.\n- Stakeholder Engagement Plan = HOW you'll engage them: the strategies to move each stakeholder to the engagement level you need. Update it when roles change or your engagement approach must be tailored.\n\nEngagement is tailored — different stakeholders need different strategies, and that tailoring lives in the Plan.\n\nEngagement also isn't set once — you monitor engagement levels over time using the Stakeholder Engagement Assessment Matrix, which maps each stakeholder's current level against the level you need:\n\n- Unaware — doesn't know about the project.\n- Resistant — aware but opposed.\n- Neutral — neither for nor against.\n- Supportive — aware and helpful.\n- Leading — actively driving success.\n\nMark where each stakeholder is now (C) and where you need them (D); the gap is exactly what the engagement strategies in the Plan exist to close.",
+        "tip": "Engagement strategy or a stakeholder's role changes → update the Stakeholder Engagement/Management Plan. A new person or contact detail → update the Register.\nEngagement is monitored over time — reassess with the Engagement Assessment Matrix, don't just review passively."
       },
       {
         "heading": "Change control: a baseline change needs a Change Request",
-        "body": "Once scope, schedule or cost is baselined, you cannot just edit the document. Any change to a baseline flows through Perform Integrated Change Control: raise a formal Change Request, assess the impact across all constraints, and take it to the Change Control Board (CCB) for a decision before anything is updated.\n\nYour trap is modifying baselined documents directly — quietly updating the plan because the change seems small or obvious.",
+        "body": "Once scope, schedule or cost is baselined, you cannot just edit the document. Any change to a baseline flows through Perform Integrated Change Control: raise a formal Change Request, assess the impact across all constraints, and take it to the Change Control Board (CCB) for a decision before anything is updated.\n\nYour trap is modifying baselined documents directly — quietly updating the plan because the change seems small or obvious.\n\nFor a major, unforeseen change, don't swing the other way and proceed blindly either — bring in expert judgment (SMEs, the CCB, relevant specialists) to assess the impact before you commit. A big surprise is a cue to raise a Change Request and get expert input, not to press on regardless.",
         "tip": "If it's baselined, you can't just change it. The answer is almost always \"submit/raise a Change Request,\" not \"update the document.\""
       },
       {
@@ -52,18 +62,18 @@
       },
       {
         "heading": "Agile roles & authority: support the Product Owner",
-        "body": "On an agile team the Product Owner owns product decisions — priorities, the backlog and its ordering, and what \"done\" delivers value. The PO is ultimately accountable for maximising product value.\n\nYou support and enable the PO; you do not override their product decisions. And you treat agile as agile — empirical, incremental, value-driven — not as predictive with different labels.",
+        "body": "On an agile team the Product Owner owns product decisions — priorities, the backlog and its ordering, and what \"done\" delivers value. The PO is ultimately accountable for maximising product value.\n\nYou support and enable the PO; you do not override their product decisions. And you treat agile as agile — empirical, incremental, value-driven — not as predictive with different labels.\n\nGood delivery also means well-formed, detailed user stories and ongoing backlog refinement, so the top of the backlog is always ready to pull. And sequence risk early — bring high-risk or high-uncertainty items into early iterations to burn risk down while there's still time to react, rather than leaving the hard stuff for last.",
         "tip": "Product or priority decision → the Product Owner's call. Your job is to support and unblock, not to override."
       },
       {
         "heading": "Empower the self-organising team",
-        "body": "Self-organising teams decide how to do the work. When a problem appears, the servant-leader's first move is usually to let the team diagnose and solve it — facilitate, ask, coach — not to step in and decide immediately.\n\nYour trap is the PM deciding too fast. On agile/people questions, the empowering option (bring it to the team, help them resolve it) beats the directive one far more often than feels comfortable.",
+        "body": "Self-organising teams decide how to do the work. When a problem appears, the servant-leader's first move is usually to let the team diagnose and solve it — facilitate, ask, coach — not to step in and decide immediately.\n\nYour trap is the PM deciding too fast. On agile/people questions, the empowering option (bring it to the team, help them resolve it) beats the directive one far more often than feels comfortable.\n\nTwo specific reflexes to kill: don't unilaterally change the timeline or scope to fix a problem, and don't skip backlog refinement. Let the team diagnose first, and keep the backlog refined so priorities and estimates stay realistic.",
         "tip": "\"What should the PM/Scrum Master do?\" on an agile team → usually empower / facilitate / take it to the team, not decide for them."
       },
       {
         "heading": "Servant leadership: remove blockers now",
-        "body": "Impediments and blockers are removed quickly so the team keeps flowing — that's a core servant-leadership duty. You don't spend time analysing the impact of a blocker before acting on it; you clear it.\n\nYour trap is analysing before acting. For an impediment, action comes first.",
-        "tip": "Blocker or impediment → remove it fast. If an option says \"analyse the impact first,\" it's usually wrong for an impediment."
+        "body": "Impediments and blockers are removed quickly so the team keeps flowing — that's a core servant-leadership duty. You don't spend time analysing the impact of a blocker before acting on it; you clear it.\n\nYour trap is analysing before acting. For an impediment, action comes first.\n\nBut match the response to the size of the problem. A day-to-day blocker → just clear it. A serious schedule slip the team can't absorb → work up a revised plan with the team and take it to the sponsor. Don't escalate a small impediment prematurely, and don't quietly absorb a big overrun that really needs a re-plan with the sponsor.",
+        "tip": "Blocker or impediment → remove it fast. If an option says \"analyse the impact first,\" it's usually wrong for an impediment.\nSerious slippage → revised plan with the team, then the sponsor. Small blocker → don't escalate, just remove it."
       },
       {
         "heading": "Prove value with an MVP or prototype",
@@ -86,12 +96,17 @@
         "tip": "\"Aligns/standardises across projects, decides on prioritisation\" = PMO. \"Funds and champions this project\" = Sponsor."
       },
       {
+        "heading": "Estimating: ask the people doing the work",
+        "body": "The most realistic estimate comes from the people who will actually do the work — or, if they aren't available, the closest available experts. That is expert judgment applied where it belongs: at the coal face.\n\nYour trap is asking the wrong source — reaching for the sponsor, procurement or a manager for a number they aren't best placed to give. They fund, contract and oversee; they don't do the task.",
+        "tip": "Need a realistic estimate → ask the people doing the work (or the nearest experts). Not the sponsor, not procurement."
+      },
+      {
         "heading": "Your recurring traps — the meta-pattern",
-        "body": "If you remember nothing else, override these reflexes. Each one has cost you marks more than once:\n\n- Reaching for the Register when the answer is the Plan (both risk and stakeholder).\n- Treating a current, realised problem as a future risk — it's the Issue Log, not the Risk Register.\n- Jumping to solutions or quantification before you've identified/assessed.\n- The PM deciding when a self-organising team should be empowered.\n- Editing a baselined document instead of raising a Change Request.\n- Analysing a blocker instead of removing it.\n- Creating something new instead of recovering, negotiating for, or upskilling what you already have.\n- Overriding the Product Owner instead of supporting them.",
+        "body": "If you remember nothing else, override these reflexes. Each one has cost you marks more than once:\n\n- Reaching for the Register when the answer is the Plan (both risk and stakeholder).\n- Treating a current, realised problem as a future risk — it's the Issue Log, not the Risk Register.\n- Jumping to solutions or quantification before you've identified/assessed.\n- The PM deciding when a self-organising team should be empowered.\n- Editing a baselined document instead of raising a Change Request.\n- Analysing a blocker instead of removing it.\n- Creating something new instead of recovering, negotiating for, or upskilling what you already have.\n- Overriding the Product Owner instead of supporting them.\n- Changing the timeline yourself or skipping backlog refinement instead of letting the team diagnose and refine.\n- Asking the sponsor or procurement for an estimate instead of the people doing the work.\n- Escalating a small blocker too soon — or failing to re-plan with the sponsor when the slip is genuinely serious.\n- Starting a high-risk initiative without early, explicit sponsor and stakeholder alignment.",
         "tip": "When two options feel close, name your reflex from this list — then deliberately pick the opposite, disciplined move. That single habit will lift these themes the most."
       }
     ],
-    "tags": ["exam strategy", "personal", "risk", "stakeholders", "agile", "change control", "leadership"],
+    "tags": ["exam strategy", "personal", "risk", "stakeholders", "agile", "change control", "leadership", "estimating"],
     "source": "Personal practice-exam feedback"
   }
 ]
