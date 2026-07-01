@@ -7,7 +7,7 @@
     "sections": [
       {
         "heading": "Cost of Quality (CoQ)",
-        "body": "Cost of Quality is the total cost of all effort spent to achieve quality across the product's life. It splits into two families.\n\nConformance costs are money spent to avoid defects: prevention (training, documenting processes, equipment, time to do it right) and appraisal (testing, inspection, audits).\n\nNon-conformance costs are money spent because of defects: internal failure (rework and scrap found before the customer sees it) and external failure (warranty work, liabilities, lost reputation found after delivery).\n\nThe core message is that prevention is almost always cheaper than failure, and the cost of fixing a defect rises sharply the later it is found.",
+        "body": "Cost of Quality is the total cost of all effort spent to achieve quality across the product's life. It splits into two families.\n\n- Conformance costs are money spent to avoid defects:\n  - prevention (training, documenting processes, equipment, time to do it right)\n  - appraisal (testing, inspection, audits)\n- Non-conformance costs are money spent because of defects:\n  - internal failure (rework and scrap found before the customer sees it)\n  - external failure (warranty work, liabilities, lost reputation found after delivery)\n\nThe core message is that prevention is almost always cheaper than failure, and the cost of fixing a defect rises sharply the later it is found.",
         "tip": "Cost of conformance = prevention + appraisal; cost of non-conformance = internal + external failure. Prevention buys down failure."
       },
       {

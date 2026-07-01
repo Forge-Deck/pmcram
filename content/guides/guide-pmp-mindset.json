@@ -32,7 +32,7 @@
       },
       {
         "heading": "Handle change through the appropriate system",
-        "body": "Do not implement uncontrolled change, and do not dismiss change without evaluation. The right response depends on the delivery approach.\n\nIn predictive work, assess impact, follow formal change control, obtain the required approval, and then update plans, documents, and baselines as needed.\nIn agile work, change is expected. New requests are typically captured in the product backlog, then evaluated and prioritised by the product owner with input from the team and stakeholders, as described in the Agile Practice Guide.\nIn hybrid work, determine which parts of the work follow formal change control and which parts are managed adaptively.",
+        "body": "Do not implement uncontrolled change, and do not dismiss change without evaluation. The right response depends on the delivery approach.\n\n- In predictive work, assess impact, follow formal change control, obtain the required approval, and then update plans, documents, and baselines as needed.\n- In agile work, change is expected. New requests are typically captured in the product backlog, then evaluated and prioritised by the product owner with input from the team and stakeholders, as described in the Agile Practice Guide.\n- In hybrid work, determine which parts of the work follow formal change control and which parts are managed adaptively.",
         "tip": "Predictive: evaluate impact and use change control. Agile: capture and reprioritise through the backlog. Never make a hidden change."
       },
       {
