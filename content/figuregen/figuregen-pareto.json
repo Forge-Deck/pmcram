@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "pareto-defects",
+    "kind": "pareto",
+    "domain": "Process",
+    "topic": "Quality / Pareto",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 190],
+    "prompt": "These defect causes are in a jumbled order. Long-press and drag the bars into descending order (biggest first) — the cumulative % line and the 80% marker update as you sort. Then TAP the vital few (the bars that together reach 80%).",
+    "caption": "80/20: a few causes drive most of the effect.",
+    "causes": [
+      { "label": "'Wiring'", "value": 52, "why": "'52% of defects — the single biggest driver; fix this first.'" },
+      { "label": "'Solder'", "value": 30, "why": "'30% — with Wiring that’s 82%, just past the 80% line, so these two are the vital few.'" },
+      { "label": "'Align'", "value": 10, "why": "'10% — a trivial-many cause, below the 80% line.'" },
+      { "label": "'Label'", "value": 5, "why": "'5% — minor.'" },
+      { "label": "'Pack'", "value": 3, "why": "'3% — minor.'" }
+    ],
+    "explanation": "Sorted descending, the cumulative line climbs steeply then flattens. Wiring (52%) + Solder (30%) = 82% — the vital few worth tackling first; the rest are the trivial many."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "pareto-tickets",
+    "kind": "pareto",
+    "domain": "Process",
+    "topic": "Quality / Pareto",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 190],
+    "prompt": "These support-ticket causes are jumbled. Long-press and drag the bars into descending order (biggest first) — the cumulative line and the 80% marker update live. Then TAP the vital few that together reach 80%.",
+    "caption": "80/20: focus effort where it pays off most.",
+    "causes": [
+      { "label": "'Login'", "value": 48, "why": "'48% of tickets — the top cause; address first.'" },
+      { "label": "'Billing'", "value": 34, "why": "'34% — with Login that’s 82%, past the 80% line: the vital few.'" },
+      { "label": "'Sync'", "value": 9, "why": "'9% — below the line, a trivial-many cause.'" },
+      { "label": "'UI'", "value": 6, "why": "'6% — minor.'" },
+      { "label": "'Docs'", "value": 3, "why": "'3% — minor.'" }
+    ],
+    "explanation": "Login (48%) + Billing (34%) = 82% of tickets — the vital few. Fixing those two clears most of the volume; the remaining causes are the trivial many."
+  }
+]
