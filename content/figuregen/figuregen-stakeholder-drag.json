@@ -1,0 +1,214 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "salience-venn-fill",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder salience",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 212],
+    "prompt": "Drag each salience label onto the region of the Venn where it belongs — the overlap of Power, Legitimacy and Urgency that stakeholder holds.",
+    "caption": "Power · Legitimacy · Urgency.",
+    "draw": [
+      { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
+      { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
+      { "op": "text", "x": 161, "y": 210, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
+    ],
+    "regions": [
+      { "id": "'pw'", "x": 61, "y": 68, "w": 54, "h": 24 },
+      { "id": "'lg'", "x": 204, "y": 68, "w": 60, "h": 24 },
+      { "id": "'ur'", "x": 131, "y": 172, "w": 60, "h": 24 },
+      { "id": "'pl'", "x": 131, "y": 42, "w": 60, "h": 24 },
+      { "id": "'pu'", "x": 82, "y": 116, "w": 60, "h": 24 },
+      { "id": "'lu'", "x": 180, "y": 116, "w": 60, "h": 24 },
+      { "id": "'all'", "x": 131, "y": 90, "w": 60, "h": 24 }
+    ],
+    "tokens": [
+      { "label": "'Dormant'", "target": "'pw'", "why": "'Dormant: power only — a latent stakeholder you monitor.'" },
+      { "label": "'Discretionary'", "target": "'lg'", "why": "'Discretionary: legitimacy only — keep informed, low effort.'" },
+      { "label": "'Demanding'", "target": "'ur'", "why": "'Demanding: urgency only — noisy, but little power or legitimacy.'" },
+      { "label": "'Dominant'", "target": "'pl'", "why": "'Dominant: power + legitimacy — a formal player; keep satisfied.'" },
+      { "label": "'Dangerous'", "target": "'pu'", "why": "'Dangerous: power + urgency, no legitimacy — coercive; contain the threat.'" },
+      { "label": "'Dependent'", "target": "'lu'", "why": "'Dependent: legitimacy + urgency, no power — needs a champion.'" },
+      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: power + legitimacy + urgency — top priority; manage closely.'" }
+    ],
+    "explanation": "One attribute = latent (Dormant / Discretionary / Demanding); two = expectant (Dominant / Dependent / Dangerous); all three = Definitive — your highest priority."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "power-interest-fill",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder analysis",
+    "difficulty": "medium",
+    "mockExclude": true,
+    "viewBox": [320, 205],
+    "prompt": "Drag each engagement strategy onto the quadrant it matches. Power runs up the side; interest across the bottom.",
+    "draw": [
+      { "op": "rect", "x": 44, "y": 16, "w": 262, "h": 156, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "line", "x1": 175, "y1": 16, "x2": 175, "y2": 172, "width": 0.6, "dash": "4 4" },
+      { "op": "line", "x1": 44, "y1": 94, "x2": 306, "y2": 94, "width": 0.6, "dash": "4 4" },
+      { "op": "text", "x": 16, "y": 94, "text": "'Power'", "size": 10, "anchor": "middle", "rotate": -90 },
+      { "op": "text", "x": 34, "y": 26, "text": "'High'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 34, "y": 170, "text": "'Low'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 175, "y": 200, "text": "'Interest'", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 70, "y": 190, "text": "'Low'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 284, "y": 190, "text": "'High'", "size": 7.5, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'ks'", "x": 64, "y": 33, "w": 90, "h": 44 },
+      { "id": "'mc'", "x": 195, "y": 33, "w": 90, "h": 44 },
+      { "id": "'mo'", "x": 64, "y": 111, "w": 90, "h": 44 },
+      { "id": "'ki'", "x": 195, "y": 111, "w": 90, "h": 44 }
+    ],
+    "tokens": [
+      { "label": "'Manage closely'", "target": "'mc'", "why": "'High power + high interest → manage closely (your key players).'" },
+      { "label": "'Keep satisfied'", "target": "'ks'", "why": "'High power, low interest → keep satisfied; don’t overload them.'" },
+      { "label": "'Keep informed'", "target": "'ki'", "why": "'Low power, high interest → keep informed; useful allies.'" },
+      { "label": "'Monitor'", "target": "'mo'", "why": "'Low power, low interest → monitor with minimal effort.'" }
+    ],
+    "explanation": "Read power first: high power = Manage Closely (interested) or Keep Satisfied (not); low power = Keep Informed (interested) or Monitor (not)."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "stakeholder-cube-fill",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder cube",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 210],
+    "prompt": "Each corner of the stakeholder cube is a power × interest × attitude combination. Drag each character onto its cell.",
+    "caption": "Rows = power & interest · columns = attitude (backer / blocker).",
+    "draw": [
+      { "op": "text", "x": 154, "y": 26, "text": "'Backer'", "size": 9.5, "anchor": "middle", "color": "green" },
+      { "op": "text", "x": 264, "y": 26, "text": "'Blocker'", "size": 9.5, "anchor": "middle", "color": "red" },
+      { "op": "text", "x": 94, "y": 57, "text": "'High · Active'", "size": 8, "anchor": "end" },
+      { "op": "text", "x": 94, "y": 101, "text": "'High · Passive'", "size": 8, "anchor": "end" },
+      { "op": "text", "x": 94, "y": 145, "text": "'Low · Active'", "size": 8, "anchor": "end" },
+      { "op": "text", "x": 94, "y": 189, "text": "'Low · Passive'", "size": 8, "anchor": "end" },
+      { "op": "rect", "x": 100, "y": 34, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 210, "y": 34, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 100, "y": 78, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 210, "y": 78, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 100, "y": 122, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 210, "y": 122, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 100, "y": 166, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 },
+      { "op": "rect", "x": 210, "y": 166, "w": 108, "h": 40, "rx": 3, "color": "ink", "width": 0.7 }
+    ],
+    "regions": [
+      { "id": "'r0c0'", "x": 100, "y": 34, "w": 108, "h": 40 },
+      { "id": "'r0c1'", "x": 210, "y": 34, "w": 108, "h": 40 },
+      { "id": "'r1c0'", "x": 100, "y": 78, "w": 108, "h": 40 },
+      { "id": "'r1c1'", "x": 210, "y": 78, "w": 108, "h": 40 },
+      { "id": "'r2c0'", "x": 100, "y": 122, "w": 108, "h": 40 },
+      { "id": "'r2c1'", "x": 210, "y": 122, "w": 108, "h": 40 },
+      { "id": "'r3c0'", "x": 100, "y": 166, "w": 108, "h": 40 },
+      { "id": "'r3c1'", "x": 210, "y": 166, "w": 108, "h": 40 }
+    ],
+    "tokens": [
+      { "label": "'Saviour'", "target": "'r0c0'", "why": "'High power, active, backer — your best ally; engage fully.'" },
+      { "label": "'Saboteur'", "target": "'r0c1'", "why": "'High power, active, blocker — the biggest threat; manage and contain.'" },
+      { "label": "'Sleeping giant'", "target": "'r1c0'", "why": "'High power, passive, backer — wake them up.'" },
+      { "label": "'Time bomb'", "target": "'r1c1'", "why": "'High power, passive, blocker — dormant opposition; watch closely.'" },
+      { "label": "'Friend'", "target": "'r2c0'", "why": "'Low power, active, backer — a confidant and sounding board.'" },
+      { "label": "'Trip wire'", "target": "'r2c1'", "why": "'Low power, active, blocker — minor but vocal opposition.'" },
+      { "label": "'Acquaintance'", "target": "'r3c0'", "why": "'Low power, passive, backer — keep gently informed.'" },
+      { "label": "'Irritant'", "target": "'r3c1'", "why": "'Low power, passive, blocker — low impact; don’t over-invest.'" }
+    ],
+    "explanation": "The cube adds attitude to power/interest: a high-power blocker (Saboteur, Time bomb) is the corner to fear; a high-power backer (Saviour, Sleeping giant) is the ally to engage."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "salience-venn-one",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder salience",
+    "difficulty": "medium",
+    "viewBox": [320, 212],
+    "prompt": "You’re dealing with {{examples[k]}}. Drag the label that describes this stakeholder onto the correct region of the Venn — leave the other labels in the tray.",
+    "caption": "Power · Legitimacy · Urgency.",
+    "vars": {
+      "k": { "pick": [0, 1, 2, 3, 4, 5, 6] }
+    },
+    "derived": {
+      "names": "['Dormant','Discretionary','Demanding','Dominant','Dangerous','Dependent','Definitive']",
+      "zoneIds": "['pw','lg','ur','pl','pu','lu','all']",
+      "desc": "['power only','legitimacy only','urgency only','power and legitimacy','power and urgency','legitimacy and urgency','all three attributes']",
+      "descZone": "['power-only','legitimacy-only','urgency-only','power+legitimacy','power+urgency','legitimacy+urgency','all-three']",
+      "examples": "['a senior manager from another division — power, but no stake or deadline','a colleague or an NGO giving feedback — a legitimate voice with no power or urgency','the CEO’s assistant urgently chasing information — urgent, but no power or legitimate stake','your line manager or a government clearance office — powerful and legitimate, no deadline','a group threatening disruptive action — powerful and urgent, but not legitimate','local residents affected by the works — a legitimate, urgent claim but no power','your executive sponsor and the key customer — power, legitimacy and urgency together']",
+      "d1": "(k+2)%7",
+      "d2": "(k+4)%7"
+    },
+    "draw": [
+      { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
+      { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
+      { "op": "text", "x": 161, "y": 210, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
+    ],
+    "regions": [
+      { "id": "'pw'", "x": 61, "y": 68, "w": 54, "h": 24 },
+      { "id": "'lg'", "x": 204, "y": 68, "w": 60, "h": 24 },
+      { "id": "'ur'", "x": 131, "y": 172, "w": 60, "h": 24 },
+      { "id": "'pl'", "x": 131, "y": 42, "w": 60, "h": 24 },
+      { "id": "'pu'", "x": 82, "y": 116, "w": 60, "h": 24 },
+      { "id": "'lu'", "x": 180, "y": 116, "w": 60, "h": 24 },
+      { "id": "'all'", "x": 131, "y": 90, "w": 60, "h": 24 }
+    ],
+    "tokens": [
+      { "label": "names[k]", "target": "zoneIds[k]", "why": "'This stakeholder holds ' + desc[k] + ' → ' + names[k] + '.'" },
+      { "label": "names[d1]", "target": "''", "why": "'Not this one — leave it in the tray.'" },
+      { "label": "names[d2]", "target": "''", "why": "'Not this one — leave it in the tray.'" }
+    ],
+    "explanation": "{{examples[k]}} → {{names[k]}} ({{desc[k]}}), the {{descZone[k]}} region."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "power-interest-one",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder analysis",
+    "difficulty": "easy",
+    "viewBox": [320, 205],
+    "prompt": "A stakeholder has {{powint[k]}}. Drag the engagement strategy that fits onto their quadrant — leave the others in the tray.",
+    "vars": {
+      "k": { "pick": [0, 1, 2, 3] }
+    },
+    "derived": {
+      "strat": "['Manage closely','Keep satisfied','Keep informed','Monitor']",
+      "zoneIds": "['mc','ks','ki','mo']",
+      "powint": "['high power and high interest','high power but low interest','low power but high interest','low power and low interest']",
+      "d1": "(k+1)%4",
+      "d2": "(k+2)%4"
+    },
+    "draw": [
+      { "op": "rect", "x": 44, "y": 16, "w": 262, "h": 156, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "line", "x1": 175, "y1": 16, "x2": 175, "y2": 172, "width": 0.6, "dash": "4 4" },
+      { "op": "line", "x1": 44, "y1": 94, "x2": 306, "y2": 94, "width": 0.6, "dash": "4 4" },
+      { "op": "text", "x": 16, "y": 94, "text": "'Power'", "size": 10, "anchor": "middle", "rotate": -90 },
+      { "op": "text", "x": 34, "y": 26, "text": "'High'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 34, "y": 170, "text": "'Low'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 175, "y": 200, "text": "'Interest'", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 70, "y": 190, "text": "'Low'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 284, "y": 190, "text": "'High'", "size": 7.5, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'ks'", "x": 64, "y": 33, "w": 90, "h": 44 },
+      { "id": "'mc'", "x": 195, "y": 33, "w": 90, "h": 44 },
+      { "id": "'mo'", "x": 64, "y": 111, "w": 90, "h": 44 },
+      { "id": "'ki'", "x": 195, "y": 111, "w": 90, "h": 44 }
+    ],
+    "tokens": [
+      { "label": "strat[k]", "target": "zoneIds[k]", "why": "'A stakeholder with ' + powint[k] + ' → ' + strat[k] + '.'" },
+      { "label": "strat[d1]", "target": "''", "why": "'Wrong quadrant for this stakeholder.'" },
+      { "label": "strat[d2]", "target": "''", "why": "'Wrong quadrant for this stakeholder.'" }
+    ],
+    "explanation": "{{powint[k]}} → {{strat[k]}}."
+  }
+]

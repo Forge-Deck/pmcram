@@ -7,7 +7,7 @@
   "properties": {
     "schema": { "const": "figuregen/v1" },
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-    "kind": { "enum": ["hotspot", "choice"] },
+    "kind": { "enum": ["hotspot", "choice", "dragdrop"] },
     "domain": { "enum": ["People", "Process", "Business Environment"] },
     "topic": { "type": "string" },
     "difficulty": { "enum": ["easy", "medium", "hard"] },
@@ -20,6 +20,7 @@
     "select": { "$ref": "#/$defs/expr" },
     "multi": { "type": "boolean" },
     "freeSelect": { "type": "boolean" },
+    "mockExclude": { "type": "boolean" },
     "vars": { "type": "object" },
     "derived": { "type": "object", "additionalProperties": { "type": "string" } },
     "guard": { "type": "string" },
@@ -29,6 +30,9 @@
     },
     "choices": {
       "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/choice" } }, { "$ref": "#/$defs/itemsBlock" }]
+    },
+    "tokens": {
+      "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/token" } }, { "$ref": "#/$defs/itemsBlock" }]
     }
   },
   "additionalProperties": false,
@@ -64,6 +68,17 @@
         "id": { "$ref": "#/$defs/expr" },
         "text": { "$ref": "#/$defs/expr" },
         "correct": { "$ref": "#/$defs/expr" },
+        "why": { "$ref": "#/$defs/expr" }
+      },
+      "additionalProperties": false
+    },
+    "token": {
+      "type": "object",
+      "required": ["label", "target"],
+      "properties": {
+        "id": { "$ref": "#/$defs/expr" },
+        "label": { "$ref": "#/$defs/expr" },
+        "target": { "$ref": "#/$defs/expr" },
         "why": { "$ref": "#/$defs/expr" }
       },
       "additionalProperties": false
