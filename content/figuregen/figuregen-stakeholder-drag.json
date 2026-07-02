@@ -210,5 +210,44 @@
       { "label": "strat[d2]", "target": "''", "why": "'The strategy for ' + powint[d2] + ' — not this stakeholder.'" }
     ],
     "explanation": "{{powint[k]}} → {{strat[k]}}."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "salience-venn-fill-b",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Stakeholder salience",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 224],
+    "prompt": "Drag each salience label onto the region of the Venn where it belongs — read the circle labels carefully, the layout is different this time.",
+    "caption": "Power · Legitimacy · Urgency (rearranged).",
+    "draw": [
+      { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
+      { "op": "text", "x": 50, "y": 30, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" },
+      { "op": "text", "x": 272, "y": 30, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
+      { "op": "text", "x": 161, "y": 219, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" }
+    ],
+    "regions": [
+      { "id": "'pw'", "x": 61, "y": 68, "w": 54, "h": 24 },
+      { "id": "'lg'", "x": 204, "y": 68, "w": 60, "h": 24 },
+      { "id": "'ur'", "x": 131, "y": 172, "w": 60, "h": 24 },
+      { "id": "'pl'", "x": 131, "y": 42, "w": 60, "h": 24 },
+      { "id": "'pu'", "x": 82, "y": 116, "w": 60, "h": 24 },
+      { "id": "'lu'", "x": 180, "y": 116, "w": 60, "h": 24 },
+      { "id": "'all'", "x": 131, "y": 90, "w": 60, "h": 24 }
+    ],
+    "tokens": [
+      { "label": "'Dormant'", "target": "'lg'", "why": "'Dormant: power only — here Power is the top-right circle.'" },
+      { "label": "'Discretionary'", "target": "'ur'", "why": "'Discretionary: legitimacy only — Legitimacy is the bottom circle.'" },
+      { "label": "'Demanding'", "target": "'pw'", "why": "'Demanding: urgency only — Urgency is the top-left circle.'" },
+      { "label": "'Dominant'", "target": "'lu'", "why": "'Dominant: power + legitimacy — the top-right ∩ bottom overlap.'" },
+      { "label": "'Dependent'", "target": "'pu'", "why": "'Dependent: legitimacy + urgency — the bottom ∩ top-left overlap.'" },
+      { "label": "'Dangerous'", "target": "'pl'", "why": "'Dangerous: power + urgency — the top-left ∩ top-right overlap.'" },
+      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: all three attributes — the centre.'" }
+    ],
+    "explanation": "The zones are physical positions; the attribute at each circle changed. Match each label to the overlap holding its attributes: e.g. Dormant (power only) goes wherever Power sits — top-right here."
   }
 ]
