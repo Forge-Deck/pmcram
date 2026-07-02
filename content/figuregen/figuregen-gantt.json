@@ -74,5 +74,27 @@
       { "label": "'D'", "dur": 2, "start": 5, "why": "'D waits for BOTH B (ends wk 5) and C (ends wk 3) — the later is week 5, so D starts week 6.'" }
     ],
     "explanation": "Forward pass: A (wk 1–2) → B (wk 3–5) and C (wk 3) → D starts after the later predecessor (B, wk 5) so D is wk 6–7. Critical path A-B-D = 7 weeks; C carries 2 weeks of float."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-six-task",
+    "kind": "gantt",
+    "domain": "Process",
+    "topic": "Schedule / critical path",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [340, 214],
+    "weeks": 9,
+    "prompt": "Build the schedule from the dependencies: Charter first; Design and Procure both follow Charter; Docs follows Design; Build follows BOTH Design and Procure; Test follows Build. Drag each pre-sized bar to its earliest start week.",
+    "caption": "Six tasks, two parallel branches. Some tasks carry float.",
+    "bars": [
+      { "label": "'Charter'", "dur": 1, "start": 0, "why": "'No predecessor — starts week 1.'" },
+      { "label": "'Design'", "dur": 3, "start": 1, "why": "'Follows Charter (ends wk 1) → starts week 2, runs to week 4.'" },
+      { "label": "'Procure'", "dur": 2, "start": 1, "why": "'Also follows Charter → starts week 2, runs to week 3.'" },
+      { "label": "'Docs'", "dur": 2, "start": 4, "why": "'Follows Design (ends wk 4) → starts week 5; runs parallel to Build, with float.'" },
+      { "label": "'Build'", "dur": 3, "start": 4, "why": "'Waits for BOTH Design (wk 4) and Procure (wk 3) → starts week 5, runs to week 7.'" },
+      { "label": "'Test'", "dur": 2, "start": 7, "why": "'Follows Build (ends wk 7) → starts week 8, ends week 9.'" }
+    ],
+    "explanation": "Critical path Charter-Design-Build-Test = 1+3+3+2 = 9 weeks. Procure finishes before Build needs it (1 week float); Docs runs alongside Build (also has float). The critical path is the longest chain, with zero float."
   }
 ]
