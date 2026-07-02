@@ -50,5 +50,48 @@
       ]
     },
     "explanation": "Level the weeks that are BOTH over capacity AND on the critical path first — easing over-allocation off the critical path doesn't protect the finish date. {{nCorr}} week(s) qualify here."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "resource-levelling-decision",
+    "kind": "choice",
+    "domain": "People",
+    "topic": "Resource levelling",
+    "difficulty": "hard",
+    "viewBox": [298, 200],
+    "prompt": "Bars are planned hours per week against a 40h capacity; 'CP' marks critical-path weeks. What should you do about the over-allocations?",
+    "vars": {
+      "mode": { "pick": [0, 1] },
+      "hours": { "sampleInt": [28, 52], "count": 6 },
+      "cpFlags": { "sampleInt": [0, 1], "count": 6 }
+    },
+    "guard": "mode==0 ? count([hours[0]>40&&cpFlags[0]==1,hours[1]>40&&cpFlags[1]==1,hours[2]>40&&cpFlags[2]==1,hours[3]>40&&cpFlags[3]==1,hours[4]>40&&cpFlags[4]==1,hours[5]>40&&cpFlags[5]==1])>=1 : (count([hours[0]>40,hours[1]>40,hours[2]>40,hours[3]>40,hours[4]>40,hours[5]>40])>=1 && count([hours[0]>40&&cpFlags[0]==1,hours[1]>40&&cpFlags[1]==1,hours[2]>40&&cpFlags[2]==1,hours[3]>40&&cpFlags[3]==1,hours[4]>40&&cpFlags[4]==1,hours[5]>40&&cpFlags[5]==1])==0)",
+    "derived": {
+      "nOverCP": "count([hours[0]>40&&cpFlags[0]==1,hours[1]>40&&cpFlags[1]==1,hours[2]>40&&cpFlags[2]==1,hours[3]>40&&cpFlags[3]==1,hours[4]>40&&cpFlags[4]==1,hours[5]>40&&cpFlags[5]==1])",
+      "nOver": "count([hours[0]>40,hours[1]>40,hours[2]>40,hours[3]>40,hours[4]>40,hours[5]>40])"
+    },
+    "draw": [
+      { "op": "line", "x1": 34, "y1": 168, "x2": 292, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": 34, "y1": 20, "x2": 34, "y2": 168, "width": 1.3 },
+      { "op": "line", "x1": 34, "y1": "168 - 40*148/56", "x2": 292, "y2": "168 - 40*148/56", "width": 1.1, "dash": "5 3" },
+      { "op": "text", "x": 30, "y": "168 - 40*148/56 + 3", "text": "'40h'", "size": 8, "anchor": "end" },
+      {
+        "op": "repeat",
+        "over": "hours",
+        "as": "h",
+        "do": [
+          { "op": "rect", "x": "40 + i*42", "y": "168 - h*148/56", "w": 34, "h": "h*148/56", "rx": 3, "fill": "ink", "fillOpacity": 0.1 },
+          { "op": "text", "x": "40 + i*42 + 17", "y": 182, "text": "'Wk' + (i+1)", "size": 8, "anchor": "middle" },
+          { "op": "text", "x": "40 + i*42 + 17", "y": 194, "text": "cpFlags[i]==1 ? 'CP' : ''", "size": 7.5, "anchor": "middle", "color": "blue" }
+        ]
+      }
+    ],
+    "choices": [
+      { "text": "'Level the over-allocated CRITICAL-PATH week(s) first — those over-allocations threaten the finish date.'", "correct": "mode==0", "why": "mode==0 ? ('Weeks over 40h AND on the critical path (' + nOverCP + ' here) have no float, so the over-allocation pushes the finish — level those first.') : 'No over-allocated week is on the critical path here, so this is not the priority.'" },
+      { "text": "'The over-allocations are all OFF the critical path — smooth them if capacity allows, but the finish date is not at risk.'", "correct": "mode==1", "why": "mode==1 ? ('Every over-allocated week (' + nOver + ') has float, so easing them protects nobody’s deadline — the finish is safe; smoothing within float is optional.') : 'At least one over-allocated week here IS on the critical path, so the finish IS at risk.'" },
+      { "text": "'Immediately add people to every over-allocated week.'", "correct": "false", "why": "'Adding resources everywhere ignores float and cost; level within float and only protect the critical path.'" },
+      { "text": "'Nothing — resource over-allocation never affects the schedule.'", "correct": "false", "why": "'Over-allocation on the critical path directly threatens the finish date.'" }
+    ],
+    "explanation": "Only over-allocation on the CRITICAL PATH threatens the finish (zero float). Off the critical path, the float absorbs it — smooth within the float if you can, but it isn't urgent."
   }
 ]
