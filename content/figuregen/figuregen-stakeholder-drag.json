@@ -7,7 +7,7 @@
     "topic": "Stakeholder salience",
     "difficulty": "hard",
     "mockExclude": true,
-    "viewBox": [320, 212],
+    "viewBox": [320, 224],
     "prompt": "Drag each salience label onto the region of the Venn where it belongs — the overlap of Power, Legitimacy and Urgency that stakeholder holds.",
     "caption": "Power · Legitimacy · Urgency.",
     "draw": [
@@ -16,7 +16,7 @@
       { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
       { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
-      { "op": "text", "x": 161, "y": 210, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
+      { "op": "text", "x": 161, "y": 219, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
     ],
     "regions": [
       { "id": "'pw'", "x": 61, "y": 68, "w": 54, "h": 24 },
@@ -129,7 +129,7 @@
     "domain": "People",
     "topic": "Stakeholder salience",
     "difficulty": "medium",
-    "viewBox": [320, 212],
+    "viewBox": [320, 224],
     "prompt": "You’re dealing with {{examples[k]}}. Drag the label that describes this stakeholder onto the correct region of the Venn — leave the other labels in the tray.",
     "caption": "Power · Legitimacy · Urgency.",
     "vars": {
@@ -150,7 +150,7 @@
       { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
       { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
-      { "op": "text", "x": 161, "y": 210, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
+      { "op": "text", "x": 161, "y": 219, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
     ],
     "regions": [
       { "id": "'pw'", "x": 61, "y": 68, "w": 54, "h": 24 },

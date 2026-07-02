@@ -38,5 +38,43 @@
       { "label": "'Docs'", "value": 3, "why": "'3% — minor.'" }
     ],
     "explanation": "Login (48%) + Billing (34%) = 82% of tickets — the vital few. Fixing those two clears most of the volume; the remaining causes are the trivial many."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "pareto-delays",
+    "kind": "pareto",
+    "domain": "Process",
+    "topic": "Quality / Pareto",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 190],
+    "prompt": "These project-delay causes are jumbled. Long-press and drag the bars into descending order — the cumulative line and 80% marker update live. Then TAP the vital few that together reach 80%.",
+    "causes": [
+      { "label": "'Reqs'", "value": 34, "why": "'34% — the top delay cause.'" },
+      { "label": "'Data'", "value": 26, "why": "'26% — part of the vital few.'" },
+      { "label": "'Env'", "value": 20, "why": "'20% — this THIRD bar tips the cumulative to 80%, so it is in the vital few.'" },
+      { "label": "'Access'", "value": 12, "why": "'12% — below the line, a trivial-many cause.'" },
+      { "label": "'Comms'", "value": 8, "why": "'8% — minor.'" }
+    ],
+    "explanation": "Reqs (34%) + Data (26%) + Env (20%) = 80% — here it takes THREE causes to reach the line, not two. The remaining two are the trivial many."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "pareto-outage",
+    "kind": "pareto",
+    "domain": "Process",
+    "topic": "Quality / Pareto",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 190],
+    "prompt": "These outage causes are jumbled. Long-press and drag the bars into descending order — the cumulative line and 80% marker update live. Then TAP the vital few that together reach 80%.",
+    "causes": [
+      { "label": "'DB'", "value": 62, "why": "'62% — one dominant cause; fixing it alone gets you most of the way.'" },
+      { "label": "'Net'", "value": 20, "why": "'20% — with DB that is 82%, the vital few.'" },
+      { "label": "'Cfg'", "value": 9, "why": "'9% — below the line, trivial many.'" },
+      { "label": "'Disk'", "value": 5, "why": "'5% — minor.'" },
+      { "label": "'Cert'", "value": 4, "why": "'4% — minor.'" }
+    ],
+    "explanation": "A steep Pareto: DB alone is 62%, and DB + Net = 82%. When one cause dominates, the vital few can be very small — focus almost entirely there."
   }
 ]
