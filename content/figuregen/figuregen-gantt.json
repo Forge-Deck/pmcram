@@ -96,5 +96,26 @@
       { "label": "'Test'", "dur": 2, "start": 7, "why": "'Follows Build (ends wk 7) → starts week 8, ends week 9.'" }
     ],
     "explanation": "Critical path Charter-Design-Build-Test = 1+3+3+2 = 9 weeks. Procure finishes before Build needs it (1 week float); Docs runs alongside Build (also has float). The critical path is the longest chain, with zero float."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-milestones-place",
+    "kind": "gantt",
+    "domain": "Process",
+    "topic": "Schedule / milestones",
+    "difficulty": "medium",
+    "mockExclude": true,
+    "viewBox": [320, 210],
+    "weeks": 7,
+    "prompt": "Tasks run back-to-back; the diamonds (◆) are milestones — zero-duration markers. Drag each task bar to its start week, and each milestone to the point in time it marks.",
+    "caption": "Bars have duration; diamonds mark a single point.",
+    "bars": [
+      { "label": "'Kickoff'", "dur": 0, "start": 0, "why": "'The kickoff milestone marks the project start — the very beginning (week 1).'" },
+      { "label": "'Design'", "dur": 3, "start": 0, "why": "'Begins at kickoff → week 1, runs three weeks to week 3.'" },
+      { "label": "'Build'", "dur": 2, "start": 3, "why": "'Follows Design (ends week 3) → starts week 4, runs to week 5.'" },
+      { "label": "'Test'", "dur": 2, "start": 5, "why": "'Follows Build (ends week 5) → starts week 6, runs to week 7.'" },
+      { "label": "'Go-live'", "dur": 0, "start": 7, "why": "'The go-live milestone marks completion — the point Test finishes (end of week 7).'" }
+    ],
+    "explanation": "Milestones are zero-duration points, not spans: Kickoff sits at the very start; Go-live sits where the last task (Test) finishes. The task bars run back-to-back — Design (wk 1–3) → Build (wk 4–5) → Test (wk 6–7)."
   }
 ]
