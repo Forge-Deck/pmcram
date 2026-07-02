@@ -35,6 +35,7 @@
       "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/token" } }, { "$ref": "#/$defs/itemsBlock" }]
     },
     "weeks": { "$ref": "#/$defs/expr" },
+    "topPad": { "$ref": "#/$defs/expr" },
     "bars": {
       "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/bar" } }, { "$ref": "#/$defs/itemsBlock" }]
     },

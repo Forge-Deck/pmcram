@@ -38,5 +38,41 @@
       { "label": "'Deploy'", "dur": 2, "start": 4, "why": "'Deploy waits for Dev (end wk 4) and Docs (end wk 3) → starts week 5.'" }
     ],
     "explanation": "Forward pass: Plan (wk 1) → Dev (wk 2–4) & Docs (wk 2–3) → Deploy (wk 5–6). Critical path Plan-Dev-Deploy = 6 weeks; Docs has a week of float."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-from-network",
+    "kind": "gantt",
+    "domain": "Process",
+    "topic": "Schedule / critical path",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 250],
+    "weeks": 7,
+    "topPad": 112,
+    "prompt": "Read the activity network above: each box is an activity and its duration in weeks; arrows are finish-to-start dependencies. Do the forward pass and drag each task bar to its EARLIEST start week.",
+    "caption": "Network → Gantt. A starts the project; D waits for BOTH B and C.",
+    "draw": [
+      { "op": "text", "x": 16, "y": 12, "text": "'Activity network — box = activity · duration (weeks)'", "size": 7.5, "anchor": "start" },
+      { "op": "arrow", "x1": 70, "y1": 56, "x2": 126, "y2": 34, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 70, "y1": 66, "x2": 126, "y2": 88, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 182, "y1": 34, "x2": 242, "y2": 56, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 182, "y1": 88, "x2": 242, "y2": 66, "width": 1.2, "head": 7 },
+      { "op": "rect", "x": 16, "y": 44, "w": 54, "h": 34, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 43, "y": 65, "text": "'A · 2'", "size": 10, "anchor": "middle" },
+      { "op": "rect", "x": 126, "y": 14, "w": 54, "h": 34, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 153, "y": 35, "text": "'B · 3'", "size": 10, "anchor": "middle" },
+      { "op": "rect", "x": 126, "y": 74, "w": 54, "h": 34, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 153, "y": 95, "text": "'C · 1'", "size": 10, "anchor": "middle" },
+      { "op": "rect", "x": 242, "y": 44, "w": 54, "h": 34, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 269, "y": 65, "text": "'D · 2'", "size": 10, "anchor": "middle" }
+    ],
+    "bars": [
+      { "label": "'A'", "dur": 2, "start": 0, "why": "'A has no predecessor — earliest start is week 1.'" },
+      { "label": "'B'", "dur": 3, "start": 2, "why": "'B follows A (ends week 2) → earliest start week 3, runs to week 5.'" },
+      { "label": "'C'", "dur": 1, "start": 2, "why": "'C follows A → earliest start week 3 (just 1 week).'" },
+      { "label": "'D'", "dur": 2, "start": 5, "why": "'D waits for BOTH B (ends wk 5) and C (ends wk 3) — the later is week 5, so D starts week 6.'" }
+    ],
+    "explanation": "Forward pass: A (wk 1–2) → B (wk 3–5) and C (wk 3) → D starts after the later predecessor (B, wk 5) so D is wk 6–7. Critical path A-B-D = 7 weeks; C carries 2 weeks of float."
   }
 ]
