@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-network-abcd",
+    "kind": "gantt",
+    "domain": "Process",
+    "topic": "Schedule / critical path",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 180],
+    "weeks": 6,
+    "prompt": "Build the schedule from the dependencies: A starts the project; B and C both start once A finishes; D starts only after BOTH B and C finish. Each bar is pre-sized to its duration — drag it to its correct start week.",
+    "caption": "Finish-to-start dependencies. Drag each bar; it snaps to a week.",
+    "bars": [
+      { "label": "'A'", "dur": 2, "start": 0, "why": "'A has no predecessor — it starts in week 1.'" },
+      { "label": "'B'", "dur": 2, "start": 2, "why": "'B follows A (finishes end of week 2) → starts week 3.'" },
+      { "label": "'C'", "dur": 1, "start": 2, "why": "'C also follows A → starts week 3.'" },
+      { "label": "'D'", "dur": 2, "start": 4, "why": "'D waits for B and C (latest finish is end of week 4) → starts week 5.'" }
+    ],
+    "explanation": "Forward pass: A (wk 1–2) → B and C (wk 3–4 / wk 3) → D (wk 5–6). The critical path A-B-D drives the 6-week finish; C has one week of float."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-network-named",
+    "kind": "gantt",
+    "domain": "Process",
+    "topic": "Schedule / critical path",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 180],
+    "weeks": 6,
+    "prompt": "Build the schedule: Plan comes first; Dev and Docs both start after Plan finishes; Deploy starts only after BOTH Dev and Docs finish. Drag each pre-sized bar to its correct start week.",
+    "caption": "Finish-to-start dependencies. Drag each bar; it snaps to a week.",
+    "bars": [
+      { "label": "'Plan'", "dur": 1, "start": 0, "why": "'Plan starts the project — week 1.'" },
+      { "label": "'Dev'", "dur": 3, "start": 1, "why": "'Dev follows Plan (finishes end of week 1) → starts week 2, runs to week 4.'" },
+      { "label": "'Docs'", "dur": 2, "start": 1, "why": "'Docs also follows Plan → starts week 2, runs to week 3.'" },
+      { "label": "'Deploy'", "dur": 2, "start": 4, "why": "'Deploy waits for Dev (end wk 4) and Docs (end wk 3) → starts week 5.'" }
+    ],
+    "explanation": "Forward pass: Plan (wk 1) → Dev (wk 2–4) & Docs (wk 2–3) → Deploy (wk 5–6). Critical path Plan-Dev-Deploy = 6 weeks; Docs has a week of float."
+  }
+]

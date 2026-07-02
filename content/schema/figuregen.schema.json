@@ -7,7 +7,7 @@
   "properties": {
     "schema": { "const": "figuregen/v1" },
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-    "kind": { "enum": ["hotspot", "choice", "dragdrop"] },
+    "kind": { "enum": ["hotspot", "choice", "dragdrop", "gantt"] },
     "domain": { "enum": ["People", "Process", "Business Environment"] },
     "topic": { "type": "string" },
     "difficulty": { "enum": ["easy", "medium", "hard"] },
@@ -33,6 +33,10 @@
     },
     "tokens": {
       "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/token" } }, { "$ref": "#/$defs/itemsBlock" }]
+    },
+    "weeks": { "$ref": "#/$defs/expr" },
+    "bars": {
+      "oneOf": [{ "type": "array", "items": { "$ref": "#/$defs/bar" } }, { "$ref": "#/$defs/itemsBlock" }]
     }
   },
   "additionalProperties": false,
@@ -79,6 +83,18 @@
         "id": { "$ref": "#/$defs/expr" },
         "label": { "$ref": "#/$defs/expr" },
         "target": { "$ref": "#/$defs/expr" },
+        "why": { "$ref": "#/$defs/expr" }
+      },
+      "additionalProperties": false
+    },
+    "bar": {
+      "type": "object",
+      "required": ["label", "dur", "start"],
+      "properties": {
+        "id": { "$ref": "#/$defs/expr" },
+        "label": { "$ref": "#/$defs/expr" },
+        "dur": { "$ref": "#/$defs/expr" },
+        "start": { "$ref": "#/$defs/expr" },
         "why": { "$ref": "#/$defs/expr" }
       },
       "additionalProperties": false
