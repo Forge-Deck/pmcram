@@ -187,6 +187,7 @@
           { "op": "text", "x": "118 + (des[i]-1)*44", "y": "40 + i*30 + 18.5", "text": "cur[i]==des[i] ? '' : 'D'", "size": 9.5, "anchor": "middle" }
         ]
       },
+      { "op": "line", "x1": 96, "y1": 160, "x2": 316, "y2": 160, "width": 0.4 },
       {
         "op": "repeat",
         "over": "levels",

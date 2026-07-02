@@ -251,11 +251,11 @@
     "topic": "Schedule",
     "difficulty": "medium",
     "viewBox": [320, 175],
-    "prompt": "These tasks run back-to-back. Two milestones sit on the schedule — tap the one that marks {{mode == 1 ? 'project completion' : 'the project kickoff'}}.",
+    "prompt": "The diamonds are milestones (zero-duration markers); the bars are tasks running back-to-back. Tap the milestone that comes {{mode == 1 ? 'LAST — project completion' : 'FIRST — the project kickoff'}}.",
     "vars": {
       "mPair": { "sample": [0, 1, 2, 3, 4], "count": 2 },
       "d": { "sampleInt": [2, 4], "count": 5 },
-      "names": { "sample": ["Design", "Build", "Test", "Deploy", "Review", "Plan", "Sign-off", "Go-live", "Launch", "Release"], "count": 5 },
+      "names": { "value": ["Initiation", "Planning", "Execution", "Delivery", "Closure"] },
       "mode": { "pick": [0, 1] },
       "r5": { "range": 5 }
     },
