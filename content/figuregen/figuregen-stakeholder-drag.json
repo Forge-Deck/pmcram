@@ -162,9 +162,9 @@
       { "id": "'all'", "x": 131, "y": 90, "w": 60, "h": 24 }
     ],
     "tokens": [
-      { "label": "names[k]", "target": "zoneIds[k]", "why": "'This stakeholder holds ' + desc[k] + ' → ' + names[k] + '.'" },
-      { "label": "names[d1]", "target": "''", "why": "'Not this one — leave it in the tray.'" },
-      { "label": "names[d2]", "target": "''", "why": "'Not this one — leave it in the tray.'" }
+      { "label": "names[k]", "target": "zoneIds[k]", "why": "'Correct — this stakeholder holds ' + desc[k] + '.'" },
+      { "label": "names[d1]", "target": "''", "why": "'Holds ' + desc[d1] + ' — not this stakeholder, so leave it in the tray.'" },
+      { "label": "names[d2]", "target": "''", "why": "'Holds ' + desc[d2] + ' — not this stakeholder, so leave it in the tray.'" }
     ],
     "explanation": "{{examples[k]}} → {{names[k]}} ({{desc[k]}}), the {{descZone[k]}} region."
   },
@@ -205,9 +205,9 @@
       { "id": "'ki'", "x": 195, "y": 111, "w": 90, "h": 44 }
     ],
     "tokens": [
-      { "label": "strat[k]", "target": "zoneIds[k]", "why": "'A stakeholder with ' + powint[k] + ' → ' + strat[k] + '.'" },
-      { "label": "strat[d1]", "target": "''", "why": "'Wrong quadrant for this stakeholder.'" },
-      { "label": "strat[d2]", "target": "''", "why": "'Wrong quadrant for this stakeholder.'" }
+      { "label": "strat[k]", "target": "zoneIds[k]", "why": "'Correct — ' + powint[k] + ' calls for this strategy.'" },
+      { "label": "strat[d1]", "target": "''", "why": "'The strategy for ' + powint[d1] + ' — not this stakeholder.'" },
+      { "label": "strat[d2]", "target": "''", "why": "'The strategy for ' + powint[d2] + ' — not this stakeholder.'" }
     ],
     "explanation": "{{powint[k]}} → {{strat[k]}}."
   }
