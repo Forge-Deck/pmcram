@@ -14,8 +14,8 @@
       { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
-      { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
-      { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
+      { "op": "text", "x": 50, "y": 30, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
+      { "op": "text", "x": 272, "y": 30, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
       { "op": "text", "x": 161, "y": 219, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
     ],
     "regions": [
@@ -148,8 +148,8 @@
       { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 161, "cy": 146, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
-      { "op": "text", "x": 60, "y": 40, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
-      { "op": "text", "x": 262, "y": 40, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
+      { "op": "text", "x": 50, "y": 30, "text": "'Power'", "size": 11, "anchor": "middle", "color": "blue" },
+      { "op": "text", "x": 272, "y": 30, "text": "'Legitimacy'", "size": 11, "anchor": "middle", "color": "green" },
       { "op": "text", "x": 161, "y": 219, "text": "'Urgency'", "size": 11, "anchor": "middle", "color": "red" }
     ],
     "regions": [
