@@ -1,0 +1,54 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "cpm-float-error",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Schedule / critical path",
+    "difficulty": "hard",
+    "viewBox": [344, 210],
+    "prompt": "Each box shows an activity, its duration, and a computed TOTAL FLOAT (f). Do the forward and backward pass — one float is WRONG. Tap the activity with the incorrect float. (Total float = LS − ES; critical-path activities have zero float.)",
+    "caption": "Activity-on-node network: A→B, A→C, B→D, C→D.",
+    "vars": {
+      "dA": { "int": [2, 6] },
+      "dB": { "int": [2, 8] },
+      "dC": { "int": [2, 8] },
+      "dD": { "int": [2, 6] },
+      "errNode": { "pick": [0, 1, 2, 3] },
+      "errDelta": { "pick": [1, 2] }
+    },
+    "guard": "dB != dC",
+    "derived": {
+      "M": "max(dB, dC)",
+      "fl": "[0, M - dB, M - dC, 0]",
+      "shown": "[errNode==0 ? fl[0]+errDelta : fl[0], errNode==1 ? fl[1]+errDelta : fl[1], errNode==2 ? fl[2]+errDelta : fl[2], errNode==3 ? fl[3]+errDelta : fl[3]]",
+      "T": "dA + M + dD"
+    },
+    "draw": [
+      { "op": "arrow", "x1": 80, "y1": 96, "x2": 138, "y2": 54, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 80, "y1": 112, "x2": 138, "y2": 154, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 206, "y1": 54, "x2": 262, "y2": 96, "width": 1.2, "head": 7 },
+      { "op": "arrow", "x1": 206, "y1": 154, "x2": 262, "y2": 112, "width": 1.2, "head": 7 },
+      { "op": "rect", "x": 16, "y": 82, "w": 64, "h": 44, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 48, "y": 100, "text": "'A · ' + dA", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 48, "y": 116, "text": "'f=' + shown[0]", "size": 9, "anchor": "middle" },
+      { "op": "rect", "x": 142, "y": 30, "w": 64, "h": 44, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 174, "y": 48, "text": "'B · ' + dB", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 174, "y": 64, "text": "'f=' + shown[1]", "size": 9, "anchor": "middle" },
+      { "op": "rect", "x": 142, "y": 134, "w": 64, "h": 44, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 174, "y": 152, "text": "'C · ' + dC", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 174, "y": 168, "text": "'f=' + shown[2]", "size": 9, "anchor": "middle" },
+      { "op": "rect", "x": 264, "y": 82, "w": 64, "h": 44, "rx": 4, "width": 1.3 },
+      { "op": "text", "x": 296, "y": 100, "text": "'D · ' + dD", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 296, "y": 116, "text": "'f=' + shown[3]", "size": 9, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'A'", "x": 16, "y": 82, "w": 64, "h": 44, "correct": "errNode==0", "label": "'A'", "why": "errNode==0 ? ('Shown f=' + shown[0] + ', but A is on the critical path so its float is 0. This is the error.') : 'A is critical (float 0) — shown correctly.'" },
+      { "id": "'B'", "x": 142, "y": 30, "w": 64, "h": 44, "correct": "errNode==1", "label": "'B'", "why": "errNode==1 ? ('Shown f=' + shown[1] + ', but total float = LS − ES = ' + fl[1] + '. This is the error.') : ('B float ' + fl[1] + ' is correct.')" },
+      { "id": "'C'", "x": 142, "y": 134, "w": 64, "h": 44, "correct": "errNode==2", "label": "'C'", "why": "errNode==2 ? ('Shown f=' + shown[2] + ', but total float = LS − ES = ' + fl[2] + '. This is the error.') : ('C float ' + fl[2] + ' is correct.')" },
+      { "id": "'D'", "x": 264, "y": 82, "w": 64, "h": 44, "correct": "errNode==3", "label": "'D'", "why": "errNode==3 ? ('Shown f=' + shown[3] + ', but D is the last activity on the critical path so its float is 0. This is the error.') : 'D is critical (float 0) — shown correctly.'" }
+    ],
+    "select": 1,
+    "explanation": "Forward pass gives ES/EF; backward pass from the {{T}}-unit finish gives LS/LF; total float = LS − ES. The critical path (A and D always, plus the longer of B/C) has zero float; the shorter branch carries {{ abs(dB - dC) }} unit(s). One shown float didn't match — that was the error."
+  }
+]
