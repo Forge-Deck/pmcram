@@ -111,7 +111,7 @@
     "viewBox": [360, 224],
     "weeks": 9,
     "labelGutter": 26,
-    "prompt": "Dependencies: A has no predecessor. B: SS+1 with A. C: FS after A. D: FF with C. E: FS after C and D. F: FS+2 after B. ◆ Done marks project completion. Drag each bar to its earliest start; drag the milestone to its point.",
+    "prompt": "Dependencies: A has no predecessor. B: SS+1 with A. C: FS with A. D: FF with C. E: FS with C and D. F: FS+2 with B. ◆ Done marks project completion. Drag each bar to its earliest start; drag the milestone to its point.",
     "bars": [
       { "label": "'A'", "dur": 3, "start": 0, "why": "'No predecessor → starts week 1 (runs wk 1–3).'" },
       { "label": "'B'", "dur": 2, "start": 1, "why": "'SS+1 with A: starts 1 week AFTER A starts → week 2 (wk 2–3).'" },
