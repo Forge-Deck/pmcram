@@ -8,7 +8,7 @@
     "difficulty": "hard",
     "mockExclude": true,
     "viewBox": [320, 400],
-    "prompt": "Match each stakeholder behaviour to the engagement strategy that addresses its ROOT CAUSE. Two strategies don't fit — leave them in the tray.",
+    "prompt": "Match each stakeholder behaviour to the engagement strategy that addresses its ROOT CAUSE.",
     "rows": [
       { "id": "'mm'", "text": "'Middle manager is blocking progress — fears losing authority'" },
       { "id": "'tech'", "text": "'Technical team has gone quiet and stopped offering ideas'" },
@@ -34,7 +34,7 @@
     "difficulty": "medium",
     "mockExclude": true,
     "viewBox": [320, 400],
-    "prompt": "Match each risk situation to the most appropriate response strategy. One strategy doesn't fit — leave it in the tray.",
+    "prompt": "Match each risk situation to the most appropriate response strategy.",
     "rows": [
       { "id": "'avoid'", "text": "'A planned feature would breach a new regulation'" },
       { "id": "'mit'", "text": "'A key specialist may leave part-way through the project'" },
@@ -60,16 +60,16 @@
     "mockExclude": true,
     "ordered": true,
     "viewBox": [320, 400],
-    "prompt": "A vendor's workaround bypasses critical testing to hit a deadline; the sponsor verbally accepts the risk. Put the two correct actions in order — drag one onto each step. Leave the wrong actions in the tray.",
+    "prompt": "A vendor's workaround bypasses critical testing to hit a deadline; the sponsor verbally accepts the risk. Put the two correct actions in order — drag one onto each step.",
     "rows": [
       { "id": "'s1'", "text": "'What to do FIRST'" },
       { "id": "'s2'", "text": "'What to do NEXT'" }
     ],
     "answers": [
-      { "text": "'Document the workaround, risks & compliance impact'", "target": "'s1'", "why": "'First make the risk visible and analysed — you cannot decide on an undocumented, unquantified risk.'" },
-      { "text": "'Route it through formal change control before proceeding'", "target": "'s2'", "why": "'Only proceed after formal authorization — a verbal OK is not sufficient when significant risk/compliance is involved.'" },
-      { "text": "'Proceed now — the sponsor approved it verbally'", "target": "''", "why": "'Verbal approval is not authorization; acting on it bypasses governance.'" },
-      { "text": "'Implement now and fix the records later'", "target": "''", "why": "'Never bypass the process and back-fill documentation — that defeats change control.'" }
+      { "text": "'Document the risks and compliance impact'", "target": "'s1'", "why": "'First make the risk visible and analysed — you cannot decide on an undocumented, unquantified risk.'" },
+      { "text": "'Route through formal change control'", "target": "'s2'", "why": "'Only proceed after formal authorization — a verbal OK is not sufficient when significant risk or compliance is involved.'" },
+      { "text": "'Proceed on the verbal approval'", "target": "''", "why": "'Verbal approval is not authorization; acting on it bypasses governance.'" },
+      { "text": "'Implement now, fix records later'", "target": "''", "why": "'Never bypass the process and back-fill documentation — that defeats change control.'" }
     ],
     "explanation": "Document and quantify the risk FIRST, then obtain formal authorization through change control. A verbal sponsor OK never substitutes for Integrated Change Control when significant risk or compliance is at stake."
   }
