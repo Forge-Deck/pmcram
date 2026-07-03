@@ -269,14 +269,13 @@
     "kind": "hotspot",
     "domain": "Process",
     "topic": "Schedule",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "freeSelect": true,
     "viewBox": [
       320,
       220
     ],
     "prompt": "Tap EVERY activity that is not on the critical path.",
-    "caption": "Two parallel paths from Start to End. Each box: ES|EF (top), LS|LF (bottom).",
     "vars": {
       "dA": {
         "int": [
@@ -303,24 +302,24 @@
         ]
       }
     },
-    "guard": "dA + dB != dC + dD",
+    "guard": "count([(max(max(dA,dC)+dB, dC+dD) - dB - dA) > 0, (max(max(dA,dC)+dB, dC+dD) - dB - max(dA,dC)) > 0, (min(max(max(dA,dC)+dB, dC+dD) - dB, max(max(dA,dC)+dB, dC+dD) - dD) - dC) > 0, (max(max(dA,dC)+dB, dC+dD) - dD - dC) > 0]) >= 1 && dA != dC",
     "derived": {
-      "p1": "dA + dB",
-      "p2": "dC + dD",
-      "T": "max(p1, p2)",
       "efA": "dA",
-      "efB": "dA + dB",
       "efC": "dC",
+      "esB": "max(dA, dC)",
+      "efB": "max(dA, dC) + dB",
       "efD": "dC + dD",
+      "T": "max(max(dA, dC) + dB, dC + dD)",
       "lsB": "T - dB",
-      "lsA": "lsB - dA",
       "lsD": "T - dD",
-      "lsC": "lsD - dC",
-      "floatTop": "T - p1",
-      "floatBot": "T - p2",
-      "longer": "p1 > p2 ? 'A→B' : 'C→D'",
-      "shorter": "p1 > p2 ? 'C→D' : 'A→B'",
-      "slack": "T - min(p1, p2)"
+      "lsA": "(T - dB) - dA",
+      "lfC": "min(T - dB, T - dD)",
+      "lsC": "min(T - dB, T - dD) - dC",
+      "floatA": "(T - dB) - dA",
+      "floatB": "(T - dB) - max(dA, dC)",
+      "floatC": "min(T - dB, T - dD) - dC",
+      "floatD": "(T - dD) - dC",
+      "nOff": "count([((T - dB) - dA) > 0, ((T - dB) - max(dA, dC)) > 0, (min(T - dB, T - dD) - dC) > 0, ((T - dD) - dC) > 0])"
     },
     "draw": [
       {
@@ -388,6 +387,15 @@
         "head": 8
       },
       {
+        "op": "arrow",
+        "x1": 134,
+        "y1": 143,
+        "x2": 168,
+        "y2": 88,
+        "width": 1.4,
+        "head": 8
+      },
+      {
         "op": "line",
         "x1": 228,
         "y1": 63,
@@ -449,7 +457,7 @@
         "op": "text",
         "x": 199,
         "y": 54,
-        "text": "efA + ' | ' + efB",
+        "text": "esB + ' | ' + efB",
         "size": 9,
         "anchor": "middle"
       },
@@ -551,9 +559,9 @@
         "y": 40,
         "w": 58,
         "h": 46,
-        "correct": "floatTop > 0",
+        "correct": "floatA > 0",
         "label": "'A'",
-        "why": "floatTop > 0 ? ('Float ' + (lsA - 0) + ' (LS ' + lsA + ' ≠ ES 0) — off the critical path.') : 'Zero float — on the critical path.'"
+        "why": "floatA > 0 ? ('Float ' + floatA + ' (LS ' + lsA + ' > ES 0) — off the critical path.') : 'Zero float (LS = ES) — on the critical path.'"
       },
       {
         "id": "'B'",
@@ -561,9 +569,9 @@
         "y": 40,
         "w": 58,
         "h": 46,
-        "correct": "floatTop > 0",
+        "correct": "floatB > 0",
         "label": "'B'",
-        "why": "floatTop > 0 ? ('Float ' + (lsB - efA) + ' (LS ' + lsB + ' ≠ ES ' + efA + ') — off the critical path.') : 'Zero float — on the critical path.'"
+        "why": "floatB > 0 ? ('Float ' + floatB + ' (LS ' + lsB + ' > ES ' + esB + ') — off the critical path.') : 'Zero float (LS = ES) — on the critical path.'"
       },
       {
         "id": "'C'",
@@ -571,9 +579,9 @@
         "y": 140,
         "w": 58,
         "h": 46,
-        "correct": "floatBot > 0",
+        "correct": "floatC > 0",
         "label": "'C'",
-        "why": "floatBot > 0 ? ('Float ' + (lsC - 0) + ' (LS ' + lsC + ' ≠ ES 0) — off the critical path.') : 'Zero float — on the critical path.'"
+        "why": "floatC > 0 ? ('Float ' + floatC + ' (LS ' + lsC + ' > ES 0) — off the critical path.') : 'Zero float (LS = ES) — on the critical path; it feeds both B and D.'"
       },
       {
         "id": "'D'",
@@ -581,11 +589,11 @@
         "y": 140,
         "w": 58,
         "h": 46,
-        "correct": "floatBot > 0",
+        "correct": "floatD > 0",
         "label": "'D'",
-        "why": "floatBot > 0 ? ('Float ' + (lsD - efC) + ' (LS ' + lsD + ' ≠ ES ' + efC + ') — off the critical path.') : 'Zero float — on the critical path.'"
+        "why": "floatD > 0 ? ('Float ' + floatD + ' (LS ' + lsD + ' > ES ' + efC + ') — off the critical path.') : 'Zero float (LS = ES) — on the critical path.'"
       }
     ],
-    "explanation": "Path A→B = {{p1}}, path C→D = {{p2}}. The longer path {{longer}} is critical (zero float); the two activities on the shorter path {{shorter}} each carry {{slack}} day{{slack==1 ? '' : 's'}} of float."
+    "explanation": "C feeds BOTH B and D, so this is not two clean parallel paths — work out float = LS − ES for each box: A {{floatA}}, B {{floatB}}, C {{floatC}}, D {{floatD}}. The zero-float boxes form the critical path ({{T}} days); the rest can slip by their float without delaying the finish. Because the critical path can run through the merge at B, an activity's float — not the row it sits in — decides whether it is critical."
   }
 ]
