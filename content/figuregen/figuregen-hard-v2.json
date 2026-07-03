@@ -1070,8 +1070,9 @@
       346,
       120
     ],
-    "prompt": "Value stream — the boxes are value-add steps; the number in each gap is the days work sits in a queue between them. Tap the queue where inventory waits longest — the bottleneck to attack first.",
+    "prompt": "{{ mode==0 ? 'Value stream — the number in each gap is the days work sits in a queue between steps. Tap the queue where inventory waits longest — the bottleneck to attack first.' : 'Value stream — the number in each gap is the days work waits in a queue. Delivery is flowing fine and you need capacity elsewhere. Tap the queue with the most slack — the point you could release resources from without slowing the line.' }}",
     "vars": {
+      "mode": { "pick": [0, 1] },
       "waits": {
         "sampleInt": [
           1,
@@ -1096,9 +1097,11 @@
       }
     },
     "derived": {
-      "win": "argmax(waits)"
+      "win": "argmax(waits)",
+      "slack": "(waits[0]<=waits[1] && waits[0]<=waits[2] && waits[0]<=waits[3]) ? 0 : ((waits[1]<=waits[2] && waits[1]<=waits[3]) ? 1 : ((waits[2]<=waits[3]) ? 2 : 3))",
+      "target": "mode==0 ? argmax(waits) : ((waits[0]<=waits[1] && waits[0]<=waits[2] && waits[0]<=waits[3]) ? 0 : ((waits[1]<=waits[2] && waits[1]<=waits[3]) ? 1 : ((waits[2]<=waits[3]) ? 2 : 3)))"
     },
-    "guard": "waits[0]!=waits[1] && waits[0]!=waits[2] && waits[0]!=waits[3] && waits[1]!=waits[2] && waits[1]!=waits[3] && waits[2]!=waits[3] && (argmax(waits)==0 || waits[argmax(waits)] > waits[argmax(waits)-1])",
+    "guard": "waits[0]!=waits[1] && waits[0]!=waits[2] && waits[0]!=waits[3] && waits[1]!=waits[2] && waits[1]!=waits[3] && waits[2]!=waits[3]",
     "draw": [
       {
         "op": "repeat",
@@ -1156,13 +1159,13 @@
           "y": 34,
           "w": 30,
           "h": 44,
-          "correct": "i == win",
+          "correct": "i == target",
           "label": "'queue ' + (i+1)",
-          "why": "i == win ? (waits[i] + ' days — the longest queue; this bottleneck dominates lead time.') : (waits[i] + ' days — a shorter queue, not the main constraint.')"
+          "why": "i == target ? (waits[i] + ' days — ' + (mode==0 ? 'the longest queue; this bottleneck governs lead time, so attack it first.' : 'the shortest queue; the flow here has spare capacity, so resources can be released without slowing throughput.')) : (waits[i] + ' days — ' + (mode==0 ? 'a shorter queue, not the constraint.' : 'not the queue with the most slack.'))"
         }
       ]
     },
-    "explanation": "Lead time is dominated by waiting, not value-add work. Attack the longest queue (the bottleneck) first — speeding up a non-bottleneck step just makes its queue grow."
+    "explanation": "{{ mode==0 ? 'Lead time is governed by the bottleneck — the longest queue. Improve it first; speeding a non-bottleneck just makes its queue grow.' : 'Throughput is set by the bottleneck, so the step with the most slack (the shortest queue) can give up resources without affecting the schedule — extra capacity there is wasted while the bottleneck elsewhere sets the pace.' }}"
   },
   {
     "schema": "figuregen/v1",
