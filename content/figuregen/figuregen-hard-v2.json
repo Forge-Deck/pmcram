@@ -1,0 +1,848 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "reserve-bucket-drag",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Reserves",
+    "difficulty": "hard",
+    "viewBox": [330, 196],
+    "prompt": "Drag each cost to the fund it draws from. One of them should not be funded at all yet — it needs to go through change control first.",
+    "caption": "Baseline · contingency (known-unknowns) · management (unknown-unknowns).",
+    "draw": [
+      { "op": "rect", "x": 14, "y": 16, "w": 150, "h": 48, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 89, "y": 36, "text": "'Cost baseline'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 89, "y": 50, "text": "'planned scope'", "size": 7, "anchor": "middle" },
+      { "op": "rect", "x": 14, "y": 74, "w": 150, "h": 48, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 89, "y": 94, "text": "'Contingency reserve'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 89, "y": 108, "text": "'known-unknowns'", "size": 7, "anchor": "middle" },
+      { "op": "rect", "x": 14, "y": 132, "w": 150, "h": 48, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 89, "y": 152, "text": "'Management reserve'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 89, "y": 166, "text": "'unknown-unknowns'", "size": 7, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'base'", "x": 14, "y": 16, "w": 150, "h": 48 },
+      { "id": "'cont'", "x": 14, "y": 74, "w": 150, "h": 48 },
+      { "id": "'mgmt'", "x": 14, "y": 132, "w": 150, "h": 48 }
+    ],
+    "tokens": [
+      { "label": "'Approved dev labour'", "target": "'base'", "why": "'Planned, in-scope work sits in the cost baseline — not a reserve.'" },
+      { "label": "'Known vendor-delay risk fund'", "target": "'cont'", "why": "'An identified risk (known-unknown) is funded from the contingency reserve, which the PM controls.'" },
+      { "label": "'Integration risk buffer'", "target": "'cont'", "why": "'Another identified risk → contingency reserve.'" },
+      { "label": "'Possible unknown new regulation'", "target": "'mgmt'", "why": "'An unforeseeable unknown-unknown → management reserve, released only with sponsor approval.'" },
+      { "label": "'Sponsor pet feature, no CR'", "target": "''", "why": "'Out of scope with no change request — it belongs in no reserve. Raise a change request first.'" }
+    ],
+    "explanation": "The cost baseline holds planned scope. The contingency reserve covers identified risks (known-unknowns) and is the PM's to spend. The management reserve covers unknown-unknowns and needs sponsor approval. Unbudgeted new scope with no CR is funded by none of them."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "herzberg-factor-drag",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Motivation",
+    "difficulty": "hard",
+    "viewBox": [320, 96],
+    "prompt": "Retention is slipping. Drag each factor to its Herzberg category — Hygiene (its absence causes dissatisfaction) or Motivator (its presence drives satisfaction).",
+    "draw": [
+      { "op": "rect", "x": 12, "y": 16, "w": 142, "h": 64, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 83, "y": 40, "text": "'Hygiene'", "size": 11, "anchor": "middle" },
+      { "op": "text", "x": 83, "y": 56, "text": "'absence → dissatisfaction'", "size": 7, "anchor": "middle" },
+      { "op": "rect", "x": 166, "y": 16, "w": 142, "h": 64, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 237, "y": 40, "text": "'Motivator'", "size": 11, "anchor": "middle" },
+      { "op": "text", "x": 237, "y": 56, "text": "'presence → satisfaction'", "size": 7, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'hyg'", "x": 12, "y": 16, "w": 142, "h": 64 },
+      { "id": "'mot'", "x": 166, "y": 16, "w": 142, "h": 64 }
+    ],
+    "tokens": [
+      { "label": "'Below-market pay'", "target": "'hyg'", "why": "'Salary is a hygiene factor — poor pay dissatisfies, but good pay does not itself motivate.'" },
+      { "label": "'Micromanagement'", "target": "'hyg'", "why": "'Supervision and policy are hygiene — fixing them only removes dissatisfaction.'" },
+      { "label": "'Slow VPN / old laptop'", "target": "'hyg'", "why": "'Working conditions are hygiene — bad tools frustrate; good tools are merely expected.'" },
+      { "label": "'Meaningful, high-impact work'", "target": "'mot'", "why": "'Meaningful achievement is a true motivator — it drives satisfaction and engagement.'" },
+      { "label": "'Recognition for good work'", "target": "'mot'", "why": "'Recognition and achievement are motivators — they lift engagement.'" },
+      { "label": "'Growth & advancement'", "target": "'mot'", "why": "'Advancement and growth are motivators — they build lasting satisfaction.'" }
+    ],
+    "explanation": "Hygiene factors (pay, policies, supervision, conditions) only prevent dissatisfaction — fixing them will not motivate. Motivators (achievement, recognition, meaningful work, growth) are what actually raise satisfaction, so a retention fix must add motivators, not just patch hygiene."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "moscow-budget-cut",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Prioritization",
+    "difficulty": "hard",
+    "viewBox": [340, 104],
+    "prompt": "A 30% budget cut with a fixed release date. Drag each backlog item to its MoSCoW priority for THIS release — only Must-haves are guaranteed to ship.",
+    "draw": [
+      { "op": "rect", "x": 6, "y": 16, "w": 78, "h": 76, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 45, "y": 32, "text": "'Must'", "size": 9.5, "anchor": "middle" },
+      { "op": "rect", "x": 90, "y": 16, "w": 78, "h": 76, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 129, "y": 32, "text": "'Should'", "size": 9.5, "anchor": "middle" },
+      { "op": "rect", "x": 174, "y": 16, "w": 78, "h": 76, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 213, "y": 32, "text": "'Could'", "size": 9.5, "anchor": "middle" },
+      { "op": "rect", "x": 258, "y": 16, "w": 76, "h": 76, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 296, "y": 32, "text": "'Won’t'", "size": 9.5, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'must'", "x": 6, "y": 16, "w": 78, "h": 76 },
+      { "id": "'should'", "x": 90, "y": 16, "w": 78, "h": 76 },
+      { "id": "'could'", "x": 174, "y": 16, "w": 78, "h": 76 },
+      { "id": "'wont'", "x": 258, "y": 16, "w": 76, "h": 76 }
+    ],
+    "tokens": [
+      { "label": "'Regulatory audit log'", "target": "'must'", "why": "'Compliance is non-negotiable — it ships regardless of the cut.'" },
+      { "label": "'SSO / login security'", "target": "'must'", "why": "'A security baseline is a Must — the release is unsafe without it.'" },
+      { "label": "'PDF export'", "target": "'should'", "why": "'Valuable and expected, but the release still works if it slips one iteration → Should.'" },
+      { "label": "'In-app onboarding tour'", "target": "'could'", "why": "'Nice polish that helps adoption but is not essential → Could, if time allows.'" },
+      { "label": "'Custom colour themes'", "target": "'wont'", "why": "'A pure delighter — first to drop under a budget cut → Won’t (this release).'" }
+    ],
+    "explanation": "Under a cut, Must = non-negotiable (compliance, security baseline); Should = important but deferrable without breaking the release; Could = nice-to-have if capacity remains; Won’t = explicitly out of scope this release. Cosmetic delighters go first; compliance and security never move off Must."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "sipoc-lane-drag",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Process / SIPOC",
+    "difficulty": "hard",
+    "viewBox": [360, 96],
+    "prompt": "Map the 'invoice approval' process. Drag each element to its SIPOC lane. One item is outside this process boundary.",
+    "draw": [
+      { "op": "rect", "x": 6, "y": 24, "w": 64, "h": 56, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 38, "y": 20, "text": "'Supplier'", "size": 8, "anchor": "middle" },
+      { "op": "rect", "x": 74, "y": 24, "w": 64, "h": 56, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 106, "y": 20, "text": "'Input'", "size": 8, "anchor": "middle" },
+      { "op": "rect", "x": 142, "y": 24, "w": 72, "h": 56, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 178, "y": 20, "text": "'Process'", "size": 8, "anchor": "middle" },
+      { "op": "rect", "x": 218, "y": 24, "w": 64, "h": 56, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 250, "y": 20, "text": "'Output'", "size": 8, "anchor": "middle" },
+      { "op": "rect", "x": 286, "y": 24, "w": 68, "h": 56, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 320, "y": 20, "text": "'Customer'", "size": 8, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'sup'", "x": 6, "y": 24, "w": 64, "h": 56 },
+      { "id": "'in'", "x": 74, "y": 24, "w": 64, "h": 56 },
+      { "id": "'proc'", "x": 142, "y": 24, "w": 72, "h": 56 },
+      { "id": "'out'", "x": 218, "y": 24, "w": 64, "h": 56 },
+      { "id": "'cust'", "x": 286, "y": 24, "w": 68, "h": 56 }
+    ],
+    "tokens": [
+      { "label": "'AP clerk'", "target": "'sup'", "why": "'The clerk provides the input into the process — a Supplier.'" },
+      { "label": "'Scanned invoice'", "target": "'in'", "why": "'The invoice is the Input the process acts on.'" },
+      { "label": "'Manager approves & codes'", "target": "'proc'", "why": "'Approval and coding is the transforming activity — the Process.'" },
+      { "label": "'Posted ledger entry'", "target": "'out'", "why": "'The posted entry is the Output the process produces.'" },
+      { "label": "'Treasury team'", "target": "'cust'", "why": "'Treasury receives and uses the output — the Customer.'" },
+      { "label": "'ERP vendor contract'", "target": "''", "why": "'The ERP contract is outside this process boundary — it belongs to procurement, not the invoice-approval SIPOC.'" }
+    ],
+    "explanation": "SIPOC bounds a process: Suppliers provide Inputs, the Process transforms them into Outputs for Customers. The ERP vendor contract sits outside this boundary — a common trap that pulls in unrelated context."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "comms-method-drag",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Communications",
+    "difficulty": "hard",
+    "viewBox": [336, 176],
+    "prompt": "Drag each communication method onto the situation it best fits.",
+    "caption": "Push · Pull · Interactive.",
+    "draw": [
+      { "op": "rect", "x": 10, "y": 16, "w": 316, "h": 44, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 168, "y": 34, "text": "'Policy update sent to 200 staff'", "size": 8.5, "anchor": "middle" },
+      { "op": "text", "x": 168, "y": 48, "text": "'— no immediate Q&A needed'", "size": 8.5, "anchor": "middle" },
+      { "op": "rect", "x": 10, "y": 66, "w": 316, "h": 44, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 168, "y": 84, "text": "'Distributed team self-serves the'", "size": 8.5, "anchor": "middle" },
+      { "op": "text", "x": 168, "y": 98, "text": "'latest test-metrics dashboard'", "size": 8.5, "anchor": "middle" },
+      { "op": "rect", "x": 10, "y": 116, "w": 316, "h": 44, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 168, "y": 134, "text": "'Tense schedule-compression'", "size": 8.5, "anchor": "middle" },
+      { "op": "text", "x": 168, "y": 148, "text": "'negotiation with the client'", "size": 8.5, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'push'", "x": 10, "y": 16, "w": 316, "h": 44 },
+      { "id": "'pull'", "x": 10, "y": 66, "w": 316, "h": 44 },
+      { "id": "'inter'", "x": 10, "y": 116, "w": 316, "h": 44 }
+    ],
+    "tokens": [
+      { "label": "'Push'", "target": "'push'", "why": "'One-way distribution to many with no confirmation needed → push (email, memo, broadcast).'" },
+      { "label": "'Pull'", "target": "'pull'", "why": "'A large audience retrieves information at its own discretion → pull (portal, dashboard, wiki).'" },
+      { "label": "'Interactive'", "target": "'inter'", "why": "'Real-time, multi-directional exchange for negotiation or conflict → interactive (meeting, call).'" }
+    ],
+    "explanation": "Push = sender distributes and cannot confirm understanding (memos, status emails). Pull = recipients access at will, good for large volumes (dashboards, repositories). Interactive = real-time two-way, essential for negotiation, conflict, and building agreement."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "config-baseline-audit",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Configuration management",
+    "difficulty": "hard",
+    "freeSelect": true,
+    "viewBox": [300, 176],
+    "prompt": "Configuration audit before release. The baseline is locked at v{{V}}. Tap every artifact whose version does not match the baseline — it was changed without an approved change request.",
+    "vars": {
+      "V": { "int": [2, 6] },
+      "names": { "value": ["Requirements spec", "Design document", "Test plan", "User guide", "Code build"] },
+      "bad": { "shuffle": [0, 1, 2, 3, 4] },
+      "r5": { "range": 5 }
+    },
+    "derived": {
+      "isBad": "[0==bad[0]||0==bad[1], 1==bad[0]||1==bad[1], 2==bad[0]||2==bad[1], 3==bad[0]||3==bad[1], 4==bad[0]||4==bad[1]]"
+    },
+    "draw": [
+      { "op": "text", "x": 150, "y": 18, "text": "'Baseline v' + V + ' (locked)'", "size": 10, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "r5",
+        "do": [
+          { "op": "rect", "x": 40, "y": "30 + i*26", "w": 220, "h": 22, "rx": 3, "color": "ink", "width": 1 },
+          { "op": "text", "x": 50, "y": "30 + i*26 + 15", "text": "names[i]", "size": 8.5, "anchor": "start" },
+          { "op": "text", "x": 250, "y": "30 + i*26 + 15", "text": "isBad[i] ? ('v' + (V+1)) : ('v' + V)", "size": 8.5, "anchor": "end" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r5",
+      "items": [
+        {
+          "id": "'a' + i",
+          "x": 40,
+          "y": "30 + i*26",
+          "w": 220,
+          "h": 22,
+          "correct": "isBad[i]",
+          "label": "names[i]",
+          "why": "isBad[i] ? (names[i] + ' is at v' + (V+1) + ' — off the locked v' + V + ' baseline, with no approved CR.') : (names[i] + ' is at v' + V + ' — matches the baseline.')"
+        }
+      ]
+    },
+    "explanation": "Under configuration management every baselined artifact stays at the baseline version until a change request is approved. Any artifact showing a different version was changed outside change control and breaks baseline integrity."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "procurement-weighted-matrix",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Procurement",
+    "difficulty": "hard",
+    "viewBox": [330, 148],
+    "prompt": "Weighted source selection — Technical 40%, Cost 35%, Schedule 25%. The per-criterion scores are shown; the weighted totals are not. Tap the vendor with the highest weighted score.",
+    "vars": {
+      "T": { "sampleInt": [60, 95], "count": 3 },
+      "C": { "sampleInt": [60, 95], "count": 3 },
+      "S": { "sampleInt": [60, 95], "count": 3 },
+      "names": { "value": ["A", "B", "C"] },
+      "r3": { "range": 3 }
+    },
+    "derived": {
+      "tot": "[40*T[0]+35*C[0]+25*S[0], 40*T[1]+35*C[1]+25*S[1], 40*T[2]+35*C[2]+25*S[2]]",
+      "win": "argmax([40*T[0]+35*C[0]+25*S[0], 40*T[1]+35*C[1]+25*S[1], 40*T[2]+35*C[2]+25*S[2]])",
+      "cheap": "argmax(C)"
+    },
+    "guard": "(40*T[0]+35*C[0]+25*S[0]) != (40*T[1]+35*C[1]+25*S[1]) && (40*T[1]+35*C[1]+25*S[1]) != (40*T[2]+35*C[2]+25*S[2]) && (40*T[0]+35*C[0]+25*S[0]) != (40*T[2]+35*C[2]+25*S[2]) && argmax([40*T[0]+35*C[0]+25*S[0], 40*T[1]+35*C[1]+25*S[1], 40*T[2]+35*C[2]+25*S[2]]) != argmax(C)",
+    "draw": [
+      { "op": "text", "x": 14, "y": 58, "text": "'Technical (40%)'", "size": 8, "anchor": "start" },
+      { "op": "text", "x": 14, "y": 84, "text": "'Cost (35%)'", "size": 8, "anchor": "start" },
+      { "op": "text", "x": 14, "y": 110, "text": "'Schedule (25%)'", "size": 8, "anchor": "start" },
+      {
+        "op": "repeat",
+        "over": "r3",
+        "do": [
+          { "op": "text", "x": "170 + i*56", "y": 38, "text": "'Vendor ' + names[i]", "size": 8.5, "anchor": "middle" },
+          { "op": "text", "x": "170 + i*56", "y": 58, "text": "T[i]", "size": 9, "anchor": "middle" },
+          { "op": "text", "x": "170 + i*56", "y": 84, "text": "C[i]", "size": 9, "anchor": "middle" },
+          { "op": "text", "x": "170 + i*56", "y": 110, "text": "S[i]", "size": 9, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r3",
+      "items": [
+        {
+          "id": "'v' + i",
+          "x": "170 + i*56 - 24",
+          "y": 44,
+          "w": 48,
+          "h": 78,
+          "correct": "i == win",
+          "label": "'Vendor ' + names[i]",
+          "why": "'Weighted score ' + round1(tot[i]/100) + (i == win ? ' — the highest, so best value.' : ' — not the highest.')"
+        }
+      ]
+    },
+    "explanation": "Weighted score = 0.40·Technical + 0.35·Cost + 0.25·Schedule → A {{round1(tot[0]/100)}}, B {{round1(tot[1]/100)}}, C {{round1(tot[2]/100)}}. Vendor {{names[win]}} wins. Note the vendor with the best Cost score (Vendor {{names[cheap]}}) does NOT win — lowest price is not best value."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "wsjf-rank-stories",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Prioritization",
+    "difficulty": "hard",
+    "viewBox": [320, 150],
+    "prompt": "SAFe WSJF = Cost of Delay ÷ Job Size. Each story shows its CoD and Size — not its WSJF. Tap the story the team should pull in first.",
+    "vars": {
+      "cod": { "sampleInt": [20, 90], "count": 4 },
+      "size": { "sampleInt": [3, 30], "count": 4 },
+      "names": { "value": ["P", "Q", "R", "S"] },
+      "r4": { "range": 4 }
+    },
+    "derived": {
+      "win": "argmax([cod[0]/size[0], cod[1]/size[1], cod[2]/size[2], cod[3]/size[3]])"
+    },
+    "guard": "argmax([cod[0]/size[0], cod[1]/size[1], cod[2]/size[2], cod[3]/size[3]]) != argmax(cod)",
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          { "op": "rect", "x": "10 + (i%2)*160", "y": "18 + floor(i/2)*60", "w": 150, "h": 50, "rx": 4, "color": "ink", "width": 1 },
+          { "op": "text", "x": "10 + (i%2)*160 + 75", "y": "18 + floor(i/2)*60 + 20", "text": "'Story ' + names[i]", "size": 9, "anchor": "middle" },
+          { "op": "text", "x": "10 + (i%2)*160 + 75", "y": "18 + floor(i/2)*60 + 38", "text": "'CoD ' + cod[i] + '  ·  Size ' + size[i]", "size": 8.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r4",
+      "items": [
+        {
+          "id": "'s' + i",
+          "x": "10 + (i%2)*160",
+          "y": "18 + floor(i/2)*60",
+          "w": 150,
+          "h": 50,
+          "correct": "i == win",
+          "label": "'Story ' + names[i]",
+          "why": "'WSJF = ' + cod[i] + '/' + size[i] + ' = ' + round1(cod[i]/size[i]) + (i == win ? ' — the highest, pull it first.' : ' — not the highest.')"
+        }
+      ]
+    },
+    "explanation": "WSJF pulls the highest Cost-of-Delay-per-size job first, so small urgent work beats big high-value work. Here Story {{names[win]}} has the top ratio — note the story with the highest Cost of Delay alone is NOT the winner, because its size drags the ratio down."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "residual-risk-matrix",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Risk",
+    "difficulty": "hard",
+    "freeSelect": true,
+    "viewBox": [340, 168],
+    "prompt": "Each risk was mitigated — its score dropped from initial to residual. The escalation threshold is 12. Tap every risk whose RESIDUAL score still breaches it (≥ 12) and needs a contingency plan.",
+    "vars": {
+      "init": { "sampleInt": [13, 25], "count": 4 },
+      "drop": { "sampleInt": [2, 16], "count": 4 },
+      "r4": { "range": 4 }
+    },
+    "derived": {
+      "resid": "[max(1,init[0]-drop[0]), max(1,init[1]-drop[1]), max(1,init[2]-drop[2]), max(1,init[3]-drop[3])]",
+      "nOver": "count([max(1,init[0]-drop[0])>=12, max(1,init[1]-drop[1])>=12, max(1,init[2]-drop[2])>=12, max(1,init[3]-drop[3])>=12])"
+    },
+    "guard": "count([max(1,init[0]-drop[0])>=12, max(1,init[1]-drop[1])>=12, max(1,init[2]-drop[2])>=12, max(1,init[3]-drop[3])>=12]) >= 1 && count([max(1,init[0]-drop[0])>=12, max(1,init[1]-drop[1])>=12, max(1,init[2]-drop[2])>=12, max(1,init[3]-drop[3])>=12]) <= 3",
+    "draw": [
+      { "op": "text", "x": 170, "y": 20, "text": "'After mitigation — threshold = 12'", "size": 9, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          { "op": "rect", "x": 30, "y": "32 + i*30", "w": 280, "h": 24, "rx": 3, "color": "ink", "width": 1 },
+          { "op": "text", "x": 42, "y": "32 + i*30 + 16", "text": "'R' + (i+1) + ':   initial ' + init[i] + '   →   residual ' + resid[i]", "size": 9, "anchor": "start" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r4",
+      "items": [
+        {
+          "id": "'r' + i",
+          "x": 30,
+          "y": "32 + i*30",
+          "w": 280,
+          "h": 24,
+          "correct": "resid[i] >= 12",
+          "label": "'R' + (i+1)",
+          "why": "resid[i] >= 12 ? ('Residual ' + resid[i] + ' ≥ 12 — mitigation left it above threshold; it still needs a contingency plan.') : ('Residual ' + resid[i] + ' < 12 — mitigation brought it under threshold; no further action.')"
+        }
+      ]
+    },
+    "explanation": "Residual risk is what remains AFTER a response. Only risks whose residual score still meets the threshold ({{nOver}} here) need further action — a high initial score that was mitigated below 12 does not, and a small residual is accepted."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "rolling-wave-wbs",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Planning",
+    "difficulty": "hard",
+    "viewBox": [300, 176],
+    "prompt": "You are in Month 2 of an 18-month programme. Rolling-wave planning details only the next 1–2 phases and keeps distant phases high-level. Tap the phase that has been decomposed too early — task-level detail this far out is false precision.",
+    "vars": {
+      "bad": { "pick": [2, 3] },
+      "r4": { "range": 4 },
+      "timing": { "value": ["now", "next", "~month 9", "~month 14"] }
+    },
+    "derived": {
+      "showKids": "[1, 1, 2==bad ? 1 : 0, 3==bad ? 1 : 0]"
+    },
+    "draw": [
+      { "op": "rect", "x": 120, "y": 8, "w": 60, "h": 22, "rx": 3, "color": "ink", "width": 1 },
+      { "op": "text", "x": 150, "y": 23, "text": "'Programme'", "size": 8, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          { "op": "rect", "x": "8 + i*72", "y": 50, "w": 64, "h": 30, "rx": 3, "color": "ink", "width": 1 },
+          { "op": "text", "x": "8 + i*72 + 32", "y": 64, "text": "'Phase ' + (i+1)", "size": 8, "anchor": "middle" },
+          { "op": "text", "x": "8 + i*72 + 32", "y": 75, "text": "timing[i]", "size": 6.5, "anchor": "middle" },
+          { "op": "rect", "x": "8 + i*72 + 8", "y": 96, "w": "showKids[i]*48", "h": "showKids[i]*15", "rx": 2, "color": "ink", "width": 0.8 },
+          { "op": "text", "x": "8 + i*72 + 32", "y": 106, "text": "showKids[i] > 0 ? ((i+1) + '.1  tasks') : ''", "size": 6, "anchor": "middle" },
+          { "op": "rect", "x": "8 + i*72 + 8", "y": 116, "w": "showKids[i]*48", "h": "showKids[i]*15", "rx": 2, "color": "ink", "width": 0.8 },
+          { "op": "text", "x": "8 + i*72 + 32", "y": 126, "text": "showKids[i] > 0 ? ((i+1) + '.2  tasks') : ''", "size": 6, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r4",
+      "items": [
+        {
+          "id": "'p' + i",
+          "x": "8 + i*72",
+          "y": 50,
+          "w": 64,
+          "h": 30,
+          "correct": "i == bad",
+          "label": "'Phase ' + (i+1)",
+          "why": "i == bad ? ('Phase ' + (i+1) + ' is ' + timing[i] + ' out but broken to task level — premature detail / false precision.') : (i <= 1 ? ('Phase ' + (i+1) + ' is near-term (' + timing[i] + ') — detailing it now is correct.') : ('Phase ' + (i+1) + ' is ' + timing[i] + ' out and kept high-level — correct for rolling-wave.'))"
+        }
+      ]
+    },
+    "explanation": "Rolling-wave / progressive elaboration details near-term work and leaves distant work high-level until it approaches. Task-level detail on Phase {{bad+1}} ({{timing[bad]}} out) is false precision — it will be reworked long before the phase begins."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "control-rule-seven",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Quality",
+    "difficulty": "hard",
+    "freeSelect": true,
+    "viewBox": [300, 150],
+    "prompt": "Every point is within the control limits. Tap the run of seven consecutive points on the same side of the mean — the 'rule of seven' that signals non-random variation and warrants investigation.",
+    "vars": {
+      "runStart": { "pick": [0, 1, 2, 3, 4, 5] },
+      "runSide": { "pick": [0, 1] },
+      "jit": { "sampleInt": [0, 6], "count": 12 },
+      "r12": { "range": 12 }
+    },
+    "draw": [
+      { "op": "line", "x1": 30, "y1": 48, "x2": 280, "y2": 48, "width": 0.8, "dash": "4 4" },
+      { "op": "text", "x": 284, "y": 51, "text": "'UCL'", "size": 7, "anchor": "start" },
+      { "op": "line", "x1": 30, "y1": 112, "x2": 280, "y2": 112, "width": 0.8, "dash": "4 4" },
+      { "op": "text", "x": 284, "y": 115, "text": "'LCL'", "size": 7, "anchor": "start" },
+      { "op": "line", "x1": 30, "y1": 80, "x2": 280, "y2": 80, "width": 0.6, "dash": "2 3" },
+      { "op": "text", "x": 284, "y": 83, "text": "'mean'", "size": 7, "anchor": "start" },
+      {
+        "op": "repeat",
+        "over": "r12",
+        "do": [
+          { "op": "circle", "cx": "40 + i*20", "cy": "80 + ((i >= runStart && i < runStart+7) ? (runSide==0 ? 1 : -1) : (runSide==0 ? -1 : 1)) * (10 + jit[i])", "r": 3.4, "fill": "ink", "color": "ink", "width": 1 }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r12",
+      "items": [
+        {
+          "id": "'p' + i",
+          "x": "40 + i*20 - 9",
+          "y": "80 + ((i >= runStart && i < runStart+7) ? (runSide==0 ? 1 : -1) : (runSide==0 ? -1 : 1)) * (10 + jit[i]) - 9",
+          "w": 18,
+          "h": 18,
+          "correct": "i >= runStart && i < runStart+7",
+          "label": "'point ' + (i+1)",
+          "why": "(i >= runStart && i < runStart+7) ? 'One of seven consecutive points on the same side of the mean — the rule-of-seven signal.' : 'Sits on its normal side of the mean — not part of the seven-in-a-row.'"
+        }
+      ]
+    },
+    "explanation": "A process can be inside its control limits yet still out of control: seven consecutive points on one side of the mean (the rule of seven / run rule) is a non-random pattern that warrants investigation, even with no limit breach."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "change-flow-order",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Change control",
+    "difficulty": "hard",
+    "viewBox": [360, 118],
+    "prompt": "A change request has been raised (first box, done). Drag the next three steps into the boxes in the order they must happen. Two of the options do not belong.",
+    "draw": [
+      { "op": "rect", "x": 8, "y": 40, "w": 74, "h": 34, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 45, "y": 55, "text": "'Change'", "size": 7.5, "anchor": "middle" },
+      { "op": "text", "x": 45, "y": 66, "text": "'raised ✓'", "size": 7.5, "anchor": "middle" },
+      { "op": "arrow", "x1": 84, "y1": 57, "x2": 100, "y2": 57, "width": 1.2, "head": 6 },
+      { "op": "arrow", "x1": 178, "y1": 57, "x2": 194, "y2": 57, "width": 1.2, "head": 6 },
+      { "op": "arrow", "x1": 272, "y1": 57, "x2": 288, "y2": 57, "width": 1.2, "head": 6 }
+    ],
+    "regions": [
+      { "id": "'s1'", "x": 102, "y": 40, "w": 74, "h": 34 },
+      { "id": "'s2'", "x": 196, "y": 40, "w": 74, "h": 34 },
+      { "id": "'s3'", "x": 290, "y": 40, "w": 66, "h": 34 }
+    ],
+    "tokens": [
+      { "label": "'Assess impact'", "target": "'s1'", "why": "'First analyse the impact on scope, cost, schedule, risk and quality.'" },
+      { "label": "'CCB decision'", "target": "'s2'", "why": "'The change control board approves, defers or rejects it — the control gate.'" },
+      { "label": "'Update baselines'", "target": "'s3'", "why": "'Only an approved change updates the baselines and plans, then it is communicated.'" },
+      { "label": "'Implement immediately'", "target": "''", "why": "'Acting before the CCB decides bypasses integrated change control.'" },
+      { "label": "'Notify sponsor only'", "target": "''", "why": "'A courtesy note is not a decision — it skips impact analysis and the CCB.'" }
+    ],
+    "explanation": "Integrated change control: assess the impact, take it to the CCB for a decision, then (if approved) update the baselines and communicate. Implementing first, or only notifying the sponsor, skips the control step."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "vsm-waste-waiting",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Value stream",
+    "difficulty": "hard",
+    "viewBox": [346, 120],
+    "prompt": "Value stream — the boxes are value-add steps; the number in each gap is the days work sits in a queue between them. Tap the queue where inventory waits longest — the bottleneck to attack first.",
+    "vars": {
+      "waits": { "sampleInt": [1, 9], "count": 4 },
+      "names": { "value": ["Ideate", "Refine", "Build", "Test", "Release"] },
+      "r5": { "range": 5 },
+      "r4": { "range": 4 }
+    },
+    "derived": {
+      "win": "argmax(waits)"
+    },
+    "guard": "waits[0]!=waits[1] && waits[0]!=waits[2] && waits[0]!=waits[3] && waits[1]!=waits[2] && waits[1]!=waits[3] && waits[2]!=waits[3] && (argmax(waits)==0 || waits[argmax(waits)] > waits[argmax(waits)-1])",
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "r5",
+        "do": [
+          { "op": "rect", "x": "6 + i*70", "y": 42, "w": 54, "h": 32, "rx": 3, "color": "ink", "width": 1 },
+          { "op": "text", "x": "6 + i*70 + 27", "y": 61, "text": "names[i]", "size": 8, "anchor": "middle" }
+        ]
+      },
+      {
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          { "op": "text", "x": "68 + i*70", "y": 40, "text": "'⏳'", "size": 9, "anchor": "middle" },
+          { "op": "text", "x": "68 + i*70", "y": 64, "text": "waits[i] + 'd'", "size": 8.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r4",
+      "items": [
+        {
+          "id": "'q' + i",
+          "x": "68 + i*70 - 15",
+          "y": 34,
+          "w": 30,
+          "h": 44,
+          "correct": "i == win",
+          "label": "'queue ' + (i+1)",
+          "why": "i == win ? (waits[i] + ' days — the longest queue; this bottleneck dominates lead time.') : (waits[i] + ' days — a shorter queue, not the main constraint.')"
+        }
+      ]
+    },
+    "explanation": "Lead time is dominated by waiting, not value-add work. Attack the longest queue (the bottleneck) first — speeding up a non-bottleneck step just makes its queue grow."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "evm-eac-formula-pick",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "hard",
+    "viewBox": [360, 140],
+    "prompt": "{{ mode==0 ? 'Cost overruns are running at a typical rate and are expected to continue. Tap the EAC formula to forecast with.' : (mode==1 ? 'The overrun was a one-off; the remaining work will run at the planned rate. Tap the EAC formula to forecast with.' : 'The original estimate is no longer valid and both cost and schedule pressure will persist. Tap the EAC formula to forecast with.') }}",
+    "vars": {
+      "mode": { "pick": [0, 1, 2] },
+      "f": { "value": ["EAC = BAC / CPI", "EAC = AC + (BAC - EV)", "EAC = AC + (BAC-EV)/(CPI×SPI)"] },
+      "sub": { "value": ["overrun is typical & continues", "overrun was a one-off", "cost & schedule pressure persist"] },
+      "r3": { "range": 3 }
+    },
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "r3",
+        "do": [
+          { "op": "rect", "x": "12 + i*116", "y": 60, "w": 108, "h": 56, "rx": 5, "color": "ink", "width": 1 },
+          { "op": "text", "x": "12 + i*116 + 54", "y": 84, "text": "f[i]", "size": 7.5, "anchor": "middle" },
+          { "op": "text", "x": "12 + i*116 + 54", "y": 102, "text": "sub[i]", "size": 6.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r3",
+      "items": [
+        {
+          "id": "'f' + i",
+          "x": "12 + i*116",
+          "y": 60,
+          "w": 108,
+          "h": 56,
+          "correct": "i == mode",
+          "label": "f[i]",
+          "why": "i == mode ? 'Correct — this assumption matches the scenario.' : 'This formula assumes a different future than the scenario describes.'"
+        }
+      ]
+    },
+    "explanation": "{{ mode==0 ? 'When current cost performance is typical and will continue, EAC = BAC/CPI extends the trend.' : (mode==1 ? 'When the overrun was a one-off and remaining work runs to plan, EAC = AC + (BAC-EV) adds the remaining budget at value.' : 'When both cost and schedule variances will persist, EAC = AC + (BAC-EV)/(CPI×SPI) deflates the remaining work by both indices.') }}"
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "gantt-lag-link-tap",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Schedule / dependencies",
+    "difficulty": "hard",
+    "viewBox": [300, 92],
+    "prompt": "Activity {{names[badLink]}} must finish, then a mandatory {{lag}}-day wait passes before {{names[badLink+1]}} may start. The links are drawn finish-to-start with no lag. Tap the dependency link that must become FS + {{lag}}.",
+    "vars": {
+      "badLink": { "pick": [0, 1] },
+      "lag": { "sampleInt": [2, 7], "count": 1 },
+      "names": { "value": ["A", "B", "C"] },
+      "r3": { "range": 3 },
+      "r2": { "range": 2 }
+    },
+    "draw": [
+      {
+        "op": "repeat",
+        "over": "r3",
+        "do": [
+          { "op": "rect", "x": "24 + i*90", "y": 36, "w": 66, "h": 20, "rx": 3, "fill": "ink", "fillOpacity": 0.12, "color": "ink", "width": 1 },
+          { "op": "text", "x": "24 + i*90 + 33", "y": 50, "text": "names[i]", "size": 9, "anchor": "middle" }
+        ]
+      },
+      {
+        "op": "repeat",
+        "over": "r2",
+        "do": [
+          { "op": "arrow", "x1": "90 + i*90", "y1": 46, "x2": "112 + i*90", "y2": 46, "width": 1.4, "head": 7 }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r2",
+      "items": [
+        {
+          "id": "'l' + i",
+          "x": "88 + i*90",
+          "y": 36,
+          "w": 26,
+          "h": 20,
+          "correct": "i == badLink",
+          "label": "names[i] + '→' + names[i+1]",
+          "why": "i == badLink ? ('This ' + names[i] + '→' + names[i+1] + ' link must become FS + ' + lag + ' to model the mandatory wait.') : ('The ' + names[i] + '→' + names[i+1] + ' link is correct as FS + 0.')"
+        }
+      ]
+    },
+    "explanation": "A mandatory delay between two activities is modelled as a lag on the dependency (FS + {{lag}}) — not as extra duration on either bar and not as a new activity. Only the {{names[badLink]}}→{{names[badLink+1]}} link needs the lag."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "kano-zone-drag",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Kano / requirements",
+    "difficulty": "hard",
+    "viewBox": [332, 150],
+    "prompt": "Drag each feature to its Kano category — Must-be (expected; its absence dissatisfies), Performance (more is better), or Delighter (unexpected; its presence delights).",
+    "draw": [
+      { "op": "rect", "x": 6, "y": 20, "w": 104, "h": 66, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 58, "y": 40, "text": "'Must-be'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 58, "y": 54, "text": "'expected;'", "size": 6.5, "anchor": "middle" },
+      { "op": "text", "x": 58, "y": 64, "text": "'absence dissatisfies'", "size": 6.5, "anchor": "middle" },
+      { "op": "rect", "x": 114, "y": 20, "w": 104, "h": 66, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 166, "y": 40, "text": "'Performance'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 166, "y": 57, "text": "'more is better'", "size": 6.5, "anchor": "middle" },
+      { "op": "rect", "x": 222, "y": 20, "w": 104, "h": 66, "rx": 4, "color": "ink", "width": 1 },
+      { "op": "text", "x": 274, "y": 40, "text": "'Delighter'", "size": 9.5, "anchor": "middle" },
+      { "op": "text", "x": 274, "y": 57, "text": "'unexpected plus'", "size": 6.5, "anchor": "middle" }
+    ],
+    "regions": [
+      { "id": "'must'", "x": 6, "y": 20, "w": 104, "h": 66 },
+      { "id": "'perf'", "x": 114, "y": 20, "w": 104, "h": 66 },
+      { "id": "'del'", "x": 222, "y": 20, "w": 104, "h": 66 }
+    ],
+    "tokens": [
+      { "label": "'Data encryption'", "target": "'must'", "why": "'Security is a basic expectation — its absence causes strong dissatisfaction, its presence is merely assumed.'" },
+      { "label": "'SSO login'", "target": "'must'", "why": "'Expected baseline functionality — a Must-be, not a differentiator.'" },
+      { "label": "'Report export speed'", "target": "'perf'", "why": "'Linear satisfaction — faster is better, slower is worse: a Performance attribute.'" },
+      { "label": "'Search relevance'", "target": "'perf'", "why": "'More of it steadily raises satisfaction — a Performance attribute.'" },
+      { "label": "'Dark mode theme'", "target": "'del'", "why": "'Unexpected polish — its presence delights, its absence is not missed: a Delighter.'" },
+      { "label": "'AI auto-summary'", "target": "'del'", "why": "'A surprising extra that excites users — a Delighter (until it becomes expected).'" }
+    ],
+    "explanation": "Kano sorts features by how they drive satisfaction: Must-be (expected — only dissatisfies if missing), Performance (linear — more is better), and Delighters (unexpected — delight when present). Delighters decay into expectations over time, so the baseline must always cover the Must-bes first."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "tcpi-gauge-interpret",
+    "kind": "choice",
+    "domain": "Process",
+    "topic": "Earned value",
+    "difficulty": "hard",
+    "viewBox": [300, 120],
+    "prompt": "At 60% complete the sponsor will not increase the budget. Read the TCPI-to-budget shown. What does it mean for the remaining work?",
+    "vars": {
+      "pct": { "int": [8, 25] }
+    },
+    "derived": {
+      "tcpi": "'1.' + (pct < 10 ? '0' + pct : '' + pct)"
+    },
+    "draw": [
+      { "op": "text", "x": 150, "y": 40, "text": "'TCPI → BAC'", "size": 10, "anchor": "middle" },
+      { "op": "text", "x": 150, "y": 74, "text": "tcpi", "size": 26, "anchor": "middle" },
+      { "op": "line", "x1": 60, "y1": 96, "x2": 240, "y2": 96, "width": 1 },
+      { "op": "text", "x": 60, "y": 110, "text": "'1.0'", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 240, "y": 110, "text": "'1.3'", "size": 8, "anchor": "middle" },
+      { "op": "circle", "cx": "60 + pct*6", "cy": 96, "r": 4, "fill": "ink", "color": "ink", "width": 1 }
+    ],
+    "choices": [
+      { "id": "eff", "text": "'The remaining work must be done about ' + pct + '% more cost-efficiently than it has been so far.'", "correct": "true" },
+      { "id": "over", "text": "'The project is ' + pct + '% over budget overall.'", "correct": "false" },
+      { "id": "fund", "text": "'You need ' + pct + '% more funding to finish.'", "correct": "false" },
+      { "id": "recover", "text": "'Cost performance will recover on its own.'", "correct": "false" }
+    ],
+    "explanation": "TCPI is the cost efficiency REQUIRED on the remaining work to still hit the target. A TCPI above 1.0 means the team must perform better than it has — here about {{pct}}% more efficiently — which is a warning that the target may be unrealistic, not a measure of current overrun or a funding request."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "hybrid-gate-ceremony",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Hybrid / gates",
+    "difficulty": "hard",
+    "viewBox": [320, 120],
+    "prompt": "A 2-week sprint is mid-flight when a phase gate arrives. Tap the ceremony that must NOT be skipped — the one that produces the reviewed increment the gate's go/no-go decision depends on.",
+    "vars": {
+      "slot": { "shuffle": [0, 1, 2, 3] },
+      "names": { "value": ["Daily standup", "Sprint review", "Team retro", "Ad-hoc hallway chat"] },
+      "r4": { "range": 4 }
+    },
+    "derived": {
+      "correctSlot": "slot[1]"
+    },
+    "draw": [
+      { "op": "text", "x": 160, "y": 20, "text": "'Gate arrives mid-sprint — which ceremony holds?'", "size": 8.5, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          { "op": "rect", "x": "8 + i*78", "y": 40, "w": 72, "h": 44, "rx": 4, "color": "ink", "width": 1 },
+          { "op": "text", "x": "8 + i*78 + 36", "y": 66, "text": "names[slot[i]]", "size": 7.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r4",
+      "items": [
+        {
+          "id": "'c' + i",
+          "x": "8 + i*78",
+          "y": 40,
+          "w": 72,
+          "h": 44,
+          "correct": "slot[i] == 1",
+          "label": "names[slot[i]]",
+          "why": "slot[i] == 1 ? 'The sprint review demonstrates the increment to stakeholders — that reviewed increment feeds the gate decision, so it cannot be skipped.' : (slot[i] == 0 ? 'The daily standup is routine coordination — useful, but not what the gate needs.' : (slot[i] == 2 ? 'The retro improves the team, but it is internal and not gate-critical.' : 'An informal chat is no substitute for a formal reviewed increment.'))"
+        }
+      ]
+    },
+    "explanation": "In a hybrid stage-gate + agile model, the gate's go/no-go needs a reviewed, demonstrable increment. That is exactly what the sprint review produces, so it is the one ceremony you protect when the gate lands mid-sprint — standups, retros and informal chats do not feed the gate decision."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "burnup-scope-creep",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Scope / change control",
+    "difficulty": "hard",
+    "viewBox": [320, 168],
+    "prompt": "Sprint burn-up — the grey line is total scope, the solid line is completed work. The change log shows only ONE approved CR (marked ✓). Tap the point where scope was added with no matching change request.",
+    "vars": {
+      "badDay": { "pick": [2, 3] },
+      "legitDay": { "pick": [4, 5] },
+      "r7": { "range": 7 }
+    },
+    "derived": {
+      "scopeY": "[128 - (0>=badDay ? 20:0) - (0>=legitDay ? 20:0), 128 - (1>=badDay ? 20:0) - (1>=legitDay ? 20:0), 128 - (2>=badDay ? 20:0) - (2>=legitDay ? 20:0), 128 - (3>=badDay ? 20:0) - (3>=legitDay ? 20:0), 128 - (4>=badDay ? 20:0) - (4>=legitDay ? 20:0), 128 - (5>=badDay ? 20:0) - (5>=legitDay ? 20:0), 128 - (6>=badDay ? 20:0) - (6>=legitDay ? 20:0)]"
+    },
+    "draw": [
+      { "op": "line", "x1": 34, "y1": 140, "x2": 300, "y2": 140, "width": 1 },
+      { "op": "line", "x1": 34, "y1": 24, "x2": 34, "y2": 140, "width": 1 },
+      { "op": "text", "x": 168, "y": 16, "text": "'Scope (grey) vs Completed (solid)'", "size": 8.5, "anchor": "middle" },
+      { "op": "polyline", "points": [40, 128, 78, "128 - (1>=badDay?20:0) - (1>=legitDay?20:0)", 116, "128 - (2>=badDay?20:0) - (2>=legitDay?20:0)", 154, "128 - (3>=badDay?20:0) - (3>=legitDay?20:0)", 192, "128 - (4>=badDay?20:0) - (4>=legitDay?20:0)", 230, "128 - (5>=badDay?20:0) - (5>=legitDay?20:0)", 268, "128 - (6>=badDay?20:0) - (6>=legitDay?20:0)"], "width": 1.6, "dash": "5 3" },
+      { "op": "polyline", "points": [40, 138, 78, 126, 116, 112, 154, 96, 192, 78, 230, 60, 268, 44], "width": 1.8 },
+      { "op": "text", "x": "40 + legitDay*38", "y": "128 - (legitDay>=badDay?20:0) - 20 - 6", "text": "'CR ✓'", "size": 7.5, "anchor": "middle" }
+    ],
+    "regions": {
+      "repeat": "r7",
+      "items": [
+        {
+          "id": "'d' + i",
+          "x": "40 + i*38 - 12",
+          "y": "scopeY[i] - 12",
+          "w": 24,
+          "h": 24,
+          "correct": "i == badDay",
+          "label": "'Day ' + (i+1)",
+          "why": "i == badDay ? 'Scope jumped here with no matching CR — unauthorized scope injected outside change control.' : (i == legitDay ? 'Scope rose here too, but this is the approved CR (✓) — legitimate.' : 'No scope change on this day.')"
+        }
+      ]
+    },
+    "explanation": "A burn-up chart exposes scope changes as upward steps in the scope line. The step on day {{legitDay+1}} matches an approved CR; the step on day {{badDay+1}} has none — scope added outside integrated change control, which is what the audit must catch."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "cone-uncertainty-tap",
+    "kind": "hotspot",
+    "domain": "Process",
+    "topic": "Estimating",
+    "difficulty": "hard",
+    "viewBox": [320, 170],
+    "prompt": "The project is at concept stage — no feasibility study yet. Tap the estimate range that honestly reflects the uncertainty at this early point on the cone.",
+    "vars": {
+      "perm": { "shuffle": [0, 1, 2] },
+      "opts": { "value": ["±50% order-of-magnitude range, now", "±10% range, now (concept stage)", "±5% range — defer estimating to execution"] },
+      "r3": { "range": 3 }
+    },
+    "draw": [
+      { "op": "line", "x1": 30, "y1": 30, "x2": 290, "y2": 76, "width": 1 },
+      { "op": "line", "x1": 30, "y1": 122, "x2": 290, "y2": 76, "width": 1 },
+      { "op": "text", "x": 34, "y": 20, "text": "'wide'", "size": 7, "anchor": "start" },
+      { "op": "text", "x": 288, "y": 70, "text": "'narrow'", "size": 7, "anchor": "end" },
+      { "op": "text", "x": 40, "y": 138, "text": "'concept'", "size": 7, "anchor": "middle" },
+      { "op": "text", "x": 280, "y": 138, "text": "'execution'", "size": 7, "anchor": "middle" },
+      {
+        "op": "repeat",
+        "over": "r3",
+        "do": [
+          { "op": "rect", "x": "14 + i*100", "y": 144, "w": 96, "h": 22, "rx": 3, "color": "ink", "width": 1 },
+          { "op": "text", "x": "14 + i*100 + 48", "y": 158, "text": "opts[perm[i]]", "size": 6.5, "anchor": "middle" }
+        ]
+      }
+    ],
+    "regions": {
+      "repeat": "r3",
+      "items": [
+        {
+          "id": "'o' + i",
+          "x": "14 + i*100",
+          "y": 144,
+          "w": 96,
+          "h": 22,
+          "correct": "perm[i] == 0",
+          "label": "opts[perm[i]]",
+          "why": "perm[i] == 0 ? 'Correct — early estimates are order-of-magnitude; a wide range is honest at concept.' : (perm[i] == 1 ? 'False precision — you cannot be ±10% before a feasibility study.' : 'That is execution-level precision; refusing to estimate at all is not the ask.')"
+        }
+      ]
+    },
+    "explanation": "The cone of uncertainty is widest at the start and narrows as the project progresses. At concept a rough order-of-magnitude estimate (a wide range, e.g. ±50%) is appropriate and honest; a tight range this early is false precision."
+  }
+]
