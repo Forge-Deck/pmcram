@@ -8,7 +8,7 @@
     "difficulty": "medium",
     "freeSelect": true,
     "viewBox": [302, 188],
-    "prompt": "{{context}}, ranked highest-first. Under the 80/20 rule, tap every category in the vital few — fix those first to clear ~80% of the total.",
+    "prompt": "{{context}} on this Pareto chart, ranked highest-first. Tap every category in the vital few — the top ones the cumulative line covers before the 80% mark. Fix those first.",
     "caption": "Bars = counts; line = cumulative %.",
     "vars": {
       "v0": { "int": [44, 64] },

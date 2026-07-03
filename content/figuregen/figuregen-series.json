@@ -58,7 +58,7 @@
     "topic": "Earned value",
     "difficulty": "medium",
     "viewBox": [280, 184],
-    "prompt": "At the status date PV = {{pv}}, EV = {{ev}}, AC = {{ac}}. What is the project status?",
+    "prompt": "From the earned-value bars, what is the project's status?",
     "caption": "PV planned · EV earned · AC actual cost.",
     "vars": {
       "pv": { "int": [60, 90] },

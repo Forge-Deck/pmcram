@@ -11,7 +11,7 @@
       296,
       282
     ],
-    "prompt": "Each dot is a risk on the probability/impact matrix. Tap every risk in the red zone (probability × impact ≥ 12) — those breach the threshold and must be escalated with a response plan.",
+    "prompt": "Each dot is a risk on the probability/impact matrix. Tap every risk where the risk threshold is ≥ 12 — those breach it and must be escalated with a response plan.",
     "caption": "Rows = probability, columns = impact (1–5).",
     "vars": {
       "cells": {
