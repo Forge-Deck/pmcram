@@ -276,11 +276,11 @@
           "h": 34,
           "correct": "i == strat",
           "label": "nm",
-          "why": "i == strat ? ('That quadrant is ' + descFor[strat] + ' → ' + stratText[strat] + '.') : 'A different quadrant — not the strategy asked.'"
+          "why": "nm + ' sits in the ' + descFor[i] + ' quadrant → ' + stratText[i] + (i == strat ? ' — the strategy this question asked.' : ' — a different strategy from the one asked.')"
         }
       ]
     },
-    "explanation": "{{stratText[strat]}} fits the {{descFor[strat]}} quadrant — {{names[strat]}} sits there. The other corners call for different engagement."
+    "explanation": "{{stratText[strat]}} is the {{descFor[strat]}} quadrant, where {{names[strat]}} sits. Across the whole grid: {{names[0]}} = high power, high interest → manage closely; {{names[1]}} = high power, low interest → keep satisfied; {{names[2]}} = low power, high interest → keep informed; {{names[3]}} = low power, low interest → monitor only."
   },
   {
     "schema": "figuregen/v1",
