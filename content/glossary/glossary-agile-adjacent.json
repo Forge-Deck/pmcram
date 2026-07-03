@@ -1,0 +1,50 @@
+[
+  {
+    "Term": "Empathy map",
+    "Core Meaning": "A simple visual that captures what a user or stakeholder says, thinks, does, and feels, to build shared understanding of their needs.",
+    "Depth": "Standard",
+    "Expansion": "An empathy map is a collaborative tool — usually a quadrant grid of Says, Thinks, Does, and Feels (sometimes with Pains and Gains) — used to synthesize what a team knows about a person it is designing for or engaging. By externalizing assumptions and evidence about a stakeholder's experience, the team surfaces gaps, aligns on priorities, and grounds decisions in real needs rather than opinion. It supports requirements elicitation, stakeholder engagement, and user-centered design.",
+    "Deep Dive": null,
+    "Contrast": "Persona — an empathy map organizes what is known about one person's experience into Says/Thinks/Does/Feels, while a persona is a fuller fictional profile representing a whole segment of users.",
+    "Example": "Before redesigning the intake form, the team fills an empathy map for a frontline clerk and realizes their strongest 'feel' is anxiety about entering wrong data, so input validation becomes a priority.",
+    "Related Terms": ["Stakeholder analysis", "Requirements elicitation", "Persona", "Customer journey map", "Voice of the customer"],
+    "Tier": "Adjacent concept",
+    "Source": "Design-thinking practice — empathy map"
+  },
+  {
+    "Term": "Customer journey map",
+    "Core Meaning": "A visualization of the steps, touchpoints, and emotions a customer experiences using a product or service, used to find pain points.",
+    "Depth": "Standard",
+    "Expansion": "A customer journey map lays out the end-to-end experience of a user across stages (for example: aware, evaluate, onboard, use, support), showing their actions, touchpoints, questions, and emotional highs and lows at each step. It helps a team see the experience as the customer does, locate friction and drop-off, and prioritize improvements. Project teams use it to align stakeholders, shape requirements, and target quality and value-delivery effort where it matters most.",
+    "Deep Dive": null,
+    "Contrast": "Value stream map — a customer journey map traces the customer's experience and emotions across touchpoints, while a value stream map traces the internal process steps and wait times used to deliver value.",
+    "Example": "Mapping the renewal journey reveals customers stall at the payment step because the reminder arrives too late, so the team reschedules the notification earlier.",
+    "Related Terms": ["Empathy map", "Stakeholder engagement", "Voice of the customer", "Value stream map", "User story"],
+    "Tier": "Adjacent concept",
+    "Source": "Service-design practice — customer journey map"
+  },
+  {
+    "Term": "Dependency mapping",
+    "Core Meaning": "Identifying and visualizing the links between activities, teams, or deliverables so ordering and hand-off risks are managed early.",
+    "Depth": "Standard",
+    "Expansion": "Dependency mapping makes explicit which pieces of work rely on others — within a team, across teams, or on external parties. Captured as a diagram or matrix, it exposes sequencing constraints, critical hand-offs, and single points of failure early, so the schedule and integration can be planned around them. It is especially valuable at program scale and in large planning events, where cross-team dependencies are a common source of delay.",
+    "Deep Dive": null,
+    "Contrast": "Precedence diagram (activity network) — dependency mapping is the broader practice of surfacing all dependencies including cross-team and external ones, while a precedence diagram is the formal activity-on-node network used to sequence a single schedule.",
+    "Example": "At the planning event the teams draw dependency lines between features and find two teams both need the shared component in the same iteration, so they re-sequence to remove the bottleneck.",
+    "Related Terms": ["Dependency", "Precedence diagramming method", "Critical path", "Integration management", "Schedule network analysis"],
+    "Tier": "Adjacent concept",
+    "Source": "Scaled-agile / schedule practice — dependency mapping"
+  },
+  {
+    "Term": "Objectives and key results (OKRs)",
+    "Core Meaning": "A goal-setting framework pairing a qualitative objective with a few measurable key results that show whether the objective is being met.",
+    "Depth": "Standard",
+    "Expansion": "OKRs connect strategy to execution: an Objective states an ambitious, qualitative outcome, and each Key Result is a specific, measurable target that evidences progress toward it. Set on a regular cadence (often quarterly) and kept transparent, OKRs help align teams to organizational goals, focus effort on outcomes rather than output, and make progress visible. In a project context they help tie deliverables to the benefits and business value the project is meant to produce.",
+    "Deep Dive": null,
+    "Contrast": "Key performance indicator — a key result is a time-bound target that measures progress toward a specific objective, while a KPI is an ongoing metric that monitors the health of a process or business area.",
+    "Example": "Objective: delight new users. Key results — raise activation from 40% to 60%, cut time-to-first-value from three days to one, and lift 30-day retention by ten points.",
+    "Related Terms": ["Key performance indicator", "Benefits management", "Business value", "Strategic alignment", "Outcome"],
+    "Tier": "Adjacent concept",
+    "Source": "Goal-setting practice — objectives and key results"
+  }
+]
