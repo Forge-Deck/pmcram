@@ -1,0 +1,76 @@
+[
+  {
+    "schema": "figuregen/v1",
+    "id": "assign-stakeholder-strategy",
+    "kind": "assign",
+    "domain": "People",
+    "topic": "Stakeholder engagement",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "viewBox": [320, 400],
+    "prompt": "Match each stakeholder behaviour to the engagement strategy that addresses its ROOT CAUSE. Two strategies don't fit — leave them in the tray.",
+    "rows": [
+      { "id": "'mm'", "text": "'Middle manager is blocking progress — fears losing authority'" },
+      { "id": "'tech'", "text": "'Technical team has gone quiet and stopped offering ideas'" },
+      { "id": "'sponsor'", "text": "'Executive sponsor has missed the last three steering meetings'" },
+      { "id": "'front'", "text": "'Frontline users are asking to transfer to avoid the new system'" }
+    ],
+    "answers": [
+      { "text": "'Private alignment session'", "target": "'mm'", "why": "'Blocking from fear of lost authority → a private session to surface concerns and give them a role.'" },
+      { "text": "'Recognise input, raise visibility'", "target": "'tech'", "why": "'Disengaged experts re-engage when their contributions are visible and valued.'" },
+      { "text": "'Concise benefits update via governance'", "target": "'sponsor'", "why": "'A busy sponsor needs short, benefits-focused visibility through existing forums.'" },
+      { "text": "'Coaching, training & peer support'", "target": "'front'", "why": "'Users avoiding the system need capability building, not pressure.'" },
+      { "text": "'Mandate compliance by directive'", "target": "''", "why": "'Heavy-handed — forcing compliance rarely fixes the root cause of resistance.'" },
+      { "text": "'Cut scope to remove the friction'", "target": "''", "why": "'Avoidant — dropping deliverables to dodge resistance is not engagement.'" }
+    ],
+    "explanation": "Tailor engagement to the ROOT CAUSE: private alignment for fear-based blocking, recognition for disengaged experts, concise benefits for a busy sponsor, and coaching for users lacking capability. Directives and scope cuts don't address the cause."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "assign-risk-response",
+    "kind": "assign",
+    "domain": "Process",
+    "topic": "Risk responses",
+    "difficulty": "medium",
+    "mockExclude": true,
+    "viewBox": [320, 400],
+    "prompt": "Match each risk situation to the most appropriate response strategy. One strategy doesn't fit — leave it in the tray.",
+    "rows": [
+      { "id": "'avoid'", "text": "'A planned feature would breach a new regulation'" },
+      { "id": "'mit'", "text": "'A key specialist may leave part-way through the project'" },
+      { "id": "'trans'", "text": "'Risk of fire or theft at the off-site equipment store'" },
+      { "id": "'acc'", "text": "'A high-impact event that is very unlikely and cannot be prevented'" }
+    ],
+    "answers": [
+      { "text": "'Avoid'", "target": "'avoid'", "why": "'You cannot run a non-compliant feature — eliminate the risk by removing or changing it.'" },
+      { "text": "'Mitigate'", "target": "'mit'", "why": "'Reduce the impact — cross-train and document so losing the specialist hurts less.'" },
+      { "text": "'Transfer'", "target": "'trans'", "why": "'Shift the financial impact to a third party via insurance.'" },
+      { "text": "'Accept'", "target": "'acc'", "why": "'Cannot prevent it and it is unlikely — accept and hold a contingency reserve.'" },
+      { "text": "'Escalate'", "target": "''", "why": "'Escalation is for risks beyond your authority/scope — these four sit within the project.'" }
+    ],
+    "explanation": "Match the response to the risk: Avoid a compliance breach, Mitigate a resource risk, Transfer a physical/insurable loss, Accept an unpreventable low-probability event. (Note: a regulation is Avoided/complied-with, never simply 'avoided by ignoring it', and a bankruptcy risk is usually Mitigated with a backup, not Transferred.)"
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "assign-verbal-workaround-steps",
+    "kind": "assign",
+    "domain": "Process",
+    "topic": "Integrated change control",
+    "difficulty": "hard",
+    "mockExclude": true,
+    "ordered": true,
+    "viewBox": [320, 400],
+    "prompt": "A vendor's workaround bypasses critical testing to hit a deadline; the sponsor verbally accepts the risk. Put the two correct actions in order — drag one onto each step. Leave the wrong actions in the tray.",
+    "rows": [
+      { "id": "'s1'", "text": "'What to do FIRST'" },
+      { "id": "'s2'", "text": "'What to do NEXT'" }
+    ],
+    "answers": [
+      { "text": "'Document the workaround, risks & compliance impact'", "target": "'s1'", "why": "'First make the risk visible and analysed — you cannot decide on an undocumented, unquantified risk.'" },
+      { "text": "'Route it through formal change control before proceeding'", "target": "'s2'", "why": "'Only proceed after formal authorization — a verbal OK is not sufficient when significant risk/compliance is involved.'" },
+      { "text": "'Proceed now — the sponsor approved it verbally'", "target": "''", "why": "'Verbal approval is not authorization; acting on it bypasses governance.'" },
+      { "text": "'Implement now and fix the records later'", "target": "''", "why": "'Never bypass the process and back-fill documentation — that defeats change control.'" }
+    ],
+    "explanation": "Document and quantify the risk FIRST, then obtain formal authorization through change control. A verbal sponsor OK never substitutes for Integrated Change Control when significant risk or compliance is at stake."
+  }
+]
