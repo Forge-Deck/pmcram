@@ -121,7 +121,7 @@
     "weeks": 8,
     "labelGutter": 30,
     "topPad": 44,
-    "prompt": "The bands show the project phases along the timeline. Drag the sponsor-approval milestone (◆) to the gate it belongs at — the point where Planning ends and Execution can begin.",
+    "prompt": "The bands show the project phases along the timeline. Drag the sponsor-approval milestone (◆) to the gate the project must clear before it can move from finalising the schedule and design into hands-on building and delivery of the product.",
     "caption": "A milestone is a zero-duration marker placed on a date.",
     "derived": {
       "gx": "30",
