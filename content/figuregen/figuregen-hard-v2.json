@@ -1336,22 +1336,22 @@
     "choices": [
       {
         "id": "eff",
-        "text": "'The remaining work must be done about ' + pct + '% more cost-efficiently than it has been so far.'",
+        "text": "'Remaining work must run about ' + pct + '% more cost-efficiently than so far.'",
         "correct": "true"
       },
       {
         "id": "over",
-        "text": "'The project is ' + pct + '% over budget overall.'",
+        "text": "'The project is currently ' + pct + '% over its total approved budget.'",
         "correct": "false"
       },
       {
         "id": "fund",
-        "text": "'You need ' + pct + '% more funding to finish.'",
+        "text": "'The team needs roughly ' + pct + '% more funding to finish the work.'",
         "correct": "false"
       },
       {
         "id": "recover",
-        "text": "'Cost performance will recover on its own.'",
+        "text": "'Cost efficiency will recover on its own without any action.'",
         "correct": "false"
       }
     ],

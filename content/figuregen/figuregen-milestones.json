@@ -67,21 +67,32 @@
     "viewBox": [340, 138],
     "prompt": "Tap every milestone that is a formal EXTERNAL approval or stakeholder sign-off — a decision made by a party outside the project team, not an internal checkpoint.",
     "vars": {
-      "L1": { "value": ["Kickoff", "Charter", "Scope", "Sponsor", "Reg.", "Client", "Go-live"] },
-      "L2": { "value": ["", "approved", "baseline", "gate", "approval", "sign-off", ""] },
-      "fullNames": { "value": ["Kickoff", "Charter approved", "Scope baseline", "Sponsor gate", "Regulatory approval", "Client sign-off", "Go-live"] },
-      "roleText": { "value": ["the internal project kickoff", "the sponsor's charter approval (internal governance)", "the internal scope baseline", "the internal sponsor go/no-go gate", "an approval by the external regulator", "a sign-off by the external client", "the internal release to operations"] },
+      "scenario": { "pick": [0, 1, 2] },
+      "L1sets": { "value": [["Kickoff", "Charter", "Scope", "Sponsor", "Reg.", "Client", "Go-live"], ["Test plan", "Build", "Internal", "Third-party", "Regulator", "Release", "Go-live"], ["Dev", "Internal", "Demo", "Client UAT", "Auditor", "Cutover", "Go-live"]] },
+      "L2sets": { "value": [["", "approved", "baseline", "gate", "approval", "sign-off", ""], ["ready", "done", "QA pass", "audit", "cert", "gate", ""], ["complete", "review", "ready", "sign-off", "approval", "plan", ""]] },
+      "fullSets": { "value": [["Kickoff", "Charter approved", "Scope baseline", "Sponsor gate", "Regulatory approval", "Client sign-off", "Go-live"], ["Test plan ready", "Build done", "Internal QA pass", "Third-party audit", "Regulator certificate", "Release gate", "Go-live"], ["Dev complete", "Internal review", "Demo ready", "Client UAT sign-off", "Auditor approval", "Cutover plan", "Go-live"]] },
+      "roleSets": { "value": [["the internal project kickoff", "the sponsor's charter approval (internal governance)", "the internal scope baseline", "the internal sponsor go/no-go gate", "an approval by the external regulator", "a sign-off by the external client", "the internal release to operations"], ["an internal planning checkpoint", "an internal delivery milestone", "an internal quality check", "an audit signed off by an external third party", "a certificate issued by the external regulator", "an internal go/no-go gate", "the internal release to operations"], ["an internal delivery milestone", "an internal peer review", "an internal readiness checkpoint", "acceptance signed by the external client", "approval by an external auditor", "internal transition planning", "the internal release to operations"]] },
+      "extSets": { "value": [[4, 5], [3, 4], [3, 4]] },
+      "phaseSets": { "value": [["Initiation", "Planning", "Execution", "Close"], ["Plan", "Build", "Verify", "Release"], ["Build", "Review", "Accept", "Deploy"]] },
       "r7": { "range": 7 }
+    },
+    "derived": {
+      "L1": "L1sets[scenario]",
+      "L2": "L2sets[scenario]",
+      "fullNames": "fullSets[scenario]",
+      "roleText": "roleSets[scenario]",
+      "ext": "extSets[scenario]",
+      "phase": "phaseSets[scenario]"
     },
     "draw": [
       { "op": "rect", "x": 24, "y": 30, "w": 79, "h": 18, "rx": 2, "fill": "ink", "fillOpacity": 0.06, "color": "ink", "width": 0.5 },
       { "op": "rect", "x": 103, "y": 30, "w": 92, "h": 18, "rx": 2, "fill": "ink", "fillOpacity": 0.06, "color": "ink", "width": 0.5 },
       { "op": "rect", "x": 195, "y": 30, "w": 92, "h": 18, "rx": 2, "fill": "ink", "fillOpacity": 0.06, "color": "ink", "width": 0.5 },
       { "op": "rect", "x": 287, "y": 30, "w": 39, "h": 18, "rx": 2, "fill": "ink", "fillOpacity": 0.06, "color": "ink", "width": 0.5 },
-      { "op": "text", "x": 63, "y": 42, "text": "'Initiation'", "size": 8, "anchor": "middle" },
-      { "op": "text", "x": 149, "y": 42, "text": "'Planning'", "size": 8, "anchor": "middle" },
-      { "op": "text", "x": 241, "y": 42, "text": "'Execution'", "size": 8, "anchor": "middle" },
-      { "op": "text", "x": 306, "y": 42, "text": "'Close'", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 63, "y": 42, "text": "phase[0]", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 149, "y": 42, "text": "phase[1]", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 241, "y": 42, "text": "phase[2]", "size": 8, "anchor": "middle" },
+      { "op": "text", "x": 306, "y": 42, "text": "phase[3]", "size": 8, "anchor": "middle" },
       { "op": "line", "x1": 24, "y1": 88, "x2": 326, "y2": 88, "width": 1 },
       {
         "op": "repeat",
@@ -102,13 +113,13 @@
           "y": 74,
           "w": 40,
           "h": 52,
-          "correct": "i == 4 || i == 5",
+          "correct": "i == ext[0] || i == ext[1]",
           "label": "fullNames[i]",
-          "why": "(i == 4 || i == 5) ? (fullNames[i] + ' — ' + roleText[i] + '. An external party decides it, so it counts.') : (fullNames[i] + ' is ' + roleText[i] + ' — an internal control point, not an external sign-off.')"
+          "why": "(i == ext[0] || i == ext[1]) ? (fullNames[i] + ' — ' + roleText[i] + '. An external party decides it, so it counts.') : (fullNames[i] + ' is ' + roleText[i] + ' — an internal control point, not an external sign-off.')"
         }
       ]
     },
-    "explanation": "External approvals come from parties outside the project team — here the regulator (Regulatory approval) and the client (Client sign-off). Kickoff, charter approval, the scope baseline, the sponsor gate and go-live are all internal governance points."
+    "explanation": "External approvals come from parties outside the project team — here {{fullNames[ext[0]]}} and {{fullNames[ext[1]]}}. Every other milestone shown is an internal control point, not an external sign-off."
   },
   {
     "schema": "figuregen/v1",
