@@ -186,175 +186,144 @@
   {
     "schema": "figuregen/v1",
     "id": "dependency-types",
-    "kind": "choice",
+    "kind": "hotspot",
     "domain": "Process",
     "topic": "Dependency relationships",
-    "difficulty": "medium",
+    "difficulty": "hard",
+    "freeSelect": true,
     "viewBox": [
-      320,
-      236
+      340,
+      150
     ],
-    "prompt": "Which dependency relationship does the dashed link between A and B show?",
-    "caption": "Bars are tasks; the dashed line links the dependent ends of A and B.",
+    "prompt": "{{ asked==0 ? 'The dashed links join dependent bar ends. Tap EVERY link that is Finish-to-Start (FS) — a bar finish tied to the next bar start.' : (asked==1 ? 'The dashed links join dependent bar ends. Tap EVERY link that is Start-to-Start (SS) — two bar starts tied together.' : 'The dashed links join dependent bar ends. Tap EVERY link that is Finish-to-Finish (FF) — two bar finishes tied together.') }}",
     "vars": {
-      "kind": {
-        "pick": [
-          "FS",
-          "SS",
-          "FF"
-        ]
-      },
-      "dA": {
-        "int": [
-          2,
-          4
-        ]
-      },
-      "dBraw": {
-        "int": [
-          2,
-          4
-        ]
-      },
-      "fmt": {
-        "pick": [
-          "name",
-          "desc"
-        ]
-      },
-      "dStart": {
-        "sampleInt": [
-          1,
-          4
-        ],
-        "count": 3
-      },
-      "dDur": {
+      "len": {
         "sampleInt": [
           2,
           3
         ],
+        "count": 4
+      },
+      "t": {
+        "sampleInt": [
+          0,
+          2
+        ],
         "count": 3
+      },
+      "asked": {
+        "pick": [
+          0,
+          1,
+          2
+        ]
+      },
+      "r4": {
+        "range": 4
       },
       "r3": {
         "range": 3
       }
     },
+    "guard": "len[0]!=len[1] && len[1]!=len[2] && len[2]!=len[3] && count([t[0]==asked, t[1]==asked, t[2]==asked]) >= 1 && count([t[0]==asked, t[1]==asked, t[2]==asked]) <= 2",
     "derived": {
-      "dB": "kind=='FF' ? min(dBraw, dA) : dBraw",
-      "sB": "kind=='FS' ? (1 + dA) : (kind=='SS' ? 1 : (1 + dA - dB))",
-      "linkT": "kind=='SS' ? 1 : (1 + dA)",
-      "dn": "['C','D','E']"
+      "sr0": "0",
+      "sr1": "t[0]==0 ? len[0] : (t[0]==1 ? 0 : len[0]-len[1])",
+      "sr2": "t[1]==0 ? sr1+len[1] : (t[1]==1 ? sr1 : sr1+len[1]-len[2])",
+      "sr3": "t[2]==0 ? sr2+len[2] : (t[2]==1 ? sr2 : sr2+len[2]-len[3])",
+      "minS": "min(min(sr0,sr1), min(sr2,sr3))",
+      "s": "[sr0-minS, sr1-minS, sr2-minS, sr3-minS]",
+      "total": "max(max(s[0]+len[0], s[1]+len[1]), max(s[2]+len[2], s[3]+len[3]))",
+      "colW": "288 / total",
+      "connCol": "[t[0]==1 ? s[0] : s[0]+len[0], t[1]==1 ? s[1] : s[1]+len[1], t[2]==1 ? s[2] : s[2]+len[2]]",
+      "names": "['A','B','C','D']",
+      "fullType": "['FS','SS','FF']"
     },
     "draw": [
       {
-        "op": "text",
-        "x": 30,
-        "y": 46,
-        "text": "'A'",
-        "size": 10,
-        "anchor": "end"
-      },
-      {
-        "op": "text",
-        "x": 30,
-        "y": 86,
-        "text": "'B'",
-        "size": 10,
-        "anchor": "end"
-      },
-      {
-        "op": "rect",
-        "x": 66,
-        "y": 34,
-        "w": "dA*30",
-        "h": 15,
-        "rx": 3,
-        "fill": "ink",
-        "fillOpacity": 0.1,
-        "width": 1.3
-      },
-      {
-        "op": "rect",
-        "x": "36 + sB*30",
-        "y": 74,
-        "w": "dB*30",
-        "h": 15,
-        "rx": 3,
-        "fill": "ink",
-        "fillOpacity": 0.1,
-        "width": 1.3
-      },
-      {
-        "op": "line",
-        "x1": "36 + linkT*30",
-        "y1": 49,
-        "x2": "36 + linkT*30",
-        "y2": 74,
-        "width": 1.2,
-        "dash": "3 3"
+        "op": "repeat",
+        "over": "r4",
+        "do": [
+          {
+            "op": "text",
+            "x": 34,
+            "y": "24 + i*30 + 13",
+            "text": "names[i]",
+            "size": 9,
+            "anchor": "end"
+          },
+          {
+            "op": "rect",
+            "x": "42 + s[i]*colW",
+            "y": "24 + i*30",
+            "w": "len[i]*colW",
+            "h": 18,
+            "rx": 3,
+            "fill": "ink",
+            "fillOpacity": 0.1,
+            "color": "ink",
+            "width": 1.3
+          }
+        ]
       },
       {
         "op": "repeat",
         "over": "r3",
         "do": [
           {
-            "op": "text",
-            "x": 30,
-            "y": "126 + i*40",
-            "text": "dn[i]",
-            "size": 10,
-            "anchor": "end"
+            "op": "line",
+            "x1": "42 + connCol[i]*colW",
+            "y1": "42 + i*30",
+            "x2": "42 + connCol[i]*colW",
+            "y2": "54 + i*30",
+            "width": 1.3,
+            "dash": "3 3"
           },
           {
-            "op": "rect",
-            "x": "36 + dStart[i]*30",
-            "y": "114 + i*40",
-            "w": "dDur[i]*30",
-            "h": 15,
-            "rx": 3,
+            "op": "circle",
+            "cx": "42 + connCol[i]*colW",
+            "cy": "42 + i*30",
+            "r": 1.8,
             "fill": "ink",
-            "fillOpacity": 0.1,
-            "width": 1.3
+            "color": "ink",
+            "width": 0.5
+          },
+          {
+            "op": "circle",
+            "cx": "42 + connCol[i]*colW",
+            "cy": "54 + i*30",
+            "r": 1.8,
+            "fill": "ink",
+            "color": "ink",
+            "width": 0.5
           }
         ]
       },
       {
         "op": "text",
-        "x": 160,
-        "y": 228,
+        "x": 190,
+        "y": 142,
         "text": "'time →'",
         "size": 8,
         "anchor": "middle"
       }
     ],
-    "choices": [
-      {
-        "id": "FS",
-        "text": "fmt=='name' ? 'Finish-to-Start' : 'B starts when A finishes'",
-        "correct": "kind=='FS'",
-        "why": "kind=='FS' ? 'The dashed link ties A’s finish to B’s start.' : ''"
-      },
-      {
-        "id": "SS",
-        "text": "fmt=='name' ? 'Start-to-Start' : 'B starts when A starts'",
-        "correct": "kind=='SS'",
-        "why": "kind=='SS' ? 'The dashed link ties A’s start to B’s start.' : ''"
-      },
-      {
-        "id": "FF",
-        "text": "fmt=='name' ? 'Finish-to-Finish' : 'B finishes when A finishes'",
-        "correct": "kind=='FF'",
-        "why": "kind=='FF' ? 'The dashed link ties A’s finish to B’s finish.' : ''"
-      },
-      {
-        "id": "SF",
-        "text": "fmt=='name' ? 'Start-to-Finish' : 'B finishes when A starts'",
-        "correct": "false",
-        "why": "''"
-      }
-    ],
-    "explanation": "The dashed link ties the two dependent ends of A and B — {{kind=='FS' ? 'Finish-to-Start (B starts when A finishes)' : (kind=='SS' ? 'Start-to-Start (B starts when A starts)' : 'Finish-to-Finish (B finishes when A finishes)')}}."
+    "regions": {
+      "repeat": "r3",
+      "items": [
+        {
+          "id": "'l' + i",
+          "x": "42 + connCol[i]*colW - 12",
+          "y": "42 + i*30 - 1",
+          "w": 24,
+          "h": 14,
+          "correct": "t[i] == asked",
+          "label": "names[i] + '→' + names[i+1]",
+          "why": "(t[i]==asked) ? (names[i] + '→' + names[i+1] + ' is a ' + fullType[t[i]] + ' link — it matches the asked type.') : (names[i] + '→' + names[i+1] + ' is a ' + fullType[t[i]] + ' link — not the asked type.')"
+        }
+      ]
+    },
+    "explanation": "Read each link by which ends it joins: FS ties a finish to the next start (staircase), SS ties two starts, FF ties two finishes. The {{fullType[asked]}} links are the answer here."
   },
   {
     "schema": "figuregen/v1",
@@ -534,18 +503,65 @@
     "topic": "Decision tree / EMV",
     "difficulty": "hard",
     "freeSelect": true,
-    "viewBox": [340, 210],
+    "viewBox": [
+      340,
+      210
+    ],
     "prompt": "{{mode=='highest' ? 'Each branch is a chance node. Tap the decision branch with the HIGHEST expected monetary value (EMV).' : (mode=='lowest' ? 'Each branch is a chance node. Tap the decision branch with the LOWEST expected monetary value (EMV).' : (mode=='differs' ? 'Two of these branches share one EMV. Tap the branch that DIFFERS.' : 'Tap EVERY branch whose EMV matches another branch (equal expected value).'))}}",
     "caption": "Square = decision; circles = chance nodes. Work out each branch's EMV.",
     "vars": {
-      "mode": { "pick": ["highest", "lowest", "same", "differs"] },
-      "order": { "shuffle": [0, 1, 2] },
-      "b": { "int": [30, 52] },
-      "ds": { "pick": [-16, -12, 12, 16] },
-      "d1": { "int": [9, 16] },
-      "ks": { "sampleInt": [3, 6], "count": 3 },
-      "ts": { "sampleInt": [2, 7], "count": 3 },
-      "r3": { "range": 3 }
+      "mode": {
+        "pick": [
+          "highest",
+          "lowest",
+          "same",
+          "differs"
+        ]
+      },
+      "order": {
+        "shuffle": [
+          0,
+          1,
+          2
+        ]
+      },
+      "b": {
+        "int": [
+          30,
+          52
+        ]
+      },
+      "ds": {
+        "pick": [
+          -16,
+          -12,
+          12,
+          16
+        ]
+      },
+      "d1": {
+        "int": [
+          9,
+          16
+        ]
+      },
+      "ks": {
+        "sampleInt": [
+          3,
+          6
+        ],
+        "count": 3
+      },
+      "ts": {
+        "sampleInt": [
+          2,
+          7
+        ],
+        "count": 3
+      },
+      "r3": {
+        "range": 3
+      }
     },
     "derived": {
       "names": "['A','B','C']",
@@ -555,16 +571,75 @@
       "lo": "[E[0]-ks[0]*ts[0], E[1]-ks[1]*ts[1], E[2]-ks[2]*ts[2]]"
     },
     "draw": [
-      { "op": "rect", "x": 18, "y": 102, "w": 16, "h": 16, "width": 1.4 },
-      { "op": "repeat", "over": "r3", "do": [
-        { "op": "line", "x1": 34, "y1": 110, "x2": 138, "y2": "40 + i*70", "width": 1.1 },
-        { "op": "text", "x": 92, "y": "40 + i*70 - 7", "text": "names[i]", "size": 10, "anchor": "middle" },
-        { "op": "circle", "cx": 140, "cy": "40 + i*70", "r": 7, "width": 1.4 },
-        { "op": "line", "x1": 147, "y1": "40 + i*70 - 3", "x2": 200, "y2": "40 + i*70 - 15", "width": 1.1 },
-        { "op": "text", "x": 204, "y": "40 + i*70 - 12", "text": "ks[i]*10 + '%: $' + hi[i] + 'k'", "size": 8, "anchor": "start" },
-        { "op": "line", "x1": 147, "y1": "40 + i*70 + 3", "x2": 200, "y2": "40 + i*70 + 15", "width": 1.1 },
-        { "op": "text", "x": 204, "y": "40 + i*70 + 18", "text": "(100-ks[i]*10) + '%: ' + (lo[i]<0 ? '-$' + (0-lo[i]) : '$' + lo[i]) + 'k'", "size": 8, "anchor": "start" }
-      ]}
+      {
+        "op": "rect",
+        "x": 18,
+        "y": 102,
+        "w": 16,
+        "h": 16,
+        "width": 1.4
+      },
+      {
+        "op": "repeat",
+        "over": "r3",
+        "do": [
+          {
+            "op": "line",
+            "x1": 34,
+            "y1": 110,
+            "x2": 138,
+            "y2": "40 + i*70",
+            "width": 1.1
+          },
+          {
+            "op": "text",
+            "x": 92,
+            "y": "40 + i*70 - 7",
+            "text": "names[i]",
+            "size": 10,
+            "anchor": "middle"
+          },
+          {
+            "op": "circle",
+            "cx": 140,
+            "cy": "40 + i*70",
+            "r": 7,
+            "width": 1.4
+          },
+          {
+            "op": "line",
+            "x1": 147,
+            "y1": "40 + i*70 - 3",
+            "x2": 200,
+            "y2": "40 + i*70 - 15",
+            "width": 1.1
+          },
+          {
+            "op": "text",
+            "x": 204,
+            "y": "40 + i*70 - 12",
+            "text": "ks[i]*10 + '%: $' + hi[i] + 'k'",
+            "size": 8,
+            "anchor": "start"
+          },
+          {
+            "op": "line",
+            "x1": 147,
+            "y1": "40 + i*70 + 3",
+            "x2": 200,
+            "y2": "40 + i*70 + 15",
+            "width": 1.1
+          },
+          {
+            "op": "text",
+            "x": 204,
+            "y": "40 + i*70 + 18",
+            "text": "(100-ks[i]*10) + '%: ' + (lo[i]<0 ? '-$' + (0-lo[i]) : '$' + lo[i]) + 'k'",
+            "size": 8,
+            "anchor": "start"
+          }
+        ]
+      }
     ],
     "regions": {
       "repeat": "r3",
@@ -590,16 +665,49 @@
     "domain": "Business Environment",
     "topic": "Decision tree / EMV",
     "difficulty": "hard",
-    "viewBox": [330, 200],
+    "viewBox": [
+      330,
+      200
+    ],
     "prompt": "Tap the decision branch with the higher expected monetary value (EMV).",
     "caption": "Square = decision; circles = chance nodes. One fork wins, the other loses.",
     "vars": {
-      "pAi": { "int": [5, 7] },
-      "winAi": { "int": [8, 12] },
-      "loseAi": { "int": [1, 3] },
-      "pBi": { "int": [3, 4] },
-      "winBi": { "int": [15, 22] },
-      "loseBi": { "int": [1, 3] }
+      "pAi": {
+        "int": [
+          5,
+          7
+        ]
+      },
+      "winAi": {
+        "int": [
+          8,
+          12
+        ]
+      },
+      "loseAi": {
+        "int": [
+          1,
+          3
+        ]
+      },
+      "pBi": {
+        "int": [
+          3,
+          4
+        ]
+      },
+      "winBi": {
+        "int": [
+          15,
+          22
+        ]
+      },
+      "loseBi": {
+        "int": [
+          1,
+          3
+        ]
+      }
     },
     "guard": "(pAi*winAi - loseAi*(10-pAi)) > (pBi*winBi - loseBi*(10-pBi)) && abs((pAi*winAi - loseAi*(10-pAi)) - (pBi*winBi - loseBi*(10-pBi))) >= 4",
     "derived": {
@@ -621,25 +729,146 @@
       "emvBs": "'$' + emvB + 'k'"
     },
     "draw": [
-      { "op": "rect", "x": 24, "y": 92, "w": 16, "h": 16, "width": 1.4 },
-      { "op": "line", "x1": 40, "y1": 100, "x2": 150, "y2": 54, "width": 1.4 },
-      { "op": "line", "x1": 40, "y1": 100, "x2": 150, "y2": 150, "width": 1.4 },
-      { "op": "text", "x": 86, "y": 70, "text": "'Option A'", "size": 9, "anchor": "middle" },
-      { "op": "text", "x": 86, "y": 138, "text": "'Option B'", "size": 9, "anchor": "middle" },
-      { "op": "circle", "cx": 150, "cy": 54, "r": 7, "width": 1.4 },
-      { "op": "circle", "cx": 150, "cy": 150, "r": 7, "width": 1.4 },
-      { "op": "line", "x1": 157, "y1": 52, "x2": 250, "y2": 34, "width": 1.2 },
-      { "op": "text", "x": 300, "y": 37, "text": "pA + ': ' + winAs", "size": 8, "anchor": "middle" },
-      { "op": "line", "x1": 157, "y1": 56, "x2": 250, "y2": 78, "width": 1.2 },
-      { "op": "text", "x": 300, "y": 81, "text": "pAn + ': ' + loseAs", "size": 8, "anchor": "middle" },
-      { "op": "line", "x1": 157, "y1": 148, "x2": 250, "y2": 128, "width": 1.2 },
-      { "op": "text", "x": 300, "y": 131, "text": "pB + ': ' + winBs", "size": 8, "anchor": "middle" },
-      { "op": "line", "x1": 157, "y1": 152, "x2": 250, "y2": 172, "width": 1.2 },
-      { "op": "text", "x": 300, "y": 175, "text": "pBn + ': ' + loseBs", "size": 8, "anchor": "middle" }
+      {
+        "op": "rect",
+        "x": 24,
+        "y": 92,
+        "w": 16,
+        "h": 16,
+        "width": 1.4
+      },
+      {
+        "op": "line",
+        "x1": 40,
+        "y1": 100,
+        "x2": 150,
+        "y2": 54,
+        "width": 1.4
+      },
+      {
+        "op": "line",
+        "x1": 40,
+        "y1": 100,
+        "x2": 150,
+        "y2": 150,
+        "width": 1.4
+      },
+      {
+        "op": "text",
+        "x": 86,
+        "y": 70,
+        "text": "'Option A'",
+        "size": 9,
+        "anchor": "middle"
+      },
+      {
+        "op": "text",
+        "x": 86,
+        "y": 138,
+        "text": "'Option B'",
+        "size": 9,
+        "anchor": "middle"
+      },
+      {
+        "op": "circle",
+        "cx": 150,
+        "cy": 54,
+        "r": 7,
+        "width": 1.4
+      },
+      {
+        "op": "circle",
+        "cx": 150,
+        "cy": 150,
+        "r": 7,
+        "width": 1.4
+      },
+      {
+        "op": "line",
+        "x1": 157,
+        "y1": 52,
+        "x2": 250,
+        "y2": 34,
+        "width": 1.2
+      },
+      {
+        "op": "text",
+        "x": 300,
+        "y": 37,
+        "text": "pA + ': ' + winAs",
+        "size": 8,
+        "anchor": "middle"
+      },
+      {
+        "op": "line",
+        "x1": 157,
+        "y1": 56,
+        "x2": 250,
+        "y2": 78,
+        "width": 1.2
+      },
+      {
+        "op": "text",
+        "x": 300,
+        "y": 81,
+        "text": "pAn + ': ' + loseAs",
+        "size": 8,
+        "anchor": "middle"
+      },
+      {
+        "op": "line",
+        "x1": 157,
+        "y1": 148,
+        "x2": 250,
+        "y2": 128,
+        "width": 1.2
+      },
+      {
+        "op": "text",
+        "x": 300,
+        "y": 131,
+        "text": "pB + ': ' + winBs",
+        "size": 8,
+        "anchor": "middle"
+      },
+      {
+        "op": "line",
+        "x1": 157,
+        "y1": 152,
+        "x2": 250,
+        "y2": 172,
+        "width": 1.2
+      },
+      {
+        "op": "text",
+        "x": 300,
+        "y": 175,
+        "text": "pBn + ': ' + loseBs",
+        "size": 8,
+        "anchor": "middle"
+      }
     ],
     "regions": [
-      { "id": "'a'", "x": 40, "y": 48, "w": 120, "h": 40, "correct": "true", "label": "'Option A'", "why": "'EMV = ' + pA + '×$' + winA + 'k + ' + pAn + '×(' + loseAs + ') = ' + emvAs + ' — the higher EMV.'" },
-      { "id": "'b'", "x": 40, "y": 110, "w": 120, "h": 40, "correct": "false", "label": "'Option B'", "why": "'EMV = ' + pB + '×$' + winB + 'k + ' + pBn + '×(' + loseBs + ') = ' + emvBs + ' — bigger upside, lower EMV.'" }
+      {
+        "id": "'a'",
+        "x": 40,
+        "y": 48,
+        "w": 120,
+        "h": 40,
+        "correct": "true",
+        "label": "'Option A'",
+        "why": "'EMV = ' + pA + '×$' + winA + 'k + ' + pAn + '×(' + loseAs + ') = ' + emvAs + ' — the higher EMV.'"
+      },
+      {
+        "id": "'b'",
+        "x": 40,
+        "y": 110,
+        "w": 120,
+        "h": 40,
+        "correct": "false",
+        "label": "'Option B'",
+        "why": "'EMV = ' + pB + '×$' + winB + 'k + ' + pBn + '×(' + loseBs + ') = ' + emvBs + ' — bigger upside, lower EMV.'"
+      }
     ],
     "select": 1,
     "explanation": "EMV(A) = {{emvAs}} vs EMV(B) = {{emvBs}}. Option A wins despite B's larger best case — EMV weights each outcome by its probability, and B's downside drags its average down."
