@@ -352,7 +352,7 @@
       "ci": {
         "sampleInt": [
           0,
-          1
+          2
         ],
         "count": 25
       },
@@ -374,7 +374,7 @@
       "badType": {
         "sampleInt": [
           0,
-          1
+          2
         ],
         "count": 5
       },
@@ -412,7 +412,8 @@
     },
     "derived": {
       "perms": "[perm0,perm1,perm2,perm3,perm4]",
-      "nBad": "badCoin < 40 ? 2 : 1"
+      "nBad": "badCoin < 40 ? 2 : 1",
+      "faultText": "['has two A’s', 'has no A', 'has no R']"
     },
     "draw": [
       {
@@ -462,7 +463,7 @@
                 "op": "text",
                 "x": "76 + c*48 + 24",
                 "y": "30 + r*30 + 18.5",
-                "text": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? (perms[r][0]==c ? 'A' : (perms[r][1]==c ? 'A' : ((rc[r]==2 && perms[r][2]==c) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))) : (perms[r][0]==c ? 'R' : ((perms[r][1]==c||(rc[r]==2 && perms[r][2]==c)) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))) : (perms[r][0]==c ? 'A' : ((perms[r][1]==c||(rc[r]==2 && perms[r][2]==c)) ? 'R' : (ci[r*5+c]==0 ? 'C' : 'I')))",
+                "text": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? (perms[r][0]==c ? 'A' : (perms[r][1]==c ? 'A' : (perms[r][2]==c ? 'R' : (ci[r*5+c]==0 ? 'C' : (ci[r*5+c]==1 ? 'I' : ''))))) : (badType[r]==1 ? (perms[r][0]==c ? 'R' : (perms[r][1]==c ? 'R' : (ci[r*5+c]==0 ? 'C' : (ci[r*5+c]==1 ? 'I' : '')))) : (perms[r][0]==c ? 'A' : (perms[r][1]==c ? 'C' : (ci[r*5+c]==0 ? 'C' : (ci[r*5+c]==1 ? 'I' : '')))))) : (perms[r][0]==c ? 'A' : ((perms[r][1]==c || (rc[r]==2 && perms[r][2]==c)) ? 'R' : (ci[r*5+c]==0 ? 'C' : (ci[r*5+c]==1 ? 'I' : ''))))",
                 "size": 10,
                 "anchor": "middle"
               }
@@ -483,10 +484,10 @@
           "h": 30,
           "correct": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r))",
           "label": "tasks[r]",
-          "why": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? 'Two people are Accountable — a row may have only one A.' : 'No one is Accountable — every row needs exactly one A.') : 'Valid: exactly one A, at least one R.'"
+          "why": "((badPerm[0]==r) || (nBad==2 && badPerm[1]==r)) ? (badType[r]==0 ? 'Two people are Accountable — a row may have only one A.' : (badType[r]==1 ? 'No one is Accountable — every row needs exactly one A.' : 'No one is Responsible — every row needs at least one R.')) : 'Valid: exactly one A and at least one R.'"
         }
       ]
     },
-    "explanation": "A valid RACI row needs exactly one Accountable (A) and at least one Responsible (R). The {{tasks[badPerm[0]]}} row {{badType[badPerm[0]]==0 ? 'has two A’s' : 'has no A'}}.{{nBad==2 ? (' The ' + tasks[badPerm[1]] + ' row ' + (badType[badPerm[1]]==0 ? 'has two A’s' : 'has no A') + '.') : ''}}"
+    "explanation": "A valid RACI row needs exactly one Accountable (A) and at least one Responsible (R); other cells can be Consulted (C), Informed (I), or left blank. The {{tasks[badPerm[0]]}} row {{faultText[badType[badPerm[0]]]}}.{{nBad==2 ? (' The ' + tasks[badPerm[1]] + ' row ' + faultText[badType[badPerm[1]]] + '.') : ''}}"
   }
 ]

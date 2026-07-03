@@ -59,7 +59,6 @@
     "difficulty": "medium",
     "viewBox": [280, 184],
     "prompt": "From the earned-value bars, what is the project's status?",
-    "caption": "PV planned · EV earned · AC actual cost.",
     "vars": {
       "pv": { "int": [60, 90] },
       "sEv": { "pick": [-1, 1] },
