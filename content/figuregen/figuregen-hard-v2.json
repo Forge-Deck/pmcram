@@ -1518,7 +1518,7 @@
       300,
       248
     ],
-    "prompt": "Each letter is a risk at its INITIAL cell (risk = probability × impact). After the response: A −{{dP[0]}} prob / −{{dI[0]}} impact · B −{{dP[1]}}/−{{dI[1]}} · C −{{dP[2]}}/−{{dI[2]}} · D −{{dP[3]}}/−{{dI[3]}}. Tap every risk whose RESIDUAL score is still ≥ 12.",
+    "prompt": "Each letter marks a risk's INITIAL cell (risk = probability × impact). After mitigation, tap every risk whose RESIDUAL score is still ≥ 12:\nA:  −{{dP[0]}} probability,  −{{dI[0]}} impact\nB:  −{{dP[1]}} probability,  −{{dI[1]}} impact\nC:  −{{dP[2]}} probability,  −{{dI[2]}} impact\nD:  −{{dP[3]}} probability,  −{{dI[3]}} impact",
     "vars": {
       "P": {
         "sampleInt": [
@@ -1555,9 +1555,6 @@
           "C",
           "D"
         ]
-      },
-      "cells25": {
-        "range": 25
       },
       "g6": {
         "range": 6
@@ -1602,21 +1599,6 @@
             "x2": 224,
             "y2": "24 + i*34",
             "width": 0.7
-          }
-        ]
-      },
-      {
-        "op": "repeat",
-        "over": "cells25",
-        "do": [
-          {
-            "op": "text",
-            "x": "54 + (i%5)*34 + 17",
-            "y": "24 + floor(i/5)*34 + 20",
-            "text": "(5 - floor(i/5)) * (i%5 + 1)",
-            "size": 7,
-            "anchor": "middle",
-            "color": "ink"
           }
         ]
       },
