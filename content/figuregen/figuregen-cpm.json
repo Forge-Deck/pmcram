@@ -7,7 +7,7 @@
     "topic": "Schedule / critical path",
     "difficulty": "hard",
     "viewBox": [344, 210],
-    "prompt": "Each box shows an activity, its duration, and a computed TOTAL FLOAT (f). Do the forward and backward pass — one float is WRONG. Tap the activity with the incorrect float. (Total float = LS − ES; critical-path activities have zero float.)",
+    "prompt": "Each box shows an activity, its duration, and a computed TOTAL FLOAT (f). Do the forward and backward pass — one float is WRONG. Tap the activity with the incorrect float.",
     "caption": "Activity-on-node network: A→B, A→C, B→D, C→D.",
     "vars": {
       "dA": { "int": [2, 6] },

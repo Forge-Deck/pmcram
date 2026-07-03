@@ -275,7 +275,7 @@
       320,
       220
     ],
-    "prompt": "Total float = LS − ES. Tap EVERY activity that is not on the critical path (i.e. has float).",
+    "prompt": "Tap EVERY activity that is not on the critical path.",
     "caption": "Two parallel paths from Start to End. Each box: ES|EF (top), LS|LF (bottom).",
     "vars": {
       "dA": {
