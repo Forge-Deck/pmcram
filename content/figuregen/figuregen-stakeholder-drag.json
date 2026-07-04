@@ -8,8 +8,11 @@
     "difficulty": "hard",
     "mockExclude": true,
     "viewBox": [320, 224],
-    "prompt": "Drag each salience label onto the region of the Venn where it belongs — the overlap of Power, Legitimacy and Urgency that stakeholder holds.",
+    "prompt": "Drag each salience label onto the region of the Venn where it belongs — the overlap of Power, Legitimacy and Urgency that stakeholder holds. Two of the labels are decoys that are not salience types — leave those in the tray.",
     "caption": "Power · Legitimacy · Urgency.",
+    "vars": {
+      "fakes": { "sample": ["Decisive", "Dedicated", "Disengaged", "Dissatisfied", "Directive", "Delegated", "Disruptive", "Difficult", "Dynamic", "Determined", "Definite"], "count": 2 }
+    },
     "draw": [
       { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "green", "fill": "green", "fillOpacity": 0.12, "width": 1.2 },
@@ -34,9 +37,11 @@
       { "label": "'Dominant'", "target": "'pl'", "why": "'Dominant: power + legitimacy — a formal player; keep satisfied.'" },
       { "label": "'Dangerous'", "target": "'pu'", "why": "'Dangerous: power + urgency, no legitimacy — coercive; contain the threat.'" },
       { "label": "'Dependent'", "target": "'lu'", "why": "'Dependent: legitimacy + urgency, no power — needs a champion.'" },
-      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: power + legitimacy + urgency — top priority; manage closely.'" }
+      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: power + legitimacy + urgency — top priority; manage closely.'" },
+      { "label": "fakes[0]", "target": "''", "why": "fakes[0] + ' is not a salience type — a plausible-sounding decoy, so leave it in the tray.'" },
+      { "label": "fakes[1]", "target": "''", "why": "fakes[1] + ' is not a salience type — a plausible-sounding decoy, so leave it in the tray.'" }
     ],
-    "explanation": "One attribute = latent (Dormant / Discretionary / Demanding); two = expectant (Dominant / Dependent / Dangerous); all three = Definitive — your highest priority."
+    "explanation": "One attribute = latent (Dormant / Discretionary / Demanding); two = expectant (Dominant / Dependent / Dangerous); all three = Definitive — your highest priority. Any other label is a decoy."
   },
   {
     "schema": "figuregen/v1",
@@ -133,7 +138,8 @@
     "prompt": "You’re dealing with {{examples[k]}}. Drag the label that describes this stakeholder onto the correct region of the Venn — leave the other labels in the tray.",
     "caption": "Power · Legitimacy · Urgency.",
     "vars": {
-      "k": { "pick": [0, 1, 2, 3, 4, 5, 6] }
+      "k": { "pick": [0, 1, 2, 3, 4, 5, 6] },
+      "fakes": { "sample": ["Decisive", "Dedicated", "Disengaged", "Dissatisfied", "Directive", "Delegated", "Disruptive", "Difficult", "Dynamic", "Determined", "Definite"], "count": 2 }
     },
     "derived": {
       "names": "['Dormant','Discretionary','Demanding','Dominant','Dangerous','Dependent','Definitive']",
@@ -164,9 +170,11 @@
     "tokens": [
       { "label": "names[k]", "target": "zoneIds[k]", "why": "'Correct — this stakeholder holds ' + desc[k] + '.'" },
       { "label": "names[d1]", "target": "''", "why": "'Holds ' + desc[d1] + ' — not this stakeholder, so leave it in the tray.'" },
-      { "label": "names[d2]", "target": "''", "why": "'Holds ' + desc[d2] + ' — not this stakeholder, so leave it in the tray.'" }
+      { "label": "names[d2]", "target": "''", "why": "'Holds ' + desc[d2] + ' — not this stakeholder, so leave it in the tray.'" },
+      { "label": "fakes[0]", "target": "''", "why": "fakes[0] + ' is not one of the seven salience types — a plausible-sounding decoy, so leave it in the tray.'" },
+      { "label": "fakes[1]", "target": "''", "why": "fakes[1] + ' is not one of the seven salience types — a plausible-sounding decoy, so leave it in the tray.'" }
     ],
-    "explanation": "{{examples[k]}} → {{names[k]}} ({{desc[k]}}), the {{descZone[k]}} region."
+    "explanation": "{{examples[k]}} → {{names[k]}} ({{desc[k]}}), the {{descZone[k]}} region. The seven salience types are Dormant, Discretionary, Demanding, Dominant, Dangerous, Dependent and Definitive — anything else is a decoy."
   },
   {
     "schema": "figuregen/v1",
@@ -220,8 +228,11 @@
     "difficulty": "hard",
     "mockExclude": true,
     "viewBox": [320, 224],
-    "prompt": "Drag each salience label onto the region of the Venn where it belongs — read the circle labels carefully, the layout is different this time.",
+    "prompt": "Drag each salience label onto the region of the Venn where it belongs — read the circle labels carefully, the layout is different this time. Two of the labels are decoys that are not salience types — leave those in the tray.",
     "caption": "Power · Legitimacy · Urgency (rearranged).",
+    "vars": {
+      "fakes": { "sample": ["Decisive", "Dedicated", "Disengaged", "Dissatisfied", "Directive", "Delegated", "Disruptive", "Difficult", "Dynamic", "Determined", "Definite"], "count": 2 }
+    },
     "draw": [
       { "op": "circle", "cx": 125, "cy": 86, "r": 62, "color": "red", "fill": "red", "fillOpacity": 0.12, "width": 1.2 },
       { "op": "circle", "cx": 197, "cy": 86, "r": 62, "color": "blue", "fill": "blue", "fillOpacity": 0.12, "width": 1.2 },
@@ -246,8 +257,10 @@
       { "label": "'Dominant'", "target": "'lu'", "why": "'Dominant: power + legitimacy — the top-right ∩ bottom overlap.'" },
       { "label": "'Dependent'", "target": "'pu'", "why": "'Dependent: legitimacy + urgency — the bottom ∩ top-left overlap.'" },
       { "label": "'Dangerous'", "target": "'pl'", "why": "'Dangerous: power + urgency — the top-left ∩ top-right overlap.'" },
-      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: all three attributes — the centre.'" }
+      { "label": "'Definitive'", "target": "'all'", "why": "'Definitive: all three attributes — the centre.'" },
+      { "label": "fakes[0]", "target": "''", "why": "fakes[0] + ' is not a salience type — a plausible-sounding decoy, so leave it in the tray.'" },
+      { "label": "fakes[1]", "target": "''", "why": "fakes[1] + ' is not a salience type — a plausible-sounding decoy, so leave it in the tray.'" }
     ],
-    "explanation": "The zones are physical positions; the attribute at each circle changed. Match each label to the overlap holding its attributes: e.g. Dormant (power only) goes wherever Power sits — top-right here."
+    "explanation": "The zones are physical positions; the attribute at each circle changed. Match each label to the overlap holding its attributes: e.g. Dormant (power only) goes wherever Power sits — top-right here. Any label that is not one of the seven types is a decoy."
   }
 ]
