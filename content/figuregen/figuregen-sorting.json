@@ -8,38 +8,65 @@
     "difficulty": "hard",
     "viewBox": [
       320,
-      222
+      424
     ],
-    "prompt": "Sort each cost into its Cost of Quality category — spent to PREVENT defects, to APPRAISE/inspect, or the cost of failures caught INTERNALLY vs after the customer already has it (EXTERNAL).",
+    "prompt": "Sort each cost into its Cost of Quality category.",
+    "vars": {
+      "sel": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    "derived": {
+      "poolL": "['Team training','Design reviews','Quality planning','Supplier evaluation','Product inspection','Quality audits','In-process testing','Tool calibration','Rework before release','Scrapped units','Re-test after fix','Defect downtime','Warranty claims','Product recall','Handling complaints','Field repairs']",
+      "poolT": "['prev','prev','prev','prev','appr','appr','appr','appr','intf','intf','intf','intf','extf','extf','extf','extf']",
+      "poolW": "['Preventing defects up front (training) is a prevention cost.','Reviewing designs to stop defects before they occur is prevention.','Planning quality in before work starts is prevention.','Vetting suppliers to avoid defective inputs is prevention.','Inspecting output to find defects is an appraisal cost.','Auditing to measure conformance is appraisal.','Testing during production to catch defects is appraisal.','Calibrating measuring tools so appraisal is accurate is an appraisal cost.','A defect caught and reworked before the customer sees it is internal failure.','Discarded defective work found internally is internal failure.','Re-testing after an internal fix is internal failure.','Lost time caused by internal defects is internal failure.','A defect that reaches the customer and comes back is external failure.','Recalling shipped product is the costliest failure — external.','Dealing with customer complaints after delivery is external failure.','Repairing product at the customer site is external failure.']"
+    },
     "draw": [
       {
         "op": "text",
-        "x": 84,
-        "y": 26,
+        "x": 160,
+        "y": 24,
         "text": "'Prevention'",
         "size": 9,
         "anchor": "middle"
       },
       {
         "op": "text",
-        "x": 238,
-        "y": 26,
+        "x": 160,
+        "y": 126,
         "text": "'Appraisal'",
         "size": 9,
         "anchor": "middle"
       },
       {
         "op": "text",
-        "x": 84,
-        "y": 122,
+        "x": 160,
+        "y": 228,
         "text": "'Internal failure'",
         "size": 9,
         "anchor": "middle"
       },
       {
         "op": "text",
-        "x": 238,
-        "y": 122,
+        "x": 160,
+        "y": 330,
         "text": "'External failure'",
         "size": 9,
         "anchor": "middle"
@@ -49,72 +76,72 @@
       {
         "id": "'prev'",
         "x": 8,
-        "y": 32,
-        "w": 150,
+        "y": 30,
+        "w": 304,
         "h": 84
       },
       {
         "id": "'appr'",
-        "x": 162,
-        "y": 32,
-        "w": 150,
+        "x": 8,
+        "y": 132,
+        "w": 304,
         "h": 84
       },
       {
         "id": "'intf'",
         "x": 8,
-        "y": 128,
-        "w": 150,
+        "y": 234,
+        "w": 304,
         "h": 84
       },
       {
         "id": "'extf'",
-        "x": 162,
-        "y": 128,
-        "w": 150,
+        "x": 8,
+        "y": 336,
+        "w": 304,
         "h": 84
       }
     ],
     "tokens": [
       {
-        "label": "'Team training'",
-        "target": "'prev'",
-        "why": "'Preventing defects up front (training, planning) is a prevention cost.'"
+        "label": "poolL[sel[0]]",
+        "target": "poolT[sel[0]]",
+        "why": "poolW[sel[0]]"
       },
       {
-        "label": "'Design reviews'",
-        "target": "'prev'",
-        "why": "'Reviewing designs to stop defects before they occur is prevention.'"
+        "label": "poolL[sel[1]]",
+        "target": "poolT[sel[1]]",
+        "why": "poolW[sel[1]]"
       },
       {
-        "label": "'Product inspection'",
-        "target": "'appr'",
-        "why": "'Inspecting/testing output to find defects is an appraisal cost.'"
+        "label": "poolL[sel[2]]",
+        "target": "poolT[sel[2]]",
+        "why": "poolW[sel[2]]"
       },
       {
-        "label": "'Quality audits'",
-        "target": "'appr'",
-        "why": "'Auditing to measure conformance is appraisal.'"
+        "label": "poolL[sel[3]]",
+        "target": "poolT[sel[3]]",
+        "why": "poolW[sel[3]]"
       },
       {
-        "label": "'Rework before release'",
-        "target": "'intf'",
-        "why": "'A defect caught and reworked before the customer sees it is internal failure.'"
+        "label": "poolL[sel[4]]",
+        "target": "poolT[sel[4]]",
+        "why": "poolW[sel[4]]"
       },
       {
-        "label": "'Scrapped units'",
-        "target": "'intf'",
-        "why": "'Discarded defective work found internally is internal failure.'"
+        "label": "poolL[sel[5]]",
+        "target": "poolT[sel[5]]",
+        "why": "poolW[sel[5]]"
       },
       {
-        "label": "'Warranty claims'",
-        "target": "'extf'",
-        "why": "'A defect that reaches the customer and comes back is external failure.'"
+        "label": "poolL[sel[6]]",
+        "target": "poolT[sel[6]]",
+        "why": "poolW[sel[6]]"
       },
       {
-        "label": "'Product recall'",
-        "target": "'extf'",
-        "why": "'Recalling shipped product is the costliest failure — external.'"
+        "label": "poolL[sel[7]]",
+        "target": "poolT[sel[7]]",
+        "why": "poolW[sel[7]]"
       }
     ],
     "explanation": "Cost of Quality splits into conformance costs (Prevention + Appraisal — spent to avoid and catch defects) and non-conformance costs (Internal + External failure). Prevention is cheapest; external failure — defects reaching the customer — is the most expensive."
