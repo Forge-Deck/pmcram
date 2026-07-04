@@ -315,31 +315,61 @@
     "difficulty": "hard",
     "viewBox": [
       320,
-      236
+      320
     ],
-    "prompt": "Sort each estimate by the technique it uses — Analogous (compare to a similar past project), Parametric (a rate × a quantity), or Bottom-up (add up the detailed pieces).",
+    "prompt": "Sort each estimate by the technique it uses.",
+    "vars": {
+      "mode": {
+        "pick": [
+          0,
+          1,
+          2
+        ]
+      },
+      "sel": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "derived": {
+      "poolL": "['Like last rollout, ~£50k','Similar site, 3 months','Roughly Project X cost','Same as last upgrade','£200 per test × 40','8 hrs per 10 m² tiled','£1,200 per server × 6','3 days per 1,000 units','Sum every task estimate','Cost each work package','Add up activity costs','Cost each part, total']",
+      "poolT": "['ana','ana','ana','ana','par','par','par','par','bot','bot','bot','bot']",
+      "poolW": "['Reusing a whole similar project cost is analogous (top-down) estimating.','Judging from one comparable past effort is analogous.','A rough figure taken from a past project is analogous.','Basing it on the last similar job is analogous.','A unit rate times a quantity is parametric estimating.','A productivity rate applied to the amount of work is parametric.','A cost per unit times the number of units is parametric.','A duration rate times the quantity is parametric.','Estimating each piece and adding them up is bottom-up.','Detailed per-work-package estimates rolled up is bottom-up.','Summing all the activity costs is bottom-up.','Costing each component and totalling is bottom-up.']"
+    },
     "draw": [
       {
         "op": "text",
         "x": 160,
-        "y": 26,
-        "text": "'Analogous — top-down, from history'",
+        "y": 24,
+        "text": "mode==0 ? 'Analogous — top-down, from history' : (mode==1 ? 'Analogous' : 'Top-down, from history')",
         "size": 8.5,
         "anchor": "middle"
       },
       {
         "op": "text",
         "x": 160,
-        "y": 98,
-        "text": "'Parametric — a rate × a quantity'",
+        "y": 124,
+        "text": "mode==0 ? 'Parametric — a rate × a quantity' : (mode==1 ? 'Parametric' : 'A rate × a quantity')",
         "size": 8.5,
         "anchor": "middle"
       },
       {
         "op": "text",
         "x": 160,
-        "y": 170,
-        "text": "'Bottom-up — sum the detailed parts'",
+        "y": 224,
+        "text": "mode==0 ? 'Bottom-up — sum the detailed parts' : (mode==1 ? 'Bottom-up' : 'Sum the detailed parts')",
         "size": 8.5,
         "anchor": "middle"
       }
@@ -348,55 +378,55 @@
       {
         "id": "'ana'",
         "x": 8,
-        "y": 32,
+        "y": 30,
         "w": 304,
-        "h": 50
+        "h": 84
       },
       {
         "id": "'par'",
         "x": 8,
-        "y": 104,
+        "y": 130,
         "w": 304,
-        "h": 50
+        "h": 84
       },
       {
         "id": "'bot'",
         "x": 8,
-        "y": 176,
+        "y": 230,
         "w": 304,
-        "h": 50
+        "h": 84
       }
     ],
     "tokens": [
       {
-        "label": "'Like last rollout, ~£50k'",
-        "target": "'ana'",
-        "why": "'Reusing a whole similar project’s cost is analogous (top-down) estimating.'"
+        "label": "poolL[sel[0]]",
+        "target": "poolT[sel[0]]",
+        "why": "poolW[sel[0]]"
       },
       {
-        "label": "'Similar site took 3 months'",
-        "target": "'ana'",
-        "why": "'Judging from one comparable past effort is analogous.'"
+        "label": "poolL[sel[1]]",
+        "target": "poolT[sel[1]]",
+        "why": "poolW[sel[1]]"
       },
       {
-        "label": "'£200 per test × 40 tests'",
-        "target": "'par'",
-        "why": "'A unit rate times a quantity is parametric estimating.'"
+        "label": "poolL[sel[2]]",
+        "target": "poolT[sel[2]]",
+        "why": "poolW[sel[2]]"
       },
       {
-        "label": "'8 hrs per 10 m² tiled'",
-        "target": "'par'",
-        "why": "'A productivity rate applied to the amount of work is parametric.'"
+        "label": "poolL[sel[3]]",
+        "target": "poolT[sel[3]]",
+        "why": "poolW[sel[3]]"
       },
       {
-        "label": "'Sum every task estimate'",
-        "target": "'bot'",
-        "why": "'Estimating each piece and adding them up is bottom-up.'"
+        "label": "poolL[sel[4]]",
+        "target": "poolT[sel[4]]",
+        "why": "poolW[sel[4]]"
       },
       {
-        "label": "'Cost each work package'",
-        "target": "'bot'",
-        "why": "'Detailed per-work-package estimates rolled up is bottom-up.'"
+        "label": "poolL[sel[5]]",
+        "target": "poolT[sel[5]]",
+        "why": "poolW[sel[5]]"
       }
     ],
     "explanation": "Analogous is fast and top-down, using a whole similar project; Parametric multiplies a unit rate by the amount of work; Bottom-up is the most accurate and effortful, summing detailed estimates for each work package."
