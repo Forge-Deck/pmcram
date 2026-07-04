@@ -674,5 +674,123 @@
       }
     ],
     "explanation": "Mandatory (hard logic) is inherent in the work and cannot change. Discretionary (preferred/soft logic) is a choice the team can revisit to compress the schedule. External depends on non-project parties (regulators, vendors, clients)."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "comms-situation-sort",
+    "kind": "dragdrop",
+    "domain": "People",
+    "topic": "Communications",
+    "difficulty": "hard",
+    "viewBox": [
+      320,
+      320
+    ],
+    "prompt": "Drag each situation onto the communication method it needs.",
+    "vars": {
+      "sel": {
+        "shuffle": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "derived": {
+      "poolL": "['Policy update to 200 staff','Monthly status memo','Broadcast release notes','Compliance notice org-wide','Self-serve metrics dashboard','Docs in a shared wiki','Reports on a portal','Contracts archived for audit','Negotiate with the client','Resolve a team conflict','Brainstorm the design','Kickoff workshop']",
+      "poolT": "['push','push','push','push','pull','pull','pull','pull','inter','inter','inter','inter']",
+      "poolW": "['One-way to a large audience with no Q&A — push.','A status memo pushed out to everyone — push.','A broadcast that needs no confirmation — push.','A notice distributed org-wide — push.','A large audience retrieves it at will — pull.','Reference material people look up when needed — pull.','Self-serve reports on a portal — pull.','An archive accessed on demand for audit — pull.','A tense two-way negotiation — interactive.','Real-time conflict resolution — interactive.','Live back-and-forth idea generation — interactive.','A real-time workshop to build agreement — interactive.']"
+    },
+    "draw": [
+      {
+        "op": "text",
+        "x": 160,
+        "y": 24,
+        "text": "'Push'",
+        "size": 9.5,
+        "anchor": "middle"
+      },
+      {
+        "op": "text",
+        "x": 160,
+        "y": 124,
+        "text": "'Pull'",
+        "size": 9.5,
+        "anchor": "middle"
+      },
+      {
+        "op": "text",
+        "x": 160,
+        "y": 224,
+        "text": "'Interactive'",
+        "size": 9.5,
+        "anchor": "middle"
+      }
+    ],
+    "regions": [
+      {
+        "id": "'push'",
+        "x": 8,
+        "y": 30,
+        "w": 304,
+        "h": 84
+      },
+      {
+        "id": "'pull'",
+        "x": 8,
+        "y": 130,
+        "w": 304,
+        "h": 84
+      },
+      {
+        "id": "'inter'",
+        "x": 8,
+        "y": 230,
+        "w": 304,
+        "h": 84
+      }
+    ],
+    "tokens": [
+      {
+        "label": "poolL[sel[0]]",
+        "target": "poolT[sel[0]]",
+        "why": "poolW[sel[0]]"
+      },
+      {
+        "label": "poolL[sel[1]]",
+        "target": "poolT[sel[1]]",
+        "why": "poolW[sel[1]]"
+      },
+      {
+        "label": "poolL[sel[2]]",
+        "target": "poolT[sel[2]]",
+        "why": "poolW[sel[2]]"
+      },
+      {
+        "label": "poolL[sel[3]]",
+        "target": "poolT[sel[3]]",
+        "why": "poolW[sel[3]]"
+      },
+      {
+        "label": "poolL[sel[4]]",
+        "target": "poolT[sel[4]]",
+        "why": "poolW[sel[4]]"
+      },
+      {
+        "label": "poolL[sel[5]]",
+        "target": "poolT[sel[5]]",
+        "why": "poolW[sel[5]]"
+      }
+    ],
+    "explanation": "Push = sender distributes with no confirmation (memos, broadcasts). Pull = recipients access at will (portals, wikis, dashboards). Interactive = real-time two-way, essential for negotiation, conflict and building agreement."
   }
 ]

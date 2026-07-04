@@ -417,101 +417,118 @@
     "topic": "Communications",
     "difficulty": "hard",
     "viewBox": [
-      336,
-      246
+      340,
+      216
     ],
-    "prompt": "Drag the right communication method (Push, Pull or Interactive) onto each situation.",
+    "prompt": "Drag the right communication method onto the situation.",
+    "vars": {
+      "perm": {
+        "shuffle": [
+          0,
+          1,
+          2
+        ]
+      },
+      "pushK": {
+        "pick": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "pullK": {
+        "pick": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "interK": {
+        "pick": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "derived": {
+      "pushPool": "['Policy update to 200 staff','Monthly status memo to all','Broadcast the release notes','Compliance notice org-wide']",
+      "pullPool": "['Self-serve metrics dashboard','Reference docs in a wiki','Reports on a portal','Contracts archived for audit']",
+      "interPool": "['Tense negotiation with a client','Resolve a conflict between leads','Brainstorm the design live','Kickoff workshop with stakeholders']",
+      "sp": "pushPool[pushK]",
+      "sl": "pullPool[pullK]",
+      "si": "interPool[interK]"
+    },
     "draw": [
       {
         "op": "text",
-        "x": 168,
-        "y": 22,
-        "text": "'Policy update to 200 staff'",
+        "x": 170,
+        "y": 26,
+        "text": "perm[0]==0 ? sp : (perm[0]==1 ? sl : si)",
         "size": 8.5,
         "anchor": "middle"
       },
       {
         "op": "text",
-        "x": 168,
-        "y": 33,
-        "text": "'— no immediate Q&A needed'",
+        "x": 170,
+        "y": 92,
+        "text": "perm[1]==0 ? sp : (perm[1]==1 ? sl : si)",
         "size": 8.5,
         "anchor": "middle"
       },
       {
         "op": "text",
-        "x": 168,
-        "y": 98,
-        "text": "'Team self-serves the latest'",
-        "size": 8.5,
-        "anchor": "middle"
-      },
-      {
-        "op": "text",
-        "x": 168,
-        "y": 109,
-        "text": "'test-metrics dashboard'",
-        "size": 8.5,
-        "anchor": "middle"
-      },
-      {
-        "op": "text",
-        "x": 168,
-        "y": 174,
-        "text": "'Tense schedule negotiation'",
-        "size": 8.5,
-        "anchor": "middle"
-      },
-      {
-        "op": "text",
-        "x": 168,
-        "y": 185,
-        "text": "'with the client'",
+        "x": 170,
+        "y": 158,
+        "text": "perm[2]==0 ? sp : (perm[2]==1 ? sl : si)",
         "size": 8.5,
         "anchor": "middle"
       }
     ],
     "regions": [
       {
-        "id": "'push'",
+        "id": "'z0'",
         "x": 8,
-        "y": 40,
-        "w": 320,
+        "y": 32,
+        "w": 324,
         "h": 44
       },
       {
-        "id": "'pull'",
+        "id": "'z1'",
         "x": 8,
-        "y": 116,
-        "w": 320,
+        "y": 98,
+        "w": 324,
         "h": 44
       },
       {
-        "id": "'inter'",
+        "id": "'z2'",
         "x": 8,
-        "y": 192,
-        "w": 320,
+        "y": 164,
+        "w": 324,
         "h": 44
       }
     ],
     "tokens": [
       {
         "label": "'Push'",
-        "target": "'push'",
-        "why": "'One-way distribution to many with no confirmation needed → push (email, memo, broadcast).'"
+        "target": "'z' + (perm[0]==0 ? 0 : (perm[1]==0 ? 1 : 2))",
+        "why": "'Push — one-way distribution to many with no confirmation of receipt needed (email, memo, broadcast).'"
       },
       {
         "label": "'Pull'",
-        "target": "'pull'",
-        "why": "'A large audience retrieves information at its own discretion → pull (portal, dashboard, wiki).'"
+        "target": "'z' + (perm[0]==1 ? 0 : (perm[1]==1 ? 1 : 2))",
+        "why": "'Pull — a large audience retrieves the information at its own discretion (portal, dashboard, wiki).'"
       },
       {
         "label": "'Interactive'",
-        "target": "'inter'",
-        "why": "'Real-time, multi-directional exchange for negotiation or conflict → interactive (meeting, call).'"
+        "target": "'z' + (perm[0]==2 ? 0 : (perm[1]==2 ? 1 : 2))",
+        "why": "'Interactive — real-time, two-way exchange for negotiation or conflict (meeting, call, workshop).'"
       }
     ],
-    "explanation": "Push = sender distributes and cannot confirm understanding (memos, status emails). Pull = recipients access at will, good for large volumes (dashboards, repositories). Interactive = real-time two-way, essential for negotiation, conflict, and building agreement."
+    "explanation": "Push = sender distributes with no confirmation (memos, broadcasts). Pull = recipients access at will, good for large volumes (portals, wikis, dashboards). Interactive = real-time two-way, essential for negotiation, conflict and building agreement."
   },
   {
     "schema": "figuregen/v1",
