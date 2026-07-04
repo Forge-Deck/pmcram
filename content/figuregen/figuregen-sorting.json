@@ -237,7 +237,7 @@
       320,
       184
     ],
-    "prompt": "Sort each response strategy by whether it addresses a THREAT (negative risk) or an OPPORTUNITY (positive risk).",
+    "prompt": "Sort each response strategy by whether it addresses a threat or an opportunity.",
     "draw": [
       {
         "op": "text",
@@ -305,6 +305,126 @@
       }
     ],
     "explanation": "Threats get Avoid / Mitigate / Transfer; opportunities get Exploit / Enhance / Share. (Accept and Escalate apply to both.) Note the mirror: Avoid↔Exploit, Mitigate↔Enhance, Transfer↔Share."
+  },
+  {
+    "schema": "figuregen/v1",
+    "id": "sort-risk-responses-venn",
+    "kind": "dragdrop",
+    "domain": "Process",
+    "topic": "Risk responses",
+    "difficulty": "hard",
+    "viewBox": [
+      340,
+      260
+    ],
+    "prompt": "Sort each response strategy by whether it addresses a threat or an opportunity.",
+    "caption": "Two circles — the overlap is for strategies that apply to both.",
+    "draw": [
+      {
+        "op": "circle",
+        "cx": 118,
+        "cy": 130,
+        "r": 108,
+        "color": "red",
+        "fill": "red",
+        "fillOpacity": 0.1,
+        "width": 1.2
+      },
+      {
+        "op": "circle",
+        "cx": 222,
+        "cy": 130,
+        "r": 108,
+        "color": "green",
+        "fill": "green",
+        "fillOpacity": 0.1,
+        "width": 1.2
+      },
+      {
+        "op": "text",
+        "x": 58,
+        "y": 40,
+        "text": "'Threat'",
+        "size": 11,
+        "anchor": "middle",
+        "color": "red"
+      },
+      {
+        "op": "text",
+        "x": 282,
+        "y": 40,
+        "text": "'Opportunity'",
+        "size": 11,
+        "anchor": "middle",
+        "color": "green"
+      }
+    ],
+    "regions": [
+      {
+        "id": "'threat'",
+        "x": 20,
+        "y": 64,
+        "w": 88,
+        "h": 132
+      },
+      {
+        "id": "'both'",
+        "x": 126,
+        "y": 64,
+        "w": 88,
+        "h": 132
+      },
+      {
+        "id": "'opp'",
+        "x": 234,
+        "y": 64,
+        "w": 88,
+        "h": 132
+      }
+    ],
+    "tokens": [
+      {
+        "label": "'Avoid'",
+        "target": "'threat'",
+        "why": "'Avoid eliminates the threat by removing its cause — a threat-only strategy.'"
+      },
+      {
+        "label": "'Mitigate'",
+        "target": "'threat'",
+        "why": "'Mitigate reduces a threat probability or impact — threat only.'"
+      },
+      {
+        "label": "'Transfer'",
+        "target": "'threat'",
+        "why": "'Transfer shifts a threat impact to a third party — threat only.'"
+      },
+      {
+        "label": "'Exploit'",
+        "target": "'opp'",
+        "why": "'Exploit makes sure an opportunity happens — opportunity only.'"
+      },
+      {
+        "label": "'Enhance'",
+        "target": "'opp'",
+        "why": "'Enhance increases an opportunity probability or impact — opportunity only.'"
+      },
+      {
+        "label": "'Share'",
+        "target": "'opp'",
+        "why": "'Share allocates an opportunity to a partner best able to capture it — opportunity only.'"
+      },
+      {
+        "label": "'Accept'",
+        "target": "'both'",
+        "why": "'Accept (take no proactive action, keep a reserve) applies to BOTH threats and opportunities — the overlap.'"
+      },
+      {
+        "label": "'Escalate'",
+        "target": "'both'",
+        "why": "'Escalate (raise it to the right authority) applies to BOTH threats and opportunities — the overlap.'"
+      }
+    ],
+    "explanation": "Threats get Avoid / Mitigate / Transfer; opportunities get Exploit / Enhance / Share (the mirror pairs). Accept and Escalate apply to BOTH, so they sit in the overlap of the two circles."
   },
   {
     "schema": "figuregen/v1",
