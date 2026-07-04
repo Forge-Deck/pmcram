@@ -10,13 +10,13 @@
       320,
       236
     ],
-    "prompt": "Drag each cost to the fund it draws from. One of them should not be funded at all yet — it needs to go through change control first.",
+    "prompt": "You're midway through delivery when a batch of costs lands on your desk to be charged this week — routine planned work, a couple of items driven by risks already in your register, an allowance held back for the truly unforeseeable, and a few brand-new requests that stakeholders raised in the last few days. Drag each cost to the fund it should be paid from: cost baseline, contingency reserve, or management reserve.",
     "draw": [
       {
         "op": "text",
         "x": 160,
         "y": 26,
-        "text": "'Cost baseline — planned scope'",
+        "text": "'Cost baseline'",
         "size": 8.5,
         "anchor": "middle"
       },
@@ -24,7 +24,7 @@
         "op": "text",
         "x": 160,
         "y": 98,
-        "text": "'Contingency reserve — known-unknowns'",
+        "text": "'Contingency reserve'",
         "size": 8.5,
         "anchor": "middle"
       },
@@ -32,7 +32,7 @@
         "op": "text",
         "x": 160,
         "y": 170,
-        "text": "'Management reserve — unknown-unknowns'",
+        "text": "'Management reserve'",
         "size": 8.5,
         "anchor": "middle"
       }
@@ -85,9 +85,19 @@
         "label": "'Sponsor pet feature, no CR'",
         "target": "''",
         "why": "'Out of scope with no change request — it belongs in no reserve. Raise a change request first.'"
+      },
+      {
+        "label": "'Client’s new module request'",
+        "target": "''",
+        "why": "'A brand-new stakeholder request is unapproved scope — it goes through change control before any funding, so no reserve.'"
+      },
+      {
+        "label": "'Extra gold-plating'",
+        "target": "''",
+        "why": "'Adding unrequested “nice-to-have” work is gold-plating — not authorised scope and funded by no reserve.'"
       }
     ],
-    "explanation": "The cost baseline holds planned scope. The contingency reserve covers identified risks (known-unknowns) and is the PM's to spend. The management reserve covers unknown-unknowns and needs sponsor approval. Unbudgeted new scope with no CR is funded by none of them."
+    "explanation": "The cost baseline holds planned scope; the contingency reserve covers identified risks (known-unknowns) and is the PM's to spend; the management reserve covers unknown-unknowns and needs sponsor approval. Any brand-new or unrequested cost with no approved change request belongs in NONE of these — it must go through change control first, so it stays in the tray."
   },
   {
     "schema": "figuregen/v1",
