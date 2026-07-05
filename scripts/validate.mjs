@@ -46,15 +46,23 @@ const errors = [];
 /** Cross-field checks for questions (counts must be internally consistent). */
 function checkQuestion(rec, file, i) {
   const where = `${file} [${i}] (${rec.id ?? 'no id'})`;
-  if (Array.isArray(rec.correct) && typeof rec.select === 'number' && rec.correct.length !== rec.select) {
-    errors.push(`${where}: select (${rec.select}) must equal correct.length (${rec.correct.length}).`);
+  // `correct` is a POOL for single-answer questions: the app surfaces `select`
+  // of the equivalent correct phrasings. So correct.length must be >= select,
+  // and for `multi` it must equal select (every correct answer is shown).
+  if (Array.isArray(rec.correct) && typeof rec.select === 'number') {
+    if (rec.correct.length < rec.select) {
+      errors.push(`${where}: correct.length (${rec.correct.length}) must be >= select (${rec.select}).`);
+    }
+    if (rec.type === 'multi' && rec.correct.length !== rec.select) {
+      errors.push(`${where}: multi-select must have correct.length (${rec.correct.length}) == select (${rec.select}).`);
+    }
   }
   if (typeof rec.present === 'number' && typeof rec.select === 'number' && rec.present <= rec.select) {
     errors.push(`${where}: present (${rec.present}) must be greater than select (${rec.select}).`);
   }
-  const pool = (rec.correct?.length ?? 0) + (rec.distractors?.length ?? 0);
-  if (typeof rec.present === 'number' && rec.present > pool) {
-    errors.push(`${where}: present (${rec.present}) exceeds correct + distractors (${pool}).`);
+  // enough distractors to sample the non-correct options actually shown
+  if (typeof rec.present === 'number' && typeof rec.select === 'number' && Array.isArray(rec.distractors) && rec.distractors.length < rec.present - rec.select) {
+    errors.push(`${where}: distractors (${rec.distractors.length}) must be >= present - select (${rec.present - rec.select}).`);
   }
 }
 

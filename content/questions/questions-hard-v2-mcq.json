@@ -1,7 +1,7 @@
 [
   {
     "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Hybrid / gates",
     "difficulty": "hard",
     "type": "single",
@@ -17,35 +17,21 @@
       }
     ],
     "distractors": [
-      { "text": "The daily standup", "trap": "Routine coordination for the team — it does not produce the reviewed increment a gate needs." },
-      { "text": "The team retrospective", "trap": "Improves how the team works, but it is internal and not what the gate decision depends on." },
-      { "text": "An informal stakeholder catch-up", "trap": "A casual chat is no substitute for a formal, demonstrable increment review." }
-    ],
-    "explanation": "A phase gate's go/no-go needs a reviewed, demonstrable increment. That is what the sprint review produces, so it is the ceremony you protect when a gate lands mid-sprint; standups, retros and informal chats do not feed the gate."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Estimating",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A project is at concept stage and no feasibility study has been done yet. Which estimate honestly reflects the uncertainty at this early point on the cone of uncertainty?"
-    ],
-    "correct": [
       {
-        "text": "A wide, order-of-magnitude range (around ±50%)",
-        "why": "The cone of uncertainty is widest at the start; before feasibility, only a rough order-of-magnitude range is honest."
+        "text": "The daily standup",
+        "trap": "Routine coordination for the team — it does not produce the reviewed increment a gate needs."
+      },
+      {
+        "text": "The team retrospective",
+        "trap": "Improves how the team works, but it is internal and not what the gate decision depends on."
+      },
+      {
+        "text": "An informal stakeholder catch-up",
+        "trap": "A casual chat is no substitute for a formal, demonstrable increment review."
       }
     ],
-    "distractors": [
-      { "text": "A tight ±10% range now", "trap": "False precision — you cannot be within ±10% before a feasibility study." },
-      { "text": "A definitive ±5% range now", "trap": "That is execution-level precision, impossible at concept with no analysis done." },
-      { "text": "No estimate at all until execution", "trap": "Refusing to estimate is not the ask — a rough order-of-magnitude estimate is expected at concept." }
-    ],
-    "explanation": "The cone of uncertainty is widest at the start and narrows as the project progresses and information grows. At concept, a rough order-of-magnitude estimate (a wide range) is appropriate; a tight range this early is false precision."
+    "explanation": "A phase gate's go/no-go needs a reviewed, demonstrable increment. That is what the sprint review produces, so it is the ceremony you protect when a gate lands mid-sprint; standups, retros and informal chats do not feed the gate.",
+    "subDomain": "Establish Governance"
   },
   {
     "schema": "question/v1",
@@ -59,14 +45,27 @@
       "Cost performance has been stable (CPI steady) and the overruns are expected to continue at the current rate. Which EAC formula should the PM use to forecast?"
     ],
     "correct": [
-      { "text": "EAC = BAC / CPI", "why": "When current cost efficiency is typical and will continue, dividing the budget by CPI extends that trend to completion." }
+      {
+        "text": "EAC = BAC / CPI",
+        "why": "When current cost efficiency is typical and will continue, dividing the budget by CPI extends that trend to completion."
+      }
     ],
     "distractors": [
-      { "text": "EAC = AC + (BAC − EV)", "trap": "Assumes the overrun was a one-off and the rest runs to plan — not the case when the trend continues." },
-      { "text": "EAC = AC + (BAC − EV) / (CPI × SPI)", "trap": "Used when BOTH cost and schedule variances persist; here only cost efficiency is in play." },
-      { "text": "EAC = BAC − CV", "trap": "Not a standard EAC forecast — it just offsets the budget by the current cost variance." }
+      {
+        "text": "EAC = AC + (BAC − EV)",
+        "trap": "Assumes the overrun was a one-off and the rest runs to plan — not the case when the trend continues."
+      },
+      {
+        "text": "EAC = AC + (BAC − EV) / (CPI × SPI)",
+        "trap": "Used when BOTH cost and schedule variances persist; here only cost efficiency is in play."
+      },
+      {
+        "text": "EAC = BAC − CV",
+        "trap": "Not a standard EAC forecast — it just offsets the budget by the current cost variance."
+      }
     ],
-    "explanation": "EAC = BAC/CPI is the forecast when the current cost performance is representative and expected to continue — it projects the observed efficiency across the remaining work."
+    "explanation": "EAC = BAC/CPI is the forecast when the current cost performance is representative and expected to continue — it projects the observed efficiency across the remaining work.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -80,14 +79,27 @@
       "A one-off event caused the cost overrun, and the remaining work is expected to run at the originally planned rate. Which EAC formula fits?"
     ],
     "correct": [
-      { "text": "EAC = AC + (BAC − EV)", "why": "When the variance was atypical, add the remaining budgeted work (BAC − EV) to actual cost at face value — no efficiency factor applied." }
+      {
+        "text": "EAC = AC + (BAC − EV)",
+        "why": "When the variance was atypical, add the remaining budgeted work (BAC − EV) to actual cost at face value — no efficiency factor applied."
+      }
     ],
     "distractors": [
-      { "text": "EAC = BAC / CPI", "trap": "Assumes the overrun continues at the current rate — wrong when it was a one-off." },
-      { "text": "EAC = AC + (BAC − EV) / (CPI × SPI)", "trap": "Deflates remaining work by both indices; only used when cost and schedule pressure persist." },
-      { "text": "EAC = ETC × CPI", "trap": "Not a valid EAC formula — EAC combines actual cost with an estimate to complete, not a product like this." }
+      {
+        "text": "EAC = BAC / CPI",
+        "trap": "Assumes the overrun continues at the current rate — wrong when it was a one-off."
+      },
+      {
+        "text": "EAC = AC + (BAC − EV) / (CPI × SPI)",
+        "trap": "Deflates remaining work by both indices; only used when cost and schedule pressure persist."
+      },
+      {
+        "text": "EAC = ETC × CPI",
+        "trap": "Not a valid EAC formula — EAC combines actual cost with an estimate to complete, not a product like this."
+      }
     ],
-    "explanation": "When the overrun is a one-off and future work runs to plan, EAC = AC + (BAC − EV): actual cost so far plus the remaining budgeted work at its planned value."
+    "explanation": "When the overrun is a one-off and future work runs to plan, EAC = AC + (BAC − EV): actual cost so far plus the remaining budgeted work at its planned value.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -101,13 +113,26 @@
       "Both cost and schedule are under pressure and both variances are expected to persist through the rest of the project. Which EAC formula best reflects this?"
     ],
     "correct": [
-      { "text": "EAC = AC + (BAC − EV) / (CPI × SPI)", "why": "When cost AND schedule performance will both continue to drag, the remaining work is deflated by both indices together." }
+      {
+        "text": "EAC = AC + (BAC − EV) / (CPI × SPI)",
+        "why": "When cost AND schedule performance will both continue to drag, the remaining work is deflated by both indices together."
+      }
     ],
     "distractors": [
-      { "text": "EAC = BAC / CPI", "trap": "Accounts for cost performance only — ignores the persisting schedule pressure." },
-      { "text": "EAC = AC + (BAC − EV)", "trap": "Assumes the rest runs to plan — wrong when both variances continue." },
-      { "text": "EAC = BAC × SPI", "trap": "Not a standard EAC forecast and uses only the schedule index." }
+      {
+        "text": "EAC = BAC / CPI",
+        "trap": "Accounts for cost performance only — ignores the persisting schedule pressure."
+      },
+      {
+        "text": "EAC = AC + (BAC − EV)",
+        "trap": "Assumes the rest runs to plan — wrong when both variances continue."
+      },
+      {
+        "text": "EAC = BAC × SPI",
+        "trap": "Not a standard EAC forecast and uses only the schedule index."
+      }
     ],
-    "explanation": "When both cost and schedule variances will persist, EAC = AC + (BAC − EV)/(CPI × SPI) applies both performance indices to the remaining work — the most pessimistic of the standard forecasts."
+    "explanation": "When both cost and schedule variances will persist, EAC = AC + (BAC − EV)/(CPI × SPI) applies both performance indices to the remaining work — the most pessimistic of the standard forecasts.",
+    "subDomain": "Financial Management"
   }
 ]

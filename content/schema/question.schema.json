@@ -16,7 +16,8 @@
     "subtopic": { "type": "string" },
     "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
     "type": { "type": "string", "enum": ["single", "multi"], "description": "single = choose one; multi = choose N." },
-    "select": { "type": "integer", "minimum": 1, "description": "How many options the user must choose. Must equal the number of entries in `correct`." },
+    "select": { "type": "integer", "minimum": 1, "description": "How many options the user must choose. The app surfaces this many correct answers from the `correct` pool (for single = 1)." },
+    "group": { "type": "string", "description": "OPTIONAL variant group. Questions sharing a group are phrasings of the same concept and are never both served in one mock or focused batch." },
     "present": { "type": "integer", "minimum": 2, "description": "Total options to render = correct shown + distractors sampled. Must be > select and <= (correct.length + distractors.length)." },
     "prompts": {
       "type": "array",
@@ -27,7 +28,7 @@
     "correct": {
       "type": "array",
       "minItems": 1,
-      "description": "The correct option(s). For `multi`, length should equal `select`.",
+      "description": "The correct option(s). For `single` this is a POOL of interchangeable correct phrasings — the app shows one at random. For `multi`, length must equal `select` (all correct shown).",
       "items": {
         "type": "object",
         "required": ["text"],

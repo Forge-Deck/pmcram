@@ -30,40 +30,8 @@
         "trap": "Quality issues are usually process failures; blame shuts down the analysis needed and harms team safety."
       }
     ],
-    "explanation": "When quality control reveals defects, analyze the root cause first so corrective action targets the underlying problem."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A senior stakeholder who skipped several sprint reviews attends the final demo and declares the product 'not what I asked for,' though other stakeholders consistently approved the direction. How should the PM respond?"
-    ],
-    "correct": [
-      {
-        "text": "Acknowledge the frustration, walk through the documented decision trail, and set a delegate-or-attend policy",
-        "why": "Empathy plus a transparent record of who approved what protects the team, and requiring proxies prevents absent stakeholders from reopening settled decisions."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Accommodate the senior stakeholder and change the product direction now to secure their ongoing executive support",
-        "trap": "Rewarding absence with override authority undermines collaborative decision-making and sets a bad precedent."
-      },
-      {
-        "text": "Tell the stakeholder plainly that they forfeited their input by skipping the sprint reviews they were invited to",
-        "trap": "A confrontational stance damages the relationship and ignores organizational political realities."
-      },
-      {
-        "text": "Escalate the disagreement to the sponsor and implement whatever direction they hand down without further discussion",
-        "trap": "Abdicates the PM's stakeholder-management role and invites executive micromanagement."
-      }
-    ],
-    "explanation": "Show empathy while presenting the decision record, then prevent recurrence with a clear participation-or-proxy policy."
+    "explanation": "When quality control reveals defects, analyze the root cause first so corrective action targets the underlying problem.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -96,40 +64,8 @@
         "trap": "A valid level describing stakeholders actively promoting the project's success."
       }
     ],
-    "explanation": "The engagement assessment matrix uses five levels: Unaware, Resistant, Neutral, Supportive, Leading."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team's pipeline auto-deploys to production on every merge to main. A developer accidentally merges a work-in-progress branch, breaking production for 20 minutes. How should the PM strengthen the process?"
-    ],
-    "correct": [
-      {
-        "text": "Add layered safeguards—branch protection, smoke tests, canary rollout, auto-rollback—without removing automation",
-        "why": "Technical guardrails prevent bad merges and limit blast radius while preserving fast, safe continuous delivery."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Restrict deployments to business hours only and gate each release behind a manual pre-deploy checklist",
-        "trap": "Treats the symptom reactively and doesn't stop accidental merges reaching production."
-      },
-      {
-        "text": "Disable the automation entirely and require a release committee to approve and run every production deployment",
-        "trap": "Removes the core benefit of CI/CD and adds bureaucracy without fixing the seam."
-      },
-      {
-        "text": "Add manual approval gates and sign-off meetings before any merge to the main branch is allowed",
-        "trap": "Adds friction but reviewers can still miss issues; gates don't limit blast radius."
-      }
-    ],
-    "explanation": "Make automation safe through layered technical protection rather than replacing it with slow manual controls."
+    "explanation": "The engagement assessment matrix uses five levels: Unaware, Resistant, Neutral, Supportive, Leading.",
+    "subDomain": "Engage Stakeholders"
   },
   {
     "schema": "question/v1",
@@ -162,40 +98,8 @@
         "trap": "Blanket rejection ignores legitimate needs; PMI evaluates each request's impact instead."
       }
     ],
-    "explanation": "Preventing creep means running each request through change control, not implementing informally or blanket-rejecting."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "In a hybrid project, the agile team uses automated tests and the waterfall team uses manual sign-off, but integration testing falls through the cracks because neither team owns it. How should the PM establish integrated quality management?"
-    ],
-    "correct": [
-      {
-        "text": "Create a shared integration quality practice with joint ownership and synchronized test points",
-        "why": "Shared environments, seam-focused scenarios, and dual ownership close the 'not my responsibility' gap while each team keeps its internal practices."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Stand up a separate QA team that owns only cross-team integration testing",
-        "trap": "Risks creating another silo that tests too late and lacks each workstream's context."
-      },
-      {
-        "text": "Let each team keep its own approach and catch integration issues in final end-to-end testing",
-        "trap": "Deferring integration testing is reactive and lets seam defects accumulate."
-      },
-      {
-        "text": "Force both teams onto a single standardized quality approach for all testing",
-        "trap": "Ignores tailoring; hybrid exists because workstreams have different needs."
-      }
-    ],
-    "explanation": "Quality gaps occur at the seams; a jointly owned integration layer over each team's internal practices closes them."
+    "explanation": "Preventing creep means running each request through change control, not implementing informally or blanket-rejecting.",
+    "subDomain": "Scope Management"
   },
   {
     "schema": "question/v1",
@@ -228,40 +132,8 @@
         "trap": "Invents a procedural requirement with no basis in control-chart theory."
       }
     ],
-    "explanation": "The rule of seven flags a run of seven consecutive points on one side of the mean as likely non-random variation."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Risk",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "On a HIPAA-regulated healthcare product, a developer accidentally pushes protected health information to a public repository for four hours before it's caught. How should the PM manage this security incident?"
-    ],
-    "correct": [
-      {
-        "text": "Treat it as a reportable incident: rotate credentials, notify compliance, assess scope, document, and follow breach rules",
-        "why": "HIPAA requires prompt documented response and threshold assessment regardless of external detection, plus a blameless review to prevent recurrence."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Quietly remove the offending commit and tighten repository controls without any formal incident reporting",
-        "trap": "Skipping assessment and notification to avoid scrutiny creates legal liability."
-      },
-      {
-        "text": "Immediately notify every patient whose data might be affected before assessing the actual scope of exposure",
-        "trap": "Notification depends on breach thresholds; skipping analysis is premature."
-      },
-      {
-        "text": "Wait to see whether any external party actually accessed the exposed data before taking any action",
-        "trap": "Passive monitoring delays required response and increases harm."
-      }
-    ],
-    "explanation": "A potential PHI breach demands immediate, transparent, documented response and threshold-based notification, not concealment."
+    "explanation": "The rule of seven flags a run of seven consecutive points on one side of the mean as likely non-random variation.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -294,40 +166,8 @@
         "trap": "Sacrificing quality violates embed-quality and usually creates rework."
       }
     ],
-    "explanation": "Balance the constraints through analysis and stakeholder-informed trade-off decisions, not blanket priority rules."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Integration",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A planned feature would collect and store far more user data than it needs to function. A privacy-first design uses less data but costs an extra sprint. What should the PM recommend?"
-    ],
-    "correct": [
-      {
-        "text": "Adopt the privacy-first approach and collect only the data the feature needs",
-        "why": "Data minimization satisfies GDPR/CCPA, reduces breach liability, and builds trust; the extra sprint is small versus a compliance failure."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Collect all the data now for future analytics and competitive advantage",
-        "trap": "Speculative upside doesn't justify violating data minimization and added regulatory exposure."
-      },
-      {
-        "text": "Collect everything but layer in consent screens and privacy controls",
-        "trap": "Controls on unnecessary data still means collecting unnecessary data."
-      },
-      {
-        "text": "Postpone the whole feature pending a full data-governance review",
-        "trap": "Delays delivery when the responsible design choice is already clear."
-      }
-    ],
-    "explanation": "Build data minimization into the design; collect only what the feature needs rather than hoarding and layering controls."
+    "explanation": "Balance the constraints through analysis and stakeholder-informed trade-off decisions, not blanket priority rules.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -360,73 +200,8 @@
         "trap": "Satisfaction is gathered via surveys or interviews, not this matrix."
       }
     ],
-    "explanation": "The matrix contrasts current versus desired engagement levels so the team can plan gap-closing strategies."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team practices behavior-driven development, with stakeholders writing acceptance criteria in Given-When-Then format. What is the PRIMARY benefit?"
-    ],
-    "correct": [
-      {
-        "text": "It creates a shared language that makes requirements unambiguous and verifiable",
-        "why": "Given-When-Then is understood by both business and technical people, aligning expectations before code is written."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "It speeds development with pre-written code templates and scaffolding",
-        "trap": "BDD's value is shared understanding, not code generation."
-      },
-      {
-        "text": "It eliminates user stories by replacing them entirely with executable specs",
-        "trap": "BDD complements stories rather than replacing them."
-      },
-      {
-        "text": "It removes the need for manual testing by fully automating all validation",
-        "trap": "Exploratory and usability testing still need human judgment."
-      }
-    ],
-    "explanation": "BDD's primary benefit is a common Given-When-Then language bridging business and technical understanding."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Risk",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "Mid-sprint, a fintech team learns a new regulatory interpretation requires redesigning their payment feature; the compliance officer confirms it. How should the PM integrate compliance into the agile workflow?"
-    ],
-    "correct": [
-      {
-        "text": "Treat it as an emergent requirement: bring compliance into mid-sprint refinement now and into planning going forward",
-        "why": "Scoping impact immediately handles the current issue, while embedding compliance in planning surfaces regulatory risk before implementation."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Finish the current sprint as planned and defer the compliance work to a later 'compliance debt' backlog item",
-        "trap": "Delaying a known legal exposure risks shipping non-compliant code."
-      },
-      {
-        "text": "Halt the sprint immediately and freeze all development work until a full compliance audit is completed",
-        "trap": "Disproportionate; treats compliance as an external freeze rather than embedded practice."
-      },
-      {
-        "text": "Add a dedicated compliance review gate that each deployment must clear before it can release",
-        "trap": "Bolting compliance onto the end repeats the pattern that caused the surprise."
-      }
-    ],
-    "explanation": "Handle the emergent requirement immediately and embed compliance into refinement and planning to prevent recurrence."
+    "explanation": "The matrix contrasts current versus desired engagement levels so the team can plan gap-closing strategies.",
+    "subDomain": "Engage Stakeholders"
   },
   {
     "schema": "question/v1",
@@ -459,172 +234,8 @@
         "trap": "This covers ongoing contract oversight, not final closure."
       }
     ],
-    "explanation": "Procurement spans multiple groups but is completed with formal contract closure in Closing."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Integration",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "After an acquisition, leadership wants to merge the acquired company's product with the team's product; the two have overlapping features, different architectures, and different user bases. How should the PM approach the integration?"
-    ],
-    "correct": [
-      {
-        "text": "Run a strategic integration assessment first, then present merge options with trade-offs for leadership to choose",
-        "why": "Business strategy—which user base and market matter most—should drive the technical approach, informed by feature, user, and architecture analysis."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Immediately migrate all of the acquired product's users onto the team's existing main platform",
-        "trap": "Forced migration risks churn if valued features and workflows are lost."
-      },
-      {
-        "text": "Start a greenfield rebuild that combines the best features of the two existing products",
-        "trap": "Highest cost and risk; both products stagnate for years."
-      },
-      {
-        "text": "Keep both products running fully separately with only some backend API integration between them",
-        "trap": "Ongoing dual-codebase overhead may never realize the acquisition's strategic value."
-      }
-    ],
-    "explanation": "Let strategic analysis and business priorities drive the technical integration choice, not the reverse."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Risk",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A healthcare product must comply with HIPAA, but the team treats security as a feature to add rather than an architectural concern. How should the PM embed HIPAA compliance into development?"
-    ],
-    "correct": [
-      {
-        "text": "Build compliance into every phase with security-by-design, encryption defaults, access controls, and audit trails",
-        "why": "Architectural, story-level compliance with encryption and least-privilege access catches issues early rather than at an end-of-release review."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Rely on HIPAA-certified vendors and assume overall system compliance automatically follows",
-        "trap": "Vendor certifications don't automatically make the overall system compliant."
-      },
-      {
-        "text": "Assign a dedicated compliance role that reviews each feature only after it is completed",
-        "trap": "Isolating compliance perpetuates treating it as someone else's late-stage job."
-      },
-      {
-        "text": "Validate HIPAA compliance through a single sign-off gate at the end of each release cycle",
-        "trap": "End-of-release review is too late; non-compliant design reaches review uneconomically."
-      }
-    ],
-    "explanation": "HIPAA compliance must be architectural and continuous, embedded across the lifecycle rather than checked at the end."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A product serves multiple user personas with conflicting needs—enterprise wants stability, startups want rapid features, API users want strict contracts, UI users want constant improvements—so every decision disappoints someone. How should the PM manage the prioritization conflicts?"
-    ],
-    "correct": [
-      {
-        "text": "Use a persona-weighted prioritization framework with visible trade-offs and capacity allocation",
-        "why": "Weighting personas by strategic value and showing the data behind each decision maintains trust better than opaque prioritization."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Build and maintain a separate product edition tailored to each individual persona",
-        "trap": "Multiplies maintenance cost and fragments the codebase unsustainably."
-      },
-      {
-        "text": "Rotate entire sprints between the personas, giving each one a full sprint in turn",
-        "trap": "Each segment waits multiple cycles; rotation is implicit and postpones conflicts."
-      },
-      {
-        "text": "Prioritize work strictly by each persona's current revenue contribution to the business",
-        "trap": "Ignores growth potential and strategic personas like ecosystem-enabling API users."
-      }
-    ],
-    "explanation": "Structured, transparent persona weighting with visible trade-offs beats segmentation, rotation, or revenue-only ranking."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Risk",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A project uses AI to predict schedule risks. The AI flags a critical-path task as high-risk, but the experienced team lead says it's fine based on their expertise. What should the PM do?"
-    ],
-    "correct": [
-      {
-        "text": "Investigate the discrepancy, weighing both the AI's reasoning and the lead's rationale",
-        "why": "The AI may spot a pattern the lead missed, or the lead may hold context the AI lacks; synthesizing both yields the best decision."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Trust the AI's assessment because its algorithms catch risk patterns humans routinely miss",
-        "trap": "Blind deference ignores contextual knowledge the lead may hold."
-      },
-      {
-        "text": "Trust the team lead's judgment because hands-on experience beats any predictive algorithm",
-        "trap": "Expertise isn't infallible; confirmation bias can miss emerging threats."
-      },
-      {
-        "text": "Keep the current baseline unchanged to avoid introducing scope creep from the new signal",
-        "trap": "Ignores new information; baselines update through proper analysis when justified."
-      }
-    ],
-    "explanation": "Reconcile conflicting AI and human signals through investigation rather than defaulting to either source."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A product owner is paralyzed by conflicting priorities from two VPs—Sales wants deal-closing features, Engineering wants technical-debt reduction—and asks the PM for help. How should the PM help resolve the conflict?"
-    ],
-    "correct": [
-      {
-        "text": "Facilitate a structured, data-based priority conversation with both VPs, escalating with a recommendation if needed",
-        "why": "Quantifying deal revenue against the cost of technical debt frames it as an investment decision; the PM creates conditions for an informed choice, not the choice itself."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Side with the revenue-generating features and defer the technical-debt reduction work for now",
-        "trap": "Abdicates facilitation and treats debt as deferrable without quantifying its cost."
-      },
-      {
-        "text": "Leave the prioritization decision entirely to the product owner with no PM involvement at all",
-        "trap": "A paralyzed PO facing conflicting VPs needs facilitation, not passivity."
-      },
-      {
-        "text": "Alternate the priorities between the Sales and Engineering VPs on an every-other-sprint basis",
-        "trap": "An arbitrary split ignoring urgency, deal timing, and risk severity."
-      }
-    ],
-    "explanation": "Facilitate an objective, investment-framed conversation between equal-authority stakeholders and escalate with data if unresolved."
+    "explanation": "Procurement spans multiple groups but is completed with formal contract closure in Closing.",
+    "subDomain": "Procurement Management"
   },
   {
     "schema": "question/v1",
@@ -657,40 +268,8 @@
         "trap": "Documentation quality is a separate concern from statistical capability."
       }
     ],
-    "explanation": "Process capability measures whether a process's variation fits within specification limits."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A new CTO joins and wants to change the technical direction of a project that is already 60% built on the original architecture. How should the PM manage this stakeholder?"
-    ],
-    "correct": [
-      {
-        "text": "Present a cost, risk, and impact analysis of pivoting and facilitate an informed decision",
-        "why": "Transparent analysis of the cost, benefit, and risk of each path lets leadership make a deliberate strategic choice rather than an impulsive one."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Escalate the conflict straight to the board and ask them to formally mediate it",
-        "trap": "Premature; skips the PM's facilitation of a cost-benefit dialogue first."
-      },
-      {
-        "text": "Continue the original architecture to preserve governance and stability",
-        "trap": "Rigidly dismisses a senior stakeholder's input without analysis."
-      },
-      {
-        "text": "Immediately pivot to the CTO's preferred direction to demonstrate the team's agility",
-        "trap": "Impulsive; ignores the 60% done, schedule, and integration risk."
-      }
-    ],
-    "explanation": "Give leadership transparent trade-off analysis so any mid-project pivot is a deliberate, informed decision."
+    "explanation": "Process capability measures whether a process's variation fits within specification limits.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -723,139 +302,8 @@
         "trap": "Variable costs more; attribute suffices when pass/fail is enough."
       }
     ],
-    "explanation": "Attribute sampling classifies conform/non-conform; variable sampling measures the degree of conformance."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team's code coverage is 90% but production defects are rising, and the team cites coverage as proof of quality. What quality insight should the PM bring?"
-    ],
-    "correct": [
-      {
-        "text": "Coverage measures test existence, not effectiveness; shift focus to defect-detection metrics",
-        "why": "Tests can execute code without meaningful assertions, so escape rate and defect-detection effectiveness better reflect real quality."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Shift the team's focus away from automated tests toward code review and pair programming",
-        "trap": "May help but doesn't reframe the misleading coverage metric driving false confidence."
-      },
-      {
-        "text": "Discontinue tracking code coverage entirely since it is misleading the team",
-        "trap": "Overcorrects; coverage is a useful supplementary indicator when interpreted correctly."
-      },
-      {
-        "text": "Raise the code coverage target from 90% up to 95% to force better testing",
-        "trap": "More of a metric that already fails to reflect test effectiveness."
-      }
-    ],
-    "explanation": "Coverage is a vanity metric; introduce defect-focused measures like escape rate and detection effectiveness."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Risk",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team depends on a third-party API that might be deprecated within six months; the probability is uncertain but the impact would be severe. What risk response should the PM recommend?"
-    ],
-    "correct": [
-      {
-        "text": "Active acceptance: add an abstraction layer, monitor announcements, identify alternatives, and set a decision trigger",
-        "why": "This reduces future switching cost and ensures timely response without committing resources to a premature migration."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Begin an immediate full migration to an alternative API before any deprecation is confirmed",
-        "trap": "Premature avoidance that wastes resources if deprecation never happens."
-      },
-      {
-        "text": "Negotiate a binding SLA with the provider that contractually prevents them from deprecating it",
-        "trap": "Often infeasible with large providers and outside your control."
-      },
-      {
-        "text": "Accept the risk and keep building on the current API without any contingency preparation for a change",
-        "trap": "Passive acceptance leaves severe impact unaddressed with no response path."
-      }
-    ],
-    "explanation": "Uncertain probability with severe impact calls for active acceptance—preparatory groundwork plus monitoring triggers."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "Stakeholders conditioned by past project failures pad their requirements and push aggressive timelines as a defensive strategy. How should the PM break this dysfunctional cycle?"
-    ],
-    "correct": [
-      {
-        "text": "Build trust through radical transparency and consistently delivering on small commitments",
-        "why": "Demonstrated reliability with real velocity data and honest forecasts replaces fear, so stakeholders gradually drop defensive padding."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Accept the padded requirements and aggressive timelines as the unavoidable reality",
-        "trap": "Legitimizes the defensive games and perpetuates the low-trust cycle."
-      },
-      {
-        "text": "Confront the stakeholders directly and demand they submit realistic requirements",
-        "trap": "Confrontation damages the relationship before trust exists."
-      },
-      {
-        "text": "Pad the team's own estimates to quietly match the stakeholders' padding",
-        "trap": "Institutionalizes mutual gaming and makes forecasts meaningless."
-      }
-    ],
-    "explanation": "Replace fear with trust via demonstrated reliability and transparency, not accommodation, confrontation, or counter-padding."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Integration",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A retailer wants a predictive-maintenance ML model, but the data team needs 6 months of sensor data before it can be useful. The business wants results in 3 months. Which delivery approach should the PM recommend?"
-    ],
-    "correct": [
-      {
-        "text": "Deliver a rules-based system now while collecting data, then train and A/B test ML models over the 6 months",
-        "why": "A phased hybrid delivers immediate business value while building the data foundation ML requires, then proves the model outperforms before full rollout."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Deploy generic pre-trained vendor ML models now and swap in custom-trained models later",
-        "trap": "Vendor models trained on external data won't reflect this organization's assets and don't solve the need for proprietary internal data."
-      },
-      {
-        "text": "Negotiate a 4.5-month timeline using synthetic and external datasets to start ML early",
-        "trap": "Synthetic/external data can't reliably substitute for real internal data and still misses the 3-month business need."
-      },
-      {
-        "text": "Mandate two-week ML sprints and just build models using whatever data happens to be available",
-        "trap": "Agile cadence can't substitute for a data foundation that doesn't exist; sparse data yields unreliable models and wasted effort."
-      }
-    ],
-    "explanation": "When ML needs data that doesn't yet exist, a phased hybrid delivers value now (rules-based) while systematically building the ML capability for later."
+    "explanation": "Attribute sampling classifies conform/non-conform; variable sampling measures the degree of conformance.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -888,40 +336,8 @@
         "trap": "Reversed: Agile values responding to change over following a plan."
       }
     ],
-    "explanation": "Reversed manifesto value pairings are classic exam traps; only 'working software over comprehensive documentation' is stated correctly."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "HR posts 'Agile Project Manager' roles that list traditional PM skills (Gantt charts, earned value, waterfall experience) with 'agile' added to the title, and candidates are confused about the actual role. What organizational change issue does this reflect?"
-    ],
-    "correct": [
-      {
-        "text": "The talent model hasn't evolved with the delivery model; the PM should partner with HR to redefine role competencies",
-        "why": "Hiring, evaluation, and promotion systems must evolve with the delivery model, or they continually undermine the transformation."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Transfer all agile hiring to certified agile coaches who run their own specialized interview process",
-        "trap": "Bypassing HR treats a symptom without fixing the systemic misalignment between job descriptions and the delivery model."
-      },
-      {
-        "text": "Provide comprehensive agile training to the HR personnel who write and screen the job postings",
-        "trap": "Training helps but is insufficient if the underlying competency frameworks and job descriptions remain waterfall-defined."
-      },
-      {
-        "text": "Keep the traditional PM job descriptions as-is, since agile PMs genuinely need both skill sets anyway",
-        "trap": "Perpetuates the confusion and signals the transformation is cosmetic labeling rather than real change."
-      }
-    ],
-    "explanation": "Job descriptions are a lagging indicator of transformation; talent systems must be realigned to the actual agile role or they attract the wrong people."
+    "explanation": "Reversed manifesto value pairings are classic exam traps; only 'working software over comprehensive documentation' is stated correctly.",
+    "subDomain": "Value Delivery"
   },
   {
     "schema": "question/v1",
@@ -954,106 +370,8 @@
         "trap": "Fixed price requires well-defined scope up front; with uncertain requirements it shifts unmanageable risk and invites disputes."
       }
     ],
-    "explanation": "When requirements are uncertain, T&M with a ceiling balances flexibility with a cap on the buyer's exposure."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team has lost three members in two quarters. Exit interviews cite lack of career growth and feeling like 'just a resource.' What should the PM implement?"
-    ],
-    "correct": [
-      {
-        "text": "Individual development plans with stretch assignments, mentoring, and clear links to meaningful outcomes",
-        "why": "This directly addresses the root causes in the data: lack of growth and feeling dehumanized, signaling real investment in each person."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Raise salaries across the whole team and add retention bonuses to match current market rates",
-        "trap": "The exit data cites growth and purpose, not pay, as the drivers; compensation ignores the stated root causes."
-      },
-      {
-        "text": "Accept the turnover as normal for the industry and focus on knowledge transfer and onboarding",
-        "trap": "Ignores actionable exit-interview evidence and treats the symptom (departures) rather than the fixable cause."
-      },
-      {
-        "text": "Fill the open vacancies as quickly as possible to protect velocity and sprint commitments",
-        "trap": "Restores capacity but leaves the conditions producing turnover unchanged, so new hires likely leave too."
-      }
-    ],
-    "explanation": "Data pointing to growth and purpose gaps calls for development plans, mentoring, and meaningful work, not pay fixes or faster replacement."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Procurement",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A product team must decide between building a feature internally (slower, full control) or integrating a third-party service (faster, vendor dependency). How should the PM structure this build-vs-buy decision?"
-    ],
-    "correct": [
-      {
-        "text": "Use a weighted framework: build differentiators, buy commodities, and weigh switching cost, maintenance, and roadmap fit",
-        "why": "Build-vs-buy needs strategic analysis of core-vs-commodity and total cost, not a blanket rule about speed or control."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Default to buying third-party services for every non-core piece of functionality in the product",
-        "trap": "A blanket buy rule ignores switching costs, roadmap alignment, and cases where a capability is actually strategic."
-      },
-      {
-        "text": "Build all significant capabilities internally to avoid any kind of external vendor dependency",
-        "trap": "A blanket build rule wastes scarce effort rebuilding commodities and ignores time-to-market value."
-      },
-      {
-        "text": "Delegate the entire decision to the development team based on their technical preference alone",
-        "trap": "Build-vs-buy is a strategic business decision, not purely a technical one; it needs product and cost judgment too."
-      }
-    ],
-    "explanation": "The right choice depends on whether the capability is table stakes or unique value, plus switching cost, maintenance, roadmap fit, and time-to-market."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Procurement",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A PM is choosing between a no-code platform (delivers in 2 weeks, limited customization) and custom development (3 months, full flexibility) for an internal workflow tool. How should the PM decide?"
-    ],
-    "correct": [
-      {
-        "text": "Weigh total cost of ownership against user base, change frequency, and integration needs, not just speed",
-        "why": "Both options carry hidden costs; the right choice depends on context like team size, growth trajectory, and scaling needs."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Choose custom development outright for its long-term quality, scalability, and maintainability",
-        "trap": "Defaults to custom regardless of context; for a small team with stable needs the extra investment may be unnecessary."
-      },
-      {
-        "text": "Start with the no-code platform as a prototype, then fully rebuild it in custom code later",
-        "trap": "A predetermined rebuild duplicates effort and creates throwaway waste when the no-code solution might simply be extended."
-      },
-      {
-        "text": "Choose no-code because speed to market always beats customization for internal-only tools",
-        "trap": "Treats delivery time as the only factor and ignores TCO, integration, and scaling limits that create later technical debt."
-      }
-    ],
-    "explanation": "Build-vs-buy should weigh total cost of ownership and fit to context, not just time-to-delivery; there's no universal answer."
+    "explanation": "When requirements are uncertain, T&M with a ceiling balances flexibility with a cap on the buyer's exposure.",
+    "subDomain": "Procurement Management"
   },
   {
     "schema": "question/v1",
@@ -1086,7 +404,8 @@
         "trap": "Measures internal capacity and planning reliability, not whether the product delivers value to customers."
       }
     ],
-    "explanation": "Solving the right problem is an outcome question; customer satisfaction and task success validate problem-solution fit, unlike output metrics."
+    "explanation": "Solving the right problem is an outcome question; customer satisfaction and task success validate problem-solution fit, unlike output metrics.",
+    "subDomain": "Value Delivery"
   },
   {
     "schema": "question/v1",
@@ -1119,73 +438,8 @@
         "trap": "Approximates an unweighted triangular average, not the beta (1-4-1) PERT weighting."
       }
     ],
-    "explanation": "PERT uses the beta-weighted formula (O + 4M + P) / 6, which gives 5 weeks here."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "On an agile team, asking for help is seen as weakness, so developers struggle silently for hours and often reinvent solutions that already exist. How should the PM build a help-seeking culture?"
-    ],
-    "correct": [
-      {
-        "text": "Normalize help-seeking by modeling vulnerability and making it visible, valued, and structurally easy",
-        "why": "The stigma is cultural, so it needs cultural intervention: leaders sharing struggles, pairing, easy channels, and celebrating collaboration."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Create formal escalation procedures with mandatory consultation requirements for the whole team",
-        "trap": "Rigid bureaucracy reinforces that help is only for 'serious' problems, treating a cultural issue as process compliance."
-      },
-      {
-        "text": "Assign each developer a single dedicated mentor who is their one point of contact for questions",
-        "trap": "Creates a gatekeeper dependency instead of normalizing peer collaboration across the whole team."
-      },
-      {
-        "text": "Mandate asking for help after 30 minutes of being stuck, with team leads enforcing the rule",
-        "trap": "Punitive monitoring reinforces the stigma and turns being stuck into a compliance violation, harming psychological safety."
-      }
-    ],
-    "explanation": "A cultural stigma dissolves when help-seeking is modeled by leaders, made structurally easy, and celebrated as efficiency, not weakness."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "In a newly formed agile team, two experienced members clash over technical approaches during retrospectives, and their debates discourage junior members from speaking. Per the Tuckman model, what stage is this and what should the Scrum Master do?"
-    ],
-    "correct": [
-      {
-        "text": "Storming — facilitate structured conflict resolution and create safe channels for junior members to contribute",
-        "why": "Conflict over approaches and power dynamics silencing others is characteristic of Storming, which calls for active facilitation."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Forming — set clear ground rules now to prevent these technical conflicts from emerging",
-        "trap": "Forming is the polite, uncertain early stage; active disagreement over approaches is Storming, and ground rules alone won't resolve it."
-      },
-      {
-        "text": "Performing — celebrate the team's high engagement and evident technical passion openly",
-        "trap": "Performing is a mature, high-trust team; passion that silences juniors is a Storming dysfunction, not high performance."
-      },
-      {
-        "text": "Norming — step back and let the team work through and resolve this conflict organically",
-        "trap": "Norming implies emerging shared norms; active unresolved conflict and excluded juniors mean the team hasn't reached it, and passivity ignores the power imbalance."
-      }
-    ],
-    "explanation": "Unresolved conflict over approaches with junior members shut out is Storming, requiring the Scrum Master to facilitate and create safe participation."
+    "explanation": "PERT uses the beta-weighted formula (O + 4M + P) / 6, which gives 5 weeks here.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -1218,7 +472,8 @@
         "trap": "End-only accounting removes the iteration-level feedback loops agile relies on to steer."
       }
     ],
-    "explanation": "Agile fixes cost and time per iteration with variable scope, using iteration-level visibility to steer."
+    "explanation": "Agile fixes cost and time per iteration with variable scope, using iteration-level visibility to steer.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -1251,40 +506,8 @@
         "trap": "They are distinct: features versus the work to produce them, measured against different baselines."
       }
     ],
-    "explanation": "Product scope = the product's features/functions; project scope = the work required to deliver that product."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Schedule",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team estimates in story points, but the product owner and stakeholders keep asking 'how many days is that?', creating confusion. How should the PM bridge estimation and communication?"
-    ],
-    "correct": [
-      {
-        "text": "Keep story points internally and give stakeholders calendar forecasts derived from historical velocity",
-        "why": "Relative sizing stays accurate for the team while velocity converts points to date ranges stakeholders can plan around."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Abandon story-point estimation entirely and rely only on flow metrics like cycle time and throughput",
-        "trap": "An overcorrection that discards a useful internal sizing tool; the problem is communication, not the estimation method."
-      },
-      {
-        "text": "Switch the entire team over to hour- and day-based estimation for each and every story",
-        "trap": "Absolute time estimates are less accurate than relative sizing and reintroduce the anchoring points were meant to avoid."
-      },
-      {
-        "text": "Run training sessions to teach the stakeholders how story-point estimation actually works",
-        "trap": "Shifts the translation burden onto sponsors; stakeholders legitimately need calendar forecasts for commitments."
-      }
-    ],
-    "explanation": "Use the right unit in each context: story points for the team, and velocity-derived date ranges for stakeholder communication."
+    "explanation": "Product scope = the product's features/functions; project scope = the work required to deliver that product.",
+    "subDomain": "Scope Management"
   },
   {
     "schema": "question/v1",
@@ -1317,44 +540,12 @@
         "trap": "Reflects a command-and-control bias; servant leadership requires strength and intentionality."
       }
     ],
-    "explanation": "Servant leadership serves and develops the team while removing obstacles, building high-performing, self-managing teams."
+    "explanation": "Servant leadership serves and develops the team while removing obstacles, building high-performing, self-managing teams.",
+    "subDomain": "Lead Project Team"
   },
   {
     "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Cost",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An ESG report requires project-level carbon accounting for an agile software project. What are the PRIMARY sources of carbon emissions?"
-    ],
-    "correct": [
-      {
-        "text": "Cloud infrastructure, data storage and transfer, CI/CD compute, and AI model training",
-        "why": "A software project's digital carbon footprint is dominated by continuously running compute and data workloads, the largest controllable sources."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Office building utilities and daily employee commuting to the workplace",
-        "trap": "Typically organizational-level emissions allocated across all activities, not the primary project-level source."
-      },
-      {
-        "text": "The manufacturing and embedded carbon of the team's laptops and servers",
-        "trap": "Incurred largely at procurement time, not an ongoing project-level emission the PM optimizes during development."
-      },
-      {
-        "text": "Paper documentation, printouts, and other printed project deliverables",
-        "trap": "Negligible for a digital project that delivers electronically."
-      }
-    ],
-    "explanation": "For software, the digital carbon footprint of cloud compute, data, CI/CD, and AI training dominates project-level emissions."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Risk",
     "difficulty": "medium",
     "type": "single",
@@ -1383,7 +574,8 @@
         "trap": "Reactive and ad hoc; without assessing impact you may apply the wrong strategy."
       }
     ],
-    "explanation": "Newly identified risks are first recorded in the register and analyzed for probability and impact before responding or escalating."
+    "explanation": "Newly identified risks are first recorded in the register and analyzed for probability and impact before responding or escalating.",
+    "subDomain": "Risk Management"
   },
   {
     "schema": "question/v1",
@@ -1416,7 +608,8 @@
         "trap": "Circumventing PM authority undermines the communications plan and creates parallel power structures."
       }
     ],
-    "explanation": "An escalation path defines the hierarchy and process for raising unresolved issues to appropriate decision-makers through proper channels."
+    "explanation": "An escalation path defines the hierarchy and process for raising unresolved issues to appropriate decision-makers through proper channels.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
@@ -1449,7 +642,8 @@
         "trap": "Timeboxing is a general agile technique used across Scrum, Kanban, XP, and more."
       }
     ],
-    "explanation": "Timeboxing sets a fixed duration; when time expires the team stops and evaluates, forcing prioritization and enabling regular feedback."
+    "explanation": "Timeboxing sets a fixed duration; when time expires the team stops and evaluates, forcing prioritization and enabling regular feedback.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -1482,44 +676,12 @@
         "trap": "That is change control documentation, a different concept from optimizing value delivery flow."
       }
     ],
-    "explanation": "Value stream mapping visualizes the concept-to-customer flow of work to expose waste and bottlenecks and improve flow efficiency."
+    "explanation": "Value stream mapping visualizes the concept-to-customer flow of work to expose waste and bottlenecks and improve flow efficiency.",
+    "subDomain": "Value Delivery"
   },
   {
     "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Schedule",
-    "difficulty": "easy",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team consistently overcommits in sprint planning, leaving incomplete work each sprint. What is the BEST corrective action?"
-    ],
-    "correct": [
-      {
-        "text": "Plan realistic commitments using the team's actual historical velocity",
-        "why": "Velocity data grounds planning in what the team has actually achieved, creating sustainable, predictable delivery."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Introduce mandatory overtime and extend the sprint duration to fit the work",
-        "trap": "Unsustainable; it adds capacity to meet unrealistic commitments instead of fixing planning discipline."
-      },
-      {
-        "text": "Add more developers to the team to balance capacity across the sprints",
-        "trap": "Ignores Brooks's Law; onboarding overhead often reduces short-term output, and headcount isn't the root cause."
-      },
-      {
-        "text": "Eliminate the retrospectives and focus only on the delivery metrics",
-        "trap": "Removes the very forum for inspecting and correcting the overcommitment pattern."
-      }
-    ],
-    "explanation": "Overcommitment usually stems from aspirational planning; using demonstrated velocity produces sustainable, predictable sprints."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Scope",
     "difficulty": "easy",
     "type": "single",
@@ -1548,7 +710,8 @@
         "trap": "Accepting without analysis or approval bypasses change control and risks uncontrolled scope creep."
       }
     ],
-    "explanation": "PMI defaults to neither acceptance nor rejection; the first action is impact analysis through the integrated change control process."
+    "explanation": "PMI defaults to neither acceptance nor rejection; the first action is impact analysis through the integrated change control process.",
+    "subDomain": "Change Control"
   },
   {
     "schema": "question/v1",
@@ -1581,40 +744,8 @@
         "trap": "They are distinct in time horizon and focus; treating them as identical misses the nuance."
       }
     ],
-    "explanation": "Mentoring builds careers over the long term; coaching improves specific performance in the short term, and PMs may provide both."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Procurement",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A startup must choose between building a feature internally (3-month effort, full control) or integrating a third-party solution (2-week effort, vendor dependency). The feature is critical but not a competitive differentiator. Which framework should the PM apply?"
-    ],
-    "correct": [
-      {
-        "text": "Build-buy-partner by strategic value: build differentiators, buy commodities, partner for missing expertise",
-        "why": "A non-differentiating feature that costs 3 months to build vs. 2 weeks to buy is a clear buy; scarce engineering time should go to advantage-creating work."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Always select the option with the lowest total cost, regardless of its strategic value",
-        "trap": "Ignores strategic differentiation, the key criterion; cheapest isn't always the highest-value use of scarce resources."
-      },
-      {
-        "text": "Build the feature internally to keep full technical control and avoid all vendor risk",
-        "trap": "Spends 3 months rebuilding a commodity, exhausting scarce engineering capacity on non-strategic work."
-      },
-      {
-        "text": "Adopt a build-everything philosophy to avoid every kind of external vendor dependency",
-        "trap": "Wastes engineering capacity replicating commodity capabilities instead of investing in differentiation."
-      }
-    ],
-    "explanation": "The build-buy-partner framework allocates effort by strategic value; a critical but non-differentiating feature is a clear buy decision."
+    "explanation": "Mentoring builds careers over the long term; coaching improves specific performance in the short term, and PMs may provide both.",
+    "subDomain": "Lead Project Team"
   },
   {
     "schema": "question/v1",
@@ -1647,7 +778,8 @@
         "trap": "Neither addresses underperformance nor reassignment creates a backup capable of filling a critical role."
       }
     ],
-    "explanation": "Succession planning proactively builds a bench for critical roles to mitigate key-person risk before a vacancy occurs."
+    "explanation": "Succession planning proactively builds a bench for critical roles to mitigate key-person risk before a vacancy occurs.",
+    "subDomain": "Knowledge Transfer"
   },
   {
     "schema": "question/v1",
@@ -1680,7 +812,8 @@
         "trap": "Concealing facts is dishonest and collapses when reality surfaces, destroying credibility."
       }
     ],
-    "explanation": "Bad news should be communicated promptly and honestly with impacts and mitigation, because early communication enables early corrective action."
+    "explanation": "Bad news should be communicated promptly and honestly with impacts and mitigation, because early communication enables early corrective action.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
@@ -1713,40 +846,8 @@
         "trap": "That is the contract, which is created after source selection, not the description of the need."
       }
     ],
-    "explanation": "The procurement SOW details the need so vendors can bid; it precedes contracts and invoices in the procurement lifecycle."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Procurement",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "What document translates project requirements into a detailed description of the item being purchased so sellers can bid?"
-    ],
-    "correct": [
-      {
-        "text": "Procurement statement of work (SOW).",
-        "why": "The SOW provides the detailed specifications and deliverables sellers need to prepare accurate proposals."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "An invoice submitted after goods are delivered.",
-        "trap": "An invoice requests payment; it does not describe what is being procured."
-      },
-      {
-        "text": "A purchase authorization that initiates the buying process.",
-        "trap": "Authorization launches procurement but lacks the functional detail sellers require."
-      },
-      {
-        "text": "A signed contract memorializing agreed terms.",
-        "trap": "The contract records agreed terms after selection; the SOW is an input that precedes it."
-      }
-    ],
-    "explanation": "The SOW is the subsidiary document that describes the procurement item in detail, enabling accurate bids before any contract exists."
+    "explanation": "The procurement SOW details the need so vendors can bid; it precedes contracts and invoices in the procurement lifecycle.",
+    "subDomain": "Procurement Management"
   },
   {
     "schema": "question/v1",
@@ -1779,7 +880,8 @@
         "trap": "Budget analysis belongs to cost management, not the sprint review's product focus."
       }
     ],
-    "explanation": "The sprint review demonstrates the increment to stakeholders and collects feedback that informs future sprints; it is not a status report or appraisal."
+    "explanation": "The sprint review demonstrates the increment to stakeholders and collects feedback that informs future sprints; it is not a status report or appraisal.",
+    "subDomain": "Engage Stakeholders"
   },
   {
     "schema": "question/v1",
@@ -1812,7 +914,8 @@
         "trap": "Collaborative and emotional exchanges are better served by synchronous verbal communication."
       }
     ],
-    "explanation": "Written communication is best for complexity, permanent records, legal requirements, and distributed audiences; verbal is better for sensitive, urgent, or collaborative exchanges."
+    "explanation": "Written communication is best for complexity, permanent records, legal requirements, and distributed audiences; verbal is better for sensitive, urgent, or collaborative exchanges.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
@@ -1845,7 +948,8 @@
         "trap": "That is three-point (PERT) estimating, which addresses uncertainty rather than scaling by a rate."
       }
     ],
-    "explanation": "Parametric estimating multiplies a statistical unit rate by the quantity of work; it is more accurate than analogous when valid parameters exist."
+    "explanation": "Parametric estimating multiplies a statistical unit rate by the quantity of work; it is more accurate than analogous when valid parameters exist.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -1878,7 +982,8 @@
         "trap": "Task assignment occurs in sprint planning or daily coordination, not refinement."
       }
     ],
-    "explanation": "Refinement is continuous preparation of upcoming backlog items so they are understood and 'ready' before sprint planning."
+    "explanation": "Refinement is continuous preparation of upcoming backlog items so they are understood and 'ready' before sprint planning.",
+    "subDomain": "Scope Management"
   },
   {
     "schema": "question/v1",
@@ -1911,11 +1016,12 @@
         "trap": "That is a governance problem, not the estimate-accuracy concept the cone describes."
       }
     ],
-    "explanation": "The cone of uncertainty shows estimate accuracy improving over time, supporting iterative and rolling-wave planning."
+    "explanation": "The cone of uncertainty shows estimate accuracy improving over time, supporting iterative and rolling-wave planning.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Quality",
     "difficulty": "medium",
     "type": "single",
@@ -1944,7 +1050,8 @@
         "trap": "Training addresses individual skills under resource management, not process analysis."
       }
     ],
-    "explanation": "The process improvement plan is a component of the project management plan focused on analyzing and improving work processes."
+    "explanation": "The process improvement plan is a component of the project management plan focused on analyzing and improving work processes.",
+    "subDomain": "Continuous Improvement"
   },
   {
     "schema": "question/v1",
@@ -1977,11 +1084,12 @@
         "trap": "MMF concerns customer value, not cost allocation, which uses estimating techniques."
       }
     ],
-    "explanation": "An MMF is the smallest unit of standalone customer value, letting teams deliver incrementally and learn from each release."
+    "explanation": "An MMF is the smallest unit of standalone customer value, letting teams deliver incrementally and learn from each release.",
+    "subDomain": "Value Delivery"
   },
   {
     "schema": "question/v1",
-    "domain": "People",
+    "domain": "Process",
     "topic": "Resources",
     "difficulty": "medium",
     "type": "single",
@@ -2010,40 +1118,8 @@
         "trap": "Global projects make cultural awareness more critical, not less."
       }
     ],
-    "explanation": "Culture affects communication, decisions, conflict, motivation, and authority, so PMs must tailor their approach to the cultural context."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Cost",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "Your project's TCPI is 1.15, meaning remaining work must be 15% more efficient to meet the budget. Which estimating approach best supports a detailed recovery re-plan?"
-    ],
-    "correct": [
-      {
-        "text": "Bottom-up estimating using a detailed WBS.",
-        "why": "An elevated TCPI signals recovery, which requires rigorous, detailed re-estimation of remaining work packages rather than shortcuts."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Analogous estimating for a fast top-down figure.",
-        "trap": "A rough top-down technique cannot address how to meet an elevated recovery target."
-      },
-      {
-        "text": "Expert judgment from senior estimators alone.",
-        "trap": "Opinion-based estimates lack the analytical rigor needed when TCPI exceeds 1.0."
-      },
-      {
-        "text": "A rough order of magnitude (ROM) approximation.",
-        "trap": "A wide, imprecise estimate is unsuitable for a disciplined cost recovery plan."
-      }
-    ],
-    "explanation": "When TCPI exceeds 1.0 and recovery is needed, detailed bottom-up re-estimation of remaining work provides the rigor PMI expects."
+    "explanation": "Culture affects communication, decisions, conflict, motivation, and authority, so PMs must tailor their approach to the cultural context.",
+    "subDomain": "Resource Management"
   },
   {
     "schema": "question/v1",
@@ -2076,7 +1152,8 @@
         "trap": "Sprint planning is a scrum event for selecting work, not CI."
       }
     ],
-    "explanation": "CI is a technical practice of frequent automated code merging and testing that keeps the codebase in a working state."
+    "explanation": "CI is a technical practice of frequent automated code merging and testing that keeps the codebase in a working state.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
@@ -2109,7 +1186,8 @@
         "trap": "This contradicts agile team-based estimation and self-organization."
       }
     ],
-    "explanation": "AI enhances PM practice as a data-driven aid, but the team retains decision-making authority with appropriate human oversight."
+    "explanation": "AI enhances PM practice as a data-driven aid, but the team retains decision-making authority with appropriate human oversight.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -2142,40 +1220,8 @@
         "trap": "A wordplay distractor; PMI does not define communication types by industry setting."
       }
     ],
-    "explanation": "Synchronous communication means simultaneous, real-time participation (meetings, calls, video, live chat), enabling immediate two-way exchange."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A skilled but persistently negative team member criticizes every decision and drains energy, and others now avoid collaborating with them. How should the PM address the persistent negativity?"
-    ],
-    "correct": [
-      {
-        "text": "Meet privately, name the specific pattern, and require each concern to include a proposed solution.",
-        "why": "Separating the person from the behavior with concrete examples channels critical thinking productively and surfaces root causes."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Reframe it as a devil's-advocate strength and give them a formal risk-officer role.",
-        "trap": "Institutionalizing unrelenting negativity avoids coaching behavior that is harming collaboration."
-      },
-      {
-        "text": "Leave it for the team to surface through retrospective peer feedback later.",
-        "trap": "Peer feedback alone is insufficient when behavior is causing avoidance; the PM should address it directly first."
-      },
-      {
-        "text": "Request an immediate transfer since their attitude is incompatible with agile teamwork.",
-        "trap": "Transfer is premature before coaching and root-cause investigation."
-      }
-    ],
-    "explanation": "The PM should coach privately with specific observations, require constructive alternatives, and understand root causes before escalating."
+    "explanation": "Synchronous communication means simultaneous, real-time participation (meetings, calls, video, live chat), enabling immediate two-way exchange.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
@@ -2208,7 +1254,8 @@
         "trap": "Overlapping sequential work adds rework and coordination risk, typically more than crashing."
       }
     ],
-    "explanation": "Crashing adds resources at extra cost while preserving scope and quality, so it carries the least risk of the compression options."
+    "explanation": "Crashing adds resources at extra cost while preserving scope and quality, so it carries the least risk of the compression options.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -2241,40 +1288,8 @@
         "trap": "Top-down comparison to past projects is the fastest but least accurate technique."
       }
     ],
-    "explanation": "Bottom-up estimating aggregates detailed work-package estimates for maximum accuracy at the cost of the most effort."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team reliably meets sprint commitments but never goes beyond the minimum, showing no proactive improvement or initiative. How should the PM spark higher performance?"
-    ],
-    "correct": [
-      {
-        "text": "Investigate the root cause of disengagement and restore conditions that reward initiative.",
-        "why": "Consistently minimal delivery usually signals disengagement or burnout; diagnosing and restoring psychological safety and meaning re-ignites initiative."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Add optional stretch goals and public recognition programs each sprint.",
-        "trap": "Layering goals without diagnosing why the team is disengaged does not address the underlying cause."
-      },
-      {
-        "text": "Accept reliable delivery as good enough for organizational stability.",
-        "trap": "Accepting minimal engagement wastes team potential and ignores a motivation problem."
-      },
-      {
-        "text": "Raise sprint commitments by 20-30% each sprint to force higher output.",
-        "trap": "Arbitrary pressure without systemic fixes damages trust and is command-and-control, not servant leadership."
-      }
-    ],
-    "explanation": "The PM should diagnose the cause of disengagement before acting, then restore recognition, ownership, and meaning so the team chooses to stretch."
+    "explanation": "Bottom-up estimating aggregates detailed work-package estimates for maximum accuracy at the cost of the most effort.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -2307,73 +1322,8 @@
         "trap": "Schedule performance is measured by SPI, not CPI."
       }
     ],
-    "explanation": "CPI of 1.25 indicates strong cost efficiency: $1.25 of earned value per $1 spent, meaning the project is under budget."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team wants to use AI for automated code review, but senior developers worry it will miss context-specific issues. How should the PM position AI code review?"
-    ],
-    "correct": [
-      {
-        "text": "A first-pass filter for common issues, freeing humans for architecture and context.",
-        "why": "AI reliably catches style, security patterns, and obvious bugs, while humans focus on business logic and context AI cannot evaluate."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "As the primary quality gate to reduce most human review overhead.",
-        "trap": "Making AI the primary gate ignores context-specific issues that require human judgment."
-      },
-      {
-        "text": "As an optional tool that developers opt into by personal preference.",
-        "trap": "Opt-in creates inconsistent quality standards across the codebase."
-      },
-      {
-        "text": "As a review tool applied only to junior developers' code changes.",
-        "trap": "Pattern-based issues occur regardless of author seniority, so restricting by level misses defects."
-      }
-    ],
-    "explanation": "AI complements human review as a consistent first-pass filter, letting reviewers concentrate on architecture, business logic, and context."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team's Scrum Master leaves, and leadership asks the PM to absorb the role while keeping their PM duties. How should the PM handle this dual-role situation?"
-    ],
-    "correct": [
-      {
-        "text": "Accept temporarily with clear boundaries and a timeline while pushing to hire a replacement.",
-        "why": "PM and Scrum Master roles have inherent tension, so a bounded, transparent interim arrangement prevents chronic compromise of both functions."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Decline the request entirely and insist on hiring a dedicated Scrum Master first.",
-        "trap": "Outright refusal ignores organizational reality and leaves the team without support in the interim."
-      },
-      {
-        "text": "Permanently rotate Scrum Master duties among the team members each sprint.",
-        "trap": "Rotation covers facilitation but not the dedicated servant leadership for organizational impediments."
-      },
-      {
-        "text": "Permanently combine both the PM and Scrum Master roles as a new delivery model.",
-        "trap": "Permanent combination creates chronic conflict between delivery accountability and team protection."
-      }
-    ],
-    "explanation": "A time-boxed, transparent dual role with clear boundaries and active advocacy for a replacement avoids the long-term degradation both roles suffer when merged."
+    "explanation": "CPI of 1.25 indicates strong cost efficiency: $1.25 of earned value per $1 spent, meaning the project is under budget.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -2406,7 +1356,8 @@
         "trap": "Under budget means CPI above 1.0, not 1.0."
       }
     ],
-    "explanation": "CPI of 1.0 means cost performance exactly matches plan, the breakeven point between under and over budget."
+    "explanation": "CPI of 1.0 means cost performance exactly matches plan, the breakeven point between under and over budget.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -2439,7 +1390,8 @@
         "trap": "Passive inaction ignores the forecast overrun and violates monitoring-and-controlling responsibilities."
       }
     ],
-    "explanation": "When EAC exceeds BAC, first analyze the variance and its root cause, then determine corrective action through proper process."
+    "explanation": "When EAC exceeds BAC, first analyze the variance and its root cause, then determine corrective action through proper process.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -2472,106 +1424,8 @@
         "trap": "That spreads credit across milestones rather than withholding all of it until 100%."
       }
     ],
-    "explanation": "Under the 0/100 rule, an activity earns zero value until it is fully complete, a conservative approach ideal for short-duration tasks."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Procurement",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A project deploys sensors across a marine sanctuary for coral monitoring. What sustainability considerations should the PM address?"
-    ],
-    "correct": [
-      {
-        "text": "The full lifecycle footprint—materials, power, transmission, and disposal—weighed against conservation benefit",
-        "why": "Sustainability requires balancing the project's own footprint against its conservation benefit across the entire deployment lifecycle, not just compliance."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Procurement cost, installation budget, and basic environmental equipment certification standards",
-        "trap": "Budget discipline treats sustainability as a procurement checkbox, ignoring the ecological footprint."
-      },
-      {
-        "text": "Weather resistance, durability, and maintenance schedules that reduce costly site visits",
-        "trap": "Operational reliability is not holistic sustainability; long-lasting gear can still use non-recyclable materials."
-      },
-      {
-        "text": "Warranty coverage, technical support, and regulatory permits required for the protected area",
-        "trap": "Permits and warranties ensure compliance and function but do not evaluate lifecycle environmental impact."
-      }
-    ],
-    "explanation": "Even projects with positive environmental goals must weigh their own lifecycle footprint against the benefit they deliver."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Quality",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team's OKR to raise activation by 20% ended at 11%. The team calls it partial success; the VP calls it failure. How should the PM frame this benefits result?"
-    ],
-    "correct": [
-      {
-        "text": "Report the result honestly with the learning about activation drivers and the path to the target",
-        "why": "OKR evaluation should combine the measured result with validated learning; partial achievement with real insight is a foundation for future success."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Declare it a failure and impose performance improvement plans for missing the target",
-        "trap": "Punitive labeling ignores that stretch OKRs are ambitious and validated learning has strategic value."
-      },
-      {
-        "text": "Celebrate the gain and retroactively lower the target to match what was achieved",
-        "trap": "Rewriting targets post-hoc undermines stretch goals and distorts honest measurement."
-      },
-      {
-        "text": "Attribute the shortfall to poor market conditions and heightened competitive pressure",
-        "trap": "Blaming external factors deflects accountability without adding actionable insight."
-      }
-    ],
-    "explanation": "Frame benefits results with both the number and the learning; partial achievement with understanding beats full achievement by luck."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A coach sees that retrospective action items rarely get done because they land in the product backlog and are deprioritized by the product owner. What should the PM facilitate?"
-    ],
-    "correct": [
-      {
-        "text": "Create a separate team-owned improvement backlog with a protected 10-15% of sprint capacity",
-        "why": "Protected capacity ensures improvement work actually happens instead of always losing to feature pressure; it fixes the system rather than negotiating within it."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Negotiate a minimum percentage of story points for improvements in the product backlog",
-        "trap": "Items still sit under PO prioritization and get squeezed out when feature pressure rises."
-      },
-      {
-        "text": "Treat improvements as retrospective and planning overhead rather than backlog items",
-        "trap": "Ceremony overhead has no protected capacity, so improvements still get squeezed out."
-      },
-      {
-        "text": "Escalate retrospective action items to senior management for prioritization",
-        "trap": "Over-escalates a team-level impediment and removes team ownership of improvement."
-      }
-    ],
-    "explanation": "If the system deprioritizes improvement, change the system: a protected, team-owned improvement allocation."
+    "explanation": "Under the 0/100 rule, an activity earns zero value until it is fully complete, a conservative approach ideal for short-duration tasks.",
+    "subDomain": "Financial Management"
   },
   {
     "schema": "question/v1",
@@ -2604,40 +1458,8 @@
         "trap": "The sponsor engages executives but does not own day-to-day engagement across all groups."
       }
     ],
-    "explanation": "The PM is accountable for stakeholder engagement, distributing relationship work by expertise while retaining ownership."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A PM is coaching a team transitioning to agile, and the team keeps asking the PM to make decisions for them. What should the PM do?"
-    ],
-    "correct": [
-      {
-        "text": "Coach decision-making with guiding questions and frameworks as the team gains confidence",
-        "why": "Self-organization is built gradually through scaffolding, not sudden abandonment; the PM progressively hands over decisions."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Refuse all decisions and force the team to figure it out immediately",
-        "trap": "Sudden withdrawal abandons the team and creates confusion and delivery risk."
-      },
-      {
-        "text": "Build a comprehensive decision matrix with RACI charts for every choice",
-        "trap": "Rigid process adds bureaucracy without developing the team's judgment."
-      },
-      {
-        "text": "Make all the decisions quickly yourself to keep delivery moving forward",
-        "trap": "Reinforces the exact dependency the team must overcome."
-      }
-    ],
-    "explanation": "Teams moving from command-and-control need coaching scaffolding, with the PM gradually reducing involvement."
+    "explanation": "The PM is accountable for stakeholder engagement, distributing relationship work by expertise while retaining ownership.",
+    "subDomain": "Engage Stakeholders"
   },
   {
     "schema": "question/v1",
@@ -2670,73 +1492,8 @@
         "trap": "Workload reduction is not the primary value; better scope definition and ownership are."
       }
     ],
-    "explanation": "Collaborative WBS creation improves accuracy, surfaces risks early, and builds shared accountability."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Cost",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team's sprint budget is fixed, but cloud infrastructure cost varies wildly by feature. Data-heavy features spike costs 300%, surprising finance at month-end. How should the PM manage variable infrastructure costs?"
-    ],
-    "correct": [
-      {
-        "text": "Build cost into planning: tag stories with cost impact, warn finance of spikes, and set guardrails",
-        "why": "Proactive, story-level cost visibility and advance communication prevent month-end surprises and make infrastructure cost as visible as velocity."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Migrate everything to on-premise hardware to establish fixed, predictable monthly costs",
-        "trap": "Large capital shift that ignores cheaper visibility-based solutions and reduces flexibility."
-      },
-      {
-        "text": "Give developers unlimited cloud resources and only analyze the spend after each sprint",
-        "trap": "Post-hoc analysis of uncontrolled spend is exactly what caused the finance surprise."
-      },
-      {
-        "text": "Set hard monthly spending caps and reject any feature that would exceed them",
-        "trap": "Rigid caps block valuable work instead of forecasting and governing variable cost."
-      }
-    ],
-    "explanation": "Make infrastructure cost visible during planning, forecast spikes to finance, and govern with guardrails and optimization stories."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "After a reorganization, teams must adopt agile but the performance review system still rewards individual output over team outcomes, undermining collaboration. What systemic change should the PM advocate?"
-    ],
-    "correct": [
-      {
-        "text": "Align the performance system with the culture by adding team metrics and rewarding collaboration",
-        "why": "You cannot ask for collaboration while rewarding competition; sustainable change requires aligning what is measured and rewarded."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Build a parallel team-based evaluation that supplements HR reviews without changing them",
-        "trap": "Leaves the underlying incentive misalignment intact; people optimize for what formal reviews reward."
-      },
-      {
-        "text": "Focus only on local team norms and work around the existing HR review system",
-        "trap": "Local culture cannot sustainably override organization-wide reward systems."
-      },
-      {
-        "text": "Eliminate individual reviews entirely and distribute rewards equally to everyone",
-        "trap": "Extreme overcorrection; agile keeps individual accountability alongside team outcomes."
-      }
-    ],
-    "explanation": "Cultural change requires systemic alignment of incentives, not workarounds or blanket elimination of individual recognition."
+    "explanation": "Collaborative WBS creation improves accuracy, surfaces risks early, and builds shared accountability.",
+    "subDomain": "Scope Management"
   },
   {
     "schema": "question/v1",
@@ -2769,106 +1526,8 @@
         "trap": "Confuses busyness with effectiveness; quality and relevance matter more than volume."
       }
     ],
-    "explanation": "The purpose of communication is alignment and coordinated action, not paperwork or activity for its own sake."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team member says the team keeps getting interrupted by production issues during sprints. What should the Scrum Master do?"
-    ],
-    "correct": [
-      {
-        "text": "Work with the team to allocate capacity for support work or set up an on-call rotation",
-        "why": "Support work is a reality; reserving capacity or rotating on-call protects sprint focus while handling issues."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Immediately cancel the current sprint and restart after all issues are resolved",
-        "trap": "Disruptive overreaction that does not address the recurring support demand."
-      },
-      {
-        "text": "Escalate the complaint to senior management and consider replacing the member",
-        "trap": "Punitive and misdirected; the issue is capacity planning, not the person."
-      },
-      {
-        "text": "Tell the member to focus only on sprint work and ignore production issues",
-        "trap": "Ignoring production issues harms the product and users."
-      }
-    ],
-    "explanation": "Plan for interruptions with reserved support capacity or an on-call rotation rather than canceling or blaming."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Stakeholders",
-    "difficulty": "hard",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team gets frequent ad-hoc executive requests that bypass the backlog, disrupting sprint goals. The PO feels unable to push back on senior leadership. How should the PM establish intake discipline?"
-    ],
-    "correct": [
-      {
-        "text": "Route all requests through one visible intake funnel, so urgent asks must displace equal committed work",
-        "why": "A single funnel plus trade-off visibility makes the cost of interruptions clear without requiring the PO to simply say no."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Accommodate all executive requests immediately with guaranteed same-day turnaround",
-        "trap": "Rewards side-channel insertion and destroys sprint commitment and focus."
-      },
-      {
-        "text": "Have the PM personally gatekeep and reject requests that do not fit the sprint goals",
-        "trap": "Blocking executive energy creates conflict and centralizes rejection instead of showing trade-offs."
-      },
-      {
-        "text": "Permanently reserve 20-30% of every sprint's capacity for executive ad-hoc requests",
-        "trap": "Institutionalizes bypassing the backlog and permanently sacrifices planned capacity."
-      }
-    ],
-    "explanation": "Make interruptions flow through one transparent backlog where trade-offs are visible, channeling executive energy constructively."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A new product owner has strong business knowledge but no agile experience, and the team is frustrated by poor user stories and unclear priorities. What should the PM do?"
-    ],
-    "correct": [
-      {
-        "text": "Provide targeted coaching: pair the PO with the Scrum Master and teach prioritization frameworks",
-        "why": "Hands-on coaching builds agile fluency quickly while preserving the PO's valuable business expertise."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Have the development team gather requirements and write stories directly with stakeholders",
-        "trap": "Bypasses PO accountability for backlog ownership and prioritization."
-      },
-      {
-        "text": "Send the PO to full certification training before they participate in sprint planning",
-        "trap": "Delays urgent improvements and wastes business expertise; classroom alone does not build practical skill."
-      },
-      {
-        "text": "Recruit an experienced PO to take over and move the current PO to business analyst",
-        "trap": "Discards valuable business knowledge for a trainable skill gap."
-      }
-    ],
-    "explanation": "Coach the PO's agile skills through pairing and frameworks rather than replacing or sidelining them."
+    "explanation": "The purpose of communication is alignment and coordinated action, not paperwork or activity for its own sake.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
@@ -2901,11 +1560,12 @@
         "trap": "They omit supporting detail and cannot replace the full record."
       }
     ],
-    "explanation": "Executive summaries are concise entry points to understanding, not a replacement for detailed reporting."
+    "explanation": "Executive summaries are concise entry points to understanding, not a replacement for detailed reporting.",
+    "subDomain": "Communication Management"
   },
   {
     "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Risk",
     "difficulty": "medium",
     "type": "single",
@@ -2934,7 +1594,8 @@
         "trap": "One-time identification misses risks that emerge as the project progresses."
       }
     ],
-    "explanation": "Comprehensive risk management is iterative, reassessing risks at each phase rather than once at the start."
+    "explanation": "Comprehensive risk management is iterative, reassessing risks at each phase rather than once at the start.",
+    "subDomain": "Risk Management"
   },
   {
     "schema": "question/v1",
@@ -2967,11 +1628,12 @@
         "trap": "Testing is often part of DoD but does not define its full, cross-cutting scope."
       }
     ],
-    "explanation": "The DoD is a shared, transparent quality standard for completion, independent of PO acceptance or the calendar."
+    "explanation": "The DoD is a shared, transparent quality standard for completion, independent of PO acceptance or the calendar.",
+    "subDomain": "Quality Management"
   },
   {
     "schema": "question/v1",
-    "domain": "Process",
+    "domain": "Business Environment",
     "topic": "Risk",
     "difficulty": "medium",
     "type": "single",
@@ -3000,7 +1662,8 @@
         "trap": "Ranking position is unrelated to what secondary risk means."
       }
     ],
-    "explanation": "A secondary risk is a new risk created by implementing a risk response, distinct from a residual or low-ranked risk."
+    "explanation": "A secondary risk is a new risk created by implementing a risk response, distinct from a residual or low-ranked risk.",
+    "subDomain": "Risk Management"
   },
   {
     "schema": "question/v1",
@@ -3033,7 +1696,8 @@
         "trap": "Timeboxing caps duration; it does not measure effort per item."
       }
     ],
-    "explanation": "Timeboxing allocates a fixed maximum duration to an activity or event to maintain focus."
+    "explanation": "Timeboxing allocates a fixed maximum duration to an activity or event to maintain focus.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -3066,7 +1730,8 @@
         "trap": "Burnup charts track work completed versus scope, not cost."
       }
     ],
-    "explanation": "Burnup charts separate completed work from a total scope line, so scope changes are visible; burndowns show only remaining work."
+    "explanation": "Burnup charts separate completed work from a total scope line, so scope changes are visible; burndowns show only remaining work.",
+    "subDomain": "Project Monitoring"
   },
   {
     "schema": "question/v1",
@@ -3099,73 +1764,8 @@
         "trap": "Normalizes slippage without improving prioritization or focus."
       }
     ],
-    "explanation": "Starting too much work spreads resources thin; portfolio management prioritizes and limits WIP to improve completion."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "A team member consistently volunteers for the easiest tasks in sprint planning, leaving complex work for others. How should the SM address this?"
-    ],
-    "correct": [
-      {
-        "text": "Discuss it privately, explore causes like fear or skill gaps, and pair them with a mentor",
-        "why": "Avoidance often signals fear or skill gaps; private coaching and supportive pairing build growth without shame."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Implement a task rotation system to force equitable distribution of work",
-        "trap": "Mechanical rotation ignores the underlying reason for the avoidance."
-      },
-      {
-        "text": "Let team dynamics balance the workload out naturally through peer pressure",
-        "trap": "Passive waiting abdicates the SM's coaching responsibility and breeds resentment."
-      },
-      {
-        "text": "Raise the avoidance pattern publicly in the next team retrospective",
-        "trap": "Public callout risks shame and defensiveness before the root cause is understood."
-      }
-    ],
-    "explanation": "Address avoidance through private coaching and supportive pairing to build capability rather than forcing or shaming."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "People",
-    "topic": "Resources",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An agile team's biggest impediment is decision fatigue: the product owner must approve every detail, creating a bottleneck, but is unwilling to delegate. What should the PM facilitate?"
-    ],
-    "correct": [
-      {
-        "text": "Help the PO build a delegation framework sorting decisions into team-autonomous, PO-input, or PO-only",
-        "why": "Categorizing decisions by impact and reversibility frees the PO for strategic calls while unblocking the team on routine ones."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Establish a rotating product owner committee to share the approval workload each sprint",
-        "trap": "Multiple decision-makers dilute accountability and can increase decision fatigue."
-      },
-      {
-        "text": "Have the Scrum Master assume the PO's approval duties whenever the PO is absent",
-        "trap": "Violates Scrum role boundaries and creates product-vision confusion."
-      },
-      {
-        "text": "Reduce scope by limiting stories per sprint to cut the number of decision points",
-        "trap": "Treats the symptom and sacrifices value instead of enabling delegation."
-      }
-    ],
-    "explanation": "A decision-delegation framework categorized by impact keeps the PO on strategic decisions while empowering the team on routine ones."
+    "explanation": "Starting too much work spreads resources thin; portfolio management prioritizes and limits WIP to improve completion.",
+    "subDomain": "Value Delivery"
   },
   {
     "schema": "question/v1",
@@ -3198,40 +1798,8 @@
         "trap": "Resource availability is not the same as temporal schedule flexibility."
       }
     ],
-    "explanation": "Float measures the schedule flexibility of an activity, computed from the network and critical path, not reserves or resources."
-  },
-  {
-    "schema": "question/v1",
-    "domain": "Process",
-    "topic": "Scope",
-    "difficulty": "medium",
-    "type": "single",
-    "select": 1,
-    "present": 4,
-    "prompts": [
-      "An enterprise product offers a 90-day free trial. Data shows 60% of trial users are highly engaged by day 30, but only 25% convert by day 90. What should the PM investigate?"
-    ],
-    "correct": [
-      {
-        "text": "The day 30-to-90 gap, since strong early engagement but low conversion signals later friction",
-        "why": "High early engagement rules out product value as the issue, so the PM should analyze the drop-off between engagement peak and purchase decision."
-      }
-    ],
-    "distractors": [
-      {
-        "text": "Extend the trial to 180 days to remove any conversion-related time pressure",
-        "trap": "Assumes more time helps without investigating why conversion stalls after day 30."
-      },
-      {
-        "text": "Shorten the trial to 30 days to capitalize on the day-30 engagement peak",
-        "trap": "Enterprise procurement often exceeds 30 days, likely worsening conversion."
-      },
-      {
-        "text": "Eliminate the trial entirely and switch to a freemium pricing model instead",
-        "trap": "Drastic model change unsupported by data; the trial already drives strong engagement."
-      }
-    ],
-    "explanation": "Investigate the day 30-90 conversion gap (trial fatigue, competitive evaluation, procurement friction) before changing the model."
+    "explanation": "Float measures the schedule flexibility of an activity, computed from the network and critical path, not reserves or resources.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -3264,7 +1832,8 @@
         "trap": "Negative float is precisely an indicator of a schedule health problem."
       }
     ],
-    "explanation": "Negative total float indicates the schedule cannot meet its deadline as planned and requires compression or renegotiation."
+    "explanation": "Negative total float indicates the schedule cannot meet its deadline as planned and requires compression or renegotiation.",
+    "subDomain": "Schedule Management"
   },
   {
     "schema": "question/v1",
@@ -3297,6 +1866,7 @@
         "trap": "WIP limits increase throughput, the opposite of slowing delivery."
       }
     ],
-    "explanation": "WIP limits optimize flow by cutting context switching, finishing work faster, and exposing bottlenecks."
+    "explanation": "WIP limits optimize flow by cutting context switching, finishing work faster, and exposing bottlenecks.",
+    "subDomain": "Value Delivery"
   }
 ]
