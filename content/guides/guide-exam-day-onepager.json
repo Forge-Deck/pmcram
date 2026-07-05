@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Exam-Day One-Pager",
+    "category": "Exam Strategy",
+    "summary": "The final-glance sheet: every must-know acronym, the predictive vs agile vs hybrid differences, the highest-yield mindset rules and hot topics, and all the formulae on one screen. Read this last, right before you walk in.",
+    "sections": [
+      {
+        "heading": "Must-know acronyms",
+        "body": "- INVEST - Independent, Negotiable, Valuable, Estimable, Small, Testable (good user story).\n- MVP - Minimum Viable Product; WIP - Work In Progress (Kanban limits it).\n- WBS - Work Breakdown Structure; RBS - Resource Breakdown Structure; RTM - Requirements Traceability Matrix; SOW - Statement of Work.\n- RACI - Responsible, Accountable, Consulted, Informed (a RAM - Responsibility Assignment Matrix).\n- CCB - Change Control Board; OPA - Organisational Process Assets; EEF - Enterprise Environmental Factors.\n- PMO - Project Management Office; PO - Product Owner; SME - Subject Matter Expert.\n- RFI / RFQ / RFP - Request for Information / Quote / Proposal.\n- FFP / FPIF / FPEPA - fixed-price family; CPFF / CPIF / CPAF - cost-reimbursable family; T&M - Time & Material.\n- PDCA - Plan-Do-Check-Act; ADKAR - Awareness, Desire, Knowledge, Ability, Reinforcement.\n- OKR - Objective + Key Results (strategic aim); KPI - Key Performance Indicator (ongoing tracking).\n- EMV - Expected Monetary Value; EV/PV/AC, CV/SV, CPI/SPI, BAC/EAC/ETC/VAC/TCPI (earned value); PERT - three-point estimate.\n- BCR - Benefit-Cost Ratio; ROI; NPV - Net Present Value; IRR - Internal Rate of Return; CoQ - Cost of Quality.",
+        "tip": "If you blank on an item, expand the acronym first - the words usually point at the answer."
+      },
+      {
+        "heading": "Predictive vs Agile vs Hybrid",
+        "body": "Read the signals, then match the answer's flavour.\n\n- Predictive (waterfall): stable, well-understood scope; plan-heavy up front. Signals - baseline, WBS, change request, CCB, critical path, earned value. Right flavour - follow formal process, submit a change request, protect the baseline.\n- Agile (adaptive): evolving requirements, frequent feedback; deliver in increments. Signals - sprint, iteration, user story, backlog, Product Owner, standup, self-organising. Right flavour - empower the team, diagnose WITH the team, let the PO own priority, use retrospectives to improve.\n- Hybrid: mixes both or mentions tailoring. Right flavour - fit the tool to each part; plan and govern the predictive parts, iterate the uncertain parts; break down and prioritise the KNOWN requirements rather than waiting for all of them.\n\nWho decides / authority: predictive - the PM plans and directs; agile - the team self-organises and the PO prioritises; the PM is a servant leader removing impediments in both agile and hybrid.",
+        "tip": "Sprints / backlog / PO -> agile. Baselines / WBS / CCB -> predictive. 'Tailoring' or a mix -> hybrid."
+      },
+      {
+        "heading": "Highest-yield mindset rules",
+        "body": "- Baseline (scope/schedule/cost) needs changing -> raise a Change Request (never edit directly). Registers and logs update freely.\n- Has it happened? Yes -> Issue Log. No / might happen -> Risk Register.\n- New risk spotted -> log it in the Register first, then analyse, then respond. Every response gets a Risk Owner.\n- Known risk fires with a planned response -> use the response plan; don't improvise.\n- Agile team struggling -> diagnose WITH the team (not PM decides, not extend the timeline).\n- One person struggling -> private one-on-one; whole-team issue -> survey / bring the team together. Incentives usually backfire.\n- Functional manager pulls a resource -> negotiate with the functional manager first; escalate only if that fails.\n- Value in doubt / long timeline -> prototype or MVP.\n- New / changed stakeholder -> Register holds the who; Engagement Plan holds the how.\n- Ground rule broken -> remind directly; strengthen the process only if it recurs.\n- Emotions in a conflict -> acknowledge them first, never assign blame.\n- Diagnose before treating; follow process; least-drastic correct action wins.",
+        "tip": "On a close call, strike options that bypass process, escalate too early, decide for an agile team, or are passive when action is needed."
+      },
+      {
+        "heading": "Roles, quality order & closure",
+        "body": "- Sponsor funds and champions ONE project and signs off acceptance; PMO aligns/standardises ACROSS projects and can authorise or terminate; Product Owner owns the backlog and priority; functional manager owns the people in a matrix.\n- PM authority by structure: functional (little) -> weak matrix (coordinator) -> balanced -> strong matrix (moderate-high) -> projectized (full).\n- Quality: Plan Quality (set standards) -> Manage Quality (processes / audits / prevention) -> Control Quality (inspect deliverables for defects) -> Validate Scope (customer formally accepts).\n- Cost of Quality: Conformance = prevention + appraisal; Nonconformance = internal + external failure.\n- Closure order: accept deliverables -> close contracts/procurement -> capture lessons learned -> release the team last. Don't close until finance confirms payment.",
+        "tip": "Audit = Manage Quality; inspect deliverables = Control Quality; customer sign-off = Validate Scope. Sponsor accepts, PMO aligns."
+      },
+      {
+        "heading": "Conflict, leadership, change models",
+        "body": "- Conflict modes (Thomas-Kilmann): Collaborate/problem-solve (win-win, PMP-preferred) > Compromise > Smooth/accommodate > Force (win-lose, emergencies) > Withdraw/avoid.\n- Tuckman: Forming -> Storming -> Norming -> Performing -> Adjourning.\n- Leadership: Directive (crises/new teams), Servant (agile default), Situational (match team maturity), Transactional (rewards), Transformational (vision), Laissez-faire (expert self-directed teams).\n- Motivation: Maslow (hierarchy), Herzberg (hygiene prevents dissatisfaction vs motivators drive it), McGregor (X vs Y), McClelland (achievement/affiliation/power), Vroom (effort -> performance -> valued reward).\n- Change models - individual level: ADKAR, Bridges (Ending -> Neutral Zone -> New Beginning), Kubler-Ross curve. Organisation level: Lewin (unfreeze-change-refreeze), Kotter (8 steps), Satir (performance dips then recovers).",
+        "tip": "Conflict -> collaborate. Agile -> servant leadership. People transition lags the system change - plan for the dip."
+      },
+      {
+        "heading": "Procurement & schedule quick cuts",
+        "body": "- Bid docs: RFI (gather info) -> RFQ (price a well-defined buy) -> RFP (complex, solution unknown - the most formal; a new vendor needs the RFP).\n- Contract risk: Fixed Price - seller carries most risk; Cost-Reimbursable - buyer carries most risk; T&M - medium (staff augmentation / small scope). FPEPA for inflation/currency on long deals.\n- Procurement phases: Plan (make-or-buy) -> Conduct (RFx, select, award) -> Control (monitor vendor) -> Close (verify, pay).\n- Critical path = longest path, zero float, drives duration; two paths -> critical is the longer.\n- Crashing = add resources to the critical path (costs money); Fast-tracking = parallelise sequential work (adds risk). Only the critical path matters.\n- Leveling can extend the schedule; smoothing stays within float. Never cut planned tests to buy time.",
+        "tip": "Complex/unknown solution -> RFP. Monitoring a vendor = Control Procurements; paying off = Close Procurements."
+      },
+      {
+        "heading": "Formulae",
+        "body": "Earned value (negative / below 1 = bad):\n\n- CV = EV - AC; SV = EV - PV.\n- CPI = EV / AC; SPI = EV / PV.\n- EAC = BAC / CPI (current rate continues); ETC = EAC - AC; VAC = BAC - EAC.\n- TCPI = (BAC - EV) / (BAC - AC) (efficiency still needed to hit BAC).\n\nEstimating:\n\n- PERT (three-point): tE = (O + 4M + P) / 6; Std Dev = (P - O) / 6.\n\nRisk & selection:\n\n- EMV = Probability x Impact (sum identified risks to size contingency).\n- BCR = Benefits / Costs (above 1 = worthwhile; below 1 = costs win, consult the sponsor). NPV higher = better; IRR higher = better; shorter payback = better.\n\nSchedule & comms:\n\n- Total Float = LS - ES = LF - EF (critical-path activities have zero total float).\n- Communication channels = n(n - 1) / 2, where n = number of people.\n\nProcurement:\n\n- Point of Total Assumption (FPIF) = ((Ceiling Price - Target Price) / buyer's share ratio) + Target Cost.",
+        "tip": "Variance = EV minus (PV or AC); index = EV over (PV or AC). EAC = BAC / CPI. Channels = n(n-1)/2. PERT weights the middle by 4."
+      }
+    ],
+    "tags": ["exam strategy", "cheat sheet", "acronyms", "formulas", "agile", "predictive", "hybrid", "earned value", "quick reference", "exam day"],
+    "source": "Compact synthesis of all PM Cram cheat-sheet topics for a final pre-exam review"
+  }
+]

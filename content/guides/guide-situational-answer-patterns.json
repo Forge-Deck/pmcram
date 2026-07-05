@@ -1,0 +1,72 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Situational Answer Patterns",
+    "category": "Exam Strategy",
+    "summary": "A situation-to-answer cheat sheet built from mock-question review: for each classic scenario, the best PMP action and the lesson behind it, grouped by knowledge area. Harmonised with the PMP mindset so the 'best first action' is consistent throughout.",
+    "sections": [
+      {
+        "heading": "Stakeholder management",
+        "body": "- Stakeholders were uninformed during a sprint review / important meeting -> review the Communications Management Plan first. Check what the plan already says before assuming new analysis is needed.\n- A key stakeholder is replaced mid-execution -> update the Stakeholder Register, then re-check the engagement approach for the new person.\n- A stakeholder complains documentation is missing (agile) -> acknowledge the concern, clarify the real need (which docs, why), then provide it. Don't dismiss or redirect.\n- High-influence stakeholders hold conflicting expectations -> elicit and negotiate the requirements, weighting by influence, without compromising the approved project objectives.\n- A previously unidentified stakeholder appears -> add them to the Stakeholder Register and analyse them FIRST, before actioning any request they make.",
+        "tip": "Uninformed stakeholders -> check the Communications Management Plan before acting.\nNew or changed stakeholder -> the Register holds the who; the Engagement Plan holds the how."
+      },
+      {
+        "heading": "When the functional manager pulls resources",
+        "body": "A functional manager reassigning your people is a resource conflict, not an automatic escalation.\n\n- First, negotiate directly with the functional manager to protect the commitment.\n- If collaboration fails and the project is genuinely being harmed, escalate to senior management (or the sponsor / steering committee for governance-level authority gaps).\n- Proactive scheduling actions (resource leveling / smoothing) can absorb short-term availability changes rather than just logging the issue.",
+        "tip": "Talk to the functional manager FIRST; escalate only when negotiation fails. Jumping straight to 'escalate' is the classic distractor."
+      },
+      {
+        "heading": "Risk management",
+        "body": "- A previously identified risk materialises -> update the Risk Register first (status / probability / impact), then move to issue or change handling.\n- A risk with a planned response fires -> consult the risk response plan (and contract / SOW) and apply the planned response; don't improvise a new one.\n- A significant delay with downstream effects -> analyse the business impact and reprioritise deliverables before jumping to mitigation.\n- Resources removed during execution create a schedule risk -> request resource leveling as a proactive scheduling response.",
+        "tip": "Document the change in the Register before raising issues or change requests. Always assess impact before choosing a mitigation."
+      },
+      {
+        "heading": "Change control & scope",
+        "body": "- A submitted change request whose delay will trigger bigger problems -> revise the change request so it reflects the full, current impact before it is evaluated.\n- Important features were dropped in scope negotiations and are now causing problems -> work WITH the client to negotiate including the missing features; attempt resolution at the client level before escalating.\n- Remember: any change to a baseline (scope / schedule / cost) runs through Integrated Change Control - raise a change request, assess impact, let the CCB decide, then update. Registers and logs update freely without one.",
+        "tip": "Keep the change request complete and current. Resolve scope gaps collaboratively with the client first, escalate second."
+      },
+      {
+        "heading": "Agile & hybrid practice",
+        "body": "- Introducing story points to a Kanban team -> estimate the NEW backlog items only first; don't stop to re-point existing work in progress. (Establishing a shared baseline matters, but you get it from new items, not by disrupting current WIP.)\n- Separate design and execution teams causing friction on a hybrid project -> establish a centralised repository for documentation and validation to improve knowledge sharing, rather than assuming training is needed.\n- Stakeholders uninformed during sprint reviews -> update artifacts frequently and transparently and lean on lightweight collaboration tools; agile favours real-time sharing over rigid reporting.\n- A team member keeps picking easy / low-priority stories -> have a private conversation to understand the root cause before assuming a skills gap or issuing directives.\n- Users are uncomfortable with features from the last iteration -> obtain stakeholder feedback and team insights before acting.\n- A stakeholder wants to reorder deliverables mid-project -> bring them into sprint / iteration planning to re-prioritise, rather than using formal change control.\n- A client wants two modules earlier than planned -> hold a release-planning meeting to re-plan delivery.\n- Developers are frustrated by standups and story updates -> acknowledge the frustration first, then explain the value each ceremony provides (servant leadership).\n- The team has productivity ideas during an agile transition -> capture and act on them in retrospectives, the primary forum for process improvement.\n- Assessing roadblocks before a milestone (Kanban) -> review the blocked items with the team in the daily standup.",
+        "tip": "Agile default: diagnose WITH the team, empower the Product Owner on priority, improve the process in the retro, and start estimating with new work only."
+      },
+      {
+        "heading": "User stories - INVEST",
+        "body": "Well-written, right-sized user stories satisfy INVEST:\n\n- Independent.\n- Negotiable.\n- Valuable.\n- Estimable.\n- Small.\n- Testable.\n\nOversized or vague functionality -> write detailed stories and refine the backlog iteratively; don't fall back on heavyweight requirements documents.",
+        "tip": "INVEST = Independent, Negotiable, Valuable, Estimable, Small, Testable. Value + testability are what make a story 'done-able'."
+      },
+      {
+        "heading": "Governance, initiation & handover",
+        "body": "- Taking over a chaotic project (negative variances, unresolved issues, unpaid vendors) -> the original PM should have documented assumptions in the charter and identified high-level risks early. Strong early planning prevents most later pain.\n- The client's PM lacks financial authority and is causing delays -> escalate to the steering committee; authority and governance gaps belong at the governance level.\n- A team leader bypasses the PM to talk directly to the sponsor -> remind them of the existing communication ground rule first (address the violation directly). Only if it recurs do you strengthen the agreement to require PM approval.\n- A compatibility / technical issue surfaces in initiation -> check the lessons-learned database and other organisational process assets before anything else.\n- A stakeholder wants to pause the project to assess a new process -> consult the sponsor to determine next steps; strategic direction changes are the sponsor's call.",
+        "tip": "Address a ground-rule violation directly before changing the process. Strategic pause / direction -> sponsor. Authority gap -> steering committee."
+      },
+      {
+        "heading": "Cost, schedule & estimating",
+        "body": "- Senior management wants a status report on an over-budget project -> compare actual results to the plan (variance analysis); focus on current performance data.\n- Under a financial crisis, management must decide whether to continue -> assess economic feasibility with a cost-benefit analysis (BCR). Below 1, costs outweigh benefits and you consult the sponsor.\n- A likely multi-month delay -> analyse the business impact and reprioritise deliverables before choosing a mitigation.\n- Difficulty estimating activity durations -> use historical data from similar past projects (analogous estimating); for a realistic estimate on ongoing work, ask the people doing the work, and for a new/specialised area ask domain experts.",
+        "tip": "Status report -> variance analysis. Continue-or-not decision -> cost-benefit. Always assess impact before mitigating."
+      },
+      {
+        "heading": "Team management & leadership",
+        "body": "- New team members underperforming under a tight timeline -> pair them with experienced members via job shadowing / peer mentoring; fast practical knowledge transfer beats formal training under pressure.\n- Low morale and inefficiency with an unknown cause -> run a satisfaction evaluation first; diagnose before implementing team-building or incentives.\n- A new PM inherits a team with friction from the previous manager -> observe and interact to assess the team culture before making changes.\n- A team member violates an agreed ground rule -> remind them of the existing agreement directly.\n- A new team member is uneasy about untested work after a handover -> ensure a documented knowledge-transfer / handover exists; documentation is more reliable than relying on a prior sign-off.",
+        "tip": "Diagnose before treating: survey the team (whole-team issue) or hold a one-on-one (individual issue) before jumping to a fix."
+      },
+      {
+        "heading": "Communications",
+        "body": "- A team member prepares a report in the wrong format for the CEO -> use interactive (two-way) communication to confirm understanding; confirmation beats one-way instruction.\n- Stakeholders are uninformed at important meetings -> review the Communications Management Plan first.\n- Important information bypassed the PM -> reinforce the existing ground rules with a direct reminder before changing the process.\n- Methods: interactive (meetings / calls, best for complex topics), push (emails / reports), pull (portals / wikis).",
+        "tip": "Confirm understanding interactively for anything complex or high-stakes. Address process gaps by updating the plan, not resending it."
+      },
+      {
+        "heading": "Procurement, closure & funding",
+        "body": "- Several contracts no longer align with company objectives -> recommend terminating the misaligned ones through the proper channels.\n- A client asks to spend leftover project budget on operational activities after handover -> reject the request and close the project financials; contingency reserves and project funds don't cover post-project operations.\n- Defects are found during closing -> review the deliverables against the acceptance criteria first, before any other action.\n- Closure order: confirm deliverables are accepted -> close contracts / procurement -> capture lessons learned -> release the team last. Don't close until finance confirms all payments.",
+        "tip": "Verify against acceptance criteria before acting on a closing defect. Project money can't fund operations - close the financials."
+      },
+      {
+        "heading": "General patterns & exam tips",
+        "body": "- Diagnose before treating: assess (satisfaction survey, power/interest grid, variance / impact analysis) before jumping to a solution.\n- Follow the process: don't bypass formal change control or governance, especially around a baseline.\n- Agile vs predictive mindset: in high-change / agile settings favour lightweight, frequent, collaborative moves; in predictive settings favour formal process and change requests.\n- Influence matters: high-influence stakeholders need more negotiation and attention - but never at the cost of the approved objectives.\n- Early planning prevents later pain: clear assumptions and early risk identification are the most-cited preventive measures.\n- Least-drastic correct action: prefer talking to the functional manager over escalating, reminding of a ground rule over rewriting the process, and diagnosing with the team over deciding for them.",
+        "tip": "Most ties break the same way: the proactive option that assesses first, follows process, and puts the right role in charge wins."
+      }
+    ],
+    "tags": ["exam strategy", "cheat sheet", "situational", "stakeholders", "agile", "risk", "change control", "leadership", "communications", "procurement", "closure"],
+    "source": "Mock-question review (July 2026), harmonised with the PMP mindset and Brad's master cheat sheet"
+  }
+]
