@@ -38,13 +38,24 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 - `Core glossary` terms need a real PMI source. `"not a formal PMI glossary entry"` is allowed **only** for `Practitioner term` tier.
 
 ### Questions (`schema/question.schema.json`)
-- Set `type`, `select`, and `present` consistently: `correct.length === select`, and `present` must be `> select` and `<= correct.length + distractors.length`.
+- Set `type`, `select`, and `present` consistently: for `single`, `correct.length >= select`; for `multi`, `correct.length === select`; and `present` must be `> select` and `<= correct.length + distractors.length`.
 - Give **at least one more distractor than strictly needed** so the wrong set can vary (more is better).
 - Every option should be plausible. Put the misconception in each distractor's `trap`, and the reasoning in each correct option's `why`.
 - `why`, `trap`, `explanation`, and `references` are **optional** — a question with just correct/distractor `text` works (scored right/wrong only). But please add rationale where you can; it's the main study value.
 - Don't encode the answer position — never write "the correct answer is A". Options are shuffled at runtime.
 - Cite PMI standards in `references`. **Do not paste copyrighted text**; summarise in your own words.
 - Provide alternative `prompts` wordings when you can — it keeps repeat practice fresh.
+- **Categorise it.** Set `domain` (`People` / `Process` / `Business Environment`) and `subDomain` (one of the 26 canonical sub-categories — see the taxonomy table in the README). Domain by dominant theme; anything centred on risk, governance, compliance, external environment, org change, change control, or impediments goes to **Business Environment**, and **risk is decisive**.
+
+### Dynamic pooled-correct questions (`questions-dynamic-*.json`, `dyn-*`)
+Same schema as a standard question, but authored so the engine can draw a fresh variant every time. Use these conventions when adding to (or modelling on) the `questions-dynamic-*` banks:
+- **Pools, not fixed sets.** Give `correct[]` **several interchangeable correct answers** (each fully correct on its own, with a `why`) and `distractors[]` a **large pool** (8–10, each with a `trap`). The engine picks one prompt, `select` correct, and `present-select` distractors, then shuffles; the chosen option's `why`/`trap` shows as inline feedback.
+- **`group`.** Give a `group` key so sibling phrasings of the same concept are never served together in one batch.
+- **Equal-legitimacy style.** All four served options must read as reasonable PMP actions. Make distractors wrong on **target / sequence / owner / scope / timing** — not obviously silly. No absolutes ("always/never/immediately"), no covert/unethical or self-justifying tells that give the key away.
+- **Length parity per draw.** The correct answer must not be the longest or most detailed option. Keep all options comparable — **at most 2 distractors shorter than the longest correct** — so length never signals the answer.
+
+### Specialised banks (acronyms / formulae / charts & tools)
+Plain `question/v1` records grouped into `questions-acronyms.json`, `questions-formulae.json`, and `questions-charts-and-tools.json`. Author them like standard single-select questions (`present:4`, one `correct`, ≥3 distractors); set `topic` to the bank ("Acronyms & Abbreviations", "Formulae & Calculations", "Charts & Visual Tools") and `subtopic` to the specific item, plus the usual `domain`/`subDomain`. Put the confusion each wrong answer represents in its `trap`.
 
 ### Cards (`schema/deck.schema.json`)
 - Only for non-glossary content (formulas, mnemonics). `front` is the prompt, `back` the answer.
@@ -68,18 +79,24 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 - Set a per-step `domain` so misses feed the right weak area; add an optional `label` (e.g. "People + Process").
 
 ### Dynamic figure / point-and-click (`schema/figuregen.schema.json`)
-- A **figuregen template** rolls a randomised point-and-click question (hotspot or multiple-choice) at runtime — the app draws the figure and decides the answer from your spec, so each attempt differs. Follow `schema/figuregen.schema.json`.
-- Declare `vars` (random samples), optional `derived` values, an optional `guard` (re-roll constraint), a `draw` list of primitives (or a named `chart`), and `regions`/`choices` whose fields are **expressions** evaluated against the roll (e.g. `"correct": "i == worst"`). Every roll must yield the right number of correct answers.
-- Add a kebab `id`, `domain`, `viewBox`, and a `prompt`/`explanation`. See the worked templates in `content/figuregen/` and the engine source (`src/study/figuregen/` in the app) for the exact ops + expression functions.
+- A **figuregen template** rolls a randomised interactive figure at runtime — the app draws the figure and decides the answer from your spec, so each attempt differs. Follow `schema/figuregen.schema.json`.
+- Pick a **`kind`** and provide its answer block:
+  - **`hotspot`** — tap the right area(s): `regions[]` of `{ id, x, y, w, h, correct, label?, why? }` (use `freeSelect:true` when the count of correct spots varies per roll).
+  - **`choice`** — a multiple-choice question about the figure: `choices[]` of `{ text, correct, why? }` (add `multi:true`/`select` for choose-N).
+  - **`dragdrop`** — drag labels onto zones: `regions[]` (drop zones) + `tokens[]` of `{ label, target, why? }`, where `target` is the correct region id (empty-string target = a decoy that stays in the tray).
+  - The chart-driven kinds `gantt` / `pareto` / `assign` are also allowed — model them on the existing `content/figuregen/` templates.
+- Declare `vars` (random samples), optional `derived` values, an optional `guard` (re-roll constraint), and a `draw` list of primitives (or a named `chart`). Numeric/string fields and `correct` are **expressions** evaluated against the roll (e.g. `"correct": "i == worst"`). Every roll must yield the right number of correct answers.
+- Add the required `schema` (`"figuregen/v1"`), a kebab `id`, `kind`, `domain`, `viewBox` (`[w, h]`), and a `prompt`; add an `explanation` where useful. See the worked templates in `content/figuregen/` and the engine source (`src/study/figuregen/` in the app) for the exact ops + expression functions.
 
 ## Validate before you PR
 
 ```bash
-npm install      # one-time
-npm run validate # checks every file against the schemas + cross-field rules + duplicate keys
+npm install                          # one-time
+node scripts/validate.mjs            # (= npm run validate) schemas + cross-field rules + duplicate keys; must exit clean
+node scripts/generate-manifest.mjs   # (= npm run manifest) optional locally — regenerates content/manifest.json
 ```
 
-CI runs the same `npm run validate` on your pull request, so fixing it locally first is the fastest path to merge. (You don't need to touch `content/manifest.json` — CI regenerates it on merge.)
+The full workflow: **edit/add JSON → `node scripts/validate.mjs` passes → `node scripts/generate-manifest.mjs` → open a PR.** CI runs the same validation on your pull request, so fixing it locally first is the fastest path to merge. You don't have to commit `content/manifest.json` — **CI regenerates and commits it on push to `main`** — but running the manifest script locally is a good final check.
 
 ## PR checklist
 
@@ -87,7 +104,8 @@ CI runs the same `npm run validate` on your pull request, so fixing it locally f
 - [ ] Valid JSON array; validates against the schema.
 - [ ] No duplicate `Term` (glossary) already in the repo. (Question/card ids are optional and auto-derived — only check for dupes if you set one explicitly.)
 - [ ] Sources cited; no copyrighted text reproduced.
-- [ ] Questions: `select` / `present` / `correct` / `distractors` counts are consistent.
+- [ ] Questions: `select` / `present` / `correct` / `distractors` counts are consistent, and `domain` + `subDomain` are set from the 26-item taxonomy.
+- [ ] Dynamic (`dyn-*`) questions: pooled `correct`/`distractors`, a `group`, equal-legitimacy options, and per-draw length parity.
 
 ## Scope & conduct
 
