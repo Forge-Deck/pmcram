@@ -17,6 +17,29 @@
     "prompt": { "$ref": "#/$defs/expr" },
     "caption": { "$ref": "#/$defs/expr" },
     "explanation": { "$ref": "#/$defs/expr" },
+    "subDomain": { "type": "string", "description": "OPTIONAL. Canonical PMP ECO task — sub-domain parity with standard questions." },
+    "trapSummary": { "$ref": "#/$defs/expr", "description": "OPTIONAL. One-line dominant-distractor summary (amber trap callout)." },
+    "signals": {
+      "type": "array",
+      "description": "OPTIONAL. Exam-signal keypoints (shared reasoning-coach feedback).",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "properties": { "title": { "$ref": "#/$defs/expr" }, "note": { "$ref": "#/$defs/expr" } }
+      }
+    },
+    "trace": { "type": "array", "items": { "$ref": "#/$defs/expr" }, "description": "OPTIONAL. Ordered decision-trace steps." },
+    "rules": {
+      "type": "array",
+      "description": "OPTIONAL. Extracted rule cards (term — meaning).",
+      "items": {
+        "type": "object",
+        "required": ["term", "meaning"],
+        "additionalProperties": false,
+        "properties": { "term": { "$ref": "#/$defs/expr" }, "meaning": { "$ref": "#/$defs/expr" } }
+      }
+    },
     "select": { "$ref": "#/$defs/expr" },
     "multi": { "type": "boolean" },
     "freeSelect": { "type": "boolean" },

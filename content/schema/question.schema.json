@@ -55,6 +55,38 @@
     },
     "explanation": { "type": "string", "description": "Overall rationale shown after answering." },
     "references": { "type": "array", "items": { "type": "string" }, "description": "PMI standard + section/page citations." },
+    "trapSummary": { "type": "string", "description": "OPTIONAL. One-line summary of the dominant distractor pattern, shown as an amber 'trap' callout on review." },
+    "signals": {
+      "type": "array",
+      "description": "OPTIONAL. Exam heuristics this question tests — shown as an 'Exam signal' keypoint card.",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "note": { "type": "string", "description": "One-line elaboration." }
+        }
+      }
+    },
+    "trace": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "OPTIONAL. Ordered reasoning steps from stem to the correct answer ('Decision trace')."
+    },
+    "rules": {
+      "type": "array",
+      "description": "OPTIONAL. Reusable takeaways (term — meaning) shown as rule cards; also seed rule/flash cards.",
+      "items": {
+        "type": "object",
+        "required": ["term", "meaning"],
+        "additionalProperties": false,
+        "properties": {
+          "term": { "type": "string" },
+          "meaning": { "type": "string" }
+        }
+      }
+    },
     "tags": { "type": "array", "items": { "type": "string" } },
     "contributor": { "type": "string", "description": "Optional GitHub handle of the contributor." }
   }
