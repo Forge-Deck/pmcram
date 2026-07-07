@@ -32,10 +32,32 @@
             "kind": "steps",
             "title": "Order of work",
             "items": [
-              { "title": "Plan Quality", "lines": ["Set the standards, metrics and required level of accuracy and precision."] },
-              { "title": "Manage Quality", "lines": ["Process-focused and preventive: audits, process, prevention.", "Ask 'are we following the right processes that will produce good deliverables?'"] },
-              { "title": "Control Quality", "lines": ["Product-focused and inspection-based: inspect deliverables for defects against the spec.", "Ask 'is this specific deliverable correct?'"] },
-              { "title": "Validate Scope", "lines": ["Customer or sponsor reviews completed deliverables and formally accepts them."] }
+              {
+                "title": "Plan Quality",
+                "lines": [
+                  "Set the standards, metrics and required level of accuracy and precision."
+                ]
+              },
+              {
+                "title": "Manage Quality",
+                "lines": [
+                  "Process-focused and preventive: audits, process, prevention.",
+                  "Ask 'are we following the right processes that will produce good deliverables?'"
+                ]
+              },
+              {
+                "title": "Control Quality",
+                "lines": [
+                  "Product-focused and inspection-based: inspect deliverables for defects against the spec.",
+                  "Ask 'is this specific deliverable correct?'"
+                ]
+              },
+              {
+                "title": "Validate Scope",
+                "lines": [
+                  "Customer or sponsor reviews completed deliverables and formally accepts them."
+                ]
+              }
             ]
           },
           {
@@ -64,8 +86,18 @@
                 "badge": "Money to avoid defects",
                 "tone": "good",
                 "groups": [
-                  { "label": "Prevention", "lines": ["Training, documenting processes, equipment, time to do it right."] },
-                  { "label": "Appraisal", "lines": ["Testing, inspection, audits."] }
+                  {
+                    "label": "Prevention",
+                    "lines": [
+                      "Training, documenting processes, equipment, time to do it right."
+                    ]
+                  },
+                  {
+                    "label": "Appraisal",
+                    "lines": [
+                      "Testing, inspection, audits."
+                    ]
+                  }
                 ]
               },
               {
@@ -73,8 +105,18 @@
                 "badge": "Money because of defects",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Internal failure", "lines": ["Rework and scrap found before the customer sees it."] },
-                  { "label": "External failure", "lines": ["Warranty work, liabilities, lost reputation found after delivery."] }
+                  {
+                    "label": "Internal failure",
+                    "lines": [
+                      "Rework and scrap found before the customer sees it."
+                    ]
+                  },
+                  {
+                    "label": "External failure",
+                    "lines": [
+                      "Warranty work, liabilities, lost reputation found after delivery."
+                    ]
+                  }
                 ]
               }
             ]
@@ -104,9 +146,24 @@
                 "badge": "Manage Quality",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Focus", "lines": ["Process-focused and preventive."] },
-                  { "label": "Asks", "lines": ["Are we following the right processes that will produce good deliverables?"] },
-                  { "label": "Main tool", "lines": ["The audit - examines whether processes and procedures are applied correctly."] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Process-focused and preventive."
+                    ]
+                  },
+                  {
+                    "label": "Asks",
+                    "lines": [
+                      "Are we following the right processes that will produce good deliverables?"
+                    ]
+                  },
+                  {
+                    "label": "Main tool",
+                    "lines": [
+                      "The audit - examines whether processes and procedures are applied correctly."
+                    ]
+                  }
                 ]
               },
               {
@@ -114,9 +171,24 @@
                 "badge": "Control Quality",
                 "tone": "good",
                 "groups": [
-                  { "label": "Focus", "lines": ["Product-focused and inspection-based."] },
-                  { "label": "Asks", "lines": ["Is this specific deliverable correct?"] },
-                  { "label": "Main tool", "lines": ["Inspection - measures or examines the actual output against requirements."] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Product-focused and inspection-based."
+                    ]
+                  },
+                  {
+                    "label": "Asks",
+                    "lines": [
+                      "Is this specific deliverable correct?"
+                    ]
+                  },
+                  {
+                    "label": "Main tool",
+                    "lines": [
+                      "Inspection - measures or examines the actual output against requirements."
+                    ]
+                  }
                 ]
               }
             ]
@@ -141,13 +213,34 @@
             "kind": "table",
             "title": "Tool -> what it does",
             "rows": [
-              { "key": "Cause-and-effect", "value": "Ishikawa / fishbone; traces a problem back to its root causes." },
-              { "key": "Flowchart", "value": "Maps the process steps to expose where defects can arise." },
-              { "key": "Check sheet", "value": "Tally sheet to collect defect data during inspection." },
-              { "key": "Pareto chart", "value": "Ranks defects to reveal the vital few (80/20) causes." },
-              { "key": "Histogram", "value": "Bar chart of how often each value or defect occurs." },
-              { "key": "Control chart", "value": "Tracks process stability against control limits over time." },
-              { "key": "Scatter diagram", "value": "Plots two variables to reveal correlation between them." }
+              {
+                "key": "Cause-and-effect",
+                "value": "Ishikawa / fishbone; traces a problem back to its root causes."
+              },
+              {
+                "key": "Flowchart",
+                "value": "Maps the process steps to expose where defects can arise."
+              },
+              {
+                "key": "Check sheet",
+                "value": "Tally sheet to collect defect data during inspection."
+              },
+              {
+                "key": "Pareto chart",
+                "value": "Ranks defects to reveal the vital few (80/20) causes."
+              },
+              {
+                "key": "Histogram",
+                "value": "Bar chart of how often each value or defect occurs."
+              },
+              {
+                "key": "Control chart",
+                "value": "Tracks process stability against control limits over time."
+              },
+              {
+                "key": "Scatter diagram",
+                "value": "Plots two variables to reveal correlation between them."
+              }
             ]
           }
         ]
@@ -161,8 +254,14 @@
             "kind": "table",
             "title": "Sampling approaches",
             "rows": [
-              { "key": "Attribute", "value": "Pass or fail: the result either conforms or it does not (counts)." },
-              { "key": "Variable", "value": "Measures a result on a continuous scale (length, weight, time), giving a degree of conformity." }
+              {
+                "key": "Attribute",
+                "value": "Pass or fail: the result either conforms or it does not (counts)."
+              },
+              {
+                "key": "Variable",
+                "value": "Measures a result on a continuous scale (length, weight, time), giving a degree of conformity."
+              }
             ]
           },
           {
@@ -184,8 +283,14 @@
             "kind": "table",
             "title": "Two voices",
             "rows": [
-              { "key": "Control limits", "value": "Voice of the process; natural variation, usually +/- 3 standard deviations, calculated from the data." },
-              { "key": "Spec limits", "value": "Voice of the customer; the boundaries requirements allow, set outside the process." }
+              {
+                "key": "Control limits",
+                "value": "Voice of the process; natural variation, usually +/- 3 standard deviations, calculated from the data."
+              },
+              {
+                "key": "Spec limits",
+                "value": "Voice of the customer; the boundaries requirements allow, set outside the process."
+              }
             ]
           },
           {
@@ -211,27 +316,76 @@
                 "title": "Quality vs grade",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Quality", "lines": ["Degree to which a deliverable conforms to its requirements."] },
-                  { "label": "Grade", "lines": ["A category for deliverables with the same functional use but different technical characteristics."] },
-                  { "label": "Rule", "lines": ["Low grade can be acceptable if agreed; low quality never is.", "A basic phone (low grade) with no defects is high quality; a feature-rich phone (high grade) that keeps crashing is low quality."] }
+                  {
+                    "label": "Quality",
+                    "lines": [
+                      "Degree to which a deliverable conforms to its requirements."
+                    ]
+                  },
+                  {
+                    "label": "Grade",
+                    "lines": [
+                      "A category for deliverables with the same functional use but different technical characteristics."
+                    ]
+                  },
+                  {
+                    "label": "Rule",
+                    "lines": [
+                      "Low grade can be acceptable if agreed; low quality never is.",
+                      "A basic phone (low grade) with no defects is high quality; a feature-rich phone (high grade) that keeps crashing is low quality."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Accuracy vs precision",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Accuracy", "lines": ["How close a measured value is to the true or target value."] },
-                  { "label": "Precision", "lines": ["How close repeated measurements are to one another, regardless of the target."] },
-                  { "label": "Rule", "lines": ["Independent properties: you can be precise but off-target, or scattered but averaging onto the bullseye.", "Decide the required level of each in quality planning; chasing more than needed adds cost."] }
+                  {
+                    "label": "Accuracy",
+                    "lines": [
+                      "How close a measured value is to the true or target value."
+                    ]
+                  },
+                  {
+                    "label": "Precision",
+                    "lines": [
+                      "How close repeated measurements are to one another, regardless of the target."
+                    ]
+                  },
+                  {
+                    "label": "Rule",
+                    "lines": [
+                      "Independent properties: you can be precise but off-target, or scattered but averaging onto the bullseye.",
+                      "Decide the required level of each in quality planning; chasing more than needed adds cost."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Verification vs validation",
                 "tone": "good",
                 "groups": [
-                  { "label": "Verification", "lines": ["'Did we build it right?' Internal check that a deliverable conforms to its spec, standards and regulations.", "Maps to Control Quality (inspect against the spec)."] },
-                  { "label": "Validation", "lines": ["'Did we build the right thing?' External check that the deliverable meets the customer's needs and is fit for purpose.", "Maps to Validate Scope (customer formally accepts)."] },
-                  { "label": "Sequence", "lines": ["Verify internally in Control Quality before validated acceptance in Validate Scope."] }
+                  {
+                    "label": "Verification",
+                    "lines": [
+                      "'Did we build it right?' Internal check that a deliverable conforms to its spec, standards and regulations.",
+                      "Maps to Control Quality (inspect against the spec)."
+                    ]
+                  },
+                  {
+                    "label": "Validation",
+                    "lines": [
+                      "'Did we build the right thing?' External check that the deliverable meets the customer's needs and is fit for purpose.",
+                      "Maps to Validate Scope (customer formally accepts)."
+                    ]
+                  },
+                  {
+                    "label": "Sequence",
+                    "lines": [
+                      "Verify internally in Control Quality before validated acceptance in Validate Scope."
+                    ]
+                  }
                 ]
               }
             ]
@@ -249,7 +403,29 @@
         ]
       }
     ],
-    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "seven basic tools", "pmbok 8", "embed quality", "scope domain", "governance domain", "PMP"],
-    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
+    "tags": [
+      "quality",
+      "cost of quality",
+      "quality assurance",
+      "quality control",
+      "control chart",
+      "seven basic tools",
+      "pmbok 8",
+      "embed quality",
+      "scope domain",
+      "governance domain",
+      "PMP"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam.",
+    "topics": [
+      "Process",
+      "Governance"
+    ],
+    "pathMembership": [
+      {
+        "path": "Control, risk & recovery",
+        "order": 2
+      }
+    ]
   }
 ]

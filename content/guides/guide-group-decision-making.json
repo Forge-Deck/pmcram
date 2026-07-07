@@ -35,32 +35,73 @@
                 "title": "Unanimity",
                 "tone": "good",
                 "groups": [
-                  { "label": "Bar", "lines": ["Everyone agrees."] },
-                  { "label": "Trade-off", "lines": ["Strongest buy-in, but slow.", "Delphi and fist-of-five help reach it."] }
+                  {
+                    "label": "Bar",
+                    "lines": [
+                      "Everyone agrees."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Strongest buy-in, but slow.",
+                      "Delphi and fist-of-five help reach it."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Majority",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Bar", "lines": ["More than half agree (over 50%)."] },
-                  { "label": "Trade-off", "lines": ["Common and quick."] }
+                  {
+                    "label": "Bar",
+                    "lines": [
+                      "More than half agree (over 50%)."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Common and quick."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Plurality",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Bar", "lines": ["Largest single block wins, even if under half."] },
-                  { "label": "Trade-off", "lines": ["Used when the vote splits and no one has a majority."] }
+                  {
+                    "label": "Bar",
+                    "lines": [
+                      "Largest single block wins, even if under half."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Used when the vote splits and no one has a majority."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Autocratic",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Bar", "lines": ["One person decides for the group."] },
-                  { "label": "Trade-off", "lines": ["Fastest, but the weakest buy-in."] }
+                  {
+                    "label": "Bar",
+                    "lines": [
+                      "One person decides for the group."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Fastest, but the weakest buy-in."
+                    ]
+                  }
                 ]
               }
             ]
@@ -92,14 +133,38 @@
             "kind": "table",
             "title": "Technique -> when to use",
             "rows": [
-              { "key": "Unanimity", "value": "High-stakes call that needs total buy-in; you can afford the time." },
-              { "key": "Majority", "value": "Routine or time-boxed call; over half is enough to commit." },
-              { "key": "Plurality", "value": "Several options split the vote and no one reaches a majority." },
-              { "key": "Consent", "value": "Want fast alignment - proceed unless someone raises a reasoned, paramount objection." },
-              { "key": "Autocratic", "value": "Emergency or trivial call the accountable person can simply make." },
-              { "key": "Delphi", "value": "Expert judgement under uncertainty; anonymity needed to kill bias." },
-              { "key": "Multi-voting", "value": "Long list to narrow - each person spends a fixed set of votes to surface the top few." },
-              { "key": "Fist-of-five", "value": "Quick, visible read of consensus in the room before committing." }
+              {
+                "key": "Unanimity",
+                "value": "High-stakes call that needs total buy-in; you can afford the time."
+              },
+              {
+                "key": "Majority",
+                "value": "Routine or time-boxed call; over half is enough to commit."
+              },
+              {
+                "key": "Plurality",
+                "value": "Several options split the vote and no one reaches a majority."
+              },
+              {
+                "key": "Consent",
+                "value": "Want fast alignment - proceed unless someone raises a reasoned, paramount objection."
+              },
+              {
+                "key": "Autocratic",
+                "value": "Emergency or trivial call the accountable person can simply make."
+              },
+              {
+                "key": "Delphi",
+                "value": "Expert judgement under uncertainty; anonymity needed to kill bias."
+              },
+              {
+                "key": "Multi-voting",
+                "value": "Long list to narrow - each person spends a fixed set of votes to surface the top few."
+              },
+              {
+                "key": "Fist-of-five",
+                "value": "Quick, visible read of consensus in the room before committing."
+              }
             ]
           },
           {
@@ -124,10 +189,34 @@
             "kind": "steps",
             "title": "Idea-generation tools",
             "items": [
-              { "title": "Brainstorming", "lines": ["Produce many ideas freely.", "Defer all criticism until later."] },
-              { "title": "Nominal group technique", "lines": ["Brainstorm, then privately rank the ideas.", "Louder voices don't dominate the outcome."] },
-              { "title": "Mind mapping", "lines": ["Branch related ideas from a central theme.", "Reveals structure and links."] },
-              { "title": "Affinity diagram", "lines": ["Cluster a large pile of ideas into natural groupings.", "Makes sense of the mess."] }
+              {
+                "title": "Brainstorming",
+                "lines": [
+                  "Produce many ideas freely.",
+                  "Defer all criticism until later."
+                ]
+              },
+              {
+                "title": "Nominal group technique",
+                "lines": [
+                  "Brainstorm, then privately rank the ideas.",
+                  "Louder voices don't dominate the outcome."
+                ]
+              },
+              {
+                "title": "Mind mapping",
+                "lines": [
+                  "Branch related ideas from a central theme.",
+                  "Reveals structure and links."
+                ]
+              },
+              {
+                "title": "Affinity diagram",
+                "lines": [
+                  "Cluster a large pile of ideas into natural groupings.",
+                  "Makes sense of the mess."
+                ]
+              }
             ]
           },
           {
@@ -151,9 +240,25 @@
                 "badge": "Anonymous",
                 "tone": "good",
                 "groups": [
-                  { "label": "How", "lines": ["A panel of experts responds in anonymous rounds.", "A facilitator summarises each round and feeds it back until answers converge."] },
-                  { "label": "Why", "lines": ["Anonymity removes seniority bias, bandwagon effects and groupthink."] },
-                  { "label": "Use for", "lines": ["Estimates, risk and forecasts."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "A panel of experts responds in anonymous rounds.",
+                      "A facilitator summarises each round and feeds it back until answers converge."
+                    ]
+                  },
+                  {
+                    "label": "Why",
+                    "lines": [
+                      "Anonymity removes seniority bias, bandwagon effects and groupthink."
+                    ]
+                  },
+                  {
+                    "label": "Use for",
+                    "lines": [
+                      "Estimates, risk and forecasts."
+                    ]
+                  }
                 ]
               },
               {
@@ -161,9 +266,25 @@
                 "badge": "MCDA",
                 "tone": "accent",
                 "groups": [
-                  { "label": "How", "lines": ["Score each option against weighted criteria such as cost, risk and value.", "Total the weighted scores."] },
-                  { "label": "Why", "lines": ["Compares options objectively rather than on gut feel."] },
-                  { "label": "Also called", "lines": ["Multi-criteria decision analysis (MCDA)."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Score each option against weighted criteria such as cost, risk and value.",
+                      "Total the weighted scores."
+                    ]
+                  },
+                  {
+                    "label": "Why",
+                    "lines": [
+                      "Compares options objectively rather than on gut feel."
+                    ]
+                  },
+                  {
+                    "label": "Also called",
+                    "lines": [
+                      "Multi-criteria decision analysis (MCDA)."
+                    ]
+                  }
                 ]
               }
             ]
@@ -189,21 +310,61 @@
             "kind": "steps",
             "title": "Fast consensus tools",
             "items": [
-              { "title": "Fist of five (fist to five)", "lines": ["On a count, everyone shows 0 to 5 fingers.", "Fist (0) = block or strong objection; 5 = enthusiastic support; 3 = 'I can live with it'.", "Anything below 3 is discussed before proceeding."] },
-              { "title": "Roman voting", "lines": ["Thumbs up, sideways or down.", "Instant read of agreement."] },
-              { "title": "Dot voting", "lines": ["Each person places a fixed number of dots on options they favour.", "A form of multi-voting to narrow a list."] },
-              { "title": "Planning poker", "lines": ["Estimators reveal cards at the same moment.", "No one anchors on the first number spoken."] }
+              {
+                "title": "Fist of five (fist to five)",
+                "lines": [
+                  "On a count, everyone shows 0 to 5 fingers.",
+                  "Fist (0) = block or strong objection; 5 = enthusiastic support; 3 = 'I can live with it'.",
+                  "Anything below 3 is discussed before proceeding."
+                ]
+              },
+              {
+                "title": "Roman voting",
+                "lines": [
+                  "Thumbs up, sideways or down.",
+                  "Instant read of agreement."
+                ]
+              },
+              {
+                "title": "Dot voting",
+                "lines": [
+                  "Each person places a fixed number of dots on options they favour.",
+                  "A form of multi-voting to narrow a list."
+                ]
+              },
+              {
+                "title": "Planning poker",
+                "lines": [
+                  "Estimators reveal cards at the same moment.",
+                  "No one anchors on the first number spoken."
+                ]
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Fist-of-five scale",
             "rows": [
-              { "key": "0 (fist)", "value": "Block / strong objection - stop and discuss." },
-              { "key": "1 - 2", "value": "I have concerns - keep discussing." },
-              { "key": "3", "value": "I can live with it - acceptable." },
-              { "key": "4", "value": "I support it." },
-              { "key": "5", "value": "Enthusiastic, full support." }
+              {
+                "key": "0 (fist)",
+                "value": "Block / strong objection - stop and discuss."
+              },
+              {
+                "key": "1 - 2",
+                "value": "I have concerns - keep discussing."
+              },
+              {
+                "key": "3",
+                "value": "I can live with it - acceptable."
+              },
+              {
+                "key": "4",
+                "value": "I support it."
+              },
+              {
+                "key": "5",
+                "value": "Enthusiastic, full support."
+              }
             ]
           },
           {
@@ -223,10 +384,22 @@
             "kind": "table",
             "title": "Situation -> approach",
             "rows": [
-              { "key": "High stakes, needs buy-in", "value": "Aim for consensus or unanimity, accepting it is slower." },
-              { "key": "Routine or time-boxed", "value": "Majority, plurality, or let the accountable person decide." },
-              { "key": "Expert judgement under uncertainty", "value": "Use Delphi." },
-              { "key": "Comparing options across factors", "value": "Use a weighted decision matrix." }
+              {
+                "key": "High stakes, needs buy-in",
+                "value": "Aim for consensus or unanimity, accepting it is slower."
+              },
+              {
+                "key": "Routine or time-boxed",
+                "value": "Majority, plurality, or let the accountable person decide."
+              },
+              {
+                "key": "Expert judgement under uncertainty",
+                "value": "Use Delphi."
+              },
+              {
+                "key": "Comparing options across factors",
+                "value": "Use a weighted decision matrix."
+              }
             ]
           },
           {
@@ -238,7 +411,27 @@
         ]
       }
     ],
-    "tags": ["decision-making", "consensus", "delphi", "facilitation", "agile", "people", "pmbok 8", "resources", "stakeholders", "collaboration"],
-    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles and performance domains."
+    "tags": [
+      "decision-making",
+      "consensus",
+      "delphi",
+      "facilitation",
+      "agile",
+      "people",
+      "pmbok 8",
+      "resources",
+      "stakeholders",
+      "collaboration"
+    ],
+    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles and performance domains.",
+    "topics": [
+      "Mindset"
+    ],
+    "pathMembership": [
+      {
+        "path": "People, leadership & decisions",
+        "order": 3
+      }
+    ]
   }
 ]

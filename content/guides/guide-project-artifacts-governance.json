@@ -32,11 +32,26 @@
             "kind": "table",
             "title": "Typical charter contents",
             "rows": [
-              { "key": "Purpose", "value": "Project purpose and high-level objectives." },
-              { "key": "Scope", "value": "High-level scope and key deliverables." },
-              { "key": "Milestones", "value": "Key milestones and an order-of-magnitude summary budget." },
-              { "key": "Risk/A&C", "value": "Key risks, assumptions and constraints." },
-              { "key": "Success", "value": "Success criteria and the named sponsor." }
+              {
+                "key": "Purpose",
+                "value": "Project purpose and high-level objectives."
+              },
+              {
+                "key": "Scope",
+                "value": "High-level scope and key deliverables."
+              },
+              {
+                "key": "Milestones",
+                "value": "Key milestones and an order-of-magnitude summary budget."
+              },
+              {
+                "key": "Risk/A&C",
+                "value": "Key risks, assumptions and constraints."
+              },
+              {
+                "key": "Success",
+                "value": "Success criteria and the named sponsor."
+              }
             ]
           },
           {
@@ -83,10 +98,30 @@
             "kind": "steps",
             "title": "At each gate, decide",
             "items": [
-              { "title": "Go", "lines": ["Deliverables sound and business case valid - continue and commit the next tranche."] },
-              { "title": "Hold", "lines": ["Pause and revisit before committing more."] },
-              { "title": "Recycle", "lines": ["Send back for rework, then re-review."] },
-              { "title": "Kill", "lines": ["Business case no longer holds - stop spending."] }
+              {
+                "title": "Go",
+                "lines": [
+                  "Deliverables sound and business case valid - continue and commit the next tranche."
+                ]
+              },
+              {
+                "title": "Hold",
+                "lines": [
+                  "Pause and revisit before committing more."
+                ]
+              },
+              {
+                "title": "Recycle",
+                "lines": [
+                  "Send back for rework, then re-review."
+                ]
+              },
+              {
+                "title": "Kill",
+                "lines": [
+                  "Business case no longer holds - stop spending."
+                ]
+              }
             ]
           },
           {
@@ -109,38 +144,80 @@
             "kind": "table",
             "title": "Logs and registers -> track ongoing items",
             "rows": [
-              { "key": "Risk register", "value": "Future, uncertain events; probability, impact, response, owner." },
-              { "key": "Issue log", "value": "Problems happening now that need action." },
-              { "key": "Assumption log", "value": "Assumptions and constraints being relied on." },
-              { "key": "Stakeholder register", "value": "Who stakeholders are and their interest/influence." },
-              { "key": "Change log", "value": "Requested changes and their disposition." }
+              {
+                "key": "Risk register",
+                "value": "Future, uncertain events; probability, impact, response, owner."
+              },
+              {
+                "key": "Issue log",
+                "value": "Problems happening now that need action."
+              },
+              {
+                "key": "Assumption log",
+                "value": "Assumptions and constraints being relied on."
+              },
+              {
+                "key": "Stakeholder register",
+                "value": "Who stakeholders are and their interest/influence."
+              },
+              {
+                "key": "Change log",
+                "value": "Requested changes and their disposition."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Plans -> define how work is done",
             "rows": [
-              { "key": "Management plans", "value": "How each aspect (scope, schedule, cost, quality, etc.) is managed." },
-              { "key": "Stakeholder plan", "value": "How to engage stakeholders (vs the register, which lists who they are)." }
+              {
+                "key": "Management plans",
+                "value": "How each aspect (scope, schedule, cost, quality, etc.) is managed."
+              },
+              {
+                "key": "Stakeholder plan",
+                "value": "How to engage stakeholders (vs the register, which lists who they are)."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Baselines -> the approved yardstick",
             "rows": [
-              { "key": "Scope baseline", "value": "Approved scope statement, WBS and WBS dictionary." },
-              { "key": "Schedule baseline", "value": "Approved schedule to measure against." },
-              { "key": "Cost baseline", "value": "Approved time-phased budget to measure against." }
+              {
+                "key": "Scope baseline",
+                "value": "Approved scope statement, WBS and WBS dictionary."
+              },
+              {
+                "key": "Schedule baseline",
+                "value": "Approved schedule to measure against."
+              },
+              {
+                "key": "Cost baseline",
+                "value": "Approved time-phased budget to measure against."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Reports and other artifacts",
             "rows": [
-              { "key": "Status/reports", "value": "Feed Monitoring & Controlling with reliable, actionable status." },
-              { "key": "Charter", "value": "Authorises the project (see above)." },
-              { "key": "Business case", "value": "Justifies the investment; re-tested at each gate." },
-              { "key": "WBS", "value": "Decomposes scope - covered in the Schedule & Network Diagrams guide." }
+              {
+                "key": "Status/reports",
+                "value": "Feed Monitoring & Controlling with reliable, actionable status."
+              },
+              {
+                "key": "Charter",
+                "value": "Authorises the project (see above)."
+              },
+              {
+                "key": "Business case",
+                "value": "Justifies the investment; re-tested at each gate."
+              },
+              {
+                "key": "WBS",
+                "value": "Decomposes scope - covered in the Schedule & Network Diagrams guide."
+              }
             ]
           },
           {
@@ -163,8 +240,18 @@
                 "badge": "Future",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Definition", "lines": ["A future, uncertain event that may or may not happen."] },
-                  { "label": "Lives in", "lines": ["The risk register."] }
+                  {
+                    "label": "Definition",
+                    "lines": [
+                      "A future, uncertain event that may or may not happen."
+                    ]
+                  },
+                  {
+                    "label": "Lives in",
+                    "lines": [
+                      "The risk register."
+                    ]
+                  }
                 ]
               },
               {
@@ -172,8 +259,18 @@
                 "badge": "Now",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Definition", "lines": ["Something already happening now that needs action."] },
-                  { "label": "Lives in", "lines": ["The issue log."] }
+                  {
+                    "label": "Definition",
+                    "lines": [
+                      "Something already happening now that needs action."
+                    ]
+                  },
+                  {
+                    "label": "Lives in",
+                    "lines": [
+                      "The issue log."
+                    ]
+                  }
                 ]
               }
             ]
@@ -195,8 +292,14 @@
             "kind": "table",
             "title": "How each is updated",
             "rows": [
-              { "key": "Register / log", "value": "Updated freely and continuously - add risks, issues, assumptions, stakeholders as they emerge. No change request needed." },
-              { "key": "Baseline", "value": "Approved reference for scope, schedule or cost. Changing it requires an approved change request." }
+              {
+                "key": "Register / log",
+                "value": "Updated freely and continuously - add risks, issues, assumptions, stakeholders as they emerge. No change request needed."
+              },
+              {
+                "key": "Baseline",
+                "value": "Approved reference for scope, schedule or cost. Changing it requires an approved change request."
+              }
             ]
           },
           {
@@ -220,11 +323,36 @@
             "kind": "steps",
             "title": "Change control steps",
             "items": [
-              { "title": "Capture the request", "lines": ["Log it in the change log; describe the change and its trigger."] },
-              { "title": "Assess the impact", "lines": ["Evaluate effect on scope, schedule, cost, quality, risk and value."] },
-              { "title": "Route for decision", "lines": ["Take it to the approver defined by governance (e.g. CCB or sponsor)."] },
-              { "title": "Update baselines if approved", "lines": ["Only after approval, re-baseline and communicate the new reference."] },
-              { "title": "Trace it back", "lines": ["Link the change to the business case and charter so value stays connected."] }
+              {
+                "title": "Capture the request",
+                "lines": [
+                  "Log it in the change log; describe the change and its trigger."
+                ]
+              },
+              {
+                "title": "Assess the impact",
+                "lines": [
+                  "Evaluate effect on scope, schedule, cost, quality, risk and value."
+                ]
+              },
+              {
+                "title": "Route for decision",
+                "lines": [
+                  "Take it to the approver defined by governance (e.g. CCB or sponsor)."
+                ]
+              },
+              {
+                "title": "Update baselines if approved",
+                "lines": [
+                  "Only after approval, re-baseline and communicate the new reference."
+                ]
+              },
+              {
+                "title": "Trace it back",
+                "lines": [
+                  "Link the change to the business case and charter so value stays connected."
+                ]
+              }
             ]
           },
           {
@@ -243,11 +371,36 @@
             "kind": "steps",
             "title": "Follow the thread",
             "items": [
-              { "title": "Business case", "lines": ["Justifies the investment."] },
-              { "title": "Charter", "lines": ["Authorises the project and the PM."] },
-              { "title": "Governance", "lines": ["Decides who approves what."] },
-              { "title": "Gates", "lines": ["Confirm value before committing more."] },
-              { "title": "RAID + baselines", "lines": ["Keep risks and the approved yardstick under control."] }
+              {
+                "title": "Business case",
+                "lines": [
+                  "Justifies the investment."
+                ]
+              },
+              {
+                "title": "Charter",
+                "lines": [
+                  "Authorises the project and the PM."
+                ]
+              },
+              {
+                "title": "Governance",
+                "lines": [
+                  "Decides who approves what."
+                ]
+              },
+              {
+                "title": "Gates",
+                "lines": [
+                  "Confirm value before committing more."
+                ]
+              },
+              {
+                "title": "RAID + baselines",
+                "lines": [
+                  "Keep risks and the approved yardstick under control."
+                ]
+              }
             ]
           },
           {
@@ -272,6 +425,17 @@
       "monitoring and controlling",
       "scope"
     ],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 domains and processes."
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 domains and processes.",
+    "topics": [
+      "Process",
+      "Governance",
+      "Predictive"
+    ],
+    "pathMembership": [
+      {
+        "path": "PMBOK 8 foundation",
+        "order": 3
+      }
+    ]
   }
 ]

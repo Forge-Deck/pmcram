@@ -41,13 +41,34 @@
             "kind": "table",
             "title": "Type -> who carries cost risk / when to use",
             "rows": [
-              { "key": "FFP", "value": "Seller carries all cost risk (buyer risk lowest). Single set price; seller absorbs any overrun in full. Use when scope is well defined and stable; the buyer's safest, most predictable option." },
-              { "key": "FPIF", "value": "Shared, seller-leaning. Set price plus incentive for meeting cost, schedule or performance targets; buyer and seller share savings and overruns up to a price ceiling. Use when scope is fairly clear but you want to motivate performance." },
-              { "key": "FPEPA", "value": "Seller-leaning, with external-economics protection. Price can adjust for defined economics such as inflation or commodity/currency rates. Use for long-term contracts spanning years." },
-              { "key": "CPFF", "value": "Buyer carries most cost risk. Allowable costs plus a fixed fee that does not change with performance. Use when scope cannot yet be fully defined." },
-              { "key": "CPIF", "value": "Buyer-leaning, shared via sharing ratio. Allowable costs plus a fee that varies with performance against targets. Use for uncertain scope where you still want a cost/performance incentive." },
-              { "key": "CPAF", "value": "Buyer-leaning, subjective. Allowable costs plus an award fee granted on the buyer's subjective satisfaction with performance. Use when performance is judged rather than measured." },
-              { "key": "T&M", "value": "Medium; sits between fixed price and cost-reimbursable. Agreed rate per hour or unit plus materials. Use for staff augmentation or work that must start before scope is clear. Always bound with a not-to-exceed (NTE) ceiling and time limits." }
+              {
+                "key": "FFP",
+                "value": "Seller carries all cost risk (buyer risk lowest). Single set price; seller absorbs any overrun in full. Use when scope is well defined and stable; the buyer's safest, most predictable option."
+              },
+              {
+                "key": "FPIF",
+                "value": "Shared, seller-leaning. Set price plus incentive for meeting cost, schedule or performance targets; buyer and seller share savings and overruns up to a price ceiling. Use when scope is fairly clear but you want to motivate performance."
+              },
+              {
+                "key": "FPEPA",
+                "value": "Seller-leaning, with external-economics protection. Price can adjust for defined economics such as inflation or commodity/currency rates. Use for long-term contracts spanning years."
+              },
+              {
+                "key": "CPFF",
+                "value": "Buyer carries most cost risk. Allowable costs plus a fixed fee that does not change with performance. Use when scope cannot yet be fully defined."
+              },
+              {
+                "key": "CPIF",
+                "value": "Buyer-leaning, shared via sharing ratio. Allowable costs plus a fee that varies with performance against targets. Use for uncertain scope where you still want a cost/performance incentive."
+              },
+              {
+                "key": "CPAF",
+                "value": "Buyer-leaning, subjective. Allowable costs plus an award fee granted on the buyer's subjective satisfaction with performance. Use when performance is judged rather than measured."
+              },
+              {
+                "key": "T&M",
+                "value": "Medium; sits between fixed price and cost-reimbursable. Agreed rate per hour or unit plus materials. Use for staff augmentation or work that must start before scope is clear. Always bound with a not-to-exceed (NTE) ceiling and time limits."
+              }
             ]
           },
           {
@@ -58,9 +79,27 @@
                 "badge": "Buyer risk LOW",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Mechanics", "lines": ["Seller is locked to a price and absorbs a wrong estimate.", "Buyer risk LOW, seller risk HIGH."] },
-                  { "label": "Members", "lines": ["FFP - single set price.", "FPIF - price plus incentive, shared up to a ceiling.", "FPEPA - price adjusts for defined external economics."] },
-                  { "label": "Use when", "lines": ["Scope is well defined and stable."] }
+                  {
+                    "label": "Mechanics",
+                    "lines": [
+                      "Seller is locked to a price and absorbs a wrong estimate.",
+                      "Buyer risk LOW, seller risk HIGH."
+                    ]
+                  },
+                  {
+                    "label": "Members",
+                    "lines": [
+                      "FFP - single set price.",
+                      "FPIF - price plus incentive, shared up to a ceiling.",
+                      "FPEPA - price adjusts for defined external economics."
+                    ]
+                  },
+                  {
+                    "label": "Use when",
+                    "lines": [
+                      "Scope is well defined and stable."
+                    ]
+                  }
                 ]
               },
               {
@@ -68,9 +107,27 @@
                 "badge": "Buyer risk HIGH",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Mechanics", "lines": ["Buyer pays allowable costs PLUS a fee.", "Final cost uncertain until work is done; buyer owns the uncertainty."] },
-                  { "label": "Members", "lines": ["CPFF - costs plus a fixed fee.", "CPIF - costs plus a performance-varying fee (sharing ratio).", "CPAF - costs plus a subjective award fee."] },
-                  { "label": "Use when", "lines": ["Scope cannot yet be fully defined."] }
+                  {
+                    "label": "Mechanics",
+                    "lines": [
+                      "Buyer pays allowable costs PLUS a fee.",
+                      "Final cost uncertain until work is done; buyer owns the uncertainty."
+                    ]
+                  },
+                  {
+                    "label": "Members",
+                    "lines": [
+                      "CPFF - costs plus a fixed fee.",
+                      "CPIF - costs plus a performance-varying fee (sharing ratio).",
+                      "CPAF - costs plus a subjective award fee."
+                    ]
+                  },
+                  {
+                    "label": "Use when",
+                    "lines": [
+                      "Scope cannot yet be fully defined."
+                    ]
+                  }
                 ]
               },
               {
@@ -78,9 +135,27 @@
                 "badge": "Risk MEDIUM",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Mechanics", "lines": ["Hybrid of FP and CR.", "Agreed rate per hour/unit plus materials.", "Risk sits between FP and CR."] },
-                  { "label": "Use when", "lines": ["Staff augmentation.", "Work must start before scope is clear."] },
-                  { "label": "Guardrail", "lines": ["No fixed total, so cap exposure with an NTE ceiling and time limits."] }
+                  {
+                    "label": "Mechanics",
+                    "lines": [
+                      "Hybrid of FP and CR.",
+                      "Agreed rate per hour/unit plus materials.",
+                      "Risk sits between FP and CR."
+                    ]
+                  },
+                  {
+                    "label": "Use when",
+                    "lines": [
+                      "Staff augmentation.",
+                      "Work must start before scope is clear."
+                    ]
+                  },
+                  {
+                    "label": "Guardrail",
+                    "lines": [
+                      "No fixed total, so cap exposure with an NTE ceiling and time limits."
+                    ]
+                  }
                 ]
               }
             ]
@@ -96,23 +171,56 @@
             "kind": "terms",
             "title": "Fixed-price family",
             "items": [
-              { "code": "FP", "text": "Fixed Price - buyer risk low, seller risk high." },
-              { "code": "FFP", "text": "Firm Fixed Price - single set price; seller absorbs all overrun." },
-              { "code": "FPIF", "text": "Fixed Price Incentive Fee - set price plus incentive, shared up to a ceiling." },
-              { "code": "FPEPA", "text": "Fixed Price with Economic Price Adjustment - price adjusts for defined external economics." }
+              {
+                "code": "FP",
+                "text": "Fixed Price - buyer risk low, seller risk high."
+              },
+              {
+                "code": "FFP",
+                "text": "Firm Fixed Price - single set price; seller absorbs all overrun."
+              },
+              {
+                "code": "FPIF",
+                "text": "Fixed Price Incentive Fee - set price plus incentive, shared up to a ceiling."
+              },
+              {
+                "code": "FPEPA",
+                "text": "Fixed Price with Economic Price Adjustment - price adjusts for defined external economics."
+              }
             ]
           },
           {
             "kind": "terms",
             "title": "Cost-reimbursable family and hybrid",
             "items": [
-              { "code": "CR", "text": "Cost Reimbursable - buyer pays allowable costs plus a fee." },
-              { "code": "CPFF", "text": "Cost Plus Fixed Fee - fixed fee, unchanged by performance." },
-              { "code": "CPIF", "text": "Cost Plus Incentive Fee - fee varies with performance via a sharing ratio." },
-              { "code": "CPAF", "text": "Cost Plus Award Fee - fee granted on the buyer's subjective satisfaction." },
-              { "code": "T&M", "text": "Time and Materials - rate per hour/unit plus materials; hybrid of FP and CR." },
-              { "code": "NTE", "text": "Not-To-Exceed - ceiling that caps buyer exposure on T&M." },
-              { "code": "PTA", "text": "Point of Total Assumption - cost above which the seller bears all further cost (FPIF)." }
+              {
+                "code": "CR",
+                "text": "Cost Reimbursable - buyer pays allowable costs plus a fee."
+              },
+              {
+                "code": "CPFF",
+                "text": "Cost Plus Fixed Fee - fixed fee, unchanged by performance."
+              },
+              {
+                "code": "CPIF",
+                "text": "Cost Plus Incentive Fee - fee varies with performance via a sharing ratio."
+              },
+              {
+                "code": "CPAF",
+                "text": "Cost Plus Award Fee - fee granted on the buyer's subjective satisfaction."
+              },
+              {
+                "code": "T&M",
+                "text": "Time and Materials - rate per hour/unit plus materials; hybrid of FP and CR."
+              },
+              {
+                "code": "NTE",
+                "text": "Not-To-Exceed - ceiling that caps buyer exposure on T&M."
+              },
+              {
+                "code": "PTA",
+                "text": "Point of Total Assumption - cost above which the seller bears all further cost (FPIF)."
+              }
             ]
           }
         ]
@@ -152,11 +260,26 @@
             "kind": "table",
             "title": "Fixed price -> cost-reimbursable",
             "rows": [
-              { "key": "FFP", "value": "Seller carries the MOST cost risk." },
-              { "key": "FPIF / FPEPA", "value": "Shared, seller-leaning." },
-              { "key": "T&M", "value": "Medium; between fixed price and cost-reimbursable." },
-              { "key": "CPIF / CPAF", "value": "Shared, buyer-leaning." },
-              { "key": "CPFF", "value": "Buyer carries the MOST cost risk." }
+              {
+                "key": "FFP",
+                "value": "Seller carries the MOST cost risk."
+              },
+              {
+                "key": "FPIF / FPEPA",
+                "value": "Shared, seller-leaning."
+              },
+              {
+                "key": "T&M",
+                "value": "Medium; between fixed price and cost-reimbursable."
+              },
+              {
+                "key": "CPIF / CPAF",
+                "value": "Shared, buyer-leaning."
+              },
+              {
+                "key": "CPFF",
+                "value": "Buyer carries the MOST cost risk."
+              }
             ]
           },
           {
@@ -174,7 +297,28 @@
         ]
       }
     ],
-    "tags": ["procurement", "contracts", "fixed-price", "cost-reimbursable", "time-and-materials", "process", "pmbok 8", "governance", "risk allocation"],
-    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 (procurement within the Governance performance domain)."
+    "tags": [
+      "procurement",
+      "contracts",
+      "fixed-price",
+      "cost-reimbursable",
+      "time-and-materials",
+      "process",
+      "pmbok 8",
+      "governance",
+      "risk allocation"
+    ],
+    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 (procurement within the Governance performance domain).",
+    "topics": [
+      "Process",
+      "Governance",
+      "Predictive"
+    ],
+    "pathMembership": [
+      {
+        "path": "Control, risk & recovery",
+        "order": 3
+      }
+    ]
   }
 ]

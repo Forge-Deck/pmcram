@@ -38,12 +38,30 @@
             "kind": "table",
             "title": "Warning sign -> response",
             "rows": [
-              { "key": "Milestones keep slipping", "value": "Stop and establish the real status before promising new dates." },
-              { "key": "Budget burning faster than work is done", "value": "Check CPI; re-plan spend from current reality, not the plan." },
-              { "key": "Scope churns without settling", "value": "Freeze low-value churn; re-baseline through change control." },
-              { "key": "Morale sinking or best people leaving", "value": "Protect and re-motivate the team before adding pressure." },
-              { "key": "Rising defect counts and rework", "value": "Treat as a leading indicator; find the root cause, not the symptom." },
-              { "key": "Status reports go quiet, vague or stay 'green'", "value": "Dig into how status is measured - reporting no longer matches reality." }
+              {
+                "key": "Milestones keep slipping",
+                "value": "Stop and establish the real status before promising new dates."
+              },
+              {
+                "key": "Budget burning faster than work is done",
+                "value": "Check CPI; re-plan spend from current reality, not the plan."
+              },
+              {
+                "key": "Scope churns without settling",
+                "value": "Freeze low-value churn; re-baseline through change control."
+              },
+              {
+                "key": "Morale sinking or best people leaving",
+                "value": "Protect and re-motivate the team before adding pressure."
+              },
+              {
+                "key": "Rising defect counts and rework",
+                "value": "Treat as a leading indicator; find the root cause, not the symptom."
+              },
+              {
+                "key": "Status reports go quiet, vague or stay 'green'",
+                "value": "Dig into how status is measured - reporting no longer matches reality."
+              }
             ]
           },
           {
@@ -76,28 +94,53 @@
                 "title": "Moving-target requirements",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Cause", "lines": ["Requirements were ambiguous or keep shifting.", "The team is forever building against a moving target."] }
+                  {
+                    "label": "Cause",
+                    "lines": [
+                      "Requirements were ambiguous or keep shifting.",
+                      "The team is forever building against a moving target."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Unrealistic estimates",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Cause", "lines": ["Optimistic estimates and schedules compressed to hit a date.", "No room for the normal friction of delivery."] }
+                  {
+                    "label": "Cause",
+                    "lines": [
+                      "Optimistic estimates and schedules compressed to hit a date.",
+                      "No room for the normal friction of delivery."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Thin planning and unmanaged risk",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Cause", "lines": ["Light up-front planning.", "Risks identified but never actively managed.", "Predictable problems become surprises."] }
+                  {
+                    "label": "Cause",
+                    "lines": [
+                      "Light up-front planning.",
+                      "Risks identified but never actively managed.",
+                      "Predictable problems become surprises."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Sponsorship gap",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Cause", "lines": ["Sponsor absent, disengaged, or keeps changing 'done'.", "Decisions stall; the project cannot self-correct."] }
+                  {
+                    "label": "Cause",
+                    "lines": [
+                      "Sponsor absent, disengaged, or keeps changing 'done'.",
+                      "Decisions stall; the project cannot self-correct."
+                    ]
+                  }
                 ]
               }
             ]
@@ -253,7 +296,29 @@
         ]
       }
     ],
-    "tags": ["troubled projects", "recovery", "earned value", "sunk cost", "change control", "stakeholder communication", "risk", "8th edition", "risk domain", "scope domain"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and re-tailored to 8th-Edition performance domains."
+    "tags": [
+      "troubled projects",
+      "recovery",
+      "earned value",
+      "sunk cost",
+      "change control",
+      "stakeholder communication",
+      "risk",
+      "8th edition",
+      "risk domain",
+      "scope domain"
+    ],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and re-tailored to 8th-Edition performance domains.",
+    "topics": [
+      "Process",
+      "Risk",
+      "Governance"
+    ],
+    "pathMembership": [
+      {
+        "path": "Control, risk & recovery",
+        "order": 4
+      }
+    ]
   }
 ]

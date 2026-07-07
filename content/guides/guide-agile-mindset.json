@@ -34,10 +34,34 @@
                 "badge": "Prefer the left",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Value 1", "lines": ["Individuals and interactions", "over processes and tools."] },
-                  { "label": "Value 2", "lines": ["Working product", "over comprehensive documentation."] },
-                  { "label": "Value 3", "lines": ["Customer collaboration", "over contract negotiation."] },
-                  { "label": "Value 4", "lines": ["Responding to change", "over following a plan."] }
+                  {
+                    "label": "Value 1",
+                    "lines": [
+                      "Individuals and interactions",
+                      "over processes and tools."
+                    ]
+                  },
+                  {
+                    "label": "Value 2",
+                    "lines": [
+                      "Working product",
+                      "over comprehensive documentation."
+                    ]
+                  },
+                  {
+                    "label": "Value 3",
+                    "lines": [
+                      "Customer collaboration",
+                      "over contract negotiation."
+                    ]
+                  },
+                  {
+                    "label": "Value 4",
+                    "lines": [
+                      "Responding to change",
+                      "over following a plan."
+                    ]
+                  }
                 ]
               }
             ]
@@ -46,12 +70,30 @@
             "kind": "terms",
             "title": "PMBOK 8 principles most relevant to the agile mindset",
             "items": [
-              { "code": "Focus on Value", "text": "Treat value as the ultimate measure of success; deliver it early and often and adapt to change." },
-              { "code": "Build an Empowered Culture", "text": "Foster a collaborative, self-managing team environment where people own their work." },
-              { "code": "Be an Accountable Leader", "text": "Lead with integrity and care; take responsibility as a diligent, respectful steward." },
-              { "code": "Embed Quality", "text": "Build quality into processes and deliverables, not just inspect it in." },
-              { "code": "Adopt a Holistic View", "text": "See the whole system - people, product and context - when making decisions." },
-              { "code": "Integrate Sustainability", "text": "Balance value delivery with sustainable outcomes for people and stakeholders." }
+              {
+                "code": "Focus on Value",
+                "text": "Treat value as the ultimate measure of success; deliver it early and often and adapt to change."
+              },
+              {
+                "code": "Build an Empowered Culture",
+                "text": "Foster a collaborative, self-managing team environment where people own their work."
+              },
+              {
+                "code": "Be an Accountable Leader",
+                "text": "Lead with integrity and care; take responsibility as a diligent, respectful steward."
+              },
+              {
+                "code": "Embed Quality",
+                "text": "Build quality into processes and deliverables, not just inspect it in."
+              },
+              {
+                "code": "Adopt a Holistic View",
+                "text": "See the whole system - people, product and context - when making decisions."
+              },
+              {
+                "code": "Integrate Sustainability",
+                "text": "Balance value delivery with sustainable outcomes for people and stakeholders."
+              }
             ]
           },
           {
@@ -71,9 +113,18 @@
             "kind": "table",
             "title": "Scrum roles at a glance",
             "rows": [
-              { "key": "Product Owner", "value": "Orders the product backlog to maximise value." },
-              { "key": "Scrum Master", "value": "Enables the team and helps remove impediments." },
-              { "key": "Developers", "value": "Create the increment; decide how the work is done." }
+              {
+                "key": "Product Owner",
+                "value": "Orders the product backlog to maximise value."
+              },
+              {
+                "key": "Scrum Master",
+                "value": "Enables the team and helps remove impediments."
+              },
+              {
+                "key": "Developers",
+                "value": "Create the increment; decide how the work is done."
+              }
             ]
           },
           {
@@ -98,9 +149,24 @@
             "kind": "steps",
             "title": "When requirements are uncertain",
             "items": [
-              { "title": "Clarify with stakeholders", "lines": ["Talk to the people who define value."] },
-              { "title": "Refine the backlog", "lines": ["Turn ambiguity into ordered, workable items."] },
-              { "title": "Learn through small releases", "lines": ["Get feedback on a small increment instead of freezing scope too early."] }
+              {
+                "title": "Clarify with stakeholders",
+                "lines": [
+                  "Talk to the people who define value."
+                ]
+              },
+              {
+                "title": "Refine the backlog",
+                "lines": [
+                  "Turn ambiguity into ordered, workable items."
+                ]
+              },
+              {
+                "title": "Learn through small releases",
+                "lines": [
+                  "Get feedback on a small increment instead of freezing scope too early."
+                ]
+              }
             ]
           },
           {
@@ -120,9 +186,24 @@
             "kind": "steps",
             "title": "Handling a mid-iteration request",
             "items": [
-              { "title": "Capture it", "lines": ["Add the idea, defect or request to the backlog."] },
-              { "title": "Assess it", "lines": ["Weigh value, risk and impact on the iteration goal."] },
-              { "title": "Reprioritise", "lines": ["Sequence it into a future cycle unless it is urgent."] }
+              {
+                "title": "Capture it",
+                "lines": [
+                  "Add the idea, defect or request to the backlog."
+                ]
+              },
+              {
+                "title": "Assess it",
+                "lines": [
+                  "Weigh value, risk and impact on the iteration goal."
+                ]
+              },
+              {
+                "title": "Reprioritise",
+                "lines": [
+                  "Sequence it into a future cycle unless it is urgent."
+                ]
+              }
             ]
           },
           {
@@ -142,9 +223,24 @@
             "kind": "steps",
             "title": "Answer routine",
             "items": [
-              { "title": "Identify the delivery approach", "lines": ["Predictive, agile or hybrid - read the wording first."] },
-              { "title": "Eliminate unethical options", "lines": ["Drop anything that hides information or weakens collaboration."] },
-              { "title": "Pick the value-and-principle choice", "lines": ["Favour transparency, stakeholder engagement and adaptation."] }
+              {
+                "title": "Identify the delivery approach",
+                "lines": [
+                  "Predictive, agile or hybrid - read the wording first."
+                ]
+              },
+              {
+                "title": "Eliminate unethical options",
+                "lines": [
+                  "Drop anything that hides information or weakens collaboration."
+                ]
+              },
+              {
+                "title": "Pick the value-and-principle choice",
+                "lines": [
+                  "Favour transparency, stakeholder engagement and adaptation."
+                ]
+              }
             ]
           },
           {
@@ -169,6 +265,21 @@
       "life cycle",
       "value delivery"
     ],
-    "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide (aligned to PMBOK 8 principles and performance domains), Agile guidance, and the PMI Code of Ethics and Professional Conduct."
+    "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide (aligned to PMBOK 8 principles and performance domains), Agile guidance, and the PMI Code of Ethics and Professional Conduct.",
+    "topics": [
+      "Mindset",
+      "Agile"
+    ],
+    "pathMembership": [
+      {
+        "path": "Agile, hybrid & tailoring",
+        "order": 1,
+        "purpose": "Use this for delivery approach questions.",
+        "tags": [
+          "Agile",
+          "Hybrid"
+        ]
+      }
+    ]
   }
 ]

@@ -14,17 +14,34 @@
             "kind": "table",
             "title": "Visual -> domain it serves",
             "rows": [
-              { "key": "Kanban board", "value": "Governance + Scope. Makes flow visible; supports Build an Empowered Culture." },
-              { "key": "RACI / RAM", "value": "Resources. Clarifies roles; supports Be an Accountable Leader and accountability." },
-              { "key": "Power-interest grid", "value": "Stakeholders. Targets engagement effort where it changes outcomes." },
-              { "key": "Probability-impact matrix", "value": "Risk. Prioritises risk responses; supports Adopt a Holistic View." }
+              {
+                "key": "Kanban board",
+                "value": "Governance + Scope. Makes flow visible; supports Build an Empowered Culture."
+              },
+              {
+                "key": "RACI / RAM",
+                "value": "Resources. Clarifies roles; supports Be an Accountable Leader and accountability."
+              },
+              {
+                "key": "Power-interest grid",
+                "value": "Stakeholders. Targets engagement effort where it changes outcomes."
+              },
+              {
+                "key": "Probability-impact matrix",
+                "value": "Risk. Prioritises risk responses; supports Adopt a Holistic View."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Tailoring reminder",
             "tone": "good",
-            "lines": ["Artifacts are chosen, not mandated.", "Simple project -> a whiteboard column list; complex -> a fuller board or matrix.", "The visual exists to drive a decision, not to be filed.", "Be suspicious of an answer that says 'always produce the full matrix'."]
+            "lines": [
+              "Artifacts are chosen, not mandated.",
+              "Simple project -> a whiteboard column list; complex -> a fuller board or matrix.",
+              "The visual exists to drive a decision, not to be filed.",
+              "Be suspicious of an answer that says 'always produce the full matrix'."
+            ]
           }
         ]
       },
@@ -41,27 +58,67 @@
             "kind": "steps",
             "title": "How the board works",
             "items": [
-              { "title": "Visualise the work", "lines": ["Every item is a card in a column.", "Columns model your real workflow stages."] },
-              { "title": "Limit WIP", "lines": ["Cap each column's card count.", "Lower the limit to surface bottlenecks."] },
-              { "title": "Pull, don't push", "lines": ["Pull a new card only when capacity frees up.", "Finish before starting."] },
-              { "title": "Manage flow", "lines": ["Watch where cards pile up.", "Improve the slowest stage first."] }
+              {
+                "title": "Visualise the work",
+                "lines": [
+                  "Every item is a card in a column.",
+                  "Columns model your real workflow stages."
+                ]
+              },
+              {
+                "title": "Limit WIP",
+                "lines": [
+                  "Cap each column's card count.",
+                  "Lower the limit to surface bottlenecks."
+                ]
+              },
+              {
+                "title": "Pull, don't push",
+                "lines": [
+                  "Pull a new card only when capacity frees up.",
+                  "Finish before starting."
+                ]
+              },
+              {
+                "title": "Manage flow",
+                "lines": [
+                  "Watch where cards pile up.",
+                  "Improve the slowest stage first."
+                ]
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Kanban core practices",
             "rows": [
-              { "key": "Columns", "value": "To Do -> In Progress -> Done (mirror your workflow)." },
-              { "key": "WIP limit", "value": "The key lever; a capped column exposes the constraint." },
-              { "key": "Pull system", "value": "New work starts only when downstream frees up." },
-              { "key": "Metrics", "value": "Lead time, cycle time and throughput; a cumulative flow diagram shows trends." }
+              {
+                "key": "Columns",
+                "value": "To Do -> In Progress -> Done (mirror your workflow)."
+              },
+              {
+                "key": "WIP limit",
+                "value": "The key lever; a capped column exposes the constraint."
+              },
+              {
+                "key": "Pull system",
+                "value": "New work starts only when downstream frees up."
+              },
+              {
+                "key": "Metrics",
+                "value": "Lead time, cycle time and throughput; a cumulative flow diagram shows trends."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "accent",
-            "lines": ["Kanban = visualise flow, limit WIP, pull work.", "A WIP limit is the primary lever - lower it to surface bottlenecks.", "Reduce bottlenecks by finishing work, not by starting more."]
+            "lines": [
+              "Kanban = visualise flow, limit WIP, pull work.",
+              "A WIP limit is the primary lever - lower it to surface bottlenecks.",
+              "Reduce bottlenecks by finishing work, not by starting more."
+            ]
           }
         ]
       },
@@ -78,10 +135,22 @@
             "kind": "terms",
             "title": "The four letters",
             "items": [
-              { "code": "R", "text": "Responsible - does the work. One or more per activity." },
-              { "code": "A", "text": "Accountable - owns the outcome. Exactly one per activity." },
-              { "code": "C", "text": "Consulted - gives input; two-way communication." },
-              { "code": "I", "text": "Informed - kept in the loop; one-way communication." }
+              {
+                "code": "R",
+                "text": "Responsible - does the work. One or more per activity."
+              },
+              {
+                "code": "A",
+                "text": "Accountable - owns the outcome. Exactly one per activity."
+              },
+              {
+                "code": "C",
+                "text": "Consulted - gives input; two-way communication."
+              },
+              {
+                "code": "I",
+                "text": "Informed - kept in the loop; one-way communication."
+              }
             ]
           },
           {
@@ -92,9 +161,33 @@
                 "badge": "RACI",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Charter", "lines": ["PM: R", "Sponsor: A", "Team: C", "QA: I"] },
-                  { "label": "Plan", "lines": ["PM: A", "Sponsor: C", "Team: R", "QA: I"] },
-                  { "label": "Build", "lines": ["PM: A", "Sponsor: I", "Team: R", "QA: C"] }
+                  {
+                    "label": "Charter",
+                    "lines": [
+                      "PM: R",
+                      "Sponsor: A",
+                      "Team: C",
+                      "QA: I"
+                    ]
+                  },
+                  {
+                    "label": "Plan",
+                    "lines": [
+                      "PM: A",
+                      "Sponsor: C",
+                      "Team: R",
+                      "QA: I"
+                    ]
+                  },
+                  {
+                    "label": "Build",
+                    "lines": [
+                      "PM: A",
+                      "Sponsor: I",
+                      "Team: R",
+                      "QA: C"
+                    ]
+                  }
                 ]
               }
             ]
@@ -103,18 +196,37 @@
             "kind": "table",
             "title": "Reading the grid",
             "rows": [
-              { "key": "Rows", "value": "Activities or deliverables." },
-              { "key": "Columns", "value": "Roles or people." },
-              { "key": "One A per row", "value": "Single point of accountability; it cannot be shared." },
-              { "key": "Empty row", "value": "No owner - a gap to fix." },
-              { "key": "Overloaded column", "value": "One role is R on too much - a bottleneck." }
+              {
+                "key": "Rows",
+                "value": "Activities or deliverables."
+              },
+              {
+                "key": "Columns",
+                "value": "Roles or people."
+              },
+              {
+                "key": "One A per row",
+                "value": "Single point of accountability; it cannot be shared."
+              },
+              {
+                "key": "Empty row",
+                "value": "No owner - a gap to fix."
+              },
+              {
+                "key": "Overloaded column",
+                "value": "One role is R on too much - a bottleneck."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "warn",
-            "lines": ["Exactly one 'A' per row - one person is accountable.", "Several can be R, C or I, but accountability can't be shared.", "RACI is a form of RAM; a RAM can also roll up at a summary level."]
+            "lines": [
+              "Exactly one 'A' per row - one person is accountable.",
+              "Several can be R, C or I, but accountability can't be shared.",
+              "RACI is a form of RAM; a RAM can also roll up at a summary level."
+            ]
           }
         ]
       },
@@ -131,8 +243,20 @@
                 "badge": "Top row",
                 "tone": "accent",
                 "groups": [
-                  { "label": "High interest", "lines": ["Manage closely.", "Partner and collaborate; these drive success."] },
-                  { "label": "Low interest", "lines": ["Keep satisfied.", "Don't overload them, but don't lose them."] }
+                  {
+                    "label": "High interest",
+                    "lines": [
+                      "Manage closely.",
+                      "Partner and collaborate; these drive success."
+                    ]
+                  },
+                  {
+                    "label": "Low interest",
+                    "lines": [
+                      "Keep satisfied.",
+                      "Don't overload them, but don't lose them."
+                    ]
+                  }
                 ]
               },
               {
@@ -140,8 +264,20 @@
                 "badge": "Bottom row",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "High interest", "lines": ["Keep informed.", "Useful supporters; consult on detail."] },
-                  { "label": "Low interest", "lines": ["Monitor.", "Minimal effort until their position shifts."] }
+                  {
+                    "label": "High interest",
+                    "lines": [
+                      "Keep informed.",
+                      "Useful supporters; consult on detail."
+                    ]
+                  },
+                  {
+                    "label": "Low interest",
+                    "lines": [
+                      "Monitor.",
+                      "Minimal effort until their position shifts."
+                    ]
+                  }
                 ]
               }
             ]
@@ -150,17 +286,34 @@
             "kind": "table",
             "title": "Related classification models",
             "rows": [
-              { "key": "Power-interest", "value": "Authority vs concern (the default grid)." },
-              { "key": "Power-influence", "value": "Authority vs active involvement." },
-              { "key": "Influence-impact", "value": "Involvement vs ability to change the project." },
-              { "key": "Salience model", "value": "Power, urgency and legitimacy combined." }
+              {
+                "key": "Power-interest",
+                "value": "Authority vs concern (the default grid)."
+              },
+              {
+                "key": "Power-influence",
+                "value": "Authority vs active involvement."
+              },
+              {
+                "key": "Influence-impact",
+                "value": "Involvement vs ability to change the project."
+              },
+              {
+                "key": "Salience model",
+                "value": "Power, urgency and legitimacy combined."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "warn",
-            "lines": ["High power + high interest = manage closely.", "High power + low interest = keep satisfied.", "The grid feeds the engagement plan; the stakeholder register still says who they are.", "Re-plot as positions change - engagement is continuous, not one-off."]
+            "lines": [
+              "High power + high interest = manage closely.",
+              "High power + low interest = keep satisfied.",
+              "The grid feeds the engagement plan; the stakeholder register still says who they are.",
+              "Re-plot as positions change - engagement is continuous, not one-off."
+            ]
           }
         ]
       },
@@ -177,9 +330,27 @@
                 "badge": "P x I",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Red - high", "lines": ["High probability and/or high impact.", "Respond first; assign an owner now."] },
-                  { "label": "Yellow - medium", "lines": ["Moderate score.", "Watch and plan a response."] },
-                  { "label": "Green - low", "lines": ["Low probability and impact.", "Accept or add to a watch list."] }
+                  {
+                    "label": "Red - high",
+                    "lines": [
+                      "High probability and/or high impact.",
+                      "Respond first; assign an owner now."
+                    ]
+                  },
+                  {
+                    "label": "Yellow - medium",
+                    "lines": [
+                      "Moderate score.",
+                      "Watch and plan a response."
+                    ]
+                  },
+                  {
+                    "label": "Green - low",
+                    "lines": [
+                      "Low probability and impact.",
+                      "Accept or add to a watch list."
+                    ]
+                  }
                 ]
               }
             ]
@@ -189,23 +360,46 @@
             "title": "Scoring",
             "note": "Same math sizes threats and opportunities",
             "items": [
-              { "formula": "Risk score = Probability x Impact", "lines": ["Higher score = higher priority.", "Rank all risks, then respond top-down."] },
-              { "formula": "EMV = Probability x Impact ($)", "lines": ["Expected monetary value.", "Sum identified risks to size contingency reserve."] }
+              {
+                "formula": "Risk score = Probability x Impact",
+                "lines": [
+                  "Higher score = higher priority.",
+                  "Rank all risks, then respond top-down."
+                ]
+              },
+              {
+                "formula": "EMV = Probability x Impact ($)",
+                "lines": [
+                  "Expected monetary value.",
+                  "Sum identified risks to size contingency reserve."
+                ]
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Response strategies",
             "rows": [
-              { "key": "Threats", "value": "Escalate, Avoid, Transfer, Mitigate, Accept." },
-              { "key": "Opportunities", "value": "Escalate, Exploit, Share, Enhance, Accept." }
+              {
+                "key": "Threats",
+                "value": "Escalate, Avoid, Transfer, Mitigate, Accept."
+              },
+              {
+                "key": "Opportunities",
+                "value": "Escalate, Exploit, Share, Enhance, Accept."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "warn",
-            "lines": ["Probability x Impact sets qualitative priority.", "The matrix ranks risks; it does not by itself resolve them.", "Both threats and opportunities live on the matrix - optimise responses per Adopt a Holistic View.", "New risk -> register it, analyse P and I, then plan the response and assign an owner."]
+            "lines": [
+              "Probability x Impact sets qualitative priority.",
+              "The matrix ranks risks; it does not by itself resolve them.",
+              "Both threats and opportunities live on the matrix - optimise responses per Adopt a Holistic View.",
+              "New risk -> register it, analyse P and I, then plan the response and assign an owner."
+            ]
           }
         ]
       },
@@ -218,22 +412,52 @@
             "kind": "table",
             "title": "Don't confuse these",
             "rows": [
-              { "key": "Kanban vs RACI", "value": "Kanban shows flow of work; RACI shows ownership of work." },
-              { "key": "RACI vs RAM", "value": "RACI is one form of RAM; RAM is the general responsibility grid." },
-              { "key": "Register vs grid", "value": "Stakeholder register = who they are; power-interest grid = how to engage." },
-              { "key": "P-I matrix vs register", "value": "Matrix = risk priority; risk register = the full list and responses." }
+              {
+                "key": "Kanban vs RACI",
+                "value": "Kanban shows flow of work; RACI shows ownership of work."
+              },
+              {
+                "key": "RACI vs RAM",
+                "value": "RACI is one form of RAM; RAM is the general responsibility grid."
+              },
+              {
+                "key": "Register vs grid",
+                "value": "Stakeholder register = who they are; power-interest grid = how to engage."
+              },
+              {
+                "key": "P-I matrix vs register",
+                "value": "Matrix = risk priority; risk register = the full list and responses."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Final tip",
             "tone": "good",
-            "lines": ["Match the visual to the performance domain the question is really about.", "Pick the tailored, value-delivering option over the heaviest process.", "Boards and matrices inform decisions - the exam rewards acting on them."]
+            "lines": [
+              "Match the visual to the performance domain the question is really about.",
+              "Pick the tailored, value-delivering option over the heaviest process.",
+              "Boards and matrices inform decisions - the exam rewards acting on them."
+            ]
           }
         ]
       }
     ],
-    "tags": ["diagrams", "agile", "people", "stakeholders", "risk", "exam", "pmbok 8", "principles", "performance domains", "tailoring"],
-    "source": "PM Cram study notes - reworked into structured blocks and aligned to PMBOK 8 principles and performance domains."
+    "tags": [
+      "diagrams",
+      "agile",
+      "people",
+      "stakeholders",
+      "risk",
+      "exam",
+      "pmbok 8",
+      "principles",
+      "performance domains",
+      "tailoring"
+    ],
+    "source": "PM Cram study notes - reworked into structured blocks and aligned to PMBOK 8 principles and performance domains.",
+    "topics": [
+      "Charts"
+    ]
   }
 ]

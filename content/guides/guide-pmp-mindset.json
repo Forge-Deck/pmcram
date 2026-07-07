@@ -14,12 +14,30 @@
             "kind": "terms",
             "title": "The 6 principles behind every answer",
             "items": [
-              { "code": "Adopt a Holistic View", "text": "See the whole system; navigate complexity and optimise risk responses across interacting parts." },
-              { "code": "Focus on Value", "text": "Treat value as the ultimate measure of success; adapt and enable change to deliver it." },
-              { "code": "Embed Quality Into Processes and Deliverables", "text": "Build quality into how the work is done and into what the project produces." },
-              { "code": "Be an Accountable Leader", "text": "Lead with stewardship, integrity, and accountability regardless of role." },
-              { "code": "Integrate Sustainability Within All Project Areas", "text": "Weigh environmental, social, and economic sustainability throughout the project." },
-              { "code": "Build an Empowered Culture", "text": "Foster a collaborative, accountable, and engaged team and stakeholder environment." }
+              {
+                "code": "Adopt a Holistic View",
+                "text": "See the whole system; navigate complexity and optimise risk responses across interacting parts."
+              },
+              {
+                "code": "Focus on Value",
+                "text": "Treat value as the ultimate measure of success; adapt and enable change to deliver it."
+              },
+              {
+                "code": "Embed Quality Into Processes and Deliverables",
+                "text": "Build quality into how the work is done and into what the project produces."
+              },
+              {
+                "code": "Be an Accountable Leader",
+                "text": "Lead with stewardship, integrity, and accountability regardless of role."
+              },
+              {
+                "code": "Integrate Sustainability Within All Project Areas",
+                "text": "Weigh environmental, social, and economic sustainability throughout the project."
+              },
+              {
+                "code": "Build an Empowered Culture",
+                "text": "Foster a collaborative, accountable, and engaged team and stakeholder environment."
+              }
             ]
           },
           {
@@ -48,7 +66,15 @@
                 "badge": "Do",
                 "tone": "good",
                 "groups": [
-                  { "label": "Actions", "lines": ["Remove impediments and enable the team.", "Coach, mentor, and give feedback.", "Facilitate collaboration and shared ownership.", "Protect psychological safety so issues surface early."] }
+                  {
+                    "label": "Actions",
+                    "lines": [
+                      "Remove impediments and enable the team.",
+                      "Coach, mentor, and give feedback.",
+                      "Facilitate collaboration and shared ownership.",
+                      "Protect psychological safety so issues surface early."
+                    ]
+                  }
                 ]
               },
               {
@@ -56,7 +82,15 @@
                 "badge": "Avoid",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Weak answers", "lines": ["Micromanage every detail.", "Punish or threaten poor performance.", "Abruptly remove someone without due process.", "Blame instead of diagnosing the cause."] }
+                  {
+                    "label": "Weak answers",
+                    "lines": [
+                      "Micromanage every detail.",
+                      "Punish or threaten poor performance.",
+                      "Abruptly remove someone without due process.",
+                      "Blame instead of diagnosing the cause."
+                    ]
+                  }
                 ]
               }
             ]
@@ -78,9 +112,25 @@
             "kind": "steps",
             "title": "Diagnose-before-acting sequence",
             "items": [
-              { "title": "Gather the facts", "lines": ["Review the plan, artifact, backlog, or performance data."] },
-              { "title": "Understand cause and impact", "lines": ["Predictive: check approved plans and baselines.", "Agile / hybrid: inspect the backlog, working agreements, review and retrospective feedback."] },
-              { "title": "Then decide", "lines": ["Only after you understand the situation, choose the response."] }
+              {
+                "title": "Gather the facts",
+                "lines": [
+                  "Review the plan, artifact, backlog, or performance data."
+                ]
+              },
+              {
+                "title": "Understand cause and impact",
+                "lines": [
+                  "Predictive: check approved plans and baselines.",
+                  "Agile / hybrid: inspect the backlog, working agreements, review and retrospective feedback."
+                ]
+              },
+              {
+                "title": "Then decide",
+                "lines": [
+                  "Only after you understand the situation, choose the response."
+                ]
+              }
             ]
           },
           {
@@ -104,7 +154,15 @@
                 "badge": "Do",
                 "tone": "good",
                 "groups": [
-                  { "label": "Actions", "lines": ["Identify risks early and watch for warning signs.", "Use root-cause analysis to fix the underlying problem.", "Build quality in; prevent defects.", "Protect value and improve the system."] }
+                  {
+                    "label": "Actions",
+                    "lines": [
+                      "Identify risks early and watch for warning signs.",
+                      "Use root-cause analysis to fix the underlying problem.",
+                      "Build quality in; prevent defects.",
+                      "Protect value and improve the system."
+                    ]
+                  }
                 ]
               },
               {
@@ -112,7 +170,15 @@
                 "badge": "Avoid",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Weak answers", "lines": ["Wait for a problem to become a crisis.", "Apply a quick patch that treats a symptom.", "Ignore warning signs.", "Let the same defect recur."] }
+                  {
+                    "label": "Weak answers",
+                    "lines": [
+                      "Wait for a problem to become a crisis.",
+                      "Apply a quick patch that treats a symptom.",
+                      "Ignore warning signs.",
+                      "Let the same defect recur."
+                    ]
+                  }
                 ]
               }
             ]
@@ -134,9 +200,18 @@
             "kind": "table",
             "title": "Match the approach to the context",
             "rows": [
-              { "key": "Predictive", "value": "Use when scope is stable and control of planned work matters." },
-              { "key": "Agile", "value": "Use when frequent feedback, adaptability, and iterative delivery matter. Watch for incremental delivery, backlog refinement, reviews, retrospectives, servant leadership, and product-owner collaboration." },
-              { "key": "Hybrid", "value": "Use when part of the work needs predictability and another part benefits from adaptation." }
+              {
+                "key": "Predictive",
+                "value": "Use when scope is stable and control of planned work matters."
+              },
+              {
+                "key": "Agile",
+                "value": "Use when frequent feedback, adaptability, and iterative delivery matter. Watch for incremental delivery, backlog refinement, reviews, retrospectives, servant leadership, and product-owner collaboration."
+              },
+              {
+                "key": "Hybrid",
+                "value": "Use when part of the work needs predictability and another part benefits from adaptation."
+              }
             ]
           },
           {
@@ -156,16 +231,35 @@
             "kind": "steps",
             "title": "Engagement done well",
             "items": [
-              { "title": "Identify and analyse", "lines": ["Find stakeholders; assess needs, influence, and interest."] },
-              { "title": "Engage continuously", "lines": ["Engage appropriately throughout, not once at the start."] },
-              { "title": "Communicate to resolve", "lines": ["For conflict or sensitive issues, talk directly.", "Clarify expectations and listen actively."] }
+              {
+                "title": "Identify and analyse",
+                "lines": [
+                  "Find stakeholders; assess needs, influence, and interest."
+                ]
+              },
+              {
+                "title": "Engage continuously",
+                "lines": [
+                  "Engage appropriately throughout, not once at the start."
+                ]
+              },
+              {
+                "title": "Communicate to resolve",
+                "lines": [
+                  "For conflict or sensitive issues, talk directly.",
+                  "Clarify expectations and listen actively."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Cue",
             "tone": "accent",
-            "lines": ["Prefer direct communication and active engagement before escalation or one-way broadcast updates.", "Email documents decisions; it rarely resolves disagreement."]
+            "lines": [
+              "Prefer direct communication and active engagement before escalation or one-way broadcast updates.",
+              "Email documents decisions; it rarely resolves disagreement."
+            ]
           }
         ]
       },
@@ -181,21 +275,42 @@
                 "title": "Predictive",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Response", "lines": ["Assess impact.", "Follow formal change control.", "Obtain required approval.", "Update plans, documents, and baselines."] }
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Assess impact.",
+                      "Follow formal change control.",
+                      "Obtain required approval.",
+                      "Update plans, documents, and baselines."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Agile",
                 "tone": "good",
                 "groups": [
-                  { "label": "Response", "lines": ["Change is expected.", "Capture the request in the product backlog.", "Product owner evaluates and reprioritises with team and stakeholder input."] }
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Change is expected.",
+                      "Capture the request in the product backlog.",
+                      "Product owner evaluates and reprioritises with team and stakeholder input."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Hybrid",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Response", "lines": ["Determine which parts follow formal change control.", "Manage the rest adaptively."] }
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Determine which parts follow formal change control.",
+                      "Manage the rest adaptively."
+                    ]
+                  }
                 ]
               }
             ]
@@ -217,15 +332,31 @@
             "kind": "steps",
             "title": "Resolution ladder",
             "items": [
-              { "title": "Act within your authority first", "lines": ["Clarify, analyse, facilitate, negotiate, or replan.", "Engage the right stakeholder or work with the team."] },
-              { "title": "Escalate only when needed", "lines": ["Escalate when the matter truly exceeds your authority or requires formal escalation."] }
+              {
+                "title": "Act within your authority first",
+                "lines": [
+                  "Clarify, analyse, facilitate, negotiate, or replan.",
+                  "Engage the right stakeholder or work with the team."
+                ]
+              },
+              {
+                "title": "Escalate only when needed",
+                "lines": [
+                  "Escalate when the matter truly exceeds your authority or requires formal escalation."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Eliminate the extremes",
             "tone": "bad",
-            "lines": ["Ignore the issue.", "Immediately escalate to the sponsor.", "Remove someone without due process.", "Force a decision without analysis."]
+            "lines": [
+              "Ignore the issue.",
+              "Immediately escalate to the sponsor.",
+              "Remove someone without due process.",
+              "Force a decision without analysis."
+            ]
           }
         ]
       },
@@ -242,7 +373,15 @@
                 "badge": "Choose",
                 "tone": "good",
                 "groups": [
-                  { "label": "Signals", "lines": ["Tell the truth; disclose issues appropriately.", "Treat people fairly; avoid favoritism.", "Protect confidentiality.", "Follow agreed processes and act in the project's best interest."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Tell the truth; disclose issues appropriately.",
+                      "Treat people fairly; avoid favoritism.",
+                      "Protect confidentiality.",
+                      "Follow agreed processes and act in the project's best interest."
+                    ]
+                  }
                 ]
               },
               {
@@ -250,7 +389,15 @@
                 "badge": "Reject",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Signals", "lines": ["Hide information.", "Manipulate stakeholders.", "Bypass process for convenience.", "Treat people unfairly."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Hide information.",
+                      "Manipulate stakeholders.",
+                      "Bypass process for convenience.",
+                      "Treat people unfairly."
+                    ]
+                  }
                 ]
               }
             ]
@@ -299,6 +446,16 @@
       "agile",
       "ethics"
     ],
-    "source": "Drawn from the PMP Examination Content Outline, PMBOK Guide (principles and performance domains), Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct; reframed around the 6 project-management principles for PMBOK 8."
+    "source": "Drawn from the PMP Examination Content Outline, PMBOK Guide (principles and performance domains), Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct; reframed around the 6 project-management principles for PMBOK 8.",
+    "topics": [
+      "Mindset",
+      "PMBOK 8"
+    ],
+    "pathMembership": [
+      {
+        "path": "Exam day route",
+        "order": 4
+      }
+    ]
   }
 ]

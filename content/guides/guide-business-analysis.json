@@ -18,8 +18,20 @@
                 "badge": "Right thing",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Focus", "lines": ["Understand the problem and need.", "Define and manage requirements.", "Own the solution scope."] },
-                  { "label": "Question", "lines": ["Are we building the right product?"] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Understand the problem and need.",
+                      "Define and manage requirements.",
+                      "Own the solution scope."
+                    ]
+                  },
+                  {
+                    "label": "Question",
+                    "lines": [
+                      "Are we building the right product?"
+                    ]
+                  }
                 ]
               },
               {
@@ -27,8 +39,20 @@
                 "badge": "Thing right",
                 "tone": "good",
                 "groups": [
-                  { "label": "Focus", "lines": ["Plan and coordinate the work.", "Manage constraints and delivery.", "Enable the team to deliver value."] },
-                  { "label": "Question", "lines": ["Are we building the product right?"] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Plan and coordinate the work.",
+                      "Manage constraints and delivery.",
+                      "Enable the team to deliver value."
+                    ]
+                  },
+                  {
+                    "label": "Question",
+                    "lines": [
+                      "Are we building the product right?"
+                    ]
+                  }
                 ]
               }
             ]
@@ -37,7 +61,11 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "good",
-            "lines": ["BA = build the right thing; PM = build the thing right.", "No separate BA -> the PM does the BA work.", "PMBOK 8 lens: requirements clarity feeds the Focus on Value principle and the Scope and Stakeholders domains."]
+            "lines": [
+              "BA = build the right thing; PM = build the thing right.",
+              "No separate BA -> the PM does the BA work.",
+              "PMBOK 8 lens: requirements clarity feeds the Focus on Value principle and the Scope and Stakeholders domains."
+            ]
           }
         ]
       },
@@ -50,25 +78,47 @@
             "kind": "table",
             "title": "Requirement types",
             "rows": [
-              { "key": "Business", "value": "The why - higher-level goals, objectives and the need the project addresses." },
-              { "key": "Stakeholder", "value": "The needs of specific stakeholders or groups; bridges business goals and the solution." },
-              { "key": "Solution", "value": "What the product must do and how well it must do it. Splits into functional and non-functional." },
-              { "key": "Transition", "value": "Temporary capabilities to move from current to future state - training, data migration, parallel running. Retire once transition is complete." }
+              {
+                "key": "Business",
+                "value": "The why - higher-level goals, objectives and the need the project addresses."
+              },
+              {
+                "key": "Stakeholder",
+                "value": "The needs of specific stakeholders or groups; bridges business goals and the solution."
+              },
+              {
+                "key": "Solution",
+                "value": "What the product must do and how well it must do it. Splits into functional and non-functional."
+              },
+              {
+                "key": "Transition",
+                "value": "Temporary capabilities to move from current to future state - training, data migration, parallel running. Retire once transition is complete."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Solution requirements split",
             "rows": [
-              { "key": "Functional", "value": "What the system does - a feature, action, data or behaviour. Example: the system shall let a user reset a password." },
-              { "key": "Non-functional", "value": "How well it performs - performance, security, usability, reliability, scalability. Example: a page must load in under two seconds; data must be encrypted at rest." }
+              {
+                "key": "Functional",
+                "value": "What the system does - a feature, action, data or behaviour. Example: the system shall let a user reset a password."
+              },
+              {
+                "key": "Non-functional",
+                "value": "How well it performs - performance, security, usability, reliability, scalability. Example: a page must load in under two seconds; data must be encrypted at rest."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "neutral",
-            "lines": ["Transition requirements are temporary - they retire once the new state is live.", "If it answers how fast, how secure or how usable, it is non-functional.", "Same feature, different lens: functional = what it does; non-functional = how well it does it."]
+            "lines": [
+              "Transition requirements are temporary - they retire once the new state is live.",
+              "If it answers how fast, how secure or how usable, it is non-functional.",
+              "Same feature, different lens: functional = what it does; non-functional = how well it does it."
+            ]
           }
         ]
       },
@@ -81,20 +131,46 @@
             "kind": "table",
             "title": "Techniques and when they fit",
             "rows": [
-              { "key": "Interviews", "value": "Targeted, one-to-one or small group; good for detail and sensitive topics." },
-              { "key": "Facilitated workshops", "value": "Bring stakeholders together to build shared understanding and resolve issues quickly." },
-              { "key": "Brainstorming", "value": "Generate many ideas or options before narrowing." },
-              { "key": "Observation / shadowing", "value": "See the real process; surfaces tacit needs people forget to mention." },
-              { "key": "Document analysis", "value": "Mine existing material - policies, contracts, current-system docs." },
-              { "key": "Surveys / questionnaires", "value": "Reach many dispersed stakeholders cheaply." },
-              { "key": "Prototyping", "value": "Make requirements tangible to refine them through feedback." }
+              {
+                "key": "Interviews",
+                "value": "Targeted, one-to-one or small group; good for detail and sensitive topics."
+              },
+              {
+                "key": "Facilitated workshops",
+                "value": "Bring stakeholders together to build shared understanding and resolve issues quickly."
+              },
+              {
+                "key": "Brainstorming",
+                "value": "Generate many ideas or options before narrowing."
+              },
+              {
+                "key": "Observation / shadowing",
+                "value": "See the real process; surfaces tacit needs people forget to mention."
+              },
+              {
+                "key": "Document analysis",
+                "value": "Mine existing material - policies, contracts, current-system docs."
+              },
+              {
+                "key": "Surveys / questionnaires",
+                "value": "Reach many dispersed stakeholders cheaply."
+              },
+              {
+                "key": "Prototyping",
+                "value": "Make requirements tangible to refine them through feedback."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Choosing a technique",
             "tone": "accent",
-            "lines": ["High uncertainty -> workshops and prototyping.", "Dispersed stakeholders -> surveys and questionnaires.", "Sensitive or detailed topics -> interviews.", "Match the technique to availability and uncertainty, not personal habit."]
+            "lines": [
+              "High uncertainty -> workshops and prototyping.",
+              "Dispersed stakeholders -> surveys and questionnaires.",
+              "Sensitive or detailed topics -> interviews.",
+              "Match the technique to availability and uncertainty, not personal habit."
+            ]
           }
         ]
       },
@@ -107,20 +183,66 @@
             "kind": "steps",
             "title": "Requirement flow",
             "items": [
-              { "title": "Elicit", "lines": ["Draw out needs using the fitting techniques.", "Capture from stakeholders and existing material."] },
-              { "title": "Analyse and model", "lines": ["Build process, data and interface models.", "Clarify, deduplicate and resolve conflicts."] },
-              { "title": "Prioritise", "lines": ["MoSCoW: Must, Should, Could, Won't.", "Order by value and urgency."] },
-              { "title": "Trace", "lines": ["Record each requirement in the RTM.", "Link back to source and forward to deliverable and test."] },
-              { "title": "Baseline", "lines": ["Agree and lock the requirement set.", "It becomes the reference for change."] },
-              { "title": "Control change", "lines": ["Route changes through integrated change control.", "Assess impact and get approval before editing."] },
-              { "title": "Validate", "lines": ["Confirm the solution meets requirements.", "Customer formally accepts; benefits are realised."] }
+              {
+                "title": "Elicit",
+                "lines": [
+                  "Draw out needs using the fitting techniques.",
+                  "Capture from stakeholders and existing material."
+                ]
+              },
+              {
+                "title": "Analyse and model",
+                "lines": [
+                  "Build process, data and interface models.",
+                  "Clarify, deduplicate and resolve conflicts."
+                ]
+              },
+              {
+                "title": "Prioritise",
+                "lines": [
+                  "MoSCoW: Must, Should, Could, Won't.",
+                  "Order by value and urgency."
+                ]
+              },
+              {
+                "title": "Trace",
+                "lines": [
+                  "Record each requirement in the RTM.",
+                  "Link back to source and forward to deliverable and test."
+                ]
+              },
+              {
+                "title": "Baseline",
+                "lines": [
+                  "Agree and lock the requirement set.",
+                  "It becomes the reference for change."
+                ]
+              },
+              {
+                "title": "Control change",
+                "lines": [
+                  "Route changes through integrated change control.",
+                  "Assess impact and get approval before editing."
+                ]
+              },
+              {
+                "title": "Validate",
+                "lines": [
+                  "Confirm the solution meets requirements.",
+                  "Customer formally accepts; benefits are realised."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "warn",
-            "lines": ["No requirement without a source and a destination - that is what the RTM enforces.", "Once baselined, changes go through integrated change control, not ad hoc edits.", "Cross-ref: the Scope Management guide covers the scope baseline and RTM at a high level; here the focus is the depth of requirements work."]
+            "lines": [
+              "No requirement without a source and a destination - that is what the RTM enforces.",
+              "Once baselined, changes go through integrated change control, not ad hoc edits.",
+              "Cross-ref: the Scope Management guide covers the scope baseline and RTM at a high level; here the focus is the depth of requirements work."
+            ]
           }
         ]
       },
@@ -133,16 +255,28 @@
             "kind": "table",
             "title": "Framing the change",
             "rows": [
-              { "key": "Product vision", "value": "A shared, concise picture of the desired future state; keeps decisions aligned." },
-              { "key": "SWOT", "value": "Strengths, weaknesses, opportunities, threats - frames internal and external factors." },
-              { "key": "Gap analysis", "value": "Compares current state with desired state to define the work needed to close the difference." }
+              {
+                "key": "Product vision",
+                "value": "A shared, concise picture of the desired future state; keeps decisions aligned."
+              },
+              {
+                "key": "SWOT",
+                "value": "Strengths, weaknesses, opportunities, threats - frames internal and external factors."
+              },
+              {
+                "key": "Gap analysis",
+                "value": "Compares current state with desired state to define the work needed to close the difference."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "good",
-            "lines": ["Vision sets the target; gap analysis measures the distance to it.", "Assess where things stand today before designing change."]
+            "lines": [
+              "Vision sets the target; gap analysis measures the distance to it.",
+              "Assess where things stand today before designing change."
+            ]
           }
         ]
       },
@@ -159,8 +293,20 @@
                 "badge": "Per story",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What", "lines": ["Specific, testable conditions of acceptance.", "Say when a single requirement or story is satisfied."] },
-                  { "label": "Scope and owner", "lines": ["Story level; varies item to item.", "Usually owned by the product owner."] }
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Specific, testable conditions of acceptance.",
+                      "Say when a single requirement or story is satisfied."
+                    ]
+                  },
+                  {
+                    "label": "Scope and owner",
+                    "lines": [
+                      "Story level; varies item to item.",
+                      "Usually owned by the product owner."
+                    ]
+                  }
                 ]
               },
               {
@@ -168,8 +314,20 @@
                 "badge": "Shared bar",
                 "tone": "good",
                 "groups": [
-                  { "label": "What", "lines": ["Fixed checklist of what shippable means.", "For example coded, tested, reviewed, documented."] },
-                  { "label": "Scope and owner", "lines": ["Product level; applies to every item.", "Team-owned; does not change story by story."] }
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Fixed checklist of what shippable means.",
+                      "For example coded, tested, reviewed, documented."
+                    ]
+                  },
+                  {
+                    "label": "Scope and owner",
+                    "lines": [
+                      "Product level; applies to every item.",
+                      "Team-owned; does not change story by story."
+                    ]
+                  }
                 ]
               }
             ]
@@ -178,7 +336,10 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "neutral",
-            "lines": ["Acceptance criteria are per-story and owner-set; DoD is one shared bar for all work.", "Acceptance criteria vary; the DoD stays constant."]
+            "lines": [
+              "Acceptance criteria are per-story and owner-set; DoD is one shared bar for all work.",
+              "Acceptance criteria vary; the DoD stays constant."
+            ]
           }
         ]
       },
@@ -191,14 +352,38 @@
             "kind": "terms",
             "title": "Requirements acronyms",
             "items": [
-              { "code": "RTM", "text": "Requirements Traceability Matrix - links each requirement to its source, deliverable and test." },
-              { "code": "SOW", "text": "Statement of Work - narrative description of products or services to be delivered." },
-              { "code": "MoSCoW", "text": "Must, Should, Could, Won't - prioritisation scheme." },
-              { "code": "DoD", "text": "Definition of Done - shared checklist for shippable work." },
-              { "code": "AC", "text": "Acceptance Criteria - per-requirement conditions of acceptance." },
-              { "code": "NFR", "text": "Non-Functional Requirement - a quality or constraint on behaviour." },
-              { "code": "MVP", "text": "Minimum Viable Product - smallest release that delivers and tests value." },
-              { "code": "SWOT", "text": "Strengths, Weaknesses, Opportunities, Threats." }
+              {
+                "code": "RTM",
+                "text": "Requirements Traceability Matrix - links each requirement to its source, deliverable and test."
+              },
+              {
+                "code": "SOW",
+                "text": "Statement of Work - narrative description of products or services to be delivered."
+              },
+              {
+                "code": "MoSCoW",
+                "text": "Must, Should, Could, Won't - prioritisation scheme."
+              },
+              {
+                "code": "DoD",
+                "text": "Definition of Done - shared checklist for shippable work."
+              },
+              {
+                "code": "AC",
+                "text": "Acceptance Criteria - per-requirement conditions of acceptance."
+              },
+              {
+                "code": "NFR",
+                "text": "Non-Functional Requirement - a quality or constraint on behaviour."
+              },
+              {
+                "code": "MVP",
+                "text": "Minimum Viable Product - smallest release that delivers and tests value."
+              },
+              {
+                "code": "SWOT",
+                "text": "Strengths, Weaknesses, Opportunities, Threats."
+              }
             ]
           },
           {
@@ -210,7 +395,22 @@
         ]
       }
     ],
-    "tags": ["business analysis", "requirements", "elicitation", "RTM", "acceptance criteria", "non-functional", "pmbok 8", "value", "scope", "stakeholders"],
-    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle and performance-domain based PMP exam."
+    "tags": [
+      "business analysis",
+      "requirements",
+      "elicitation",
+      "RTM",
+      "acceptance criteria",
+      "non-functional",
+      "pmbok 8",
+      "value",
+      "scope",
+      "stakeholders"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle and performance-domain based PMP exam.",
+    "topics": [
+      "Process",
+      "Predictive"
+    ]
   }
 ]

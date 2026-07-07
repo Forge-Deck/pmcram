@@ -40,9 +40,18 @@
             "kind": "table",
             "title": "PMO type -> control level",
             "rows": [
-              { "key": "Supportive", "value": "Low control. Consultative: supplies templates, training, best practices and lessons learned; acts as a repository. Teams draw on it as needed." },
-              { "key": "Controlling", "value": "Moderate control. Requires compliance with a chosen framework, methodology, governance or tools, and checks that projects conform." },
-              { "key": "Directive", "value": "High control. Takes over and directly manages the projects; project managers are drawn from and report into the PMO." }
+              {
+                "key": "Supportive",
+                "value": "Low control. Consultative: supplies templates, training, best practices and lessons learned; acts as a repository. Teams draw on it as needed."
+              },
+              {
+                "key": "Controlling",
+                "value": "Moderate control. Requires compliance with a chosen framework, methodology, governance or tools, and checks that projects conform."
+              },
+              {
+                "key": "Directive",
+                "value": "High control. Takes over and directly manages the projects; project managers are drawn from and report into the PMO."
+              }
             ]
           },
           {
@@ -69,35 +78,55 @@
                 "title": "Methodology and standards",
                 "tone": "accent",
                 "groups": [
-                  { "lines": ["Defines the delivery approach, templates, processes and metrics."] }
+                  {
+                    "lines": [
+                      "Defines the delivery approach, templates, processes and metrics."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Training and coaching",
                 "tone": "good",
                 "groups": [
-                  { "lines": ["Builds project management capability and mentors practitioners."] }
+                  {
+                    "lines": [
+                      "Builds project management capability and mentors practitioners."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Delivery support and governance",
                 "tone": "neutral",
                 "groups": [
-                  { "lines": ["Tools, reporting, stage gates, assurance and oversight."] }
+                  {
+                    "lines": [
+                      "Tools, reporting, stage gates, assurance and oversight."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Resource and multi-project management",
                 "tone": "neutral",
                 "groups": [
-                  { "lines": ["Shares scarce resources and coordinates across the portfolio."] }
+                  {
+                    "lines": [
+                      "Shares scarce resources and coordinates across the portfolio."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Strategic alignment and benefits oversight",
                 "tone": "accent",
                 "groups": [
-                  { "lines": ["Keeps initiatives tied to objectives and tracks expected benefits."] }
+                  {
+                    "lines": [
+                      "Keeps initiatives tied to objectives and tracks expected benefits."
+                    ]
+                  }
                 ]
               }
             ]
@@ -121,11 +150,26 @@
             "kind": "table",
             "title": "PMO vs EPMO",
             "rows": [
-              { "key": "Focus", "value": "PMO: delivery efficiency.\nEPMO: strategy-to-execution." },
-              { "key": "Level", "value": "PMO: delivery / operational.\nEPMO: enterprise / C-suite." },
-              { "key": "Owns", "value": "PMO: how projects are run.\nEPMO: strategic project selection and portfolio prioritisation." },
-              { "key": "Reports to", "value": "PMO: delivery or operational leadership.\nEPMO: top executives." },
-              { "key": "Key question", "value": "PMO: doing projects right.\nEPMO: doing the right projects." }
+              {
+                "key": "Focus",
+                "value": "PMO: delivery efficiency.\nEPMO: strategy-to-execution."
+              },
+              {
+                "key": "Level",
+                "value": "PMO: delivery / operational.\nEPMO: enterprise / C-suite."
+              },
+              {
+                "key": "Owns",
+                "value": "PMO: how projects are run.\nEPMO: strategic project selection and portfolio prioritisation."
+              },
+              {
+                "key": "Reports to",
+                "value": "PMO: delivery or operational leadership.\nEPMO: top executives."
+              },
+              {
+                "key": "Key question",
+                "value": "PMO: doing projects right.\nEPMO: doing the right projects."
+              }
             ]
           },
           {
@@ -152,8 +196,18 @@
                 "badge": "Avoid",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Behaviour", "lines": ["Only audits and enforces; does not help teams succeed."] },
-                  { "label": "Result", "lines": ["Creates friction, is resented, first thing cut as overhead."] }
+                  {
+                    "label": "Behaviour",
+                    "lines": [
+                      "Only audits and enforces; does not help teams succeed."
+                    ]
+                  },
+                  {
+                    "label": "Result",
+                    "lines": [
+                      "Creates friction, is resented, first thing cut as overhead."
+                    ]
+                  }
                 ]
               },
               {
@@ -161,8 +215,18 @@
                 "badge": "Aim",
                 "tone": "good",
                 "groups": [
-                  { "label": "Behaviour", "lines": ["Enables and coaches as well as governs."] },
-                  { "label": "Result", "lines": ["Faster delivery, fewer failed projects, tighter strategic alignment."] }
+                  {
+                    "label": "Behaviour",
+                    "lines": [
+                      "Enables and coaches as well as governs."
+                    ]
+                  },
+                  {
+                    "label": "Result",
+                    "lines": [
+                      "Faster delivery, fewer failed projects, tighter strategic alignment."
+                    ]
+                  }
                 ]
               }
             ]
@@ -188,7 +252,26 @@
         ]
       }
     ],
-    "tags": ["pmo", "epmo", "governance", "business environment", "strategy", "portfolio", "pmbok 8", "systems thinking"],
-    "source": "PM Cram study notes - reworded and reorganised for a PMBOK 8 principle-based PMP exam."
+    "tags": [
+      "pmo",
+      "epmo",
+      "governance",
+      "business environment",
+      "strategy",
+      "portfolio",
+      "pmbok 8",
+      "systems thinking"
+    ],
+    "source": "PM Cram study notes - reworded and reorganised for a PMBOK 8 principle-based PMP exam.",
+    "topics": [
+      "Process",
+      "Governance"
+    ],
+    "pathMembership": [
+      {
+        "path": "Control, risk & recovery",
+        "order": 5
+      }
+    ]
   }
 ]

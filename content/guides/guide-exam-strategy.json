@@ -14,10 +14,34 @@
             "kind": "steps",
             "title": "Set up every question",
             "items": [
-              { "title": "Find the real problem", "lines": ["Look past the surface event to the decision at risk.", "Ask what outcome, relationship, or value is threatened."] },
-              { "title": "Read the delivery context", "lines": ["Predictive, agile, or hybrid changes the right answer.", "Note where the team is in the work."] },
-              { "title": "Spot the key actor or dynamic", "lines": ["Which stakeholder or team issue matters most.", "Who actually has authority to act."] },
-              { "title": "Predict before you peek", "lines": ["Form your own best answer first.", "Then match it to the closest option."] }
+              {
+                "title": "Find the real problem",
+                "lines": [
+                  "Look past the surface event to the decision at risk.",
+                  "Ask what outcome, relationship, or value is threatened."
+                ]
+              },
+              {
+                "title": "Read the delivery context",
+                "lines": [
+                  "Predictive, agile, or hybrid changes the right answer.",
+                  "Note where the team is in the work."
+                ]
+              },
+              {
+                "title": "Spot the key actor or dynamic",
+                "lines": [
+                  "Which stakeholder or team issue matters most.",
+                  "Who actually has authority to act."
+                ]
+              },
+              {
+                "title": "Predict before you peek",
+                "lines": [
+                  "Form your own best answer first.",
+                  "Then match it to the closest option."
+                ]
+              }
             ]
           },
           {
@@ -40,32 +64,76 @@
                 "title": "The decisive-but-wrong",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Fast, forceful, take-charge action."] },
-                  { "label": "Trap", "lines": ["Skips analysis or team input.", "Sounds like leadership but is command-and-control."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Fast, forceful, take-charge action."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "Skips analysis or team input.",
+                      "Sounds like leadership but is command-and-control."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "The escalator",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Go straight to the sponsor or management."] },
-                  { "label": "Trap", "lines": ["Bypasses resolution at the proper level.", "Right only when the issue exceeds PM authority."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Go straight to the sponsor or management."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "Bypasses resolution at the proper level.",
+                      "Right only when the issue exceeds PM authority."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "The right-tool, wrong-problem",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Review a real, valid project artifact."] },
-                  { "label": "Trap", "lines": ["It is the wrong artifact for this problem.", "A polished distractor is still a distractor."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Review a real, valid project artifact."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "It is the wrong artifact for this problem.",
+                      "A polished distractor is still a distractor."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "The paperwork fix",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Log it, document it, update a plan."] },
-                  { "label": "Trap", "lines": ["Treats a people problem as an admin task.", "Ignores the conversation the situation needs."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Log it, document it, update a plan."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "Treats a people problem as an admin task.",
+                      "Ignores the conversation the situation needs."
+                    ]
+                  }
                 ]
               }
             ]
@@ -86,20 +154,56 @@
             "kind": "table",
             "title": "Decode the command word",
             "rows": [
-              { "key": "First / next", "value": "Sequence matters. The strongest opener is usually assess, review, or clarify - understand root cause before acting." },
-              { "key": "Best / most", "value": "Several options work; pick the most PMI-aligned. Compare on value, collaboration, and context fit." },
-              { "key": "Except / least", "value": "You are hunting the odd one out. Flip your instinct - the 'wrong' action is the credit." },
-              { "key": "Should have", "value": "A prevention question. Look for the proactive planning step that would have avoided the issue." }
+              {
+                "key": "First / next",
+                "value": "Sequence matters. The strongest opener is usually assess, review, or clarify - understand root cause before acting."
+              },
+              {
+                "key": "Best / most",
+                "value": "Several options work; pick the most PMI-aligned. Compare on value, collaboration, and context fit."
+              },
+              {
+                "key": "Except / least",
+                "value": "You are hunting the odd one out. Flip your instinct - the 'wrong' action is the credit."
+              },
+              {
+                "key": "Should have",
+                "value": "A prevention question. Look for the proactive planning step that would have avoided the issue."
+              }
             ]
           },
           {
             "kind": "steps",
             "title": "The 'first' pattern",
             "items": [
-              { "title": "Assess the situation", "lines": ["Gather relevant information.", "Review the plan, baseline, register, or log."] },
-              { "title": "Find root cause", "lines": ["Understand why before changing direction.", "In agile, make the work visible and inspect with the team."] },
-              { "title": "Act through the right process", "lines": ["Use the agreed change or resolution path.", "Involve the right people."] },
-              { "title": "Escalate only if needed", "lines": ["When it exceeds your authority.", "Or cannot be resolved at the proper level."] }
+              {
+                "title": "Assess the situation",
+                "lines": [
+                  "Gather relevant information.",
+                  "Review the plan, baseline, register, or log."
+                ]
+              },
+              {
+                "title": "Find root cause",
+                "lines": [
+                  "Understand why before changing direction.",
+                  "In agile, make the work visible and inspect with the team."
+                ]
+              },
+              {
+                "title": "Act through the right process",
+                "lines": [
+                  "Use the agreed change or resolution path.",
+                  "Involve the right people."
+                ]
+              },
+              {
+                "title": "Escalate only if needed",
+                "lines": [
+                  "When it exceeds your authority.",
+                  "Or cannot be resolved at the proper level."
+                ]
+              }
             ]
           },
           {
@@ -121,16 +225,40 @@
                 "title": "Absolute-word red flags",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Watch for", "lines": ["always, never, all, none, must, only.", "immediately, guarantee, ensure zero risk."] },
-                  { "label": "Why it fails", "lines": ["PMI answers tailor to context.", "Rigid, all-or-nothing rules ignore judgment."] }
+                  {
+                    "label": "Watch for",
+                    "lines": [
+                      "always, never, all, none, must, only.",
+                      "immediately, guarantee, ensure zero risk."
+                    ]
+                  },
+                  {
+                    "label": "Why it fails",
+                    "lines": [
+                      "PMI answers tailor to context.",
+                      "Rigid, all-or-nothing rules ignore judgment."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Measured-word green flags",
                 "tone": "good",
                 "groups": [
-                  { "label": "Watch for", "lines": ["review, assess, collaborate, facilitate.", "evaluate impact, engage, coach, clarify."] },
-                  { "label": "Why it works", "lines": ["Proactive and context-aware.", "Fits tailoring and stakeholder engagement."] }
+                  {
+                    "label": "Watch for",
+                    "lines": [
+                      "review, assess, collaborate, facilitate.",
+                      "evaluate impact, engage, coach, clarify."
+                    ]
+                  },
+                  {
+                    "label": "Why it works",
+                    "lines": [
+                      "Proactive and context-aware.",
+                      "Fits tailoring and stakeholder engagement."
+                    ]
+                  }
                 ]
               }
             ]
@@ -139,7 +267,12 @@
             "kind": "tip",
             "title": "Eliminate the extremes",
             "tone": "bad",
-            "lines": ["Cut answers that are extreme or all-or-nothing.", "Cut answers that are evasive or do nothing.", "Cut answers that are ethics-blind or self-protective.", "Then choose between what remains."]
+            "lines": [
+              "Cut answers that are extreme or all-or-nothing.",
+              "Cut answers that are evasive or do nothing.",
+              "Cut answers that are ethics-blind or self-protective.",
+              "Then choose between what remains."
+            ]
           }
         ]
       },
@@ -152,10 +285,34 @@
             "kind": "steps",
             "title": "Collaborate, analyze, act, communicate",
             "items": [
-              { "title": "Collaborate", "lines": ["Engage the right people and stakeholders.", "Facilitate rather than dictate."] },
-              { "title": "Analyze", "lines": ["Understand impact and root cause.", "Use the fitting artifact as evidence."] },
-              { "title": "Act through process", "lines": ["Follow the agreed way of working.", "Address the cause, not the symptom."] },
-              { "title": "Communicate", "lines": ["Inform stakeholders as needed.", "Document through the proper channel."] }
+              {
+                "title": "Collaborate",
+                "lines": [
+                  "Engage the right people and stakeholders.",
+                  "Facilitate rather than dictate."
+                ]
+              },
+              {
+                "title": "Analyze",
+                "lines": [
+                  "Understand impact and root cause.",
+                  "Use the fitting artifact as evidence."
+                ]
+              },
+              {
+                "title": "Act through process",
+                "lines": [
+                  "Follow the agreed way of working.",
+                  "Address the cause, not the symptom."
+                ]
+              },
+              {
+                "title": "Communicate",
+                "lines": [
+                  "Inform stakeholders as needed.",
+                  "Document through the proper channel."
+                ]
+              }
             ]
           },
           {
@@ -179,8 +336,20 @@
                 "badge": "Plan-driven",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Cues", "lines": ["Approved plan, baseline, detailed scope.", "Formal change control, staged delivery."] },
-                  { "label": "Answer style", "lines": ["Follow the process and integrated change control.", "Protect the approved baseline."] }
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Approved plan, baseline, detailed scope.",
+                      "Formal change control, staged delivery."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Follow the process and integrated change control.",
+                      "Protect the approved baseline."
+                    ]
+                  }
                 ]
               },
               {
@@ -188,8 +357,20 @@
                 "badge": "Adaptive",
                 "tone": "good",
                 "groups": [
-                  { "label": "Cues", "lines": ["Backlog, sprint, iteration, Product Owner.", "Servant leadership, review, retrospective."] },
-                  { "label": "Answer style", "lines": ["Collaborate, refine the backlog, adapt.", "Empower the self-managing team."] }
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Backlog, sprint, iteration, Product Owner.",
+                      "Servant leadership, review, retrospective."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Collaborate, refine the backlog, adapt.",
+                      "Empower the self-managing team."
+                    ]
+                  }
                 ]
               },
               {
@@ -197,8 +378,20 @@
                 "badge": "Tailored",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Cues", "lines": ["Structured governance plus iterative delivery.", "Predictive and agile terms together."] },
-                  { "label": "Answer style", "lines": ["Combine governance discipline with iterative learning.", "Govern the stable parts, iterate the uncertain."] }
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Structured governance plus iterative delivery.",
+                      "Predictive and agile terms together."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Combine governance discipline with iterative learning.",
+                      "Govern the stable parts, iterate the uncertain."
+                    ]
+                  }
                 ]
               }
             ]
@@ -221,24 +414,66 @@
               {
                 "title": "Conflict or resistance",
                 "groups": [
-                  { "label": "Trigger", "lines": ["Disagreement, pushback, low morale."] },
-                  { "label": "Response", "lines": ["Facilitate direct conversation; collaborate.", "Coach toward shared understanding."] },
-                  { "label": "Trap", "lines": ["Escalating or enforcing compliance first."] }
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "Disagreement, pushback, low morale."
+                    ]
+                  },
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Facilitate direct conversation; collaborate.",
+                      "Coach toward shared understanding."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "Escalating or enforcing compliance first."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Confusion or misalignment",
                 "groups": [
-                  { "label": "Trigger", "lines": ["Unclear expectations, mixed signals."] },
-                  { "label": "Response", "lines": ["Clarify expectations; build shared understanding.", "Lead with emotional intelligence."] },
-                  { "label": "Trap", "lines": ["Issuing a new directive without listening."] }
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "Unclear expectations, mixed signals."
+                    ]
+                  },
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Clarify expectations; build shared understanding.",
+                      "Lead with emotional intelligence."
+                    ]
+                  },
+                  {
+                    "label": "Trap",
+                    "lines": [
+                      "Issuing a new directive without listening."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "One person vs whole team",
                 "groups": [
-                  { "label": "One person", "lines": ["Private one-on-one conversation."] },
-                  { "label": "Whole team", "lines": ["Bring the team together or survey them."] }
+                  {
+                    "label": "One person",
+                    "lines": [
+                      "Private one-on-one conversation."
+                    ]
+                  },
+                  {
+                    "label": "Whole team",
+                    "lines": [
+                      "Bring the team together or survey them."
+                    ]
+                  }
                 ]
               }
             ]
@@ -259,17 +494,34 @@
             "kind": "table",
             "title": "The four values as tests",
             "rows": [
-              { "key": "Responsibility", "value": "Own decisions and consequences.\nDo not conceal or ignore known problems." },
-              { "key": "Respect", "value": "Treat people and rules fairly.\nNo harassment, no bias." },
-              { "key": "Fairness", "value": "No favoritism or hidden conflicts of interest.\nDecide transparently." },
-              { "key": "Honesty", "value": "Report true status.\nDo not falsify, mislead, or hide defects." }
+              {
+                "key": "Responsibility",
+                "value": "Own decisions and consequences.\nDo not conceal or ignore known problems."
+              },
+              {
+                "key": "Respect",
+                "value": "Treat people and rules fairly.\nNo harassment, no bias."
+              },
+              {
+                "key": "Fairness",
+                "value": "No favoritism or hidden conflicts of interest.\nDecide transparently."
+              },
+              {
+                "key": "Honesty",
+                "value": "Report true status.\nDo not falsify, mislead, or hide defects."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "bad",
-            "lines": ["Eliminate any option that improves results by being misleading.", "Eliminate anything unfair, biased, or self-protective.", "Eliminate concealing facts or skipping required reporting.", "The ethical answer beats the convenient one every time."]
+            "lines": [
+              "Eliminate any option that improves results by being misleading.",
+              "Eliminate anything unfair, biased, or self-protective.",
+              "Eliminate concealing facts or skipping required reporting.",
+              "The ethical answer beats the convenient one every time."
+            ]
           }
         ]
       },
@@ -285,24 +537,57 @@
                 "title": "Sign and direction traps",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Trigger", "lines": ["Variance or index questions."] },
-                  { "label": "Watch", "lines": ["Negative variance = bad; index below 1 = bad.", "Confirm over budget vs behind schedule."] }
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "Variance or index questions."
+                    ]
+                  },
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "Negative variance = bad; index below 1 = bad.",
+                      "Confirm over budget vs behind schedule."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Extra-number traps",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Trigger", "lines": ["More figures given than needed."] },
-                  { "label": "Watch", "lines": ["Some numbers are red herrings.", "Only pull what the formula needs."] }
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "More figures given than needed."
+                    ]
+                  },
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "Some numbers are red herrings.",
+                      "Only pull what the formula needs."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Unit and interpretation traps",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Trigger", "lines": ["Mixed weeks/months, percent vs value."] },
-                  { "label": "Watch", "lines": ["Match units before computing.", "The distractor is often a valid wrong interpretation."] }
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "Mixed weeks/months, percent vs value."
+                    ]
+                  },
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "Match units before computing.",
+                      "The distractor is often a valid wrong interpretation."
+                    ]
+                  }
                 ]
               }
             ]
@@ -323,11 +608,26 @@
             "kind": "table",
             "title": "Match artifact to problem",
             "rows": [
-              { "key": "Emerging threat", "value": "Risk register." },
-              { "key": "Active problem", "value": "Issue log." },
-              { "key": "Communication need", "value": "Stakeholder engagement plan." },
-              { "key": "Behavior expectations", "value": "Team charter / working agreements." },
-              { "key": "Delivery decision", "value": "Backlog or project management plan." }
+              {
+                "key": "Emerging threat",
+                "value": "Risk register."
+              },
+              {
+                "key": "Active problem",
+                "value": "Issue log."
+              },
+              {
+                "key": "Communication need",
+                "value": "Stakeholder engagement plan."
+              },
+              {
+                "key": "Behavior expectations",
+                "value": "Team charter / working agreements."
+              },
+              {
+                "key": "Delivery decision",
+                "value": "Backlog or project management plan."
+              }
             ]
           },
           {
@@ -348,8 +648,23 @@
               {
                 "title": "Weigh the survivors",
                 "groups": [
-                  { "label": "Prefer the option that", "lines": ["Delivers or protects value.", "Is collaborative and engages stakeholders.", "Fits the delivery approach and tailors to context.", "Preserves long-term trust."] },
-                  { "label": "Over the option that", "lines": ["Is merely fast or forceful.", "Solves at too high a level.", "Ignores the way of working."] }
+                  {
+                    "label": "Prefer the option that",
+                    "lines": [
+                      "Delivers or protects value.",
+                      "Is collaborative and engages stakeholders.",
+                      "Fits the delivery approach and tailors to context.",
+                      "Preserves long-term trust."
+                    ]
+                  },
+                  {
+                    "label": "Over the option that",
+                    "lines": [
+                      "Is merely fast or forceful.",
+                      "Solves at too high a level.",
+                      "Ignores the way of working."
+                    ]
+                  }
                 ]
               }
             ]
@@ -358,10 +673,30 @@
             "kind": "steps",
             "title": "Final tie-breaker order",
             "items": [
-              { "title": "Lowest effective level", "lines": ["Solve where the problem lives before escalating."] },
-              { "title": "Right people involved", "lines": ["Engage those actually affected or accountable."] },
-              { "title": "Respects the approach", "lines": ["Matches predictive, agile, or hybrid cues."] },
-              { "title": "Protects value and trust", "lines": ["Best long-term outcome, not the quick win."] }
+              {
+                "title": "Lowest effective level",
+                "lines": [
+                  "Solve where the problem lives before escalating."
+                ]
+              },
+              {
+                "title": "Right people involved",
+                "lines": [
+                  "Engage those actually affected or accountable."
+                ]
+              },
+              {
+                "title": "Respects the approach",
+                "lines": [
+                  "Matches predictive, agile, or hybrid cues."
+                ]
+              },
+              {
+                "title": "Protects value and trust",
+                "lines": [
+                  "Best long-term outcome, not the quick win."
+                ]
+              }
             ]
           },
           {
@@ -383,6 +718,15 @@
       "predictive",
       "ethics"
     ],
-    "source": "Draws on the PMP Examination Content Outline, PMBOK Guide Seventh Edition, Agile Practice Guide, PMI Code of Ethics and Professional Conduct, and Process Groups: A Practice Guide."
+    "source": "Draws on the PMP Examination Content Outline, PMBOK Guide Seventh Edition, Agile Practice Guide, PMI Code of Ethics and Professional Conduct, and Process Groups: A Practice Guide.",
+    "topics": [
+      "Exam Strategy"
+    ],
+    "pathMembership": [
+      {
+        "path": "Exam day route",
+        "order": 3
+      }
+    ]
   }
 ]

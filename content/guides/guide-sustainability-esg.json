@@ -35,7 +35,13 @@
                 "badge": "Social",
                 "tone": "good",
                 "groups": [
-                  { "lines": ["Communities and workers.", "Health and safety.", "Fairness and social impact."] }
+                  {
+                    "lines": [
+                      "Communities and workers.",
+                      "Health and safety.",
+                      "Fairness and social impact."
+                    ]
+                  }
                 ]
               },
               {
@@ -43,7 +49,13 @@
                 "badge": "Environmental",
                 "tone": "accent",
                 "groups": [
-                  { "lines": ["Emissions and waste.", "Energy use.", "Resource use and reuse."] }
+                  {
+                    "lines": [
+                      "Emissions and waste.",
+                      "Energy use.",
+                      "Resource use and reuse."
+                    ]
+                  }
                 ]
               },
               {
@@ -51,7 +63,12 @@
                 "badge": "Economic",
                 "tone": "neutral",
                 "groups": [
-                  { "lines": ["The traditional financial result.", "Long-term viability, not just short-term cost or speed."] }
+                  {
+                    "lines": [
+                      "The traditional financial result.",
+                      "Long-term viability, not just short-term cost or speed."
+                    ]
+                  }
                 ]
               }
             ]
@@ -73,10 +90,30 @@
             "kind": "steps",
             "title": "Build it in early",
             "items": [
-              { "title": "Capture with stakeholders", "lines": ["Elicit sustainability needs as critical information requirements during planning."] },
-              { "title": "Write it into scope", "lines": ["Reflect it in scope and acceptance criteria - how you define 'done'."] },
-              { "title": "Reflect it in the plan", "lines": ["Fold it into the integrated plan and baselines so it flows into design, supplier and delivery decisions."] },
-              { "title": "Protect it under change control", "lines": ["It is a requirement, so it goes through change control - don't silently drop it under schedule pressure."] }
+              {
+                "title": "Capture with stakeholders",
+                "lines": [
+                  "Elicit sustainability needs as critical information requirements during planning."
+                ]
+              },
+              {
+                "title": "Write it into scope",
+                "lines": [
+                  "Reflect it in scope and acceptance criteria - how you define 'done'."
+                ]
+              },
+              {
+                "title": "Reflect it in the plan",
+                "lines": [
+                  "Fold it into the integrated plan and baselines so it flows into design, supplier and delivery decisions."
+                ]
+              },
+              {
+                "title": "Protect it under change control",
+                "lines": [
+                  "It is a requirement, so it goes through change control - don't silently drop it under schedule pressure."
+                ]
+              }
             ]
           },
           {
@@ -100,8 +137,14 @@
             "kind": "table",
             "title": "Prevention vs failure",
             "rows": [
-              { "key": "Prevention", "value": "Design out waste and rework; durable, efficient outputs. A bit more up front." },
-              { "key": "Failure avoided", "value": "Waste, rework, and remediation downstream - the larger cost." }
+              {
+                "key": "Prevention",
+                "value": "Design out waste and rework; durable, efficient outputs. A bit more up front."
+              },
+              {
+                "key": "Failure avoided",
+                "value": "Waste, rework, and remediation downstream - the larger cost."
+              }
             ]
           },
           {
@@ -121,19 +164,48 @@
             "kind": "terms",
             "title": "ESG",
             "items": [
-              { "code": "E", "text": "Environmental - emissions, waste, energy, resource use." },
-              { "code": "S", "text": "Social - labour practices, health and safety, communities." },
-              { "code": "G", "text": "Governance - ethics, transparency, accountability, reporting." }
+              {
+                "code": "E",
+                "text": "Environmental - emissions, waste, energy, resource use."
+              },
+              {
+                "code": "S",
+                "text": "Social - labour practices, health and safety, communities."
+              },
+              {
+                "code": "G",
+                "text": "Governance - ethics, transparency, accountability, reporting."
+              }
             ]
           },
           {
             "kind": "steps",
             "title": "Sustainable procurement",
             "items": [
-              { "title": "Set ESG selection criteria", "lines": ["Put sustainability into source-selection criteria, not just price and capability."] },
-              { "title": "Choose responsible suppliers", "lines": ["Weigh vendor ESG performance in the award decision."] },
-              { "title": "Write it into contracts", "lines": ["Make sustainability obligations contractual terms, not aspirations."] },
-              { "title": "Verify performance", "lines": ["Confirm suppliers actually meet the obligations; treat it as part of vendor management."] }
+              {
+                "title": "Set ESG selection criteria",
+                "lines": [
+                  "Put sustainability into source-selection criteria, not just price and capability."
+                ]
+              },
+              {
+                "title": "Choose responsible suppliers",
+                "lines": [
+                  "Weigh vendor ESG performance in the award decision."
+                ]
+              },
+              {
+                "title": "Write it into contracts",
+                "lines": [
+                  "Make sustainability obligations contractual terms, not aspirations."
+                ]
+              },
+              {
+                "title": "Verify performance",
+                "lines": [
+                  "Confirm suppliers actually meet the obligations; treat it as part of vendor management."
+                ]
+              }
             ]
           },
           {
@@ -153,10 +225,30 @@
             "kind": "steps",
             "title": "Compliance handling",
             "items": [
-              { "title": "Confirm requirements", "lines": ["Identify relevant regulations and ESG-reporting obligations early."] },
-              { "title": "Classify them", "lines": ["Sort by category and applicability."] },
-              { "title": "Weigh non-compliance", "lines": ["Consider legal, financial and reputational consequences."] },
-              { "title": "Act to stay compliant", "lines": ["Build the controls in and track them through delivery."] }
+              {
+                "title": "Confirm requirements",
+                "lines": [
+                  "Identify relevant regulations and ESG-reporting obligations early."
+                ]
+              },
+              {
+                "title": "Classify them",
+                "lines": [
+                  "Sort by category and applicability."
+                ]
+              },
+              {
+                "title": "Weigh non-compliance",
+                "lines": [
+                  "Consider legal, financial and reputational consequences."
+                ]
+              },
+              {
+                "title": "Act to stay compliant",
+                "lines": [
+                  "Build the controls in and track them through delivery."
+                ]
+              }
             ]
           },
           {
@@ -167,14 +259,25 @@
                 "title": "Threats to manage",
                 "tone": "bad",
                 "groups": [
-                  { "lines": ["Environmental events.", "Regulatory change.", "Reputational exposure."] }
+                  {
+                    "lines": [
+                      "Environmental events.",
+                      "Regulatory change.",
+                      "Reputational exposure."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Risk domain response",
                 "tone": "neutral",
                 "groups": [
-                  { "lines": ["Identify, analyse, and plan responses.", "Communicate when a risk becomes an issue."] }
+                  {
+                    "lines": [
+                      "Identify, analyse, and plan responses.",
+                      "Communicate when a risk becomes an issue."
+                    ]
+                  }
                 ]
               }
             ]
@@ -196,9 +299,18 @@
             "kind": "table",
             "title": "Track what you promised",
             "rows": [
-              { "key": "Environmental", "value": "Emissions avoided, waste reduced, energy saved." },
-              { "key": "Social", "value": "Social impact delivered to communities and workers." },
-              { "key": "When", "value": "Through delivery and into benefits realization after handover." }
+              {
+                "key": "Environmental",
+                "value": "Emissions avoided, waste reduced, energy saved."
+              },
+              {
+                "key": "Social",
+                "value": "Social impact delivered to communities and workers."
+              },
+              {
+                "key": "When",
+                "value": "Through delivery and into benefits realization after handover."
+              }
             ]
           },
           {
@@ -210,7 +322,28 @@
         ]
       }
     ],
-    "tags": ["sustainability", "esg", "emerging-trends", "2026", "compliance", "risk", "pmbok 8", "core principle", "triple bottom line", "circular economy"],
-    "source": "Aligned with the PMP Examination Content Outline - July 2026 (sustainability across planning, quality, compliance, and risk) and the PMBOK Guide Eighth Edition ('Integrate Sustainability Within All Project Areas' is one of the six core principles; Risk, Scope and Stakeholders performance domains)."
+    "tags": [
+      "sustainability",
+      "esg",
+      "emerging-trends",
+      "2026",
+      "compliance",
+      "risk",
+      "pmbok 8",
+      "core principle",
+      "triple bottom line",
+      "circular economy"
+    ],
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (sustainability across planning, quality, compliance, and risk) and the PMBOK Guide Eighth Edition ('Integrate Sustainability Within All Project Areas' is one of the six core principles; Risk, Scope and Stakeholders performance domains).",
+    "topics": [
+      "Emerging Trends",
+      "Risk"
+    ],
+    "pathMembership": [
+      {
+        "path": "PMBOK 8 foundation",
+        "order": 5
+      }
+    ]
   }
 ]

@@ -31,12 +31,30 @@
             "kind": "terms",
             "title": "6 principles (8th Ed)",
             "items": [
-              { "code": "Holistic View", "text": "Adopt a holistic, systems view - components and their interdependencies. Merges the 7th-Ed System Interactions and Navigate Complexity." },
-              { "code": "Focus on Value", "text": "Value is the ultimate measure of success. Absorbs stakeholder engagement, adaptability, resiliency and change enablement." },
-              { "code": "Embed Quality", "text": "Embed quality into processes AND deliverables. Refined from 'Build Quality'; adds sustainability and compliance." },
-              { "code": "Accountable Leader", "text": "Be an accountable leader - integrity, self-awareness, shared leadership. Merges stewardship and leadership." },
-              { "code": "Sustainability", "text": "Integrate sustainability across all project areas - environmental, social and economic (triple bottom line). Entirely NEW; the biggest 8th-Ed addition." },
-              { "code": "Empowered Culture", "text": "Build an empowered culture across the whole stakeholder community. Evolved from 'Collaborative Project Team'." }
+              {
+                "code": "Holistic View",
+                "text": "Adopt a holistic, systems view - components and their interdependencies. Merges the 7th-Ed System Interactions and Navigate Complexity."
+              },
+              {
+                "code": "Focus on Value",
+                "text": "Value is the ultimate measure of success. Absorbs stakeholder engagement, adaptability, resiliency and change enablement."
+              },
+              {
+                "code": "Embed Quality",
+                "text": "Embed quality into processes AND deliverables. Refined from 'Build Quality'; adds sustainability and compliance."
+              },
+              {
+                "code": "Accountable Leader",
+                "text": "Be an accountable leader - integrity, self-awareness, shared leadership. Merges stewardship and leadership."
+              },
+              {
+                "code": "Sustainability",
+                "text": "Integrate sustainability across all project areas - environmental, social and economic (triple bottom line). Entirely NEW; the biggest 8th-Ed addition."
+              },
+              {
+                "code": "Empowered Culture",
+                "text": "Build an empowered culture across the whole stakeholder community. Evolved from 'Collaborative Project Team'."
+              }
             ]
           },
           {
@@ -59,13 +77,34 @@
             "kind": "table",
             "title": "Domain -> processes and focus",
             "rows": [
-              { "key": "Governance", "value": "9 processes. Initiating, Planning, Executing, M&C, Closing.\nIntegration, execution coordination, change control, knowledge, QA, sourcing, close-out." },
-              { "key": "Scope", "value": "6 processes. Planning, M&C.\nRequirements, WBS, validation." },
-              { "key": "Schedule", "value": "3 processes. Planning, M&C." },
-              { "key": "Finance", "value": "4 processes. Planning, M&C.\nEarned value lives here (Monitor and Control Finances)." },
-              { "key": "Stakeholders", "value": "7 processes. Initiating, Planning, Executing, M&C.\nNow includes Communications (formerly a knowledge area)." },
-              { "key": "Resources", "value": "5 processes. Planning, Executing, M&C.\nTeam and physical resources; 'Lead the Team'." },
-              { "key": "Risk", "value": "6 processes. Planning, Executing, M&C.\nRenamed from 'Uncertainty'." }
+              {
+                "key": "Governance",
+                "value": "9 processes. Initiating, Planning, Executing, M&C, Closing.\nIntegration, execution coordination, change control, knowledge, QA, sourcing, close-out."
+              },
+              {
+                "key": "Scope",
+                "value": "6 processes. Planning, M&C.\nRequirements, WBS, validation."
+              },
+              {
+                "key": "Schedule",
+                "value": "3 processes. Planning, M&C."
+              },
+              {
+                "key": "Finance",
+                "value": "4 processes. Planning, M&C.\nEarned value lives here (Monitor and Control Finances)."
+              },
+              {
+                "key": "Stakeholders",
+                "value": "7 processes. Initiating, Planning, Executing, M&C.\nNow includes Communications (formerly a knowledge area)."
+              },
+              {
+                "key": "Resources",
+                "value": "5 processes. Planning, Executing, M&C.\nTeam and physical resources; 'Lead the Team'."
+              },
+              {
+                "key": "Risk",
+                "value": "6 processes. Planning, Executing, M&C.\nRenamed from 'Uncertainty'."
+              }
             ]
           },
           {
@@ -87,14 +126,38 @@
             "kind": "table",
             "title": "7th-Ed domain -> 8th-Ed",
             "rows": [
-              { "key": "Stakeholder", "value": "Stakeholders. Now includes Communications processes (7 total)." },
-              { "key": "Team", "value": "Resources. Team dev/mgmt consolidated into 'Lead the Team'; culture moved to the Empowered Culture principle." },
-              { "key": "Dev Approach", "value": "Moved to The Standard (Project Life Cycles). No longer a performance domain." },
-              { "key": "Planning", "value": "Distributed. Planning processes now live inside each domain." },
-              { "key": "Project Work", "value": "Governance. Integration, execution, change control, knowledge, QA, sourcing, close-out." },
-              { "key": "Delivery", "value": "Scope. Requirements, WBS, validation (QA split to Governance)." },
-              { "key": "Measurement", "value": "Distributed into M&C processes; earned value -> Finance." },
-              { "key": "Uncertainty", "value": "Risk. Ambiguity, complexity and volatility now sit under 'Adopt a Holistic View'." }
+              {
+                "key": "Stakeholder",
+                "value": "Stakeholders. Now includes Communications processes (7 total)."
+              },
+              {
+                "key": "Team",
+                "value": "Resources. Team dev/mgmt consolidated into 'Lead the Team'; culture moved to the Empowered Culture principle."
+              },
+              {
+                "key": "Dev Approach",
+                "value": "Moved to The Standard (Project Life Cycles). No longer a performance domain."
+              },
+              {
+                "key": "Planning",
+                "value": "Distributed. Planning processes now live inside each domain."
+              },
+              {
+                "key": "Project Work",
+                "value": "Governance. Integration, execution, change control, knowledge, QA, sourcing, close-out."
+              },
+              {
+                "key": "Delivery",
+                "value": "Scope. Requirements, WBS, validation (QA split to Governance)."
+              },
+              {
+                "key": "Measurement",
+                "value": "Distributed into M&C processes; earned value -> Finance."
+              },
+              {
+                "key": "Uncertainty",
+                "value": "Risk. Ambiguity, complexity and volatility now sit under 'Adopt a Holistic View'."
+              }
             ]
           },
           {
@@ -113,10 +176,30 @@
             "kind": "steps",
             "title": "The reasoning flow",
             "items": [
-              { "title": "Read for approach and domain", "lines": ["Predictive, agile or hybrid? Which function domain is in play?"] },
-              { "title": "Prefer the value-delivering action", "lines": ["Proactive, collaborative, within your authority, honouring a principle."] },
-              { "title": "Diagnose before acting", "lines": ["Follow the process; take the least-drastic correct action."] },
-              { "title": "Escalate last", "lines": ["Only when the situation is genuinely beyond your authority."] }
+              {
+                "title": "Read for approach and domain",
+                "lines": [
+                  "Predictive, agile or hybrid? Which function domain is in play?"
+                ]
+              },
+              {
+                "title": "Prefer the value-delivering action",
+                "lines": [
+                  "Proactive, collaborative, within your authority, honouring a principle."
+                ]
+              },
+              {
+                "title": "Diagnose before acting",
+                "lines": [
+                  "Follow the process; take the least-drastic correct action."
+                ]
+              },
+              {
+                "title": "Escalate last",
+                "lines": [
+                  "Only when the situation is genuinely beyond your authority."
+                ]
+              }
             ]
           },
           {
@@ -131,7 +214,29 @@
         ]
       }
     ],
-    "tags": ["pmbok 8", "principles", "performance domains", "mindset", "8th edition"],
-    "source": "PMBOK Guide 8th Edition - 6 principles and 7 performance domains (function-oriented, with processes and ITTOs)."
+    "tags": [
+      "pmbok 8",
+      "principles",
+      "performance domains",
+      "mindset",
+      "8th edition"
+    ],
+    "source": "PMBOK Guide 8th Edition - 6 principles and 7 performance domains (function-oriented, with processes and ITTOs).",
+    "topics": [
+      "Mindset",
+      "PMBOK 8"
+    ],
+    "pathMembership": [
+      {
+        "path": "PMBOK 8 foundation",
+        "order": 1,
+        "purpose": "Use this before drilling detail.",
+        "tags": [
+          "PMBOK 8",
+          "Process",
+          "Governance"
+        ]
+      }
+    ]
   }
 ]

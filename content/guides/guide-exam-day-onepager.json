@@ -13,17 +13,49 @@
           {
             "kind": "steps",
             "items": [
-              { "title": "Identify the delivery mode", "lines": ["Sprint, backlog, Product Owner, standup -> agile.", "Baseline, WBS, CCB, earned value -> predictive.", "Tailoring or mixed wording -> hybrid."] },
-              { "title": "Separate risk from issue", "lines": ["Already happened -> issue.", "Might happen -> risk."] },
-              { "title": "Check decision authority", "lines": ["Agile team decides how the work is done.", "Product Owner prioritises backlog value.", "PM removes blockers and enables the team."] },
-              { "title": "Choose the least-drastic correct action", "lines": ["Diagnose first.", "Follow the agreed process.", "Escalate only after the normal path fails."] }
+              {
+                "title": "Identify the delivery mode",
+                "lines": [
+                  "Sprint, backlog, Product Owner, standup -> agile.",
+                  "Baseline, WBS, CCB, earned value -> predictive.",
+                  "Tailoring or mixed wording -> hybrid."
+                ]
+              },
+              {
+                "title": "Separate risk from issue",
+                "lines": [
+                  "Already happened -> issue.",
+                  "Might happen -> risk."
+                ]
+              },
+              {
+                "title": "Check decision authority",
+                "lines": [
+                  "Agile team decides how the work is done.",
+                  "Product Owner prioritises backlog value.",
+                  "PM removes blockers and enables the team."
+                ]
+              },
+              {
+                "title": "Choose the least-drastic correct action",
+                "lines": [
+                  "Diagnose first.",
+                  "Follow the agreed process.",
+                  "Escalate only after the normal path fails."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam tip",
             "tone": "bad",
-            "lines": ["Don't edit baselines directly.", "Don't escalate before trying the correct process.", "Don't decide for an agile team.", "Don't stay passive when action is required."]
+            "lines": [
+              "Don't edit baselines directly.",
+              "Don't escalate before trying the correct process.",
+              "Don't decide for an agile team.",
+              "Don't stay passive when action is required."
+            ]
           }
         ]
       },
@@ -35,38 +67,87 @@
           {
             "kind": "tip",
             "title": "How to use this",
-            "lines": ["Principles = the why: guardrails for behaviour.", "Performance domains = the what: outcomes to achieve.", "Tailoring = the how: choose models, methods and artifacts that fit the project.", "Value delivery is the point of every choice."]
+            "lines": [
+              "Principles = the why: guardrails for behaviour.",
+              "Performance domains = the what: outcomes to achieve.",
+              "Tailoring = the how: choose models, methods and artifacts that fit the project.",
+              "Value delivery is the point of every choice."
+            ]
           },
           {
             "kind": "terms",
             "title": "6 project-management principles",
             "items": [
-              { "code": "Holistic View", "text": "Systems thinking - components and interdependencies." },
-              { "code": "Focus on Value", "text": "Value is the ultimate measure of success." },
-              { "code": "Embed Quality", "text": "Build quality into processes and deliverables (adds sustainability/compliance)." },
-              { "code": "Accountable Leader", "text": "Integrity, self-awareness, shared leadership." },
-              { "code": "Sustainability", "text": "Integrate environmental/social/economic sustainability. NEW - biggest 8th-Ed addition." },
-              { "code": "Empowered Culture", "text": "Empower the whole stakeholder community." }
+              {
+                "code": "Holistic View",
+                "text": "Systems thinking - components and interdependencies."
+              },
+              {
+                "code": "Focus on Value",
+                "text": "Value is the ultimate measure of success."
+              },
+              {
+                "code": "Embed Quality",
+                "text": "Build quality into processes and deliverables (adds sustainability/compliance)."
+              },
+              {
+                "code": "Accountable Leader",
+                "text": "Integrity, self-awareness, shared leadership."
+              },
+              {
+                "code": "Sustainability",
+                "text": "Integrate environmental/social/economic sustainability. NEW - biggest 8th-Ed addition."
+              },
+              {
+                "code": "Empowered Culture",
+                "text": "Empower the whole stakeholder community."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "7 performance domains -> desired outcome",
             "rows": [
-              { "key": "Governance", "value": "9 processes. Integration, change control, knowledge, QA, sourcing, close-out." },
-              { "key": "Scope", "value": "6 processes. Requirements, WBS, validation." },
-              { "key": "Schedule", "value": "3 processes." },
-              { "key": "Finance", "value": "4 processes. Earned value lives here." },
-              { "key": "Stakeholders", "value": "7 processes. Now includes Communications." },
-              { "key": "Resources", "value": "5 processes. Team + physical resources; Lead the Team." },
-              { "key": "Risk", "value": "6 processes. Renamed from Uncertainty." }
+              {
+                "key": "Governance",
+                "value": "9 processes. Integration, change control, knowledge, QA, sourcing, close-out."
+              },
+              {
+                "key": "Scope",
+                "value": "6 processes. Requirements, WBS, validation."
+              },
+              {
+                "key": "Schedule",
+                "value": "3 processes."
+              },
+              {
+                "key": "Finance",
+                "value": "4 processes. Earned value lives here."
+              },
+              {
+                "key": "Stakeholders",
+                "value": "7 processes. Now includes Communications."
+              },
+              {
+                "key": "Resources",
+                "value": "5 processes. Team + physical resources; Lead the Team."
+              },
+              {
+                "key": "Risk",
+                "value": "6 processes. Renamed from Uncertainty."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Tailoring reminder",
             "tone": "good",
-            "lines": ["Models, methods and artifacts are chosen, not mandated.", "Simple project -> lighter process; complex -> more rigour.", "There is no one right set of documents; fit them to the project.", "When an option says 'always use the full process', be suspicious."]
+            "lines": [
+              "Models, methods and artifacts are chosen, not mandated.",
+              "Simple project -> lighter process; complex -> more rigour.",
+              "There is no one right set of documents; fit them to the project.",
+              "When an option says 'always use the full process', be suspicious."
+            ]
           }
         ]
       },
@@ -83,8 +164,22 @@
                 "badge": "Waterfall",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Signals", "lines": ["Stable, well-understood scope.", "Baseline, WBS, CCB.", "Critical path, earned value."] },
-                  { "label": "Right answer style", "lines": ["Follow the formal process.", "Submit a change request when a baseline changes.", "Protect the approved baseline."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Stable, well-understood scope.",
+                      "Baseline, WBS, CCB.",
+                      "Critical path, earned value."
+                    ]
+                  },
+                  {
+                    "label": "Right answer style",
+                    "lines": [
+                      "Follow the formal process.",
+                      "Submit a change request when a baseline changes.",
+                      "Protect the approved baseline."
+                    ]
+                  }
                 ]
               },
               {
@@ -92,8 +187,23 @@
                 "badge": "Adaptive",
                 "tone": "good",
                 "groups": [
-                  { "label": "Signals", "lines": ["Changing requirements.", "Sprint, iteration, user story, backlog.", "Product Owner, standup, self-organising team."] },
-                  { "label": "Right answer style", "lines": ["Empower the team.", "Diagnose with the team.", "Let the Product Owner own priority.", "Improve in retrospectives."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Changing requirements.",
+                      "Sprint, iteration, user story, backlog.",
+                      "Product Owner, standup, self-organising team."
+                    ]
+                  },
+                  {
+                    "label": "Right answer style",
+                    "lines": [
+                      "Empower the team.",
+                      "Diagnose with the team.",
+                      "Let the Product Owner own priority.",
+                      "Improve in retrospectives."
+                    ]
+                  }
                 ]
               },
               {
@@ -101,8 +211,22 @@
                 "badge": "Tailored",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Signals", "lines": ["Tailoring is mentioned.", "Predictive and agile terms appear together.", "Some requirements known, some uncertain."] },
-                  { "label": "Right answer style", "lines": ["Govern the stable parts.", "Iterate the uncertain parts.", "Break down and prioritise the known requirements."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Tailoring is mentioned.",
+                      "Predictive and agile terms appear together.",
+                      "Some requirements known, some uncertain."
+                    ]
+                  },
+                  {
+                    "label": "Right answer style",
+                    "lines": [
+                      "Govern the stable parts.",
+                      "Iterate the uncertain parts.",
+                      "Break down and prioritise the known requirements."
+                    ]
+                  }
                 ]
               }
             ]
@@ -110,7 +234,12 @@
           {
             "kind": "tip",
             "title": "Authority check",
-            "lines": ["Predictive: the PM plans and directs.", "Agile: the team self-organises.", "Product Owner prioritises value.", "Servant leader removes impediments."]
+            "lines": [
+              "Predictive: the PM plans and directs.",
+              "Agile: the team self-organises.",
+              "Product Owner prioritises value.",
+              "Servant leader removes impediments."
+            ]
           }
         ]
       },
@@ -119,58 +248,168 @@
         "heading": "Formulae",
         "body": "Each formula sits next to its meaning and exam cue. PMBOK 8 leans on outcomes over process, but earned value and these quick-reference numbers still appear.",
         "blocks": [
-          { "kind": "tip", "title": "Interpretation", "tone": "bad", "lines": ["Negative variance is bad.", "Index below 1 is bad."] },
+          {
+            "kind": "tip",
+            "title": "Interpretation",
+            "tone": "bad",
+            "lines": [
+              "Negative variance is bad.",
+              "Index below 1 is bad."
+            ]
+          },
           {
             "kind": "formulas",
             "title": "Earned value",
             "note": "Watch signs",
             "items": [
-              { "formula": "CV = EV - AC", "lines": ["Cost variance.", "Negative = over budget."] },
-              { "formula": "SV = EV - PV", "lines": ["Schedule variance.", "Negative = behind planned value."] },
-              { "formula": "CPI = EV / AC", "lines": ["Cost efficiency.", "Below 1 = poor cost performance."] },
-              { "formula": "SPI = EV / PV", "lines": ["Schedule efficiency.", "Below 1 = slower than planned."] },
-              { "formula": "EAC = BAC / CPI", "lines": ["Estimate at completion.", "Use when current cost performance continues."] },
-              { "formula": "ETC = EAC - AC", "lines": ["Estimate to complete.", "Remaining expected cost from today."] },
-              { "formula": "VAC = BAC - EAC", "lines": ["Variance at completion.", "Negative = expected final overrun."] },
-              { "formula": "TCPI = (BAC - EV) / (BAC - AC)", "lines": ["Efficiency still needed to hit the budget.", "Use BAC when the target hasn't changed."] }
+              {
+                "formula": "CV = EV - AC",
+                "lines": [
+                  "Cost variance.",
+                  "Negative = over budget."
+                ]
+              },
+              {
+                "formula": "SV = EV - PV",
+                "lines": [
+                  "Schedule variance.",
+                  "Negative = behind planned value."
+                ]
+              },
+              {
+                "formula": "CPI = EV / AC",
+                "lines": [
+                  "Cost efficiency.",
+                  "Below 1 = poor cost performance."
+                ]
+              },
+              {
+                "formula": "SPI = EV / PV",
+                "lines": [
+                  "Schedule efficiency.",
+                  "Below 1 = slower than planned."
+                ]
+              },
+              {
+                "formula": "EAC = BAC / CPI",
+                "lines": [
+                  "Estimate at completion.",
+                  "Use when current cost performance continues."
+                ]
+              },
+              {
+                "formula": "ETC = EAC - AC",
+                "lines": [
+                  "Estimate to complete.",
+                  "Remaining expected cost from today."
+                ]
+              },
+              {
+                "formula": "VAC = BAC - EAC",
+                "lines": [
+                  "Variance at completion.",
+                  "Negative = expected final overrun."
+                ]
+              },
+              {
+                "formula": "TCPI = (BAC - EV) / (BAC - AC)",
+                "lines": [
+                  "Efficiency still needed to hit the budget.",
+                  "Use BAC when the target hasn't changed."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Estimating",
             "items": [
-              { "formula": "tE = (O + 4M + P) / 6", "lines": ["PERT three-point estimate.", "Most-likely value weighted by 4."] },
-              { "formula": "Std Dev = (P - O) / 6", "lines": ["Estimate spread.", "Optimistic and pessimistic set the range."] }
+              {
+                "formula": "tE = (O + 4M + P) / 6",
+                "lines": [
+                  "PERT three-point estimate.",
+                  "Most-likely value weighted by 4."
+                ]
+              },
+              {
+                "formula": "Std Dev = (P - O) / 6",
+                "lines": [
+                  "Estimate spread.",
+                  "Optimistic and pessimistic set the range."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Risk and selection",
             "items": [
-              { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value.", "Sum identified risks to size contingency."] },
-              { "formula": "BCR = Benefits / Costs", "lines": ["Above 1 = benefits exceed cost.", "Below 1 = costs exceed benefits."] },
-              { "formula": "NPV, IRR, Payback", "lines": ["Higher NPV is better.", "Higher IRR is better.", "Shorter payback is better."] }
+              {
+                "formula": "EMV = Probability x Impact",
+                "lines": [
+                  "Expected monetary value.",
+                  "Sum identified risks to size contingency."
+                ]
+              },
+              {
+                "formula": "BCR = Benefits / Costs",
+                "lines": [
+                  "Above 1 = benefits exceed cost.",
+                  "Below 1 = costs exceed benefits."
+                ]
+              },
+              {
+                "formula": "NPV, IRR, Payback",
+                "lines": [
+                  "Higher NPV is better.",
+                  "Higher IRR is better.",
+                  "Shorter payback is better."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Schedule and communications",
             "items": [
-              { "formula": "Total Float = LS - ES", "lines": ["Also equals LF - EF.", "Critical-path activities have zero total float."] },
-              { "formula": "Channels = n(n-1) / 2", "lines": ["n = number of people.", "Paths grow quickly as people are added."] }
+              {
+                "formula": "Total Float = LS - ES",
+                "lines": [
+                  "Also equals LF - EF.",
+                  "Critical-path activities have zero total float."
+                ]
+              },
+              {
+                "formula": "Channels = n(n-1) / 2",
+                "lines": [
+                  "n = number of people.",
+                  "Paths grow quickly as people are added."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Procurement",
             "items": [
-              { "formula": "PTA = ((Ceiling - Target) / Buyer share) + Target Cost", "lines": ["Point of total assumption.", "Applies to fixed-price incentive-fee contracts."] }
+              {
+                "formula": "PTA = ((Ceiling - Target) / Buyer share) + Target Cost",
+                "lines": [
+                  "Point of total assumption.",
+                  "Applies to fixed-price incentive-fee contracts."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Formula tip",
-            "lines": ["Variance = EV minus (PV or AC).", "Index = EV over (PV or AC).", "EAC = BAC / CPI when performance continues.", "PERT weights the most-likely by 4."]
+            "lines": [
+              "Variance = EV minus (PV or AC).",
+              "Index = EV over (PV or AC).",
+              "EAC = BAC / CPI when performance continues.",
+              "PERT weights the most-likely by 4."
+            ]
           }
         ]
       },
@@ -182,45 +421,179 @@
           {
             "kind": "cards",
             "items": [
-              { "title": "Baseline change", "groups": [
-                { "label": "Trigger", "lines": ["Scope, schedule or cost baseline needs changing."] },
-                { "label": "Response", "lines": ["Raise a change request."] },
-                { "label": "Caution", "lines": ["Don't edit the baseline directly."] }
-              ] },
-              { "title": "Issue vs risk", "groups": [
-                { "label": "Issue", "lines": ["It has already happened."] },
-                { "label": "Risk", "lines": ["It might happen later."] }
-              ] },
-              { "title": "New risk", "groups": [
-                { "label": "Step 1", "lines": ["Record it in the risk register."] },
-                { "label": "Step 2", "lines": ["Analyse probability and impact."] },
-                { "label": "Step 3", "lines": ["Plan the response and assign a risk owner."] }
-              ] },
-              { "title": "Known risk fires", "groups": [
-                { "label": "Response", "lines": ["Use the planned response."] },
-                { "label": "Caution", "lines": ["Don't improvise if a response plan already exists."] }
-              ] },
-              { "title": "Agile team struggling", "groups": [
-                { "label": "Response", "lines": ["Diagnose with the team."] },
-                { "label": "Caution", "lines": ["Don't have the PM dictate the fix or just extend the timeline."] }
-              ] },
-              { "title": "Individual vs whole team", "groups": [
-                { "label": "One person", "lines": ["Private one-on-one conversation."] },
-                { "label": "Whole team", "lines": ["Bring the team together or survey them.", "Incentives usually backfire."] }
-              ] },
-              { "title": "Resource removed", "groups": [
-                { "label": "Response", "lines": ["Negotiate with the functional manager first."] },
-                { "label": "Escalation", "lines": ["Escalate only if negotiation fails."] }
-              ] },
-              { "title": "Other quick calls", "groups": [
-                { "label": "Value uncertain", "lines": ["Build a prototype or MVP."] },
-                { "label": "Stakeholder changes", "lines": ["Register = who they are; plan = how to engage."] },
-                { "label": "Ground rule broken", "lines": ["Remind directly; strengthen the process only if it recurs."] },
-                { "label": "Conflict with emotion", "lines": ["Acknowledge feelings first; never assign blame."] }
-              ] }
+              {
+                "title": "Baseline change",
+                "groups": [
+                  {
+                    "label": "Trigger",
+                    "lines": [
+                      "Scope, schedule or cost baseline needs changing."
+                    ]
+                  },
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Raise a change request."
+                    ]
+                  },
+                  {
+                    "label": "Caution",
+                    "lines": [
+                      "Don't edit the baseline directly."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Issue vs risk",
+                "groups": [
+                  {
+                    "label": "Issue",
+                    "lines": [
+                      "It has already happened."
+                    ]
+                  },
+                  {
+                    "label": "Risk",
+                    "lines": [
+                      "It might happen later."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "New risk",
+                "groups": [
+                  {
+                    "label": "Step 1",
+                    "lines": [
+                      "Record it in the risk register."
+                    ]
+                  },
+                  {
+                    "label": "Step 2",
+                    "lines": [
+                      "Analyse probability and impact."
+                    ]
+                  },
+                  {
+                    "label": "Step 3",
+                    "lines": [
+                      "Plan the response and assign a risk owner."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Known risk fires",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Use the planned response."
+                    ]
+                  },
+                  {
+                    "label": "Caution",
+                    "lines": [
+                      "Don't improvise if a response plan already exists."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Agile team struggling",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Diagnose with the team."
+                    ]
+                  },
+                  {
+                    "label": "Caution",
+                    "lines": [
+                      "Don't have the PM dictate the fix or just extend the timeline."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Individual vs whole team",
+                "groups": [
+                  {
+                    "label": "One person",
+                    "lines": [
+                      "Private one-on-one conversation."
+                    ]
+                  },
+                  {
+                    "label": "Whole team",
+                    "lines": [
+                      "Bring the team together or survey them.",
+                      "Incentives usually backfire."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Resource removed",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Negotiate with the functional manager first."
+                    ]
+                  },
+                  {
+                    "label": "Escalation",
+                    "lines": [
+                      "Escalate only if negotiation fails."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Other quick calls",
+                "groups": [
+                  {
+                    "label": "Value uncertain",
+                    "lines": [
+                      "Build a prototype or MVP."
+                    ]
+                  },
+                  {
+                    "label": "Stakeholder changes",
+                    "lines": [
+                      "Register = who they are; plan = how to engage."
+                    ]
+                  },
+                  {
+                    "label": "Ground rule broken",
+                    "lines": [
+                      "Remind directly; strengthen the process only if it recurs."
+                    ]
+                  },
+                  {
+                    "label": "Conflict with emotion",
+                    "lines": [
+                      "Acknowledge feelings first; never assign blame."
+                    ]
+                  }
+                ]
+              }
             ]
           },
-          { "kind": "tip", "title": "Mindset tip", "lines": ["Diagnose before treating.", "Follow process before escalating.", "Use the least-drastic correct action.", "Favour the option that delivers value and honours a principle."] }
+          {
+            "kind": "tip",
+            "title": "Mindset tip",
+            "lines": [
+              "Diagnose before treating.",
+              "Follow process before escalating.",
+              "Use the least-drastic correct action.",
+              "Favour the option that delivers value and honours a principle."
+            ]
+          }
         ]
       },
       {
@@ -228,62 +601,219 @@
         "heading": "Must-know acronyms",
         "body": "Each acronym on its own row, grouped by area.",
         "blocks": [
-          { "kind": "terms", "title": "Agile and product", "items": [
-            { "code": "INVEST", "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable." },
-            { "code": "MVP", "text": "Minimum Viable Product." },
-            { "code": "WIP", "text": "Work In Progress." },
-            { "code": "PO", "text": "Product Owner." }
-          ] },
-          { "kind": "terms", "title": "Planning and responsibility", "items": [
-            { "code": "WBS", "text": "Work Breakdown Structure." },
-            { "code": "RBS", "text": "Resource Breakdown Structure." },
-            { "code": "RTM", "text": "Requirements Traceability Matrix." },
-            { "code": "SOW", "text": "Statement of Work." },
-            { "code": "RACI", "text": "Responsible, Accountable, Consulted, Informed." },
-            { "code": "RAM", "text": "Responsibility Assignment Matrix." }
-          ] },
-          { "kind": "terms", "title": "Governance and environment", "items": [
-            { "code": "CCB", "text": "Change Control Board." },
-            { "code": "OPA", "text": "Organisational Process Assets." },
-            { "code": "EEF", "text": "Enterprise Environmental Factors." },
-            { "code": "PMO", "text": "Project Management Office." },
-            { "code": "SME", "text": "Subject Matter Expert." }
-          ] },
-          { "kind": "terms", "title": "Procurement", "items": [
-            { "code": "RFI", "text": "Request for Information." },
-            { "code": "RFQ", "text": "Request for Quote." },
-            { "code": "RFP", "text": "Request for Proposal." },
-            { "code": "FFP", "text": "Firm Fixed Price." },
-            { "code": "FPIF", "text": "Fixed Price Incentive Fee." },
-            { "code": "FPEPA", "text": "Fixed Price Economic Price Adjustment." },
-            { "code": "CPFF", "text": "Cost Plus Fixed Fee." },
-            { "code": "CPIF", "text": "Cost Plus Incentive Fee." },
-            { "code": "CPAF", "text": "Cost Plus Award Fee." },
-            { "code": "T&M", "text": "Time and Material." }
-          ] },
-          { "kind": "terms", "title": "Performance and value", "items": [
-            { "code": "EV", "text": "Earned Value." },
-            { "code": "PV", "text": "Planned Value." },
-            { "code": "AC", "text": "Actual Cost." },
-            { "code": "CV", "text": "Cost Variance." },
-            { "code": "SV", "text": "Schedule Variance." },
-            { "code": "CPI", "text": "Cost Performance Index." },
-            { "code": "SPI", "text": "Schedule Performance Index." },
-            { "code": "BAC", "text": "Budget at Completion." },
-            { "code": "EAC", "text": "Estimate at Completion." },
-            { "code": "EMV", "text": "Expected Monetary Value." },
-            { "code": "BCR", "text": "Benefit-Cost Ratio." },
-            { "code": "NPV", "text": "Net Present Value." },
-            { "code": "IRR", "text": "Internal Rate of Return." },
-            { "code": "CoQ", "text": "Cost of Quality." }
-          ] },
-          { "kind": "terms", "title": "Improvement and change", "items": [
-            { "code": "PDCA", "text": "Plan, Do, Check, Act." },
-            { "code": "ADKAR", "text": "Awareness, Desire, Knowledge, Ability, Reinforcement." },
-            { "code": "OKR", "text": "Objective and Key Results." },
-            { "code": "KPI", "text": "Key Performance Indicator." }
-          ] },
-          { "kind": "tip", "title": "Acronym tip", "text": "When you blank, expand the acronym first - the words usually point to the answer." }
+          {
+            "kind": "terms",
+            "title": "Agile and product",
+            "items": [
+              {
+                "code": "INVEST",
+                "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable."
+              },
+              {
+                "code": "MVP",
+                "text": "Minimum Viable Product."
+              },
+              {
+                "code": "WIP",
+                "text": "Work In Progress."
+              },
+              {
+                "code": "PO",
+                "text": "Product Owner."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Planning and responsibility",
+            "items": [
+              {
+                "code": "WBS",
+                "text": "Work Breakdown Structure."
+              },
+              {
+                "code": "RBS",
+                "text": "Resource Breakdown Structure."
+              },
+              {
+                "code": "RTM",
+                "text": "Requirements Traceability Matrix."
+              },
+              {
+                "code": "SOW",
+                "text": "Statement of Work."
+              },
+              {
+                "code": "RACI",
+                "text": "Responsible, Accountable, Consulted, Informed."
+              },
+              {
+                "code": "RAM",
+                "text": "Responsibility Assignment Matrix."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Governance and environment",
+            "items": [
+              {
+                "code": "CCB",
+                "text": "Change Control Board."
+              },
+              {
+                "code": "OPA",
+                "text": "Organisational Process Assets."
+              },
+              {
+                "code": "EEF",
+                "text": "Enterprise Environmental Factors."
+              },
+              {
+                "code": "PMO",
+                "text": "Project Management Office."
+              },
+              {
+                "code": "SME",
+                "text": "Subject Matter Expert."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Procurement",
+            "items": [
+              {
+                "code": "RFI",
+                "text": "Request for Information."
+              },
+              {
+                "code": "RFQ",
+                "text": "Request for Quote."
+              },
+              {
+                "code": "RFP",
+                "text": "Request for Proposal."
+              },
+              {
+                "code": "FFP",
+                "text": "Firm Fixed Price."
+              },
+              {
+                "code": "FPIF",
+                "text": "Fixed Price Incentive Fee."
+              },
+              {
+                "code": "FPEPA",
+                "text": "Fixed Price Economic Price Adjustment."
+              },
+              {
+                "code": "CPFF",
+                "text": "Cost Plus Fixed Fee."
+              },
+              {
+                "code": "CPIF",
+                "text": "Cost Plus Incentive Fee."
+              },
+              {
+                "code": "CPAF",
+                "text": "Cost Plus Award Fee."
+              },
+              {
+                "code": "T&M",
+                "text": "Time and Material."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Performance and value",
+            "items": [
+              {
+                "code": "EV",
+                "text": "Earned Value."
+              },
+              {
+                "code": "PV",
+                "text": "Planned Value."
+              },
+              {
+                "code": "AC",
+                "text": "Actual Cost."
+              },
+              {
+                "code": "CV",
+                "text": "Cost Variance."
+              },
+              {
+                "code": "SV",
+                "text": "Schedule Variance."
+              },
+              {
+                "code": "CPI",
+                "text": "Cost Performance Index."
+              },
+              {
+                "code": "SPI",
+                "text": "Schedule Performance Index."
+              },
+              {
+                "code": "BAC",
+                "text": "Budget at Completion."
+              },
+              {
+                "code": "EAC",
+                "text": "Estimate at Completion."
+              },
+              {
+                "code": "EMV",
+                "text": "Expected Monetary Value."
+              },
+              {
+                "code": "BCR",
+                "text": "Benefit-Cost Ratio."
+              },
+              {
+                "code": "NPV",
+                "text": "Net Present Value."
+              },
+              {
+                "code": "IRR",
+                "text": "Internal Rate of Return."
+              },
+              {
+                "code": "CoQ",
+                "text": "Cost of Quality."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Improvement and change",
+            "items": [
+              {
+                "code": "PDCA",
+                "text": "Plan, Do, Check, Act."
+              },
+              {
+                "code": "ADKAR",
+                "text": "Awareness, Desire, Knowledge, Ability, Reinforcement."
+              },
+              {
+                "code": "OKR",
+                "text": "Objective and Key Results."
+              },
+              {
+                "code": "KPI",
+                "text": "Key Performance Indicator."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Acronym tip",
+            "text": "When you blank, expand the acronym first - the words usually point to the answer."
+          }
         ]
       },
       {
@@ -291,36 +821,139 @@
         "heading": "Roles, quality and closure",
         "body": "Common traps for 'what happens next' questions. In PMBOK 8 terms these map to the Scope and Finance/M&C performance domains, plus the Embed Quality principle.",
         "blocks": [
-          { "kind": "table", "title": "Who owns what", "rows": [
-            { "key": "Sponsor", "value": "Funds and champions one project.\nSigns off acceptance." },
-            { "key": "PMO", "value": "Aligns standards across projects.\nMay authorise or terminate." },
-            { "key": "PO", "value": "Owns backlog priority and value." },
-            { "key": "FM", "value": "Owns the people in a matrix." }
-          ] },
-          { "kind": "table", "title": "PM authority by structure", "rows": [
-            { "key": "Functional", "value": "Little authority." },
-            { "key": "Weak matrix", "value": "Coordinator." },
-            { "key": "Balanced", "value": "Shared authority." },
-            { "key": "Strong matrix", "value": "Moderate to high." },
-            { "key": "Projectized", "value": "Full authority." }
-          ] },
-          { "kind": "steps", "title": "Quality order", "items": [
-            { "title": "Plan Quality", "lines": ["Set the standards."] },
-            { "title": "Manage Quality", "lines": ["Audits, process, prevention."] },
-            { "title": "Control Quality", "lines": ["Inspect deliverables for defects."] },
-            { "title": "Validate Scope", "lines": ["Customer formally accepts."] }
-          ] },
-          { "kind": "table", "title": "Cost of Quality", "rows": [
-            { "key": "Conformance", "value": "Prevention + appraisal." },
-            { "key": "Nonconform.", "value": "Internal + external failure." }
-          ] },
-          { "kind": "steps", "title": "Closure order", "items": [
-            { "title": "Accept deliverables", "lines": ["Formal acceptance first."] },
-            { "title": "Close procurement", "lines": ["Verify work and settle contracts."] },
-            { "title": "Lessons learned", "lines": ["Capture before the team disperses."] },
-            { "title": "Release the team", "lines": ["Last - and only after finance confirms payment."] }
-          ] },
-          { "kind": "tip", "title": "Exam tip", "lines": ["Audit = Manage Quality.", "Inspect deliverables = Control Quality.", "Customer sign-off = Validate Scope.", "Sponsor accepts; PMO aligns.", "Confirm benefits are realised, not just deliverables shipped."] }
+          {
+            "kind": "table",
+            "title": "Who owns what",
+            "rows": [
+              {
+                "key": "Sponsor",
+                "value": "Funds and champions one project.\nSigns off acceptance."
+              },
+              {
+                "key": "PMO",
+                "value": "Aligns standards across projects.\nMay authorise or terminate."
+              },
+              {
+                "key": "PO",
+                "value": "Owns backlog priority and value."
+              },
+              {
+                "key": "FM",
+                "value": "Owns the people in a matrix."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "PM authority by structure",
+            "rows": [
+              {
+                "key": "Functional",
+                "value": "Little authority."
+              },
+              {
+                "key": "Weak matrix",
+                "value": "Coordinator."
+              },
+              {
+                "key": "Balanced",
+                "value": "Shared authority."
+              },
+              {
+                "key": "Strong matrix",
+                "value": "Moderate to high."
+              },
+              {
+                "key": "Projectized",
+                "value": "Full authority."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Quality order",
+            "items": [
+              {
+                "title": "Plan Quality",
+                "lines": [
+                  "Set the standards."
+                ]
+              },
+              {
+                "title": "Manage Quality",
+                "lines": [
+                  "Audits, process, prevention."
+                ]
+              },
+              {
+                "title": "Control Quality",
+                "lines": [
+                  "Inspect deliverables for defects."
+                ]
+              },
+              {
+                "title": "Validate Scope",
+                "lines": [
+                  "Customer formally accepts."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Cost of Quality",
+            "rows": [
+              {
+                "key": "Conformance",
+                "value": "Prevention + appraisal."
+              },
+              {
+                "key": "Nonconform.",
+                "value": "Internal + external failure."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Closure order",
+            "items": [
+              {
+                "title": "Accept deliverables",
+                "lines": [
+                  "Formal acceptance first."
+                ]
+              },
+              {
+                "title": "Close procurement",
+                "lines": [
+                  "Verify work and settle contracts."
+                ]
+              },
+              {
+                "title": "Lessons learned",
+                "lines": [
+                  "Capture before the team disperses."
+                ]
+              },
+              {
+                "title": "Release the team",
+                "lines": [
+                  "Last - and only after finance confirms payment."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "lines": [
+              "Audit = Manage Quality.",
+              "Inspect deliverables = Control Quality.",
+              "Customer sign-off = Validate Scope.",
+              "Sponsor accepts; PMO aligns.",
+              "Confirm benefits are realised, not just deliverables shipped."
+            ]
+          }
         ]
       },
       {
@@ -328,44 +961,159 @@
         "heading": "Conflict, leadership and change",
         "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change - the heart of the Resources and Stakeholders performance domains.",
         "blocks": [
-          { "kind": "steps", "title": "Conflict modes (best first)", "items": [
-            { "title": "Collaborate", "lines": ["Problem-solve, win-win. Usually preferred."] },
-            { "title": "Compromise", "lines": ["Each side gives something up."] },
-            { "title": "Smooth", "lines": ["Emphasise agreement; may not fix the cause."] },
-            { "title": "Force", "lines": ["Win-lose; emergencies only."] },
-            { "title": "Withdraw", "lines": ["Avoid; usually weak for PMP."] }
-          ] },
-          { "kind": "steps", "title": "Tuckman", "items": [
-            { "title": "Forming" },
-            { "title": "Storming" },
-            { "title": "Norming" },
-            { "title": "Performing" },
-            { "title": "Adjourning" }
-          ] },
-          { "kind": "table", "title": "Leadership", "rows": [
-            { "key": "Servant", "value": "Agile default; remove impediments." },
-            { "key": "Directive", "value": "Crisis or new/inexperienced team." },
-            { "key": "Situational", "value": "Match style to team maturity." },
-            { "key": "Transactional", "value": "Rewards for performance." },
-            { "key": "Transform.", "value": "Vision and change energy." },
-            { "key": "Laissez", "value": "Expert, self-directed team." }
-          ] },
-          { "kind": "table", "title": "Motivation", "rows": [
-            { "key": "Maslow", "value": "Needs hierarchy." },
-            { "key": "Herzberg", "value": "Hygiene prevents dissatisfaction; motivators drive it." },
-            { "key": "McGregor", "value": "Theory X vs Theory Y." },
-            { "key": "McClelland", "value": "Achievement, affiliation, power." },
-            { "key": "Vroom", "value": "Effort -> performance -> valued reward." }
-          ] },
-          { "kind": "table", "title": "Change models", "rows": [
-            { "key": "ADKAR", "value": "Individual change." },
-            { "key": "Bridges", "value": "Ending -> Neutral Zone -> New Beginning." },
-            { "key": "Kubler-Ross", "value": "Emotional change curve." },
-            { "key": "Lewin", "value": "Unfreeze, change, refreeze." },
-            { "key": "Kotter", "value": "8-step organisation change." },
-            { "key": "Satir", "value": "Performance dips then recovers." }
-          ] },
-          { "kind": "tip", "title": "People tip", "lines": ["Conflict -> collaborate.", "Agile -> servant leadership.", "People lag the system change - plan for the dip.", "Leadership is a behaviour, not just a title."] }
+          {
+            "kind": "steps",
+            "title": "Conflict modes (best first)",
+            "items": [
+              {
+                "title": "Collaborate",
+                "lines": [
+                  "Problem-solve, win-win. Usually preferred."
+                ]
+              },
+              {
+                "title": "Compromise",
+                "lines": [
+                  "Each side gives something up."
+                ]
+              },
+              {
+                "title": "Smooth",
+                "lines": [
+                  "Emphasise agreement; may not fix the cause."
+                ]
+              },
+              {
+                "title": "Force",
+                "lines": [
+                  "Win-lose; emergencies only."
+                ]
+              },
+              {
+                "title": "Withdraw",
+                "lines": [
+                  "Avoid; usually weak for PMP."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Tuckman",
+            "items": [
+              {
+                "title": "Forming"
+              },
+              {
+                "title": "Storming"
+              },
+              {
+                "title": "Norming"
+              },
+              {
+                "title": "Performing"
+              },
+              {
+                "title": "Adjourning"
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Leadership",
+            "rows": [
+              {
+                "key": "Servant",
+                "value": "Agile default; remove impediments."
+              },
+              {
+                "key": "Directive",
+                "value": "Crisis or new/inexperienced team."
+              },
+              {
+                "key": "Situational",
+                "value": "Match style to team maturity."
+              },
+              {
+                "key": "Transactional",
+                "value": "Rewards for performance."
+              },
+              {
+                "key": "Transform.",
+                "value": "Vision and change energy."
+              },
+              {
+                "key": "Laissez",
+                "value": "Expert, self-directed team."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Motivation",
+            "rows": [
+              {
+                "key": "Maslow",
+                "value": "Needs hierarchy."
+              },
+              {
+                "key": "Herzberg",
+                "value": "Hygiene prevents dissatisfaction; motivators drive it."
+              },
+              {
+                "key": "McGregor",
+                "value": "Theory X vs Theory Y."
+              },
+              {
+                "key": "McClelland",
+                "value": "Achievement, affiliation, power."
+              },
+              {
+                "key": "Vroom",
+                "value": "Effort -> performance -> valued reward."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Change models",
+            "rows": [
+              {
+                "key": "ADKAR",
+                "value": "Individual change."
+              },
+              {
+                "key": "Bridges",
+                "value": "Ending -> Neutral Zone -> New Beginning."
+              },
+              {
+                "key": "Kubler-Ross",
+                "value": "Emotional change curve."
+              },
+              {
+                "key": "Lewin",
+                "value": "Unfreeze, change, refreeze."
+              },
+              {
+                "key": "Kotter",
+                "value": "8-step organisation change."
+              },
+              {
+                "key": "Satir",
+                "value": "Performance dips then recovers."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "People tip",
+            "lines": [
+              "Conflict -> collaborate.",
+              "Agile -> servant leadership.",
+              "People lag the system change - plan for the dip.",
+              "Leadership is a behaviour, not just a title."
+            ]
+          }
         ]
       },
       {
@@ -373,34 +1121,138 @@
         "heading": "Procurement and schedule quick cuts",
         "body": "High-frequency distinctions, split into decision lines.",
         "blocks": [
-          { "kind": "table", "title": "Bid document", "rows": [
-            { "key": "RFI", "value": "Gather information." },
-            { "key": "RFQ", "value": "Price a well-defined buy." },
-            { "key": "RFP", "value": "Complex / unknown solution. Most formal; a new vendor needs it." }
-          ] },
-          { "kind": "table", "title": "Contract risk", "rows": [
-            { "key": "Fixed price", "value": "Seller carries most risk." },
-            { "key": "Cost reimb.", "value": "Buyer carries most risk." },
-            { "key": "T&M", "value": "Medium; staff aug / small scope." },
-            { "key": "FPEPA", "value": "Long deals; inflation or currency." }
-          ] },
-          { "kind": "steps", "title": "Procurement phases", "items": [
-            { "title": "Plan", "lines": ["Make-or-buy decision."] },
-            { "title": "Conduct", "lines": ["Issue RFx, select, award."] },
-            { "title": "Control", "lines": ["Monitor vendor performance."] },
-            { "title": "Close", "lines": ["Verify, pay, close the contract."] }
-          ] },
-          { "kind": "table", "title": "Schedule compression", "rows": [
-            { "key": "Crashing", "value": "Add resources to the critical path; costs money." },
-            { "key": "Fast track", "value": "Parallelise sequential work; adds risk." },
-            { "key": "Leveling", "value": "Can extend the schedule." },
-            { "key": "Smoothing", "value": "Uses float; doesn't extend the schedule." }
-          ] },
-          { "kind": "tip", "title": "Schedule tip", "lines": ["Critical path = longest path, zero float, drives duration.", "Only critical-path changes shorten the project.", "Never cut planned tests to save time."] }
+          {
+            "kind": "table",
+            "title": "Bid document",
+            "rows": [
+              {
+                "key": "RFI",
+                "value": "Gather information."
+              },
+              {
+                "key": "RFQ",
+                "value": "Price a well-defined buy."
+              },
+              {
+                "key": "RFP",
+                "value": "Complex / unknown solution. Most formal; a new vendor needs it."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Contract risk",
+            "rows": [
+              {
+                "key": "Fixed price",
+                "value": "Seller carries most risk."
+              },
+              {
+                "key": "Cost reimb.",
+                "value": "Buyer carries most risk."
+              },
+              {
+                "key": "T&M",
+                "value": "Medium; staff aug / small scope."
+              },
+              {
+                "key": "FPEPA",
+                "value": "Long deals; inflation or currency."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Procurement phases",
+            "items": [
+              {
+                "title": "Plan",
+                "lines": [
+                  "Make-or-buy decision."
+                ]
+              },
+              {
+                "title": "Conduct",
+                "lines": [
+                  "Issue RFx, select, award."
+                ]
+              },
+              {
+                "title": "Control",
+                "lines": [
+                  "Monitor vendor performance."
+                ]
+              },
+              {
+                "title": "Close",
+                "lines": [
+                  "Verify, pay, close the contract."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Schedule compression",
+            "rows": [
+              {
+                "key": "Crashing",
+                "value": "Add resources to the critical path; costs money."
+              },
+              {
+                "key": "Fast track",
+                "value": "Parallelise sequential work; adds risk."
+              },
+              {
+                "key": "Leveling",
+                "value": "Can extend the schedule."
+              },
+              {
+                "key": "Smoothing",
+                "value": "Uses float; doesn't extend the schedule."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Schedule tip",
+            "lines": [
+              "Critical path = longest path, zero float, drives duration.",
+              "Only critical-path changes shorten the project.",
+              "Never cut planned tests to save time."
+            ]
+          }
         ]
       }
     ],
-    "tags": ["exam strategy", "cheat sheet", "acronyms", "formulas", "agile", "predictive", "hybrid", "earned value", "quick reference", "exam day", "pmbok 8", "principles", "performance domains", "tailoring", "value delivery"],
-    "source": "Compact synthesis of all PM Cram cheat-sheet topics for a final pre-exam review, aligned to PMBOK 8 principles and performance domains"
+    "tags": [
+      "exam strategy",
+      "cheat sheet",
+      "acronyms",
+      "formulas",
+      "agile",
+      "predictive",
+      "hybrid",
+      "earned value",
+      "quick reference",
+      "exam day",
+      "pmbok 8",
+      "principles",
+      "performance domains",
+      "tailoring",
+      "value delivery"
+    ],
+    "source": "Compact synthesis of all PM Cram cheat-sheet topics for a final pre-exam review, aligned to PMBOK 8 principles and performance domains",
+    "topics": [
+      "Exam Strategy",
+      "PMBOK 8",
+      "Formulae"
+    ],
+    "pathMembership": [
+      {
+        "path": "Exam day route",
+        "order": 2
+      }
+    ]
   }
 ]

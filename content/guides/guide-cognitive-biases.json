@@ -47,29 +47,62 @@
             "kind": "table",
             "title": "Estimation and planning",
             "rows": [
-              { "key": "Optimism bias", "value": "Effect: expect things to go better than they realistically will.\nCounter: use the outside view and base ranges on evidence." },
-              { "key": "Planning fallacy", "value": "Effect: underestimate own time and cost despite past overruns.\nCounter: reference-class forecasting from comparable past projects." },
-              { "key": "Overconfidence", "value": "Effect: ranges narrowed until they feel certain.\nCounter: three-point / range estimates keep uncertainty visible." },
-              { "key": "Anchoring", "value": "Effect: over-weight the first number heard (budget, target date).\nCounter: estimate independently before the anchor enters the room." }
+              {
+                "key": "Optimism bias",
+                "value": "Effect: expect things to go better than they realistically will.\nCounter: use the outside view and base ranges on evidence."
+              },
+              {
+                "key": "Planning fallacy",
+                "value": "Effect: underestimate own time and cost despite past overruns.\nCounter: reference-class forecasting from comparable past projects."
+              },
+              {
+                "key": "Overconfidence",
+                "value": "Effect: ranges narrowed until they feel certain.\nCounter: three-point / range estimates keep uncertainty visible."
+              },
+              {
+                "key": "Anchoring",
+                "value": "Effect: over-weight the first number heard (budget, target date).\nCounter: estimate independently before the anchor enters the room."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Judgement and risk",
             "rows": [
-              { "key": "Confirmation bias", "value": "Effect: favour evidence that fits the belief you hold; read green into red signals.\nCounter: ask disconfirming questions - what would prove me wrong?" },
-              { "key": "Sunk-cost fallacy", "value": "Effect: continue a failing effort because of money/time already spent.\nCounter: ignore sunk cost; decide only on future value." },
-              { "key": "Escalation of commitment", "value": "Effect: pour in more to justify what is already gone.\nCounter: set kill criteria in advance; review against them." },
-              { "key": "Availability heuristic", "value": "Effect: over-weight vivid, memorable events in the risk register.\nCounter: ground risk on data and base rates, not memorability." },
-              { "key": "Recency bias", "value": "Effect: treat the last incident as the biggest threat.\nCounter: review the full register, not just recent headlines." }
+              {
+                "key": "Confirmation bias",
+                "value": "Effect: favour evidence that fits the belief you hold; read green into red signals.\nCounter: ask disconfirming questions - what would prove me wrong?"
+              },
+              {
+                "key": "Sunk-cost fallacy",
+                "value": "Effect: continue a failing effort because of money/time already spent.\nCounter: ignore sunk cost; decide only on future value."
+              },
+              {
+                "key": "Escalation of commitment",
+                "value": "Effect: pour in more to justify what is already gone.\nCounter: set kill criteria in advance; review against them."
+              },
+              {
+                "key": "Availability heuristic",
+                "value": "Effect: over-weight vivid, memorable events in the risk register.\nCounter: ground risk on data and base rates, not memorability."
+              },
+              {
+                "key": "Recency bias",
+                "value": "Effect: treat the last incident as the biggest threat.\nCounter: review the full register, not just recent headlines."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Self-assessment",
             "rows": [
-              { "key": "Dunning-Kruger", "value": "Effect: low competence overrates itself and sounds confident.\nCounter: weight input by evidence and track record, not volume." },
-              { "key": "Impostor syndrome", "value": "Effect: high competence underrates itself; capable people stay quiet.\nCounter: draw out hedged expert views; ask for the reasoning." }
+              {
+                "key": "Dunning-Kruger",
+                "value": "Effect: low competence overrates itself and sounds confident.\nCounter: weight input by evidence and track record, not volume."
+              },
+              {
+                "key": "Impostor syndrome",
+                "value": "Effect: high competence underrates itself; capable people stay quiet.\nCounter: draw out hedged expert views; ask for the reasoning."
+              }
             ]
           },
           {
@@ -93,10 +126,34 @@
             "kind": "steps",
             "title": "Counter-moves in order",
             "items": [
-              { "title": "Take the outside view", "lines": ["Ask how long this took last time, not how long it should take.", "Base the estimate on comparable past projects, not the inside story."] },
-              { "title": "Use reference-class forecasting", "lines": ["Anchor on the actual outcomes of a class of similar work.", "Adjust from that baseline, not from a blank page."] },
-              { "title": "Estimate before the anchor lands", "lines": ["Have estimators produce their own figures first.", "Only then compare against the sponsor's proposed number."] },
-              { "title": "Keep uncertainty visible", "lines": ["Use three-point and range estimates, not single numbers.", "A tight range that feels certain is a warning sign, not comfort."] }
+              {
+                "title": "Take the outside view",
+                "lines": [
+                  "Ask how long this took last time, not how long it should take.",
+                  "Base the estimate on comparable past projects, not the inside story."
+                ]
+              },
+              {
+                "title": "Use reference-class forecasting",
+                "lines": [
+                  "Anchor on the actual outcomes of a class of similar work.",
+                  "Adjust from that baseline, not from a blank page."
+                ]
+              },
+              {
+                "title": "Estimate before the anchor lands",
+                "lines": [
+                  "Have estimators produce their own figures first.",
+                  "Only then compare against the sponsor's proposed number."
+                ]
+              },
+              {
+                "title": "Keep uncertainty visible",
+                "lines": [
+                  "Use three-point and range estimates, not single numbers.",
+                  "A tight range that feels certain is a warning sign, not comfort."
+                ]
+              }
             ]
           },
           {
@@ -120,8 +177,20 @@
                 "badge": "M&C",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Dismissing a slipping test pass rate as a blip because the plan says delivery is fine."] },
-                  { "label": "Counter", "lines": ["Ask what would prove me wrong.", "Invite reviewers not invested in the current plan.", "Make someone argue the project is in trouble."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Dismissing a slipping test pass rate as a blip because the plan says delivery is fine."
+                    ]
+                  },
+                  {
+                    "label": "Counter",
+                    "lines": [
+                      "Ask what would prove me wrong.",
+                      "Invite reviewers not invested in the current plan.",
+                      "Make someone argue the project is in trouble."
+                    ]
+                  }
                 ]
               },
               {
@@ -129,8 +198,20 @@
                 "badge": "Risk",
                 "tone": "bad",
                 "groups": [
-                  { "label": "Looks like", "lines": ["Pushing on with an unviable vendor build because 'we have already spent six figures'."] },
-                  { "label": "Counter", "lines": ["Past spend is gone whatever you choose.", "Decide only on cost-to-finish vs expected benefit.", "Set kill criteria before you start."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "Pushing on with an unviable vendor build because 'we have already spent six figures'."
+                    ]
+                  },
+                  {
+                    "label": "Counter",
+                    "lines": [
+                      "Past spend is gone whatever you choose.",
+                      "Decide only on cost-to-finish vs expected benefit.",
+                      "Set kill criteria before you start."
+                    ]
+                  }
                 ]
               },
               {
@@ -138,8 +219,20 @@
                 "badge": "Risk",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Looks like", "lines": ["One dramatic outage dominates planning while a more probable supplier risk is ignored."] },
-                  { "label": "Counter", "lines": ["Rate risks on probability and impact.", "Use data and base rates, not memorability.", "Review the whole register each cycle."] }
+                  {
+                    "label": "Looks like",
+                    "lines": [
+                      "One dramatic outage dominates planning while a more probable supplier risk is ignored."
+                    ]
+                  },
+                  {
+                    "label": "Counter",
+                    "lines": [
+                      "Rate risks on probability and impact.",
+                      "Use data and base rates, not memorability.",
+                      "Review the whole register each cycle."
+                    ]
+                  }
                 ]
               }
             ]
@@ -164,9 +257,18 @@
             "kind": "table",
             "title": "Confidence is not competence",
             "rows": [
-              { "key": "Dunning-Kruger", "value": "Low skill overrates itself; sounds certain." },
-              { "key": "Impostor syndrome", "value": "High skill underrates itself; hedges or stays quiet." },
-              { "key": "PM move", "value": "Draw out the quiet expert; probe the confident claim for evidence." }
+              {
+                "key": "Dunning-Kruger",
+                "value": "Low skill overrates itself; sounds certain."
+              },
+              {
+                "key": "Impostor syndrome",
+                "value": "High skill underrates itself; hedges or stays quiet."
+              },
+              {
+                "key": "PM move",
+                "value": "Draw out the quiet expert; probe the confident claim for evidence."
+              }
             ]
           },
           {
@@ -186,12 +288,48 @@
             "kind": "steps",
             "title": "Defences for high-stakes decisions",
             "items": [
-              { "title": "Premortem", "lines": ["Imagine the project has already failed; work backwards to list why.", "Surfaces risks that optimism would hide."] },
-              { "title": "Structured, independent estimates", "lines": ["Gather views separately before discussion.", "Blocks anchoring and groupthink before they set in."] },
-              { "title": "Devil's advocate", "lines": ["Assign someone to argue against the favoured plan.", "Legitimises dissent - a Be an Accountable Leader behaviour."] },
-              { "title": "Checklists", "lines": ["Encode the questions you always forget.", "Judgement stops relying on memory."] },
-              { "title": "Set kill criteria early", "lines": ["Agree in advance what evidence ends the effort.", "Neutralises sunk cost and escalation."] },
-              { "title": "Slow down when it matters", "lines": ["Reserve deliberate, evidence-based thinking for decisions that count.", "Let fast intuition handle the trivial ones."] }
+              {
+                "title": "Premortem",
+                "lines": [
+                  "Imagine the project has already failed; work backwards to list why.",
+                  "Surfaces risks that optimism would hide."
+                ]
+              },
+              {
+                "title": "Structured, independent estimates",
+                "lines": [
+                  "Gather views separately before discussion.",
+                  "Blocks anchoring and groupthink before they set in."
+                ]
+              },
+              {
+                "title": "Devil's advocate",
+                "lines": [
+                  "Assign someone to argue against the favoured plan.",
+                  "Legitimises dissent - a Be an Accountable Leader behaviour."
+                ]
+              },
+              {
+                "title": "Checklists",
+                "lines": [
+                  "Encode the questions you always forget.",
+                  "Judgement stops relying on memory."
+                ]
+              },
+              {
+                "title": "Set kill criteria early",
+                "lines": [
+                  "Agree in advance what evidence ends the effort.",
+                  "Neutralises sunk cost and escalation."
+                ]
+              },
+              {
+                "title": "Slow down when it matters",
+                "lines": [
+                  "Reserve deliberate, evidence-based thinking for decisions that count.",
+                  "Let fast intuition handle the trivial ones."
+                ]
+              }
             ]
           },
           {
@@ -203,7 +341,24 @@
         ]
       }
     ],
-    "tags": ["cognitive bias", "decision-making", "estimation", "risk", "mindset", "planning fallacy", "anchoring", "sunk cost", "pmbok 8", "monitoring and control", "be an accountable leader", "adopt a holistic view"],
-    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam and aligned to PMBOK 8th Edition principles and performance domains."
+    "tags": [
+      "cognitive bias",
+      "decision-making",
+      "estimation",
+      "risk",
+      "mindset",
+      "planning fallacy",
+      "anchoring",
+      "sunk cost",
+      "pmbok 8",
+      "monitoring and control",
+      "be an accountable leader",
+      "adopt a holistic view"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam and aligned to PMBOK 8th Edition principles and performance domains.",
+    "topics": [
+      "Mindset",
+      "Risk"
+    ]
   }
 ]

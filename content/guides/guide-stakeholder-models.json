@@ -18,7 +18,13 @@
                 "badge": "2 dimensions",
                 "tone": "accent",
                 "groups": [
-                  { "lines": ["Power x interest, a 2x2 quadrant.", "The everyday default.", "Fast and intuitive."] }
+                  {
+                    "lines": [
+                      "Power x interest, a 2x2 quadrant.",
+                      "The everyday default.",
+                      "Fast and intuitive."
+                    ]
+                  }
                 ]
               },
               {
@@ -26,7 +32,13 @@
                 "badge": "3 dimensions",
                 "tone": "good",
                 "groups": [
-                  { "lines": ["Power, legitimacy, urgency.", "Shown as a Venn diagram.", "Sharper read on priority."] }
+                  {
+                    "lines": [
+                      "Power, legitimacy, urgency.",
+                      "Shown as a Venn diagram.",
+                      "Sharper read on priority."
+                    ]
+                  }
                 ]
               },
               {
@@ -34,7 +46,13 @@
                 "badge": "3 dimensions + attitude",
                 "tone": "warn",
                 "groups": [
-                  { "lines": ["Power x interest x attitude.", "A 3D cube of eight characters.", "Most detailed, least tested."] }
+                  {
+                    "lines": [
+                      "Power x interest x attitude.",
+                      "A 3D cube of eight characters.",
+                      "Most detailed, least tested."
+                    ]
+                  }
                 ]
               }
             ]
@@ -63,7 +81,12 @@
                 "badge": "High power, high interest",
                 "tone": "accent",
                 "groups": [
-                  { "lines": ["Your key players.", "Involve them and meet their expectations."] }
+                  {
+                    "lines": [
+                      "Your key players.",
+                      "Involve them and meet their expectations."
+                    ]
+                  }
                 ]
               },
               {
@@ -71,7 +94,12 @@
                 "badge": "High power, low interest",
                 "tone": "warn",
                 "groups": [
-                  { "lines": ["Enough attention that they don't become blockers.", "But don't overload them."] }
+                  {
+                    "lines": [
+                      "Enough attention that they don't become blockers.",
+                      "But don't overload them."
+                    ]
+                  }
                 ]
               },
               {
@@ -79,7 +107,12 @@
                 "badge": "Low power, high interest",
                 "tone": "good",
                 "groups": [
-                  { "lines": ["Engaged supporters and the 'affected'.", "Communicate regularly; useful allies."] }
+                  {
+                    "lines": [
+                      "Engaged supporters and the 'affected'.",
+                      "Communicate regularly; useful allies."
+                    ]
+                  }
                 ]
               },
               {
@@ -87,7 +120,12 @@
                 "badge": "Low power, low interest",
                 "tone": "neutral",
                 "groups": [
-                  { "lines": ["Minimal effort.", "But watch for movement."] }
+                  {
+                    "lines": [
+                      "Minimal effort.",
+                      "But watch for movement."
+                    ]
+                  }
                 ]
               }
             ]
@@ -112,9 +150,18 @@
             "kind": "table",
             "title": "Three attributes",
             "rows": [
-              { "key": "Power", "value": "Can they influence the outcome or withhold resources?" },
-              { "key": "Legitimacy", "value": "Is their involvement proper and authorised (a sponsor, owner, regulator)?" },
-              { "key": "Urgency", "value": "Is their claim time-critical (deadline-driven), or does only the eventual outcome matter regardless of timing?" }
+              {
+                "key": "Power",
+                "value": "Can they influence the outcome or withhold resources?"
+              },
+              {
+                "key": "Legitimacy",
+                "value": "Is their involvement proper and authorised (a sponsor, owner, regulator)?"
+              },
+              {
+                "key": "Urgency",
+                "value": "Is their claim time-critical (deadline-driven), or does only the eventual outcome matter regardless of timing?"
+              }
             ]
           },
           {
@@ -124,25 +171,63 @@
                 "title": "Latent - one attribute",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Dormant (power only)", "lines": ["e.g. a senior manager in another division."] },
-                  { "label": "Discretionary (legitimacy only)", "lines": ["e.g. an NGO, or a team member giving feedback."] },
-                  { "label": "Demanding (urgency only)", "lines": ["e.g. the CEO's assistant chasing information."] }
+                  {
+                    "label": "Dormant (power only)",
+                    "lines": [
+                      "e.g. a senior manager in another division."
+                    ]
+                  },
+                  {
+                    "label": "Discretionary (legitimacy only)",
+                    "lines": [
+                      "e.g. an NGO, or a team member giving feedback."
+                    ]
+                  },
+                  {
+                    "label": "Demanding (urgency only)",
+                    "lines": [
+                      "e.g. the CEO's assistant chasing information."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Expectant - two attributes",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Dominant (power + legitimacy)", "lines": ["e.g. your boss, or a government clearance office."] },
-                  { "label": "Dependent (legitimacy + urgency)", "lines": ["No power, so they need a champion or coalition.", "e.g. local residents affected by construction."] },
-                  { "label": "Dangerous (power + urgency)", "lines": ["No legitimacy - coercive, may bypass process.", "e.g. a group threatening disruptive action."] }
+                  {
+                    "label": "Dominant (power + legitimacy)",
+                    "lines": [
+                      "e.g. your boss, or a government clearance office."
+                    ]
+                  },
+                  {
+                    "label": "Dependent (legitimacy + urgency)",
+                    "lines": [
+                      "No power, so they need a champion or coalition.",
+                      "e.g. local residents affected by construction."
+                    ]
+                  },
+                  {
+                    "label": "Dangerous (power + urgency)",
+                    "lines": [
+                      "No legitimacy - coercive, may bypass process.",
+                      "e.g. a group threatening disruptive action."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Definitive - all three",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Definitive", "lines": ["The centre of the diagram, your highest priority.", "e.g. your executive sponsor or the key customer."] }
+                  {
+                    "label": "Definitive",
+                    "lines": [
+                      "The centre of the diagram, your highest priority.",
+                      "e.g. your executive sponsor or the key customer."
+                    ]
+                  }
                 ]
               }
             ]
@@ -151,11 +236,26 @@
             "kind": "table",
             "title": "Engagement by salience",
             "rows": [
-              { "key": "Manage closely", "value": "Definitive and Dependent." },
-              { "key": "Keep satisfied", "value": "Dangerous - keep satisfied to contain the threat." },
-              { "key": "Keep informed", "value": "Dominant and Demanding." },
-              { "key": "Monitor", "value": "Dormant and Discretionary." },
-              { "key": "Non-stakeholder", "value": "Outside all three circles - no power, legitimacy or urgency, so no active engagement." }
+              {
+                "key": "Manage closely",
+                "value": "Definitive and Dependent."
+              },
+              {
+                "key": "Keep satisfied",
+                "value": "Dangerous - keep satisfied to contain the threat."
+              },
+              {
+                "key": "Keep informed",
+                "value": "Dominant and Demanding."
+              },
+              {
+                "key": "Monitor",
+                "value": "Dormant and Discretionary."
+              },
+              {
+                "key": "Non-stakeholder",
+                "value": "Outside all three circles - no power, legitimacy or urgency, so no active engagement."
+              }
             ]
           },
           {
@@ -181,20 +281,68 @@
                 "title": "High power",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Saviour", "lines": ["Active, backer.", "Your best ally; engage fully."] },
-                  { "label": "Saboteur", "lines": ["Active, blocker.", "The biggest threat; manage and contain."] },
-                  { "label": "Sleeping giant", "lines": ["Passive, backer.", "Wake them up - a powerful supporter not yet engaged."] },
-                  { "label": "Time bomb", "lines": ["Passive, blocker.", "Dormant opposition that could detonate; watch closely."] }
+                  {
+                    "label": "Saviour",
+                    "lines": [
+                      "Active, backer.",
+                      "Your best ally; engage fully."
+                    ]
+                  },
+                  {
+                    "label": "Saboteur",
+                    "lines": [
+                      "Active, blocker.",
+                      "The biggest threat; manage and contain."
+                    ]
+                  },
+                  {
+                    "label": "Sleeping giant",
+                    "lines": [
+                      "Passive, backer.",
+                      "Wake them up - a powerful supporter not yet engaged."
+                    ]
+                  },
+                  {
+                    "label": "Time bomb",
+                    "lines": [
+                      "Passive, blocker.",
+                      "Dormant opposition that could detonate; watch closely."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Low power",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "Friend", "lines": ["Active, backer.", "A confidant and sounding board."] },
-                  { "label": "Trip wire", "lines": ["Active, blocker.", "Minor but vocal opposition; can trip you up."] },
-                  { "label": "Acquaintance", "lines": ["Passive, backer.", "Keep gently informed."] },
-                  { "label": "Irritant", "lines": ["Passive, blocker.", "Low impact; don't over-invest."] }
+                  {
+                    "label": "Friend",
+                    "lines": [
+                      "Active, backer.",
+                      "A confidant and sounding board."
+                    ]
+                  },
+                  {
+                    "label": "Trip wire",
+                    "lines": [
+                      "Active, blocker.",
+                      "Minor but vocal opposition; can trip you up."
+                    ]
+                  },
+                  {
+                    "label": "Acquaintance",
+                    "lines": [
+                      "Passive, backer.",
+                      "Keep gently informed."
+                    ]
+                  },
+                  {
+                    "label": "Irritant",
+                    "lines": [
+                      "Passive, blocker.",
+                      "Low impact; don't over-invest."
+                    ]
+                  }
                 ]
               }
             ]
@@ -216,18 +364,37 @@
             "kind": "table",
             "title": "Five engagement levels",
             "rows": [
-              { "key": "Unaware", "value": "Does not know about the project or its impact." },
-              { "key": "Resistant", "value": "Aware but opposed to the work or its outcomes." },
-              { "key": "Neutral", "value": "Aware but neither supportive nor resistant." },
-              { "key": "Supportive", "value": "Aware and supportive of the work and outcomes." },
-              { "key": "Leading", "value": "Aware and actively engaged in ensuring success." }
+              {
+                "key": "Unaware",
+                "value": "Does not know about the project or its impact."
+              },
+              {
+                "key": "Resistant",
+                "value": "Aware but opposed to the work or its outcomes."
+              },
+              {
+                "key": "Neutral",
+                "value": "Aware but neither supportive nor resistant."
+              },
+              {
+                "key": "Supportive",
+                "value": "Aware and supportive of the work and outcomes."
+              },
+              {
+                "key": "Leading",
+                "value": "Aware and actively engaged in ensuring success."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Close the gap",
             "tone": "good",
-            "lines": ["Mark C = current and D = desired for each stakeholder.", "Where C and D differ, plan engagement actions to move them.", "The matrix drives the plan; classification models feed it."]
+            "lines": [
+              "Mark C = current and D = desired for each stakeholder.",
+              "Where C and D differ, plan engagement actions to move them.",
+              "The matrix drives the plan; classification models feed it."
+            ]
           }
         ]
       },
@@ -240,21 +407,55 @@
             "kind": "table",
             "title": "When to use which",
             "rows": [
-              { "key": "Power/Interest grid", "value": "Fast, intuitive; good for most projects and for communicating with leadership." },
-              { "key": "Salience model", "value": "When timing and legitimacy matter - regulators, crisis response, or stakeholders whose urgency swings." },
-              { "key": "Stakeholder Cube", "value": "When attitude is decisive and you need to separate supporters from opponents who otherwise look identical." }
+              {
+                "key": "Power/Interest grid",
+                "value": "Fast, intuitive; good for most projects and for communicating with leadership."
+              },
+              {
+                "key": "Salience model",
+                "value": "When timing and legitimacy matter - regulators, crisis response, or stakeholders whose urgency swings."
+              },
+              {
+                "key": "Stakeholder Cube",
+                "value": "When attitude is decisive and you need to separate supporters from opponents who otherwise look identical."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam clue",
             "tone": "accent",
-            "lines": ["'Power, legitimacy, and urgency' = salience model.", "'Power and interest' = the grid.", "Adding 'attitude' or backer/blocker = the cube.", "Current vs desired engagement = the engagement-assessment matrix."]
+            "lines": [
+              "'Power, legitimacy, and urgency' = salience model.",
+              "'Power and interest' = the grid.",
+              "Adding 'attitude' or backer/blocker = the cube.",
+              "Current vs desired engagement = the engagement-assessment matrix."
+            ]
           }
         ]
       }
     ],
-    "tags": ["stakeholders", "people", "engagement", "diagrams", "exam", "pmbok 8", "performance domains", "principles", "value delivery", "tailoring"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to the PMBOK 8 Stakeholders performance domain and principle. Salience model attributes per PMBOK Guide; stakeholder cube per Murray-Webster & Simon."
+    "tags": [
+      "stakeholders",
+      "people",
+      "engagement",
+      "diagrams",
+      "exam",
+      "pmbok 8",
+      "performance domains",
+      "principles",
+      "value delivery",
+      "tailoring"
+    ],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to the PMBOK 8 Stakeholders performance domain and principle. Salience model attributes per PMBOK Guide; stakeholder cube per Murray-Webster & Simon.",
+    "topics": [
+      "Charts"
+    ],
+    "pathMembership": [
+      {
+        "path": "People, leadership & decisions",
+        "order": 4
+      }
+    ]
   }
 ]

@@ -36,9 +36,31 @@
                 "badge": "Own it",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Means", "lines": ["Take ownership for decisions and actions.", "Accept the consequences.", "Honor commitments.", "Comply with laws, regulations, policies, and professional standards."] },
-                  { "label": "On projects", "lines": ["Accurate reporting and proper escalation.", "Careful use of authority.", "Address problems instead of ignoring them.", "Report unethical or illegal conduct through the proper channel."] },
-                  { "label": "Right answer", "lines": ["PM owns the issue, uses the approved process, and addresses the risk directly.", "Document facts, assess impact, follow process, escalate - do not cover up, blame, or bypass governance."] }
+                  {
+                    "label": "Means",
+                    "lines": [
+                      "Take ownership for decisions and actions.",
+                      "Accept the consequences.",
+                      "Honor commitments.",
+                      "Comply with laws, regulations, policies, and professional standards."
+                    ]
+                  },
+                  {
+                    "label": "On projects",
+                    "lines": [
+                      "Accurate reporting and proper escalation.",
+                      "Careful use of authority.",
+                      "Address problems instead of ignoring them.",
+                      "Report unethical or illegal conduct through the proper channel."
+                    ]
+                  },
+                  {
+                    "label": "Right answer",
+                    "lines": [
+                      "PM owns the issue, uses the approved process, and addresses the risk directly.",
+                      "Document facts, assess impact, follow process, escalate - do not cover up, blame, or bypass governance."
+                    ]
+                  }
                 ]
               },
               {
@@ -46,9 +68,31 @@
                 "badge": "Dignity",
                 "tone": "good",
                 "groups": [
-                  { "label": "Means", "lines": ["Treat others with dignity.", "Listen to different viewpoints.", "Engage professionally even during conflict.", "Cultural awareness and confidentiality - not passive politeness."] },
-                  { "label": "On projects", "lines": ["Adapt communication across cultures without stereotyping.", "Seek understanding before judging behavior.", "Protect sensitive business, personal, and procurement information.", "Disclose only to those authorized with a legitimate need to know."] },
-                  { "label": "Right answer", "lines": ["Responds to a cultural misunderstanding with curiosity, not blame.", "Unethical if it embarrasses someone publicly, ignores cultural context, or discloses confidential information without authority."] }
+                  {
+                    "label": "Means",
+                    "lines": [
+                      "Treat others with dignity.",
+                      "Listen to different viewpoints.",
+                      "Engage professionally even during conflict.",
+                      "Cultural awareness and confidentiality - not passive politeness."
+                    ]
+                  },
+                  {
+                    "label": "On projects",
+                    "lines": [
+                      "Adapt communication across cultures without stereotyping.",
+                      "Seek understanding before judging behavior.",
+                      "Protect sensitive business, personal, and procurement information.",
+                      "Disclose only to those authorized with a legitimate need to know."
+                    ]
+                  },
+                  {
+                    "label": "Right answer",
+                    "lines": [
+                      "Responds to a cultural misunderstanding with curiosity, not blame.",
+                      "Unethical if it embarrasses someone publicly, ignores cultural context, or discloses confidential information without authority."
+                    ]
+                  }
                 ]
               },
               {
@@ -56,9 +100,29 @@
                 "badge": "Impartial",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Means", "lines": ["Decide impartially and objectively.", "Avoid favoritism, discrimination, and self-serving behavior.", "Apply consistent standards based on facts."] },
-                  { "label": "On projects", "lines": ["Disclose and manage conflicts of interest.", "Use approved criteria and governance under pressure.", "Applies to procurement, staffing, feedback, and issue resolution."] },
-                  { "label": "Right answer", "lines": ["Discloses the conflict and returns to objective process.", "Not the option that protects a sponsor, friend, or vendor by bypassing process or granting unfair advantage."] }
+                  {
+                    "label": "Means",
+                    "lines": [
+                      "Decide impartially and objectively.",
+                      "Avoid favoritism, discrimination, and self-serving behavior.",
+                      "Apply consistent standards based on facts."
+                    ]
+                  },
+                  {
+                    "label": "On projects",
+                    "lines": [
+                      "Disclose and manage conflicts of interest.",
+                      "Use approved criteria and governance under pressure.",
+                      "Applies to procurement, staffing, feedback, and issue resolution."
+                    ]
+                  },
+                  {
+                    "label": "Right answer",
+                    "lines": [
+                      "Discloses the conflict and returns to objective process.",
+                      "Not the option that protects a sponsor, friend, or vendor by bypassing process or granting unfair advantage."
+                    ]
+                  }
                 ]
               },
               {
@@ -66,9 +130,29 @@
                 "badge": "Truthful",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Means", "lines": ["Understand the truth and act truthfully.", "Provide accurate information in a timely way.", "No deception, half-truths, or misleading omissions."] },
-                  { "label": "On projects", "lines": ["Report status honestly even when the news is unwelcome.", "Honest about estimates, expertise, defects, and causes of variance.", "Say what is known, what is unknown, and what will be done next."] },
-                  { "label": "Right answer", "lines": ["Combines truth with professionalism: communicate, document, plan the response.", "Eliminate any option that improves the appearance of the project without improving the facts."] }
+                  {
+                    "label": "Means",
+                    "lines": [
+                      "Understand the truth and act truthfully.",
+                      "Provide accurate information in a timely way.",
+                      "No deception, half-truths, or misleading omissions."
+                    ]
+                  },
+                  {
+                    "label": "On projects",
+                    "lines": [
+                      "Report status honestly even when the news is unwelcome.",
+                      "Honest about estimates, expertise, defects, and causes of variance.",
+                      "Say what is known, what is unknown, and what will be done next."
+                    ]
+                  },
+                  {
+                    "label": "Right answer",
+                    "lines": [
+                      "Combines truth with professionalism: communicate, document, plan the response.",
+                      "Eliminate any option that improves the appearance of the project without improving the facts."
+                    ]
+                  }
                 ]
               }
             ]
@@ -141,15 +225,42 @@
             "kind": "table",
             "title": "If you see... do this",
             "rows": [
-              { "key": "Stakeholder asks you to soften a bad status report", "value": "Keep the facts accurate. Adjust tone, not substance. Report status, impact, and next steps." },
-              { "key": "You have a financial, personal, or relational interest in a decision", "value": "Disclose the conflict through the proper channel; step out of the decision if judgment may be compromised." },
-              { "key": "A relative's or friend's company could win the contract or job", "value": "Declare the relationship; use fair, objective criteria; do not proceed informally." },
-              { "key": "Offered a gift that could sway your judgment", "value": "Decline; do not let it influence the decision; follow policy on disclosure." },
-              { "key": "Powerful stakeholder demands confidential or restricted data", "value": "Protect it. Share only with those authorized and with a legitimate need to know." },
-              { "key": "Cultural misunderstanding on the team", "value": "Respond with curiosity and professionalism; seek understanding, do not assign blame." },
-              { "key": "A faster option requires breaking a law, rule, or safety standard", "value": "Stop the improper action, document facts, consult the proper authority, follow compliance channels." },
-              { "key": "Credible evidence of fraud, harassment, bribery, or falsified reporting", "value": "Document objective facts, preserve confidentiality, escalate through the designated channel." },
-              { "key": "Team does not yet know the answer", "value": "State what is known, what is unknown, and the plan to resolve it. Do not fabricate certainty." }
+              {
+                "key": "Stakeholder asks you to soften a bad status report",
+                "value": "Keep the facts accurate. Adjust tone, not substance. Report status, impact, and next steps."
+              },
+              {
+                "key": "You have a financial, personal, or relational interest in a decision",
+                "value": "Disclose the conflict through the proper channel; step out of the decision if judgment may be compromised."
+              },
+              {
+                "key": "A relative's or friend's company could win the contract or job",
+                "value": "Declare the relationship; use fair, objective criteria; do not proceed informally."
+              },
+              {
+                "key": "Offered a gift that could sway your judgment",
+                "value": "Decline; do not let it influence the decision; follow policy on disclosure."
+              },
+              {
+                "key": "Powerful stakeholder demands confidential or restricted data",
+                "value": "Protect it. Share only with those authorized and with a legitimate need to know."
+              },
+              {
+                "key": "Cultural misunderstanding on the team",
+                "value": "Respond with curiosity and professionalism; seek understanding, do not assign blame."
+              },
+              {
+                "key": "A faster option requires breaking a law, rule, or safety standard",
+                "value": "Stop the improper action, document facts, consult the proper authority, follow compliance channels."
+              },
+              {
+                "key": "Credible evidence of fraud, harassment, bribery, or falsified reporting",
+                "value": "Document objective facts, preserve confidentiality, escalate through the designated channel."
+              },
+              {
+                "key": "Team does not yet know the answer",
+                "value": "State what is known, what is unknown, and the plan to resolve it. Do not fabricate certainty."
+              }
             ]
           }
         ]
@@ -162,13 +273,53 @@
           {
             "kind": "steps",
             "items": [
-              { "title": "Gather the facts", "lines": ["Document objective facts and the impact on scope, schedule, cost, quality, safety, compliance, or trust.", "Do not investigate beyond your authority."] },
-              { "title": "Check law and policy first", "lines": ["Is anything illegal or against mandatory policy?", "Compliance and safety outrank convenience and pressure."] },
-              { "title": "Disclose any conflict", "lines": ["If your objectivity could be questioned, declare it before acting.", "Step out of the decision if appropriate."] },
-              { "title": "Protect confidentiality", "lines": ["Share information only with authorized parties who have a legitimate need to know."] },
-              { "title": "Communicate honestly", "lines": ["State facts, impacts, and next steps.", "Professional tone, unaltered substance."] },
-              { "title": "Escalate through the proper channel", "lines": ["Sponsor, PMO, compliance, HR, legal, ethics hotline, or internal audit as policy directs.", "Not gossip, retaliation, or private side deals."] },
-              { "title": "Act now only for genuine emergencies", "lines": ["Immediate safety or legal emergencies justify urgent intervention ahead of the normal channel."] }
+              {
+                "title": "Gather the facts",
+                "lines": [
+                  "Document objective facts and the impact on scope, schedule, cost, quality, safety, compliance, or trust.",
+                  "Do not investigate beyond your authority."
+                ]
+              },
+              {
+                "title": "Check law and policy first",
+                "lines": [
+                  "Is anything illegal or against mandatory policy?",
+                  "Compliance and safety outrank convenience and pressure."
+                ]
+              },
+              {
+                "title": "Disclose any conflict",
+                "lines": [
+                  "If your objectivity could be questioned, declare it before acting.",
+                  "Step out of the decision if appropriate."
+                ]
+              },
+              {
+                "title": "Protect confidentiality",
+                "lines": [
+                  "Share information only with authorized parties who have a legitimate need to know."
+                ]
+              },
+              {
+                "title": "Communicate honestly",
+                "lines": [
+                  "State facts, impacts, and next steps.",
+                  "Professional tone, unaltered substance."
+                ]
+              },
+              {
+                "title": "Escalate through the proper channel",
+                "lines": [
+                  "Sponsor, PMO, compliance, HR, legal, ethics hotline, or internal audit as policy directs.",
+                  "Not gossip, retaliation, or private side deals."
+                ]
+              },
+              {
+                "title": "Act now only for genuine emergencies",
+                "lines": [
+                  "Immediate safety or legal emergencies justify urgent intervention ahead of the normal channel."
+                ]
+              }
             ]
           },
           {
@@ -192,12 +343,30 @@
             "kind": "terms",
             "title": "Terms the exam leans on",
             "items": [
-              { "code": "Be an Accountable Leader", "text": "PMBOK 8 principle (merges stewardship and leadership): diligent, respectful, caring custodian who acts with integrity. Ethics lives here." },
-              { "code": "Conflict of interest", "text": "Personal interest could interfere, or appear to interfere, with professional judgment. Disclose and manage it." },
-              { "code": "Confidentiality", "text": "Disclose sensitive information only to authorized parties with a legitimate need to know." },
-              { "code": "Intellectual property", "text": "Respect copyrights, patents, licenses, trade secrets, and usage restrictions; do not misrepresent ownership." },
-              { "code": "Proper channel", "text": "Sponsor, PMO, compliance, HR, legal, ethics hotline, or internal audit - the defined route for reporting concerns." },
-              { "code": "Transparency", "text": "Truthful, timely communication of facts and impacts. Not the same as sharing everything with everyone." }
+              {
+                "code": "Be an Accountable Leader",
+                "text": "PMBOK 8 principle (merges stewardship and leadership): diligent, respectful, caring custodian who acts with integrity. Ethics lives here."
+              },
+              {
+                "code": "Conflict of interest",
+                "text": "Personal interest could interfere, or appear to interfere, with professional judgment. Disclose and manage it."
+              },
+              {
+                "code": "Confidentiality",
+                "text": "Disclose sensitive information only to authorized parties with a legitimate need to know."
+              },
+              {
+                "code": "Intellectual property",
+                "text": "Respect copyrights, patents, licenses, trade secrets, and usage restrictions; do not misrepresent ownership."
+              },
+              {
+                "code": "Proper channel",
+                "text": "Sponsor, PMO, compliance, HR, legal, ethics hotline, or internal audit - the defined route for reporting concerns."
+              },
+              {
+                "code": "Transparency",
+                "text": "Truthful, timely communication of facts and impacts. Not the same as sharing everything with everyone."
+              }
             ]
           },
           {
@@ -218,6 +387,16 @@
       "ethics",
       "code of ethics"
     ],
-    "source": "Drawn from the PMP Examination Content Outline, the PMI Code of Ethics and Professional Conduct, and the PMBOK Guide (Be an Accountable Leader principle), aligned to PMBOK 8."
+    "source": "Drawn from the PMP Examination Content Outline, the PMI Code of Ethics and Professional Conduct, and the PMBOK Guide (Be an Accountable Leader principle), aligned to PMBOK 8.",
+    "topics": [
+      "Mindset",
+      "Governance"
+    ],
+    "pathMembership": [
+      {
+        "path": "People, leadership & decisions",
+        "order": 5
+      }
+    ]
   }
 ]

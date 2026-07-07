@@ -35,15 +35,33 @@
             "kind": "steps",
             "title": "The two passes",
             "items": [
-              { "title": "Forward pass (left to right)", "lines": ["Compute Early Start (ES) and Early Finish (EF).", "The soonest each activity can happen."] },
-              { "title": "Backward pass (right to left)", "lines": ["Compute Late Start (LS) and Late Finish (LF).", "The latest each can happen without delaying the project."] }
+              {
+                "title": "Forward pass (left to right)",
+                "lines": [
+                  "Compute Early Start (ES) and Early Finish (EF).",
+                  "The soonest each activity can happen."
+                ]
+              },
+              {
+                "title": "Backward pass (right to left)",
+                "lines": [
+                  "Compute Late Start (LS) and Late Finish (LF).",
+                  "The latest each can happen without delaying the project."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Float and the critical path",
             "items": [
-              { "formula": "Total Float = LS - ES", "lines": ["Also equals LF - EF.", "How much an activity can slip without moving the end date."] }
+              {
+                "formula": "Total Float = LS - ES",
+                "lines": [
+                  "Also equals LF - EF.",
+                  "How much an activity can slip without moving the end date."
+                ]
+              }
             ]
           },
           {
@@ -69,8 +87,30 @@
           {
             "kind": "cards",
             "items": [
-              { "title": "Project buffer", "tone": "good", "groups": [ { "lines": ["Sits at the very end of the chain.", "Protects the delivery date from variation along the critical chain."] } ] },
-              { "title": "Feeding buffers", "tone": "accent", "groups": [ { "lines": ["Sit where a non-critical (feeding) path joins the critical chain.", "Stop a late feeder from delaying the chain."] } ] }
+              {
+                "title": "Project buffer",
+                "tone": "good",
+                "groups": [
+                  {
+                    "lines": [
+                      "Sits at the very end of the chain.",
+                      "Protects the delivery date from variation along the critical chain."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Feeding buffers",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "lines": [
+                      "Sit where a non-critical (feeding) path joins the critical chain.",
+                      "Stop a late feeder from delaying the chain."
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
@@ -104,9 +144,18 @@
             "kind": "terms",
             "title": "AOA parts",
             "items": [
-              { "code": "Event", "text": "A numbered circle - a point in time, not work." },
-              { "code": "Activity", "text": "An arrow between two events - where the real work sits." },
-              { "code": "Dummy", "text": "A dashed, zero-duration arrow used purely to keep the logic correct." }
+              {
+                "code": "Event",
+                "text": "A numbered circle - a point in time, not work."
+              },
+              {
+                "code": "Activity",
+                "text": "An arrow between two events - where the real work sits."
+              },
+              {
+                "code": "Dummy",
+                "text": "A dashed, zero-duration arrow used purely to keep the logic correct."
+              }
             ]
           },
           {
@@ -129,10 +178,22 @@
             "kind": "table",
             "title": "Four relationship types",
             "rows": [
-              { "key": "Finish-to-Start (FS)", "value": "The default. B starts after A finishes." },
-              { "key": "Start-to-Start (SS)", "value": "B starts after A starts." },
-              { "key": "Finish-to-Finish (FF)", "value": "B finishes after A finishes." },
-              { "key": "Start-to-Finish (SF)", "value": "Rare. B finishes after A starts." }
+              {
+                "key": "Finish-to-Start (FS)",
+                "value": "The default. B starts after A finishes."
+              },
+              {
+                "key": "Start-to-Start (SS)",
+                "value": "B starts after A starts."
+              },
+              {
+                "key": "Finish-to-Finish (FF)",
+                "value": "B finishes after A finishes."
+              },
+              {
+                "key": "Start-to-Finish (SF)",
+                "value": "Rare. B finishes after A starts."
+              }
             ]
           },
           {
@@ -155,17 +216,37 @@
             "kind": "terms",
             "title": "The three estimates",
             "items": [
-              { "code": "O", "text": "Optimistic - the best case." },
-              { "code": "M", "text": "Most likely - weighted heavily." },
-              { "code": "P", "text": "Pessimistic - the worst case." }
+              {
+                "code": "O",
+                "text": "Optimistic - the best case."
+              },
+              {
+                "code": "M",
+                "text": "Most likely - weighted heavily."
+              },
+              {
+                "code": "P",
+                "text": "Pessimistic - the worst case."
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "PERT formulae",
             "items": [
-              { "formula": "E = (O + 4M + P) / 6", "lines": ["Expected duration.", "The 4x weight on Most Likely makes it a weighted (beta) average."] },
-              { "formula": "Std Dev = (P - O) / 6", "lines": ["The spread - a measure of risk in the estimate."] }
+              {
+                "formula": "E = (O + 4M + P) / 6",
+                "lines": [
+                  "Expected duration.",
+                  "The 4x weight on Most Likely makes it a weighted (beta) average."
+                ]
+              },
+              {
+                "formula": "Std Dev = (P - O) / 6",
+                "lines": [
+                  "The spread - a measure of risk in the estimate."
+                ]
+              }
             ]
           },
           {
@@ -224,10 +305,22 @@
             "kind": "table",
             "title": "Compression and resource techniques",
             "rows": [
-              { "key": "Crashing", "value": "Add resources to the critical path; costs money." },
-              { "key": "Fast track", "value": "Parallelise sequential work; adds risk." },
-              { "key": "Leveling", "value": "Balance resource demand; can extend the schedule." },
-              { "key": "Smoothing", "value": "Uses float; doesn't extend the schedule." }
+              {
+                "key": "Crashing",
+                "value": "Add resources to the critical path; costs money."
+              },
+              {
+                "key": "Fast track",
+                "value": "Parallelise sequential work; adds risk."
+              },
+              {
+                "key": "Leveling",
+                "value": "Balance resource demand; can extend the schedule."
+              },
+              {
+                "key": "Smoothing",
+                "value": "Uses float; doesn't extend the schedule."
+              }
             ]
           },
           {
@@ -243,7 +336,29 @@
         ]
       }
     ],
-    "tags": ["schedule", "network", "diagrams", "exam", "pmbok 8", "critical path", "float", "scope", "domains", "tailoring"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains."
+    "tags": [
+      "schedule",
+      "network",
+      "diagrams",
+      "exam",
+      "pmbok 8",
+      "critical path",
+      "float",
+      "scope",
+      "domains",
+      "tailoring"
+    ],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains.",
+    "topics": [
+      "Charts",
+      "Predictive",
+      "Formulae"
+    ],
+    "pathMembership": [
+      {
+        "path": "Numbers, diagrams & analysis",
+        "order": 3
+      }
+    ]
   }
 ]

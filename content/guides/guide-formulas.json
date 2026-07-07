@@ -46,10 +46,22 @@
             "kind": "terms",
             "title": "The three base measures",
             "items": [
-              { "code": "PV", "text": "Planned Value - the budgeted cost of the work that should be done by now." },
-              { "code": "EV", "text": "Earned Value - the budgeted cost of the work actually done. EV = percent complete x BAC." },
-              { "code": "AC", "text": "Actual Cost - what has actually been spent to do that work." },
-              { "code": "BAC", "text": "Budget at Completion - the total approved budget for the work." }
+              {
+                "code": "PV",
+                "text": "Planned Value - the budgeted cost of the work that should be done by now."
+              },
+              {
+                "code": "EV",
+                "text": "Earned Value - the budgeted cost of the work actually done. EV = percent complete x BAC."
+              },
+              {
+                "code": "AC",
+                "text": "Actual Cost - what has actually been spent to do that work."
+              },
+              {
+                "code": "BAC",
+                "text": "Budget at Completion - the total approved budget for the work."
+              }
             ]
           },
           {
@@ -57,10 +69,34 @@
             "title": "Variances and indices",
             "note": "Watch signs and the 1.0 line",
             "items": [
-              { "formula": "CV = EV - AC", "lines": ["Cost variance.", "Negative = over budget."] },
-              { "formula": "SV = EV - PV", "lines": ["Schedule variance.", "Negative = behind schedule."] },
-              { "formula": "CPI = EV / AC", "lines": ["Cost efficiency; value per dollar spent.", "Below 1.0 = over budget."] },
-              { "formula": "SPI = EV / PV", "lines": ["Schedule efficiency.", "Below 1.0 = behind schedule."] }
+              {
+                "formula": "CV = EV - AC",
+                "lines": [
+                  "Cost variance.",
+                  "Negative = over budget."
+                ]
+              },
+              {
+                "formula": "SV = EV - PV",
+                "lines": [
+                  "Schedule variance.",
+                  "Negative = behind schedule."
+                ]
+              },
+              {
+                "formula": "CPI = EV / AC",
+                "lines": [
+                  "Cost efficiency; value per dollar spent.",
+                  "Below 1.0 = over budget."
+                ]
+              },
+              {
+                "formula": "SPI = EV / PV",
+                "lines": [
+                  "Schedule efficiency.",
+                  "Below 1.0 = behind schedule."
+                ]
+              }
             ]
           },
           {
@@ -83,19 +119,61 @@
             "kind": "formulas",
             "title": "Estimate at Completion (EAC) - choose by assumption",
             "items": [
-              { "formula": "EAC = BAC / CPI", "lines": ["Use when current variances are TYPICAL and will continue.", "The default EAC on most questions."] },
-              { "formula": "EAC = AC + (BAC - EV)", "lines": ["Use when the overrun was a ONE-OFF (atypical).", "Remaining work will run at the planned rate."] },
-              { "formula": "EAC = AC + (BAC - EV) / (CPI x SPI)", "lines": ["Use when BOTH cost and schedule performance will persist.", "Weights the remaining work by both indices."] }
+              {
+                "formula": "EAC = BAC / CPI",
+                "lines": [
+                  "Use when current variances are TYPICAL and will continue.",
+                  "The default EAC on most questions."
+                ]
+              },
+              {
+                "formula": "EAC = AC + (BAC - EV)",
+                "lines": [
+                  "Use when the overrun was a ONE-OFF (atypical).",
+                  "Remaining work will run at the planned rate."
+                ]
+              },
+              {
+                "formula": "EAC = AC + (BAC - EV) / (CPI x SPI)",
+                "lines": [
+                  "Use when BOTH cost and schedule performance will persist.",
+                  "Weights the remaining work by both indices."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "The rest of the forecast",
             "items": [
-              { "formula": "ETC = EAC - AC", "lines": ["Estimate to Complete.", "What is left to spend from today."] },
-              { "formula": "VAC = BAC - EAC", "lines": ["Variance at Completion.", "Negative = projected overrun at the end."] },
-              { "formula": "TCPI = (BAC - EV) / (BAC - AC)", "lines": ["Efficiency still needed to hit the original BAC.", "Use BAC on the bottom when the target has not changed."] },
-              { "formula": "TCPI = (BAC - EV) / (EAC - AC)", "lines": ["Efficiency still needed to hit a new EAC target.", "Use EAC on the bottom once the budget is revised."] }
+              {
+                "formula": "ETC = EAC - AC",
+                "lines": [
+                  "Estimate to Complete.",
+                  "What is left to spend from today."
+                ]
+              },
+              {
+                "formula": "VAC = BAC - EAC",
+                "lines": [
+                  "Variance at Completion.",
+                  "Negative = projected overrun at the end."
+                ]
+              },
+              {
+                "formula": "TCPI = (BAC - EV) / (BAC - AC)",
+                "lines": [
+                  "Efficiency still needed to hit the original BAC.",
+                  "Use BAC on the bottom when the target has not changed."
+                ]
+              },
+              {
+                "formula": "TCPI = (BAC - EV) / (EAC - AC)",
+                "lines": [
+                  "Efficiency still needed to hit a new EAC target.",
+                  "Use EAC on the bottom once the budget is revised."
+                ]
+              }
             ]
           },
           {
@@ -118,10 +196,34 @@
             "kind": "formulas",
             "title": "Three-point estimate",
             "items": [
-              { "formula": "E = (O + M + P) / 3", "lines": ["Triangular (simple average).", "No extra weight on the most likely value."] },
-              { "formula": "E = (O + 4M + P) / 6", "lines": ["Beta / PERT; the classic PMP formula.", "The 4x weight on Most Likely makes it a weighted average."] },
-              { "formula": "SD = (P - O) / 6", "lines": ["Standard deviation of the estimate.", "Optimistic and pessimistic set the range."] },
-              { "formula": "Variance = SD x SD", "lines": ["Variance is the standard deviation squared.", "Grows fast as the O-to-P spread widens."] }
+              {
+                "formula": "E = (O + M + P) / 3",
+                "lines": [
+                  "Triangular (simple average).",
+                  "No extra weight on the most likely value."
+                ]
+              },
+              {
+                "formula": "E = (O + 4M + P) / 6",
+                "lines": [
+                  "Beta / PERT; the classic PMP formula.",
+                  "The 4x weight on Most Likely makes it a weighted average."
+                ]
+              },
+              {
+                "formula": "SD = (P - O) / 6",
+                "lines": [
+                  "Standard deviation of the estimate.",
+                  "Optimistic and pessimistic set the range."
+                ]
+              },
+              {
+                "formula": "Variance = SD x SD",
+                "lines": [
+                  "Variance is the standard deviation squared.",
+                  "Grows fast as the O-to-P spread widens."
+                ]
+              }
             ]
           },
           {
@@ -144,7 +246,13 @@
             "kind": "formulas",
             "title": "Expected monetary value",
             "items": [
-              { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value, in money.", "Threats are negative, opportunities positive."] }
+              {
+                "formula": "EMV = Probability x Impact",
+                "lines": [
+                  "Expected monetary value, in money.",
+                  "Threats are negative, opportunities positive."
+                ]
+              }
             ]
           },
           {
@@ -160,8 +268,20 @@
             "kind": "formulas",
             "title": "Selecting between projects",
             "items": [
-              { "formula": "BCR = Benefits / Costs", "lines": ["Above 1.0 = benefits exceed cost.", "Below 1.0 = costs exceed benefits."] },
-              { "formula": "NPV, IRR, Payback", "lines": ["Higher NPV is better; higher IRR is better.", "Shorter payback is better."] }
+              {
+                "formula": "BCR = Benefits / Costs",
+                "lines": [
+                  "Above 1.0 = benefits exceed cost.",
+                  "Below 1.0 = costs exceed benefits."
+                ]
+              },
+              {
+                "formula": "NPV, IRR, Payback",
+                "lines": [
+                  "Higher NPV is better; higher IRR is better.",
+                  "Shorter payback is better."
+                ]
+              }
             ]
           }
         ]
@@ -175,14 +295,26 @@
             "kind": "formulas",
             "title": "Schedule float",
             "items": [
-              { "formula": "Total Float = LS - ES", "lines": ["Also equals LF - EF.", "Critical-path activities have zero total float."] }
+              {
+                "formula": "Total Float = LS - ES",
+                "lines": [
+                  "Also equals LF - EF.",
+                  "Critical-path activities have zero total float."
+                ]
+              }
             ]
           },
           {
             "kind": "formulas",
             "title": "Communication channels",
             "items": [
-              { "formula": "Channels = n(n - 1) / 2", "lines": ["n = number of people.", "Paths grow fast; adding one person adds n new channels."] }
+              {
+                "formula": "Channels = n(n - 1) / 2",
+                "lines": [
+                  "n = number of people.",
+                  "Paths grow fast; adding one person adds n new channels."
+                ]
+              }
             ]
           },
           {
@@ -205,7 +337,13 @@
             "kind": "formulas",
             "title": "PTA",
             "items": [
-              { "formula": "PTA = ((Ceiling Price - Target Price) / Buyer share) + Target Cost", "lines": ["Point of total assumption.", "The cost above which the seller bears all further overrun."] }
+              {
+                "formula": "PTA = ((Ceiling Price - Target Price) / Buyer share) + Target Cost",
+                "lines": [
+                  "Point of total assumption.",
+                  "The cost above which the seller bears all further overrun."
+                ]
+              }
             ]
           },
           {
@@ -220,7 +358,37 @@
         ]
       }
     ],
-    "tags": ["formulas", "earned value", "evm", "forecasting", "pert", "emv", "procurement", "schedule", "exam", "pmbok 8"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 performance domains."
+    "tags": [
+      "formulas",
+      "earned value",
+      "evm",
+      "forecasting",
+      "pert",
+      "emv",
+      "procurement",
+      "schedule",
+      "exam",
+      "pmbok 8"
+    ],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 performance domains.",
+    "topics": [
+      "Charts",
+      "Formulae"
+    ],
+    "pathMembership": [
+      {
+        "path": "Exam day route",
+        "order": 5
+      },
+      {
+        "path": "Numbers, diagrams & analysis",
+        "order": 1,
+        "purpose": "Use this for calculation and chart questions.",
+        "tags": [
+          "Formulae",
+          "Charts"
+        ]
+      }
+    ]
   }
 ]

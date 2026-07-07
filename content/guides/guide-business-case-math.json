@@ -19,8 +19,21 @@
                 "badge": "Comparative",
                 "tone": "good",
                 "groups": [
-                  { "label": "What it is", "lines": ["Ranks candidate projects using numbers.", "Compare and pick the best figure."] },
-                  { "label": "Includes", "lines": ["NPV, IRR, BCR, ROI.", "Payback period.", "EMV and weighted scoring models."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Ranks candidate projects using numbers.",
+                      "Compare and pick the best figure."
+                    ]
+                  },
+                  {
+                    "label": "Includes",
+                    "lines": [
+                      "NPV, IRR, BCR, ROI.",
+                      "Payback period.",
+                      "EMV and weighted scoring models."
+                    ]
+                  }
                 ]
               },
               {
@@ -28,8 +41,20 @@
                 "badge": "Mathematical",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What it is", "lines": ["Mathematical programming to allocate scarce resources across many options."] },
-                  { "label": "Includes", "lines": ["Linear programming.", "Integer programming.", "Rarely calculated on the exam - just recognise the name."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Mathematical programming to allocate scarce resources across many options."
+                    ]
+                  },
+                  {
+                    "label": "Includes",
+                    "lines": [
+                      "Linear programming.",
+                      "Integer programming.",
+                      "Rarely calculated on the exam - just recognise the name."
+                    ]
+                  }
                 ]
               }
             ]
@@ -38,7 +63,11 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "neutral",
-            "lines": ["Benefit-measurement = comparative (rank the numbers).", "Constrained-optimisation = mathematical programming.", "Most exam questions are benefit-measurement: read the figure, apply the decision rule."]
+            "lines": [
+              "Benefit-measurement = comparative (rank the numbers).",
+              "Constrained-optimisation = mathematical programming.",
+              "Most exam questions are benefit-measurement: read the figure, apply the decision rule."
+            ]
           }
         ]
       },
@@ -52,8 +81,21 @@
             "title": "Time value of money",
             "note": "Discount future cash before comparing",
             "items": [
-              { "formula": "PV = FV / (1 + r)^n", "lines": ["Present value of a future amount.", "r = discount rate per period, n = number of periods.", "Discounting (dividing) pulls future cash back to today."] },
-              { "formula": "FV = PV x (1 + r)^n", "lines": ["Future value of a present amount.", "Compounding (multiplying) is the reverse of discounting."] }
+              {
+                "formula": "PV = FV / (1 + r)^n",
+                "lines": [
+                  "Present value of a future amount.",
+                  "r = discount rate per period, n = number of periods.",
+                  "Discounting (dividing) pulls future cash back to today."
+                ]
+              },
+              {
+                "formula": "FV = PV x (1 + r)^n",
+                "lines": [
+                  "Future value of a present amount.",
+                  "Compounding (multiplying) is the reverse of discounting."
+                ]
+              }
             ]
           },
           {
@@ -61,19 +103,61 @@
             "title": "Selection measures",
             "note": "Know the direction each points",
             "items": [
-              { "formula": "NPV = sum of discounted inflows - discounted outflows", "lines": ["Net present value in money terms.", "Higher NPV is better; NPV greater than 0 is viable.", "Already accounts for the cost of capital - most trusted measure."] },
-              { "formula": "IRR = rate where NPV = 0", "lines": ["Return expressed as a percentage.", "Higher IRR is better; clears the bar when it exceeds the required rate of return."] },
-              { "formula": "BCR = PV of benefits / PV of costs", "lines": ["Benefit-cost ratio.", "Greater than 1 = benefits exceed costs (good).", "A COST ratio (costs over benefits) inverts this - below 1 is good."] },
-              { "formula": "ROI = (Net benefit / Cost) x 100", "lines": ["Return on investment as a percentage.", "Higher ROI is better."] },
-              { "formula": "Payback = time to recover the original investment", "lines": ["Shorter payback is better.", "Ignores time value of money and cash after recovery."] },
-              { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value of an uncertain outcome.", "Sum across outcomes for a single expected figure."] }
+              {
+                "formula": "NPV = sum of discounted inflows - discounted outflows",
+                "lines": [
+                  "Net present value in money terms.",
+                  "Higher NPV is better; NPV greater than 0 is viable.",
+                  "Already accounts for the cost of capital - most trusted measure."
+                ]
+              },
+              {
+                "formula": "IRR = rate where NPV = 0",
+                "lines": [
+                  "Return expressed as a percentage.",
+                  "Higher IRR is better; clears the bar when it exceeds the required rate of return."
+                ]
+              },
+              {
+                "formula": "BCR = PV of benefits / PV of costs",
+                "lines": [
+                  "Benefit-cost ratio.",
+                  "Greater than 1 = benefits exceed costs (good).",
+                  "A COST ratio (costs over benefits) inverts this - below 1 is good."
+                ]
+              },
+              {
+                "formula": "ROI = (Net benefit / Cost) x 100",
+                "lines": [
+                  "Return on investment as a percentage.",
+                  "Higher ROI is better."
+                ]
+              },
+              {
+                "formula": "Payback = time to recover the original investment",
+                "lines": [
+                  "Shorter payback is better.",
+                  "Ignores time value of money and cash after recovery."
+                ]
+              },
+              {
+                "formula": "EMV = Probability x Impact",
+                "lines": [
+                  "Expected monetary value of an uncertain outcome.",
+                  "Sum across outcomes for a single expected figure."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Formula tip",
             "tone": "warn",
-            "lines": ["Money answer -> NPV. Percentage answer -> IRR or ROI.", "Ratio answer -> BCR. Time answer -> payback.", "Uncertainty weighted by probability -> EMV."]
+            "lines": [
+              "Money answer -> NPV. Percentage answer -> IRR or ROI.",
+              "Ratio answer -> BCR. Time answer -> payback.",
+              "Uncertainty weighted by probability -> EMV."
+            ]
           }
         ]
       },
@@ -86,20 +170,46 @@
             "kind": "table",
             "title": "Metric -> pick which project",
             "rows": [
-              { "key": "NPV", "value": "Higher is better. Pick the highest NPV. Greater than 0 = viable; negative = reject." },
-              { "key": "IRR", "value": "Higher is better. Pick the highest IRR. Must exceed the required rate of return." },
-              { "key": "BCR", "value": "Higher is better. Greater than 1 = viable; equal to 1 = break-even; below 1 = reject." },
-              { "key": "ROI", "value": "Higher is better. Pick the highest ROI." },
-              { "key": "Payback", "value": "Shorter is better. Pick the fastest payback." },
-              { "key": "EMV", "value": "For opportunities, higher (more positive) is better; for threats, lower expected cost is better." },
-              { "key": "Cost ratio", "value": "If the ratio is costs over benefits, the rule flips: LOWER is better." }
+              {
+                "key": "NPV",
+                "value": "Higher is better. Pick the highest NPV. Greater than 0 = viable; negative = reject."
+              },
+              {
+                "key": "IRR",
+                "value": "Higher is better. Pick the highest IRR. Must exceed the required rate of return."
+              },
+              {
+                "key": "BCR",
+                "value": "Higher is better. Greater than 1 = viable; equal to 1 = break-even; below 1 = reject."
+              },
+              {
+                "key": "ROI",
+                "value": "Higher is better. Pick the highest ROI."
+              },
+              {
+                "key": "Payback",
+                "value": "Shorter is better. Pick the fastest payback."
+              },
+              {
+                "key": "EMV",
+                "value": "For opportunities, higher (more positive) is better; for threats, lower expected cost is better."
+              },
+              {
+                "key": "Cost ratio",
+                "value": "If the ratio is costs over benefits, the rule flips: LOWER is better."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam traps",
             "tone": "bad",
-            "lines": ["Ignore the raw project duration - a longer project can still win on NPV.", "IRR and NPV can occasionally rank projects differently; NPV is the tie-breaker.", "A COST-benefit ratio inverts the 'greater than 1' logic - read the wording.", "Payback is a liquidity screen only, never the deciding figure over NPV or IRR."]
+            "lines": [
+              "Ignore the raw project duration - a longer project can still win on NPV.",
+              "IRR and NPV can occasionally rank projects differently; NPV is the tie-breaker.",
+              "A COST-benefit ratio inverts the 'greater than 1' logic - read the wording.",
+              "Payback is a liquidity screen only, never the deciding figure over NPV or IRR."
+            ]
           }
         ]
       },
@@ -115,32 +225,84 @@
                 "title": "Net Present Value (NPV)",
                 "tone": "good",
                 "groups": [
-                  { "label": "What it is", "lines": ["Discounts all future inflows and outflows to today and sums them.", "Captures the time value of money."] },
-                  { "label": "Rules", "lines": ["Pick the HIGHER NPV.", "Greater than 0 = viable.", "Negative = destroys value, reject."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Discounts all future inflows and outflows to today and sums them.",
+                      "Captures the time value of money."
+                    ]
+                  },
+                  {
+                    "label": "Rules",
+                    "lines": [
+                      "Pick the HIGHER NPV.",
+                      "Greater than 0 = viable.",
+                      "Negative = destroys value, reject."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Internal Rate of Return (IRR)",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What it is", "lines": ["The discount rate at which NPV equals exactly 0.", "Return as a percentage, not a money amount."] },
-                  { "label": "Rules", "lines": ["Higher IRR is better.", "Clears the bar when it exceeds the required rate of return.", "A short efficient project can beat a long one with a bigger absolute return."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "The discount rate at which NPV equals exactly 0.",
+                      "Return as a percentage, not a money amount."
+                    ]
+                  },
+                  {
+                    "label": "Rules",
+                    "lines": [
+                      "Higher IRR is better.",
+                      "Clears the bar when it exceeds the required rate of return.",
+                      "A short efficient project can beat a long one with a bigger absolute return."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Benefit-Cost Ratio (BCR)",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "What it is", "lines": ["PV of benefits divided by PV of costs."] },
-                  { "label": "Rules", "lines": ["Greater than 1 = benefits exceed costs, viable.", "Equal to 1 = break-even.", "Less than 1 = reject.", "A cost-over-benefit ratio flips the logic."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "PV of benefits divided by PV of costs."
+                    ]
+                  },
+                  {
+                    "label": "Rules",
+                    "lines": [
+                      "Greater than 1 = benefits exceed costs, viable.",
+                      "Equal to 1 = break-even.",
+                      "Less than 1 = reject.",
+                      "A cost-over-benefit ratio flips the logic."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Payback period",
                 "tone": "warn",
                 "groups": [
-                  { "label": "What it is", "lines": ["Time to recover the original investment from net cash inflows.", "Shorter = lower exposure, cash back sooner."] },
-                  { "label": "Weaknesses", "lines": ["Ignores the time value of money.", "Ignores cash flows after recovery.", "Use as a quick liquidity screen, not the deciding figure."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Time to recover the original investment from net cash inflows.",
+                      "Shorter = lower exposure, cash back sooner."
+                    ]
+                  },
+                  {
+                    "label": "Weaknesses",
+                    "lines": [
+                      "Ignores the time value of money.",
+                      "Ignores cash flows after recovery.",
+                      "Use as a quick liquidity screen, not the deciding figure."
+                    ]
+                  }
                 ]
               }
             ]
@@ -168,10 +330,22 @@
             "kind": "table",
             "title": "Weigh more than price alone",
             "rows": [
-              { "key": "Cost", "value": "Direct and indirect cost over the full life cycle." },
-              { "key": "Capability", "value": "Internal capability and capacity." },
-              { "key": "IP", "value": "Intellectual property and who owns the result." },
-              { "key": "Strategic fit", "value": "Risk, control, and long-term strategic fit." }
+              {
+                "key": "Cost",
+                "value": "Direct and indirect cost over the full life cycle."
+              },
+              {
+                "key": "Capability",
+                "value": "Internal capability and capacity."
+              },
+              {
+                "key": "IP",
+                "value": "Intellectual property and who owns the result."
+              },
+              {
+                "key": "Strategic fit",
+                "value": "Risk, control, and long-term strategic fit."
+              }
             ]
           }
         ]
@@ -185,17 +359,42 @@
             "kind": "steps",
             "title": "Weighted scoring model",
             "items": [
-              { "title": "List the criteria", "lines": ["Strategic fit, cost, risk, benefit and so on."] },
-              { "title": "Score each project per criterion", "lines": ["Rate every candidate against each criterion."] },
-              { "title": "Apply a weight", "lines": ["Weight each criterion by importance."] },
-              { "title": "Sum and rank", "lines": ["Highest weighted total wins.", "Useful when value is not purely financial."] }
+              {
+                "title": "List the criteria",
+                "lines": [
+                  "Strategic fit, cost, risk, benefit and so on."
+                ]
+              },
+              {
+                "title": "Score each project per criterion",
+                "lines": [
+                  "Rate every candidate against each criterion."
+                ]
+              },
+              {
+                "title": "Apply a weight",
+                "lines": [
+                  "Weight each criterion by importance."
+                ]
+              },
+              {
+                "title": "Sum and rank",
+                "lines": [
+                  "Highest weighted total wins.",
+                  "Useful when value is not purely financial."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "EMV reminder",
             "tone": "neutral",
-            "lines": ["Expected Monetary Value weights each outcome's value by its probability to give a single expected figure.", "EMV = Probability x Impact; sum across outcomes.", "See the PMP Formulas guide for the full worked calculation."]
+            "lines": [
+              "Expected Monetary Value weights each outcome's value by its probability to give a single expected figure.",
+              "EMV = Probability x Impact; sum across outcomes.",
+              "See the PMP Formulas guide for the full worked calculation."
+            ]
           }
         ]
       },
@@ -208,7 +407,16 @@
             "kind": "tip",
             "title": "Memorise the directions",
             "tone": "good",
-            "lines": ["Higher NPV wins; NPV greater than 0 is viable.", "Higher IRR is better; it is the rate where NPV equals 0.", "BCR greater than 1 is good; a cost-benefit ratio flips it.", "Higher ROI is better.", "Shorter payback is better, but it ignores time value and later cash flows.", "Ignore sunk costs; decide make-or-buy on future cost, capability, IP and risk.", "PV = FV / (1 + r)^n - discount before you compare.", "Sound selection serves PMBOK 8 Focus on Value in the Finance domain."]
+            "lines": [
+              "Higher NPV wins; NPV greater than 0 is viable.",
+              "Higher IRR is better; it is the rate where NPV equals 0.",
+              "BCR greater than 1 is good; a cost-benefit ratio flips it.",
+              "Higher ROI is better.",
+              "Shorter payback is better, but it ignores time value and later cash flows.",
+              "Ignore sunk costs; decide make-or-buy on future cost, capability, IP and risk.",
+              "PV = FV / (1 + r)^n - discount before you compare.",
+              "Sound selection serves PMBOK 8 Focus on Value in the Finance domain."
+            ]
           }
         ]
       }
@@ -228,6 +436,16 @@
       "focus on value",
       "finance domain"
     ],
-    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles for the current ECO-based PMP exam."
+    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles for the current ECO-based PMP exam.",
+    "topics": [
+      "Process",
+      "Formulae"
+    ],
+    "pathMembership": [
+      {
+        "path": "Numbers, diagrams & analysis",
+        "order": 2
+      }
+    ]
   }
 ]

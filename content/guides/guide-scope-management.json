@@ -27,8 +27,22 @@
                 "badge": "Baseline",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Signals", "lines": ["Stable, well-understood scope.", "Scope statement, WBS, WBS dictionary.", "Change control board."] },
-                  { "label": "Handle it by", "lines": ["Lock the scope baseline.", "Route any change through integrated change control.", "Validate and control against the baseline."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Stable, well-understood scope.",
+                      "Scope statement, WBS, WBS dictionary.",
+                      "Change control board."
+                    ]
+                  },
+                  {
+                    "label": "Handle it by",
+                    "lines": [
+                      "Lock the scope baseline.",
+                      "Route any change through integrated change control.",
+                      "Validate and control against the baseline."
+                    ]
+                  }
                 ]
               },
               {
@@ -36,8 +50,22 @@
                 "badge": "Backlog",
                 "tone": "good",
                 "groups": [
-                  { "label": "Signals", "lines": ["Changing or emerging requirements.", "Product backlog, user stories.", "Product Owner, sprint reviews."] },
-                  { "label": "Handle it by", "lines": ["Keep a prioritised, refined backlog.", "Let the Product Owner own priority and value.", "Accept scope change as normal, not as a threat."] }
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Changing or emerging requirements.",
+                      "Product backlog, user stories.",
+                      "Product Owner, sprint reviews."
+                    ]
+                  },
+                  {
+                    "label": "Handle it by",
+                    "lines": [
+                      "Keep a prioritised, refined backlog.",
+                      "Let the Product Owner own priority and value.",
+                      "Accept scope change as normal, not as a threat."
+                    ]
+                  }
                 ]
               }
             ]
@@ -53,8 +81,14 @@
             "kind": "table",
             "title": "Product vs project scope",
             "rows": [
-              { "key": "Product scope", "value": "Features and functions of the deliverable.\nMeasured against requirements." },
-              { "key": "Project scope", "value": "Work required to deliver it, plus management activities.\nMeasured against the scope baseline." }
+              {
+                "key": "Product scope",
+                "value": "Features and functions of the deliverable.\nMeasured against requirements."
+              },
+              {
+                "key": "Project scope",
+                "value": "Work required to deliver it, plus management activities.\nMeasured against the scope baseline."
+              }
             ]
           },
           {
@@ -72,18 +106,55 @@
           {
             "kind": "steps",
             "items": [
-              { "title": "Collect Requirements", "lines": ["Turn stakeholder needs into documented, agreed, testable statements.", "Elicit via interviews, workshops and prototyping.", "Agile: capture as backlog items / user stories."] },
-              { "title": "Define Scope", "lines": ["Write the project scope statement.", "State what is in scope and, crucially, what is out."] },
-              { "title": "Create WBS", "lines": ["Decompose deliverables into manageable work packages.", "Scope baseline = scope statement + WBS + WBS dictionary."] },
-              { "title": "Validate Scope", "lines": ["Customer or sponsor formally accepts completed deliverables.", "Output: accepted deliverables.", "Customer-facing."] },
-              { "title": "Control Scope", "lines": ["Monitor scope status; manage changes to the baseline.", "Internal discipline that prevents creep.", "Runs in parallel with Validate Scope."] }
+              {
+                "title": "Collect Requirements",
+                "lines": [
+                  "Turn stakeholder needs into documented, agreed, testable statements.",
+                  "Elicit via interviews, workshops and prototyping.",
+                  "Agile: capture as backlog items / user stories."
+                ]
+              },
+              {
+                "title": "Define Scope",
+                "lines": [
+                  "Write the project scope statement.",
+                  "State what is in scope and, crucially, what is out."
+                ]
+              },
+              {
+                "title": "Create WBS",
+                "lines": [
+                  "Decompose deliverables into manageable work packages.",
+                  "Scope baseline = scope statement + WBS + WBS dictionary."
+                ]
+              },
+              {
+                "title": "Validate Scope",
+                "lines": [
+                  "Customer or sponsor formally accepts completed deliverables.",
+                  "Output: accepted deliverables.",
+                  "Customer-facing."
+                ]
+              },
+              {
+                "title": "Control Scope",
+                "lines": [
+                  "Monitor scope status; manage changes to the baseline.",
+                  "Internal discipline that prevents creep.",
+                  "Runs in parallel with Validate Scope."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Validate vs Control",
             "tone": "neutral",
-            "lines": ["Validate = is it accepted? (customer sign-off)", "Control = is scope still on baseline? (managing change)", "They run together but answer different questions."]
+            "lines": [
+              "Validate = is it accepted? (customer sign-off)",
+              "Control = is scope still on baseline? (managing change)",
+              "They run together but answer different questions."
+            ]
           }
         ]
       },
@@ -96,10 +167,22 @@
             "kind": "terms",
             "title": "Key artefacts",
             "items": [
-              { "code": "WBS", "text": "Work Breakdown Structure: deliverable-oriented decomposition of the project into work packages." },
-              { "code": "WBS dictionary", "text": "Detail behind each WBS element: scope, deliverables, acceptance criteria." },
-              { "code": "RTM", "text": "Requirements Traceability Matrix: links each requirement to its origin, deliverable, test and acceptance criterion." },
-              { "code": "Scope baseline", "text": "Approved scope statement + WBS + WBS dictionary, changeable only by change control." }
+              {
+                "code": "WBS",
+                "text": "Work Breakdown Structure: deliverable-oriented decomposition of the project into work packages."
+              },
+              {
+                "code": "WBS dictionary",
+                "text": "Detail behind each WBS element: scope, deliverables, acceptance criteria."
+              },
+              {
+                "code": "RTM",
+                "text": "Requirements Traceability Matrix: links each requirement to its origin, deliverable, test and acceptance criterion."
+              },
+              {
+                "code": "Scope baseline",
+                "text": "Approved scope statement + WBS + WBS dictionary, changeable only by change control."
+              }
             ]
           },
           {
@@ -122,8 +205,19 @@
                 "badge": "Stakeholder-driven",
                 "tone": "bad",
                 "groups": [
-                  { "label": "What it is", "lines": ["Scope growing in an uncontrolled way.", "Changes slip in without analysis or approval."] },
-                  { "label": "Pattern", "lines": ["The steady accretion of just one more small thing."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Scope growing in an uncontrolled way.",
+                      "Changes slip in without analysis or approval."
+                    ]
+                  },
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "The steady accretion of just one more small thing."
+                    ]
+                  }
                 ]
               },
               {
@@ -131,8 +225,19 @@
                 "badge": "Team-driven",
                 "tone": "bad",
                 "groups": [
-                  { "label": "What it is", "lines": ["The delivery team adds extras the customer never requested."] },
-                  { "label": "Pattern", "lines": ["Showing off or using up slack.", "Still consumes budget and adds risk."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "The delivery team adds extras the customer never requested."
+                    ]
+                  },
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Showing off or using up slack.",
+                      "Still consumes budget and adds risk."
+                    ]
+                  }
                 ]
               }
             ]
@@ -141,7 +246,10 @@
             "kind": "tip",
             "title": "Same fix for both",
             "tone": "warn",
-            "lines": ["Creep is stakeholder-driven, gold plating is team-driven.", "Both are wrong; both go through change control."]
+            "lines": [
+              "Creep is stakeholder-driven, gold plating is team-driven.",
+              "Both are wrong; both go through change control."
+            ]
           }
         ]
       },
@@ -154,15 +262,28 @@
             "kind": "tip",
             "title": "Baseline change cue",
             "tone": "bad",
-            "lines": ["Scope baseline needs changing -> raise a change request.", "Do not edit the baseline directly.", "Assess and authorise before work begins."]
+            "lines": [
+              "Scope baseline needs changing -> raise a change request.",
+              "Do not edit the baseline directly.",
+              "Assess and authorise before work begins."
+            ]
           },
           {
             "kind": "table",
             "title": "Prioritising requirements",
             "rows": [
-              { "key": "MoSCoW", "value": "Must have / Should have / Could have / Won't have this time." },
-              { "key": "Use", "value": "Rank requirements when scope must flex against time or budget." },
-              { "key": "Agile detail", "value": "Backlog ordering and refinement - see the Agile and Hybrid guide." }
+              {
+                "key": "MoSCoW",
+                "value": "Must have / Should have / Could have / Won't have this time."
+              },
+              {
+                "key": "Use",
+                "value": "Rank requirements when scope must flex against time or budget."
+              },
+              {
+                "key": "Agile detail",
+                "value": "Backlog ordering and refinement - see the Agile and Hybrid guide."
+              }
             ]
           },
           {
@@ -173,7 +294,31 @@
         ]
       }
     ],
-    "tags": ["scope", "requirements", "scope baseline", "validate scope", "control scope", "scope creep", "gold plating", "WBS", "RTM", "traceability", "backlog", "pmbok 8", "scope domain"],
-    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
+    "tags": [
+      "scope",
+      "requirements",
+      "scope baseline",
+      "validate scope",
+      "control scope",
+      "scope creep",
+      "gold plating",
+      "WBS",
+      "RTM",
+      "traceability",
+      "backlog",
+      "pmbok 8",
+      "scope domain"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam.",
+    "topics": [
+      "Process",
+      "Predictive"
+    ],
+    "pathMembership": [
+      {
+        "path": "PMBOK 8 foundation",
+        "order": 2
+      }
+    ]
   }
 ]

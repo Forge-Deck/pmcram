@@ -31,9 +31,18 @@
             "kind": "table",
             "title": "Focus and goal by level",
             "rows": [
-              { "key": "Project", "value": "Focus: a defined output or deliverable.\nGoal: complete the effort and hand over the result." },
-              { "key": "Program", "value": "Focus: interdependencies between related components.\nGoal: coordinate them for shared benefit not available separately." },
-              { "key": "Portfolio", "value": "Focus: strategic alignment and prioritisation.\nGoal: select and fund the right work to meet strategy." }
+              {
+                "key": "Project",
+                "value": "Focus: a defined output or deliverable.\nGoal: complete the effort and hand over the result."
+              },
+              {
+                "key": "Program",
+                "value": "Focus: interdependencies between related components.\nGoal: coordinate them for shared benefit not available separately."
+              },
+              {
+                "key": "Portfolio",
+                "value": "Focus: strategic alignment and prioritisation.\nGoal: select and fund the right work to meet strategy."
+              }
             ]
           },
           {
@@ -57,15 +66,26 @@
             "kind": "terms",
             "title": "The value chain",
             "items": [
-              { "code": "Output", "text": "The thing produced - a new system, product or capability." },
-              { "code": "Outcome", "text": "The change the output enables - faster processing or a new behaviour." },
-              { "code": "Benefit", "text": "The measurable value the organisation gains from that change - reduced cost or increased revenue." }
+              {
+                "code": "Output",
+                "text": "The thing produced - a new system, product or capability."
+              },
+              {
+                "code": "Outcome",
+                "text": "The change the output enables - faster processing or a new behaviour."
+              },
+              {
+                "code": "Benefit",
+                "text": "The measurable value the organisation gains from that change - reduced cost or increased revenue."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
-            "lines": ["Output enables an outcome; the outcome produces the benefit."]
+            "lines": [
+              "Output enables an outcome; the outcome produces the benefit."
+            ]
           }
         ]
       },
@@ -78,18 +98,47 @@
             "kind": "steps",
             "title": "Benefits realization steps",
             "items": [
-              { "title": "Identify", "lines": ["Name the expected benefits.", "Link them to strategic goals."] },
-              { "title": "Plan", "lines": ["Capture in a benefits management plan.", "Name an owner, metrics, baseline and target, and a timeline."] },
-              { "title": "Execute / deliver", "lines": ["Deliver the outputs that enable the benefits."] },
-              { "title": "Transition", "lines": ["Hand the result into operations so the change can take hold."] },
-              { "title": "Sustain / measure", "lines": ["Track benefits over time against the agreed metrics."] }
+              {
+                "title": "Identify",
+                "lines": [
+                  "Name the expected benefits.",
+                  "Link them to strategic goals."
+                ]
+              },
+              {
+                "title": "Plan",
+                "lines": [
+                  "Capture in a benefits management plan.",
+                  "Name an owner, metrics, baseline and target, and a timeline."
+                ]
+              },
+              {
+                "title": "Execute / deliver",
+                "lines": [
+                  "Deliver the outputs that enable the benefits."
+                ]
+              },
+              {
+                "title": "Transition",
+                "lines": [
+                  "Hand the result into operations so the change can take hold."
+                ]
+              },
+              {
+                "title": "Sustain / measure",
+                "lines": [
+                  "Track benefits over time against the agreed metrics."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "warn",
-            "lines": ["If no owner tracks benefits after closure, they are likely never realised."]
+            "lines": [
+              "If no owner tracks benefits after closure, they are likely never realised."
+            ]
           }
         ]
       },
@@ -106,8 +155,22 @@
                 "badge": "Measurable",
                 "tone": "good",
                 "groups": [
-                  { "label": "Nature", "lines": ["Financial or directly measurable.", "Easy to quantify and put in a business case."] },
-                  { "label": "Examples", "lines": ["Cost savings.", "Additional revenue.", "Faster cycle time.", "Reduced defects."] }
+                  {
+                    "label": "Nature",
+                    "lines": [
+                      "Financial or directly measurable.",
+                      "Easy to quantify and put in a business case."
+                    ]
+                  },
+                  {
+                    "label": "Examples",
+                    "lines": [
+                      "Cost savings.",
+                      "Additional revenue.",
+                      "Faster cycle time.",
+                      "Reduced defects."
+                    ]
+                  }
                 ]
               },
               {
@@ -115,8 +178,22 @@
                 "badge": "Proxy metrics",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Nature", "lines": ["Real but harder to measure.", "Still needs agreed proxy metrics."] },
-                  { "label": "Examples", "lines": ["Improved reputation and brand.", "Higher staff morale.", "Better customer goodwill.", "New organisational capability."] }
+                  {
+                    "label": "Nature",
+                    "lines": [
+                      "Real but harder to measure.",
+                      "Still needs agreed proxy metrics."
+                    ]
+                  },
+                  {
+                    "label": "Examples",
+                    "lines": [
+                      "Improved reputation and brand.",
+                      "Higher staff morale.",
+                      "Better customer goodwill.",
+                      "New organisational capability."
+                    ]
+                  }
                 ]
               }
             ]
@@ -124,7 +201,9 @@
           {
             "kind": "tip",
             "title": "Exam cue",
-            "lines": ["Intangible does not mean unmeasurable; agree proxy metrics up front."]
+            "lines": [
+              "Intangible does not mean unmeasurable; agree proxy metrics up front."
+            ]
           }
         ]
       },
@@ -145,7 +224,21 @@
         ]
       }
     ],
-    "tags": ["program", "portfolio", "benefits realization", "value", "strategy", "outcomes", "pmbok 8", "adopt a holistic view", "focus on value"],
-    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam, aligned to PMBOK 8 principles."
+    "tags": [
+      "program",
+      "portfolio",
+      "benefits realization",
+      "value",
+      "strategy",
+      "outcomes",
+      "pmbok 8",
+      "adopt a holistic view",
+      "focus on value"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam, aligned to PMBOK 8 principles.",
+    "topics": [
+      "Process",
+      "Governance"
+    ]
   }
 ]

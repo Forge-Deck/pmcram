@@ -32,11 +32,41 @@
             "kind": "steps",
             "title": "Forming -> Storming -> Norming -> Performing -> Adjourning",
             "items": [
-              { "title": "Forming", "lines": ["Polite, uncertain, dependent on the leader for direction.", "PM directs: set goals, roles and ground rules."] },
-              { "title": "Storming", "lines": ["Friction surfaces as members assert opinions; conflict over approach is common.", "PM coaches: surface issues, build trust, keep things moving."] },
-              { "title": "Norming", "lines": ["Norms and working agreements settle; cooperation and cohesion grow.", "PM facilitates: support collaboration, step back from control."] },
-              { "title": "Performing", "lines": ["High-trust, self-organising, focused on results with minimal oversight.", "PM delegates: empower the team, remove impediments."] },
-              { "title": "Adjourning (mourning)", "lines": ["Work completes and the team disbands.", "Recognise contributions and capture lessons learned."] }
+              {
+                "title": "Forming",
+                "lines": [
+                  "Polite, uncertain, dependent on the leader for direction.",
+                  "PM directs: set goals, roles and ground rules."
+                ]
+              },
+              {
+                "title": "Storming",
+                "lines": [
+                  "Friction surfaces as members assert opinions; conflict over approach is common.",
+                  "PM coaches: surface issues, build trust, keep things moving."
+                ]
+              },
+              {
+                "title": "Norming",
+                "lines": [
+                  "Norms and working agreements settle; cooperation and cohesion grow.",
+                  "PM facilitates: support collaboration, step back from control."
+                ]
+              },
+              {
+                "title": "Performing",
+                "lines": [
+                  "High-trust, self-organising, focused on results with minimal oversight.",
+                  "PM delegates: empower the team, remove impediments."
+                ]
+              },
+              {
+                "title": "Adjourning (mourning)",
+                "lines": [
+                  "Work completes and the team disbands.",
+                  "Recognise contributions and capture lessons learned."
+                ]
+              }
             ]
           },
           {
@@ -60,11 +90,26 @@
             "kind": "table",
             "title": "Five modes (best first)",
             "rows": [
-              { "key": "Collaborate / Problem-solve (confront)", "value": "Work the problem together for a win-win that incorporates multiple viewpoints. PMI's preferred mode and the best lasting outcome." },
-              { "key": "Compromise / Reconcile", "value": "Give-and-take so each side gets partial satisfaction; quick but often lose-lose where no one is fully happy." },
-              { "key": "Smooth / Accommodate", "value": "Emphasise areas of agreement and yield your position to keep harmony; only a temporary fix." },
-              { "key": "Force / Direct", "value": "Push your own view at others' expense (win-lose); fast but breeds resentment, so reserve for emergencies or safety." },
-              { "key": "Withdraw / Avoid", "value": "Retreat from or postpone the issue; not a true resolution." }
+              {
+                "key": "Collaborate / Problem-solve (confront)",
+                "value": "Work the problem together for a win-win that incorporates multiple viewpoints. PMI's preferred mode and the best lasting outcome."
+              },
+              {
+                "key": "Compromise / Reconcile",
+                "value": "Give-and-take so each side gets partial satisfaction; quick but often lose-lose where no one is fully happy."
+              },
+              {
+                "key": "Smooth / Accommodate",
+                "value": "Emphasise areas of agreement and yield your position to keep harmony; only a temporary fix."
+              },
+              {
+                "key": "Force / Direct",
+                "value": "Push your own view at others' expense (win-lose); fast but breeds resentment, so reserve for emergencies or safety."
+              },
+              {
+                "key": "Withdraw / Avoid",
+                "value": "Retreat from or postpone the issue; not a true resolution."
+              }
             ]
           },
           {
@@ -84,13 +129,27 @@
             "kind": "steps",
             "title": "Most to least common",
             "items": [
-              { "title": "Schedules" },
-              { "title": "Project priorities" },
-              { "title": "Resources (staff and equipment)" },
-              { "title": "Technical opinions" },
-              { "title": "Administrative procedures" },
-              { "title": "Cost" },
-              { "title": "Personality" }
+              {
+                "title": "Schedules"
+              },
+              {
+                "title": "Project priorities"
+              },
+              {
+                "title": "Resources (staff and equipment)"
+              },
+              {
+                "title": "Technical opinions"
+              },
+              {
+                "title": "Administrative procedures"
+              },
+              {
+                "title": "Cost"
+              },
+              {
+                "title": "Personality"
+              }
             ]
           },
           {
@@ -110,10 +169,22 @@
             "kind": "table",
             "title": "The four core models",
             "rows": [
-              { "key": "Maslow's hierarchy", "value": "Needs are met bottom-up: physiological -> safety -> social/belonging -> esteem -> self-actualisation. Lower needs must be reasonably satisfied before higher ones motivate." },
-              { "key": "Herzberg's two-factor", "value": "Hygiene factors (salary, working conditions, policies) only prevent dissatisfaction; they do not motivate. True motivators are achievement, recognition, responsibility and growth." },
-              { "key": "McGregor's Theory X / Y", "value": "Theory X assumes people dislike work and need control and supervision; Theory Y assumes they are self-motivated and seek responsibility." },
-              { "key": "McClelland's needs (acquired needs)", "value": "People are driven mainly by achievement, affiliation or power; match work to a person's dominant need." }
+              {
+                "key": "Maslow's hierarchy",
+                "value": "Needs are met bottom-up: physiological -> safety -> social/belonging -> esteem -> self-actualisation. Lower needs must be reasonably satisfied before higher ones motivate."
+              },
+              {
+                "key": "Herzberg's two-factor",
+                "value": "Hygiene factors (salary, working conditions, policies) only prevent dissatisfaction; they do not motivate. True motivators are achievement, recognition, responsibility and growth."
+              },
+              {
+                "key": "McGregor's Theory X / Y",
+                "value": "Theory X assumes people dislike work and need control and supervision; Theory Y assumes they are self-motivated and seek responsibility."
+              },
+              {
+                "key": "McClelland's needs (acquired needs)",
+                "value": "People are driven mainly by achievement, affiliation or power; match work to a person's dominant need."
+              }
             ]
           },
           {
@@ -137,8 +208,18 @@
                 "badge": "Favour",
                 "tone": "good",
                 "groups": [
-                  { "label": "Expert", "lines": ["Influence earned through knowledge, skill and credibility."] },
-                  { "label": "Referent", "lines": ["Influence from respect, charisma or association with someone respected."] }
+                  {
+                    "label": "Expert",
+                    "lines": [
+                      "Influence earned through knowledge, skill and credibility."
+                    ]
+                  },
+                  {
+                    "label": "Referent",
+                    "lines": [
+                      "Influence from respect, charisma or association with someone respected."
+                    ]
+                  }
                 ]
               },
               {
@@ -146,9 +227,24 @@
                 "badge": "Use with care",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Formal / positional", "lines": ["Authority from the role or title."] },
-                  { "label": "Reward", "lines": ["Ability to give bonuses, recognition or desirable assignments."] },
-                  { "label": "Coercive / penalty", "lines": ["Ability to punish or threaten consequences. Least effective - last resort."] }
+                  {
+                    "label": "Formal / positional",
+                    "lines": [
+                      "Authority from the role or title."
+                    ]
+                  },
+                  {
+                    "label": "Reward",
+                    "lines": [
+                      "Ability to give bonuses, recognition or desirable assignments."
+                    ]
+                  },
+                  {
+                    "label": "Coercive / penalty",
+                    "lines": [
+                      "Ability to punish or threaten consequences. Least effective - last resort."
+                    ]
+                  }
                 ]
               }
             ]
@@ -170,12 +266,30 @@
             "kind": "table",
             "title": "Style -> when to use",
             "rows": [
-              { "key": "Servant", "value": "Agile default; serve the team and remove impediments." },
-              { "key": "Directive", "value": "Crisis, or a new / inexperienced team needing structure." },
-              { "key": "Situational", "value": "Match style to team maturity - the through-line of Tuckman." },
-              { "key": "Transactional", "value": "Rewards for performance against clear targets." },
-              { "key": "Transformational", "value": "Vision and change energy; inspire beyond self-interest." },
-              { "key": "Laissez-faire", "value": "Hands-off; works for an expert, self-directed team." }
+              {
+                "key": "Servant",
+                "value": "Agile default; serve the team and remove impediments."
+              },
+              {
+                "key": "Directive",
+                "value": "Crisis, or a new / inexperienced team needing structure."
+              },
+              {
+                "key": "Situational",
+                "value": "Match style to team maturity - the through-line of Tuckman."
+              },
+              {
+                "key": "Transactional",
+                "value": "Rewards for performance against clear targets."
+              },
+              {
+                "key": "Transformational",
+                "value": "Vision and change energy; inspire beyond self-interest."
+              },
+              {
+                "key": "Laissez-faire",
+                "value": "Hands-off; works for an expert, self-directed team."
+              }
             ]
           },
           {
@@ -187,7 +301,29 @@
         ]
       }
     ],
-    "tags": ["leadership", "team development", "conflict", "motivation", "power", "people", "pmbok 8", "resources performance domain"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 (Resources performance domain; Build an Empowered Culture and Be an Accountable Leader principles). Tuckman; Thomas-Kilmann; Maslow/Herzberg/McGregor/McClelland."
+    "tags": [
+      "leadership",
+      "team development",
+      "conflict",
+      "motivation",
+      "power",
+      "people",
+      "pmbok 8",
+      "resources performance domain"
+    ],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 (Resources performance domain; Build an Empowered Culture and Be an Accountable Leader principles). Tuckman; Thomas-Kilmann; Maslow/Herzberg/McGregor/McClelland.",
+    "topics": [
+      "Mindset"
+    ],
+    "pathMembership": [
+      {
+        "path": "People, leadership & decisions",
+        "order": 1,
+        "purpose": "Use this for scenario judgement questions.",
+        "tags": [
+          "Mindset"
+        ]
+      }
+    ]
   }
 ]

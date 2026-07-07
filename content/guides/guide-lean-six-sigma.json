@@ -14,17 +14,40 @@
             "kind": "steps",
             "title": "PDCA (Deming cycle) - the underlying loop",
             "items": [
-              { "title": "Plan", "lines": ["Plan a change against expectations."] },
-              { "title": "Do", "lines": ["Do it on a small scale."] },
-              { "title": "Check", "lines": ["Check the result against what you expected."] },
-              { "title": "Act", "lines": ["Standardise what worked or adjust what did not, then repeat."] }
+              {
+                "title": "Plan",
+                "lines": [
+                  "Plan a change against expectations."
+                ]
+              },
+              {
+                "title": "Do",
+                "lines": [
+                  "Do it on a small scale."
+                ]
+              },
+              {
+                "title": "Check",
+                "lines": [
+                  "Check the result against what you expected."
+                ]
+              },
+              {
+                "title": "Act",
+                "lines": [
+                  "Standardise what worked or adjust what did not, then repeat."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["If a question rewards steady, iterative refinement over a single large intervention, that is the continuous-improvement mindset.", "Continuous improvement maps to the Embed Quality principle and the Governance domain."]
+            "lines": [
+              "If a question rewards steady, iterative refinement over a single large intervention, that is the continuous-improvement mindset.",
+              "Continuous improvement maps to the Embed Quality principle and the Governance domain."
+            ]
           }
         ]
       },
@@ -37,41 +60,96 @@
             "kind": "terms",
             "title": "The 8 wastes - remember DOWNTIME",
             "items": [
-              { "code": "D", "text": "Defects - errors and rework the customer would not pay for." },
-              { "code": "O", "text": "Overproduction - making more or sooner than demand needs." },
-              { "code": "W", "text": "Waiting - idle time between steps." },
-              { "code": "N", "text": "Non-used talent - the eighth, people-focused waste; under-used skills." },
-              { "code": "T", "text": "Transport - unnecessary movement of materials." },
-              { "code": "I", "text": "Inventory - work or stock held beyond what is needed." },
-              { "code": "M", "text": "Motion - unnecessary movement of people." },
-              { "code": "E", "text": "Extra-processing - over-processing beyond what adds value." }
+              {
+                "code": "D",
+                "text": "Defects - errors and rework the customer would not pay for."
+              },
+              {
+                "code": "O",
+                "text": "Overproduction - making more or sooner than demand needs."
+              },
+              {
+                "code": "W",
+                "text": "Waiting - idle time between steps."
+              },
+              {
+                "code": "N",
+                "text": "Non-used talent - the eighth, people-focused waste; under-used skills."
+              },
+              {
+                "code": "T",
+                "text": "Transport - unnecessary movement of materials."
+              },
+              {
+                "code": "I",
+                "text": "Inventory - work or stock held beyond what is needed."
+              },
+              {
+                "code": "M",
+                "text": "Motion - unnecessary movement of people."
+              },
+              {
+                "code": "E",
+                "text": "Extra-processing - over-processing beyond what adds value."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "8 wastes at a glance",
             "rows": [
-              { "key": "Defects", "value": "Errors and rework." },
-              { "key": "Overproduction", "value": "Making more or sooner than needed." },
-              { "key": "Waiting", "value": "Idle time between steps." },
-              { "key": "Non-used talent", "value": "Under-used skills (the eighth waste)." },
-              { "key": "Transport", "value": "Unnecessary movement of materials." },
-              { "key": "Inventory", "value": "Excess work or stock held." },
-              { "key": "Motion", "value": "Unnecessary movement of people." },
-              { "key": "Extra-processing", "value": "Over-processing beyond value." }
+              {
+                "key": "Defects",
+                "value": "Errors and rework."
+              },
+              {
+                "key": "Overproduction",
+                "value": "Making more or sooner than needed."
+              },
+              {
+                "key": "Waiting",
+                "value": "Idle time between steps."
+              },
+              {
+                "key": "Non-used talent",
+                "value": "Under-used skills (the eighth waste)."
+              },
+              {
+                "key": "Transport",
+                "value": "Unnecessary movement of materials."
+              },
+              {
+                "key": "Inventory",
+                "value": "Excess work or stock held."
+              },
+              {
+                "key": "Motion",
+                "value": "Unnecessary movement of people."
+              },
+              {
+                "key": "Extra-processing",
+                "value": "Over-processing beyond value."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Core Lean tools and ideas",
             "tone": "neutral",
-            "lines": ["Value stream mapping to see the whole flow.", "Creating smooth flow.", "Using pull so work is drawn by demand.", "Takt time to pace output to customer demand."]
+            "lines": [
+              "Value stream mapping to see the whole flow.",
+              "Creating smooth flow.",
+              "Using pull so work is drawn by demand.",
+              "Takt time to pace output to customer demand."
+            ]
           },
           {
             "kind": "tip",
             "title": "Memory aid",
             "tone": "good",
-            "lines": ["DOWNTIME covers all 8 wastes; TIMWOOD is the classic 7 plus the eighth - under-used talent."]
+            "lines": [
+              "DOWNTIME covers all 8 wastes; TIMWOOD is the classic 7 plus the eighth - under-used talent."
+            ]
           }
         ]
       },
@@ -88,29 +166,82 @@
             "kind": "steps",
             "title": "DMAIC - improve an existing process",
             "items": [
-              { "title": "Define", "lines": ["Define the problem and the voice of the customer."] },
-              { "title": "Measure", "lines": ["Measure current performance with data."] },
-              { "title": "Analyse", "lines": ["Analyse to find root causes of variation."] },
-              { "title": "Improve", "lines": ["Improve the process to remove the causes."] },
-              { "title": "Control", "lines": ["Control to sustain the gains, then repeat."] }
+              {
+                "title": "Define",
+                "lines": [
+                  "Define the problem and the voice of the customer."
+                ]
+              },
+              {
+                "title": "Measure",
+                "lines": [
+                  "Measure current performance with data."
+                ]
+              },
+              {
+                "title": "Analyse",
+                "lines": [
+                  "Analyse to find root causes of variation."
+                ]
+              },
+              {
+                "title": "Improve",
+                "lines": [
+                  "Improve the process to remove the causes."
+                ]
+              },
+              {
+                "title": "Control",
+                "lines": [
+                  "Control to sustain the gains, then repeat."
+                ]
+              }
             ]
           },
           {
             "kind": "steps",
             "title": "DMADV - design a new process or product",
             "items": [
-              { "title": "Define", "lines": ["Define design goals."] },
-              { "title": "Measure", "lines": ["Measure critical-to-quality needs."] },
-              { "title": "Analyse", "lines": ["Analyse design options."] },
-              { "title": "Design", "lines": ["Design the new process or product."] },
-              { "title": "Verify", "lines": ["Verify the design performs as intended."] }
+              {
+                "title": "Define",
+                "lines": [
+                  "Define design goals."
+                ]
+              },
+              {
+                "title": "Measure",
+                "lines": [
+                  "Measure critical-to-quality needs."
+                ]
+              },
+              {
+                "title": "Analyse",
+                "lines": [
+                  "Analyse design options."
+                ]
+              },
+              {
+                "title": "Design",
+                "lines": [
+                  "Design the new process or product."
+                ]
+              },
+              {
+                "title": "Verify",
+                "lines": [
+                  "Verify the design performs as intended."
+                ]
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["DMAIC improves what exists; DMADV designs something new.", "The M-A split (Improve/Control vs Design/Verify) is the giveaway."]
+            "lines": [
+              "DMAIC improves what exists; DMADV designs something new.",
+              "The M-A split (Improve/Control vs Design/Verify) is the giveaway."
+            ]
           }
         ]
       },
@@ -127,9 +258,25 @@
                 "badge": "Speed",
                 "tone": "good",
                 "groups": [
-                  { "label": "Focus", "lines": ["Maximise value, eliminate waste."] },
-                  { "label": "Attacks", "lines": ["Speed and flow problems.", "The 8 wastes (DOWNTIME)."] },
-                  { "label": "Tools", "lines": ["Value stream mapping, pull, takt time."] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Maximise value, eliminate waste."
+                    ]
+                  },
+                  {
+                    "label": "Attacks",
+                    "lines": [
+                      "Speed and flow problems.",
+                      "The 8 wastes (DOWNTIME)."
+                    ]
+                  },
+                  {
+                    "label": "Tools",
+                    "lines": [
+                      "Value stream mapping, pull, takt time."
+                    ]
+                  }
                 ]
               },
               {
@@ -137,9 +284,25 @@
                 "badge": "Consistency",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Focus", "lines": ["Reduce variation and defects."] },
-                  { "label": "Attacks", "lines": ["Variation and defect problems where data exists.", "Toward 3.4 defects per million."] },
-                  { "label": "Tools", "lines": ["DMAIC, DMADV, voice of the customer."] }
+                  {
+                    "label": "Focus",
+                    "lines": [
+                      "Reduce variation and defects."
+                    ]
+                  },
+                  {
+                    "label": "Attacks",
+                    "lines": [
+                      "Variation and defect problems where data exists.",
+                      "Toward 3.4 defects per million."
+                    ]
+                  },
+                  {
+                    "label": "Tools",
+                    "lines": [
+                      "DMAIC, DMADV, voice of the customer."
+                    ]
+                  }
                 ]
               }
             ]
@@ -148,16 +311,27 @@
             "kind": "table",
             "title": "Belt roles by skill level",
             "rows": [
-              { "key": "Yellow belt", "value": "Basic awareness and support." },
-              { "key": "Green belt", "value": "Leads smaller projects part-time." },
-              { "key": "Black belt", "value": "Leads major projects and coaches others full-time." }
+              {
+                "key": "Yellow belt",
+                "value": "Basic awareness and support."
+              },
+              {
+                "key": "Green belt",
+                "value": "Leads smaller projects part-time."
+              },
+              {
+                "key": "Black belt",
+                "value": "Leads major projects and coaches others full-time."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["Lean attacks speed and waste; Six Sigma attacks variation - Lean Six Sigma does both at once."]
+            "lines": [
+              "Lean attacks speed and waste; Six Sigma attacks variation - Lean Six Sigma does both at once."
+            ]
           }
         ]
       },
@@ -174,8 +348,18 @@
                 "badge": "Many small wins",
                 "tone": "good",
                 "groups": [
-                  { "label": "What it is", "lines": ["Continuous small improvements made by everyone, every day, as part of normal work."] },
-                  { "label": "Variant", "lines": ["A Kaizen event - a short, intensive burst aimed at one process or area."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Continuous small improvements made by everyone, every day, as part of normal work."
+                    ]
+                  },
+                  {
+                    "label": "Variant",
+                    "lines": [
+                      "A Kaizen event - a short, intensive burst aimed at one process or area."
+                    ]
+                  }
                 ]
               },
               {
@@ -183,8 +367,18 @@
                 "badge": "Fix the bottleneck",
                 "tone": "warn",
                 "groups": [
-                  { "label": "What it is", "lines": ["A system is limited by its single biggest bottleneck."] },
-                  { "label": "How", "lines": ["Find that constraint, exploit it, and subordinate everything else to it before improving elsewhere."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "A system is limited by its single biggest bottleneck."
+                    ]
+                  },
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Find that constraint, exploit it, and subordinate everything else to it before improving elsewhere."
+                    ]
+                  }
                 ]
               }
             ]
@@ -193,7 +387,9 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["Kaizen is a culture of many small wins; TOC says fix the one bottleneck first."]
+            "lines": [
+              "Kaizen is a culture of many small wins; TOC says fix the one bottleneck first."
+            ]
           }
         ]
       },
@@ -206,17 +402,32 @@
             "kind": "table",
             "title": "Symptom -> approach",
             "rows": [
-              { "key": "Flow, speed, waste", "value": "Lean." },
-              { "key": "Variation / defects (data available)", "value": "Six Sigma." },
-              { "key": "Everyday improvement culture", "value": "Kaizen." },
-              { "key": "One bottleneck caps throughput", "value": "Theory of Constraints." }
+              {
+                "key": "Flow, speed, waste",
+                "value": "Lean."
+              },
+              {
+                "key": "Variation / defects (data available)",
+                "value": "Six Sigma."
+              },
+              {
+                "key": "Everyday improvement culture",
+                "value": "Kaizen."
+              },
+              {
+                "key": "One bottleneck caps throughput",
+                "value": "Theory of Constraints."
+              }
             ]
           },
           {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["Read for the symptom - waste and flow point to Lean, inconsistency and defects point to Six Sigma.", "As always, tailor to context; the approaches are complementary."]
+            "lines": [
+              "Read for the symptom - waste and flow point to Lean, inconsistency and defects point to Six Sigma.",
+              "As always, tailor to context; the approaches are complementary."
+            ]
           }
         ]
       }
@@ -232,6 +443,15 @@
       "pmbok 8",
       "governance domain"
     ],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains."
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains.",
+    "topics": [
+      "Process"
+    ],
+    "pathMembership": [
+      {
+        "path": "Agile, hybrid & tailoring",
+        "order": 4
+      }
+    ]
   }
 ]

@@ -31,18 +31,36 @@
             "kind": "table",
             "title": "Situational Leadership II - style by follower development (competence x commitment)",
             "rows": [
-              { "key": "Directing", "value": "Low competence, high commitment - tell and show." },
-              { "key": "Coaching", "value": "Some competence, low commitment - explain and persuade." },
-              { "key": "Supporting", "value": "High competence, variable commitment - encourage and share decisions." },
-              { "key": "Delegating", "value": "High competence, high commitment - hand over responsibility." }
+              {
+                "key": "Directing",
+                "value": "Low competence, high commitment - tell and show."
+              },
+              {
+                "key": "Coaching",
+                "value": "Some competence, low commitment - explain and persuade."
+              },
+              {
+                "key": "Supporting",
+                "value": "High competence, variable commitment - encourage and share decisions."
+              },
+              {
+                "key": "Delegating",
+                "value": "High competence, high commitment - hand over responsibility."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Coaching conversation frames -> what it says",
             "rows": [
-              { "key": "GROW", "value": "Goal, Reality (current state), Options, Will (way forward and commitment). A single coaching conversation." },
-              { "key": "OSCAR", "value": "Outcome, Situation, Choices, Actions, Review. Longer-term development with built-in follow-up." }
+              {
+                "key": "GROW",
+                "value": "Goal, Reality (current state), Options, Will (way forward and commitment). A single coaching conversation."
+              },
+              {
+                "key": "OSCAR",
+                "value": "Outcome, Situation, Choices, Actions, Review. Longer-term development with built-in follow-up."
+              }
             ]
           },
           {
@@ -62,18 +80,36 @@
             "kind": "table",
             "title": "Organisation / system level -> what it says",
             "rows": [
-              { "key": "Lewin", "value": "Unfreeze (loosen the status quo), change (move to the new way), refreeze (embed it). The simplest frame." },
-              { "key": "Kotter 8-Step", "value": "Top-led, org-wide sequence: create urgency, build coalition and vision, enable action and short-term wins, anchor change in the culture." },
-              { "key": "Satir", "value": "Late status quo -> resistance -> chaos (performance dips) -> integration -> new status quo. Tracks a GROUP's performance and normalises the temporary dip." }
+              {
+                "key": "Lewin",
+                "value": "Unfreeze (loosen the status quo), change (move to the new way), refreeze (embed it). The simplest frame."
+              },
+              {
+                "key": "Kotter 8-Step",
+                "value": "Top-led, org-wide sequence: create urgency, build coalition and vision, enable action and short-term wins, anchor change in the culture."
+              },
+              {
+                "key": "Satir",
+                "value": "Late status quo -> resistance -> chaos (performance dips) -> integration -> new status quo. Tracks a GROUP's performance and normalises the temporary dip."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Individual level -> what it says",
             "rows": [
-              { "key": "ADKAR", "value": "The adoption sequence each PERSON passes through: Awareness, Desire, Knowledge, Ability, Reinforcement." },
-              { "key": "Bridges Transition", "value": "Separates external change from each person's internal transition: Ending (letting go), Neutral Zone (messy in-between), New Beginning. People transition slower than systems change." },
-              { "key": "Kubler-Ross Curve", "value": "Emotional stages a person moves through: denial, anger, bargaining, depression, acceptance. Reads resistance and grief during change." }
+              {
+                "key": "ADKAR",
+                "value": "The adoption sequence each PERSON passes through: Awareness, Desire, Knowledge, Ability, Reinforcement."
+              },
+              {
+                "key": "Bridges Transition",
+                "value": "Separates external change from each person's internal transition: Ending (letting go), Neutral Zone (messy in-between), New Beginning. People transition slower than systems change."
+              },
+              {
+                "key": "Kubler-Ross Curve",
+                "value": "Emotional stages a person moves through: denial, anger, bargaining, depression, acceptance. Reads resistance and grief during change."
+              }
             ]
           },
           {
@@ -101,20 +137,44 @@
             "kind": "table",
             "title": "Cynefin domain -> response",
             "rows": [
-              { "key": "Clear (obvious)", "value": "Cause and effect are plain. Sense-categorise-respond; apply best practice." },
-              { "key": "Complicated", "value": "Knowable but needs expertise. Sense-analyse-respond; apply good practice." },
-              { "key": "Complex", "value": "Cause and effect only clear in hindsight. Probe-sense-respond; let practice emerge via safe-to-fail experiments." },
-              { "key": "Chaotic", "value": "No clear cause and effect; act first. Act-sense-respond to establish order." },
-              { "key": "Disorder", "value": "The centre - you do not yet know which domain you are in." }
+              {
+                "key": "Clear (obvious)",
+                "value": "Cause and effect are plain. Sense-categorise-respond; apply best practice."
+              },
+              {
+                "key": "Complicated",
+                "value": "Knowable but needs expertise. Sense-analyse-respond; apply good practice."
+              },
+              {
+                "key": "Complex",
+                "value": "Cause and effect only clear in hindsight. Probe-sense-respond; let practice emerge via safe-to-fail experiments."
+              },
+              {
+                "key": "Chaotic",
+                "value": "No clear cause and effect; act first. Act-sense-respond to establish order."
+              },
+              {
+                "key": "Disorder",
+                "value": "The centre - you do not yet know which domain you are in."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Stacey matrix - agreement x certainty -> what it says",
             "rows": [
-              { "key": "Close to both", "value": "Agreement on requirements and certainty on approach - simple; suggests predictive delivery." },
-              { "key": "Middle ground", "value": "Complicated or complex; favours adaptive or hybrid approaches." },
-              { "key": "Far from both", "value": "Low agreement and low certainty - tends toward chaos." }
+              {
+                "key": "Close to both",
+                "value": "Agreement on requirements and certainty on approach - simple; suggests predictive delivery."
+              },
+              {
+                "key": "Middle ground",
+                "value": "Complicated or complex; favours adaptive or hybrid approaches."
+              },
+              {
+                "key": "Far from both",
+                "value": "Low agreement and low certainty - tends toward chaos."
+              }
             ]
           },
           {
@@ -134,8 +194,14 @@
             "kind": "table",
             "title": "Model -> what it says",
             "rows": [
-              { "key": "Boehm's sweet spot", "value": "Too little planning = costly rework and missed risks; too much = wasted effort and delay. The sweet spot minimises total cost and shifts with how predictable the work is." },
-              { "key": "Drexler-Sibbet", "value": "Seven stages a team moves through, from orientation and trust building (creating the team) to implementation, high performance and renewal (sustaining the team). Complements Tuckman by adding the resolving question at each stage." }
+              {
+                "key": "Boehm's sweet spot",
+                "value": "Too little planning = costly rework and missed risks; too much = wasted effort and delay. The sweet spot minimises total cost and shifts with how predictable the work is."
+              },
+              {
+                "key": "Drexler-Sibbet",
+                "value": "Seven stages a team moves through, from orientation and trust building (creating the team) to implementation, high performance and renewal (sustaining the team). Complements Tuckman by adding the resolving question at each stage."
+              }
             ]
           },
           {
@@ -154,12 +220,30 @@
             "kind": "table",
             "title": "Family -> models (see the dedicated guide for depth)",
             "rows": [
-              { "key": "Team development", "value": "Tuckman - forming, storming, norming, performing, adjourning." },
-              { "key": "Conflict", "value": "Thomas-Kilmann - competing, collaborating, compromising, avoiding, accommodating." },
-              { "key": "Motivation", "value": "Maslow, Herzberg, McGregor X/Y, McClelland, Vroom and others." },
-              { "key": "Communication", "value": "Sender-receiver / communication models - channels, encoding, noise, feedback." },
-              { "key": "Stakeholder salience", "value": "Salience and Power-Interest - prioritising stakeholders." },
-              { "key": "Group decision-making", "value": "Reaching and recording a decision." }
+              {
+                "key": "Team development",
+                "value": "Tuckman - forming, storming, norming, performing, adjourning."
+              },
+              {
+                "key": "Conflict",
+                "value": "Thomas-Kilmann - competing, collaborating, compromising, avoiding, accommodating."
+              },
+              {
+                "key": "Motivation",
+                "value": "Maslow, Herzberg, McGregor X/Y, McClelland, Vroom and others."
+              },
+              {
+                "key": "Communication",
+                "value": "Sender-receiver / communication models - channels, encoding, noise, feedback."
+              },
+              {
+                "key": "Stakeholder salience",
+                "value": "Salience and Power-Interest - prioritising stakeholders."
+              },
+              {
+                "key": "Group decision-making",
+                "value": "Reaching and recording a decision."
+              }
             ]
           },
           {
@@ -194,6 +278,15 @@
       "pmbok8",
       "mindset"
     ],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and framed around the commonly used models PMBOK 8 references."
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and framed around the commonly used models PMBOK 8 references.",
+    "topics": [
+      "Mindset"
+    ],
+    "pathMembership": [
+      {
+        "path": "People, leadership & decisions",
+        "order": 2
+      }
+    ]
   }
 ]

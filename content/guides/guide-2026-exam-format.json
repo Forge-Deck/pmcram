@@ -14,12 +14,25 @@
             "kind": "table",
             "title": "2026 weightings",
             "rows": [
-              { "key": "People", "value": "33% (was 42%)" },
-              { "key": "Process", "value": "41% (was 50%)" },
-              { "key": "Business Env.", "value": "26% (was 8%)" }
+              {
+                "key": "People",
+                "value": "33% (was 42%)"
+              },
+              {
+                "key": "Process",
+                "value": "41% (was 50%)"
+              },
+              {
+                "key": "Business Env.",
+                "value": "26% (was 8%)"
+              }
             ]
           },
-          { "kind": "tip", "title": "Exam tip", "text": "Roughly 1 in 4 questions is now Business Environment. If that has been your weak area, it is no longer safe to skim." }
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Roughly 1 in 4 questions is now Business Environment. If that has been your weak area, it is no longer safe to skim."
+          }
         ]
       },
       {
@@ -47,15 +60,37 @@
             "kind": "table",
             "title": "Formats",
             "rows": [
-              { "key": "Case / Scenario", "value": "NEW. A detailed situation, sometimes with charts, followed by several linked questions. Front-loaded, with a break straight after." },
-              { "key": "Graphic-based", "value": "NEW. Interpret a chart, graph, diagram or image, then answer." },
-              { "key": "Matching", "value": "Drag items to pair them with the right category or location." },
-              { "key": "Point & click", "value": "Click the correct hotspot on an image." },
-              { "key": "Pull-down", "value": "Pick the answer from a drop-down list." },
-              { "key": "Multiple choice", "value": "Single-response and multiple-response (choose N) remain the backbone." }
+              {
+                "key": "Case / Scenario",
+                "value": "NEW. A detailed situation, sometimes with charts, followed by several linked questions. Front-loaded, with a break straight after."
+              },
+              {
+                "key": "Graphic-based",
+                "value": "NEW. Interpret a chart, graph, diagram or image, then answer."
+              },
+              {
+                "key": "Matching",
+                "value": "Drag items to pair them with the right category or location."
+              },
+              {
+                "key": "Point & click",
+                "value": "Click the correct hotspot on an image."
+              },
+              {
+                "key": "Pull-down",
+                "value": "Pick the answer from a drop-down list."
+              },
+              {
+                "key": "Multiple choice",
+                "value": "Single-response and multiple-response (choose N) remain the backbone."
+              }
             ]
           },
-          { "kind": "tip", "title": "Exam tip", "text": "For case sets, answer each step on its own evidence - a later step never fixes an earlier answer, and you can't go back after the section break." }
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "For case sets, answer each step on its own evidence - a later step never fixes an earlier answer, and you can't go back after the section break."
+          }
         ]
       },
       {
@@ -67,13 +102,29 @@
             "kind": "table",
             "title": "At a glance",
             "rows": [
-              { "key": "Questions", "value": "180 total: 170 scored + 10 unscored pretest, mixed in randomly." },
-              { "key": "Time", "value": "240 minutes (4 hours)." },
-              { "key": "Breaks", "value": "Two 10-minute breaks: the first after the case-study section, the second roughly midway through the rest." },
-              { "key": "Delivery", "value": "Test centre or online-proctored; some formats (matching, point-and-click, pull-down) are computer-based only." }
+              {
+                "key": "Questions",
+                "value": "180 total: 170 scored + 10 unscored pretest, mixed in randomly."
+              },
+              {
+                "key": "Time",
+                "value": "240 minutes (4 hours)."
+              },
+              {
+                "key": "Breaks",
+                "value": "Two 10-minute breaks: the first after the case-study section, the second roughly midway through the rest."
+              },
+              {
+                "key": "Delivery",
+                "value": "Test centre or online-proctored; some formats (matching, point-and-click, pull-down) are computer-based only."
+              }
             ]
           },
-          { "kind": "tip", "title": "Exam tip", "text": "Once you start a break and move on, you cannot return to the previous section - review before you leave it." }
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Once you start a break and move on, you cannot return to the previous section - review before you leave it."
+          }
         ]
       },
       {
@@ -96,11 +147,37 @@
         "heading": "How to approach the exam",
         "body": "The exam tests judgement, not recall. PMI reframed project success around delivering value worth the effort - not just hitting schedule, budget and scope. So the best answer is usually the one that is proactive, collaborative, within the project manager's authority, and focused on value and people. Eliminate the extremes (do nothing, blame, fire, go straight to the sponsor), match the action to the approach, and when two options remain, pick the more value- and people-focused one.",
         "blocks": [
-          { "kind": "tip", "title": "Exam tip", "text": "Assess first, act within your authority, escalate only when genuinely beyond it - and choose the option that protects value and stakeholders." }
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Assess first, act within your authority, escalate only when genuinely beyond it - and choose the option that protects value and stakeholders."
+          }
         ]
       }
     ],
-    "tags": ["exam", "2026", "format", "domains", "question-types"],
-    "source": "PMP Examination Content Outline - July 2026 (PMI). Weightings: People 33% / Process 41% / Business Environment 26%."
+    "tags": [
+      "exam",
+      "2026",
+      "format",
+      "domains",
+      "question-types"
+    ],
+    "source": "PMP Examination Content Outline - July 2026 (PMI). Weightings: People 33% / Process 41% / Business Environment 26%.",
+    "topics": [
+      "Exam Strategy",
+      "PMBOK 8"
+    ],
+    "pathMembership": [
+      {
+        "path": "Exam day route",
+        "order": 1,
+        "purpose": "Use this when the exam is close.",
+        "tags": [
+          "Exam Strategy",
+          "PMBOK 8",
+          "Formulae"
+        ]
+      }
+    ]
   }
 ]

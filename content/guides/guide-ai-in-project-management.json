@@ -24,10 +24,22 @@
             "kind": "table",
             "title": "Where AI lands in PMBOK 8",
             "rows": [
-              { "key": "Monitoring and Control", "value": "AI surfaces status, patterns and anomalies in data - you still judge and decide." },
-              { "key": "Risk", "value": "AI is both a tool for risk analysis and a source of new risks to manage." },
-              { "key": "Governance", "value": "AI automates routine execution and assists drafting; value delivery stays the point." },
-              { "key": "Be an Accountable Leader", "value": "Stay accountable for AI output; human-in-the-loop and data ethics are non-negotiable." }
+              {
+                "key": "Monitoring and Control",
+                "value": "AI surfaces status, patterns and anomalies in data - you still judge and decide."
+              },
+              {
+                "key": "Risk",
+                "value": "AI is both a tool for risk analysis and a source of new risks to manage."
+              },
+              {
+                "key": "Governance",
+                "value": "AI automates routine execution and assists drafting; value delivery stays the point."
+              },
+              {
+                "key": "Be an Accountable Leader",
+                "value": "Stay accountable for AI output; human-in-the-loop and data ethics are non-negotiable."
+              }
             ]
           }
         ]
@@ -45,9 +57,25 @@
                 "badge": "Execution",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What it does", "lines": ["AI performs repetitive, rules-based execution on its own."] },
-                  { "label": "Examples", "lines": ["Generating routine reports.", "Updating logs."] },
-                  { "label": "Payoff", "lines": ["Frees the team for higher-value work."] }
+                  {
+                    "label": "What it does",
+                    "lines": [
+                      "AI performs repetitive, rules-based execution on its own."
+                    ]
+                  },
+                  {
+                    "label": "Examples",
+                    "lines": [
+                      "Generating routine reports.",
+                      "Updating logs."
+                    ]
+                  },
+                  {
+                    "label": "Payoff",
+                    "lines": [
+                      "Frees the team for higher-value work."
+                    ]
+                  }
                 ]
               },
               {
@@ -55,8 +83,21 @@
                 "badge": "Drafts",
                 "tone": "warn",
                 "groups": [
-                  { "label": "What it does", "lines": ["AI acts like a junior team member that drafts or proposes.", "A person reviews and approves before anything is used."] },
-                  { "label": "Examples", "lines": ["A first-draft estimate.", "A status update.", "A candidate risk list."] }
+                  {
+                    "label": "What it does",
+                    "lines": [
+                      "AI acts like a junior team member that drafts or proposes.",
+                      "A person reviews and approves before anything is used."
+                    ]
+                  },
+                  {
+                    "label": "Examples",
+                    "lines": [
+                      "A first-draft estimate.",
+                      "A status update.",
+                      "A candidate risk list."
+                    ]
+                  }
                 ]
               },
               {
@@ -64,7 +105,14 @@
                 "badge": "Decisions",
                 "tone": "good",
                 "groups": [
-                  { "label": "What it does", "lines": ["AI enhances a person's own judgement.", "It surfaces options, patterns and analysis.", "The manager then weighs and decides."] }
+                  {
+                    "label": "What it does",
+                    "lines": [
+                      "AI enhances a person's own judgement.",
+                      "It surfaces options, patterns and analysis.",
+                      "The manager then weighs and decides."
+                    ]
+                  }
                 ]
               }
             ]
@@ -89,9 +137,27 @@
             "kind": "steps",
             "title": "High-value uses",
             "items": [
-              { "title": "Estimating and scheduling", "lines": ["Drafting estimates.", "Spotting schedule risk.", "Suggesting sequences."] },
-              { "title": "Reporting and communication", "lines": ["Summarising status.", "Drafting stakeholder updates."] },
-              { "title": "Risk and data analysis", "lines": ["Surfacing patterns, candidate risks and anomalies in large data sets."] }
+              {
+                "title": "Estimating and scheduling",
+                "lines": [
+                  "Drafting estimates.",
+                  "Spotting schedule risk.",
+                  "Suggesting sequences."
+                ]
+              },
+              {
+                "title": "Reporting and communication",
+                "lines": [
+                  "Summarising status.",
+                  "Drafting stakeholder updates."
+                ]
+              },
+              {
+                "title": "Risk and data analysis",
+                "lines": [
+                  "Surfacing patterns, candidate risks and anomalies in large data sets."
+                ]
+              }
             ]
           },
           {
@@ -157,10 +223,30 @@
             "kind": "steps",
             "title": "Governance duties",
             "items": [
-              { "title": "Transparency", "lines": ["Disclose where AI was used in analysis or deliverables."] },
-              { "title": "Data privacy and security", "lines": ["Don't feed confidential or personal data into tools that aren't approved for it."] },
-              { "title": "Intellectual property and compliance", "lines": ["Follow organizational policy, contracts and regulations."] },
-              { "title": "Ethics", "lines": ["Align with the PMI Code of Ethics: responsibility, respect, fairness, honesty."] }
+              {
+                "title": "Transparency",
+                "lines": [
+                  "Disclose where AI was used in analysis or deliverables."
+                ]
+              },
+              {
+                "title": "Data privacy and security",
+                "lines": [
+                  "Don't feed confidential or personal data into tools that aren't approved for it."
+                ]
+              },
+              {
+                "title": "Intellectual property and compliance",
+                "lines": [
+                  "Follow organizational policy, contracts and regulations."
+                ]
+              },
+              {
+                "title": "Ethics",
+                "lines": [
+                  "Align with the PMI Code of Ethics: responsibility, respect, fairness, honesty."
+                ]
+              }
             ]
           },
           {
@@ -187,8 +273,21 @@
                 "badge": "Register it",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Threats to log", "lines": ["Inaccurate output.", "Security exposure.", "Over-reliance.", "Unclear accountability."] },
-                  { "label": "Handle it", "lines": ["Identify, analyse, plan responses like any risk."] }
+                  {
+                    "label": "Threats to log",
+                    "lines": [
+                      "Inaccurate output.",
+                      "Security exposure.",
+                      "Over-reliance.",
+                      "Unclear accountability."
+                    ]
+                  },
+                  {
+                    "label": "Handle it",
+                    "lines": [
+                      "Identify, analyse, plan responses like any risk."
+                    ]
+                  }
                 ]
               },
               {
@@ -196,8 +295,19 @@
                 "badge": "Engage",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Concerns", "lines": ["Fears about job impact.", "Trust in automated decisions."] },
-                  { "label": "Handle it", "lines": ["Engage people openly to build understanding."] }
+                  {
+                    "label": "Concerns",
+                    "lines": [
+                      "Fears about job impact.",
+                      "Trust in automated decisions."
+                    ]
+                  },
+                  {
+                    "label": "Handle it",
+                    "lines": [
+                      "Engage people openly to build understanding."
+                    ]
+                  }
                 ]
               }
             ]
@@ -214,7 +324,21 @@
         ]
       }
     ],
-    "tags": ["ai", "emerging-trends", "2026", "ethics", "risk", "pmbok 8", "accountable leader", "monitoring and control", "governance", "stakeholders"],
-    "source": "Aligned with the PMP Examination Content Outline - July 2026 (AI as an emerging trend), PMBOK Guide Eighth Edition, and the PMI Code of Ethics and Professional Conduct."
+    "tags": [
+      "ai",
+      "emerging-trends",
+      "2026",
+      "ethics",
+      "risk",
+      "pmbok 8",
+      "accountable leader",
+      "monitoring and control",
+      "governance",
+      "stakeholders"
+    ],
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (AI as an emerging trend), PMBOK Guide Eighth Edition, and the PMI Code of Ethics and Professional Conduct.",
+    "topics": [
+      "Emerging Trends"
+    ]
   }
 ]

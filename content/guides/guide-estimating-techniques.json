@@ -36,8 +36,14 @@
             "kind": "table",
             "title": "Classic ranges",
             "rows": [
-              { "key": "Rough Order of Magnitude (ROM)", "value": "Roughly -25% to +75%. Used very early when information is scarce." },
-              { "key": "Definitive estimate", "value": "Roughly -5% to +10%. Produced later once scope and detail are well understood." }
+              {
+                "key": "Rough Order of Magnitude (ROM)",
+                "value": "Roughly -25% to +75%. Used very early when information is scarce."
+              },
+              {
+                "key": "Definitive estimate",
+                "value": "Roughly -5% to +10%. Produced later once scope and detail are well understood."
+              }
             ]
           },
           {
@@ -61,10 +67,22 @@
             "kind": "table",
             "title": "Estimating methods compared",
             "rows": [
-              { "key": "Analogous (top-down)", "value": "Adjust a similar past project's actuals. Use early with little detail. Fast and cheap but least accurate; a form of expert judgment." },
-              { "key": "Parametric", "value": "Rate x quantity from a statistical relationship (e.g. cost/sq m x area). Use when historical data is sound and scales. Accuracy depends entirely on the data and model." },
-              { "key": "Bottom-up", "value": "Estimate each work package on the WBS, then roll up. Use when scope is well defined. Most accurate but most time- and effort-intensive; needs a defined WBS first." },
-              { "key": "Three-point (PERT)", "value": "Risk-weighted average of optimistic, most likely and pessimistic. Use when activities are uncertain. Improves on a single-point guess by modelling the spread." }
+              {
+                "key": "Analogous (top-down)",
+                "value": "Adjust a similar past project's actuals. Use early with little detail. Fast and cheap but least accurate; a form of expert judgment."
+              },
+              {
+                "key": "Parametric",
+                "value": "Rate x quantity from a statistical relationship (e.g. cost/sq m x area). Use when historical data is sound and scales. Accuracy depends entirely on the data and model."
+              },
+              {
+                "key": "Bottom-up",
+                "value": "Estimate each work package on the WBS, then roll up. Use when scope is well defined. Most accurate but most time- and effort-intensive; needs a defined WBS first."
+              },
+              {
+                "key": "Three-point (PERT)",
+                "value": "Risk-weighted average of optimistic, most likely and pessimistic. Use when activities are uncertain. Improves on a single-point guess by modelling the spread."
+              }
             ]
           },
           {
@@ -75,8 +93,20 @@
                 "badge": "Top-down",
                 "tone": "warn",
                 "groups": [
-                  { "label": "How", "lines": ["Take a similar past project's actual cost/duration.", "Adjust for known differences in size, scope or complexity."] },
-                  { "label": "Trade-off", "lines": ["Fast, cheap, rough.", "Assumes the past project is genuinely comparable."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Take a similar past project's actual cost/duration.",
+                      "Adjust for known differences in size, scope or complexity."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Fast, cheap, rough.",
+                      "Assumes the past project is genuinely comparable."
+                    ]
+                  }
                 ]
               },
               {
@@ -84,8 +114,20 @@
                 "badge": "Rate-based",
                 "tone": "accent",
                 "groups": [
-                  { "label": "How", "lines": ["Multiply a known rate by a quantity.", "Example: hours per unit x number of units."] },
-                  { "label": "Trade-off", "lines": ["More accurate than analogous when data is good.", "Only as good as the historical data behind it."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Multiply a known rate by a quantity.",
+                      "Example: hours per unit x number of units."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "More accurate than analogous when data is good.",
+                      "Only as good as the historical data behind it."
+                    ]
+                  }
                 ]
               },
               {
@@ -93,8 +135,20 @@
                 "badge": "Build up",
                 "tone": "good",
                 "groups": [
-                  { "label": "How", "lines": ["Decompose to work-package level of the WBS.", "Estimate each piece, then roll up to a total."] },
-                  { "label": "Trade-off", "lines": ["Most accurate; nothing is averaged away.", "Most costly; requires a defined scope and WBS."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Decompose to work-package level of the WBS.",
+                      "Estimate each piece, then roll up to a total."
+                    ]
+                  },
+                  {
+                    "label": "Trade-off",
+                    "lines": [
+                      "Most accurate; nothing is averaged away.",
+                      "Most costly; requires a defined scope and WBS."
+                    ]
+                  }
                 ]
               }
             ]
@@ -122,8 +176,20 @@
             "title": "PERT",
             "note": "O = optimistic, M = most likely, P = pessimistic",
             "items": [
-              { "formula": "tE = (O + 4M + P) / 6", "lines": ["Expected estimate (beta/PERT).", "Most-likely value weighted by 4."] },
-              { "formula": "Std Dev = (P - O) / 6", "lines": ["Estimate spread.", "Optimistic and pessimistic set the range."] }
+              {
+                "formula": "tE = (O + 4M + P) / 6",
+                "lines": [
+                  "Expected estimate (beta/PERT).",
+                  "Most-likely value weighted by 4."
+                ]
+              },
+              {
+                "formula": "Std Dev = (P - O) / 6",
+                "lines": [
+                  "Estimate spread.",
+                  "Optimistic and pessimistic set the range."
+                ]
+              }
             ]
           },
           {
@@ -147,10 +213,22 @@
             "kind": "terms",
             "title": "Agile estimating techniques",
             "items": [
-              { "code": "Story points", "text": "Relative units of size/effort/complexity, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8)." },
-              { "code": "Planning poker", "text": "Team reveals point estimates simultaneously, discusses outliers, and re-votes to reach consensus." },
-              { "code": "Affinity estimating", "text": "Group many items quickly by grouping similar-sized stories together (e.g. small / medium / large buckets)." },
-              { "code": "Velocity", "text": "Points completed per iteration; used to forecast how much fits in future iterations." }
+              {
+                "code": "Story points",
+                "text": "Relative units of size/effort/complexity, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8)."
+              },
+              {
+                "code": "Planning poker",
+                "text": "Team reveals point estimates simultaneously, discusses outliers, and re-votes to reach consensus."
+              },
+              {
+                "code": "Affinity estimating",
+                "text": "Group many items quickly by grouping similar-sized stories together (e.g. small / medium / large buckets)."
+              },
+              {
+                "code": "Velocity",
+                "text": "Points completed per iteration; used to forecast how much fits in future iterations."
+              }
             ]
           },
           {
@@ -175,18 +253,44 @@
             "kind": "steps",
             "title": "Refining as you learn",
             "items": [
-              { "title": "Analogous early", "lines": ["When there is little information to work with."] },
-              { "title": "Parametric next", "lines": ["When you have good historical data and reliable parameters."] },
-              { "title": "Bottom-up when defined", "lines": ["When scope and the WBS are set and accuracy matters most."] },
-              { "title": "Add three-point for risk", "lines": ["When activities carry real uncertainty to model."] }
+              {
+                "title": "Analogous early",
+                "lines": [
+                  "When there is little information to work with."
+                ]
+              },
+              {
+                "title": "Parametric next",
+                "lines": [
+                  "When you have good historical data and reliable parameters."
+                ]
+              },
+              {
+                "title": "Bottom-up when defined",
+                "lines": [
+                  "When scope and the WBS are set and accuracy matters most."
+                ]
+              },
+              {
+                "title": "Add three-point for risk",
+                "lines": [
+                  "When activities carry real uncertainty to model."
+                ]
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Reserves (added on top)",
             "rows": [
-              { "key": "Contingency reserve", "value": "For identified 'known-unknown' risks. Part of the cost baseline. Detail in the Risk Management guide." },
-              { "key": "Management reserve", "value": "For 'unknown-unknowns'. Outside the cost baseline; needs approval to use." }
+              {
+                "key": "Contingency reserve",
+                "value": "For identified 'known-unknown' risks. Part of the cost baseline. Detail in the Risk Management guide."
+              },
+              {
+                "key": "Management reserve",
+                "value": "For 'unknown-unknowns'. Outside the cost baseline; needs approval to use."
+              }
             ]
           },
           {
@@ -219,6 +323,17 @@
       "finance",
       "scope"
     ],
-    "source": "PM Cram study notes — restructured into blocks and aligned to PMBOK 8 Schedule, Finance and Scope performance domains."
+    "source": "PM Cram study notes — restructured into blocks and aligned to PMBOK 8 Schedule, Finance and Scope performance domains.",
+    "topics": [
+      "Process",
+      "Formulae",
+      "Predictive"
+    ],
+    "pathMembership": [
+      {
+        "path": "Numbers, diagrams & analysis",
+        "order": 5
+      }
+    ]
   }
 ]

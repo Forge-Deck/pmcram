@@ -53,10 +53,22 @@
             "kind": "table",
             "title": "MoSCoW bands",
             "rows": [
-              { "key": "Must have", "value": "Non-negotiable; the release fails without it." },
-              { "key": "Should have", "value": "Important but not vital; a painful omission with a workaround." },
-              { "key": "Could have", "value": "Desirable, low impact; the first to drop under pressure." },
-              { "key": "Won't have (this time)", "value": "Explicitly out of scope for now, recorded to manage expectations - deferred, not deleted." }
+              {
+                "key": "Must have",
+                "value": "Non-negotiable; the release fails without it."
+              },
+              {
+                "key": "Should have",
+                "value": "Important but not vital; a painful omission with a workaround."
+              },
+              {
+                "key": "Could have",
+                "value": "Desirable, low impact; the first to drop under pressure."
+              },
+              {
+                "key": "Won't have (this time)",
+                "value": "Explicitly out of scope for now, recorded to manage expectations - deferred, not deleted."
+              }
             ]
           },
           {
@@ -67,24 +79,59 @@
                 "badge": "SAFe",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What", "lines": ["Weighted Shortest Job First.", "WSJF = cost of delay / job size."] },
-                  { "label": "Use", "lines": ["Sequence work by economic value.", "Do the highest value-per-effort item next."] }
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Weighted Shortest Job First.",
+                      "WSJF = cost of delay / job size."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Sequence work by economic value.",
+                      "Do the highest value-per-effort item next."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Kano model",
                 "tone": "good",
                 "groups": [
-                  { "label": "What", "lines": ["Classifies features by customer reaction."] },
-                  { "label": "Categories", "lines": ["Basic - expected; absence angers.", "Performance - more is better.", "Delighter - unexpected wow."] }
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Classifies features by customer reaction."
+                    ]
+                  },
+                  {
+                    "label": "Categories",
+                    "lines": [
+                      "Basic - expected; absence angers.",
+                      "Performance - more is better.",
+                      "Delighter - unexpected wow."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Collaborative voting",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "What", "lines": ["100-point or dot voting."] },
-                  { "label": "Use", "lines": ["Quick, collaborative group ranking.", "Good for fast stakeholder consensus."] }
+                  {
+                    "label": "What",
+                    "lines": [
+                      "100-point or dot voting."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Quick, collaborative group ranking.",
+                      "Good for fast stakeholder consensus."
+                    ]
+                  }
                 ]
               }
             ]
@@ -109,22 +156,52 @@
             "kind": "terms",
             "title": "INVEST - a good user story is",
             "items": [
-              { "code": "I", "text": "Independent - can be built without depending on other stories." },
-              { "code": "N", "text": "Negotiable - a conversation, not a rigid contract." },
-              { "code": "V", "text": "Valuable - delivers value to a user or customer." },
-              { "code": "E", "text": "Estimable - the team can size it." },
-              { "code": "S", "text": "Small - fits comfortably inside one iteration." },
-              { "code": "T", "text": "Testable - has clear acceptance criteria." }
+              {
+                "code": "I",
+                "text": "Independent - can be built without depending on other stories."
+              },
+              {
+                "code": "N",
+                "text": "Negotiable - a conversation, not a rigid contract."
+              },
+              {
+                "code": "V",
+                "text": "Valuable - delivers value to a user or customer."
+              },
+              {
+                "code": "E",
+                "text": "Estimable - the team can size it."
+              },
+              {
+                "code": "S",
+                "text": "Small - fits comfortably inside one iteration."
+              },
+              {
+                "code": "T",
+                "text": "Testable - has clear acceptance criteria."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Relative estimating",
             "rows": [
-              { "key": "Story points", "value": "Relative size of effort/complexity/risk, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8, 13)." },
-              { "key": "Planning poker", "value": "Team estimates together; discussion surfaces hidden assumptions and converges the estimate." },
-              { "key": "Velocity", "value": "Story points a team completes per sprint. Averaged over recent sprints to forecast future capacity." },
-              { "key": "Ideal days", "value": "Alternative unit - uninterrupted effort - when teams prefer time over points." }
+              {
+                "key": "Story points",
+                "value": "Relative size of effort/complexity/risk, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8, 13)."
+              },
+              {
+                "key": "Planning poker",
+                "value": "Team estimates together; discussion surfaces hidden assumptions and converges the estimate."
+              },
+              {
+                "key": "Velocity",
+                "value": "Story points a team completes per sprint. Averaged over recent sprints to forecast future capacity."
+              },
+              {
+                "key": "Ideal days",
+                "value": "Alternative unit - uninterrupted effort - when teams prefer time over points."
+              }
             ]
           },
           {
@@ -151,8 +228,20 @@
                 "badge": "Timeboxed",
                 "tone": "good",
                 "groups": [
-                  { "label": "How", "lines": ["Fixed-length, timeboxed iterations (sprints).", "Defined roles and events."] },
-                  { "label": "Best for", "lines": ["Feature delivery against a prioritised backlog.", "Planned batches of work."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Fixed-length, timeboxed iterations (sprints).",
+                      "Defined roles and events."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Feature delivery against a prioritised backlog.",
+                      "Planned batches of work."
+                    ]
+                  }
                 ]
               },
               {
@@ -160,8 +249,20 @@
                 "badge": "Flow",
                 "tone": "accent",
                 "groups": [
-                  { "label": "How", "lines": ["Continuous flow with WIP limits.", "No fixed iterations; pull work when capacity frees."] },
-                  { "label": "Best for", "lines": ["Steady streams of varied work.", "Support, maintenance, unpredictable inflow."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Continuous flow with WIP limits.",
+                      "No fixed iterations; pull work when capacity frees."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Steady streams of varied work.",
+                      "Support, maintenance, unpredictable inflow."
+                    ]
+                  }
                 ]
               },
               {
@@ -169,8 +270,19 @@
                 "badge": "Hybrid",
                 "tone": "warn",
                 "groups": [
-                  { "label": "How", "lines": ["Keeps Scrum's structure but pulls work continuously under WIP limits like Kanban."] },
-                  { "label": "Best for", "lines": ["Transitioning between the two.", "Smoothing unpredictable demand."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Keeps Scrum's structure but pulls work continuously under WIP limits like Kanban."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Transitioning between the two.",
+                      "Smoothing unpredictable demand."
+                    ]
+                  }
                 ]
               },
               {
@@ -178,8 +290,19 @@
                 "badge": "Engineering",
                 "tone": "neutral",
                 "groups": [
-                  { "label": "How", "lines": ["Extreme Programming - engineering discipline layered on an iterative cadence."] },
-                  { "label": "Practices", "lines": ["Pair programming, TDD, continuous integration.", "Refactoring, small releases, collective ownership."] }
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Extreme Programming - engineering discipline layered on an iterative cadence."
+                    ]
+                  },
+                  {
+                    "label": "Practices",
+                    "lines": [
+                      "Pair programming, TDD, continuous integration.",
+                      "Refactoring, small releases, collective ownership."
+                    ]
+                  }
                 ]
               }
             ]
@@ -204,32 +327,89 @@
             "kind": "steps",
             "title": "Sprint flow",
             "items": [
-              { "title": "Sprint planning", "lines": ["Pull top-priority backlog items into the sprint.", "Agree the sprint goal and forecast."] },
-              { "title": "Daily standup", "lines": ["Short daily sync.", "Surface progress and impediments; re-plan the day."] },
-              { "title": "Development", "lines": ["Build increments against the sprint goal.", "Servant leader removes blockers."] },
-              { "title": "Sprint review", "lines": ["Demo the increment to stakeholders.", "Gather feedback; adapt the backlog."] },
-              { "title": "Retrospective", "lines": ["Inspect the process, not just the product.", "Agree improvements for the next sprint."] }
+              {
+                "title": "Sprint planning",
+                "lines": [
+                  "Pull top-priority backlog items into the sprint.",
+                  "Agree the sprint goal and forecast."
+                ]
+              },
+              {
+                "title": "Daily standup",
+                "lines": [
+                  "Short daily sync.",
+                  "Surface progress and impediments; re-plan the day."
+                ]
+              },
+              {
+                "title": "Development",
+                "lines": [
+                  "Build increments against the sprint goal.",
+                  "Servant leader removes blockers."
+                ]
+              },
+              {
+                "title": "Sprint review",
+                "lines": [
+                  "Demo the increment to stakeholders.",
+                  "Gather feedback; adapt the backlog."
+                ]
+              },
+              {
+                "title": "Retrospective",
+                "lines": [
+                  "Inspect the process, not just the product.",
+                  "Agree improvements for the next sprint."
+                ]
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Key artifacts",
             "rows": [
-              { "key": "Product backlog", "value": "Ordered list of everything that might be built; owned by the Product Owner." },
-              { "key": "Sprint backlog", "value": "Items selected for the current sprint plus the plan to deliver them." },
-              { "key": "Increment", "value": "The sum of completed, working, potentially releasable work." },
-              { "key": "Definition of Done", "value": "Shared quality bar an item must meet to count as complete." }
+              {
+                "key": "Product backlog",
+                "value": "Ordered list of everything that might be built; owned by the Product Owner."
+              },
+              {
+                "key": "Sprint backlog",
+                "value": "Items selected for the current sprint plus the plan to deliver them."
+              },
+              {
+                "key": "Increment",
+                "value": "The sum of completed, working, potentially releasable work."
+              },
+              {
+                "key": "Definition of Done",
+                "value": "Shared quality bar an item must meet to count as complete."
+              }
             ]
           },
           {
             "kind": "table",
             "title": "Flow & progress metrics",
             "rows": [
-              { "key": "Burndown chart", "value": "Remaining work over time; trends toward zero by sprint end." },
-              { "key": "Burnup chart", "value": "Completed work plus total scope; shows scope change too." },
-              { "key": "Velocity", "value": "Points completed per sprint; forecasts capacity." },
-              { "key": "Cumulative flow", "value": "WIP across workflow states; widening bands reveal bottlenecks." },
-              { "key": "Lead / cycle time", "value": "Speed from request to done; core Kanban health metrics." }
+              {
+                "key": "Burndown chart",
+                "value": "Remaining work over time; trends toward zero by sprint end."
+              },
+              {
+                "key": "Burnup chart",
+                "value": "Completed work plus total scope; shows scope change too."
+              },
+              {
+                "key": "Velocity",
+                "value": "Points completed per sprint; forecasts capacity."
+              },
+              {
+                "key": "Cumulative flow",
+                "value": "WIP across workflow states; widening bands reveal bottlenecks."
+              },
+              {
+                "key": "Lead / cycle time",
+                "value": "Speed from request to done; core Kanban health metrics."
+              }
             ]
           },
           {
@@ -255,24 +435,57 @@
                 "title": "Predictive shell, agile core",
                 "tone": "accent",
                 "groups": [
-                  { "label": "Pattern", "lines": ["Govern the whole with phase gates and a baseline.", "Run the uncertain build work in sprints inside a phase."] },
-                  { "label": "Fits", "lines": ["Regulated or contract-heavy programmes with an exploratory build."] }
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Govern the whole with phase gates and a baseline.",
+                      "Run the uncertain build work in sprints inside a phase."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Regulated or contract-heavy programmes with an exploratory build."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Split by component",
                 "tone": "good",
                 "groups": [
-                  { "label": "Pattern", "lines": ["Predictive delivery of hardware.", "Agile development of the software that runs on it."] },
-                  { "label": "Fits", "lines": ["Products blending stable and evolving parts."] }
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Predictive delivery of hardware.",
+                      "Agile development of the software that runs on it."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Products blending stable and evolving parts."
+                    ]
+                  }
                 ]
               },
               {
                 "title": "Agile front, predictive rollout",
                 "tone": "warn",
                 "groups": [
-                  { "label": "Pattern", "lines": ["Iterate to discover and validate the solution.", "Switch to planned, controlled deployment once scope firms up."] },
-                  { "label": "Fits", "lines": ["Uncertain discovery followed by a fixed, high-risk cutover."] }
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Iterate to discover and validate the solution.",
+                      "Switch to planned, controlled deployment once scope firms up."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Uncertain discovery followed by a fixed, high-risk cutover."
+                    ]
+                  }
                 ]
               }
             ]
@@ -289,7 +502,34 @@
         ]
       }
     ],
-    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban", "xp", "velocity", "story points", "invest", "pmbok 8", "development approach", "scope", "value delivery", "tailoring"],
-    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 principles and performance domains."
+    "tags": [
+      "agile",
+      "hybrid",
+      "backlog",
+      "prioritisation",
+      "scrum",
+      "kanban",
+      "scrumban",
+      "xp",
+      "velocity",
+      "story points",
+      "invest",
+      "pmbok 8",
+      "development approach",
+      "scope",
+      "value delivery",
+      "tailoring"
+    ],
+    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 principles and performance domains.",
+    "topics": [
+      "Agile",
+      "Hybrid"
+    ],
+    "pathMembership": [
+      {
+        "path": "Agile, hybrid & tailoring",
+        "order": 2
+      }
+    ]
   }
 ]

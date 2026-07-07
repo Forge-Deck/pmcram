@@ -36,8 +36,20 @@
                 "badge": "Codified",
                 "tone": "accent",
                 "groups": [
-                  { "label": "What it is", "lines": ["Easily written down and stored.", "Documents, data, procedures, templates."] },
-                  { "label": "How it moves", "lines": ["Through repositories and documents.", "Copy it, store it, retrieve it."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Easily written down and stored.",
+                      "Documents, data, procedures, templates."
+                    ]
+                  },
+                  {
+                    "label": "How it moves",
+                    "lines": [
+                      "Through repositories and documents.",
+                      "Copy it, store it, retrieve it."
+                    ]
+                  }
                 ]
               },
               {
@@ -45,8 +57,20 @@
                 "badge": "Personal",
                 "tone": "good",
                 "groups": [
-                  { "label": "What it is", "lines": ["Personal know-how, experience, judgement, intuition.", "Hard to articulate; it lives in people's heads."] },
-                  { "label": "How it moves", "lines": ["Through interaction, not documents.", "Conversation, pairing, mentoring, observation."] }
+                  {
+                    "label": "What it is",
+                    "lines": [
+                      "Personal know-how, experience, judgement, intuition.",
+                      "Hard to articulate; it lives in people's heads."
+                    ]
+                  },
+                  {
+                    "label": "How it moves",
+                    "lines": [
+                      "Through interaction, not documents.",
+                      "Conversation, pairing, mentoring, observation."
+                    ]
+                  }
                 ]
               }
             ]
@@ -72,10 +96,30 @@
             "kind": "steps",
             "title": "Data -> Information -> Knowledge -> Wisdom",
             "items": [
-              { "title": "Data", "lines": ["Raw measurements and facts with no context."] },
-              { "title": "Information", "lines": ["Data placed in context so it has meaning."] },
-              { "title": "Knowledge", "lines": ["Information combined with experience to understand and act."] },
-              { "title": "Wisdom", "lines": ["Applying knowledge with sound judgement to make good decisions."] }
+              {
+                "title": "Data",
+                "lines": [
+                  "Raw measurements and facts with no context."
+                ]
+              },
+              {
+                "title": "Information",
+                "lines": [
+                  "Data placed in context so it has meaning."
+                ]
+              },
+              {
+                "title": "Knowledge",
+                "lines": [
+                  "Information combined with experience to understand and act."
+                ]
+              },
+              {
+                "title": "Wisdom",
+                "lines": [
+                  "Applying knowledge with sound judgement to make good decisions."
+                ]
+              }
             ]
           },
           {
@@ -95,10 +139,22 @@
             "kind": "table",
             "title": "Registers and repositories",
             "rows": [
-              { "key": "Lessons register", "value": "Captures lessons during the project, as they happen." },
-              { "key": "Lessons repository", "value": "Rolls up at close into an organisation-wide store for future projects." },
-              { "key": "Draws on", "value": "Prior organisational knowledge plus new knowledge made on this project." },
-              { "key": "Goal", "value": "Make knowledge usable at the moment of need, not filed and forgotten." }
+              {
+                "key": "Lessons register",
+                "value": "Captures lessons during the project, as they happen."
+              },
+              {
+                "key": "Lessons repository",
+                "value": "Rolls up at close into an organisation-wide store for future projects."
+              },
+              {
+                "key": "Draws on",
+                "value": "Prior organisational knowledge plus new knowledge made on this project."
+              },
+              {
+                "key": "Goal",
+                "value": "Make knowledge usable at the moment of need, not filed and forgotten."
+              }
             ]
           },
           {
@@ -122,8 +178,18 @@
                 "badge": "Organisation",
                 "tone": "accent",
                 "groups": [
-                  { "label": "When", "lines": ["Captured throughout, and formally at close."] },
-                  { "label": "Who benefits", "lines": ["The organisation, on future work."] }
+                  {
+                    "label": "When",
+                    "lines": [
+                      "Captured throughout, and formally at close."
+                    ]
+                  },
+                  {
+                    "label": "Who benefits",
+                    "lines": [
+                      "The organisation, on future work."
+                    ]
+                  }
                 ]
               },
               {
@@ -131,8 +197,18 @@
                 "badge": "Team",
                 "tone": "good",
                 "groups": [
-                  { "label": "When", "lines": ["End of every iteration."] },
-                  { "label": "Who benefits", "lines": ["This team and its way of working right now."] }
+                  {
+                    "label": "When",
+                    "lines": [
+                      "End of every iteration."
+                    ]
+                  },
+                  {
+                    "label": "Who benefits",
+                    "lines": [
+                      "This team and its way of working right now."
+                    ]
+                  }
                 ]
               }
             ]
@@ -154,11 +230,26 @@
             "kind": "table",
             "title": "Transfer methods",
             "rows": [
-              { "key": "Communities of practice", "value": "Groups that share a discipline exchange know-how." },
-              { "key": "Pairing / shadowing", "value": "Know-how passes person to person on the job." },
-              { "key": "Storytelling", "value": "Conveys context and reasoning behind decisions." },
-              { "key": "Mentoring", "value": "Grows judgement over time." },
-              { "key": "Knowledge repository", "value": "Usable, findable store for explicit content." }
+              {
+                "key": "Communities of practice",
+                "value": "Groups that share a discipline exchange know-how."
+              },
+              {
+                "key": "Pairing / shadowing",
+                "value": "Know-how passes person to person on the job."
+              },
+              {
+                "key": "Storytelling",
+                "value": "Conveys context and reasoning behind decisions."
+              },
+              {
+                "key": "Mentoring",
+                "value": "Grows judgement over time."
+              },
+              {
+                "key": "Knowledge repository",
+                "value": "Usable, findable store for explicit content."
+              }
             ]
           },
           {
@@ -178,10 +269,30 @@
             "kind": "steps",
             "title": "How to keep it",
             "items": [
-              { "title": "Capture at the right moment", "lines": ["Record while the detail is still fresh."] },
-              { "title": "Make it findable", "lines": ["Well organised and easy to retrieve."] },
-              { "title": "Recognise sharing", "lines": ["Reward the people who pass knowledge on."] },
-              { "title": "Build a blameless culture", "lines": ["Psychological safety so honest lessons surface."] }
+              {
+                "title": "Capture at the right moment",
+                "lines": [
+                  "Record while the detail is still fresh."
+                ]
+              },
+              {
+                "title": "Make it findable",
+                "lines": [
+                  "Well organised and easy to retrieve."
+                ]
+              },
+              {
+                "title": "Recognise sharing",
+                "lines": [
+                  "Reward the people who pass knowledge on."
+                ]
+              },
+              {
+                "title": "Build a blameless culture",
+                "lines": [
+                  "Psychological safety so honest lessons surface."
+                ]
+              }
             ]
           },
           {
@@ -193,7 +304,22 @@
         ]
       }
     ],
-    "tags": ["knowledge management", "lessons learned", "retrospectives", "tacit knowledge", "DIKW", "process", "pmbok 8", "governance", "empowered culture", "focus on value"],
-    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle-based PMP exam."
+    "tags": [
+      "knowledge management",
+      "lessons learned",
+      "retrospectives",
+      "tacit knowledge",
+      "DIKW",
+      "process",
+      "pmbok 8",
+      "governance",
+      "empowered culture",
+      "focus on value"
+    ],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle-based PMP exam.",
+    "topics": [
+      "Process",
+      "Governance"
+    ]
   }
 ]
