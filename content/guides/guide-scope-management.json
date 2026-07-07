@@ -3,19 +3,19 @@
     "schema": "guide/v1",
     "title": "Scope Management",
     "category": "Process",
-    "summary": "How to define, document and control exactly what the project will and will not deliver, across predictive and agile delivery. In PMBOK 8 terms, scope work feeds the Planning and Delivery performance domains: plan the work deliberately, then confirm deliverables meet scope and quality so the intended benefits are realised.",
+    "summary": "How to define, document and control exactly what the project will and will not deliver, across predictive and agile delivery. In PMBOK 8 terms, scope work lives in the Scope performance domain and its six processes: plan the work deliberately, then confirm deliverables meet scope and quality so the intended benefits are realised.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Where scope lives",
-        "body": "Scope is not a standalone knowledge area in PMBOK 8; it is an outcome you drive through the performance domains. Read the question for the delivery mode first, then answer in that mode's language.",
+        "body": "Scope is one of the seven PMBOK 8 performance domains, delivered through its six processes. Read the question for the delivery mode first, then answer in that mode's language.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How scope maps",
             "lines": [
-              "Planning domain -> organise the work deliberately: requirements, scope statement, WBS or backlog.",
-              "Delivery domain -> deliverables meet scope and quality; benefits are realised.",
+              "Scope domain -> organise the work deliberately: requirements, scope statement, WBS or backlog.",
+              "Scope domain -> deliverables meet scope and quality; benefits are realised.",
               "Tailoring -> predictive fixes scope up front; agile lets scope emerge through the backlog."
             ]
           },
@@ -173,7 +173,7 @@
         ]
       }
     ],
-    "tags": ["scope", "requirements", "scope baseline", "validate scope", "control scope", "scope creep", "gold plating", "WBS", "RTM", "traceability", "backlog", "pmbok 8", "planning domain", "delivery domain"],
+    "tags": ["scope", "requirements", "scope baseline", "validate scope", "control scope", "scope creep", "gold plating", "WBS", "RTM", "traceability", "backlog", "pmbok 8", "scope domain"],
     "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
   }
 ]

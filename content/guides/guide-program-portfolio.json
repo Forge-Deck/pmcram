@@ -3,20 +3,20 @@
     "schema": "guide/v1",
     "title": "Program, Portfolio & Benefits Realization",
     "category": "Process",
-    "summary": "The levels above the single project and how outputs become measurable benefits and strategic value. Supports the PMBOK 8 Systems and Value principles: see the whole system of work, and treat value - not just delivery - as the measure of success.",
+    "summary": "The levels above the single project and how outputs become measurable benefits and strategic value. Supports the PMBOK 8 Adopt a Holistic View and Focus on Value principles: see the whole system of work, and treat value - not just delivery - as the measure of success.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Systems thinking and value",
-        "body": "Programs and portfolios are where the Systems and Value principles do their work. The Systems principle says to recognise and respond to interactions across the whole system rather than optimising one project in isolation. The Value principle says value is the ultimate measure of success, so the point of the work is the benefit it realises, not the deliverable it ships.",
+        "body": "Programs and portfolios are where the Adopt a Holistic View and Focus on Value principles do their work. Adopt a Holistic View says to recognise and respond to interactions across the whole system rather than optimising one project in isolation. Focus on Value says value is the ultimate measure of success, so the point of the work is the benefit it realises, not the deliverable it ships.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How the principles map",
             "tone": "accent",
             "lines": [
-              "Systems principle -> coordinate interdependencies across projects, programs and operations.",
-              "Value principle -> success is measured by realised benefit, not output shipped.",
+              "Adopt a Holistic View -> coordinate interdependencies across projects, programs and operations.",
+              "Focus on Value -> success is measured by realised benefit, not output shipped.",
               "Programs manage benefits and interdependencies; portfolios choose the right work for strategy."
             ]
           }
@@ -145,7 +145,7 @@
         ]
       }
     ],
-    "tags": ["program", "portfolio", "benefits realization", "value", "strategy", "outcomes", "pmbok 8", "systems principle", "value principle"],
+    "tags": ["program", "portfolio", "benefits realization", "value", "strategy", "outcomes", "pmbok 8", "adopt a holistic view", "focus on value"],
     "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam, aligned to PMBOK 8 principles."
   }
 ]

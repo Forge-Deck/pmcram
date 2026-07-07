@@ -3,20 +3,20 @@
     "schema": "guide/v1",
     "title": "Estimating Techniques",
     "category": "Process",
-    "summary": "How projects estimate cost and duration and how those estimates tighten as work is progressively elaborated. Reorganised into scan-friendly blocks and framed for PMBOK 8's Planning and Measurement performance domains, with predictive techniques, PERT, and agile relative sizing side by side.",
+    "summary": "How projects estimate cost and duration and how those estimates tighten as work is progressively elaborated. Reorganised into scan-friendly blocks and framed for PMBOK 8's Schedule, Finance and Scope performance domains, with predictive techniques, PERT, and agile relative sizing side by side.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Where estimating lives",
-        "body": "Estimating is not its own knowledge area in PMBOK 8. It supports two performance domains: Planning (organise the work in a deliberate, coordinated way) and Measurement (produce reliable data for timely decisions). Tailor the technique to how much you know and to the delivery approach.",
+        "body": "Estimating is not its own performance domain in PMBOK 8. It supports three of the seven domains: Schedule (sequence and size the work over time), Finance (produce the cost baseline and reserves) and Scope (size the deliverables and work packages). Tailor the technique to how much you know and to the delivery approach.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How to use estimates",
             "tone": "accent",
             "lines": [
-              "Planning domain: estimates size and sequence the work.",
-              "Measurement domain: estimates become the baseline you measure against.",
+              "Schedule domain: estimates size and sequence the work.",
+              "Finance domain: estimates become the cost baseline you measure against.",
               "Tailoring: pick the technique that fits the information and the delivery mode.",
               "Predictive leans on cost/duration estimates; agile leans on relative sizing."
             ]
@@ -27,6 +27,10 @@
         "kicker": "Accuracy",
         "heading": "Estimate ranges and the cone of uncertainty",
         "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as detail emerges (progressive elaboration), the range narrows and accuracy improves. Always express an estimate with its range and assumptions, and refine it as better information arrives rather than treating the first figure as fixed.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='100' x2='304' y2='100' stroke='currentColor' stroke-width='1' stroke-dasharray='4 4'/><path d='M46,46 L298,93 L298,107 L46,154 Z' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><text x='52' y='40' fill='currentColor' font-size='9'>+75%</text><text x='52' y='168' fill='currentColor' font-size='9'>-25%</text><text x='300' y='86' fill='currentColor' font-size='9' text-anchor='end'>+10%</text><text x='300' y='124' fill='currentColor' font-size='9' text-anchor='end'>-5%</text><text x='80' y='100' fill='currentColor' font-size='9' text-anchor='middle'>ROM</text><text x='268' y='100' fill='currentColor' font-size='9' text-anchor='middle'>definitive</text><text x='172' y='184' fill='currentColor' font-size='10' text-anchor='middle'>more detail / later in project →</text></svg>",
+          "caption": "The cone of uncertainty: a wide ROM range early, narrowing to a definitive estimate."
+        },
         "blocks": [
           {
             "kind": "table",
@@ -137,7 +141,7 @@
       {
         "kicker": "Agile",
         "heading": "Relative estimating",
-        "body": "Adaptive teams estimate relative size and effort rather than absolute cost or duration, then let velocity turn size into a forecast. This fits the Planning domain when requirements change and detail emerges each iteration.",
+        "body": "Adaptive teams estimate relative size and effort rather than absolute cost or duration, then let velocity turn size into a forecast. This fits the Schedule domain when requirements change and detail emerges each iteration.",
         "blocks": [
           {
             "kind": "terms",
@@ -211,9 +215,10 @@
       "agile",
       "process",
       "pmbok 8",
-      "planning",
-      "measurement"
+      "schedule",
+      "finance",
+      "scope"
     ],
-    "source": "PM Cram study notes — restructured into blocks and aligned to PMBOK 8 Planning and Measurement performance domains."
+    "source": "PM Cram study notes — restructured into blocks and aligned to PMBOK 8 Schedule, Finance and Scope performance domains."
   }
 ]

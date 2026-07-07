@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Group Decision-Making",
     "category": "Mindset",
-    "summary": "How teams generate options and commit to a choice, tuned to PMBOK 8: decision rules, Delphi, weighted matrices and the quick consensus tools agile teams use. Decision-making sits inside the Team and Stakeholders performance domains and the Team, Leadership and Collaboration principles - collaborate to find the option that delivers the most value.",
+    "summary": "How teams generate options and commit to a choice, tuned to PMBOK 8: decision rules, Delphi, weighted matrices and the quick consensus tools agile teams use. Decision-making sits inside the Stakeholders and Resources performance domains and the Build an Empowered Culture and Be an Accountable Leader principles - collaborate to find the option that delivers the most value.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Why this matters",
-        "body": "PMBOK 8 is principle- and outcome-based. Group decision-making lives in the Team and Stakeholders performance domains and reflects the Team, Leadership and Collaboration principles.",
+        "body": "PMBOK 8 is principle- and outcome-based. Group decision-making lives in the Stakeholders and Resources performance domains and reflects the Build an Empowered Culture and Be an Accountable Leader principles.",
         "blocks": [
           {
             "kind": "tip",
@@ -180,6 +180,10 @@
         "kicker": "Read the room",
         "heading": "Quick agile consensus tools",
         "body": "Agile teams use fast, visible techniques to gauge agreement.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 100' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='30' y1='48' x2='300' y2='48' stroke='currentColor' stroke-width='1.3'/><circle cx='30' cy='48' r='6' fill='#B5462F'/><circle cx='84' cy='48' r='6' fill='#B5462F' fill-opacity='0.55'/><circle cx='138' cy='48' r='6' fill='#C98A1F'/><circle cx='192' cy='48' r='6' fill='#C98A1F' fill-opacity='0.7'/><circle cx='246' cy='48' r='6' fill='#2F6F5E' fill-opacity='0.7'/><circle cx='300' cy='48' r='6' fill='#2F6F5E'/><text x='30' y='32' fill='currentColor' font-size='11' text-anchor='middle'>0</text><text x='84' y='32' fill='currentColor' font-size='11' text-anchor='middle'>1</text><text x='138' y='32' fill='currentColor' font-size='11' text-anchor='middle'>2</text><text x='192' y='32' fill='currentColor' font-size='11' text-anchor='middle'>3</text><text x='246' y='32' fill='currentColor' font-size='11' text-anchor='middle'>4</text><text x='300' y='32' fill='currentColor' font-size='11' text-anchor='middle'>5</text><text x='30' y='72' fill='#B5462F' font-size='8' text-anchor='middle'>block</text><text x='300' y='72' fill='#2F6F5E' font-size='8' text-anchor='middle'>full support</text><text x='165' y='92' fill='currentColor' font-size='8' text-anchor='middle'>below 3 = keep discussing before you proceed</text></svg>",
+          "caption": "Fist of five: 0 blocks, 3 is 'can live with it', 5 is full support."
+        },
         "blocks": [
           {
             "kind": "steps",
@@ -234,7 +238,7 @@
         ]
       }
     ],
-    "tags": ["decision-making", "consensus", "delphi", "facilitation", "agile", "people", "pmbok 8", "team", "stakeholders", "collaboration"],
+    "tags": ["decision-making", "consensus", "delphi", "facilitation", "agile", "people", "pmbok 8", "resources", "stakeholders", "collaboration"],
     "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles and performance domains."
   }
 ]

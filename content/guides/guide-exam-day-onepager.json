@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "Exam-Day One-Pager",
     "category": "Exam Strategy",
-    "summary": "The final-glance sheet for a PMBOK 8 exam, broken into scan-friendly blocks: a question filter, the 12 principles and 8 performance domains, tailoring and value-delivery cues, delivery-model signals, the formula bank, highest-yield mindset rules, must-know acronyms, roles/quality/closure order, people models and procurement/schedule cuts. Read this last, right before you walk in.",
+    "summary": "The final-glance sheet for a PMBOK 8 exam, broken into scan-friendly blocks: a question filter, the 6 principles and 7 performance domains, tailoring and value-delivery cues, delivery-model signals, the formula bank, highest-yield mindset rules, must-know acronyms, roles/quality/closure order, people models and procurement/schedule cuts. Read this last, right before you walk in.",
     "sections": [
       {
         "kicker": "Start here",
@@ -30,7 +30,7 @@
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Principles, domains and tailoring",
-        "body": "PMBOK 8 is principle-based and outcome-based, not process-group / knowledge-area based. Answer from the 12 principles and the 8 performance domains, and always tailor to context. When two options both look valid, pick the one that delivers value and reflects a principle.",
+        "body": "PMBOK 8 is principle-based and function-oriented. Answer from the 6 principles and the 7 performance domains, and always tailor to context. When two options both look valid, pick the one that delivers value and reflects a principle.",
         "blocks": [
           {
             "kind": "tip",
@@ -39,34 +39,27 @@
           },
           {
             "kind": "terms",
-            "title": "12 project-management principles",
+            "title": "6 project-management principles",
             "items": [
-              { "code": "Stewardship", "text": "Be a diligent, respectful and caring steward; act with integrity." },
-              { "code": "Team", "text": "Build a collaborative, accountable project team environment." },
-              { "code": "Stakeholders", "text": "Engage stakeholders effectively to support value and satisfaction." },
-              { "code": "Value", "text": "Focus on value as the ultimate measure of success." },
-              { "code": "Systems", "text": "Recognise and respond to interactions across the whole system." },
-              { "code": "Leadership", "text": "Demonstrate leadership behaviours regardless of role." },
-              { "code": "Tailoring", "text": "Tailor the approach based on context, needs and complexity." },
-              { "code": "Quality", "text": "Build quality into processes and deliverables." },
-              { "code": "Complexity", "text": "Navigate complexity using awareness and constant re-assessment." },
-              { "code": "Risk", "text": "Optimise risk responses; maximise opportunity, minimise threat." },
-              { "code": "Adaptability", "text": "Embrace adaptability and resiliency to absorb change." },
-              { "code": "Change", "text": "Enable change to reach the envisioned future state." }
+              { "code": "Holistic View", "text": "Systems thinking - components and interdependencies." },
+              { "code": "Focus on Value", "text": "Value is the ultimate measure of success." },
+              { "code": "Embed Quality", "text": "Build quality into processes and deliverables (adds sustainability/compliance)." },
+              { "code": "Accountable Leader", "text": "Integrity, self-awareness, shared leadership." },
+              { "code": "Sustainability", "text": "Integrate environmental/social/economic sustainability. NEW - biggest 8th-Ed addition." },
+              { "code": "Empowered Culture", "text": "Empower the whole stakeholder community." }
             ]
           },
           {
             "kind": "table",
-            "title": "8 performance domains -> desired outcome",
+            "title": "7 performance domains -> desired outcome",
             "rows": [
-              { "key": "Stakeholders", "value": "Productive relationships and stakeholder agreement on value." },
-              { "key": "Team", "value": "A high-performing team with shared ownership and fit-for-purpose leadership." },
-              { "key": "Dev Approach", "value": "Development approach and life cycle match the product and deliver value." },
-              { "key": "Planning", "value": "Work progresses in an organised, coordinated and deliberate way." },
-              { "key": "Project Work", "value": "Efficient processes, managed resources and procurement, clear communication." },
-              { "key": "Delivery", "value": "Deliverables meet scope and quality; intended benefits are realised." },
-              { "key": "Measurement", "value": "Reliable status and actionable data drive timely decisions." },
-              { "key": "Uncertainty", "value": "Threats reduced, opportunities captured, environment understood." }
+              { "key": "Governance", "value": "9 processes. Integration, change control, knowledge, QA, sourcing, close-out." },
+              { "key": "Scope", "value": "6 processes. Requirements, WBS, validation." },
+              { "key": "Schedule", "value": "3 processes." },
+              { "key": "Finance", "value": "4 processes. Earned value lives here." },
+              { "key": "Stakeholders", "value": "7 processes. Now includes Communications." },
+              { "key": "Resources", "value": "5 processes. Team + physical resources; Lead the Team." },
+              { "key": "Risk", "value": "6 processes. Renamed from Uncertainty." }
             ]
           },
           {
@@ -296,7 +289,7 @@
       {
         "kicker": "Roles and process order",
         "heading": "Roles, quality and closure",
-        "body": "Common traps for 'what happens next' questions. In PMBOK 8 terms these map to the Delivery and Measurement performance domains, plus the Quality principle.",
+        "body": "Common traps for 'what happens next' questions. In PMBOK 8 terms these map to the Scope and Finance/M&C performance domains, plus the Embed Quality principle.",
         "blocks": [
           { "kind": "table", "title": "Who owns what", "rows": [
             { "key": "Sponsor", "value": "Funds and champions one project.\nSigns off acceptance." },
@@ -333,7 +326,7 @@
       {
         "kicker": "People topics",
         "heading": "Conflict, leadership and change",
-        "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change - the heart of the Team and Stakeholders performance domains.",
+        "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change - the heart of the Resources and Stakeholders performance domains.",
         "blocks": [
           { "kind": "steps", "title": "Conflict modes (best first)", "items": [
             { "title": "Collaborate", "lines": ["Problem-solve, win-win. Usually preferred."] },

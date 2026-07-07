@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "Business Analysis & Requirements",
     "category": "Process",
-    "summary": "How to elicit, analyse and manage requirements, and how business analysis underpins value delivery. Framed for PMBOK 8: requirements work supports the Planning and Delivery performance domains and the Value principle - build the right thing, then build it right.",
+    "summary": "How to elicit, analyse and manage requirements, and how business analysis underpins value delivery. Framed for PMBOK 8: requirements work supports the Scope and Stakeholders performance domains and the Focus on Value principle - build the right thing, then build it right.",
     "sections": [
       {
         "kicker": "Roles",
@@ -37,7 +37,7 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "good",
-            "lines": ["BA = build the right thing; PM = build the thing right.", "No separate BA -> the PM does the BA work.", "PMBOK 8 lens: requirements clarity feeds the Value principle and Planning domain."]
+            "lines": ["BA = build the right thing; PM = build the thing right.", "No separate BA -> the PM does the BA work.", "PMBOK 8 lens: requirements clarity feeds the Focus on Value principle and the Scope and Stakeholders domains."]
           }
         ]
       },
@@ -101,7 +101,7 @@
       {
         "kicker": "Analyse and manage",
         "heading": "From raw input to baselined requirements",
-        "body": "Analysis turns raw input into clear, agreed requirements, then traces and controls them through delivery. In PMBOK 8 terms this is the Planning domain feeding the Delivery domain, governed by the Value principle.",
+        "body": "Analysis turns raw input into clear, agreed requirements, then traces and controls them through delivery. In PMBOK 8 terms this is requirements planning that feeds the Scope domain, governed by the Focus on Value principle.",
         "blocks": [
           {
             "kind": "steps",
@@ -149,7 +149,7 @@
       {
         "kicker": "Acceptance",
         "heading": "Acceptance criteria vs Definition of Done",
-        "body": "Both say when work is good enough, but at different levels and owned by different people. Both support the Quality principle and the Delivery performance domain.",
+        "body": "Both say when work is good enough, but at different levels and owned by different people. Both support the Embed Quality principle and the Scope performance domain.",
         "blocks": [
           {
             "kind": "cards",
@@ -210,7 +210,7 @@
         ]
       }
     ],
-    "tags": ["business analysis", "requirements", "elicitation", "RTM", "acceptance criteria", "non-functional", "pmbok 8", "value", "planning", "delivery"],
+    "tags": ["business analysis", "requirements", "elicitation", "RTM", "acceptance criteria", "non-functional", "pmbok 8", "value", "scope", "stakeholders"],
     "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle and performance-domain based PMP exam."
   }
 ]

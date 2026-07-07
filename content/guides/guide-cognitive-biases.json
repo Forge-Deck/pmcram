@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "Cognitive Biases in PM Decisions",
     "category": "Mindset",
-    "summary": "How mental shortcuts quietly distort estimates, risk reads and stakeholder judgement, and the disciplined habits that counter them. Framed for PMBOK 8: biases attack decisions in the Uncertainty and Measurement performance domains, and the Stewardship and Leadership principles plus structured process are the antidote.",
+    "summary": "How mental shortcuts quietly distort estimates, risk reads and stakeholder judgement, and the disciplined habits that counter them. Framed for the PMBOK 8th Edition: biases attack decisions in the Risk performance domain and in monitoring and control, and the Be an Accountable Leader principle plus structured process are the antidote.",
     "sections": [
       {
         "kicker": "Foundation",
@@ -21,13 +21,13 @@
           },
           {
             "kind": "tip",
-            "title": "PMBOK 8 lens",
+            "title": "PMBOK 8th Edition lens",
             "tone": "accent",
             "lines": [
-              "Biases most damage the Uncertainty domain (risk reads) and the Measurement domain (status reads).",
-              "Stewardship principle: act with integrity - report the true picture, not the comfortable one.",
-              "Leadership principle: invite dissent and weigh evidence over confidence.",
-              "Tailoring principle: match the rigour of the debiasing check to the stakes of the decision."
+              "Biases most damage the Risk domain (risk reads) and monitoring and control (status reads).",
+              "Be an Accountable Leader principle: act with integrity - report the true picture, not the comfortable one.",
+              "Be an Accountable Leader principle: invite dissent and weigh evidence over confidence.",
+              "Adopt a Holistic View principle: match the rigour of the debiasing check to the stakes of the decision."
             ]
           },
           {
@@ -110,14 +110,14 @@
       {
         "kicker": "Deep dive",
         "heading": "Sunk cost, confirmation and risk-read biases",
-        "body": "These biases quietly corrupt the Uncertainty and Measurement domains - the risk register and the status report.\n\nConfirmation bias favours evidence that fits a belief you already hold while discounting evidence that does not; it shows up as reading a green status into red-flag signals. The sunk-cost fallacy continues a failing effort because of money, time or effort already spent, and escalation of commitment is the spiral that follows. Availability and recency distort the register so the last vivid incident is treated as the biggest threat while quieter, more probable risks are under-rated.",
+        "body": "These biases quietly corrupt the Risk domain and monitoring and control - the risk register and the status report.\n\nConfirmation bias favours evidence that fits a belief you already hold while discounting evidence that does not; it shows up as reading a green status into red-flag signals. The sunk-cost fallacy continues a failing effort because of money, time or effort already spent, and escalation of commitment is the spiral that follows. Availability and recency distort the register so the last vivid incident is treated as the biggest threat while quieter, more probable risks are under-rated.",
         "blocks": [
           {
             "kind": "cards",
             "items": [
               {
                 "title": "Confirmation bias",
-                "badge": "Measurement",
+                "badge": "M&C",
                 "tone": "warn",
                 "groups": [
                   { "label": "Looks like", "lines": ["Dismissing a slipping test pass rate as a blip because the plan says delivery is fine."] },
@@ -126,7 +126,7 @@
               },
               {
                 "title": "Sunk cost + escalation",
-                "badge": "Uncertainty",
+                "badge": "Risk",
                 "tone": "bad",
                 "groups": [
                   { "label": "Looks like", "lines": ["Pushing on with an unviable vendor build because 'we have already spent six figures'."] },
@@ -135,7 +135,7 @@
               },
               {
                 "title": "Availability + recency",
-                "badge": "Uncertainty",
+                "badge": "Risk",
                 "tone": "warn",
                 "groups": [
                   { "label": "Looks like", "lines": ["One dramatic outage dominates planning while a more probable supplier risk is ignored."] },
@@ -173,14 +173,14 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "good",
-            "text": "Weight input by evidence and track record, not by how certain it sounds - a Leadership-principle behaviour."
+            "text": "Weight input by evidence and track record, not by how certain it sounds - a Be an Accountable Leader behaviour."
           }
         ]
       },
       {
         "kicker": "Toolkit",
         "heading": "Debiasing toolkit",
-        "body": "Practical defences for high-stakes calls. The theme is the same across PMBOK 8: build the check into the process so good judgement does not depend on remembering to be objective.",
+        "body": "Practical defences for high-stakes calls. The theme is the same across the PMBOK 8th Edition: build the check into the process so good judgement does not depend on remembering to be objective.",
         "blocks": [
           {
             "kind": "steps",
@@ -188,7 +188,7 @@
             "items": [
               { "title": "Premortem", "lines": ["Imagine the project has already failed; work backwards to list why.", "Surfaces risks that optimism would hide."] },
               { "title": "Structured, independent estimates", "lines": ["Gather views separately before discussion.", "Blocks anchoring and groupthink before they set in."] },
-              { "title": "Devil's advocate", "lines": ["Assign someone to argue against the favoured plan.", "Legitimises dissent - a Leadership-principle behaviour."] },
+              { "title": "Devil's advocate", "lines": ["Assign someone to argue against the favoured plan.", "Legitimises dissent - a Be an Accountable Leader behaviour."] },
               { "title": "Checklists", "lines": ["Encode the questions you always forget.", "Judgement stops relying on memory."] },
               { "title": "Set kill criteria early", "lines": ["Agree in advance what evidence ends the effort.", "Neutralises sunk cost and escalation."] },
               { "title": "Slow down when it matters", "lines": ["Reserve deliberate, evidence-based thinking for decisions that count.", "Let fast intuition handle the trivial ones."] }
@@ -198,12 +198,12 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "good",
-            "text": "Build the check into the process so it does not depend on remembering to be objective - this is disciplined Stewardship, and usually the correct answer."
+            "text": "Build the check into the process so it does not depend on remembering to be objective - this is disciplined accountable leadership, and usually the correct answer."
           }
         ]
       }
     ],
-    "tags": ["cognitive bias", "decision-making", "estimation", "risk", "mindset", "planning fallacy", "anchoring", "sunk cost", "pmbok 8", "uncertainty", "measurement", "stewardship", "leadership"],
-    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains."
+    "tags": ["cognitive bias", "decision-making", "estimation", "risk", "mindset", "planning fallacy", "anchoring", "sunk cost", "pmbok 8", "monitoring and control", "be an accountable leader", "adopt a holistic view"],
+    "source": "PM Cram study notes - reworded and restructured for the current ECO-based PMP exam and aligned to PMBOK 8th Edition principles and performance domains."
   }
 ]

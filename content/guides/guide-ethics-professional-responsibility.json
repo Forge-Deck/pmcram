@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Ethics & Professional Responsibility",
     "category": "Mindset",
-    "summary": "How PMI expects a project manager to act with responsibility, respect, fairness, and honesty. In PMBOK 8 this is the Stewardship principle: be a diligent, trustworthy, and caring custodian of people, resources, and decisions. Built into scan-friendly blocks: the four Code values, hard boundaries, scenario -> right action, and a decision path.",
+    "summary": "How PMI expects a project manager to act with responsibility, respect, fairness, and honesty. In PMBOK 8 this maps to the Be an Accountable Leader principle (which merges stewardship and leadership): be a diligent, trustworthy, and caring custodian of people, resources, and decisions. Built into scan-friendly blocks: the four Code values, hard boundaries, scenario -> right action, and a decision path.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
-        "heading": "Ethics is the Stewardship principle",
-        "body": "Ethics is not a side topic. In PMBOK 8 it maps directly to Stewardship: be a diligent, respectful, and caring steward acting with integrity toward people, resources, the organization, and the environment. The PMI Code of Ethics and Professional Conduct gives the baseline, and its four values - Responsibility, Respect, Fairness, Honesty - are what the exam tests.",
+        "heading": "Ethics is the Be an Accountable Leader principle",
+        "body": "Ethics is not a side topic. In PMBOK 8 it maps directly to Be an Accountable Leader, the principle that merges stewardship and leadership: be a diligent, respectful, and caring steward acting with integrity toward people, resources, the organization, and the environment. The PMI Code of Ethics and Professional Conduct gives the baseline, and its four values - Responsibility, Respect, Fairness, Honesty - are what the exam tests.",
         "blocks": [
           {
             "kind": "tip",
@@ -18,7 +18,7 @@
               "Ethical action = tell the truth early, protect confidential information, avoid self-interest, follow lawful and organizational process, escalate serious concerns through the right channel.",
               "The best answer is transparent, lawful, respectful, and focused on long-term trust over short-term comfort.",
               "If one option hides information to keep someone happy and another communicates facts responsibly, choose the transparent one.",
-              "Stewardship = act with integrity even when it is uncomfortable."
+              "Accountable leadership = act with integrity even when it is uncomfortable."
             ]
           }
         ]
@@ -26,7 +26,7 @@
       {
         "kicker": "The four values",
         "heading": "PMI Code of Ethics values",
-        "body": "The Code of Ethics rests on four values. Each supports the Stewardship principle. Read the value, then the behavior the exam rewards.",
+        "body": "The Code of Ethics rests on four values. Each supports the Be an Accountable Leader principle. Read the value, then the behavior the exam rewards.",
         "blocks": [
           {
             "kind": "cards",
@@ -192,7 +192,7 @@
             "kind": "terms",
             "title": "Terms the exam leans on",
             "items": [
-              { "code": "Stewardship", "text": "PMBOK 8 principle: diligent, respectful, caring custodian who acts with integrity. Ethics lives here." },
+              { "code": "Be an Accountable Leader", "text": "PMBOK 8 principle (merges stewardship and leadership): diligent, respectful, caring custodian who acts with integrity. Ethics lives here." },
               { "code": "Conflict of interest", "text": "Personal interest could interfere, or appear to interfere, with professional judgment. Disclose and manage it." },
               { "code": "Confidentiality", "text": "Disclose sensitive information only to authorized parties with a legitimate need to know." },
               { "code": "Intellectual property", "text": "Respect copyrights, patents, licenses, trade secrets, and usage restrictions; do not misrepresent ownership." },
@@ -214,10 +214,10 @@
       "mindset",
       "exam",
       "pmbok 8",
-      "stewardship",
+      "be an accountable leader",
       "ethics",
       "code of ethics"
     ],
-    "source": "Drawn from the PMP Examination Content Outline, the PMI Code of Ethics and Professional Conduct, and the PMBOK Guide (Stewardship principle), aligned to PMBOK 8."
+    "source": "Drawn from the PMP Examination Content Outline, the PMI Code of Ethics and Professional Conduct, and the PMBOK Guide (Be an Accountable Leader principle), aligned to PMBOK 8."
   }
 ]

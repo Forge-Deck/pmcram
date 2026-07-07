@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "The Agile Mindset",
     "category": "Mindset",
-    "summary": "Agile is a way of thinking and working that delivers value, learns fast, and adapts with the team and stakeholders. In PMBOK 8 terms this lives in the Development Approach and Life Cycle performance domain and the Adaptability, Change and Value principles.",
+    "summary": "Agile is a way of thinking and working that delivers value, learns fast, and adapts with the team and stakeholders. In PMBOK 8 terms this connects to life-cycle/approach selection (now in The Standard) and the Focus on Value principle.",
     "sections": [
       {
         "kicker": "Start here",
@@ -16,7 +16,7 @@
             "tone": "good",
             "lines": [
               "If an option delivers value sooner, improves feedback, or helps the team adapt, it is often the stronger agile choice.",
-              "PMBOK 8 lens: this is the Development Approach and Life Cycle domain in action - match the approach to the product."
+              "PMBOK 8 lens: this is life-cycle/approach selection in action (now in The Standard, Section 4) - match the approach to the product."
             ]
           }
         ]
@@ -24,7 +24,7 @@
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Values and principles behind the mindset",
-        "body": "The four Agile Manifesto values still shape exam thinking. For PMP alignment, connect them to the PMBOK 8 principles - especially Value, Adaptability and Change - and treat them as behaviour guardrails, not slogans to memorise.",
+        "body": "The four Agile Manifesto values still shape exam thinking. For PMP alignment, connect them to the PMBOK 8 principles - especially Focus on Value - and treat them as behaviour guardrails, not slogans to memorise.",
         "blocks": [
           {
             "kind": "cards",
@@ -46,13 +46,12 @@
             "kind": "terms",
             "title": "PMBOK 8 principles most relevant to the agile mindset",
             "items": [
-              { "code": "Value", "text": "Focus on value as the ultimate measure of success; deliver it early and often." },
-              { "code": "Adaptability", "text": "Embrace adaptability and resiliency so the team can absorb change." },
-              { "code": "Change", "text": "Enable change to reach the envisioned future state." },
-              { "code": "Stakeholders", "text": "Engage stakeholders effectively to support value and satisfaction." },
-              { "code": "Quality", "text": "Build quality into processes and deliverables, not just inspect it in." },
-              { "code": "Stewardship", "text": "Lead with integrity and care as a diligent, respectful steward." },
-              { "code": "Tailoring", "text": "Tailor the approach based on context, needs and complexity." }
+              { "code": "Focus on Value", "text": "Treat value as the ultimate measure of success; deliver it early and often and adapt to change." },
+              { "code": "Build an Empowered Culture", "text": "Foster a collaborative, self-managing team environment where people own their work." },
+              { "code": "Be an Accountable Leader", "text": "Lead with integrity and care; take responsibility as a diligent, respectful steward." },
+              { "code": "Embed Quality", "text": "Build quality into processes and deliverables, not just inspect it in." },
+              { "code": "Adopt a Holistic View", "text": "See the whole system - people, product and context - when making decisions." },
+              { "code": "Integrate Sustainability", "text": "Balance value delivery with sustainable outcomes for people and stakeholders." }
             ]
           },
           {
@@ -167,7 +166,7 @@
       "exam",
       "pmbok 8",
       "principles",
-      "development approach",
+      "life cycle",
       "value delivery"
     ],
     "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide (aligned to PMBOK 8 principles and performance domains), Agile guidance, and the PMI Code of Ethics and Professional Conduct."

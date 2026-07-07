@@ -3,29 +3,23 @@
     "schema": "guide/v1",
     "title": "The PMP Mindset",
     "category": "Mindset",
-    "summary": "How PMI expects a project manager to think on a PMBOK 8 exam: the mindset IS the principle-based, outcome-based way of working - servant leadership, value delivery, proactive and collaborative action, diagnose before acting, the least-drastic correct action, and tailoring to context. Each rule is framed around the 12 project-management principles.",
+    "summary": "How PMI expects a project manager to think on a PMBOK 8 exam: the mindset IS the principle-based, outcome-based way of working - servant leadership, value delivery, proactive and collaborative action, diagnose before acting, the least-drastic correct action, and tailoring to context. Each rule is framed around the 6 project-management principles.",
     "sections": [
       {
         "kicker": "The core idea",
         "heading": "The mindset is the principles",
-        "body": "PMBOK 8 is principle-based and outcome-based, not process-driven. The PMP mindset is simply behaving the way the 12 principles describe: serve people, deliver value, act proactively and collaboratively, diagnose before acting, take the least-drastic correct action, and tailor to context. When two answers both look valid, pick the one that delivers value and reflects a principle.",
+        "body": "PMBOK 8 is principle-based and outcome-based, not process-driven. The PMP mindset is simply behaving the way the 6 principles describe: serve people, deliver value, act proactively and collaboratively, diagnose before acting, take the least-drastic correct action, and tailor to context. When two answers both look valid, pick the one that delivers value and reflects a principle.",
         "blocks": [
           {
             "kind": "terms",
-            "title": "The 12 principles behind every answer",
+            "title": "The 6 principles behind every answer",
             "items": [
-              { "code": "Stewardship", "text": "Be a diligent, respectful, caring steward; act with integrity." },
-              { "code": "Team", "text": "Build a collaborative, accountable team environment." },
-              { "code": "Stakeholders", "text": "Engage stakeholders effectively to support value and satisfaction." },
-              { "code": "Value", "text": "Focus on value as the ultimate measure of success." },
-              { "code": "Systems", "text": "Recognise and respond to interactions across the whole system." },
-              { "code": "Leadership", "text": "Demonstrate leadership behaviours regardless of role." },
-              { "code": "Tailoring", "text": "Tailor the approach based on context, needs and complexity." },
-              { "code": "Quality", "text": "Build quality into processes and deliverables." },
-              { "code": "Complexity", "text": "Navigate complexity with awareness and constant re-assessment." },
-              { "code": "Risk", "text": "Optimise risk responses; maximise opportunity, minimise threat." },
-              { "code": "Adaptability", "text": "Embrace adaptability and resiliency to absorb change." },
-              { "code": "Change", "text": "Enable change to reach the envisioned future state." }
+              { "code": "Adopt a Holistic View", "text": "See the whole system; navigate complexity and optimise risk responses across interacting parts." },
+              { "code": "Focus on Value", "text": "Treat value as the ultimate measure of success; adapt and enable change to deliver it." },
+              { "code": "Embed Quality Into Processes and Deliverables", "text": "Build quality into how the work is done and into what the project produces." },
+              { "code": "Be an Accountable Leader", "text": "Lead with stewardship, integrity, and accountability regardless of role." },
+              { "code": "Integrate Sustainability Within All Project Areas", "text": "Weigh environmental, social, and economic sustainability throughout the project." },
+              { "code": "Build an Empowered Culture", "text": "Foster a collaborative, accountable, and engaged team and stakeholder environment." }
             ]
           },
           {
@@ -42,7 +36,7 @@
         ]
       },
       {
-        "kicker": "Stewardship, Team, Leadership",
+        "kicker": "Be an Accountable Leader, Build an Empowered Culture",
         "heading": "Lead with stewardship and service",
         "body": "A PMP-minded project manager leads through service, stewardship, and respect for people. Stewardship means acting responsibly, caring for the team and resources, and focusing on value. On exam questions this usually means removing impediments, coaching, facilitating collaboration, and helping people succeed rather than controlling every detail. You protect the team environment and support psychological safety so issues surface early. If performance is weak, start by understanding the cause and respond with coaching, feedback, training, mentoring, or role clarification. The PMI Code of Ethics reinforces this through respect, responsibility, fairness, and honesty.",
         "blocks": [
@@ -76,7 +70,7 @@
         ]
       },
       {
-        "kicker": "Complexity, Systems",
+        "kicker": "Adopt a Holistic View",
         "heading": "Assess first, then act",
         "body": "The best first move is usually to assess the situation before taking action. Review the relevant plan, artifact, agreement, backlog, risk information, issue information, or performance data. Understand the cause, impact, and context before deciding what to do. This reflects navigating complexity and seeing the whole system rather than reacting to a symptom.",
         "blocks": [
@@ -98,7 +92,7 @@
         ]
       },
       {
-        "kicker": "Risk, Quality, Value",
+        "kicker": "Adopt a Holistic View, Embed Quality, Focus on Value",
         "heading": "Be proactive about risk, quality, and value",
         "body": "A PMP-minded project manager does not wait for problems to become crises. You identify risks early, watch for warning signs, address impediments quickly, and use root-cause analysis to solve the underlying problem. Preventing a defect, conflict, or delay is usually stronger than reacting after the damage is done. PMBOK 8 emphasises building quality in, optimising risk responses, and protecting value throughout the project. Look for actions that prevent recurrence, improve the system, and protect value rather than temporary fixes that only treat symptoms.",
         "blocks": [
@@ -132,7 +126,7 @@
         ]
       },
       {
-        "kicker": "Tailoring, Adaptability",
+        "kicker": "Focus on Value",
         "heading": "Tailor the approach to the work",
         "body": "PMBOK 8 expects you to choose an approach that fits the project context. It is principle-based and explicitly supports tailoring - models, methods, and artifacts are chosen, not mandated. Do not force predictive, agile, or hybrid practices where they do not fit.",
         "blocks": [
@@ -154,7 +148,7 @@
         ]
       },
       {
-        "kicker": "Stakeholders",
+        "kicker": "Build an Empowered Culture",
         "heading": "Engage stakeholders early and communicate directly",
         "body": "Stakeholder engagement is continuous, not a one-time activity. You identify stakeholders, analyse their needs and influence, engage them appropriately, and communicate in ways that support understanding and commitment. For conflict, confusion, or sensitive issues, direct conversation is usually better than a passive message trail. Speak with the people involved, clarify expectations, listen actively, and work toward resolution. Email can document decisions, but it is often not the best first tool for resolving disagreement or building alignment.",
         "blocks": [
@@ -176,7 +170,7 @@
         ]
       },
       {
-        "kicker": "Change",
+        "kicker": "Focus on Value",
         "heading": "Handle change through the appropriate system",
         "body": "Do not implement uncontrolled change, and do not dismiss change without evaluation. The right response depends on the delivery approach.",
         "blocks": [
@@ -215,7 +209,7 @@
         ]
       },
       {
-        "kicker": "Leadership, Stewardship",
+        "kicker": "Be an Accountable Leader",
         "heading": "Resolve at the lowest level; escalate when needed",
         "body": "The project manager owns coordination and problem solving within their authority. That usually means trying reasonable actions first: clarify, analyse, facilitate, negotiate, replan, engage the right stakeholder, or work with the team to resolve the issue. Going straight to the sponsor or senior management is usually not the best first step unless the issue is truly beyond your authority or requires formal escalation. Extreme answers are often weak answers.",
         "blocks": [
@@ -236,7 +230,7 @@
         ]
       },
       {
-        "kicker": "Stewardship, Quality",
+        "kicker": "Be an Accountable Leader, Embed Quality",
         "heading": "Act ethically and decide transparently",
         "body": "Ethics is part of the PMP mindset, not a separate topic. The PMI Code of Ethics expects responsibility, respect, fairness, and honesty. On scenario questions this means telling the truth, disclosing issues appropriately, avoiding favoritism, protecting confidentiality, following agreed processes, and making decisions in the best interests of the project and organization. Ethical choices also build trust, which improves team performance and stakeholder engagement.",
         "blocks": [
@@ -270,7 +264,7 @@
         ]
       },
       {
-        "kicker": "Value",
+        "kicker": "Focus on Value",
         "heading": "Think in outcomes, not just activities",
         "body": "PMBOK 8 is about enabling outcomes, not only performing process steps correctly. It focuses on value delivery and performance domains rather than a purely process-driven mindset. When several options seem technically acceptable, the stronger choice usually improves outcomes: delivering value, supporting the team, engaging stakeholders, reducing risk, and aligning the project with organizational goals. This matters most in hybrid and agile questions, where adaptability and feedback count as much as plan compliance.",
         "blocks": [
@@ -305,6 +299,6 @@
       "agile",
       "ethics"
     ],
-    "source": "Drawn from the PMP Examination Content Outline, PMBOK Guide (principles and performance domains), Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct; reframed around the 12 project-management principles for PMBOK 8."
+    "source": "Drawn from the PMP Examination Content Outline, PMBOK Guide (principles and performance domains), Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct; reframed around the 6 project-management principles for PMBOK 8."
   }
 ]

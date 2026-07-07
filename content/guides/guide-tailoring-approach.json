@@ -8,7 +8,7 @@
       {
         "kicker": "Start here",
         "heading": "What tailoring is and when to tailor",
-        "body": "Tailoring is the deliberate adaptation of the approach, governance and artifacts to fit the project's environment, complexity and objectives. The PMBOK Guide Eighth Edition keeps tailoring as a core idea and names it as one of its 12 principles: adjust how you work to the context rather than apply every process, document and control the same way on every effort. PMBOK 8 is principle- and outcome-based - 12 principles plus 8 performance domains (Stakeholders; Team; Development Approach and Life Cycle; Planning; Project Work; Delivery; Measurement; Uncertainty) - and tailoring shows up most directly in the Development Approach and Life Cycle domain. Its whole purpose is value delivery: keep what helps deliver value, drop what does not. On the exam, approach selection is rarely a definition question - it is embedded in a scenario that signals how the work should be organised, governed and delivered.",
+        "body": "Tailoring is the deliberate adaptation of the approach, governance and artifacts to fit the project's environment, complexity and objectives. The PMBOK Guide Eighth Edition keeps tailoring as a core concept - it is not one of the six named principles, but is realised by fitting the approach to the context rather than applying every process, document and control the same way on every effort. PMBOK 8 is principle- and outcome-based - 6 principles plus 7 performance domains (Governance; Scope; Schedule; Finance; Stakeholders; Resources; Risk) - while development approach and life cycle now sits in The Standard for Project Management, where tailoring shapes how each domain is applied. Its whole purpose is value delivery: keep what helps deliver value, drop what does not. On the exam, approach selection is rarely a definition question - it is embedded in a scenario that signals how the work should be organised, governed and delivered.",
         "blocks": [
           {
             "kind": "tip",
@@ -24,7 +24,7 @@
             "kind": "tip",
             "title": "Tailoring is not skipping discipline",
             "tone": "good",
-            "text": "Good tailoring keeps what is necessary for value delivery, compliance and control while cutting unnecessary overhead. It applies the right amount of process for the situation - the Tailoring principle in action - and does not mean doing less for its own sake."
+            "text": "Good tailoring keeps what is necessary for value delivery, compliance and control while cutting unnecessary overhead. It applies the right amount of process for the situation - tailoring in action - and does not mean doing less for its own sake."
           },
           {
             "kind": "tip",
@@ -117,7 +117,7 @@
       {
         "kicker": "Life cycles",
         "heading": "Predictive, iterative, incremental and adaptive",
-        "body": "The PMBOK Guide Eighth Edition places these on a continuum within the Development Approach and Life Cycle domain; the team chooses what best fits the context and the value it needs to deliver. Many real projects combine the patterns.",
+        "body": "The PMBOK Guide Eighth Edition places these on a continuum in its development approach and life cycle guidance, now part of The Standard for Project Management; the team chooses what best fits the context and the value it needs to deliver. Many real projects combine the patterns.",
         "blocks": [
           {
             "kind": "table",
@@ -145,7 +145,7 @@
       {
         "kicker": "What drives the choice",
         "heading": "Factors that drive tailoring",
-        "body": "Choose the approach from context, not preference - this is the Tailoring principle applied to the Development Approach and Life Cycle domain. These drivers point you toward predictive, adaptive or hybrid, always in service of value delivery.",
+        "body": "Choose the approach from context, not preference - this is tailoring applied to the development approach and life cycle. These drivers point you toward predictive, adaptive or hybrid, always in service of value delivery.",
         "blocks": [
           {
             "kind": "table",

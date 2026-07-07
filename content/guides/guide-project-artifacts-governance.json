@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Project Artifacts & Governance",
     "category": "Process",
-    "summary": "The documents that authorise, control, and track a project - and the governance that keeps them aligned to value. Tailored to PMBOK 8, where artifacts and governance support the Measurement and Delivery performance domains.",
+    "summary": "The documents that authorise, control, and track a project - and the governance that keeps them aligned to value. Tailored to PMBOK 8, where Governance is now a full domain in its own right and artifacts provide the evidence behind the Governance and Scope domains.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Why artifacts and governance matter",
-        "body": "In PMBOK 8 there is no fixed process-group document set. Artifacts are chosen to fit the project and are the evidence behind two performance domains: Delivery (are we producing the right, accepted deliverables?) and Measurement (do we have reliable status to decide?). Governance is the authority framework that decides who approves what and how issues escalate.",
+        "body": "In PMBOK 8, artifacts are chosen to fit the project and are the evidence behind the domains they serve: the Scope domain (are we producing the right, accepted deliverables?) and the Monitoring & Controlling work that tells us whether we have reliable status to decide. Governance is now a full domain in its own right - nine processes covering integration, change control, knowledge, quality assurance, sourcing and close-out - and it is the authority framework that decides who approves what and how issues escalate.",
         "blocks": [
           {
             "kind": "tip",
@@ -17,7 +17,7 @@
             "lines": [
               "Artifacts = the evidence: logs, registers, plans, baselines, reports.",
               "Governance = the rules of the road: who decides, how issues escalate.",
-              "Measurement domain relies on status artifacts; Delivery domain relies on acceptance and change control.",
+              "Monitoring & Controlling relies on status artifacts; the Scope domain relies on acceptance and change control.",
               "Tailor the set to the project - there is no one mandatory list."
             ]
           }
@@ -74,6 +74,10 @@
         "kicker": "Investment control",
         "heading": "Phase-gate (stage-gate) reviews",
         "body": "Predictive and hybrid projects are often split into phases separated by gates. A gate is a formal checkpoint, not just a milestone. At each gate, leadership reviews the completed deliverables and re-tests whether the business case is still valid, then makes a decision before more money is committed. Gates control investment incrementally and keep the project aligned to expected value - if the business case has collapsed, the gate is where you stop spending.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='10' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='38' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 1</text><rect x='106' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='134' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 2</text><rect x='202' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='230' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 3</text><line x1='66' y1='69' x2='74' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='98' y1='69' x2='106' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='162' y1='69' x2='170' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='194' y1='69' x2='202' y2='69' stroke='currentColor' stroke-width='1.2'/><polygon points='86,56 98,69 86,82 74,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='182,56 194,69 182,82 170,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='278,56 290,69 278,82 266,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><text x='86' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='182' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='278' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='150' y='126' fill='currentColor' font-size='9' text-anchor='middle'>each gate: go / hold / recycle / kill</text></svg>",
+          "caption": "Phases (boxes) are separated by gates (diamonds) where the project is continued or stopped."
+        },
         "blocks": [
           {
             "kind": "steps",
@@ -133,7 +137,7 @@
             "kind": "table",
             "title": "Reports and other artifacts",
             "rows": [
-              { "key": "Status/reports", "value": "Feed the Measurement domain with reliable, actionable status." },
+              { "key": "Status/reports", "value": "Feed Monitoring & Controlling with reliable, actionable status." },
               { "key": "Charter", "value": "Authorises the project (see above)." },
               { "key": "Business case", "value": "Justifies the investment; re-tested at each gate." },
               { "key": "WBS", "value": "Decomposes scope - covered in the Schedule & Network Diagrams guide." }
@@ -265,9 +269,9 @@
       "change control",
       "process",
       "pmbok 8",
-      "measurement",
-      "delivery"
+      "monitoring and controlling",
+      "scope"
     ],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 performance domains."
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 domains and processes."
   }
 ]

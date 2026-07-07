@@ -8,7 +8,7 @@
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Continuous improvement as a mindset",
-        "body": "PMBOK 8 treats quality and improvement as ongoing work, not a one-off phase. Continuous improvement supports the Quality principle (build quality into processes and deliverables) and the Measurement performance domain (use reliable data to drive timely adjustments). Small, regular gains compound and beat occasional big pushes, so teams build improvement into the normal flow of delivery.",
+        "body": "PMBOK 8 treats quality and improvement as ongoing work, not a one-off phase. Continuous improvement supports the Embed Quality principle (embed quality into processes and deliverables) and sits within the Governance domain, where continuous improvement and quality assurance live, using reliable data to drive timely adjustments. Small, regular gains compound and beat occasional big pushes, so teams build improvement into the normal flow of delivery.",
         "blocks": [
           {
             "kind": "steps",
@@ -24,7 +24,7 @@
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",
-            "lines": ["If a question rewards steady, iterative refinement over a single large intervention, that is the continuous-improvement mindset.", "Continuous improvement maps to the Quality principle and the Measurement domain."]
+            "lines": ["If a question rewards steady, iterative refinement over a single large intervention, that is the continuous-improvement mindset.", "Continuous improvement maps to the Embed Quality principle and the Governance domain."]
           }
         ]
       },
@@ -79,6 +79,10 @@
         "kicker": "Variation and defects",
         "heading": "Six Sigma: reduce variation and defects",
         "body": "Six Sigma uses data and statistics to reduce variation and defects. Its symbolic goal is around 3.4 defects per million opportunities, and it is driven by the voice of the customer - what the customer actually defines as a defect.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 132' xmlns='http://www.w3.org/2000/svg' fill='none'><path d='M290,68 C 300,108 30,108 36,70' stroke='currentColor' stroke-width='1.1' stroke-dasharray='4 3'/><polygon points='36,70 31,80 41,79' fill='currentColor'/><circle cx='34' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='34' y='53' fill='currentColor' font-size='13' text-anchor='middle'>D</text><text x='34' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Define</text><circle cx='98' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='98' y='53' fill='currentColor' font-size='13' text-anchor='middle'>M</text><text x='98' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Measure</text><circle cx='162' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='162' y='53' fill='currentColor' font-size='13' text-anchor='middle'>A</text><text x='162' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Analyse</text><circle cx='226' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='226' y='53' fill='currentColor' font-size='13' text-anchor='middle'>I</text><text x='226' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Improve</text><circle cx='290' cy='48' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='290' y='53' fill='currentColor' font-size='13' text-anchor='middle'>C</text><text x='290' y='86' fill='currentColor' font-size='8' text-anchor='middle'>Control</text><line x1='54' y1='48' x2='76' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='80,48 72,44 72,52' fill='currentColor'/><line x1='118' y1='48' x2='140' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='144,48 136,44 136,52' fill='currentColor'/><line x1='182' y1='48' x2='204' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='208,48 200,44 200,52' fill='currentColor'/><line x1='246' y1='48' x2='268' y2='48' stroke='currentColor' stroke-width='1.2'/><polygon points='272,48 264,44 264,52' fill='currentColor'/><text x='162' y='122' fill='currentColor' font-size='8' text-anchor='middle'>improve an existing process, then sustain and repeat</text></svg>",
+          "caption": "DMAIC: the Six Sigma cycle for improving an existing process."
+        },
         "blocks": [
           {
             "kind": "steps",
@@ -226,7 +230,7 @@
       "quality",
       "process",
       "pmbok 8",
-      "measurement domain"
+      "governance domain"
     ],
     "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains."
   }

@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Sustainability & ESG in Projects",
     "category": "Emerging trends",
-    "summary": "For the 2026 exam and PMBOK 8, sustainability and ESG are built into the plan, not bolted on. They run through the Uncertainty, Delivery and Stakeholders performance domains and the Stewardship principle - appearing as a requirement, a quality-prevention choice, a procurement criterion, a compliance category, a risk source, and a value outcome to measure.",
+    "summary": "For the 2026 exam and PMBOK 8, sustainability and ESG are built into the plan, not bolted on. The 8th Edition makes 'Integrate Sustainability Within All Project Areas' one of the six core principles - the biggest new addition - so it is now a stated professional standard, not just a trend. It threads through the Risk, Scope and Stakeholders performance domains - appearing as a requirement, a quality-prevention choice, a procurement criterion, a compliance category, a risk source, and a value outcome to measure.",
     "sections": [
       {
         "kicker": "Why now",
         "heading": "Sustainability is on the exam",
-        "body": "Sustainability is the second trend PMI named in the 2026 update, and it is deliberately spread across the outline rather than isolated. In PMBOK 8 it maps directly onto the Stewardship principle (be a diligent, caring steward) and threads through the Uncertainty, Delivery and Stakeholders performance domains. The expected mindset: sustainability is a real project requirement to plan for and measure, on par with scope, schedule and cost - built into the plan, not bolted on afterwards.",
+        "body": "Sustainability is the second trend PMI named in the 2026 update, and it is deliberately spread across the outline rather than isolated. PMBOK 8 elevated it into a core principle in its own right - 'Integrate Sustainability Within All Project Areas' - so it now sits alongside Focus on Value and Embed Quality as one of the six principles, not off to the side. It also threads through the Risk, Scope and Stakeholders performance domains. The expected mindset: sustainability is a real project requirement to plan for and measure, on par with scope, schedule and cost - built into the plan, not bolted on afterwards.",
         "blocks": [
           {
             "kind": "tip",
@@ -17,7 +17,7 @@
             "lines": [
               "If an option treats sustainability as optional or 'later', it is usually the weaker answer.",
               "Where it shows up: a critical information requirement in planning, part of cost of quality, a compliance category, and a source of risk.",
-              "PMBOK 8 lens: Stewardship principle + Uncertainty / Delivery / Stakeholders domains."
+              "PMBOK 8 lens: 'Integrate Sustainability Within All Project Areas' is a core principle + Risk / Scope / Stakeholders domains."
             ]
           }
         ]
@@ -67,7 +67,7 @@
       {
         "kicker": "Plan it in",
         "heading": "Sustainability as a requirement and constraint",
-        "body": "Treat sustainability requirements like any other. Because it is a requirement, sustainability is also subject to change control - you don't quietly drop it under schedule pressure. In PMBOK 8 this lives in the Stakeholders and Delivery domains: capture the need, define it, and reflect it in how you deliver value.",
+        "body": "Treat sustainability requirements like any other. Because it is a requirement, sustainability is also subject to change control - you don't quietly drop it under schedule pressure. In PMBOK 8 this lives in the Stakeholders and Scope domains and is reinforced by the 'Integrate Sustainability Within All Project Areas' principle: capture the need, define it, and reflect it in how you deliver value.",
         "blocks": [
           {
             "kind": "steps",
@@ -94,7 +94,7 @@
       {
         "kicker": "Quality link",
         "heading": "Sustainability, quality and cost of quality",
-        "body": "The 2026 outline pairs sustainability with cost of quality, and PMBOK 8's Quality principle says build quality in rather than inspect it in. Designing for sustainability - less waste, less rework, durable and efficient outputs - is a prevention cost that avoids larger failure costs later. Sustainable choices and quality choices usually reinforce each other rather than compete.",
+        "body": "The 2026 outline pairs sustainability with cost of quality, and PMBOK 8's Embed Quality Into Processes and Deliverables principle says build quality in rather than inspect it in. Designing for sustainability - less waste, less rework, durable and efficient outputs - is a prevention cost that avoids larger failure costs later. Sustainable choices and quality choices usually reinforce each other rather than compete.",
         "blocks": [
           {
             "kind": "table",
@@ -115,7 +115,7 @@
       {
         "kicker": "Supply chain",
         "heading": "Procurement and ESG",
-        "body": "Much of a project's environmental and social footprint sits in its supply chain. Sustainable procurement pushes ESG (Environmental, Social, Governance) criteria out beyond your own team's work. Vendor sustainability performance becomes part of how you evaluate and manage suppliers - part of the Project Work and Delivery domains.",
+        "body": "Much of a project's environmental and social footprint sits in its supply chain. Sustainable procurement pushes ESG (Environmental, Social, Governance) criteria out beyond your own team's work. Vendor sustainability performance becomes part of how you evaluate and manage suppliers - part of the Governance and Scope domains.",
         "blocks": [
           {
             "kind": "terms",
@@ -147,7 +147,7 @@
       {
         "kicker": "Compliance & risk",
         "heading": "Sustainability as compliance and risk",
-        "body": "Sustainability is now a compliance category alongside security and health and safety, and a genuine source of risk - the heart of the Uncertainty performance domain. The PM confirms the requirements, classifies them, weighs the consequences, and acts to stay compliant, while identifying and responding to sustainability threats.",
+        "body": "Sustainability is now a compliance category alongside security and health and safety, and a genuine source of risk - the heart of the Risk performance domain. The PM confirms the requirements, classifies them, weighs the consequences, and acts to stay compliant, while identifying and responding to sustainability threats.",
         "blocks": [
           {
             "kind": "steps",
@@ -171,7 +171,7 @@
                 ]
               },
               {
-                "title": "Uncertainty domain response",
+                "title": "Risk domain response",
                 "tone": "neutral",
                 "groups": [
                   { "lines": ["Identify, analyse, and plan responses.", "Communicate when a risk becomes an issue."] }
@@ -190,7 +190,7 @@
       {
         "kicker": "Value",
         "heading": "Measuring sustainable value",
-        "body": "Value in the 2026 exam and PMBOK 8 includes sustainability outcomes, not just financial return - a Measurement and Delivery domain concern tied to the Value principle. Verify a measurement system is in place to track the sustainability benefits you promised, and review them through delivery and into benefits realization after handover.",
+        "body": "Value in the 2026 exam and PMBOK 8 includes sustainability outcomes, not just financial return - a monitoring-and-controlling concern in the Scope and Finance domains, tied to the Focus on Value and 'Integrate Sustainability Within All Project Areas' principles. Verify a measurement system is in place to track the sustainability benefits you promised, and review them through delivery and into benefits realization after handover.",
         "blocks": [
           {
             "kind": "table",
@@ -210,7 +210,7 @@
         ]
       }
     ],
-    "tags": ["sustainability", "esg", "emerging-trends", "2026", "compliance", "risk", "pmbok 8", "stewardship", "triple bottom line", "circular economy"],
-    "source": "Aligned with the PMP Examination Content Outline - July 2026 (sustainability across planning, quality, compliance, and risk) and the PMBOK Guide Eighth Edition (Stewardship principle; Uncertainty, Delivery and Stakeholders performance domains)."
+    "tags": ["sustainability", "esg", "emerging-trends", "2026", "compliance", "risk", "pmbok 8", "core principle", "triple bottom line", "circular economy"],
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (sustainability across planning, quality, compliance, and risk) and the PMBOK Guide Eighth Edition ('Integrate Sustainability Within All Project Areas' is one of the six core principles; Risk, Scope and Stakeholders performance domains)."
   }
 ]

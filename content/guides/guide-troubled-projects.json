@@ -3,22 +3,22 @@
     "schema": "guide/v1",
     "title": "Recovering Troubled Projects",
     "category": "Process",
-    "summary": "How to spot a project sliding towards failure and lead a disciplined, honest turnaround that salvages value. In PMBOK 8 terms, recovery lives in the Uncertainty and Delivery performance domains: diagnose before acting, then protect the value that can still be realised.",
+    "summary": "How to spot a project sliding towards failure and lead a disciplined, honest turnaround that salvages value. In 8th-Edition terms, recovery lives in the Risk and Scope performance domains: diagnose before acting, then protect the value that can still be realised.",
     "sections": [
       {
-        "kicker": "PMBOK 8 lens",
-        "heading": "How recovery maps to PMBOK 8",
-        "body": "A turnaround is not a special process group - it is the Uncertainty and Delivery performance domains under pressure. The move that scores is always the same: diagnose before acting, and measure success as value protected from here, not the original baseline.",
+        "kicker": "8th-Edition lens",
+        "heading": "How recovery maps to the 8th Edition",
+        "body": "A turnaround is not a special process group - it is the Risk and Scope performance domains under pressure. The move that scores is always the same: diagnose before acting, and measure success as value protected from here, not the original baseline.",
         "blocks": [
           {
             "kind": "tip",
             "title": "Principles at work",
             "tone": "accent",
             "lines": [
-              "Uncertainty domain: surface the real status and attack the biggest threats first.",
-              "Delivery domain: salvage the scope that still delivers value.",
-              "Stewardship + Stakeholders: tell the truth early to rebuild trust.",
-              "Value: judge recovery by benefit still realisable, not sunk effort."
+              "Risk domain: surface the real status and attack the biggest threats first.",
+              "Scope domain: salvage the scope that still delivers value.",
+              "Be an Accountable Leader + Stakeholders: tell the truth early to rebuild trust.",
+              "Focus on Value: judge recovery by benefit still realisable, not sunk effort."
             ]
           },
           {
@@ -253,7 +253,7 @@
         ]
       }
     ],
-    "tags": ["troubled projects", "recovery", "earned value", "sunk cost", "change control", "stakeholder communication", "risk", "pmbok 8", "uncertainty domain", "delivery domain"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and re-tailored to PMBOK 8 performance domains."
+    "tags": ["troubled projects", "recovery", "earned value", "sunk cost", "change control", "stakeholder communication", "risk", "8th edition", "risk domain", "scope domain"],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and re-tailored to 8th-Edition performance domains."
   }
 ]

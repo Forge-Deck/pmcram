@@ -3,21 +3,21 @@
     "schema": "guide/v1",
     "title": "Schedule & Network Diagrams",
     "category": "Charts & Diagrams",
-    "summary": "How project schedules are drawn and analysed - passes, paths, float and the diagram styles behind them. Framed for PMBOK 8: scheduling supports the Planning and Delivery performance domains, and the level of schedule detail is tailored to the project to keep the focus on value.",
+    "summary": "How project schedules are drawn and analysed - passes, paths, float and the diagram styles behind them. Framed for PMBOK 8: scheduling supports the Schedule performance domain (with Scope for the WBS), and the level of schedule detail is tailored to the project to keep the Focus on Value.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Why scheduling matters",
-        "body": "PMBOK 8 is principle-based and outcome-based. Scheduling is not a box to tick - it is how the Planning and Delivery performance domains produce their outcomes: work that progresses in an organised, coordinated, deliberate way and deliverables that arrive when value can be realised.",
+        "body": "PMBOK 8 is principle-based and outcome-based. Scheduling is not a box to tick - it is how the Schedule performance domain (with Scope for the WBS) produces its outcomes: work that progresses in an organised, coordinated, deliberate way and deliverables that arrive when value can be realised.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How to read this guide",
             "tone": "accent",
             "lines": [
-              "Planning domain: the schedule sequences and coordinates the work.",
-              "Delivery domain: the schedule times value so benefits land when needed.",
-              "Tailoring principle: schedule detail is chosen to fit the project - light for the simple, rigorous for the complex.",
+              "Schedule domain: the schedule sequences, coordinates and times the work so benefits land when needed.",
+              "Scope domain: the WBS defines the deliverables the schedule is built from.",
+              "Tailoring (a concept, not one of the six principles): schedule detail is chosen to fit the project - light for the simple, rigorous for the complex.",
               "The technique still matters: passes, float and the diagram styles below are all fair game on the exam."
             ]
           }
@@ -243,7 +243,7 @@
         ]
       }
     ],
-    "tags": ["schedule", "network", "diagrams", "exam", "pmbok 8", "critical path", "float", "planning", "delivery", "tailoring"],
+    "tags": ["schedule", "network", "diagrams", "exam", "pmbok 8", "critical path", "float", "scope", "domains", "tailoring"],
     "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 principles and performance domains."
   }
 ]

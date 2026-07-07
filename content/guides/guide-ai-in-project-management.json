@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "AI in Project Management",
     "category": "Emerging trends",
-    "summary": "The 2026 exam treats artificial intelligence as part of everyday project work. AI is a driver behind the PMBOK 8 update, showing up inside ordinary scenarios across the Measurement, Uncertainty and Project Work domains. The exam tests your judgement in using it - and whether you stay accountable for the output - not how the tools work.",
+    "summary": "The 2026 exam treats artificial intelligence as part of everyday project work. AI is a driver behind the PMBOK 8 update, showing up inside ordinary scenarios across the Governance, Risk and Monitoring and Control domains. The exam tests your judgement in using it - and whether you stay accountable for the output - not how the tools work.",
     "sections": [
       {
         "kicker": "Why it's on the exam",
         "heading": "AI as a 2026 exam driver",
-        "body": "PMI named artificial intelligence as one of the trends driving the 2026 update, so AI shows up inside ordinary scenarios across all three domains - not as a separate topic. You will not be asked how an algorithm works. You will be asked what a project manager should do when AI is involved.",
+        "body": "PMI named artificial intelligence as one of the trends driving the 2026 update, so AI shows up inside ordinary scenarios across the performance domains - not as a separate topic. You will not be asked how an algorithm works. You will be asked what a project manager should do when AI is involved.",
         "blocks": [
           {
             "kind": "tip",
@@ -17,17 +17,17 @@
             "lines": [
               "AI is a powerful assistant, but the project manager stays accountable for the decision.",
               "Treat AI like a very fast junior analyst: useful for a first draft, never the final authority.",
-              "This maps to the Stewardship principle - stay accountable, keep a human in the loop."
+              "This maps to the Be an Accountable Leader principle - stay accountable, keep a human in the loop."
             ]
           },
           {
             "kind": "table",
             "title": "Where AI lands in PMBOK 8",
             "rows": [
-              { "key": "Measurement", "value": "AI surfaces status, patterns and anomalies in data - you still judge and decide." },
-              { "key": "Uncertainty", "value": "AI is both a tool for risk analysis and a source of new risks to manage." },
-              { "key": "Project Work", "value": "AI automates routine execution and assists drafting; value delivery stays the point." },
-              { "key": "Stewardship", "value": "Stay accountable for AI output; human-in-the-loop and data ethics are non-negotiable." }
+              { "key": "Monitoring and Control", "value": "AI surfaces status, patterns and anomalies in data - you still judge and decide." },
+              { "key": "Risk", "value": "AI is both a tool for risk analysis and a source of new risks to manage." },
+              { "key": "Governance", "value": "AI automates routine execution and assists drafting; value delivery stays the point." },
+              { "key": "Be an Accountable Leader", "value": "Stay accountable for AI output; human-in-the-loop and data ethics are non-negotiable." }
             ]
           }
         ]
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "kicker": "Stewardship",
+        "kicker": "Be an accountable leader",
         "heading": "You stay accountable - human oversight",
         "body": "Accountability cannot be delegated to a tool. AI output is a recommendation to verify against project context, data and expert judgement before acting. If an AI suggestion conflicts with the team's knowledge or the project's reality, investigate the discrepancy rather than defer to the tool.",
         "blocks": [
@@ -143,7 +143,7 @@
             "lines": [
               "When an AI result looks surprising, question the data and assumptions first.",
               "Ask: where did the data come from, is it representative, what might it be missing?",
-              "Biased data affecting people is a data-ethics and Stewardship concern."
+              "Biased data affecting people is a data-ethics and accountable-leadership concern."
             ]
           }
         ]
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "kicker": "Uncertainty domain",
+        "kicker": "Risk domain",
         "heading": "AI as a risk and a stakeholder concern",
         "body": "AI introduces its own risks that belong in the risk register and response planning. It also creates stakeholder concerns, including fears about job impact and trust in automated decisions. Manage both the way you would any risk and any stakeholder issue: identify, analyse, plan responses, and engage people openly to build understanding.",
         "blocks": [
@@ -214,7 +214,7 @@
         ]
       }
     ],
-    "tags": ["ai", "emerging-trends", "2026", "ethics", "risk", "pmbok 8", "stewardship", "measurement", "uncertainty", "project work"],
+    "tags": ["ai", "emerging-trends", "2026", "ethics", "risk", "pmbok 8", "accountable leader", "monitoring and control", "governance", "stakeholders"],
     "source": "Aligned with the PMP Examination Content Outline - July 2026 (AI as an emerging trend), PMBOK Guide Eighth Edition, and the PMI Code of Ethics and Professional Conduct."
   }
 ]

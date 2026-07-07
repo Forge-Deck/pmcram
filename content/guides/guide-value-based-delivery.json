@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Value-Based Delivery & Benefits",
     "category": "Process",
-    "summary": "PMBOK 8 makes value the point of every project: the Value principle plus the Delivery and Measurement performance domains. This guide reframes success around delivering value worth the effort, then walks the benefits-realization loop - identify, plan, deliver, measure, sustain - with the metrics and cues you need for the exam.",
+    "summary": "PMBOK 8 makes value the point of every project: the Focus on Value principle plus the Scope domain, with earned value and benefits tracked via Finance and Monitoring & Controlling. This guide reframes success around delivering value worth the effort, then walks the benefits-realization loop - identify, plan, deliver, measure, sustain - with the metrics and cues you need for the exam.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Value is the point",
-        "body": "PMI reframed project success: a project succeeds when it delivers value worth the effort and expense, not merely when it finishes on time and on budget. In PMBOK 8 this is the Value principle - value is the ultimate measure of success - realised through the Delivery domain (scope and quality that produce benefits) and the Measurement domain (data that proves benefits show up). The 2026 outline makes 'help ensure value-based delivery' a distinct Process task.\n\nSo when scope, schedule, and cost pull against delivering real value, the value-focused choice is usually the better answer.",
+        "body": "PMI reframed project success: a project succeeds when it delivers value worth the effort and expense, not merely when it finishes on time and on budget. In PMBOK 8 this is the Focus on Value principle - value is the ultimate measure of success - realised through the Scope domain (scope and quality that produce benefits), with earned value and benefits tracked via Finance and Monitoring & Controlling (data that proves benefits show up). The 2026 outline makes 'help ensure value-based delivery' a distinct Process task.\n\nSo when scope, schedule, and cost pull against delivering real value, the value-focused choice is usually the better answer.",
         "blocks": [
           {
             "kind": "tip",
@@ -131,7 +131,7 @@
       {
         "kicker": "Measure",
         "heading": "Measure benefits and value",
-        "body": "You can only 'ensure' value if you measure it. Verify a measurement system is in place to track benefits, with clear metrics and a benefits owner. Some benefits appear during delivery; many are realised after handover, so benefits tracking extends into operations. This is the heart of the Measurement performance domain: reliable data that drives timely decisions.\n\nA benefits management plan links each deliverable to the outcome it is meant to produce.",
+        "body": "You can only 'ensure' value if you measure it. Verify a measurement system is in place to track benefits, with clear metrics and a benefits owner. Some benefits appear during delivery; many are realised after handover, so benefits tracking extends into operations. This is the heart of Monitoring & Controlling and the Finance domain: reliable data that drives timely decisions.\n\nA benefits management plan links each deliverable to the outcome it is meant to produce.",
         "blocks": [
           {
             "kind": "table",
@@ -174,6 +174,6 @@
       }
     ],
     "tags": ["value", "benefits", "process", "2026", "prioritization", "pmbok 8", "delivery", "measurement"],
-    "source": "Aligned with the PMP Examination Content Outline - July 2026 (Process: help ensure value-based delivery) and PMBOK Guide Eighth Edition (Value principle; Delivery and Measurement performance domains)."
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (Process: help ensure value-based delivery) and PMBOK Guide Eighth Edition (Focus on Value principle; Scope domain, with earned value and benefits tracked via Finance and Monitoring & Controlling)."
   }
 ]

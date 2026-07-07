@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Project Selection & Business-Case Math",
     "category": "Process",
-    "summary": "How to choose which projects to fund and the numbers behind the business case, broken into scan-friendly blocks: the two method families, a formula bank for NPV, IRR, BCR, ROI, payback and EMV, a decision-rule table for picking a project, present-vs-future value, make-or-buy, scoring models, and the exam cues. Tailored to PMBOK 8, where sound project selection supports the Value principle.",
+    "summary": "How to choose which projects to fund and the numbers behind the business case, broken into scan-friendly blocks: the two method families, a formula bank for NPV, IRR, BCR, ROI, payback and EMV, a decision-rule table for picking a project, present-vs-future value, make-or-buy, scoring models, and the exam cues. Tailored to PMBOK 8, where sound project selection embodies Focus on Value and sits in the Finance domain.",
     "sections": [
       {
         "kicker": "Why it matters",
-        "heading": "Selection supports the Value principle",
-        "body": "Funding is limited, so the organisation must back the projects with the best value and strongest strategic fit. In PMBOK 8 this is the Value principle in action: choose and justify work by the value it delivers. It is also a Business-Environment concern, and the 2026 ECO raises Business Environment to 26 percent of the exam.\n\nFor the exam you mostly compare candidate projects using benefit-measurement figures and apply a clear decision rule to each.",
+        "heading": "Selection supports Focus on Value",
+        "body": "Funding is limited, so the organisation must back the projects with the best value and strongest strategic fit. In PMBOK 8 this is Focus on Value in action: choose and justify work by the value it delivers. It also sits in the Finance domain, which governs funding, business cases, and value tracking.\n\nFor the exam you mostly compare candidate projects using benefit-measurement figures and apply a clear decision rule to each.",
         "blocks": [
           {
             "kind": "cards",
@@ -208,7 +208,7 @@
             "kind": "tip",
             "title": "Memorise the directions",
             "tone": "good",
-            "lines": ["Higher NPV wins; NPV greater than 0 is viable.", "Higher IRR is better; it is the rate where NPV equals 0.", "BCR greater than 1 is good; a cost-benefit ratio flips it.", "Higher ROI is better.", "Shorter payback is better, but it ignores time value and later cash flows.", "Ignore sunk costs; decide make-or-buy on future cost, capability, IP and risk.", "PV = FV / (1 + r)^n - discount before you compare.", "Sound selection serves the PMBOK 8 Value principle."]
+            "lines": ["Higher NPV wins; NPV greater than 0 is viable.", "Higher IRR is better; it is the rate where NPV equals 0.", "BCR greater than 1 is good; a cost-benefit ratio flips it.", "Higher ROI is better.", "Shorter payback is better, but it ignores time value and later cash flows.", "Ignore sunk costs; decide make-or-buy on future cost, capability, IP and risk.", "PV = FV / (1 + r)^n - discount before you compare.", "Sound selection serves PMBOK 8 Focus on Value in the Finance domain."]
           }
         ]
       }
@@ -223,9 +223,10 @@
       "payback",
       "EMV",
       "make-or-buy",
-      "business environment",
+      "governance",
       "pmbok 8",
-      "value principle"
+      "focus on value",
+      "finance domain"
     ],
     "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles for the current ECO-based PMP exam."
   }

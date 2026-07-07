@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "Agile & Hybrid Techniques",
     "category": "Agile",
-    "summary": "Planning, backlog prioritisation, estimating and delivery-cadence techniques for agile and hybrid projects, framed through PMBOK 8 principles and the Development Approach & Life Cycle and Delivery performance domains.",
+    "summary": "Planning, backlog prioritisation, estimating and delivery-cadence techniques for agile and hybrid projects, framed through PMBOK 8 principles and performance domains, with life-cycle/approach selection now covered in The Standard.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
@@ -15,11 +15,11 @@
             "title": "How agile & hybrid map to PMBOK 8",
             "tone": "accent",
             "lines": [
-              "Development Approach & Life Cycle domain: choose predictive, adaptive or hybrid so the approach fits the product and its uncertainty.",
-              "Delivery domain: deliver value early and often; validate deliverables with the customer as you go.",
-              "Team principle: build a collaborative, self-organising, accountable team environment.",
-              "Tailoring principle: fit the cadence, detail and ceremonies to the work - not the work to a fixed process.",
-              "Value principle: value delivered is the measure of success, not documents produced."
+              "Life-cycle/approach selection (now in The Standard, Project Life Cycles): choose predictive, adaptive or hybrid so the approach fits the product and its uncertainty.",
+              "Scope domain: deliver value early and often; validate deliverables with the customer as you go.",
+              "Build an Empowered Culture principle: build a collaborative, self-organising, accountable team environment.",
+              "Tailoring (a general concept, not one of the six principles): fit the cadence, detail and ceremonies to the work - not the work to a fixed process.",
+              "Focus on Value principle: value delivered is the measure of success, not documents produced."
             ]
           }
         ]
@@ -43,7 +43,11 @@
       {
         "kicker": "Backlog",
         "heading": "Prioritising the backlog",
-        "body": "Prioritisation sequences the backlog by value so the team builds the most valuable, least risky work first - the heart of the Delivery domain.",
+        "body": "Prioritisation sequences the backlog by value so the team builds the most valuable, least risky work first - the heart of the Scope domain.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='14' y='12' width='30' height='28' rx='4' fill='#B5462F'/><text x='29' y='31' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>M</text><text x='54' y='25' fill='currentColor' font-size='11'>Must have</text><text x='54' y='38' fill='currentColor' font-size='9'>non-negotiable — the release fails without it</text><rect x='14' y='48' width='30' height='28' rx='4' fill='#1F5FA8'/><text x='29' y='67' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>S</text><text x='54' y='61' fill='currentColor' font-size='11'>Should have</text><text x='54' y='74' fill='currentColor' font-size='9'>important, but has a workaround</text><rect x='14' y='84' width='30' height='28' rx='4' fill='#2F6F5E'/><text x='29' y='103' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>C</text><text x='54' y='97' fill='currentColor' font-size='11'>Could have</text><text x='54' y='110' fill='currentColor' font-size='9'>desirable; the first to drop under pressure</text><rect x='14' y='120' width='30' height='28' rx='4' fill='none' stroke='currentColor' stroke-width='1.3' stroke-dasharray='4 3'/><text x='29' y='139' fill='currentColor' font-size='13' text-anchor='middle' font-weight='bold'>W</text><text x='54' y='133' fill='currentColor' font-size='11'>Won't have (this time)</text><text x='54' y='146' fill='currentColor' font-size='9'>out of scope for now, recorded</text></svg>",
+          "caption": "MoSCoW: Must / Should / Could are in; Won't have is explicitly deferred."
+        },
         "blocks": [
           {
             "kind": "table",
@@ -230,7 +234,7 @@
           },
           {
             "kind": "tip",
-            "title": "Measurement domain cue",
+            "title": "Monitoring & Controlling cue",
             "tone": "good",
             "lines": [
               "Metrics exist to prompt timely decisions and honest conversation, not to police people.",
@@ -285,7 +289,7 @@
         ]
       }
     ],
-    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban", "xp", "velocity", "story points", "invest", "pmbok 8", "development approach", "delivery", "value delivery", "tailoring"],
+    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban", "xp", "velocity", "story points", "invest", "pmbok 8", "development approach", "scope", "value delivery", "tailoring"],
     "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 principles and performance domains."
   }
 ]

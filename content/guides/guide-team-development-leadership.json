@@ -3,21 +3,21 @@
     "schema": "guide/v1",
     "title": "Team Development & Leadership",
     "category": "Mindset",
-    "summary": "How project managers build, motivate, and lead teams through predictable development stages and conflicts. Framed for PMBOK 8: this is the Team performance domain, powered by the Team and Leadership principles - where leadership is a behaviour anyone can demonstrate, not a title.",
+    "summary": "How project managers build, motivate, and lead teams through predictable development stages and conflicts. Framed for PMBOK 8: team development and management is the Lead the Team process within the Resources performance domain, supported by the Build an Empowered Culture and Be an Accountable Leader principles - where leadership is a behaviour anyone can demonstrate, not a title.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Where this fits",
-        "body": "In PMBOK 8 the people work lives in the Team performance domain and is driven by two principles: build a collaborative team environment, and demonstrate leadership behaviours regardless of role.",
+        "body": "In PMBOK 8 the people work lives in the Resources performance domain - team development and management is the Lead the Team process - and is driven by two principles: Build an Empowered Culture, and Be an Accountable Leader.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How to read this guide",
             "tone": "accent",
             "lines": [
-              "Team performance domain = the outcome: a high-performing team with shared ownership.",
-              "Team principle = create a collaborative, accountable team environment.",
-              "Leadership principle = leadership is a behaviour, not a title; anyone can show it.",
+              "Resources performance domain = the outcome: a high-performing team with shared ownership (team dev/mgmt = the Lead the Team process).",
+              "Build an Empowered Culture = create a collaborative, accountable team environment.",
+              "Be an Accountable Leader = leadership is a behaviour, not a title; anyone can show it.",
               "Tailor your style to the team's maturity and the situation - no single style always wins."
             ]
           }
@@ -51,6 +51,10 @@
         "kicker": "Conflict",
         "heading": "Conflict resolution modes (Thomas-Kilmann)",
         "body": "PMI recognises five ways to handle conflict; the right one depends on the situation. Collaborate is win-win and PMI's preferred mode.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 210' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='48' y1='14' x2='48' y2='174' stroke='currentColor' stroke-width='1.5'/><line x1='48' y1='174' x2='304' y2='174' stroke='currentColor' stroke-width='1.5'/><circle cx='90' cy='48' r='3.5' fill='#B5462F'/><text x='90' y='40' fill='#B5462F' font-size='10' text-anchor='middle'>Force</text><circle cx='258' cy='48' r='3.5' fill='#2F6F5E'/><text x='258' y='40' fill='#2F6F5E' font-size='10' text-anchor='middle'>Collaborate</text><circle cx='174' cy='96' r='3.5' fill='#1F5FA8'/><text x='174' y='88' fill='#1F5FA8' font-size='10' text-anchor='middle'>Compromise</text><circle cx='90' cy='150' r='3.5' fill='currentColor'/><text x='90' y='166' fill='currentColor' font-size='10' text-anchor='middle'>Withdraw</text><circle cx='258' cy='150' r='3.5' fill='currentColor'/><text x='258' y='166' fill='currentColor' font-size='10' text-anchor='middle'>Smooth</text><text x='30' y='94' fill='currentColor' font-size='10' text-anchor='middle' transform='rotate(-90 30 94)'>Assertiveness</text><text x='176' y='196' fill='currentColor' font-size='10' text-anchor='middle'>Cooperativeness</text></svg>",
+          "caption": "The five modes by assertiveness vs cooperativeness; Collaborate (top-right) is win-win."
+        },
         "blocks": [
           {
             "kind": "table",
@@ -183,7 +187,7 @@
         ]
       }
     ],
-    "tags": ["leadership", "team development", "conflict", "motivation", "power", "people", "pmbok 8", "team performance domain"],
-    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 (Team performance domain; Team and Leadership principles). Tuckman; Thomas-Kilmann; Maslow/Herzberg/McGregor/McClelland."
+    "tags": ["leadership", "team development", "conflict", "motivation", "power", "people", "pmbok 8", "resources performance domain"],
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 (Resources performance domain; Build an Empowered Culture and Be an Accountable Leader principles). Tuckman; Thomas-Kilmann; Maslow/Herzberg/McGregor/McClelland."
   }
 ]

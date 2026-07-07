@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "PMP Formulas",
     "category": "Charts & Diagrams",
-    "summary": "The formula bank in scan-friendly blocks: earned value, forecasting, three-point estimates, risk and selection, schedule float and communication channels, plus procurement. Each formula sits next to its meaning and its exam cue. Aligned to PMBOK 8, where earned value is one measurement tool inside the Measurement performance domain - but every formula here is still examinable.",
+    "summary": "The formula bank in scan-friendly blocks: earned value, forecasting, three-point estimates, risk and selection, schedule float and communication channels, plus procurement. Each formula sits next to its meaning and its exam cue. Aligned to PMBOK 8, where earned value is one measurement tool inside the Finance performance domain - but every formula here is still examinable.",
     "sections": [
       {
         "kicker": "How to read this",
         "heading": "Interpretation rules first",
-        "body": "PMBOK 8 is outcome-based: earned value is one measurement tool among several inside the Measurement performance domain, not the whole of cost control. But the numbers below still appear on the exam, so keep them sharp. Learn the sign and ratio conventions once and every formula reads the same way.",
+        "body": "PMBOK 8 is outcome-based: earned value is one measurement tool among several inside the Finance performance domain, not the whole of cost control. But the numbers below still appear on the exam, so keep them sharp. Learn the sign and ratio conventions once and every formula reads the same way.",
         "blocks": [
           {
             "kind": "tip",
@@ -37,6 +37,10 @@
         "kicker": "Earned value",
         "heading": "The three measures and how they relate",
         "body": "Every earned value calculation is built from three dollar figures measured at the same point in time, against the total Budget at Completion (BAC).",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='304' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='210' y1='28' x2='210' y2='160' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='210' y='175' fill='currentColor' font-size='9' text-anchor='middle'>time now</text><path d='M44,156 C112,150 168,92 300,44' stroke='#1F5FA8' stroke-width='1.6' stroke-dasharray='5 4'/><path d='M44,156 C100,150 162,120 210,106' stroke='#2F6F5E' stroke-width='2'/><path d='M44,156 C100,147 158,108 210,90' stroke='#B5462F' stroke-width='2'/><text x='276' y='44' fill='#1F5FA8' font-size='10'>PV</text><text x='216' y='108' fill='#2F6F5E' font-size='10'>EV</text><text x='216' y='90' fill='#B5462F' font-size='10'>AC</text></svg>",
+          "caption": "PV planned, EV earned, AC actual. Here EV sits below PV (behind) and AC above EV (over budget)."
+        },
         "blocks": [
           {
             "kind": "terms",

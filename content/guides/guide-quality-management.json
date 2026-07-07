@@ -3,20 +3,21 @@
     "schema": "guide/v1",
     "title": "Quality Management",
     "category": "Process",
-    "summary": "How to plan, manage and control quality so deliverables conform to requirements and meet customer needs. In PMBOK 8 this is the Quality principle (build quality into processes and deliverables) realised through the Delivery performance domain.",
+    "summary": "How to plan, manage and control quality so deliverables conform to requirements and meet customer needs. In PMBOK 8 this maps to the Embed Quality Into Processes and Deliverables principle, with quality assurance sitting in the Governance domain and scope-level quality in the Scope domain.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
-        "heading": "Quality principle and Delivery domain",
-        "body": "PMBOK 8 is principle- and outcome-based. Quality maps to the Quality principle - build quality into processes and deliverables - and its outcomes live in the Delivery performance domain, where deliverables must meet scope and quality and the intended benefits are realised.",
+        "heading": "Embed Quality principle, Scope and Governance domains",
+        "body": "PMBOK 8 is principle- and outcome-based. Quality maps to the Embed Quality Into Processes and Deliverables principle - build quality in, do not inspect it out. Quality assurance sits in the Governance domain, while scope-level quality (deliverables meeting scope and acceptance criteria) lives in the Scope domain.",
         "blocks": [
           {
             "kind": "tip",
             "title": "How quality shows up",
             "tone": "accent",
             "lines": [
-              "Quality principle: design quality in, do not inspect it out.",
-              "Delivery domain: deliverables meet scope and quality; benefits are realised.",
+              "Embed Quality principle: design quality in, do not inspect it out.",
+              "Governance domain: quality assurance and audits govern the processes.",
+              "Scope domain: deliverables meet scope and acceptance criteria.",
               "Prevention over inspection is the founding idea behind every choice."
             ]
           }
@@ -248,7 +249,7 @@
         ]
       }
     ],
-    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "seven basic tools", "pmbok 8", "quality principle", "delivery domain", "PMP"],
+    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "seven basic tools", "pmbok 8", "embed quality", "scope domain", "governance domain", "PMP"],
     "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
   }
 ]

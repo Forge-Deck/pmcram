@@ -3,12 +3,12 @@
     "schema": "guide/v1",
     "title": "Contract Types",
     "category": "Process",
-    "summary": "The main procurement contract families and how each one allocates cost risk between buyer and seller. Reorganised into scan-friendly blocks and framed for PMBOK 8: procurement is part of the Project Work performance domain, where the contract type is a deliberate risk-allocation and value decision.",
+    "summary": "The main procurement contract families and how each one allocates cost risk between buyer and seller. Reorganised into scan-friendly blocks and framed for PMBOK 8: procurement is part of the Governance performance domain (sourcing), where the contract type is a deliberate risk-allocation and value decision.",
     "sections": [
       {
         "kicker": "PMBOK 8 lens",
         "heading": "Why contract type matters",
-        "body": "The contract type is a deliberate risk decision: it sets who carries the cost risk if the work turns out to be more expensive than expected. Choosing the right type is mostly about how well the scope is defined.\n\nIn PMBOK 8, procurement lives inside the Project Work performance domain, and the choice is judged by how well it allocates risk and protects value. The Risk principle (optimise risk responses) and the Value principle both apply: pick the type that puts cost risk with the party best able to bear it while still delivering value.",
+        "body": "The contract type is a deliberate risk decision: it sets who carries the cost risk if the work turns out to be more expensive than expected. Choosing the right type is mostly about how well the scope is defined.\n\nIn PMBOK 8, procurement sits inside the Governance performance domain under sourcing, and the choice is judged by how well it allocates risk and protects value. The Adopt a Holistic View principle and the Focus on Value principle both apply: pick the type that puts cost risk with the party best able to bear it while still delivering value.",
         "blocks": [
           {
             "kind": "tip",
@@ -25,7 +25,7 @@
             "title": "PMBOK 8 framing",
             "tone": "neutral",
             "lines": [
-              "Procurement supports the Project Work domain: efficient processes, managed procurement, clear communication.",
+              "Procurement supports the Governance domain: sourcing decisions, managed procurement, clear communication.",
               "Contract type = risk allocation: who owns the cost uncertainty.",
               "Judge options by value delivered and sound risk response, not just lowest price."
             ]
@@ -143,6 +143,10 @@
         "kicker": "The spectrum",
         "heading": "Risk spectrum and exam cues",
         "body": "The families sit on a single risk spectrum. The seller bears the most cost risk under FFP; the buyer bears the most under CPFF; FPIF, FPEPA, CPIF, CPAF and T&M fall in between. Risk crosses over as you move from fixed price to cost-reimbursable.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='34,58 300,150 34,150' fill='#B5462F' fill-opacity='0.16' stroke='#B5462F' stroke-width='1'/><polygon points='300,58 300,150 34,150' fill='#1F5FA8' fill-opacity='0.16' stroke='#1F5FA8' stroke-width='1'/><text x='42' y='52' fill='#B5462F' font-size='10'>Seller risk</text><text x='292' y='52' fill='#1F5FA8' font-size='10' text-anchor='end'>Buyer risk</text><line x1='34' y1='150' x2='300' y2='150' stroke='currentColor' stroke-width='1.4'/><text x='38' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FFP</text><text x='110' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FPIF</text><text x='172' y='166' fill='currentColor' font-size='9' text-anchor='middle'>T&amp;M</text><text x='234' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPIF</text><text x='298' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPFF</text><text x='167' y='186' fill='currentColor' font-size='9' text-anchor='middle'>fixed price  →  cost-reimbursable</text></svg>",
+          "caption": "Risk crosses over: seller bears most under FFP, buyer most under CPFF."
+        },
         "blocks": [
           {
             "kind": "table",
@@ -170,7 +174,7 @@
         ]
       }
     ],
-    "tags": ["procurement", "contracts", "fixed-price", "cost-reimbursable", "time-and-materials", "process", "pmbok 8", "project work", "risk allocation"],
-    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 (procurement within the Project Work performance domain)."
+    "tags": ["procurement", "contracts", "fixed-price", "cost-reimbursable", "time-and-materials", "process", "pmbok 8", "governance", "risk allocation"],
+    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 (procurement within the Governance performance domain)."
   }
 ]
