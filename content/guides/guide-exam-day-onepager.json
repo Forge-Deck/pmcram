@@ -3,7 +3,7 @@
     "schema": "guide/v1",
     "title": "Exam-Day One-Pager",
     "category": "Exam Strategy",
-    "summary": "The final-glance sheet, broken into scan-friendly blocks: a question filter, delivery-model signals, the formula bank, highest-yield mindset rules, must-know acronyms, roles/quality/closure order, people models and procurement/schedule cuts. Read this last, right before you walk in.",
+    "summary": "The final-glance sheet for a PMBOK 8 exam, broken into scan-friendly blocks: a question filter, the 12 principles and 8 performance domains, tailoring and value-delivery cues, delivery-model signals, the formula bank, highest-yield mindset rules, must-know acronyms, roles/quality/closure order, people models and procurement/schedule cuts. Read this last, right before you walk in.",
     "sections": [
       {
         "kicker": "Start here",
@@ -24,6 +24,56 @@
             "title": "Exam tip",
             "tone": "bad",
             "lines": ["Don't edit baselines directly.", "Don't escalate before trying the correct process.", "Don't decide for an agile team.", "Don't stay passive when action is required."]
+          }
+        ]
+      },
+      {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Principles, domains and tailoring",
+        "body": "PMBOK 8 is principle-based and outcome-based, not process-group / knowledge-area based. Answer from the 12 principles and the 8 performance domains, and always tailor to context. When two options both look valid, pick the one that delivers value and reflects a principle.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How to use this",
+            "lines": ["Principles = the why: guardrails for behaviour.", "Performance domains = the what: outcomes to achieve.", "Tailoring = the how: choose models, methods and artifacts that fit the project.", "Value delivery is the point of every choice."]
+          },
+          {
+            "kind": "terms",
+            "title": "12 project-management principles",
+            "items": [
+              { "code": "Stewardship", "text": "Be a diligent, respectful and caring steward; act with integrity." },
+              { "code": "Team", "text": "Build a collaborative, accountable project team environment." },
+              { "code": "Stakeholders", "text": "Engage stakeholders effectively to support value and satisfaction." },
+              { "code": "Value", "text": "Focus on value as the ultimate measure of success." },
+              { "code": "Systems", "text": "Recognise and respond to interactions across the whole system." },
+              { "code": "Leadership", "text": "Demonstrate leadership behaviours regardless of role." },
+              { "code": "Tailoring", "text": "Tailor the approach based on context, needs and complexity." },
+              { "code": "Quality", "text": "Build quality into processes and deliverables." },
+              { "code": "Complexity", "text": "Navigate complexity using awareness and constant re-assessment." },
+              { "code": "Risk", "text": "Optimise risk responses; maximise opportunity, minimise threat." },
+              { "code": "Adaptability", "text": "Embrace adaptability and resiliency to absorb change." },
+              { "code": "Change", "text": "Enable change to reach the envisioned future state." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "8 performance domains -> desired outcome",
+            "rows": [
+              { "key": "Stakeholders", "value": "Productive relationships and stakeholder agreement on value." },
+              { "key": "Team", "value": "A high-performing team with shared ownership and fit-for-purpose leadership." },
+              { "key": "Dev Approach", "value": "Development approach and life cycle match the product and deliver value." },
+              { "key": "Planning", "value": "Work progresses in an organised, coordinated and deliberate way." },
+              { "key": "Project Work", "value": "Efficient processes, managed resources and procurement, clear communication." },
+              { "key": "Delivery", "value": "Deliverables meet scope and quality; intended benefits are realised." },
+              { "key": "Measurement", "value": "Reliable status and actionable data drive timely decisions." },
+              { "key": "Uncertainty", "value": "Threats reduced, opportunities captured, environment understood." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tailoring reminder",
+            "tone": "good",
+            "lines": ["Models, methods and artifacts are chosen, not mandated.", "Simple project -> lighter process; complex -> more rigour.", "There is no one right set of documents; fit them to the project.", "When an option says 'always use the full process', be suspicious."]
           }
         ]
       },
@@ -74,7 +124,7 @@
       {
         "kicker": "Calculation bank",
         "heading": "Formulae",
-        "body": "Each formula sits next to its meaning and exam cue.",
+        "body": "Each formula sits next to its meaning and exam cue. PMBOK 8 leans on outcomes over process, but earned value and these quick-reference numbers still appear.",
         "blocks": [
           { "kind": "tip", "title": "Interpretation", "tone": "bad", "lines": ["Negative variance is bad.", "Index below 1 is bad."] },
           {
@@ -177,7 +227,7 @@
               ] }
             ]
           },
-          { "kind": "tip", "title": "Mindset tip", "lines": ["Diagnose before treating.", "Follow process before escalating.", "Use the least-drastic correct action."] }
+          { "kind": "tip", "title": "Mindset tip", "lines": ["Diagnose before treating.", "Follow process before escalating.", "Use the least-drastic correct action.", "Favour the option that delivers value and honours a principle."] }
         ]
       },
       {
@@ -246,7 +296,7 @@
       {
         "kicker": "Roles and process order",
         "heading": "Roles, quality and closure",
-        "body": "Common traps for 'what happens next' questions.",
+        "body": "Common traps for 'what happens next' questions. In PMBOK 8 terms these map to the Delivery and Measurement performance domains, plus the Quality principle.",
         "blocks": [
           { "kind": "table", "title": "Who owns what", "rows": [
             { "key": "Sponsor", "value": "Funds and champions one project.\nSigns off acceptance." },
@@ -277,13 +327,13 @@
             { "title": "Lessons learned", "lines": ["Capture before the team disperses."] },
             { "title": "Release the team", "lines": ["Last - and only after finance confirms payment."] }
           ] },
-          { "kind": "tip", "title": "Exam tip", "lines": ["Audit = Manage Quality.", "Inspect deliverables = Control Quality.", "Customer sign-off = Validate Scope.", "Sponsor accepts; PMO aligns."] }
+          { "kind": "tip", "title": "Exam tip", "lines": ["Audit = Manage Quality.", "Inspect deliverables = Control Quality.", "Customer sign-off = Validate Scope.", "Sponsor accepts; PMO aligns.", "Confirm benefits are realised, not just deliverables shipped."] }
         ]
       },
       {
         "kicker": "People topics",
         "heading": "Conflict, leadership and change",
-        "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change.",
+        "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change - the heart of the Team and Stakeholders performance domains.",
         "blocks": [
           { "kind": "steps", "title": "Conflict modes (best first)", "items": [
             { "title": "Collaborate", "lines": ["Problem-solve, win-win. Usually preferred."] },
@@ -322,7 +372,7 @@
             { "key": "Kotter", "value": "8-step organisation change." },
             { "key": "Satir", "value": "Performance dips then recovers." }
           ] },
-          { "kind": "tip", "title": "People tip", "lines": ["Conflict -> collaborate.", "Agile -> servant leadership.", "People lag the system change - plan for the dip."] }
+          { "kind": "tip", "title": "People tip", "lines": ["Conflict -> collaborate.", "Agile -> servant leadership.", "People lag the system change - plan for the dip.", "Leadership is a behaviour, not just a title."] }
         ]
       },
       {
@@ -357,7 +407,7 @@
         ]
       }
     ],
-    "tags": ["exam strategy", "cheat sheet", "acronyms", "formulas", "agile", "predictive", "hybrid", "earned value", "quick reference", "exam day"],
-    "source": "Compact synthesis of all PM Cram cheat-sheet topics for a final pre-exam review"
+    "tags": ["exam strategy", "cheat sheet", "acronyms", "formulas", "agile", "predictive", "hybrid", "earned value", "quick reference", "exam day", "pmbok 8", "principles", "performance domains", "tailoring", "value delivery"],
+    "source": "Compact synthesis of all PM Cram cheat-sheet topics for a final pre-exam review, aligned to PMBOK 8 principles and performance domains"
   }
 ]
