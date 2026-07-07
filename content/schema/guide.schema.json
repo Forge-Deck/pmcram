@@ -98,22 +98,7 @@
     "topics": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "OPTIONAL. Top-level study topics (filter chips) for the Guides hub, e.g. 'Exam Strategy', 'PMBOK 8', 'Formulae'."
-    },
-    "pathMembership": {
-      "type": "array",
-      "description": "OPTIONAL. Curated study paths this guide belongs to. The order-1 entry of a path also carries that path's purpose + tags.",
-      "items": {
-        "type": "object",
-        "required": ["path", "order"],
-        "additionalProperties": false,
-        "properties": {
-          "path": { "type": "string", "description": "Study-path title." },
-          "order": { "type": "integer", "description": "This guide's position in the path (1-based)." },
-          "purpose": { "type": "string", "description": "Path purpose (define on the order-1 guide)." },
-          "tags": { "type": "array", "items": { "type": "string" }, "description": "Path tags (define on the order-1 guide)." }
-        }
-      }
+      "description": "OPTIONAL. Top-level study topics (filter chips) for the Guides page, e.g. 'Exam Strategy', 'PMBOK 8', 'Formulae'."
     },
     "source": { "type": "string" }
   }
