@@ -16,8 +16,8 @@
       { "symbol": "Vroom", "meaning": "Expectancy — motivation = expectancy x instrumentality x valence; people weigh the odds of effort leading to a valued reward" },
       { "symbol": "Pink", "meaning": "Intrinsic drive for knowledge work — autonomy, mastery, purpose (carrots and sticks backfire)" }
     ],
-    "back": "All explain what energises people, and most separate true motivators from baseline conditions that merely prevent unhappiness.\n\nThey differ in lens: Maslow ranks needs; Herzberg splits factors into two types; McGregor is about the manager's beliefs; McClelland matches the individual's dominant need; Vroom is a calculation of perceived odds; Pink rejects rewards/punishments for creative work in favour of intrinsic drivers.",
-    "tip": "Herzberg trap: a pay rise or better conditions are hygiene — they remove dissatisfaction but do not motivate. Recognition, growth and purpose do.",
+    "back": "All explain what energises people, and most separate true motivators from baseline conditions that merely prevent unhappiness.\n\nThey differ in lens:\n\n- Maslow ranks needs.\n- Herzberg splits factors into two types.\n- McGregor is about the manager's beliefs.\n- McClelland matches the individual's dominant need.\n- Vroom is a calculation of perceived odds.\n- Pink rejects rewards and punishments for creative work in favour of intrinsic drivers.",
+    "tip": "Trap: a pay rise or better conditions are hygiene (Herzberg) — they remove dissatisfaction but do not motivate. Recognition, growth and purpose do.",
     "related": ["Maslow's Hierarchy of Needs", "Herzberg's Two-Factor Theory", "McGregor's Theory X", "McClelland's Theory of Needs", "Expectancy Theory", "Daniel Pink's Drive"],
     "source": "Maslow, Herzberg, McGregor, McClelland, Vroom, Pink — motivation theories"
   },
@@ -35,7 +35,7 @@
       { "symbol": "Drexler-Sibbet", "meaning": "Seven stages with a key question to resolve at each, from creating the team to sustaining and renewing it" },
       { "symbol": "Belbin", "meaning": "Nine behavioural ROLES people adopt (action, people, thinking) — about team composition, not stages" }
     ],
-    "back": "Tuckman and Drexler-Sibbet both describe how a team MATURES over time, and both say high performance comes only after early friction.\n\nThe difference: Tuckman is the simple five-stage view; Drexler-Sibbet is a richer seven-stage view with a question to answer at each. Belbin is orthogonal — it describes the MIX of roles in the team, not a sequence.",
+    "back": "Tuckman and Drexler-Sibbet both describe how a team MATURES over time, and both say high performance comes only after early friction.\n\nThe difference:\n\n- Tuckman is the simple five-stage view.\n- Drexler-Sibbet is a richer seven-stage view, with a question to answer at each.\n- Belbin is orthogonal — it describes the MIX of roles in the team, not a sequence.",
     "tip": "Stages (Tuckman, Drexler-Sibbet) say WHEN a team performs; Belbin roles say WHO does what. Don't conflate a stage model with a role model.",
     "related": ["Tuckman's Stages of Team Development", "Drexler-Sibbet Team Performance Model", "Belbin Team Roles"],
     "source": "Tuckman; Drexler-Sibbet; Belbin — team development and roles"
@@ -72,7 +72,7 @@
       { "symbol": "Servant", "meaning": "Lead by serving the team first — remove impediments, grow people; central to agile" },
       { "symbol": "Transformational vs Transactional", "meaning": "Inspire and elevate around a vision vs exchange rewards for performance" }
     ],
-    "back": "All are relationship and behaviour styles, and none is universally best.\n\nSituational leadership flexes to the person and task; servant leadership puts the team's needs first; transformational inspires change while transactional trades rewards for results. The PMP mindset and agile lean servant and situational.",
+    "back": "All are relationship and behaviour styles, and none is universally best.\n\n- Situational leadership flexes to the person and task.\n- Servant leadership puts the team's needs first.\n- Transformational inspires change, while transactional trades rewards for results.\n\nThe PMP mindset and agile lean servant and situational.",
     "tip": "There is no single best style. Agile favours servant leadership; Situational says match the style to the follower's readiness.",
     "related": ["Situational Leadership II", "Hersey-Blanchard Situational Leadership", "Servant leadership"],
     "source": "Hersey-Blanchard; Greenleaf; Burns/Bass — leadership models"
@@ -93,7 +93,7 @@
       { "symbol": "Bridges", "meaning": "The psychological TRANSITION — Ending, Neutral Zone, New Beginning (separate from the external change)" },
       { "symbol": "Satir", "meaning": "The performance curve — late status quo, resistance, chaos (a dip), integration, new status quo" }
     ],
-    "back": "All address the PEOPLE side of change, not the technical rollout.\n\nLewin is the simplest three-phase frame; Kotter is an organisation-level process; ADKAR works one individual at a time; Bridges focuses on the inner psychological transition versus the external event; Satir normalises the temporary drop in performance that change causes.\n\nLevel is a favourite exam trap: ADKAR and Bridges operate at the INDIVIDUAL level (one person's adoption/transition); Lewin, Kotter and Satir operate at the ORGANISATION/system level (Satir tracks a GROUP's performance, not one person's).",
+    "back": "All address the PEOPLE side of change, not the technical rollout.\n\n- Lewin is the simplest three-phase frame.\n- Kotter is an organisation-level process.\n- ADKAR works one individual at a time.\n- Bridges focuses on the inner psychological transition versus the external event.\n- Satir normalises the temporary drop in performance that change causes.\n\nLevel is a favourite exam trap: ADKAR and Bridges operate at the INDIVIDUAL level (one person's adoption/transition); Lewin, Kotter and Satir operate at the ORGANISATION/system level (Satir tracks a GROUP's performance, not one person's).",
     "tip": "Individual level → ADKAR & Bridges. Organisation/system level → Lewin, Kotter, Satir. (Bridges & Satir describe the human experience; Lewin & Kotter the change process.)",
     "related": ["Lewin Change Model", "Kotter 8-Step Model", "ADKAR", "Bridges Transition Model", "Satir Change Model"],
     "source": "Lewin; Kotter; Prosci ADKAR; Bridges; Satir — change models"
@@ -131,7 +131,7 @@
       { "symbol": "Crosby", "meaning": "'Quality is free'; Zero Defects; quality is conformance to requirements, achieved by prevention" },
       { "symbol": "Ishikawa", "meaning": "Cause-and-effect (fishbone) diagram, quality circles, and the seven basic quality tools" }
     ],
-    "back": "All four champion prevention over inspection — quality is planned and built in, then measured and improved continuously.\n\nTheir emphasis differs: Deming on the system and PDCA; Juran on fitness for use and the trilogy; Crosby on zero defects and the cost of quality; Ishikawa on practical tools like the fishbone.",
+    "back": "All four champion prevention over inspection — quality is planned and built in, then measured and improved continuously.\n\nTheir emphasis differs:\n\n- Deming on the system and PDCA.\n- Juran on fitness for use and the trilogy.\n- Crosby on zero defects and the cost of quality.\n- Ishikawa on practical tools like the fishbone.",
     "tip": "Prevention over inspection is the shared creed. 'Quality is free' = Crosby; 'fitness for use' = Juran; PDCA and the system = Deming; fishbone = Ishikawa.",
     "related": ["Deming Cycle", "Juran's Quality Trilogy", "Crosby's Zero Defects", "Cost of quality"],
     "source": "Deming; Juran; Crosby; Ishikawa — quality management thinkers"
@@ -171,7 +171,7 @@
       { "symbol": "Salience", "meaning": "Three attributes — power, legitimacy, urgency — giving seven classes (definitive, dominant, dependent, and so on)" },
       { "symbol": "Stakeholder Cube", "meaning": "Three dimensions — power x interest x attitude (backer/blocker) — giving eight characters" }
     ],
-    "back": "All three classify stakeholders so you can decide how to engage each one.\n\nThey differ in nuance: the grid uses two dimensions; salience adds legitimacy and urgency; the cube adds attitude. More dimensions capture more reality but take more effort — match the model to the complexity of your stakeholders.",
+    "back": "All three classify stakeholders so you can decide how to engage each one.\n\nThey differ in nuance:\n\n- The grid uses two dimensions.\n- Salience adds legitimacy and urgency.\n- The cube adds attitude.\n\nMore dimensions capture more reality but take more effort — match the model to the complexity of your stakeholders.",
     "tip": "Power + interest = the grid; + legitimacy + urgency = salience; + attitude = the cube. See the Stakeholder Models guide for the diagrams.",
     "related": ["Power interest grid", "Salience model", "Stakeholder cube"],
     "source": "Power/Interest grid; Mitchell-Agle-Wood salience; Murray-Webster and Simon stakeholder cube"
@@ -190,7 +190,7 @@
       { "symbol": "Dreyfus", "meaning": "Five skill levels — novice, advanced beginner, competent, proficient, expert" },
       { "symbol": "Four Stages of Competence", "meaning": "Unconscious incompetence, conscious incompetence, conscious competence, unconscious competence" }
     ],
-    "back": "All three describe the journey from beginner to mastery, where the highest level becomes intuitive and unconscious.\n\nThey differ in framing: Shu-Ha-Ri has three rules-centred stages from martial arts and agile; Dreyfus grades five levels of skill; the Four Stages of Competence is about your AWARENESS of your own (in)competence.",
+    "back": "All three describe the journey from beginner to mastery, where the highest level becomes intuitive and unconscious.\n\nThey differ in framing:\n\n- Shu-Ha-Ri has three rules-centred stages from martial arts and agile.\n- Dreyfus grades five levels of skill.\n- The Four Stages of Competence is about your AWARENESS of your own (in)competence.",
     "tip": "All map novice to expert: Shu-Ha-Ri (three, rules-based), Dreyfus (five skill levels), Four Stages (awareness of competence).",
     "related": ["Shu-Ha-Ri", "Dreyfus Model", "Four Stages of Competence"],
     "source": "Shu-Ha-Ri; Dreyfus; the Four Stages of Competence — learning and mastery models"

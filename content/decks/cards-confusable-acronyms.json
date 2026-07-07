@@ -122,11 +122,11 @@
     "legend": [
       {
         "symbol": "Contingency",
-        "meaning": "For KNOWN risks (identified). Inside the cost baseline. The PM can authorise its use."
+        "meaning": "For KNOWN (identified) risks — inside the cost baseline; the PM can authorise its use"
       },
       {
         "symbol": "Management",
-        "meaning": "For UNKNOWN risks (unforeseen). Outside the cost baseline. Management must authorise its use."
+        "meaning": "For UNKNOWN (unforeseen) risks — outside the cost baseline; management must authorise its use"
       }
     ],
     "back": "Known-unknowns get a contingency reserve held inside the baseline; unknown-unknowns get a management reserve held above the baseline.",

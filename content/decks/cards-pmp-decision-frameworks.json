@@ -197,9 +197,9 @@
       "Scope Creep"
     ],
     "difficulty": "easy",
-    "front": "You're tempted to add a nice-to-have the customer didn't request because it would be 'better'.",
+    "front": "You're tempted to add a nice-to-have the customer didn't request because it would be 'better'. Do you add it?",
     "back": "Don't gold-plate. Deliver only the agreed scope. Any new work goes through change control (predictive) or backlog prioritisation (agile).",
-    "tip": "Gold-plating wastes resources and creates uncontrolled scope creep — a classic exam trap.",
+    "tip": "Trap: gold-plating wastes resources and creates uncontrolled scope creep.",
     "related": [
       "Scope baseline",
       "Scope creep"

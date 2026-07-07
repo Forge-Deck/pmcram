@@ -20,7 +20,7 @@
     "tags": ["Estimating", "Bottom-Up Estimating"],
     "difficulty": "medium",
     "front": "You have a detailed WBS, resource requirements, and historical data per work package. Which estimating method is most accurate?",
-    "back": "Bottom-up Estimating. It aggregates detailed estimates from the lowest level of the WBS. Most accurate but requires the most effort and information.",
+    "back": "Use Bottom-up Estimating. It aggregates detailed estimates from the lowest level of the WBS. Most accurate but requires the most effort and information.",
     "tip": "Bottom-up is preferred when you have good decomposition and data. It is the most reliable for final estimates.",
     "related": ["Analogous Estimating", "Three-Point Estimating"],
     "source": "PMBOK Guide – Estimate Activity Durations"

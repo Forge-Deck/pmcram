@@ -15,19 +15,19 @@
     "legend": [
       {
         "symbol": "BAC",
-        "meaning": "Budget at Completion — the total approved budget"
+        "meaning": "Budget at Completion"
       },
       {
         "symbol": "PV",
-        "meaning": "Planned Value — budgeted cost of work scheduled by now"
+        "meaning": "Planned Value"
       },
       {
         "symbol": "EV",
-        "meaning": "Earned Value — budgeted cost of work actually done"
+        "meaning": "Earned Value"
       },
       {
         "symbol": "AC",
-        "meaning": "Actual Cost — what's really been spent so far"
+        "meaning": "Actual Cost"
       }
     ],
     "back": "Earned value compares three S-curves over time. Read them at 'time now':\n\n- EV below PV → behind schedule\n- AC above EV → over budget",
@@ -56,12 +56,12 @@
     "formula": "PV = Planned % complete × BAC",
     "legend": [
       {
-        "symbol": "BAC",
-        "meaning": "Budget at Completion"
-      },
-      {
         "symbol": "Planned % complete",
         "meaning": "Fraction of work planned to be complete by now"
+      },
+      {
+        "symbol": "BAC",
+        "meaning": "Budget at Completion"
       }
     ],
     "back": "The budgeted cost of the work scheduled to be done by a point in time — your baseline of where you planned to be."
@@ -80,12 +80,16 @@
     "formula": "EV = Actual % complete × BAC",
     "legend": [
       {
+        "symbol": "Actual % complete",
+        "meaning": "Fraction of work actually completed by now"
+      },
+      {
         "symbol": "BAC",
         "meaning": "Budget at Completion"
       }
     ],
     "back": "The budgeted cost of the work actually completed. EV is the heart of EVM — every index and variance compares against it.",
-    "tip": "EV uses the BUDGETED cost of completed work, not the actual money spent (that's AC)."
+    "tip": "Trap: EV uses the BUDGETED cost of completed work, not the actual money spent (that's AC)."
   },
   {
     "id": "evm-cv",
@@ -264,7 +268,7 @@
     "legend": [
       {
         "symbol": "AC",
-        "meaning": "Actual Cost to date"
+        "meaning": "Actual Cost"
       },
       {
         "symbol": "ETC",
@@ -331,7 +335,7 @@
       },
       {
         "symbol": "AC",
-        "meaning": "Actual Cost to date"
+        "meaning": "Actual Cost"
       }
     ],
     "back": "The expected cost to finish the remaining work — what's left of the forecast after what you've already spent."
@@ -407,15 +411,15 @@
     "legend": [
       {
         "symbol": "O",
-        "meaning": "Optimistic estimate"
+        "meaning": "Optimistic"
       },
       {
         "symbol": "M",
-        "meaning": "Most likely estimate"
+        "meaning": "Most likely"
       },
       {
         "symbol": "P",
-        "meaning": "Pessimistic estimate"
+        "meaning": "Pessimistic"
       }
     ],
     "back": "A weighted average that leans heavily on the most likely value, giving a realistic expected duration or cost.",
