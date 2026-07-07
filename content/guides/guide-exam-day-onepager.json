@@ -13,16 +13,34 @@
       {
         "heading": "Predictive vs Agile vs Hybrid",
         "body": "Read the signals, then match the answer's flavour.\n\n- Predictive (waterfall): stable, well-understood scope; plan-heavy up front. Signals - baseline, WBS, change request, CCB, critical path, earned value. Right flavour - follow formal process, submit a change request, protect the baseline.\n- Agile (adaptive): evolving requirements, frequent feedback; deliver in increments. Signals - sprint, iteration, user story, backlog, Product Owner, standup, self-organising. Right flavour - empower the team, diagnose WITH the team, let the PO own priority, use retrospectives to improve.\n- Hybrid: mixes both or mentions tailoring. Right flavour - fit the tool to each part; plan and govern the predictive parts, iterate the uncertain parts; break down and prioritise the KNOWN requirements rather than waiting for all of them.\n\nWho decides / authority: predictive - the PM plans and directs; agile - the team self-organises and the PO prioritises; the PM is a servant leader removing impediments in both agile and hybrid.",
+        "rules": [
+          { "term": "Predictive", "meaning": "stable scope, plan up front - baseline, WBS, CCB, earned value; follow the formal process and protect the baseline." },
+          { "term": "Agile", "meaning": "evolving scope, deliver in increments - sprints, backlog, Product Owner; empower the team and improve in retros." },
+          { "term": "Hybrid", "meaning": "a mix / tailoring - govern the known parts, iterate the uncertain; break down and prioritise what is known." }
+        ],
         "tip": "Sprints / backlog / PO -> agile. Baselines / WBS / CCB -> predictive. 'Tailoring' or a mix -> hybrid."
       },
       {
         "heading": "Highest-yield mindset rules",
         "body": "- Baseline (scope/schedule/cost) needs changing -> raise a Change Request (never edit directly). Registers and logs update freely.\n- Has it happened? Yes -> Issue Log. No / might happen -> Risk Register.\n- New risk spotted -> log it in the Register first, then analyse, then respond. Every response gets a Risk Owner.\n- Known risk fires with a planned response -> use the response plan; don't improvise.\n- Agile team struggling -> diagnose WITH the team (not PM decides, not extend the timeline).\n- One person struggling -> private one-on-one; whole-team issue -> survey / bring the team together. Incentives usually backfire.\n- Functional manager pulls a resource -> negotiate with the functional manager first; escalate only if that fails.\n- Value in doubt / long timeline -> prototype or MVP.\n- New / changed stakeholder -> Register holds the who; Engagement Plan holds the how.\n- Ground rule broken -> remind directly; strengthen the process only if it recurs.\n- Emotions in a conflict -> acknowledge them first, never assign blame.\n- Diagnose before treating; follow process; least-drastic correct action wins.",
+        "signals": [
+          { "title": "Baseline vs registers", "note": "Changing a baseline needs a change request; registers and logs update freely." },
+          { "title": "Issue vs risk", "note": "Has it happened? Yes -> Issue Log. No / might happen -> Risk Register." },
+          { "title": "Agile team struggling", "note": "Diagnose WITH the team - don't decide for them or just extend the timeline." },
+          { "title": "Resource pulled", "note": "Negotiate with the functional manager first; escalate only if that fails." },
+          { "title": "Least-drastic action", "note": "Diagnose before treating; follow process; the smallest correct action wins." }
+        ],
         "tip": "On a close call, strike options that bypass process, escalate too early, decide for an agile team, or are passive when action is needed."
       },
       {
         "heading": "Roles, quality order & closure",
         "body": "- Sponsor funds and champions ONE project and signs off acceptance; PMO aligns/standardises ACROSS projects and can authorise or terminate; Product Owner owns the backlog and priority; functional manager owns the people in a matrix.\n- PM authority by structure: functional (little) -> weak matrix (coordinator) -> balanced -> strong matrix (moderate-high) -> projectized (full).\n- Quality: Plan Quality (set standards) -> Manage Quality (processes / audits / prevention) -> Control Quality (inspect deliverables for defects) -> Validate Scope (customer formally accepts).\n- Cost of Quality: Conformance = prevention + appraisal; Nonconformance = internal + external failure.\n- Closure order: accept deliverables -> close contracts/procurement -> capture lessons learned -> release the team last. Don't close until finance confirms payment.",
+        "trace": [
+          "Confirm the deliverables are accepted (Validate Scope / sponsor sign-off).",
+          "Close out contracts and procurement.",
+          "Capture lessons learned.",
+          "Release the team last - and don't close until finance confirms payment."
+        ],
         "tip": "Audit = Manage Quality; inspect deliverables = Control Quality; customer sign-off = Validate Scope. Sponsor accepts, PMO aligns."
       },
       {
@@ -38,6 +56,13 @@
       {
         "heading": "Formulae",
         "body": "Earned value (negative / below 1 = bad):\n\n- CV = EV - AC; SV = EV - PV.\n- CPI = EV / AC; SPI = EV / PV.\n- EAC = BAC / CPI (current rate continues); ETC = EAC - AC; VAC = BAC - EAC.\n- TCPI = (BAC - EV) / (BAC - AC) (efficiency still needed to hit BAC).\n\nEstimating:\n\n- PERT (three-point): tE = (O + 4M + P) / 6; Std Dev = (P - O) / 6.\n\nRisk & selection:\n\n- EMV = Probability x Impact (sum identified risks to size contingency).\n- BCR = Benefits / Costs (above 1 = worthwhile; below 1 = costs win, consult the sponsor). NPV higher = better; IRR higher = better; shorter payback = better.\n\nSchedule & comms:\n\n- Total Float = LS - ES = LF - EF (critical-path activities have zero total float).\n- Communication channels = n(n - 1) / 2, where n = number of people.\n\nProcurement:\n\n- Point of Total Assumption (FPIF) = ((Ceiling Price - Target Price) / buyer's share ratio) + Target Cost.",
+        "rules": [
+          { "term": "EAC = BAC / CPI", "meaning": "estimate at completion if the current cost efficiency continues." },
+          { "term": "CPI = EV / AC  ·  SPI = EV / PV", "meaning": "cost / schedule efficiency; below 1 = over budget / behind." },
+          { "term": "EMV = Probability x Impact", "meaning": "expected monetary value; sum identified risks to size contingency." },
+          { "term": "PERT = (O + 4M + P) / 6", "meaning": "three-point estimate, weighting the most-likely by 4." },
+          { "term": "Channels = n(n-1) / 2", "meaning": "communication channels for n people." }
+        ],
         "tip": "Variance = EV minus (PV or AC); index = EV over (PV or AC). EAC = BAC / CPI. Channels = n(n-1)/2. PERT weights the middle by 4."
       }
     ],
