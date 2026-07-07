@@ -25,6 +25,7 @@
         ]
       },
       {
+        "kicker": "Find the critical path",
         "heading": "Forward pass, backward pass & critical path",
         "body": "A schedule network links activities by dependency. Two passes find the schedule.",
         "figure": {
@@ -78,6 +79,7 @@
         ]
       },
       {
+        "kicker": "Protect the plan",
         "heading": "Critical chain & buffers",
         "body": "Critical chain method (CCM) takes the critical path and adds resource constraints - it is the longest chain of dependent activities once limited people and equipment are taken into account, not just logical dependencies. Instead of padding every activity with private safety time, CCM strips that padding out and pools it into shared buffers placed where they protect the finish date.",
         "figure": {
@@ -134,6 +136,7 @@
         ]
       },
       {
+        "kicker": "Older notation",
         "heading": "Activity-on-arrow (AOA)",
         "body": "An older network style: numbered circles are events (points in time) and arrows are the activities between them. Where a dependency exists but no real work does, a dashed 'dummy' activity is used to keep the logic correct.",
         "figure": {
@@ -168,6 +171,7 @@
         ]
       },
       {
+        "kicker": "Standard notation",
         "heading": "Precedence diagramming (AON)",
         "body": "The modern style used by most tools: boxes are activities and arrows show the dependency between them.",
         "figure": {
@@ -206,6 +210,7 @@
         ]
       },
       {
+        "kicker": "Estimate duration",
         "heading": "PERT / three-point estimate",
         "body": "Rather than a single guess, PERT uses three estimates and weights the most likely value heavily.",
         "figure": {
@@ -259,6 +264,7 @@
         ]
       },
       {
+        "kicker": "Timeline view",
         "heading": "Gantt chart (with milestone)",
         "body": "A bar chart of the schedule: one row per activity, each bar spanning its start and finish across a time axis. Bars can show dependencies, and a diamond marks a milestone - a significant zero-duration point such as a go-live or approval.",
         "figure": {
@@ -278,6 +284,7 @@
         ]
       },
       {
+        "kicker": "Decompose the work",
         "heading": "Work breakdown structure (WBS)",
         "body": "A hierarchical decomposition of the project's total scope into smaller, manageable pieces. The lowest level is the work package - small enough to estimate and control. The WBS shows scope (the 'what'), not sequence or timing.",
         "figure": {

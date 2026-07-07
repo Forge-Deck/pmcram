@@ -67,6 +67,7 @@
         ]
       },
       {
+        "kicker": "Prioritize by power",
         "heading": "Power/Interest grid",
         "body": "The most common model. It plots each stakeholder on two axes - power (their ability to influence the outcome) and interest (how much they care about it) - creating four quadrants, each with a standard engagement strategy. Close relatives swap one axis: the Power/Influence grid uses active involvement instead of interest, and the Influence/Impact grid uses ability to change the plan.",
         "figure": {
@@ -140,6 +141,7 @@
         ]
       },
       {
+        "kicker": "Prioritize by salience",
         "heading": "Salience model",
         "body": "The salience model adds a third dimension. It scores each stakeholder on three attributes and uses the overlaps of a Venn diagram to set priority - the more attributes someone holds, the more 'salient' (prominent) they are. Its benefit is a sharper read on whose needs to prioritise, so you spend communication effort where it counts; its limitation is that scoring three attributes is more involved than a simple grid, and the labels can feel judgemental.",
         "figure": {
@@ -268,6 +270,7 @@
         ]
       },
       {
+        "kicker": "Map in three dimensions",
         "heading": "Stakeholder Cube",
         "body": "The cube takes the 2D Power/Interest grid and extrudes it into three dimensions, adding attitude (supportive 'backer' vs. opposed 'blocker'). Combining power (high/low), interest (active/passive), and attitude (backer/blocker) gives eight stakeholder 'characters', each a corner of the cube. Its value is that it makes attitude explicit - two stakeholders with identical power and interest may need opposite handling depending on whether they back or block you.",
         "figure": {
