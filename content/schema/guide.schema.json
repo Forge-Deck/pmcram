@@ -10,7 +10,8 @@
     "schema": { "type": "string", "const": "guide/v1" },
     "title": { "type": "string", "description": "Guide name. Natural key used to dedupe across files (case-insensitive)." },
     "category": { "type": "string", "description": "Grouping shown in the app, e.g. Mindset, Agile, Exam strategy." },
-    "summary": { "type": "string", "description": "One-line description shown in the guide list and at the top of the reader." },
+    "summary": { "type": "string", "description": "One-line description shown at the top of the reader." },
+    "intro": { "type": "string", "description": "OPTIONAL. Punchy card teaser for the Guides list (mostly 1-2 lines). Supports '\\n' line breaks, '- ' bullets and 'N. ' numbered lines." },
     "sections": {
       "type": "array",
       "minItems": 1,
