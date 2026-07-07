@@ -106,7 +106,7 @@
             "items": [
               { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value.", "Sum identified risks to size contingency."] },
               { "formula": "BCR = Benefits / Costs", "lines": ["Above 1 = benefits exceed cost.", "Below 1 = costs exceed benefits."] },
-              { "formula": "NPV / IRR / Payback", "lines": ["Higher NPV is better.", "Higher IRR is better.", "Shorter payback is better."] }
+              { "formula": "NPV, IRR, Payback", "lines": ["Higher NPV is better.", "Higher IRR is better.", "Shorter payback is better."] }
             ]
           },
           {
