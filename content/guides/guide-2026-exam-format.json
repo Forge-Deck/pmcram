@@ -1,39 +1,103 @@
 [
   {
     "schema": "guide/v1",
-    "title": "The 2026 PMP Exam: Format & What's New",
-    "category": "Exam strategy",
+    "title": "The 2026 PMP Exam",
+    "category": "Exam Strategy",
     "summary": "What the July 2026 PMP exam looks like - domain weightings, the predictive/agile mix, and the new question types - so nothing on exam day is a surprise.",
     "sections": [
       {
-        "heading": "Three domains, rebalanced weightings",
-        "body": "Every scored question maps to one of three domains, and the 2026 update rebalanced how much each is worth:\n\n- People - 33% (was 42%)\n- Process - 41% (was 50%)\n- Business Environment - 26% (was 8%)\n\nThe headline change is Business Environment, which more than tripled. Governance, compliance, risk, organizational change, and external-environment awareness now carry real weight - don't treat them as an afterthought.",
-        "tip": "Roughly 1 in 4 questions is now Business Environment. If that has been your weak area, it is no longer safe to skim."
+        "kicker": "Domains & weightings",
+        "heading": "Three domains, rebalanced",
+        "body": "Every scored question maps to one of three domains. The 2026 update rebalanced how much each is worth - the headline change is Business Environment, which more than tripled. Governance, compliance, risk, organizational change and external-environment awareness now carry real weight; don't treat them as an afterthought.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "2026 weightings",
+            "rows": [
+              { "key": "People", "value": "33% (was 42%)" },
+              { "key": "Process", "value": "41% (was 50%)" },
+              { "key": "Business Env.", "value": "26% (was 8%)" }
+            ]
+          },
+          { "kind": "tip", "title": "Exam tip", "text": "Roughly 1 in 4 questions is now Business Environment. If that has been your weak area, it is no longer safe to skim." }
+        ]
       },
       {
-        "heading": "Predictive, agile, and hybrid are mixed throughout",
-        "body": "The exam is not split into a 'predictive section' and an 'agile section'. All three approaches appear across all three domains. PMI states roughly 40% of items reflect predictive approaches and about 60% are split between adaptive/agile and hybrid.\n\nSo the first thing to do on any scenario is work out which approach is in play from the wording, then choose the action that fits it.",
-        "tip": "Read for approach cues first: baseline / change control board / WBS = predictive; sprint / backlog / iteration / product owner = agile; a mix = hybrid."
+        "kicker": "Delivery mix",
+        "heading": "Predictive, agile and hybrid are mixed throughout",
+        "body": "The exam is not split into a 'predictive section' and an 'agile section' - all three approaches appear across all three domains. PMI states roughly 40% of items reflect predictive approaches and about 60% are split between adaptive/agile and hybrid. So the first thing to do on any scenario is work out which approach is in play from the wording, then choose the action that fits it.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Approach cues",
+            "lines": [
+              "Baseline / change control board / WBS -> predictive.",
+              "Sprint / backlog / iteration / product owner -> agile.",
+              "A mix of both, or 'tailoring' -> hybrid."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Question types",
         "heading": "New question types to expect",
-        "body": "The 2026 exam adds richer item formats beyond standard multiple choice:\n\n- Case / Scenario (NEW): a detailed situation - sometimes with charts - followed by several linked questions. The exam front-loads a case-study section with a break straight after it.\n- Graphic-Based (NEW): you interpret a chart, graph, diagram, or image, then answer.\n- Enhanced Matching / Matching: drag items to pair them with the right category or location.\n- Point and Click: click the correct hotspot on an image.\n- Pull-down List: pick the answer from a drop-down.\n- Multiple-choice single response and multiple-response (choose N) remain the backbone.",
-        "tip": "For case sets, answer each step on its own evidence - a later step never fixes an earlier answer, and you can't go back after the section break."
+        "body": "The 2026 exam adds richer item formats beyond standard multiple choice.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Formats",
+            "rows": [
+              { "key": "Case / Scenario", "value": "NEW. A detailed situation, sometimes with charts, followed by several linked questions. Front-loaded, with a break straight after." },
+              { "key": "Graphic-based", "value": "NEW. Interpret a chart, graph, diagram or image, then answer." },
+              { "key": "Matching", "value": "Drag items to pair them with the right category or location." },
+              { "key": "Point & click", "value": "Click the correct hotspot on an image." },
+              { "key": "Pull-down", "value": "Pick the answer from a drop-down list." },
+              { "key": "Multiple choice", "value": "Single-response and multiple-response (choose N) remain the backbone." }
+            ]
+          },
+          { "kind": "tip", "title": "Exam tip", "text": "For case sets, answer each step on its own evidence - a later step never fixes an earlier answer, and you can't go back after the section break." }
+        ]
       },
       {
-        "heading": "Logistics",
-        "body": "- 180 questions total:\n  - 170 scored.\n  - 10 unscored pretest questions, mixed in randomly.\n- 240 minutes (4 hours).\n- Two 10-minute breaks:\n  - the first after the case-study section.\n  - the second roughly midway through the rest.\n- Available at a test centre or online-proctored; some formats (matching, point-and-click, pull-down) are computer-based only.",
-        "tip": "Once you start a break and move on, you cannot return to the previous section - review before you leave it."
+        "kicker": "Logistics",
+        "heading": "On the day",
+        "body": "",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "At a glance",
+            "rows": [
+              { "key": "Questions", "value": "180 total: 170 scored + 10 unscored pretest, mixed in randomly." },
+              { "key": "Time", "value": "240 minutes (4 hours)." },
+              { "key": "Breaks", "value": "Two 10-minute breaks: the first after the case-study section, the second roughly midway through the rest." },
+              { "key": "Delivery", "value": "Test centre or online-proctored; some formats (matching, point-and-click, pull-down) are computer-based only." }
+            ]
+          },
+          { "kind": "tip", "title": "Exam tip", "text": "Once you start a break and move on, you cannot return to the previous section - review before you leave it." }
+        ]
       },
       {
+        "kicker": "New trends",
         "heading": "Two new trends woven in",
-        "body": "PMI explicitly cited artificial intelligence and sustainability as trends driving this update. They are not isolated topics - expect them inside ordinary scenarios across all three domains: using AI tools while staying accountable for the output, and treating sustainability as a real requirement, risk, and compliance area.",
-        "tip": "When AI or sustainability appears, apply normal PMP judgment: verify AI outputs and keep a human accountable; build sustainability into the plan rather than bolting it on."
+        "body": "PMI explicitly cited artificial intelligence and sustainability as trends driving this update. They are not isolated topics - expect them inside ordinary scenarios across all three domains: using AI tools while staying accountable for the output, and treating sustainability as a real requirement, risk and compliance area.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "lines": [
+              "AI: verify the outputs and keep a human accountable.",
+              "Sustainability: build it into the plan rather than bolting it on."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Approach",
         "heading": "How to approach the exam",
-        "body": "The exam tests judgement, not recall. PMI reframed project success around delivering value worth the effort, not just hitting schedule, budget, and scope. So the best answer is usually the one that is proactive, collaborative, within the project manager's authority, and focused on value and people.\n\nEliminate the extremes (do nothing, blame, fire, go straight to the sponsor), match the action to the approach, and when two options remain, pick the more value- and people-focused one.",
-        "tip": "Assess first, act within your authority, escalate only when genuinely beyond it - and choose the option that protects value and stakeholders."
+        "body": "The exam tests judgement, not recall. PMI reframed project success around delivering value worth the effort - not just hitting schedule, budget and scope. So the best answer is usually the one that is proactive, collaborative, within the project manager's authority, and focused on value and people. Eliminate the extremes (do nothing, blame, fire, go straight to the sponsor), match the action to the approach, and when two options remain, pick the more value- and people-focused one.",
+        "blocks": [
+          { "kind": "tip", "title": "Exam tip", "text": "Assess first, act within your authority, escalate only when genuinely beyond it - and choose the option that protects value and stakeholders." }
+        ]
       }
     ],
     "tags": ["exam", "2026", "format", "domains", "question-types"],
