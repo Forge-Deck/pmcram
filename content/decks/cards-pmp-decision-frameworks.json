@@ -5,6 +5,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Performance management",
+    "tags": [
+      "Performance Management",
+      "Coaching"
+    ],
     "difficulty": "easy",
     "front": "A team member is underperforming. What is your first move?",
     "back": "Understand the cause and support them — coaching, training, or pairing with a mentor. Don't remove, replace, or report them first.",
@@ -21,6 +25,11 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Performance management",
+    "tags": [
+      "Performance Management",
+      "Escalation",
+      "HR Involvement"
+    ],
     "difficulty": "medium",
     "front": "Coaching hasn't worked and there's no skills gap. What's the escalation path?",
     "back": "Move up one rung at a time, documenting throughout:\n\n- Agree a documented, time-bound improvement plan with measurable goals, coordinated with the resource/functional manager\n- If it doesn't improve, escalate to the resource/functional manager and inform the sponsor\n- Only as a last resort, involve HR to reassign or replace",
@@ -41,6 +50,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Conflict resolution",
+    "tags": [
+      "Conflict Resolution",
+      "Stakeholder Engagement"
+    ],
     "difficulty": "medium",
     "front": "Two key stakeholders are in open conflict and it's stalling decisions. Best first move?",
     "back": "Facilitate a direct, private conversation between them focused on project goals and impact. Help them find common ground or a workable compromise. Escalate only if that genuinely fails.",
@@ -57,6 +70,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Process",
     "topic": "Risk management",
+    "tags": [
+      "Risk Management",
+      "Risk Register"
+    ],
     "difficulty": "easy",
     "front": "A new risk is identified during execution. Correct first action?",
     "back": "Record it in the risk register and analyse it (qualitative first), then plan an appropriate response. Don't jump straight to a fix or to escalation.",
@@ -73,6 +90,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Process",
     "topic": "Change control",
+    "tags": [
+      "Change Control",
+      "Impact Analysis"
+    ],
     "difficulty": "medium",
     "front": "A stakeholder requests a significant scope change on a predictive project. Proper first step?",
     "back": "Document the change request and perform integrated impact analysis (scope, schedule, cost, risk, resources). Then submit it to the Change Control Board. Never implement it silently.",
@@ -89,6 +110,11 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Process",
     "topic": "Agile / hybrid",
+    "tags": [
+      "Change Control",
+      "Backlog Management",
+      "Agile Mindset"
+    ],
     "difficulty": "medium",
     "front": "The customer requests a change mid-sprint on an agile project. What do you do?",
     "back": "Welcome the change. Review it with the Product Owner and team, add it to the backlog, and prioritise it for a future sprint. Protect the current sprint goal.",
@@ -105,6 +131,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Process",
     "topic": "Mindset",
+    "tags": [
+      "Assess First",
+      "Root Cause Analysis"
+    ],
     "difficulty": "easy",
     "front": "You're unsure what's actually happening on the project. First move?",
     "back": "Assess before acting: gather the facts, review the plan and logs, understand the impact, then decide. Don't react blindly.",
@@ -121,6 +151,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Servant leadership",
+    "tags": [
+      "Servant Leadership",
+      "Impediment Removal"
+    ],
     "difficulty": "easy",
     "front": "The team is blocked by a significant impediment. Your primary responsibility?",
     "back": "Remove or mitigate the impediment and give the team the resources and support they need. That's servant leadership — not directing every detail or doing their work.",
@@ -137,6 +171,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Business Environment",
     "topic": "Escalation",
+    "tags": [
+      "Escalation",
+      "Authority Limits"
+    ],
     "difficulty": "medium",
     "front": "Something serious has gone wrong. Should you escalate to the sponsor immediately?",
     "back": "Usually not immediately — first do what's within your authority: investigate, communicate with stakeholders, replan, and attempt resolution. But escalate promptly when the issue is genuinely beyond your authority or involves compliance, safety, legal, or ethical matters.",
@@ -153,6 +191,11 @@
     "deck": "PMP Decision Frameworks",
     "domain": "Process",
     "topic": "Scope management",
+    "tags": [
+      "Scope Management",
+      "Gold Plating",
+      "Scope Creep"
+    ],
     "difficulty": "easy",
     "front": "You're tempted to add a nice-to-have the customer didn't request because it would be 'better'.",
     "back": "Don't gold-plate. Deliver only the agreed scope. Any new work goes through change control (predictive) or backlog prioritisation (agile).",
@@ -169,6 +212,11 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Mindset",
+    "tags": [
+      "PM Mindset",
+      "Servant Leadership",
+      "Accountability"
+    ],
     "difficulty": "easy",
     "front": "An option says 'do nothing' or 'let the team handle it entirely'. Likely right?",
     "back": "Usually wrong. Stay engaged — facilitate, support, and keep ownership of the outcome. Empowering the team is not the same as disappearing.",
@@ -185,6 +233,10 @@
     "deck": "PMP Decision Frameworks",
     "domain": "People",
     "topic": "Communication",
+    "tags": [
+      "Communication Methods",
+      "Conflict Resolution"
+    ],
     "difficulty": "easy",
     "front": "Best way to resolve a conflict or clear up confusion?",
     "back": "Prefer direct, interactive communication — face-to-face or a call — over email or a one-way message trail.",
@@ -199,6 +251,10 @@
     "schema": "card/v1",
     "deck": "PMP Decision Frameworks",
     "topic": "Exam technique",
+    "tags": [
+      "Exam Technique",
+      "PM Mindset"
+    ],
     "difficulty": "medium",
     "front": "Two answers both seem reasonable. How do you choose?",
     "back": "After eliminating the extremes, pick the more proactive, collaborative, value-focused option that keeps you responsible for the outcome.",

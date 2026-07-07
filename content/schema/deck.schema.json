@@ -12,6 +12,7 @@
     "deck": { "type": "string", "description": "Deck name this card belongs to." },
     "domain": { "type": "string", "enum": ["People", "Process", "Business Environment"] },
     "topic": { "type": "string" },
+    "tags": { "type": "array", "description": "OPTIONAL finer sub-category tags this card covers (e.g. ['Stakeholders','Communication']); shown as chips on the card. Falls back to `topic` when omitted.", "items": { "type": "string" } },
     "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
     "front": { "type": "string", "description": "Prompt side." },
     "back": { "type": "string", "description": "Answer side. Blank lines separate paragraphs; lines starting with '- ' become bullets." },

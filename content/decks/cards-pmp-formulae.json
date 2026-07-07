@@ -5,6 +5,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "Earned Value",
+      "EVM Basics"
+    ],
     "difficulty": "medium",
     "front": "Earned Value basics — PV, EV, AC, BAC",
     "formula": "EV = % complete × BAC",
@@ -43,6 +47,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "Earned Value",
+      "Planned Value"
+    ],
     "difficulty": "medium",
     "front": "Planned Value (PV)",
     "formula": "PV = Planned % complete × BAC",
@@ -64,6 +72,9 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "Earned Value"
+    ],
     "difficulty": "medium",
     "front": "Earned Value (EV)",
     "formula": "EV = Actual % complete × BAC",
@@ -82,6 +93,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "Cost Variance",
+      "Earned Value"
+    ],
     "difficulty": "medium",
     "front": "Cost Variance (CV)",
     "formula": "CV = EV − AC",
@@ -104,6 +119,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "Schedule Variance",
+      "Earned Value"
+    ],
     "difficulty": "medium",
     "front": "Schedule Variance (SV)",
     "formula": "SV = EV − PV",
@@ -125,6 +144,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "CPI",
+      "Cost Efficiency"
+    ],
     "difficulty": "hard",
     "front": "Cost Performance Index (CPI)",
     "formula": "CPI = EV / AC",
@@ -151,6 +174,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Earned value",
+    "tags": [
+      "SPI",
+      "Schedule Efficiency"
+    ],
     "difficulty": "hard",
     "front": "Schedule Performance Index (SPI)",
     "formula": "SPI = EV / PV",
@@ -172,6 +199,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "EAC",
+      "Forecasting"
+    ],
     "difficulty": "hard",
     "front": "Estimate at Completion (EAC) — typical variances",
     "formula": "EAC = BAC / CPI",
@@ -193,6 +224,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "EAC",
+      "Forecasting"
+    ],
     "difficulty": "hard",
     "front": "Estimate at Completion (EAC) — atypical variance",
     "formula": "EAC = AC + (BAC − EV)",
@@ -218,6 +253,11 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "EAC",
+      "Forecasting",
+      "ETC"
+    ],
     "difficulty": "hard",
     "front": "Estimate at Completion (EAC) — new estimate",
     "formula": "EAC = AC + ETC",
@@ -239,6 +279,11 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "EAC",
+      "Forecasting",
+      "CPI"
+    ],
     "difficulty": "hard",
     "front": "Estimate at Completion (EAC) — cost and schedule",
     "formula": "EAC = AC + (BAC − EV) / (CPI × SPI)",
@@ -272,6 +317,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "ETC",
+      "Forecasting"
+    ],
     "difficulty": "medium",
     "front": "Estimate to Complete (ETC)",
     "formula": "ETC = EAC − AC",
@@ -293,6 +342,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "VAC",
+      "Forecasting"
+    ],
     "difficulty": "medium",
     "front": "Variance at Completion (VAC)",
     "formula": "VAC = BAC − EAC",
@@ -314,6 +367,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Forecasting",
+    "tags": [
+      "TCPI",
+      "Forecasting"
+    ],
     "difficulty": "hard",
     "front": "To-Complete Performance Index (TCPI)",
     "formula": "TCPI = (BAC − EV) / (BAC − AC)",
@@ -340,6 +397,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Estimating",
+    "tags": [
+      "Estimating (PERT)",
+      "Three-Point Estimate"
+    ],
     "difficulty": "medium",
     "front": "Three-point estimate (PERT / Beta)",
     "formula": "E = (O + 4M + P) / 6",
@@ -370,6 +431,11 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Estimating",
+    "tags": [
+      "Estimating (PERT)",
+      "Three-Point Estimate",
+      "Triangular"
+    ],
     "difficulty": "medium",
     "front": "Three-point estimate (Triangular)",
     "formula": "E = (O + M + P) / 3",
@@ -396,6 +462,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Estimating",
+    "tags": [
+      "Estimating (PERT)",
+      "Standard Deviation"
+    ],
     "difficulty": "hard",
     "front": "PERT standard deviation",
     "formula": "SD = (P − O) / 6",
@@ -417,6 +487,10 @@
     "deck": "PMP Formulae",
     "domain": "Process",
     "topic": "Risk",
+    "tags": [
+      "EMV",
+      "Decision Tree"
+    ],
     "difficulty": "medium",
     "front": "Expected Monetary Value (EMV)",
     "formula": "EMV = Probability × Impact",
@@ -439,6 +513,9 @@
     "deck": "PMP Formulae",
     "domain": "People",
     "topic": "Communications",
+    "tags": [
+      "Communication Channels"
+    ],
     "difficulty": "easy",
     "front": "Communication channels",
     "formula": "Channels = n (n − 1) / 2",
