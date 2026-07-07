@@ -3,44 +3,193 @@
     "schema": "guide/v1",
     "title": "Knowledge Management in Projects",
     "category": "Process",
-    "summary": "How to capture, share and reuse both tacit and explicit project knowledge so lessons are available at the moment of need.",
+    "summary": "Capture, share and reuse tacit and explicit project knowledge so lessons are available at the moment of need. In PMBOK 8 this work supports the Project Work performance domain and the Team principle, and the lessons it surfaces feed the focus on value.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Where knowledge management fits",
+        "body": "PMBOK 8 is principle-based, not process-group based. Managing knowledge lives inside the Project Work performance domain - efficient processes and clear communication - and is powered by the Team principle: a collaborative team shares what it knows. Lessons learned are not paperwork; they inform the Value principle by helping future work make better decisions.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How to use this",
+            "tone": "accent",
+            "lines": [
+              "Project Work domain = the what: keep knowledge flowing so the work runs efficiently.",
+              "Team principle = the who: collaboration and interaction move know-how person to person.",
+              "Value principle = the why: reused lessons raise the value of future decisions.",
+              "The aim is knowledge at the MOMENT of need, not filed and forgotten."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Two kinds",
         "heading": "Tacit vs explicit knowledge",
-        "body": "Explicit knowledge is easily codified - documents, data, procedures and templates that can be written down and stored.\n\nTacit knowledge is personal know-how, experience, judgement and intuition that is hard to articulate. It lives in people's heads.\n\nManaging project knowledge means sharing BOTH. Explicit knowledge moves through repositories and documents; tacit knowledge needs interaction - conversation, pairing, mentoring and observation - because it cannot be fully captured on a page.",
-        "tip": "If an answer can be copied into a document it is explicit; if it has to be demonstrated or discussed it is tacit."
+        "body": "Managing project knowledge means sharing BOTH kinds. Explicit knowledge moves through repositories and documents; tacit knowledge needs interaction - conversation, pairing, mentoring and observation - because it cannot be fully captured on a page.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Explicit knowledge",
+                "badge": "Codified",
+                "tone": "accent",
+                "groups": [
+                  { "label": "What it is", "lines": ["Easily written down and stored.", "Documents, data, procedures, templates."] },
+                  { "label": "How it moves", "lines": ["Through repositories and documents.", "Copy it, store it, retrieve it."] }
+                ]
+              },
+              {
+                "title": "Tacit knowledge",
+                "badge": "Personal",
+                "tone": "good",
+                "groups": [
+                  { "label": "What it is", "lines": ["Personal know-how, experience, judgement, intuition.", "Hard to articulate; it lives in people's heads."] },
+                  { "label": "How it moves", "lines": ["Through interaction, not documents.", "Conversation, pairing, mentoring, observation."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "neutral",
+            "text": "If an answer can be copied into a document it is explicit; if it has to be demonstrated or discussed it is tacit."
+          }
+        ]
       },
       {
+        "kicker": "Value ladder",
         "heading": "The DIKW hierarchy",
-        "body": "Knowledge is built up in stages: Data, then Information, then Knowledge, then Wisdom.\n\n- Data: raw measurements and facts with no context\n- Information: data placed in context so it has meaning\n- Knowledge: information combined with experience to understand and act\n- Wisdom: applying knowledge with sound judgement to make good decisions\n\nThe value rises at each level as raw numbers become understanding and, finally, good judgement.",
-        "tip": "Wisdom is knowing which knowledge to apply - and when not to.",
-        "figure": {
-          "svg": "<svg viewBox='0 0 300 185' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='150,18 36,172 264,172' stroke='currentColor' stroke-width='1.3'/><line x1='121' y1='58' x2='179' y2='58' stroke='currentColor' stroke-width='0.7'/><line x1='92' y1='96' x2='208' y2='96' stroke='currentColor' stroke-width='0.7'/><line x1='64' y1='134' x2='236' y2='134' stroke='currentColor' stroke-width='0.7'/><text x='150' y='45' fill='currentColor' font-size='10' text-anchor='middle'>Wisdom</text><text x='150' y='81' fill='currentColor' font-size='10' text-anchor='middle'>Knowledge</text><text x='150' y='118' fill='currentColor' font-size='10' text-anchor='middle'>Information</text><text x='150' y='156' fill='currentColor' font-size='10' text-anchor='middle'>Data</text></svg>",
-          "caption": "DIKW: raw data becomes wisdom as context, experience, and judgement are added."
-        }
+        "body": "Knowledge is built up in stages. Value rises at each level as raw numbers become understanding and, finally, good judgement.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Data -> Information -> Knowledge -> Wisdom",
+            "items": [
+              { "title": "Data", "lines": ["Raw measurements and facts with no context."] },
+              { "title": "Information", "lines": ["Data placed in context so it has meaning."] },
+              { "title": "Knowledge", "lines": ["Information combined with experience to understand and act."] },
+              { "title": "Wisdom", "lines": ["Applying knowledge with sound judgement to make good decisions."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "neutral",
+            "text": "Wisdom is knowing which knowledge to apply - and when not to."
+          }
+        ]
       },
       {
-        "heading": "Manage Project Knowledge",
-        "body": "This process draws on existing organisational knowledge - lessons learned from prior projects - AND creates new knowledge during the current project.\n\nThe aim is to make knowledge usable at the MOMENT of need, not to file it and forget it. Knowledge that is captured but never consulted adds no value.\n\nOutputs feed the lessons learned register during the project and roll up into the lessons learned repository for the wider organisation at close.",
-        "tip": "Knowledge is an asset only when it reaches the right person at the right time."
+        "kicker": "Moment of need",
+        "heading": "Managing project knowledge",
+        "body": "This work draws on existing organisational knowledge - lessons learned from prior projects - AND creates new knowledge during the current project. Knowledge that is captured but never consulted adds no value.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Registers and repositories",
+            "rows": [
+              { "key": "Lessons register", "value": "Captures lessons during the project, as they happen." },
+              { "key": "Lessons repository", "value": "Rolls up at close into an organisation-wide store for future projects." },
+              { "key": "Draws on", "value": "Prior organisational knowledge plus new knowledge made on this project." },
+              { "key": "Goal", "value": "Make knowledge usable at the moment of need, not filed and forgotten." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "text": "Knowledge is an asset only when it reaches the right person at the right time."
+          }
+        ]
       },
       {
+        "kicker": "Cadence and audience",
         "heading": "Lessons learned vs retrospectives",
-        "body": "Lessons learned are captured throughout the project and formally at close, primarily for the ORGANISATION's benefit on future work.\n\nAgile retrospectives happen at the end of every iteration and focus on continuously improving the TEAM and its way of working right now.\n\nThe contrast is cadence and audience: lessons learned are periodic and outward-facing to the organisation; retrospectives are frequent and inward-facing to the team.",
-        "tip": "Same goal - learning - but retrospectives improve this team this sprint, lessons learned improve future projects."
+        "body": "Same goal - learning - but the contrast is cadence and audience. Lessons learned are periodic and outward-facing to the organisation; retrospectives are frequent and inward-facing to the team.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Lessons learned",
+                "badge": "Organisation",
+                "tone": "accent",
+                "groups": [
+                  { "label": "When", "lines": ["Captured throughout, and formally at close."] },
+                  { "label": "Who benefits", "lines": ["The organisation, on future work."] }
+                ]
+              },
+              {
+                "title": "Retrospectives",
+                "badge": "Team",
+                "tone": "good",
+                "groups": [
+                  { "label": "When", "lines": ["End of every iteration."] },
+                  { "label": "Who benefits", "lines": ["This team and its way of working right now."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "neutral",
+            "text": "Retrospectives improve this team this sprint; lessons learned improve future projects."
+          }
+        ]
       },
       {
+        "kicker": "Move the know-how",
         "heading": "Transferring knowledge",
-        "body": "Use methods that move tacit knowledge, not just documents:\n\n- Communities of practice that share a discipline\n- Pairing and shadowing so know-how passes person to person\n- Storytelling to convey context and reasoning\n- Mentoring to grow judgement over time\n- A usable, findable knowledge repository for explicit content\n\nThe usual barrier is behaviour - people simply do not consult what exists - so build knowledge checks into planning and review checkpoints.",
-        "tip": "Pull beats push: design the work so people reach for prior knowledge naturally."
+        "body": "Use methods that move tacit knowledge, not just documents. The usual barrier is behaviour - people simply do not consult what exists - so build knowledge checks into planning and review checkpoints.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Transfer methods",
+            "rows": [
+              { "key": "Communities of practice", "value": "Groups that share a discipline exchange know-how." },
+              { "key": "Pairing / shadowing", "value": "Know-how passes person to person on the job." },
+              { "key": "Storytelling", "value": "Conveys context and reasoning behind decisions." },
+              { "key": "Mentoring", "value": "Grows judgement over time." },
+              { "key": "Knowledge repository", "value": "Usable, findable store for explicit content." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "text": "Pull beats push: design the work so people reach for prior knowledge naturally."
+          }
+        ]
       },
       {
+        "kicker": "Keep it, don't lose it",
         "heading": "Why knowledge is lost and how to keep it",
-        "body": "Knowledge is lost when it is captured too late, stored where no one can find it, or never rewarded, and when staff leave taking tacit know-how with them.\n\nTo keep it:\n\n- capture at the right moment while detail is fresh\n- make it findable and well organised\n- recognise people who share\n\nA blameless culture is essential - if surfacing a problem invites punishment, honest lessons stay hidden and the same mistakes repeat.",
-        "tip": "No blame, no fear, no hidden lessons - psychological safety is the foundation of real learning."
+        "body": "Knowledge is lost when it is captured too late, stored where no one can find it, or never rewarded, and when staff leave taking tacit know-how with them.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "How to keep it",
+            "items": [
+              { "title": "Capture at the right moment", "lines": ["Record while the detail is still fresh."] },
+              { "title": "Make it findable", "lines": ["Well organised and easy to retrieve."] },
+              { "title": "Recognise sharing", "lines": ["Reward the people who pass knowledge on."] },
+              { "title": "Build a blameless culture", "lines": ["Psychological safety so honest lessons surface."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "text": "No blame, no fear, no hidden lessons - if surfacing a problem invites punishment, the same mistakes repeat."
+          }
+        ]
       }
     ],
-    "tags": ["knowledge management", "lessons learned", "retrospectives", "tacit knowledge", "DIKW", "process"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["knowledge management", "lessons learned", "retrospectives", "tacit knowledge", "DIKW", "process", "pmbok 8", "project work", "team principle", "value"],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle-based PMP exam."
   }
 ]

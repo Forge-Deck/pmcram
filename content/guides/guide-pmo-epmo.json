@@ -3,35 +3,192 @@
     "schema": "guide/v1",
     "title": "The PMO & EPMO",
     "category": "Process",
-    "summary": "How the project management office and its enterprise form standardise delivery and link projects to organisational strategy.",
+    "summary": "How the project management office and its enterprise form standardise delivery and link projects to organisational strategy, viewed through PMBOK 8's Systems thinking principle and governance.",
     "sections": [
       {
+        "kicker": "Foundations",
         "heading": "What a PMO is and why organisations have one",
         "body": "A Project Management Office (PMO) is an organisational structure that standardises and supports project delivery and connects that delivery to wider strategy. Rather than every project inventing its own approach, the PMO provides a common home for methods, governance, reporting and shared capability.\n\nOrganisations create a PMO to raise consistency, improve oversight across many initiatives, build delivery capability and make sure projects actually advance the goals leadership cares about. The exam frames the PMO as an enabler of value, not just an administrative function.",
-        "tip": "PMO purpose = standardise delivery and link projects to strategy."
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Core purpose",
+            "tone": "accent",
+            "lines": [
+              "PMO purpose = standardise delivery and link projects to strategy.",
+              "It is an enabler of value, not just administration."
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "PMBOK 8 lens",
+            "tone": "neutral",
+            "lines": [
+              "The PMO supports the Systems Thinking principle: it sees projects as parts of a larger whole.",
+              "It provides governance so delivery stays aligned to organisational objectives.",
+              "It coordinates across projects, where a sponsor champions just one."
+            ]
+          }
+        ]
       },
       {
-        "heading": "The three PMO types by degree of control",
-        "body": "PMOs are classified by how much control they exert over projects.\n\n- Supportive: consultative and low control. It supplies templates, training, best practices and lessons learned, and acts as a repository. Teams draw on it as needed.\n- Controlling: moderate control. It requires compliance with a chosen framework, methodology, governance or set of tools, and checks that projects conform.\n- Directive: high control. It takes over and directly manages the projects, with project managers drawn from and reporting into the PMO.",
-        "tip": "Supportive consults, Controlling enforces compliance, Directive runs the projects."
+        "kicker": "Degree of control",
+        "heading": "The three PMO types",
+        "body": "PMOs are classified by how much control they exert over projects. More control means more direct authority over how work is run.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "PMO type -> control level",
+            "rows": [
+              { "key": "Supportive", "value": "Low control. Consultative: supplies templates, training, best practices and lessons learned; acts as a repository. Teams draw on it as needed." },
+              { "key": "Controlling", "value": "Moderate control. Requires compliance with a chosen framework, methodology, governance or tools, and checks that projects conform." },
+              { "key": "Directive", "value": "High control. Takes over and directly manages the projects; project managers are drawn from and report into the PMO." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Fast recall",
+            "tone": "good",
+            "lines": [
+              "Supportive consults.",
+              "Controlling enforces compliance.",
+              "Directive runs the projects."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Capabilities",
         "heading": "Core PMO functions",
-        "body": "Across the three types, a PMO typically delivers a recognisable set of functions.\n\n- Methodology and standards: defining the delivery approach, templates, processes and metrics.\n- Training and coaching: building project management capability and mentoring practitioners.\n- Delivery support and governance: tools, reporting, stage gates, assurance and oversight.\n- Resource and multi-project management: sharing scarce resources and coordinating across the portfolio.\n- Strategic alignment and benefits oversight: ensuring initiatives stay tied to objectives and that expected benefits are tracked.",
-        "tip": "Remember PMO functions as standards, capability, governance, portfolio coordination and benefits."
+        "body": "Across the three types, a PMO typically delivers a recognisable set of functions.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Methodology and standards",
+                "tone": "accent",
+                "groups": [
+                  { "lines": ["Defines the delivery approach, templates, processes and metrics."] }
+                ]
+              },
+              {
+                "title": "Training and coaching",
+                "tone": "good",
+                "groups": [
+                  { "lines": ["Builds project management capability and mentors practitioners."] }
+                ]
+              },
+              {
+                "title": "Delivery support and governance",
+                "tone": "neutral",
+                "groups": [
+                  { "lines": ["Tools, reporting, stage gates, assurance and oversight."] }
+                ]
+              },
+              {
+                "title": "Resource and multi-project management",
+                "tone": "neutral",
+                "groups": [
+                  { "lines": ["Shares scarce resources and coordinates across the portfolio."] }
+                ]
+              },
+              {
+                "title": "Strategic alignment and benefits oversight",
+                "tone": "accent",
+                "groups": [
+                  { "lines": ["Keeps initiatives tied to objectives and tracks expected benefits."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Remember as",
+            "tone": "neutral",
+            "lines": [
+              "Standards - capability - governance - portfolio coordination - benefits."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Enterprise level",
         "heading": "PMO vs EPMO",
         "body": "A PMO is usually focused on delivery efficiency. It improves how projects and programmes are run and typically reports into delivery or operational leadership.\n\nAn Enterprise PMO (EPMO) sits at the enterprise level. It links the C-suite's strategy to execution, owns strategic project selection and portfolio prioritisation, and reports to top executives. The EPMO answers the question of doing the right projects, while a delivery PMO concentrates on doing projects right.",
-        "tip": "EPMO is strategic and reports to the top; a PMO is delivery-focused and reports lower."
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "PMO vs EPMO",
+            "rows": [
+              { "key": "Focus", "value": "PMO: delivery efficiency.\nEPMO: strategy-to-execution." },
+              { "key": "Level", "value": "PMO: delivery / operational.\nEPMO: enterprise / C-suite." },
+              { "key": "Owns", "value": "PMO: how projects are run.\nEPMO: strategic project selection and portfolio prioritisation." },
+              { "key": "Reports to", "value": "PMO: delivery or operational leadership.\nEPMO: top executives." },
+              { "key": "Key question", "value": "PMO: doing projects right.\nEPMO: doing the right projects." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "lines": [
+              "EPMO is strategic and reports to the top.",
+              "A PMO is delivery-focused and reports lower."
+            ]
+          }
+        ]
       },
       {
-        "heading": "The project police anti-pattern and PMO value",
+        "kicker": "Value and traps",
+        "heading": "Project police anti-pattern and PMO value",
         "body": "A PMO that only audits and enforces, without helping teams succeed, becomes the project police. It creates friction, is resented, and is often the first thing cut because it is seen as overhead rather than value.\n\nEffective PMOs enable and coach as well as govern, and they demonstrate measurable value such as faster delivery, fewer failed projects and tighter strategic alignment. PMO maturity grows from this basic, reactive support towards an optimised, strategic partner, and higher maturity correlates with better delivery outcomes.",
-        "tip": "Best answer: a PMO that enables and proves value, not one that just polices compliance."
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Project police",
+                "badge": "Avoid",
+                "tone": "bad",
+                "groups": [
+                  { "label": "Behaviour", "lines": ["Only audits and enforces; does not help teams succeed."] },
+                  { "label": "Result", "lines": ["Creates friction, is resented, first thing cut as overhead."] }
+                ]
+              },
+              {
+                "title": "Value-adding PMO",
+                "badge": "Aim",
+                "tone": "good",
+                "groups": [
+                  { "label": "Behaviour", "lines": ["Enables and coaches as well as governs."] },
+                  { "label": "Result", "lines": ["Faster delivery, fewer failed projects, tighter strategic alignment."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Maturity",
+            "tone": "neutral",
+            "lines": [
+              "Maturity grows from basic, reactive support towards an optimised, strategic partner.",
+              "Higher maturity correlates with better delivery outcomes."
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Best answer",
+            "tone": "good",
+            "lines": [
+              "Pick the PMO that enables and proves value, not one that just polices compliance.",
+              "PMO aligns standards across many projects; a sponsor accepts and champions one project."
+            ]
+          }
+        ]
       }
     ],
-    "tags": ["pmo", "epmo", "governance", "business environment", "strategy", "portfolio"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["pmo", "epmo", "governance", "business environment", "strategy", "portfolio", "pmbok 8", "systems thinking"],
+    "source": "PM Cram study notes - reworded and reorganised for a PMBOK 8 principle-based PMP exam."
   }
 ]

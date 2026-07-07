@@ -3,36 +3,199 @@
     "schema": "guide/v1",
     "title": "Estimating Techniques",
     "category": "Process",
-    "summary": "How projects estimate cost and duration, and how those estimates tighten in accuracy as the work is progressively elaborated.",
+    "summary": "How projects estimate cost and duration and how those estimates tighten as work is progressively elaborated. Reorganised into scan-friendly blocks and framed for PMBOK 8's Planning and Measurement performance domains, with predictive techniques, PERT, and agile relative sizing side by side.",
     "sections": [
       {
-        "heading": "Estimate accuracy and ranges",
-        "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as the project progresses and detail emerges (progressive elaboration), the range narrows and accuracy improves.\n\nClassic ranges to remember:\n\n- Rough Order of Magnitude (ROM): roughly -25% to +75%, used very early when information is scarce.\n- Definitive estimate: roughly -5% to +10%, produced later once scope and detail are well understood.\n\nAlways express an estimate with its range and assumptions, and refine it as better information becomes available rather than treating the first figure as fixed.",
-        "tip": "Trap: a number with no range is not an estimate. ROM is wide (-25/+75); definitive is tight (-5/+10).",
-        "figure": {
-          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='100' x2='304' y2='100' stroke='currentColor' stroke-width='1' stroke-dasharray='4 4'/><path d='M46,46 L298,93 L298,107 L46,154 Z' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><text x='52' y='40' fill='currentColor' font-size='9'>+75%</text><text x='52' y='168' fill='currentColor' font-size='9'>-25%</text><text x='300' y='86' fill='currentColor' font-size='9' text-anchor='end'>+10%</text><text x='300' y='124' fill='currentColor' font-size='9' text-anchor='end'>-5%</text><text x='80' y='100' fill='currentColor' font-size='9' text-anchor='middle'>ROM</text><text x='268' y='100' fill='currentColor' font-size='9' text-anchor='middle'>definitive</text><text x='172' y='184' fill='currentColor' font-size='10' text-anchor='middle'>more detail / later in project →</text></svg>",
-          "caption": "The cone of uncertainty: a wide ROM range early, narrowing to a definitive estimate."
-        }
+        "kicker": "PMBOK 8 lens",
+        "heading": "Where estimating lives",
+        "body": "Estimating is not its own knowledge area in PMBOK 8. It supports two performance domains: Planning (organise the work in a deliberate, coordinated way) and Measurement (produce reliable data for timely decisions). Tailor the technique to how much you know and to the delivery approach.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How to use estimates",
+            "tone": "accent",
+            "lines": [
+              "Planning domain: estimates size and sequence the work.",
+              "Measurement domain: estimates become the baseline you measure against.",
+              "Tailoring: pick the technique that fits the information and the delivery mode.",
+              "Predictive leans on cost/duration estimates; agile leans on relative sizing."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Analogous (top-down) estimating",
-        "body": "Analogous estimating takes the actual cost or duration of a similar past project and adjusts it for known differences in size, scope or complexity. It is a form of expert judgment that leans on historical experience.\n\nIt is fast and cheap but the least accurate of the techniques, because it assumes the past project is genuinely comparable. Use it early, when there is little detail to work with, or for a quick high-level figure.",
-        "tip": "Analogous = analogy to a past project. Fast, cheap, rough, top-down, expert judgment."
+        "kicker": "Accuracy",
+        "heading": "Estimate ranges and the cone of uncertainty",
+        "body": "An estimate is a range, not a single number. Early on you know little, so the range is wide; as detail emerges (progressive elaboration), the range narrows and accuracy improves. Always express an estimate with its range and assumptions, and refine it as better information arrives rather than treating the first figure as fixed.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Classic ranges",
+            "rows": [
+              { "key": "Rough Order of Magnitude (ROM)", "value": "Roughly -25% to +75%. Used very early when information is scarce." },
+              { "key": "Definitive estimate", "value": "Roughly -5% to +10%. Produced later once scope and detail are well understood." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Trap",
+            "tone": "bad",
+            "lines": [
+              "A number with no range is not an estimate.",
+              "ROM is wide (-25 / +75); definitive is tight (-5 / +10).",
+              "Range narrows as you move later in the project with more detail."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Parametric estimating",
-        "body": "Parametric estimating uses a statistical relationship between historical data and project variables. You multiply a known rate by a quantity, for example cost per square metre x area, or hours per unit x number of units.\n\nIt is more accurate than analogous when the underlying data is sound and the relationship scales reliably across the range you are estimating. Accuracy depends entirely on the quality of the data and the validity of the model.",
-        "tip": "Parametric = parameter x quantity (rate-based). Only as good as the historical data behind it."
+        "kicker": "Predictive techniques",
+        "heading": "Methods, when to use, accuracy",
+        "body": "Match the technique to how much you know. Analogous early, parametric when data is sound, bottom-up when scope is defined and accuracy matters, three-point when there is uncertainty to model.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Estimating methods compared",
+            "rows": [
+              { "key": "Analogous (top-down)", "value": "Adjust a similar past project's actuals. Use early with little detail. Fast and cheap but least accurate; a form of expert judgment." },
+              { "key": "Parametric", "value": "Rate x quantity from a statistical relationship (e.g. cost/sq m x area). Use when historical data is sound and scales. Accuracy depends entirely on the data and model." },
+              { "key": "Bottom-up", "value": "Estimate each work package on the WBS, then roll up. Use when scope is well defined. Most accurate but most time- and effort-intensive; needs a defined WBS first." },
+              { "key": "Three-point (PERT)", "value": "Risk-weighted average of optimistic, most likely and pessimistic. Use when activities are uncertain. Improves on a single-point guess by modelling the spread." }
+            ]
+          },
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Analogous",
+                "badge": "Top-down",
+                "tone": "warn",
+                "groups": [
+                  { "label": "How", "lines": ["Take a similar past project's actual cost/duration.", "Adjust for known differences in size, scope or complexity."] },
+                  { "label": "Trade-off", "lines": ["Fast, cheap, rough.", "Assumes the past project is genuinely comparable."] }
+                ]
+              },
+              {
+                "title": "Parametric",
+                "badge": "Rate-based",
+                "tone": "accent",
+                "groups": [
+                  { "label": "How", "lines": ["Multiply a known rate by a quantity.", "Example: hours per unit x number of units."] },
+                  { "label": "Trade-off", "lines": ["More accurate than analogous when data is good.", "Only as good as the historical data behind it."] }
+                ]
+              },
+              {
+                "title": "Bottom-up",
+                "badge": "Build up",
+                "tone": "good",
+                "groups": [
+                  { "label": "How", "lines": ["Decompose to work-package level of the WBS.", "Estimate each piece, then roll up to a total."] },
+                  { "label": "Trade-off", "lines": ["Most accurate; nothing is averaged away.", "Most costly; requires a defined scope and WBS."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Cues",
+            "tone": "neutral",
+            "lines": [
+              "\"Similar past project\" -> analogous.",
+              "\"Cost per unit\" or \"rate x quantity\" -> parametric.",
+              "\"Estimate each work package\" or \"per the WBS\" -> bottom-up.",
+              "\"Optimistic / most likely / pessimistic\" -> three-point (PERT)."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Bottom-up estimating",
-        "body": "Bottom-up estimating decomposes the work to a low level, typically the work-package level of the WBS, estimates each piece in detail, then rolls the detailed estimates up to a project total.\n\nIt is the most accurate technique because nothing is averaged away, but it is also the most time-consuming and effort-intensive, and it requires a defined scope and WBS before you can start.",
-        "tip": "Bottom-up = build up from the work packages. Most accurate, most costly; needs a defined WBS."
+        "kicker": "Three-point",
+        "heading": "PERT formulas",
+        "body": "Three-point estimating models uncertainty by combining three values. The beta (PERT) form weights the most-likely estimate by four.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "PERT",
+            "note": "O = optimistic, M = most likely, P = pessimistic",
+            "items": [
+              { "formula": "tE = (O + 4M + P) / 6", "lines": ["Expected estimate (beta/PERT).", "Most-likely value weighted by 4."] },
+              { "formula": "Std Dev = (P - O) / 6", "lines": ["Estimate spread.", "Optimistic and pessimistic set the range."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "PERT tip",
+            "tone": "neutral",
+            "lines": [
+              "Weight the most-likely value by 4, then divide by 6.",
+              "A wider O-to-P gap means a larger standard deviation and more risk.",
+              "Use PERT when a single number would hide real uncertainty."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Choosing a technique and refining",
-        "body": "Match the technique to how much you know:\n\n- Analogous early, when there is little information.\n- Parametric when you have good historical data and reliable parameters.\n- Bottom-up when scope is well defined and accuracy matters most.\n\nThree-point (PERT) estimating adds a risk-weighted average across optimistic, most likely and pessimistic values; the detailed PERT formula E = (O + 4M + P) / 6 is covered in the Schedule & Network Diagrams guide.\n\nFinally, reserves sit on top of your estimates, not inside them: contingency reserve for identified ('known-unknown') risks and management reserve for unknown-unknowns. The detail on reserves is covered in the Risk Management guide.",
-        "tip": "Pick by information available. Estimates feed the baseline; reserves are added on top."
+        "kicker": "Agile",
+        "heading": "Relative estimating",
+        "body": "Adaptive teams estimate relative size and effort rather than absolute cost or duration, then let velocity turn size into a forecast. This fits the Planning domain when requirements change and detail emerges each iteration.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Agile estimating techniques",
+            "items": [
+              { "code": "Story points", "text": "Relative units of size/effort/complexity, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8)." },
+              { "code": "Planning poker", "text": "Team reveals point estimates simultaneously, discusses outliers, and re-votes to reach consensus." },
+              { "code": "Affinity estimating", "text": "Group many items quickly by grouping similar-sized stories together (e.g. small / medium / large buckets)." },
+              { "code": "Velocity", "text": "Points completed per iteration; used to forecast how much fits in future iterations." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Agile tip",
+            "tone": "good",
+            "lines": [
+              "Points are relative, not hours; don't convert them to time.",
+              "Planning poker surfaces hidden assumptions through discussion.",
+              "Affinity sizing is fastest for large backlogs.",
+              "Velocity x iterations gives the forecast, not a fixed commitment."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Putting it together",
+        "heading": "Choosing, refining and reserves",
+        "body": "Pick the technique by the information available; estimates then feed the baseline. Reserves sit on top of your estimates, not inside them.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Refining as you learn",
+            "items": [
+              { "title": "Analogous early", "lines": ["When there is little information to work with."] },
+              { "title": "Parametric next", "lines": ["When you have good historical data and reliable parameters."] },
+              { "title": "Bottom-up when defined", "lines": ["When scope and the WBS are set and accuracy matters most."] },
+              { "title": "Add three-point for risk", "lines": ["When activities carry real uncertainty to model."] }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Reserves (added on top)",
+            "rows": [
+              { "key": "Contingency reserve", "value": "For identified 'known-unknown' risks. Part of the cost baseline. Detail in the Risk Management guide." },
+              { "key": "Management reserve", "value": "For 'unknown-unknowns'. Outside the cost baseline; needs approval to use." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Wrap-up",
+            "tone": "accent",
+            "lines": [
+              "Pick the technique by the information available.",
+              "Estimates feed the baseline; reserves are added on top, not buried inside.",
+              "Progressively refine rather than treating the first figure as final."
+            ]
+          }
+        ]
       }
     ],
     "tags": [
@@ -42,8 +205,15 @@
       "analogous",
       "parametric",
       "bottom-up",
-      "process"
+      "pert",
+      "three-point",
+      "story points",
+      "agile",
+      "process",
+      "pmbok 8",
+      "planning",
+      "measurement"
     ],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "source": "PM Cram study notes — restructured into blocks and aligned to PMBOK 8 Planning and Measurement performance domains."
   }
 ]

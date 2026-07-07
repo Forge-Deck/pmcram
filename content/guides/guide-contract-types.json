@@ -3,39 +3,174 @@
     "schema": "guide/v1",
     "title": "Contract Types",
     "category": "Process",
-    "summary": "The main procurement contract families and how each one shifts cost risk between buyer and seller.",
+    "summary": "The main procurement contract families and how each one allocates cost risk between buyer and seller. Reorganised into scan-friendly blocks and framed for PMBOK 8: procurement is part of the Project Work performance domain, where the contract type is a deliberate risk-allocation and value decision.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
         "heading": "Why contract type matters",
-        "body": "The contract type is a deliberate risk decision: it sets who carries the cost risk if the work turns out to be more expensive than expected. Choosing the right type is mostly about how well the scope is defined.\n\n- Well-defined, stable scope favours fixed price, because the seller can price the work with confidence.\n- Uncertain or evolving scope favours cost-reimbursable or time & materials, because neither side can yet price the full job.\n\nProcurement spans both the Process and Business Environment domains of the current ECO, so expect questions that mix the contracting mechanics with stakeholder and compliance considerations.",
-        "tip": "Match the contract to the clarity of scope: clear scope to fixed price, fuzzy scope to cost-reimbursable or T&M."
+        "body": "The contract type is a deliberate risk decision: it sets who carries the cost risk if the work turns out to be more expensive than expected. Choosing the right type is mostly about how well the scope is defined.\n\nIn PMBOK 8, procurement lives inside the Project Work performance domain, and the choice is judged by how well it allocates risk and protects value. The Risk principle (optimise risk responses) and the Value principle both apply: pick the type that puts cost risk with the party best able to bear it while still delivering value.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Match contract to scope clarity",
+            "tone": "accent",
+            "lines": [
+              "Well-defined, stable scope -> fixed price; the seller can price with confidence.",
+              "Uncertain or evolving scope -> cost-reimbursable or T&M; neither side can price the full job yet.",
+              "Clear scope to fixed price; fuzzy scope to cost-reimbursable or T&M."
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "PMBOK 8 framing",
+            "tone": "neutral",
+            "lines": [
+              "Procurement supports the Project Work domain: efficient processes, managed procurement, clear communication.",
+              "Contract type = risk allocation: who owns the cost uncertainty.",
+              "Judge options by value delivered and sound risk response, not just lowest price."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Fixed-Price (FP) contracts",
-        "body": "Under fixed price the buyer's risk is LOW and the seller's risk is HIGH: the seller is locked to a price and absorbs the consequences of getting the estimate wrong. Best used when scope is well defined.\n\n- Firm Fixed Price (FFP) — a single set price; the seller absorbs any overrun in full.\n- Fixed Price Incentive Fee (FPIF) — a set price plus an incentive for meeting cost, schedule or performance targets; buyer and seller share savings and overruns up to a price ceiling.\n- Fixed Price with Economic Price Adjustment (FP-EPA) — used for long-term contracts; the price can adjust for defined external economics such as inflation or commodity rates.",
-        "tip": "FFP = seller carries all the cost risk; it is the buyer's safest, most predictable option."
+        "kicker": "The core reference",
+        "heading": "Contract types, risk and when to use",
+        "body": "Each family shifts cost risk differently. The table maps every type to who carries the risk and when to reach for it.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Type -> who carries cost risk / when to use",
+            "rows": [
+              { "key": "FFP", "value": "Seller carries all cost risk (buyer risk lowest). Single set price; seller absorbs any overrun in full. Use when scope is well defined and stable; the buyer's safest, most predictable option." },
+              { "key": "FPIF", "value": "Shared, seller-leaning. Set price plus incentive for meeting cost, schedule or performance targets; buyer and seller share savings and overruns up to a price ceiling. Use when scope is fairly clear but you want to motivate performance." },
+              { "key": "FPEPA", "value": "Seller-leaning, with external-economics protection. Price can adjust for defined economics such as inflation or commodity/currency rates. Use for long-term contracts spanning years." },
+              { "key": "CPFF", "value": "Buyer carries most cost risk. Allowable costs plus a fixed fee that does not change with performance. Use when scope cannot yet be fully defined." },
+              { "key": "CPIF", "value": "Buyer-leaning, shared via sharing ratio. Allowable costs plus a fee that varies with performance against targets. Use for uncertain scope where you still want a cost/performance incentive." },
+              { "key": "CPAF", "value": "Buyer-leaning, subjective. Allowable costs plus an award fee granted on the buyer's subjective satisfaction with performance. Use when performance is judged rather than measured." },
+              { "key": "T&M", "value": "Medium; sits between fixed price and cost-reimbursable. Agreed rate per hour or unit plus materials. Use for staff augmentation or work that must start before scope is clear. Always bound with a not-to-exceed (NTE) ceiling and time limits." }
+            ]
+          },
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Fixed-Price (FP)",
+                "badge": "Buyer risk LOW",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Mechanics", "lines": ["Seller is locked to a price and absorbs a wrong estimate.", "Buyer risk LOW, seller risk HIGH."] },
+                  { "label": "Members", "lines": ["FFP - single set price.", "FPIF - price plus incentive, shared up to a ceiling.", "FPEPA - price adjusts for defined external economics."] },
+                  { "label": "Use when", "lines": ["Scope is well defined and stable."] }
+                ]
+              },
+              {
+                "title": "Cost-Reimbursable (CR)",
+                "badge": "Buyer risk HIGH",
+                "tone": "warn",
+                "groups": [
+                  { "label": "Mechanics", "lines": ["Buyer pays allowable costs PLUS a fee.", "Final cost uncertain until work is done; buyer owns the uncertainty."] },
+                  { "label": "Members", "lines": ["CPFF - costs plus a fixed fee.", "CPIF - costs plus a performance-varying fee (sharing ratio).", "CPAF - costs plus a subjective award fee."] },
+                  { "label": "Use when", "lines": ["Scope cannot yet be fully defined."] }
+                ]
+              },
+              {
+                "title": "Time & Materials (T&M)",
+                "badge": "Risk MEDIUM",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "Mechanics", "lines": ["Hybrid of FP and CR.", "Agreed rate per hour/unit plus materials.", "Risk sits between FP and CR."] },
+                  { "label": "Use when", "lines": ["Staff augmentation.", "Work must start before scope is clear."] },
+                  { "label": "Guardrail", "lines": ["No fixed total, so cap exposure with an NTE ceiling and time limits."] }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "heading": "Cost-Reimbursable (CR) contracts",
-        "body": "Under cost-reimbursable the buyer pays the seller's allowable costs PLUS a fee. The buyer's risk is HIGHER because the final cost is uncertain until the work is done. Suited to scope that cannot yet be fully defined.\n\n- Cost Plus Fixed Fee (CPFF) — costs plus a fixed fee that does not change with performance.\n- Cost Plus Incentive Fee (CPIF) — costs plus a fee that varies with performance against targets, using an agreed sharing ratio.\n- Cost Plus Award Fee (CPAF) — costs plus an award fee granted on the buyer's subjective satisfaction with performance.",
-        "tip": "Cost Plus means the buyer reimburses costs and then adds a fee; the buyer owns the cost uncertainty."
+        "kicker": "Acronyms",
+        "heading": "Contract acronyms",
+        "body": "",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Fixed-price family",
+            "items": [
+              { "code": "FP", "text": "Fixed Price - buyer risk low, seller risk high." },
+              { "code": "FFP", "text": "Firm Fixed Price - single set price; seller absorbs all overrun." },
+              { "code": "FPIF", "text": "Fixed Price Incentive Fee - set price plus incentive, shared up to a ceiling." },
+              { "code": "FPEPA", "text": "Fixed Price with Economic Price Adjustment - price adjusts for defined external economics." }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Cost-reimbursable family and hybrid",
+            "items": [
+              { "code": "CR", "text": "Cost Reimbursable - buyer pays allowable costs plus a fee." },
+              { "code": "CPFF", "text": "Cost Plus Fixed Fee - fixed fee, unchanged by performance." },
+              { "code": "CPIF", "text": "Cost Plus Incentive Fee - fee varies with performance via a sharing ratio." },
+              { "code": "CPAF", "text": "Cost Plus Award Fee - fee granted on the buyer's subjective satisfaction." },
+              { "code": "T&M", "text": "Time and Materials - rate per hour/unit plus materials; hybrid of FP and CR." },
+              { "code": "NTE", "text": "Not-To-Exceed - ceiling that caps buyer exposure on T&M." },
+              { "code": "PTA", "text": "Point of Total Assumption - cost above which the seller bears all further cost (FPIF)." }
+            ]
+          }
+        ]
       },
       {
-        "heading": "Time & Materials (T&M)",
-        "body": "T&M is a hybrid of fixed-price and cost-reimbursable: the buyer pays an agreed rate per hour or unit, plus the cost of materials. It is well suited to staff augmentation or to work that must start before scope is fully clear.\n\nRisk sits between FP and CR. Because there is no fixed total, cap the buyer's exposure with a not-to-exceed (NTE) ceiling and time limits, so an open-ended arrangement cannot run away.",
-        "tip": "T&M with no NTE cap is the trap answer; always bound it with a not-to-exceed clause."
+        "kicker": "Calculation",
+        "heading": "Point of Total Assumption",
+        "body": "In an FPIF contract the Point of Total Assumption (PTA) is the cost level above which the SELLER bears all additional cost: above the PTA the cost-sharing stops and every extra unit of cost is the seller's; below it, buyer and seller share.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "PTA",
+            "note": "Applies to fixed-price incentive-fee (FPIF) contracts",
+            "items": [
+              {
+                "formula": "PTA = ((Ceiling Price - Target Price) / Buyer Share) + Target Cost",
+                "lines": [
+                  "Point of total assumption.",
+                  "Buyer Share = buyer's portion of the cost-sharing ratio.",
+                  "Above the PTA, the seller absorbs 100% of further cost."
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
-        "heading": "The risk spectrum and Point of Total Assumption",
-        "body": "The families sit on a single risk spectrum. The seller bears the most cost risk under FFP; the buyer bears the most under CPFF; FPIF, FP-EPA, CPIF, CPAF and T&M fall in between.\n\nIn an FPIF contract the Point of Total Assumption (PTA) is the cost level above which the SELLER bears all additional cost: above the PTA the cost-sharing stops and every extra pound is the seller's.",
-        "tip": "Above the PTA, the seller absorbs 100% of further cost; below it, buyer and seller share.",
-        "figure": {
-          "svg": "<svg viewBox='0 0 320 195' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='34,58 300,150 34,150' fill='#B5462F' fill-opacity='0.16' stroke='#B5462F' stroke-width='1'/><polygon points='300,58 300,150 34,150' fill='#1F5FA8' fill-opacity='0.16' stroke='#1F5FA8' stroke-width='1'/><text x='42' y='52' fill='#B5462F' font-size='10'>Seller risk</text><text x='292' y='52' fill='#1F5FA8' font-size='10' text-anchor='end'>Buyer risk</text><line x1='34' y1='150' x2='300' y2='150' stroke='currentColor' stroke-width='1.4'/><text x='38' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FFP</text><text x='110' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FPIF</text><text x='172' y='166' fill='currentColor' font-size='9' text-anchor='middle'>T&amp;M</text><text x='234' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPIF</text><text x='298' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPFF</text><text x='167' y='186' fill='currentColor' font-size='9' text-anchor='middle'>fixed price  →  cost-reimbursable</text></svg>",
-          "caption": "Risk crosses over: seller bears most under FFP, buyer most under CPFF."
-        }
+        "kicker": "The spectrum",
+        "heading": "Risk spectrum and exam cues",
+        "body": "The families sit on a single risk spectrum. The seller bears the most cost risk under FFP; the buyer bears the most under CPFF; FPIF, FPEPA, CPIF, CPAF and T&M fall in between. Risk crosses over as you move from fixed price to cost-reimbursable.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Fixed price -> cost-reimbursable",
+            "rows": [
+              { "key": "FFP", "value": "Seller carries the MOST cost risk." },
+              { "key": "FPIF / FPEPA", "value": "Shared, seller-leaning." },
+              { "key": "T&M", "value": "Medium; between fixed price and cost-reimbursable." },
+              { "key": "CPIF / CPAF", "value": "Shared, buyer-leaning." },
+              { "key": "CPFF", "value": "Buyer carries the MOST cost risk." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cues",
+            "tone": "warn",
+            "lines": [
+              "FFP = seller carries all the cost risk; the buyer's safest, most predictable choice.",
+              "Cost Plus = buyer reimburses costs then adds a fee; the buyer owns the cost uncertainty.",
+              "T&M with no NTE cap is the trap answer; always bound it with a not-to-exceed clause.",
+              "Above the PTA the seller absorbs 100% of further cost; below it, buyer and seller share.",
+              "FPEPA is the long-deal answer when inflation or currency is mentioned."
+            ]
+          }
+        ]
       }
     ],
-    "tags": ["procurement", "contracts", "fixed-price", "cost-reimbursable", "time-and-materials", "process"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["procurement", "contracts", "fixed-price", "cost-reimbursable", "time-and-materials", "process", "pmbok 8", "project work", "risk allocation"],
+    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 (procurement within the Project Work performance domain)."
   }
 ]

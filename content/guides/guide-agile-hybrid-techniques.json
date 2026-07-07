@@ -3,34 +3,289 @@
     "schema": "guide/v1",
     "title": "Agile & Hybrid Techniques",
     "category": "Agile",
-    "summary": "Practical techniques for planning, prioritising the backlog, and choosing a delivery cadence across agile and hybrid projects.",
+    "summary": "Planning, backlog prioritisation, estimating and delivery-cadence techniques for agile and hybrid projects, framed through PMBOK 8 principles and the Development Approach & Life Cycle and Delivery performance domains.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Where agile & hybrid fit",
+        "body": "PMBOK 8 is principle-based and outcome-based. Agile and hybrid are not a separate rulebook; they are choices you make to satisfy the performance domains and honour the principles. Pick the cadence and level of detail that deliver value for this product, in this context.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How agile & hybrid map to PMBOK 8",
+            "tone": "accent",
+            "lines": [
+              "Development Approach & Life Cycle domain: choose predictive, adaptive or hybrid so the approach fits the product and its uncertainty.",
+              "Delivery domain: deliver value early and often; validate deliverables with the customer as you go.",
+              "Team principle: build a collaborative, self-organising, accountable team environment.",
+              "Tailoring principle: fit the cadence, detail and ceremonies to the work - not the work to a fixed process.",
+              "Value principle: value delivered is the measure of success, not documents produced."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Planning under uncertainty",
         "heading": "Progressive elaboration & rolling wave planning",
         "body": "Progressive elaboration means planning imminent work in detail while leaving distant work at a high level, then adding detail as you learn more. You commit to what is clear now and refine the rest as understanding and information improve.\n\nRolling wave planning applies this idea to scheduling: near-term work packages are decomposed to activity level, while later phases stay as coarse milestones or planning packages until they draw closer.\n\nBoth suit uncertain, long, or fast-changing projects and underpin hybrid delivery, where a stable overall plan coexists with adaptive detail emerging iteration by iteration.",
-        "tip": "Progressive elaboration adds detail over time; rolling wave is the same idea applied specifically to the schedule."
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Tell them apart",
+            "lines": [
+              "Progressive elaboration adds detail over time as you learn.",
+              "Rolling wave is the same idea applied specifically to the schedule.",
+              "Both express the Tailoring and Planning outcomes: plan deliberately, but only as far as certainty allows."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Backlog",
         "heading": "Prioritising the backlog",
-        "body": "MoSCoW sorts backlog items into four bands:\n\n- Must have — non-negotiable; the release fails without it.\n- Should have — important but not vital; a painful omission with a workaround.\n- Could have — desirable, low impact; the first to drop under pressure.\n- Won't have (this time) — explicitly out of scope for now, recorded to manage expectations.\n\n- Other common techniques:\n  - WSJF (Weighted Shortest Job First = cost of delay / job size, from SAFe) to sequence by economic value.\n  - the Kano model, classifying features as basic, performance, or delighter.\n  - 100-point or dot voting for quick collaborative ranking.",
-        "tip": "The fourth MoSCoW band is 'Won't have this time' — deferred and recorded, not deleted.",
-        "figure": {
-          "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='14' y='12' width='30' height='28' rx='4' fill='#B5462F'/><text x='29' y='31' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>M</text><text x='54' y='25' fill='currentColor' font-size='11'>Must have</text><text x='54' y='38' fill='currentColor' font-size='9'>non-negotiable — the release fails without it</text><rect x='14' y='48' width='30' height='28' rx='4' fill='#1F5FA8'/><text x='29' y='67' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>S</text><text x='54' y='61' fill='currentColor' font-size='11'>Should have</text><text x='54' y='74' fill='currentColor' font-size='9'>important, but has a workaround</text><rect x='14' y='84' width='30' height='28' rx='4' fill='#2F6F5E'/><text x='29' y='103' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>C</text><text x='54' y='97' fill='currentColor' font-size='11'>Could have</text><text x='54' y='110' fill='currentColor' font-size='9'>desirable; the first to drop under pressure</text><rect x='14' y='120' width='30' height='28' rx='4' fill='none' stroke='currentColor' stroke-width='1.3' stroke-dasharray='4 3'/><text x='29' y='139' fill='currentColor' font-size='13' text-anchor='middle' font-weight='bold'>W</text><text x='54' y='133' fill='currentColor' font-size='11'>Won't have (this time)</text><text x='54' y='146' fill='currentColor' font-size='9'>out of scope for now, recorded</text></svg>",
-          "caption": "MoSCoW: Must / Should / Could are in; Won't have is explicitly deferred."
-        }
+        "body": "Prioritisation sequences the backlog by value so the team builds the most valuable, least risky work first - the heart of the Delivery domain.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "MoSCoW bands",
+            "rows": [
+              { "key": "Must have", "value": "Non-negotiable; the release fails without it." },
+              { "key": "Should have", "value": "Important but not vital; a painful omission with a workaround." },
+              { "key": "Could have", "value": "Desirable, low impact; the first to drop under pressure." },
+              { "key": "Won't have (this time)", "value": "Explicitly out of scope for now, recorded to manage expectations - deferred, not deleted." }
+            ]
+          },
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "WSJF",
+                "badge": "SAFe",
+                "tone": "accent",
+                "groups": [
+                  { "label": "What", "lines": ["Weighted Shortest Job First.", "WSJF = cost of delay / job size."] },
+                  { "label": "Use", "lines": ["Sequence work by economic value.", "Do the highest value-per-effort item next."] }
+                ]
+              },
+              {
+                "title": "Kano model",
+                "tone": "good",
+                "groups": [
+                  { "label": "What", "lines": ["Classifies features by customer reaction."] },
+                  { "label": "Categories", "lines": ["Basic - expected; absence angers.", "Performance - more is better.", "Delighter - unexpected wow."] }
+                ]
+              },
+              {
+                "title": "Collaborative voting",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "What", "lines": ["100-point or dot voting."] },
+                  { "label": "Use", "lines": ["Quick, collaborative group ranking.", "Good for fast stakeholder consensus."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "lines": [
+              "The fourth MoSCoW band is 'Won't have this time' - deferred and recorded, not thrown away.",
+              "The Product Owner owns backlog priority and value."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Scrum, Kanban & Scrumban",
-        "body": "These are three cadence choices for adaptive work:\n\n- Scrum — fixed-length, timeboxed iterations (sprints) with defined roles and events; strong for feature delivery against a prioritised backlog.\n- Kanban — continuous flow with WIP limits and no fixed iterations; strong for steady streams of varied work such as support or maintenance.\n- Scrumban — a hybrid that keeps Scrum's structure but pulls work continuously under WIP limits like Kanban; useful when transitioning between the two or smoothing unpredictable demand.",
-        "tip": "Steady, unpredictable inflow (e.g. support tickets) points to Kanban; planned feature batches point to Scrum."
+        "kicker": "Stories & sizing",
+        "heading": "User stories, estimating & velocity",
+        "body": "Adaptive teams size work relatively rather than in hours, then use their own recent throughput to forecast. Keep stories small, valuable and testable so they flow smoothly.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "INVEST - a good user story is",
+            "items": [
+              { "code": "I", "text": "Independent - can be built without depending on other stories." },
+              { "code": "N", "text": "Negotiable - a conversation, not a rigid contract." },
+              { "code": "V", "text": "Valuable - delivers value to a user or customer." },
+              { "code": "E", "text": "Estimable - the team can size it." },
+              { "code": "S", "text": "Small - fits comfortably inside one iteration." },
+              { "code": "T", "text": "Testable - has clear acceptance criteria." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Relative estimating",
+            "rows": [
+              { "key": "Story points", "value": "Relative size of effort/complexity/risk, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8, 13)." },
+              { "key": "Planning poker", "value": "Team estimates together; discussion surfaces hidden assumptions and converges the estimate." },
+              { "key": "Velocity", "value": "Story points a team completes per sprint. Averaged over recent sprints to forecast future capacity." },
+              { "key": "Ideal days", "value": "Alternative unit - uninterrupted effort - when teams prefer time over points." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Using velocity",
+            "lines": [
+              "Velocity forecasts how much backlog fits in upcoming sprints; it is not a productivity target to compare across teams.",
+              "It stabilises after a few sprints - early velocity is noisy.",
+              "Points are relative and team-specific; don't compare point totals between teams."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Cadence",
+        "heading": "Scrum, Kanban, Scrumban & XP",
+        "body": "These are cadence and practice choices for adaptive work. Match the choice to how work arrives and how predictable it is.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Scrum",
+                "badge": "Timeboxed",
+                "tone": "good",
+                "groups": [
+                  { "label": "How", "lines": ["Fixed-length, timeboxed iterations (sprints).", "Defined roles and events."] },
+                  { "label": "Best for", "lines": ["Feature delivery against a prioritised backlog.", "Planned batches of work."] }
+                ]
+              },
+              {
+                "title": "Kanban",
+                "badge": "Flow",
+                "tone": "accent",
+                "groups": [
+                  { "label": "How", "lines": ["Continuous flow with WIP limits.", "No fixed iterations; pull work when capacity frees."] },
+                  { "label": "Best for", "lines": ["Steady streams of varied work.", "Support, maintenance, unpredictable inflow."] }
+                ]
+              },
+              {
+                "title": "Scrumban",
+                "badge": "Hybrid",
+                "tone": "warn",
+                "groups": [
+                  { "label": "How", "lines": ["Keeps Scrum's structure but pulls work continuously under WIP limits like Kanban."] },
+                  { "label": "Best for", "lines": ["Transitioning between the two.", "Smoothing unpredictable demand."] }
+                ]
+              },
+              {
+                "title": "XP",
+                "badge": "Engineering",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "How", "lines": ["Extreme Programming - engineering discipline layered on an iterative cadence."] },
+                  { "label": "Practices", "lines": ["Pair programming, TDD, continuous integration.", "Refactoring, small releases, collective ownership."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "lines": [
+              "Steady, unpredictable inflow (e.g. support tickets) points to Kanban.",
+              "Planned feature batches point to Scrum.",
+              "Quality/engineering-discipline questions point to XP practices."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Sprint mechanics",
+        "heading": "Sprint cadence, ceremonies & artifacts",
+        "body": "A Scrum sprint follows a repeating flow. The events create the feedback loops that let the team inspect and adapt toward value.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Sprint flow",
+            "items": [
+              { "title": "Sprint planning", "lines": ["Pull top-priority backlog items into the sprint.", "Agree the sprint goal and forecast."] },
+              { "title": "Daily standup", "lines": ["Short daily sync.", "Surface progress and impediments; re-plan the day."] },
+              { "title": "Development", "lines": ["Build increments against the sprint goal.", "Servant leader removes blockers."] },
+              { "title": "Sprint review", "lines": ["Demo the increment to stakeholders.", "Gather feedback; adapt the backlog."] },
+              { "title": "Retrospective", "lines": ["Inspect the process, not just the product.", "Agree improvements for the next sprint."] }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Key artifacts",
+            "rows": [
+              { "key": "Product backlog", "value": "Ordered list of everything that might be built; owned by the Product Owner." },
+              { "key": "Sprint backlog", "value": "Items selected for the current sprint plus the plan to deliver them." },
+              { "key": "Increment", "value": "The sum of completed, working, potentially releasable work." },
+              { "key": "Definition of Done", "value": "Shared quality bar an item must meet to count as complete." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Flow & progress metrics",
+            "rows": [
+              { "key": "Burndown chart", "value": "Remaining work over time; trends toward zero by sprint end." },
+              { "key": "Burnup chart", "value": "Completed work plus total scope; shows scope change too." },
+              { "key": "Velocity", "value": "Points completed per sprint; forecasts capacity." },
+              { "key": "Cumulative flow", "value": "WIP across workflow states; widening bands reveal bottlenecks." },
+              { "key": "Lead / cycle time", "value": "Speed from request to done; core Kanban health metrics." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Measurement domain cue",
+            "tone": "good",
+            "lines": [
+              "Metrics exist to prompt timely decisions and honest conversation, not to police people.",
+              "Prefer measures of value delivered and flow over raw activity."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Tailoring",
         "heading": "Choosing & combining (hybrid)",
-        "body": "Match cadence and level of detail to the nature of the work. Stable, well-understood scope can stay predictive; uncertain, fast-changing work suits an adaptive cadence.\n\nMany real projects are hybrid — for example, predictive delivery of hardware combined with agile development of the software that runs on it. See the Tailoring guide for how to weigh project, product, and organisational factors when deciding.",
-        "tip": "There is no single right approach — tailor the cadence to the work, not the work to the cadence."
+        "body": "Match cadence and level of detail to the nature of the work. Stable, well-understood scope can stay predictive; uncertain, fast-changing work suits an adaptive cadence. Many real projects are hybrid.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Predictive shell, agile core",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Pattern", "lines": ["Govern the whole with phase gates and a baseline.", "Run the uncertain build work in sprints inside a phase."] },
+                  { "label": "Fits", "lines": ["Regulated or contract-heavy programmes with an exploratory build."] }
+                ]
+              },
+              {
+                "title": "Split by component",
+                "tone": "good",
+                "groups": [
+                  { "label": "Pattern", "lines": ["Predictive delivery of hardware.", "Agile development of the software that runs on it."] },
+                  { "label": "Fits", "lines": ["Products blending stable and evolving parts."] }
+                ]
+              },
+              {
+                "title": "Agile front, predictive rollout",
+                "tone": "warn",
+                "groups": [
+                  { "label": "Pattern", "lines": ["Iterate to discover and validate the solution.", "Switch to planned, controlled deployment once scope firms up."] },
+                  { "label": "Fits", "lines": ["Uncertain discovery followed by a fixed, high-risk cutover."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tailoring reminder",
+            "lines": [
+              "There is no single right approach - tailor the cadence to the work, not the work to the cadence.",
+              "Weigh project, product and organisational factors when deciding (see the Tailoring guide).",
+              "When an option insists on 'always use the full process', be suspicious."
+            ]
+          }
+        ]
       }
     ],
-    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["agile", "hybrid", "backlog", "prioritisation", "scrum", "kanban", "scrumban", "xp", "velocity", "story points", "invest", "pmbok 8", "development approach", "delivery", "value delivery", "tailoring"],
+    "source": "PM Cram study notes - reorganised into structured blocks and aligned to PMBOK 8 principles and performance domains."
   }
 ]

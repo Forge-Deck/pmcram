@@ -3,45 +3,173 @@
     "schema": "guide/v1",
     "title": "The Agile Mindset",
     "category": "Mindset",
-    "summary": "Agile is a way of thinking and working that focuses on delivering value, learning fast, and adapting with the team and stakeholders.",
+    "summary": "Agile is a way of thinking and working that delivers value, learns fast, and adapts with the team and stakeholders. In PMBOK 8 terms this lives in the Development Approach and Life Cycle performance domain and the Adaptability, Change and Value principles.",
     "sections": [
       {
+        "kicker": "Start here",
         "heading": "What agile really is",
-        "body": "Agile is not one method. In PMI terms, it is a mindset and approach built around iterative delivery, rapid feedback, continuous learning, and adaptation. The Agile Practice Guide emphasizes delivering value frequently, making work visible, and adjusting based on feedback instead of trying to predict everything up front.\n\nOn the PMP exam, agile answers usually favor collaboration, transparency, and incremental value delivery over heavy control and detailed early planning. In hybrid scenarios, use enough planning and governance to manage risk, but still seek feedback and adapt as the work unfolds.",
-        "tip": "If an exam option delivers value sooner, improves feedback, or helps the team adapt, it is often the stronger agile choice."
+        "body": "Agile is not one method. In PMI terms it is a mindset built around iterative delivery, rapid feedback, continuous learning, and adaptation. Deliver value frequently, make work visible, and adjust based on feedback instead of trying to predict everything up front.\n\nOn the PMP exam, agile answers usually favour collaboration, transparency, and incremental value delivery over heavy control and detailed early planning. In hybrid scenarios, use enough planning and governance to manage risk, but still seek feedback and adapt as the work unfolds.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "lines": [
+              "If an option delivers value sooner, improves feedback, or helps the team adapt, it is often the stronger agile choice.",
+              "PMBOK 8 lens: this is the Development Approach and Life Cycle domain in action - match the approach to the product."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "PMBOK 8 lens",
         "heading": "Values and principles behind the mindset",
-        "body": "The Agile Manifesto values still matter for exam thinking:\n\n- Individuals and interactions over processes and tools\n- Working product over comprehensive documentation\n- Customer collaboration over contract negotiation\n- Responding to change over following a plan\n\nFor PMP alignment, connect those values to the PMBOK Guide Seventh Edition. Relevant principles include focusing on value, building quality into processes and deliverables, engaging stakeholders, leading with stewardship, and tailoring based on context. The exam tests application of these ideas, not memorization.",
-        "tip": "When two answers seem plausible, prefer the one that best supports value, stakeholder engagement, and adaptation to change."
+        "body": "The four Agile Manifesto values still shape exam thinking. For PMP alignment, connect them to the PMBOK 8 principles - especially Value, Adaptability and Change - and treat them as behaviour guardrails, not slogans to memorise.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "The 4 Agile Manifesto values",
+                "badge": "Prefer the left",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Value 1", "lines": ["Individuals and interactions", "over processes and tools."] },
+                  { "label": "Value 2", "lines": ["Working product", "over comprehensive documentation."] },
+                  { "label": "Value 3", "lines": ["Customer collaboration", "over contract negotiation."] },
+                  { "label": "Value 4", "lines": ["Responding to change", "over following a plan."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "PMBOK 8 principles most relevant to the agile mindset",
+            "items": [
+              { "code": "Value", "text": "Focus on value as the ultimate measure of success; deliver it early and often." },
+              { "code": "Adaptability", "text": "Embrace adaptability and resiliency so the team can absorb change." },
+              { "code": "Change", "text": "Enable change to reach the envisioned future state." },
+              { "code": "Stakeholders", "text": "Engage stakeholders effectively to support value and satisfaction." },
+              { "code": "Quality", "text": "Build quality into processes and deliverables, not just inspect it in." },
+              { "code": "Stewardship", "text": "Lead with integrity and care as a diligent, respectful steward." },
+              { "code": "Tailoring", "text": "Tailor the approach based on context, needs and complexity." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tie-breaker",
+            "tone": "good",
+            "text": "When two answers seem plausible, prefer the one that best supports value, stakeholder engagement, and adaptation to change."
+          }
+        ]
       },
       {
+        "kicker": "Roles",
         "heading": "How agile teams operate",
-        "body": "Agile teams are typically cross-functional and self-managing. They decide how to accomplish the work, collaborate closely, and improve through regular feedback loops. The Agile Practice Guide uses 'self-managing' more broadly than older 'self-organizing' language, so either idea points to team empowerment rather than command-and-control direction.\n\nIn Scrum-based examples, the Product Owner orders the product backlog to maximize value, the Scrum Master enables the team and helps remove impediments, and developers create the increment. In broader PMP scenarios, the project manager often acts with a servant leadership style by facilitating, coaching, and supporting decision making rather than assigning every task.",
-        "tip": "Do not jump in to solve everything yourself. In agile scenarios, the best first move is often to enable the team to solve the problem."
+        "body": "Agile teams are typically cross-functional and self-managing. They decide how to accomplish the work, collaborate closely, and improve through regular feedback loops. 'Self-managing' is used more broadly than the older 'self-organising' language, but both point to team empowerment rather than command-and-control.\n\nIn broader PMP scenarios the project manager acts with a servant-leadership style - facilitating, coaching, and supporting decisions rather than assigning every task.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Scrum roles at a glance",
+            "rows": [
+              { "key": "Product Owner", "value": "Orders the product backlog to maximise value." },
+              { "key": "Scrum Master", "value": "Enables the team and helps remove impediments." },
+              { "key": "Developers", "value": "Create the increment; decide how the work is done." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Servant-leadership cues",
+            "tone": "good",
+            "lines": [
+              "Do not jump in to solve everything yourself.",
+              "The best first move is often to enable the team to solve the problem.",
+              "Facilitate and coach; remove impediments instead of assigning tasks.",
+              "Leadership is a behaviour, not a title."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Delivery",
         "heading": "Backlog, increments, and feedback",
-        "body": "Agile work is usually managed as a prioritized backlog and delivered in small increments. The goal is to create usable outcomes, gather feedback early, and refine the product over time. The Agile Practice Guide supports using reviews, demos, retrospectives, and frequent stakeholder interaction to inspect and adapt.\n\nExam questions often reward actions that improve backlog clarity, stakeholder feedback, and shared understanding of value. If requirements are uncertain, the agile response is usually to clarify with stakeholders, refine backlog items, and learn through small releases rather than freeze scope too early.",
-        "tip": "If requirements are unclear, refine the backlog and get feedback on a small increment instead of forcing detailed up-front requirements."
+        "body": "Agile work is managed as a prioritised backlog and delivered in small increments. The goal is to create usable outcomes, gather feedback early, and refine the product over time. Reviews, demos, retrospectives, and frequent stakeholder interaction are how the team inspects and adapts.\n\nExam questions reward actions that improve backlog clarity, stakeholder feedback, and shared understanding of value.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "When requirements are uncertain",
+            "items": [
+              { "title": "Clarify with stakeholders", "lines": ["Talk to the people who define value."] },
+              { "title": "Refine the backlog", "lines": ["Turn ambiguity into ordered, workable items."] },
+              { "title": "Learn through small releases", "lines": ["Get feedback on a small increment instead of freezing scope too early."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "text": "If requirements are unclear, refine the backlog and get feedback on a small increment instead of forcing detailed up-front requirements."
+          }
+        ]
       },
       {
+        "kicker": "Change",
         "heading": "How agile handles change",
-        "body": "Agile welcomes change when it improves value, but it does not mean uncontrolled change. New ideas, defects, risks, and stakeholder requests are evaluated, added to the backlog as needed, and prioritized. The team protects the current iteration goal as much as possible, then adapts in the next planning cycle unless an urgent issue justifies immediate action.\n\nThis fits the PMP Examination Content Outline expectation to assess and manage changes, risks, and stakeholder needs using the delivery approach in play. In hybrid work, some changes may still require formal governance, so tailor the response to the project context.",
-        "tip": "In a sprint or iteration, avoid disruptive mid-cycle changes unless the issue is urgent. Capture, assess, and reprioritize through the backlog."
+        "body": "Agile welcomes change when it improves value, but that does not mean uncontrolled change. New ideas, defects, risks, and stakeholder requests are evaluated, added to the backlog as needed, and prioritised. The team protects the current iteration goal as much as possible, then adapts in the next planning cycle unless an urgent issue justifies immediate action.\n\nThis fits the expectation to assess and manage changes, risks, and stakeholder needs using the delivery approach in play. In hybrid work, some changes still require formal governance, so tailor the response to the context.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Handling a mid-iteration request",
+            "items": [
+              { "title": "Capture it", "lines": ["Add the idea, defect or request to the backlog."] },
+              { "title": "Assess it", "lines": ["Weigh value, risk and impact on the iteration goal."] },
+              { "title": "Reprioritise", "lines": ["Sequence it into a future cycle unless it is urgent."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "text": "In a sprint or iteration, avoid disruptive mid-cycle changes unless the issue is urgent. Capture, assess, and reprioritise through the backlog."
+          }
+        ]
       },
       {
+        "kicker": "Exam mindset",
         "heading": "Ethics and mindset on the exam",
-        "body": "Agile behavior on the exam should also align with the PMI Code of Ethics and Professional Conduct. That means being honest and transparent, showing respect for team members and stakeholders, taking responsibility, and acting fairly. If a scenario includes conflict, hidden information, pressure to cut corners, or blame, choose the response that is ethical, transparent, and collaborative.\n\nMany PMP questions are not purely agile or purely predictive. The PMP Examination Content Outline reflects a mix of predictive, agile, and hybrid ways of working across People, Process, and Business Environment. First identify the environment, then choose the action that best fits that context.",
-        "tip": "Before answering, identify the delivery approach and eliminate any option that violates ethics, hides information, or weakens collaboration."
+        "body": "Agile behaviour on the exam should also align with the PMI Code of Ethics and Professional Conduct: be honest and transparent, respect team members and stakeholders, take responsibility, and act fairly. If a scenario includes conflict, hidden information, pressure to cut corners, or blame, choose the response that is ethical, transparent, and collaborative.\n\nMany PMP questions are not purely agile or purely predictive - they mix predictive, agile, and hybrid ways of working. First identify the environment, then choose the action that best fits that context.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Answer routine",
+            "items": [
+              { "title": "Identify the delivery approach", "lines": ["Predictive, agile or hybrid - read the wording first."] },
+              { "title": "Eliminate unethical options", "lines": ["Drop anything that hides information or weakens collaboration."] },
+              { "title": "Pick the value-and-principle choice", "lines": ["Favour transparency, stakeholder engagement and adaptation."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "bad",
+            "lines": [
+              "Before answering, identify the delivery approach.",
+              "Eliminate any option that violates ethics, hides information, or weakens collaboration."
+            ]
+          }
+        ]
       }
     ],
     "tags": [
       "agile",
       "hybrid",
       "pmp",
-      "exam"
+      "exam",
+      "pmbok 8",
+      "principles",
+      "development approach",
+      "value delivery"
     ],
-    "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide Seventh Edition, Agile Practice Guide, and the PMI Code of Ethics and Professional Conduct."
+    "source": "PMI sources: PMP Examination Content Outline, PMBOK Guide (aligned to PMBOK 8 principles and performance domains), Agile guidance, and the PMI Code of Ethics and Professional Conduct."
   }
 ]

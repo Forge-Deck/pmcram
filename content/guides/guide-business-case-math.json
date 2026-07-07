@@ -3,47 +3,214 @@
     "schema": "guide/v1",
     "title": "Project Selection & Business-Case Math",
     "category": "Process",
-    "summary": "How to choose which projects to fund and the numbers behind the business case.",
+    "summary": "How to choose which projects to fund and the numbers behind the business case, broken into scan-friendly blocks: the two method families, a formula bank for NPV, IRR, BCR, ROI, payback and EMV, a decision-rule table for picking a project, present-vs-future value, make-or-buy, scoring models, and the exam cues. Tailored to PMBOK 8, where sound project selection supports the Value principle.",
     "sections": [
       {
-        "heading": "Why selection methods matter",
-        "body": "Funding is limited, so the organisation must back the projects with the best value and strongest strategic fit. This is a Business-Environment concern, and the 2026 ECO raises Business Environment to 26 percent of the exam.\n\nSelection methods fall into two families. Benefit-measurement methods are comparative: they rank candidate projects using numbers such as NPV, IRR, BCR, payback period, and scoring models. Constrained-optimisation methods are mathematical (linear and integer programming) used to allocate scarce resources across many options.\n\nFor the exam, you mostly compare projects using benefit-measurement figures and apply a clear decision rule to each.",
-        "tip": "Two families: benefit-measurement (comparative) and constrained-optimisation (mathematical programming)."
+        "kicker": "Why it matters",
+        "heading": "Selection supports the Value principle",
+        "body": "Funding is limited, so the organisation must back the projects with the best value and strongest strategic fit. In PMBOK 8 this is the Value principle in action: choose and justify work by the value it delivers. It is also a Business-Environment concern, and the 2026 ECO raises Business Environment to 26 percent of the exam.\n\nFor the exam you mostly compare candidate projects using benefit-measurement figures and apply a clear decision rule to each.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Two families of selection methods",
+            "items": [
+              {
+                "title": "Benefit-measurement",
+                "badge": "Comparative",
+                "tone": "good",
+                "groups": [
+                  { "label": "What it is", "lines": ["Ranks candidate projects using numbers.", "Compare and pick the best figure."] },
+                  { "label": "Includes", "lines": ["NPV, IRR, BCR, ROI.", "Payback period.", "EMV and weighted scoring models."] }
+                ]
+              },
+              {
+                "title": "Constrained-optimisation",
+                "badge": "Mathematical",
+                "tone": "accent",
+                "groups": [
+                  { "label": "What it is", "lines": ["Mathematical programming to allocate scarce resources across many options."] },
+                  { "label": "Includes", "lines": ["Linear programming.", "Integer programming.", "Rarely calculated on the exam - just recognise the name."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "neutral",
+            "lines": ["Benefit-measurement = comparative (rank the numbers).", "Constrained-optimisation = mathematical programming.", "Most exam questions are benefit-measurement: read the figure, apply the decision rule."]
+          }
+        ]
       },
       {
-        "heading": "Net Present Value (NPV)",
-        "body": "NPV discounts all future cash inflows and outflows back to today using a discount rate, then sums them. It captures the time value of money: money received now is worth more than the same amount later.\n\nDecision rules:\n\n- Pick the project with the HIGHER NPV.\n- An NPV greater than 0 means the project is viable.\n- A negative NPV means it destroys value and should be rejected.\n\nNPV already accounts for the cost of capital, so it is the most trusted comparative measure.",
-        "tip": "Higher NPV wins; NPV greater than 0 is viable, ignore the raw project duration."
+        "kicker": "Calculation bank",
+        "heading": "Business-case formulae",
+        "body": "Each formula sits next to its meaning and exam cue. You rarely compute these by hand on the exam, but you must know the direction each one points.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "Time value of money",
+            "note": "Discount future cash before comparing",
+            "items": [
+              { "formula": "PV = FV / (1 + r)^n", "lines": ["Present value of a future amount.", "r = discount rate per period, n = number of periods.", "Discounting (dividing) pulls future cash back to today."] },
+              { "formula": "FV = PV x (1 + r)^n", "lines": ["Future value of a present amount.", "Compounding (multiplying) is the reverse of discounting."] }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Selection measures",
+            "note": "Know the direction each points",
+            "items": [
+              { "formula": "NPV = sum of discounted inflows - discounted outflows", "lines": ["Net present value in money terms.", "Higher NPV is better; NPV greater than 0 is viable.", "Already accounts for the cost of capital - most trusted measure."] },
+              { "formula": "IRR = rate where NPV = 0", "lines": ["Return expressed as a percentage.", "Higher IRR is better; clears the bar when it exceeds the required rate of return."] },
+              { "formula": "BCR = PV of benefits / PV of costs", "lines": ["Benefit-cost ratio.", "Greater than 1 = benefits exceed costs (good).", "A COST ratio (costs over benefits) inverts this - below 1 is good."] },
+              { "formula": "ROI = (Net benefit / Cost) x 100", "lines": ["Return on investment as a percentage.", "Higher ROI is better."] },
+              { "formula": "Payback = time to recover the original investment", "lines": ["Shorter payback is better.", "Ignores time value of money and cash after recovery."] },
+              { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value of an uncertain outcome.", "Sum across outcomes for a single expected figure."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Formula tip",
+            "tone": "warn",
+            "lines": ["Money answer -> NPV. Percentage answer -> IRR or ROI.", "Ratio answer -> BCR. Time answer -> payback.", "Uncertainty weighted by probability -> EMV."]
+          }
+        ]
       },
       {
-        "heading": "Internal Rate of Return (IRR)",
-        "body": "IRR is the discount rate at which a project's NPV equals exactly 0. It expresses return as a percentage rather than a money amount.\n\nDecision rule: the HIGHER the IRR, the better the project. A project clears the bar when its IRR exceeds the organisation's required rate of return.\n\nWatch the exam trap: a longer project with a bigger absolute return can still have a lower IRR than a short, efficient one. IRR and NPV can occasionally rank projects differently.",
-        "tip": "IRR is the rate where NPV equals 0 — higher IRR is better."
+        "kicker": "Decision rules",
+        "heading": "Which project to pick",
+        "body": "When a question lists several projects with figures, apply the direction rule and choose the favourable one.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Metric -> pick which project",
+            "rows": [
+              { "key": "NPV", "value": "Higher is better. Pick the highest NPV. Greater than 0 = viable; negative = reject." },
+              { "key": "IRR", "value": "Higher is better. Pick the highest IRR. Must exceed the required rate of return." },
+              { "key": "BCR", "value": "Higher is better. Greater than 1 = viable; equal to 1 = break-even; below 1 = reject." },
+              { "key": "ROI", "value": "Higher is better. Pick the highest ROI." },
+              { "key": "Payback", "value": "Shorter is better. Pick the fastest payback." },
+              { "key": "EMV", "value": "For opportunities, higher (more positive) is better; for threats, lower expected cost is better." },
+              { "key": "Cost ratio", "value": "If the ratio is costs over benefits, the rule flips: LOWER is better." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam traps",
+            "tone": "bad",
+            "lines": ["Ignore the raw project duration - a longer project can still win on NPV.", "IRR and NPV can occasionally rank projects differently; NPV is the tie-breaker.", "A COST-benefit ratio inverts the 'greater than 1' logic - read the wording.", "Payback is a liquidity screen only, never the deciding figure over NPV or IRR."]
+          }
+        ]
       },
       {
-        "heading": "Benefit-Cost Ratio (BCR)",
-        "body": "BCR divides the present value of benefits by the present value of costs.\n\n- BCR greater than 1: benefits exceed costs, viable.\n- BCR equal to 1: break-even.\n- BCR less than 1: reject.\n\nRead the question carefully. A benefit-cost ratio above 1 is good, but a COST ratio (costs over benefits) inverts the logic, so there a value below 1 is the favourable one.",
-        "tip": "BCR greater than 1 is good; a cost-benefit (cost over benefit) ratio flips the rule."
+        "kicker": "Individual measures",
+        "heading": "How each figure behaves",
+        "body": "The detail behind each decision rule, and why NPV is the most trusted comparative measure.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Net Present Value (NPV)",
+                "tone": "good",
+                "groups": [
+                  { "label": "What it is", "lines": ["Discounts all future inflows and outflows to today and sums them.", "Captures the time value of money."] },
+                  { "label": "Rules", "lines": ["Pick the HIGHER NPV.", "Greater than 0 = viable.", "Negative = destroys value, reject."] }
+                ]
+              },
+              {
+                "title": "Internal Rate of Return (IRR)",
+                "tone": "accent",
+                "groups": [
+                  { "label": "What it is", "lines": ["The discount rate at which NPV equals exactly 0.", "Return as a percentage, not a money amount."] },
+                  { "label": "Rules", "lines": ["Higher IRR is better.", "Clears the bar when it exceeds the required rate of return.", "A short efficient project can beat a long one with a bigger absolute return."] }
+                ]
+              },
+              {
+                "title": "Benefit-Cost Ratio (BCR)",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "What it is", "lines": ["PV of benefits divided by PV of costs."] },
+                  { "label": "Rules", "lines": ["Greater than 1 = benefits exceed costs, viable.", "Equal to 1 = break-even.", "Less than 1 = reject.", "A cost-over-benefit ratio flips the logic."] }
+                ]
+              },
+              {
+                "title": "Payback period",
+                "tone": "warn",
+                "groups": [
+                  { "label": "What it is", "lines": ["Time to recover the original investment from net cash inflows.", "Shorter = lower exposure, cash back sooner."] },
+                  { "label": "Weaknesses", "lines": ["Ignores the time value of money.", "Ignores cash flows after recovery.", "Use as a quick liquidity screen, not the deciding figure."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Why NPV leads",
+            "tone": "good",
+            "text": "NPV already accounts for the cost of capital, so it is the most trusted comparative measure. When methods disagree, favour NPV."
+          }
+        ]
       },
       {
-        "heading": "Payback period",
-        "body": "The payback period is the time taken to recover the original investment from net cash inflows. The SHORTER the payback, the more attractive the project, because cash is recovered sooner and exposure is lower.\n\nIts weaknesses make it a poor sole criterion:\n\n- It ignores the time value of money (cash is not discounted).\n- It ignores all cash flows that arrive after the investment is recovered.\n\nUse it as a quick liquidity screen, not as the deciding figure over NPV or IRR.",
-        "tip": "Shorter payback is better, but it ignores time value and later cash flows."
-      },
-      {
-        "heading": "Present Value vs Future Value",
-        "body": "Present value and future value are the building blocks behind NPV, IRR, and BCR. The core relationship is:\n\nPV = FV / (1 + r)^n\n\nHere r is the discount rate per period and n is the number of periods. Future value is what an amount grows to; present value is what a future amount is worth in today's money. Discounting (dividing) converts future cash back to present value; compounding (multiplying) does the reverse.",
-        "tip": "PV = FV / (1 + r)^n — discount future cash back to today before comparing."
-      },
-      {
+        "kicker": "Procurement choice",
         "heading": "Make-or-buy analysis",
-        "body": "Make-or-buy analysis compares producing or delivering something in-house against purchasing it externally. It feeds the procurement decision in the business case.\n\nKey rule: EXCLUDE sunk costs. Money already spent is gone and must not influence whether to make or buy going forward — only future costs and benefits count.\n\nWeigh more than price alone:\n\n- Direct and indirect cost over the full life cycle.\n- Internal capability and capacity.\n- Intellectual property and who owns the result.\n- Risk, control, and long-term strategic fit.",
-        "tip": "Ignore sunk costs — decide make-or-buy on future cost, capability, IP, and risk."
+        "body": "Make-or-buy analysis compares producing or delivering something in-house against purchasing it externally. It feeds the procurement decision in the business case.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Golden rule",
+            "tone": "bad",
+            "text": "EXCLUDE sunk costs. Money already spent is gone and must not influence whether to make or buy going forward - only future costs and benefits count."
+          },
+          {
+            "kind": "table",
+            "title": "Weigh more than price alone",
+            "rows": [
+              { "key": "Cost", "value": "Direct and indirect cost over the full life cycle." },
+              { "key": "Capability", "value": "Internal capability and capacity." },
+              { "key": "IP", "value": "Intellectual property and who owns the result." },
+              { "key": "Strategic fit", "value": "Risk, control, and long-term strategic fit." }
+            ]
+          }
+        ]
       },
       {
-        "heading": "Ranking with EMV and scoring models",
-        "body": "When choices carry uncertainty, Expected Monetary Value (EMV) weights each outcome's value by its probability to give a single expected figure for comparison. See the PMP Formulas guide for the full EMV calculation rather than repeating it here.\n\nWeighted scoring models rank projects against multiple criteria (strategic fit, cost, risk, benefit) by scoring each criterion and applying a weight, then summing. They are useful when value is not purely financial.\n\nAcross every method, the exam hooks are the same: know the decision direction (higher NPV and IRR, BCR greater than 1, shorter payback) and never let sunk costs sway a forward-looking decision.",
-        "tip": "Memorise the directions: higher NPV/IRR, BCR over 1, shorter payback, ignore sunk costs."
+        "kicker": "Uncertainty and multi-criteria",
+        "heading": "EMV and scoring models",
+        "body": "When choices carry uncertainty or value is not purely financial, use these to rank options.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Weighted scoring model",
+            "items": [
+              { "title": "List the criteria", "lines": ["Strategic fit, cost, risk, benefit and so on."] },
+              { "title": "Score each project per criterion", "lines": ["Rate every candidate against each criterion."] },
+              { "title": "Apply a weight", "lines": ["Weight each criterion by importance."] },
+              { "title": "Sum and rank", "lines": ["Highest weighted total wins.", "Useful when value is not purely financial."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "EMV reminder",
+            "tone": "neutral",
+            "lines": ["Expected Monetary Value weights each outcome's value by its probability to give a single expected figure.", "EMV = Probability x Impact; sum across outcomes.", "See the PMP Formulas guide for the full worked calculation."]
+          }
+        ]
+      },
+      {
+        "kicker": "Final recall",
+        "heading": "Exam hooks",
+        "body": "Across every method the exam hooks are the same: know the decision direction and never let sunk costs sway a forward-looking decision.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Memorise the directions",
+            "tone": "good",
+            "lines": ["Higher NPV wins; NPV greater than 0 is viable.", "Higher IRR is better; it is the rate where NPV equals 0.", "BCR greater than 1 is good; a cost-benefit ratio flips it.", "Higher ROI is better.", "Shorter payback is better, but it ignores time value and later cash flows.", "Ignore sunk costs; decide make-or-buy on future cost, capability, IP and risk.", "PV = FV / (1 + r)^n - discount before you compare.", "Sound selection serves the PMBOK 8 Value principle."]
+          }
+        ]
       }
     ],
     "tags": [
@@ -52,10 +219,14 @@
       "NPV",
       "IRR",
       "BCR",
+      "ROI",
       "payback",
+      "EMV",
       "make-or-buy",
-      "business environment"
+      "business environment",
+      "pmbok 8",
+      "value principle"
     ],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 principles for the current ECO-based PMP exam."
   }
 ]

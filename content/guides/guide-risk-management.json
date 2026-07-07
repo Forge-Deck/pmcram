@@ -3,45 +3,220 @@
     "schema": "guide/v1",
     "title": "Risk Management",
     "category": "Process",
-    "summary": "Identifying, analysing, and responding to threats and opportunities so uncertainty is managed rather than merely feared.",
+    "summary": "Identifying, analysing, and responding to threats and opportunities so uncertainty is managed rather than merely feared. In PMBOK 8 this is the Uncertainty performance domain and the Risk principle: optimise responses to maximise opportunity and minimise threat.",
     "sections": [
       {
-        "heading": "Identifying risks & the Risk Breakdown Structure",
-        "body": "A risk is an uncertain event or condition that, if it occurs, has an effect on one or more project objectives. Crucially, that effect can be negative (a threat) or positive (an opportunity) — PMI treats both as risk, so good risk management is not only about avoiding harm but also about capturing upside.\n\nRisk identification is iterative and team-driven: it continues throughout the project, not just at the start, because new risks emerge as work progresses and old ones expire.\n\nThe Risk Breakdown Structure (RBS) is a hierarchical chart of risk categories — not individual risks — used to prompt systematic identification so nothing obvious is missed. A typical top level is:\n\n- Technical (requirements, technology, complexity, interfaces, quality)\n- External (suppliers, regulation, market, weather)\n- Organisational (resources, funding, priorities, dependencies)\n- Project management (estimating, planning, controlling, communication)",
-        "tip": "RBS organises risk by SOURCE/category; the WBS organises deliverable work. Don't confuse them."
+        "kicker": "PMBOK 8 lens",
+        "heading": "Uncertainty domain and the Risk principle",
+        "body": "A risk is an uncertain event or condition that, if it occurs, has an effect on one or more project objectives. That effect can be negative (a threat) or positive (an opportunity) - PMI treats both as risk, so good risk management is not only about avoiding harm but also about capturing upside.\n\nPMBOK 8 frames all of this as the Uncertainty performance domain (desired outcome: threats reduced, opportunities captured, the environment understood) guided by the Risk principle: optimise risk responses. Responses are chosen to fit context, not applied by rote.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How PMBOK 8 sees risk",
+            "tone": "accent",
+            "lines": [
+              "Uncertainty domain = the what: reduce threats, capture opportunities, understand the environment.",
+              "Risk principle = the why: optimise responses; maximise opportunity, minimise threat.",
+              "Responses are tailored and proportionate to priority, not one-size-fits-all.",
+              "Both threats (downside) and opportunities (upside) are managed as risk."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Qualitative analysis — the probability & impact matrix",
-        "body": "Qualitative analysis rapidly scores and ranks each identified risk so attention goes to the high-priority few. You rate probability and impact (typically high/medium/low or a numeric scale) and multiply or plot them on a probability and impact matrix, often colour-coded red/amber/green.\n\nThe output is a prioritised list: red risks demand response now, green risks may go on a watch list. It is fast and subjective — it relies on expert judgement rather than hard numbers.\n\nQualitative analysis usually decides which risks warrant deeper quantitative analysis or an immediate response, and which can simply be monitored.",
-        "tip": "Qualitative = quick, subjective, prioritises. Think \"which risks matter most?\" before spending money modelling them.",
-        "figure": {
-          "svg": "<svg viewBox='0 0 300 205' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='70' y='30' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><rect x='130' y='30' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='190' y='30' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='70' y='76' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='130' y='76' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><rect x='190' y='76' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='70' y='122' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='130' y='122' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='190' y='122' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><text x='62' y='56' fill='currentColor' font-size='9' text-anchor='end'>High</text><text x='62' y='102' fill='currentColor' font-size='9' text-anchor='end'>Med</text><text x='62' y='148' fill='currentColor' font-size='9' text-anchor='end'>Low</text><text x='30' y='99' fill='currentColor' font-size='10' text-anchor='middle' transform='rotate(-90 30 99)'>Probability</text><text x='100' y='183' fill='currentColor' font-size='9' text-anchor='middle'>Low</text><text x='160' y='183' fill='currentColor' font-size='9' text-anchor='middle'>Med</text><text x='220' y='183' fill='currentColor' font-size='9' text-anchor='middle'>High</text><text x='160' y='199' fill='currentColor' font-size='10' text-anchor='middle'>Impact</text></svg>",
-          "caption": "Probability x impact: red cells (top-right) are highest priority; green (bottom-left) a watch list."
-        }
+        "kicker": "The process",
+        "heading": "The risk process, end to end",
+        "body": "Risk management is iterative: it runs throughout the project, not just at the start, because new risks emerge as work progresses and old ones expire.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Plan -> Identify -> Analyse -> Respond -> Implement -> Monitor",
+            "items": [
+              { "title": "Plan risk management", "lines": ["Decide how risk will be handled on this project.", "Set categories, scales and tolerances up front."] },
+              { "title": "Identify risks", "lines": ["Iterative and team-driven; continues throughout.", "Use the RBS to prompt systematic identification.", "Record each risk in the risk register."] },
+              { "title": "Analyse - qualitative", "lines": ["Quick, subjective scoring to prioritise.", "Rate probability and impact; plot on the P x I matrix."] },
+              { "title": "Analyse - quantitative", "lines": ["Numeric modelling of overall exposure.", "EMV, decision trees, Monte Carlo, sensitivity analysis.", "Often skipped on smaller or agile projects."] },
+              { "title": "Plan responses", "lines": ["Choose a strategy per risk, proportionate to priority.", "Assign a risk owner.", "Check for secondary risk the response creates."] },
+              { "title": "Implement responses", "lines": ["Carry out the agreed response actions.", "A known risk that fires triggers its planned response."] },
+              { "title": "Monitor risks", "lines": ["Track identified risks, watch for new ones, review reserves.", "Continues to the end of the project."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "lines": ["A new risk: record it, analyse it, plan a response, assign an owner.", "A known risk fires: use the planned response - don't improvise.", "Identification never stops; keep the register live."]
+          }
+        ]
       },
       {
-        "heading": "Quantitative analysis — EMV & decision trees",
-        "body": "Quantitative analysis is the numeric side: it assigns money or time figures to risk to model overall project exposure. Expected Monetary Value (EMV) = probability x impact, expressed in money — negative for threats, positive for opportunities. Summing EMVs gives an expected contingency figure.\n\nDecision trees extend EMV across choices: each branch's EMV is calculated and you select the path with the best overall EMV. Other quantitative techniques include Monte Carlo simulation and sensitivity analysis (tornado diagrams).\n\nQuantitative analysis is effort-intensive and is often skipped on smaller or agile projects, where qualitative ranking and adaptive responses are enough.",
-        "tip": "EMV of a 20% chance of a -£50k threat = -£10k. Threats carry a minus sign; opportunities a plus."
+        "kicker": "Identify",
+        "heading": "Identifying risks and the Risk Breakdown Structure",
+        "body": "Risk identification is iterative and team-driven. The Risk Breakdown Structure (RBS) is a hierarchical chart of risk categories - not individual risks - used to prompt systematic identification so nothing obvious is missed.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Typical RBS top level",
+            "rows": [
+              { "key": "Technical", "value": "Requirements, technology, complexity, interfaces, quality." },
+              { "key": "External", "value": "Suppliers, regulation, market, weather." },
+              { "key": "Organisational", "value": "Resources, funding, priorities, dependencies." },
+              { "key": "Project management", "value": "Estimating, planning, controlling, communication." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Don't confuse the structures",
+            "tone": "warn",
+            "text": "The RBS organises risk by SOURCE / category; the WBS organises deliverable work. They are different breakdowns."
+          }
+        ]
       },
       {
-        "heading": "Risk responses — threats and opportunities",
-        "body": "Each strategy for a threat has a mirror for an opportunity. Choose responses proportionate to the risk's priority.\n\nThreats:\n\n- Avoid — eliminate the threat entirely or remove its cause (e.g. change scope or approach)\n- Transfer — shift the impact to a third party via insurance, contracts or warranties; the risk still exists, ownership of its consequence moves\n- Mitigate — reduce the probability and/or the impact to an acceptable level\n- Accept — take no proactive action; active acceptance sets aside a contingency reserve, passive acceptance simply deals with it if it occurs\n- Escalate — the threat is outside the project's authority, so raise it to programme, portfolio or senior management\n\nOpportunities:\n\n- Exploit — make certain the opportunity happens (the mirror of avoid)\n- Enhance — increase its probability and/or impact (mirror of mitigate)\n- Share — allocate it to a partner best able to capture it, e.g. a joint venture or teaming agreement (mirror of transfer)\n- Accept — take it if it arrives but don't actively pursue it\n- Escalate — beyond the project's remit, so raise it upward",
-        "tip": "Transfer and Share both involve a third party. Escalate and Accept are the two strategies shared by threats and opportunities."
+        "kicker": "Analyse",
+        "heading": "Qualitative analysis - the probability and impact matrix",
+        "body": "Qualitative analysis rapidly scores and ranks each identified risk so attention goes to the high-priority few. You rate probability and impact (typically high / medium / low or a numeric scale) and multiply or plot them on a probability and impact matrix, often colour-coded red / amber / green.\n\nThe output is a prioritised list: red risks demand response now, green risks may go on a watch list. It is fast and subjective - it relies on expert judgement rather than hard numbers. Qualitative analysis usually decides which risks warrant deeper quantitative analysis or an immediate response, and which can simply be monitored.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "accent",
+            "text": "Qualitative = quick, subjective, prioritises. Think 'which risks matter most?' before spending money modelling them."
+          },
+          {
+            "kind": "table",
+            "title": "Reading the P x I matrix",
+            "rows": [
+              { "key": "Red (high P, high I)", "value": "Top-right cells; highest priority - respond now." },
+              { "key": "Amber (mixed)", "value": "Mid cells; plan a response or monitor closely." },
+              { "key": "Green (low P, low I)", "value": "Bottom-left cells; a watch list may be enough." }
+            ]
+          }
+        ]
       },
       {
-        "heading": "Secondary & residual risk, and the bowtie",
-        "body": "Applying a response is not the end of the story:\n\n- Residual risk is the exposure that REMAINS after a response is applied — you mitigated, but some risk is left. It is expected, and is then accepted or watched.\n- Secondary risk is a NEW risk CREATED BY the response itself — e.g. transferring work to a subcontractor creates a delivery-quality risk. Always check what a response introduces.\n\nThe bowtie method visualises a serious risk: the central knot is the unwanted event, with threats (causes) on the left and consequences on the right. Preventive barriers (controls that stop the causes) sit on the left; recovery barriers (controls that limit the consequences) sit on the right. It is most useful for high-severity risks where you want to show prevention and mitigation at a glance.",
-        "tip": "Residual = left over after the response; Secondary = caused by the response. Bowtie: prevent on the left, recover on the right.",
-        "figure": {
-          "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='34' y1='44' x2='148' y2='80' stroke='#B5462F' stroke-width='1.1'/><line x1='34' y1='80' x2='148' y2='80' stroke='#B5462F' stroke-width='1.1'/><line x1='34' y1='116' x2='148' y2='80' stroke='#B5462F' stroke-width='1.1'/><line x1='172' y1='80' x2='286' y2='44' stroke='#C98A1F' stroke-width='1.1'/><line x1='172' y1='80' x2='286' y2='80' stroke='#C98A1F' stroke-width='1.1'/><line x1='172' y1='80' x2='286' y2='116' stroke='#C98A1F' stroke-width='1.1'/><line x1='104' y1='36' x2='104' y2='124' stroke='currentColor' stroke-width='1.4'/><line x1='216' y1='36' x2='216' y2='124' stroke='currentColor' stroke-width='1.4'/><circle cx='160' cy='80' r='18' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1.4'/><text x='160' y='83' fill='currentColor' font-size='8' text-anchor='middle'>Event</text><text x='32' y='30' fill='#B5462F' font-size='9'>Threats</text><text x='288' y='30' fill='#C98A1F' font-size='9' text-anchor='end'>Consequences</text><text x='104' y='140' fill='currentColor' font-size='8' text-anchor='middle'>preventive</text><text x='216' y='140' fill='currentColor' font-size='8' text-anchor='middle'>recovery</text></svg>",
-          "caption": "Bowtie: preventive barriers stop the causes (left); recovery barriers limit the consequences (right)."
-        }
+        "kicker": "Analyse",
+        "heading": "Quantitative analysis - EMV and decision trees",
+        "body": "Quantitative analysis is the numeric side: it assigns money or time figures to risk to model overall project exposure. Expected Monetary Value (EMV) is probability times impact, expressed in money - negative for threats, positive for opportunities. Summing EMVs gives an expected contingency figure.\n\nDecision trees extend EMV across choices: each branch's EMV is calculated and you select the path with the best overall EMV. Other quantitative techniques include Monte Carlo simulation and sensitivity analysis (tornado diagrams). Quantitative analysis is effort-intensive and is often skipped on smaller or agile projects, where qualitative ranking and adaptive responses are enough.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "Expected Monetary Value",
+            "note": "Watch the sign",
+            "items": [
+              { "formula": "EMV = Probability x Impact", "lines": ["Expressed in money.", "Threats carry a minus sign; opportunities a plus.", "Sum identified risks to size contingency."] },
+              { "formula": "EMV example = 0.20 x -50000 = -10000", "lines": ["A 20% chance of a -50,000 threat.", "Decision tree: pick the branch with the best overall EMV."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "neutral",
+            "lines": ["Threats are negative EMV; opportunities are positive.", "Monte Carlo and sensitivity (tornado) analysis are also quantitative.", "Small / agile projects often stop at qualitative ranking."]
+          }
+        ]
       },
       {
-        "heading": "Reserves — contingency vs management",
-        "body": "Two reserves cover two different kinds of uncertainty.\n\nContingency reserve covers KNOWN risks — the identified \"known-unknowns\" you analysed and chose to accept or mitigate. It is part of the cost baseline, and the project manager can spend it without further approval.\n\nManagement reserve covers UNKNOWN risks — the \"unknown-unknowns\" you could not foresee. It sits OUTSIDE the cost baseline (within the total project budget) and requires management approval to access.",
-        "tip": "Known + in baseline + PM controls = contingency. Unknown + outside baseline + needs approval = management reserve."
+        "kicker": "Respond",
+        "heading": "Risk responses - threats and opportunities",
+        "body": "Each strategy for a threat has a mirror for an opportunity. Choose responses proportionate to the risk's priority - this is the Risk principle in action: optimise, don't over- or under-respond.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Threat strategies (downside)",
+            "rows": [
+              { "key": "Avoid", "value": "Eliminate the threat entirely or remove its cause, e.g. change scope or approach." },
+              { "key": "Transfer", "value": "Shift the impact to a third party via insurance, contracts or warranties; the risk still exists, ownership of its consequence moves." },
+              { "key": "Mitigate", "value": "Reduce the probability and/or the impact to an acceptable level." },
+              { "key": "Accept", "value": "Take no proactive action. Active acceptance sets aside a contingency reserve; passive acceptance simply deals with it if it occurs." },
+              { "key": "Escalate", "value": "Threat is outside the project's authority, so raise it to programme, portfolio or senior management." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Opportunity strategies (upside)",
+            "rows": [
+              { "key": "Exploit", "value": "Make certain the opportunity happens (the mirror of avoid)." },
+              { "key": "Share", "value": "Allocate it to a partner best able to capture it, e.g. a joint venture or teaming agreement (mirror of transfer)." },
+              { "key": "Enhance", "value": "Increase its probability and/or impact (mirror of mitigate)." },
+              { "key": "Accept", "value": "Take it if it arrives but don't actively pursue it." },
+              { "key": "Escalate", "value": "Beyond the project's remit, so raise it upward." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "lines": ["Transfer and Share both involve a third party.", "Escalate and Accept are the two strategies shared by threats and opportunities.", "Avoid <-> Exploit, Mitigate <-> Enhance, Transfer <-> Share are the mirror pairs."]
+          }
+        ]
+      },
+      {
+        "kicker": "After the response",
+        "heading": "Secondary and residual risk, and the bowtie",
+        "body": "Applying a response is not the end of the story - it can leave risk behind and can create new risk.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Residual risk",
+                "tone": "warn",
+                "groups": [
+                  { "label": "What it is", "lines": ["The exposure that REMAINS after a response is applied.", "You mitigated, but some risk is left over."] },
+                  { "label": "What you do", "lines": ["It is expected; then accepted or watched."] }
+                ]
+              },
+              {
+                "title": "Secondary risk",
+                "tone": "bad",
+                "groups": [
+                  { "label": "What it is", "lines": ["A NEW risk CREATED BY the response itself.", "E.g. transferring work to a subcontractor creates a delivery-quality risk."] },
+                  { "label": "What you do", "lines": ["Always check what a response introduces."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "The bowtie method",
+            "tone": "neutral",
+            "lines": [
+              "Visualises a serious risk: the central knot is the unwanted event.",
+              "Threats (causes) on the left; consequences on the right.",
+              "Preventive barriers stop the causes (left); recovery barriers limit the consequences (right).",
+              "Most useful for high-severity risks where you want prevention and mitigation at a glance."
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "accent",
+            "text": "Residual = left over after the response; Secondary = caused by the response. Bowtie: prevent on the left, recover on the right."
+          }
+        ]
+      },
+      {
+        "kicker": "Reserves",
+        "heading": "Reserves - contingency vs management",
+        "body": "Two reserves cover two different kinds of uncertainty.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Contingency vs management reserve",
+            "rows": [
+              { "key": "Covers", "value": "Contingency: KNOWN risks (identified 'known-unknowns'). Management: UNKNOWN risks (the 'unknown-unknowns' you could not foresee)." },
+              { "key": "Baseline", "value": "Contingency: part of the cost baseline. Management: OUTSIDE the cost baseline, within the total project budget." },
+              { "key": "Authority", "value": "Contingency: PM can spend without further approval. Management: requires management approval to access." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "text": "Known + in baseline + PM controls = contingency. Unknown + outside baseline + needs approval = management reserve."
+          }
+        ]
       }
     ],
     "tags": [
@@ -51,8 +226,11 @@
       "emv",
       "rbs",
       "reserves",
-      "process"
+      "process",
+      "pmbok 8",
+      "uncertainty",
+      "risk principle"
     ],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "source": "PM Cram study notes - restructured into blocks and aligned to PMBOK 8 (Uncertainty performance domain and the Risk principle)."
   }
 ]

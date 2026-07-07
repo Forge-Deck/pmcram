@@ -3,40 +3,177 @@
     "schema": "guide/v1",
     "title": "Scope Management",
     "category": "Process",
-    "summary": "How to define, document and control exactly what the project will and will not deliver.",
+    "summary": "How to define, document and control exactly what the project will and will not deliver, across predictive and agile delivery. In PMBOK 8 terms, scope work feeds the Planning and Delivery performance domains: plan the work deliberately, then confirm deliverables meet scope and quality so the intended benefits are realised.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Where scope lives",
+        "body": "Scope is not a standalone knowledge area in PMBOK 8; it is an outcome you drive through the performance domains. Read the question for the delivery mode first, then answer in that mode's language.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How scope maps",
+            "lines": [
+              "Planning domain -> organise the work deliberately: requirements, scope statement, WBS or backlog.",
+              "Delivery domain -> deliverables meet scope and quality; benefits are realised.",
+              "Tailoring -> predictive fixes scope up front; agile lets scope emerge through the backlog."
+            ]
+          },
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Predictive scope",
+                "badge": "Baseline",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Signals", "lines": ["Stable, well-understood scope.", "Scope statement, WBS, WBS dictionary.", "Change control board."] },
+                  { "label": "Handle it by", "lines": ["Lock the scope baseline.", "Route any change through integrated change control.", "Validate and control against the baseline."] }
+                ]
+              },
+              {
+                "title": "Agile scope",
+                "badge": "Backlog",
+                "tone": "good",
+                "groups": [
+                  { "label": "Signals", "lines": ["Changing or emerging requirements.", "Product backlog, user stories.", "Product Owner, sprint reviews."] },
+                  { "label": "Handle it by", "lines": ["Keep a prioritised, refined backlog.", "Let the Product Owner own priority and value.", "Accept scope change as normal, not as a threat."] }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Foundations",
         "heading": "Product scope vs project scope",
-        "body": "Product scope is the set of features and functions that characterise the deliverable, the thing the customer ends up with. Project scope is the work required to produce that deliverable, and it includes the management activities needed to deliver it.\n\nMeasuring completeness is the giveaway: product scope is judged against requirements, while project scope is judged against the scope baseline. An exam question that talks about features satisfied is pointing at product scope; one that talks about work completed is pointing at project scope.",
-        "tip": "Features delivered = product scope; work performed = project scope."
+        "body": "Product scope is the set of features and functions that characterise the deliverable - the thing the customer ends up with. Project scope is the work required to produce that deliverable, including the management activities needed to deliver it.\n\nMeasuring completeness is the giveaway. A question that talks about features satisfied is pointing at product scope; one that talks about work completed is pointing at project scope.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Product vs project scope",
+            "rows": [
+              { "key": "Product scope", "value": "Features and functions of the deliverable.\nMeasured against requirements." },
+              { "key": "Project scope", "value": "Work required to deliver it, plus management activities.\nMeasured against the scope baseline." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "tone": "accent",
+            "text": "Features delivered = product scope; work performed = project scope."
+          }
+        ]
       },
       {
-        "heading": "Collecting and defining requirements",
-        "body": "Requirements turn stakeholder needs and expectations into documented, agreed and testable statements of what the solution must do. Elicit them through interviews, workshops, prototyping and other engagement techniques, then record them so each can be traced, prioritised and verified.\n\nThe requirements traceability matrix links every requirement back to its origin (the business need or stakeholder) and forward to the deliverable, test and acceptance criterion that satisfy it. This keeps the scope honest: nothing is built that no one asked for, and nothing requested is quietly dropped.",
-        "tip": "If a requirement cannot be tested or traced, it is not yet a requirement."
+        "kicker": "Process flow",
+        "heading": "The scope processes in order",
+        "body": "Predictive projects walk this sequence; agile projects fold the front half into ongoing backlog refinement, but the intent is identical - agree what is being built, then confirm it was built.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "items": [
+              { "title": "Collect Requirements", "lines": ["Turn stakeholder needs into documented, agreed, testable statements.", "Elicit via interviews, workshops and prototyping.", "Agile: capture as backlog items / user stories."] },
+              { "title": "Define Scope", "lines": ["Write the project scope statement.", "State what is in scope and, crucially, what is out."] },
+              { "title": "Create WBS", "lines": ["Decompose deliverables into manageable work packages.", "Scope baseline = scope statement + WBS + WBS dictionary."] },
+              { "title": "Validate Scope", "lines": ["Customer or sponsor formally accepts completed deliverables.", "Output: accepted deliverables.", "Customer-facing."] },
+              { "title": "Control Scope", "lines": ["Monitor scope status; manage changes to the baseline.", "Internal discipline that prevents creep.", "Runs in parallel with Validate Scope."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Validate vs Control",
+            "tone": "neutral",
+            "lines": ["Validate = is it accepted? (customer sign-off)", "Control = is scope still on baseline? (managing change)", "They run together but answer different questions."]
+          }
+        ]
       },
       {
-        "heading": "The scope baseline",
-        "body": "The scope baseline is the approved version of three artefacts taken together:\n\n- the project scope statement\n- the work breakdown structure (WBS)\n- the WBS dictionary\n\nOnce approved it can only change through formal change control.\n\nThe WBS itself, its decomposition rules and the 100 per cent rule are covered in the Schedule and Network guide, so refer there for the mechanics. For scope, the point to hold is that the baseline is the agreed yardstick against which all later scope decisions and performance are measured.",
-        "tip": "Scope baseline = scope statement + WBS + WBS dictionary, all approved."
+        "kicker": "Traceability",
+        "heading": "Requirements and the scope baseline",
+        "body": "The requirements traceability matrix links every requirement back to its origin (business need or stakeholder) and forward to the deliverable, test and acceptance criterion that satisfy it. This keeps scope honest: nothing is built that no one asked for, and nothing requested is quietly dropped.\n\nThe scope baseline is the approved version of three artefacts taken together, and once approved it can only change through formal change control. WBS decomposition rules and the 100 per cent rule are covered in the Schedule and Network guide; for scope, hold that the baseline is the agreed yardstick for all later decisions.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Key artefacts",
+            "items": [
+              { "code": "WBS", "text": "Work Breakdown Structure: deliverable-oriented decomposition of the project into work packages." },
+              { "code": "WBS dictionary", "text": "Detail behind each WBS element: scope, deliverables, acceptance criteria." },
+              { "code": "RTM", "text": "Requirements Traceability Matrix: links each requirement to its origin, deliverable, test and acceptance criterion." },
+              { "code": "Scope baseline", "text": "Approved scope statement + WBS + WBS dictionary, changeable only by change control." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "tone": "neutral",
+            "text": "If a requirement cannot be tested or traced, it is not yet a requirement."
+          }
+        ]
       },
       {
+        "kicker": "Watch out",
         "heading": "Scope creep vs gold plating",
-        "body": "Scope creep is scope growing in an uncontrolled way, with changes slipping in without analysis or approval. It is usually stakeholder-driven, the steady accretion of just one more small thing.\n\nGold plating is the delivery team adding extras the customer never requested, often to show off or to use up slack. It is team-driven.\n\nBoth are problems, not favours. Unrequested work consumes budget and schedule, adds risk and can void acceptance. The correct response to either is the same: protect the approved scope and route any genuine change through integrated change control so it is assessed and authorised before work begins.",
-        "tip": "Creep is stakeholder-driven, gold plating is team-driven; both are wrong, both go through change control."
+        "body": "Both are unrequested work that consumes budget and schedule, adds risk and can void acceptance. They are problems, not favours. The correct response to either is the same: protect the approved scope and route any genuine change through integrated change control so it is assessed and authorised before work begins.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Scope creep",
+                "badge": "Stakeholder-driven",
+                "tone": "bad",
+                "groups": [
+                  { "label": "What it is", "lines": ["Scope growing in an uncontrolled way.", "Changes slip in without analysis or approval."] },
+                  { "label": "Pattern", "lines": ["The steady accretion of just one more small thing."] }
+                ]
+              },
+              {
+                "title": "Gold plating",
+                "badge": "Team-driven",
+                "tone": "bad",
+                "groups": [
+                  { "label": "What it is", "lines": ["The delivery team adds extras the customer never requested."] },
+                  { "label": "Pattern", "lines": ["Showing off or using up slack.", "Still consumes budget and adds risk."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Same fix for both",
+            "tone": "warn",
+            "lines": ["Creep is stakeholder-driven, gold plating is team-driven.", "Both are wrong; both go through change control."]
+          }
+        ]
       },
       {
-        "heading": "Validate Scope vs Control Scope",
-        "body": "Validate Scope is about formal acceptance: the customer or sponsor reviews completed deliverables and signs them off as accepted. Its output is accepted deliverables, and it is generally a customer-facing activity.\n\nControl Scope is about monitoring the status of project and product scope and managing changes to the scope baseline. It is the internal discipline that prevents creep and keeps work aligned to the baseline.\n\nThe trap is mixing them up: validate scope = acceptance of deliverables, control scope = preventing and managing scope change. They often run in parallel but answer different questions.",
-        "tip": "Validate = is it accepted? Control = is scope still on baseline?"
-      },
-      {
-        "heading": "Prioritising requirements",
-        "body": "Not all requirements carry equal weight, and prioritisation makes the trade-offs explicit. MoSCoW (Must have, Should have, Could have, Won't have this time) is a common technique for ranking them, especially when scope must flex against time or budget.\n\nDetailed prioritisation and backlog techniques sit with adaptive delivery, so see the Agile and Hybrid Techniques guide rather than treating it here. For scope, simply know that agreed priorities steer what gets built first and what is dropped under pressure.",
-        "tip": "MoSCoW ranks requirements; see the Agile and Hybrid guide for the detail."
+        "kicker": "Change and priority",
+        "heading": "Handling change and priority",
+        "body": "In predictive work a baseline change is never an in-place edit; it is a request. In agile work, change is absorbed through re-prioritisation of the backlog rather than a change request. Prioritisation makes the trade-offs explicit either way.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Baseline change cue",
+            "tone": "bad",
+            "lines": ["Scope baseline needs changing -> raise a change request.", "Do not edit the baseline directly.", "Assess and authorise before work begins."]
+          },
+          {
+            "kind": "table",
+            "title": "Prioritising requirements",
+            "rows": [
+              { "key": "MoSCoW", "value": "Must have / Should have / Could have / Won't have this time." },
+              { "key": "Use", "value": "Rank requirements when scope must flex against time or budget." },
+              { "key": "Agile detail", "value": "Backlog ordering and refinement - see the Agile and Hybrid guide." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "tone": "neutral",
+            "text": "Agreed priorities steer what gets built first and what is dropped under pressure."
+          }
+        ]
       }
     ],
-    "tags": ["scope", "requirements", "scope baseline", "validate scope", "control scope", "scope creep", "gold plating", "WBS", "traceability"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["scope", "requirements", "scope baseline", "validate scope", "control scope", "scope creep", "gold plating", "WBS", "RTM", "traceability", "backlog", "pmbok 8", "planning domain", "delivery domain"],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
   }
 ]

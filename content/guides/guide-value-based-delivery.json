@@ -3,40 +3,177 @@
     "schema": "guide/v1",
     "title": "Value-Based Delivery & Benefits",
     "category": "Process",
-    "summary": "The 2026 exam reframes success around delivering value worth the effort - not just hitting scope, schedule, and cost. Value-based delivery is now its own Process task.",
+    "summary": "PMBOK 8 makes value the point of every project: the Value principle plus the Delivery and Measurement performance domains. This guide reframes success around delivering value worth the effort, then walks the benefits-realization loop - identify, plan, deliver, measure, sustain - with the metrics and cues you need for the exam.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
         "heading": "Value is the point",
-        "body": "PMI reframed project success: a project succeeds when it delivers value worth the effort and expense, not merely when it finishes on time and on budget. The 2026 outline makes 'help ensure value-based delivery' a distinct Process task.\n\nSo when scope, schedule, and cost pull against delivering real value, the value-focused choice is usually the better answer.",
-        "tip": "On the exam, prefer the option that protects or increases stakeholder value over the one that just defends the original plan."
+        "body": "PMI reframed project success: a project succeeds when it delivers value worth the effort and expense, not merely when it finishes on time and on budget. In PMBOK 8 this is the Value principle - value is the ultimate measure of success - realised through the Delivery domain (scope and quality that produce benefits) and the Measurement domain (data that proves benefits show up). The 2026 outline makes 'help ensure value-based delivery' a distinct Process task.\n\nSo when scope, schedule, and cost pull against delivering real value, the value-focused choice is usually the better answer.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "accent",
+            "lines": ["Prefer the option that protects or increases stakeholder value over the one that just defends the original plan.", "When two options both look valid, pick the one that delivers value and reflects a principle."]
+          },
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Output",
+                "badge": "Deliverable",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "What it is", "lines": ["The thing the project produces.", "Scope shipped and accepted."] },
+                  { "label": "Example", "lines": ["A new mobile app is released."] }
+                ]
+              },
+              {
+                "title": "Outcome",
+                "badge": "Change",
+                "tone": "warn",
+                "groups": [
+                  { "label": "What it is", "lines": ["The change the output enables.", "Behaviour or capability shifts."] },
+                  { "label": "Example", "lines": ["Customers self-serve instead of calling support."] }
+                ]
+              },
+              {
+                "title": "Value",
+                "badge": "Benefit",
+                "tone": "good",
+                "groups": [
+                  { "label": "What it is", "lines": ["The worth the outcome creates.", "Realised, often after handover."] },
+                  { "label": "Example", "lines": ["Support costs fall; satisfaction rises."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Why it matters",
+            "tone": "bad",
+            "lines": ["Shipping an output is not the same as realising value.", "Confirm benefits are realised, not just deliverables shipped."]
+          }
+        ]
       },
       {
+        "kicker": "Benefits realization",
+        "heading": "The value loop",
+        "body": "You can only 'ensure' value if you run it as a cycle. Identify what value means, plan how it will be realised and measured, deliver it incrementally, measure the benefits, and sustain them into operations.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Identify -> plan -> deliver -> measure -> sustain",
+            "items": [
+              { "title": "Identify", "lines": ["Value is defined by stakeholders, not assumed by the team.", "Work with key stakeholders to identify the value components - the outcomes, benefits, and measures of success behind the deliverables.", "Align on what 'value' means before prioritising or building."] },
+              { "title": "Plan", "lines": ["A benefits management plan links each deliverable to the outcome it is meant to produce.", "Assign a benefits owner and clear metrics up front.", "Prioritise so the highest-value items come first."] },
+              { "title": "Deliver", "lines": ["Release usable outcomes early; don't make stakeholders wait until the end.", "Use an MVP and regular demonstrations as value checkpoints.", "Feedback steers what comes next."] },
+              { "title": "Measure", "lines": ["Verify a measurement system tracks benefits against the metrics.", "Some benefits appear during delivery; many are realised after handover.", "No metric and no owner = the benefit won't be realised."] },
+              { "title": "Sustain", "lines": ["Benefits tracking extends into operations.", "Re-check value throughout as priorities and assumptions change.", "Be willing to re-prioritise, descope, or stop work that no longer delivers value."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "lines": ["If a benefit has no metric and no owner, it won't be realised - flag that gap.", "If the business case has eroded, revisit value and options - don't blindly finish the original scope."]
+          }
+        ]
+      },
+      {
+        "kicker": "Identify",
         "heading": "Identify value with stakeholders",
         "body": "Value is defined by stakeholders, not assumed by the team. Work with key stakeholders to identify the value components that matter - the outcomes, benefits, and measures of success behind the deliverables - so the team builds what is actually worth building.",
-        "tip": "If the team and stakeholders disagree on what 'value' means, align that first - before prioritising or building."
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "accent",
+            "text": "If the team and stakeholders disagree on what 'value' means, align that first - before prioritising or building."
+          }
+        ]
       },
       {
+        "kicker": "Plan",
         "heading": "Prioritise by value",
-        "body": "With limited time and money, sequence work so the highest-value items come first. Common prioritisation methods include:\n\n- MoSCoW (must / should / could / won't)\n- cost of delay\n- the 100-point method\n\nStakeholder feedback continually reshapes the order.\n\nThis is why agile and incremental approaches pull high-value features forward instead of treating all scope as equal.",
-        "tip": "When asked what to build first, choose the highest-value, feedback-informed item - not the easiest or the first one written down."
+        "body": "With limited time and money, sequence work so the highest-value items come first. Stakeholder feedback continually reshapes the order. This is why agile and incremental approaches pull high-value features forward instead of treating all scope as equal.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Prioritisation methods",
+            "rows": [
+              { "key": "MoSCoW", "value": "Must / should / could / won't have." },
+              { "key": "Cost of delay", "value": "Rank by the cost of not delivering an item sooner." },
+              { "key": "100-point method", "value": "Stakeholders spend 100 points across items to weight them." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "text": "When asked what to build first, choose the highest-value, feedback-informed item - not the easiest or the first one written down."
+          }
+        ]
       },
       {
+        "kicker": "Deliver",
         "heading": "Deliver value incrementally",
         "body": "Don't make stakeholders wait until the end to see value. Assess where work can be delivered in increments, release usable outcomes early, and use the feedback to steer. A minimum viable product and regular demonstrations turn delivery into a series of value checkpoints.\n\nEarly delivery also de-risks the project: you learn what truly delivers value before spending the whole budget.",
-        "tip": "Favour delivering a smaller useful increment now over a perfect complete solution much later."
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "good",
+            "lines": ["Favour delivering a smaller useful increment now over a perfect complete solution much later.", "When value is uncertain, build a prototype or MVP to learn before committing the full budget."]
+          }
+        ]
       },
       {
-        "heading": "Measure benefits",
-        "body": "You can only 'ensure' value if you measure it. Verify a measurement system is in place to track benefits, with clear metrics and a benefits owner. Some benefits appear during delivery; many are realised after handover, so benefits tracking extends into operations.\n\nA benefits management plan links each deliverable to the outcome it is meant to produce.",
-        "tip": "If a benefit has no metric and no owner, it won't be realised - flag that gap."
+        "kicker": "Measure",
+        "heading": "Measure benefits and value",
+        "body": "You can only 'ensure' value if you measure it. Verify a measurement system is in place to track benefits, with clear metrics and a benefits owner. Some benefits appear during delivery; many are realised after handover, so benefits tracking extends into operations. This is the heart of the Measurement performance domain: reliable data that drives timely decisions.\n\nA benefits management plan links each deliverable to the outcome it is meant to produce.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Value and benefit metrics",
+            "rows": [
+              { "key": "ROI", "value": "Return on investment; benefit relative to cost invested." },
+              { "key": "NPV", "value": "Net present value; future cash flows discounted to today. Higher is better." },
+              { "key": "IRR", "value": "Internal rate of return; the discount rate at which NPV = 0. Higher is better." },
+              { "key": "BCR", "value": "Benefit-cost ratio. Above 1 = benefits exceed cost; below 1 = costs exceed benefits." },
+              { "key": "Payback", "value": "Time to recover the investment. Shorter is better." },
+              { "key": "Benefits realised", "value": "Actual outcomes tracked against the benefits management plan." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Selection reminder",
+            "tone": "neutral",
+            "lines": ["Higher NPV is better.", "Higher IRR is better.", "Higher BCR (above 1) is better.", "Shorter payback is better."]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "text": "If a benefit has no metric and no owner, it won't be realised - flag that gap."
+          }
+        ]
       },
       {
+        "kicker": "Sustain",
         "heading": "Re-check value throughout",
-        "body": "Value is not a one-time business-case exercise. Examine business value throughout the project: as the environment, priorities, or assumptions change, a once-valuable feature may no longer be worth it. Be willing to re-prioritise, descope, or even recommend stopping work that no longer delivers value.",
-        "tip": "If the scenario shows the business case has eroded, the strong answer revisits value and options - not blindly finishing the original scope."
+        "body": "Value is not a one-time business-case exercise. Examine business value throughout the project: as the environment, priorities, or assumptions change, a once-valuable feature may no longer be worth it. Be willing to re-prioritise, descope, or even recommend stopping work that no longer delivers value. Benefits tracking continues past handover into operations, where much of the value is finally realised.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "bad",
+            "text": "If the scenario shows the business case has eroded, the strong answer revisits value and options - not blindly finishing the original scope."
+          }
+        ]
       }
     ],
-    "tags": ["value", "benefits", "process", "2026", "prioritization"],
-    "source": "Aligned with the PMP Examination Content Outline - July 2026 (Process: help ensure value-based delivery) and PMBOK Guide Eighth Edition (value delivery)."
+    "tags": ["value", "benefits", "process", "2026", "prioritization", "pmbok 8", "delivery", "measurement"],
+    "source": "Aligned with the PMP Examination Content Outline - July 2026 (Process: help ensure value-based delivery) and PMBOK Guide Eighth Edition (Value principle; Delivery and Measurement performance domains)."
   }
 ]

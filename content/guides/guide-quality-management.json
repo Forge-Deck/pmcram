@@ -3,45 +3,252 @@
     "schema": "guide/v1",
     "title": "Quality Management",
     "category": "Process",
-    "summary": "How to plan, assure and control quality so deliverables conform to requirements and meet customer needs.",
+    "summary": "How to plan, manage and control quality so deliverables conform to requirements and meet customer needs. In PMBOK 8 this is the Quality principle (build quality into processes and deliverables) realised through the Delivery performance domain.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Quality principle and Delivery domain",
+        "body": "PMBOK 8 is principle- and outcome-based. Quality maps to the Quality principle - build quality into processes and deliverables - and its outcomes live in the Delivery performance domain, where deliverables must meet scope and quality and the intended benefits are realised.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How quality shows up",
+            "tone": "accent",
+            "lines": [
+              "Quality principle: design quality in, do not inspect it out.",
+              "Delivery domain: deliverables meet scope and quality; benefits are realised.",
+              "Prevention over inspection is the founding idea behind every choice."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Process order",
+        "heading": "Quality management order",
+        "body": "Standards are set first, processes are assured next, deliverables are inspected, and only then does the customer accept. Sequence matters: deliverables are verified internally in Control Quality before being taken to the customer for validated acceptance in Validate Scope.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Order of work",
+            "items": [
+              { "title": "Plan Quality", "lines": ["Set the standards, metrics and required level of accuracy and precision."] },
+              { "title": "Manage Quality", "lines": ["Process-focused and preventive: audits, process, prevention.", "Ask 'are we following the right processes that will produce good deliverables?'"] },
+              { "title": "Control Quality", "lines": ["Product-focused and inspection-based: inspect deliverables for defects against the spec.", "Ask 'is this specific deliverable correct?'"] },
+              { "title": "Validate Scope", "lines": ["Customer or sponsor reviews completed deliverables and formally accepts them."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cues",
+            "tone": "good",
+            "lines": [
+              "Audit -> Manage Quality (process, prevention).",
+              "Inspect a deliverable -> Control Quality (product).",
+              "Customer sign-off -> Validate Scope (acceptance).",
+              "Control Quality before Validate Scope."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Money and quality",
         "heading": "Cost of Quality (CoQ)",
-        "body": "Cost of Quality is the total cost of all effort spent to achieve quality across the product's life. It splits into two families.\n\n- Conformance costs are money spent to avoid defects:\n  - prevention (training, documenting processes, equipment, time to do it right)\n  - appraisal (testing, inspection, audits)\n- Non-conformance costs are money spent because of defects:\n  - internal failure (rework and scrap found before the customer sees it)\n  - external failure (warranty work, liabilities, lost reputation found after delivery)\n\nThe core message is that prevention is almost always cheaper than failure, and the cost of fixing a defect rises sharply the later it is found.",
-        "tip": "Cost of conformance = prevention + appraisal; cost of non-conformance = internal + external failure. Prevention buys down failure."
+        "body": "Cost of Quality is the total cost of all effort spent to achieve quality across the product's life. It splits into two families: conformance costs (money spent to avoid defects) and non-conformance costs (money spent because of defects).",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Conformance costs",
+                "badge": "Money to avoid defects",
+                "tone": "good",
+                "groups": [
+                  { "label": "Prevention", "lines": ["Training, documenting processes, equipment, time to do it right."] },
+                  { "label": "Appraisal", "lines": ["Testing, inspection, audits."] }
+                ]
+              },
+              {
+                "title": "Non-conformance costs",
+                "badge": "Money because of defects",
+                "tone": "bad",
+                "groups": [
+                  { "label": "Internal failure", "lines": ["Rework and scrap found before the customer sees it."] },
+                  { "label": "External failure", "lines": ["Warranty work, liabilities, lost reputation found after delivery."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Core message",
+            "tone": "accent",
+            "lines": [
+              "Cost of conformance = prevention + appraisal.",
+              "Cost of non-conformance = internal + external failure.",
+              "Prevention is almost always cheaper than failure, and the cost of fixing a defect rises sharply the later it is found. Prevention buys down failure."
+            ]
+          }
+        ]
       },
       {
-        "heading": "Quality vs grade",
-        "body": "Quality is the degree to which a deliverable conforms to its requirements. Grade is a category assigned to deliverables that have the same functional use but different technical characteristics.\n\nLow quality is always a problem because it means the requirements were not met. Low grade may be perfectly acceptable if it was the agreed specification.\n\nFor example, a basic mobile phone (low grade) with no defects is high quality; a feature-rich phone (high grade) that keeps crashing is low quality.",
-        "tip": "Low grade can be acceptable; low quality never is."
-      },
-      {
-        "heading": "Accuracy vs precision",
-        "body": "Accuracy is how close a measured value is to the true or target value. Precision is how close repeated measurements are to one another, regardless of the target.\n\nThese are independent properties. You can be precise but inaccurate (tightly clustered shots, all off-centre) or accurate but imprecise (scattered shots that average onto the bullseye).\n\nThe team should decide the required level of accuracy and precision during quality planning, because chasing more of either than the requirement needs adds cost.",
-        "tip": "Accuracy = on target; precision = tightly grouped. They are separate; do not assume one implies the other."
-      },
-      {
-        "heading": "Verification vs validation",
-        "body": "Verification asks 'did we build it right?' It is an internal check that a deliverable conforms to its specification, standards and regulations.\n\nValidation asks 'did we build the right thing?' It is an external check that the deliverable meets the customer's needs and is fit for purpose.\n\nIn practice, verification maps to Control Quality, where the team inspects deliverables against the specification. Validation maps to Validate Scope, where the customer or sponsor reviews completed deliverables and formally accepts them.\n\nSequence matters: deliverables are verified internally in Control Quality before being taken to the customer for validated acceptance in Validate Scope.",
-        "tip": "Verification = built right (internal, spec); Validation = built the right thing (customer acceptance). Control Quality before Validate Scope."
-      },
-      {
+        "kicker": "Assurance vs control",
         "heading": "Quality assurance vs quality control",
-        "body": "Quality assurance (QA) is process-focused and preventive. It asks 'are we following the right processes that will produce good deliverables?' Its main tool is the audit, which examines whether processes and procedures are being applied correctly.\n\nQuality control (QC) is product-focused and inspection-based. It asks 'is this specific deliverable correct?' Its main tool is inspection, which measures or examines the actual output against requirements.\n\nA simple memory aid: assurance is about doing the right things (process), control is about checking the things are right (product). Audits belong to assurance; inspections belong to control.",
-        "tip": "QA = process, prevention, audits. QC = product, inspection. Audit a process, inspect a deliverable."
+        "body": "A simple memory aid: assurance is about doing the right things (process), control is about checking the things are right (product). Audits belong to assurance; inspections belong to control.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Quality assurance (QA)",
+                "badge": "Manage Quality",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Focus", "lines": ["Process-focused and preventive."] },
+                  { "label": "Asks", "lines": ["Are we following the right processes that will produce good deliverables?"] },
+                  { "label": "Main tool", "lines": ["The audit - examines whether processes and procedures are applied correctly."] }
+                ]
+              },
+              {
+                "title": "Quality control (QC)",
+                "badge": "Control Quality",
+                "tone": "good",
+                "groups": [
+                  { "label": "Focus", "lines": ["Product-focused and inspection-based."] },
+                  { "label": "Asks", "lines": ["Is this specific deliverable correct?"] },
+                  { "label": "Main tool", "lines": ["Inspection - measures or examines the actual output against requirements."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "lines": [
+              "QA = process, prevention, audits.",
+              "QC = product, inspection.",
+              "Audit a process, inspect a deliverable."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Inspection toolkit",
+        "heading": "The 7 basic quality tools",
+        "body": "The classic seven tools used mainly in Control Quality to collect data, find root causes and judge whether a process is behaving.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Tool -> what it does",
+            "rows": [
+              { "key": "Cause-and-effect", "value": "Ishikawa / fishbone; traces a problem back to its root causes." },
+              { "key": "Flowchart", "value": "Maps the process steps to expose where defects can arise." },
+              { "key": "Check sheet", "value": "Tally sheet to collect defect data during inspection." },
+              { "key": "Pareto chart", "value": "Ranks defects to reveal the vital few (80/20) causes." },
+              { "key": "Histogram", "value": "Bar chart of how often each value or defect occurs." },
+              { "key": "Control chart", "value": "Tracks process stability against control limits over time." },
+              { "key": "Scatter diagram", "value": "Plots two variables to reveal correlation between them." }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Prevention and measurement",
         "heading": "Prevention over inspection, and sampling",
-        "body": "A founding principle of modern quality is that prevention is preferable to inspection. It is better to design quality in than to inspect defects out after they occur.\n\nWhen you do measure, two sampling approaches apply. Attribute sampling is pass or fail: the result either conforms or it does not. Variable sampling measures a result on a continuous scale (length, weight, time), giving a degree of conformity rather than a simple yes or no.",
-        "tip": "Attribute = pass/fail (counts); variable = measured on a scale (degrees)."
+        "body": "A founding principle of modern quality is that prevention is preferable to inspection. It is better to design quality in than to inspect defects out after they occur. When you do measure, two sampling approaches apply.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Sampling approaches",
+            "rows": [
+              { "key": "Attribute", "value": "Pass or fail: the result either conforms or it does not (counts)." },
+              { "key": "Variable", "value": "Measures a result on a continuous scale (length, weight, time), giving a degree of conformity." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "lines": [
+              "Attribute = pass/fail (counts).",
+              "Variable = measured on a scale (degrees)."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Control charts",
         "heading": "Control limits, specification limits and the Rule of Seven",
-        "body": "On a control chart, control limits represent the voice of the process: the range of natural variation the process produces when it is stable. They are calculated from the process data, usually at plus or minus three standard deviations.\n\nSpecification limits represent the voice of the customer: the boundaries the customer or requirements allow. They sit outside the control chart and are not derived from the process. A capable process keeps its control limits comfortably inside the specification limits.\n\nThe Rule of Seven is a heuristic: if seven consecutive points fall on one side of the mean (or trend in one direction), the process should be investigated even though no single point breached a control limit. Such a run is statistically unlikely by chance and signals a non-random, assignable cause.",
-        "tip": "Control limits = voice of the process; spec limits = voice of the customer. Seven points one side of the mean = assignable cause, investigate."
+        "body": "On a control chart, control limits represent the voice of the process: the range of natural variation the process produces when it is stable. They are calculated from the process data, usually at plus or minus three standard deviations.\n\nSpecification limits represent the voice of the customer: the boundaries the customer or requirements allow. They sit outside the control chart and are not derived from the process. A capable process keeps its control limits comfortably inside the specification limits.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Two voices",
+            "rows": [
+              { "key": "Control limits", "value": "Voice of the process; natural variation, usually +/- 3 standard deviations, calculated from the data." },
+              { "key": "Spec limits", "value": "Voice of the customer; the boundaries requirements allow, set outside the process." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Rule of Seven",
+            "tone": "warn",
+            "lines": [
+              "If seven consecutive points fall on one side of the mean (or trend in one direction), investigate the process even though no single point breached a control limit.",
+              "Such a run is statistically unlikely by chance and signals a non-random, assignable cause."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Key distinctions",
+        "heading": "Quality vs grade, accuracy vs precision, verification vs validation",
+        "body": "Three pairs the exam loves to blur.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Quality vs grade",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Quality", "lines": ["Degree to which a deliverable conforms to its requirements."] },
+                  { "label": "Grade", "lines": ["A category for deliverables with the same functional use but different technical characteristics."] },
+                  { "label": "Rule", "lines": ["Low grade can be acceptable if agreed; low quality never is.", "A basic phone (low grade) with no defects is high quality; a feature-rich phone (high grade) that keeps crashing is low quality."] }
+                ]
+              },
+              {
+                "title": "Accuracy vs precision",
+                "tone": "neutral",
+                "groups": [
+                  { "label": "Accuracy", "lines": ["How close a measured value is to the true or target value."] },
+                  { "label": "Precision", "lines": ["How close repeated measurements are to one another, regardless of the target."] },
+                  { "label": "Rule", "lines": ["Independent properties: you can be precise but off-target, or scattered but averaging onto the bullseye.", "Decide the required level of each in quality planning; chasing more than needed adds cost."] }
+                ]
+              },
+              {
+                "title": "Verification vs validation",
+                "tone": "good",
+                "groups": [
+                  { "label": "Verification", "lines": ["'Did we build it right?' Internal check that a deliverable conforms to its spec, standards and regulations.", "Maps to Control Quality (inspect against the spec)."] },
+                  { "label": "Validation", "lines": ["'Did we build the right thing?' External check that the deliverable meets the customer's needs and is fit for purpose.", "Maps to Validate Scope (customer formally accepts)."] },
+                  { "label": "Sequence", "lines": ["Verify internally in Control Quality before validated acceptance in Validate Scope."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cues",
+            "lines": [
+              "Low grade can be acceptable; low quality never is.",
+              "Accuracy = on target; precision = tightly grouped - they are separate.",
+              "Verification = built right (internal, spec); validation = built the right thing (customer acceptance).",
+              "Inspect = Control Quality; sign-off = Validate Scope."
+            ]
+          }
+        ]
       }
     ],
-    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "PMP"],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "tags": ["quality", "cost of quality", "quality assurance", "quality control", "control chart", "seven basic tools", "pmbok 8", "quality principle", "delivery domain", "PMP"],
+    "source": "PM Cram study notes - reworded and restructured for the PMBOK 8 principle- and domain-based PMP exam."
   }
 ]

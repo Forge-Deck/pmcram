@@ -3,42 +3,211 @@
     "schema": "guide/v1",
     "title": "PMBOK 8 Principles, Domains & Mindset",
     "category": "Mindset",
-    "summary": "The PMBOK Guide Eighth Edition structure — the project management mindset, six principles, seven performance domains, and the processes/Focus Areas — and how to use them as a reasoning lens on the PMP exam.",
+    "summary": "The PMBOK Guide Eighth Edition structure - the project management mindset, six principles, seven performance domains, and the processes/Focus Areas - and how to use them as a reasoning lens on the PMP exam.",
     "sections": [
       {
+        "kicker": "Structure",
         "heading": "How PMBOK 8 is structured",
-        "body": "The PMP exam rewards judgement, not memorising one process map. PMBOK Guide Eighth Edition frames good project management as a mindset that drives the mechanics, organised as:\n\n- A project management mindset — three dimensions plus six principles.\n- Seven performance domains — the areas that need sustained attention for success.\n- Forty processes with their inputs, tools and outputs, organised by performance domain.\n- Five Focus Areas — the familiar lifecycle groupings (the former Process Groups), applied across predictive, agile, and hybrid work.\n\nUse the principles and domains as a reasoning lens: the best answer usually protects value, engages people well, fits the context, and responds to uncertainty in a disciplined but adaptable way.",
-        "tip": "Mindset drives mechanics: principles are how to think; domains are what to manage; processes and Focus Areas are how the work flows."
+        "body": "The PMP exam rewards judgement, not memorising one process map. PMBOK Guide Eighth Edition frames good project management as a mindset that drives the mechanics.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "The four building blocks",
+            "rows": [
+              { "key": "Mindset", "value": "Three dimensions plus six principles - how to think." },
+              { "key": "Performance domains", "value": "Seven areas that need sustained attention for success." },
+              { "key": "Processes", "value": "Forty processes with inputs, tools and outputs, organised by performance domain." },
+              { "key": "Focus Areas", "value": "Five familiar lifecycle groupings (the former Process Groups), applied across predictive, agile and hybrid work." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Use it as a lens",
+            "tone": "accent",
+            "lines": [
+              "The best answer usually protects value, engages people well, fits the context, and responds to uncertainty in a disciplined but adaptable way.",
+              "Mindset drives mechanics: principles are how to think; domains are what to manage; processes and Focus Areas are how the work flows."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Mindset",
         "heading": "The mindset and the six principles",
-        "body": "PMBOK 8 describes a project management mindset built on three dimensions — proactive, ownership, and value-driven — expressed through six principles (a community-driven refinement of the Seventh Edition's twelve):\n\n- Adopt a Holistic View: see the project as part of a wider system of interdependencies, stakeholders, and organisational context (systems thinking).\n- Focus on Value: keep attention on outcomes and benefits, not just on completing activities or outputs.\n- Embed Quality Into Processes and Deliverables: build quality in rather than inspecting it in afterwards.\n- Be an Accountable Leader: lead with stewardship, ethics, and ownership of outcomes; serve the team and stakeholders.\n- Integrate Sustainability Within All Project Areas: weigh environmental, social, and economic impact across the whole life cycle.\n- Build an Empowered Culture: create a collaborative, psychologically safe environment where the team can self-organise and perform.",
-        "tip": "On the exam, the principles eliminate rigid, bureaucratic, reactive, or self-serving options."
+        "body": "PMBOK 8 describes a project management mindset built on three dimensions - proactive, ownership, and value-driven - expressed through six principles (a community-driven refinement of the Seventh Edition's twelve).",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Three mindset dimensions",
+            "lines": ["Proactive.", "Ownership.", "Value-driven."]
+          },
+          {
+            "kind": "terms",
+            "title": "The six principles -> what each means",
+            "items": [
+              { "code": "Adopt a Holistic View", "text": "See the project as part of a wider system of interdependencies, stakeholders and organisational context (systems thinking)." },
+              { "code": "Focus on Value", "text": "Keep attention on outcomes and benefits, not just on completing activities or outputs." },
+              { "code": "Embed Quality", "text": "Build quality into processes and deliverables rather than inspecting it in afterwards." },
+              { "code": "Be an Accountable Leader", "text": "Lead with stewardship, ethics and ownership of outcomes; serve the team and stakeholders." },
+              { "code": "Integrate Sustainability", "text": "Weigh environmental, social and economic impact across the whole life cycle." },
+              { "code": "Build an Empowered Culture", "text": "Create a collaborative, psychologically safe environment where the team can self-organise and perform." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam use",
+            "tone": "good",
+            "text": "On the exam, the principles eliminate rigid, bureaucratic, reactive, or self-serving options."
+          }
+        ]
       },
       {
+        "kicker": "Domains",
         "heading": "The seven performance domains",
-        "body": "The performance domains describe what must be managed well for good outcomes. PMBOK 8 uses seven:\n\n- Stakeholders: identify, engage, and maintain productive relationships (communications now sits inside this domain, not as a separate area).\n- Scope: define and control the deliverables and the work to produce them.\n- Schedule: sequence and time the work, and keep it realistic.\n- Finance: justify, fund, budget, and control the money, and protect the business case.\n- Resources: acquire, develop, and manage the people and physical resources.\n- Governance: set decision rights, oversight, alignment to strategy, and change control.\n- Risk: address threats and opportunities and the project's overall uncertainty.",
-        "tip": "Treat the domains as lenses for what to manage, not steps in sequence. Memory hook: Stakeholders, Scope, Schedule, Finance, Resources, Governance, Risk."
+        "body": "The performance domains describe what must be managed well for good outcomes. PMBOK 8 uses seven. Treat them as lenses for what to manage, not steps in sequence.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Domain -> desired outcome",
+            "rows": [
+              { "key": "Stakeholders", "value": "Identify, engage and maintain productive relationships. Communications now sits inside this domain, not as a separate area." },
+              { "key": "Scope", "value": "Define and control the deliverables and the work to produce them." },
+              { "key": "Schedule", "value": "Sequence and time the work, and keep it realistic." },
+              { "key": "Finance", "value": "Justify, fund, budget and control the money, and protect the business case." },
+              { "key": "Resources", "value": "Acquire, develop and manage the people and physical resources." },
+              { "key": "Governance", "value": "Set decision rights, oversight, alignment to strategy and change control." },
+              { "key": "Risk", "value": "Address threats and opportunities and the project's overall uncertainty." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Memory hook",
+            "tone": "neutral",
+            "text": "Stakeholders, Scope, Schedule, Finance, Resources, Governance, Risk."
+          }
+        ]
       },
       {
+        "kicker": "Flow",
         "heading": "Processes and the five Focus Areas",
-        "body": "Unlike the Seventh Edition, PMBOK 8 reintroduces processes — about forty of them, each with inputs, tools and techniques, and outputs (ITTOs return), organised under the performance domains rather than the old knowledge-area grid.\n\nThe five Focus Areas are the familiar lifecycle groupings — Initiating, Planning, Executing, Monitoring and Controlling, and Closing — renamed from Process Groups and framed as approach-agnostic, so they apply whether delivery is predictive, agile, or hybrid. They are one lens on the work, not the whole model.",
-        "tip": "Focus Areas = the five Process Groups, relabelled. They are lifecycle flow, not a rigid waterfall sequence."
+        "body": "Unlike the Seventh Edition, PMBOK 8 reintroduces processes - about forty of them, each with inputs, tools and techniques, and outputs (ITTOs return), organised under the performance domains rather than the old knowledge-area grid.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "The five Focus Areas (former Process Groups)",
+            "items": [
+              { "title": "Initiating" },
+              { "title": "Planning" },
+              { "title": "Executing" },
+              { "title": "Monitoring and Controlling" },
+              { "title": "Closing" }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "What Focus Areas are",
+            "lines": [
+              "Renamed from Process Groups and framed as approach-agnostic - they apply whether delivery is predictive, agile or hybrid.",
+              "They are one lens on the work, not the whole model.",
+              "Focus Areas = the five Process Groups relabelled: lifecycle flow, not a rigid waterfall sequence."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Version delta",
         "heading": "What changed from PMBOK 7",
-        "body": "If you studied the Seventh Edition, note the differences so you are not caught out:\n\n- Principles: twelve condensed into six (a re-synthesis, not a subset).\n- Performance domains: eight became seven, renamed and reorganised (e.g. Team and Planning concerns now sit within Resources, Scope, Schedule, and Governance).\n- Communications is folded into the Stakeholders domain — it is no longer a standalone area.\n- Processes and ITTOs return (~40 processes), absent from the principles-only Seventh Edition.\n- AI guidance appears in an appendix (automation, assistant, augmentation), not as a core domain.\n\nThe underlying mindset is continuous: value, stewardship, tailoring, and engaging people well still drive the best answers.",
-        "tip": "Exam cue: 'six principles / seven domains / Focus Areas / ~40 processes' = PMBOK 8. 'Twelve principles / eight domains / no processes' = the older Seventh Edition."
+        "body": "If you studied the Seventh Edition, note the differences so you are not caught out. The underlying mindset is continuous: value, stewardship, tailoring, and engaging people well still drive the best answers.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Seventh Edition -> Eighth Edition",
+            "rows": [
+              { "key": "Principles", "value": "Twelve condensed into six (a re-synthesis, not a subset)." },
+              { "key": "Performance domains", "value": "Eight became seven, renamed and reorganised (Team and Planning concerns now sit within Resources, Scope, Schedule and Governance)." },
+              { "key": "Communications", "value": "Folded into the Stakeholders domain - no longer a standalone area." },
+              { "key": "Processes and ITTOs", "value": "Return (~40 processes), absent from the principles-only Seventh Edition." },
+              { "key": "AI guidance", "value": "Appears in an appendix (automation, assistant, augmentation), not as a core domain." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "warn",
+            "lines": [
+              "'Six principles / seven domains / Focus Areas / ~40 processes' = PMBOK 8.",
+              "'Twelve principles / eight domains / no processes' = the older Seventh Edition."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "ECO map",
         "heading": "Mapping to the ECO (People / Process / Business Environment)",
-        "body": "The PMP Examination Content Outline tests People, Process, and Business Environment; the principles and domains support all three.\n\n- People is driven by Be an Accountable Leader and Build an Empowered Culture, and by the Stakeholders and Resources domains — coaching, conflict resolution, engagement, servant leadership, and team empowerment.\n- Process is driven by Adopt a Holistic View, Embed Quality, and Focus on Value, and by the Scope, Schedule, Finance, Governance, and Risk domains — choosing the approach, disciplined delivery, change control, measurement, and managing uncertainty.\n- Business Environment is driven by Focus on Value, Integrate Sustainability, and Adopt a Holistic View, and by the Governance and Finance domains — benefits realisation, compliance, strategic alignment, and external impact.",
-        "tip": "The same answer can span domains; choose the option that best balances people, delivery discipline, and organisational value."
+        "body": "The PMP Examination Content Outline tests People, Process and Business Environment; the principles and domains support all three.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "People",
+                "tone": "good",
+                "groups": [
+                  { "label": "Driven by principles", "lines": ["Be an Accountable Leader.", "Build an Empowered Culture."] },
+                  { "label": "Driven by domains", "lines": ["Stakeholders.", "Resources."] },
+                  { "label": "Focus", "lines": ["Coaching, conflict resolution, engagement, servant leadership, team empowerment."] }
+                ]
+              },
+              {
+                "title": "Process",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Driven by principles", "lines": ["Adopt a Holistic View.", "Embed Quality.", "Focus on Value."] },
+                  { "label": "Driven by domains", "lines": ["Scope, Schedule, Finance, Governance, Risk."] },
+                  { "label": "Focus", "lines": ["Choosing the approach, disciplined delivery, change control, measurement, managing uncertainty."] }
+                ]
+              },
+              {
+                "title": "Business Environment",
+                "tone": "warn",
+                "groups": [
+                  { "label": "Driven by principles", "lines": ["Focus on Value.", "Integrate Sustainability.", "Adopt a Holistic View."] },
+                  { "label": "Driven by domains", "lines": ["Governance.", "Finance."] },
+                  { "label": "Focus", "lines": ["Benefits realisation, compliance, strategic alignment, external impact."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Balance",
+            "text": "The same answer can span domains; choose the option that best balances people, delivery discipline, and organisational value."
+          }
+        ]
       },
       {
+        "kicker": "Reasoning",
         "heading": "Reasoning to the best answer",
-        "body": "Start with value and accountability: which option best protects the intended outcome, treats people and resources responsibly, and aligns with PMI's ethics?\n\nThen the people dimension: the strongest answer engages the right stakeholders, supports the team, addresses conflict directly, and uses influence before authority. Options that ignore communication, bypass collaboration, or punish prematurely are usually weak.\n\nThen context and tailoring: does the response fit the delivery approach? Predictive work may call for formal review and change control; adaptive work may call for reprioritising the backlog with the product owner and inspecting and adapting; hybrid respects both.\n\nThen quality, risk, and uncertainty: strong answers assess impact before acting, tackle root causes, and avoid creating hidden risk.\n\nFinally, a holistic view: what is the downstream effect on stakeholders, governance, delivery, and long-term value? The best PMP answer solves the immediate issue while preserving trust, alignment, and sustainable delivery.",
-        "tip": "Reliable pattern: assess first, engage the right people, use the approach that fits the context, and act to protect value."
+        "body": "Work through these lenses in order to reach the strongest option.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Order of reasoning",
+            "items": [
+              { "title": "Value and accountability", "lines": ["Which option best protects the intended outcome, treats people and resources responsibly, and aligns with PMI's ethics?"] },
+              { "title": "The people dimension", "lines": ["The strongest answer engages the right stakeholders, supports the team, addresses conflict directly, and uses influence before authority.", "Options that ignore communication, bypass collaboration, or punish prematurely are usually weak."] },
+              { "title": "Context and tailoring", "lines": ["Predictive work may call for formal review and change control.", "Adaptive work may call for reprioritising the backlog with the product owner and inspecting and adapting.", "Hybrid respects both."] },
+              { "title": "Quality, risk and uncertainty", "lines": ["Strong answers assess impact before acting, tackle root causes, and avoid creating hidden risk."] },
+              { "title": "A holistic view", "lines": ["Consider the downstream effect on stakeholders, governance, delivery and long-term value.", "The best PMP answer solves the immediate issue while preserving trust, alignment and sustainable delivery."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Reliable pattern",
+            "tone": "good",
+            "text": "Assess first, engage the right people, use the approach that fits the context, and act to protect value."
+          }
+        ]
       }
     ],
     "tags": [

@@ -3,36 +3,256 @@
     "schema": "guide/v1",
     "title": "Project Artifacts & Governance",
     "category": "Process",
-    "summary": "The key documents that authorise, control, and track a project — and the governance that keeps them aligned to value.",
+    "summary": "The documents that authorise, control, and track a project - and the governance that keeps them aligned to value. Tailored to PMBOK 8, where artifacts and governance support the Measurement and Delivery performance domains.",
     "sections": [
       {
+        "kicker": "PMBOK 8 lens",
+        "heading": "Why artifacts and governance matter",
+        "body": "In PMBOK 8 there is no fixed process-group document set. Artifacts are chosen to fit the project and are the evidence behind two performance domains: Delivery (are we producing the right, accepted deliverables?) and Measurement (do we have reliable status to decide?). Governance is the authority framework that decides who approves what and how issues escalate.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How to read this guide",
+            "tone": "accent",
+            "lines": [
+              "Artifacts = the evidence: logs, registers, plans, baselines, reports.",
+              "Governance = the rules of the road: who decides, how issues escalate.",
+              "Measurement domain relies on status artifacts; Delivery domain relies on acceptance and change control.",
+              "Tailor the set to the project - there is no one mandatory list."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Authorisation",
         "heading": "The project charter",
-        "body": "The charter is the document that formally authorises the project to exist and gives the project manager the authority to apply organisational resources. Without it, the PM has no mandate.\n\nIt is deliberately high-level. Typical contents include:\n\n- Project purpose and high-level objectives\n- High-level scope and key deliverables\n- Key milestones and a summary (order-of-magnitude) budget\n- Key risks, assumptions and constraints\n- Success criteria and the named sponsor\n\nThe charter is signed or issued by the sponsor or initiator — someone external to the project who holds authority to fund it — not by the PM. It is created at the very start, before detailed planning.",
-        "tip": "Trap: the PM does not approve the charter. The sponsor authorises it; the PM is named in it."
+        "body": "The charter formally authorises the project to exist and gives the project manager authority to apply organisational resources. Without it, the PM has no mandate. It is deliberately high-level and is created at the very start, before detailed planning.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Typical charter contents",
+            "rows": [
+              { "key": "Purpose", "value": "Project purpose and high-level objectives." },
+              { "key": "Scope", "value": "High-level scope and key deliverables." },
+              { "key": "Milestones", "value": "Key milestones and an order-of-magnitude summary budget." },
+              { "key": "Risk/A&C", "value": "Key risks, assumptions and constraints." },
+              { "key": "Success", "value": "Success criteria and the named sponsor." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Who signs it",
+            "lines": [
+              "Signed or issued by the sponsor or initiator - someone external to the project with authority to fund it.",
+              "The PM is named in it, not the approver of it."
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Trap",
+            "tone": "bad",
+            "text": "The PM does not approve the charter. The sponsor authorises it; the PM is named in it."
+          }
+        ]
       },
       {
+        "kicker": "Authority framework",
         "heading": "Governance & decision rights",
-        "body": "Governance is the framework of authority that surrounds the project: who makes which decisions, who is accountable, how issues escalate, and how the project connects to the sponsor, steering committee or board, and the wider organisation.\n\nGood governance gives clear accountability and a defined path for resolving issues and approving changes, so decisions are made at the right level rather than stalling or being made by the wrong people.\n\nThink of governance as the rules of the road, while management is the day-to-day driving. The PM operates within the decision rights that governance defines.",
-        "tip": "Remember: governance sets WHO decides and HOW issues escalate — not the work itself."
+        "body": "Governance is the framework of authority around the project: who makes which decisions, who is accountable, how issues escalate, and how the project connects to the sponsor, steering committee or board, and the wider organisation. Good governance gives clear accountability and a defined path for resolving issues and approving changes, so decisions are made at the right level rather than stalling or being made by the wrong people. Governance is the rules of the road; management is the day-to-day driving. The PM operates within the decision rights that governance defines.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Remember",
+            "lines": [
+              "Governance sets WHO decides and HOW issues escalate - not the work itself.",
+              "The PM works within, not above, the decision rights governance defines."
+            ]
+          }
+        ]
       },
       {
+        "kicker": "Investment control",
         "heading": "Phase-gate (stage-gate) reviews",
-        "body": "Predictive and hybrid projects are often split into phases separated by gates. A gate is a formal checkpoint, not just a milestone.\n\nAt each gate, leadership reviews the completed deliverables and re-tests whether the business case is still valid, then makes a decision before more money is committed: go, no-go, hold, recycle (rework), or kill.\n\nGates control investment incrementally and keep the project aligned to expected value — if the business case has collapsed, the gate is where you stop spending.",
-        "tip": "A gate asks two questions: are the deliverables sound, and is the business case still worth funding?",
-        "figure": {
-          "svg": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='10' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='38' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 1</text><rect x='106' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='134' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 2</text><rect x='202' y='52' width='56' height='34' rx='4' stroke='#1F5FA8' stroke-width='1.4'/><text x='230' y='73' fill='currentColor' font-size='9' text-anchor='middle'>Phase 3</text><line x1='66' y1='69' x2='74' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='98' y1='69' x2='106' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='162' y1='69' x2='170' y2='69' stroke='currentColor' stroke-width='1.2'/><line x1='194' y1='69' x2='202' y2='69' stroke='currentColor' stroke-width='1.2'/><polygon points='86,56 98,69 86,82 74,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='182,56 194,69 182,82 170,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><polygon points='278,56 290,69 278,82 266,69' fill='none' stroke='#B5462F' stroke-width='1.4'/><text x='86' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='182' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='278' y='102' fill='#B5462F' font-size='8' text-anchor='middle'>gate</text><text x='150' y='126' fill='currentColor' font-size='9' text-anchor='middle'>each gate: go / hold / recycle / kill</text></svg>",
-          "caption": "Phases (boxes) are separated by gates (diamonds) where the project is continued or stopped."
-        }
+        "body": "Predictive and hybrid projects are often split into phases separated by gates. A gate is a formal checkpoint, not just a milestone. At each gate, leadership reviews the completed deliverables and re-tests whether the business case is still valid, then makes a decision before more money is committed. Gates control investment incrementally and keep the project aligned to expected value - if the business case has collapsed, the gate is where you stop spending.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "At each gate, decide",
+            "items": [
+              { "title": "Go", "lines": ["Deliverables sound and business case valid - continue and commit the next tranche."] },
+              { "title": "Hold", "lines": ["Pause and revisit before committing more."] },
+              { "title": "Recycle", "lines": ["Send back for rework, then re-review."] },
+              { "title": "Kill", "lines": ["Business case no longer holds - stop spending."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "A gate asks two questions",
+            "tone": "accent",
+            "lines": [
+              "Are the deliverables sound?",
+              "Is the business case still worth funding?"
+            ]
+          }
+        ]
       },
       {
-        "heading": "Tracking with a RAID log",
-        "body": "A RAID log is a single consolidated view of Risks, Assumptions, Issues and Dependencies, used in the real world to keep all four visible in one place.\n\nFor the exam, know the nuance: PMI formally keeps these as separate artifacts. Risks live in the risk register, assumptions in the assumption log, issues in the issue log, and dependencies are tracked within the schedule. Treat RAID as a practical consolidation, but recognise the individual PMI documents.\n\nDistinguish the two that are most often confused:\n\n- A risk is a future, uncertain event that may or may not happen.\n- An issue is something already happening now that needs action.",
-        "tip": "Risk = future uncertainty (risk register). Issue = happening now (issue log). Don't merge them."
+        "kicker": "PMBOK 8 grouping",
+        "heading": "Artifacts by type -> purpose",
+        "body": "PMBOK 8 groups artifacts by type rather than by knowledge area. Recognise which family an artifact belongs to and what it is for. PMI keeps RAID items as separate artifacts even though the real world often consolidates them into a single RAID log.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Logs and registers -> track ongoing items",
+            "rows": [
+              { "key": "Risk register", "value": "Future, uncertain events; probability, impact, response, owner." },
+              { "key": "Issue log", "value": "Problems happening now that need action." },
+              { "key": "Assumption log", "value": "Assumptions and constraints being relied on." },
+              { "key": "Stakeholder register", "value": "Who stakeholders are and their interest/influence." },
+              { "key": "Change log", "value": "Requested changes and their disposition." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Plans -> define how work is done",
+            "rows": [
+              { "key": "Management plans", "value": "How each aspect (scope, schedule, cost, quality, etc.) is managed." },
+              { "key": "Stakeholder plan", "value": "How to engage stakeholders (vs the register, which lists who they are)." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Baselines -> the approved yardstick",
+            "rows": [
+              { "key": "Scope baseline", "value": "Approved scope statement, WBS and WBS dictionary." },
+              { "key": "Schedule baseline", "value": "Approved schedule to measure against." },
+              { "key": "Cost baseline", "value": "Approved time-phased budget to measure against." }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Reports and other artifacts",
+            "rows": [
+              { "key": "Status/reports", "value": "Feed the Measurement domain with reliable, actionable status." },
+              { "key": "Charter", "value": "Authorises the project (see above)." },
+              { "key": "Business case", "value": "Justifies the investment; re-tested at each gate." },
+              { "key": "WBS", "value": "Decomposes scope - covered in the Schedule & Network Diagrams guide." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Dependencies",
+            "text": "Dependencies are tracked within the schedule, not a standalone PMI artifact - the D in a RAID log."
+          }
+        ]
       },
       {
+        "kicker": "Tracking",
+        "heading": "RAID: risk vs issue",
+        "body": "A RAID log is a single consolidated view of Risks, Assumptions, Issues and Dependencies, used in the real world to keep all four visible in one place. For the exam, know the nuance: PMI formally keeps these as separate artifacts (risk register, assumption log, issue log, and dependencies in the schedule). Treat RAID as a practical consolidation, but recognise the individual PMI documents. The two most often confused are risk and issue.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Risk",
+                "badge": "Future",
+                "tone": "warn",
+                "groups": [
+                  { "label": "Definition", "lines": ["A future, uncertain event that may or may not happen."] },
+                  { "label": "Lives in", "lines": ["The risk register."] }
+                ]
+              },
+              {
+                "title": "Issue",
+                "badge": "Now",
+                "tone": "bad",
+                "groups": [
+                  { "label": "Definition", "lines": ["Something already happening now that needs action."] },
+                  { "label": "Lives in", "lines": ["The issue log."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Don't merge them",
+            "tone": "bad",
+            "text": "Risk = future uncertainty (risk register). Issue = happening now (issue log)."
+          }
+        ]
+      },
+      {
+        "kicker": "Change control",
+        "heading": "Baseline vs register updates",
+        "body": "The single most important governance distinction for artifacts: registers and logs are updated freely as new information arrives, but a baseline is the approved yardstick and can only change through the formal change-control process.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "How each is updated",
+            "rows": [
+              { "key": "Register / log", "value": "Updated freely and continuously - add risks, issues, assumptions, stakeholders as they emerge. No change request needed." },
+              { "key": "Baseline", "value": "Approved reference for scope, schedule or cost. Changing it requires an approved change request." }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "tone": "bad",
+            "lines": [
+              "Never edit a baseline directly.",
+              "Baseline change -> raise a change request; governance/CCB approves before the baseline moves.",
+              "Updating a register does NOT need a change request."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Governance in action",
+        "heading": "The change-control path",
+        "body": "When a change touches an approved baseline, follow the governed process rather than acting directly. This keeps authority, value and accountability connected.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Change control steps",
+            "items": [
+              { "title": "Capture the request", "lines": ["Log it in the change log; describe the change and its trigger."] },
+              { "title": "Assess the impact", "lines": ["Evaluate effect on scope, schedule, cost, quality, risk and value."] },
+              { "title": "Route for decision", "lines": ["Take it to the approver defined by governance (e.g. CCB or sponsor)."] },
+              { "title": "Update baselines if approved", "lines": ["Only after approval, re-baseline and communicate the new reference."] },
+              { "title": "Trace it back", "lines": ["Link the change to the business case and charter so value stays connected."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Governance principle",
+            "text": "Decisions are made at the right level; escalate only when the normal path cannot resolve it."
+          }
+        ]
+      },
+      {
+        "kicker": "Synthesis",
         "heading": "How the artifacts work together",
-        "body": "These documents form a chain of authority and control. The charter authorises the work and points to the business case that justifies it; governance defines who may decide what; gates re-confirm value at set points; and the RAID artifacts keep risks, assumptions, issues and dependencies under continuous control.\n\nScope is decomposed separately in the Work Breakdown Structure — see the Schedule & Network Diagrams guide for the WBS in full.\n\nEvery change request and decision should be traceable back through this structure, so authority, value and accountability stay connected from start to close.",
-        "tip": "Follow the thread: business case justifies, charter authorises, governance decides, gates confirm value."
+        "body": "These documents form a chain of authority and control. The business case justifies the work and the charter authorises it; governance defines who may decide what; gates re-confirm value at set points; and the RAID artifacts keep risks, assumptions, issues and dependencies under continuous control. Scope is decomposed separately in the Work Breakdown Structure - see the Schedule & Network Diagrams guide for the WBS in full. Every change request and decision should be traceable back through this structure, so authority, value and accountability stay connected from start to close.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Follow the thread",
+            "items": [
+              { "title": "Business case", "lines": ["Justifies the investment."] },
+              { "title": "Charter", "lines": ["Authorises the project and the PM."] },
+              { "title": "Governance", "lines": ["Decides who approves what."] },
+              { "title": "Gates", "lines": ["Confirm value before committing more."] },
+              { "title": "RAID + baselines", "lines": ["Keep risks and the approved yardstick under control."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "One-line recall",
+            "tone": "good",
+            "text": "Business case justifies, charter authorises, governance decides, gates confirm value - and baselines only move by change request."
+          }
+        ]
       }
     ],
     "tags": [
@@ -41,8 +261,13 @@
       "stage-gate",
       "raid",
       "artifacts",
-      "process"
+      "baseline",
+      "change control",
+      "process",
+      "pmbok 8",
+      "measurement",
+      "delivery"
     ],
-    "source": "PM Cram study notes — reworded for the current ECO-based PMP exam."
+    "source": "PM Cram study notes - reworded for the current ECO-based PMP exam and aligned to PMBOK 8 performance domains."
   }
 ]
