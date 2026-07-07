@@ -3,67 +3,358 @@
     "schema": "guide/v1",
     "title": "Exam-Day One-Pager",
     "category": "Exam Strategy",
-    "summary": "The final-glance sheet: every must-know acronym, the predictive vs agile vs hybrid differences, the highest-yield mindset rules and hot topics, and all the formulae on one screen. Read this last, right before you walk in.",
+    "summary": "The final-glance sheet, broken into scan-friendly blocks: a question filter, delivery-model signals, the formula bank, highest-yield mindset rules, must-know acronyms, roles/quality/closure order, people models and procurement/schedule cuts. Read this last, right before you walk in.",
     "sections": [
       {
-        "heading": "Must-know acronyms",
-        "body": "- INVEST - Independent, Negotiable, Valuable, Estimable, Small, Testable (good user story).\n- MVP - Minimum Viable Product; WIP - Work In Progress (Kanban limits it).\n- WBS - Work Breakdown Structure; RBS - Resource Breakdown Structure; RTM - Requirements Traceability Matrix; SOW - Statement of Work.\n- RACI - Responsible, Accountable, Consulted, Informed (a RAM - Responsibility Assignment Matrix).\n- CCB - Change Control Board; OPA - Organisational Process Assets; EEF - Enterprise Environmental Factors.\n- PMO - Project Management Office; PO - Product Owner; SME - Subject Matter Expert.\n- RFI / RFQ / RFP - Request for Information / Quote / Proposal.\n- FFP / FPIF / FPEPA - fixed-price family; CPFF / CPIF / CPAF - cost-reimbursable family; T&M - Time & Material.\n- PDCA - Plan-Do-Check-Act; ADKAR - Awareness, Desire, Knowledge, Ability, Reinforcement.\n- OKR - Objective + Key Results (strategic aim); KPI - Key Performance Indicator (ongoing tracking).\n- EMV - Expected Monetary Value; EV/PV/AC, CV/SV, CPI/SPI, BAC/EAC/ETC/VAC/TCPI (earned value); PERT - three-point estimate.\n- BCR - Benefit-Cost Ratio; ROI; NPV - Net Present Value; IRR - Internal Rate of Return; CoQ - Cost of Quality.",
-        "tip": "If you blank on an item, expand the acronym first - the words usually point at the answer."
+        "kicker": "Start here",
+        "heading": "4-step question filter",
+        "body": "Run this before reading the answer options.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "items": [
+              { "title": "Identify the delivery mode", "lines": ["Sprint, backlog, Product Owner, standup -> agile.", "Baseline, WBS, CCB, earned value -> predictive.", "Tailoring or mixed wording -> hybrid."] },
+              { "title": "Separate risk from issue", "lines": ["Already happened -> issue.", "Might happen -> risk."] },
+              { "title": "Check decision authority", "lines": ["Agile team decides how the work is done.", "Product Owner prioritises backlog value.", "PM removes blockers and enables the team."] },
+              { "title": "Choose the least-drastic correct action", "lines": ["Diagnose first.", "Follow the agreed process.", "Escalate only after the normal path fails."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "tone": "bad",
+            "lines": ["Don't edit baselines directly.", "Don't escalate before trying the correct process.", "Don't decide for an agile team.", "Don't stay passive when action is required."]
+          }
+        ]
       },
       {
+        "kicker": "Delivery model",
         "heading": "Predictive vs Agile vs Hybrid",
-        "body": "Read the signals, then match the answer's flavour.\n\n- Predictive (waterfall): stable, well-understood scope; plan-heavy up front. Signals - baseline, WBS, change request, CCB, critical path, earned value. Right flavour - follow formal process, submit a change request, protect the baseline.\n- Agile (adaptive): evolving requirements, frequent feedback; deliver in increments. Signals - sprint, iteration, user story, backlog, Product Owner, standup, self-organising. Right flavour - empower the team, diagnose WITH the team, let the PO own priority, use retrospectives to improve.\n- Hybrid: mixes both or mentions tailoring. Right flavour - fit the tool to each part; plan and govern the predictive parts, iterate the uncertain parts; break down and prioritise the KNOWN requirements rather than waiting for all of them.\n\nWho decides / authority: predictive - the PM plans and directs; agile - the team self-organises and the PO prioritises; the PM is a servant leader removing impediments in both agile and hybrid.",
-        "rules": [
-          { "term": "Predictive", "meaning": "stable scope, plan up front - baseline, WBS, CCB, earned value; follow the formal process and protect the baseline." },
-          { "term": "Agile", "meaning": "evolving scope, deliver in increments - sprints, backlog, Product Owner; empower the team and improve in retros." },
-          { "term": "Hybrid", "meaning": "a mix / tailoring - govern the known parts, iterate the uncertain; break down and prioritise what is known." }
-        ],
-        "tip": "Sprints / backlog / PO -> agile. Baselines / WBS / CCB -> predictive. 'Tailoring' or a mix -> hybrid."
+        "body": "Read the wording, then match the answer style.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Predictive",
+                "badge": "Waterfall",
+                "tone": "accent",
+                "groups": [
+                  { "label": "Signals", "lines": ["Stable, well-understood scope.", "Baseline, WBS, CCB.", "Critical path, earned value."] },
+                  { "label": "Right answer style", "lines": ["Follow the formal process.", "Submit a change request when a baseline changes.", "Protect the approved baseline."] }
+                ]
+              },
+              {
+                "title": "Agile",
+                "badge": "Adaptive",
+                "tone": "good",
+                "groups": [
+                  { "label": "Signals", "lines": ["Changing requirements.", "Sprint, iteration, user story, backlog.", "Product Owner, standup, self-organising team."] },
+                  { "label": "Right answer style", "lines": ["Empower the team.", "Diagnose with the team.", "Let the Product Owner own priority.", "Improve in retrospectives."] }
+                ]
+              },
+              {
+                "title": "Hybrid",
+                "badge": "Tailored",
+                "tone": "warn",
+                "groups": [
+                  { "label": "Signals", "lines": ["Tailoring is mentioned.", "Predictive and agile terms appear together.", "Some requirements known, some uncertain."] },
+                  { "label": "Right answer style", "lines": ["Govern the stable parts.", "Iterate the uncertain parts.", "Break down and prioritise the known requirements."] }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Authority check",
+            "lines": ["Predictive: the PM plans and directs.", "Agile: the team self-organises.", "Product Owner prioritises value.", "Servant leader removes impediments."]
+          }
+        ]
       },
       {
-        "heading": "Highest-yield mindset rules",
-        "body": "- Baseline (scope/schedule/cost) needs changing -> raise a Change Request (never edit directly). Registers and logs update freely.\n- Has it happened? Yes -> Issue Log. No / might happen -> Risk Register.\n- New risk spotted -> log it in the Register first, then analyse, then respond. Every response gets a Risk Owner.\n- Known risk fires with a planned response -> use the response plan; don't improvise.\n- Agile team struggling -> diagnose WITH the team (not PM decides, not extend the timeline).\n- One person struggling -> private one-on-one; whole-team issue -> survey / bring the team together. Incentives usually backfire.\n- Functional manager pulls a resource -> negotiate with the functional manager first; escalate only if that fails.\n- Value in doubt / long timeline -> prototype or MVP.\n- New / changed stakeholder -> Register holds the who; Engagement Plan holds the how.\n- Ground rule broken -> remind directly; strengthen the process only if it recurs.\n- Emotions in a conflict -> acknowledge them first, never assign blame.\n- Diagnose before treating; follow process; least-drastic correct action wins.",
-        "signals": [
-          { "title": "Baseline vs registers", "note": "Changing a baseline needs a change request; registers and logs update freely." },
-          { "title": "Issue vs risk", "note": "Has it happened? Yes -> Issue Log. No / might happen -> Risk Register." },
-          { "title": "Agile team struggling", "note": "Diagnose WITH the team - don't decide for them or just extend the timeline." },
-          { "title": "Resource pulled", "note": "Negotiate with the functional manager first; escalate only if that fails." },
-          { "title": "Least-drastic action", "note": "Diagnose before treating; follow process; the smallest correct action wins." }
-        ],
-        "tip": "On a close call, strike options that bypass process, escalate too early, decide for an agile team, or are passive when action is needed."
-      },
-      {
-        "heading": "Roles, quality order & closure",
-        "body": "- Sponsor funds and champions ONE project and signs off acceptance; PMO aligns/standardises ACROSS projects and can authorise or terminate; Product Owner owns the backlog and priority; functional manager owns the people in a matrix.\n- PM authority by structure: functional (little) -> weak matrix (coordinator) -> balanced -> strong matrix (moderate-high) -> projectized (full).\n- Quality: Plan Quality (set standards) -> Manage Quality (processes / audits / prevention) -> Control Quality (inspect deliverables for defects) -> Validate Scope (customer formally accepts).\n- Cost of Quality: Conformance = prevention + appraisal; Nonconformance = internal + external failure.\n- Closure order: accept deliverables -> close contracts/procurement -> capture lessons learned -> release the team last. Don't close until finance confirms payment.",
-        "trace": [
-          "Confirm the deliverables are accepted (Validate Scope / sponsor sign-off).",
-          "Close out contracts and procurement.",
-          "Capture lessons learned.",
-          "Release the team last - and don't close until finance confirms payment."
-        ],
-        "tip": "Audit = Manage Quality; inspect deliverables = Control Quality; customer sign-off = Validate Scope. Sponsor accepts, PMO aligns."
-      },
-      {
-        "heading": "Conflict, leadership, change models",
-        "body": "- Conflict modes (Thomas-Kilmann): Collaborate/problem-solve (win-win, PMP-preferred) > Compromise > Smooth/accommodate > Force (win-lose, emergencies) > Withdraw/avoid.\n- Tuckman: Forming -> Storming -> Norming -> Performing -> Adjourning.\n- Leadership: Directive (crises/new teams), Servant (agile default), Situational (match team maturity), Transactional (rewards), Transformational (vision), Laissez-faire (expert self-directed teams).\n- Motivation: Maslow (hierarchy), Herzberg (hygiene prevents dissatisfaction vs motivators drive it), McGregor (X vs Y), McClelland (achievement/affiliation/power), Vroom (effort -> performance -> valued reward).\n- Change models - individual level: ADKAR, Bridges (Ending -> Neutral Zone -> New Beginning), Kubler-Ross curve. Organisation level: Lewin (unfreeze-change-refreeze), Kotter (8 steps), Satir (performance dips then recovers).",
-        "tip": "Conflict -> collaborate. Agile -> servant leadership. People transition lags the system change - plan for the dip."
-      },
-      {
-        "heading": "Procurement & schedule quick cuts",
-        "body": "- Bid docs: RFI (gather info) -> RFQ (price a well-defined buy) -> RFP (complex, solution unknown - the most formal; a new vendor needs the RFP).\n- Contract risk: Fixed Price - seller carries most risk; Cost-Reimbursable - buyer carries most risk; T&M - medium (staff augmentation / small scope). FPEPA for inflation/currency on long deals.\n- Procurement phases: Plan (make-or-buy) -> Conduct (RFx, select, award) -> Control (monitor vendor) -> Close (verify, pay).\n- Critical path = longest path, zero float, drives duration; two paths -> critical is the longer.\n- Crashing = add resources to the critical path (costs money); Fast-tracking = parallelise sequential work (adds risk). Only the critical path matters.\n- Leveling can extend the schedule; smoothing stays within float. Never cut planned tests to buy time.",
-        "tip": "Complex/unknown solution -> RFP. Monitoring a vendor = Control Procurements; paying off = Close Procurements."
-      },
-      {
+        "kicker": "Calculation bank",
         "heading": "Formulae",
-        "body": "Earned value (negative / below 1 = bad):\n\n- CV = EV - AC; SV = EV - PV.\n- CPI = EV / AC; SPI = EV / PV.\n- EAC = BAC / CPI (current rate continues); ETC = EAC - AC; VAC = BAC - EAC.\n- TCPI = (BAC - EV) / (BAC - AC) (efficiency still needed to hit BAC).\n\nEstimating:\n\n- PERT (three-point): tE = (O + 4M + P) / 6; Std Dev = (P - O) / 6.\n\nRisk & selection:\n\n- EMV = Probability x Impact (sum identified risks to size contingency).\n- BCR = Benefits / Costs (above 1 = worthwhile; below 1 = costs win, consult the sponsor). NPV higher = better; IRR higher = better; shorter payback = better.\n\nSchedule & comms:\n\n- Total Float = LS - ES = LF - EF (critical-path activities have zero total float).\n- Communication channels = n(n - 1) / 2, where n = number of people.\n\nProcurement:\n\n- Point of Total Assumption (FPIF) = ((Ceiling Price - Target Price) / buyer's share ratio) + Target Cost.",
-        "rules": [
-          { "term": "EAC = BAC / CPI", "meaning": "estimate at completion if the current cost efficiency continues." },
-          { "term": "CPI = EV / AC  ·  SPI = EV / PV", "meaning": "cost / schedule efficiency; below 1 = over budget / behind." },
-          { "term": "EMV = Probability x Impact", "meaning": "expected monetary value; sum identified risks to size contingency." },
-          { "term": "PERT = (O + 4M + P) / 6", "meaning": "three-point estimate, weighting the most-likely by 4." },
-          { "term": "Channels = n(n-1) / 2", "meaning": "communication channels for n people." }
-        ],
-        "tip": "Variance = EV minus (PV or AC); index = EV over (PV or AC). EAC = BAC / CPI. Channels = n(n-1)/2. PERT weights the middle by 4."
+        "body": "Each formula sits next to its meaning and exam cue.",
+        "blocks": [
+          { "kind": "tip", "title": "Interpretation", "tone": "bad", "lines": ["Negative variance is bad.", "Index below 1 is bad."] },
+          {
+            "kind": "formulas",
+            "title": "Earned value",
+            "note": "Watch signs",
+            "items": [
+              { "formula": "CV = EV - AC", "lines": ["Cost variance.", "Negative = over budget."] },
+              { "formula": "SV = EV - PV", "lines": ["Schedule variance.", "Negative = behind planned value."] },
+              { "formula": "CPI = EV / AC", "lines": ["Cost efficiency.", "Below 1 = poor cost performance."] },
+              { "formula": "SPI = EV / PV", "lines": ["Schedule efficiency.", "Below 1 = slower than planned."] },
+              { "formula": "EAC = BAC / CPI", "lines": ["Estimate at completion.", "Use when current cost performance continues."] },
+              { "formula": "ETC = EAC - AC", "lines": ["Estimate to complete.", "Remaining expected cost from today."] },
+              { "formula": "VAC = BAC - EAC", "lines": ["Variance at completion.", "Negative = expected final overrun."] },
+              { "formula": "TCPI = (BAC - EV) / (BAC - AC)", "lines": ["Efficiency still needed to hit the budget.", "Use BAC when the target hasn't changed."] }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Estimating",
+            "items": [
+              { "formula": "tE = (O + 4M + P) / 6", "lines": ["PERT three-point estimate.", "Most-likely value weighted by 4."] },
+              { "formula": "Std Dev = (P - O) / 6", "lines": ["Estimate spread.", "Optimistic and pessimistic set the range."] }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Risk and selection",
+            "items": [
+              { "formula": "EMV = Probability x Impact", "lines": ["Expected monetary value.", "Sum identified risks to size contingency."] },
+              { "formula": "BCR = Benefits / Costs", "lines": ["Above 1 = benefits exceed cost.", "Below 1 = costs exceed benefits."] },
+              { "formula": "NPV / IRR / Payback", "lines": ["Higher NPV is better.", "Higher IRR is better.", "Shorter payback is better."] }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Schedule and communications",
+            "items": [
+              { "formula": "Total Float = LS - ES", "lines": ["Also equals LF - EF.", "Critical-path activities have zero total float."] },
+              { "formula": "Channels = n(n-1) / 2", "lines": ["n = number of people.", "Paths grow quickly as people are added."] }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Procurement",
+            "items": [
+              { "formula": "PTA = ((Ceiling - Target) / Buyer share) + Target Cost", "lines": ["Point of total assumption.", "Applies to fixed-price incentive-fee contracts."] }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Formula tip",
+            "lines": ["Variance = EV minus (PV or AC).", "Index = EV over (PV or AC).", "EAC = BAC / CPI when performance continues.", "PERT weights the most-likely by 4."]
+          }
+        ]
+      },
+      {
+        "kicker": "Exam mindset",
+        "heading": "Highest-yield rules",
+        "body": "Trigger and response split so the answer pattern is easy to scan.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "items": [
+              { "title": "Baseline change", "groups": [
+                { "label": "Trigger", "lines": ["Scope, schedule or cost baseline needs changing."] },
+                { "label": "Response", "lines": ["Raise a change request."] },
+                { "label": "Caution", "lines": ["Don't edit the baseline directly."] }
+              ] },
+              { "title": "Issue vs risk", "groups": [
+                { "label": "Issue", "lines": ["It has already happened."] },
+                { "label": "Risk", "lines": ["It might happen later."] }
+              ] },
+              { "title": "New risk", "groups": [
+                { "label": "Step 1", "lines": ["Record it in the risk register."] },
+                { "label": "Step 2", "lines": ["Analyse probability and impact."] },
+                { "label": "Step 3", "lines": ["Plan the response and assign a risk owner."] }
+              ] },
+              { "title": "Known risk fires", "groups": [
+                { "label": "Response", "lines": ["Use the planned response."] },
+                { "label": "Caution", "lines": ["Don't improvise if a response plan already exists."] }
+              ] },
+              { "title": "Agile team struggling", "groups": [
+                { "label": "Response", "lines": ["Diagnose with the team."] },
+                { "label": "Caution", "lines": ["Don't have the PM dictate the fix or just extend the timeline."] }
+              ] },
+              { "title": "Individual vs whole team", "groups": [
+                { "label": "One person", "lines": ["Private one-on-one conversation."] },
+                { "label": "Whole team", "lines": ["Bring the team together or survey them.", "Incentives usually backfire."] }
+              ] },
+              { "title": "Resource removed", "groups": [
+                { "label": "Response", "lines": ["Negotiate with the functional manager first."] },
+                { "label": "Escalation", "lines": ["Escalate only if negotiation fails."] }
+              ] },
+              { "title": "Other quick calls", "groups": [
+                { "label": "Value uncertain", "lines": ["Build a prototype or MVP."] },
+                { "label": "Stakeholder changes", "lines": ["Register = who they are; plan = how to engage."] },
+                { "label": "Ground rule broken", "lines": ["Remind directly; strengthen the process only if it recurs."] },
+                { "label": "Conflict with emotion", "lines": ["Acknowledge feelings first; never assign blame."] }
+              ] }
+            ]
+          },
+          { "kind": "tip", "title": "Mindset tip", "lines": ["Diagnose before treating.", "Follow process before escalating.", "Use the least-drastic correct action."] }
+        ]
+      },
+      {
+        "kicker": "Acronyms",
+        "heading": "Must-know acronyms",
+        "body": "Each acronym on its own row, grouped by area.",
+        "blocks": [
+          { "kind": "terms", "title": "Agile and product", "items": [
+            { "code": "INVEST", "text": "Independent, Negotiable, Valuable, Estimable, Small, Testable." },
+            { "code": "MVP", "text": "Minimum Viable Product." },
+            { "code": "WIP", "text": "Work In Progress." },
+            { "code": "PO", "text": "Product Owner." }
+          ] },
+          { "kind": "terms", "title": "Planning and responsibility", "items": [
+            { "code": "WBS", "text": "Work Breakdown Structure." },
+            { "code": "RBS", "text": "Resource Breakdown Structure." },
+            { "code": "RTM", "text": "Requirements Traceability Matrix." },
+            { "code": "SOW", "text": "Statement of Work." },
+            { "code": "RACI", "text": "Responsible, Accountable, Consulted, Informed." },
+            { "code": "RAM", "text": "Responsibility Assignment Matrix." }
+          ] },
+          { "kind": "terms", "title": "Governance and environment", "items": [
+            { "code": "CCB", "text": "Change Control Board." },
+            { "code": "OPA", "text": "Organisational Process Assets." },
+            { "code": "EEF", "text": "Enterprise Environmental Factors." },
+            { "code": "PMO", "text": "Project Management Office." },
+            { "code": "SME", "text": "Subject Matter Expert." }
+          ] },
+          { "kind": "terms", "title": "Procurement", "items": [
+            { "code": "RFI", "text": "Request for Information." },
+            { "code": "RFQ", "text": "Request for Quote." },
+            { "code": "RFP", "text": "Request for Proposal." },
+            { "code": "FFP", "text": "Firm Fixed Price." },
+            { "code": "FPIF", "text": "Fixed Price Incentive Fee." },
+            { "code": "FPEPA", "text": "Fixed Price Economic Price Adjustment." },
+            { "code": "CPFF", "text": "Cost Plus Fixed Fee." },
+            { "code": "CPIF", "text": "Cost Plus Incentive Fee." },
+            { "code": "CPAF", "text": "Cost Plus Award Fee." },
+            { "code": "T&M", "text": "Time and Material." }
+          ] },
+          { "kind": "terms", "title": "Performance and value", "items": [
+            { "code": "EV", "text": "Earned Value." },
+            { "code": "PV", "text": "Planned Value." },
+            { "code": "AC", "text": "Actual Cost." },
+            { "code": "CV", "text": "Cost Variance." },
+            { "code": "SV", "text": "Schedule Variance." },
+            { "code": "CPI", "text": "Cost Performance Index." },
+            { "code": "SPI", "text": "Schedule Performance Index." },
+            { "code": "BAC", "text": "Budget at Completion." },
+            { "code": "EAC", "text": "Estimate at Completion." },
+            { "code": "EMV", "text": "Expected Monetary Value." },
+            { "code": "BCR", "text": "Benefit-Cost Ratio." },
+            { "code": "NPV", "text": "Net Present Value." },
+            { "code": "IRR", "text": "Internal Rate of Return." },
+            { "code": "CoQ", "text": "Cost of Quality." }
+          ] },
+          { "kind": "terms", "title": "Improvement and change", "items": [
+            { "code": "PDCA", "text": "Plan, Do, Check, Act." },
+            { "code": "ADKAR", "text": "Awareness, Desire, Knowledge, Ability, Reinforcement." },
+            { "code": "OKR", "text": "Objective and Key Results." },
+            { "code": "KPI", "text": "Key Performance Indicator." }
+          ] },
+          { "kind": "tip", "title": "Acronym tip", "text": "When you blank, expand the acronym first - the words usually point to the answer." }
+        ]
+      },
+      {
+        "kicker": "Roles and process order",
+        "heading": "Roles, quality and closure",
+        "body": "Common traps for 'what happens next' questions.",
+        "blocks": [
+          { "kind": "table", "title": "Who owns what", "rows": [
+            { "key": "Sponsor", "value": "Funds and champions one project.\nSigns off acceptance." },
+            { "key": "PMO", "value": "Aligns standards across projects.\nMay authorise or terminate." },
+            { "key": "PO", "value": "Owns backlog priority and value." },
+            { "key": "FM", "value": "Owns the people in a matrix." }
+          ] },
+          { "kind": "table", "title": "PM authority by structure", "rows": [
+            { "key": "Functional", "value": "Little authority." },
+            { "key": "Weak matrix", "value": "Coordinator." },
+            { "key": "Balanced", "value": "Shared authority." },
+            { "key": "Strong matrix", "value": "Moderate to high." },
+            { "key": "Projectized", "value": "Full authority." }
+          ] },
+          { "kind": "steps", "title": "Quality order", "items": [
+            { "title": "Plan Quality", "lines": ["Set the standards."] },
+            { "title": "Manage Quality", "lines": ["Audits, process, prevention."] },
+            { "title": "Control Quality", "lines": ["Inspect deliverables for defects."] },
+            { "title": "Validate Scope", "lines": ["Customer formally accepts."] }
+          ] },
+          { "kind": "table", "title": "Cost of Quality", "rows": [
+            { "key": "Conformance", "value": "Prevention + appraisal." },
+            { "key": "Nonconform.", "value": "Internal + external failure." }
+          ] },
+          { "kind": "steps", "title": "Closure order", "items": [
+            { "title": "Accept deliverables", "lines": ["Formal acceptance first."] },
+            { "title": "Close procurement", "lines": ["Verify work and settle contracts."] },
+            { "title": "Lessons learned", "lines": ["Capture before the team disperses."] },
+            { "title": "Release the team", "lines": ["Last - and only after finance confirms payment."] }
+          ] },
+          { "kind": "tip", "title": "Exam tip", "lines": ["Audit = Manage Quality.", "Inspect deliverables = Control Quality.", "Customer sign-off = Validate Scope.", "Sponsor accepts; PMO aligns."] }
+        ]
+      },
+      {
+        "kicker": "People topics",
+        "heading": "Conflict, leadership and change",
+        "body": "The PMP answer usually starts with collaboration, servant leadership and helping people through change.",
+        "blocks": [
+          { "kind": "steps", "title": "Conflict modes (best first)", "items": [
+            { "title": "Collaborate", "lines": ["Problem-solve, win-win. Usually preferred."] },
+            { "title": "Compromise", "lines": ["Each side gives something up."] },
+            { "title": "Smooth", "lines": ["Emphasise agreement; may not fix the cause."] },
+            { "title": "Force", "lines": ["Win-lose; emergencies only."] },
+            { "title": "Withdraw", "lines": ["Avoid; usually weak for PMP."] }
+          ] },
+          { "kind": "steps", "title": "Tuckman", "items": [
+            { "title": "Forming" },
+            { "title": "Storming" },
+            { "title": "Norming" },
+            { "title": "Performing" },
+            { "title": "Adjourning" }
+          ] },
+          { "kind": "table", "title": "Leadership", "rows": [
+            { "key": "Servant", "value": "Agile default; remove impediments." },
+            { "key": "Directive", "value": "Crisis or new/inexperienced team." },
+            { "key": "Situational", "value": "Match style to team maturity." },
+            { "key": "Transactional", "value": "Rewards for performance." },
+            { "key": "Transform.", "value": "Vision and change energy." },
+            { "key": "Laissez", "value": "Expert, self-directed team." }
+          ] },
+          { "kind": "table", "title": "Motivation", "rows": [
+            { "key": "Maslow", "value": "Needs hierarchy." },
+            { "key": "Herzberg", "value": "Hygiene prevents dissatisfaction; motivators drive it." },
+            { "key": "McGregor", "value": "Theory X vs Theory Y." },
+            { "key": "McClelland", "value": "Achievement, affiliation, power." },
+            { "key": "Vroom", "value": "Effort -> performance -> valued reward." }
+          ] },
+          { "kind": "table", "title": "Change models", "rows": [
+            { "key": "ADKAR", "value": "Individual change." },
+            { "key": "Bridges", "value": "Ending -> Neutral Zone -> New Beginning." },
+            { "key": "Kubler-Ross", "value": "Emotional change curve." },
+            { "key": "Lewin", "value": "Unfreeze, change, refreeze." },
+            { "key": "Kotter", "value": "8-step organisation change." },
+            { "key": "Satir", "value": "Performance dips then recovers." }
+          ] },
+          { "kind": "tip", "title": "People tip", "lines": ["Conflict -> collaborate.", "Agile -> servant leadership.", "People lag the system change - plan for the dip."] }
+        ]
+      },
+      {
+        "kicker": "Commercial and schedule",
+        "heading": "Procurement and schedule quick cuts",
+        "body": "High-frequency distinctions, split into decision lines.",
+        "blocks": [
+          { "kind": "table", "title": "Bid document", "rows": [
+            { "key": "RFI", "value": "Gather information." },
+            { "key": "RFQ", "value": "Price a well-defined buy." },
+            { "key": "RFP", "value": "Complex / unknown solution. Most formal; a new vendor needs it." }
+          ] },
+          { "kind": "table", "title": "Contract risk", "rows": [
+            { "key": "Fixed price", "value": "Seller carries most risk." },
+            { "key": "Cost reimb.", "value": "Buyer carries most risk." },
+            { "key": "T&M", "value": "Medium; staff aug / small scope." },
+            { "key": "FPEPA", "value": "Long deals; inflation or currency." }
+          ] },
+          { "kind": "steps", "title": "Procurement phases", "items": [
+            { "title": "Plan", "lines": ["Make-or-buy decision."] },
+            { "title": "Conduct", "lines": ["Issue RFx, select, award."] },
+            { "title": "Control", "lines": ["Monitor vendor performance."] },
+            { "title": "Close", "lines": ["Verify, pay, close the contract."] }
+          ] },
+          { "kind": "table", "title": "Schedule compression", "rows": [
+            { "key": "Crashing", "value": "Add resources to the critical path; costs money." },
+            { "key": "Fast track", "value": "Parallelise sequential work; adds risk." },
+            { "key": "Leveling", "value": "Can extend the schedule." },
+            { "key": "Smoothing", "value": "Uses float; doesn't extend the schedule." }
+          ] },
+          { "kind": "tip", "title": "Schedule tip", "lines": ["Critical path = longest path, zero float, drives duration.", "Only critical-path changes shorten the project.", "Never cut planned tests to save time."] }
+        ]
       }
     ],
     "tags": ["exam strategy", "cheat sheet", "acronyms", "formulas", "agile", "predictive", "hybrid", "earned value", "quick reference", "exam day"],

@@ -62,6 +62,34 @@
                 "meaning": { "type": "string" }
               }
             }
+          },
+          "kicker": { "type": "string", "description": "OPTIONAL. Mono kicker shown above the heading." },
+          "blocks": {
+            "type": "array",
+            "description": "OPTIONAL. Ordered structured blocks: tip / steps / cards / table / terms / formulas.",
+            "items": {
+              "type": "object",
+              "required": ["kind"],
+              "additionalProperties": false,
+              "properties": {
+                "kind": { "enum": ["tip", "steps", "cards", "table", "terms", "formulas"] },
+                "title": { "type": "string" },
+                "note": { "type": "string" },
+                "text": { "type": "string" },
+                "tone": { "enum": ["neutral", "accent", "good", "warn", "bad"] },
+                "lines": { "type": "array", "items": { "type": "string" } },
+                "items": { "type": "array", "items": { "type": "object" } },
+                "rows": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["key", "value"],
+                    "additionalProperties": false,
+                    "properties": { "key": { "type": "string" }, "value": { "type": "string" } }
+                  }
+                }
+              }
+            }
           }
         }
       }
