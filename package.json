@@ -6,7 +6,8 @@
   "description": "Open study content (glossary, flashcards, practice questions) for the PM Cram: PMP Prep app.",
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "manifest": "node scripts/generate-manifest.mjs"
+    "bundle": "node scripts/generate-bundle.mjs",
+    "manifest": "node scripts/generate-bundle.mjs && node scripts/generate-manifest.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"
