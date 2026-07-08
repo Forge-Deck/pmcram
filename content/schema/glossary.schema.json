@@ -17,6 +17,16 @@
     },
     "Contrast": { "type": "string", "description": "The most commonly confused term + the distinction, in one line." },
     "Example": { "type": "string", "description": "One concrete project example." },
+    "Figure": {
+      "type": ["object", "null"],
+      "description": "OPTIONAL explanatory diagram, shown on the flashcard back and term page. Same model as guide/deck figures.",
+      "additionalProperties": false,
+      "properties": {
+        "svg": { "type": "string", "description": "Inline theme-aware <svg> markup (use currentColor for ink)." },
+        "image": { "type": "string", "description": "Repo-relative path or absolute URL of a raster image." },
+        "caption": { "type": "string" }
+      }
+    },
     "Related Terms": { "type": "array", "items": { "type": "string" } },
     "Tier": { "type": "string", "enum": ["Core glossary", "Adjacent concept", "Practitioner term"] },
     "Source": {
