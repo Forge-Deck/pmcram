@@ -27,6 +27,7 @@
         "caption": { "type": "string" }
       }
     },
+    "Synonyms": { "type": "array", "description": "OPTIONAL alternative names for the SAME concept (e.g. 'RACI chart', 'RACI matrix' for RACI). Searchable and resolve to this card; they must NOT also exist as their own terms.", "items": { "type": "string" } },
     "Related Terms": { "type": "array", "items": { "type": "string" } },
     "Tier": { "type": "string", "enum": ["Core glossary", "Adjacent concept", "Practitioner term"] },
     "Source": {

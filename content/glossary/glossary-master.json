@@ -470,56 +470,28 @@
     "Source": "Agile Practice Guide, page 41"
   },
   {
-    "Term": "Agreement",
-    "Core Meaning": "A document that defines the initial intentions of parties and may include terms and conditions for the exchange of goods or services.",
-    "Depth": "Standard",
-    "Expansion": "An agreement establishes how parties will work together or exchange value under defined terms. In PMI usage, it can include contracts, memoranda of understanding, service-level agreements, or other formal arrangements depending on context. It matters because it clarifies responsibilities, expectations, and boundaries before work begins.",
-    "Deep Dive": null,
-    "Contrast": "Contract — a contract is a legally binding type of agreement; agreement is the broader term that can include both binding and nonbinding arrangements.",
-    "Example": "A project team enters into a service agreement with a cloud provider that defines uptime targets, support obligations, and escalation paths.",
-    "Related Terms": [
-      "Contract",
-      "Procurement",
-      "Statement of work",
-      "Service-level agreement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms — Agreement"
-  },
-  {
-    "Term": "Alternative analysis",
+    "Term": "Alternatives analysis",
     "Core Meaning": "A technique used to evaluate different options against decision criteria in order to choose a preferred course of action.",
     "Depth": "Standard",
     "Expansion": "Alternative analysis compares multiple viable options before a team commits to one. It helps decision makers weigh trade-offs such as cost, schedule, risk, feasibility, and expected value. In project work, it is commonly used when selecting solution approaches, response strategies, suppliers, or implementation paths. PMI uses it as a practitioner technique rather than a formal core glossary entry.",
     "Deep Dive": null,
     "Contrast": "Decision tree analysis — alternative analysis compares options more broadly, while decision tree analysis maps branching choices and possible outcomes.",
     "Example": "A project team compares building a capability in-house, buying a commercial product, or outsourcing development before selecting the best option.",
+    "Synonyms": [
+      "Alternative analysis"
+    ],
     "Related Terms": [
+      "Decision analysis",
+      "Decision tree",
+      "Feasibility study",
+      "Tradeoff",
       "Decision tree analysis",
       "Trade-off analysis",
-      "Feasibility study",
       "Make-or-buy analysis",
       "Basis of estimate"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Alternatives Analysis",
-    "Core Meaning": "A technique used to evaluate identified options in order to select the best course of action.",
-    "Depth": "Standard",
-    "Expansion": "Alternatives analysis compares possible approaches against decision criteria such as cost, schedule, feasibility, risk, and strategic fit. PMI uses it when a team must choose among different ways to achieve an objective or solve a problem. It improves decision quality by making tradeoffs explicit and evidence-based.",
-    "Deep Dive": null,
-    "Contrast": "Decision tree — alternatives analysis is the broader evaluation of options; a decision tree is one specific analytical technique for mapping choices and outcomes.",
-    "Example": "A project team compares building a reporting feature internally, buying a commercial product, or outsourcing development before selecting the most practical option.",
-    "Related Terms": [
-      "Decision analysis",
-      "Decision tree",
-      "Feasibility study",
-      "Tradeoff"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms — Alternatives analysis"
   },
   {
     "Term": "Ambiguity",
@@ -775,6 +747,9 @@
     "Deep Dive": "What it is: An assumption is something the team treats as true for planning and decision-making even though it has not been fully verified. It allows work to proceed without waiting for perfect certainty.\n\nWhy it matters and where it applies: assumptions shape schedules, budgets, staffing plans, procurement decisions, and scope choices. They exist in nearly every project, especially early on, because uncertainty is unavoidable.\n\nThe most common misconception: that assumptions are harmless background notes. In practice, a wrong assumption can distort estimates, hide dependencies, and create material risk if nobody revisits it.\n\nHow it shows up in real projects: a team may assume a vendor will deliver hardware in six weeks, that a key subject matter expert will be available part time, or that approval will follow a standard review cycle. Strong teams record these assumptions, assign ownership, and check whether they remain valid.",
     "Contrast": "Constraint — an Assumption is treated as true for planning purposes; a Constraint is a limiting factor the project must work within.",
     "Example": "A construction project assumes environmental permits will be approved by the end of May, allowing site preparation to start on the planned date.",
+    "Synonyms": [
+      "Assumptions"
+    ],
     "Related Terms": [
       "Constraint",
       "Risk",
@@ -1076,12 +1051,18 @@
     "Deep Dive": "What it is: Basis of estimate is the supporting explanation attached to an estimate, not the estimate itself. It captures the logic, inputs, assumptions, exclusions, and methods used to arrive at the figure.\n\nWhy it matters and where it applies: estimates influence funding, commitments, scheduling, procurement, and stakeholder expectations. A clear basis of estimate improves transparency and makes it easier to assess confidence, compare options, and update forecasts as conditions change.\n\nThe most common misconception: that an estimate alone is enough if the number looks reasonable. In practice, a number without context is difficult to validate and often becomes misleading when scope, rates, productivity assumptions, or constraints are later questioned.\n\nHow it shows up in real projects: a project team attaches notes to a cost estimate showing the analogous and vendor-based inputs used, the assumptions about team capacity, the exclusions for training and support, and the contingency logic reviewed during approval.",
     "Contrast": "Estimate — the estimate is the resulting value or range, while the basis of estimate explains how that value or range was derived.",
     "Example": "A project manager presents a release cost estimate together with the labour-rate assumptions, supplier quotes, productivity factors, exclusions, and confidence range used to build it.",
+    "Synonyms": [
+      "Basis of Estimates"
+    ],
     "Related Terms": [
       "Estimate",
       "Assumption",
       "Constraint",
       "Analogous estimating",
-      "Parametric estimating"
+      "Parametric estimating",
+      "Cost estimate",
+      "Activity Duration Estimates",
+      "Assumptions"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Knowledgebase — Basis of estimates, index entry on page 116"
@@ -1156,23 +1137,6 @@
     "Source": "The Standard for Program Management, Glossary, benefit"
   },
   {
-    "Term": "Benefit cost ratio",
-    "Core Meaning": "A financial measure that compares the present value of benefits to the present value of costs.",
-    "Depth": "Standard",
-    "Expansion": "Benefit cost ratio is used to evaluate whether expected benefits justify the costs of a project or investment. A ratio above one generally indicates that benefits exceed costs, but PMI treats it as one input to selection and business case analysis rather than a standalone decision rule. It is commonly used alongside other financial and strategic criteria.",
-    "Deep Dive": null,
-    "Contrast": "Net present value — benefit cost ratio expresses benefits relative to costs, while net present value expresses the net value in monetary terms at a chosen discount rate.",
-    "Example": "A portfolio review compares two automation initiatives and uses benefit cost ratio, along with strategic fit and risk, to support selection.",
-    "Related Terms": [
-      "Business case",
-      "Net present value",
-      "Internal rate of return",
-      "Cost-benefit analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, PMI Glossary, page 695"
-  },
-  {
     "Term": "Benefit measurement methods",
     "Core Meaning": "Techniques used to evaluate and compare options by assessing the value or expected benefits they can deliver.",
     "Depth": "Standard",
@@ -1191,24 +1155,6 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Fourth Edition, p. 33"
   },
   {
-    "Term": "Benefit-cost analysis",
-    "Core Meaning": "A financial analysis technique that compares expected benefits with expected costs to assess whether a proposed initiative is worthwhile.",
-    "Depth": "Foundational",
-    "Expansion": "Benefit-cost analysis evaluates whether the value expected from a project, program, or change justifies the resources required to deliver it. PMI uses it as a decision-support technique in business cases and selection decisions, often alongside other financial and strategic measures. It helps organisations compare options, justify investment, and rank work when resources are limited.",
-    "Deep Dive": "What it is: Benefit-cost analysis compares the anticipated gains from an initiative against the costs of creating, operating, and sometimes sustaining it. The comparison may be expressed qualitatively or quantitatively, though it is most often used in financial form.\n\nWhy it matters and where it applies: organisations rarely have unlimited funding or capacity. This analysis helps sponsors and governance bodies decide which projects deserve approval, which alternatives are stronger, and whether an initiative remains attractive as assumptions change.\n\nThe most common misconception: that it is only a procurement or finance exercise. In practice it is a project selection and justification tool that informs initiation, portfolio decisions, and major change-control conversations.\n\nHow it shows up in real projects: a team compares the implementation cost of a new automation platform with expected savings from reduced manual effort, fewer defects, and faster cycle times before seeking approval.",
-    "Contrast": "Cost-benefit analysis — the terms are commonly used interchangeably; in PMI usage benefit-cost analysis is the named analysis technique for comparing value received against resources spent.",
-    "Example": "A hospital assesses a patient-scheduling system by comparing software, training, and integration costs against expected reductions in no-shows, staff time, and scheduling errors.",
-    "Related Terms": [
-      "Benefit measurement methods",
-      "Business case",
-      "Net present value",
-      "Return on investment",
-      "Project selection methods"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 110"
-  },
-  {
     "Term": "Benefit-cost ratio",
     "Core Meaning": "A measure that compares the expected benefits of an initiative to its expected costs to support selection and justification decisions.",
     "Depth": "Standard",
@@ -1216,11 +1162,15 @@
     "Deep Dive": null,
     "Contrast": "Net present value — benefit-cost ratio compares relative benefits to costs, while net present value expresses absolute value after discounting cash flows.",
     "Example": "A portfolio review board compares two automation projects and prefers the one with a stronger benefit-cost ratio because it delivers more forecast value per unit of investment.",
+    "Synonyms": [
+      "Benefit cost ratio"
+    ],
     "Related Terms": [
       "Business case",
       "Cost-benefit analysis",
       "Net present value",
-      "Benefits management"
+      "Benefits management",
+      "Internal rate of return"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon — confirm exact citation in PMI source"
@@ -1359,12 +1309,16 @@
     "Deep Dive": null,
     "Contrast": "Procurement negotiation — a bidder conference clarifies requirements before proposals are submitted; negotiation occurs later to reach agreement with a selected seller.",
     "Example": "A public sector project team holds a bidder conference for software vendors so each supplier hears the same explanation of integration, security, and service-level requirements before preparing proposals.",
+    "Synonyms": [
+      "Bidder Conferences"
+    ],
     "Related Terms": [
-      "Procurement statement of work",
+      "Procurement Statement of Work",
       "Request for proposal",
-      "Source selection criteria",
+      "Source Selection Criteria",
       "Seller",
-      "Procurement"
+      "Procurement",
+      "Conduct Procurements"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, bidder conference"
@@ -1382,24 +1336,6 @@
       "Dependency",
       "Issue",
       "Task board",
-      "Escalation"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Blocker",
-    "Core Meaning": "An impediment that prevents a task, work item, or team from moving forward until the obstacle is resolved.",
-    "Depth": "Atomic",
-    "Expansion": "A blocker is a practical delivery term used when progress has stopped because something essential is missing or unresolved. It commonly appears in agile and team-coordination contexts, where rapid visibility and removal of impediments are important.",
-    "Deep Dive": null,
-    "Contrast": "Risk — a blocker is a current obstacle already stopping progress, while a risk is an uncertain event or condition that may affect objectives in the future.",
-    "Example": "A development story is blocked because the team cannot continue testing until the vendor provides the required API credentials.",
-    "Related Terms": [
-      "Impediment",
-      "Issue",
-      "Dependency",
-      "Risk",
       "Escalation"
     ],
     "Tier": "Practitioner term",
@@ -1986,81 +1922,7 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
-    "Term": "Cause and effect analysis",
-    "Core Meaning": "A technique used to identify, explore, and organise the possible causes of a specific problem or undesirable outcome.",
-    "Depth": "Standard",
-    "Expansion": "Cause and effect analysis works backward from an observed effect to determine what factors may have produced it. In PMI practice, it is commonly used in quality, risk, and problem-solving contexts to structure investigation rather than rely on assumption. It often leads to a visual representation such as a fishbone diagram, but the analysis is the thinking process, not just the diagram itself.",
-    "Deep Dive": null,
-    "Contrast": "Cause and effect diagram — cause and effect analysis is the investigative technique; the diagram is one common visual tool used to capture the results.",
-    "Example": "After repeated test-environment outages delay a software release, the team uses cause and effect analysis to examine possible contributors such as server configuration, access controls, deployment timing, and vendor support response.",
-    "Related Terms": [
-      "Cause and effect diagram",
-      "Root cause analysis",
-      "Quality management",
-      "Problem solving",
-      "Risk analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide / Quality management references for cause-and-effect analysis; confirm exact page in current PMI edition"
-  },
-  {
-    "Term": "Cause and effect diagram",
-    "Core Meaning": "A decomposition technique that helps trace an undesirable effect back to its possible root causes.",
-    "Depth": "Standard",
-    "Expansion": "A cause and effect diagram organises possible causes of a problem so a team can examine why a defect, variance, or failure is occurring. In PMI usage it is commonly applied in quality management and root cause analysis. It is often called an Ishikawa or fishbone diagram because of its visual structure.",
-    "Deep Dive": null,
-    "Contrast": "Flowchart — a cause and effect diagram maps possible sources of a problem; a flowchart maps the sequence of steps in a process.",
-    "Example": "A project team investigating repeated testing defects groups possible causes under methods, tools, people, and environment to identify the most likely source of the failures.",
-    "Related Terms": [
-      "Root cause analysis",
-      "Quality management",
-      "Ishikawa diagram",
-      "Problem solving"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon, Cause-and-effect diagram; page citation not confirmed in available sources"
-  },
-  {
-    "Term": "Cause-and-effect",
-    "Core Meaning": "A relationship in which one factor or event produces or contributes to another outcome, often analysed to understand problems, risks, or performance results.",
-    "Depth": "Standard",
-    "Expansion": "Cause-and-effect is used in project work to trace outcomes back to their drivers and identify where action should be taken. PMI practice commonly applies it in root-cause analysis, quality management, and risk analysis to move beyond symptoms and understand underlying contributors. This supports better decisions on corrective action, preventive action, and process improvement.",
-    "Deep Dive": null,
-    "Contrast": "Correlation — cause-and-effect means one factor influences another, while correlation only shows that two factors vary together without proving causation.",
-    "Example": "After repeated schedule slippage, a project team analyses cause-and-effect and finds that late design approvals are driving rework, procurement delays, and missed testing dates.",
-    "Related Terms": [
-      "Root cause analysis",
-      "Ishikawa diagram",
-      "Quality management",
-      "Risk analysis",
-      "Corrective action"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon / PMBOK Guide — confirm exact citation in PMI source"
-  },
-  {
-    "Term": "Cause-and-effect analysis",
-    "Core Meaning": "An analysis technique for tracing an undesirable effect back to its possible causes.",
-    "Depth": "Standard",
-    "Expansion": "Cause-and-effect analysis is used to investigate a problem by examining the factors that may have produced it. It supports structured thinking about quality issues, delays, and other undesirable outcomes. PMI treats it as a practical technique for identifying likely contributors before selecting responses.",
-    "Deep Dive": null,
-    "Contrast": "Cause-and-effect diagram — cause-and-effect analysis is the investigative activity; the diagram is the visual tool often used to perform it.",
-    "Example": "After repeated schedule slippage, the project team analyses staffing, approvals, and dependency delays to find the main contributors.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
-      "caption": "Causes grouped on bones; the problem (effect) at the head."
-    },
-    "Related Terms": [
-      "Cause",
-      "Cause and effect",
-      "Cause-and-effect diagram",
-      "Root cause analysis"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Cause-and-effect diagram",
+    "Term": "Fishbone diagram",
     "Core Meaning": "A decomposition technique that helps trace an undesirable effect back to possible root causes.",
     "Depth": "Standard",
     "Expansion": "A cause-and-effect diagram organises possible sources of a problem so a team can explore why an issue is occurring rather than only reacting to symptoms. It is commonly used in quality management and risk analysis to structure thinking about categories such as methods, materials, equipment, people, or environment. The technique improves problem diagnosis and supports more targeted corrective or preventive action.",
@@ -2071,11 +1933,24 @@
       "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
       "caption": "Causes grouped on bones; the problem (effect) at the head."
     },
+    "Synonyms": [
+      "Cause and effect analysis",
+      "Cause and effect diagram",
+      "Cause-and-effect",
+      "Cause-and-effect analysis",
+      "Cause-and-effect diagram",
+      "Ishikawa diagram"
+    ],
     "Related Terms": [
       "Root cause analysis",
       "Quality management",
       "Defect",
-      "Preventive action"
+      "Preventive action",
+      "Problem solving",
+      "Risk analysis",
+      "Corrective action",
+      "Cause",
+      "Cause and effect"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 698"
@@ -2536,23 +2411,6 @@
     "Source": "PMI Lexicon — Communication; PMBOK Guide glossary page citation not confirmed in available search results"
   },
   {
-    "Term": "Communication management",
-    "Core Meaning": "The planning, creation, distribution, monitoring, and improvement of project information exchanges among stakeholders.",
-    "Depth": "Foundational",
-    "Expansion": "Communication management ensures that the right information reaches the right stakeholders in the right form and at the right time. PMI treats it as more than status reporting because it includes communication requirements, methods, feedback loops, and adaptation to stakeholder needs. It matters across all delivery approaches because poor communication can distort decisions, delay action, and weaken stakeholder engagement.",
-    "Deep Dive": "What it is: Communication management is the structured management of how project information is generated, shared, received, understood, and adjusted. It includes planning communication needs, selecting channels, defining formats and cadence, and monitoring whether communication is effective.\n\nWhy it matters and where it applies: projects depend on coordinated understanding across sponsors, teams, customers, vendors, and governance bodies. Communication management supports alignment, decision quality, expectation management, and risk visibility in predictive, agile, and hybrid environments alike.\n\nThe most common misconception: that communication management means sending more reports or holding more meetings. In practice, effective communication management is about relevance, clarity, audience fit, and confirmation that the message produced the intended understanding or action.\n\nHow it shows up in real projects: a team maps stakeholder information needs, uses dashboards for executives, daily coordination for delivery teams, decision logs for governance, and adapts channels when stakeholders are overloaded or disengaged.",
-    "Contrast": "Stakeholder engagement — communication management governs information exchange; stakeholder engagement is the broader work of building support, involvement, and relationships.",
-    "Example": "On an ERP rollout, the project manager uses weekly risk summaries for sponsors, daily coordination calls for workstream leads, and role-based change messages for end users.",
-    "Related Terms": [
-      "Communications Management Plan",
-      "Stakeholder engagement",
-      "Information distribution",
-      "Stakeholder communication"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Project Communications Management chapter; exact page citation requires source verification in PMI content"
-  },
-  {
     "Term": "Communication methods",
     "Core Meaning": "The approaches or channels used to share information among project participants and stakeholders.",
     "Depth": "Standard",
@@ -2595,11 +2453,15 @@
     "Deep Dive": "What it is: Communications management is the structured management of who needs information, what information they need, when they need it, how it will be delivered, and how effectiveness will be assessed. It includes formal and informal communication, documentation practices, channels, escalation paths, and feedback loops.\n\nWhy it matters and where it applies: most project failure points involve misunderstanding, delayed awareness, or missing alignment rather than pure technical inability. Communications management supports stakeholder engagement, governance reporting, team coordination, issue escalation, and decision quality in predictive, agile, and hybrid settings.\n\nThe most common misconception: that communications management means producing status reports or running meetings. In practice, it is broader and focuses on whether the right people actually receive, understand, and can act on the information.\n\nHow it shows up in real projects: communication plans, stakeholder-specific reporting cadences, dashboards, escalation rules, collaboration norms, meeting structures, feedback mechanisms, and periodic adjustment when stakeholder needs or project conditions change.",
     "Contrast": "Stakeholder engagement — communications management focuses on information flow and understanding; stakeholder engagement focuses on building support, involvement, and relationships.",
     "Example": "On a construction project, the team sets weekly site briefings for subcontractors, monthly steering updates for executives, immediate safety escalation rules, and a document repository with version controls.",
+    "Synonyms": [
+      "Communication management"
+    ],
     "Related Terms": [
       "Communication",
       "Communications Management Plan",
       "Stakeholder engagement",
-      "Information distribution"
+      "Information distribution",
+      "Stakeholder communication"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management chapter and glossary, page citation depends on format"
@@ -2637,23 +2499,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — communications model; exact page citation not confirmed in available search results"
-  },
-  {
-    "Term": "Communications requirements analysis",
-    "Core Meaning": "A technique used to determine the information needs of project stakeholders and define appropriate communication methods.",
-    "Depth": "Standard",
-    "Expansion": "Communications requirements analysis identifies who needs what information, when they need it, how often, and through which channel. PMI uses it to support planning effective project communications based on stakeholder roles, responsibilities, and information needs. It helps avoid both information gaps and unnecessary communication overload.",
-    "Deep Dive": null,
-    "Contrast": "Communications management plan — communications requirements analysis determines stakeholder information needs; the communications management plan documents how those needs will be met.",
-    "Example": "During project planning, a project manager determines that executives need monthly milestone summaries, team leads need weekly detailed status updates, and vendors need issue logs within one business day.",
-    "Related Terms": [
-      "Communications management plan",
-      "Stakeholder analysis",
-      "Information distribution",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition / Process content from earlier PMBOK editions, exact page citation not confirmed"
   },
   {
     "Term": "Competence",
@@ -3516,19 +3361,28 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 699"
   },
   {
-    "Term": "Cost benefit analysis",
+    "Term": "Cost-benefit analysis",
     "Core Meaning": "An analysis technique that compares expected project costs with anticipated benefits to support selection and justification decisions.",
     "Depth": "Foundational",
     "Expansion": "Cost benefit analysis is used to determine whether the expected value of a proposed project or change justifies the resources required to deliver it. In PMI practice, it commonly appears in business-case thinking, project selection, and evaluation of response options by comparing financial and nonfinancial benefits against implementation and operating costs. It supports decision making but does not replace strategic judgment, risk consideration, or benefit realisation planning.",
     "Deep Dive": "What it is: Cost benefit analysis is a structured comparison of what an initiative is expected to cost and what value it is expected to produce. The value side may include revenue, savings, risk reduction, compliance, service improvement, or strategic benefit.\n\nWhy it matters and where it applies: organisations use it when selecting projects, evaluating alternatives, approving changes, or assessing response strategies. It helps decision makers allocate limited resources to work that is expected to produce the greatest overall benefit.\n\nThe most common misconception: that it is only a finance exercise based on immediate cash return. In practice, project teams often include qualitative and longer-term benefits as well, while still recognising uncertainty and assumptions.\n\nHow it shows up in real projects: a sponsor compares several automation options, estimates implementation cost and expected operational savings, and uses the analysis to justify which option moves forward.",
     "Contrast": "Benefit-cost ratio — cost benefit analysis is the broader evaluation process; a benefit-cost ratio is one metric that may be produced from that analysis.",
     "Example": "A PMO evaluates whether replacing a manual reporting process with a dashboard platform is justified by reduced labour time, fewer reporting errors, and faster decision making.",
+    "Synonyms": [
+      "Benefit-cost analysis",
+      "Cost benefit analysis"
+    ],
     "Related Terms": [
+      "Alternatives analysis",
+      "Benefit",
+      "Decision making",
       "Business case",
-      "Benefits management",
+      "Benefit measurement methods",
+      "Net present value",
+      "Return on investment",
       "Project selection methods",
-      "Benefit-cost ratio",
-      "Decision making"
+      "Benefits management",
+      "Benefit-cost ratio"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide / not page-confirmed from available source text"
@@ -3717,24 +3571,6 @@
     "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
   },
   {
-    "Term": "Cost Plus Incentive Fee Contract (CPIF)",
-    "Core Meaning": "A cost-reimbursable contract in which the buyer reimburses allowable costs and the seller's fee varies based on achievement against defined performance targets.",
-    "Depth": "Standard",
-    "Expansion": "A CPIF contract reimburses the seller for legitimate actual costs and includes an incentive fee tied to agreed performance measures. The seller's profit can increase or decrease depending on results such as cost, schedule, or technical performance against target values. It is used when the buyer wants to share risk and create a direct financial motivation for better performance.",
-    "Deep Dive": null,
-    "Contrast": "Cost Plus Fixed Fee Contract (CPFF) — CPIF adjusts the fee based on performance against targets, while CPFF keeps the fee fixed.",
-    "Example": "On a systems integration project, a contractor is reimbursed for allowable costs and earns additional fee if the work is completed below target cost and meets required performance thresholds.",
-    "Related Terms": [
-      "Cost-reimbursable contract",
-      "Procurement contract",
-      "Incentive fee",
-      "Target cost",
-      "Seller"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
-  },
-  {
     "Term": "Cost risk analysis",
     "Core Meaning": "A technique used to assess how uncertainty may affect project cost outcomes and overall budget exposure.",
     "Depth": "Standard",
@@ -3771,36 +3607,25 @@
     "Source": "PMI Lexicon — Cost variance"
   },
   {
-    "Term": "Cost-benefit analysis",
-    "Core Meaning": "A financial analysis technique used to compare the costs of an action with the benefits it is expected to produce.",
-    "Depth": "Standard",
-    "Expansion": "Cost-benefit analysis supports decision making by comparing expected costs with expected benefits for a proposed option or action. PMI uses it in areas such as project selection, options evaluation, and risk response decisions. It may be qualitative or quantitative, but its purpose is to support a reasoned judgement about whether an option creates sufficient value.",
-    "Deep Dive": null,
-    "Contrast": "Alternatives analysis — cost-benefit analysis compares expected costs and benefits; alternatives analysis compares options more broadly and may include strategic or nonfinancial factors.",
-    "Example": "A project sponsor compares the implementation cost of a new workflow tool with the expected savings from reduced manual effort and fewer processing errors.",
-    "Related Terms": [
-      "Alternatives analysis",
-      "Benefit",
-      "Decision making",
-      "Business case"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide Sixth Edition — Cost-benefit analysis; exact page not available in provided results"
-  },
-  {
-    "Term": "Cost-plus-incentive-fee contract",
+    "Term": "Cost Plus Incentive Fee Contract (CPIF)",
     "Core Meaning": "A reimbursable contract in which the buyer pays the seller allowable costs and an additional fee tied to agreed performance targets.",
     "Depth": "Foundational",
     "Expansion": "A cost-plus-incentive-fee contract is a cost-reimbursable agreement that pays the seller for legitimate incurred costs plus an incentive fee based on performance against specified objectives. PMI presents it as one of the main contract types used when the work cannot be estimated precisely enough for a fixed-price arrangement. It is intended to align seller behaviour with buyer priorities such as cost control, schedule achievement, or technical performance while preserving flexibility for uncertain work.",
     "Deep Dive": "What it is: A cost-plus-incentive-fee contract reimburses allowable seller costs and adds a fee that varies according to an agreed incentive formula. The formula usually shares savings or overruns between buyer and seller and defines how performance affects final compensation.\n\nWhy it matters and where it applies: it is useful when scope or technical uncertainty makes precise pricing difficult, but the buyer still wants to motivate efficient performance. It commonly appears in research, engineering, defence, and complex development efforts where uncertainty is high and collaboration is necessary.\n\nThe most common misconception: that this contract simply pays whatever the seller spends. In practice, the incentive arrangement is designed to influence behaviour, and the contract sets rules for allowable costs, target cost, target fee, and sharing ratios.\n\nHow it shows up in real projects: a buyer funds prototype development for a complex system and agrees that if the seller finishes below target cost, both parties share the savings, while overruns reduce the seller's earned fee according to the contract formula.",
     "Contrast": "Cost-plus-fixed-fee contract — a cost-plus-incentive-fee contract varies the seller's fee based on performance, while a cost-plus-fixed-fee contract pays a set fee regardless of actual performance against incentive targets.",
     "Example": "A public-sector agency hires a contractor to develop a new radar prototype under a target-cost arrangement where underruns increase the contractor's fee and overruns reduce it based on a negotiated sharing ratio.",
+    "Synonyms": [
+      "Cost-plus-incentive-fee contract"
+    ],
     "Related Terms": [
       "Cost-reimbursable contract",
+      "Procurement contract",
+      "Incentive fee",
+      "Target cost",
+      "Seller",
       "Cost-plus-fixed-fee contract",
       "Fixed-price contract",
-      "Procurement management",
-      "Incentive fee"
+      "Procurement management"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition Glossary — cost-plus-incentive-fee contract"
@@ -4037,39 +3862,24 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Cumulative flow diagram",
+    "Term": "Cumulative Flow Diagram (CFD)",
     "Core Meaning": "A visual chart that shows how work items accumulate across workflow states over time to help monitor flow and bottlenecks.",
     "Depth": "Standard",
     "Expansion": "A cumulative flow diagram displays the quantity of work in each stage of a process, such as requested, in progress, and done, across a timeline. It helps teams assess throughput, work in progress, and stability of flow by making queues and delays visible. In agile and Kanban-oriented project work, it is used to spot bottlenecks, manage capacity, and support data-based improvement of delivery performance.",
     "Deep Dive": null,
     "Contrast": "Burndown chart — a cumulative flow diagram shows work distribution across states over time, while a burndown chart focuses on remaining work against time.",
     "Example": "A Kanban team tracks how many features sit in analysis, development, testing, and done each week and notices the testing band widening, revealing a persistent bottleneck.",
+    "Synonyms": [
+      "Cumulative flow diagram"
+    ],
     "Related Terms": [
       "Kanban",
-      "Work in progress",
       "Flow",
+      "Work in progress",
       "Throughput",
       "Burndown chart"
     ],
     "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Cumulative Flow Diagram (CFD)",
-    "Core Meaning": "A visual chart that shows the cumulative number of work items in each workflow state over time.",
-    "Depth": "Standard",
-    "Expansion": "A cumulative flow diagram displays how work accumulates across states such as requested, in progress, and done over time. It helps teams see flow, work in progress, throughput patterns, and potential bottlenecks. It is commonly used in Kanban and other flow-based delivery settings to monitor system stability and improve delivery performance.",
-    "Deep Dive": null,
-    "Contrast": "Burndown chart — a CFD shows the distribution of work across workflow states over time, while a burndown chart shows how much work remains.",
-    "Example": "A product team reviews its CFD and sees the testing band widening each week, revealing that work is entering testing faster than it is leaving.",
-    "Related Terms": [
-      "Kanban",
-      "Flow",
-      "Work in progress",
-      "Throughput",
-      "Burndown chart"
-    ],
-    "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
   },
   {
@@ -4562,28 +4372,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Decision Tree",
-    "Core Meaning": "A diagram used to evaluate alternative courses of action by showing decision branches, associated risks, and possible outcomes.",
-    "Depth": "Standard",
-    "Expansion": "A decision tree maps choices and uncertain events into branching paths so a team can compare likely outcomes before committing to a course of action. PMI uses it in risk analysis and decision analysis, often together with expected monetary value. It helps make tradeoffs explicit when multiple options have different probabilities, impacts, and consequences.",
-    "Deep Dive": null,
-    "Contrast": "Decision table — a decision tree shows branching paths and outcome logic over time; a decision table organizes conditions and resulting actions in rows and columns.",
-    "Example": "A project team compares whether to outsource testing or build in-house capability, then evaluates each branch based on probability of delay, added cost, and likely business outcome.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 330 186' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='24' y='80' width='22' height='22' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1.2'/><text x='35' y='74' fill='currentColor' font-size='8' text-anchor='middle'>decide</text><line x1='46' y1='86' x2='150' y2='52' stroke='currentColor' stroke-width='1.1'/><line x1='46' y1='96' x2='150' y2='134' stroke='currentColor' stroke-width='1.1'/><text x='92' y='60' fill='currentColor' font-size='8' text-anchor='middle'>Build</text><text x='92' y='128' fill='currentColor' font-size='8' text-anchor='middle'>Buy</text><circle cx='160' cy='52' r='11' fill='#C98A1F' fill-opacity='0.15' stroke='currentColor' stroke-width='1.1'/><circle cx='160' cy='134' r='11' fill='#C98A1F' fill-opacity='0.15' stroke='currentColor' stroke-width='1.1'/><line x1='171' y1='48' x2='250' y2='30' stroke='currentColor' stroke-width='1'/><line x1='171' y1='56' x2='250' y2='74' stroke='currentColor' stroke-width='1'/><line x1='171' y1='130' x2='250' y2='112' stroke='currentColor' stroke-width='1'/><line x1='171' y1='138' x2='250' y2='156' stroke='currentColor' stroke-width='1'/><text x='206' y='32' fill='currentColor' font-size='7.5' text-anchor='middle'>0.6</text><text x='206' y='58' fill='currentColor' font-size='7.5' text-anchor='middle'>0.4</text><text x='206' y='114' fill='currentColor' font-size='7.5' text-anchor='middle'>0.7</text><text x='206' y='140' fill='currentColor' font-size='7.5' text-anchor='middle'>0.3</text><text x='254' y='33' fill='#2F6F5E' font-size='8' text-anchor='start'>+200k</text><text x='254' y='77' fill='#B5462F' font-size='8' text-anchor='start'>-50k</text><text x='254' y='115' fill='#2F6F5E' font-size='8' text-anchor='start'>+120k</text><text x='254' y='159' fill='#2F6F5E' font-size='8' text-anchor='start'>+20k</text><text x='160' y='24' fill='currentColor' font-size='7.5' text-anchor='middle'>EMV 100k</text><text x='160' y='168' fill='currentColor' font-size='7.5' text-anchor='middle'>EMV 90k</text></svg>",
-      "caption": "A decision (square) leads to chance nodes (circles); EMV weights each payoff."
-    },
-    "Related Terms": [
-      "Decision analysis",
-      "Expected monetary value",
-      "Risk",
-      "Alternative analysis",
-      "Probability"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Seventh Edition / PMI Lexicon — Decision tree"
-  },
-  {
     "Term": "Decision tree analysis",
     "Core Meaning": "A diagramming and analytical technique that maps decisions, chance events, probabilities, and outcomes to support choosing among alternatives.",
     "Depth": "Foundational",
@@ -4595,12 +4383,17 @@
       "svg": "<svg viewBox='0 0 330 186' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='24' y='80' width='22' height='22' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1.2'/><text x='35' y='74' fill='currentColor' font-size='8' text-anchor='middle'>decide</text><line x1='46' y1='86' x2='150' y2='52' stroke='currentColor' stroke-width='1.1'/><line x1='46' y1='96' x2='150' y2='134' stroke='currentColor' stroke-width='1.1'/><text x='92' y='60' fill='currentColor' font-size='8' text-anchor='middle'>Build</text><text x='92' y='128' fill='currentColor' font-size='8' text-anchor='middle'>Buy</text><circle cx='160' cy='52' r='11' fill='#C98A1F' fill-opacity='0.15' stroke='currentColor' stroke-width='1.1'/><circle cx='160' cy='134' r='11' fill='#C98A1F' fill-opacity='0.15' stroke='currentColor' stroke-width='1.1'/><line x1='171' y1='48' x2='250' y2='30' stroke='currentColor' stroke-width='1'/><line x1='171' y1='56' x2='250' y2='74' stroke='currentColor' stroke-width='1'/><line x1='171' y1='130' x2='250' y2='112' stroke='currentColor' stroke-width='1'/><line x1='171' y1='138' x2='250' y2='156' stroke='currentColor' stroke-width='1'/><text x='206' y='32' fill='currentColor' font-size='7.5' text-anchor='middle'>0.6</text><text x='206' y='58' fill='currentColor' font-size='7.5' text-anchor='middle'>0.4</text><text x='206' y='114' fill='currentColor' font-size='7.5' text-anchor='middle'>0.7</text><text x='206' y='140' fill='currentColor' font-size='7.5' text-anchor='middle'>0.3</text><text x='254' y='33' fill='#2F6F5E' font-size='8' text-anchor='start'>+200k</text><text x='254' y='77' fill='#B5462F' font-size='8' text-anchor='start'>-50k</text><text x='254' y='115' fill='#2F6F5E' font-size='8' text-anchor='start'>+120k</text><text x='254' y='159' fill='#2F6F5E' font-size='8' text-anchor='start'>+20k</text><text x='160' y='24' fill='currentColor' font-size='7.5' text-anchor='middle'>EMV 100k</text><text x='160' y='168' fill='currentColor' font-size='7.5' text-anchor='middle'>EMV 90k</text></svg>",
       "caption": "A decision (square) leads to chance nodes (circles); EMV weights each payoff."
     },
+    "Synonyms": [
+      "Decision tree"
+    ],
     "Related Terms": [
       "Decision analysis",
       "Expected monetary value",
       "Risk analysis",
       "Alternatives analysis",
-      "Probability"
+      "Probability",
+      "Risk",
+      "Alternative analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — decision tree analysis term; exact page citation requires source verification"
@@ -4791,11 +4584,18 @@
     "Deep Dive": null,
     "Contrast": "Budgetary estimate — a definitive estimate is based on much more detailed and mature information and is therefore intended to be more accurate.",
     "Example": "After finalising the engineering design and procurement packages, the project team prepares a definitive cost estimate to establish the approved cost baseline.",
+    "Synonyms": [
+      "Definitive Estimates"
+    ],
     "Related Terms": [
       "Estimate",
       "Budgetary estimate",
       "Rough order of magnitude",
-      "Cost baseline"
+      "Cost baseline",
+      "Rough order of magnitude estimate",
+      "Cost estimating",
+      "Basis of estimates",
+      "Budget"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms — Definitive estimate"
@@ -6400,34 +6200,22 @@
   },
   {
     "Term": "Expected monetary value",
-    "Core Meaning": "The estimated value of an outcome expressed in monetary terms.",
-    "Depth": "Standard",
-    "Expansion": "Expected monetary value, often shortened to EMV, is a quantitative risk analysis concept used to estimate the average outcome of uncertain events in financial terms. It combines probability with impact to support more rational decision making under uncertainty. PMI uses it to compare alternatives, assess risk exposure, and inform contingency-related thinking.",
-    "Deep Dive": null,
-    "Contrast": "Monetary impact — expected monetary value combines probability and impact into an average expected outcome; monetary impact is the cost or benefit if the event actually occurs.",
-    "Example": "A project team assesses a 20 percent chance of a supplier disruption causing a loss of 50000, producing an expected monetary value of 10000 for that risk.",
-    "Related Terms": [
-      "Risk",
-      "Quantitative risk analysis",
-      "Contingency reserve",
-      "Probability",
-      "Impact"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase — Expected monetary value"
-  },
-  {
-    "Term": "Expected monetary value analysis",
     "Core Meaning": "A quantitative risk analysis technique that calculates the average outcome of uncertain events in monetary terms.",
     "Depth": "Foundational",
     "Expansion": "Expected monetary value analysis evaluates uncertain future events by multiplying each possible outcome by its probability and summing the results. PMI uses it in risk analysis to support decisions where threats and opportunities have financial impact. It helps compare alternatives, estimate contingency exposure, and make risk-informed choices using probability-weighted values.",
     "Deep Dive": "What it is: Expected monetary value analysis is a statistical technique used to quantify uncertainty in financial terms. It converts possible risk outcomes into a single probability-weighted value that supports comparison and decision making.\n\nWhy it matters and where it applies: projects often face decisions involving uncertain costs, savings, claims, or revenue effects. This technique is used in quantitative risk analysis, decision tree analysis, and contingency planning when leaders need a rational estimate of likely monetary exposure or upside.\n\nThe most common misconception: that expected monetary value predicts the exact amount the project will gain or lose. It does not forecast one certain result; it expresses the average expected value across many possible outcomes and is therefore most useful for planning and comparing options.\n\nHow it shows up in real projects: a team estimates the probability and cost impact of supplier delay, redesign, or expedited shipping choices, then uses expected monetary value to choose the option with the best risk-adjusted financial outcome.",
     "Contrast": "Decision tree analysis — expected monetary value analysis is the probability-weighted calculation itself; decision tree analysis is the broader decision model that often uses expected monetary value at decision branches.",
     "Example": "A project team estimates a 30 percent chance of a regulatory delay causing a cost impact of 100000 and a 70 percent chance of no impact, producing an expected monetary value of 30000 for that risk.",
+    "Synonyms": [
+      "Expected monetary value analysis"
+    ],
     "Related Terms": [
+      "Risk",
       "Quantitative risk analysis",
-      "Decision tree analysis",
       "Contingency reserve",
+      "Probability",
+      "Impact",
+      "Decision tree analysis",
       "Risk exposure",
       "Probability and impact matrix"
     ],
@@ -6882,71 +6670,24 @@
     "Deep Dive": null,
     "Contrast": "Cost-reimbursable contract — an FFP contract pays a set total amount for defined work, while a cost-reimbursable contract pays allowable actual costs subject to the contract terms.",
     "Example": "A buyer contracts a supplier to deliver a standard payroll interface for a single agreed amount based on a detailed statement of work and acceptance criteria.",
+    "Synonyms": [
+      "Firm-fixed-price",
+      "Firm-fixed-price contract"
+    ],
     "Related Terms": [
       "Fixed-price contract",
       "Procurement statement of work",
       "Seller",
       "Contract",
-      "Cost-reimbursable contract"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Glossary, page 725"
-  },
-  {
-    "Term": "Firm-fixed-price",
-    "Core Meaning": "A fixed-price contract in which the buyer pays the seller one set amount for the defined work regardless of the seller's actual costs.",
-    "Depth": "Standard",
-    "Expansion": "Firm-fixed-price is a procurement contract type used when scope can be defined clearly enough to set a total price upfront. The seller assumes most of the cost risk because overruns do not normally change the agreed price. It is commonly used for well-specified products, services, or deliverables where changes are expected to be limited.",
-    "Deep Dive": null,
-    "Contrast": "Fixed-price incentive fee contract — firm-fixed-price keeps the agreed payment fixed, while fixed-price incentive fee adds formula-based incentive adjustments tied to performance.",
-    "Example": "A project procures installation of standard office cabling for a single agreed amount based on a complete statement of work.",
-    "Related Terms": [
+      "Cost-reimbursable contract",
       "Fixed-price incentive fee contract",
       "Procurement contract",
       "Statement of work",
-      "Seller",
-      "Buyer"
+      "Buyer",
+      "Fixed price contract"
     ],
     "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 12.1.1.6"
-  },
-  {
-    "Term": "Firm-fixed-price contract",
-    "Core Meaning": "A fixed-price contract in which the buyer pays an agreed total amount for the specified work regardless of the seller's actual cost.",
-    "Depth": "Standard",
-    "Expansion": "A firm-fixed-price contract sets a total price at the outset for a clearly defined scope of work. Because payment is fixed, the seller carries most of the cost risk if the work takes more effort than expected. This contract type is most suitable when requirements are stable, specifications are clear, and change is expected to be limited.",
-    "Deep Dive": null,
-    "Contrast": "Fixed-price-incentive-fee contract — a firm-fixed-price contract pays a set amount without incentive adjustment, while a fixed-price-incentive-fee contract ties part of compensation to performance results.",
-    "Example": "A vendor agrees to deliver a standard payroll interface for a fixed total amount based on a detailed statement of work.",
-    "Related Terms": [
-      "Fixed price contract",
-      "Procurement statement of work",
-      "Seller",
-      "Contract"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide glossary, firm-fixed-price contract, page 182"
-  },
-  {
-    "Term": "Fishbone diagram",
-    "Core Meaning": "A visual root-cause analysis tool that organizes possible causes of a problem around a stated effect.",
-    "Depth": "Standard",
-    "Expansion": "In PMI usage, fishbone diagram is another name for a cause-and-effect diagram, also called an Ishikawa diagram. Teams use it to sort potential causes into categories so they can investigate underlying reasons for defects, delays, or other unwanted outcomes. It is especially common in quality management and problem-solving discussions.",
-    "Deep Dive": null,
-    "Contrast": "Cause-and-effect diagram — fishbone diagram is simply another name for the same analysis tool.",
-    "Example": "After repeated test failures, a project team builds a fishbone diagram with categories such as methods, materials, people, and tools to identify likely root causes.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
-      "caption": "Causes grouped on bones; the problem (effect) at the head."
-    },
-    "Related Terms": [
-      "Cause-and-effect diagram",
-      "Root cause analysis",
-      "Quality management",
-      "Ishikawa diagram"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms — Fishbone diagram, see Cause-and-effect diagram"
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Glossary, page 725"
   },
   {
     "Term": "Fixed duration",
@@ -6983,42 +6724,6 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 12.1.1.6"
   },
   {
-    "Term": "Fixed price contract",
-    "Core Meaning": "An agreement that sets the fee to be paid for a defined scope of work regardless of the seller's actual cost to perform it.",
-    "Depth": "Standard",
-    "Expansion": "A fixed price contract establishes a set price for delivering an agreed scope. It shifts much of the cost risk to the seller because payment does not automatically rise if performance requires more effort than expected. This contract type is most suitable when requirements are stable and the work can be defined with reasonable precision.",
-    "Deep Dive": null,
-    "Contrast": "Cost-reimbursable contract — a fixed price contract pays an agreed amount for defined work, while a cost-reimbursable contract pays allowable costs plus an additional fee structure.",
-    "Example": "A buyer hires a vendor to implement a standard payroll module for an agreed total amount based on a clearly defined statement of work.",
-    "Related Terms": [
-      "Procurement",
-      "Statement of work",
-      "Cost-reimbursable contract",
-      "Contract",
-      "Scope baseline"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon / PMBOK glossary, Fixed price contract; page citation not available in retrieved source"
-  },
-  {
-    "Term": "Fixed Price Incentive Fee Contract (FPIF)",
-    "Core Meaning": "A fixed-price contract that includes a financial incentive for meeting defined performance objectives.",
-    "Depth": "Standard",
-    "Expansion": "An FPIF contract sets a target cost, target profit, and a formula for adjusting the seller's profit based on performance against agreed measures. It is used when the buyer wants price predictability but also wants to motivate the seller to control cost or improve schedule or technical results. The final price is determined by the contract formula and is usually bounded by a price ceiling.",
-    "Deep Dive": null,
-    "Contrast": "Firm-Fixed-Price Contract — FPIF adds a profit-adjustment formula tied to performance, while firm-fixed-price keeps payment fixed without that incentive mechanism.",
-    "Example": "A buyer awards a systems-integration contract with a target cost and target profit, then shares cost savings with the seller if the system is delivered under the agreed target while meeting performance criteria.",
-    "Related Terms": [
-      "Contract",
-      "Procurement",
-      "Incentive Fee",
-      "Firm-Fixed-Price Contract",
-      "Price Ceiling"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide Glossary, Fixed-Price Incentive Fee Contract, p. 181"
-  },
-  {
     "Term": "Fixed Price with Economic Price Adjustment Contract (FPEPA)",
     "Core Meaning": "A fixed-price contract that permits predefined price adjustments when specified economic conditions change.",
     "Depth": "Standard",
@@ -7026,11 +6731,14 @@
     "Deep Dive": null,
     "Contrast": "Firm-Fixed-Price Contract — FPEPA allows limited price changes for specified economic triggers, while firm-fixed-price keeps the price unchanged throughout the contract.",
     "Example": "A multi-year construction materials contract allows the contract price to be adjusted if a published steel-price index rises or falls beyond the threshold stated in the agreement.",
+    "Synonyms": [
+      "Fixed-price-with-economic-price-adjustment contract"
+    ],
     "Related Terms": [
       "Contract",
       "Procurement",
-      "Firm-Fixed-Price Contract",
-      "Economic Price Adjustment",
+      "Firm-fixed-price contract",
+      "Economic price adjustment",
       "Fixed-Price Contract"
     ],
     "Tier": "Core glossary",
@@ -7078,68 +6786,46 @@
     "Deep Dive": "What it is: A fixed-price contract is a procurement agreement in which the seller commits to deliver specified work for an agreed total price. The buyer gains greater cost predictability, while the seller accepts more responsibility for controlling execution costs.\n\nWhy it matters and where it applies: it is widely used when scope can be defined with reasonable precision, such as construction packages, equipment purchases, and standardised services. It helps organisations manage budgets and compare bids, but it also makes scope definition, change control, and acceptance criteria especially important.\n\nThe most common misconception: that fixed-price means no risk remains for the buyer. In practice, buyer risk still exists through poor scope definition, aggressive seller assumptions, quality disputes, change requests, and claims when actual conditions differ from what was specified.\n\nHow it shows up in real projects: a project team issues a statement of work, receives seller proposals, negotiates a fixed amount, and then manages performance through milestones, deliverable reviews, contract administration, and formal change control when scope shifts.",
     "Contrast": "Cost-reimbursable contract — a fixed-price contract pays an agreed total for defined work, while a cost-reimbursable contract pays allowable actual costs plus a fee.",
     "Example": "A company contracts a vendor to install standard office security hardware across three sites for a single agreed price tied to defined acceptance tests.",
+    "Synonyms": [
+      "Fixed price contract"
+    ],
     "Related Terms": [
       "Procurement",
       "Contract",
       "Cost-reimbursable contract",
       "Firm-fixed-price",
       "Statement of work",
-      "Change control"
+      "Change control",
+      "Scope baseline"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Sixth Edition, Project Procurement Management, contract types, exact page citation to confirm in PMI source"
   },
   {
-    "Term": "Fixed-price incentive fee contract",
-    "Core Meaning": "A fixed-price contract that allows the seller's fee or profit to vary based on achievement against agreed performance targets.",
-    "Depth": "Standard",
-    "Expansion": "A fixed-price incentive fee contract combines a target price with an incentive structure tied to results such as cost, schedule, or technical performance. It aims to motivate the seller while still maintaining a fixed-price framework. Risk is shared more deliberately than in a pure firm-fixed-price contract because the pricing formula defines how performance affects final payment.",
-    "Deep Dive": null,
-    "Contrast": "Firm-fixed-price — fixed-price incentive fee uses preagreed performance formulas to adjust the seller's fee, while firm-fixed-price does not.",
-    "Example": "A supplier of field equipment receives a target price and can earn additional fee if delivery and reliability targets are achieved.",
-    "Related Terms": [
-      "Firm-fixed-price",
-      "Incentive fee",
-      "Target cost",
-      "Procurement contract",
-      "Share ratio"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 12.1.1.6"
-  },
-  {
-    "Term": "Fixed-price-incentive-fee contract",
+    "Term": "Fixed Price Incentive Fee Contract (FPIF)",
     "Core Meaning": "A fixed-price contract that includes a financial incentive for meeting defined performance objectives.",
     "Depth": "Standard",
     "Expansion": "A fixed-price-incentive-fee contract establishes a fixed base arrangement while allowing the seller to earn additional compensation for achieving agreed targets. Those targets commonly relate to cost, schedule, or technical performance. It balances cost control with motivational incentives and is useful when the buyer wants stronger performance signals without moving fully to a cost-reimbursable model.",
     "Deep Dive": null,
     "Contrast": "Firm-fixed-price contract — a fixed-price-incentive-fee contract includes incentive mechanisms tied to performance, while a firm-fixed-price contract does not.",
     "Example": "A manufacturer receives a base fixed payment for equipment delivery and can earn extra fee if reliability targets are exceeded during acceptance testing.",
+    "Synonyms": [
+      "Fixed-price incentive fee contract",
+      "Fixed-price-incentive-fee contract"
+    ],
     "Related Terms": [
-      "Firm-fixed-price contract",
-      "Incentive fee",
+      "Contract",
       "Procurement",
-      "Contract"
+      "Incentive fee",
+      "Firm-fixed-price contract",
+      "Price Ceiling",
+      "Firm-fixed-price",
+      "Target cost",
+      "Procurement contract",
+      "Share ratio"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, fixed-price-incentive-fee contract, page 181"
-  },
-  {
-    "Term": "Fixed-price-with-economic-price-adjustment contract",
-    "Core Meaning": "A fixed-price contract that permits predefined price adjustments when specific economic conditions change.",
-    "Depth": "Standard",
-    "Expansion": "This contract type begins with a fixed-price structure but includes clauses that allow adjustment under stated conditions such as inflation, commodity volatility, or statutory changes. It is particularly useful for long-duration procurements where external market shifts could otherwise make pricing unrealistic. The arrangement preserves predictability while acknowledging that some economic risks are better shared than absorbed entirely by the seller.",
-    "Deep Dive": null,
-    "Contrast": "Firm-fixed-price contract — a fixed-price-with-economic-price-adjustment contract allows limited price changes for specified economic triggers, while a firm-fixed-price contract keeps the price unchanged.",
-    "Example": "A multi-year infrastructure contract includes a clause adjusting the contract price if fuel and steel indices exceed agreed thresholds.",
-    "Related Terms": [
-      "Firm-fixed-price contract",
-      "Economic price adjustment",
-      "Procurement",
-      "Contract"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide glossary, fixed-price-with-economic-price-adjustment contract, page 181"
   },
   {
     "Term": "Float",
@@ -8364,23 +8050,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Impediment",
-    "Core Meaning": "An obstacle that prevents the team from achieving its objectives.",
-    "Depth": "Standard",
-    "Expansion": "An impediment blocks or slows the team's progress toward its goals. PMI also notes that it is known as a blocker. In agile and adaptive contexts, impediments are surfaced quickly so the team or servant leader can remove them or escalate them before they damage flow and delivery.",
-    "Deep Dive": null,
-    "Contrast": "Issue — an impediment is specifically a blocking obstacle to progress, while an issue is any current problem or condition that may affect objectives.",
-    "Example": "A delivery team cannot complete integration testing because access to the shared test environment has been revoked, so the environment access problem is treated as an impediment and escalated for removal.",
-    "Related Terms": [
-      "Blocker",
-      "Issue",
-      "Servant leader",
-      "Flow"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase, term Impediment, page 11"
-  },
-  {
     "Term": "Impediment removal",
     "Core Meaning": "The active elimination of obstacles that slow or block a team's ability to deliver value.",
     "Depth": "Standard",
@@ -9085,27 +8754,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, invitation for bid, p. 720"
-  },
-  {
-    "Term": "Ishikawa diagram",
-    "Core Meaning": "A cause-and-effect diagram used to organise possible causes of a problem into categories for analysis.",
-    "Depth": "Standard",
-    "Expansion": "Ishikawa diagram is another name for a fishbone or cause-and-effect diagram. It helps teams explore why a defect, delay, or other problem may be happening by grouping potential causes into logical branches. The tool is especially useful in root-cause analysis and quality problem solving.",
-    "Deep Dive": null,
-    "Contrast": "Root cause analysis — an Ishikawa diagram is a specific visual tool used within root-cause analysis; root-cause analysis is the broader investigative practice.",
-    "Example": "A project team investigating repeated testing failures maps possible causes under people, process, tools, data, and environment to isolate the likely source.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
-      "caption": "Causes grouped on bones; the problem (effect) at the head."
-    },
-    "Related Terms": [
-      "Cause and effect diagram",
-      "Fishbone diagram",
-      "Root cause analysis",
-      "Quality management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase, Ishikawa Diagram"
   },
   {
     "Term": "Issue",
@@ -10841,24 +10489,6 @@
     "Source": "The Standard for Risk Management in Portfolios, Programs, and Projects — Glossary, Risk Management Plan, p. 137"
   },
   {
-    "Term": "Management reserve",
-    "Core Meaning": "A budget or schedule reserve held for unforeseen work that is within project scope but not included in the performance measurement baseline.",
-    "Depth": "Standard",
-    "Expansion": "Management reserve is controlled by management and is used to address unknown-unknowns that emerge during project execution. It sits outside the cost or schedule baseline, which distinguishes it from contingency reserve. When approved for use, the relevant amount is moved into the baseline through change control.",
-    "Deep Dive": null,
-    "Contrast": "Contingency reserve — contingency reserve covers identified risks and is included in the baseline; management reserve covers unforeseen work and is outside the baseline.",
-    "Example": "A construction project holds additional budget outside the cost baseline for unexpected code-driven redesign work that was not identified as a specific risk during planning.",
-    "Related Terms": [
-      "Contingency reserve",
-      "Cost baseline",
-      "Schedule baseline",
-      "Change control",
-      "Unknown-unknown"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project cost and uncertainty concepts glossary term management reserve, page 243"
-  },
-  {
     "Term": "Management review meeting",
     "Core Meaning": "A formal meeting used to review project performance, issues, and decisions with management or governance stakeholders.",
     "Depth": "Standard",
@@ -10930,24 +10560,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Material management",
-    "Core Meaning": "Material management is the planning, sourcing, handling, storage, and control of physical materials needed to perform project work.",
-    "Depth": "Standard",
-    "Expansion": "In project settings, material management covers ensuring the right materials are available in the right quantity, condition, place, and time to support execution. It is especially relevant in construction, manufacturing, engineering, and other projects with significant physical supply flows. Strong material management reduces waste, delays, shortages, excess inventory, and site disruption.",
-    "Deep Dive": null,
-    "Contrast": "Procurement management — procurement management governs acquiring products and services from external sources; material management focuses on the flow, handling, storage, and control of physical materials once planned or acquired.",
-    "Example": "On a building project, the team sequences steel, concrete, and finishing-material deliveries to match installation windows and avoid both stockouts and site congestion.",
-    "Related Terms": [
-      "Procurement management",
-      "Resource management",
-      "Inventory control",
-      "Logistics",
-      "Supply chain"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
     "Term": "Materials management",
     "Core Meaning": "The planning, acquisition, storage, handling, and control of materials needed to perform project work.",
     "Depth": "Standard",
@@ -10955,11 +10567,18 @@
     "Deep Dive": null,
     "Contrast": "Procurement — materials management focuses on controlling and using materials; procurement focuses on acquiring goods and services from outside the organization.",
     "Example": "A bridge project tracks rebar, concrete, and fasteners so crews have the right materials on site before each work package starts.",
+    "Synonyms": [
+      "Material management"
+    ],
     "Related Terms": [
       "Procurement",
       "Inventory",
       "Resource",
-      "Supply chain"
+      "Supply chain",
+      "Procurement management",
+      "Resource management",
+      "Inventory control",
+      "Logistics"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
@@ -11001,14 +10620,21 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Glossary, p. 704"
   },
   {
-    "Term": "Measure of performance",
+    "Term": "Measures of performance",
     "Core Meaning": "A quantified result used to assess how well a project, product, or process is performing against expectations.",
     "Depth": "Standard",
     "Expansion": "A measure of performance is the actual numeric result produced by applying a metric or measurement method. It turns observed project conditions into a value that can be compared with a baseline, target, or threshold. PMI uses performance measures to support monitoring, analysis, and reporting. The term is especially useful when teams need objective evidence of progress or variance.",
     "Deep Dive": null,
     "Contrast": "Metric — a metric defines what and how to measure; a measure of performance is the resulting quantified value.",
     "Example": "A project reports a schedule performance index of 0.92 as a measure of performance for the current reporting period.",
+    "Synonyms": [
+      "Measure of performance"
+    ],
     "Related Terms": [
+      "Requirements",
+      "Measures of Effectiveness",
+      "Acceptance criteria",
+      "System performance",
       "Metric",
       "Performance data",
       "Performance information",
@@ -11089,23 +10715,6 @@
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Measures of Performance",
-    "Core Meaning": "Measures that characterize physical or functional attributes relating to system operation.",
-    "Depth": "Standard",
-    "Expansion": "Measures of Performance describe how well a system or component performs in observable and testable terms. They are used to express operational or technical characteristics such as speed, capacity, accuracy, reliability, or throughput. In projects involving systems, products, or engineering outcomes, they help translate requirements into measurable performance expectations.",
-    "Deep Dive": null,
-    "Contrast": "Measures of Effectiveness — Measures of Performance describe system attributes and operation, while Measures of Effectiveness indicate how well the solution achieves mission or business objectives in use.",
-    "Example": "In a network upgrade project, measures of performance include maximum latency, uptime percentage, and data throughput under peak load conditions.",
-    "Related Terms": [
-      "Requirements",
-      "Measures of Effectiveness",
-      "Acceptance criteria",
-      "System performance"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms"
   },
   {
     "Term": "Megaproject",
@@ -12007,15 +11616,21 @@
     "Source": "Project Quality Management guidelines in PMI standards; exact page citation requires source confirmation"
   },
   {
-    "Term": "Objectives",
+    "Term": "Objective",
     "Core Meaning": "The outcomes developed from the strategic goals of an organization that are specific, measurable, and time bound.",
     "Depth": "Standard",
     "Expansion": "Objectives translate broad strategy into concrete targets that guide action and measurement. They align projects, programs, and operations with what the organization is trying to achieve. PMI also uses the term for something toward which work is directed, such as a result, product, or service to be achieved.",
     "Deep Dive": null,
     "Contrast": "Goals — objectives are specific, measurable, and time bound; goals are broader strategic intentions.",
     "Example": "A company sets an objective to reduce customer onboarding time by 20 percent within 12 months.",
+    "Synonyms": [
+      "Objectives"
+    ],
     "Related Terms": [
       "Goal",
+      "Requirement",
+      "Deliverable",
+      "Success Criteria",
       "Strategic goals",
       "Outcome",
       "Benefit"
@@ -12992,12 +12607,18 @@
     "Deep Dive": null,
     "Contrast": "Stakeholder — a persona is a representative archetype of a user or group; a stakeholder is an actual person, group, or organization affected by or able to influence the work.",
     "Example": "For an internal HR system project, the team creates personas for a hiring manager, a recruiter, and a candidate to shape workflows and prioritise features.",
+    "Synonyms": [
+      "Personas"
+    ],
     "Related Terms": [
       "Stakeholder",
-      "User story",
+      "User Story",
       "Requirements",
       "Business analysis",
-      "Customer"
+      "Customer",
+      "Actor",
+      "Product Visioning",
+      "Requirements Elicitation"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
@@ -15931,28 +15552,6 @@
     "Source": "A Guide to the Project Management Body of Knowledge — Questionnaires, p. 192"
   },
   {
-    "Term": "RACI",
-    "Core Meaning": "A responsibility assignment model that clarifies who is Responsible, Accountable, Consulted, and Informed for project work or decisions.",
-    "Depth": "Standard",
-    "Expansion": "RACI is commonly used to define stakeholder roles and decision rights across activities, deliverables, or processes. In PMI usage, it is typically implemented through a responsibility assignment matrix that maps work to roles. Its value is reducing ambiguity, overlap, and gaps in ownership.",
-    "Deep Dive": null,
-    "Contrast": "Responsibility assignment matrix — RACI is one specific role-designation scheme often used within a broader responsibility assignment matrix.",
-    "Example": "On an ERP rollout, the business analyst is Responsible for requirements, the product owner is Accountable for approval, compliance is Consulted, and regional users are Informed.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 330 175' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='10' y1='10' x2='320' y2='10' stroke='currentColor' stroke-width='1'/><line x1='10' y1='40' x2='320' y2='40' stroke='currentColor' stroke-width='1'/><line x1='10' y1='74' x2='320' y2='74' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='108' x2='320' y2='108' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='142' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><line x1='10' y1='10' x2='10' y2='142' stroke='currentColor' stroke-width='1'/><line x1='120' y1='10' x2='120' y2='142' stroke='currentColor' stroke-width='1'/><line x1='170' y1='10' x2='170' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='220' y1='10' x2='220' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='270' y1='10' x2='270' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='320' y1='10' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><text x='145' y='30' fill='currentColor' font-size='10' text-anchor='middle'>PM</text><text x='195' y='30' fill='currentColor' font-size='9' text-anchor='middle'>Sponsor</text><text x='245' y='30' fill='currentColor' font-size='10' text-anchor='middle'>Team</text><text x='295' y='30' fill='currentColor' font-size='10' text-anchor='middle'>QA</text><text x='16' y='61' fill='currentColor' font-size='10'>Charter</text><text x='16' y='95' fill='currentColor' font-size='10'>Plan</text><text x='16' y='129' fill='currentColor' font-size='10'>Build</text><text x='145' y='61' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='195' y='61' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='245' y='61' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='295' y='61' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='95' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='95' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='245' y='95' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='95' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='129' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='129' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='245' y='129' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='129' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='165' y='162' fill='currentColor' font-size='9' text-anchor='middle'>R responsible · A accountable · C consulted · I informed</text></svg>",
-      "caption": "Roles across the top, activities down the side; one A per row."
-    },
-    "Related Terms": [
-      "Responsibility assignment matrix",
-      "Stakeholder engagement",
-      "Roles and responsibilities",
-      "Accountability",
-      "Organizational breakdown structure"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
     "Term": "RACI chart",
     "Core Meaning": "A responsibility assignment matrix that maps project work to roles using Responsible, Accountable, Consulted, and Informed designations.",
     "Depth": "Foundational",
@@ -15964,33 +15563,20 @@
       "svg": "<svg viewBox='0 0 330 175' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='10' y1='10' x2='320' y2='10' stroke='currentColor' stroke-width='1'/><line x1='10' y1='40' x2='320' y2='40' stroke='currentColor' stroke-width='1'/><line x1='10' y1='74' x2='320' y2='74' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='108' x2='320' y2='108' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='142' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><line x1='10' y1='10' x2='10' y2='142' stroke='currentColor' stroke-width='1'/><line x1='120' y1='10' x2='120' y2='142' stroke='currentColor' stroke-width='1'/><line x1='170' y1='10' x2='170' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='220' y1='10' x2='220' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='270' y1='10' x2='270' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='320' y1='10' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><text x='145' y='30' fill='currentColor' font-size='10' text-anchor='middle'>PM</text><text x='195' y='30' fill='currentColor' font-size='9' text-anchor='middle'>Sponsor</text><text x='245' y='30' fill='currentColor' font-size='10' text-anchor='middle'>Team</text><text x='295' y='30' fill='currentColor' font-size='10' text-anchor='middle'>QA</text><text x='16' y='61' fill='currentColor' font-size='10'>Charter</text><text x='16' y='95' fill='currentColor' font-size='10'>Plan</text><text x='16' y='129' fill='currentColor' font-size='10'>Build</text><text x='145' y='61' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='195' y='61' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='245' y='61' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='295' y='61' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='95' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='95' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='245' y='95' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='95' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='129' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='129' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='245' y='129' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='129' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='165' y='162' fill='currentColor' font-size='9' text-anchor='middle'>R responsible · A accountable · C consulted · I informed</text></svg>",
       "caption": "Roles across the top, activities down the side; one A per row."
     },
+    "Synonyms": [
+      "RACI",
+      "RACI matrix"
+    ],
     "Related Terms": [
       "Responsibility assignment matrix",
       "Roles and responsibilities",
       "Stakeholder",
-      "Governance"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "RACI matrix",
-    "Core Meaning": "A type of responsibility assignment matrix that uses responsible, accountable, consulted, and informed statuses to define stakeholder involvement in project activities.",
-    "Depth": "Standard",
-    "Expansion": "A RACI matrix clarifies who does the work, who owns the outcome, who must be consulted, and who needs to be kept informed. It is used to reduce ambiguity in roles and handoffs across tasks, deliverables, and decisions. PMI treats it as a practical form of responsibility assignment matrix for organizing participation and accountability.",
-    "Deep Dive": null,
-    "Contrast": "Responsibility assignment matrix — RACI is a specific type of responsibility assignment matrix; the broader matrix can use other role designations as well.",
-    "Example": "For a system rollout, the project manager is accountable, the business analyst is responsible for requirements, the security lead is consulted, and the sponsor is informed.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 330 175' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='10' y1='10' x2='320' y2='10' stroke='currentColor' stroke-width='1'/><line x1='10' y1='40' x2='320' y2='40' stroke='currentColor' stroke-width='1'/><line x1='10' y1='74' x2='320' y2='74' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='108' x2='320' y2='108' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='142' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><line x1='10' y1='10' x2='10' y2='142' stroke='currentColor' stroke-width='1'/><line x1='120' y1='10' x2='120' y2='142' stroke='currentColor' stroke-width='1'/><line x1='170' y1='10' x2='170' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='220' y1='10' x2='220' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='270' y1='10' x2='270' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='320' y1='10' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><text x='145' y='30' fill='currentColor' font-size='10' text-anchor='middle'>PM</text><text x='195' y='30' fill='currentColor' font-size='9' text-anchor='middle'>Sponsor</text><text x='245' y='30' fill='currentColor' font-size='10' text-anchor='middle'>Team</text><text x='295' y='30' fill='currentColor' font-size='10' text-anchor='middle'>QA</text><text x='16' y='61' fill='currentColor' font-size='10'>Charter</text><text x='16' y='95' fill='currentColor' font-size='10'>Plan</text><text x='16' y='129' fill='currentColor' font-size='10'>Build</text><text x='145' y='61' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='195' y='61' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='245' y='61' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='295' y='61' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='95' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='95' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='245' y='95' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='95' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='129' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='129' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='245' y='129' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='129' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='165' y='162' fill='currentColor' font-size='9' text-anchor='middle'>R responsible · A accountable · C consulted · I informed</text></svg>",
-      "caption": "Roles across the top, activities down the side; one A per row."
-    },
-    "Related Terms": [
-      "Responsibility assignment matrix",
-      "Stakeholder",
+      "Governance",
       "Accountability",
       "Responsibility",
-      "Consulted and informed"
+      "Consulted and informed",
+      "Stakeholder engagement",
+      "Organizational breakdown structure"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -16129,12 +15715,18 @@
     "Deep Dive": null,
     "Contrast": "Policy — regulation is an externally imposed rule with legal or authoritative force; policy is an internal directive or guideline.",
     "Example": "A healthcare project designs its data handling procedures to comply with privacy regulations before system deployment.",
+    "Synonyms": [
+      "Regulations"
+    ],
     "Related Terms": [
       "Compliance",
       "Legal requirement",
       "Policy",
       "Constraint",
-      "Jurisdiction"
+      "Jurisdiction",
+      "Standard",
+      "Enterprise environmental factors",
+      "Quality"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -18707,24 +18299,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Self managing team",
-    "Core Meaning": "A team that internally organizes and manages its work, roles, and day-to-day decisions with minimal external direction while remaining aligned to project objectives.",
-    "Depth": "Standard",
-    "Expansion": "In PMI usage, a self-managing team takes responsibility for planning and coordinating its own work within agreed boundaries. Authority for day-to-day execution sits largely with the team rather than a traditional command-and-control supervisor. This concept is especially associated with agile and adaptive environments, where fast decisions and shared ownership improve flow and responsiveness.",
-    "Deep Dive": null,
-    "Contrast": "Servant leader — a self-managing team governs its own execution; a servant leader enables and supports that autonomy without taking over the team's decisions.",
-    "Example": "A product-delivery team selects how to divide backlog items, adjusts task ownership during the iteration, and resolves most work coordination issues without waiting for a manager to assign tasks.",
-    "Related Terms": [
-      "Self-management",
-      "Servant leader",
-      "Agile team",
-      "Empowerment",
-      "Adaptive approach"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
     "Term": "Self-management",
     "Core Meaning": "The capability of individuals or teams to regulate and direct their own work, behaviour, and commitments in support of project goals.",
     "Depth": "Standard",
@@ -18750,12 +18324,20 @@
     "Deep Dive": "What it is: A self-managing team plans, coordinates, and adjusts its own work at the operational level. Team members share responsibility for delivery, collaboration, and problem solving rather than waiting for detailed direction on every task.\n\nWhy it matters and where it applies: it increases responsiveness, ownership, and speed of decision making, especially in agile, product, and knowledge-work settings where conditions change quickly. It is most effective when goals are clear, skills are sufficient, and decision boundaries are understood.\n\nThe most common misconception: that self-managing means unmanaged or leaderless. In practice, governance, priorities, and strategic direction still exist, but the team has more autonomy over how work gets done.\n\nHow it shows up in real projects: a cross-functional delivery team breaks down backlog items, distributes tasks, resolves dependencies in daily coordination, and adapts its plan within the iteration without waiting for a manager to assign every step.",
     "Contrast": "Self-organizing team — self-managing usually emphasises broader operational autonomy and internal coordination, while self-organizing often highlights how the team arranges its work structure and task allocation.",
     "Example": "In a digital-services project, a cross-functional team decides within each sprint who will handle design, testing, and integration work, and adjusts task ownership as issues emerge.",
+    "Synonyms": [
+      "Self managing team"
+    ],
     "Related Terms": [
       "Agile",
       "Self-organizing team",
       "Servant leadership",
       "Cross-functional team",
-      "Team charter"
+      "Team charter",
+      "Self-management",
+      "Servant leader",
+      "Agile team",
+      "Empowerment",
+      "Adaptive approach"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
@@ -19916,23 +19498,6 @@
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Story point",
-    "Core Meaning": "A unit-less measure used in relative user story estimation techniques.",
-    "Depth": "Standard",
-    "Expansion": "Story points are used to estimate effort or complexity by comparing one item with another rather than assigning time-based estimates directly. They support relative sizing and help teams plan work in agile environments. PMI defines them as a unit-less measure used in relative user story estimation techniques.",
-    "Deep Dive": null,
-    "Contrast": "Hours — story points are relative and unit-less; hours are a direct measure of time.",
-    "Example": "A team estimates a simple password reset story as 2 points and a multi-system reporting story as 8 points.",
-    "Related Terms": [
-      "Relative estimation",
-      "User story",
-      "Backlog",
-      "Velocity"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase — story point"
   },
   {
     "Term": "Storyboard",
@@ -21174,23 +20739,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Time and materials contract",
-    "Core Meaning": "A hybrid contractual arrangement containing aspects of both cost-reimbursable and fixed-price contracts.",
-    "Depth": "Standard",
-    "Expansion": "A time and materials contract pays for actual labor time and materials used, usually at pre-agreed rates. It is useful when the exact scope cannot be defined in full at the outset but the buyer still needs a contractual structure to begin work. PMI treats it as a hybrid because it combines the flexibility of reimbursable arrangements with rate-based controls that are more structured than open-ended reimbursement.",
-    "Deep Dive": null,
-    "Contrast": "Fixed-price contract — a time and materials contract pays for actual effort and materials at agreed rates, while a fixed-price contract sets a predetermined total price for the defined work.",
-    "Example": "A company engages a specialist integration vendor under a time and materials contract while system interfaces are still being clarified, paying agreed daily rates plus approved material costs.",
-    "Related Terms": [
-      "Contract",
-      "Cost-reimbursable contract",
-      "Fixed-price contract",
-      "Procurement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on contract types; confirm exact page in your edition"
-  },
-  {
     "Term": "Time box",
     "Core Meaning": "A fixed period of time allocated for an activity, event, or iteration, after which the work stops or is reviewed.",
     "Depth": "Standard",
@@ -21231,12 +20779,16 @@
     "Deep Dive": null,
     "Contrast": "Cost-reimbursable contract — a time-and-materials contract pays agreed labor rates plus materials, while cost-reimbursable arrangements reimburse allowable actual costs with a fee structure.",
     "Example": "A company hires a specialist integration vendor at agreed hourly rates plus hardware pass-through costs to support a system rollout while final interface requirements are still emerging.",
+    "Synonyms": [
+      "Time and materials contract"
+    ],
     "Related Terms": [
       "Contract",
       "Procurement management",
       "Fixed-price contract",
       "Cost-reimbursable contract",
-      "Not-to-exceed limit"
+      "Not-to-exceed limit",
+      "Procurement"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Seventh Edition / Process Groups: A Practice Guide, procurement contract types entry; exact page citation requires source verification"
@@ -21590,11 +21142,17 @@
     "Deep Dive": "What it is: The triple constraint is a classic project management model that links scope, schedule, and cost as mutually dependent control variables. Project managers use it to explain why commitments cannot usually be changed in isolation.\n\nWhy it matters and where it applies: It matters whenever teams need to negotiate realistic delivery commitments, assess change impacts, or recover troubled work. It applies in predictive, hybrid, and even adaptive contexts whenever resource limits and delivery expectations must be balanced.\n\nThe most common misconception: that project success can be judged only by these three variables. In practice, PMI treats them as important constraints, but success also depends on value, quality, stakeholder satisfaction, risk, and intended outcomes.\n\nHow it shows up in real projects: A sponsor asks for an earlier launch date, and the team responds by showing the likely consequences for budget, staffing, or feature scope. The concept also appears in change control, baseline management, and trade-off discussions with governance bodies.",
     "Contrast": "Project success criteria — the triple constraint focuses on balancing scope, schedule, and cost, while success criteria include broader measures such as value, quality, benefits, and stakeholder satisfaction.",
     "Example": "A construction project adds two new building features after design approval, so the manager updates the plan to show added cost and a longer completion date unless other scope is removed.",
+    "Synonyms": [
+      "Triple Constraints"
+    ],
     "Related Terms": [
       "Scope",
       "Schedule",
       "Constraint",
-      "Change control"
+      "Change control",
+      "Scope creep",
+      "Integrated change control",
+      "Quality"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon / PMBOK Guide — Sixth Edition, project constraints discussion; exact page citation requires source verification"
@@ -22579,33 +22137,21 @@
   },
   {
     "Term": "What-if scenario analysis",
-    "Core Meaning": "A schedule analysis technique that evaluates the effect of different assumptions or events on project objectives.",
-    "Depth": "Standard",
-    "Expansion": "What-if scenario analysis explores how possible situations such as delayed activities, resource shortfalls, or changed logic could affect the schedule and related outcomes. PMI uses it to test schedule robustness and anticipate consequences before issues occur. It supports contingency thinking, decision making, and risk-informed planning.",
-    "Deep Dive": null,
-    "Contrast": "Sensitivity analysis — what-if scenario analysis tests discrete hypothetical situations, while sensitivity analysis examines which variables have the greatest impact on outcomes.",
-    "Example": "A project scheduler models the impact of a two-week permitting delay to see whether the final completion date can still be protected by resequencing noncritical work.",
-    "Related Terms": [
-      "Schedule network analysis",
-      "Sensitivity analysis",
-      "Monte Carlo simulation",
-      "Risk analysis",
-      "Critical path"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, what-if scenario analysis, page 222"
-  },
-  {
-    "Term": "What-If-Scenario Analysis",
     "Core Meaning": "A technique used to evaluate how different assumptions, events, or conditions could affect project outcomes.",
     "Depth": "Standard",
     "Expansion": "What-If-Scenario Analysis tests hypothetical situations to understand their effect on schedule, cost, resources, or other objectives. PMI includes it as a schedule analysis technique for exploring alternatives and possible responses before decisions are made. It is valuable when a team needs to understand the consequences of uncertainty or proposed changes.",
     "Deep Dive": null,
     "Contrast": "Sensitivity analysis — What-If-Scenario Analysis tests specific hypothetical situations, while sensitivity analysis examines which variables drive the greatest impact.",
     "Example": "A scheduler models the effect of a two-week supplier delay and compares whether resequencing work or adding resources would better protect the target finish date.",
+    "Synonyms": [
+      "What-If-Scenario Analysis"
+    ],
     "Related Terms": [
+      "Schedule network analysis",
       "Sensitivity analysis",
+      "Monte Carlo simulation",
       "Risk analysis",
+      "Critical path",
       "Scenario"
     ],
     "Tier": "Core glossary",
@@ -23389,15 +22935,21 @@
     "Source": "Agile Practice Guide - agile approaches"
   },
   {
-    "Term": "Agreements",
+    "Term": "Agreement",
     "Core Meaning": "Any document or understanding that defines the initial intentions and terms between project parties.",
     "Depth": "Standard",
     "Expansion": "In project management, agreements capture the intentions binding parties together and can take many forms - contracts, memoranda of understanding, letters of agreement, service level agreements, or even verbal or email understandings. They are a key input to developing the project charter and often define obligations with external sellers. Contracts are the most formal type, carrying legal enforceability.",
     "Deep Dive": null,
     "Contrast": "Contract - a contract is a specific, legally binding type of agreement, whereas 'agreements' is the broader category that also includes informal understandings.",
     "Example": "A signed memorandum of understanding between two departments to share testing facilities for a project.",
+    "Synonyms": [
+      "Agreements"
+    ],
     "Related Terms": [
       "Contract",
+      "Procurement",
+      "Statement of work",
+      "Service-level agreement",
       "Memorandum of Understanding",
       "Project Charter"
     ],
@@ -23437,22 +22989,6 @@
     "Source": "PMBOK Guide - claims administration / dispute resolution"
   },
   {
-    "Term": "Assumptions",
-    "Core Meaning": "Factors taken to be true for planning purposes without proof.",
-    "Depth": "Standard",
-    "Expansion": "An assumption is a factor considered true, real, or certain for planning, even though it has not been demonstrated. Assumptions let planning proceed but introduce risk, because if an assumption proves false the plan may be invalidated. They are documented and tracked in an assumption log and regularly tested as the project progresses.",
-    "Deep Dive": null,
-    "Contrast": "Constraint - an assumption is something believed true that may turn out false, whereas a constraint is a known limitation that restricts options.",
-    "Example": "Assuming a key vendor will deliver materials within two weeks because they always have before.",
-    "Related Terms": [
-      "Constraint",
-      "Assumption Log",
-      "Risk"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - assumptions and constraints"
-  },
-  {
     "Term": "Attribute Sampling",
     "Core Meaning": "A quality measurement that records whether each inspected item simply has or lacks a given characteristic.",
     "Depth": "Standard",
@@ -23482,22 +23018,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - organizational structures"
-  },
-  {
-    "Term": "Basis of Estimates",
-    "Core Meaning": "The supporting documentation explaining how project estimates were derived.",
-    "Depth": "Standard",
-    "Expansion": "The basis of estimates is the backup documentation that records how cost or duration estimates were developed, including the methods used, the assumptions and constraints, the range of possible results, and the confidence level. It allows estimates to be understood, reviewed, and defended later, and it clarifies how much the figures might vary. It accompanies the estimates as a supporting deliverable.",
-    "Deep Dive": null,
-    "Contrast": "Cost estimates - the cost estimate is the number itself, whereas the basis of estimates explains the assumptions and methods behind that number.",
-    "Example": "A document noting that a $50,000 estimate assumes labor at $100/hour, excludes permits, and carries a +/-15% range.",
-    "Related Terms": [
-      "Cost estimate",
-      "Activity Duration Estimates",
-      "Assumptions"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - Estimate Costs (basis of estimates)"
   },
   {
     "Term": "Benefits Realization Management (BRM)",
@@ -23533,30 +23053,22 @@
     "Source": "PMI - benefits management plan"
   },
   {
-    "Term": "Bidder Conferences",
-    "Core Meaning": "Meetings with prospective sellers before bids are submitted to ensure a common understanding of the procurement.",
-    "Depth": "Standard",
-    "Expansion": "Bidder conferences are meetings held with all prospective sellers before they prepare proposals, so that every vendor receives the same information and has a clear, common understanding of the procurement requirements. They give bidders a chance to ask questions and ensure no seller gains an unfair advantage. They are also called contractor, vendor, or pre-bid conferences.",
-    "Deep Dive": null,
-    "Contrast": "Proposal evaluation - bidder conferences happen before bids to clarify requirements, whereas proposal evaluation happens after bids to compare and select a seller.",
-    "Example": "A buyer holding a single Q&A session with all interested contractors before they submit construction proposals.",
-    "Related Terms": [
-      "Procurement Statement of Work",
-      "Source Selection Criteria",
-      "Conduct Procurements"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - bidder conferences"
-  },
-  {
-    "Term": "Blockers",
+    "Term": "Blocker",
     "Core Meaning": "Events or conditions that halt work or prevent further progress.",
     "Depth": "Atomic",
     "Expansion": "Blockers are obstacles that stop a team member or the team from making progress on their work until they are resolved. In agile practice they are surfaced quickly - often in the daily standup - so they can be removed promptly, frequently by the Scrum Master or team lead.",
     "Deep Dive": null,
     "Contrast": "Impediment - the terms are often used interchangeably, but 'blocker' usually denotes a hard stop on a specific work item, whereas 'impediment' is any broader hindrance to team progress.",
     "Example": "A developer cannot continue coding because the test environment is down - a blocker raised at the daily standup.",
+    "Synonyms": [
+      "Blockers"
+    ],
     "Related Terms": [
+      "Impediment",
+      "Issue",
+      "Dependency",
+      "Risk",
+      "Escalation",
       "Impediments",
       "Obstacle",
       "Daily Standup"
@@ -23789,17 +23301,22 @@
     "Source": "PMBOK Guide - communication models"
   },
   {
-    "Term": "Communication Requirements Analysis",
+    "Term": "Communications requirements analysis",
     "Core Meaning": "Determining the information needs of project stakeholders in order to plan communications.",
     "Depth": "Standard",
     "Expansion": "Communication requirements analysis identifies what information each stakeholder needs, in what format, how often, and through which channel, so that communications are valuable and not wasteful. It considers the number of potential communication channels, which grows rapidly as stakeholders increase. Its results drive the communications management plan.",
     "Deep Dive": null,
     "Contrast": "Stakeholder analysis - stakeholder analysis identifies and assesses who the stakeholders are, whereas communication requirements analysis focuses on what information those stakeholders need.",
     "Example": "Analyzing that executives need a monthly one-page summary while the team needs daily standup updates.",
+    "Synonyms": [
+      "Communication Requirements Analysis"
+    ],
     "Related Terms": [
       "Communications Management Plan",
-      "Number of Communication Channels",
-      "Stakeholder Analysis"
+      "Stakeholder Analysis",
+      "Information distribution",
+      "Stakeholder engagement",
+      "Number of Communication Channels"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Plan Communications Management"
@@ -24155,23 +23672,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - decision making (tools and techniques)"
-  },
-  {
-    "Term": "Definitive Estimates",
-    "Core Meaning": "A detailed, high-accuracy estimate developed from well-defined information, typically in the range of -5% to +10%.",
-    "Depth": "Standard",
-    "Expansion": "A definitive estimate is the most precise class of estimate, produced once scope and design are well understood and supporting detail is available. PMI commonly cites an accuracy range of about -5% to +10%, much tighter than early rough estimates. It is used to set firm budgets and commitments late in planning.",
-    "Deep Dive": null,
-    "Contrast": "Rough order of magnitude estimate - a ROM estimate is broad (often about -25% to +75%) for early planning, whereas a definitive estimate is precise and made when scope is well defined.",
-    "Example": "After detailed design is complete, the team produces a definitive cost estimate accurate to within -5% to +10% to set the project budget.",
-    "Related Terms": [
-      "Rough order of magnitude estimate",
-      "Cost estimating",
-      "Basis of estimates",
-      "Budget"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - estimate accuracy ranges"
   },
   {
     "Term": "Deming Cycle",
@@ -24677,14 +24177,21 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Impediments",
+    "Term": "Impediment",
     "Core Meaning": "Obstacles or conditions that block or slow an agile team's progress and need to be removed.",
     "Depth": "Standard",
     "Expansion": "Impediments are obstacles, conditions, or dependencies that hinder a team from progressing toward its goals, such as a pending decision, a broken build tool, or an unavailable stakeholder. In Scrum, surfacing and removing impediments is a core responsibility of the scrum master or team facilitator, often tracked on an impediment log. Quick removal protects the team's flow and throughput.",
     "Deep Dive": null,
     "Contrast": "Risk - a risk is an uncertain future event that may or may not occur, whereas an impediment is a present obstacle already blocking progress.",
     "Example": "A scrum master escalates a delayed test-environment setup that is preventing the team from completing its sprint.",
+    "Synonyms": [
+      "Impediments"
+    ],
     "Related Terms": [
+      "Blocker",
+      "Issue",
+      "Servant leader",
+      "Flow",
       "Blockers",
       "Scrum master",
       "Daily standup",
@@ -24961,16 +24468,22 @@
     "Source": "PMBOK Guide - Manage Team process"
   },
   {
-    "Term": "Management Reserves",
+    "Term": "Management reserve",
     "Core Meaning": "Budget or time set aside for unknown-unknowns, held outside the performance measurement baseline.",
     "Depth": "Standard",
     "Expansion": "Management reserve is an amount of budget or schedule withheld for unforeseen work that is within the project's scope but cannot be specifically identified in advance, the so-called unknown-unknowns. It sits outside the cost or schedule baseline and typically requires management approval to access, after which the released amount is moved into the baseline. This distinguishes it from contingency reserve, which covers identified risks.",
     "Deep Dive": null,
     "Contrast": "Contingency reserve - contingency reserve covers identified risks and sits inside the baseline, whereas management reserve covers unidentifiable unknown-unknowns and sits outside it.",
     "Example": "Executives hold back 8 percent of the budget as management reserve for unexpected scope-related work that may emerge mid-project.",
+    "Synonyms": [
+      "Management Reserves"
+    ],
     "Related Terms": [
       "Contingency reserve",
       "Cost baseline",
+      "Schedule baseline",
+      "Change control",
+      "Unknown-unknown",
       "Budget at completion",
       "Risk"
     ],
@@ -25242,23 +24755,6 @@
     "Source": "PMBOK Guide - cost of quality"
   },
   {
-    "Term": "Objective",
-    "Core Meaning": "A specific result or end toward which project work is directed.",
-    "Depth": "Atomic",
-    "Expansion": "An objective is the concrete outcome, position, purpose, product, or service that work is meant to achieve. In projects, clear objectives give direction, define what success looks like, and provide the basis against which performance and deliverables are measured.",
-    "Deep Dive": null,
-    "Contrast": "Requirement - an objective is the overall end result sought, whereas a requirement is a specific condition the solution must satisfy to reach it.",
-    "Example": "A project objective to reduce average call-handling time to under three minutes.",
-    "Related Terms": [
-      "Goal",
-      "Requirement",
-      "Deliverable",
-      "Success Criteria"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - glossary (objective)"
-  },
-  {
     "Term": "Optimistic Duration (tO)",
     "Core Meaning": "The best-case estimate of an activity's duration assuming everything goes well.",
     "Depth": "Atomic",
@@ -25408,23 +24904,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - data analysis techniques"
-  },
-  {
-    "Term": "Personas",
-    "Core Meaning": "Fictional but research-based characters representing typical users of a product.",
-    "Depth": "Standard",
-    "Expansion": "Personas are archetypal characters created to represent the needs, goals, and behaviors of real user groups for a product. By giving the team a concrete, relatable stand-in for users, they guide requirements, design decisions, and prioritization toward genuine user needs. They are widely used in agile and product development to keep work user-centered.",
-    "Deep Dive": null,
-    "Contrast": "Actor - a persona is a rich, fictional profile of a representative user, whereas an actor is a generic role that interacts with a system in a use case.",
-    "Example": "Defining a persona named 'Busy Parent Maria' to focus a shopping app on quick, one-handed checkout.",
-    "Related Terms": [
-      "User Story",
-      "Actor",
-      "Product Visioning",
-      "Requirements Elicitation"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "Agile Practice Guide - user representation"
   },
   {
     "Term": "Pessimistic Duration (tP)",
@@ -25999,23 +25478,6 @@
     "Source": "PMBOK Guide - types of power"
   },
   {
-    "Term": "Regulations",
-    "Core Meaning": "Mandatory requirements imposed by a governmental or authorized body governing product, process, or service characteristics.",
-    "Depth": "Atomic",
-    "Expansion": "Regulations carry the force of law and compliance is not optional, unlike standards, which are generally voluntary guidelines. Projects must identify applicable regulations early because non-compliance can halt work or void deliverables.",
-    "Deep Dive": null,
-    "Contrast": "Standards - standards are voluntary documented guidelines, while regulations are legally mandated requirements.",
-    "Example": "A construction project must comply with building-code regulations to obtain occupancy permits.",
-    "Related Terms": [
-      "Standard",
-      "Compliance",
-      "Enterprise environmental factors",
-      "Quality"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - regulation vs. standard"
-  },
-  {
     "Term": "Remote Pairing",
     "Core Meaning": "Two team members working together on the same task from different locations using virtual collaboration tools.",
     "Depth": "Atomic",
@@ -26534,16 +25996,22 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Story points",
+    "Term": "Story point",
     "Core Meaning": "A relative unit estimating the effort to implement a backlog item rather than its calendar duration.",
     "Depth": "Standard",
     "Expansion": "Story points express the relative size of a user story by combining effort, complexity, and uncertainty, often using a Fibonacci-like scale. Because they are relative and team-specific, they let teams estimate quickly and compute velocity without committing to exact hours. Point values should not be compared across different teams.",
     "Deep Dive": null,
     "Contrast": "Ideal Time - ideal time estimates effort in absolute hours or days, whereas story points are relative and unitless.",
     "Example": "A team scores a simple login screen at 2 points and a complex reporting feature at 13.",
+    "Synonyms": [
+      "Story points"
+    ],
     "Related Terms": [
-      "Ideal Time",
+      "Relative estimation",
+      "User story",
+      "Backlog",
       "Velocity",
+      "Ideal Time",
       "Story Mapping",
       "Planning poker"
     ],
@@ -26752,22 +26220,6 @@
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - quality management theories (TQM)"
-  },
-  {
-    "Term": "Triple Constraints",
-    "Core Meaning": "The interdependent limits of scope, schedule, and cost that frame every project and must be balanced together.",
-    "Depth": "Foundational",
-    "Expansion": "The triple constraint holds that a project's scope, time, and cost are interlinked, so changing one forces a change in at least one of the others. Quality sits within or alongside the triangle, and modern views expand it to include risk and customer satisfaction. Managing a project largely means keeping these competing demands in balance as conditions change.",
-    "Deep Dive": "The triple constraint is the classic mental model for project trade-offs: scope (what is built), time (when it is delivered), and cost (the budget) form a triangle in which you cannot freely change one without affecting the others.\n\nIt matters because nearly every change request and stakeholder negotiation is really a trade-off among these dimensions; an effective project manager makes those trade-offs explicit rather than promising more scope in less time for the same money.\n\nThe most common misconception is that the three can be optimized independently, or that quality is a free fourth slider you can simply turn down at no cost; in reality quality usually suffers when scope grows while time and cost are held fixed.\n\nIn practice it shows up whenever a sponsor adds a feature: the PM responds by extending the schedule, increasing budget, or trimming other scope, and documents the impact through integrated change control.",
-    "Contrast": "Scope creep - scope creep is the uncontrolled growth of one corner of the triangle, whereas the triple constraint is the framework for managing all three corners deliberately.",
-    "Example": "When a client demands an extra module without moving the deadline, the PM secures more budget and adds staff, or removes lower-priority features.",
-    "Related Terms": [
-      "Scope creep",
-      "Integrated change control",
-      "Quality"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - competing project constraints"
   },
   {
     "Term": "Unanimity",
@@ -28245,23 +27697,6 @@
     "Source": "Life Cycle Assessment practice (ISO 14040)"
   },
   {
-    "Term": "The Standard for Project Management",
-    "Core Meaning": "The PMI foundational standard that defines a system of principles and value delivery for managing projects.",
-    "Depth": "Standard",
-    "Expansion": "The Standard for Project Management is an American National Standard published by PMI and bundled with the PMBOK Guide. From the Seventh Edition it is principles-based, presenting twelve project management principles and a value delivery system rather than prescribing specific processes. It sets out what good project management requires, while the accompanying PMBOK Guide explains how through domains, models, methods, and artifacts.",
-    "Deep Dive": null,
-    "Contrast": "PMBOK Guide — the Standard states the authoritative principles for managing projects, while the PMBOK Guide provides supporting guidance and practices for applying them.",
-    "Example": "A PMO cites the Standard's principles, such as focusing on value and tailoring the approach, to justify a lighter governance model for a small project.",
-    "Related Terms": [
-      "PMBOK Guide",
-      "Project Management Body of Knowledge (PMBOK)",
-      "Performance domain",
-      "Agile Practice Guide"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The Standard for Project Management (ANSI standard published with the PMBOK Guide)"
-  },
-  {
     "Term": "Business acumen",
     "Core Meaning": "The ability to understand an organization and its environment well enough to make decisions that drive value.",
     "Depth": "Standard",
@@ -29372,15 +28807,21 @@
     "Source": "PMBOK Guide Sixth Edition (Plan Scope Management)"
   },
   {
-    "Term": "Standard for Project Management",
+    "Term": "The Standard for Project Management",
     "Core Meaning": "The PMI foundational standard that defines the principles guiding effective project management, published alongside the PMBOK Guide.",
     "Depth": "Standard",
     "Expansion": "The Standard for Project Management presents a principles-based view of the discipline, articulating twelve guiding principles and a system for value delivery rather than a prescriptive set of processes. It is an American National Standard and forms the normative companion to the PMBOK Guide, which provides supporting practices. The shift to principles reflects recognition that approaches must adapt to context. It anchors how value, stewardship, and outcomes are framed across predictive and adaptive work.",
     "Deep Dive": null,
     "Contrast": "PMBOK Guide — the PMBOK Guide offers detailed practices and methods, whereas the Standard for Project Management states the higher-level principles they serve.",
     "Example": "A team cites the principle of focusing on value from the Standard for Project Management to justify reprioritizing the backlog.",
+    "Synonyms": [
+      "Standard for Project Management"
+    ],
     "Related Terms": [
       "PMBOK Guide",
+      "Project Management Body of Knowledge (PMBOK)",
+      "Performance domain",
+      "Agile Practice Guide",
       "PMBOK Guide Seventh Edition",
       "Project life cycle"
     ],
@@ -29502,17 +28943,24 @@
     "Source": "PMBOK Guide Seventh Edition (PMI, 2021)"
   },
   {
-    "Term": "Project Objective",
+    "Term": "Project objective",
     "Core Meaning": "A specific, measurable result the project is undertaken to achieve, against which success is assessed.",
     "Depth": "Standard",
     "Expansion": "Project objectives translate broad business goals into concrete targets for scope, schedule, cost, quality, and outcomes that the team commits to deliver. Well-formed objectives are clear and measurable so that completion and success can be judged unambiguously. They guide planning, prioritization, and trade-off decisions and connect deliverables to the benefits the organization seeks. Objectives are typically baselined and used to evaluate performance at closure.",
     "Deep Dive": null,
     "Contrast": "Deliverable — a deliverable is a tangible product or result produced, whereas a project objective is the measurable end state that deliverables are meant to achieve.",
     "Example": "A project objective to cut order-processing time from five days to one defines the target the new system must meet.",
+    "Synonyms": [
+      "Project objectives"
+    ],
     "Related Terms": [
       "Scope baseline",
       "Benefits realization",
-      "Requirements"
+      "Requirements",
+      "Success criteria",
+      "Business case",
+      "Key performance indicator",
+      "Project charter"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide and The Standard for Project Management"
@@ -29932,23 +29380,6 @@
     ],
     "Tier": "Practitioner term",
     "Source": "Statistical method applied in quality control; not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Project objectives",
-    "Core Meaning": "The specific, measurable outcomes the project is undertaken to achieve.",
-    "Depth": "Standard",
-    "Expansion": "Project objectives define what success looks like in terms of scope, schedule, cost, quality, and benefits. They flow from business goals and are made concrete and measurable so progress can be evaluated. Clear objectives guide decisions, trade-offs, and acceptance throughout the life cycle.",
-    "Deep Dive": null,
-    "Contrast": "Objectives differ from requirements, because objectives state the ends to be achieved while requirements specify the conditions a solution must meet to reach them.",
-    "Example": "Deliver the mobile app by the third quarter within a budget of 500k and achieve a four-star rating defines the project objectives.",
-    "Related Terms": [
-      "Success criteria",
-      "Business case",
-      "Key performance indicator",
-      "Project charter"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide"
   },
   {
     "Term": "Systems engineering",
