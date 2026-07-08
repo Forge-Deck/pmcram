@@ -1,0 +1,2277 @@
+[
+  {
+    "Term": "Anchoring Bias",
+    "Core Meaning": "A cognitive bias where an initial piece of information disproportionately influences subsequent judgments and estimates.",
+    "Depth": "Standard",
+    "Expansion": "Anchoring bias occurs when an early reference point - such as a first cost figure or schedule guess - anchors later thinking, so adjustments remain insufficiently far from that anchor. It distorts estimating and negotiation, for example when a stakeholder's casual deadline becomes the fixed expectation regardless of analysis.",
+    "Deep Dive": null,
+    "Contrast": "Confirmation Bias - anchoring fixes judgment to an initial value, while confirmation bias filters evidence to support a pre-existing belief.",
+    "Example": "After a sponsor mentions a budget figure offhand, all later estimates cluster near it despite scope suggesting a higher cost.",
+    "Related Terms": [
+      "Confirmation Bias",
+      "Optimism Bias",
+      "Estimating",
+      "Negotiation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Tversky and Kahneman - anchoring and adjustment"
+  },
+  {
+    "Term": "Authority",
+    "Core Meaning": "The right to make decisions, direct work, use resources, or approve outcomes within defined organizational and project boundaries.",
+    "Depth": "Foundational",
+    "Expansion": "Authority determines who can decide, approve, escalate, and commit resources across a project. In PMI practice it is shaped by governance, organizational structure, role definitions, and delegated responsibility, and it may be stronger or weaker depending on whether the environment is functional, matrix, or projectized. Clear authority helps align accountability with decision rights and reduces delay and conflict.",
+    "Deep Dive": "What it is: Authority is formal or delegated decision power tied to a role, position, or governance mechanism. It defines who is empowered to approve scope, commit funding, assign work, accept deliverables, or resolve escalations.\n\nWhy it matters and where it applies: projects often fail less from lack of effort than from unclear decision rights. Authority affects speed, resource access, stakeholder alignment, and the project manager's ability to act across teams, vendors, and sponsors.\n\nThe most common misconception: that responsibility automatically includes authority. A person may be responsible for outcomes yet still lack the authority needed to secure people, approve tradeoffs, or enforce decisions unless governance explicitly grants it.\n\nHow it shows up in real projects: a sponsor authorizes funding, a change control board approves major baseline changes, functional managers control staff assignments, and the project manager operates within delegated limits for day-to-day decisions.",
+    "Contrast": "Responsibility — authority is the right to decide and direct; responsibility is the obligation to perform or ensure the work is done.",
+    "Example": "In a matrix organization, the project manager is responsible for delivery milestones but has limited authority over staff assignments, so resource decisions require agreement from functional managers.",
+    "Related Terms": [
+      "Responsibility",
+      "Accountability",
+      "Governance",
+      "Delegation",
+      "Project manager"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide / Project Management Lexicon — exact page citation unavailable from current source extract"
+  },
+  {
+    "Term": "Autocratic decision making",
+    "Core Meaning": "A decision-making style in which a single authority figure makes the choice alone without group input or consensus.",
+    "Depth": "Standard",
+    "Expansion": "Autocratic decision making concentrates authority in one decision maker, typically the project manager or sponsor, who selects a course of action without seeking team agreement. It is fast and decisive, which suits crises, low-stakes choices, or situations where one person holds the relevant expertise. The trade-off is reduced buy-in and the loss of the diverse perspectives that group methods provide.",
+    "Deep Dive": null,
+    "Contrast": "Consensus decision making seeks broad agreement from the whole group, whereas autocratic decision making bypasses group input for speed.",
+    "Example": "A project manager unilaterally halts work after a safety incident rather than convening the team to debate the response.",
+    "Related Terms": [
+      "Consensus",
+      "Delegation",
+      "Servant leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "BATNA",
+    "Core Meaning": "The best alternative to a negotiated agreement that a party can pursue if the current negotiation fails.",
+    "Depth": "Standard",
+    "Expansion": "BATNA is a negotiation concept used to judge whether an offered agreement is better than walking away. It helps a project manager or procurement team understand their fallback position before accepting terms. In project settings, it is especially useful in contracting, stakeholder negotiation, and conflict resolution.",
+    "Deep Dive": null,
+    "Contrast": "Zone of possible agreement — BATNA is the fallback if no deal is reached; the zone of possible agreement is the range where both sides can still agree.",
+    "Example": "A buyer negotiating with a vendor knows it can switch to an approved backup supplier if the current proposal is not acceptable.",
+    "Related Terms": [
+      "Negotiation",
+      "Procurement",
+      "Conflict management",
+      "Zone of possible agreement"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Belbin Team Roles",
+    "Core Meaning": "A model identifying nine behavioural roles people tend to adopt in a team, grouped into action, people, and thinking categories.",
+    "Depth": "Standard",
+    "Expansion": "Meredith Belbin's research identified nine clusters of behaviour that contribute to team success, grouped into three categories:\n\n- Action-oriented roles — Shaper, Implementer, Completer Finisher.\n- People-oriented roles — Coordinator, Teamworker, Resource Investigator.\n- Thinking-oriented roles — Plant, Monitor Evaluator, Specialist.\n\nMost people have two or three preferred roles, and balanced teams cover the full range rather than duplicating the same strengths. Each role carries both a contribution and an allowable weakness the team should tolerate.",
+    "Deep Dive": null,
+    "Contrast": "Tuckman's Stages of Team Development - Belbin classifies the behavioural roles individuals play, whereas Tuckman describes the stages a whole team passes through over time.",
+    "Example": "A PM staffing a team notices it has three Plants generating ideas but no Completer Finisher, so recruits someone strong on follow-through.",
+    "Related Terms": [
+      "Tuckman's Stages of Team Development",
+      "Drexler-Sibbet Team Performance Model",
+      "Team development",
+      "Roles and responsibilities"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "Belbin - Management Teams: Why They Succeed or Fail"
+  },
+  {
+    "Term": "Career development",
+    "Core Meaning": "The structured growth of an individual's skills, experience, and responsibilities over the course of their working path.",
+    "Depth": "Standard",
+    "Expansion": "On projects, career development connects assignments and stretch opportunities to people's longer-term professional goals, supporting motivation and retention. It includes setting development objectives, providing feedback, and arranging training, coaching, or new responsibilities. Project managers contribute by giving team members meaningful work and recognizing growth even within temporary engagements. It complements organizational talent processes and links to team development.",
+    "Deep Dive": null,
+    "Contrast": "Team building — team building strengthens how a group works together now, whereas career development advances an individual's longer-term professional path.",
+    "Example": "The project manager gives a junior analyst lead responsibility for reporting as a planned step in their career development.",
+    "Related Terms": [
+      "Professional development",
+      "Continuous learning",
+      "Resource management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Resource and team development practice"
+  },
+  {
+    "Term": "Caves and Commons",
+    "Core Meaning": "An office layout combining shared social spaces ('commons') with quiet private spaces ('caves').",
+    "Depth": "Standard",
+    "Expansion": "Caves and commons is a workspace design for agile teams that provides two kinds of zones: open 'commons' areas that encourage osmotic communication and collaboration, and quieter 'caves' where individuals can do focused work without interruption. The idea balances the agile preference for high-bandwidth interaction with the need for concentration. It supports both teamwork and individual productivity in a colocated setting.",
+    "Deep Dive": null,
+    "Contrast": "Osmotic communication - osmotic communication is the information overheard in a shared space, whereas caves and commons is the physical layout that deliberately enables it alongside quiet focus.",
+    "Example": "A team room with a central table for collaboration plus side nooks where developers retreat to concentrate.",
+    "Related Terms": [
+      "Osmotic Communication",
+      "Colocation",
+      "Tacit Knowledge"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Agile Practice Guide - team space (caves and commons)"
+  },
+  {
+    "Term": "Coaching",
+    "Core Meaning": "A development approach that helps individuals or teams improve performance by drawing out their own insight and capability.",
+    "Depth": "Standard",
+    "Expansion": "Coaching supports people in solving problems and building skills through questioning, feedback, and encouragement rather than by giving direct instructions. In project and agile environments it is a key behavior of servant leaders and agile coaches, who help teams become self-organizing and continuously improve. Effective coaching focuses on growth and ownership, adapting its intensity to the person's experience and confidence.",
+    "Deep Dive": null,
+    "Contrast": "Mentoring shares the mentor's own experience and advice, while coaching draws solutions out of the person being coached.",
+    "Example": "An agile coach asks a team probing questions in a retrospective so they identify their own improvement actions.",
+    "Related Terms": [
+      "Mentoring",
+      "Servant leadership",
+      "Facilitation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Agile Practice Guide"
+  },
+  {
+    "Term": "Coercive Power",
+    "Core Meaning": "Influence based on the ability to impose penalties or negative consequences.",
+    "Depth": "Standard",
+    "Expansion": "Coercive power (also called penalty or punishment power) is a form of organizational power rooted in the capacity to discipline or impose negative outcomes such as reprimands, undesirable assignments, or withheld benefits. It can compel short-term compliance but tends to damage trust, morale, and engagement when relied upon. It is widely viewed as the weakest basis for influence and a last resort.",
+    "Deep Dive": null,
+    "Contrast": "Reward power - reward power motivates with positive incentives, whereas coercive power compels through the threat of penalties.",
+    "Example": "A project manager assigning undesirable tasks to a team member who repeatedly misses commitments, as a form of pressure.",
+    "Related Terms": [
+      "Reward Power",
+      "Expert Power",
+      "Referent Power",
+      "Legitimate Power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - types of power"
+  },
+  {
+    "Term": "Cognitive bias",
+    "Core Meaning": "A systematic pattern of deviation from rational judgment that distorts decisions and estimates.",
+    "Depth": "Standard",
+    "Expansion": "Cognitive bias is a predictable error in thinking that arises from mental shortcuts, emotions, or how information is framed. In projects it skews estimates, risk assessments, and stakeholder decisions through effects such as anchoring, optimism, and confirmation bias. Awareness, diverse input, and structured techniques help reduce its impact.",
+    "Deep Dive": null,
+    "Contrast": "Groupthink — a cognitive bias is an individual reasoning error, while groupthink is a group dynamic where the desire for harmony suppresses dissent.",
+    "Example": "A team anchored on its first estimate of three weeks resists evidence the work will take six, illustrating anchoring bias in planning.",
+    "Related Terms": [
+      "Confirmation Bias",
+      "Anchoring Bias",
+      "Optimism Bias",
+      "Groupthink"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Behavioral decision theory (Tversky and Kahneman)"
+  },
+  {
+    "Term": "Collaborate",
+    "Core Meaning": "A conflict-resolution approach that integrates differing viewpoints to reach a consensus that satisfies everyone.",
+    "Depth": "Standard",
+    "Expansion": "Collaborating (also called problem solving or confronting) resolves conflict by openly incorporating multiple perspectives and working toward a solution that genuinely addresses everyone's concerns. It treats conflict as a shared problem to solve, requires dialogue and trust, and produces a durable win-win outcome. It is generally regarded as the most effective conflict-resolution style, though it takes the most time and commitment.",
+    "Deep Dive": null,
+    "Contrast": "Compromise - compromising has each party give up something for a partial (lose-lose) settlement, whereas collaborating seeks a solution that fully satisfies all parties (win-win).",
+    "Example": "Two leads disagreeing on an architecture meet, surface their underlying needs, and design a hybrid that meets both sets of requirements.",
+    "Related Terms": [
+      "Compromise",
+      "Force",
+      "Withdraw",
+      "Smooth"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - conflict resolution (collaborate / problem solve)"
+  },
+  {
+    "Term": "Collaboration",
+    "Core Meaning": "People working together deliberately to achieve shared project outcomes through communication, coordination, and joint problem solving.",
+    "Depth": "Standard",
+    "Expansion": "In PMI context, collaboration refers to cooperative work across team members and stakeholders to integrate knowledge, make decisions, and deliver value. It is a behavioural and operating principle rather than a single process, and it is closely tied to team performance, stakeholder engagement, and adaptive ways of working. Effective collaboration improves alignment, speeds issue resolution, and reduces the loss that occurs when work is handed off in silos.",
+    "Deep Dive": null,
+    "Contrast": "Communication — communication is the exchange of information; collaboration adds shared work, co-creation, and coordinated decision making.",
+    "Example": "A cross-functional project team holds short daily coordination sessions where design, procurement, and operations resolve dependencies together instead of escalating them through separate reporting lines.",
+    "Related Terms": [
+      "Team performance",
+      "Stakeholder engagement",
+      "Communication",
+      "Co-creation",
+      "Shared understanding"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Colocation",
+    "Core Meaning": "Physically placing project team members close together to improve communication and teamwork.",
+    "Depth": "Standard",
+    "Expansion": "Colocation is the practice of locating team members in the same physical place - sometimes a dedicated 'war room' or 'tight matrix' - to strengthen communication, relationships, and productivity. Proximity enables spontaneous, high-bandwidth interaction and is especially valued on agile teams. For distributed teams, virtual colocation tools attempt to recreate some of these benefits.",
+    "Deep Dive": null,
+    "Contrast": "Virtual teams - colocation gathers people in one place for face-to-face interaction, whereas virtual teams collaborate across locations using technology.",
+    "Example": "Moving all members of a critical project into a single shared project room for the duration of the work.",
+    "Related Terms": [
+      "Virtual team",
+      "War Room",
+      "Osmotic Communication"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - team resource management (colocation)"
+  },
+  {
+    "Term": "Competence",
+    "Core Meaning": "A cluster of related knowledge, attitudes, skills, and personal characteristics that affects job performance, can be measured against standards, and can be improved through development.",
+    "Depth": "Standard",
+    "Expansion": "In PMI usage, competence is broader than technical skill alone and includes the capabilities and characteristics that enable effective performance. It matters in project work because outcomes depend not only on methods and tools but also on judgement, leadership, collaboration, and behavioural effectiveness. The concept is used in professional development, role expectations, and capability assessment for project professionals.",
+    "Deep Dive": null,
+    "Contrast": "Communication skills — competence is a broader capability cluster that can include many skills and behaviours; communication skills are only one component.",
+    "Example": "A PMO assesses a project manager's competence by looking at planning knowledge, stakeholder handling, leadership behaviour, and decision quality rather than only schedule-tool proficiency.",
+    "Related Terms": [
+      "Capability",
+      "Leadership",
+      "Professional development"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Competence, page 188"
+  },
+  {
+    "Term": "Competency",
+    "Core Meaning": "The demonstrated knowledge, skills, behaviours, and abilities that enable effective performance in a project role.",
+    "Depth": "Standard",
+    "Expansion": "Competency in PMI usage refers to the capability to perform successfully, not just to possess knowledge or certification. It commonly includes technical project management capability, leadership or interpersonal effectiveness, and business or strategic understanding. Competency is used in role development, team selection, career growth, and organisational capability building.",
+    "Deep Dive": null,
+    "Contrast": "Capability — competency focuses on demonstrated effectiveness in a role; capability is a broader capacity or ability at the individual, team, or organisational level.",
+    "Example": "A PMO assesses project manager competency across stakeholder engagement, scheduling, risk management, and strategic alignment before assigning leaders to complex initiatives.",
+    "Related Terms": [
+      "Capability",
+      "Project manager competence",
+      "Talent development",
+      "Leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Compromise",
+    "Core Meaning": "A conflict-resolution technique where each party gives up something to reach a mutually acceptable middle ground.",
+    "Depth": "Standard",
+    "Expansion": "Compromising (also called reconciling) resolves conflict by finding a middle position that gives each party partial satisfaction; everyone gains something but also concedes something. It can settle disputes quickly and feels fair, but because no party is fully satisfied it is often characterized as a lose-lose outcome that may not address the root cause. It is useful when a temporary or expedient resolution is acceptable.",
+    "Deep Dive": null,
+    "Contrast": "Collaborate - collaborating works to fully satisfy all parties (win-win), whereas compromising has each side give up something for a partial (lose-lose) settlement.",
+    "Example": "Two managers who each want a shared resource full time agree to split the person's time 50/50.",
+    "Related Terms": [
+      "Collaborate",
+      "Force",
+      "Smooth",
+      "Withdraw"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - conflict resolution (compromise / reconcile)"
+  },
+  {
+    "Term": "Confirmation Bias",
+    "Core Meaning": "A cognitive bias in which people favour information that supports their existing beliefs, expectations, or hypotheses.",
+    "Depth": "Standard",
+    "Expansion": "PMI identifies confirmation bias as a cognitive bias that confirms preexisting beliefs or hypotheses. In projects, it can distort forecasting, risk assessment, stakeholder interpretation, and issue escalation because teams may notice supporting evidence while discounting warning signs. Recognising it improves decision quality by encouraging disconfirming evidence, broader review, and more balanced judgment.",
+    "Deep Dive": null,
+    "Contrast": "Anchoring bias — confirmation bias favours evidence that supports an existing belief; anchoring bias overweights the first information received.",
+    "Example": "A project manager believes a supplier is still on track and pays attention to optimistic status updates while overlooking repeated missed intermediate dates.",
+    "Related Terms": [
+      "Cognitive bias",
+      "Decision making",
+      "Risk analysis",
+      "Judgment",
+      "Assumption"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, p. 14"
+  },
+  {
+    "Term": "Conflict",
+    "Core Meaning": "Conflict is disagreement or opposition among individuals, groups, or stakeholders arising from differences in goals, priorities, values, perceptions, or resource needs.",
+    "Depth": "Foundational",
+    "Expansion": "In PMI project management, conflict is a normal condition of collaborative work rather than an automatic sign of dysfunction. It often emerges from schedule pressure, scarce resources, technical trade-offs, unclear roles, or competing stakeholder interests. Managing conflict constructively is foundational because unresolved conflict can damage decision quality, morale, trust, and delivery performance, while healthy conflict can improve problem solving.",
+    "Deep Dive": "Conflict is the friction that appears when people or groups differ in interests, assumptions, interpretations, or desired outcomes. In projects it takes several forms:\n\n- Interpersonal\n- Cross-functional\n- Technical\n- Procedural\n- Stakeholder-driven\n\nWhy it matters and where it applies: nearly every project involves interdependence, limited resources, and competing priorities, so conflict appears in planning, execution, governance, procurement, and stakeholder engagement. Project leaders need to surface the issue, understand its source, and apply an appropriate response so the disagreement produces clarity rather than disruption.\n\nThe most common misconception is that all conflict is harmful and should be suppressed quickly. PMI-aligned practice distinguishes destructive conflict from productive disagreement, since thoughtful challenge can improve risk identification, solution quality, and commitment.\n\nHow it shows up in real projects: engineers dispute scope versus quality trade-offs, business stakeholders compete for release priority, or functional and project managers disagree over resource allocation. The response may involve collaboration, compromise, escalation, clear decision rights, or resetting expectations.",
+    "Contrast": "Issue — conflict is disagreement among parties; an issue is a current problem or point requiring resolution, which may or may not involve interpersonal disagreement.",
+    "Example": "Two department leads argue over which team gets the only available data architect, so the project manager facilitates a decision based on milestone criticality and agreed portfolio priorities.",
+    "Related Terms": [
+      "Issue",
+      "Stakeholder engagement",
+      "Resource management",
+      "Negotiation",
+      "Problem solving"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Manage Team conflict management discussion"
+  },
+  {
+    "Term": "Conflict management",
+    "Core Meaning": "The practice of addressing and resolving disagreements among stakeholders or team members so they do not damage project performance.",
+    "Depth": "Foundational",
+    "Expansion": "Conflict management is a leadership and team-management capability used to surface, address, and resolve differences in goals, priorities, perceptions, or working styles. PMI treats conflict as a normal feature of project environments rather than something to avoid entirely. Effective conflict management protects relationships, supports decision quality, and helps the team maintain focus on project outcomes instead of interpersonal friction. It is particularly important in cross-functional, high-pressure, and resource-constrained projects where competing interests are common.",
+    "Deep Dive": "Conflict management is the structured handling of disagreement so that it supports the work and preserves productive relationships. It draws on a range of techniques applied according to context:\n\n- Collaboration\n- Compromise\n- Smoothing\n- Forcing\n- Withdrawal\n\nThe goal is not simply to stop conflict, but to resolve it in a way that helps the project.\n\nWhy it matters and where it applies: projects bring together people with different incentives, expertise, authority, and constraints. If conflict is ignored, it can slow decisions, reduce morale, create rework, and undermine stakeholder alignment; if handled well, it can improve clarity and lead to better solutions.\n\nThe most common misconception is that all conflict is harmful or that good project managers eliminate it. In practice, healthy task-related conflict can surface risks and improve decisions, while unmanaged personal conflict is what usually harms performance.\n\nHow it shows up in real projects: a project manager mediates priority disputes between departments, clarifies roles, facilitates trade-off discussions, and uses agreed escalation paths when consensus cannot be reached at the team level.",
+    "Contrast": "Issue management — conflict management addresses interpersonal or stakeholder disagreement, while issue management tracks and resolves project problems regardless of whether people are in conflict.",
+    "Example": "During a product launch project, the marketing lead wants new features added while the testing lead argues they threaten release quality, so the project manager facilitates a trade-off discussion and reaches agreement on a phased release.",
+    "Related Terms": [
+      "Interpersonal skills",
+      "Negotiation",
+      "Stakeholder engagement",
+      "Team development",
+      "Issue management"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Consensus",
+    "Core Meaning": "A group decision outcome in which participants can support the selected option even if it is not each person's first choice.",
+    "Depth": "Standard",
+    "Expansion": "Consensus is reached when a group has discussed alternatives and arrived at a decision the members can accept and stand behind. In PMI practice it is associated with group decision-making and facilitation because it helps create commitment and reduces resistance during execution. It does not mean everyone prefers the same option, only that the group can move forward together.",
+    "Deep Dive": null,
+    "Contrast": "Unanimity — consensus means people can support the decision; unanimity means everyone fully agrees with it.",
+    "Example": "A cross-functional team compares three rollout approaches and reaches consensus on a phased deployment that balances risk, speed, and user impact.",
+    "Related Terms": [
+      "Group decision-making techniques",
+      "Facilitation",
+      "Decision making",
+      "Unanimity",
+      "Stakeholder engagement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Process Groups: A Practice Guide, p. 188"
+  },
+  {
+    "Term": "Continuous learning",
+    "Core Meaning": "The ongoing pursuit of knowledge and skill improvement by individuals and teams as a regular part of work.",
+    "Depth": "Standard",
+    "Expansion": "Continuous learning embeds reflection and adjustment into delivery so that experience translates into better performance over time. At team level it shows up in retrospectives, knowledge sharing, and acting on lessons learned; at individual level in deliberate skill building. It is a foundation of agility and of a learning organization that adapts to change. The practice depends on psychological safety that makes it safe to surface mistakes and experiment.",
+    "Deep Dive": null,
+    "Contrast": "One-time training — a single course delivers a fixed skill at a point in time, whereas continuous learning is a sustained, iterative habit.",
+    "Example": "Each retrospective ends with one improvement action, making continuous learning a built-in part of every iteration.",
+    "Related Terms": [
+      "Continuous improvement",
+      "Retrospective",
+      "Lessons learned",
+      "Kaizen"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Continuous improvement and learning organization practice"
+  },
+  {
+    "Term": "Convergent thinking",
+    "Core Meaning": "A thinking approach that evaluates alternatives and narrows them toward the most suitable answer or decision.",
+    "Depth": "Standard",
+    "Expansion": "Convergent thinking is used after options have been generated and a team needs to assess, compare, and select among them. It applies criteria, constraints, and judgment to reduce many possibilities to one preferred solution or a short list of viable choices. In project work, it commonly supports decision making, problem solving, and prioritisation.",
+    "Deep Dive": null,
+    "Contrast": "Divergent thinking — convergent thinking narrows options toward selection, while divergent thinking expands the range of possible ideas.",
+    "Example": "After a workshop produces several solution concepts for reducing cycle time, the team scores them against cost, feasibility, and impact and selects one for implementation.",
+    "Related Terms": [
+      "Divergent thinking",
+      "Decision making",
+      "Problem solving",
+      "Prioritization",
+      "Facilitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms / exact page citation not confirmed"
+  },
+  {
+    "Term": "Critical thinking",
+    "Core Meaning": "Disciplined reasoning that analyzes evidence and assumptions to reach sound, objective judgments.",
+    "Depth": "Standard",
+    "Expansion": "Critical thinking is the deliberate evaluation of information, assumptions, and arguments to form well-founded conclusions rather than accepting claims at face value. In projects it strengthens estimating, risk analysis, and problem solving by exposing bias and weak evidence. PMI treats it as a power skill that underpins effective decisions and tailoring.",
+    "Deep Dive": null,
+    "Contrast": "Problem solving — critical thinking is the disciplined evaluation of information and assumptions, while problem solving is the broader process of finding and applying a solution.",
+    "Example": "Faced with an optimistic vendor estimate, the project manager critically tests its assumptions against historical data before accepting it.",
+    "Related Terms": [
+      "Analytical reasoning",
+      "Problem solving",
+      "Convergent thinking",
+      "Divergent thinking"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Talent Triangle — Power Skills (critical thinking)"
+  },
+  {
+    "Term": "Cross-functional team",
+    "Core Meaning": "A team composed of people with different functional skills and perspectives who work together to deliver a product, service, or project outcome.",
+    "Depth": "Foundational",
+    "Expansion": "A cross-functional team brings together members from different disciplines so the work can be planned, executed, and refined with fewer handoffs and less delay. PMI commonly associates the concept with agile and hybrid ways of working, where design, delivery, testing, operations, business, and customer perspectives need to interact continuously. The structure improves collaboration and decision quality when complex work depends on multiple specialties.",
+    "Deep Dive": "What it is: A cross-functional team combines complementary capabilities needed to produce value, rather than separating work strictly by department. Members contribute different expertise while aligning around a shared objective and integrated workflow.\n\nWhy it matters and where it applies: Projects rarely succeed through one specialty alone. Cross-functional teams are especially valuable in product development, software delivery, transformation work, and other environments where fast coordination across business and technical domains reduces delay and rework.\n\nThe most common misconception: that cross-functional means everyone can do every job or that hierarchy disappears. In practice, people retain specialist expertise, but the team works collaboratively across boundaries instead of waiting for serial functional handoffs.\n\nHow it shows up in real projects: A delivery team may include product, analysis, design, engineering, testing, compliance, and operations capabilities working together in short cycles to define, build, review, and release increments.",
+    "Contrast": "Functional team — a cross-functional team integrates multiple specialties in one working unit; a functional team groups people mainly by the same discipline or department.",
+    "Example": "A digital-banking project uses one team with a business analyst, UX designer, developers, tester, compliance specialist, and operations engineer to deliver each release increment together.",
+    "Related Terms": [
+      "Team",
+      "Agile",
+      "Functional manager",
+      "Collaboration",
+      "Self-managing team"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide — confirm exact citation in PMI source"
+  },
+  {
+    "Term": "Cultural Awareness",
+    "Core Meaning": "Understanding differences among individuals, groups, and organizations and adapting communication to fit them.",
+    "Depth": "Standard",
+    "Expansion": "Cultural awareness is a communication and interpersonal skill that involves recognizing how people from different backgrounds, organizations, and regions differ in values, expectations, and styles. The project manager uses that understanding to adapt the communication strategy, reducing misunderstanding and building trust across a diverse team. It is especially important on global and virtual projects.",
+    "Deep Dive": null,
+    "Contrast": "Ethnocentrism - cultural awareness recognizes and adapts to other cultures, whereas ethnocentrism judges them against one's own.",
+    "Example": "A PM leading a team across India, Germany, and Brazil adjusts meeting times, directness of feedback, and communication channels to suit each culture.",
+    "Related Terms": [
+      "Ethnocentrism",
+      "Communication management",
+      "Interpersonal skills",
+      "Global teams"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - communication skills (cultural awareness)"
+  },
+  {
+    "Term": "Daniel Pink's Drive",
+    "Core Meaning": "A motivation model arguing that for complex work, intrinsic drivers - autonomy, mastery, and purpose - outperform external rewards.",
+    "Depth": "Standard",
+    "Expansion": "Daniel Pink synthesised behavioural research to argue that carrot-and-stick rewards work for simple routine tasks but can undermine performance on creative, cognitively demanding work. Lasting motivation instead comes from three intrinsic elements:\n\n- Autonomy — control over how, when, and with whom one works.\n- Mastery — the urge to get better at something that matters.\n- Purpose — serving a cause larger than oneself.\n\nFor knowledge teams, leaders should provide direction and good conditions rather than rely on bonuses.",
+    "Deep Dive": null,
+    "Contrast": "Herzberg's Two-Factor Theory - Pink centres motivation on autonomy, mastery, and purpose for creative work, whereas Herzberg distinguishes hygiene factors from motivators across work generally.",
+    "Example": "A PM motivates a development team by giving them latitude over technical decisions, time to deepen skills, and a clear line of sight to the customer's mission.",
+    "Related Terms": [
+      "Herzberg's Two-Factor Theory",
+      "Maslow's Hierarchy of Needs",
+      "Intrinsic motivation",
+      "Motivation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Pink - Drive (autonomy, mastery, purpose)"
+  },
+  {
+    "Term": "Decision-Making Techniques",
+    "Core Meaning": "Methods used to choose among options, including voting, autocratic decision making, and multicriteria decision analysis.",
+    "Depth": "Atomic",
+    "Expansion": "Decision-making techniques are a PMBOK grouping of methods for reaching a choice among alternatives. Common forms include voting (unanimity, majority, or plurality), autocratic decision making (one person decides for the group), and multicriteria decision analysis (scoring options against weighted criteria).",
+    "Deep Dive": null,
+    "Contrast": "Multicriteria decision analysis - this is one specific decision-making technique that scores options against weighted criteria, not the whole category.",
+    "Example": "A team uses majority voting to select among three competing vendor proposals.",
+    "Related Terms": [
+      "Voting",
+      "Multicriteria decision analysis",
+      "Autocratic decision making",
+      "Unanimity"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - decision making (tools and techniques)"
+  },
+  {
+    "Term": "Delegation",
+    "Core Meaning": "Assigning responsibility and the authority to carry out specific tasks to another person.",
+    "Depth": "Standard",
+    "Expansion": "Delegation lets managers distribute work to the most suitable people while retaining overall accountability. Effective delegation pairs the task with the matching authority and clear expectations, building capability across the team.",
+    "Deep Dive": null,
+    "Contrast": "Empowerment — delegation hands over specific tasks/authority; empowerment is broad standing autonomy to decide and act.",
+    "Example": "A manager delegates supplier negotiations to a senior team member while remaining accountable for the contract.",
+    "Related Terms": [
+      "Authority",
+      "Responsibility",
+      "Empowerment",
+      "Accountability",
+      "Resource management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
+  },
+  {
+    "Term": "Distributed team",
+    "Core Meaning": "A team whose members work from different geographic locations and collaborate across distance.",
+    "Depth": "Standard",
+    "Expansion": "A distributed team is made up of people who do not share the same physical workspace and often operate across different sites, time zones, or countries. PMI treats this as an important organisational and delivery context because it affects communication, coordination, trust building, and knowledge sharing. Managing distributed teams well requires deliberate practices for collaboration, visibility, decision making, and stakeholder alignment.",
+    "Deep Dive": null,
+    "Contrast": "Virtual team — Distributed team emphasises geographic separation of members; virtual team emphasises collaboration primarily through electronic communication and may or may not involve broad geographic spread.",
+    "Example": "A product project uses analysts in Canada, developers in India, and testers in Poland, with shared planning boards, overlapping meeting windows, and clear handoff protocols.",
+    "Related Terms": [
+      "Virtual team",
+      "Communication management",
+      "Stakeholder engagement",
+      "Collaboration",
+      "Team development"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition, Glossary, distributed team, p. 706"
+  },
+  {
+    "Term": "Diversity",
+    "Core Meaning": "The presence of varied backgrounds, perspectives, identities, and experiences within a project team or stakeholder group.",
+    "Depth": "Standard",
+    "Expansion": "Diversity refers to differences among team members across dimensions such as culture, gender, discipline, cognitive style, and experience. PMI positions diversity as a driver of innovation and better decisions, because varied viewpoints reduce blind spots and groupthink. Realizing its benefits requires an inclusive environment where differing perspectives are actively sought and respected.",
+    "Deep Dive": null,
+    "Contrast": "Diversity is the mix of differences present, while inclusion is the practice of making those differences feel valued and heard.",
+    "Example": "A program deliberately staffs its design team with members from different regions and disciplines to surface a wider range of user needs.",
+    "Related Terms": [
+      "Team development"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Drexler-Sibbet Team Performance Model",
+    "Core Meaning": "A model mapping seven stages teams move through when creating and then sustaining high performance.",
+    "Depth": "Standard",
+    "Expansion": "Allan Drexler and David Sibbet describe team development as seven stages:\n\n- Orientation — why am I here?\n- Trust building — who are you?\n- Goal clarification — what are we doing?\n- Commitment — how will we do it?\n- Implementation — who does what, when, and where?\n- High performance — the wow stage.\n- Renewal — why continue?\n\nThe first four stages create the team and the last three sustain it, with each stage posing a question that must be resolved before the team advances. Unresolved early questions tend to resurface as problems later.",
+    "Deep Dive": null,
+    "Contrast": "Tuckman's Stages of Team Development - Drexler-Sibbet defines seven stages each framed by a question to resolve, whereas Tuckman describes five broader stages of group maturity.",
+    "Example": "A PM facilitating a new team works explicitly through purpose and trust before assigning tasks, following the Drexler-Sibbet sequence.",
+    "Related Terms": [
+      "Tuckman's Stages of Team Development",
+      "Belbin Team Roles",
+      "Team charter",
+      "Team development"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Drexler and Sibbet - Team Performance Model"
+  },
+  {
+    "Term": "Dreyfus Model",
+    "Core Meaning": "A model of skill acquisition describing progression through five stages from novice to expert.",
+    "Depth": "Standard",
+    "Expansion": "The Dreyfus model of skill acquisition holds that learners pass through novice, advanced beginner, competent, proficient, and expert stages. Novices rely on rigid rules and context-free guidance, while experts act intuitively from deep tacit experience. It informs how project managers coach, delegate, and set expectations based on an individual's stage.",
+    "Deep Dive": null,
+    "Contrast": "Shu-Ha-Ri - the Dreyfus model details five graded stages of competence, while Shu-Ha-Ri offers three stages framed around the learner's relationship to rules.",
+    "Example": "A coach gives a novice tester explicit checklists but lets a proficient tester rely on judgment, applying the Dreyfus model.",
+    "Related Terms": [
+      "Shu-Ha-Ri",
+      "Competency",
+      "Generalizing specialist",
+      "Talent development"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Dreyfus and Dreyfus - skill acquisition model"
+  },
+  {
+    "Term": "Dunning-Kruger Effect",
+    "Core Meaning": "A cognitive bias in which people with low competence overestimate their ability while experts may underestimate theirs.",
+    "Depth": "Standard",
+    "Expansion": "The Dunning-Kruger effect describes how those least skilled in an area lack the metacognition to recognize their own gaps, inflating their self-assessment, while highly competent people often assume tasks are equally easy for others and underrate their relative skill. It cautions project managers to validate self-reported confidence with objective evidence.",
+    "Deep Dive": null,
+    "Contrast": "Impostor Syndrome - Dunning-Kruger has the unskilled overrating themselves, whereas impostor syndrome has capable people doubting their genuine competence.",
+    "Example": "A junior developer confidently promises a quick fix, unaware of the complexity an expert would immediately flag.",
+    "Related Terms": [
+      "Impostor Syndrome",
+      "Confirmation Bias",
+      "Competency",
+      "Dreyfus Model"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Dunning and Kruger - unskilled and unaware"
+  },
+  {
+    "Term": "Emotional intelligence",
+    "Core Meaning": "The ability to identify, assess, and manage one's own emotions and the emotions of others and groups.",
+    "Depth": "Foundational",
+    "Expansion": "PMI treats emotional intelligence as a leadership capability that helps project professionals understand emotional signals in themselves and others and respond effectively. It supports collaboration, stakeholder engagement, conflict navigation, and team resilience under pressure. Rather than being soft or optional, it is a practical capability that improves judgment, trust, and influence across the project environment.",
+    "Deep Dive": "What it is: Emotional intelligence is the capability to recognise, interpret, and manage emotions in oneself and in other people. In PMI terms, it supports self-awareness, self-management, and relationship management in project settings.\n\nWhy it matters and where it applies: projects are carried out by people under conditions of uncertainty, time pressure, trade-offs, and change. Emotional intelligence helps project leaders reduce tension, improve communication, anticipate reactions, and maintain productive working relationships across teams and stakeholders.\n\nThe most common misconception: that emotional intelligence means being agreeable, avoiding conflict, or relying on intuition alone. In practice it means noticing emotional dynamics accurately and using that awareness to handle difficult conversations, decisions, and resistance more effectively.\n\nHow it shows up in real projects: a project manager senses frustration building during a planning workshop, reframes the discussion, addresses concerns directly, and prevents a technical disagreement from becoming a relationship breakdown.",
+    "Contrast": "Technical skill — emotional intelligence concerns understanding and managing emotions and relationships, while technical skill concerns domain knowledge and delivery mechanics.",
+    "Example": "During a schedule recovery effort, the project manager notices stakeholder anxiety, acknowledges the pressure openly, and adapts communication so the team can commit to a realistic revised plan.",
+    "Related Terms": [
+      "Leadership",
+      "Stakeholder engagement",
+      "Conflict management",
+      "Self-awareness",
+      "Relationship management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, page 34"
+  },
+  {
+    "Term": "Empowerment",
+    "Core Meaning": "Giving team members the authority, autonomy, and resources to make decisions and act within their area of work.",
+    "Depth": "Standard",
+    "Expansion": "Empowerment shifts appropriate decision-making down to the people doing the work so they can respond quickly without waiting for approval. It depends on clear boundaries, trust, and competence, and is a central enabler of self-managing teams. Used well, it improves engagement, speed, and ownership of outcomes.",
+    "Deep Dive": null,
+    "Contrast": "Delegation — delegation assigns specific tasks/authority case by case; empowerment is the broader standing autonomy to decide and act.",
+    "Example": "A team lead lets the team choose its own technical approach within agreed quality and budget limits.",
+    "Related Terms": [
+      "Delegation",
+      "Self-managing team",
+      "Servant leadership",
+      "Accountability",
+      "Ownership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
+  },
+  {
+    "Term": "Escalation of Commitment",
+    "Core Meaning": "The tendency to increase investment in a failing course of action to justify prior decisions.",
+    "Depth": "Standard",
+    "Expansion": "Escalation of commitment describes decision makers doubling down on a losing path rather than cutting losses, often to avoid admitting a mistake or because of sunk costs and ego. It explains why troubled projects receive more resources instead of being cancelled, and it is countered by independent reviews and clear kill criteria.",
+    "Deep Dive": null,
+    "Contrast": "Sunk Cost Fallacy - the sunk cost fallacy is the reasoning error about past spending, while escalation of commitment is the resulting behavior of pouring in still more resources.",
+    "Example": "A sponsor approves yet another budget increase for a late project to avoid conceding the original plan failed.",
+    "Related Terms": [
+      "Sunk Cost Fallacy",
+      "Go/no-go decision",
+      "Governance",
+      "Optimism Bias"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Staw - escalation of commitment research"
+  },
+  {
+    "Term": "Ethnocentrism",
+    "Core Meaning": "Judging other cultures or norms by the standards of one's own culture.",
+    "Depth": "Atomic",
+    "Expansion": "Ethnocentrism is the tendency to treat one's own culture as the reference point and to judge other cultures or norms against it. On global projects it undermines communication, trust, and collaboration, which is why cultural awareness is so strongly emphasized.",
+    "Deep Dive": null,
+    "Contrast": "Cultural awareness - ethnocentrism judges others against one's own culture, whereas cultural awareness recognizes and adapts to differences.",
+    "Example": "A PM who assumes their home country's blunt feedback style is the only correct way, and dismisses a colleague's more indirect style, is being ethnocentric.",
+    "Related Terms": [
+      "Cultural awareness",
+      "Global teams",
+      "Communication management",
+      "Diversity"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - cultural awareness (communication skills)"
+  },
+  {
+    "Term": "Expectancy Theory",
+    "Core Meaning": "A motivation theory holding that people are motivated when they expect effort to lead to good performance and to valued rewards.",
+    "Depth": "Standard",
+    "Expansion": "Expectancy theory, developed by Victor Vroom, explains motivation as the product of three beliefs:\n\n- Expectancy — that effort will produce performance.\n- Instrumentality — that performance will be rewarded.\n- Valence — that the reward is worth having.\n\nIf any one of these is weak, motivation collapses. It implies leaders should link effort to attainable outcomes and to rewards people genuinely value.",
+    "Deep Dive": null,
+    "Contrast": "Maslow's hierarchy of needs - Maslow ranks the intrinsic needs people seek to satisfy, whereas expectancy theory focuses on the perceived link between effort, performance, and reward.",
+    "Example": "A PM motivates a developer by making sure the extra effort is achievable, will be recognized, and earns a reward the developer actually wants.",
+    "Related Terms": [
+      "Motivation theory",
+      "Maslow's hierarchy of needs",
+      "McClelland's theory of needs",
+      "Reward power"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Vroom's expectancy theory (motivation theory)"
+  },
+  {
+    "Term": "Expert Power",
+    "Core Meaning": "Influence derived from a person's specialized knowledge, skill, or expertise.",
+    "Depth": "Standard",
+    "Expansion": "Expert power is one of the classic forms of power, based on others' respect for a person's demonstrated knowledge or competence. Because it is earned rather than assigned, it tends to build genuine commitment rather than mere compliance. It is widely regarded as one of the most effective bases of power for a project manager.",
+    "Deep Dive": null,
+    "Contrast": "Legitimate power - legitimate power comes from one's formal position, whereas expert power comes from demonstrated knowledge regardless of title.",
+    "Example": "A PM with no formal authority over a specialist still influences decisions because the team respects their deep technical expertise.",
+    "Related Terms": [
+      "Legitimate power",
+      "Referent power",
+      "Reward power",
+      "Coercive power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - types of power"
+  },
+  {
+    "Term": "Facilitation",
+    "Core Meaning": "A technique used to guide a group toward a decision, solution, or shared understanding.",
+    "Depth": "Standard",
+    "Expansion": "Facilitation helps a group work productively by structuring discussion, encouraging balanced participation, and keeping attention on the objective. In PMI usage, it is a practical technique for workshops, planning sessions, problem solving, and conflict resolution. It supports better decisions by improving collaboration rather than supplying the content of the decision itself.",
+    "Deep Dive": null,
+    "Contrast": "Expert judgment — facilitation manages the group process for reaching an outcome, while expert judgment contributes specialised knowledge to inform the outcome.",
+    "Example": "A project manager facilitates a requirements workshop so operations, finance, and IT can agree on the minimum viable scope for a system rollout.",
+    "Related Terms": [
+      "Workshop",
+      "Consensus",
+      "Conflict management",
+      "Expert judgment"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase, term Facilitation"
+  },
+  {
+    "Term": "Fait Accompli",
+    "Core Meaning": "A negotiation tactic of presenting something as already decided and beyond discussion.",
+    "Depth": "Atomic",
+    "Expansion": "Fait accompli is a negotiation tactic in which one party frames an issue as already settled or non-negotiable to take it off the table. It may reflect a genuine constraint, such as a regulation, or be a pressure move to limit the other side's options and extract concessions.",
+    "Deep Dive": null,
+    "Contrast": "Good-faith negotiation - good-faith negotiation keeps issues genuinely open, whereas a fait accompli tactic declares them closed to narrow the discussion.",
+    "Example": "A vendor tells the buyer that the delivery date is fixed by corporate policy and cannot be discussed, closing that line of negotiation.",
+    "Related Terms": [
+      "Negotiation",
+      "Procurement negotiation",
+      "Constraint"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Force (forcing or directing)",
+    "Core Meaning": "A conflict-resolution approach in which one party imposes their viewpoint at the expense of others, producing a win-lose outcome.",
+    "Depth": "Standard",
+    "Expansion": "Forcing, also called directing, is a conflict-management style in which a person with power pushes their own solution through regardless of others' positions. It resolves the dispute quickly but typically leaves the losing party dissatisfied, so it is best reserved for emergencies, safety issues, or when a fast, decisive call is essential. Habitual use tends to erode trust and team morale.",
+    "Deep Dive": null,
+    "Contrast": "Collaborate - collaborating works through differing views to reach a win-win consensus, whereas forcing imposes one view for a win-lose result.",
+    "Example": "With a regulatory deadline hours away, a project manager overrides the team debate and dictates the approach in order to ship on time.",
+    "Related Terms": [
+      "Collaborate",
+      "Compromise",
+      "Smooth",
+      "Withdraw"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - conflict management techniques"
+  },
+  {
+    "Term": "Four Stages of Competence",
+    "Core Meaning": "A learning model describing how people progress from unconscious incompetence to unconscious competence as they acquire a skill.",
+    "Depth": "Standard",
+    "Expansion": "The four stages of competence model describes learning as movement through four stages:\n\n- Unconscious incompetence — not knowing what you lack.\n- Conscious incompetence — aware of the gap.\n- Conscious competence — able but only with deliberate effort.\n- Unconscious competence — the skill has become second nature.\n\nRecognising a learner's current stage lets a coach pitch support appropriately, building awareness first, then practice, then automaticity. The hardest step is often moving people from unconscious to conscious incompetence.",
+    "Deep Dive": null,
+    "Contrast": "Dreyfus model of skill acquisition - the four stages of competence track awareness and automaticity across four steps, whereas the Dreyfus model describes five levels from novice to expert focused on judgement and intuition.",
+    "Example": "A new team member moves from not realising they misuse a tool (unconscious incompetence) to using it fluently without thinking (unconscious competence) through coaching.",
+    "Related Terms": [
+      "Competence",
+      "Coaching",
+      "Training"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "Conscious competence learning model (four stages of competence)"
+  },
+  {
+    "Term": "Global teams",
+    "Core Meaning": "Project teams whose members are distributed across multiple countries, cultures, and time zones.",
+    "Depth": "Standard",
+    "Expansion": "Global teams bring together members from different geographies, languages, and cultures to deliver a shared project. They offer access to broad talent and follow-the-sun working but introduce challenges in communication, coordination, and cultural alignment. Success depends on clear working agreements, cultural awareness, and reliable collaboration tools.",
+    "Deep Dive": null,
+    "Contrast": "Virtual team — a virtual team is any team that works mainly through technology rather than in person, while global teams add the dimension of crossing countries and cultures.",
+    "Example": "A product built by engineers in Berlin, Bangalore, and Boston relies on overlapping hours and a shared backlog to keep the global team aligned.",
+    "Related Terms": [
+      "Virtual team",
+      "Distributed team",
+      "Cultural Awareness",
+      "High context culture"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide — virtual teams and cultural considerations"
+  },
+  {
+    "Term": "Ground rules",
+    "Core Meaning": "Agreed behavioral expectations that guide how a team works together.",
+    "Depth": "Atomic",
+    "Expansion": "Ground rules define acceptable conduct, communication norms, and working agreements for a team or meeting. They help create a respectful and productive environment by making expectations explicit.",
+    "Deep Dive": null,
+    "Contrast": "Team charter — ground rules are the behavioral norms; a team charter is the broader agreement covering purpose, roles, and ways of working.",
+    "Example": "A project team agrees to start meetings on time, raise blockers within one business day, and avoid side conversations during workshops.",
+    "Related Terms": [
+      "Team charter",
+      "Working agreement",
+      "Collaboration",
+      "Facilitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), ground rules"
+  },
+  {
+    "Term": "Group decision-making",
+    "Core Meaning": "Group decision-making is the process by which a group reaches a decision collectively.",
+    "Depth": "Standard",
+    "Expansion": "PMI uses group decision-making to describe techniques that enable multiple participants to evaluate options and select a course of action together. It is especially important when decisions affect multiple stakeholders or require buy-in across functions. Common forms include voting, consensus-oriented discussion, and other facilitated approaches suited to the decision context.",
+    "Deep Dive": null,
+    "Contrast": "Consensus — group decision-making is the broader process of deciding as a group; consensus is one possible way the group may reach the decision.",
+    "Example": "A steering workshop compares three vendor options and the participants use a structured group decision-making technique to select the preferred supplier.",
+    "Related Terms": [
+      "Consensus",
+      "Voting",
+      "Facilitation",
+      "Decision making"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Process Groups: A Practice Guide, group decision-making techniques, p. 188"
+  },
+  {
+    "Term": "Group decision-making techniques",
+    "Core Meaning": "Methods used by a group to reach a decision collectively.",
+    "Depth": "Standard",
+    "Expansion": "Group decision-making techniques help teams and stakeholders evaluate options and choose a course of action together. PMI includes techniques such as voting, unanimity, and autocratic decision making depending on the situation and authority structure. These techniques are useful when decisions need buy-in, speed, or structured evaluation of alternatives.",
+    "Deep Dive": null,
+    "Contrast": "Consensus — consensus is one possible outcome of group decision making; group decision-making techniques are the methods used to reach a decision.",
+    "Example": "A project team uses majority voting in a workshop to select one of three implementation options for a new reporting system.",
+    "Related Terms": [
+      "Voting",
+      "Consensus",
+      "Decision making",
+      "Facilitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Process Groups: A Practice Guide / Group decision-making techniques, p. 188"
+  },
+  {
+    "Term": "Groupthink",
+    "Core Meaning": "A situation in which the desire for harmony or conformity in a group results in irrational or dysfunctional decision making.",
+    "Depth": "Standard",
+    "Expansion": "Groupthink occurs when team members suppress dissent, overlook alternatives, or avoid critical evaluation to preserve agreement. PMI treats it as a risk to sound decision making because it can hide problems and weaken analysis. It is especially dangerous in high-pressure environments where people may hesitate to challenge assumptions or authority.",
+    "Deep Dive": null,
+    "Contrast": "Consensus — consensus is a healthy shared decision; groupthink is conformity that suppresses critical thinking.",
+    "Example": "A steering committee accepts an unrealistic delivery date because nobody challenges the sponsor's assumption in the meeting.",
+    "Related Terms": [
+      "Decision making",
+      "Consensus",
+      "Facilitation",
+      "Stakeholder engagement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms / Groupthink, p. 152"
+  },
+  {
+    "Term": "GROW Model",
+    "Core Meaning": "A four-stage coaching framework structured around Goal, Reality, Options, and Will.",
+    "Depth": "Standard",
+    "Expansion": "The GROW model guides a coaching conversation through four steps:\n\n- Goal — clarifying what the person wants to achieve.\n- Reality — examining the current situation.\n- Options — exploring possible ways forward.\n- Will — confirming the way forward they commit to.\n\nProject managers use it to coach team members toward their own solutions rather than directing them, supporting a servant-leadership style.",
+    "Deep Dive": null,
+    "Contrast": "OSCAR Model - both are coaching frameworks, but OSCAR adds explicit Affirm-style review and follow-up steps that GROW does not name separately.",
+    "Example": "A project manager uses the GROW model to help a developer define a personal growth goal and commit to concrete next steps.",
+    "Related Terms": [
+      "OSCAR Model",
+      "Servant leadership",
+      "Emotional intelligence",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Whitmore - Coaching for Performance"
+  },
+  {
+    "Term": "Halo Effect",
+    "Core Meaning": "A cognitive bias in which a positive impression of someone in one area leads people to assume competence in unrelated areas.",
+    "Depth": "Standard",
+    "Expansion": "The halo effect is a bias where one outstanding trait or achievement causes an observer to rate a person favorably on unrelated attributes. In project staffing it appears when a strong technical performer is assumed to be a good manager and is promoted into a role they may not suit. Awareness of the bias helps managers evaluate people against the actual competencies a role demands.",
+    "Deep Dive": null,
+    "Contrast": "Horn effect - the horn effect generalizes from one negative trait to an overall poor impression, the mirror image of the halo effect's positive generalization.",
+    "Example": "A skilled programmer is made team lead purely because of coding talent and then struggles with the people-management duties of the role.",
+    "Related Terms": [
+      "Cognitive bias",
+      "Horn effect",
+      "Performance appraisal"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Hersey-Blanchard Situational Leadership",
+    "Core Meaning": "The original situational leadership model prescribing four styles - telling, selling, participating, and delegating - matched to follower maturity.",
+    "Depth": "Standard",
+    "Expansion": "Paul Hersey and Ken Blanchard's original model holds that leaders should adapt their style to a follower's readiness or maturity for a task by balancing task behaviour and relationship behaviour. As maturity rises, the leader moves from telling (high task, low relationship) to selling, to participating, and finally to delegating (low task, low relationship). There is no single best style, since effectiveness depends on diagnosing each follower's competence and willingness.",
+    "Deep Dive": null,
+    "Contrast": "Situational Leadership II - the original Hersey-Blanchard model uses telling, selling, participating, and delegating against follower maturity, whereas Blanchard's later SLII relabels the styles as directing, coaching, supporting, and delegating and frames readiness as development level (competence and commitment).",
+    "Example": "A PM tells a brand-new technician exactly what to do, but delegates outcomes to an experienced and willing engineer.",
+    "Figure": {
+      "svg": "<svg viewBox='-12 12 298 199' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='60' y='28' width='105' height='72' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><rect x='165' y='28' width='105' height='72' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1'/><rect x='60' y='100' width='105' height='72' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1'/><rect x='165' y='100' width='105' height='72' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1'/><text x='112' y='60' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S3</text><text x='112' y='73' fill='currentColor' font-size='8.5' text-anchor='middle'>Supporting</text><text x='217' y='60' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S2</text><text x='217' y='73' fill='currentColor' font-size='8.5' text-anchor='middle'>Coaching</text><text x='112' y='132' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S4</text><text x='112' y='145' fill='currentColor' font-size='8.5' text-anchor='middle'>Delegating</text><text x='217' y='132' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S1</text><text x='217' y='145' fill='currentColor' font-size='8.5' text-anchor='middle'>Directing</text><line x1='48' y1='172' x2='48' y2='24' stroke='currentColor' stroke-width='1'/><polygon points='48,20 45,28 51,28' fill='currentColor'/><line x1='60' y1='184' x2='274' y2='184' stroke='currentColor' stroke-width='1'/><polygon points='278,184 270,181 270,187' fill='currentColor'/><text x='40' y='100' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 40 100)'>Supportive behaviour</text><text x='167' y='200' fill='currentColor' font-size='8' text-anchor='middle'>Directive behaviour</text></svg>"
+    },
+    "Related Terms": [
+      "Situational Leadership II",
+      "Leadership style",
+      "Delegation",
+      "Servant leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Hersey and Blanchard - situational leadership theory"
+  },
+  {
+    "Term": "Herzberg's Two-Factor Theory",
+    "Core Meaning": "A motivation theory distinguishing hygiene factors that prevent dissatisfaction from motivators that actively create satisfaction.",
+    "Depth": "Standard",
+    "Expansion": "Frederick Herzberg found that two separate sets of factors govern attitudes at work:\n\n- Hygiene factors — such as salary, company policy, working conditions, and supervision; cause dissatisfaction when poor but do not motivate when good.\n- Motivators — such as achievement, recognition, the work itself, responsibility, and growth; drive genuine satisfaction.\n\nImproving hygiene only moves people from dissatisfied to neutral, so lasting motivation requires enriching the work itself. The two are independent dimensions rather than opposite ends of one scale.",
+    "Deep Dive": null,
+    "Contrast": "Maslow's Hierarchy of Needs - Maslow places all needs on a single ascending hierarchy, whereas Herzberg separates them into two independent categories with different effects on motivation.",
+    "Example": "A PM lifts a stalled team's morale not just by fixing pay complaints (hygiene) but by giving members ownership of meaningful features (motivators).",
+    "Figure": {
+      "svg": "<svg viewBox='26 13 248 155' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='42' x2='260' y2='42' stroke='currentColor' stroke-width='1.2'/><polygon points='36,42 44,38 44,46' fill='currentColor'/><polygon points='264,42 256,38 256,46' fill='currentColor'/><line x1='150' y1='36' x2='150' y2='48' stroke='currentColor' stroke-width='1'/><text x='40' y='30' fill='#B5462F' font-size='9' text-anchor='start'>Dissatisfaction</text><text x='150' y='30' fill='currentColor' font-size='9' text-anchor='middle'>Neutral</text><text x='260' y='30' fill='#2F6F5E' font-size='9' text-anchor='end'>Satisfaction</text><rect x='34' y='66' width='118' height='94' rx='4' fill='#B5462F' fill-opacity='0.07' stroke='currentColor' stroke-width='1'/><rect x='158' y='66' width='108' height='94' rx='4' fill='#2F6F5E' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><text x='93' y='86' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Hygiene factors</text><text x='93' y='100' fill='currentColor' font-size='7.5' text-anchor='middle'>prevent dissatisfaction</text><text x='93' y='120' fill='currentColor' font-size='8' text-anchor='middle'>Salary, policies,</text><text x='93' y='132' fill='currentColor' font-size='8' text-anchor='middle'>security, conditions,</text><text x='93' y='144' fill='currentColor' font-size='8' text-anchor='middle'>supervision</text><text x='212' y='86' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Motivators</text><text x='212' y='100' fill='currentColor' font-size='7.5' text-anchor='middle'>create satisfaction</text><text x='212' y='120' fill='currentColor' font-size='8' text-anchor='middle'>Achievement,</text><text x='212' y='132' fill='currentColor' font-size='8' text-anchor='middle'>recognition, growth,</text><text x='212' y='144' fill='currentColor' font-size='8' text-anchor='middle'>responsibility</text></svg>"
+    },
+    "Related Terms": [
+      "Maslow's Hierarchy of Needs",
+      "McClelland's Theory of Needs",
+      "Daniel Pink's Drive",
+      "Motivation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Herzberg - two-factor theory (motivation-hygiene theory)"
+  },
+  {
+    "Term": "High-performing project teams",
+    "Core Meaning": "High-performing project teams are teams that consistently collaborate effectively and deliver strong project outcomes.",
+    "Depth": "Standard",
+    "Expansion": "These teams combine shared goals, trust, accountability, and complementary capabilities to sustain performance. PMI discusses them in connection with team development, leadership, and the people-focused dimensions of delivery. Their effectiveness is visible not only in output volume but also in adaptability, learning, and stakeholder value.",
+    "Deep Dive": null,
+    "Contrast": "Project team — a project team is any group performing project work, while a high-performing project team has developed the behaviours and conditions that enable sustained strong results.",
+    "Example": "A cross-functional delivery team with clear norms, fast decision making, and strong trust resolves blockers quickly and releases usable increments on schedule.",
+    "Related Terms": [
+      "Project team",
+      "Team development",
+      "Leadership",
+      "Collaboration",
+      "Team charter"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide, Seventh Edition, team performance domain discussion; exact page citation requires source verification"
+  },
+  {
+    "Term": "Horn effect",
+    "Core Meaning": "A cognitive bias in which one negative trait or impression unfairly colors the overall judgment of a person or thing.",
+    "Depth": "Standard",
+    "Expansion": "The horn effect occurs when a single unfavorable characteristic leads an observer to assume that other, unrelated qualities are also poor. In project settings it can distort performance appraisals, stakeholder assessments, and vendor evaluations, letting one weakness overshadow genuine strengths. Awareness and structured, criteria-based evaluation help counter it.",
+    "Deep Dive": null,
+    "Contrast": "The halo effect generalizes from a positive trait, while the horn effect generalizes from a negative one.",
+    "Example": "A reviewer rates an engineer poorly across all skills because of one missed deadline, ignoring strong technical work.",
+    "Related Terms": [
+      "Halo Effect",
+      "Cognitive bias",
+      "Performance appraisal"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "I-shaped Skills",
+    "Core Meaning": "A profile describing a person with deep expertise in one specialty but little capability outside that core area.",
+    "Depth": "Atomic",
+    "Expansion": "I-shaped people have deep, narrow knowledge in a single discipline, the vertical bar of the letter I, but limited skills beyond it. On agile teams they can become bottlenecks because work in their specialty queues up behind them, which is why teams encourage cross-skilling toward a T-shaped profile.",
+    "Deep Dive": null,
+    "Contrast": "T-shaped skills - T-shaped people add broad capability across areas on top of one deep specialty, whereas I-shaped people have only the deep specialty.",
+    "Example": "A database expert who cannot help with testing or front-end work is an I-shaped team member.",
+    "Related Terms": [
+      "T-shaped skills",
+      "Generalizing specialist",
+      "Cross-functional team"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Impostor Syndrome",
+    "Core Meaning": "A psychological pattern of doubting one's accomplishments and fearing being exposed as a fraud despite evident competence.",
+    "Depth": "Atomic",
+    "Expansion": "Impostor syndrome is the persistent internal experience of believing one is not as capable as others perceive, attributing success to luck rather than skill. In teams it can suppress contributions from capable members and is addressed through psychological safety, mentoring, and recognition.",
+    "Deep Dive": null,
+    "Contrast": "Dunning-Kruger Effect - impostor syndrome is competent people underrating themselves, the inverse of low performers overrating their ability.",
+    "Example": "A skilled engineer hesitates to volunteer expertise, privately fearing colleagues will discover she does not belong.",
+    "Related Terms": [
+      "Dunning-Kruger Effect",
+      "Emotional intelligence",
+      "Team dynamics",
+      "Leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Clance and Imes - impostor phenomenon"
+  },
+  {
+    "Term": "Influence",
+    "Core Meaning": "The ability to affect the behavior, decisions, or opinions of others.",
+    "Depth": "Standard",
+    "Expansion": "Influence is an interpersonal capability that matters in project environments where formal authority is often limited. PMI recognizes it as relevant to business analysis and stakeholder-related work. It is central to gaining alignment, negotiating support, and shaping decisions across functions and stakeholder groups.",
+    "Deep Dive": null,
+    "Contrast": "Authority — influence works through persuasion, credibility, and relationships, while authority comes from formal role or position.",
+    "Example": "A project manager persuades a functional manager to release a specialist early so a critical activity can stay on schedule.",
+    "Related Terms": [
+      "Leadership",
+      "Stakeholder engagement",
+      "Negotiation",
+      "Authority",
+      "Power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The PMI Guide to Business Analysis — glossary/index reference for Influence, page 395"
+  },
+  {
+    "Term": "Influencing",
+    "Core Meaning": "The interpersonal ability to shape the views, decisions, or actions of others without relying on formal authority.",
+    "Depth": "Standard",
+    "Expansion": "Influencing is a core power skill for project managers, who often must align stakeholders and mobilize resources they do not directly control. It draws on credibility, relationships, reciprocity, and persuasive framing rather than positional power. Effective influencing depends on understanding others' interests and communicating in terms of shared value. It is central to negotiation, conflict resolution, and securing commitment across a matrix organization.",
+    "Deep Dive": null,
+    "Contrast": "Directing — directing relies on positional authority to assign work, whereas influencing gains commitment through persuasion and relationships.",
+    "Example": "Lacking authority over a shared team, the manager influences its lead by linking the request to that team's own goals.",
+    "Related Terms": [
+      "Influence",
+      "Negotiation",
+      "Stakeholder engagement"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Talent Triangle (power skills)"
+  },
+  {
+    "Term": "Interpersonal and team skills",
+    "Core Meaning": "Skills used to lead, collaborate, influence, and work effectively with others in a project environment.",
+    "Depth": "Foundational",
+    "Expansion": "Interpersonal and team skills are the people-facing capabilities that help project work move through communication, collaboration, and influence rather than through process alone. PMI uses the term to cover abilities such as conflict management, facilitation, leadership, active listening, negotiation, and emotional intelligence. These skills matter because project outcomes depend heavily on aligning people with different interests, expertise, and authority levels.",
+    "Deep Dive": "What it is: Interpersonal and team skills are the practical human skills a project manager and team use to coordinate work, resolve friction, build trust, and sustain engagement. They are applied in conversations, decisions, workshops, coaching moments, and stakeholder interactions every day.\n\nWhy it matters and where it applies: projects cut across functions, vendors, customers, and sponsors, so success depends on gaining cooperation beyond formal authority. These skills are essential in planning, risk reviews, conflict situations, team development, stakeholder engagement, and change adoption across predictive, agile, and hybrid environments.\n\nThe most common misconception: that interpersonal skill is a soft extra compared with schedule, cost, or scope control. In practice, many project failures come less from missing technique than from poor alignment, weak communication, unresolved conflict, or stakeholder resistance.\n\nHow it shows up in real projects: a project manager facilitates a difficult prioritisation meeting, negotiates resource trade-offs with line managers, listens for unspoken concerns from stakeholders, and helps the team work through conflict without losing momentum.",
+    "Contrast": "Technical project management skills — interpersonal and team skills focus on working with people and relationships; technical project management skills focus on methods, tools, and delivery mechanics.",
+    "Example": "In a cross-functional ERP rollout, the project manager mediates tension between finance and operations, facilitates a decision workshop, and secures agreement on a phased deployment plan.",
+    "Related Terms": [
+      "Leadership",
+      "Conflict management",
+      "Facilitation",
+      "Negotiation",
+      "Emotional intelligence"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, pages 350-358"
+  },
+  {
+    "Term": "Interpersonal skills",
+    "Core Meaning": "Skills used to interact effectively with other people in order to lead, collaborate, and resolve challenges in a project environment.",
+    "Depth": "Foundational",
+    "Expansion": "Interpersonal skills help project professionals communicate, influence, negotiate, listen, facilitate, and manage conflict. PMI treats them as essential because project results depend on coordinated action across teams, stakeholders, and functions. They are especially important when the project manager must build alignment through trust rather than relying only on formal authority.",
+    "Deep Dive": "Interpersonal skills are the people-facing capabilities that help a project professional work productively with others, applied in day-to-day interactions. They typically include:\n\n- Active listening.\n- Conflict management.\n- Negotiation.\n- Influencing.\n- Facilitation.\n- Emotional awareness.\n\nWhy it matters and where it applies: projects are delivered through relationships as much as through plans. These skills matter in stakeholder engagement, team leadership, workshops, decision-making, vendor coordination, and change-related conversations across predictive, agile, and hybrid settings.\n\nThe most common misconception is that interpersonal skills are soft extras compared with technical planning or scheduling. In practice, weak interpersonal skills often undermine execution by creating misunderstanding, resistance, low trust, and unresolved conflict even when technical plans are sound.\n\nHow it shows up in real projects: a project manager facilitates a tense prioritization meeting, surfaces hidden concerns, negotiates a workable compromise, and leaves the team with clear commitments and preserved trust.",
+    "Contrast": "Technical project management skills — interpersonal skills focus on working effectively with people; technical skills focus on methods, tools, and delivery mechanics.",
+    "Example": "During an ERP implementation, the project manager mediates conflict between finance and operations over cutover timing and builds agreement on a phased rollout.",
+    "Related Terms": [
+      "Leadership",
+      "Communication",
+      "Conflict management",
+      "Negotiation",
+      "Facilitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Interpersonal skills, pp. 117, 375, 399"
+  },
+  {
+    "Term": "Intrinsic motivation",
+    "Core Meaning": "The drive to perform an activity for the inherent satisfaction it provides rather than for external reward.",
+    "Depth": "Standard",
+    "Expansion": "Intrinsic motivation arises from internal factors such as interest, mastery, purpose, and autonomy, leading people to engage in work because they find it meaningful or enjoyable. In knowledge work and agile teams it is associated with higher creativity, persistence, and quality than reliance on external incentives alone. Leaders foster it by providing autonomy, opportunities to grow, and a clear sense of purpose.",
+    "Deep Dive": null,
+    "Contrast": "Intrinsic motivation comes from within the work itself, while extrinsic motivation comes from outside rewards such as pay or recognition.",
+    "Example": "An engineer spends extra effort perfecting a tool because the problem fascinates her, not for a bonus.",
+    "Related Terms": [
+      "Motivation theory"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Intuitive reasoning",
+    "Core Meaning": "Using instinct and experience to support decision making.",
+    "Depth": "Standard",
+    "Expansion": "Intuitive reasoning is decision making based primarily on judgement, pattern recognition, and experience rather than only on formal analysis. It can be valuable when time is short, data is incomplete, or a leader has strong domain familiarity. In sound project practice, it is usually balanced with evidence, stakeholder input, and analytical methods.",
+    "Deep Dive": null,
+    "Contrast": "Analytical reasoning — intuitive reasoning relies on instinct and experience; analytical reasoning relies on systematic examination of evidence.",
+    "Example": "A seasoned project manager senses that a supplier commitment is unrealistic and delays approval until additional schedule evidence is reviewed.",
+    "Related Terms": [
+      "Decision making",
+      "Expert judgment",
+      "Analytical reasoning",
+      "Judgement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase, Intuitive Reasoning"
+  },
+  {
+    "Term": "Journey to Abilene (Abilene paradox)",
+    "Core Meaning": "A group decision trap in which members collectively agree to a course no individual actually wants, because no one voices their true preference.",
+    "Depth": "Standard",
+    "Expansion": "The Abilene paradox describes how a group can take an action that contradicts what its members privately prefer, because each assumes the others want it and no one speaks up. It is a failure of communication and mismanaged agreement rather than of conflict, and it can lead teams to pursue decisions nobody truly supports. Surfacing honest opinions and encouraging dissent helps teams avoid it.",
+    "Deep Dive": null,
+    "Contrast": "Groupthink - groupthink suppresses dissent to preserve harmony around a position members do support, whereas the Abilene paradox produces a decision members privately oppose.",
+    "Example": "A team proceeds with a costly offsite that everyone secretly dreaded, each having agreed only because they assumed the others wanted it.",
+    "Related Terms": [
+      "Groupthink",
+      "Consensus",
+      "Decision making"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Judgement",
+    "Core Meaning": "The application of knowledge, experience, and analysis to make sound project decisions in context.",
+    "Depth": "Atomic",
+    "Expansion": "Judgement is used when a project manager must weigh trade-offs, uncertainty, and incomplete information rather than apply a rule mechanically. It shapes choices about priorities, escalation, estimation, and response actions.",
+    "Deep Dive": null,
+    "Contrast": "Expert judgment — judgement is the act of making a sound decision; expert judgment is judgement contributed by someone with specialised expertise.",
+    "Example": "A project manager uses judgement to escalate a vendor delay before it becomes critical because the affected component is near the project's critical path.",
+    "Related Terms": [
+      "Expert judgment",
+      "Decision making",
+      "Risk assessment"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Judgment"
+  },
+  {
+    "Term": "Judgment",
+    "Core Meaning": "The ability to make sound decisions by applying knowledge, experience, and analysis to a project situation.",
+    "Depth": "Atomic",
+    "Expansion": "Judgment is used when a project manager must weigh incomplete information, context, and trade-offs rather than rely on a formula alone. It supports choices in prioritisation, escalation, estimation, and response planning.",
+    "Deep Dive": null,
+    "Contrast": "Expert judgment — Judgment is the act of deciding well; expert judgment is judgment provided by a person or group with specialised knowledge.",
+    "Example": "A project manager uses judgment to escalate a vendor delay early because the late component is likely to affect a near-critical path activity.",
+    "Related Terms": [
+      "Expert judgment",
+      "Decision making",
+      "Risk assessment"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Judgment"
+  },
+  {
+    "Term": "Laissez-faire",
+    "Core Meaning": "A hands-off leadership style in which the leader grants the team wide autonomy and intervenes little.",
+    "Depth": "Standard",
+    "Expansion": "Laissez-faire, meaning 'let it be', is a leadership style in which the manager delegates decisions and lets the team self-direct with minimal interference. It can empower mature, highly skilled teams to innovate, but with an inexperienced or undisciplined team it risks drift, poor coordination, and missed goals. Effective leaders match the degree of hands-off freedom to the team's maturity.",
+    "Deep Dive": null,
+    "Contrast": "Directing - a directing leader closely instructs and controls the work, whereas a laissez-faire leader steps back and lets the team decide.",
+    "Example": "A manager leading a seasoned research team sets the goal and then leaves the experts to determine how to achieve it.",
+    "Related Terms": [
+      "Servant leadership",
+      "Situational Leadership II",
+      "Delegation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - leadership styles"
+  },
+  {
+    "Term": "Leadership",
+    "Core Meaning": "A category of skills in business analysis consisting of the skills to direct a group of people to work together toward a common goal.",
+    "Depth": "Standard",
+    "Expansion": "Leadership is the capability to align people, influence direction, and sustain coordinated effort toward an objective. In PMI-related practice it matters because projects and change initiatives depend on people making decisions and acting together under uncertainty. It is not limited to formal authority and is often exercised through communication, trust, and example.",
+    "Deep Dive": null,
+    "Contrast": "Management — leadership focuses on direction, influence, and alignment; management focuses more on organizing, controlling, and administering work.",
+    "Example": "A business analyst helps conflicting stakeholder groups agree on a shared release goal and keeps the team focused on that outcome during planning.",
+    "Related Terms": [
+      "Influence",
+      "Communication",
+      "Stakeholder engagement",
+      "Teamwork",
+      "Management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "The PMI Guide to Business Analysis — Leadership"
+  },
+  {
+    "Term": "Leadership style",
+    "Core Meaning": "The manner and approach used to direct, motivate, and manage people.",
+    "Depth": "Standard",
+    "Expansion": "Leadership style describes how a project leader influences people, makes decisions, and creates alignment around goals. PMI presents it as situational rather than fixed, meaning effective leaders adapt their style to team maturity, urgency, and context. It matters because the wrong style can reduce trust, slow decisions, or weaken performance even when the technical plan is sound.",
+    "Deep Dive": null,
+    "Contrast": "Leadership — leadership is the broader capability to influence and guide people; leadership style is the specific way that capability is expressed.",
+    "Example": "A project manager uses a more directive style during a production outage, then shifts to a coaching style once the team returns to improvement work.",
+    "Related Terms": [
+      "Leadership",
+      "Power",
+      "Influence",
+      "Team development",
+      "Stakeholder engagement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge, Seventh Edition — Leadership style"
+  },
+  {
+    "Term": "Learning and development",
+    "Core Meaning": "Organized activities that build the knowledge, skills, and competencies of team members.",
+    "Depth": "Atomic",
+    "Expansion": "Learning and development encompasses training, mentoring, and on-the-job growth that raise individual and team capability. In resource management it improves performance, engagement, and retention while closing skill gaps needed for the project.",
+    "Deep Dive": null,
+    "Contrast": "Distinct from team building, which strengthens relationships and cohesion rather than individual competence.",
+    "Example": "The plan funds cloud-certification training so engineers gain the skills the new platform of the project requires.",
+    "Related Terms": [
+      "Team development",
+      "Competency",
+      "Mentoring"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Legitimate Power",
+    "Core Meaning": "Influence a project manager holds by virtue of their formal position or role.",
+    "Depth": "Standard",
+    "Expansion": "Legitimate power, also called formal or positional power, derives from a person's official rank and the authority the organization grants that position. Team members comply because they recognize the project manager's right to direct them, not necessarily out of respect or fear. It is effective for routine direction but, on its own, rarely inspires high commitment, so it is usually combined with expert or referent power.",
+    "Deep Dive": null,
+    "Contrast": "Expert power - expert power comes from a person's knowledge and competence, whereas legitimate power comes purely from their formal position.",
+    "Example": "A newly appointed project manager assigns tasks because the charter formally grants them authority over the team.",
+    "Related Terms": [
+      "Expert power",
+      "Referent power",
+      "Reward power",
+      "Coercive power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - types of power"
+  },
+  {
+    "Term": "Low power distance",
+    "Core Meaning": "A cultural condition in which people are considered more equal and decision making is less hierarchical.",
+    "Depth": "Standard",
+    "Expansion": "In low power distance settings, subordinates expect to be consulted and included in decisions rather than simply told what to do. Work structures tend to be flatter and decision making more decentralized. PMI uses the concept to explain why leadership and communication approaches may need to differ across cultures.",
+    "Deep Dive": null,
+    "Contrast": "High power distance — low power distance expects consultation and flatter structures; high power distance expects more hierarchy, formality, and directive leadership.",
+    "Example": "A project manager in a low power distance environment invites team input before finalizing the schedule and assigns ownership collaboratively.",
+    "Related Terms": [
+      "Leadership style",
+      "Communication",
+      "Culture",
+      "Decision making"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Knowledgebase — low power distance; based on Hofstede cultural dimensions excerpt in available search results"
+  },
+  {
+    "Term": "Majority",
+    "Core Meaning": "A group decision reached when more than half of the members support it.",
+    "Depth": "Atomic",
+    "Expansion": "Majority is a voting-based decision rule in which a course of action is adopted once it gains support from more than 50 percent of the group. It is a common decision technique that is faster than seeking unanimity while still reflecting broad agreement.",
+    "Deep Dive": null,
+    "Contrast": "Plurality - plurality selects the option with the largest block of votes even if it is under 50 percent, whereas majority requires more than half.",
+    "Example": "A steering committee of nine approves a vendor when five members vote in favor.",
+    "Related Terms": [
+      "Unanimity",
+      "Plurality",
+      "Voting",
+      "Decision making"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - voting (decision making)"
+  },
+  {
+    "Term": "Management Skills",
+    "Core Meaning": "The ability to plan, organize, direct, and control people and resources to achieve defined goals.",
+    "Depth": "Standard",
+    "Expansion": "Management skills are the administrative competencies used to plan, organize, direct, and control work so that specific objectives are met consistently and predictably. They emphasize systems, processes, and positional authority to keep delivery on track. In PMP thinking they complement leadership skills, which inspire and align people toward a vision; effective project managers blend both.",
+    "Deep Dive": null,
+    "Contrast": "Leadership skills - leadership inspires and motivates people toward a shared vision, whereas management skills direct and control work to meet defined objectives.",
+    "Example": "A project manager applies management skills to build the schedule, assign tasks, and track variance against the baseline.",
+    "Related Terms": [
+      "Interpersonal skills",
+      "Emotional intelligence"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Maslow's Hierarchy of Needs",
+    "Core Meaning": "A motivation theory arranging human needs in five ascending levels, where lower needs must be largely met before higher ones drive behaviour.",
+    "Depth": "Foundational",
+    "Expansion": "Abraham Maslow ordered needs as physiological, safety, social or belonging, esteem, and self-actualisation, arguing that a substantially satisfied need stops motivating and attention shifts upward. People pursue higher-order growth needs only once lower deficiency needs are reasonably secure. For project leaders this implies that pay and job security must be addressed before recognition and challenging work will motivate.",
+    "Deep Dive": "Maslow distinguished deficiency needs (the lower four), which people are driven to fill when lacking, from the growth need of self-actualisation, which expands as it is fed. The hierarchy is a general tendency rather than a rigid staircase, and people can pursue several levels at once or prioritise a higher need over a lower one. Maslow later added cognitive, aesthetic, and transcendence needs, and the model has been criticised for limited cross-cultural validity. On projects it pairs well with Herzberg and McClelland: secure the basics, then enrich the work to reach esteem and self-actualisation.",
+    "Contrast": "Herzberg's Two-Factor Theory - Maslow ranks all needs on one ascending ladder, whereas Herzberg splits factors into hygiene factors that prevent dissatisfaction and motivators that create satisfaction.",
+    "Example": "A PM ensures a relocated team member has stable pay and housing (lower needs) before expecting recognition and stretch goals to motivate them.",
+    "Figure": {
+      "svg": "<svg viewBox='32 12 236 176' xmlns='http://www.w3.org/2000/svg'><polygon points='58,148 242,148 260,180 40,180' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1.1'/><polygon points='76,116 224,116 242,148 58,148' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1.1'/><polygon points='94,84 206,84 224,116 76,116' fill='#1F5FA8' fill-opacity='0.11' stroke='currentColor' stroke-width='1.1'/><polygon points='112,52 188,52 206,84 94,84' fill='#1F5FA8' fill-opacity='0.14' stroke='currentColor' stroke-width='1.1'/><polygon points='130,20 170,20 188,52 112,52' fill='#1F5FA8' fill-opacity='0.2' stroke='currentColor' stroke-width='1.1'/><text x='150' y='168' fill='currentColor' font-size='10' text-anchor='middle'>Physiological</text><text x='150' y='136' fill='currentColor' font-size='10' text-anchor='middle'>Safety</text><text x='150' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Belonging</text><text x='150' y='72' fill='currentColor' font-size='9.5' text-anchor='middle'>Esteem</text><text x='150' y='33' fill='currentColor' font-size='7' text-anchor='middle'>Self-</text><text x='150' y='44' fill='currentColor' font-size='7' text-anchor='middle'>actualisation</text></svg>"
+    },
+    "Related Terms": [
+      "Herzberg's Two-Factor Theory",
+      "McClelland's Theory of Needs",
+      "Expectancy Theory",
+      "Motivation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Maslow - A Theory of Human Motivation (hierarchy of needs)"
+  },
+  {
+    "Term": "McClelland's Theory of Needs",
+    "Core Meaning": "A motivation theory holding that people are driven by three acquired needs - achievement, affiliation, and power - in differing proportions.",
+    "Depth": "Standard",
+    "Expansion": "McClelland's theory of needs, also called the three needs or acquired needs theory, proposes that everyone is motivated by some mix of the need for achievement, affiliation, and power, with one usually dominant. Understanding which need drives a person lets a manager assign work and rewards that fit, for example giving achievement-oriented people challenging, measurable goals. The power need can be personal or institutional, the latter being healthier for leadership.",
+    "Deep Dive": null,
+    "Contrast": "Maslow's hierarchy of needs - Maslow arranges universal needs in an ascending hierarchy, whereas McClelland focuses on three learned needs whose balance varies by individual.",
+    "Example": "A manager gives a high-achievement team member a stretch goal with clear metrics, while placing a high-affiliation member in a collaborative role.",
+    "Related Terms": [
+      "Maslow's hierarchy of needs",
+      "Herzberg's two-factor theory",
+      "Expectancy theory",
+      "Motivation"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - motivation theories"
+  },
+  {
+    "Term": "McGregor's Theory X",
+    "Core Meaning": "A management assumption that workers are inherently lazy, avoid responsibility, and need close supervision and control.",
+    "Depth": "Standard",
+    "Expansion": "Theory X is one half of Douglas McGregor's pair of management assumptions, holding that the average employee dislikes work, shirks responsibility, and must be directed, controlled, and sometimes coerced to perform. Managers who hold it tend toward authoritarian, top-down, closely monitored styles. It contrasts with Theory Y and is generally seen as suitable only for limited situations, since it can become a self-fulfilling prophecy.",
+    "Deep Dive": null,
+    "Contrast": "McGregor's Theory Y - Theory Y assumes workers are self-motivated and seek responsibility, whereas Theory X assumes they are lazy and need control.",
+    "Example": "A Theory X manager requires detailed daily timesheets and signs off on every minor decision, trusting little to the team.",
+    "Related Terms": [
+      "McGregor's Theory Y",
+      "Motivation",
+      "Leadership style",
+      "Maslow's hierarchy of needs"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - motivation theories"
+  },
+  {
+    "Term": "McGregor's Theory Y",
+    "Core Meaning": "A management assumption that workers are self-motivated, accept responsibility, and can be trusted to direct themselves.",
+    "Depth": "Standard",
+    "Expansion": "Theory Y is the optimistic half of McGregor's pair, assuming employees find work natural, are willing to take ownership, and seek opportunities for growth and self-respect. Managers who hold it favor participative, empowering, and coaching styles that grant autonomy. It aligns well with knowledge work and servant leadership, though the right assumption depends on the people and context.",
+    "Deep Dive": null,
+    "Contrast": "McGregor's Theory X - Theory X assumes workers must be controlled and coerced, whereas Theory Y assumes they are self-directed and seek responsibility.",
+    "Example": "A Theory Y manager sets goals and then trusts the team to organize its own work, offering support rather than surveillance.",
+    "Related Terms": [
+      "McGregor's Theory X",
+      "Servant leadership",
+      "Motivation",
+      "Self-organizing team"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - motivation theories"
+  },
+  {
+    "Term": "Mediation",
+    "Core Meaning": "A facilitated process in which a neutral third party helps disputing parties reach a voluntary agreement.",
+    "Depth": "Standard",
+    "Expansion": "Mediation uses an impartial mediator to guide conflicting parties toward a mutually acceptable resolution without imposing a decision. It is a form of alternative dispute resolution often used for contract disputes or team conflict, preserving relationships and avoiding costly litigation. The mediator manages the conversation, but the parties themselves own the outcome.",
+    "Deep Dive": null,
+    "Contrast": "Arbitration — in mediation the parties craft their own voluntary agreement, while in arbitration a neutral arbitrator imposes a binding decision.",
+    "Example": "When a supplier and buyer disagree over scope, they engage a mediator who helps them negotiate a revised delivery schedule both accept.",
+    "Related Terms": [
+      "Negotiation",
+      "Conflict management",
+      "Arbitration",
+      "Dispute review board"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide — conflict management and alternative dispute resolution"
+  },
+  {
+    "Term": "Mentoring",
+    "Core Meaning": "A developmental relationship in which an experienced person guides the growth of a less experienced one.",
+    "Depth": "Standard",
+    "Expansion": "Mentoring is a longer-term, relationship-based form of support in which a mentor shares experience, perspective, and advice to help a mentee develop professionally. In projects it builds team capability, transfers tacit knowledge, and supports succession. It is a key interpersonal skill for leaders developing their teams.",
+    "Deep Dive": null,
+    "Contrast": "Mentoring differs from coaching, because mentoring is broader and experience-driven over time while coaching is more targeted at improving specific performance or skills.",
+    "Example": "A senior project manager mentors a new team lead over a year, advising on stakeholder politics and career choices.",
+    "Related Terms": [
+      "Coaching",
+      "Team development",
+      "Knowledge transfer",
+      "Leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Mood Chart",
+    "Core Meaning": "A visualization chart for tracking moods or reactions to identify areas for improvement.",
+    "Depth": "Atomic",
+    "Expansion": "A Mood Chart makes emotional responses or team sentiment visible over time so patterns can be discussed and improved.",
+    "Deep Dive": null,
+    "Contrast": "Burndown chart — A Mood Chart tracks human reactions or sentiment, while a burndown chart tracks remaining work over time.",
+    "Example": "After each sprint review, a product team marks team and stakeholder mood on a simple chart and notices recurring frustration during late-stage testing handoffs.",
+    "Related Terms": [
+      "Retrospective",
+      "Team dynamics",
+      "Visualization",
+      "Continuous improvement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms"
+  },
+  {
+    "Term": "Motivation",
+    "Core Meaning": "The internal and external drivers that energize, direct, and sustain a person's effort toward goals.",
+    "Depth": "Standard",
+    "Expansion": "Motivation explains why team members commit effort and persist on project work. Practice distinguishes intrinsic motivation, such as autonomy, mastery, and purpose, from extrinsic motivation, such as pay, recognition, and deadlines. Several theories from Maslow, Herzberg, and McClelland guide how leaders create the conditions for engagement. Sustaining motivation supports productivity, quality, and retention across a project team.",
+    "Deep Dive": null,
+    "Contrast": "Engagement — motivation is the internal drive to act, while engagement is the observable involvement and commitment that results from it.",
+    "Example": "A project manager rotates a developer onto a challenging new module to renew their sense of mastery and keep motivation high during a long delivery.",
+    "Related Terms": [
+      "Maslow's Hierarchy of Needs",
+      "Herzberg's Two-Factor Theory",
+      "Empowerment",
+      "Expectancy Theory"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — Team Performance Domain"
+  },
+  {
+    "Term": "Motivation theory",
+    "Core Meaning": "Any framework that explains what drives people to act, persist, and perform, used to inform how project leaders engage teams.",
+    "Depth": "Standard",
+    "Expansion": "Motivation theories provide models for understanding why individuals exert effort, such as Maslow's hierarchy of needs, Herzberg's two-factor theory, McGregor's Theory X and Theory Y, and McClelland's theory of needs. Project leaders draw on these models to design recognition, autonomy, and growth opportunities that sustain engagement. The theories distinguish factors that merely prevent dissatisfaction from those that actively energize performance.",
+    "Deep Dive": null,
+    "Contrast": "Intrinsic motivation arises from internal satisfaction, while many classical motivation theories also weigh extrinsic rewards such as pay.",
+    "Example": "A manager applies Herzberg's model by improving recognition and challenge rather than only raising pay to lift a stalled team.",
+    "Related Terms": [
+      "Intrinsic motivation",
+      "Maslow's hierarchy of needs"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Negotiation",
+    "Core Meaning": "The process and activities used to resolve disputes through consultations between the involved parties.",
+    "Depth": "Standard",
+    "Expansion": "Negotiation is used when people or groups have different interests, priorities, or constraints and need to reach agreement. It is a practical technique for handling conflict, securing commitments, and aligning expectations. In project work it commonly appears in stakeholder engagement, procurement, resource discussions, and issue resolution.",
+    "Deep Dive": null,
+    "Contrast": "Facilitation — negotiation seeks agreement among parties with competing interests; facilitation guides group interaction without necessarily bargaining over positions.",
+    "Example": "A project manager negotiates with a functional manager to secure a specialist for two additional weeks during a critical testing period.",
+    "Related Terms": [
+      "Conflict",
+      "Facilitation",
+      "Stakeholder engagement",
+      "Procurement",
+      "Agreement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The PMI Guide to Business Analysis, Negotiation"
+  },
+  {
+    "Term": "Networking",
+    "Core Meaning": "Building relationships and connections with others inside and outside the organization to exchange information and support.",
+    "Depth": "Atomic",
+    "Expansion": "Networking is an interpersonal technique in which the project manager develops contacts and relationships across organizations to gather information, gain influence, and build informal support. It improves access to expertise, organizational knowledge, and stakeholder cooperation throughout the project.",
+    "Deep Dive": null,
+    "Contrast": "Communication - communication exchanges specific project information, whereas networking builds the relationships through which information and influence flow.",
+    "Example": "Attending an industry conference to build contacts who can later advise on a vendor selection.",
+    "Related Terms": [
+      "Interpersonal Skills",
+      "Stakeholder Engagement",
+      "Political Awareness"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - interpersonal and team skills"
+  },
+  {
+    "Term": "Optimism Bias",
+    "Core Meaning": "The systematic tendency to overestimate favorable outcomes and underestimate costs, durations, and risks.",
+    "Depth": "Standard",
+    "Expansion": "Optimism bias leads planners to expect things to go better than they realistically will, producing underestimated budgets and schedules and underweighted risks. It is a root cause of the planning fallacy and is often countered with reference class forecasting, which grounds estimates in the outcomes of similar past projects.",
+    "Deep Dive": null,
+    "Contrast": "Planning Fallacy - optimism bias is the broad tendency toward rosy expectations, while the planning fallacy is its specific manifestation in underestimating task time and cost.",
+    "Example": "A team confident in a three-month delivery ignores that every similar past project took six, exhibiting optimism bias.",
+    "Related Terms": [
+      "Planning Fallacy",
+      "Anchoring Bias",
+      "Reserve analysis",
+      "Estimating"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kahneman - Thinking Fast and Slow"
+  },
+  {
+    "Term": "Organizational politics",
+    "Core Meaning": "The informal exercise of power, influence, and competing interests within an organization that can affect project decisions and outcomes.",
+    "Depth": "Standard",
+    "Expansion": "In PMI practice, organizational politics is a real contextual factor that influences stakeholder behavior, resource access, decision speed, and support for change. It is not inherently negative; it can be used constructively to build coalitions, negotiate trade-offs, and secure sponsorship. Project leaders need to recognize political dynamics and navigate them ethically to protect project objectives and relationships.",
+    "Deep Dive": null,
+    "Contrast": "Stakeholder engagement — stakeholder engagement is the deliberate process of involving interested parties; organizational politics is the underlying power and influence dynamic that shapes that engagement.",
+    "Example": "A project manager secures executive support for a cross-functional data initiative after recognizing that two department heads are competing over ownership of the target process.",
+    "Related Terms": [
+      "Power",
+      "Influence",
+      "Stakeholder engagement",
+      "Conflict management",
+      "Organizational culture"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, section on organizational systems and power dynamics; exact page citation should be verified in the PMI standard"
+  },
+  {
+    "Term": "Organizational theory",
+    "Core Meaning": "Knowledge of how people, teams, and organizations behave that can be used to improve project performance.",
+    "Depth": "Foundational",
+    "Expansion": "Organizational theory provides concepts for understanding authority, motivation, structure, culture, and behavior inside organizations. PMI uses it because project work happens through people operating within formal and informal systems, not in a vacuum. Applying it helps project leaders design governance, communication, decision paths, and team interactions more effectively.",
+    "Deep Dive": "What it is: Organizational theory is the body of ideas that explains how organizations are structured and how people behave within them. It includes concepts related to hierarchy, power, culture, motivation, reporting lines, and informal networks.\n\nWhy it matters and where it applies: project managers depend on stakeholders, sponsors, functional managers, and teams whose behavior is shaped by the organization around them. Understanding that environment improves stakeholder engagement, escalation paths, team design, and change adoption.\n\nThe most common misconception: that project success depends mainly on tools and schedules while organizational dynamics are secondary. In practice, ignored organizational dynamics often become the real cause of delay, resistance, and weak decisions.\n\nHow it shows up in real projects: a project manager tailors governance for a matrix organization, adjusts communications to match executive power structures, and plans change activities around the culture's tolerance for decentralised decision making.",
+    "Contrast": "Enterprise environmental factors — organizational theory explains behavior and structure patterns; enterprise environmental factors are the broader internal and external conditions affecting the project.",
+    "Example": "In a strong matrix organization, a project manager builds a stakeholder plan that accounts for both formal reporting lines and the influence of functional leaders over resource availability.",
+    "Related Terms": [
+      "Enterprise environmental factors",
+      "Organizational structure",
+      "Stakeholder engagement",
+      "Governance",
+      "Culture"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide, Seventh Edition, section discussing organizational theory"
+  },
+  {
+    "Term": "OSCAR Model",
+    "Core Meaning": "A coaching framework built on Outcome, Situation, Choices, Actions, and Review.",
+    "Depth": "Atomic",
+    "Expansion": "The OSCAR coaching model structures a development conversation around the desired Outcome, the current Situation, the Choices available, the Actions to take, and a Review of progress. It is solution-focused and emphasizes ongoing follow-up to sustain change.",
+    "Deep Dive": null,
+    "Contrast": "GROW Model - GROW ends at securing the will to act, while OSCAR explicitly builds in a Review stage for accountability and reinforcement.",
+    "Example": "A team lead applies the OSCAR model to coach a tester, agreeing on actions and scheduling a review to track improvement.",
+    "Related Terms": [
+      "GROW Model",
+      "Leadership style",
+      "Servant leadership",
+      "Emotional intelligence"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Gilbert and Whittleworth - OSCAR coaching model"
+  },
+  {
+    "Term": "Performance appraisal",
+    "Core Meaning": "A formal evaluation of an individual's work performance against expectations over a defined period.",
+    "Depth": "Standard",
+    "Expansion": "A performance appraisal reviews how well a team member has met role expectations, objectives, and competencies, providing structured feedback and identifying development needs. On projects it supports staffing decisions, recognition, and growth planning, and may feed into functional managers' assessments in a matrix organization. Effective appraisals rely on observable evidence and clear criteria to reduce bias.",
+    "Deep Dive": null,
+    "Contrast": "An appraisal evaluates an individual, while a team performance assessment evaluates the group's effectiveness as a unit.",
+    "Example": "A project manager provides input to an engineer's annual appraisal based on contributions during the project.",
+    "Related Terms": [
+      "Team Performance Assessments",
+      "Horn effect"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Planning Fallacy",
+    "Core Meaning": "The tendency to underestimate the time, cost, and risk of future actions despite knowing that similar past efforts overran.",
+    "Depth": "Standard",
+    "Expansion": "The planning fallacy, identified by Kahneman and Tversky, is the systematic underestimation of how long tasks will take and how much they will cost, even when people know that comparable past projects exceeded their plans. It stems from taking an inside view focused on the specifics of the current plan; the remedy is an outside view using reference class forecasting.",
+    "Deep Dive": null,
+    "Contrast": "Optimism Bias - optimism bias is the general tendency toward favorable expectations, while the planning fallacy is its specific form applied to time and cost estimates.",
+    "Example": "Despite every past audit taking six weeks, the team again commits to four, falling into the planning fallacy.",
+    "Related Terms": [
+      "Optimism Bias",
+      "Estimating",
+      "Reserve analysis",
+      "Student Syndrome"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Kahneman and Tversky - planning fallacy"
+  },
+  {
+    "Term": "Plurality",
+    "Core Meaning": "A group decision made by the largest faction even when it lacks an outright majority.",
+    "Depth": "Atomic",
+    "Expansion": "Plurality is a group decision-making method in which the option receiving the most votes wins, even if that block is less than half of the total. It is useful when there are several choices and no single one can command a majority. It contrasts with majority and unanimity as a way of reaching a group decision.",
+    "Deep Dive": null,
+    "Contrast": "Majority - plurality wins with the largest share of votes, whereas majority requires more than 50 percent support.",
+    "Example": "With four candidate vendors, the one drawing 40 percent of the team's votes is selected by plurality.",
+    "Related Terms": [
+      "Majority",
+      "Unanimity",
+      "Voting",
+      "Decision-Making Techniques"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - decision-making (voting)"
+  },
+  {
+    "Term": "Political awareness",
+    "Core Meaning": "Political awareness is the ability to recognise and interpret the informal power dynamics, interests, and relationships that influence project decisions and behaviour.",
+    "Depth": "Standard",
+    "Expansion": "In project work, political awareness helps a project manager understand who truly influences outcomes, where support or resistance may come from, and how stakeholder positions may shift. It is especially important in cross-functional or high-visibility environments where formal authority alone does not determine decisions. PMI references it as a relevant professional capability, but not as a distinct core glossary term in the retrieved material.",
+    "Deep Dive": null,
+    "Contrast": "Power — political awareness is the skill of understanding influence patterns, while power is the actual capacity to influence decisions or behaviour.",
+    "Example": "A project manager realises that an influential architect with no formal approval role can still shape executive opinion, so she engages that person early before design reviews begin.",
+    "Related Terms": [
+      "Power",
+      "Influence",
+      "Stakeholder engagement",
+      "Organizational politics"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Power",
+    "Core Meaning": "Power is the capacity to influence decisions, resources, priorities, or the behaviour of others in a project environment.",
+    "Depth": "Standard",
+    "Expansion": "In project management, power affects whose views carry weight, how quickly decisions are made, and whether support or resistance changes project outcomes. It may come from formal authority, expertise, relationships, control of resources, or personal influence. PMI discusses power in stakeholder and leadership contexts, but not as a distinct core glossary term in the retrieved material.",
+    "Deep Dive": null,
+    "Contrast": "Authority — power is the broader ability to influence outcomes, while authority is formally granted decision rights within a role or structure.",
+    "Example": "A functional director who controls specialist resources influences project sequencing even though the project manager owns the integrated schedule.",
+    "Related Terms": [
+      "Authority",
+      "Influence",
+      "Political awareness",
+      "Stakeholder"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Power skills",
+    "Core Meaning": "Interpersonal and behavioral abilities that enable a project leader to work effectively with people.",
+    "Depth": "Standard",
+    "Expansion": "Power skills, sometimes called soft skills, include communication, leadership, collaboration, empathy, and conflict management. They form one side of the PMI Talent Triangle alongside ways of working and business acumen. PMI emphasizes them because delivery success increasingly depends on influencing stakeholders and building high-performing teams, not only on technical mastery.",
+    "Deep Dive": null,
+    "Contrast": "Business acumen — power skills are interpersonal abilities for working with people, while business acumen is the strategic understanding of the organization.",
+    "Example": "A project manager defuses a tense sponsor meeting through active listening and clear framing, drawing on strong power skills.",
+    "Related Terms": [
+      "PMI Talent Triangle",
+      "Emotional intelligence",
+      "Leadership",
+      "Interpersonal skills"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMI Talent Triangle — Power Skills"
+  },
+  {
+    "Term": "Problem solving",
+    "Core Meaning": "Problem solving is the structured identification, analysis, and resolution of issues that impede project objectives or performance.",
+    "Depth": "Standard",
+    "Expansion": "In project management practice, problem solving involves diagnosing causes, generating response options, selecting an appropriate solution, and implementing corrective action. PMI treats it as a practical leadership and team capability that supports decision making, issue resolution, and continuous improvement rather than as a standalone formal glossary term in every standard. Effective problem solving improves delivery flow, reduces recurring issues, and strengthens team learning.",
+    "Deep Dive": null,
+    "Contrast": "Decision making — problem solving focuses on resolving an issue or gap, while decision making is the act of choosing among alternatives and may occur with or without a problem context.",
+    "Example": "When repeated defects appear during system testing, the project team performs root-cause analysis, identifies an interface specification gap, and updates both the design and review procedure.",
+    "Related Terms": [
+      "Issue",
+      "Root cause analysis",
+      "Decision making",
+      "Corrective action",
+      "Continuous improvement"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Professional development",
+    "Core Meaning": "The ongoing enhancement of a practitioner's knowledge, skills, and capabilities to improve performance in project work and related roles.",
+    "Depth": "Standard",
+    "Expansion": "In a PMI context, professional development refers to structured and self-directed learning that strengthens competence across project, program, and portfolio domains. It supports both current job performance and longer-term career growth through education, experience, reflection, and skill building. The concept is important to the profession, but it is not typically treated as a tightly bounded project management glossary term in the way process or governance terms are.",
+    "Deep Dive": null,
+    "Contrast": "Training — training is a specific learning intervention; professional development is the broader, ongoing growth of capability over time.",
+    "Example": "A project manager completes risk workshops, applies the learning on a live initiative, and reflects on lessons learned to improve future planning and stakeholder engagement.",
+    "Related Terms": [
+      "Competence",
+      "Capability development",
+      "Career development",
+      "Training",
+      "Continuous learning"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Project manager competence",
+    "Core Meaning": "The demonstrated capability of a project manager to apply knowledge, skills, behaviours, and business understanding to achieve project outcomes effectively.",
+    "Depth": "Standard",
+    "Expansion": "Project manager competence refers to more than technical project management knowledge; it includes leadership behaviour, strategic awareness, communication, decision making, and the ability to tailor ways of working to context. PMI's broader view of practitioner capability spans both performance in managing projects and the personal and business acumen needed to lead people and deliver value. The concept matters because project success depends not only on knowing methods, but on applying judgment appropriately across changing situations and stakeholder environments.",
+    "Deep Dive": null,
+    "Contrast": "Project manager role — the role describes assigned responsibilities and authority; competence describes the capability to perform that role effectively.",
+    "Example": "A project manager leading a cross-border product launch demonstrates competence by tailoring planning, aligning regional stakeholders, resolving team conflict, and translating business goals into executable delivery decisions.",
+    "Related Terms": [
+      "Leadership",
+      "Tailoring",
+      "Business acumen",
+      "Power skills",
+      "Technical project management"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Referent Power",
+    "Core Meaning": "Influence derived from a person's charisma, character, and the respect and admiration others hold for them.",
+    "Depth": "Standard",
+    "Expansion": "Referent power is a basis of organizational power grounded in personality, reputation, and the relationships a leader builds, rather than position or rewards. People follow because they like, respect, or want to identify with the leader. It tends to be durable and to foster genuine commitment, though it takes time to develop.",
+    "Deep Dive": null,
+    "Contrast": "Expert power - expert power comes from specialized knowledge, while referent power comes from personal charisma and respect.",
+    "Example": "Team members go the extra mile for a respected PM whose integrity they admire, reflecting referent power.",
+    "Related Terms": [
+      "Expert power",
+      "Legitimate power",
+      "Reward power",
+      "Coercive power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - types of power"
+  },
+  {
+    "Term": "Relationship management",
+    "Core Meaning": "The intentional development and maintenance of productive interactions with stakeholders, teams, and other parties that affect project outcomes.",
+    "Depth": "Foundational",
+    "Expansion": "Relationship management is the practice of building trust, credibility, and effective working connections among the people and groups involved in or affected by a project. PMI treats these interpersonal capabilities as central to leadership, stakeholder engagement, collaboration, and influence across formal authority boundaries. It matters because projects succeed not only through plans and controls but through the quality of cooperation that enables decisions, alignment, and sustained commitment.",
+    "Deep Dive": "What it is: Relationship management is the active management of human connections that shape project performance. It includes communication style, trust building, conflict navigation, influence, empathy, and ongoing stakeholder awareness.\n\nWhy it matters and where it applies: projects depend on coordinated action across sponsors, customers, team members, vendors, and functional managers. Strong relationships improve issue resolution, accelerate decisions, reduce resistance, and help the project manager work effectively even when authority is limited.\n\nThe most common misconception: that relationship management is mainly being personable or maintaining harmony. In practice it is a disciplined leadership activity that supports candour, accountability, negotiation, and constructive escalation when interests conflict.\n\nHow it shows up in real projects: the project manager tailors communication to stakeholder needs, repairs trust after missed commitments, aligns cross-functional leaders around trade-offs, and creates enough psychological safety for risks and bad news to surface early.",
+    "Contrast": "Stakeholder engagement — stakeholder engagement focuses on gaining and sustaining stakeholder support for project objectives, while relationship management is the broader capability of building effective working relationships across those interactions.",
+    "Example": "A project manager delivering an ERP rollout meets regularly with finance, operations, and IT leaders to resolve tensions over process changes and maintain sponsorship through a difficult cutover period.",
+    "Related Terms": [
+      "Stakeholder engagement",
+      "Leadership",
+      "Conflict management",
+      "Communication",
+      "Influencing"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Reward Power",
+    "Core Meaning": "Influence a project manager exerts through the ability to grant benefits or incentives.",
+    "Depth": "Standard",
+    "Expansion": "Reward power is based on the leader's capacity to provide positive outcomes such as recognition, bonuses, promotions, or desirable assignments in exchange for performance. It can effectively motivate when rewards are valued and fairly distributed, but it weakens if rewards are seen as unfair or beyond the leader's control. It is one of the classic bases of organizational power.",
+    "Deep Dive": null,
+    "Contrast": "Coercive power - reward power motivates with positive incentives, while coercive power compels through the threat of penalties.",
+    "Example": "A PM offers the top performer a choice assignment and public recognition, exercising reward power.",
+    "Related Terms": [
+      "Coercive power",
+      "Expert power",
+      "Referent power",
+      "Legitimate power"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - types of power"
+  },
+  {
+    "Term": "Self-awareness",
+    "Core Meaning": "The capacity to recognize one's own emotions, strengths, limitations, and their effect on others.",
+    "Depth": "Standard",
+    "Expansion": "Self-awareness is a foundational element of emotional intelligence and a key power skill for project leaders. It enables a manager to regulate reactions, seek feedback, and adapt their leadership style to the situation. Greater self-awareness improves decision quality, conflict handling, and the credibility a leader holds with the team.",
+    "Deep Dive": null,
+    "Contrast": "Differs from social awareness, which reads others' emotions; self-awareness is insight into one's own internal state.",
+    "Example": "Noticing that stress makes him terse, a project manager pauses before difficult conversations to lead more calmly.",
+    "Related Terms": [
+      "Emotional intelligence",
+      "Power skills",
+      "Servant leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Emotional intelligence literature"
+  },
+  {
+    "Term": "Self-management",
+    "Core Meaning": "The capability of individuals or teams to regulate and direct their own work, behaviour, and commitments in support of project goals.",
+    "Depth": "Standard",
+    "Expansion": "In project work, self-management means taking responsibility for priorities, commitments, and coordination without relying on constant external control. PMI-related agile guidance treats it as an enabler of empowered teams that can adapt quickly and make timely execution decisions. It depends on clear goals, transparency, accountability, and sufficient authority to act.",
+    "Deep Dive": null,
+    "Contrast": "Self managing team — self-management is the capability or practice of directing one's own work; a self-managing team is the team structure that embodies that capability collectively.",
+    "Example": "Team members update their own task plans, surface blockers in daily coordination, and rebalance work among themselves to protect a release target.",
+    "Related Terms": [
+      "Self managing team",
+      "Empowerment",
+      "Accountability",
+      "Agile team",
+      "Servant leader"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Self-managing team",
+    "Core Meaning": "A team that internally organises and directs much of its day-to-day work without relying on constant external supervision.",
+    "Depth": "Foundational",
+    "Expansion": "A self-managing team determines how best to accomplish its assigned work within agreed boundaries, goals, and constraints. PMI commonly associates the concept with agile and adaptive environments, where teams are expected to coordinate tasks, make local decisions, and continuously improve their way of working. The idea does not remove leadership or governance; it shifts more execution control to the team closest to the work.",
+    "Deep Dive": "What it is: A self-managing team plans, coordinates, and adjusts its own work at the operational level. Team members share responsibility for delivery, collaboration, and problem solving rather than waiting for detailed direction on every task.\n\nWhy it matters and where it applies: it increases responsiveness, ownership, and speed of decision making, especially in agile, product, and knowledge-work settings where conditions change quickly. It is most effective when goals are clear, skills are sufficient, and decision boundaries are understood.\n\nThe most common misconception: that self-managing means unmanaged or leaderless. In practice, governance, priorities, and strategic direction still exist, but the team has more autonomy over how work gets done.\n\nHow it shows up in real projects: a cross-functional delivery team breaks down backlog items, distributes tasks, resolves dependencies in daily coordination, and adapts its plan within the iteration without waiting for a manager to assign every step.",
+    "Contrast": "Self-organizing team — self-managing usually emphasises broader operational autonomy and internal coordination, while self-organizing often highlights how the team arranges its work structure and task allocation.",
+    "Example": "In a digital-services project, a cross-functional team decides within each sprint who will handle design, testing, and integration work, and adjusts task ownership as issues emerge.",
+    "Synonyms": [
+      "Self managing team"
+    ],
+    "Related Terms": [
+      "Agile",
+      "Self-organizing team",
+      "Servant leadership",
+      "Cross-functional team",
+      "Team charter",
+      "Self-management",
+      "Servant leader",
+      "Agile team",
+      "Empowerment",
+      "Adaptive approach"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Servant leader",
+    "Core Meaning": "A leader who focuses on enabling, supporting, and developing the team so it can deliver value effectively.",
+    "Depth": "Foundational",
+    "Expansion": "In PMI's agile context, the servant leader serves the team by removing impediments, fostering collaboration, and helping people grow rather than directing work through positional authority. The role emphasizes listening, facilitation, coaching, and stewardship. It is especially important where teams are empowered to organize their own work and need leadership that sustains autonomy and performance.",
+    "Deep Dive": "What it is: A servant leader leads by serving the needs of the team and the broader value-delivery effort. Rather than centering control, this leader creates conditions in which people can make decisions, collaborate well, and improve continuously.\n\nWhy it matters and where it applies: agile, hybrid, and knowledge-work environments benefit when teams are trusted to solve problems close to the work. Servant leadership improves engagement, learning, and adaptability because barriers are removed quickly and authority is used to enable rather than dominate.\n\nThe most common misconception: that servant leadership is passive or lacks accountability. In practice it is active, disciplined leadership that protects outcomes by clarifying purpose, setting boundaries, coaching behaviour, and escalating systemic issues when needed.\n\nHow it shows up in real projects: a team lead facilitates planning, helps resolve cross-team blockers, encourages constructive conflict, and develops team capability instead of assigning every task or dictating every solution.",
+    "Contrast": "Project manager — a servant leader leads primarily by enabling and supporting the team; a project manager may hold broader integration, governance, and accountability responsibilities beyond team enablement.",
+    "Example": "During a release program, the delivery lead works with another department to remove an environment-access blocker so the team can continue testing without waiting for top-down intervention.",
+    "Related Terms": [
+      "Self managing team",
+      "Agile",
+      "Empowerment",
+      "Facilitation",
+      "Leadership"
+    ],
+    "Tier": "Core glossary",
+    "Source": "Agile Practice Guide, page 38"
+  },
+  {
+    "Term": "Servant leadership",
+    "Core Meaning": "A leadership approach in which the leader focuses on enabling, supporting, and developing the team.",
+    "Depth": "Foundational",
+    "Expansion": "Servant leadership emphasises service to the team rather than control over it, with the leader working to remove obstacles, support collaboration, and foster growth. In PMI agile contexts, it is especially associated with leaders who create conditions for self management and continuous improvement. The approach is valuable where knowledge work, adaptation, and team ownership are central to delivery.",
+    "Deep Dive": "What it is: Servant leadership is a leadership philosophy in which authority is exercised through support, facilitation, and stewardship rather than command and control. The leader helps the team succeed by enabling performance and development.\n\nWhy it matters and where it applies: projects that depend on collaboration, expertise, and rapid learning often perform better when people are empowered rather than tightly directed. This is especially visible in agile teams, cross functional delivery groups, and environments where removing impediments matters more than issuing detailed instructions.\n\nThe most common misconception: that servant leadership means being passive or avoiding accountability. In practice it still involves clear expectations, active decision support, and protection of the team from distractions and organisational barriers.\n\nHow it shows up in real projects: a delivery lead clears blockers, encourages direct problem solving, supports team decisions, and creates space for retrospectives and continuous improvement instead of micromanaging daily tasks.",
+    "Contrast": "Command and control leadership — servant leadership enables and supports team ownership; command and control relies on top down direction and close supervision.",
+    "Example": "On a product development project, the team lead works with functional managers to remove resource bottlenecks and shields the team from shifting executive demands so the team can stay focused on sprint goals.",
+    "Related Terms": [
+      "Agile",
+      "Self managing team",
+      "Leadership",
+      "Team development",
+      "Impediment removal"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Agile Practice Guide — servant leader, page 38"
+  },
+  {
+    "Term": "Shu-Ha-Ri",
+    "Core Meaning": "A Japanese concept of skill mastery in three stages: follow the rules, break the rules, and transcend the rules.",
+    "Depth": "Atomic",
+    "Expansion": "Originating in martial arts, Shu-Ha-Ri describes a learning progression:\n\n- Shu — obey and follow established practices exactly.\n- Ha — consciously adapt and break from the rules as understanding grows.\n- Ri — transcend rules and operate intuitively.\n\nAgile coaches use it to set the expectation that new teams should first follow a framework faithfully before tailoring it.",
+    "Deep Dive": null,
+    "Contrast": "Dreyfus Model - Dreyfus describes five graded stages of skill acquisition, while Shu-Ha-Ri compresses mastery into three stages centered on one's relationship to the rules.",
+    "Example": "A coach insists a new team practice Scrum by the book (Shu) before customizing ceremonies once they understand the intent (Ha).",
+    "Related Terms": [
+      "Dreyfus Model",
+      "Tailoring",
+      "Agile",
+      "Continuous improvement"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Situational Leadership II",
+    "Core Meaning": "A leadership model that matches leader behavior to a follower's competence and commitment on a specific task.",
+    "Depth": "Standard",
+    "Expansion": "Situational Leadership II, developed by Blanchard building on the original Hersey and Blanchard model, holds that effective leaders flex between directing, coaching, supporting, and delegating styles based on the follower's development level for the task at hand. There is no single best style; the leader diagnoses the individual's competence and commitment and adapts accordingly.",
+    "Deep Dive": null,
+    "Contrast": "Servant leadership - servant leadership is a consistent values-based orientation toward serving the team, whereas Situational Leadership II prescribes deliberately switching styles by follower readiness.",
+    "Example": "A project manager directs a new analyst closely but delegates fully to a seasoned engineer, applying Situational Leadership II.",
+    "Figure": {
+      "svg": "<svg viewBox='-12 12 298 199' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='60' y='28' width='105' height='72' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><rect x='165' y='28' width='105' height='72' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1'/><rect x='60' y='100' width='105' height='72' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1'/><rect x='165' y='100' width='105' height='72' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1'/><text x='112' y='60' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S3</text><text x='112' y='73' fill='currentColor' font-size='8.5' text-anchor='middle'>Supporting</text><text x='217' y='60' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S2</text><text x='217' y='73' fill='currentColor' font-size='8.5' text-anchor='middle'>Coaching</text><text x='112' y='132' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S4</text><text x='112' y='145' fill='currentColor' font-size='8.5' text-anchor='middle'>Delegating</text><text x='217' y='132' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S1</text><text x='217' y='145' fill='currentColor' font-size='8.5' text-anchor='middle'>Directing</text><line x1='48' y1='172' x2='48' y2='24' stroke='currentColor' stroke-width='1'/><polygon points='48,20 45,28 51,28' fill='currentColor'/><line x1='60' y1='184' x2='274' y2='184' stroke='currentColor' stroke-width='1'/><polygon points='278,184 270,181 270,187' fill='currentColor'/><text x='40' y='100' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 40 100)'>Supportive behaviour</text><text x='167' y='200' fill='currentColor' font-size='8' text-anchor='middle'>Directive behaviour</text></svg>"
+    },
+    "Related Terms": [
+      "Leadership style",
+      "Servant leadership",
+      "Delegation",
+      "Emotional intelligence"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Blanchard - Situational Leadership II"
+  },
+  {
+    "Term": "Smooth",
+    "Core Meaning": "A conflict-resolution technique that stresses areas of agreement and downplays differences.",
+    "Depth": "Standard",
+    "Expansion": "Smoothing, also called accommodating, manages conflict by emphasizing points of agreement and yielding one's position to maintain harmony. It can calm a heated situation temporarily but does not resolve the underlying issue, which may resurface later. It is most useful when preserving the relationship matters more than the specific point in dispute.",
+    "Deep Dive": null,
+    "Contrast": "Collaborate - collaborating works through differences to reach a win-win solution, whereas smoothing glosses over them for short-term harmony.",
+    "Example": "A project manager defuses a tense meeting by focusing on the team's shared goal and setting the disagreement aside for later.",
+    "Related Terms": [
+      "Collaborate",
+      "Compromise",
+      "Withdraw",
+      "Force"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - conflict resolution techniques"
+  },
+  {
+    "Term": "Sunk Cost Fallacy",
+    "Core Meaning": "The error of continuing an endeavor because of already-spent resources that cannot be recovered, rather than future value.",
+    "Depth": "Standard",
+    "Expansion": "The sunk cost fallacy occurs when prior investments of money, time, or effort irrationally justify further commitment, even when objective analysis says to stop. Sound decisions should weigh only future costs and benefits, because sunk costs are gone regardless. The fallacy frequently drives organizations to keep funding failing projects.",
+    "Deep Dive": null,
+    "Contrast": "Sunk cost - a sunk cost is simply an unrecoverable past expenditure, while the sunk cost fallacy is the decision error of letting it drive future choices.",
+    "Example": "A steering committee keeps funding a doomed system because abandoning it would waste the large sum already spent.",
+    "Related Terms": [
+      "Sunk cost",
+      "Escalation of Commitment",
+      "Opportunity cost",
+      "Go/no-go decision"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "behavioral economics - sunk cost fallacy"
+  },
+  {
+    "Term": "T-shaped skill set",
+    "Core Meaning": "A capability profile that combines deep expertise in one area with broad working knowledge across related areas.",
+    "Depth": "Standard",
+    "Expansion": "A T-shaped skill set describes someone who can contribute deeply in a specialty while also collaborating effectively across disciplines. In PMI agile guidance, the concept supports flexibility, reduced handoffs, and stronger collaboration in cross-functional teams. It is especially valuable where teams need to adapt quickly and members must help beyond narrow role boundaries. The horizontal breadth improves teamwork, while the vertical depth preserves specialist strength.",
+    "Deep Dive": null,
+    "Contrast": "Generalist — a T-shaped contributor combines breadth with one area of deep expertise; a generalist is broad across areas but may lack the same specialist depth.",
+    "Example": "On a product team, a tester with strong automation expertise also helps refine requirements, review code, and support release planning.",
+    "Related Terms": [
+      "Cross-functional team",
+      "Generalizing specialist",
+      "Agile team",
+      "Collaboration"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "Agile Practice Guide, p. 154"
+  },
+  {
+    "Term": "T-shaped Skills",
+    "Core Meaning": "Deep expertise in one specialty paired with broad competence across other areas.",
+    "Depth": "Standard",
+    "Expansion": "A T-shaped person has deep skill in a core discipline (the vertical bar) plus enough breadth to contribute outside it (the horizontal bar). Agile teams value T-shaped members because they can swap in to help across the workflow, reducing bottlenecks and improving cross-functional flow. It contrasts with narrow specialists who can only do one job.",
+    "Deep Dive": null,
+    "Contrast": "I-shaped Skills - I-shaped people have deep skill in one area only, whereas T-shaped people add broad skills across others.",
+    "Example": "A tester who is an expert in automation but can also help with requirements analysis and basic coding.",
+    "Related Terms": [
+      "I-shaped Skills",
+      "Cross-functional team",
+      "Swarming",
+      "Generalizing specialist"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Talent development",
+    "Core Meaning": "The deliberate growth of people's capabilities so they can perform current roles effectively and build capacity for future organisational needs.",
+    "Depth": "Foundational",
+    "Expansion": "In PMI's people-focused view of project work, talent development concerns strengthening knowledge, skills, and abilities through learning, coaching, experience, and career growth. It matters because project outcomes depend heavily on capable teams, effective leadership, and an environment that supports continuous improvement. The concept applies at team, PMO, and organisational levels wherever project capability must be built and sustained.",
+    "Deep Dive": "What it is: Talent development is the intentional development of individual and team capability through education, mentoring, stretch assignments, feedback, and practical experience. In project environments, it includes both technical project-management capability and interpersonal or leadership capability.\n\nWhy it matters and where it applies: projects are delivered by people, so capability gaps directly affect decision quality, collaboration, delivery speed, and resilience. It applies in project teams, PMOs, transformation efforts, and organisations trying to improve delivery maturity over time.\n\nThe most common misconception: that talent development is just formal training. In practice, it is broader and often more effective when it combines learning with coaching, role clarity, communities of practice, and real project experience.\n\nHow it shows up in real projects: organisations create development plans for project managers, pair less experienced staff with mentors, rotate people through challenging assignments, and use retrospectives or lessons learned to strengthen future performance.",
+    "Contrast": "Training — training is one development method; talent development is the broader capability-building system that also includes coaching, mentoring, experience, and career growth.",
+    "Example": "A PMO creates a development pathway in which new project managers take targeted courses, shadow senior PMs, lead small initiatives, and receive coaching tied to competency assessments.",
+    "Related Terms": [
+      "Team development",
+      "Resource management",
+      "Leadership",
+      "Competence",
+      "Learning and development"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team",
+    "Core Meaning": "A team is a set of individuals who work interdependently to achieve a common objective.",
+    "Depth": "Foundational",
+    "Expansion": "In PMI usage, a team is more than a reporting grouping because its members coordinate effort, share accountability, and combine complementary skills to produce outcomes. In projects, the project team may include people with different roles, disciplines, and authority relationships, but they are aligned around delivering the project's objectives and intended value. Team effectiveness directly influences delivery speed, quality, stakeholder collaboration, and the ability to respond to change.",
+    "Deep Dive": "What it is: A team is an interdependent group formed to accomplish shared goals through coordinated effort. In project management, this usually means the people who perform, support, and guide the work needed to create project outputs and outcomes.\n\nWhy it matters and where it applies: projects are delivered through people, so team structure, clarity, trust, and collaboration affect performance in every domain, whether predictive, agile, or hybrid. Strong teams improve decision making, problem solving, knowledge sharing, and resilience under uncertainty.\n\nThe most common misconception: that a team is simply any collection of people assigned to the same project. In practice, a true team depends on shared purpose, mutual accountability, and active coordination rather than mere co-assignment.\n\nHow it shows up in real projects: cross-functional members plan work together, resolve dependencies, surface risks, adapt priorities, and coordinate with stakeholders to deliver increments, milestones, or final deliverables.",
+    "Contrast": "Working group — a team is interdependent and jointly accountable for shared outcomes; a working group may share information but members mainly complete individual tasks.",
+    "Example": "On an ERP implementation, business analysts, developers, testers, a change lead, and a project manager coordinate daily to configure modules, manage dependencies, and deliver a staged rollout.",
+    "Related Terms": [
+      "Project team",
+      "Team performance domain",
+      "Stakeholder",
+      "Collaboration",
+      "Leadership"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Seventh Edition, Team Performance Domain, pp. 241-267"
+  },
+  {
+    "Term": "Team building",
+    "Core Meaning": "The deliberate strengthening of trust, cohesion, and collaboration so a project team can perform more effectively.",
+    "Depth": "Foundational",
+    "Expansion": "Team building is the intentional development of relationships, norms, and working habits that improve how people perform together on a project. In PMI practice, it is not limited to informal bonding activities; it also includes actions such as clarifying roles, setting ground rules, resolving tensions, and creating shared commitment to goals. Strong team building improves communication, psychological safety, and accountability, which directly affects delivery performance. It is relevant across predictive, agile, and hybrid environments because projects depend on coordinated human effort.",
+    "Deep Dive": "What it is: Team building is the set of actions used to turn a collection of individuals into a functioning project team. It includes forming shared expectations, strengthening trust, and improving the way people communicate and solve problems together.\n\nWhy it matters and where it applies: Projects succeed through coordinated execution, so weak team dynamics quickly become schedule, quality, and stakeholder problems. Team building matters in virtual teams, cross-functional teams, newly formed teams, and teams under pressure, where alignment and trust do not happen automatically.\n\nThe most common misconception: that team building means only social events or morale activities. In practice, the most effective team building is often built into the work itself through role clarity, working agreements, constructive feedback, and conflict management.\n\nHow it shows up in real projects: kickoff workshops, ground rules, team charters, retrospectives, collaborative planning sessions, and manager actions that remove friction and reinforce healthy behaviours.",
+    "Contrast": "Team development — team building focuses on cohesion and ways of working together; team development is broader and also includes growth in capability and performance over time.",
+    "Example": "At project kickoff, the project manager facilitates a workshop where the team defines decision rules, communication norms, escalation paths, and shared expectations for collaboration.",
+    "Related Terms": [
+      "Team development",
+      "Ground rules",
+      "Team charter",
+      "Conflict management",
+      "Collaboration"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team charter",
+    "Core Meaning": "A document created by the team that describes its values, agreements, and ways of working together.",
+    "Depth": "Foundational",
+    "Expansion": "A team charter is a working agreement that makes explicit how the team will collaborate, communicate, make decisions, and handle conflict. It gives the team a shared reference point for behavioural norms and operating expectations, especially in cross-functional or newly formed groups. PMI presents it as a practical aid for strengthening team performance rather than as the formal authorization for the project itself.",
+    "Deep Dive": "What it is: A team charter is a concise, team-owned document that captures the norms and agreements that shape day-to-day collaboration. It often covers meeting expectations, communication channels, decision rules, conflict handling, and shared commitments.\n\nWhy it matters and where it applies: teams perform more consistently when expectations are discussed early instead of assumed. A team charter is especially useful when the team is newly formed, distributed, cross-functional, or working in a fast-changing environment where misalignment can slow delivery.\n\nThe most common misconception: that a team charter is the same as a project charter. A project charter formally authorizes the project and assigns authority, while a team charter focuses on how people will work together once the project is underway.\n\nHow it shows up in real projects: teams establish response-time norms, define how priorities are clarified, agree on escalation paths, and revisit the charter during retrospectives or phase transitions when collaboration starts to drift.",
+    "Contrast": "Project charter — a team charter defines how the team will work together; a project charter formally authorizes the project and names authority.",
+    "Example": "A hybrid product team agrees in its team charter to use one shared backlog, raise blockers within 24 hours, make design decisions by consent unless a deadline forces escalation, and revisit the agreement at the end of each release cycle.",
+    "Related Terms": [
+      "Project charter",
+      "Ground rules",
+      "Working agreement",
+      "Team development",
+      "Collaboration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The Standard for Project Management and A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section 2.4.3 Team Charter, page 36"
+  },
+  {
+    "Term": "Team collaboration",
+    "Core Meaning": "The coordinated way team members work together to share information, solve problems, and deliver project outcomes.",
+    "Depth": "Standard",
+    "Expansion": "Team collaboration is the practical interaction through which project team members align work, communicate, and integrate their contributions. It supports faster issue resolution, stronger commitment, and better-quality outcomes across predictive, agile, and hybrid environments. PMI treats collaboration as a key enabler of team performance rather than as a standalone process artifact.",
+    "Deep Dive": null,
+    "Contrast": "Communication — communication is the exchange of information; collaboration is the broader joint work of making decisions and producing results together.",
+    "Example": "A cross-functional project team uses daily coordination, shared visual boards, and joint planning sessions to resolve dependencies between design, testing, and operations.",
+    "Related Terms": [
+      "Team performance",
+      "Communication",
+      "Shared understanding",
+      "Stakeholder engagement",
+      "Collaboration"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team dynamics",
+    "Core Meaning": "The pattern of interpersonal behaviours, relationships, and interactions that influences how a project team functions.",
+    "Depth": "Standard",
+    "Expansion": "Team dynamics describes how trust, conflict, influence, motivation, and working norms shape team behaviour and effectiveness. Strong dynamics can improve decision making, learning, and delivery performance, while poor dynamics can create friction, delay, and disengagement. PMI project leadership guidance treats this as an important consideration in developing and leading teams.",
+    "Deep Dive": null,
+    "Contrast": "Team development — team dynamics refers to the interaction patterns within a team; team development is the deliberate effort to improve the team's capability and cohesion.",
+    "Example": "A project manager notices tension between engineering and procurement and facilitates working agreements to improve team dynamics before the conflict delays delivery.",
+    "Related Terms": [
+      "Team development",
+      "Conflict management",
+      "Trust",
+      "Working agreement",
+      "Leadership"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team lead",
+    "Core Meaning": "A person who coordinates and guides the day-to-day work of a team or workstream to support delivery of project objectives.",
+    "Depth": "Atomic",
+    "Expansion": "A team lead typically provides technical or functional direction, helps organise work, and supports issue resolution within a team. The role may exist within projects, but it is not a distinct formal PMI glossary concept with a single standard definition.",
+    "Deep Dive": null,
+    "Contrast": "Project manager — a team lead usually guides a specific team or discipline; a project manager is accountable for integrating the full project across scope, schedule, cost, risk, and stakeholders.",
+    "Example": "In an infrastructure project, the network team lead coordinates engineers' tasks and escalates cross-team dependencies to the project manager.",
+    "Related Terms": [
+      "Project manager",
+      "Functional manager",
+      "Technical lead",
+      "Team",
+      "Leadership"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team learning",
+    "Core Meaning": "The collective acquisition of knowledge and skill that improves how a team works together.",
+    "Depth": "Atomic",
+    "Expansion": "Team learning is the process by which a group reflects, shares insight, and adapts its practices to perform better over time. It underpins continuous improvement and is reinforced through retrospectives, knowledge sharing, and a psychologically safe environment.",
+    "Deep Dive": null,
+    "Contrast": "Unlike individual training, which builds one person's competence, team learning builds shared understanding and collective capability.",
+    "Example": "After each iteration the team holds a retrospective, turning lessons into agreed changes for the next cycle.",
+    "Related Terms": [
+      "Retrospective",
+      "Continuous improvement",
+      "Lessons learned"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "Senge The Fifth Discipline; not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team norms",
+    "Core Meaning": "Agreed behaviours and working expectations that guide how a team collaborates and makes decisions.",
+    "Depth": "Standard",
+    "Expansion": "Team norms define the practical rules a team follows for communication, meetings, responsiveness, conflict handling, and accountability. They help create predictability and reduce friction, especially when team members come from different functions, locations, or delivery approaches. PMI discusses them as part of team working agreements and team chartering rather than as a standalone core glossary term.",
+    "Deep Dive": null,
+    "Contrast": "Team charter — team norms are the behavioural expectations the team follows, while a team charter is the broader document that can capture those agreements.",
+    "Example": "A project team agrees to respond to internal messages within one business day, raise blockers in the daily sync, and keep meeting decisions in a shared log.",
+    "Related Terms": [
+      "Team charter",
+      "Working agreement",
+      "Ground rules",
+      "Collaboration"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Team performance",
+    "Core Meaning": "The degree to which a project team collectively achieves its goals in output, quality, and collaboration.",
+    "Depth": "Standard",
+    "Expansion": "Team performance reflects how well members work together to deliver results, not just the sum of individual contributions. It is shaped by shared goals, trust, clear roles, and effective communication, and it usually improves as a team matures through stages of development. In PMBOK terms it is cultivated within the Team performance domain, where leaders build a cohesive, high-performing team.",
+    "Deep Dive": null,
+    "Contrast": "Team Performance Domain — team performance is the outcome being pursued, whereas the Team Performance Domain is the PMBOK area of activities that produces it.",
+    "Example": "After introducing daily coordination and a team charter, a software team raises its velocity and reduces rework, both signs of improving team performance.",
+    "Related Terms": [
+      "Team Performance Domain",
+      "Tuckman's Stages of Team Development",
+      "Team charter",
+      "High-performing project teams"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — Team Performance Domain"
+  },
+  {
+    "Term": "Team Performance Domain",
+    "Core Meaning": "The Team Performance Domain addresses the people, interactions, culture, and capabilities needed for a project team to deliver value.",
+    "Depth": "Foundational",
+    "Expansion": "In PMI's performance-domain model, the Team Performance Domain focuses on how team members and other contributors work together to achieve project outcomes. It includes shared ownership, leadership, collaboration, emotional intelligence, decision making, and the development of a supportive team environment. Rather than prescribing a single structure, it emphasises principles and desired outcomes that help teams perform effectively across predictive, adaptive, and hybrid approaches.",
+    "Deep Dive": "What it is: The Team Performance Domain is one of the project performance domains described in PMI's principle-based standard. It concerns team culture, structure, leadership, communication, and the interpersonal conditions that enable effective delivery.\n\nWhy it matters and where it applies: projects succeed through people as much as through plans. This domain matters in any setting where coordination, trust, accountability, and learning affect delivery, from traditional capital projects to agile product teams.\n\nThe most common misconception: that it is only about team morale or human-resources topics. In practice it is directly tied to execution because poor collaboration, unclear roles, or weak leadership quickly turn into schedule, quality, and risk problems.\n\nHow it shows up in real projects: establishing working agreements, clarifying decision rights, coaching team members, resolving conflict, building psychological safety, and adapting leadership style to the project's context and constraints.",
+    "Contrast": "Stakeholder Performance Domain — the Team Performance Domain focuses on people doing the project work; the Stakeholder Performance Domain focuses on individuals and groups affected by or able to influence the project.",
+    "Example": "A project manager on a hybrid ERP implementation sets team working agreements, defines decision paths across business and IT leads, and uses regular retrospectives to improve collaboration between vendor and internal staff.",
+    "Related Terms": [
+      "Project Performance Domains",
+      "Leadership",
+      "Team development",
+      "Collaboration",
+      "Stakeholder Performance Domain"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Team Performance Domain section, pp. 33-40"
+  },
+  {
+    "Term": "Teamwork",
+    "Core Meaning": "The collaborative effort of a group working together toward a shared goal.",
+    "Depth": "Atomic",
+    "Expansion": "Teamwork combines individual skills through communication, trust, and coordination to achieve more than members could alone. It is fostered by clear goals, shared norms, and psychological safety.",
+    "Deep Dive": null,
+    "Contrast": "Collaboration — teamwork is the joint working of a defined team; collaboration is the broader act of working together, including across teams.",
+    "Example": "Daily coordination and shared ownership help the team resolve a blocker quickly through teamwork.",
+    "Related Terms": [
+      "Collaboration",
+      "Team development",
+      "Team norms",
+      "Self-managing team",
+      "Team dynamics"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
+  },
+  {
+    "Term": "Thomas-Kilmann Conflict Mode Instrument (TKI)",
+    "Core Meaning": "A model identifying five conflict-handling modes based on how assertive and how cooperative a person chooses to be.",
+    "Depth": "Standard",
+    "Expansion": "Kenneth Thomas and Ralph Kilmann mapped conflict responses on two axes — assertiveness (concern for one's own goals) and cooperativeness (concern for others' goals) — yielding five modes:\n\n- Competing.\n- Collaborating.\n- Compromising.\n- Avoiding.\n- Accommodating.\n\nNo single mode is best, since the right choice depends on the stakes, the relationship, and the time available. Collaborating seeks a win-win that fully satisfies both parties, while compromising splits the difference.",
+    "Deep Dive": null,
+    "Contrast": "Compromising versus collaborating - compromising is a partial give-and-take where each side concedes something, whereas collaborating works for a full win-win that meets both parties' needs.",
+    "Example": "A PM uses collaborating to resolve a genuine technical disagreement between two leads, but uses avoiding for a trivial issue not worth the time.",
+    "Related Terms": [
+      "Conflict management",
+      "Collaboration",
+      "Negotiation",
+      "Emotional intelligence"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Thomas-Kilmann - conflict mode instrument"
+  },
+  {
+    "Term": "Trust",
+    "Core Meaning": "Confidence in the reliability, competence, and integrity of others that enables open collaboration.",
+    "Depth": "Standard",
+    "Expansion": "Trust is the willingness to rely on others based on belief in their honesty, ability, and good intent. On project teams it underpins candid communication, psychological safety, and effective delegation, allowing people to raise problems and take ownership. Leaders build it through consistency, transparency, and follow-through, and it is central to servant leadership.",
+    "Deep Dive": null,
+    "Contrast": "Transparency — transparency is openly sharing information, which is one behaviour that helps build trust, the broader confidence people place in one another.",
+    "Example": "Because the team trusts its lead to shield them from blame, members openly flag a slipping milestone early rather than hiding it.",
+    "Related Terms": [
+      "Servant leadership",
+      "Transparency",
+      "Shared understanding",
+      "Team charter"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — leadership and team development"
+  },
+  {
+    "Term": "Tuckman's Stages of Team Development",
+    "Core Meaning": "A model describing five sequential stages - forming, storming, norming, performing, and adjourning - that teams typically move through as they develop.",
+    "Depth": "Foundational",
+    "Expansion": "Bruce Tuckman proposed that groups mature through forming (orientation and dependence on the leader), storming (conflict over roles and approach), norming (cohesion and agreed ways of working), and performing (autonomous high output), with adjourning later added for disbandment. Progress is not strictly linear, since a change in membership or scope can send a team back to an earlier stage. The model helps leaders treat early conflict as normal and tailor their support to each stage.",
+    "Deep Dive": "Tuckman published the first four stages in 1965 and added adjourning (sometimes called mourning) with Mary Ann Jensen in 1977. Leadership emphasis typically shifts from directive in forming and storming toward facilitative and delegating in performing, which links the model to situational leadership. Storming is the stage teams most often get stuck in, and skipping it by suppressing disagreement tends to surface the unresolved conflict later. Because the stages are descriptive rather than guaranteed, a reorganisation, new member, or major scope change can cause regression, so the PM should re-establish norms when the team composition shifts.",
+    "Contrast": "Drexler-Sibbet Team Performance Model - Tuckman describes five descriptive stages of group maturity, whereas Drexler-Sibbet maps seven stages each framed by a specific question the team must resolve.",
+    "Example": "A new project team argues over task ownership and approach in its first weeks (storming) before settling into smooth, self-directed delivery (performing).",
+    "Figure": {
+      "svg": "<svg viewBox='-17 12 339 184' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='24' y1='170' x2='300' y2='170' stroke='currentColor' stroke-width='1'/><line x1='24' y1='170' x2='24' y2='24' stroke='currentColor' stroke-width='1'/><polygon points='24,20 21,28 27,28' fill='currentColor'/><polygon points='304,170 296,167 296,173' fill='currentColor'/><text x='300' y='185' fill='currentColor' font-size='8' text-anchor='end'>time</text><text x='16' y='30' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 16 30)'>performance</text><rect x='34' y='134' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1.1'/><rect x='92' y='112' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1.1'/><rect x='150' y='90' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1.1'/><rect x='208' y='60' width='52' height='24' rx='3' fill='#2F6F5E' fill-opacity='0.14' stroke='currentColor' stroke-width='1.1'/><rect x='262' y='34' width='52' height='24' rx='3' fill='#C98A1F' fill-opacity='0.16' stroke='currentColor' stroke-width='1.1'/><text x='60' y='149' fill='currentColor' font-size='8.5' text-anchor='middle'>Forming</text><text x='118' y='127' fill='currentColor' font-size='8.5' text-anchor='middle'>Storming</text><text x='176' y='105' fill='currentColor' font-size='8.5' text-anchor='middle'>Norming</text><text x='234' y='75' fill='currentColor' font-size='8.5' text-anchor='middle'>Performing</text><text x='288' y='49' fill='currentColor' font-size='8' text-anchor='middle'>Adjourning</text></svg>"
+    },
+    "Related Terms": [
+      "Drexler-Sibbet Team Performance Model",
+      "Belbin Team Roles",
+      "Team development",
+      "Situational Leadership II"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Tuckman - stages of group development"
+  },
+  {
+    "Term": "Unanimity",
+    "Core Meaning": "A group decision in which everyone agrees on a single course of action.",
+    "Depth": "Atomic",
+    "Expansion": "Unanimity is reached when every member of a group supports the same decision, often pursued through techniques like the Delphi method or fist-of-five to surface and resolve dissent. It carries strong buy-in but can be slow or hard to achieve.",
+    "Deep Dive": null,
+    "Contrast": "Majority - majority needs only more than half to agree, whereas unanimity requires everyone's agreement.",
+    "Example": "A change control board approving a baseline change only when all members consent.",
+    "Related Terms": [
+      "Majority",
+      "Plurality",
+      "Delphi technique"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - decision-making (voting)"
+  },
+  {
+    "Term": "Virtual team",
+    "Core Meaning": "A group of people with a shared goal who work across time, space, and organizational boundaries, relying primarily on communication technology.",
+    "Depth": "Standard",
+    "Expansion": "A virtual team is defined by how its members collaborate rather than by a single location. PMI describes virtual teams as working across time, space, and organizational boundaries and depending on communication technology to coordinate work. They may be fully distributed or partly distributed, and they require deliberate attention to communication, trust, and coordination. Effective leadership and clear working agreements are especially important in this setting.",
+    "Deep Dive": null,
+    "Contrast": "Virtual collaboration tools — a virtual team is the people and working arrangement; virtual collaboration tools are the technology used to support them.",
+    "Example": "A product development team includes analysts in one country, developers in another, and a sponsor in a third, all coordinating through digital collaboration tools.",
+    "Related Terms": [
+      "Virtual collaboration tools",
+      "Communication management",
+      "Team charter",
+      "Stakeholder engagement",
+      "Leadership"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase — Virtual team"
+  },
+  {
+    "Term": "Voting",
+    "Core Meaning": "Voting is a group decision-making technique used to evaluate options and express preferences in order to reach a collective choice.",
+    "Depth": "Standard",
+    "Expansion": "PMI includes voting among decision and data-gathering techniques that help teams and stakeholders converge on priorities, requirements, actions, or solutions. It may be structured in forms such as majority, plurality, or multi-criteria approaches depending on context. Its usefulness depends on having clear options, appropriate participants, and a decision rule understood in advance.",
+    "Deep Dive": null,
+    "Contrast": "Consensus — voting selects an option by tallying preferences, while consensus seeks a decision that participants can support or at least accept without formal tallying as the primary mechanism.",
+    "Example": "During backlog refinement, a product team uses dot voting to rank candidate features for the next release based on stakeholder and team input.",
+    "Related Terms": [
+      "Decision making",
+      "Consensus",
+      "Prioritization",
+      "Facilitation",
+      "Nominal group technique"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition, Data Gathering and Decision Making techniques, pp. 144 and 148"
+  },
+  {
+    "Term": "Withdraw",
+    "Core Meaning": "A conflict-resolution technique of retreating from or avoiding the conflict.",
+    "Depth": "Standard",
+    "Expansion": "Withdrawing, also called avoiding, handles conflict by stepping back and postponing the issue rather than engaging it. It can be appropriate to let tempers cool or when the issue is trivial, but it leaves the underlying problem unresolved and is generally a temporary measure. It is usually considered the least effective long-term approach.",
+    "Deep Dive": null,
+    "Contrast": "Collaborate - collaborating confronts the issue to find a mutually agreeable solution, whereas withdrawing avoids it altogether.",
+    "Example": "A project manager sidesteps a heated argument by tabling it until a later meeting, without resolving it.",
+    "Related Terms": [
+      "Collaborate",
+      "Smooth",
+      "Compromise",
+      "Force"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - conflict resolution techniques"
+  },
+  {
+    "Term": "Work ethic",
+    "Core Meaning": "A set of values and attitudes that influence how diligently and responsibly a person approaches work.",
+    "Depth": "Atomic",
+    "Expansion": "Work ethic refers to personal conduct and commitment in performing work. It is a general behavioral concept rather than a formal PMI glossary term.",
+    "Deep Dive": null,
+    "Contrast": "Professional responsibility — work ethic is a personal attitude toward work; professional responsibility is an obligation tied to role and standards.",
+    "Example": "A team member consistently meets commitments and follows through on assigned tasks without needing repeated reminders.",
+    "Related Terms": [
+      "Responsibility",
+      "Accountability",
+      "Professionalism",
+      "Ethics"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Zone of possible agreement",
+    "Core Meaning": "The bargaining range within which negotiating parties can reach a mutually acceptable agreement.",
+    "Depth": "Standard",
+    "Expansion": "The zone of possible agreement is the overlap between what one party is willing to accept and what the other is willing to offer. If no overlap exists, agreement is unlikely without changing assumptions, scope, value, or constraints. It is especially relevant in procurement, stakeholder negotiation, conflict resolution, and contract discussions.",
+    "Deep Dive": null,
+    "Contrast": "BATNA — the zone of possible agreement is the overlap where a deal can be made; a BATNA is the fallback option if no deal is reached.",
+    "Example": "A buyer can approve a delivery contract up to a certain ceiling and a supplier can profitably deliver above a lower threshold, creating a range in which both can agree on price and terms.",
+    "Related Terms": [
+      "Negotiation",
+      "Procurement",
+      "Conflict management",
+      "Stakeholder engagement",
+      "BATNA"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  }
+]

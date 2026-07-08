@@ -1,0 +1,1839 @@
+[
+  {
+    "Term": "Agreement",
+    "Core Meaning": "Any document or understanding that defines the initial intentions and terms between project parties.",
+    "Depth": "Standard",
+    "Expansion": "In project management, agreements capture the intentions binding parties together and can take many forms - contracts, memoranda of understanding, letters of agreement, service level agreements, or even verbal or email understandings. They are a key input to developing the project charter and often define obligations with external sellers. Contracts are the most formal type, carrying legal enforceability.",
+    "Deep Dive": null,
+    "Contrast": "Contract - a contract is a specific, legally binding type of agreement, whereas 'agreements' is the broader category that also includes informal understandings.",
+    "Example": "A signed memorandum of understanding between two departments to share testing facilities for a project.",
+    "Synonyms": [
+      "Agreements"
+    ],
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Statement of work",
+      "Service-level agreement",
+      "Memorandum of Understanding",
+      "Project Charter"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - agreements"
+  },
+  {
+    "Term": "Alternative dispute resolution",
+    "Core Meaning": "Methods for settling contractual disputes outside of court, such as negotiation, mediation, and arbitration.",
+    "Depth": "Standard",
+    "Expansion": "Alternative dispute resolution, or ADR, offers faster and less adversarial routes than litigation to resolve claims and disagreements. Contracts often mandate a sequence such as negotiation, then mediation, then binding arbitration. ADR helps preserve commercial relationships and limits the cost and delay of formal legal action.",
+    "Deep Dive": null,
+    "Contrast": "Differs from litigation, which resolves disputes through the courts; ADR settles them through private, agreed mechanisms.",
+    "Example": "A contract clause requires the parties to attempt mediation, and if that fails, to use binding arbitration instead of suing.",
+    "Related Terms": [
+      "Dispute resolution",
+      "Negotiation",
+      "Claims administration",
+      "Contract administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Arbitration",
+    "Core Meaning": "Resolving a dispute by submitting it to a private neutral third party whose decision the parties accept.",
+    "Depth": "Standard",
+    "Expansion": "Arbitration is an alternative dispute resolution method in which conflicting parties present their case to a neutral arbitrator (or panel) outside the courts, and the arbitrator renders a decision. It is typically faster, cheaper, and more private than litigation, and procurement contracts often specify it as the agreed mechanism for settling claims. The decision may be binding or non-binding depending on the agreement.",
+    "Deep Dive": null,
+    "Contrast": "Mediation - a mediator facilitates the parties toward their own agreement, whereas an arbitrator actually decides the outcome.",
+    "Example": "A buyer and seller disputing a contract scope change agree to binding arbitration rather than going to court.",
+    "Related Terms": [
+      "Mediation",
+      "Negotiated Settlement",
+      "Claims Administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - claims administration / dispute resolution"
+  },
+  {
+    "Term": "Award fee",
+    "Core Meaning": "A contract incentive arrangement in which the buyer subjectively evaluates seller performance and determines a fee based on criteria defined in the contract.",
+    "Depth": "Standard",
+    "Expansion": "Award fee is used in procurement when performance is difficult to measure entirely with objective formulas but the buyer still wants to incentivise strong results. The contract sets evaluation criteria, review periods, and the method for determining the amount earned. In project management, it is most often discussed as part of incentive fee contract structures and contract administration.",
+    "Deep Dive": null,
+    "Contrast": "Fixed incentive fee contract — award fee depends on a buyer's performance evaluation against stated criteria, while fixed incentive fee uses a predetermined formula tied to cost, schedule, or technical targets.",
+    "Example": "A defence project includes an award-fee clause under which the client periodically scores the contractor on systems integration quality, responsiveness, and risk management before assigning the earned fee.",
+    "Related Terms": [
+      "Incentive fee",
+      "Procurement",
+      "Contract",
+      "Claims administration",
+      "Seller performance evaluation"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Bid",
+    "Core Meaning": "A proposal or offer submitted by a seller in response to a solicitation, usually for a price and specified terms.",
+    "Depth": "Standard",
+    "Expansion": "A bid is a seller's formal response to procurement solicitation, often used when requirements are clear and price competition is central. PMI distinguishes bids from proposals and quotations by the procurement context and the level of detail requested. Bids are evaluated during source selection to determine which seller best meets the buyer's needs.",
+    "Deep Dive": null,
+    "Contrast": "Proposal — a bid is typically a price-focused offer in response to a solicitation; a proposal may include broader technical and management information.",
+    "Example": "A contractor submits a bid to build a warehouse after the buyer issues an invitation for bid.",
+    "Related Terms": [
+      "Solicitation",
+      "Invitation for bid",
+      "Quotation",
+      "Source selection"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Bid"
+  },
+  {
+    "Term": "Bid documents",
+    "Core Meaning": "Procurement documents used to solicit responses from prospective sellers for project work, goods, or services.",
+    "Depth": "Standard",
+    "Expansion": "Bid documents are prepared by the buyer to communicate procurement requirements and invite sellers to submit offers or proposals. Depending on the procurement context, they may include specifications, statements of work, terms and conditions, evaluation criteria, and forms for seller response. In project management, they support a fair, structured sourcing process and provide a basis for comparing vendor submissions and selecting a seller.",
+    "Deep Dive": null,
+    "Contrast": "Procurement statement of work — bid documents are the full solicitation package sent to sellers, while the procurement statement of work is one component that describes the required deliverable or work.",
+    "Example": "A construction project issues bid documents for electrical installation work, including technical drawings, contract terms, site conditions, and submission instructions for bidders.",
+    "Related Terms": [
+      "Procurement",
+      "Procurement statement of work",
+      "Seller",
+      "Source selection criteria",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Sixth Edition / PMI Lexicon — confirm exact citation in Infinity"
+  },
+  {
+    "Term": "Bidder conference",
+    "Core Meaning": "A meeting with prospective sellers before bid or proposal preparation to ensure a common understanding of the procurement requirement.",
+    "Depth": "Standard",
+    "Expansion": "A bidder conference is a procurement event held to explain requirements, answer questions, and reduce misunderstanding before sellers submit responses. It helps the buyer communicate expectations consistently and gives all invited sellers the same information at the same time. This supports fair competition and can improve the quality and comparability of submitted bids or proposals.",
+    "Deep Dive": null,
+    "Contrast": "Procurement negotiation — a bidder conference clarifies requirements before proposals are submitted; negotiation occurs later to reach agreement with a selected seller.",
+    "Example": "A public sector project team holds a bidder conference for software vendors so each supplier hears the same explanation of integration, security, and service-level requirements before preparing proposals.",
+    "Synonyms": [
+      "Bidder Conferences"
+    ],
+    "Related Terms": [
+      "Procurement Statement of Work",
+      "Request for proposal",
+      "Source Selection Criteria",
+      "Seller",
+      "Procurement",
+      "Conduct Procurements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, bidder conference"
+  },
+  {
+    "Term": "Buyer",
+    "Core Meaning": "The acquirer of products, services, or results for an organization.",
+    "Depth": "Atomic",
+    "Expansion": "In procurement, the buyer is the party seeking to obtain goods or services from a seller. The buyer defines requirements, manages the solicitation and selection process, and administers the contract from the acquiring side.",
+    "Deep Dive": null,
+    "Contrast": "Seller — the buyer acquires and pays for the work; the seller provides the contracted product or service.",
+    "Example": "A city transit project acts as the buyer when it issues a request for proposal and awards a contract for station security equipment.",
+    "Related Terms": [
+      "Seller",
+      "Procurement",
+      "Contract",
+      "Bidder conference",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, buyer"
+  },
+  {
+    "Term": "Ceiling Price",
+    "Core Meaning": "The maximum price a buyer will pay under a contract, regardless of the seller's costs.",
+    "Depth": "Standard",
+    "Expansion": "The ceiling price is the highest amount a buyer agrees to pay under a contract, regardless of the seller's actual costs. In fixed-price incentive contracts it caps the buyer's exposure: above the ceiling, any further cost overrun is borne entirely by the seller. It is a key input to calculating the point of total assumption.",
+    "Deep Dive": null,
+    "Contrast": "Target price - the target price is the expected negotiated cost-plus-fee, whereas the ceiling price is the absolute maximum the buyer will pay.",
+    "Example": "A fixed-price incentive contract with a ceiling price of $1.2M means the buyer never pays more than that even if the seller's costs balloon.",
+    "Related Terms": [
+      "Point of Total Assumption",
+      "Target Price",
+      "Fixed-Price Incentive Fee Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - contract types (ceiling price)"
+  },
+  {
+    "Term": "Claim",
+    "Core Meaning": "A disputed change, compensation request, or assertion of entitlement typically arising when parties cannot agree on contract terms or performance impacts.",
+    "Depth": "Standard",
+    "Expansion": "A claim arises when one contracting party believes it is entitled to additional time, money, or other relief and that entitlement is disputed by the other party. In project settings, claims often stem from scope changes, delays, differing interpretations of requirements, or unforeseen conditions. They are managed through contract administration processes and may proceed to negotiation, alternative dispute resolution, or legal action if unresolved.",
+    "Deep Dive": null,
+    "Contrast": "Change request — a change request seeks approval to modify the project baseline or deliverables, while a claim is a disputed contractual assertion about entitlement or responsibility.",
+    "Example": "A contractor submits a claim for additional compensation after the client-directed redesign extends site work beyond the originally agreed completion period.",
+    "Related Terms": [
+      "Procurement management",
+      "Contract",
+      "Dispute",
+      "Change request",
+      "Negotiation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 699"
+  },
+  {
+    "Term": "Claims administration",
+    "Core Meaning": "The process of identifying, documenting, reviewing, and resolving disputed contract changes or other contract-related assertions between buyer and seller.",
+    "Depth": "Standard",
+    "Expansion": "Claims administration is part of procurement and contract management when one party seeks compensation, schedule relief, or another remedy under the contract. It provides a structured way to log claims, examine supporting evidence, apply contract terms, and pursue resolution through negotiation, alternative dispute resolution, or other formal means. Effective claims administration protects project interests while reducing escalation and preserving commercial clarity.",
+    "Deep Dive": null,
+    "Contrast": "Change control — change control governs proposed modifications to project baselines, while claims administration handles disputed matters when the parties disagree on entitlement, responsibility, or compensation.",
+    "Example": "A contractor submits a claim for additional payment after site conditions differ from the contract assumptions, and the project team reviews records, contract clauses, and schedule impacts before negotiating a resolution.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Dispute resolution",
+      "Change control",
+      "Contract administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide, procurement management section; exact page citation not confirmed in available PMI source"
+  },
+  {
+    "Term": "Close Procurements",
+    "Core Meaning": "The process of completing each project procurement and formally closing the related contract.",
+    "Depth": "Standard",
+    "Expansion": "Close Procurements finalises the contract relationship after the seller has completed the work or the agreement has otherwise ended. It includes verifying that contractual obligations were met, resolving outstanding claims where applicable, and archiving procurement records. The process ensures the procurement is formally closed and the project has a complete contractual record.",
+    "Deep Dive": null,
+    "Contrast": "Control Procurements — Control Procurements manages procurement performance while the contract is active; Close Procurements formally completes and closes it.",
+    "Example": "After a vendor delivers the final system release, receives final acceptance, and all invoices are settled, the project manager closes the contract and archives the procurement file.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Control Procurements",
+      "Claims administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide, Close Procurements; page citation not confirmed in available sources"
+  },
+  {
+    "Term": "Closed Procurements",
+    "Core Meaning": "Contracts that have been formally completed, settled, and signed off.",
+    "Depth": "Atomic",
+    "Expansion": "Closed procurements are contracts or other procurement agreements that have been formally finalized - all work accepted, claims settled, and closure documented by the authorized party. Closing a procurement includes verifying deliverables, settling open items, and archiving records. It is an output of the Control Procurements process.",
+    "Deep Dive": null,
+    "Contrast": "Close Project or Phase - closing procurements finalizes individual contracts, whereas Close Project or Phase finalizes the entire project or phase administratively.",
+    "Example": "A signed completion certificate from the buyer formally closing a contractor's construction contract.",
+    "Related Terms": [
+      "Control Procurements",
+      "Procurement Audits",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - Control Procurements (closed procurements)"
+  },
+  {
+    "Term": "Conduct Procurements",
+    "Core Meaning": "The process of obtaining seller responses, selecting a seller, and awarding a contract.",
+    "Depth": "Standard",
+    "Expansion": "Conduct Procurements is the process of collecting proposals or bids from prospective sellers, evaluating them against source selection criteria, choosing a seller, and awarding a contract. It includes activities such as bidder conferences, proposal evaluation, and negotiation. Its main output is a signed agreement that defines the working relationship with the selected seller.",
+    "Deep Dive": null,
+    "Contrast": "Plan Procurement Management - planning decides what and how to procure, whereas Conduct Procurements actually solicits, selects, and contracts a seller.",
+    "Example": "Issuing an RFP, evaluating the three proposals received, and signing a contract with the chosen vendor.",
+    "Related Terms": [
+      "Plan Procurement Management",
+      "Control Procurements",
+      "Source Selection Criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - Conduct Procurements"
+  },
+  {
+    "Term": "Contract",
+    "Core Meaning": "A mutually binding agreement that obligates the seller to provide the specified products, services, or results and obligates the buyer to provide monetary or other valuable consideration.",
+    "Depth": "Standard",
+    "Expansion": "In project management, a contract defines the legal and commercial relationship between the parties and sets expectations for scope, responsibilities, performance, and remedies. PMI uses the term in procurement and supplier management contexts where external parties contribute deliverables or capabilities. The form may vary, but the essential feature is enforceable mutual obligation.",
+    "Deep Dive": null,
+    "Contrast": "Procurement statement of work — the contract is the binding agreement between parties; the procurement statement of work describes the deliverable or work to be acquired.",
+    "Example": "A city signs a fixed-price contract with a construction firm to deliver a pedestrian bridge according to specified design, quality, and completion requirements.",
+    "Related Terms": [
+      "Procurement",
+      "Agreement",
+      "Seller",
+      "Buyer",
+      "Procurement statement of work"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, contract glossary entry, page 698"
+  },
+  {
+    "Term": "Contract administration",
+    "Core Meaning": "The ongoing management of a contract during execution to ensure both parties meet their obligations.",
+    "Depth": "Standard",
+    "Expansion": "Contract administration includes monitoring seller performance, managing changes, processing payments, maintaining records, and handling claims. It ensures the buyer receives what was agreed while protecting legal and commercial interests. Disciplined administration provides the documented basis for acceptance, disputes, and contract closure.",
+    "Deep Dive": null,
+    "Contrast": "Differs from contract negotiation, which sets the terms before signing; contract administration manages the relationship after award.",
+    "Example": "The project manager keeps a complete file of change orders and inspection results so the final contract closeout is uncontested.",
+    "Related Terms": [
+      "Control Procurements",
+      "Seller performance evaluation",
+      "Procurement closure",
+      "Change control"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Contract award",
+    "Core Meaning": "The process of selecting a seller and formally establishing the contract for the procured goods or services.",
+    "Depth": "Standard",
+    "Expansion": "In PMI usage, contract award is the outcome of source selection and negotiation that results in a binding agreement with a selected seller. It occurs during procurement activities after proposals or bids have been evaluated against defined criteria. The term matters because it marks the point where procurement planning becomes an enforceable external commitment with cost, schedule, scope, and risk implications.",
+    "Deep Dive": null,
+    "Contrast": "Procurement negotiation — contract award is the formal selection and establishment of the agreement; negotiation is the activity used to reach acceptable terms before award.",
+    "Example": "A public-sector project evaluates three vendor proposals for bridge inspection software, selects the highest-rated bidder, and issues the signed agreement as the contract award.",
+    "Related Terms": [
+      "Procurement",
+      "Source selection",
+      "Bid documents",
+      "Seller",
+      "Agreement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon / PMBOK Guide procurement terminology — exact page citation not retrievable from current source"
+  },
+  {
+    "Term": "Contract closure",
+    "Core Meaning": "The process of completing and settling a contract, including verifying deliverables and resolving any open claims or obligations.",
+    "Depth": "Standard",
+    "Expansion": "Contract closure is the procurement-focused closeout work performed once contracted deliverables have been accepted or the agreement is otherwise ended. It includes confirming that work was completed as required, documenting final records, and ensuring administrative and legal obligations are settled. In project management it is important because incomplete closeout can leave disputes, unpaid balances, warranty confusion, or audit gaps after project work appears finished.",
+    "Deep Dive": null,
+    "Contrast": "Close Project or Phase — contract closure concerns the formal completion of a specific procurement agreement; project or phase closure addresses the broader project-level administrative and delivery closeout.",
+    "Example": "After an equipment supplier completes factory acceptance testing and final installation, the project team confirms all deliverables, settles the final invoice, archives records, and closes the contract.",
+    "Related Terms": [
+      "Procurement closure",
+      "Close Project or Phase",
+      "Claims administration",
+      "Accepted deliverables",
+      "Procurement documentation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Fourth Edition, Close Procurements process; PMI Lexicon procurement terminology — exact page citation not retrievable from current source"
+  },
+  {
+    "Term": "Contract type",
+    "Core Meaning": "A classification of contractual arrangement that defines how payment, cost risk, and performance obligations are structured between buyer and seller.",
+    "Depth": "Foundational",
+    "Expansion": "Contract type describes the commercial form used to allocate financial risk and compensate the seller, such as fixed-price, cost-reimbursable, or time-and-materials arrangements. PMI treats it as a key procurement decision because the chosen type influences incentives, change handling, oversight needs, and the distribution of uncertainty between parties. Selecting the right contract type depends on how well scope is defined, how much cost variability is expected, and how much risk each party can reasonably manage.",
+    "Deep Dive": "Contract type is the basic commercial structure of an agreement; it governs how the seller gets paid, what cost exposure each side accepts, and how performance is managed. The common PMI categories are:\n\n- Fixed-price — the seller delivers for an agreed price and carries more of the cost exposure.\n- Cost-reimbursable — the buyer reimburses allowable costs and carries more of the cost exposure.\n- Time-and-materials — a hybrid that pays for the effort and materials actually used.\n\nWhy it matters and where it applies: the wrong contract type can distort behaviour, increase disputes, or shift risk to the party least able to control it. It is especially important in procurement-heavy projects such as construction, engineering, outsourcing, technology implementation, and regulated acquisitions.\n\nThe most common misconception is that one contract type is always best, or that fixed-price always means low risk for the buyer. In practice, fixed-price can increase total cost or create change conflict when scope is immature, while other types may better support uncertainty if governance is strong.\n\nHow it shows up in real projects: a buyer may use fixed-price for standard hardware, time-and-materials for specialist short-term expertise, and cost-reimbursable for research work where the solution cannot be fully specified upfront.",
+    "Contrast": "Agreement — an agreement is the overall documented understanding between parties; contract type is the specific commercial structure within that agreement.",
+    "Example": "A hospital project uses a fixed-price contract for standard imaging equipment installation but a time-and-materials contract for specialist cybersecurity support during system integration.",
+    "Figure": {
+      "svg": "<svg viewBox='22 34 294 163' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='34,58 300,150 34,150' fill='#B5462F' fill-opacity='0.16' stroke='#B5462F' stroke-width='1'/><polygon points='300,58 300,150 34,150' fill='#1F5FA8' fill-opacity='0.16' stroke='#1F5FA8' stroke-width='1'/><text x='42' y='52' fill='#B5462F' font-size='10'>Seller risk</text><text x='292' y='52' fill='#1F5FA8' font-size='10' text-anchor='end'>Buyer risk</text><line x1='34' y1='150' x2='300' y2='150' stroke='currentColor' stroke-width='1.4'/><text x='38' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FFP</text><text x='110' y='166' fill='currentColor' font-size='9' text-anchor='middle'>FPIF</text><text x='172' y='166' fill='currentColor' font-size='9' text-anchor='middle'>T&amp;M</text><text x='234' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPIF</text><text x='298' y='166' fill='currentColor' font-size='9' text-anchor='middle'>CPFF</text><text x='167' y='186' fill='currentColor' font-size='9' text-anchor='middle'>fixed price  →  cost-reimbursable</text></svg>"
+    },
+    "Related Terms": [
+      "Fixed-price contract",
+      "Cost-reimbursable contract",
+      "Time-and-materials contract",
+      "Procurement",
+      "Risk allocation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Seventh Edition procurement and agreement concepts; Procurement-related definitions in earlier PMBOK editions — exact page citation not retrievable from current source"
+  },
+  {
+    "Term": "Control Procurements",
+    "Core Meaning": "The process of managing procurement relationships, monitoring contract performance, and making changes and corrections as needed.",
+    "Depth": "Standard",
+    "Expansion": "Control Procurements focuses on overseeing seller performance after a contract has been awarded. It includes tracking deliverables, reviewing invoices, managing claims, and ensuring that both buyer and seller meet contractual obligations. The process also supports change control when contract modifications are needed. It helps the project team detect and address procurement issues before they affect project objectives.",
+    "Deep Dive": null,
+    "Contrast": "Close Procurements — Control Procurements manages active contracts during performance; Close Procurements completes the contract after the work is finished.",
+    "Example": "A project manager reviews a vendor's monthly deliverables, confirms milestone completion, and processes a contract change when the scope is adjusted.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Seller",
+      "Claim",
+      "Close Procurements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Control Procurements"
+  },
+  {
+    "Term": "Cost Plus Award Fee Contract (CPAF)",
+    "Core Meaning": "A cost-reimbursable contract in which the buyer pays the seller for allowable actual costs plus an award fee based on the buyer's evaluation of performance.",
+    "Depth": "Standard",
+    "Expansion": "A CPAF contract reimburses the seller for legitimate actual costs incurred and adds an award fee that represents profit. Unlike a purely formula-based incentive, the award depends on how the buyer assesses the seller's performance against stated criteria. It is used when the buyer wants flexibility in the work and also wants to motivate strong overall performance.",
+    "Deep Dive": null,
+    "Contrast": "Cost Plus Incentive Fee Contract (CPIF) — CPAF uses a buyer-evaluated award fee, while CPIF ties fee changes to predefined performance formulas.",
+    "Example": "A public-sector engineering project reimburses a contractor's allowable design costs and then grants an additional award fee based on quality, collaboration, and schedule responsiveness.",
+    "Related Terms": [
+      "Cost-reimbursable contract",
+      "Procurement contract",
+      "Award fee",
+      "Seller",
+      "Buyer"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
+  },
+  {
+    "Term": "Cost Plus Contract",
+    "Core Meaning": "A contract type in which the buyer reimburses the seller for allowable costs and pays an agreed fee.",
+    "Depth": "Standard",
+    "Expansion": "A cost plus contract is used when the work cannot be defined precisely enough to support a fixed-price arrangement. The buyer pays allowable actual costs and a fee that may be fixed, incentive-based, or otherwise structured under the contract terms. In PMI usage, it sits within the cost-reimbursable family and is chosen when scope uncertainty is high and flexibility is needed.",
+    "Deep Dive": null,
+    "Contrast": "Fixed-price contract — a cost plus contract reimburses allowable costs plus fee, while a fixed-price contract sets one agreed total price for the work.",
+    "Example": "A pharmaceutical development project hires a specialist research firm under a cost plus contract because the number of test cycles and analysis hours cannot be estimated reliably at the start.",
+    "Related Terms": [
+      "Cost-reimbursable contract",
+      "Fixed-price contract",
+      "Procurement",
+      "Contract",
+      "Incentive fee"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms / A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition — contract types under procurement, exact page citation not confirmed"
+  },
+  {
+    "Term": "Cost Plus Fixed Fee Contract (CPFF)",
+    "Core Meaning": "A cost-reimbursable contract in which the buyer reimburses allowable costs and pays a fixed fee as profit.",
+    "Depth": "Standard",
+    "Expansion": "A CPFF contract reimburses the seller for allowable actual costs of the work and adds a fixed fee. That fee does not change because of the seller's actual cost performance unless the contract scope itself changes. It is useful when the work cannot be fully defined at the start but the parties want the profit arrangement to remain stable.",
+    "Deep Dive": null,
+    "Contrast": "Cost Plus Incentive Fee Contract (CPIF) — CPFF pays a fixed fee, while CPIF allows the fee to vary based on defined performance outcomes.",
+    "Example": "A research project hires a specialist contractor under a CPFF contract to explore a new material, reimbursing approved costs and paying a fixed fee for the effort.",
+    "Related Terms": [
+      "Cost-reimbursable contract",
+      "Procurement contract",
+      "Fixed fee",
+      "Seller",
+      "Buyer"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
+  },
+  {
+    "Term": "Cost Plus Incentive Fee Contract (CPIF)",
+    "Core Meaning": "A reimbursable contract in which the buyer pays the seller allowable costs and an additional fee tied to agreed performance targets.",
+    "Depth": "Foundational",
+    "Expansion": "A cost-plus-incentive-fee contract is a cost-reimbursable agreement that pays the seller for legitimate incurred costs plus an incentive fee based on performance against specified objectives. PMI presents it as one of the main contract types used when the work cannot be estimated precisely enough for a fixed-price arrangement. It is intended to align seller behaviour with buyer priorities such as cost control, schedule achievement, or technical performance while preserving flexibility for uncertain work.",
+    "Deep Dive": "What it is: A cost-plus-incentive-fee contract reimburses allowable seller costs and adds a fee that varies according to an agreed incentive formula. The formula usually shares savings or overruns between buyer and seller and defines how performance affects final compensation.\n\nWhy it matters and where it applies: it is useful when scope or technical uncertainty makes precise pricing difficult, but the buyer still wants to motivate efficient performance. It commonly appears in research, engineering, defence, and complex development efforts where uncertainty is high and collaboration is necessary.\n\nThe most common misconception: that this contract simply pays whatever the seller spends. In practice, the incentive arrangement is designed to influence behaviour, and the contract sets rules for allowable costs, target cost, target fee, and sharing ratios.\n\nHow it shows up in real projects: a buyer funds prototype development for a complex system and agrees that if the seller finishes below target cost, both parties share the savings, while overruns reduce the seller's earned fee according to the contract formula.",
+    "Contrast": "Cost-plus-fixed-fee contract — a cost-plus-incentive-fee contract varies the seller's fee based on performance, while a cost-plus-fixed-fee contract pays a set fee regardless of actual performance against incentive targets.",
+    "Example": "A public-sector agency hires a contractor to develop a new radar prototype under a target-cost arrangement where underruns increase the contractor's fee and overruns reduce it based on a negotiated sharing ratio.",
+    "Synonyms": [
+      "Cost-plus-incentive-fee contract"
+    ],
+    "Related Terms": [
+      "Cost-reimbursable contract",
+      "Procurement contract",
+      "Incentive fee",
+      "Target cost",
+      "Seller",
+      "Cost-plus-fixed-fee contract",
+      "Fixed-price contract",
+      "Procurement management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition Glossary — cost-plus-incentive-fee contract"
+  },
+  {
+    "Term": "Cost-reimbursable contract",
+    "Core Meaning": "A contract type that involves payment to the seller for all legitimate actual costs incurred for completed work, plus a fee representing seller profit.",
+    "Depth": "Standard",
+    "Expansion": "A cost-reimbursable contract is used when work scope is uncertain or cannot be estimated precisely enough for a fixed-price arrangement. The buyer reimburses allowable costs and pays an additional fee according to the contract terms. This form increases flexibility but requires closer oversight of cost control and contract administration.",
+    "Deep Dive": null,
+    "Contrast": "Fixed-price contract — a cost-reimbursable contract repays allowable actual costs plus fee, while a fixed-price contract sets a defined price for the specified work.",
+    "Example": "A research project hires a specialist laboratory under a cost-reimbursable contract because the exact testing effort cannot be known at the start.",
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Fixed-price contract",
+      "Time and materials contract",
+      "Procurement management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 8"
+  },
+  {
+    "Term": "Delivery order",
+    "Core Meaning": "A contract instrument that orders a defined quantity of supplies or goods under the terms of an existing indefinite-delivery indefinite-quantity master contract.",
+    "Depth": "Standard",
+    "Expansion": "A delivery order calls off products against pricing and terms already agreed in the parent contract. It speeds repeat purchasing because commercial conditions are settled at the master-contract level and only quantities and dates vary. Delivery orders are widely used for materials and equipment in framework arrangements. Each order specifies quantities, delivery dates, and destinations.",
+    "Deep Dive": null,
+    "Contrast": "Task order — a task order authorizes services or labor, whereas a delivery order authorizes tangible supplies.",
+    "Example": "The buyer places a delivery order for 200 servers under its hardware master contract.",
+    "Related Terms": [
+      "Task order",
+      "Statement of work",
+      "Contract"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Procurement management practice (indefinite-delivery contracting)"
+  },
+  {
+    "Term": "Dispute",
+    "Core Meaning": "A disagreement between parties that has escalated into a formal disagreement requiring resolution, often in a contractual context.",
+    "Depth": "Standard",
+    "Expansion": "In PMI usage, a dispute is more serious than an ordinary disagreement because it has moved into a formal resolution path. It commonly arises in procurement when parties differ on contract interpretation, performance, payment, delay, or entitlement. Disputes are managed through agreed resolution mechanisms such as negotiation, escalation, mediation, arbitration, or dispute review structures.",
+    "Deep Dive": null,
+    "Contrast": "Claim — a claim is a request or assertion for relief or adjustment; a dispute is the unresolved disagreement that exists when the parties do not settle the claim.",
+    "Example": "A supplier requests additional payment for scope it says was implied by the contract, the buyer rejects the request, and the matter becomes a formal dispute under the contract's resolution process.",
+    "Related Terms": [
+      "Claim",
+      "Procurement",
+      "Contract",
+      "Dispute review board",
+      "Conflict management"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Dispute resolution",
+    "Core Meaning": "The methods used to settle disagreements between contracting parties over claims, performance, or interpretation of terms.",
+    "Depth": "Standard",
+    "Expansion": "Dispute resolution covers the spectrum from informal negotiation through mediation and arbitration to litigation. Contracts usually specify the preferred sequence and forum so that conflicts are handled predictably. Effective resolution preserves the working relationship and avoids costly delays to delivery.",
+    "Deep Dive": null,
+    "Contrast": "Differs from claims administration, which logs and quantifies claims; dispute resolution is the process of actually settling them.",
+    "Example": "When a subcontractor disputes a withheld payment, the parties follow the contract clause and resolve it through mediation rather than court.",
+    "Related Terms": [
+      "Alternative dispute resolution",
+      "Claims administration",
+      "Negotiation",
+      "Contract administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Dispute review board",
+    "Core Meaning": "A panel of neutral experts appointed at the start of a project to help avoid disputes and resolve them during project execution.",
+    "Depth": "Standard",
+    "Expansion": "A dispute review board is an alternative dispute resolution mechanism used on projects where disagreements may arise among contracting parties. PMI defines it as a panel of neutral experts established at the beginning of the project to help prevent disputes and address them as they emerge. It is especially relevant on large, complex, or claim-prone projects where early neutral input can reduce escalation.",
+    "Deep Dive": null,
+    "Contrast": "Mediation — a dispute review board is established early and remains involved through the project; mediation is usually introduced after a dispute has already formed.",
+    "Example": "On a major rail-construction project, the owner and contractor use a dispute review board to review delay claims before they develop into formal legal proceedings.",
+    "Related Terms": [
+      "Alternative dispute resolution",
+      "Claims administration",
+      "Mediation",
+      "Arbitration",
+      "Negotiation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge — page 252"
+  },
+  {
+    "Term": "Economic price adjustment",
+    "Core Meaning": "A contractual mechanism that permits defined changes to price when specified economic conditions change.",
+    "Depth": "Standard",
+    "Expansion": "In PMI procurement practice, economic price adjustment is associated with fixed-price-with-economic-price-adjustment contracts. It is used when long-duration work could be materially affected by inflation, commodity shifts, or other external economic changes identified in the contract. The adjustment is not discretionary; it follows conditions and formulas agreed in advance.",
+    "Deep Dive": null,
+    "Contrast": "Firm-fixed-price contract — economic price adjustment allows limited price changes under defined economic conditions, while a firm-fixed-price contract keeps the agreed price unchanged.",
+    "Example": "A three-year construction materials agreement includes an index-based clause that adjusts the contract price if published steel prices move beyond an agreed threshold.",
+    "Related Terms": [
+      "Fixed-price-with-economic-price-adjustment contract",
+      "Procurement",
+      "Contract type",
+      "Inflation",
+      "Price risk"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, glossary entry for fixed-price with economic price adjustment contract, page 243"
+  },
+  {
+    "Term": "Fee",
+    "Core Meaning": "The profit component of a seller's compensation in a contract.",
+    "Depth": "Atomic",
+    "Expansion": "In procurement, the fee is the portion of a seller's payment that represents profit, as distinct from the costs the seller incurs. It is central to cost-reimbursable and incentive contracts, where the fee may be fixed or adjusted up or down based on the seller's performance.",
+    "Deep Dive": null,
+    "Contrast": "Price - price is the total amount the buyer pays (cost plus fee), whereas the fee is only the profit portion.",
+    "Example": "In a cost-plus-fixed-fee contract, the seller is reimbursed allowable costs plus a set fee that represents its profit.",
+    "Related Terms": [
+      "Cost-plus-fixed-fee contract",
+      "Incentive fee",
+      "Cost-reimbursable contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - procurement and contract terms (fee)"
+  },
+  {
+    "Term": "Firm Fixed Price Contract (FFP)",
+    "Core Meaning": "A fixed-price contract in which the buyer pays an agreed total amount for the specified work regardless of the seller's actual cost.",
+    "Depth": "Standard",
+    "Expansion": "A Firm Fixed Price contract establishes a total price in advance for a defined scope of work. Under this arrangement, the seller generally bears most of the cost risk because payment does not increase simply because actual effort or cost is higher than expected. It is most suitable when requirements are stable, specifications are clear, and changes are expected to be limited.",
+    "Deep Dive": null,
+    "Contrast": "Cost-reimbursable contract — an FFP contract pays a set total amount for defined work, while a cost-reimbursable contract pays allowable actual costs subject to the contract terms.",
+    "Example": "A buyer contracts a supplier to deliver a standard payroll interface for a single agreed amount based on a detailed statement of work and acceptance criteria.",
+    "Synonyms": [
+      "Firm-fixed-price",
+      "Firm-fixed-price contract"
+    ],
+    "Related Terms": [
+      "Fixed-price contract",
+      "Procurement statement of work",
+      "Seller",
+      "Contract",
+      "Cost-reimbursable contract",
+      "Fixed-price incentive fee contract",
+      "Procurement contract",
+      "Statement of work",
+      "Buyer",
+      "Fixed price contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Glossary, page 725"
+  },
+  {
+    "Term": "Fixed fee",
+    "Core Meaning": "A fee component in a contract that remains constant and does not vary with the seller's actual cost experience.",
+    "Depth": "Atomic",
+    "Expansion": "Fixed fee usually appears in cost-reimbursable contracting, especially cost-plus-fixed-fee arrangements. It represents a stable amount of seller profit unless the contract itself is formally changed.",
+    "Deep Dive": null,
+    "Contrast": "Incentive fee — a fixed fee remains constant, while an incentive fee changes based on defined performance results.",
+    "Example": "A specialist engineering firm is reimbursed for allowable project costs and receives a fixed fee for managing the work.",
+    "Related Terms": [
+      "Fee",
+      "Cost-reimbursable contract",
+      "Procurement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 12.1.1.6"
+  },
+  {
+    "Term": "Fixed Price Incentive Fee Contract (FPIF)",
+    "Core Meaning": "A fixed-price contract that includes a financial incentive for meeting defined performance objectives.",
+    "Depth": "Standard",
+    "Expansion": "A fixed-price-incentive-fee contract establishes a fixed base arrangement while allowing the seller to earn additional compensation for achieving agreed targets. Those targets commonly relate to cost, schedule, or technical performance. It balances cost control with motivational incentives and is useful when the buyer wants stronger performance signals without moving fully to a cost-reimbursable model.",
+    "Deep Dive": null,
+    "Contrast": "Firm-fixed-price contract — a fixed-price-incentive-fee contract includes incentive mechanisms tied to performance, while a firm-fixed-price contract does not.",
+    "Example": "A manufacturer receives a base fixed payment for equipment delivery and can earn extra fee if reliability targets are exceeded during acceptance testing.",
+    "Synonyms": [
+      "Fixed-price incentive fee contract",
+      "Fixed-price-incentive-fee contract"
+    ],
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Incentive fee",
+      "Firm-fixed-price contract",
+      "Price Ceiling",
+      "Firm-fixed-price",
+      "Target cost",
+      "Procurement contract",
+      "Share ratio"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide glossary, fixed-price-incentive-fee contract, page 181"
+  },
+  {
+    "Term": "Fixed Price with Economic Price Adjustment Contract (FPEPA)",
+    "Core Meaning": "A fixed-price contract that permits predefined price adjustments when specified economic conditions change.",
+    "Depth": "Standard",
+    "Expansion": "An FPEPA contract starts with a fixed-price arrangement but includes clauses that adjust the price if external economic conditions, such as inflation or commodity-index shifts, move beyond agreed thresholds. It is useful for long-duration procurements where market volatility could otherwise make a pure fixed-price agreement impractical. The adjustment rules are defined in advance so the buyer and seller share certain external risks in a controlled way.",
+    "Deep Dive": null,
+    "Contrast": "Firm-Fixed-Price Contract — FPEPA allows limited price changes for specified economic triggers, while firm-fixed-price keeps the price unchanged throughout the contract.",
+    "Example": "A multi-year construction materials contract allows the contract price to be adjusted if a published steel-price index rises or falls beyond the threshold stated in the agreement.",
+    "Synonyms": [
+      "Fixed-price-with-economic-price-adjustment contract"
+    ],
+    "Related Terms": [
+      "Contract",
+      "Procurement",
+      "Firm-fixed-price contract",
+      "Economic price adjustment",
+      "Fixed-Price Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide Glossary, Fixed-Price with Economic Price Adjustment Contract, p. 181"
+  },
+  {
+    "Term": "Fixed-price contract",
+    "Core Meaning": "A contract type that sets a total price for a defined product, service, or result, with most cost risk borne by the seller.",
+    "Depth": "Foundational",
+    "Expansion": "A fixed-price contract establishes a predetermined amount to be paid for agreed scope, deliverables, or outcomes. It is most effective when requirements are stable enough to define the work clearly and evaluate performance against specific acceptance criteria. PMI treats it as a major procurement contract family, with variants such as firm-fixed-price and fixed-price incentive arrangements.",
+    "Deep Dive": "What it is: A fixed-price contract is a procurement agreement in which the seller commits to deliver specified work for an agreed total price. The buyer gains greater cost predictability, while the seller accepts more responsibility for controlling execution costs.\n\nWhy it matters and where it applies: it is widely used when scope can be defined with reasonable precision, such as construction packages, equipment purchases, and standardised services. It helps organisations manage budgets and compare bids, but it also makes scope definition, change control, and acceptance criteria especially important.\n\nThe most common misconception: that fixed-price means no risk remains for the buyer. In practice, buyer risk still exists through poor scope definition, aggressive seller assumptions, quality disputes, change requests, and claims when actual conditions differ from what was specified.\n\nHow it shows up in real projects: a project team issues a statement of work, receives seller proposals, negotiates a fixed amount, and then manages performance through milestones, deliverable reviews, contract administration, and formal change control when scope shifts.",
+    "Contrast": "Cost-reimbursable contract — a fixed-price contract pays an agreed total for defined work, while a cost-reimbursable contract pays allowable actual costs plus a fee.",
+    "Example": "A company contracts a vendor to install standard office security hardware across three sites for a single agreed price tied to defined acceptance tests.",
+    "Synonyms": [
+      "Fixed price contract"
+    ],
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Cost-reimbursable contract",
+      "Firm-fixed-price",
+      "Statement of work",
+      "Change control",
+      "Scope baseline"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Sixth Edition, Project Procurement Management, contract types, exact page citation to confirm in PMI source"
+  },
+  {
+    "Term": "Force Majeure",
+    "Core Meaning": "A contract clause that frees the parties from liability when extraordinary events beyond their control prevent them from meeting their obligations.",
+    "Depth": "Standard",
+    "Expansion": "A force majeure clause excuses a party from performing its contractual duties when events such as natural disasters, war, terrorism, or pandemics make performance impossible. It allocates the risk of such uncontrollable events, usually suspending obligations rather than terminating the contract outright. Project managers rely on these clauses to know who bears the cost and schedule impact when a major disruption strikes.",
+    "Deep Dive": null,
+    "Contrast": "Material breach - a material breach is a culpable failure serious enough to void the contract, whereas force majeure excuses non-performance caused by uncontrollable external events.",
+    "Example": "A supplier invokes force majeure after a hurricane destroys its factory, suspending its delivery obligations without penalty.",
+    "Related Terms": [
+      "Material breach",
+      "Contract",
+      "Risk transference",
+      "Procurement management"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Incentive fee",
+    "Core Meaning": "A contract fee adjustment tied to the seller's performance against agreed cost, schedule, technical, or quality targets.",
+    "Depth": "Standard",
+    "Expansion": "Incentive fee is used in procurement arrangements to motivate the seller to achieve specified performance outcomes beyond simple reimbursement or fixed payment. The fee varies according to a formula or set of criteria defined in the contract, such as finishing early, controlling costs, or meeting stretch performance levels. In PMI terminology, it is commonly discussed in relation to incentive-based contract types such as fixed-price incentive fee and cost-plus-incentive-fee contracts.",
+    "Deep Dive": null,
+    "Contrast": "Award fee — incentive fee is earned through a defined formula tied to measurable performance targets, while award fee is based on the buyer's more subjective evaluation criteria.",
+    "Example": "A buyer structures a supplier contract so the seller earns additional fee if manufacturing equipment is delivered ahead of the target date while still meeting acceptance criteria.",
+    "Related Terms": [
+      "Fixed-price incentive fee contract",
+      "Cost-plus-incentive-fee contract",
+      "Award fee",
+      "Procurement",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Project Procurement Management — incentive fee; confirm exact page in Infinity"
+  },
+  {
+    "Term": "Indefinite Delivery Indefinite Quantity (IDIQ)",
+    "Core Meaning": "A contract vehicle that sets broad limits for repeated procurements over time while leaving the exact timing and quantity of work to be defined by later orders.",
+    "Depth": "Standard",
+    "Expansion": "IDIQ is primarily a procurement and contracting concept used when a buyer cannot define precise quantities or timing at award. In project settings, it supports flexible acquisition of recurring goods or services within a stated contract ceiling and ordering period. It is especially common in government and large-enterprise environments where work is released through task orders or delivery orders rather than a single fully specified purchase.",
+    "Deep Dive": null,
+    "Contrast": "Fixed-price contract — IDIQ establishes a flexible ordering framework, while a fixed-price contract usually defines a specific scope and price for a defined deliverable.",
+    "Example": "A public-sector infrastructure program awards an IDIQ engineering-services contract, then issues task orders for site studies, design revisions, and inspection support as individual projects mature.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Task order",
+      "Delivery order",
+      "Statement of work"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Indemnity",
+    "Core Meaning": "A contractual obligation in which one party agrees to compensate another for specified losses, damages, or liabilities.",
+    "Depth": "Standard",
+    "Expansion": "Indemnity clauses allocate the financial consequences of defined risks between buyer and seller, shifting responsibility for losses such as third-party claims, infringement, or negligence. They are a core mechanism for risk transfer in procurement and are often paired with insurance and limitation-of-liability provisions. Negotiating indemnities involves balancing protection against the price and willingness of the other party to accept exposure. Poorly bounded indemnities can create large contingent liabilities.",
+    "Deep Dive": null,
+    "Contrast": "Contingency reserve — a contingency reserve is money set aside internally for identified risks, whereas indemnity transfers loss to another contracting party.",
+    "Example": "The supplier agrees to indemnify the client against third-party intellectual-property claims arising from the delivered software.",
+    "Related Terms": [
+      "Liability",
+      "Contract",
+      "Contingency reserve"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Contract and procurement management practice"
+  },
+  {
+    "Term": "Independent estimate",
+    "Core Meaning": "An estimate prepared by using a different set of assumptions or methods to assess whether the original estimate is within an acceptable range.",
+    "Depth": "Standard",
+    "Expansion": "An independent estimate provides an objective check on the reasonableness of another estimate. PMI uses it to compare expected cost or duration outcomes against the working estimate prepared by the project team or seller. It helps expose optimism bias, missing scope, or weak assumptions. This makes it useful in governance, procurement, and major approval decisions.",
+    "Deep Dive": null,
+    "Contrast": "Bottom-up estimating — an independent estimate is created separately to validate another estimate, while bottom-up estimating is a method for building the primary estimate from detailed work components.",
+    "Example": "Before approving a data-center migration budget, the sponsor commissions a separate estimating team to produce an independent estimate and compare it with the delivery team's forecast.",
+    "Related Terms": [
+      "Estimate",
+      "Bottom-up estimating",
+      "Cost estimate",
+      "Schedule estimate",
+      "Validation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, independent estimates, p. 241"
+  },
+  {
+    "Term": "Invitation for bid",
+    "Core Meaning": "A procurement document used to request price bids from prospective sellers for a well-defined product, service, or result.",
+    "Depth": "Standard",
+    "Expansion": "An invitation for bid is used when the buyer can define the requirement clearly enough for sellers to compete largely on price. PMI treats it as a formal procurement solicitation that supports comparable bids under common specifications and terms. It is most suitable when the work is well understood and the main evaluation factor is cost. This helps create a fair and structured sourcing process.",
+    "Deep Dive": null,
+    "Contrast": "Request for proposal — an invitation for bid is used when requirements are well defined and price is the main basis of selection, while a request for proposal is used when the seller's approach and technical solution also need evaluation.",
+    "Example": "A public agency issues an invitation for bid for office fit-out work with detailed drawings, material standards, and a required completion date.",
+    "Related Terms": [
+      "Procurement",
+      "Bid",
+      "Seller",
+      "Request for proposal",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, invitation for bid, p. 720"
+  },
+  {
+    "Term": "Kraljic matrix",
+    "Core Meaning": "A procurement analysis model that classifies purchases by profit impact and supply risk to guide sourcing strategy.",
+    "Depth": "Atomic",
+    "Expansion": "The Kraljic matrix helps teams segment procurements into categories such as leverage, strategic, bottleneck, and noncritical. That segmentation supports different supplier and contracting strategies based on business importance and market risk.",
+    "Deep Dive": null,
+    "Contrast": "Make-or-buy analysis — Kraljic matrix classifies external purchases for sourcing strategy, while make-or-buy analysis decides whether work or goods should be produced internally or acquired externally.",
+    "Example": "A construction program office classifies structural steel as a strategic item because supply disruption would be severe and the cost impact is high, then develops stronger supplier relationship and contingency plans.",
+    "Related Terms": [
+      "Procurement strategy",
+      "Source selection criteria",
+      "Contract type",
+      "Supply risk",
+      "Make-or-buy analysis"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Long-lead item",
+    "Core Meaning": "An item that requires significant advance time to procure, produce, or deliver and therefore must be identified early in planning.",
+    "Depth": "Standard",
+    "Expansion": "A long-lead item is a material, component, service, or approval that has an unusually long wait time relative to the rest of the work. It matters because failure to identify it early can create schedule delays even when downstream tasks are ready to proceed. Project teams often isolate these items in procurement and schedule planning so ordering and tracking can begin ahead of other activities.",
+    "Deep Dive": null,
+    "Contrast": "Critical path activity — a long-lead item is defined by its extended acquisition or delivery time; a critical path activity is defined by its effect on total project duration.",
+    "Example": "In a factory expansion project, specialized electrical switchgear is ordered months before installation because manufacturing and shipping time exceed the duration of several construction phases.",
+    "Related Terms": [
+      "Procurement",
+      "Schedule planning",
+      "Critical path",
+      "Material availability",
+      "Dependency"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Make-or-buy analysis",
+    "Core Meaning": "A decision analysis technique used to determine whether particular work can best be accomplished by the project team or should be purchased from outside sources.",
+    "Depth": "Standard",
+    "Expansion": "Make-or-buy analysis compares internal capability, cost, timing, risk, and strategic fit against external procurement options. It helps the team decide whether to produce a deliverable internally or obtain it from a seller. The technique is commonly applied during planning when sourcing strategy affects schedule, budget, quality, or control.",
+    "Deep Dive": null,
+    "Contrast": "Procurement management plan — make-or-buy analysis is the decision technique used to choose sourcing; the procurement management plan defines how procurements will be managed.",
+    "Example": "A data-platform project compares building a custom dashboard engine with purchasing a commercial reporting tool and selects the option with lower lifecycle risk and faster deployment.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Source selection",
+      "Procurement management plan",
+      "Decision analysis technique"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, make-or-buy analysis, page 471"
+  },
+  {
+    "Term": "Make-or-buy decision",
+    "Core Meaning": "A determination of whether project work, products, or services should be performed internally or obtained from an external source.",
+    "Depth": "Foundational",
+    "Expansion": "A make-or-buy decision is a procurement and resourcing determination used to decide whether the performing organisation should create a deliverable itself or acquire it from a seller. PMI treats it as a key part of planning procurements because the choice affects cost, schedule, risk, capability, and control. It is especially important when specialised expertise, capacity limits, contractual risk, or strategic priorities shape how work should be sourced.",
+    "Deep Dive": "A make-or-buy decision evaluates whether work should be done by the project team or outsourced through procurement. The analysis typically weighs several factors:\n\n- Internal capability.\n- Total cost.\n- Timing.\n- Quality needs.\n- Intellectual property.\n- Risk exposure.\n\nWhy it matters and where it applies: this decision can reshape the entire delivery strategy of a project. It is common in construction, IT, product development, and capital projects where some components may be core to the organisation while others are better sourced from specialist vendors.\n\nThe most common misconception is that it is only a cost comparison. In practice, the decision also weighs schedule certainty, contract management burden, market availability, strategic control, and the consequences of dependency on suppliers.\n\nHow it shows up in real projects: a team may build a custom integration internally because it is strategically sensitive, while buying a commercial scheduling tool because the market already provides a proven option.",
+    "Contrast": "Procurement — a make-or-buy decision is the choice of internal production versus external sourcing; procurement is the broader process of acquiring products or services from outside the organisation.",
+    "Example": "A hospital implementation project decides to buy a commercial patient-notification platform instead of building one in-house because vendor capability is mature and delivery time is shorter.",
+    "Related Terms": [
+      "Procurement",
+      "Plan Procurement Management",
+      "Contract",
+      "Source selection",
+      "Bid documents"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Plan Procurement Management, page 471"
+  },
+  {
+    "Term": "Market Analysis",
+    "Core Meaning": "Examining market conditions, suppliers, and trends to inform project and procurement decisions.",
+    "Depth": "Atomic",
+    "Expansion": "Market analysis studies the availability, capabilities, and pricing of suppliers and the broader competitive landscape before make-or-buy and sourcing decisions. It helps the team understand options, risks, and opportunities in the external environment.",
+    "Deep Dive": null,
+    "Contrast": "Distinct from make-or-buy analysis, which decides whether to procure, market analysis informs that decision by surveying what the market offers.",
+    "Example": "Before issuing a tender, the team performs market analysis to learn which vendors can supply the specialized component.",
+    "Related Terms": [
+      "Make-or-buy analysis",
+      "Procurement strategy",
+      "External environment",
+      "Source selection criteria"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Market Research",
+    "Core Meaning": "Gathering information from varied sources to identify market capabilities and available suppliers.",
+    "Depth": "Atomic",
+    "Expansion": "Market research is the procurement technique of examining industry and vendor capabilities by drawing on conferences, online reviews, trade publications, and other sources. It helps a buying organization understand what the market can provide and shape its make-or-buy and sourcing decisions before issuing solicitations.",
+    "Deep Dive": null,
+    "Contrast": "Bidder conferences - bidder conferences engage specific prospective sellers about a particular procurement, whereas market research broadly surveys overall market capabilities beforehand.",
+    "Example": "Before drafting an RFP, a procurement team studies analyst reports and vendor reviews to learn which suppliers can deliver the technology.",
+    "Related Terms": [
+      "Procurement management",
+      "Make-or-buy analysis",
+      "Bidder conferences",
+      "Source selection"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - market research (procurement)"
+  },
+  {
+    "Term": "Material Breach",
+    "Core Meaning": "A contract violation serious enough to defeat the contract's purpose and justify legal action.",
+    "Depth": "Standard",
+    "Expansion": "A material breach is a failure to perform that is significant enough to destroy the value of the contract, giving the injured party grounds to sue for damages and potentially to be excused from its own obligations. It contrasts with a minor or immaterial breach, which entitles the injured party to remedies but does not void the agreement. Knowing the difference guides how a project manager escalates and responds to supplier failures.",
+    "Deep Dive": null,
+    "Contrast": "Force majeure - force majeure excuses non-performance caused by uncontrollable external events, whereas a material breach is a culpable failure to perform that triggers liability.",
+    "Example": "A contractor abandons the worksite halfway through with no intention to return, a material breach that lets the buyer terminate and seek damages.",
+    "Related Terms": [
+      "Force majeure",
+      "Contract",
+      "Procurement management",
+      "Claims administration"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Memorandum of Understanding",
+    "Core Meaning": "A document recording the intentions and shared understanding of two or more parties, usually non-binding.",
+    "Depth": "Standard",
+    "Expansion": "A memorandum of understanding sets out the roles, expectations, and intended cooperation among parties before or instead of a binding contract. It signals commitment and aligns understanding but generally lacks the legal enforceability of a formal agreement. Such memoranda are common between partner organizations, agencies, or internal divisions.",
+    "Deep Dive": null,
+    "Contrast": "Unlike a contract, which creates legally enforceable obligations, a memorandum of understanding usually expresses intent without binding the parties.",
+    "Example": "Two universities sign a memorandum of understanding to share research facilities before negotiating detailed contractual terms.",
+    "Related Terms": [
+      "Agreement",
+      "Service level agreement",
+      "Procurement contract"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Negotiated Settlement",
+    "Core Meaning": "A mutually agreed resolution of outstanding claims and issues when closing a procurement.",
+    "Depth": "Atomic",
+    "Expansion": "A negotiated settlement is the agreement that resolves disputes, claims, and open items so a contract can be closed fairly to both parties. It is the preferred way to settle differences without resorting to litigation or arbitration.",
+    "Deep Dive": null,
+    "Contrast": "Unlike alternative dispute resolution through arbitration, a negotiated settlement is reached directly by the parties rather than imposed by a third party.",
+    "Example": "Buyer and seller negotiate a final payment that settles all change-order claims and closes the contract.",
+    "Related Terms": [
+      "Claims administration",
+      "Procurement closure",
+      "Alternative dispute resolution",
+      "Contract closure"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Not-to-exceed limit",
+    "Core Meaning": "A contractual ceiling on the amount a buyer will pay regardless of actual costs incurred.",
+    "Depth": "Atomic",
+    "Expansion": "A not-to-exceed limit caps the total a seller can bill, limiting the financial exposure of the buyer even on cost-reimbursable or time-and-materials work. Costs above the ceiling are typically borne by the seller unless the buyer authorizes a change.",
+    "Deep Dive": null,
+    "Contrast": "Unlike a firm fixed price, which sets a single agreed price, a not-to-exceed limit allows variable billing up to a maximum.",
+    "Example": "A consulting contract bills hourly but stops at a not-to-exceed limit of 200k for the engagement.",
+    "Related Terms": [
+      "Time and materials contract",
+      "Cost-reimbursable contract",
+      "Cost baseline"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Payment schedule",
+    "Core Meaning": "A planned timetable specifying when and how much will be paid to a seller over the course of a contract.",
+    "Depth": "Atomic",
+    "Expansion": "A payment schedule ties disbursements to milestones, deliverables, or elapsed time so cash outflow is predictable and linked to value received. It is a key term of the procurement agreement and feeds the project cash flow forecast.",
+    "Deep Dive": null,
+    "Contrast": "Differs from a cost baseline, which authorizes total spend; a payment schedule governs the timing of payments to a specific seller.",
+    "Example": "The construction contract releases 20 percent on mobilization and the remainder against four completed inspection milestones.",
+    "Related Terms": [
+      "Procurement Management Plan",
+      "Cost baseline",
+      "Milestone",
+      "Earned value management"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Plan procurement management",
+    "Core Meaning": "The process of documenting project procurement decisions, specifying the approach, and identifying potential sellers.",
+    "Depth": "Standard",
+    "Expansion": "This process determines what will be procured, how procurement will be conducted, and what criteria will be used to evaluate sellers. It helps align procurement strategy with project needs, constraints, and governance requirements. The output supports later solicitation, selection, and contract administration activities.",
+    "Deep Dive": null,
+    "Contrast": "Conduct procurements — planning defines the approach and criteria; conducting procurements executes the seller selection and contracting work.",
+    "Example": "A project team decides to outsource testing, defines the evaluation criteria, and identifies qualified vendors before issuing a request for proposal.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Contract",
+      "Procurement management plan",
+      "Solicitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase — Plan Procurement Management process, page 59"
+  },
+  {
+    "Term": "Point of Total Assumption",
+    "Core Meaning": "In a fixed-price incentive contract, the cost level above which the seller bears all additional cost overruns.",
+    "Depth": "Standard",
+    "Expansion": "The point of total assumption (PTA) applies to fixed-price incentive fee contracts and marks the cost at which the seller becomes responsible for every dollar of further overrun. Below the PTA, buyer and seller share overruns per the sharing ratio; above it, the buyer pays no more, so the seller absorbs 100 percent. It is calculated from the ceiling price, target price, target cost, and the buyer's share ratio, and it signals where the seller's financial risk peaks.",
+    "Deep Dive": null,
+    "Contrast": "Ceiling price - the ceiling price is the maximum the buyer will ever pay, whereas the PTA is the cost point at which the seller starts bearing all further overrun.",
+    "Example": "On an FPIF contract, once actual costs pass the PTA the seller, not the buyer, funds every additional dollar.",
+    "Related Terms": [
+      "Ceiling Price",
+      "Sharing Ratio",
+      "Fixed-Price Incentive Fee Contract",
+      "Target Cost"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - procurement / contract types"
+  },
+  {
+    "Term": "Price Ceiling",
+    "Core Meaning": "A contractual limit that sets the maximum amount the buyer is obligated to pay under the terms of the contract.",
+    "Depth": "Atomic",
+    "Expansion": "Price ceiling is commonly used in procurement and contract administration, especially in cost-reimbursable arrangements with incentive structures. It caps the buyer's financial exposure even if actual seller costs rise above expectations.",
+    "Deep Dive": null,
+    "Contrast": "Target cost — the target cost is the planned cost basis for incentive sharing; the price ceiling is the upper payment limit under the contract.",
+    "Example": "A buyer awards a cost-plus-incentive-fee contract for plant automation with a negotiated maximum payable amount that cannot be exceeded without contract change.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Cost-reimbursable contract",
+      "Target cost",
+      "Incentive fee"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Privity of Contract",
+    "Core Meaning": "The direct legal relationship between the parties to a contract, which only they can enforce.",
+    "Depth": "Standard",
+    "Expansion": "Privity of contract is the legal principle that contractual rights and obligations exist only between the parties who signed the contract. A party outside that relationship generally cannot sue or be sued under it. In projects with subcontracting, this means a prime buyer typically has no contractual relationship with the seller's subcontractors and must address issues through the prime seller.",
+    "Deep Dive": null,
+    "Contrast": "Subcontract - privity defines the direct buyer-seller legal link, whereas a subcontract creates a separate relationship between the seller and its own suppliers that the buyer is not party to.",
+    "Example": "A client whose contractor hires a subcontractor cannot directly sue that subcontractor, because there is no privity between them.",
+    "Related Terms": [
+      "Contract",
+      "Subcontract",
+      "Procurement Management",
+      "Material Breach"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - procurement / contracting concepts"
+  },
+  {
+    "Term": "Procurement",
+    "Core Meaning": "The acquisition of products, services, or results from outside the project team.",
+    "Depth": "Standard",
+    "Expansion": "Procurement is the process of obtaining needed goods or services from external sources. In projects, it is used when the performing organization does not provide the required capability internally. Procurement work includes planning what to buy, selecting sellers, administering contracts, and closing procurements.",
+    "Deep Dive": null,
+    "Contrast": "Make-or-buy decision — procurement is the act of acquiring externally; make-or-buy is the decision about whether to acquire externally or perform the work internally.",
+    "Example": "A project team procures specialized testing services from an external vendor because the capability is not available in-house.",
+    "Related Terms": [
+      "Contract",
+      "Seller",
+      "Procurement management plan",
+      "Statement of work",
+      "Make-or-buy decision"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition — Project Procurement Management, page 459"
+  },
+  {
+    "Term": "Procurement Audits",
+    "Core Meaning": "A structured review of procurement processes and contracts for completeness, accuracy, and effectiveness.",
+    "Depth": "Atomic",
+    "Expansion": "A procurement audit examines the entire procurement process, from planning through contract closure, to identify successes and failures worth recognizing or avoiding on future procurements. It captures lessons learned about what worked, what did not, and how the contracting process can be improved. It is typically conducted as part of closing procurements.",
+    "Deep Dive": null,
+    "Contrast": "Inspection - a procurement audit reviews the contracting process and its management, whereas inspection verifies the deliverables received under the contract.",
+    "Example": "After a contract ends, reviewing how the bid, selection, and administration were handled to refine future templates.",
+    "Related Terms": [
+      "Close Procurements",
+      "Lessons Learned",
+      "Procurement Management Plan",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - procurement audits"
+  },
+  {
+    "Term": "Procurement closure",
+    "Core Meaning": "The completion and formal settlement of a procurement or contract.",
+    "Depth": "Standard",
+    "Expansion": "Procurement closure confirms that contracted work is complete and acceptable, settles open claims and payments, and formally ends the agreement. It includes verifying deliverables, finalizing records, releasing retention or bonds, and capturing lessons learned. Proper closure protects both parties legally and preserves a clean audit trail.",
+    "Deep Dive": null,
+    "Contrast": "Project closure — procurement closure ends a specific contract, while project closure concludes the entire project after all contracts are settled.",
+    "Example": "After the contractor finishes the building and defects are resolved, the team confirms acceptance, releases final payment, and closes the contract.",
+    "Related Terms": [
+      "Close Procurements",
+      "Contract closure",
+      "Procurement Audits",
+      "Closed Procurements"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide — Close Procurements"
+  },
+  {
+    "Term": "Procurement contract",
+    "Core Meaning": "A procurement contract is a mutually binding agreement that obligates a seller to provide specified products, services, or results and obligates a buyer to provide payment or other consideration.",
+    "Depth": "Standard",
+    "Expansion": "In PMI usage, a contract formalises the relationship between buyer and seller and sets the terms under which project work will be performed by an external party. It typically defines scope, deliverables, commercial terms, responsibilities, acceptance conditions, and mechanisms for change or dispute resolution. In project management, it is a core instrument of procurement management and governance whenever work is sourced outside the performing organisation.",
+    "Deep Dive": null,
+    "Contrast": "Agreement — a contract is a specific legally binding form of agreement with enforceable obligations, while agreement is the broader term.",
+    "Example": "A hospital construction project signs a fixed-price procurement contract with a mechanical contractor to install HVAC systems by defined milestones and quality standards.",
+    "Related Terms": [
+      "Agreement",
+      "Procurement management",
+      "Seller",
+      "Buyer",
+      "Statement of work"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — not confirmed to exact page in available search results"
+  },
+  {
+    "Term": "Procurement documentation",
+    "Core Meaning": "The collection of records and supporting information used to plan, conduct, administer, and close procurements.",
+    "Depth": "Standard",
+    "Expansion": "Procurement documentation includes items such as statements of work, bid documents, source selection records, contracts, change records, and performance-related correspondence. It matters because these records support supplier selection, contract administration, auditability, dispute resolution, and formal closeout. PMI uses related terms such as procurement statement of work and procurement documents more specifically, while the broader label procurement documentation is not typically treated as a distinct formal glossary entry.",
+    "Deep Dive": null,
+    "Contrast": "Project documents — procurement documentation is the subset of records specifically tied to acquiring and managing external goods and services; project documents cover the wider set of project records.",
+    "Example": "During a data-centre migration, the buyer maintains the request-for-proposal package, evaluation notes, signed contract, approved changes, and vendor performance reports in the procurement file.",
+    "Related Terms": [
+      "Procurement statement of work",
+      "Bid documents",
+      "Contract",
+      "Control Procurements",
+      "Closed Procurements"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Procurement documents",
+    "Core Meaning": "The documents used to solicit proposals, bids, quotations, or other supplier responses for project procurements.",
+    "Depth": "Foundational",
+    "Expansion": "Procurement documents are the formal materials a buyer issues to communicate requirements and invite sellers to respond in a consistent, comparable way. They may include statements of work, instructions to bidders, evaluation criteria, contract terms, and request packages such as an RFP, RFQ, or IFB. In PMI practice they are central to planning and conducting procurements because they shape seller understanding, competition quality, and contract outcomes.",
+    "Deep Dive": "What it is: Procurement documents are the buyer-facing package used to define what is needed and how prospective sellers should respond. They create a structured basis for market engagement and later source selection.\n\nWhy it matters and where it applies: clear procurement documents reduce ambiguity, improve fairness, and support stronger contract formation. They are especially important in projects that rely on external vendors, regulated purchasing environments, or complex statements of work.\n\nThe most common misconception: that procurement documents are just administrative forms or that they are the same as the final contract. In practice they are pre-award instruments that help the buyer compare sellers consistently and reduce downstream dispute risk.\n\nHow it shows up in real projects: a project team drafts an RFP package with scope requirements, service levels, response instructions, and evaluation criteria, then uses seller submissions to shortlist vendors and negotiate the contract.",
+    "Contrast": "Contract — procurement documents are used to solicit and evaluate seller responses before award; a contract is the binding agreement formed after selection.",
+    "Example": "A public-sector IT project issues an RFP containing technical requirements, data-security conditions, pricing instructions, and weighted evaluation criteria to select a systems integrator.",
+    "Related Terms": [
+      "Procurement",
+      "Bid documents",
+      "Request for proposal",
+      "Statement of work",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition, Glossary; Process Groups: A Practice Guide, Procurement Management section"
+  },
+  {
+    "Term": "Procurement management",
+    "Core Meaning": "The processes required to acquire products, services, or results from outside the project team.",
+    "Depth": "Standard",
+    "Expansion": "Procurement management covers planning, conducting, and controlling procurements so external goods and services are obtained appropriately. It includes deciding what to buy, how to solicit sellers, how to evaluate offers, and how to manage contracts after award. PMI treats it as a project management knowledge area that supports external acquisition and contract oversight.",
+    "Deep Dive": null,
+    "Contrast": "Procurement management plan — procurement management is the broader set of processes; the procurement management plan is the document that describes how those processes will be carried out.",
+    "Example": "A construction project uses procurement management to source steel, select a contractor, and monitor contract performance.",
+    "Related Terms": [
+      "Procurement management plan",
+      "Procurement statement of work",
+      "Seller",
+      "Contract",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase — procurement management, page 59"
+  },
+  {
+    "Term": "Procurement management plan",
+    "Core Meaning": "A component of the project management plan that describes how a team will acquire goods and services from outside of the performing organisation.",
+    "Depth": "Standard",
+    "Expansion": "The procurement management plan explains how procurement activities will be planned, conducted, and controlled. It addresses what will be procured, how sellers will be selected, contract types, and how procurement will be managed through the project. PMI treats it as part of the overall management plan that guides external acquisition work.",
+    "Deep Dive": null,
+    "Contrast": "Procurement statement of work — the procurement management plan describes how procurement will be managed; the procurement statement of work describes the specific goods or services to be acquired.",
+    "Example": "A construction project includes a procurement management plan that defines competitive bidding, contract approval steps, and vendor performance oversight.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Contract",
+      "Procurement statement of work",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — procurement management plan; A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, exact page citation not confirmed in current context"
+  },
+  {
+    "Term": "Procurement negotiation",
+    "Core Meaning": "The process of reaching agreement on the terms, price, and conditions of a contract between buyer and seller.",
+    "Depth": "Standard",
+    "Expansion": "Procurement negotiation clarifies and settles the structure, requirements, pricing, schedule, and responsibilities of a contract before it is signed. It aims for a fair agreement that protects both parties while securing value for the buyer and a viable arrangement for the seller. Skilled negotiators prepare objectives, understand each side's interests, and seek terms that reduce downstream disputes.",
+    "Deep Dive": null,
+    "Contrast": "Source selection chooses which seller to engage, while negotiation settles the terms with the chosen seller.",
+    "Example": "A project team negotiates payment milestones and warranty length with a preferred vendor before awarding the contract.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Procurement contract",
+      "Bidder conference"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Procurement statement of work",
+    "Core Meaning": "A narrative description of the products, services, or results to be supplied under a procurement contract.",
+    "Depth": "Standard",
+    "Expansion": "The procurement statement of work describes the work that a seller is expected to perform and the deliverables to be provided. It gives prospective sellers enough detail to prepare bids or proposals and helps the buyer compare responses consistently. PMI treats it as a key procurement planning artifact that clarifies scope and contract expectations.",
+    "Deep Dive": null,
+    "Contrast": "Statement of work — a procurement statement of work is the buyer's procurement-specific description of contracted work; a statement of work can be used more broadly in project or contractual contexts.",
+    "Example": "For a data-centre migration, the procurement statement of work specifies equipment removal, transport, rack installation, cable testing, and cutover support services.",
+    "Related Terms": [
+      "Statement of work",
+      "Procurement",
+      "Seller",
+      "Bid documents",
+      "Request for proposal"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Procurement statement of work, page 471"
+  },
+  {
+    "Term": "Procurement strategy",
+    "Core Meaning": "The planned approach for acquiring products, services, or results from outside the project team in a way that supports project objectives and constraints.",
+    "Depth": "Foundational",
+    "Expansion": "Procurement strategy defines how the project will source external goods or services, including contract approach, supplier engagement, allocation of risk, and timing of purchases. It connects make-or-buy thinking with market conditions, governance, and delivery needs. In PMI practice, it helps ensure procurement decisions support cost, schedule, quality, and risk objectives rather than being treated as isolated purchasing actions.",
+    "Deep Dive": "What it is: Procurement strategy is the overall logic behind how a project will obtain external support, materials, or capabilities. It shapes decisions about contract type, vendor relationship model, competition, packaging of work, and when procurement actions occur.\n\nWhy it matters and where it applies: projects often depend on outside parties for specialised skills, equipment, technology, or construction work. A sound procurement strategy reduces commercial risk, improves supplier alignment, and helps the project choose contracting approaches that fit uncertainty and performance needs.\n\nThe most common misconception: that procurement strategy is just selecting a vendor or writing a contract. In practice it comes earlier and guides those later choices by defining the sourcing approach and the balance of control, flexibility, and risk.\n\nHow it shows up in real projects: a project may choose fixed-price contracts for well-defined equipment purchases, while using time-and-materials arrangements for uncertain advisory work where scope will evolve.",
+    "Contrast": "Procurement statement of work — procurement strategy defines the overall sourcing approach; the procurement statement of work describes the specific item or service to be procured.",
+    "Example": "An infrastructure project decides to bundle civil works into one competitive bid package while procuring specialist design support separately under a more flexible contract model.",
+    "Related Terms": [
+      "Procurement management",
+      "Contract type",
+      "Make-or-buy analysis",
+      "Bid documents",
+      "Source selection criteria",
+      "Procurement statement of work"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Proposal evaluation",
+    "Core Meaning": "Proposal evaluation is the assessment of seller or supplier responses against defined criteria to support source selection in procurement.",
+    "Depth": "Standard",
+    "Expansion": "In PMI practice, proposal evaluation is used during procurement to compare submitted bids or proposals in a structured and defensible way. Evaluation criteria may include technical capability, past performance, price, schedule, risk, compliance, and overall value depending on the acquisition strategy. The concept matters because sound evaluation improves supplier selection quality and reduces bias, dispute risk, and downstream delivery problems.",
+    "Deep Dive": null,
+    "Contrast": "Bidder conference — proposal evaluation compares and scores submitted responses after receipt; a bidder conference is a pre-submission event used to clarify procurement requirements for potential sellers.",
+    "Example": "A public-sector project team scores vendor proposals for a data-platform implementation using weighted criteria for solution fit, implementation approach, security compliance, support model, and delivery risk before awarding the contract.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Procurement",
+      "Request for proposal",
+      "Seller proposals",
+      "Source selection"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Proposal Evaluation Techniques",
+    "Core Meaning": "Methods used to score and rank seller proposals against established selection criteria to choose a contractor.",
+    "Depth": "Standard",
+    "Expansion": "Proposal evaluation techniques are used in Conduct Procurements to assess seller responses objectively. They often apply a weighting system, screening systems, independent estimates, and expert judgment to rate proposals on cost, technical merit, capability, and past performance. The goal is a defensible, consistent selection that reflects the buyer's priorities.",
+    "Deep Dive": null,
+    "Contrast": "Source selection criteria - the criteria define what is judged, while evaluation techniques are the methods used to apply those criteria.",
+    "Example": "A buyer scores three bids on a weighted matrix covering price, experience, and approach, selecting the highest total.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Conduct Procurements",
+      "Weighting system",
+      "Bidder conference"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - proposal evaluation techniques"
+  },
+  {
+    "Term": "Qualification criteria",
+    "Core Meaning": "The standards used to determine whether a seller, resource, or candidate is capable of performing the required work.",
+    "Depth": "Standard",
+    "Expansion": "Qualification criteria define the minimum conditions that must be met before a party is considered suitable for selection. They are commonly used in procurement and staffing decisions to screen for capability, experience, certifications, or other required attributes. In PMI usage, they act as a filter that helps ensure only qualified options proceed to evaluation or award.",
+    "Deep Dive": null,
+    "Contrast": "Source selection criteria — qualification criteria determine whether a candidate is eligible to be considered; source selection criteria compare qualified candidates for final selection.",
+    "Example": "A government project requires bidders to have completed three similar infrastructure projects before their proposals can move forward for evaluation.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Procurement",
+      "Seller proposals",
+      "Evaluation criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, Qualification criteria"
+  },
+  {
+    "Term": "Qualifications-only selection method",
+    "Core Meaning": "A procurement source selection method in which the buyer chooses the seller based on competence, experience, and qualifications rather than price as the primary deciding factor.",
+    "Depth": "Standard",
+    "Expansion": "This method is used when the work is specialised and the quality of expertise matters more than competing on price at the outset. The buyer evaluates suppliers on capability, relevant experience, and professional standing, then typically negotiates scope and price with the highest-ranked firm. It is common in consulting, design, and other knowledge-intensive procurements where weak capability creates outsized project risk.",
+    "Deep Dive": null,
+    "Contrast": "Quality-based selection method — qualifications-only selection emphasises supplier capability first and may negotiate commercial terms afterward, while quality-based selection focuses on the quality of the technical proposal for a defined need.",
+    "Example": "A public-sector project selects an engineering advisory firm based on specialist bridge-renewal experience and credentialed staff before entering fee negotiations.",
+    "Related Terms": [
+      "Procurement",
+      "Source selection criteria",
+      "Seller proposals",
+      "Quality-based selection method"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge — Qualifications-only selection method, p. 249"
+  },
+  {
+    "Term": "Quality-and-cost-based selection method",
+    "Core Meaning": "A procurement source selection method in which the buyer evaluates sellers using both the quality of the proposal and the offered cost.",
+    "Depth": "Standard",
+    "Expansion": "This method is used when the project needs a balanced decision that reflects technical merit as well as commercial value. The buyer scores proposals using weighted criteria so that neither capability nor price is ignored. It supports more nuanced trade-off decisions than choosing only the lowest bid or only the strongest technical proposal. It is especially useful when acceptable performance can be achieved by more than one supplier approach.",
+    "Deep Dive": null,
+    "Contrast": "Quality-based selection method — quality-and-cost-based selection balances technical quality and price, while quality-based selection gives primary importance to technical quality.",
+    "Example": "A system-implementation project compares vendors using weighted scores for solution fit, delivery approach, support capability, and total evaluated cost before contract award.",
+    "Related Terms": [
+      "Procurement",
+      "Source selection criteria",
+      "Seller proposals",
+      "Quality-based selection method"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge — Quality-and-cost-based selection method, p. 249"
+  },
+  {
+    "Term": "Quality-based selection method",
+    "Core Meaning": "A procurement source selection method in which the buyer chooses the seller primarily on the quality of the proposed technical solution and capability rather than on price alone.",
+    "Depth": "Standard",
+    "Expansion": "This method is used when technical excellence, specialist expertise, or solution quality has greater importance than selecting the lowest-cost offer. The buyer evaluates proposals mainly on competence, methodology, and likely performance against project needs. Price may still be considered, but it is not the principal driver of the decision. It is common where poor technical choices would create significant delivery, safety, or performance risk.",
+    "Deep Dive": null,
+    "Contrast": "Quality-and-cost-based selection method — quality-based selection gives primary weight to technical quality, while quality-and-cost-based selection balances quality with price in the final evaluation.",
+    "Example": "A transport authority selects a tunnel-design consultant based mainly on engineering approach, safety record, and specialist experience, with commercial terms considered only after technical ranking.",
+    "Related Terms": [
+      "Procurement",
+      "Source selection criteria",
+      "Seller proposals",
+      "Quality-and-cost-based selection method"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge — Quality-based selection method, p. 249"
+  },
+  {
+    "Term": "Quotation",
+    "Core Meaning": "A seller's priced offer to supply specified goods or services, usually given in response to a request for quotation.",
+    "Depth": "Atomic",
+    "Expansion": "A quotation states the price, and often the terms and validity period, at which a seller will provide standard, well-defined items. Buyers compare quotations from multiple sellers when price is the dominant selection factor.",
+    "Deep Dive": null,
+    "Contrast": "Differs from a proposal, which addresses complex needs and includes technical approach as well as price; a quotation is primarily a price response.",
+    "Example": "The procurement team requests quotations from three suppliers for 500 identical laptops and selects the lowest compliant price.",
+    "Related Terms": [
+      "Request for quotation",
+      "Bid documents",
+      "Source selection criteria",
+      "Procurement Management Plan"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Request for bid",
+    "Core Meaning": "A procurement document used to solicit price proposals from sellers for a clearly defined product or service.",
+    "Depth": "Standard",
+    "Expansion": "A request for bid is used when the buyer can specify the requirement clearly and wants sellers to compete primarily on price. It is typically associated with well-defined scope and standardized deliverables. PMI treats it as a formal procurement solicitation document.",
+    "Deep Dive": null,
+    "Contrast": "Request for proposal — a request for bid focuses on price for a clearly defined need; a request for proposal is used when solution approach and seller expertise matter more.",
+    "Example": "A city issues a request for bid for road resurfacing work with exact specifications and completion dates.",
+    "Related Terms": [
+      "Request for proposal",
+      "Request for quote",
+      "Procurement",
+      "Seller",
+      "Solicitation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, request for bid"
+  },
+  {
+    "Term": "Request for Information",
+    "Core Meaning": "A procurement document used to collect information from potential sellers about available products, services, or capabilities.",
+    "Depth": "Standard",
+    "Expansion": "A request for information is typically used early in procurement to understand the market before issuing a more formal solicitation. It helps the project team clarify what suppliers can provide, how solutions differ, and what requirements are realistic. In PMI practice, it supports market research and better-informed procurement planning rather than serving as a binding request for bids.",
+    "Deep Dive": null,
+    "Contrast": "Request for Proposal — a request for information gathers market knowledge, while a request for proposal asks sellers to submit a proposed solution for evaluation.",
+    "Example": "A hospital project issues an RFI to several scheduling-system vendors to understand integration options before preparing detailed procurement documents.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Request for Proposal",
+      "Bid documents",
+      "Market research"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms / A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition — procurement terminology, exact page citation not confirmed"
+  },
+  {
+    "Term": "Request for proposal",
+    "Core Meaning": "A document used to solicit proposals from prospective sellers for products, services, or results.",
+    "Depth": "Standard",
+    "Expansion": "A request for proposal is used when the buyer wants sellers to explain how they would meet a need, not just what they would charge. It is common when scope is clear enough to compete the work but solution approach, capability, and experience still matter. PMI treats it as a procurement document that supports structured evaluation of competing proposals.",
+    "Deep Dive": null,
+    "Contrast": "Request for quotation — a request for proposal seeks a proposed solution and approach; a request for quotation mainly seeks price for a clearly specified need.",
+    "Example": "A public agency issues a request for proposal for a digital permitting platform and compares vendors on implementation approach, support model, and delivery capability.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Bid documents",
+      "Request for quotation",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, request for proposal"
+  },
+  {
+    "Term": "Request for quotation",
+    "Core Meaning": "A procurement document used to solicit price quotations from prospective sellers for a defined product, service, or result.",
+    "Depth": "Standard",
+    "Expansion": "A request for quotation is used when the buyer can define the requirement clearly and wants sellers to compete primarily on price and commercial terms. It is best suited to standardized goods or well-specified services. PMI treats it as a formal procurement solicitation document for obtaining comparable quotations.",
+    "Deep Dive": null,
+    "Contrast": "Request for bid — a request for quotation asks for quotations against a defined requirement; a request for bid is a closely related solicitation term often used where formal bid competition is emphasized.",
+    "Example": "A project team sends a request for quotation for backup servers with fixed technical specifications and compares supplier pricing and delivery dates.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Request for proposal",
+      "Request for bid",
+      "Bid documents"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, request for quotation"
+  },
+  {
+    "Term": "Request for quote",
+    "Core Meaning": "A procurement document used to obtain price quotations from sellers for a well-defined requirement.",
+    "Depth": "Standard",
+    "Expansion": "A request for quote is used when the buyer can specify the needed product, service, or result clearly enough that suppliers mainly compete on price and delivery terms. It is most suitable for standardised or tightly specified purchases rather than situations requiring sellers to propose substantially different solution approaches. In PMI procurement practice, it is one of the common bidder conference and solicitation-related instruments used in conducting procurements.",
+    "Deep Dive": null,
+    "Contrast": "Request for proposal — a request for quote seeks pricing for a defined need, while a request for proposal seeks a proposed solution and approach.",
+    "Example": "A project team issues a request for quote for 200 laptops with fixed technical specifications and compares supplier responses on cost and lead time.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Bid documents",
+      "Request for proposal",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Request for quote, page 248"
+  },
+  {
+    "Term": "Selected Sellers",
+    "Core Meaning": "The sellers chosen, after evaluation, to provide contracted products or services.",
+    "Depth": "Atomic",
+    "Expansion": "Selected sellers are the vendors judged to be in a competitive range based on proposal evaluation and with whom the buyer is prepared to negotiate or has awarded a contract. They are an output of conducting procurements.",
+    "Deep Dive": null,
+    "Contrast": "Prospective sellers - prospective sellers are all candidates invited to bid, whereas selected sellers are those chosen after evaluation.",
+    "Example": "After scoring three vendor proposals, the buyer names the top vendor as the selected seller and awards the contract.",
+    "Related Terms": [
+      "Conduct Procurements",
+      "Proposal Evaluation Techniques",
+      "Bidder Conferences",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide - selected sellers"
+  },
+  {
+    "Term": "Selection criteria",
+    "Core Meaning": "Selection criteria are the attributes or requirements used to evaluate and choose among alternatives such as sellers, projects, solutions, or response options.",
+    "Depth": "Standard",
+    "Expansion": "In PMI practice, selection criteria provide a structured basis for comparing options against agreed decision factors instead of relying on informal preference. They are commonly used in procurement, portfolio and project selection, and decision analysis where alternatives must be assessed consistently. Typical criteria include capability, cost, schedule, risk, quality, compliance, and strategic alignment.",
+    "Deep Dive": null,
+    "Contrast": "Evaluation method — selection criteria are the factors used to judge alternatives, while an evaluation method is the technique used to apply those factors and compare options.",
+    "Example": "A project team evaluating vendors for a cloud migration scores proposals against security capability, implementation timeline, support model, transition risk, and functional fit.",
+    "Related Terms": [
+      "Source selection analysis",
+      "Decision criteria",
+      "Procurement",
+      "Benefit measurement methods",
+      "Scoring Model"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Seller",
+    "Core Meaning": "A provider of products, services, or results to a buyer under a procurement arrangement.",
+    "Depth": "Atomic",
+    "Expansion": "A seller is the party that provides contracted products, services, or results to the buyer. In project work, the seller is typically an external vendor, contractor, or supplier engaged through procurement.",
+    "Deep Dive": null,
+    "Contrast": "Buyer — the seller provides the product or service, while the buyer acquires it.",
+    "Example": "A cloud hosting company is the seller when it contracts to provide infrastructure services for a platform migration project.",
+    "Related Terms": [
+      "Buyer",
+      "Procurement",
+      "Contract",
+      "Vendor",
+      "Supplier"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, seller, page 24"
+  },
+  {
+    "Term": "Seller performance evaluation",
+    "Core Meaning": "A structured review of a contracted seller's delivery, quality, and compliance against the agreed terms of the contract.",
+    "Depth": "Standard",
+    "Expansion": "Seller performance evaluation is part of controlling procurements, where the buyer assesses how well a vendor meets cost, schedule, quality, and scope obligations. Findings inform decisions about payments, corrective action, contract continuation, and the seller's eligibility for future work. It typically draws on inspections, audits, and procurement performance reviews documented across the contract life cycle.",
+    "Deep Dive": null,
+    "Contrast": "Differs from source selection, which evaluates sellers before award; seller performance evaluation judges actual delivery after award.",
+    "Example": "A project manager rates a software vendor each quarter on defect rates and on-time releases, using the scores to justify renewing the support contract.",
+    "Related Terms": [
+      "Control Procurements",
+      "Procurement Audits",
+      "Source selection criteria",
+      "Contract administration"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Seller proposals",
+    "Core Meaning": "Responses prepared by prospective sellers that describe how they will meet a buyer's procurement requirements.",
+    "Depth": "Standard",
+    "Expansion": "Seller proposals are submitted in reply to procurement documents such as requests for proposal or similar bid packages. In PMI practice, they are evaluated to support source selection by comparing technical, management, and commercial responses against defined criteria. They are a key input to selecting vendors and forming procurement agreements.",
+    "Deep Dive": null,
+    "Contrast": "Bid documents — seller proposals are the vendors' responses, while bid documents are the buyer's solicitation materials used to request those responses.",
+    "Example": "A public-sector programme issues an RFP for a cloud platform and evaluates seller proposals on security architecture, delivery capability, and implementation approach.",
+    "Related Terms": [
+      "Procurement documents",
+      "Source selection criteria",
+      "Bidder conference",
+      "Agreement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, page 498"
+  },
+  {
+    "Term": "Service-level agreement",
+    "Core Meaning": "A documented agreement that defines the expected level, scope, and quality of a service, often including measurable performance targets and responsibilities.",
+    "Depth": "Standard",
+    "Expansion": "In project and operational contexts, a service-level agreement establishes what service will be provided, how performance will be measured, and what each party is accountable for. PMI materials commonly treat it as a governance and procurement-related mechanism for clarifying expectations between service providers and customers or internal support groups. It is especially relevant in outsourced services, support transitions, and projects that hand off deliverables into operations.",
+    "Deep Dive": null,
+    "Contrast": "Contract — a service-level agreement defines specific service expectations and performance measures; a contract is the broader legally binding agreement that may contain or reference an SLA.",
+    "Example": "A cloud-migration project includes an SLA requiring the hosting provider to meet agreed uptime and incident-response targets once the new platform goes live.",
+    "Related Terms": [
+      "Procurement",
+      "Contract",
+      "Acceptance criteria",
+      "Operations",
+      "Governance"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Share ratio",
+    "Core Meaning": "The agreed split between buyer and seller of cost savings or overruns under an incentive contract.",
+    "Depth": "Atomic",
+    "Expansion": "A share ratio, often written as a buyer or seller percentage such as 80/20, determines how a difference between target and actual cost is divided. It motivates the seller to control costs because they keep a portion of any savings and bear a portion of any overrun.",
+    "Deep Dive": null,
+    "Contrast": "Differs from a fixed fee, which does not change with cost; the share ratio deliberately ties seller profit to cost performance.",
+    "Example": "Under an 80/20 share ratio, a 10,000 underrun returns 8,000 to the buyer and 2,000 to the seller as added fee.",
+    "Related Terms": [
+      "Point of total assumption",
+      "Target cost",
+      "Incentive fee"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Sharing Ratio",
+    "Core Meaning": "The agreed split of cost savings or overruns between buyer and seller in an incentive contract.",
+    "Depth": "Standard",
+    "Expansion": "In incentive-fee contracts, the sharing ratio defines how a difference between target cost and actual cost is divided between buyer and seller, written as buyer:seller (for example 80:20). It motivates the seller to control costs because they keep a share of any savings and absorb a share of any overrun. The ratio is central to calculating final fee and the point of total assumption in fixed-price incentive contracts.",
+    "Deep Dive": null,
+    "Contrast": "Point of Total Assumption - the sharing ratio sets how over/underruns are split, whereas the point of total assumption is the cost level above which the seller bears all additional cost.",
+    "Example": "With an 80:20 sharing ratio, a 10,000 dollar underrun gives the buyer 8,000 dollars and the seller 2,000 dollars.",
+    "Related Terms": [
+      "Point of Total Assumption",
+      "Incentive fee",
+      "Target cost",
+      "Ceiling Price"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - incentive contracts / share ratio"
+  },
+  {
+    "Term": "Solicitation",
+    "Core Meaning": "The process of obtaining bids, proposals, or quotations from prospective sellers for project procurement work.",
+    "Depth": "Standard",
+    "Expansion": "Solicitation is the procurement activity in which the buyer invites qualified sellers to respond to defined project needs. It typically uses documents such as invitations for bid, requests for proposal, or requests for quotation. In PMI usage, it sits between procurement planning and source selection, creating the formal basis for comparing seller responses.",
+    "Deep Dive": null,
+    "Contrast": "Source selection — solicitation requests and receives seller responses; source selection evaluates them and chooses the seller.",
+    "Example": "A project team issues an RFP for a cybersecurity platform and receives proposals from five vendors for evaluation.",
+    "Related Terms": [
+      "Procurement",
+      "Bid documents",
+      "Request for proposal",
+      "Seller proposals",
+      "Source selection"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms — Solicitation"
+  },
+  {
+    "Term": "Source selection",
+    "Core Meaning": "The process of evaluating seller proposals or bids and choosing the supplier most suitable for the project's procurement needs.",
+    "Depth": "Standard",
+    "Expansion": "Source selection is a procurement concept used when a project team compares potential sellers against predefined criteria to choose a supplier. The emphasis is not only on price, but also on capability, risk, quality, schedule fit, and contractual considerations. It helps ensure procurement decisions are transparent, defensible, and aligned to project objectives.",
+    "Deep Dive": null,
+    "Contrast": "Bidder conference — a bidder conference communicates procurement information to prospective sellers; source selection is the later step of evaluating responses and choosing among them.",
+    "Example": "A project team issues an RFP for a data-migration vendor, scores proposals against technical competence, delivery timeline, and support model, and selects the supplier with the strongest overall fit.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Proposal evaluation",
+      "Contract award",
+      "Source selection criteria"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), procurement concept; exact page citation not confirmed in available PMI search results"
+  },
+  {
+    "Term": "Source selection analysis",
+    "Core Meaning": "A technique for choosing the method and criteria used to evaluate and select sellers.",
+    "Depth": "Standard",
+    "Expansion": "Source selection analysis reviews how proposals will be weighed before solicitation, balancing factors such as price, quality, technical capability, and risk. It produces a selection method such as least cost, qualifications only, quality-based, or fixed budget. The chosen approach shapes the evaluation criteria included in procurement documents.",
+    "Deep Dive": null,
+    "Contrast": "Unlike make-or-buy analysis, which decides whether to procure at all, source selection analysis decides how to pick among competing sellers once buying is chosen.",
+    "Example": "For a complex IT build, the team uses a quality-based method so technical merit outweighs the lowest bid.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Bidder conference",
+      "Make-or-buy analysis",
+      "Procurement management plan"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Source selection criteria",
+    "Core Meaning": "A set of attributes desired by the buyer that a seller is evaluated against for contract award.",
+    "Depth": "Standard",
+    "Expansion": "Source selection criteria are the standards used to assess seller proposals during procurement. They can include technical capability, relevant experience, management approach, risk profile, and cost-related considerations. PMI treats them as a structured basis for comparing offers and selecting the most suitable seller.",
+    "Deep Dive": null,
+    "Contrast": "Bid documents — source selection criteria are the standards used to evaluate sellers, while bid documents are the materials issued to solicit and structure seller responses.",
+    "Example": "A public-sector cybersecurity project scores vendors against source selection criteria including incident response capability, regulatory experience, transition approach, and service continuity.",
+    "Related Terms": [
+      "Procurement statement of work",
+      "Bid documents",
+      "Seller proposals",
+      "Proposal evaluation",
+      "Contract award"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, source selection criteria, page 471"
+  },
+  {
+    "Term": "Statement of work",
+    "Core Meaning": "A narrative description of products, services, or results to be delivered by the project.",
+    "Depth": "Standard",
+    "Expansion": "A statement of work, or SOW, describes what is to be delivered and often provides the basis for procurement or project authorisation. It may include scope, deliverables, timing, and other expectations depending on the context. PMI uses it as a key input for defining and contracting work.",
+    "Deep Dive": null,
+    "Contrast": "Scope statement — a statement of work is a narrative description of requested work or deliverables; a scope statement is the project document that defines the project and product scope in more detail.",
+    "Example": "A vendor SOW for a website redesign specifies the pages, content migration, testing support, and delivery milestones expected from the supplier.",
+    "Related Terms": [
+      "Scope statement",
+      "Procurement",
+      "Deliverable",
+      "Contract",
+      "Requirements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Knowledgebase — statement of work"
+  },
+  {
+    "Term": "Subcontract",
+    "Core Meaning": "A contract under which a primary contractor delegates part of its contracted work to another party.",
+    "Depth": "Standard",
+    "Expansion": "A subcontract is an agreement in which a prime contractor engages a third party, the subcontractor, to perform a defined portion of the work the prime owes to the buyer. It lets the prime contractor obtain specialized capability or capacity while remaining accountable to the buyer for the whole scope. Managing subcontracts adds a layer of coordination, flow-down requirements, and risk that the prime must control.",
+    "Deep Dive": null,
+    "Contrast": "The prime contract binds the buyer and main contractor, while a subcontract binds the main contractor and a lower-tier supplier.",
+    "Example": "A general contractor subcontracts the electrical scope to a specialist firm while remaining responsible to the client.",
+    "Related Terms": [
+      "Subcontractor",
+      "Procurement contract",
+      "Make-or-buy analysis"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Subcontractor",
+    "Core Meaning": "A seller engaged by a prime contractor to perform part of the work the prime has contracted to deliver.",
+    "Depth": "Atomic",
+    "Expansion": "A subcontractor holds a contract with the prime contractor rather than directly with the buyer, and the prime remains accountable for the overall result. Managing subcontractors involves flow-down of requirements, quality control, and coordination of interfaces.",
+    "Deep Dive": null,
+    "Contrast": "Differs from a prime contractor, who is directly accountable to the buyer; a subcontractor answers to the prime.",
+    "Example": "The main builder hires an electrical subcontractor for wiring while remaining responsible to the client for the whole building.",
+    "Related Terms": [
+      "Procurement Management Plan",
+      "Make-or-buy decision",
+      "Control Procurements"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Supplier",
+    "Core Meaning": "An external party that provides products, services, or results needed by a project, program, or portfolio.",
+    "Depth": "Atomic",
+    "Expansion": "A supplier is the organisation or party that furnishes contracted goods or services to support delivery. In PMI usage, suppliers are external stakeholders whose performance can directly affect quality, schedule, cost, and risk.",
+    "Deep Dive": null,
+    "Contrast": "Seller — supplier is the broader external source of goods or services, while seller is the contracting party in a specific buyer-seller relationship.",
+    "Example": "A cloud-platform provider acts as the supplier for a migration project that depends on hosted infrastructure and support services.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Stakeholder",
+      "Contract"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon of Project Management Terms, supplier; exact page varies by edition formatting"
+  },
+  {
+    "Term": "Supply chain",
+    "Core Meaning": "The end-to-end network involved in sourcing, producing, moving, and delivering materials, components, or services.",
+    "Depth": "Standard",
+    "Expansion": "A supply chain links the organisations, flows, and dependencies that move needed inputs from source to point of use. In projects, it matters because delays, shortages, transport issues, or quality failures anywhere in that network can affect delivery outcomes. It is especially relevant in construction, manufacturing, infrastructure, and any project relying on external materials or specialised vendors.",
+    "Deep Dive": null,
+    "Contrast": "Logistics — supply chain is the broader network of sourcing and delivery relationships, while logistics focuses on the movement and storage of items within that network.",
+    "Example": "A hospital-build project manages the supply chain for steel, chillers, medical gas systems, and imported imaging equipment to prevent installation delays.",
+    "Related Terms": [
+      "Logistics",
+      "Procurement",
+      "Supplier",
+      "Supply risk"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Target Price",
+    "Core Meaning": "The negotiated reference price under an incentive contract, used to share cost variances.",
+    "Depth": "Atomic",
+    "Expansion": "Target price is the agreed reference price in an incentive contract, derived from target cost plus target fee. The final price is adjusted from it using a sharing ratio that splits cost overruns or underruns between buyer and seller.",
+    "Deep Dive": null,
+    "Contrast": "Distinct from a firm fixed price, which never changes, target price moves within limits based on actual performance against the target cost.",
+    "Example": "With a target cost of 100k and a fee of 10k, the target price is 110k before applying the sharing ratio.",
+    "Related Terms": [
+      "Target cost",
+      "Sharing ratio",
+      "Point of total assumption"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide"
+  },
+  {
+    "Term": "Task order",
+    "Core Meaning": "A contract instrument that authorizes a discrete package of services under the terms of an existing indefinite-delivery indefinite-quantity master contract.",
+    "Depth": "Standard",
+    "Expansion": "A task order defines the scope, period of performance, and funding for a specific tranche of labor or services without renegotiating the underlying master agreement. It lets buyers issue work incrementally as needs emerge while pricing and terms stay fixed at the master-contract level. Task orders are common in government and large professional-services procurements. Each order can carry its own deliverables and acceptance criteria.",
+    "Deep Dive": null,
+    "Contrast": "Delivery order — a delivery order procures supplies or goods under the same master contract, whereas a task order procures services or labor.",
+    "Example": "A program office issues a task order against its engineering master contract to staff a six-month requirements study.",
+    "Related Terms": [
+      "Delivery order",
+      "Statement of work",
+      "Contract"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Procurement management practice (indefinite-delivery contracting)"
+  },
+  {
+    "Term": "Time-and-materials contract",
+    "Core Meaning": "A time-and-materials contract is a type of contract that pays the seller for actual labor time and materials used, typically with agreed rates and terms.",
+    "Depth": "Standard",
+    "Expansion": "In project management, a time-and-materials contract blends features of fixed-price and cost-reimbursable arrangements by compensating the seller for actual effort and materials consumed. It is often used when the scope cannot be fully defined at the outset but work must begin before all details are known. Because cost can grow if the work expands, buyers usually pair it with rate schedules, oversight, and sometimes not-to-exceed limits.",
+    "Deep Dive": null,
+    "Contrast": "Cost-reimbursable contract — a time-and-materials contract pays agreed labor rates plus materials, while cost-reimbursable arrangements reimburse allowable actual costs with a fee structure.",
+    "Example": "A company hires a specialist integration vendor at agreed hourly rates plus hardware pass-through costs to support a system rollout while final interface requirements are still emerging.",
+    "Synonyms": [
+      "Time and materials contract"
+    ],
+    "Related Terms": [
+      "Contract",
+      "Procurement management",
+      "Fixed-price contract",
+      "Cost-reimbursable contract",
+      "Not-to-exceed limit",
+      "Procurement"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMBOK Guide — Seventh Edition / Process Groups: A Practice Guide, procurement contract types entry; exact page citation requires source verification"
+  },
+  {
+    "Term": "Vendor",
+    "Core Meaning": "An external supplier that provides goods or services to the project or organization.",
+    "Depth": "Standard",
+    "Expansion": "A vendor is a party outside the performing organization that supplies products, services, or both. In project management, vendors are central to procurement, contract administration, performance monitoring, and acceptance of delivered outputs. PMI usage overlaps with related terms such as seller and supplier, though context may make one more precise than another.",
+    "Deep Dive": null,
+    "Contrast": "Seller — vendor is a broad term for an external provider; seller is the procurement term more directly tied to an offer or contract to provide goods or services.",
+    "Example": "A project team engages a vendor to provide cloud hosting and implementation support for a new customer portal.",
+    "Related Terms": [
+      "Procurement",
+      "Seller",
+      "Supplier",
+      "Contract",
+      "Procurement management plan"
+    ],
+    "Tier": "Core glossary",
+    "Source": "PMI Lexicon, vendor, exact page not confirmed"
+  },
+  {
+    "Term": "Warranty",
+    "Core Meaning": "A contractual promise by a seller that a deliverable will meet specified standards or perform as agreed for a defined period.",
+    "Depth": "Standard",
+    "Expansion": "A warranty is an assurance embedded in a contract that goods, services, or work will conform to stated requirements and remain fit for purpose over a warranty period. If the deliverable fails within that period, the warranty obligates the seller to repair, replace, or otherwise remedy the defect, often at no cost to the buyer. Warranties allocate post-delivery quality risk to the seller and are a key term negotiated in procurement.",
+    "Deep Dive": null,
+    "Contrast": "A warranty is a specific contractual condition about performance, while a guarantee is a broader assurance that may be informal or promotional.",
+    "Example": "A construction contract includes a one-year warranty obliging the contractor to fix structural defects discovered after handover.",
+    "Related Terms": [
+      "Procurement contract",
+      "Acceptance criteria",
+      "Claims administration"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Seventh Edition"
+  },
+  {
+    "Term": "Weighting system",
+    "Core Meaning": "A method of assigning relative importance to evaluation criteria so options can be scored and compared objectively.",
+    "Depth": "Standard",
+    "Expansion": "A weighting system applies numeric weights to each selection or evaluation criterion according to its importance, scores each option against the criteria, and combines the results into a weighted total. It is widely used in project selection and source selection to make multi-criteria decisions consistent and defensible. By making priorities explicit, it reduces the influence of bias and of any single dominant factor.",
+    "Deep Dive": null,
+    "Contrast": "A screening system applies pass-or-fail thresholds, while a weighting system produces comparative scores.",
+    "Example": "A committee scores three vendors on cost, quality, and delivery using assigned weights to choose the best overall fit.",
+    "Related Terms": [
+      "Source selection criteria",
+      "Project selection methods",
+      "Decision matrix"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide - Sixth Edition"
+  }
+]
