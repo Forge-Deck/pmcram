@@ -92,6 +92,10 @@
     "Deep Dive": null,
     "Contrast": "Mind mapping — an affinity diagram groups ideas by natural relationship after idea generation, while mind mapping typically starts from a central concept and branches outward.",
     "Example": "During a lessons learned workshop, a project team groups dozens of schedule problems into clusters such as vendor delays, approval bottlenecks, and internal handoff issues before deciding improvement actions.",
+    "Synonyms": [
+      "Affinity chart",
+      "KJ Method"
+    ],
     "Related Terms": [
       "Brainstorming",
       "Requirements elicitation",
@@ -215,6 +219,9 @@
     "Deep Dive": "What it is: Business analysis is the work of understanding business needs, defining and managing requirements, assessing options, and recommending solutions that create value. It spans elicitation, analysis, traceability, validation of needs, and support for solution evaluation.\n\nWhy it matters and where it applies: many project failures come not from weak execution but from solving the wrong problem or defining the wrong requirements. Business analysis improves decision quality and stakeholder alignment in product development, transformation initiatives, process redesign, technology implementations, and benefits-focused programs.\n\nThe most common misconception: that business analysis is only documentation or only the responsibility of someone with the title business analyst. In practice, it is a set of responsibilities that may be shared among analysts, product owners, project managers, sponsors, and subject matter experts.\n\nHow it shows up in real projects: stakeholders are interviewed, current-state pain points are analysed, requirements are prioritised, acceptance criteria are defined, and solution options are compared against strategic goals, constraints, and expected benefits.",
     "Contrast": "Requirements — Business analysis is the broader practice of identifying needs and recommending solutions; requirements are the documented capabilities and conditions the solution must satisfy.",
     "Example": "Before launching an ERP implementation, the team analyses order-to-cash pain points, defines business requirements, evaluates solution options, and recommends the configuration that best supports the target operating model.",
+    "Synonyms": [
+      "BA"
+    ],
     "Related Terms": [
       "Requirements",
       "Needs assessment",
@@ -370,6 +377,9 @@
     "Deep Dive": null,
     "Contrast": "Future state — current state describes existing conditions today; future state describes the target condition the project or change initiative aims to achieve.",
     "Example": "Before redesigning an intake process, the project team maps the current state workflow, identifies manual bottlenecks, and uses that baseline to define the target operating model.",
+    "Synonyms": [
+      "As-is state"
+    ],
     "Related Terms": [
       "Future state",
       "Gap analysis",
@@ -388,6 +398,9 @@
     "Deep Dive": null,
     "Contrast": "Gap analysis — current state analysis describes the situation as it exists now, while gap analysis compares that current state with a desired future state to identify what is missing.",
     "Example": "Before launching a PMO transformation, the team documents current governance processes, reporting quality, tool usage, and decision bottlenecks to establish a baseline for improvement.",
+    "Synonyms": [
+      "As-is analysis"
+    ],
     "Related Terms": [
       "Gap analysis",
       "Future state",
@@ -458,6 +471,9 @@
     "Deep Dive": null,
     "Contrast": "Flowchart - a flowchart shows the sequence of process steps and decisions, whereas a data flow diagram emphasizes the movement and transformation of data.",
     "Example": "A DFD for an order system shows customer data flowing into an order-validation process and then into an inventory data store.",
+    "Synonyms": [
+      "DFD"
+    ],
     "Related Terms": [
       "Data model",
       "Context Diagrams",
@@ -705,6 +721,9 @@
     "Deep Dive": null,
     "Contrast": "Data flow diagram — an entity relationship diagram models how data is structured and related, while a data flow diagram models how data moves through processes.",
     "Example": "An analyst draws an entity relationship diagram showing that one Customer can place many Orders, each containing many Line Items.",
+    "Synonyms": [
+      "ERD"
+    ],
     "Related Terms": [
       "Data Model",
       "Logical Data Model",
@@ -862,6 +881,9 @@
     "Deep Dive": null,
     "Contrast": "Lines of Code — function points measure delivered functionality, while lines of code measure the volume of technical implementation.",
     "Example": "A software project estimates a new claims-processing module at 140 function points and uses that size measure to forecast effort, duration, and vendor productivity.",
+    "Synonyms": [
+      "FP"
+    ],
     "Related Terms": [
       "Estimate",
       "Requirements",
@@ -897,6 +919,9 @@
     "Deep Dive": null,
     "Contrast": "Current state — future state is the desired end condition, while current state is the situation as it exists now.",
     "Example": "A service redesign project defines a future state in which customers can complete requests online without manual intervention.",
+    "Synonyms": [
+      "To-be state"
+    ],
     "Related Terms": [
       "Current state",
       "Gap analysis",
@@ -1003,6 +1028,9 @@
     "Deep Dive": null,
     "Contrast": "Low fidelity — high fidelity is more detailed and realistic, while low fidelity is intentionally rough and fast for early exploration.",
     "Example": "A product team creates a high-fidelity interface prototype so stakeholders can validate navigation and visual behaviour before development begins.",
+    "Synonyms": [
+      "Hi-fi"
+    ],
     "Related Terms": [
       "Prototype",
       "Low fidelity",
@@ -1071,6 +1099,9 @@
     "Deep Dive": null,
     "Contrast": "Interview — Joint application design is a facilitated multi-stakeholder workshop; an interview elicits information from individuals or small groups separately.",
     "Example": "A payroll system project runs a JAD session with HR, finance, operations, and developers to agree on approval rules, exception handling, and reporting needs.",
+    "Synonyms": [
+      "JAD"
+    ],
     "Related Terms": [
       "Requirements",
       "Workshop",
@@ -1089,6 +1120,9 @@
     "Deep Dive": null,
     "Contrast": "Prioritization matrix — Kano analysis classifies features by their effect on customer satisfaction, while a prioritization matrix ranks options against chosen criteria.",
     "Example": "A product team evaluates app features and learns that secure login is a basic expectation, faster search improves satisfaction proportionally, and personalised recommendations act as delighters.",
+    "Synonyms": [
+      "Kano model"
+    ],
     "Related Terms": [
       "Requirements",
       "Prioritization",
@@ -1124,6 +1158,9 @@
     "Deep Dive": null,
     "Contrast": "High fidelity — low fidelity is rough and fast for early learning, while high fidelity is detailed and closer to the final solution.",
     "Example": "A team uses paper sketches of a customer portal to test navigation concepts before building a clickable prototype.",
+    "Synonyms": [
+      "Lo-fi"
+    ],
     "Related Terms": [
       "Prototype",
       "High fidelity",
@@ -1232,6 +1269,9 @@
     "Deep Dive": null,
     "Contrast": "Brainstorming — nominal group technique is more structured and includes ranking or prioritisation; brainstorming is typically freer and less formal.",
     "Example": "A project team uses nominal group technique to rank the top risks for a new product launch after each member submits ideas independently.",
+    "Synonyms": [
+      "NGT"
+    ],
     "Related Terms": [
       "Brainstorming",
       "Decision making",
@@ -1250,6 +1290,9 @@
     "Deep Dive": "What it is: A nonfunctional requirement states a quality attribute, constraint, or environmental condition that the solution must satisfy. It does not describe a user function like create, approve, or calculate; it describes how well, how safely, or under what conditions those functions must work.\n\nWhy it matters and where it applies: These requirements are often decisive in digital products, infrastructure, regulated environments, and operationally critical systems. Many kinds of quality attribute sit here:\n\n- Performance thresholds.\n- Availability targets.\n- Cybersecurity rules.\n- Accessibility needs.\n- Auditability expectations.\n\nMissing them can make an otherwise feature-complete solution unusable.\n\nThe most common misconception: that nonfunctional means optional or less important. In practice, many project failures come from under-specifying these requirements, because stakeholders focus on visible features while overlooking response times, resilience, data protection, or supportability.\n\nHow it shows up in real projects: A team building an online claims platform may specify that users can submit claims and track status as functional requirements, while requiring response times under two seconds, role-based access control, and 99.9 percent availability as nonfunctional requirements.",
     "Contrast": "Functional requirement — a nonfunctional requirement defines quality attributes or operating conditions; a functional requirement defines what the solution must do.",
     "Example": "A hospital scheduling system must allow appointment booking, but it also must encrypt patient data at rest and recover service within a defined outage window.",
+    "Synonyms": [
+      "NFR"
+    ],
     "Related Terms": [
       "Functional requirement",
       "Requirement",
@@ -1429,6 +1472,9 @@
     "Deep Dive": null,
     "Contrast": "Product visioning - the product box is a specific hands-on game, whereas product visioning is the broader activity of forming a shared product direction that such games support.",
     "Example": "A team mocking up a cereal-style box for their app, picking the three benefits that earn the front panel.",
+    "Synonyms": [
+      "Design the Box"
+    ],
     "Related Terms": [
       "Collaborative Games",
       "Product Visioning",
@@ -1446,6 +1492,9 @@
     "Deep Dive": null,
     "Contrast": "Work Breakdown Structure — a product breakdown structure decomposes the product itself; a work breakdown structure decomposes the work required to create that product.",
     "Example": "A smart-meter project decomposes the product into enclosure, display, communications module, firmware, power unit, and installation kit.",
+    "Synonyms": [
+      "PBS"
+    ],
     "Related Terms": [
       "Product Scope",
       "Work Breakdown Structure",
@@ -1846,6 +1895,9 @@
     "Deep Dive": null,
     "Contrast": "Requirements documentation — the requirements traceability matrix links requirements across the project; requirements documentation records the requirements themselves.",
     "Example": "A software team maps each business requirement to design components, build tasks, and test cases so every requirement can be verified before release.",
+    "Synonyms": [
+      "RTM"
+    ],
     "Related Terms": [
       "Requirements documentation",
       "Requirements management plan",
@@ -2205,6 +2257,9 @@
     "Deep Dive": null,
     "Contrast": "Requirement — specification focuses on a needed attribute of the deliverable; requirement is the broader statement of a condition or capability needed by a stakeholder or project.",
     "Example": "A medical device project specifies that the display must remain readable under low-light operating conditions.",
+    "Synonyms": [
+      "Spec"
+    ],
     "Related Terms": [
       "Requirement",
       "Deliverable",
@@ -2222,6 +2277,9 @@
     "Deep Dive": null,
     "Contrast": "Product backlog - a product backlog is a flat prioritized list, whereas a story map adds the dimension of user workflow and helps shape that list.",
     "Example": "A team maps the steps of an online checkout across the top and stacks detailed stories under each step to plan its first release.",
+    "Synonyms": [
+      "User story mapping"
+    ],
     "Related Terms": [
       "Story points",
       "Product backlog",
@@ -2361,6 +2419,9 @@
     "Deep Dive": "What it is: user experience is the overall human experience associated with using, or expecting to use, a product, system, or service. It extends beyond interface design to include usability, accessibility, workflow fit, and the user's confidence and satisfaction.\n\nWhy it matters and where it applies: it matters because adoption, benefits realisation, and stakeholder satisfaction often depend on how the solution feels and functions in practice. It is especially relevant in digital products, service design, process change, and any project where end-user behaviour determines value.\n\nThe most common misconception: that user experience is just visual styling or screen layout. In reality it includes whether users can complete their goals efficiently, understand what to do next, and trust the solution enough to keep using it.\n\nHow it shows up in real projects: teams use personas, prototypes, journey mapping, usability tests, and feedback loops to improve the delivered solution before broad rollout.",
     "Contrast": "Usability — user experience is the broader end-to-end perception of using a solution; usability is the narrower question of how easily and effectively it can be used.",
     "Example": "A banking app project tests whether customers can transfer money quickly and confidently, then changes the screen flow after observing confusion in pilot sessions.",
+    "Synonyms": [
+      "UX"
+    ],
     "Related Terms": [
       "Usability",
       "Requirements",
@@ -2397,6 +2458,9 @@
     "Deep Dive": null,
     "Contrast": "Requirements — voice of the customer is the source of customer needs and expectations; requirements are the documented statements derived from those needs.",
     "Example": "A healthcare project interviews nurses and patients to understand what matters most in a new appointment system before defining requirements.",
+    "Synonyms": [
+      "VOC"
+    ],
     "Related Terms": [
       "Requirements",
       "Stakeholder needs",

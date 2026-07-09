@@ -128,6 +128,9 @@
     "Deep Dive": null,
     "Contrast": "Activity code - a code groups many activities by category, whereas an identifier uniquely names one activity.",
     "Example": "Labeling 'Install drywall' as activity A1040 in the scheduling tool.",
+    "Synonyms": [
+      "Activity ID"
+    ],
     "Related Terms": [
       "Activity Code",
       "Activity Attributes",
@@ -165,6 +168,11 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 276 128' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='38' y1='56' x2='124' y2='32' stroke='currentColor' stroke-width='1.5'/><polygon points='124,32 114.5,38.8 112.3,31.1' fill='currentColor'/><line x1='38' y1='70' x2='124' y2='96' stroke='currentColor' stroke-width='1.5'/><polygon points='124,96 112.3,96.6 114.6,89' fill='currentColor'/><line x1='148' y1='32' x2='236' y2='56' stroke='currentColor' stroke-width='1.5'/><polygon points='236,56 224.3,57 226.4,49.2' fill='currentColor'/><line x1='148' y1='96' x2='236' y2='70' stroke='currentColor' stroke-width='1.5'/><polygon points='236,70 226.6,77 224.3,69.3' fill='currentColor'/><line x1='136' y1='40' x2='136' y2='88' stroke='currentColor' stroke-width='1.3' stroke-dasharray='4 3'/><circle cx='26' cy='63' r='14' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='136' cy='26' r='14' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='136' cy='102' r='14' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='250' cy='63' r='14' stroke='currentColor' stroke-width='1.5' fill='none'/><text x='26' y='67' fill='currentColor' font-size='12' text-anchor='middle'>1</text><text x='136' y='30' fill='currentColor' font-size='12' text-anchor='middle'>2</text><text x='136' y='106' fill='currentColor' font-size='12' text-anchor='middle'>3</text><text x='250' y='67' fill='currentColor' font-size='12' text-anchor='middle'>4</text><text x='76' y='36' fill='#1F5FA8' font-size='10'>A</text><text x='76' y='92' fill='#1F5FA8' font-size='10'>B</text><text x='194' y='36' fill='#1F5FA8' font-size='10'>C</text><text x='194' y='92' fill='#1F5FA8' font-size='10'>D</text><text x='144' y='68' fill='currentColor' font-size='8'>dummy</text></svg>"
     },
+    "Synonyms": [
+      "ADM",
+      "AOA",
+      "Arrow diagramming method"
+    ],
     "Related Terms": [
       "Schedule network diagram",
       "Precedence Diagramming Method",
@@ -186,6 +194,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 296 148' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='54' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='122' y='12' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='122' y='96' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='228' y='54' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='40' y='78' fill='currentColor' font-size='12' text-anchor='middle'>A</text><text x='150' y='36' fill='currentColor' font-size='12' text-anchor='middle'>B</text><text x='150' y='120' fill='currentColor' font-size='12' text-anchor='middle'>C</text><text x='256' y='78' fill='currentColor' font-size='12' text-anchor='middle'>D</text><line x1='68' y1='68' x2='122' y2='36' stroke='currentColor' stroke-width='1.4'/><polygon points='122,36 114.6,45 110.5,38.2' fill='currentColor'/><line x1='68' y1='80' x2='122' y2='114' stroke='currentColor' stroke-width='1.4'/><polygon points='122,114 110.6,111.5 114.8,104.8' fill='currentColor'/><line x1='178' y1='32' x2='228' y2='66' stroke='currentColor' stroke-width='1.4'/><polygon points='228,66 216.7,63.1 221.2,56.5' fill='currentColor'/><line x1='178' y1='116' x2='228' y2='82' stroke='currentColor' stroke-width='1.4'/><polygon points='228,82 221.2,91.5 216.7,84.9' fill='currentColor'/><text x='92' y='46' fill='#1F5FA8' font-size='9'>FS</text></svg>"
     },
+    "Synonyms": [
+      "AON"
+    ],
     "Related Terms": [
       "Precedence Diagramming Method",
       "Schedule network diagram",
@@ -237,6 +248,9 @@
     "Deep Dive": null,
     "Contrast": "Bottom-up Estimating — Analogous Estimating uses comparison with similar past work for a quicker high-level estimate; Bottom-up Estimating builds the estimate from detailed component estimates.",
     "Example": "A project manager estimates a new branch-office fit-out by comparing it with a similar office completed last year and adjusting for the larger floor area.",
+    "Synonyms": [
+      "Top-down estimating"
+    ],
     "Related Terms": [
       "Estimate",
       "Bottom-up Estimating",
@@ -447,8 +461,11 @@
     "Contrast": "Critical Path Method — Critical Chain Method accounts explicitly for resource constraints and uses buffers, while Critical Path Method focuses primarily on logical dependencies and float.",
     "Example": "A hardware development project reorganises its schedule around a small number of specialist test engineers, adds feeding buffers before the critical chain, and tracks buffer consumption each week to protect the launch date.",
     "Figure": {
-      "svg": "<svg viewBox='0 0 260 122' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='34' y='30' fill='currentColor' font-size='11' text-anchor='middle'>A</text><rect x='70' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='92' y='30' fill='currentColor' font-size='11' text-anchor='middle'>B</text><rect x='128' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='150' y='30' fill='currentColor' font-size='11' text-anchor='middle'>C</text><rect x='186' y='12' width='62' height='28' rx='3' fill='#2F6F5E' fill-opacity='0.25' stroke='#2F6F5E' stroke-width='1.4'/><text x='217' y='29' fill='#2F6F5E' font-size='8' text-anchor='middle'>Project</text><text x='217' y='37' fill='#2F6F5E' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='26' x2='70' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='114' y1='26' x2='128' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='172' y1='26' x2='186' y2='26' stroke='#B5462F' stroke-width='1.4'/><rect x='12' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='34' y='100' fill='currentColor' font-size='11' text-anchor='middle'>D</text><rect x='70' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='92' y='100' fill='currentColor' font-size='11' text-anchor='middle'>E</text><rect x='128' y='82' width='44' height='28' rx='3' fill='#1F5FA8' fill-opacity='0.2' stroke='#1F5FA8' stroke-width='1.2'/><text x='150' y='95' fill='#1F5FA8' font-size='8' text-anchor='middle'>Feeding</text><text x='150' y='104' fill='#1F5FA8' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='96' x2='70' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='114' y1='96' x2='128' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='150' y1='82' x2='150' y2='40' stroke='currentColor' stroke-width='1.3'/><polygon points='150,40 146,49 154,49' fill='currentColor'/></svg>"
+      "svg": "<svg viewBox='0 0 260 122' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='34' y='30' fill='currentColor' font-size='11' text-anchor='middle'>A</text><rect x='70' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='92' y='30' fill='currentColor' font-size='11' text-anchor='middle'>B</text><rect x='128' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='150' y='30' fill='currentColor' font-size='11' text-anchor='middle'>C</text><rect x='186' y='12' width='62' height='28' rx='3' fill='#2F6F5E' fill-opacity='0.25' stroke='#2F6F5E' stroke-width='1.4'/><text x='217' y='24' fill='#2F6F5E' font-size='8' text-anchor='middle'>Project</text><text x='217' y='34' fill='#2F6F5E' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='26' x2='70' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='114' y1='26' x2='128' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='172' y1='26' x2='186' y2='26' stroke='#B5462F' stroke-width='1.4'/><rect x='12' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='34' y='100' fill='currentColor' font-size='11' text-anchor='middle'>D</text><rect x='70' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='92' y='100' fill='currentColor' font-size='11' text-anchor='middle'>E</text><rect x='128' y='82' width='44' height='28' rx='3' fill='#1F5FA8' fill-opacity='0.2' stroke='#1F5FA8' stroke-width='1.2'/><text x='150' y='92' fill='#1F5FA8' font-size='8' text-anchor='middle'>Feeding</text><text x='150' y='102' fill='#1F5FA8' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='96' x2='70' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='114' y1='96' x2='128' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='150' y1='82' x2='150' y2='40' stroke='currentColor' stroke-width='1.3'/><polygon points='150,40 146,49 154,49' fill='currentColor'/></svg>"
     },
+    "Synonyms": [
+      "CCM"
+    ],
     "Related Terms": [
       "Critical Path Method",
       "Buffer",
@@ -470,6 +487,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 260 122' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='34' y='30' fill='currentColor' font-size='11' text-anchor='middle'>A</text><rect x='70' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='92' y='30' fill='currentColor' font-size='11' text-anchor='middle'>B</text><rect x='128' y='12' width='44' height='28' rx='3' stroke='#B5462F' stroke-width='1.6'/><text x='150' y='30' fill='currentColor' font-size='11' text-anchor='middle'>C</text><rect x='186' y='12' width='62' height='28' rx='3' fill='#2F6F5E' fill-opacity='0.25' stroke='#2F6F5E' stroke-width='1.4'/><text x='217' y='29' fill='#2F6F5E' font-size='8' text-anchor='middle'>Project</text><text x='217' y='37' fill='#2F6F5E' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='26' x2='70' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='114' y1='26' x2='128' y2='26' stroke='#B5462F' stroke-width='1.4'/><line x1='172' y1='26' x2='186' y2='26' stroke='#B5462F' stroke-width='1.4'/><rect x='12' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='34' y='100' fill='currentColor' font-size='11' text-anchor='middle'>D</text><rect x='70' y='82' width='44' height='28' rx='3' stroke='currentColor' stroke-width='1.3'/><text x='92' y='100' fill='currentColor' font-size='11' text-anchor='middle'>E</text><rect x='128' y='82' width='44' height='28' rx='3' fill='#1F5FA8' fill-opacity='0.2' stroke='#1F5FA8' stroke-width='1.2'/><text x='150' y='95' fill='#1F5FA8' font-size='8' text-anchor='middle'>Feeding</text><text x='150' y='104' fill='#1F5FA8' font-size='8' text-anchor='middle'>buffer</text><line x1='56' y1='96' x2='70' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='114' y1='96' x2='128' y2='96' stroke='currentColor' stroke-width='1.3'/><line x1='150' y1='82' x2='150' y2='40' stroke='currentColor' stroke-width='1.3'/><polygon points='150,40 146,49 154,49' fill='currentColor'/></svg>"
     },
+    "Synonyms": [
+      "CCPM"
+    ],
     "Related Terms": [
       "Critical path",
       "Buffer",
@@ -512,6 +532,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 316 186' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='56' height='46' rx='4' stroke='#B5462F' stroke-width='2'/><rect x='130' y='12' width='56' height='46' rx='4' stroke='#B5462F' stroke-width='2'/><rect x='248' y='12' width='56' height='46' rx='4' stroke='#B5462F' stroke-width='2'/><rect x='130' y='112' width='56' height='46' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='40' y='26' fill='currentColor' font-size='9' text-anchor='middle'>0 | 3</text><text x='40' y='40' fill='currentColor' font-size='11' text-anchor='middle'>A 3</text><text x='40' y='53' fill='currentColor' font-size='9' text-anchor='middle'>0 | 3</text><text x='158' y='26' fill='currentColor' font-size='9' text-anchor='middle'>3 | 8</text><text x='158' y='40' fill='currentColor' font-size='11' text-anchor='middle'>B 5</text><text x='158' y='53' fill='currentColor' font-size='9' text-anchor='middle'>3 | 8</text><text x='276' y='26' fill='currentColor' font-size='9' text-anchor='middle'>8 | 12</text><text x='276' y='40' fill='currentColor' font-size='11' text-anchor='middle'>D 4</text><text x='276' y='53' fill='currentColor' font-size='9' text-anchor='middle'>8 | 12</text><text x='158' y='126' fill='currentColor' font-size='9' text-anchor='middle'>3 | 5</text><text x='158' y='140' fill='currentColor' font-size='11' text-anchor='middle'>C 2</text><text x='158' y='153' fill='currentColor' font-size='9' text-anchor='middle'>6 | 8</text><line x1='68' y1='35' x2='130' y2='35' stroke='#B5462F' stroke-width='2'/><polygon points='122,31 122,39 130,35' fill='#B5462F'/><line x1='186' y1='35' x2='248' y2='35' stroke='#B5462F' stroke-width='2'/><polygon points='240,31 240,39 248,35' fill='#B5462F'/><line x1='42' y1='58' x2='138' y2='112' stroke='currentColor' stroke-width='1.4'/><polygon points='138,112 126.5,110.1 130.4,103.1' fill='currentColor'/><line x1='186' y1='126' x2='248' y2='58' stroke='currentColor' stroke-width='1.4'/><polygon points='248,58 243.5,68.8 237.6,63.4' fill='currentColor'/><text x='158' y='171' fill='currentColor' font-size='9' text-anchor='middle'>ES | EF on top, LS | LF below — red = critical path</text></svg>"
     },
+    "Synonyms": [
+      "CPM"
+    ],
     "Related Terms": [
       "Schedule network analysis",
       "Total float",
@@ -531,6 +554,11 @@
     "Deep Dive": null,
     "Contrast": "Status date — Data date is the formal scheduling cutoff used in the model; status date is a broader reporting term that may be used more loosely.",
     "Example": "A construction scheduler updates the programme as of 30 June and uses that data date to recalculate forecast finish dates for all remaining activities.",
+    "Synonyms": [
+      "As-of date",
+      "Status date",
+      "Time now"
+    ],
     "Related Terms": [
       "Schedule model",
       "Critical path",
@@ -673,6 +701,9 @@
     "Deep Dive": null,
     "Contrast": "Mandatory dependency — a discretionary dependency is chosen by the team; a mandatory dependency is required by the work, contract, or physical reality.",
     "Example": "A team chooses to complete user interface design before backend integration even though the two could be developed in parallel.",
+    "Synonyms": [
+      "Preferred logic"
+    ],
     "Related Terms": [
       "Dependency",
       "Mandatory dependency",
@@ -761,6 +792,9 @@
     "Deep Dive": null,
     "Contrast": "Late Finish — Early Finish is the earliest feasible completion point, while Late Finish is the latest completion point that avoids delaying the project or successor work.",
     "Example": "If design is scheduled to start on Monday and takes five working days, the design activity may have an Early Finish of Friday.",
+    "Synonyms": [
+      "EF"
+    ],
     "Related Terms": [
       "Early Start",
       "Late Finish",
@@ -779,6 +813,9 @@
     "Deep Dive": null,
     "Contrast": "Late finish date — early finish shows the earliest feasible completion point, while late finish shows the latest completion point without delaying the project or successor work.",
     "Example": "In a construction schedule, foundation curing has an early finish date of 14 May if excavation and pouring both complete on time.",
+    "Synonyms": [
+      "EF"
+    ],
     "Related Terms": [
       "Early start date",
       "Late finish date",
@@ -797,6 +834,9 @@
     "Deep Dive": null,
     "Contrast": "Late Start — Early Start is the earliest feasible beginning point, while Late Start is the latest start that avoids delaying the project or successor work.",
     "Example": "After approval is planned to finish on 3 March, procurement can have an Early Start of 4 March.",
+    "Synonyms": [
+      "ES"
+    ],
     "Related Terms": [
       "Early Finish",
       "Forward pass",
@@ -814,6 +854,9 @@
     "Deep Dive": null,
     "Contrast": "Late start date — early start shows the earliest feasible beginning point, while late start shows the latest start that avoids delaying the project or successor work.",
     "Example": "After design approval is planned to finish on 3 March, procurement receives an early start date of 4 March in the project schedule.",
+    "Synonyms": [
+      "ES"
+    ],
     "Related Terms": [
       "Early finish date",
       "Late start date",
@@ -955,6 +998,9 @@
     "Deep Dive": null,
     "Contrast": "Finish not later than — Finish not earlier than sets the earliest allowed finish, while Finish not later than sets the latest allowed finish.",
     "Example": "A regulatory review must not finish before the public comment period closes, so the activity is constrained with finish not earlier than.",
+    "Synonyms": [
+      "FNET"
+    ],
     "Related Terms": [
       "Finish not later than",
       "Finish on",
@@ -972,6 +1018,9 @@
     "Deep Dive": null,
     "Contrast": "Finish not earlier than — Finish not later than sets the latest allowed finish, while Finish not earlier than sets the earliest allowed finish.",
     "Example": "A contract deliverable must be completed by the end of the quarter, so the schedule applies a finish not later than constraint.",
+    "Synonyms": [
+      "FNLT"
+    ],
     "Related Terms": [
       "Finish not earlier than",
       "Finish on",
@@ -1006,6 +1055,9 @@
     "Deep Dive": null,
     "Contrast": "Finish-to-Start relationship — Finish-to-Finish controls when the successor can finish, while Finish-to-Start controls when the successor can start.",
     "Example": "Final proofreading cannot finish until final layout updates are complete, so the two activities are linked with a Finish-to-Finish relationship.",
+    "Synonyms": [
+      "FF"
+    ],
     "Related Terms": [
       "Logical relationship",
       "Finish-to-Start Relationship",
@@ -1024,6 +1076,9 @@
     "Deep Dive": null,
     "Contrast": "Finish-to-Start relationship — Finish-to-Finish controls when the successor can finish; Finish-to-Start controls when the successor can start.",
     "Example": "Quality review can run while document drafting is underway, but the review activity cannot finish until drafting is complete, so the tasks are linked Finish-to-Finish.",
+    "Synonyms": [
+      "FF"
+    ],
     "Related Terms": [
       "Logical relationship",
       "Precedence relationship",
@@ -1041,6 +1096,9 @@
     "Deep Dive": null,
     "Contrast": "Start-to-start — finish-to-start requires the predecessor to finish before the successor starts, while start-to-start only requires the predecessor to start before the successor can start.",
     "Example": "In a building project, final electrical inspection must finish before the occupancy permit application can start.",
+    "Synonyms": [
+      "FS"
+    ],
     "Related Terms": [
       "Precedence relationship",
       "Dependency",
@@ -1060,6 +1118,9 @@
     "Deep Dive": "What it is: Finish-to-Start is a dependency between two activities where the predecessor must finish before the successor can start. It is the default sequencing logic used in many schedules because it reflects straightforward task handoffs.\n\nWhy it matters and where it applies: it allows teams to model real execution order, calculate the critical path, and forecast how delays will affect later work. It is widely used in construction, systems implementation, product delivery, and any project where one output enables the next step.\n\nThe most common misconception: that every dependency should be Finish-to-Start. Some work is better represented with Start-to-Start or Finish-to-Finish relationships, and forcing everything into Finish-to-Start logic can distort the schedule.\n\nHow it shows up in real projects: approval must finish before procurement can start, code development must finish before formal system testing begins, or excavation must finish before foundation pouring starts.",
     "Contrast": "Start-to-Start relationship — Finish-to-Start requires the predecessor to finish before the successor starts, while Start-to-Start requires only that the predecessor start before the successor starts.",
     "Example": "A data migration activity cannot start until the data cleansing activity has finished.",
+    "Synonyms": [
+      "FS"
+    ],
     "Related Terms": [
       "Logical relationship",
       "Start-to-Start relationship",
@@ -1166,6 +1227,9 @@
     "Deep Dive": "What it is: Free Float is the amount of delay an activity can absorb without pushing the early start of any successor activity. It is a property of the network logic around that activity, not a general permission to slip work without consequence.\n\nWhy it matters and where it applies: it helps project managers see which tasks have limited local flexibility and which can move slightly without disrupting follow-on work. This is useful in detailed schedule control, short-interval planning, and coordination-heavy projects where successor timing matters.\n\nThe most common misconception: that Free Float and Total Float are the same. Free Float is more restrictive because an activity may have some room before affecting the overall project finish date but still have no room before affecting its immediate successor.\n\nHow it shows up in real projects: a team sees that a configuration task can slip one day without delaying system testing, but any further delay will move the testing start and create a visible downstream impact.",
     "Contrast": "Total Float — Free Float protects the early start of successor activities, while Total Float protects the project finish date or a schedule constraint.",
     "Example": "A design review can slip by two days without delaying the start of procurement, so the review activity has two days of free float.",
+    "Synonyms": [
+      "Free slack"
+    ],
     "Related Terms": [
       "Float",
       "Total Float",
@@ -1326,6 +1390,9 @@
     "Deep Dive": "What it is: Late Finish is one of the basic time-analysis values in network scheduling. It is calculated during the backward pass and shows the latest date an activity can finish without pushing the required project or milestone completion.\n\nWhy it matters and where it applies: it is essential in critical path method analysis, float calculation, and schedule risk interpretation. Teams use it when evaluating sequencing options, understanding schedule sensitivity, and identifying activities with little or no room for delay.\n\nThe most common misconception: that Late Finish is a target finish date or a recommended finish date. It is neither; it is a calculated limit based on the network logic and constraints, and finishing later than it indicates delay to a dependent milestone or the overall project.\n\nHow it shows up in real projects: schedulers compare an activity's forecast finish against its Late Finish to see whether available float is being consumed. In status reviews, activities near or beyond their Late Finish usually trigger escalation, resequencing, or recovery planning.",
     "Contrast": "Early Finish — Late Finish is the latest allowable finish without delaying the project or milestone, while Early Finish is the earliest possible finish based on current logic.",
     "Example": "A testing activity has a Late Finish of Friday because any later completion would push the release milestone and consume all remaining float.",
+    "Synonyms": [
+      "LF"
+    ],
     "Related Terms": [
       "Early Finish",
       "Critical path",
@@ -1343,6 +1410,9 @@
     "Deep Dive": null,
     "Contrast": "Early finish date — late finish date is the latest allowable finish without affecting the project end; early finish date is the earliest possible finish.",
     "Example": "A testing activity has a late finish date of Friday because any later completion would push the release milestone.",
+    "Synonyms": [
+      "LF"
+    ],
     "Related Terms": [
       "Late Start Date",
       "Early Finish Date",
@@ -1361,6 +1431,9 @@
     "Deep Dive": null,
     "Contrast": "Early start date — late start date is the latest allowable start without affecting the project end; early start date is the earliest possible start.",
     "Example": "A procurement task must start no later than Tuesday to keep the equipment delivery aligned with installation.",
+    "Synonyms": [
+      "LS"
+    ],
     "Related Terms": [
       "Late Finish Date",
       "Early Start Date",
@@ -1433,6 +1506,9 @@
     "Deep Dive": null,
     "Contrast": "Discrete effort — level of effort is measured by time spent; discrete effort is measured by completion of specific deliverables.",
     "Example": "Project management oversight is tracked as level of effort because it continues throughout the project rather than ending with a single deliverable.",
+    "Synonyms": [
+      "LOE"
+    ],
     "Related Terms": [
       "Discrete effort",
       "Apportioned effort",
@@ -1451,6 +1527,9 @@
     "Deep Dive": "What it is: Line of balance is a visual and analytical technique for managing repetitive work. Instead of focusing only on one network of unique activities, it compares the planned pace of work against actual progress across repeated locations, units, or sections.\n\nWhy it matters and where it applies: It matters because repetitive projects succeed or fail based on flow, crew continuity, and production rhythm. It is particularly useful in highways, pipelines, rail, high-rise floors, housing developments, and any project where similar tasks repeat in sequence across many work fronts.\n\nThe most common misconception: that line of balance is just another Gantt chart. In practice, it is more about production rate and work continuity than simple task timing, and it helps reveal crew clashes, waiting, and loss of flow that a standard bar chart may hide.\n\nHow it shows up in real projects: A contractor uses line of balance to track framing, electrical, and finishing crews across apartment floors so each trade moves steadily without overtaking or blocking the next. A road project uses it to monitor paving operations section by section and spot where production is slipping behind the planned rhythm.",
     "Contrast": "Critical path method — line of balance manages repetitive flow-based work; critical path method manages dependency-based sequences across varied activities.",
     "Example": "A housing development team tracks plumbing, electrical, and drywall crews across dozens of near-identical units to keep each trade moving at a stable pace without trade interference.",
+    "Synonyms": [
+      "LOB"
+    ],
     "Related Terms": [
       "Repetitive work",
       "Flow",
@@ -1469,6 +1548,9 @@
     "Deep Dive": "What it is: Location-based scheduling arranges work by location and by the flow of crews or work packages from one location to the next. Location becomes a primary organising factor in the schedule logic.\n\nWhy it matters and where it applies: it matters in projects with repeated work across multiple sites or zones, where smooth crew movement and trade coordination affect productivity. It is commonly used in buildings, transportation, utilities, and other physical delivery environments.\n\nThe most common misconception: that it is merely a different way to display a schedule. In practice it is a planning and control method that uses location and flow to shape sequencing decisions.\n\nHow it shows up in real projects: teams schedule drywall, electrical, and finishing crews by floor or zone so each trade can progress steadily without blocking the next.",
     "Contrast": "Network schedule — location-based scheduling is organised around physical location and flow, while a network schedule is organised around activity dependencies.",
     "Example": "A high-rise project sequences interior trades floor by floor so crews can move in a controlled production line with fewer clashes.",
+    "Synonyms": [
+      "LBS"
+    ],
     "Related Terms": [
       "Line of balance",
       "Schedule model",
@@ -1679,6 +1761,9 @@
     "Deep Dive": null,
     "Contrast": "Total float - positive total float is spare time available, whereas negative float is a time deficit that must be eliminated.",
     "Example": "A milestone imposed two weeks earlier than the network supports produces minus 10 days of float on the path leading to it.",
+    "Synonyms": [
+      "Negative slack"
+    ],
     "Related Terms": [
       "Total Float",
       "Free Float",
@@ -1903,6 +1988,9 @@
     "Deep Dive": null,
     "Contrast": "Earned value - percent complete is a progress percentage, whereas earned value translates that progress into a budgeted dollar amount.",
     "Example": "Reporting an activity as 60 percent complete in a weekly status update.",
+    "Synonyms": [
+      "% complete"
+    ],
     "Related Terms": [
       "Earned Value",
       "Fixed Formula Method",
@@ -1911,26 +1999,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - earned value / progress measurement"
-  },
-  {
-    "Term": "PERT",
-    "Core Meaning": "Program Evaluation and Review Technique is a schedule analysis method that uses uncertain activity-duration estimates to model likely completion timing.",
-    "Depth": "Standard",
-    "Expansion": "PERT applies three-point duration estimates such as optimistic, most likely, and pessimistic values to represent uncertainty in schedule planning. In PMI usage, it is a recognised scheduling technique within network-based analysis rather than a complete delivery approach. It is most useful when activity durations are difficult to predict with confidence.",
-    "Deep Dive": null,
-    "Contrast": "Critical path method — PERT emphasises uncertainty in duration estimates; critical path method identifies the longest path that determines planned project duration.",
-    "Example": "A research project estimates prototype testing at 5, 10, and 18 days and uses PERT-based analysis to understand likely schedule impact.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 294 176' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='145' x2='282' y2='145' stroke='currentColor' stroke-width='1.4'/><path d='M32,145 C77,145 92,41 120,41 C158,41 217,145 272,145' stroke='#1F5FA8' stroke-width='2' fill='none'/><line x1='42' y1='145' x2='42' y2='133' stroke='currentColor' stroke-width='1.2'/><line x1='120' y1='145' x2='120' y2='43' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><line x1='162' y1='145' x2='162' y2='91' stroke='#B5462F' stroke-width='1.4' stroke-dasharray='3 3'/><line x1='262' y1='145' x2='262' y2='133' stroke='currentColor' stroke-width='1.2'/><text x='42' y='161' fill='currentColor' font-size='10' text-anchor='middle'>O</text><text x='120' y='161' fill='currentColor' font-size='10' text-anchor='middle'>M</text><text x='162' y='161' fill='#B5462F' font-size='10' text-anchor='middle'>E</text><text x='262' y='161' fill='currentColor' font-size='10' text-anchor='middle'>P</text><text x='142' y='23' fill='currentColor' font-size='11' text-anchor='middle'>E = (O + 4M + P) / 6</text></svg>"
-    },
-    "Related Terms": [
-      "Three-point estimating",
-      "Schedule network analysis",
-      "Critical path method",
-      "Estimate Activity Durations"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — index entry for Program Evaluation and Review Technique, pp. 45, 97, 99-100, 107, 115"
   },
   {
     "Term": "Pessimistic Duration (tP)",
@@ -1960,6 +2028,10 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 296 148' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='54' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='122' y='12' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='122' y='96' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><rect x='228' y='54' width='56' height='40' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='40' y='78' fill='currentColor' font-size='12' text-anchor='middle'>A</text><text x='150' y='36' fill='currentColor' font-size='12' text-anchor='middle'>B</text><text x='150' y='120' fill='currentColor' font-size='12' text-anchor='middle'>C</text><text x='256' y='78' fill='currentColor' font-size='12' text-anchor='middle'>D</text><line x1='68' y1='68' x2='122' y2='36' stroke='currentColor' stroke-width='1.4'/><polygon points='122,36 114.6,45 110.5,38.2' fill='currentColor'/><line x1='68' y1='80' x2='122' y2='114' stroke='currentColor' stroke-width='1.4'/><polygon points='122,114 110.6,111.5 114.8,104.8' fill='currentColor'/><line x1='178' y1='32' x2='228' y2='66' stroke='currentColor' stroke-width='1.4'/><polygon points='228,66 216.7,63.1 221.2,56.5' fill='currentColor'/><line x1='178' y1='116' x2='228' y2='82' stroke='currentColor' stroke-width='1.4'/><polygon points='228,82 221.2,91.5 216.7,84.9' fill='currentColor'/><text x='92' y='46' fill='#1F5FA8' font-size='9'>FS</text></svg>"
     },
+    "Synonyms": [
+      "AON",
+      "PDM"
+    ],
     "Related Terms": [
       "Schedule network diagram",
       "Dependency",
@@ -2151,6 +2223,9 @@
     "Deep Dive": null,
     "Contrast": "Critical path method - CPM pushes a centrally computed forward-pass schedule, while pull scheduling derives commitments backward from the milestone based on downstream need.",
     "Example": "In a construction pull-planning session, trades work backward from the handover date, each committing to the predecessors the next trade needs.",
+    "Synonyms": [
+      "Pull planning"
+    ],
     "Related Terms": [
       "Lean",
       "Last Responsible Moment",
@@ -2557,6 +2632,9 @@
     "Deep Dive": null,
     "Contrast": "Schedule variance — SPI is a ratio of schedule efficiency; schedule variance is the numerical difference between earned value and planned value.",
     "Example": "If a project has earned 80 units of value against 100 units of planned value, the SPI is 0.8, indicating schedule inefficiency.",
+    "Synonyms": [
+      "SPI"
+    ],
     "Related Terms": [
       "Earned value",
       "Planned value",
@@ -2610,6 +2688,9 @@
     "Deep Dive": null,
     "Contrast": "Schedule performance index — schedule variance is a difference measure; schedule performance index is a ratio measure.",
     "Example": "A project planned to earn 100 units of value by month six but has earned only 85, so schedule variance shows it is behind schedule.",
+    "Synonyms": [
+      "SV"
+    ],
     "Related Terms": [
       "Earned value",
       "Planned value",
@@ -2732,6 +2813,9 @@
     "Deep Dive": null,
     "Contrast": "Three-point estimating — single-point estimating gives one value only; three-point estimating reflects uncertainty through optimistic, most likely, and pessimistic values.",
     "Example": "A project manager estimates that data-migration testing will take 10 working days and uses that single value in the draft schedule baseline.",
+    "Synonyms": [
+      "Point estimate"
+    ],
     "Related Terms": [
       "Estimate",
       "Three-point estimating",
@@ -2786,6 +2870,9 @@
     "Deep Dive": null,
     "Contrast": "Mandatory dependency — Soft logic is discretionary and can be changed, while a mandatory dependency is inherent in the work or externally required.",
     "Example": "A construction planner initially schedules landscaping after exterior painting because it is preferred sequencing, but later moves some landscaping earlier to recover time without violating technical constraints.",
+    "Synonyms": [
+      "Preferred logic"
+    ],
     "Related Terms": [
       "Precedence relationship",
       "Discretionary dependency",
@@ -2855,6 +2942,9 @@
     "Deep Dive": null,
     "Contrast": "Finish-to-Start relationship — Start-to-Finish constrains when the successor can finish; Finish-to-Start constrains when the successor can start.",
     "Example": "A legacy support task cannot finish until the new operations team has started its takeover work, so the activities are linked Start-to-Finish.",
+    "Synonyms": [
+      "SF"
+    ],
     "Related Terms": [
       "Logical relationship",
       "Precedence relationship",
@@ -2889,6 +2979,9 @@
     "Deep Dive": null,
     "Contrast": "Finish-to-Start relationship — Start-to-Start allows the successor to begin after the predecessor starts; Finish-to-Start requires the predecessor to finish first.",
     "Example": "Once excavation starts on a construction project, dewatering operations can begin and continue in parallel rather than waiting for excavation to finish.",
+    "Synonyms": [
+      "SS"
+    ],
     "Related Terms": [
       "Logical relationship",
       "Schedule network diagram",
@@ -3049,6 +3142,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 294 176' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='145' x2='282' y2='145' stroke='currentColor' stroke-width='1.4'/><path d='M32,145 C77,145 92,41 120,41 C158,41 217,145 272,145' stroke='#1F5FA8' stroke-width='2' fill='none'/><line x1='42' y1='145' x2='42' y2='133' stroke='currentColor' stroke-width='1.2'/><line x1='120' y1='145' x2='120' y2='43' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><line x1='162' y1='145' x2='162' y2='91' stroke='#B5462F' stroke-width='1.4' stroke-dasharray='3 3'/><line x1='262' y1='145' x2='262' y2='133' stroke='currentColor' stroke-width='1.2'/><text x='42' y='161' fill='currentColor' font-size='10' text-anchor='middle'>O</text><text x='120' y='161' fill='currentColor' font-size='10' text-anchor='middle'>M</text><text x='162' y='161' fill='#B5462F' font-size='10' text-anchor='middle'>E</text><text x='262' y='161' fill='currentColor' font-size='10' text-anchor='middle'>P</text><text x='142' y='23' fill='currentColor' font-size='11' text-anchor='middle'>E = (O + 4M + P) / 6</text></svg>"
     },
+    "Synonyms": [
+      "PERT"
+    ],
     "Related Terms": [
       "Estimate",
       "Duration estimate",
@@ -3101,6 +3197,9 @@
     "Deep Dive": null,
     "Contrast": "Free float — total float is delay allowance against the overall project finish or a constraint, while free float is delay allowance without affecting a successor's early start.",
     "Example": "An activity has 3 days of total float, so it can slip by up to 3 days before the project completion date is affected.",
+    "Synonyms": [
+      "Total slack"
+    ],
     "Related Terms": [
       "Free float",
       "Critical path",
@@ -3227,6 +3326,9 @@
     "Deep Dive": null,
     "Contrast": "Total float — zero float means no delay is possible without affecting the finish date; total float is the general measure of allowable delay.",
     "Example": "A final data-migration task before cutover has zero float, so any delay pushes the planned go-live date.",
+    "Synonyms": [
+      "Zero slack"
+    ],
     "Related Terms": [
       "Float",
       "Total float",

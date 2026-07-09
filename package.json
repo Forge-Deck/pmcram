@@ -7,7 +7,8 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "bundle": "node scripts/generate-bundle.mjs",
-    "manifest": "node scripts/generate-bundle.mjs && node scripts/generate-manifest.mjs"
+    "manifest": "node scripts/generate-bundle.mjs && node scripts/generate-manifest.mjs",
+    "serve": "node scripts/serve.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"

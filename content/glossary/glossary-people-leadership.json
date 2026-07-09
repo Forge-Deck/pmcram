@@ -7,6 +7,10 @@
     "Deep Dive": null,
     "Contrast": "Confirmation Bias - anchoring fixes judgment to an initial value, while confirmation bias filters evidence to support a pre-existing belief.",
     "Example": "After a sponsor mentions a budget figure offhand, all later estimates cluster near it despite scope suggesting a higher cost.",
+    "Synonyms": [
+      "Anchoring effect",
+      "Focalism"
+    ],
     "Related Terms": [
       "Confirmation Bias",
       "Optimism Bias",
@@ -58,6 +62,9 @@
     "Deep Dive": null,
     "Contrast": "Zone of possible agreement — BATNA is the fallback if no deal is reached; the zone of possible agreement is the range where both sides can still agree.",
     "Example": "A buyer negotiating with a vendor knows it can switch to an approved backup supplier if the current proposal is not acceptable.",
+    "Synonyms": [
+      "Best alternative to a negotiated agreement"
+    ],
     "Related Terms": [
       "Negotiation",
       "Procurement",
@@ -140,6 +147,9 @@
     "Deep Dive": null,
     "Contrast": "Reward power - reward power motivates with positive incentives, whereas coercive power compels through the threat of penalties.",
     "Example": "A project manager assigning undesirable tasks to a team member who repeatedly misses commitments, as a form of pressure.",
+    "Synonyms": [
+      "Penalty power"
+    ],
     "Related Terms": [
       "Reward Power",
       "Expert Power",
@@ -174,6 +184,9 @@
     "Deep Dive": null,
     "Contrast": "Compromise - compromising has each party give up something for a partial (lose-lose) settlement, whereas collaborating seeks a solution that fully satisfies all parties (win-win).",
     "Example": "Two leads disagreeing on an architecture meet, surface their underlying needs, and design a hybrid that meets both sets of requirements.",
+    "Synonyms": [
+      "Confronting"
+    ],
     "Related Terms": [
       "Compromise",
       "Force",
@@ -209,6 +222,9 @@
     "Deep Dive": null,
     "Contrast": "Virtual teams - colocation gathers people in one place for face-to-face interaction, whereas virtual teams collaborate across locations using technology.",
     "Example": "Moving all members of a critical project into a single shared project room for the duration of the work.",
+    "Synonyms": [
+      "Tight matrix"
+    ],
     "Related Terms": [
       "Virtual team",
       "War Room",
@@ -258,6 +274,9 @@
     "Deep Dive": null,
     "Contrast": "Collaborate - collaborating works to fully satisfy all parties (win-win), whereas compromising has each side give up something for a partial (lose-lose) settlement.",
     "Example": "Two managers who each want a shared resource full time agree to split the person's time 50/50.",
+    "Synonyms": [
+      "Reconciling"
+    ],
     "Related Terms": [
       "Collaborate",
       "Force",
@@ -311,6 +330,9 @@
     "Deep Dive": "Conflict management is the structured handling of disagreement so that it supports the work and preserves productive relationships. It draws on a range of techniques applied according to context:\n\n- Collaboration\n- Compromise\n- Smoothing\n- Forcing\n- Withdrawal\n\nThe goal is not simply to stop conflict, but to resolve it in a way that helps the project.\n\nWhy it matters and where it applies: projects bring together people with different incentives, expertise, authority, and constraints. If conflict is ignored, it can slow decisions, reduce morale, create rework, and undermine stakeholder alignment; if handled well, it can improve clarity and lead to better solutions.\n\nThe most common misconception is that all conflict is harmful or that good project managers eliminate it. In practice, healthy task-related conflict can surface risks and improve decisions, while unmanaged personal conflict is what usually harms performance.\n\nHow it shows up in real projects: a project manager mediates priority disputes between departments, clarifies roles, facilitates trade-off discussions, and uses agreed escalation paths when consensus cannot be reached at the team level.",
     "Contrast": "Issue management — conflict management addresses interpersonal or stakeholder disagreement, while issue management tracks and resolves project problems regardless of whether people are in conflict.",
     "Example": "During a product launch project, the marketing lead wants new features added while the testing lead argues they threaten release quality, so the project manager facilitates a trade-off discussion and reaches agreement on a phased release.",
+    "Synonyms": [
+      "Conflict resolution"
+    ],
     "Related Terms": [
       "Interpersonal skills",
       "Negotiation",
@@ -486,6 +508,9 @@
     "Deep Dive": null,
     "Contrast": "Virtual team — Distributed team emphasises geographic separation of members; virtual team emphasises collaboration primarily through electronic communication and may or may not involve broad geographic spread.",
     "Example": "A product project uses analysts in Canada, developers in India, and testers in Poland, with shared planning boards, overlapping meeting windows, and clear handoff protocols.",
+    "Synonyms": [
+      "Dispersed team"
+    ],
     "Related Terms": [
       "Virtual team",
       "Communication management",
@@ -569,6 +594,10 @@
     "Deep Dive": "What it is: Emotional intelligence is the capability to recognise, interpret, and manage emotions in oneself and in other people. In PMI terms, it supports self-awareness, self-management, and relationship management in project settings.\n\nWhy it matters and where it applies: projects are carried out by people under conditions of uncertainty, time pressure, trade-offs, and change. Emotional intelligence helps project leaders reduce tension, improve communication, anticipate reactions, and maintain productive working relationships across teams and stakeholders.\n\nThe most common misconception: that emotional intelligence means being agreeable, avoiding conflict, or relying on intuition alone. In practice it means noticing emotional dynamics accurately and using that awareness to handle difficult conversations, decisions, and resistance more effectively.\n\nHow it shows up in real projects: a project manager senses frustration building during a planning workshop, reframes the discussion, addresses concerns directly, and prevents a technical disagreement from becoming a relationship breakdown.",
     "Contrast": "Technical skill — emotional intelligence concerns understanding and managing emotions and relationships, while technical skill concerns domain knowledge and delivery mechanics.",
     "Example": "During a schedule recovery effort, the project manager notices stakeholder anxiety, acknowledges the pressure openly, and adapts communication so the team can commit to a realistic revised plan.",
+    "Synonyms": [
+      "EI",
+      "EQ"
+    ],
     "Related Terms": [
       "Leadership",
       "Stakeholder engagement",
@@ -639,6 +668,9 @@
     "Deep Dive": null,
     "Contrast": "Maslow's hierarchy of needs - Maslow ranks the intrinsic needs people seek to satisfy, whereas expectancy theory focuses on the perceived link between effort, performance, and reward.",
     "Example": "A PM motivates a developer by making sure the extra effort is achievable, will be recognized, and earns a reward the developer actually wants.",
+    "Synonyms": [
+      "Vroom's expectancy theory"
+    ],
     "Related Terms": [
       "Motivation theory",
       "Maslow's hierarchy of needs",
@@ -706,6 +738,9 @@
     "Deep Dive": null,
     "Contrast": "Collaborate - collaborating works through differing views to reach a win-win consensus, whereas forcing imposes one view for a win-lose result.",
     "Example": "With a regulatory deadline hours away, a project manager overrides the team debate and dictates the approach in order to ship on time.",
+    "Synonyms": [
+      "Competing"
+    ],
     "Related Terms": [
       "Collaborate",
       "Compromise",
@@ -723,6 +758,9 @@
     "Deep Dive": null,
     "Contrast": "Dreyfus model of skill acquisition - the four stages of competence track awareness and automaticity across four steps, whereas the Dreyfus model describes five levels from novice to expert focused on judgement and intuition.",
     "Example": "A new team member moves from not realising they misuse a tool (unconscious incompetence) to using it fluently without thinking (unconscious competence) through coaching.",
+    "Synonyms": [
+      "Conscious competence model"
+    ],
     "Related Terms": [
       "Competence",
       "Coaching",
@@ -860,6 +898,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 270 207' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='40' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><rect x='145' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1'/><rect x='40' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1'/><rect x='145' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1'/><text x='92' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S3</text><text x='92' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Supporting</text><text x='197' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S2</text><text x='197' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Coaching</text><text x='92' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S4</text><text x='92' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Delegating</text><text x='197' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S1</text><text x='197' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Directing</text><line x1='28' y1='164' x2='28' y2='16' stroke='currentColor' stroke-width='1'/><polygon points='28,12 25,20 31,20' fill='currentColor'/><line x1='40' y1='176' x2='254' y2='176' stroke='currentColor' stroke-width='1'/><polygon points='258,176 250,173 250,179' fill='currentColor'/><text x='20' y='92' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 20 92)'>Supportive behaviour</text><text x='147' y='192' fill='currentColor' font-size='8' text-anchor='middle'>Directive behaviour</text></svg>"
     },
+    "Synonyms": [
+      "Situational Leadership Theory"
+    ],
     "Related Terms": [
       "Situational Leadership II",
       "Leadership style",
@@ -880,6 +921,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 256 163' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='18' y1='33' x2='238' y2='33' stroke='currentColor' stroke-width='1.2'/><polygon points='14,33 22,29 22,37' fill='currentColor'/><polygon points='242,33 234,29 234,37' fill='currentColor'/><line x1='128' y1='27' x2='128' y2='39' stroke='currentColor' stroke-width='1'/><text x='18' y='21' fill='#B5462F' font-size='9' text-anchor='start'>Dissatisfaction</text><text x='128' y='21' fill='currentColor' font-size='9' text-anchor='middle'>Neutral</text><text x='238' y='21' fill='#2F6F5E' font-size='9' text-anchor='end'>Satisfaction</text><rect x='12' y='57' width='118' height='94' rx='4' fill='#B5462F' fill-opacity='0.07' stroke='currentColor' stroke-width='1'/><rect x='136' y='57' width='108' height='94' rx='4' fill='#2F6F5E' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><text x='71' y='77' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Hygiene factors</text><text x='71' y='91' fill='currentColor' font-size='7.5' text-anchor='middle'>prevent dissatisfaction</text><text x='71' y='111' fill='currentColor' font-size='8' text-anchor='middle'>Salary, policies,</text><text x='71' y='123' fill='currentColor' font-size='8' text-anchor='middle'>security, conditions,</text><text x='71' y='135' fill='currentColor' font-size='8' text-anchor='middle'>supervision</text><text x='190' y='77' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Motivators</text><text x='190' y='91' fill='currentColor' font-size='7.5' text-anchor='middle'>create satisfaction</text><text x='190' y='111' fill='currentColor' font-size='8' text-anchor='middle'>Achievement,</text><text x='190' y='123' fill='currentColor' font-size='8' text-anchor='middle'>recognition, growth,</text><text x='190' y='135' fill='currentColor' font-size='8' text-anchor='middle'>responsibility</text></svg>"
     },
+    "Synonyms": [
+      "Motivation-Hygiene Theory"
+    ],
     "Related Terms": [
       "Maslow's Hierarchy of Needs",
       "McClelland's Theory of Needs",
@@ -915,6 +959,10 @@
     "Deep Dive": null,
     "Contrast": "The halo effect generalizes from a positive trait, while the horn effect generalizes from a negative one.",
     "Example": "A reviewer rates an engineer poorly across all skills because of one missed deadline, ignoring strong technical work.",
+    "Synonyms": [
+      "Devil effect",
+      "Horns effect"
+    ],
     "Related Terms": [
       "Halo Effect",
       "Cognitive bias",
@@ -947,6 +995,9 @@
     "Deep Dive": null,
     "Contrast": "Dunning-Kruger Effect - impostor syndrome is competent people underrating themselves, the inverse of low performers overrating their ability.",
     "Example": "A skilled engineer hesitates to volunteer expertise, privately fearing colleagues will discover she does not belong.",
+    "Synonyms": [
+      "Impostor phenomenon"
+    ],
     "Related Terms": [
       "Dunning-Kruger Effect",
       "Emotional intelligence",
@@ -1016,6 +1067,10 @@
     "Deep Dive": "Interpersonal skills are the people-facing capabilities that help a project professional work productively with others, applied in day-to-day interactions. They typically include:\n\n- Active listening.\n- Conflict management.\n- Negotiation.\n- Influencing.\n- Facilitation.\n- Emotional awareness.\n\nWhy it matters and where it applies: projects are delivered through relationships as much as through plans. These skills matter in stakeholder engagement, team leadership, workshops, decision-making, vendor coordination, and change-related conversations across predictive, agile, and hybrid settings.\n\nThe most common misconception is that interpersonal skills are soft extras compared with technical planning or scheduling. In practice, weak interpersonal skills often undermine execution by creating misunderstanding, resistance, low trust, and unresolved conflict even when technical plans are sound.\n\nHow it shows up in real projects: a project manager facilitates a tense prioritization meeting, surfaces hidden concerns, negotiates a workable compromise, and leaves the team with clear commitments and preserved trust.",
     "Contrast": "Technical project management skills — interpersonal skills focus on working effectively with people; technical skills focus on methods, tools, and delivery mechanics.",
     "Example": "During an ERP implementation, the project manager mediates conflict between finance and operations over cutover timing and builds agreement on a phased rollout.",
+    "Synonyms": [
+      "People skills",
+      "Soft skills"
+    ],
     "Related Terms": [
       "Leadership",
       "Communication",
@@ -1113,6 +1168,9 @@
     "Deep Dive": null,
     "Contrast": "Directing - a directing leader closely instructs and controls the work, whereas a laissez-faire leader steps back and lets the team decide.",
     "Example": "A manager leading a seasoned research team sets the goal and then leaves the experts to determine how to achieve it.",
+    "Synonyms": [
+      "Hands-off leadership"
+    ],
     "Related Terms": [
       "Servant leadership",
       "Situational Leadership II",
@@ -1165,6 +1223,9 @@
     "Deep Dive": null,
     "Contrast": "Distinct from team building, which strengthens relationships and cohesion rather than individual competence.",
     "Example": "The plan funds cloud-certification training so engineers gain the skills the new platform of the project requires.",
+    "Synonyms": [
+      "L&D"
+    ],
     "Related Terms": [
       "Team development",
       "Competency",
@@ -1181,6 +1242,10 @@
     "Deep Dive": null,
     "Contrast": "Expert power - expert power comes from a person's knowledge and competence, whereas legitimate power comes purely from their formal position.",
     "Example": "A newly appointed project manager assigns tasks because the charter formally grants them authority over the team.",
+    "Synonyms": [
+      "Formal power",
+      "Positional power"
+    ],
     "Related Terms": [
       "Expert power",
       "Referent power",
@@ -1267,6 +1332,10 @@
     "Deep Dive": null,
     "Contrast": "Maslow's hierarchy of needs - Maslow arranges universal needs in an ascending hierarchy, whereas McClelland focuses on three learned needs whose balance varies by individual.",
     "Example": "A manager gives a high-achievement team member a stretch goal with clear metrics, while placing a high-affiliation member in a collaborative role.",
+    "Synonyms": [
+      "Acquired Needs Theory",
+      "Three Needs Theory"
+    ],
     "Related Terms": [
       "Maslow's hierarchy of needs",
       "Herzberg's two-factor theory",
@@ -1505,6 +1574,9 @@
     "Deep Dive": null,
     "Contrast": "An appraisal evaluates an individual, while a team performance assessment evaluates the group's effectiveness as a unit.",
     "Example": "A project manager provides input to an engineer's annual appraisal based on contributions during the project.",
+    "Synonyms": [
+      "Performance review"
+    ],
     "Related Terms": [
       "Team Performance Assessments",
       "Horn effect"
@@ -1588,6 +1660,9 @@
     "Deep Dive": null,
     "Contrast": "Business acumen — power skills are interpersonal abilities for working with people, while business acumen is the strategic understanding of the organization.",
     "Example": "A project manager defuses a tense sponsor meeting through active listening and clear framing, drawing on strong power skills.",
+    "Synonyms": [
+      "Soft skills"
+    ],
     "Related Terms": [
       "PMI Talent Triangle",
       "Emotional intelligence",
@@ -1827,6 +1902,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 270 207' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='40' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><rect x='145' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1'/><rect x='40' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1'/><rect x='145' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1'/><text x='92' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S3</text><text x='92' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Supporting</text><text x='197' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S2</text><text x='197' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Coaching</text><text x='92' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S4</text><text x='92' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Delegating</text><text x='197' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S1</text><text x='197' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Directing</text><line x1='28' y1='164' x2='28' y2='16' stroke='currentColor' stroke-width='1'/><polygon points='28,12 25,20 31,20' fill='currentColor'/><line x1='40' y1='176' x2='254' y2='176' stroke='currentColor' stroke-width='1'/><polygon points='258,176 250,173 250,179' fill='currentColor'/><text x='20' y='92' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 20 92)'>Supportive behaviour</text><text x='147' y='192' fill='currentColor' font-size='8' text-anchor='middle'>Directive behaviour</text></svg>"
     },
+    "Synonyms": [
+      "SLII"
+    ],
     "Related Terms": [
       "Leadership style",
       "Servant leadership",
@@ -1844,6 +1922,10 @@
     "Deep Dive": null,
     "Contrast": "Collaborate - collaborating works through differences to reach a win-win solution, whereas smoothing glosses over them for short-term harmony.",
     "Example": "A project manager defuses a tense meeting by focusing on the team's shared goal and setting the disagreement aside for later.",
+    "Synonyms": [
+      "Accommodating",
+      "Smoothing"
+    ],
     "Related Terms": [
       "Collaborate",
       "Compromise",
@@ -1861,6 +1943,10 @@
     "Deep Dive": null,
     "Contrast": "Sunk cost - a sunk cost is simply an unrecoverable past expenditure, while the sunk cost fallacy is the decision error of letting it drive future choices.",
     "Example": "A steering committee keeps funding a doomed system because abandoning it would waste the large sum already spent.",
+    "Synonyms": [
+      "Concorde fallacy",
+      "Sunk cost effect"
+    ],
     "Related Terms": [
       "Sunk cost",
       "Escalation of Commitment",
@@ -2002,6 +2088,9 @@
     "Deep Dive": null,
     "Contrast": "Team development — team dynamics refers to the interaction patterns within a team; team development is the deliberate effort to improve the team's capability and cohesion.",
     "Example": "A project manager notices tension between engineering and procurement and facilitates working agreements to improve team dynamics before the conflict delays delivery.",
+    "Synonyms": [
+      "Group dynamics"
+    ],
     "Related Terms": [
       "Team development",
       "Conflict management",
@@ -2020,6 +2109,9 @@
     "Deep Dive": null,
     "Contrast": "Project manager — a team lead usually guides a specific team or discipline; a project manager is accountable for integrating the full project across scope, schedule, cost, risk, and stakeholders.",
     "Example": "In an infrastructure project, the network team lead coordinates engineers' tasks and escalates cross-team dependencies to the project manager.",
+    "Synonyms": [
+      "Team leader"
+    ],
     "Related Terms": [
       "Project manager",
       "Functional manager",
@@ -2159,8 +2251,11 @@
     "Contrast": "Drexler-Sibbet Team Performance Model - Tuckman describes five descriptive stages of group maturity, whereas Drexler-Sibbet maps seven stages each framed by a specific question the team must resolve.",
     "Example": "A new project team argues over task ownership and approach in its first weeks (storming) before settling into smooth, self-directed delivery (performing).",
     "Figure": {
-      "svg": "<svg viewBox='0 0 330 209' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='28' y1='179.3' x2='304' y2='179.3' stroke='currentColor' stroke-width='1'/><line x1='28' y1='179.3' x2='28' y2='33.3' stroke='currentColor' stroke-width='1'/><polygon points='28,29.3 25,37.3 31,37.3' fill='currentColor'/><polygon points='308,179.3 300,176.3 300,182.3' fill='currentColor'/><text x='304' y='194.3' fill='currentColor' font-size='8' text-anchor='end'>time</text><text x='20' y='39.3' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 20 39.3)'>performance</text><rect x='38' y='143.3' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1.1'/><rect x='96' y='121.3' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1.1'/><rect x='154' y='99.3' width='52' height='24' rx='3' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1.1'/><rect x='212' y='69.3' width='52' height='24' rx='3' fill='#2F6F5E' fill-opacity='0.14' stroke='currentColor' stroke-width='1.1'/><rect x='266' y='43.3' width='52' height='24' rx='3' fill='#C98A1F' fill-opacity='0.16' stroke='currentColor' stroke-width='1.1'/><text x='64' y='158.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Forming</text><text x='122' y='136.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Storming</text><text x='180' y='114.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Norming</text><text x='238' y='84.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Performing</text><text x='292' y='58.3' fill='currentColor' font-size='8' text-anchor='middle'>Adjourning</text></svg>"
+      "svg": "<svg viewBox='0 0 318 206' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='30' y1='176.3' x2='302' y2='176.3' stroke='currentColor' stroke-width='1'/><line x1='30' y1='176.3' x2='30' y2='31.3' stroke='currentColor' stroke-width='1'/><polygon points='30,27.3 27,35.3 33,35.3' fill='currentColor'/><polygon points='306,176.3 298,173.3 298,179.3' fill='currentColor'/><text x='302' y='191.3' fill='currentColor' font-size='8' text-anchor='end'>time</text><text x='20' y='39.3' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 20 39.3)'>performance</text><rect x='36' y='119.3' width='46' height='22' rx='3' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1.1'/><rect x='90' y='143.3' width='46' height='22' rx='3' fill='#B5462F' fill-opacity='0.12' stroke='currentColor' stroke-width='1.1'/><rect x='144' y='97.3' width='46' height='22' rx='3' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1.1'/><rect x='198' y='59.3' width='46' height='22' rx='3' fill='#2F6F5E' fill-opacity='0.14' stroke='currentColor' stroke-width='1.1'/><rect x='252' y='83.3' width='46' height='22' rx='3' fill='#C98A1F' fill-opacity='0.16' stroke='currentColor' stroke-width='1.1'/><text x='59' y='133.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Forming</text><text x='113' y='157.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Storming</text><text x='167' y='111.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Norming</text><text x='221' y='73.3' fill='currentColor' font-size='8.5' text-anchor='middle'>Performing</text><text x='275' y='97.3' fill='currentColor' font-size='8' text-anchor='middle'>Adjourning</text></svg>"
     },
+    "Synonyms": [
+      "Tuckman's ladder"
+    ],
     "Related Terms": [
       "Drexler-Sibbet Team Performance Model",
       "Belbin Team Roles",
@@ -2194,6 +2289,10 @@
     "Deep Dive": null,
     "Contrast": "Virtual collaboration tools — a virtual team is the people and working arrangement; virtual collaboration tools are the technology used to support them.",
     "Example": "A product development team includes analysts in one country, developers in another, and a sponsor in a third, all coordinating through digital collaboration tools.",
+    "Synonyms": [
+      "Dispersed team",
+      "Remote team"
+    ],
     "Related Terms": [
       "Virtual collaboration tools",
       "Communication management",
@@ -2230,6 +2329,10 @@
     "Deep Dive": null,
     "Contrast": "Collaborate - collaborating confronts the issue to find a mutually agreeable solution, whereas withdrawing avoids it altogether.",
     "Example": "A project manager sidesteps a heated argument by tabling it until a later meeting, without resolving it.",
+    "Synonyms": [
+      "Avoiding",
+      "Withdrawing"
+    ],
     "Related Terms": [
       "Collaborate",
       "Smooth",
@@ -2264,6 +2367,10 @@
     "Deep Dive": null,
     "Contrast": "BATNA — the zone of possible agreement is the overlap where a deal can be made; a BATNA is the fallback option if no deal is reached.",
     "Example": "A buyer can approve a delivery contract up to a certain ceiling and a supplier can profitably deliver above a lower threshold, creating a range in which both can agree on price and terms.",
+    "Synonyms": [
+      "Bargaining range",
+      "ZOPA"
+    ],
     "Related Terms": [
       "Negotiation",
       "Procurement",

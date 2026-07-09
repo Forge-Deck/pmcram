@@ -39,6 +39,10 @@
     "Deep Dive": null,
     "Contrast": "Planned Value — Actual Cost is what was actually spent; Planned Value is the authorised budget assigned to scheduled work.",
     "Example": "A testing work package was budgeted at 10,000 for the month, but labour and tool charges totalled 12,000, so the Actual Cost for that period is 12,000.",
+    "Synonyms": [
+      "AC",
+      "ACWP"
+    ],
     "Related Terms": [
       "Earned Value",
       "Planned Value",
@@ -93,6 +97,7 @@
     "Contrast": "Estimate — the estimate is the resulting value or range, while the basis of estimate explains how that value or range was derived.",
     "Example": "A project manager presents a release cost estimate together with the labour-rate assumptions, supplier quotes, productivity factors, exclusions, and confidence range used to build it.",
     "Synonyms": [
+      "BOE",
       "Basis of Estimates"
     ],
     "Related Terms": [
@@ -117,6 +122,7 @@
     "Contrast": "Net present value — benefit-cost ratio compares relative benefits to costs, while net present value expresses absolute value after discounting cash flows.",
     "Example": "A portfolio review board compares two automation projects and prefers the one with a stronger benefit-cost ratio because it delivers more forecast value per unit of investment.",
     "Synonyms": [
+      "BCR",
       "Benefit cost ratio"
     ],
     "Related Terms": [
@@ -155,6 +161,9 @@
     "Deep Dive": null,
     "Contrast": "Estimate at Completion — Budget at Completion is the approved total planned budget; Estimate at Completion is the current forecast of what the total cost will actually be.",
     "Example": "On an infrastructure upgrade, the team sets the BAC after finalising the cost baseline, then compares it with the running Estimate at Completion as performance data accumulates.",
+    "Synonyms": [
+      "BAC"
+    ],
     "Related Terms": [
       "Earned value management",
       "Estimate at Completion",
@@ -209,6 +218,9 @@
     "Deep Dive": null,
     "Contrast": "Code of accounts — a chart of accounts organizes financial cost categories, while a code of accounts is used to identify elements in the work breakdown structure.",
     "Example": "A facilities project tracks spending under separate account categories for internal labor, purchased materials, leased equipment, and subcontracted services.",
+    "Synonyms": [
+      "COA"
+    ],
     "Related Terms": [
       "Code of accounts",
       "Cost control",
@@ -226,6 +238,9 @@
     "Deep Dive": null,
     "Contrast": "Work package — a work package is the lowest level of planned work in the WBS; a control account is a higher-level management point used to integrate and measure several work elements.",
     "Example": "In an aircraft upgrade project, Avionics Integration is set up as a control account containing several work packages for design, installation, and testing, each rolled up for performance reporting.",
+    "Synonyms": [
+      "Cost account"
+    ],
     "Related Terms": [
       "Work breakdown structure",
       "Work package",
@@ -439,6 +454,9 @@
     "Deep Dive": null,
     "Contrast": "Cost variance — Cost Performance Index is a ratio of efficiency; cost variance is the numerical difference between earned value and actual cost.",
     "Example": "A project that has earned 90 units of value while spending 100 units of cost has a CPI of 0.9, signaling cost inefficiency.",
+    "Synonyms": [
+      "CPI"
+    ],
     "Related Terms": [
       "Earned value",
       "Actual cost",
@@ -475,6 +493,9 @@
     "Deep Dive": null,
     "Contrast": "Cost Performance Index — Cost variance is the numerical difference between earned value and actual cost; Cost Performance Index is the ratio of earned value to actual cost.",
     "Example": "If a project has earned value of 120 and actual cost of 100, the cost variance is 20, showing favorable cost performance.",
+    "Synonyms": [
+      "CV"
+    ],
     "Related Terms": [
       "Earned value",
       "Actual cost",
@@ -669,6 +690,10 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 288 182' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='12' x2='12' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='12' y1='152' x2='276' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='182' y1='20' x2='182' y2='152' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='182' y='167' fill='currentColor' font-size='9' text-anchor='middle'>time now</text><path d='M16,148 C84,142 140,84 272,36' stroke='#1F5FA8' stroke-width='1.6' stroke-dasharray='5 4'/><path d='M16,148 C72,142 134,112 182,98' stroke='#2F6F5E' stroke-width='2'/><path d='M16,148 C72,139 130,100 182,82' stroke='#B5462F' stroke-width='2'/><text x='248' y='36' fill='#1F5FA8' font-size='10'>PV</text><text x='188' y='100' fill='#2F6F5E' font-size='10'>EV</text><text x='188' y='82' fill='#B5462F' font-size='10'>AC</text></svg>"
     },
+    "Synonyms": [
+      "BCWP",
+      "EV"
+    ],
     "Related Terms": [
       "Actual cost",
       "Planned value",
@@ -690,6 +715,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 288 182' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='12' x2='12' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='12' y1='152' x2='276' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='182' y1='20' x2='182' y2='152' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='182' y='167' fill='currentColor' font-size='9' text-anchor='middle'>time now</text><path d='M16,148 C84,142 140,84 272,36' stroke='#1F5FA8' stroke-width='1.6' stroke-dasharray='5 4'/><path d='M16,148 C72,142 134,112 182,98' stroke='#2F6F5E' stroke-width='2'/><path d='M16,148 C72,139 130,100 182,82' stroke='#B5462F' stroke-width='2'/><text x='248' y='36' fill='#1F5FA8' font-size='10'>PV</text><text x='188' y='100' fill='#2F6F5E' font-size='10'>EV</text><text x='188' y='82' fill='#B5462F' font-size='10'>AC</text></svg>"
     },
+    "Synonyms": [
+      "EVA"
+    ],
     "Related Terms": [
       "Earned value management",
       "Planned value",
@@ -711,6 +739,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 288 182' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='12' x2='12' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='12' y1='152' x2='276' y2='152' stroke='currentColor' stroke-width='1.5'/><line x1='182' y1='20' x2='182' y2='152' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='182' y='167' fill='currentColor' font-size='9' text-anchor='middle'>time now</text><path d='M16,148 C84,142 140,84 272,36' stroke='#1F5FA8' stroke-width='1.6' stroke-dasharray='5 4'/><path d='M16,148 C72,142 134,112 182,98' stroke='#2F6F5E' stroke-width='2'/><path d='M16,148 C72,139 130,100 182,82' stroke='#B5462F' stroke-width='2'/><text x='248' y='36' fill='#1F5FA8' font-size='10'>PV</text><text x='188' y='100' fill='#2F6F5E' font-size='10'>EV</text><text x='188' y='82' fill='#B5462F' font-size='10'>AC</text></svg>"
     },
+    "Synonyms": [
+      "EVM"
+    ],
     "Related Terms": [
       "Planned value",
       "Earned value",
@@ -729,6 +760,9 @@
     "Deep Dive": "What it is: Estimate at completion is the projected final cost of the project or control account when all authorized work is complete. It combines what has already been spent with the best current estimate of what remains.\n\nWhy it matters and where it applies: It matters because sponsors and project managers need an early warning of likely overruns or underruns before the work is finished. It is especially relevant in projects using earned value management, periodic forecasting, and governance reviews tied to budget performance.\n\nThe most common misconception: that estimate at completion is just the original budget repeated later in the project. In practice it is a live forecast that changes when performance trends, risks, productivity, or scope conditions change.\n\nHow it shows up in real projects: During monthly performance reviews, the team recalculates EAC using actual cost, earned value indicators, and revised assumptions, then reports whether management reserve, replanning, or corrective action is required.",
     "Contrast": "Budget at completion — estimate at completion is the current forecast of final cost, while budget at completion is the original approved total budget baseline.",
     "Example": "An infrastructure project with rising labor inefficiency revises its forecast upward after three reporting periods and reports a new estimate at completion to the steering committee.",
+    "Synonyms": [
+      "EAC"
+    ],
     "Related Terms": [
       "Budget at completion",
       "Estimate to complete",
@@ -765,6 +799,9 @@
     "Deep Dive": "What it is: Estimate to complete is the projected cost of the unfinished portion of the project. It answers the question of how much more money will be needed to complete the remaining authorized work.\n\nWhy it matters and where it applies: it matters because project leaders need a current forecast, not just a record of what has already been spent. It is used in cost control, earned value management, and periodic forecasting reviews.\n\nThe most common misconception: that ETC is the same as the original budget for the remaining work. In practice it is a live estimate that can change as productivity, risks, and scope conditions change.\n\nHow it shows up in real projects: a project team updates ETC each reporting cycle using actual performance, remaining scope, and revised assumptions, then uses it to support the estimate at completion.",
     "Contrast": "Estimate at completion — ETC is the forecast for the remaining work only, while EAC is the forecast for the total final cost.",
     "Example": "A software project has completed most of its testing but still needs defect fixes and final regression testing, so the team revises the estimate to complete for the remaining effort.",
+    "Synonyms": [
+      "ETC"
+    ],
     "Related Terms": [
       "Estimate at completion",
       "Actual cost",
@@ -939,6 +976,9 @@
     "Deep Dive": null,
     "Contrast": "Net present value — internal rate of return expresses the break-even discount rate, while net present value expresses value as an amount at a selected discount rate.",
     "Example": "A company compares two automation projects and selects the one with the stronger internal rate of return after reviewing risk and strategic alignment.",
+    "Synonyms": [
+      "IRR"
+    ],
     "Related Terms": [
       "Net present value",
       "Business case",
@@ -956,6 +996,10 @@
     "Deep Dive": "What it is: Life cycle cost is the cumulative cost associated with owning and using a product, asset, or system from acquisition through retirement. It treats cost as an end-to-end consideration rather than a one-time project expense.\n\nWhy it matters and where it applies: it matters when an option with a lower purchase price may be more expensive to operate, maintain, or replace over time. It commonly applies in capital projects, infrastructure, facilities, equipment selection, and product decisions where downstream costs are substantial.\n\nThe most common misconception: that life cycle cost is the same as the project budget or procurement price. In PMI terms, it is broader because it includes post-project costs incurred during use and disposition.\n\nHow it shows up in real projects: teams use it to compare alternatives such as equipment, systems, or design choices by weighing purchase cost against energy use, maintenance, reliability, and end-of-life costs.",
     "Contrast": "Project cost — life cycle cost covers the full ownership period, while project cost covers the cost of performing the project work.",
     "Example": "A hospital selects a more expensive imaging system because its lower maintenance and energy costs make it less expensive over 15 years.",
+    "Synonyms": [
+      "LCC",
+      "whole-life cost"
+    ],
     "Related Terms": [
       "Total cost of ownership",
       "Cost management",
@@ -974,6 +1018,9 @@
     "Deep Dive": "What it is: life cycle costing evaluates the total cost impact of a choice across the full life of the resulting product, service, or asset. It looks past project execution cost alone and includes downstream ownership implications.\n\nWhy it matters and where it applies: many project decisions that look cheaper at the start become more expensive in operation, maintenance, or disposal. This matters in construction, infrastructure, equipment acquisition, IT platforms, and any setting where long-term operating economics influence value.\n\nThe most common misconception: that cost management ends once the project budget is approved. In practice, PMI treats good decision making as broader than initial spend, especially when selecting designs, materials, vendors, or technical approaches.\n\nHow it shows up in real projects: a team compares two HVAC systems and chooses the one with higher purchase cost but lower energy and maintenance cost over ten years, because the total life cycle cost is lower.",
     "Contrast": "Cost baseline — life cycle costing evaluates total costs across the full useful life; a cost baseline is the approved time-phased project budget for controlling project spend.",
     "Example": "A hospital construction project selects medical equipment based not only on purchase cost but also on calibration, service-contract, training, and disposal costs over the equipment's operating life.",
+    "Synonyms": [
+      "LCC"
+    ],
     "Related Terms": [
       "Cost management",
       "Total cost of ownership",
@@ -1032,6 +1079,9 @@
     "Deep Dive": "What it is: Net present value is a financial measure that expresses future cash flows in present-day terms. It accounts for the time value of money so that benefits and costs occurring at different times can be evaluated on a common basis.\n\nWhy it matters and where it applies: It supports investment decisions by helping sponsors and portfolio leaders compare alternatives with different cost profiles, benefit timing, and expected returns. It is commonly used in business case development, benefits evaluation, and project selection.\n\nThe most common misconception: that NPV is just total benefits minus total costs. In practice, the timing of those benefits and costs matters, so future amounts are discounted rather than simply added together.\n\nHow it shows up in real projects: An organisation compares two automation initiatives, one with lower upfront cost and one with larger long-term savings, and uses NPV to judge which option creates more value in present terms.",
     "Contrast": "Return on investment — NPV adjusts future cash flows to present value; ROI expresses gain relative to cost without the same time-value focus.",
     "Example": "A steering committee uses NPV to compare whether to modernise an internal platform now or defer investment in favour of a different digital initiative.",
+    "Synonyms": [
+      "NPV"
+    ],
     "Related Terms": [
       "Business case",
       "Return on investment",
@@ -1050,6 +1100,10 @@
     "Deep Dive": null,
     "Contrast": "Project cost — operating cost is the recurring cost of running the delivered result, while project cost is the temporary cost of creating it.",
     "Example": "A project to implement a new cloud platform is approved only after the team compares the implementation budget with the expected annual operating cost for hosting, support, and licensing.",
+    "Synonyms": [
+      "OPEX",
+      "operating expense"
+    ],
     "Related Terms": [
       "Cost baseline",
       "Life cycle costing",
@@ -1086,6 +1140,9 @@
     "Deep Dive": "What it is: An order of magnitude estimate is a preliminary estimate produced with limited detail, often during concept development or early initiation. It gives a broad sense of expected cost, effort, or duration rather than a commitment-level figure.\n\nWhy it matters and where it applies: it supports early business cases, portfolio screening, feasibility discussions, and rough planning before detailed requirements exist. Without it, organizations may delay decisions or pretend to have precision they do not actually possess.\n\nThe most common misconception: that a rough early estimate is simply a badly prepared detailed estimate. In reality, it is a different kind of estimate matched to the amount of information available and should be communicated with appropriate uncertainty.\n\nHow it shows up in real projects: a team evaluating a new customer platform uses analogous data from prior implementations to produce a broad schedule and cost range for go or no-go decision making.",
     "Contrast": "Definitive estimate — an order of magnitude estimate is early and approximate; a definitive estimate is prepared later using much more detailed information.",
     "Example": "Before approving discovery work for a new ERP implementation, executives use an order of magnitude estimate based on similar past rollouts to judge whether the initiative is financially plausible.",
+    "Synonyms": [
+      "ROM estimate"
+    ],
     "Related Terms": [
       "Analogous estimating",
       "Definitive estimate",
@@ -1209,6 +1266,11 @@
     "Deep Dive": null,
     "Contrast": "Earned value — planned value is the budgeted value of scheduled work; earned value is the budgeted value of work actually completed.",
     "Example": "By the end of the second month, a data-center upgrade was scheduled to complete work budgeted at 80,000, so that amount is the project's planned value at that date.",
+    "Synonyms": [
+      "BCWS",
+      "PV",
+      "budgeted cost of work scheduled"
+    ],
     "Related Terms": [
       "Actual cost",
       "Earned value",
@@ -1226,6 +1288,9 @@
     "Deep Dive": null,
     "Contrast": "Net present value — present value is the discounted value of a future amount or cash flow; net present value sums discounted benefits and costs to show overall financial gain or loss.",
     "Example": "A portfolio review discounts the expected savings from an automation project over three years to determine the present value of those future benefits before approving funding.",
+    "Synonyms": [
+      "PV"
+    ],
     "Related Terms": [
       "Net present value",
       "Business case",
@@ -1384,6 +1449,9 @@
     "Deep Dive": null,
     "Contrast": "Net present value — return on investment compares gain to cost as a ratio or percentage, while net present value converts future cash flows into a present-value amount.",
     "Example": "An organisation approves an automation project after estimating that lower operating costs and faster processing will produce a strong return on investment over three years.",
+    "Synonyms": [
+      "ROI"
+    ],
     "Related Terms": [
       "Business case",
       "Benefits management",
@@ -1419,6 +1487,9 @@
     "Deep Dive": "What it is: Rough order of magnitude is an early estimate made with limited information, often during concept or initiation work. It gives decision makers a directional view rather than a commitment-level figure.\n\nWhy it matters and where it applies: it is useful for business cases, portfolio selection, and early feasibility checks when the team needs to compare options quickly. It helps avoid false precision before the project is sufficiently defined.\n\nThe most common misconception: that ROM is just a poorly prepared detailed estimate. In PMI practice, it is a different estimate class matched to the maturity of the information available.\n\nHow it shows up in real projects: a sponsor asks for a ROM to compare two potential system replacement options before authorizing detailed planning.",
     "Contrast": "Definitive estimate — rough order of magnitude is early and broad; a definitive estimate is later and based on much more detailed information.",
     "Example": "Before approving discovery work for a new CRM rollout, leadership uses a rough order of magnitude estimate to judge whether the initiative is worth pursuing.",
+    "Synonyms": [
+      "ROM"
+    ],
     "Related Terms": [
       "Estimate",
       "Definitive estimate",
@@ -1541,6 +1612,9 @@
     "Deep Dive": null,
     "Contrast": "Unlike traditional design-then-estimate, which prices a finished design and risks overruns, target value design fixes the budget first and shapes the design to fit.",
     "Example": "Given a budget for a hospital wing, the team designs each system to its allotted target cost rather than designing freely and pricing later.",
+    "Synonyms": [
+      "TVD"
+    ],
     "Related Terms": [
       "Value engineering"
     ],
@@ -1555,6 +1629,9 @@
     "Deep Dive": null,
     "Contrast": "Simple payback ignores the timing of cash flows, while time value of money discounts each flow according to when it occurs.",
     "Example": "An analyst discounts a project's projected five-year benefits to present value before comparing it against alternatives.",
+    "Synonyms": [
+      "TVM"
+    ],
     "Related Terms": [
       "Net present value",
       "Internal rate of return"
@@ -1570,6 +1647,9 @@
     "Deep Dive": null,
     "Contrast": "Cost Performance Index — TCPI shows the cost efficiency still required on remaining work, while CPI shows the cost efficiency achieved so far.",
     "Example": "After several overruns, the project manager calculates TCPI to determine whether the team can still finish within the approved budget target.",
+    "Synonyms": [
+      "TCPI"
+    ],
     "Related Terms": [
       "Earned value management",
       "Cost Performance Index",
@@ -1587,6 +1667,9 @@
     "Deep Dive": null,
     "Contrast": "Purchase price — total cost of ownership includes full life-cycle cost, while purchase price reflects only the initial acquisition cost.",
     "Example": "A project team compares two software platforms and selects the one with lower long-term support, integration, and upgrade costs even though its initial license cost is higher.",
+    "Synonyms": [
+      "TCO"
+    ],
     "Related Terms": [
       "Life cycle cost",
       "Procurement",
@@ -1621,6 +1704,9 @@
     "Deep Dive": null,
     "Contrast": "Value Analysis - value analysis usually refers to applying the same technique to an existing product, whereas value engineering is typically applied during design; the terms overlap heavily.",
     "Example": "During design, a team substitutes a standard component for a custom one, cutting cost while meeting all specifications.",
+    "Synonyms": [
+      "VE"
+    ],
     "Related Terms": [
       "Value Analysis",
       "Product Analysis",
@@ -1656,6 +1742,9 @@
     "Deep Dive": null,
     "Contrast": "Cost variance — variance at completion forecasts the final budget gap at project end; cost variance shows the current difference between earned value and actual cost.",
     "Example": "A construction project with a budget at completion of 8 million and an estimate at completion of 8.6 million shows a negative variance at completion, signalling an expected overrun.",
+    "Synonyms": [
+      "VAC"
+    ],
     "Related Terms": [
       "Budget at completion",
       "Estimate at completion",
@@ -1710,6 +1799,9 @@
     "Deep Dive": null,
     "Contrast": "Resource leveling — yield management optimizes value from limited capacity; resource leveling adjusts schedules to deal with resource constraints.",
     "Example": "A consulting firm assigns its limited senior architects first to the highest-margin client initiatives during a peak delivery period.",
+    "Synonyms": [
+      "revenue management"
+    ],
     "Related Terms": [
       "Capacity",
       "Resource management",
@@ -1728,6 +1820,9 @@
     "Deep Dive": null,
     "Contrast": "Cost baseline — zero-based budgeting is a method for building or reviewing budgets from scratch; a cost baseline is the approved time-phased budget used for control.",
     "Example": "A transformation program requires each workstream to justify its staffing, software, and vendor costs for the next release cycle instead of carrying forward last quarter's allocations.",
+    "Synonyms": [
+      "ZBB"
+    ],
     "Related Terms": [
       "Budget",
       "Cost baseline",

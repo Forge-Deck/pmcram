@@ -25,6 +25,10 @@
     "Deep Dive": "What it is: An adaptive life cycle is a project life cycle designed for environments where uncertainty is high and requirements cannot be fully defined upfront. Work is planned and executed in short cycles, with learning from each cycle shaping what comes next.\n\nWhy it matters and where it applies: It helps teams respond to changing customer needs, emerging technical understanding, and shifting priorities without treating change as failure. It is especially relevant in software, product development, innovation, and other domains where early feedback improves the final result.\n\nThe most common misconception: that adaptive means unstructured or unmanaged. In practice, adaptive projects still use planning, governance, prioritisation, and controls, but they apply them progressively and iteratively rather than trying to lock down all details at the beginning.\n\nHow it shows up in real projects: Teams maintain a prioritised backlog, deliver usable increments frequently, review outcomes with stakeholders, and revise upcoming work based on what was learned in prior iterations.",
     "Contrast": "Predictive life cycle — an adaptive life cycle expects scope to evolve through iteration, while a predictive life cycle defines scope as fully as possible early and manages to the baseline.",
     "Example": "A digital-service project releases a basic online application feature first, gathers user feedback, and then reprioritises later iterations to improve the highest-value functions.",
+    "Synonyms": [
+      "Agile life cycle",
+      "Change-driven life cycle"
+    ],
     "Related Terms": [
       "Agile",
       "Increment",
@@ -78,6 +82,9 @@
     "Deep Dive": "What it is: The Agile Manifesto is the short foundational statement created in 2001 that defines the core values and principles of Agile. It is not a delivery framework, governance model, or lifecycle by itself.\n\nWhy it matters and where it applies: It gives teams and leaders a common basis for choosing practices that support adaptability and value delivery. It is especially relevant in environments with evolving requirements, frequent feedback, and uncertainty about the best solution path.\n\nThe most common misconception: that the manifesto tells teams to reject planning, documentation, or discipline. In practice it reframes them so they support customer value and learning instead of becoming ends in themselves.\n\nHow it shows up in real projects: teams use it to justify incremental delivery, backlog reprioritisation, stakeholder collaboration, and regular retrospectives when conditions change or new information appears.",
     "Contrast": "Agile Practice Guide — the Agile Manifesto states the values and principles; the Agile Practice Guide explains how those ideas can be applied in delivery.",
     "Example": "A product team decides to shorten release cycles and involve users in each review because the manifesto's values push them toward faster feedback and closer collaboration.",
+    "Synonyms": [
+      "Manifesto for Agile Software Development"
+    ],
     "Related Terms": [
       "Agile",
       "Agile Practice Guide",
@@ -165,6 +172,9 @@
     "Deep Dive": null,
     "Contrast": "Sprint planning — backlog refinement prepares items ahead of time, while sprint planning selects and commits near-term work for the iteration.",
     "Example": "Before the next iteration, a product team reviews the top backlog items, adds acceptance criteria, and splits a large feature into several smaller user stories.",
+    "Synonyms": [
+      "Backlog grooming"
+    ],
     "Related Terms": [
       "Backlog",
       "User story",
@@ -200,6 +210,9 @@
     "Deep Dive": null,
     "Contrast": "Test-driven development — BDD frames behavior in user-readable terms; TDD focuses more directly on tests that drive implementation.",
     "Example": "A team defines login behavior in terms of user-visible outcomes, writes tests for those outcomes, and then builds the authentication feature.",
+    "Synonyms": [
+      "BDD"
+    ],
     "Related Terms": [
       "Test-driven development",
       "Requirements",
@@ -403,6 +416,9 @@
     "Deep Dive": null,
     "Contrast": "Self-organizing team — collective ownership is shared responsibility for the work product, while a self-organizing team is one that decides for itself how to do the work.",
     "Example": "Any developer on the team can refactor a module they did not write because the codebase is collectively owned.",
+    "Synonyms": [
+      "Collective code ownership"
+    ],
     "Related Terms": [
       "Pair Programming",
       "Refactoring",
@@ -420,6 +436,9 @@
     "Deep Dive": "What it is: Continuous delivery is a way of working in which teams design, build, test, and prepare increments so they can be released at any time with minimal delay. It depends on small batch sizes, automated testing, stable integration practices, and release readiness built into everyday work.\n\nWhy it matters and where it applies: It matters because long delays between development and release hide defects, increase coordination cost, and slow learning. It is especially useful in software, digital products, platform services, and other environments where frequent deployment and customer feedback improve value delivery.\n\nThe most common misconception: that continuous delivery means every change must be released instantly to production. In practice, it means the increment is kept in a releasable state at all times, while the business may still choose when to release.\n\nHow it shows up in real projects: Teams automate builds and tests, integrate code frequently, use deployment pipelines, and release approved increments in small, low-risk updates instead of bundling large releases.",
     "Contrast": "Continuous integration — continuous delivery keeps increments ready for immediate release; continuous integration focuses on frequently merging and validating work in a shared codebase.",
     "Example": "A digital-banking team automates build, test, security scan, and deployment steps so a completed account-alert feature can be released safely as soon as product approval is given.",
+    "Synonyms": [
+      "CD"
+    ],
     "Related Terms": [
       "Continuous integration",
       "Increment",
@@ -437,6 +456,9 @@
     "Deep Dive": null,
     "Contrast": "Continuous delivery — continuous integration focuses on frequently merging and validating changes; continuous delivery extends that flow toward release readiness.",
     "Example": "A software team merges code changes several times a day and runs automated unit and integration tests after each commit to detect defects immediately.",
+    "Synonyms": [
+      "CI"
+    ],
     "Related Terms": [
       "Agile",
       "DevOps",
@@ -560,6 +582,9 @@
     "Deep Dive": null,
     "Contrast": "Differs from a sprint review, which inspects the product increment with stakeholders; the Daily Scrum inspects daily progress within the team.",
     "Example": "Each morning the developers spend fifteen minutes agreeing what to tackle next and flagging a blocked integration task.",
+    "Synonyms": [
+      "Standup"
+    ],
     "Related Terms": [
       "Sprint goal",
       "Sprint backlog",
@@ -577,6 +602,9 @@
     "Deep Dive": null,
     "Contrast": "Status meeting — a daily standup is a short team coordination event focused on immediate work and impediments, not a broad reporting session for management.",
     "Example": "Each morning, a delivery team spends fifteen minutes sharing what was completed yesterday, what will be worked on today, and what blockers need attention.",
+    "Synonyms": [
+      "Standup"
+    ],
     "Related Terms": [
       "Daily coordination meeting",
       "Impediment",
@@ -595,6 +623,9 @@
     "Deep Dive": "Definition of Done is a working agreement that establishes the minimum conditions an increment must meet before it counts as complete. It gives teams a consistent completion standard so that items counted as done are genuinely usable and not partially finished. Depending on the team, those conditions commonly include:\n\n- Coding complete\n- Testing performed\n- Integration done\n- Documentation updated\n- Compliance requirements met\n- Defect thresholds satisfied\n- Required approvals obtained\n\nWhy it matters and where it applies: it improves transparency, predictability, and quality in iterative delivery. It is especially important in agile and hybrid environments where teams produce frequent increments and need a reliable basis for review, release, and progress measurement.\n\nThe most common misconception is that done simply means development work is finished. In practice, done usually includes broader expectations such as testing, integration, documentation, defect thresholds, and any other conditions needed for the increment to be considered complete.\n\nHow it shows up in real projects: teams post the Definition of Done visibly, use it during iteration planning and reviews, and check every backlog item against it before accepting it into an increment or release.",
     "Contrast": "Acceptance criteria — Definition of Done sets the common completion standard for all items or increments; acceptance criteria define the specific conditions for an individual requirement or backlog item.",
     "Example": "A Scrum team defines done as coded, peer reviewed, unit tested, integrated, security checked, documented, and accepted by the product owner before a story can count toward the sprint increment.",
+    "Synonyms": [
+      "DoD"
+    ],
     "Related Terms": [
       "Acceptance criteria",
       "Increment",
@@ -613,6 +644,9 @@
     "Deep Dive": null,
     "Contrast": "Definition of Done — Definition of Ready sets the entry criteria for starting work; Definition of Done sets the completion criteria for finishing it.",
     "Example": "Before pulling a user story into an iteration, a product team checks that the story has acceptance criteria, dependencies identified, and stakeholder clarifications resolved.",
+    "Synonyms": [
+      "DoR"
+    ],
     "Related Terms": [
       "Backlog",
       "User story",
@@ -682,6 +716,11 @@
     "Deep Dive": "What it is: Disciplined Agile is a toolkit and mindset for choosing how work gets done based on the situation rather than by following a single predefined method. It offers guidance across team, value-stream, and enterprise levels.\n\nWhy it matters and where it applies: many organisations operate in mixed environments where one method does not fit every initiative. Disciplined Agile helps teams tailor practices while still supporting coordination, governance, and business outcomes.\n\nThe most common misconception: that Disciplined Agile is just another agile framework competing directly with Scrum. In practice it is broader and helps teams decide when Scrum, Kanban, hybrid planning, lean governance, or other options make sense.\n\nHow it shows up in real projects: a team uses Disciplined Agile guidance to choose an iteration-based lifecycle, lightweight architecture reviews, and context-specific governance checkpoints instead of adopting a standard method unchanged.",
     "Contrast": "Scrum — Disciplined Agile is a decision toolkit for choosing fit-for-purpose ways of working; Scrum is a specific framework with defined roles and events.",
     "Example": "A PMO supports software, infrastructure, and compliance projects by using Disciplined Agile guidance so each team adopts a different lifecycle and governance approach suited to its delivery context.",
+    "Synonyms": [
+      "DA",
+      "DAD",
+      "Disciplined Agile Delivery"
+    ],
     "Related Terms": [
       "Agile",
       "Hybrid approach",
@@ -785,6 +824,9 @@
     "Deep Dive": null,
     "Contrast": "Scrum focuses on team workflow and roles, while Extreme Programming prescribes specific engineering practices for how the code is built.",
     "Example": "A development team adopts XP, pairing on code and writing automated tests before each feature to sustain quality.",
+    "Synonyms": [
+      "XP"
+    ],
     "Related Terms": [
       "Pair programming",
       "Test-driven development",
@@ -853,6 +895,9 @@
     "Deep Dive": null,
     "Contrast": "Specialist — a generalizing specialist has both depth and breadth; a specialist is primarily deep in one domain.",
     "Example": "A developer on a digital product team writes code, helps clarify user stories, and supports test design during iteration planning.",
+    "Synonyms": [
+      "T-shaped person"
+    ],
     "Related Terms": [
       "Cross-functional team",
       "T-shaped skill set",
@@ -870,6 +915,9 @@
     "Deep Dive": null,
     "Contrast": "Definition of Done — a hardening sprint concentrates stabilization work in a later timebox, while Definition of Done aims to build release-quality work into every increment.",
     "Example": "A software team completes feature development over several iterations and then runs a hardening sprint to resolve integration defects before deployment.",
+    "Synonyms": [
+      "Stabilization sprint"
+    ],
     "Related Terms": [
       "Iteration",
       "Increment",
@@ -1054,6 +1102,9 @@
     "Deep Dive": null,
     "Contrast": "Status report — an information radiator is persistently visible and updated as work changes, while a status report is a periodic communication delivered at set intervals.",
     "Example": "A product team maintains a wall board showing sprint goals, work in progress, blockers, and release burnup so stakeholders can see current status immediately.",
+    "Synonyms": [
+      "Big visible chart"
+    ],
     "Related Terms": [
       "Transparency",
       "Kanban board",
@@ -1265,6 +1316,9 @@
     "Deep Dive": null,
     "Contrast": "Pull system - a pull system is the broader principle of producing only in response to demand, of which JIT delivery of materials is a concrete application.",
     "Example": "An assembly plant has parts delivered hourly to the line so that almost no warehouse inventory is held.",
+    "Synonyms": [
+      "Just-in-time manufacturing"
+    ],
     "Related Terms": [
       "Lean",
       "Pull system",
@@ -1282,6 +1336,9 @@
     "Deep Dive": null,
     "Contrast": "Just in case — just in time minimizes early delivery and inventory; just in case keeps extra supply or buffer on hand.",
     "Example": "A construction project arranges for specialty fixtures to arrive shortly before installation rather than storing them on site for weeks.",
+    "Synonyms": [
+      "JIT"
+    ],
     "Related Terms": [
       "Inventory",
       "Lead time",
@@ -1303,6 +1360,9 @@
     "Figure": {
       "svg": "<svg viewBox='0 0 334 205' xmlns='http://www.w3.org/2000/svg' fill='none'><text x='60' y='23' fill='currentColor' font-size='11' text-anchor='middle'>To Do</text><text x='167' y='23' fill='currentColor' font-size='11' text-anchor='middle'>In Progress</text><text x='167' y='36' fill='#B5462F' font-size='9' text-anchor='middle'>WIP limit 2</text><text x='274' y='23' fill='currentColor' font-size='11' text-anchor='middle'>Done</text><rect x='12' y='43' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='119' y='43' width='96' height='150' rx='5' stroke='#B5462F' stroke-width='1.3'/><rect x='226' y='43' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='20' y='53' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='20' y='83' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='20' y='113' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='127' y='53' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='127' y='83' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='234' y='53' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/><rect x='234' y='83' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/></svg>"
     },
+    "Synonyms": [
+      "Kanban board"
+    ],
     "Related Terms": [
       "Kanban board",
       "Work in progress",
@@ -1312,26 +1372,6 @@
     ],
     "Tier": "Core glossary",
     "Source": "Agile Practice Guide, Kanban, p. 56"
-  },
-  {
-    "Term": "Kanban board",
-    "Core Meaning": "A visual tool that displays workflow states and work items so a team can manage flow and see bottlenecks.",
-    "Depth": "Standard",
-    "Expansion": "A Kanban board represents work visually, typically by showing items in columns such as to do, in progress, and done. It helps teams understand current status, control work in progress, and identify where flow is slowing down. In PMI usage, it is a practical mechanism used within Kanban to support transparency and continuous improvement.",
-    "Deep Dive": null,
-    "Contrast": "Task list — a Kanban board shows work in relation to workflow stages and flow, while a task list is usually just an inventory of items.",
-    "Example": "A software team uses a Kanban board with columns for analysis, development, test, and done so blockers in testing become visible immediately.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 334 205' xmlns='http://www.w3.org/2000/svg' fill='none'><text x='60' y='23' fill='currentColor' font-size='11' text-anchor='middle'>To Do</text><text x='167' y='23' fill='currentColor' font-size='11' text-anchor='middle'>In Progress</text><text x='167' y='36' fill='#B5462F' font-size='9' text-anchor='middle'>WIP limit 2</text><text x='274' y='23' fill='currentColor' font-size='11' text-anchor='middle'>Done</text><rect x='12' y='43' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='119' y='43' width='96' height='150' rx='5' stroke='#B5462F' stroke-width='1.3'/><rect x='226' y='43' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='20' y='53' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='20' y='83' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='20' y='113' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='127' y='53' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='127' y='83' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='234' y='53' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/><rect x='234' y='83' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/></svg>"
-    },
-    "Related Terms": [
-      "Kanban",
-      "Work in progress",
-      "Flow",
-      "Visual management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Kanban board, p. 213"
   },
   {
     "Term": "Last Responsible Moment",
@@ -1465,6 +1505,9 @@
     "Deep Dive": "What it is: A minimum viable product is the earliest usable release that delivers real value with the fewest necessary features. It is designed to test assumptions, support learning, and create a basis for further increments.\n\nWhy it matters and where it applies: MVP reduces the risk of building too much before validating demand, usability, or fit. It is common in digital product development, innovation work, and adaptive projects where customer feedback can reshape priorities.\n\nThe most common misconception: Many people treat MVP as a low-quality or incomplete product. In practice, it must still be viable, meaning useful enough to deliver value and generate meaningful feedback.\n\nHow it shows up in real projects: Teams define a narrow first-release scope, launch it to a target user group, measure outcomes, and then reprioritize the backlog based on what they learn.",
     "Contrast": "Prototype — an MVP is a usable first release that delivers value; a prototype is mainly built to explore, test, or demonstrate an idea.",
     "Example": "A university launches a new student app with course schedules, notifications, and fee payment as the MVP, then adds advising and social features in later releases.",
+    "Synonyms": [
+      "MVP"
+    ],
     "Related Terms": [
       "Increment",
       "Release",
@@ -1517,6 +1560,9 @@
     "Deep Dive": null,
     "Contrast": "Code review - pair programming reviews code continuously as a co-located pair writes it, whereas a code review inspects completed work asynchronously after it is submitted.",
     "Example": "Two developers pair on a tricky payment module so defects are caught as they are written and both fully understand the code afterwards.",
+    "Synonyms": [
+      "Pairing"
+    ],
     "Related Terms": [
       "Extreme programming",
       "Code review",
@@ -1549,6 +1595,9 @@
     "Deep Dive": null,
     "Contrast": "Expert judgment — planning poker is a structured group estimation technique with simultaneous reveal; expert judgment may come from one or more specialists without that facilitation format.",
     "Example": "A Scrum team estimates user stories for an upcoming iteration by selecting cards privately, revealing them at the same time, then discussing why one developer chose 3 while another chose 13.",
+    "Synonyms": [
+      "Scrum poker"
+    ],
     "Related Terms": [
       "Relative estimation",
       "Story points",
@@ -1602,6 +1651,9 @@
     "Deep Dive": "What it is: The product owner is the person who makes prioritization decisions for the product and is accountable for the value of what is produced. The role turns stakeholder needs, feedback, and business objectives into an ordered flow of work.\n\nWhy it matters and where it applies: it matters because teams need a clear authority for tradeoff decisions when time, capacity, and demand compete. It applies most directly in agile and adaptive delivery, especially where products evolve through frequent feedback and incremental release.\n\nThe most common misconception: that the product owner is only a backlog administrator or stakeholder messenger. In practice the role carries real decision authority over value and priority, not just record keeping.\n\nHow it shows up in real projects: the product owner reviews customer feedback, reorders the backlog, clarifies acceptance expectations, and decides that a high-value checkout improvement should be built before lower-impact interface changes.",
     "Contrast": "Project manager — the product owner focuses on product value and prioritization; the project manager focuses on coordinating project work and delivery.",
     "Example": "On an e-commerce initiative, the product owner prioritizes payment reliability features ahead of cosmetic storefront updates because failed transactions hurt business value more.",
+    "Synonyms": [
+      "PO"
+    ],
     "Related Terms": [
       "Product backlog",
       "Agile",
@@ -1781,6 +1833,9 @@
     "Deep Dive": null,
     "Contrast": "Scrum Master - a Scrum Master serves one team, whereas the RTE serves the entire release train of multiple teams.",
     "Example": "The RTE facilitates quarterly PI planning so eight teams align their commitments and surface cross-team dependencies.",
+    "Synonyms": [
+      "RTE"
+    ],
     "Related Terms": [
       "Scrum Master",
       "Servant leadership",
@@ -1831,6 +1886,9 @@
     "Deep Dive": null,
     "Contrast": "Lessons learned — a retrospective is a live team reflection used to improve the next cycle; lessons learned are the recorded insights that may be captured for future use.",
     "Example": "After a two-week sprint, the team agrees to improve backlog refinement and reduce handoff delays before the next iteration.",
+    "Synonyms": [
+      "Retro"
+    ],
     "Related Terms": [
       "Lessons learned",
       "Continuous improvement",
@@ -1867,6 +1925,9 @@
     "Deep Dive": null,
     "Contrast": "Scrum guides one team, while the Scaled Agile Framework coordinates many teams and aligns them to enterprise strategy.",
     "Example": "An enterprise launches an agile release train of eight teams that plan together in quarterly increment planning.",
+    "Synonyms": [
+      "SAFe"
+    ],
     "Related Terms": [
       "Release Train Engineer",
       "Weighted Shortest Job First (WSJF)",
@@ -1955,6 +2016,9 @@
     "Deep Dive": null,
     "Contrast": "Point-based design — Set-based design keeps multiple viable options open while point-based design commits early to one option and iterates around it.",
     "Example": "An engineering team evaluating a new medical device develops three viable enclosure concepts, tests each against manufacturability and safety constraints, and eliminates options only after evidence shows which design best meets requirements.",
+    "Synonyms": [
+      "Set-based concurrent engineering"
+    ],
     "Related Terms": [
       "Lean",
       "Trade-off analysis",
@@ -2075,6 +2139,9 @@
     "Deep Dive": null,
     "Contrast": "Sprint Review — the Sprint Retrospective examines the team's way of working, while the Sprint Review examines the product increment with stakeholders.",
     "Example": "At the end of a sprint, the team agrees to tighten backlog refinement and reduce handoff delays before the next iteration begins.",
+    "Synonyms": [
+      "Sprint retro"
+    ],
     "Related Terms": [
       "Sprint",
       "Sprint Review",
@@ -2111,6 +2178,9 @@
     "Deep Dive": null,
     "Contrast": "Product backlog — a story map arranges stories in the context of user activities and flow; a product backlog is the ordered list of work items to be delivered.",
     "Example": "A product team maps the customer journey for online booking, then selects the minimum set of stories across search, selection, payment, and confirmation for the first release.",
+    "Synonyms": [
+      "User story map"
+    ],
     "Related Terms": [
       "User story",
       "Product backlog",
@@ -2222,6 +2292,9 @@
     "Deep Dive": null,
     "Contrast": "Kanban board — a task board is the general visual display of task status, while a kanban board is a specific implementation used to manage flow.",
     "Example": "A software team uses columns for To Do, In Progress, Review, and Done so the whole team can see where each task stands.",
+    "Synonyms": [
+      "Scrum board"
+    ],
     "Related Terms": [
       "Kanban board",
       "Workflow",
@@ -2254,6 +2327,10 @@
     "Deep Dive": null,
     "Contrast": "Defect — a defect is a flaw needing correction in a deliverable; technical debt is the broader future burden created by expedient technical choices, whether or not a visible defect exists.",
     "Example": "A software team hardcodes business rules to meet a release date, then later spends several sprints redesigning the rules engine so new products can be added without repeated code changes.",
+    "Synonyms": [
+      "Code debt",
+      "Tech debt"
+    ],
     "Related Terms": [
       "Refactoring",
       "Increment",
@@ -2272,6 +2349,9 @@
     "Deep Dive": null,
     "Contrast": "Behavior-driven development — test-driven development centres on writing tests first to drive implementation, while behavior-driven development expresses expected behaviour in a more business-readable form.",
     "Example": "A software team writes automated tests for password reset rules before implementing the reset feature.",
+    "Synonyms": [
+      "TDD"
+    ],
     "Related Terms": [
       "Testing",
       "Behavior-driven development",
@@ -2288,6 +2368,9 @@
     "Deep Dive": "What it is: Theory of constraints is a management approach that identifies the factor that most limits overall system performance and then manages work around that limit. The aim is to improve the throughput of the whole system rather than the local efficiency of isolated parts.\n\nWhy it matters and where it applies: projects often slow down because of one scarce resource, one approval gate, or one persistent dependency rather than because every task is equally problematic. This makes theory of constraints useful in schedule planning, resource management, portfolio flow, and environments where too much simultaneous work overwhelms a bottleneck.\n\nThe most common misconception: that any delay or difficult task is automatically the constraint. In practice, the true constraint is the element that most restricts end-to-end performance at that moment, and it can move once the current bottleneck is relieved.\n\nHow it shows up in real projects: a team may identify a constrained testing group, protect it from interruptions, sequence work to keep it productive, and limit work in progress upstream so the queue does not become chaotic.",
     "Contrast": "Critical path — theory of constraints focuses on the system bottleneck that limits overall flow, while critical path focuses on the longest path of dependent activities that determines schedule duration.",
     "Example": "A release program is repeatedly delayed by a single cybersecurity review team, so the project manager restructures handoffs and limits parallel submissions to keep that team focused on the highest-value items first.",
+    "Synonyms": [
+      "TOC"
+    ],
     "Related Terms": [
       "Critical chain project management",
       "Constraint",
@@ -2493,6 +2576,9 @@
     "Deep Dive": null,
     "Contrast": "Process flow diagram — a value stream map is specifically used to expose delays, queues, and handoffs, while a process flow diagram more generally shows the sequence of steps.",
     "Example": "A service team maps its incident-resolution process and finds that most delay occurs while tickets wait for specialist review.",
+    "Synonyms": [
+      "VSM"
+    ],
     "Related Terms": [
       "Process flow",
       "Flow",
@@ -2510,6 +2596,9 @@
     "Deep Dive": null,
     "Contrast": "Process map — Value Stream Mapping focuses on end-to-end value delivery flow and waste, while a process map may simply document steps.",
     "Example": "A product team maps the path from customer request through analysis, development, testing, and release to find approval bottlenecks that slow delivery.",
+    "Synonyms": [
+      "VSM"
+    ],
     "Related Terms": [
       "Value stream analysis",
       "Flow",
@@ -2616,6 +2705,9 @@
     "Deep Dive": null,
     "Contrast": "Value-added work — waste consumes resources without contributing value, while value-added work directly helps create the intended outcome.",
     "Example": "A project team removes duplicate status-report preparation that took hours each week but was not used for decisions.",
+    "Synonyms": [
+      "Muda"
+    ],
     "Related Terms": [
       "Value",
       "Rework",
@@ -2666,6 +2758,9 @@
     "Deep Dive": null,
     "Contrast": "Batch size — a WIP limit restricts how much work is active at once, while batch size describes how much work is grouped together for processing or delivery.",
     "Example": "A software team sets a WIP limit of three items in the testing column so developers stop starting new features and help clear testing bottlenecks.",
+    "Synonyms": [
+      "Work-in-progress limit"
+    ],
     "Related Terms": [
       "Kanban",
       "Flow",
@@ -2684,6 +2779,9 @@
     "Deep Dive": null,
     "Contrast": "Backlog — Work in progress has already been started; backlog items are approved or candidate work not yet in active execution.",
     "Example": "A Kanban team limits itself to five active tasks at a time so developers finish current stories before pulling additional work into execution.",
+    "Synonyms": [
+      "WIP"
+    ],
     "Related Terms": [
       "Kanban",
       "WIP limit",
@@ -2702,6 +2800,9 @@
     "Deep Dive": null,
     "Contrast": "Work in progress — work in progress is the work currently underway; work in progress limits are the cap placed on how much can be underway at once.",
     "Example": "A software team sets a limit of three items in testing so the team finishes existing defects before starting more test cases.",
+    "Synonyms": [
+      "WIP limits"
+    ],
     "Related Terms": [
       "Work in progress",
       "Flow",
@@ -2755,6 +2856,9 @@
     "Deep Dive": null,
     "Contrast": "Architecture document - a formal architecture document specifies structure in detail, whereas an XP metaphor conveys a shared conceptual picture informally.",
     "Example": "Describing an e-commerce system as a 'shopping cart and checkout lane' so everyone shares the same mental model.",
+    "Synonyms": [
+      "System metaphor"
+    ],
     "Related Terms": [
       "Extreme Programming",
       "Empiricism",

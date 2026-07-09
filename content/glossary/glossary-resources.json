@@ -233,6 +233,9 @@
     "Deep Dive": "What it is: Human resource management is the body of project work concerned with getting the right people involved and enabling them to perform effectively. It includes:\n\n- Role definition.\n- Staffing.\n- Team development.\n- Leadership.\n- Management of interpersonal and organisational dynamics.\n\nWhy it matters and where it applies: projects succeed through people, so this area strongly influences delivery speed, quality, decision making, and stakeholder confidence. It applies in predictive, agile, and hybrid environments, though the specific structures and responsibilities may differ.\n\nThe most common misconception: that it is only an administrative staffing task. In practice it also includes capability development, conflict management, motivation, collaboration norms, and the conditions that let a team sustain performance.\n\nHow it shows up in real projects: it appears in responsibility assignments, team charters, onboarding plans, coaching, performance feedback, resource negotiations with functional managers, and actions to improve collaboration across disciplines.",
     "Contrast": "Resource management — human resource management focuses specifically on people and team capability, while resource management also includes physical resources, materials, equipment, and facilities.",
     "Example": "A programme manager works with functional leaders to secure specialist engineers, defines role expectations, creates a team charter, and addresses conflict between design and testing leads.",
+    "Synonyms": [
+      "HRM"
+    ],
     "Related Terms": [
       "Project team",
       "Resource management",
@@ -431,6 +434,9 @@
     "Deep Dive": null,
     "Contrast": "Work breakdown structure — an OBS organizes responsibility by organizational unit, while a WBS organizes scope by deliverable and work component.",
     "Example": "On a plant-upgrade project, the OBS shows engineering, procurement, construction, quality, and commissioning as distinct responsibility groupings aligned to the work they perform.",
+    "Synonyms": [
+      "OBS"
+    ],
     "Related Terms": [
       "Work breakdown structure",
       "Responsibility assignment matrix",
@@ -448,6 +454,9 @@
     "Deep Dive": null,
     "Contrast": "Responsibility assignment matrix - an org chart shows who reports to whom, whereas a RAM shows who does what on which work package.",
     "Example": "A project org chart showing the project manager, team leads, and their reporting team members.",
+    "Synonyms": [
+      "Org chart"
+    ],
     "Related Terms": [
       "Organizational Breakdown Structure",
       "Responsibility Assignment Matrix",
@@ -586,6 +595,9 @@
     "Deep Dive": null,
     "Contrast": "Responsibility assignment matrix (RAM) - the org chart shows reporting structure, while a RAM links work packages to the people responsible for them.",
     "Example": "A project org chart shows the PM at the top with leads for design, build, and test reporting beneath.",
+    "Synonyms": [
+      "Project org chart"
+    ],
     "Related Terms": [
       "Responsibility assignment matrix",
       "Resource management plan",
@@ -720,6 +732,9 @@
     "Deep Dive": null,
     "Contrast": "Work Breakdown Structure — a Resource Breakdown Structure organizes resources by type or category; a WBS organizes deliverables and the work needed to create them.",
     "Example": "An infrastructure project structures resources into civil engineers, site supervisors, heavy machinery, concrete materials, and testing facilities before detailed assignment planning.",
+    "Synonyms": [
+      "RBS"
+    ],
     "Related Terms": [
       "Resource",
       "Resource requirements",
@@ -1053,6 +1068,9 @@
     "Deep Dive": null,
     "Contrast": "RACI matrix — a responsibility assignment matrix is the broader category; a RACI matrix is one specific form that labels involvement as responsible, accountable, consulted, and informed.",
     "Example": "In an ERP implementation, the matrix shows that finance owns chart-of-accounts design, IT owns system configuration, and the vendor supports data migration tasks.",
+    "Synonyms": [
+      "RAM"
+    ],
     "Related Terms": [
       "Work package",
       "Resource assignment",
@@ -1141,6 +1159,9 @@
     "Deep Dive": null,
     "Contrast": "Project team member — a subject matter expert is defined by specialized expertise contributed to the project, while a project team member may have broader delivery responsibilities without being the recognized authority in a domain.",
     "Example": "On a healthcare software project, a clinical coding expert reviews workflow requirements and confirms that the proposed design aligns with regulatory and operational practice.",
+    "Synonyms": [
+      "SME"
+    ],
     "Related Terms": [
       "Expert judgment",
       "Project team",
@@ -1247,6 +1268,9 @@
     "Deep Dive": null,
     "Contrast": "Distinct from the project manager, who owns scope, schedule, and stakeholders rather than the technical design.",
     "Example": "The technical lead chooses the system architecture and reviews critical code while the project manager tracks the plan.",
+    "Synonyms": [
+      "Tech lead"
+    ],
     "Related Terms": [
       "Subject matter expert",
       "Technical requirements",

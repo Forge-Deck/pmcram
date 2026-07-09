@@ -29,6 +29,9 @@
     "Deep Dive": null,
     "Contrast": "Differs from litigation, which resolves disputes through the courts; ADR settles them through private, agreed mechanisms.",
     "Example": "A contract clause requires the parties to attempt mediation, and if that fails, to use binding arbitration instead of suing.",
+    "Synonyms": [
+      "ADR"
+    ],
     "Related Terms": [
       "Dispute resolution",
       "Negotiation",
@@ -80,6 +83,9 @@
     "Deep Dive": null,
     "Contrast": "Proposal — a bid is typically a price-focused offer in response to a solicitation; a proposal may include broader technical and management information.",
     "Example": "A contractor submits a bid to build a warehouse after the buyer issues an invitation for bid.",
+    "Synonyms": [
+      "Tender"
+    ],
     "Related Terms": [
       "Solicitation",
       "Invitation for bid",
@@ -97,6 +103,10 @@
     "Deep Dive": null,
     "Contrast": "Procurement statement of work — bid documents are the full solicitation package sent to sellers, while the procurement statement of work is one component that describes the required deliverable or work.",
     "Example": "A construction project issues bid documents for electrical installation work, including technical drawings, contract terms, site conditions, and submission instructions for bidders.",
+    "Synonyms": [
+      "Solicitation documents",
+      "Tender documents"
+    ],
     "Related Terms": [
       "Procurement",
       "Procurement statement of work",
@@ -116,7 +126,10 @@
     "Contrast": "Procurement negotiation — a bidder conference clarifies requirements before proposals are submitted; negotiation occurs later to reach agreement with a selected seller.",
     "Example": "A public sector project team holds a bidder conference for software vendors so each supplier hears the same explanation of integration, security, and service-level requirements before preparing proposals.",
     "Synonyms": [
-      "Bidder Conferences"
+      "Bidder Conferences",
+      "Contractor conference",
+      "Pre-bid conference",
+      "Vendor conference"
     ],
     "Related Terms": [
       "Procurement Statement of Work",
@@ -137,6 +150,9 @@
     "Deep Dive": null,
     "Contrast": "Seller — the buyer acquires and pays for the work; the seller provides the contracted product or service.",
     "Example": "A city transit project acts as the buyer when it issues a request for proposal and awards a contract for station security equipment.",
+    "Synonyms": [
+      "Purchaser"
+    ],
     "Related Terms": [
       "Seller",
       "Procurement",
@@ -155,6 +171,9 @@
     "Deep Dive": null,
     "Contrast": "Target price - the target price is the expected negotiated cost-plus-fee, whereas the ceiling price is the absolute maximum the buyer will pay.",
     "Example": "A fixed-price incentive contract with a ceiling price of $1.2M means the buyer never pays more than that even if the seller's costs balloon.",
+    "Synonyms": [
+      "Not-to-exceed price"
+    ],
     "Related Terms": [
       "Point of Total Assumption",
       "Target Price",
@@ -328,7 +347,7 @@
     "Contrast": "Agreement — an agreement is the overall documented understanding between parties; contract type is the specific commercial structure within that agreement.",
     "Example": "A hospital project uses a fixed-price contract for standard imaging equipment installation but a time-and-materials contract for specialist cybersecurity support during system integration.",
     "Figure": {
-      "svg": "<svg viewBox='0 0 304 171' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='16.4,28 282.4,120 16.4,120' fill='#B5462F' fill-opacity='0.16' stroke='#B5462F' stroke-width='1'/><polygon points='282.4,28 282.4,120 16.4,120' fill='#1F5FA8' fill-opacity='0.16' stroke='#1F5FA8' stroke-width='1'/><text x='24.4' y='22' fill='#B5462F' font-size='10'>Seller risk</text><text x='274.4' y='22' fill='#1F5FA8' font-size='10' text-anchor='end'>Buyer risk</text><line x1='16.4' y1='120' x2='282.4' y2='120' stroke='currentColor' stroke-width='1.4'/><text x='20.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>FFP</text><text x='92.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>FPIF</text><text x='154.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>T&amp;M</text><text x='216.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>CPIF</text><text x='280.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>CPFF</text><text x='149.4' y='156' fill='currentColor' font-size='9' text-anchor='middle'>fixed price  →  cost-reimbursable</text></svg>"
+      "svg": "<svg viewBox='0 0 304 171' xmlns='http://www.w3.org/2000/svg' fill='none'><polygon points='16.4,28 282.4,120 16.4,120' fill='#B5462F' fill-opacity='0.16' stroke='#B5462F' stroke-width='1'/><polygon points='282.4,28 282.4,120 16.4,120' fill='#1F5FA8' fill-opacity='0.16' stroke='#1F5FA8' stroke-width='1'/><text x='24.4' y='22' fill='#B5462F' font-size='10'>Seller risk</text><text x='274.4' y='22' fill='#1F5FA8' font-size='10' text-anchor='end'>Buyer risk</text><line x1='16.4' y1='120' x2='282.4' y2='120' stroke='currentColor' stroke-width='1.4'/><text x='20.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>FFP</text><text x='92.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>FPIF</text><text x='154.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>T&M</text><text x='216.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>CPIF</text><text x='280.4' y='136' fill='currentColor' font-size='9' text-anchor='middle'>CPFF</text><text x='149.4' y='156' fill='currentColor' font-size='9' text-anchor='middle'>fixed price  →  cost-reimbursable</text></svg>"
     },
     "Related Terms": [
       "Fixed-price contract",
@@ -444,6 +463,9 @@
     "Deep Dive": null,
     "Contrast": "Fixed-price contract — a cost-reimbursable contract repays allowable actual costs plus fee, while a fixed-price contract sets a defined price for the specified work.",
     "Example": "A research project hires a specialist laboratory under a cost-reimbursable contract because the exact testing effort cannot be known at the start.",
+    "Synonyms": [
+      "Cost-plus contract"
+    ],
     "Related Terms": [
       "Contract",
       "Procurement",
@@ -513,6 +535,10 @@
     "Deep Dive": null,
     "Contrast": "Mediation — a dispute review board is established early and remains involved through the project; mediation is usually introduced after a dispute has already formed.",
     "Example": "On a major rail-construction project, the owner and contractor use a dispute review board to review delay claims before they develop into formal legal proceedings.",
+    "Synonyms": [
+      "DRB",
+      "Dispute board"
+    ],
     "Related Terms": [
       "Alternative dispute resolution",
       "Claims administration",
@@ -567,7 +593,8 @@
     "Example": "A buyer contracts a supplier to deliver a standard payroll interface for a single agreed amount based on a detailed statement of work and acceptance criteria.",
     "Synonyms": [
       "Firm-fixed-price",
-      "Firm-fixed-price contract"
+      "Firm-fixed-price contract",
+      "Lump sum contract"
     ],
     "Related Terms": [
       "Fixed-price contract",
@@ -656,7 +683,8 @@
     "Contrast": "Cost-reimbursable contract — a fixed-price contract pays an agreed total for defined work, while a cost-reimbursable contract pays allowable actual costs plus a fee.",
     "Example": "A company contracts a vendor to install standard office security hardware across three sites for a single agreed price tied to defined acceptance tests.",
     "Synonyms": [
-      "Fixed price contract"
+      "Fixed price contract",
+      "Lump-sum contract"
     ],
     "Related Terms": [
       "Procurement",
@@ -765,6 +793,10 @@
     "Deep Dive": null,
     "Contrast": "Request for proposal — an invitation for bid is used when requirements are well defined and price is the main basis of selection, while a request for proposal is used when the seller's approach and technical solution also need evaluation.",
     "Example": "A public agency issues an invitation for bid for office fit-out work with detailed drawings, material standards, and a required completion date.",
+    "Synonyms": [
+      "IFB",
+      "Invitation to bid"
+    ],
     "Related Terms": [
       "Procurement",
       "Bid",
@@ -906,6 +938,9 @@
     "Deep Dive": null,
     "Contrast": "Unlike a contract, which creates legally enforceable obligations, a memorandum of understanding usually expresses intent without binding the parties.",
     "Example": "Two universities sign a memorandum of understanding to share research facilities before negotiating detailed contractual terms.",
+    "Synonyms": [
+      "MOU"
+    ],
     "Related Terms": [
       "Agreement",
       "Service level agreement",
@@ -939,6 +974,9 @@
     "Deep Dive": null,
     "Contrast": "Unlike a firm fixed price, which sets a single agreed price, a not-to-exceed limit allows variable billing up to a maximum.",
     "Example": "A consulting contract bills hourly but stops at a not-to-exceed limit of 200k for the engagement.",
+    "Synonyms": [
+      "NTE"
+    ],
     "Related Terms": [
       "Time and materials contract",
       "Cost-reimbursable contract",
@@ -990,6 +1028,9 @@
     "Deep Dive": null,
     "Contrast": "Ceiling price - the ceiling price is the maximum the buyer will ever pay, whereas the PTA is the cost point at which the seller starts bearing all further overrun.",
     "Example": "On an FPIF contract, once actual costs pass the PTA the seller, not the buyer, funds every additional dollar.",
+    "Synonyms": [
+      "PTA"
+    ],
     "Related Terms": [
       "Ceiling Price",
       "Sharing Ratio",
@@ -1200,6 +1241,9 @@
     "Deep Dive": null,
     "Contrast": "Statement of work — a procurement statement of work is the buyer's procurement-specific description of contracted work; a statement of work can be used more broadly in project or contractual contexts.",
     "Example": "For a data-centre migration, the procurement statement of work specifies equipment removal, transport, rack installation, cable testing, and cutover support services.",
+    "Synonyms": [
+      "Procurement SOW"
+    ],
     "Related Terms": [
       "Statement of work",
       "Procurement",
@@ -1306,6 +1350,9 @@
     "Deep Dive": null,
     "Contrast": "Quality-based selection method — quality-and-cost-based selection balances technical quality and price, while quality-based selection gives primary importance to technical quality.",
     "Example": "A system-implementation project compares vendors using weighted scores for solution fit, delivery approach, support capability, and total evaluated cost before contract award.",
+    "Synonyms": [
+      "QCBS"
+    ],
     "Related Terms": [
       "Procurement",
       "Source selection criteria",
@@ -1323,6 +1370,9 @@
     "Deep Dive": null,
     "Contrast": "Quality-and-cost-based selection method — quality-based selection gives primary weight to technical quality, while quality-and-cost-based selection balances quality with price in the final evaluation.",
     "Example": "A transport authority selects a tunnel-design consultant based mainly on engineering approach, safety record, and specialist experience, with commercial terms considered only after technical ranking.",
+    "Synonyms": [
+      "QBS"
+    ],
     "Related Terms": [
       "Procurement",
       "Source selection criteria",
@@ -1357,6 +1407,9 @@
     "Deep Dive": null,
     "Contrast": "Request for proposal — a request for bid focuses on price for a clearly defined need; a request for proposal is used when solution approach and seller expertise matter more.",
     "Example": "A city issues a request for bid for road resurfacing work with exact specifications and completion dates.",
+    "Synonyms": [
+      "RFB"
+    ],
     "Related Terms": [
       "Request for proposal",
       "Request for quote",
@@ -1375,6 +1428,9 @@
     "Deep Dive": null,
     "Contrast": "Request for Proposal — a request for information gathers market knowledge, while a request for proposal asks sellers to submit a proposed solution for evaluation.",
     "Example": "A hospital project issues an RFI to several scheduling-system vendors to understand integration options before preparing detailed procurement documents.",
+    "Synonyms": [
+      "RFI"
+    ],
     "Related Terms": [
       "Procurement",
       "Seller",
@@ -1393,6 +1449,9 @@
     "Deep Dive": null,
     "Contrast": "Request for quotation — a request for proposal seeks a proposed solution and approach; a request for quotation mainly seeks price for a clearly specified need.",
     "Example": "A public agency issues a request for proposal for a digital permitting platform and compares vendors on implementation approach, support model, and delivery capability.",
+    "Synonyms": [
+      "RFP"
+    ],
     "Related Terms": [
       "Procurement",
       "Seller",
@@ -1411,6 +1470,9 @@
     "Deep Dive": null,
     "Contrast": "Request for bid — a request for quotation asks for quotations against a defined requirement; a request for bid is a closely related solicitation term often used where formal bid competition is emphasized.",
     "Example": "A project team sends a request for quotation for backup servers with fixed technical specifications and compares supplier pricing and delivery dates.",
+    "Synonyms": [
+      "RFQ"
+    ],
     "Related Terms": [
       "Procurement",
       "Seller",
@@ -1429,6 +1491,9 @@
     "Deep Dive": null,
     "Contrast": "Request for proposal — a request for quote seeks pricing for a defined need, while a request for proposal seeks a proposed solution and approach.",
     "Example": "A project team issues a request for quote for 200 laptops with fixed technical specifications and compares supplier responses on cost and lead time.",
+    "Synonyms": [
+      "RFQ"
+    ],
     "Related Terms": [
       "Procurement",
       "Seller",
@@ -1534,6 +1599,9 @@
     "Deep Dive": null,
     "Contrast": "Contract — a service-level agreement defines specific service expectations and performance measures; a contract is the broader legally binding agreement that may contain or reference an SLA.",
     "Example": "A cloud-migration project includes an SLA requiring the hosting provider to meet agreed uptime and incident-response targets once the new platform goes live.",
+    "Synonyms": [
+      "SLA"
+    ],
     "Related Terms": [
       "Procurement",
       "Contract",
@@ -1656,6 +1724,9 @@
     "Deep Dive": null,
     "Contrast": "Scope statement — a statement of work is a narrative description of requested work or deliverables; a scope statement is the project document that defines the project and product scope in more detail.",
     "Example": "A vendor SOW for a website redesign specifies the pages, content migration, testing support, and delivery milestones expected from the supplier.",
+    "Synonyms": [
+      "SOW"
+    ],
     "Related Terms": [
       "Scope statement",
       "Procurement",
@@ -1773,6 +1844,7 @@
     "Contrast": "Cost-reimbursable contract — a time-and-materials contract pays agreed labor rates plus materials, while cost-reimbursable arrangements reimburse allowable actual costs with a fee structure.",
     "Example": "A company hires a specialist integration vendor at agreed hourly rates plus hardware pass-through costs to support a system rollout while final interface requirements are still emerging.",
     "Synonyms": [
+      "T&M",
       "Time and materials contract"
     ],
     "Related Terms": [
