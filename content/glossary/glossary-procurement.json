@@ -15,8 +15,8 @@
       "Procurement",
       "Statement of work",
       "Service-level agreement",
-      "Memorandum of Understanding",
-      "Project Charter"
+      "Memorandum of understanding",
+      "Project charter"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - agreements"
@@ -51,8 +51,8 @@
     "Example": "A buyer and seller disputing a contract scope change agree to binding arbitration rather than going to court.",
     "Related Terms": [
       "Mediation",
-      "Negotiated Settlement",
-      "Claims Administration"
+      "Negotiated settlement",
+      "Claims administration"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - claims administration / dispute resolution"
@@ -126,18 +126,18 @@
     "Contrast": "Procurement negotiation — a bidder conference clarifies requirements before proposals are submitted; negotiation occurs later to reach agreement with a selected seller.",
     "Example": "A public sector project team holds a bidder conference for software vendors so each supplier hears the same explanation of integration, security, and service-level requirements before preparing proposals.",
     "Synonyms": [
-      "Bidder Conferences",
+      "Bidder conferences",
       "Contractor conference",
       "Pre-bid conference",
       "Vendor conference"
     ],
     "Related Terms": [
-      "Procurement Statement of Work",
+      "Procurement statement of work",
       "Request for proposal",
-      "Source Selection Criteria",
+      "Source selection criteria",
       "Seller",
       "Procurement",
-      "Conduct Procurements"
+      "Conduct procurements"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, bidder conference"
@@ -164,7 +164,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, buyer"
   },
   {
-    "Term": "Ceiling Price",
+    "Term": "Ceiling price",
     "Core Meaning": "The maximum price a buyer will pay under a contract, regardless of the seller's costs.",
     "Depth": "Standard",
     "Expansion": "The ceiling price is the highest amount a buyer agrees to pay under a contract, regardless of the seller's actual costs. In fixed-price incentive contracts it caps the buyer's exposure: above the ceiling, any further cost overrun is borne entirely by the seller. It is a key input to calculating the point of total assumption.",
@@ -175,9 +175,9 @@
       "Not-to-exceed price"
     ],
     "Related Terms": [
-      "Point of Total Assumption",
-      "Target Price",
-      "Fixed-Price Incentive Fee Contract"
+      "Point of total assumption",
+      "Target price",
+      "Fixed-price incentive fee contract"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - contract types (ceiling price)"
@@ -219,7 +219,7 @@
     "Source": "PMBOK Guide, procurement management section; exact page citation not confirmed in available PMI source"
   },
   {
-    "Term": "Close Procurements",
+    "Term": "Close procurements",
     "Core Meaning": "The process of completing each project procurement and formally closing the related contract.",
     "Depth": "Standard",
     "Expansion": "Close Procurements finalises the contract relationship after the seller has completed the work or the agreement has otherwise ended. It includes verifying that contractual obligations were met, resolving outstanding claims where applicable, and archiving procurement records. The process ensures the procurement is formally closed and the project has a complete contractual record.",
@@ -229,14 +229,14 @@
     "Related Terms": [
       "Procurement",
       "Contract",
-      "Control Procurements",
+      "Control procurements",
       "Claims administration"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide, Close Procurements; page citation not confirmed in available sources"
   },
   {
-    "Term": "Closed Procurements",
+    "Term": "Closed procurements",
     "Core Meaning": "Contracts that have been formally completed, settled, and signed off.",
     "Depth": "Atomic",
     "Expansion": "Closed procurements are contracts or other procurement agreements that have been formally finalized - all work accepted, claims settled, and closure documented by the authorized party. Closing a procurement includes verifying deliverables, settling open items, and archiving records. It is an output of the Control Procurements process.",
@@ -244,15 +244,15 @@
     "Contrast": "Close Project or Phase - closing procurements finalizes individual contracts, whereas Close Project or Phase finalizes the entire project or phase administratively.",
     "Example": "A signed completion certificate from the buyer formally closing a contractor's construction contract.",
     "Related Terms": [
-      "Control Procurements",
-      "Procurement Audits",
+      "Control procurements",
+      "Procurement audits",
       "Contract"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Control Procurements (closed procurements)"
   },
   {
-    "Term": "Conduct Procurements",
+    "Term": "Conduct procurements",
     "Core Meaning": "The process of obtaining seller responses, selecting a seller, and awarding a contract.",
     "Depth": "Standard",
     "Expansion": "Conduct Procurements is the process of collecting proposals or bids from prospective sellers, evaluating them against source selection criteria, choosing a seller, and awarding a contract. It includes activities such as bidder conferences, proposal evaluation, and negotiation. Its main output is a signed agreement that defines the working relationship with the selected seller.",
@@ -260,9 +260,9 @@
     "Contrast": "Plan Procurement Management - planning decides what and how to procure, whereas Conduct Procurements actually solicits, selects, and contracts a seller.",
     "Example": "Issuing an RFP, evaluating the three proposals received, and signing a contract with the chosen vendor.",
     "Related Terms": [
-      "Plan Procurement Management",
-      "Control Procurements",
-      "Source Selection Criteria"
+      "Plan procurement management",
+      "Control procurements",
+      "Source selection criteria"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Conduct Procurements"
@@ -294,7 +294,7 @@
     "Contrast": "Differs from contract negotiation, which sets the terms before signing; contract administration manages the relationship after award.",
     "Example": "The project manager keeps a complete file of change orders and inspection results so the final contract closeout is uncontested.",
     "Related Terms": [
-      "Control Procurements",
+      "Control procurements",
       "Seller performance evaluation",
       "Procurement closure",
       "Change control"
@@ -330,7 +330,7 @@
     "Example": "After an equipment supplier completes factory acceptance testing and final installation, the project team confirms all deliverables, settles the final invoice, archives records, and closes the contract.",
     "Related Terms": [
       "Procurement closure",
-      "Close Project or Phase",
+      "Close project or phase",
       "Claims administration",
       "Accepted deliverables",
       "Procurement documentation"
@@ -360,7 +360,7 @@
     "Source": "PMBOK Guide Seventh Edition procurement and agreement concepts; Procurement-related definitions in earlier PMBOK editions — exact page citation not retrievable from current source"
   },
   {
-    "Term": "Control Procurements",
+    "Term": "Control procurements",
     "Core Meaning": "The process of managing procurement relationships, monitoring contract performance, and making changes and corrections as needed.",
     "Depth": "Standard",
     "Expansion": "Control Procurements focuses on overseeing seller performance after a contract has been awarded. It includes tracking deliverables, reviewing invoices, managing claims, and ensuring that both buyer and seller meet contractual obligations. The process also supports change control when contract modifications are needed. It helps the project team detect and address procurement issues before they affect project objectives.",
@@ -372,13 +372,13 @@
       "Contract",
       "Seller",
       "Claim",
-      "Close Procurements"
+      "Close procurements"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Control Procurements"
   },
   {
-    "Term": "Cost Plus Award Fee Contract (CPAF)",
+    "Term": "Cost plus award fee contract (CPAF)",
     "Core Meaning": "A cost-reimbursable contract in which the buyer pays the seller for allowable actual costs plus an award fee based on the buyer's evaluation of performance.",
     "Depth": "Standard",
     "Expansion": "A CPAF contract reimburses the seller for legitimate actual costs incurred and adds an award fee that represents profit. Unlike a purely formula-based incentive, the award depends on how the buyer assesses the seller's performance against stated criteria. It is used when the buyer wants flexibility in the work and also wants to motivate strong overall performance.",
@@ -396,7 +396,7 @@
     "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
   },
   {
-    "Term": "Cost Plus Contract",
+    "Term": "Cost plus contract",
     "Core Meaning": "A contract type in which the buyer reimburses the seller for allowable costs and pays an agreed fee.",
     "Depth": "Standard",
     "Expansion": "A cost plus contract is used when the work cannot be defined precisely enough to support a fixed-price arrangement. The buyer pays allowable actual costs and a fee that may be fixed, incentive-based, or otherwise structured under the contract terms. In PMI usage, it sits within the cost-reimbursable family and is chosen when scope uncertainty is high and flexibility is needed.",
@@ -414,7 +414,7 @@
     "Source": "PMI Lexicon of Project Management Terms / A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition — contract types under procurement, exact page citation not confirmed"
   },
   {
-    "Term": "Cost Plus Fixed Fee Contract (CPFF)",
+    "Term": "Cost plus fixed fee contract (CPFF)",
     "Core Meaning": "A cost-reimbursable contract in which the buyer reimburses allowable costs and pays a fixed fee as profit.",
     "Depth": "Standard",
     "Expansion": "A CPFF contract reimburses the seller for allowable actual costs of the work and adds a fixed fee. That fee does not change because of the seller's actual cost performance unless the contract scope itself changes. It is useful when the work cannot be fully defined at the start but the parties want the profit arrangement to remain stable.",
@@ -432,7 +432,7 @@
     "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 6"
   },
   {
-    "Term": "Cost Plus Incentive Fee Contract (CPIF)",
+    "Term": "Cost plus incentive fee contract (CPIF)",
     "Core Meaning": "A reimbursable contract in which the buyer pays the seller allowable costs and an additional fee tied to agreed performance targets.",
     "Depth": "Foundational",
     "Expansion": "A cost-plus-incentive-fee contract is a cost-reimbursable agreement that pays the seller for legitimate incurred costs plus an incentive fee based on performance against specified objectives. PMI presents it as one of the main contract types used when the work cannot be estimated precisely enough for a fixed-price arrangement. It is intended to align seller behaviour with buyer priorities such as cost control, schedule achievement, or technical performance while preserving flexibility for uncertain work.",
@@ -584,7 +584,7 @@
     "Source": "PMBOK Guide - procurement and contract terms (fee)"
   },
   {
-    "Term": "Firm Fixed Price Contract (FFP)",
+    "Term": "Firm fixed price contract (FFP)",
     "Core Meaning": "A fixed-price contract in which the buyer pays an agreed total amount for the specified work regardless of the seller's actual cost.",
     "Depth": "Standard",
     "Expansion": "A Firm Fixed Price contract establishes a total price in advance for a defined scope of work. Under this arrangement, the seller generally bears most of the cost risk because payment does not increase simply because actual effort or cost is higher than expected. It is most suitable when requirements are stable, specifications are clear, and changes are expected to be limited.",
@@ -628,7 +628,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 12.1.1.6"
   },
   {
-    "Term": "Fixed Price Incentive Fee Contract (FPIF)",
+    "Term": "Fixed price incentive fee contract (FPIF)",
     "Core Meaning": "A fixed-price contract that includes a financial incentive for meeting defined performance objectives.",
     "Depth": "Standard",
     "Expansion": "A fixed-price-incentive-fee contract establishes a fixed base arrangement while allowing the seller to earn additional compensation for achieving agreed targets. Those targets commonly relate to cost, schedule, or technical performance. It balances cost control with motivational incentives and is useful when the buyer wants stronger performance signals without moving fully to a cost-reimbursable model.",
@@ -644,7 +644,7 @@
       "Procurement",
       "Incentive fee",
       "Firm-fixed-price contract",
-      "Price Ceiling",
+      "Price ceiling",
       "Firm-fixed-price",
       "Target cost",
       "Procurement contract",
@@ -654,7 +654,7 @@
     "Source": "PMBOK Guide glossary, fixed-price-incentive-fee contract, page 181"
   },
   {
-    "Term": "Fixed Price with Economic Price Adjustment Contract (FPEPA)",
+    "Term": "Fixed price with economic price adjustment contract (FPEPA)",
     "Core Meaning": "A fixed-price contract that permits predefined price adjustments when specified economic conditions change.",
     "Depth": "Standard",
     "Expansion": "An FPEPA contract starts with a fixed-price arrangement but includes clauses that adjust the price if external economic conditions, such as inflation or commodity-index shifts, move beyond agreed thresholds. It is useful for long-duration procurements where market volatility could otherwise make a pure fixed-price agreement impractical. The adjustment rules are defined in advance so the buyer and seller share certain external risks in a controlled way.",
@@ -669,7 +669,7 @@
       "Procurement",
       "Firm-fixed-price contract",
       "Economic price adjustment",
-      "Fixed-Price Contract"
+      "Fixed-price contract"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Glossary, Fixed-Price with Economic Price Adjustment Contract, p. 181"
@@ -699,7 +699,7 @@
     "Source": "PMBOK Guide — Sixth Edition, Project Procurement Management, contract types, exact page citation to confirm in PMI source"
   },
   {
-    "Term": "Force Majeure",
+    "Term": "Force majeure",
     "Core Meaning": "A contract clause that frees the parties from liability when extraordinary events beyond their control prevent them from meeting their obligations.",
     "Depth": "Standard",
     "Expansion": "A force majeure clause excuses a party from performing its contractual duties when events such as natural disasters, war, terrorism, or pandemics make performance impossible. It allocates the risk of such uncontrollable events, usually suspending obligations rather than terminating the contract outright. Project managers rely on these clauses to know who bears the cost and schedule impact when a major disruption strikes.",
@@ -734,7 +734,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Project Procurement Management — incentive fee; confirm exact page in Infinity"
   },
   {
-    "Term": "Indefinite Delivery Indefinite Quantity (IDIQ)",
+    "Term": "Indefinite delivery indefinite quantity (IDIQ)",
     "Core Meaning": "A contract vehicle that sets broad limits for repeated procurements over time while leaving the exact timing and quantity of work to be defined by later orders.",
     "Depth": "Standard",
     "Expansion": "IDIQ is primarily a procurement and contracting concept used when a buyer cannot define precise quantities or timing at award. In project settings, it supports flexible acquisition of recurring goods or services within a stated contract ceiling and ordering period. It is especially common in government and large-enterprise environments where work is released through task orders or delivery orders rather than a single fully specified purchase.",
@@ -871,7 +871,7 @@
     "Example": "A hospital implementation project decides to buy a commercial patient-notification platform instead of building one in-house because vendor capability is mature and delivery time is shorter.",
     "Related Terms": [
       "Procurement",
-      "Plan Procurement Management",
+      "Plan procurement management",
       "Contract",
       "Source selection",
       "Bid documents"
@@ -880,7 +880,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Plan Procurement Management, page 471"
   },
   {
-    "Term": "Market Analysis",
+    "Term": "Market analysis",
     "Core Meaning": "Examining market conditions, suppliers, and trends to inform project and procurement decisions.",
     "Depth": "Atomic",
     "Expansion": "Market analysis studies the availability, capabilities, and pricing of suppliers and the broader competitive landscape before make-or-buy and sourcing decisions. It helps the team understand options, risks, and opportunities in the external environment.",
@@ -897,7 +897,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Market Research",
+    "Term": "Market research",
     "Core Meaning": "Gathering information from varied sources to identify market capabilities and available suppliers.",
     "Depth": "Atomic",
     "Expansion": "Market research is the procurement technique of examining industry and vendor capabilities by drawing on conferences, online reviews, trade publications, and other sources. It helps a buying organization understand what the market can provide and shape its make-or-buy and sourcing decisions before issuing solicitations.",
@@ -914,7 +914,7 @@
     "Source": "PMBOK Guide - market research (procurement)"
   },
   {
-    "Term": "Material Breach",
+    "Term": "Material breach",
     "Core Meaning": "A contract violation serious enough to defeat the contract's purpose and justify legal action.",
     "Depth": "Standard",
     "Expansion": "A material breach is a failure to perform that is significant enough to destroy the value of the contract, giving the injured party grounds to sue for damages and potentially to be excused from its own obligations. It contrasts with a minor or immaterial breach, which entitles the injured party to remedies but does not void the agreement. Knowing the difference guides how a project manager escalates and responds to supplier failures.",
@@ -931,7 +931,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Memorandum of Understanding",
+    "Term": "Memorandum of understanding",
     "Core Meaning": "A document recording the intentions and shared understanding of two or more parties, usually non-binding.",
     "Depth": "Standard",
     "Expansion": "A memorandum of understanding sets out the roles, expectations, and intended cooperation among parties before or instead of a binding contract. It signals commitment and aligns understanding but generally lacks the legal enforceability of a formal agreement. Such memoranda are common between partner organizations, agencies, or internal divisions.",
@@ -950,7 +950,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Negotiated Settlement",
+    "Term": "Negotiated settlement",
     "Core Meaning": "A mutually agreed resolution of outstanding claims and issues when closing a procurement.",
     "Depth": "Atomic",
     "Expansion": "A negotiated settlement is the agreement that resolves disputes, claims, and open items so a contract can be closed fairly to both parties. It is the preferred way to settle differences without resorting to litigation or arbitration.",
@@ -994,7 +994,7 @@
     "Contrast": "Differs from a cost baseline, which authorizes total spend; a payment schedule governs the timing of payments to a specific seller.",
     "Example": "The construction contract releases 20 percent on mobilization and the remainder against four completed inspection milestones.",
     "Related Terms": [
-      "Procurement Management Plan",
+      "Procurement management plan",
       "Cost baseline",
       "Milestone",
       "Earned value management"
@@ -1021,7 +1021,7 @@
     "Source": "PMI Knowledgebase — Plan Procurement Management process, page 59"
   },
   {
-    "Term": "Point of Total Assumption",
+    "Term": "Point of total assumption",
     "Core Meaning": "In a fixed-price incentive contract, the cost level above which the seller bears all additional cost overruns.",
     "Depth": "Standard",
     "Expansion": "The point of total assumption (PTA) applies to fixed-price incentive fee contracts and marks the cost at which the seller becomes responsible for every dollar of further overrun. Below the PTA, buyer and seller share overruns per the sharing ratio; above it, the buyer pays no more, so the seller absorbs 100 percent. It is calculated from the ceiling price, target price, target cost, and the buyer's share ratio, and it signals where the seller's financial risk peaks.",
@@ -1032,16 +1032,16 @@
       "PTA"
     ],
     "Related Terms": [
-      "Ceiling Price",
-      "Sharing Ratio",
-      "Fixed-Price Incentive Fee Contract",
-      "Target Cost"
+      "Ceiling price",
+      "Sharing ratio",
+      "Fixed-price incentive fee contract",
+      "Target cost"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - procurement / contract types"
   },
   {
-    "Term": "Price Ceiling",
+    "Term": "Price ceiling",
     "Core Meaning": "A contractual limit that sets the maximum amount the buyer is obligated to pay under the terms of the contract.",
     "Depth": "Atomic",
     "Expansion": "Price ceiling is commonly used in procurement and contract administration, especially in cost-reimbursable arrangements with incentive structures. It caps the buyer's financial exposure even if actual seller costs rise above expectations.",
@@ -1059,7 +1059,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Privity of Contract",
+    "Term": "Privity of contract",
     "Core Meaning": "The direct legal relationship between the parties to a contract, which only they can enforce.",
     "Depth": "Standard",
     "Expansion": "Privity of contract is the legal principle that contractual rights and obligations exist only between the parties who signed the contract. A party outside that relationship generally cannot sue or be sued under it. In projects with subcontracting, this means a prime buyer typically has no contractual relationship with the seller's subcontractors and must address issues through the prime seller.",
@@ -1069,8 +1069,8 @@
     "Related Terms": [
       "Contract",
       "Subcontract",
-      "Procurement Management",
-      "Material Breach"
+      "Procurement management",
+      "Material breach"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - procurement / contracting concepts"
@@ -1094,7 +1094,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition — Project Procurement Management, page 459"
   },
   {
-    "Term": "Procurement Audits",
+    "Term": "Procurement audits",
     "Core Meaning": "A structured review of procurement processes and contracts for completeness, accuracy, and effectiveness.",
     "Depth": "Atomic",
     "Expansion": "A procurement audit examines the entire procurement process, from planning through contract closure, to identify successes and failures worth recognizing or avoiding on future procurements. It captures lessons learned about what worked, what did not, and how the contracting process can be improved. It is typically conducted as part of closing procurements.",
@@ -1102,9 +1102,9 @@
     "Contrast": "Inspection - a procurement audit reviews the contracting process and its management, whereas inspection verifies the deliverables received under the contract.",
     "Example": "After a contract ends, reviewing how the bid, selection, and administration were handled to refine future templates.",
     "Related Terms": [
-      "Close Procurements",
-      "Lessons Learned",
-      "Procurement Management Plan",
+      "Close procurements",
+      "Lessons learned",
+      "Procurement management plan",
       "Contract"
     ],
     "Tier": "Core glossary",
@@ -1119,10 +1119,10 @@
     "Contrast": "Project closure — procurement closure ends a specific contract, while project closure concludes the entire project after all contracts are settled.",
     "Example": "After the contractor finishes the building and defects are resolved, the team confirms acceptance, releases final payment, and closes the contract.",
     "Related Terms": [
-      "Close Procurements",
+      "Close procurements",
       "Contract closure",
-      "Procurement Audits",
-      "Closed Procurements"
+      "Procurement audits",
+      "Closed procurements"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide — Close Procurements"
@@ -1157,8 +1157,8 @@
       "Procurement statement of work",
       "Bid documents",
       "Contract",
-      "Control Procurements",
-      "Closed Procurements"
+      "Control procurements",
+      "Closed procurements"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1292,7 +1292,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Proposal Evaluation Techniques",
+    "Term": "Proposal evaluation techniques",
     "Core Meaning": "Methods used to score and rank seller proposals against established selection criteria to choose a contractor.",
     "Depth": "Standard",
     "Expansion": "Proposal evaluation techniques are used in Conduct Procurements to assess seller responses objectively. They often apply a weighting system, screening systems, independent estimates, and expert judgment to rate proposals on cost, technical merit, capability, and past performance. The goal is a defensible, consistent selection that reflects the buyer's priorities.",
@@ -1301,7 +1301,7 @@
     "Example": "A buyer scores three bids on a weighted matrix covering price, experience, and approach, selecting the highest total.",
     "Related Terms": [
       "Source selection criteria",
-      "Conduct Procurements",
+      "Conduct procurements",
       "Weighting system",
       "Bidder conference"
     ],
@@ -1394,7 +1394,7 @@
       "Request for quotation",
       "Bid documents",
       "Source selection criteria",
-      "Procurement Management Plan"
+      "Procurement management plan"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide"
@@ -1421,7 +1421,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, request for bid"
   },
   {
-    "Term": "Request for Information",
+    "Term": "Request for information",
     "Core Meaning": "A procurement document used to collect information from potential sellers about available products, services, or capabilities.",
     "Depth": "Standard",
     "Expansion": "A request for information is typically used early in procurement to understand the market before issuing a more formal solicitation. It helps the project team clarify what suppliers can provide, how solutions differ, and what requirements are realistic. In PMI practice, it supports market research and better-informed procurement planning rather than serving as a binding request for bids.",
@@ -1434,7 +1434,7 @@
     "Related Terms": [
       "Procurement",
       "Seller",
-      "Request for Proposal",
+      "Request for proposal",
       "Bid documents",
       "Market research"
     ],
@@ -1505,7 +1505,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Request for quote, page 248"
   },
   {
-    "Term": "Selected Sellers",
+    "Term": "Selected sellers",
     "Core Meaning": "The sellers chosen, after evaluation, to provide contracted products or services.",
     "Depth": "Atomic",
     "Expansion": "Selected sellers are the vendors judged to be in a competitive range based on proposal evaluation and with whom the buyer is prepared to negotiate or has awarded a contract. They are an output of conducting procurements.",
@@ -1513,9 +1513,9 @@
     "Contrast": "Prospective sellers - prospective sellers are all candidates invited to bid, whereas selected sellers are those chosen after evaluation.",
     "Example": "After scoring three vendor proposals, the buyer names the top vendor as the selected seller and awards the contract.",
     "Related Terms": [
-      "Conduct Procurements",
-      "Proposal Evaluation Techniques",
-      "Bidder Conferences",
+      "Conduct procurements",
+      "Proposal evaluation techniques",
+      "Bidder conferences",
       "Source selection criteria"
     ],
     "Tier": "Core glossary",
@@ -1534,7 +1534,7 @@
       "Decision criteria",
       "Procurement",
       "Benefit measurement methods",
-      "Scoring Model"
+      "Scoring model"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1566,8 +1566,8 @@
     "Contrast": "Differs from source selection, which evaluates sellers before award; seller performance evaluation judges actual delivery after award.",
     "Example": "A project manager rates a software vendor each quarter on defect rates and on-time releases, using the scores to justify renewing the support contract.",
     "Related Terms": [
-      "Control Procurements",
-      "Procurement Audits",
+      "Control procurements",
+      "Procurement audits",
       "Source selection criteria",
       "Contract administration"
     ],
@@ -1629,7 +1629,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Sharing Ratio",
+    "Term": "Sharing ratio",
     "Core Meaning": "The agreed split of cost savings or overruns between buyer and seller in an incentive contract.",
     "Depth": "Standard",
     "Expansion": "In incentive-fee contracts, the sharing ratio defines how a difference between target cost and actual cost is divided between buyer and seller, written as buyer:seller (for example 80:20). It motivates the seller to control costs because they keep a share of any savings and absorb a share of any overrun. The ratio is central to calculating final fee and the point of total assumption in fixed-price incentive contracts.",
@@ -1637,10 +1637,10 @@
     "Contrast": "Point of Total Assumption - the sharing ratio sets how over/underruns are split, whereas the point of total assumption is the cost level above which the seller bears all additional cost.",
     "Example": "With an 80:20 sharing ratio, a 10,000 dollar underrun gives the buyer 8,000 dollars and the seller 2,000 dollars.",
     "Related Terms": [
-      "Point of Total Assumption",
+      "Point of total assumption",
       "Incentive fee",
       "Target cost",
-      "Ceiling Price"
+      "Ceiling price"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - incentive contracts / share ratio"
@@ -1762,9 +1762,9 @@
     "Contrast": "Differs from a prime contractor, who is directly accountable to the buyer; a subcontractor answers to the prime.",
     "Example": "The main builder hires an electrical subcontractor for wiring while remaining responsible to the client for the whole building.",
     "Related Terms": [
-      "Procurement Management Plan",
+      "Procurement management plan",
       "Make-or-buy decision",
-      "Control Procurements"
+      "Control procurements"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide"
@@ -1804,7 +1804,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Target Price",
+    "Term": "Target price",
     "Core Meaning": "The negotiated reference price under an incentive contract, used to share cost variances.",
     "Depth": "Atomic",
     "Expansion": "Target price is the agreed reference price in an incentive contract, derived from target cost plus target fee. The final price is adjusted from it using a sharing ratio that splits cost overruns or underruns between buyer and seller.",
@@ -1844,7 +1844,7 @@
     "Contrast": "Cost-reimbursable contract — a time-and-materials contract pays agreed labor rates plus materials, while cost-reimbursable arrangements reimburse allowable actual costs with a fee structure.",
     "Example": "A company hires a specialist integration vendor at agreed hourly rates plus hardware pass-through costs to support a system rollout while final interface requirements are still emerging.",
     "Synonyms": [
-      "T&M",
+      "T&m",
       "Time and materials contract"
     ],
     "Related Terms": [

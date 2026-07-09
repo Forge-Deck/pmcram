@@ -1,6 +1,24 @@
 [
   {
-    "Term": "Acquire Resources",
+    "Term": "Accident investigation",
+    "Core Meaning": "The systematic process of determining the causes of a workplace accident so that recurrence can be prevented.",
+    "Depth": "Standard",
+    "Expansion": "Accident investigation gathers and analyzes evidence to establish what happened and why, then produces recommendations and controls to stop similar events from recurring. Its purpose is corrective and preventive, not to assign blame, which encourages honest reporting and root-cause discovery. A typical investigation collects facts, identifies immediate and underlying causes, recommends controls, and verifies that they are implemented. On projects with field, construction, or industrial work, it protects the team and supports legal, insurance, and continuous-improvement obligations.",
+    "Deep Dive": null,
+    "Contrast": "Hazard control vs accident investigation: hazard control proactively prevents harm before it happens, whereas accident investigation reacts after an incident to find causes and prevent recurrence.",
+    "Example": "After a worker slips on a wet ramp, the project's safety lead investigates, finds a missing drainage grate as the root cause, and adds drainage and signage controls before work resumes.",
+    "Related Terms": [
+      "Hazard control",
+      "Emergency management",
+      "Personal protective equipment (PPE)",
+      "Root cause analysis",
+      "Lessons learned"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Acquire resources",
     "Core Meaning": "The process of obtaining team members, facilities, equipment, materials, supplies, and other resources needed to complete project work.",
     "Depth": "Foundational",
     "Expansion": "Acquire Resources is the process used to secure the people and physical resources required for execution. It turns planned resource needs into actual assignments, allocations, purchases, or reservations. The process matters because work cannot proceed as intended until the needed resources are available and committed. In practice, it often involves negotiation with functional managers, procurement activity, and coordination across organisational boundaries.",
@@ -8,7 +26,7 @@
     "Contrast": "Plan Resource Management — Plan Resource Management defines how resources will be estimated, acquired, managed, and controlled; Acquire Resources is the process of actually obtaining them.",
     "Example": "For an ERP rollout, the project manager negotiates for a finance SME, contracts a systems integrator, and books a training lab before configuration starts.",
     "Related Terms": [
-      "Plan Resource Management",
+      "Plan resource management",
       "Physical resources",
       "Project team",
       "Procurement",
@@ -27,8 +45,8 @@
     "Example": "A project manager negotiating with a functional manager to assign two developers, and renting specialized testing equipment, is acquiring resources.",
     "Related Terms": [
       "Procurement",
-      "Resource Management",
-      "Pre-Assignment"
+      "Resource management",
+      "Pre-assignment"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Acquire Resources"
@@ -42,8 +60,8 @@
     "Contrast": "Activity duration estimating — duration estimating predicts how long an activity takes, whereas resource estimating determines what and how much resource the activity needs.",
     "Example": "For excavation, the team estimates two operators and one excavator over three days, recorded against the activity.",
     "Related Terms": [
-      "Estimate Activity Resources",
-      "Resource Breakdown Structure",
+      "Estimate activity resources",
+      "Resource breakdown structure",
       "Resource calendar",
       "Capacity planning"
     ],
@@ -68,7 +86,7 @@
     "Source": "PMI Lexicon / A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Availability; exact page citation unavailable in retrieved results"
   },
   {
-    "Term": "Brooks's Law",
+    "Term": "Brooks's law",
     "Core Meaning": "The principle that adding manpower to a late software project makes it later.",
     "Depth": "Standard",
     "Expansion": "Articulated by Fred Brooks in The Mythical Man-Month, Brooks's Law observes that new people require ramp-up time and training from existing staff, and that added headcount multiplies communication paths, so reinforcing a delayed project often slows it further. It warns against treating effort and progress as simply interchangeable.",
@@ -138,7 +156,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Control Resources",
+    "Term": "Control resources",
     "Core Meaning": "The process of ensuring physical resources are available as planned and monitoring their actual versus planned utilization.",
     "Depth": "Standard",
     "Expansion": "Control Resources is the monitoring and controlling process focused on physical resources - materials, equipment, supplies, and facilities. It checks that resources are available when and where the plan requires, compares planned against actual usage, and triggers corrective action when they diverge. It does not deal with managing the project team, which is handled separately.",
@@ -146,16 +164,16 @@
     "Contrast": "Acquire Resources - Acquire Resources obtains the team and physical resources, whereas Control Resources monitors and adjusts physical resource usage during execution.",
     "Example": "A construction PM tracks whether delivered concrete and rented equipment match the plan and reallocates them when usage starts to drift.",
     "Related Terms": [
-      "Acquire Resources",
+      "Acquire resources",
       "Resource management plan",
       "Physical resources",
-      "Manage Team"
+      "Manage team"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Control Resources process"
   },
   {
-    "Term": "Develop Team",
+    "Term": "Develop team",
     "Core Meaning": "The process of improving competencies, team member interaction, and the overall team environment to enhance project performance.",
     "Depth": "Standard",
     "Expansion": "Develop Team focuses on helping the project team work more effectively together. It includes actions that build skills, strengthen trust, improve collaboration, and support productive working relationships. PMI treats it as an ongoing process because team capability and dynamics evolve across the life of the project.",
@@ -167,13 +185,31 @@
       "Team building",
       "Interpersonal skills",
       "Leadership",
-      "Acquire Resources"
+      "Acquire resources"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Develop Team, page 715"
   },
   {
-    "Term": "Estimate Activity Resources",
+    "Term": "Emergency management",
+    "Core Meaning": "The planning and procedures for preparing for, responding to, and recovering from emergencies to minimize their impact.",
+    "Depth": "Standard",
+    "Expansion": "Emergency management addresses events such as fires, injuries, natural disasters, or hazardous releases through a cycle of preparation, response, and recovery. Preparation includes emergency plans, drills, evacuation routes, and clear roles; response covers the actions taken during the event to protect people and limit damage; recovery restores operations afterward. Well-designed emergency management reduces the severity of incidents and speeds return to normal work. On projects with significant safety exposure, it is a core part of the health and safety plan and complements ongoing risk and hazard controls.",
+    "Deep Dive": null,
+    "Contrast": "Accident investigation vs emergency management: emergency management handles readiness, immediate response, and recovery around an event, whereas accident investigation is the after-the-fact analysis of why an incident occurred.",
+    "Example": "Before an offshore installation phase, the project runs evacuation drills and stages medical and spill-response resources so the team can react immediately if an emergency occurs.",
+    "Related Terms": [
+      "Accident investigation",
+      "Hazard control",
+      "Personal protective equipment (PPE)",
+      "Contingency plan",
+      "Safety"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Estimate activity resources",
     "Core Meaning": "The process of estimating the type and quantities of resources needed to perform each activity.",
     "Depth": "Foundational",
     "Expansion": "Estimate Activity Resources determines what people, equipment, materials, and supplies are required for each scheduled activity and in what amounts. PMI treats it as a core planning process because resource needs directly affect cost, duration, procurement, and schedule feasibility. The process considers availability, calendars, capability, and constraints, and it informs later scheduling and estimating decisions.",
@@ -183,7 +219,7 @@
     "Related Terms": [
       "Activity",
       "Resource",
-      "Estimate Activity Durations",
+      "Estimate activity durations",
       "Resource calendar",
       "Cost estimate"
     ],
@@ -207,6 +243,24 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon / PMBOK Guide glossary, exact page citation to confirm in PMI source"
+  },
+  {
+    "Term": "Hazard control",
+    "Core Meaning": "The strategies and measures used to eliminate workplace hazards or reduce their risk to an acceptable level.",
+    "Depth": "Standard",
+    "Expansion": "Hazard control applies a preferred order, the hierarchy of controls, that favors removing or controlling a hazard at its source over relying on individual protection. The hierarchy runs from elimination and substitution, through engineering controls and administrative controls such as safe work practices and training, down to personal protective equipment as the last line of defense. Higher-order controls are more reliable because they do not depend on constant human compliance. On projects with physical work, ensuring appropriate hazard controls are in place is part of managing safety-related risk.",
+    "Deep Dive": null,
+    "Contrast": "Personal protective equipment (PPE) vs hazard control: PPE is only the lowest tier of hazard control, protecting the individual, whereas hazard control as a whole prefers eliminating or engineering out the hazard before relying on PPE.",
+    "Example": "Instead of only issuing dust masks, the project substitutes a low-silica material and adds local exhaust ventilation, applying higher-order hazard controls before PPE.",
+    "Related Terms": [
+      "Personal protective equipment (PPE)",
+      "Accident investigation",
+      "Emergency management",
+      "Risk response",
+      "Safety"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
   },
   {
     "Term": "Human resource constraints",
@@ -368,7 +422,7 @@
     "Source": "Construction Extension to the PMBOK Guide / PMI Lexicon — logistics; exact page citation not confirmed in available PMI search results"
   },
   {
-    "Term": "Manage Team",
+    "Term": "Manage team",
     "Core Meaning": "The process of tracking team performance, giving feedback, resolving issues, and managing changes to optimize project results.",
     "Depth": "Standard",
     "Expansion": "Manage Team is the executing process of monitoring team members' performance, providing feedback, resolving issues and conflicts, and managing team changes to keep the project on track. It draws on interpersonal and team skills such as conflict management, decision making, and emotional intelligence. Unlike developing the team, it focuses on day-to-day leadership and corrective action.",
@@ -376,7 +430,7 @@
     "Contrast": "Develop Team - Develop Team builds competencies and cohesion to improve performance, whereas Manage Team handles ongoing performance, feedback, and conflict.",
     "Example": "A project manager mediates a dispute between two team members and reassigns work to keep the sprint on schedule.",
     "Related Terms": [
-      "Develop Team",
+      "Develop team",
       "Conflict management",
       "Team performance assessments",
       "Acquire resources"
@@ -447,7 +501,7 @@
     "Source": "Practice Standard for Work Breakdown Structures, Third Edition, Organizational breakdown structure, pp. 53, 61, 182"
   },
   {
-    "Term": "Organizational Chart",
+    "Term": "Organizational chart",
     "Core Meaning": "A diagram showing the reporting relationships and structure within an organization or team.",
     "Depth": "Atomic",
     "Expansion": "An organizational chart depicts hierarchical reporting lines and the arrangement of roles within an organization or project team. On projects it clarifies authority, communication paths, and how the team fits within the larger organization, and it underpins tools like the organizational breakdown structure.",
@@ -458,9 +512,9 @@
       "Org chart"
     ],
     "Related Terms": [
-      "Organizational Breakdown Structure",
-      "Responsibility Assignment Matrix",
-      "Resource Management Plan"
+      "Organizational breakdown structure",
+      "Responsibility assignment matrix",
+      "Resource management plan"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - organizational charts and position descriptions"
@@ -501,6 +555,27 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
+    "Term": "Personal protective equipment (PPE)",
+    "Core Meaning": "Wearable equipment that protects workers from exposure to hazards that cannot be fully removed by other controls.",
+    "Depth": "Standard",
+    "Expansion": "Personal protective equipment includes items such as safety glasses, gloves, hard hats, hearing protection, respirators, and safety footwear worn to shield individuals from residual hazards. In the hierarchy of controls, PPE is the last line of defense, used when elimination, substitution, engineering, and administrative controls cannot reduce exposure to acceptable levels on their own. Managing PPE involves selecting the right equipment, distributing it, training workers, and inspecting, maintaining, and replacing it over time. On projects with field or industrial work, PPE provision is often a contractual and regulatory requirement.",
+    "Deep Dive": null,
+    "Contrast": "Hazard control vs PPE: hazard control prefers removing or engineering out the hazard, whereas PPE only protects the individual and is the least reliable, last-resort tier of control.",
+    "Example": "On a construction site the project mandates hard hats, high-visibility vests, and steel-toed boots, and tracks their inspection and replacement as part of the safety plan.",
+    "Synonyms": [
+      "PPE"
+    ],
+    "Related Terms": [
+      "Hazard control",
+      "Accident investigation",
+      "Emergency management",
+      "Safety",
+      "Risk response"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
     "Term": "Physical resources",
     "Core Meaning": "Physical resources are the equipment, materials, supplies, facilities, and other tangible nonhuman assets required to perform project work.",
     "Depth": "Standard",
@@ -511,15 +586,15 @@
     "Related Terms": [
       "Resource",
       "Team resources",
-      "Plan Resource Management",
-      "Acquire Resources",
-      "Estimate Activity Resources"
+      "Plan resource management",
+      "Acquire resources",
+      "Estimate activity resources"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — index references for physical resources, pp. 79-80, 83, 92"
   },
   {
-    "Term": "Plan Resource Management",
+    "Term": "Plan resource management",
     "Core Meaning": "Plan Resource Management is the process of defining how project resources will be estimated, acquired, managed, and controlled.",
     "Depth": "Foundational",
     "Expansion": "This process establishes the approach for managing both team resources and physical resources across the project lifecycle. It clarifies roles, responsibilities, reporting relationships, acquisition methods, and control practices before intensive execution begins. PMI treats it as foundational because effective delivery depends on having the right people and tangible resources available when needed and governed appropriately.",
@@ -530,14 +605,14 @@
       "Resource management plan",
       "Team resources",
       "Physical resources",
-      "Acquire Resources",
-      "Estimate Activity Resources"
+      "Acquire resources",
+      "Estimate activity resources"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Plan Resource Management, p. 9"
   },
   {
-    "Term": "Pre-Assignment",
+    "Term": "Pre-assignment",
     "Core Meaning": "Assigning specific team members to a project in advance, before normal resource acquisition.",
     "Depth": "Atomic",
     "Expansion": "Pre-assignment occurs when particular resources are selected for a project ahead of time, often because they were promised in a competitive proposal, named in the project charter, or are uniquely qualified. The project manager inherits these resources rather than acquiring them through the usual negotiation, which can shape the team and the plan from the outset.",
@@ -545,10 +620,10 @@
     "Contrast": "Negotiation - pre-assigned resources are committed before planning, whereas negotiated resources are obtained by bargaining with functional or other managers.",
     "Example": "A key engineer named in the charter because the client specifically requested her.",
     "Related Terms": [
-      "Acquire Resources",
-      "Resource Management Plan",
+      "Acquire resources",
+      "Resource management plan",
       "Negotiation",
-      "Project Charter"
+      "Project charter"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Acquire Resources (pre-assignment)"
@@ -588,7 +663,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Project Organization Chart",
+    "Term": "Project organization chart",
     "Core Meaning": "A graphic display of the project team members and their reporting relationships for a specific project.",
     "Depth": "Atomic",
     "Expansion": "A project organization chart shows who is on the project team and how they report to one another, clarifying lines of authority and communication. It is a hierarchical-type resource representation produced during resource planning.",
@@ -607,7 +682,7 @@
     "Source": "PMBOK Guide - project organization chart"
   },
   {
-    "Term": "Project Resource Management",
+    "Term": "Project resource management",
     "Core Meaning": "The knowledge area covering processes to identify, acquire, and manage the team and physical resources needed to complete the project.",
     "Depth": "Standard",
     "Expansion": "Project Resource Management includes Plan Resource Management, Estimate Activity Resources, Acquire Resources, Develop Team, Manage Team, and Control Resources. It addresses both human (team) resources and physical resources such as equipment, materials, and facilities. Its aim is to have the right resources available at the right time and place and to optimize their use.",
@@ -615,8 +690,8 @@
     "Contrast": "Acquire Resources vs Develop Team - acquiring obtains the resources, while developing builds the team's competencies and cohesion.",
     "Example": "A PM estimates needed roles, secures three engineers and lab equipment, then runs team-building and tracks utilization.",
     "Related Terms": [
-      "Acquire Resources",
-      "Develop Team",
+      "Acquire resources",
+      "Develop team",
       "Resource management plan",
       "Physical resources"
     ],
@@ -664,7 +739,7 @@
       "Resource assignment",
       "Resource calendar",
       "Resource requirements",
-      "Acquire Resources",
+      "Acquire resources",
       "Physical resources"
     ],
     "Tier": "Core glossary",
@@ -717,15 +792,15 @@
     "Related Terms": [
       "Resource calendar",
       "Resource requirements",
-      "Develop Schedule",
-      "Estimate Activity Durations",
+      "Develop schedule",
+      "Estimate activity durations",
       "Resource leveling"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, availability of resources, pages 66 and 120"
   },
   {
-    "Term": "Resource Breakdown Structure",
+    "Term": "Resource breakdown structure",
     "Core Meaning": "A hierarchical representation of resources organized by category and type.",
     "Depth": "Standard",
     "Expansion": "A Resource Breakdown Structure groups project resources into logical categories such as people, equipment, materials, or facilities. It helps the team understand resource classes, assess capacity needs, and support planning and control. PMI uses it as a way to structure resource information distinctly from the work itself.",
@@ -740,7 +815,7 @@
       "Resource requirements",
       "Resource calendar",
       "Resource management",
-      "Work Breakdown Structure"
+      "Work breakdown structure"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, 9.2.1.3 Resource Breakdown Structure, p. 323"
@@ -781,7 +856,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition, page 264"
   },
   {
-    "Term": "Resource Histogram",
+    "Term": "Resource histogram",
     "Core Meaning": "A bar chart that displays the amount of a resource scheduled to work over a series of time periods.",
     "Depth": "Atomic",
     "Expansion": "A resource histogram shows resource allocation over time, with bars representing planned usage per period and often a line marking maximum availability. It helps identify over-allocation and supports resource leveling and smoothing decisions.",
@@ -826,7 +901,7 @@
     "Related Terms": [
       "Resource calendar",
       "Resource requirements",
-      "Acquire Resources",
+      "Acquire resources",
       "Resource management plan",
       "Physical resources"
     ],
@@ -846,13 +921,13 @@
       "Project management plan",
       "Team charter",
       "Physical resources",
-      "Acquire Resources"
+      "Acquire resources"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 9.1.3.1, p. 318"
   },
   {
-    "Term": "Resource Manager",
+    "Term": "Resource manager",
     "Core Meaning": "An individual with management authority over one or more resources used by the project.",
     "Depth": "Atomic",
     "Expansion": "A resource manager, often a functional or line manager, owns the people or physical resources the project needs and negotiates their availability with the project manager. In matrix organizations this shared authority makes the relationship between the PM and resource managers critical to securing committed resources.",
@@ -862,50 +937,36 @@
     "Related Terms": [
       "Functional manager",
       "Matrix organization",
-      "Acquire Resources",
+      "Acquire resources",
       "Project manager"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - functional / resource manager role"
   },
   {
-    "Term": "Resource optimisation",
+    "Term": "Resource optimization",
     "Core Meaning": "The adjustment of activity dates, sequencing, or assignments to use available resources as effectively as possible within project constraints.",
     "Depth": "Foundational",
     "Expansion": "Resource optimisation is a scheduling and planning concept used to balance resource demand with resource availability. PMI commonly discusses it through techniques such as resource levelling and resource smoothing, which change the schedule or assignment pattern to reduce overloads and improve feasibility. It matters when the initial plan exceeds available capacity or creates inefficient usage patterns.",
     "Deep Dive": "What it is: Resource optimisation is the deliberate reshaping of planned work so the project uses limited resources in a practical, sustainable way. It usually involves changing timing, sequencing, or assignment patterns rather than changing project objectives.\n\nWhy it matters and where it applies: most projects face shared specialists, limited equipment, budget ceilings, or hard calendar constraints. Optimisation helps produce schedules that can actually be executed, especially in matrix organisations, construction, engineering, and multi-project environments.\n\nThe most common misconception: that resource optimisation always means making people fully utilised at every moment. In practice, the goal is not constant utilisation but a workable plan that respects constraints, reduces harmful overloads, and supports delivery performance.\n\nHow it shows up in real projects: a scheduler delays noncritical tasks to avoid overbooking a testing team, or shifts work within float so a scarce subject-matter expert can support multiple deliverables without causing repeated bottlenecks.",
     "Contrast": "Resource allocation — allocation places resources onto work, while optimisation refines that plan to resolve conflicts and improve feasibility.",
     "Example": "In an IT rollout, the project manager shifts several training tasks by one week because the same network engineer was assigned to three parallel activities on the same days.",
-    "Related Terms": [
-      "Resource leveling",
-      "Resource smoothing",
-      "Schedule model",
-      "Critical path",
-      "Resource requirements"
+    "Synonyms": [
+      "Resource optimisation"
     ],
     "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 6.5.2.3 and Section 6.6.2.4"
-  },
-  {
-    "Term": "Resource optimization",
-    "Core Meaning": "A scheduling technique used to adjust activity start and finish dates so resource usage fits resource constraints or balances demand.",
-    "Depth": "Foundational",
-    "Expansion": "Resource optimization is the use of scheduling methods such as resource leveling and resource smoothing to create a more achievable schedule. PMI treats it as a way to resolve overallocations, capacity limits, and uneven workloads that make a schedule unrealistic. It is foundational because even well-defined scope and sequencing can fail if the plan ignores actual resource availability.",
-    "Deep Dive": "What it is: Resource optimization is the deliberate adjustment of a schedule so the planned work better matches available people and physical resources. It is most often achieved through two techniques:\n\n- Resource leveling: used when resource limits drive the schedule, so it can change the critical path and end date.\n- Resource smoothing: stays within float and tries to preserve the completion date.\n\nWhy it matters and where it applies: projects rarely have unlimited access to specialist staff, equipment, facilities, or environments. Optimization makes schedules executable by reducing overload, avoiding impossible overlaps, and improving the reliability of commitments in construction, technology, engineering, operations, and other delivery settings.\n\nThe most common misconception: that resource optimization is just about making people busy all the time. In practice, its purpose is not maximum utilisation for its own sake but a feasible flow of work that respects constraints, protects delivery dates where possible, and reduces burnout and conflict.\n\nHow it shows up in real projects: a project manager shifts testing work because the same test environment is booked by multiple teams, delays a task until a certified engineer is available, or smooths design work across weeks so the core team is not overloaded in one period and idle in the next.",
-    "Contrast": "Resource planning — resource planning determines what resources are needed; resource optimization adjusts the schedule to use those resources realistically.",
-    "Example": "In an ERP rollout, the schedule is reworked because the same data-migration specialist was assigned to three parallel activities, so tasks are leveled across two additional weeks.",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 6.5.2.3 and Section 6.6.2.4",
     "Related Terms": [
       "Resource leveling",
       "Resource smoothing",
       "Schedule model",
       "Critical path",
+      "Resource requirements",
       "Resource planning"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 6.5.2.3, p. 191"
+    ]
   },
   {
-    "Term": "Resource Optimization Technique",
+    "Term": "Resource optimization technique",
     "Core Meaning": "Scheduling techniques that adjust the schedule based on resource supply and demand, including resource leveling and resource smoothing.",
     "Depth": "Standard",
     "Expansion": "Resource optimization techniques modify the project schedule to address resource availability constraints. Resource leveling adjusts start and finish dates to balance demand with supply and can change the critical path and the project end date. Resource smoothing adjusts activities only within their available float, so it does not delay completion but may not fully resolve over-allocation.",
@@ -930,7 +991,7 @@
     "Contrast": "Resource management plan — resource planning determines needed resources and timing; the resource management plan documents the policies and approach for managing them.",
     "Example": "A manufacturing-automation project forecasts when electricians, PLC engineers, test rigs, and commissioning windows will be needed for each phase of the implementation.",
     "Related Terms": [
-      "Estimate Activity Resources",
+      "Estimate activity resources",
       "Resource requirements",
       "Resource calendar",
       "Resource management plan",
@@ -948,8 +1009,8 @@
     "Contrast": "Activity duration estimates — resource requirements define what resources are needed; activity duration estimates define how long the work is expected to take.",
     "Example": "A project plan states that two testers, one business analyst, and a dedicated test environment are required for the final release cycle.",
     "Related Terms": [
-      "Estimate Activity Resources",
-      "Acquire Resources",
+      "Estimate activity resources",
+      "Acquire resources",
       "Resource calendar",
       "Resource management plan"
     ],
@@ -1094,7 +1155,7 @@
       "Authority",
       "Accountability",
       "Resource",
-      "RACI Matrix"
+      "RACI matrix"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1110,7 +1171,7 @@
     "Related Terms": [
       "Responsibility assignment matrix",
       "RACI chart",
-      "Plan Resource Management",
+      "Plan resource management",
       "Accountability"
     ],
     "Tier": "Adjacent concept",
@@ -1142,7 +1203,7 @@
     "Contrast": "Acquire Resources — Staffing is the broader practical act of getting people into roles; Acquire Resources is the formal PMI process for obtaining team members and physical resources.",
     "Example": "A systems-integration project staffs a solution architect, two developers, a tester, and a change manager based on the work package skill needs.",
     "Related Terms": [
-      "Acquire Resources",
+      "Acquire resources",
       "Project team",
       "Resource management",
       "Resource calendar",
@@ -1181,9 +1242,9 @@
     "Contrast": "Manage Team — Team development is about improving capability and team effectiveness; Manage Team is the broader process of tracking performance, resolving issues, and taking corrective action.",
     "Example": "A project manager introduces peer learning sessions, team working agreements, and retrospective actions so a newly formed cross-functional team can collaborate more effectively during delivery.",
     "Related Terms": [
-      "Develop Team",
-      "Manage Team",
-      "Resource Management",
+      "Develop team",
+      "Manage team",
+      "Resource management",
       "Team performance",
       "Team charter"
     ],
@@ -1191,7 +1252,7 @@
     "Source": "PMBOK Guide Seventh Edition / not enough verified page detail available from retrieval"
   },
   {
-    "Term": "Team Management Plan",
+    "Term": "Team management plan",
     "Core Meaning": "The part of the resource management plan covering how and when team members are acquired, managed, and released.",
     "Depth": "Standard",
     "Expansion": "Sometimes called the staffing management plan, this component describes how human resources will be brought onto the project, their roles and timing, training and recognition approaches, and how they will be released when no longer needed. It helps ensure the right people are available at the right time and that resource costs end when work ends. It is part of broader resource planning rather than a standalone plan.",
@@ -1201,14 +1262,14 @@
     "Related Terms": [
       "Resource management plan",
       "Team charter",
-      "Pre-Assignment",
-      "Resource Histogram"
+      "Pre-assignment",
+      "Resource histogram"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Team Performance Assessments",
+    "Term": "Team performance assessments",
     "Core Meaning": "Evaluations of a team's effectiveness as a unit, used to improve how it works together.",
     "Depth": "Standard",
     "Expansion": "Team performance assessments are the project manager's appraisal of how well the team functions together, looking at indicators such as improved skills, lower staff turnover, and greater cohesion. They are an output of developing the team and inform actions to strengthen collaboration. They focus on the team as a whole rather than on individual appraisals.",
@@ -1216,8 +1277,8 @@
     "Contrast": "Performance Reviews - individual performance reviews assess a single member's work, whereas team performance assessments gauge the effectiveness of the team as a unit.",
     "Example": "After team-building, the PM notes faster decision-making and lower turnover as evidence of improved team performance.",
     "Related Terms": [
-      "Manage Team",
-      "Performance Reviews",
+      "Manage team",
+      "Performance reviews",
       "Develop team",
       "Team charter"
     ],
@@ -1235,9 +1296,9 @@
     "Related Terms": [
       "Resource",
       "Project team",
-      "Acquire Resources",
-      "Develop Team",
-      "Manage Team"
+      "Acquire resources",
+      "Develop team",
+      "Manage team"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Project Resource Management chapter and glossary; exact page citation should be verified against the edition in use"
@@ -1335,7 +1396,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "War Room",
+    "Term": "War room",
     "Core Meaning": "A dedicated shared space where a project team co-locates to collaborate intensively.",
     "Depth": "Standard",
     "Expansion": "A war room is a central physical space where team members work together, post information radiators, and make rapid decisions. Co-locating in this way improves communication, builds team identity, and speeds problem solving. The concept is also described as a tight matrix when used to gather a dispersed team.",

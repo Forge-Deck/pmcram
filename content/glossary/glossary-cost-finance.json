@@ -32,7 +32,7 @@
     "Source": "Practice Standard for Earned Value Management (PMI)"
   },
   {
-    "Term": "Actual Cost",
+    "Term": "Actual cost",
     "Core Meaning": "The realised cost incurred for the work performed on an activity during a specific time period.",
     "Depth": "Standard",
     "Expansion": "Actual Cost is the amount actually spent for work completed in a given period. It is a core earned value concept used to compare planned spending with real spending and assess cost performance. Actual Cost may be tracked at the activity, work package, or control account level depending on how the project is controlled.",
@@ -44,11 +44,11 @@
       "ACWP"
     ],
     "Related Terms": [
-      "Earned Value",
-      "Planned Value",
-      "Cost Variance",
-      "Estimate at Completion",
-      "Budget at Completion"
+      "Earned value",
+      "Planned value",
+      "Cost variance",
+      "Estimate at completion",
+      "Budget at completion"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Actual Cost"
@@ -98,7 +98,7 @@
     "Example": "A project manager presents a release cost estimate together with the labour-rate assumptions, supplier quotes, productivity factors, exclusions, and confidence range used to build it.",
     "Synonyms": [
       "BOE",
-      "Basis of Estimates"
+      "Basis of estimates"
     ],
     "Related Terms": [
       "Estimate",
@@ -107,7 +107,7 @@
       "Analogous estimating",
       "Parametric estimating",
       "Cost estimate",
-      "Activity Duration Estimates",
+      "Activity duration estimates",
       "Assumptions"
     ],
     "Tier": "Core glossary",
@@ -148,13 +148,13 @@
       "Estimate",
       "Actual cost",
       "Cost variance",
-      "Budget at Completion"
+      "Budget at completion"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms, budget"
   },
   {
-    "Term": "Budget at Completion",
+    "Term": "Budget at completion",
     "Core Meaning": "The sum of all approved budgets established for the work to be performed.",
     "Depth": "Standard",
     "Expansion": "Budget at Completion, or BAC, is the total planned value of the project or control account when all authorised work is included. It is a key earned value management reference point because it represents the full approved budget for the scope. Teams use it with cost and schedule performance data to forecast likely final cost and assess performance trends.",
@@ -166,7 +166,7 @@
     ],
     "Related Terms": [
       "Earned value management",
-      "Estimate at Completion",
+      "Estimate at completion",
       "Cost baseline",
       "Planned value",
       "Control account"
@@ -270,7 +270,7 @@
     "Source": "PMI Lexicon — control costs"
   },
   {
-    "Term": "Cost Aggregation",
+    "Term": "Cost aggregation",
     "Core Meaning": "Summing work package cost estimates up through control accounts to build the total project cost.",
     "Depth": "Standard",
     "Expansion": "Cost aggregation is a technique in the Determine Budget process. Individual activity and work package estimates are rolled up into control accounts, and the control accounts are then rolled up into the overall project cost. This bottom-up summation produces the figures that feed the cost baseline.",
@@ -278,7 +278,7 @@
     "Contrast": "Cost estimating - estimating produces the cost of individual activities or packages, whereas aggregation rolls those estimates up into control accounts and the project total.",
     "Example": "A PM totals the costs of all work packages under each control account, then sums the control accounts to establish the project budget.",
     "Related Terms": [
-      "Determine Budget",
+      "Determine budget",
       "Cost baseline",
       "Control account",
       "Work package"
@@ -352,7 +352,7 @@
       "Estimate",
       "Budget",
       "Cost baseline",
-      "Determine Budget",
+      "Determine budget",
       "Funding requirements"
     ],
     "Tier": "Core glossary",
@@ -367,16 +367,16 @@
     "Contrast": "Cost budgeting — cost estimating produces the expected cost of individual elements, while budgeting aggregates those estimates into an authorized cost baseline.",
     "Example": "Using parametric rates per square metre, a quantity surveyor estimates the cost of a new office fit-out before the budget is set.",
     "Related Terms": [
-      "Estimate Costs",
+      "Estimate costs",
       "Cost estimate",
-      "Analogous Estimating",
+      "Analogous estimating",
       "Bottom-up estimating"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Estimate Costs"
   },
   {
-    "Term": "Cost Forecasts",
+    "Term": "Cost forecasts",
     "Core Meaning": "Predictions of a project's future cost performance, typically expressed as EAC, ETC, and TCPI.",
     "Depth": "Standard",
     "Expansion": "Cost forecasts project where a project's costs are heading based on performance data available at the time. They are usually expressed through earned value measures such as estimate at completion (EAC), estimate to complete (ETC), budget at completion (BAC), and the to-complete performance index (TCPI). They give stakeholders an early, data-based warning of overruns or underruns so they can act.",
@@ -447,7 +447,7 @@
     "Source": "Common practitioner term; relates to cost variance and CPI in the PMBOK Guide Eighth Edition."
   },
   {
-    "Term": "Cost Performance Index",
+    "Term": "Cost performance index",
     "Core Meaning": "A measure of the cost efficiency of budgeted resources, expressed as the ratio of earned value to actual cost.",
     "Depth": "Standard",
     "Expansion": "Cost Performance Index, or CPI, shows how efficiently the project is using cost relative to the value of work completed. It is one of the central earned value metrics for monitoring cost performance and forecasting future financial outcomes. A CPI greater than 1.0 indicates better cost efficiency than planned, while a value below 1.0 indicates poorer cost efficiency.",
@@ -499,7 +499,7 @@
     "Related Terms": [
       "Earned value",
       "Actual cost",
-      "Cost Performance Index",
+      "Cost performance index",
       "Estimate at completion",
       "Variance"
     ],
@@ -560,7 +560,7 @@
     "Contrast": "Budgetary estimate — a definitive estimate is based on much more detailed and mature information and is therefore intended to be more accurate.",
     "Example": "After finalising the engineering design and procurement packages, the project team prepares a definitive cost estimate to establish the approved cost baseline.",
     "Synonyms": [
-      "Definitive Estimates"
+      "Definitive estimates"
     ],
     "Related Terms": [
       "Estimate",
@@ -609,7 +609,7 @@
     "Source": "PMBOK Guide glossary, Detailed estimate, page 716"
   },
   {
-    "Term": "Determine Budget",
+    "Term": "Determine budget",
     "Core Meaning": "The process of aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline.",
     "Depth": "Standard",
     "Expansion": "Determine Budget combines approved cost estimates into a time-phased funding baseline for the project. It establishes the cost baseline used for monitoring and controlling expenditures and performance. The process also considers reserves so uncertainty is reflected in a disciplined way rather than handled informally.",
@@ -618,7 +618,7 @@
     "Example": "A product launch team rolls up design, testing, training, deployment, and contingency amounts into the approved project budget.",
     "Related Terms": [
       "Cost baseline",
-      "Estimate Costs",
+      "Estimate costs",
       "Reserve analysis",
       "Control account",
       "Funding requirements"
@@ -627,7 +627,7 @@
     "Source": "PMBOK Guide glossary, Determine Budget, page 715"
   },
   {
-    "Term": "Direct Costs",
+    "Term": "Direct costs",
     "Core Meaning": "Costs that can be traced directly and solely to a specific project's work.",
     "Depth": "Standard",
     "Expansion": "Direct costs are expenses incurred specifically for one project, so they can be attributed directly to its activities. Typical examples are the salaries of dedicated team members, project-specific materials, and equipment used only on that project. They are distinguished from indirect costs (shared overhead) and are central to building an accurate, defensible project budget.",
@@ -774,7 +774,7 @@
     "Source": "PMI Lexicon — Estimate at completion; page citation not confirmed in available source"
   },
   {
-    "Term": "Estimate Costs",
+    "Term": "Estimate costs",
     "Core Meaning": "The process of developing an approximation of the monetary resources needed to complete project work.",
     "Depth": "Standard",
     "Expansion": "Estimate Costs is the process used to approximate the funds required for activities, work packages, or the project as a whole. It draws on scope, schedule, resource, and risk information to produce a cost estimate. PMI treats it as a core planning activity that feeds budgeting and cost control.",
@@ -783,7 +783,7 @@
     "Example": "A team estimates the cost of software testing by combining labor hours, tool licences, and contingency for expected rework.",
     "Related Terms": [
       "Cost estimate",
-      "Determine Budget",
+      "Determine budget",
       "Cost baseline",
       "Reserve analysis",
       "Estimate"
@@ -829,7 +829,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Financing, p. 170"
   },
   {
-    "Term": "Fixed Formula Method",
+    "Term": "Fixed formula method",
     "Core Meaning": "An earned value technique that credits a fixed split of a work package's budget at its start and the remainder at its completion.",
     "Depth": "Standard",
     "Expansion": "The fixed formula method (such as 25/75, 50/50, or 0/100) is used to measure earned value for discrete work packages that span more than one reporting period. A set percentage of the budgeted value is earned when the work package begins, and the rest is earned only when it is finished. This avoids subjective mid-stream progress estimates and is best suited to short work packages where precise measurement is not worth the effort.",
@@ -918,7 +918,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition and Process Groups: A Practice Guide, section on Determine Budget; term funding requirements"
   },
   {
-    "Term": "Future Value (FV)",
+    "Term": "Future value (FV)",
     "Core Meaning": "The projected worth of a present sum of money at a specified future date, after earning interest or returns.",
     "Depth": "Standard",
     "Expansion": "Future value is the amount that a present sum will grow to by a given future date, assuming a rate of return, reflecting the time value of money. It is computed as FV = PV multiplied by (1 + r) raised to the power n, where r is the rate per period and n is the number of periods. In project selection, comparing the future or present value of competing investments helps identify which creates the most financial value.",
@@ -935,7 +935,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Indirect Costs",
+    "Term": "Indirect costs",
     "Core Meaning": "Costs that cannot be traced to a single project but are shared across multiple projects or operations.",
     "Depth": "Standard",
     "Expansion": "Indirect costs are expenses not directly attributable to one specific project, such as management overhead, facilities, utilities, and general administration, which are instead allocated across several projects. They contrast with direct costs, which a project incurs solely for itself. Understanding the split matters for accurate budgeting, chargebacks, and pricing.",
@@ -969,7 +969,7 @@
     "Source": "Economics and cost estimating practice"
   },
   {
-    "Term": "Internal Rate of Return",
+    "Term": "Internal rate of return",
     "Core Meaning": "A method of calculating the discount rate at which the net present value of future cash flows becomes equal to the original investment.",
     "Depth": "Standard",
     "Expansion": "Internal rate of return is a financial evaluation measure used to assess the attractiveness of an investment or project option. PMI includes it among benefit and selection concepts used in business cases and portfolio decisions. A higher internal rate of return generally indicates a more attractive option, though it should be considered alongside strategic fit, risk, and other constraints.",
@@ -998,7 +998,7 @@
     "Example": "A hospital selects a more expensive imaging system because its lower maintenance and energy costs make it less expensive over 15 years.",
     "Synonyms": [
       "LCC",
-      "whole-life cost"
+      "Whole-life cost"
     ],
     "Related Terms": [
       "Total cost of ownership",
@@ -1040,7 +1040,7 @@
     "Contrast": "Contingency reserve - contingency reserve covers identified risks and sits inside the baseline, whereas management reserve covers unidentifiable unknown-unknowns and sits outside it.",
     "Example": "Executives hold back 8 percent of the budget as management reserve for unexpected scope-related work that may emerge mid-project.",
     "Synonyms": [
-      "Management Reserves"
+      "Management reserves"
     ],
     "Related Terms": [
       "Contingency reserve",
@@ -1072,7 +1072,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Multipoint estimating, page 14"
   },
   {
-    "Term": "Net Present Value",
+    "Term": "Net present value",
     "Core Meaning": "The future value of expected benefits expressed as the value those benefits have at the time of investment.",
     "Depth": "Foundational",
     "Expansion": "Net present value, or NPV, converts expected future benefits and costs into present-value terms so investment options can be compared consistently. PMI uses it as a financial evaluation concept that considers timing as well as magnitude. It is especially useful in business cases, portfolio decisions, and project selection.",
@@ -1102,7 +1102,7 @@
     "Example": "A project to implement a new cloud platform is approved only after the team compares the implementation budget with the expected annual operating cost for hosting, support, and licensing.",
     "Synonyms": [
       "OPEX",
-      "operating expense"
+      "Operating expense"
     ],
     "Related Terms": [
       "Cost baseline",
@@ -1162,8 +1162,8 @@
     "Contrast": "Direct costs — direct costs are attributable to a specific activity or deliverable, while overhead is shared indirect cost spread across the work.",
     "Example": "A consultancy adds an overhead rate covering office rent and HR to each consultant's billable hour when pricing a project.",
     "Related Terms": [
-      "Indirect Costs",
-      "Direct Costs",
+      "Indirect costs",
+      "Direct costs",
       "Operating cost",
       "Cost baseline"
     ],
@@ -1189,7 +1189,7 @@
     "Source": "PMBOK Guide — parametric estimating, pp. 184-185"
   },
   {
-    "Term": "Payback Period",
+    "Term": "Payback period",
     "Core Meaning": "The time required for a project's cumulative benefits to recover its initial investment.",
     "Depth": "Standard",
     "Expansion": "Payback period is a financial selection metric measuring how long it takes the cash inflows from a project to repay the money invested in it. Shorter payback periods are generally preferred because the investment is recovered sooner and at lower risk. Its main weakness is that it ignores the time value of money and any benefits arising after payback is reached.",
@@ -1197,10 +1197,10 @@
     "Contrast": "Net present value - payback period measures only how fast the investment is recovered, whereas NPV measures the total discounted value created over the project's life.",
     "Example": "A 100,000 dollar system that saves 25,000 dollars a year has a four-year payback period.",
     "Related Terms": [
-      "Net Present Value",
-      "Internal Rate of Return",
-      "Return on Investment",
-      "Business Case"
+      "Net present value",
+      "Internal rate of return",
+      "Return on investment",
+      "Business case"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - business case / project selection methods"
@@ -1242,7 +1242,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Plan Cost Management",
+    "Term": "Plan cost management",
     "Core Meaning": "The process of defining how project costs will be estimated, budgeted, managed, and controlled.",
     "Depth": "Standard",
     "Expansion": "Plan Cost Management is the planning process that establishes the policies, procedures, and documentation for planning, spending, and controlling project costs. Its main output, the cost management plan, sets units of measure, levels of precision, control thresholds, and reporting formats. It provides the framework that guides all later cost processes such as estimating, budgeting, and control.",
@@ -1250,10 +1250,10 @@
     "Contrast": "Determine Budget - Plan Cost Management sets the rules for managing cost, whereas Determine Budget aggregates estimates into the actual cost baseline.",
     "Example": "Documenting that costs will be tracked to the nearest thousand dollars with a plus or minus 10 percent control threshold.",
     "Related Terms": [
-      "Estimate Costs",
-      "Determine Budget",
-      "Control Costs",
-      "Cost Management Plan"
+      "Estimate costs",
+      "Determine budget",
+      "Control costs",
+      "Cost management plan"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Plan Cost Management"
@@ -1268,8 +1268,8 @@
     "Example": "By the end of the second month, a data-center upgrade was scheduled to complete work budgeted at 80,000, so that amount is the project's planned value at that date.",
     "Synonyms": [
       "BCWS",
-      "PV",
-      "budgeted cost of work scheduled"
+      "Budgeted cost of work scheduled",
+      "PV"
     ],
     "Related Terms": [
       "Actual cost",
@@ -1301,7 +1301,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 706"
   },
   {
-    "Term": "Probabilistic Estimating",
+    "Term": "Probabilistic estimating",
     "Core Meaning": "An estimating approach that represents possible cost or duration outcomes as probabilities rather than as a single fixed value.",
     "Depth": "Standard",
     "Expansion": "Probabilistic estimating expresses uncertainty explicitly by modeling a range of possible outcomes and their likelihoods. It is used when planners need to understand confidence levels, exposure, and the spread of possible dates or costs rather than rely on one deterministic estimate. It commonly appears with three-point estimates, probability distributions, and simulation-based forecasting.",
@@ -1309,11 +1309,11 @@
     "Contrast": "Deterministic estimating — probabilistic estimating models a range of possible outcomes with likelihoods; deterministic estimating provides one expected value without explicitly expressing uncertainty.",
     "Example": "A schedule analyst estimates a testing phase with optimistic, most likely, and pessimistic durations to forecast the probability of meeting a launch date.",
     "Related Terms": [
-      "Three-Point Estimating",
-      "Monte Carlo Simulation",
+      "Three-point estimating",
+      "Monte Carlo simulation",
       "Estimate",
       "Uncertainty",
-      "Probability Distribution"
+      "Probability distribution"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1371,7 +1371,7 @@
     "Source": "PMBOK Guide — confirm exact citation in Infinity"
   },
   {
-    "Term": "Project Cost Management",
+    "Term": "Project cost management",
     "Core Meaning": "The knowledge area covering the processes to plan, estimate, budget, finance, fund, manage, and control costs so the project finishes within the approved budget.",
     "Depth": "Standard",
     "Expansion": "Project Cost Management is one of the PMBOK Guide knowledge areas. It groups the processes of Plan Cost Management, Estimate Costs, Determine Budget, and Control Costs. Its purpose is to complete the project within the approved budget by establishing a cost baseline and monitoring performance against it, often using earned value analysis. On many projects it is concerned primarily with the cost of the resources needed to complete activities.",
@@ -1380,8 +1380,8 @@
     "Example": "On a software project, the team estimates costs per work package, aggregates them into a 500K budget, and uses earned value to track spend against the cost baseline.",
     "Related Terms": [
       "Cost baseline",
-      "Estimate Costs",
-      "Determine Budget",
+      "Estimate costs",
+      "Determine budget",
       "Earned value management"
     ],
     "Tier": "Core glossary",
@@ -1463,7 +1463,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Risk Premium",
+    "Term": "Risk premium",
     "Core Meaning": "The additional return demanded above the risk-free rate to compensate a party for accepting risk.",
     "Depth": "Standard",
     "Expansion": "A risk premium is the extra compensation, over and above a risk-free rate of return, that an investor or contractor expects for bearing uncertainty. In projects it appears when risk is transferred, for example a contractor pricing in a margin for accepting a fixed-price commitment. Larger or less predictable risks command larger premiums.",
@@ -1501,7 +1501,7 @@
     "Source": "PMI Lexicon of Project Management Terms — rough order of magnitude"
   },
   {
-    "Term": "Rough Order of Magnitude (ROM) Estimate",
+    "Term": "Rough order of magnitude (ROM) estimate",
     "Core Meaning": "A high-level early estimate of cost or duration with a wide accuracy range, typically -25 percent to +75 percent.",
     "Depth": "Standard",
     "Expansion": "A ROM estimate is produced early in the project, often during initiation, when little detail is known, to give stakeholders a ballpark figure for go/no-go decisions. Its accuracy range is broad, commonly cited as -25 percent to +75 percent, and it is refined into more precise estimates as the project progresses. It supports early budgeting and feasibility rather than firm commitments.",
@@ -1562,9 +1562,9 @@
     "Example": "A 50,000 dollar machine with a 5-year life depreciates at 10,000 dollars per year.",
     "Related Terms": [
       "Depreciation",
-      "Payback Period",
-      "Future Value (FV)",
-      "Direct Costs"
+      "Payback period",
+      "Future value (FV)",
+      "Direct costs"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - depreciation (cost management)"
@@ -1652,7 +1652,7 @@
     ],
     "Related Terms": [
       "Earned value management",
-      "Cost Performance Index",
+      "Cost performance index",
       "Budget at completion",
       "Estimate at completion"
     ],
@@ -1680,7 +1680,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Value Analysis",
+    "Term": "Value analysis",
     "Core Meaning": "Analyzing a product's functions to deliver them at the lowest cost without losing performance.",
     "Depth": "Standard",
     "Expansion": "Value analysis examines the required functions of a product or process and finds ways to provide those functions more economically while maintaining quality and performance. Closely tied to value engineering, it targets unnecessary cost rather than simply cutting features. It is often applied to improve an existing design or product.",
@@ -1688,16 +1688,16 @@
     "Contrast": "Value Engineering - value engineering typically applies this thinking during design to optimize value up front, whereas value analysis often applies it to an existing product; the terms are frequently used interchangeably.",
     "Example": "Redesigning a bracket to use less material and a cheaper process while still meeting its load requirement.",
     "Related Terms": [
-      "Value Engineering",
+      "Value engineering",
       "Cost of conformance",
-      "Product Analysis",
+      "Product analysis",
       "Continuous improvement"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - value analysis / value engineering"
   },
   {
-    "Term": "Value Engineering",
+    "Term": "Value engineering",
     "Core Meaning": "A systematic approach to optimizing value by improving function relative to cost.",
     "Depth": "Standard",
     "Expansion": "Value engineering analyzes the functions of a project or product to achieve required performance at the lowest lifecycle cost, usually during design. It seeks to eliminate unnecessary cost while preserving or enhancing function, quality, and reliability. It is also called value analysis or value management.",
@@ -1708,8 +1708,8 @@
       "VE"
     ],
     "Related Terms": [
-      "Value Analysis",
-      "Product Analysis",
+      "Value analysis",
+      "Product analysis",
       "Cost of conformance",
       "Life cycle cost"
     ],
@@ -1800,7 +1800,7 @@
     "Contrast": "Resource leveling — yield management optimizes value from limited capacity; resource leveling adjusts schedules to deal with resource constraints.",
     "Example": "A consulting firm assigns its limited senior architects first to the highest-margin client initiatives during a peak delivery period.",
     "Synonyms": [
-      "revenue management"
+      "Revenue management"
     ],
     "Related Terms": [
       "Capacity",

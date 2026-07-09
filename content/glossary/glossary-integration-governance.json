@@ -8,7 +8,7 @@
     "Contrast": "Close Project or Phase — administrative closure emphasises the formal record-completion and archival side of closure within the broader close process.",
     "Example": "After deploying a new payroll system, the project manager archives approved requirements, final schedules, vendor records, acceptance documents, and lessons learned before releasing the team.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Lessons learned",
       "Final report",
       "Accepted deliverables",
@@ -45,7 +45,7 @@
     "Example": "A sponsor asks to add a compliance report to the product release, and after change review the request is approved and scheduled into the next delivery plan.",
     "Related Terms": [
       "Change request",
-      "Perform Integrated Change Control",
+      "Perform integrated change control",
       "Change control board",
       "Baseline",
       "Project management plan"
@@ -72,7 +72,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Assumption Log",
+    "Term": "Assumption log",
     "Core Meaning": "A project document used to record assumptions and constraints throughout the project.",
     "Depth": "Standard",
     "Expansion": "The Assumption Log captures assumptions and constraints so they can be reviewed, tracked, and updated over time. It makes important planning premises visible instead of leaving them implicit in estimates or schedules. It also supports risk management because assumptions that prove false often become sources of risk, issue escalation, or change.",
@@ -82,9 +82,9 @@
     "Related Terms": [
       "Assumption",
       "Constraint",
-      "Risk Register",
-      "Project Documents",
-      "Issue Log"
+      "Risk register",
+      "Project documents",
+      "Issue log"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Assumption Log"
@@ -141,7 +141,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Glossary, baseline"
   },
   {
-    "Term": "Center of Excellence",
+    "Term": "Center of excellence",
     "Core Meaning": "A centralized team that provides leadership, best practices, standards, and support for a discipline across an organization.",
     "Depth": "Standard",
     "Expansion": "A Center of Excellence concentrates expertise in a discipline - such as agile, project management, or citizen development - to define standards, share knowledge, provide training, and raise maturity organization-wide. It promotes consistency and capability building rather than executing the work of individual projects itself.",
@@ -187,7 +187,7 @@
     "Example": "In a construction project, the client requests an upgraded facade material, and the project team routes the request through change control to assess procurement delay, added cost, and design impact before approval.",
     "Related Terms": [
       "Change request",
-      "Change Control Board",
+      "Change control board",
       "Baseline",
       "Configuration management",
       "Integrated change control"
@@ -196,7 +196,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 696"
   },
   {
-    "Term": "Change Control Board",
+    "Term": "Change control board",
     "Core Meaning": "A formally constituted group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project and recording and communicating those decisions.",
     "Depth": "Standard",
     "Expansion": "The Change Control Board, often shortened to CCB, is the governance body that decides how formal change requests will be handled. Its role is to ensure changes are considered consistently, with visibility into impacts on scope, schedule, cost, risk, and benefits. The board may include the sponsor, customer representatives, project manager, and subject matter experts depending on the project context.",
@@ -217,7 +217,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 696"
   },
   {
-    "Term": "Change Control Plan",
+    "Term": "Change control plan",
     "Core Meaning": "A component of project management planning that defines how changes will be identified, evaluated, approved, documented, and communicated.",
     "Depth": "Foundational",
     "Expansion": "A change control plan sets the rules for managing proposed changes to baselines, scope, requirements, and other controlled project elements. It establishes the workflow, roles, approval thresholds, records, and governance needed so changes are assessed consistently rather than accepted informally. PMI treats change control as essential to maintaining alignment between delivery work, authorised scope, and decision rights.",
@@ -235,7 +235,7 @@
     "Source": "PMBOK Guide, project management plan components and Perform Integrated Change Control section"
   },
   {
-    "Term": "Change Control System",
+    "Term": "Change control system",
     "Core Meaning": "A structured set of procedures, tools, records, and approval authorities used to manage changes to project documents, deliverables, and baselines.",
     "Depth": "Standard",
     "Expansion": "In PMI practice, change control governs how modifications are identified, documented, reviewed, approved or rejected, and communicated. A change control system is the practical mechanism that enables this governance through workflows, forms, logs, decision rules, and assigned authorities. It helps preserve baseline integrity while allowing justified changes to be evaluated in a controlled way.",
@@ -253,7 +253,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process Groups: A Practice Guide, p. 94 and pp. 73-75"
   },
   {
-    "Term": "Change Control Tools",
+    "Term": "Change control tools",
     "Core Meaning": "Manual or automated tools that support managing and tracking change requests and configuration.",
     "Depth": "Atomic",
     "Expansion": "Change control tools are the manual or software tools used to record, evaluate, route, and track change requests and configuration items. At minimum they support the change control board's decisions and keep an auditable history of changes. They help maintain consistency in how changes are managed across the project.",
@@ -261,9 +261,9 @@
     "Contrast": "Change control board - the board is the group that approves or rejects changes, whereas change control tools are the means used to log and track those changes.",
     "Example": "A web-based change request system that logs each request, its impact analysis, and the change control board's decision.",
     "Related Terms": [
-      "Change Control Board",
-      "Configuration Management System",
-      "Requested Change"
+      "Change control board",
+      "Configuration management system",
+      "Requested change"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Perform Integrated Change Control"
@@ -319,13 +319,13 @@
       "Project manager",
       "Business case",
       "Project management plan",
-      "Initiating Process Group"
+      "Initiating process group"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, project charter glossary entry, page 244"
   },
   {
-    "Term": "Close Project or Phase",
+    "Term": "Close project or phase",
     "Core Meaning": "The process of finalizing all activities across all project management process groups to formally complete the project or phase.",
     "Depth": "Standard",
     "Expansion": "Close Project or Phase confirms that the work is finished, accepted, and ready for formal closure. It includes obtaining final acceptance, archiving project information, releasing resources, and documenting lessons learned. The process also ensures that remaining obligations are addressed and that the project or phase is closed in an orderly way. It provides a controlled endpoint rather than leaving work informally unfinished.",
@@ -350,7 +350,7 @@
     "Contrast": "Close Project or Phase — Closing is the broader process group; Close Project or Phase is the specific process performed within it.",
     "Example": "After an ERP rollout, the project manager secures sponsor sign-off, transfers support ownership to operations, archives final documents, records lessons learned, and releases the implementation team.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Accepted deliverables",
       "Lessons learned",
       "Phase gate",
@@ -368,7 +368,7 @@
     "Contrast": "Close Project or Phase — the Closing Process Group is the broader process group category; Close Project or Phase is a specific process within PMI process-based guidance.",
     "Example": "After a system implementation is accepted, the team closes supplier agreements, archives project files, and records lessons learned before disbanding.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Acceptance",
       "Lessons learned",
       "Contract closure"
@@ -406,7 +406,7 @@
       "Configuration item",
       "Configuration management",
       "Baseline",
-      "Configuration Status Accounting"
+      "Configuration status accounting"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide"
@@ -472,7 +472,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Sixth Edition, page 96"
   },
   {
-    "Term": "Configuration Management System",
+    "Term": "Configuration management system",
     "Core Meaning": "The system for tracking and controlling the characteristics of a project's products and documents.",
     "Depth": "Standard",
     "Expansion": "A configuration management system is the collection of procedures and tools used to identify and document the functional and physical characteristics of a product or component, control changes to those characteristics, and record and report change status. It ensures that the team always knows the current approved version of deliverables and documents. It works alongside, but is broader than, the change control system, which focuses on approving changes.",
@@ -480,15 +480,15 @@
     "Contrast": "Change control system - the change control system governs how change requests are reviewed and approved, whereas the configuration management system tracks and controls the product's versions and characteristics.",
     "Example": "A document control system that versions every revision of the design specification and records which version is approved.",
     "Related Terms": [
-      "Change Control Tools",
-      "Configuration Status Accounting",
-      "Perform Integrated Change Control"
+      "Change control tools",
+      "Configuration status accounting",
+      "Perform integrated change control"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - configuration management system"
   },
   {
-    "Term": "Configuration Status Accounting",
+    "Term": "Configuration status accounting",
     "Core Meaning": "The configuration management activity that records and reports the status of configuration items and their changes throughout the project.",
     "Depth": "Standard",
     "Expansion": "Configuration status accounting is one of the core configuration management activities. It captures, stores, and reports information about each configuration item - its approved configuration, the status of proposed changes, and the implementation status of approved changes. This gives stakeholders an accurate, traceable record of what the product currently is and how it reached that state.",
@@ -505,7 +505,7 @@
     "Source": "PMBOK Guide - configuration management activities"
   },
   {
-    "Term": "Configuration Verification and Audit",
+    "Term": "Configuration verification and audit",
     "Core Meaning": "The configuration management activity that confirms configuration items meet their requirements and that records accurately reflect the actual product.",
     "Depth": "Standard",
     "Expansion": "Configuration verification and audit is a core configuration management activity that independently checks two things: that each configuration item conforms to its specified requirements, and that the configuration records correctly describe the as-built product. It provides assurance before a baseline is released or accepted, surfacing gaps between what was documented and what was actually delivered.",
@@ -661,7 +661,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Develop Project Charter",
+    "Term": "Develop project charter",
     "Core Meaning": "The process of developing a document that formally authorizes a project or phase and documents initial requirements that satisfy stakeholder needs and expectations.",
     "Depth": "Foundational",
     "Expansion": "Develop Project Charter creates the formal basis for the project to exist and for resources to be committed to it. PMI describes it as the point at which the project is authorized and the project manager is given authority to apply organizational resources to project activities. It connects the business need, stakeholder expectations, and initial scope at a level high enough to guide the work before detailed planning begins. Without it, projects often start with activity but without clear authority, purpose, or boundaries.",
@@ -679,7 +679,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition — Develop Project Charter, page 75"
   },
   {
-    "Term": "Develop Project Management Plan",
+    "Term": "Develop project management plan",
     "Core Meaning": "The process of defining, preparing, and coordinating all plan components and consolidating them into an integrated project management plan.",
     "Depth": "Foundational",
     "Expansion": "Develop Project Management Plan integrates subsidiary plans and baselines into the document set that guides how the project will be executed, monitored, and controlled. PMI treats it as the central planning process that aligns scope, schedule, cost, quality, resources, communications, risk, procurement, and stakeholder approaches into one coherent management system. It matters because separate plans can be individually sound yet collectively inconsistent unless they are integrated. The result is not just documentation but an agreed operating model for the project.",
@@ -715,7 +715,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) – Seventh Edition, Section 2.3, pp. 18-24"
   },
   {
-    "Term": "Development Approach and Life Cycle Performance Domain",
+    "Term": "Development approach and life cycle performance domain",
     "Core Meaning": "The performance domain concerned with selecting, tailoring, and using the development approach and life cycle that best fit the project's work and context.",
     "Depth": "Foundational",
     "Expansion": "In PMI's performance domain model, this domain addresses how work will progress from concept through delivery, including predictive, iterative, incremental, adaptive, and hybrid approaches. It focuses on aligning the delivery approach with uncertainty, stakeholder needs, product characteristics, governance expectations, and value delivery. The domain matters because the chosen life cycle shapes planning detail, feedback timing, risk exposure, team interactions, and how progress is measured.",
@@ -745,19 +745,19 @@
     },
     "Synonyms": [
       "DIKW pyramid",
-      "Data-Information-Knowledge-Wisdom"
+      "Data-information-knowledge-wisdom"
     ],
     "Related Terms": [
       "Knowledge management",
       "Data analysis",
-      "Explicit Knowledge",
+      "Explicit knowledge",
       "Tacit knowledge"
     ],
     "Tier": "Adjacent concept",
     "Source": "Ackoff - DIKW hierarchy"
   },
   {
-    "Term": "Direct and Manage Project Work",
+    "Term": "Direct and manage project work",
     "Core Meaning": "The process of leading and performing the work defined in the project management plan and implementing approved changes to achieve the project's objectives.",
     "Depth": "Foundational",
     "Expansion": "Direct and Manage Project Work is the core execution process where plans are turned into actual deliverables and work performance data. PMI positions it as the point at which the team carries out the approved approach, coordinates resources, manages interfaces, and implements approved changes. It is broader than task supervision because it includes integrating technical work, managing operational conditions, and ensuring that project outputs are produced as intended. In practice, it is where strategy becomes execution.",
@@ -899,7 +899,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Explicit Knowledge",
+    "Term": "Explicit knowledge",
     "Core Meaning": "Knowledge that can be articulated, documented, and shared in a formal way.",
     "Depth": "Standard",
     "Expansion": "Explicit knowledge is information that can be written down, stored, and transferred through documents, procedures, models, or databases. In project environments, it supports repeatability, training, and governance because it can be communicated directly. PMI contrasts it with tacit knowledge, which is harder to codify.",
@@ -911,7 +911,7 @@
       "Lessons learned",
       "Knowledge management",
       "Documentation",
-      "Organisational process assets"
+      "Organizational process assets"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) glossary, Explicit knowledge, p. 181"
@@ -1237,7 +1237,7 @@
       "Baseline",
       "Configuration management",
       "Project management plan",
-      "Perform Integrated Change Control"
+      "Perform integrated change control"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Perform Integrated Change Control, p. 113"
@@ -1288,9 +1288,9 @@
     "Example": "On an ERP implementation, the project manager coordinates scope changes, testing impacts, training dates, vendor milestones, and steering-committee decisions so the release stays viable as a single programme of work.",
     "Related Terms": [
       "Project management plan",
-      "Direct and Manage Project Work",
-      "Monitor and Control Project Work",
-      "Perform Integrated Change Control",
+      "Direct and manage project work",
+      "Monitor and control project work",
+      "Perform integrated change control",
       "Project charter"
     ],
     "Tier": "Core glossary",
@@ -1502,7 +1502,7 @@
       "Lessons learned",
       "Tacit knowledge",
       "Explicit knowledge",
-      "Manage Project Knowledge"
+      "Manage project knowledge"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge, Knowledge, pp. 24-25"
@@ -1522,7 +1522,7 @@
       "Knowledge",
       "Lessons learned",
       "Knowledge repository",
-      "Manage Project Knowledge",
+      "Manage project knowledge",
       "Organizational process assets"
     ],
     "Tier": "Core glossary",
@@ -1559,7 +1559,7 @@
       "Lessons learned",
       "Handover",
       "Training",
-      "Manage Project Knowledge"
+      "Manage project knowledge"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1635,7 +1635,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, lessons learned repository, page 696"
   },
   {
-    "Term": "Manage Project Knowledge",
+    "Term": "Manage project knowledge",
     "Core Meaning": "The process of using existing knowledge and creating new knowledge to achieve the project's objectives and contribute to organizational learning.",
     "Depth": "Foundational",
     "Expansion": "Manage Project Knowledge helps the team apply what is already known while capturing new insights generated during delivery. PMI treats it as a continuous process rather than a closeout-only activity because knowledge is most valuable when reused during the project itself. It strengthens performance, reduces repeat mistakes, and supports learning beyond the current project.",
@@ -1653,7 +1653,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Manage Project Knowledge, page 98"
   },
   {
-    "Term": "Manage Project Work",
+    "Term": "Manage project work",
     "Core Meaning": "The process of leading and performing the work defined in the project management plan and implementing approved changes to achieve project objectives.",
     "Depth": "Foundational",
     "Expansion": "Manage Project Work is the process in which project resources are directed to execute the planned work and produce the project's deliverables. PMI places it in Project Integration Management because it brings together plans, people, resources, data, and approved changes into coordinated action. It is central to execution because it turns planning intent into actual outputs while generating work performance data and surfacing issues that need response.",
@@ -1661,7 +1661,7 @@
     "Contrast": "Direct and Manage Project Work — in current PMI usage this is commonly named Direct and Manage Project Work; Manage Project Work is a shortened or variant reference to the same execution concept.",
     "Example": "On an office relocation project, the project manager coordinates contractors, facilities staff, equipment moves, and approved layout changes so the new site is ready on the target date.",
     "Related Terms": [
-      "Project Integration Management",
+      "Project integration management",
       "Execution",
       "Approved change request",
       "Work performance data",
@@ -1750,14 +1750,14 @@
     "Example": "On completing detailed design, the team holds a milestone review to confirm drawings are approved before releasing long-lead procurement.",
     "Related Terms": [
       "Phase gate",
-      "Milestone Schedule",
+      "Milestone schedule",
       "Schedule baseline"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide Seventh Edition (Schedule discussion)"
   },
   {
-    "Term": "Monitor and Control Project Work",
+    "Term": "Monitor and control project work",
     "Core Meaning": "The process of tracking, reviewing, and reporting overall progress to meet the performance objectives defined in the project management plan.",
     "Depth": "Foundational",
     "Expansion": "Monitor and Control Project Work is the process used to compare actual project performance with the plan and determine whether preventive or corrective action is needed. It integrates status information from across the project so the team and stakeholders can understand overall health and direction. PMI positions it as a central management process because it connects execution, forecasting, reporting, and change response.",
@@ -1765,7 +1765,7 @@
     "Contrast": "Manage Project Work — Manage Project Work directs and performs the work; Monitor and Control Project Work assesses that work against the plan and supports corrective response.",
     "Example": "On an infrastructure project, the project manager compares actual progress and spend against baselines each month, reports forecast completion variance, and raises change requests when slippage exceeds agreed thresholds.",
     "Related Terms": [
-      "Manage Project Work",
+      "Manage project work",
       "Monitoring",
       "Controlling",
       "Work performance information",
@@ -1775,7 +1775,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Monitor and Control Project Work, page 105"
   },
   {
-    "Term": "Murder Board",
+    "Term": "Murder board",
     "Core Meaning": "A panel that rigorously challenges a proposed project to expose its weaknesses before approval.",
     "Depth": "Standard",
     "Expansion": "A murder board is a committee of reviewers who deliberately try to find every reason a project, proposal, or plan should not proceed. By subjecting the idea to tough, adversarial questioning, the group surfaces hidden risks, weak assumptions, and gaps before resources are committed. It is used as a project selection and go/no-go decision technique.",
@@ -1783,8 +1783,8 @@
     "Contrast": "Steering committee - a steering committee guides and supports an approved project, whereas a murder board attacks a proposal to test whether it should be approved at all.",
     "Example": "Before funding a new product, a company convenes a murder board to grill the sponsor on market and technical risks.",
     "Related Terms": [
-      "Steering Committee",
-      "Feasibility Study"
+      "Steering committee",
+      "Feasibility study"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1884,7 +1884,7 @@
     "Source": "PMI Knowledgebase — Performance measurement baseline, page 95-96"
   },
   {
-    "Term": "Performance Reviews",
+    "Term": "Performance reviews",
     "Core Meaning": "A technique that measures and compares actual work performance against the baseline.",
     "Depth": "Atomic",
     "Expansion": "Performance reviews analyze actual progress on cost, schedule, and scope against the project's baselines to identify variances and trends. They draw on techniques such as variance analysis, trend analysis, and earned value analysis to reveal whether the project is on track and where corrective action is needed.",
@@ -1892,10 +1892,10 @@
     "Contrast": "Team performance assessments - performance reviews evaluate the project's work against baselines, whereas team performance assessments evaluate how well the team itself is functioning.",
     "Example": "A monthly review comparing planned versus actual spend and schedule to flag a slipping deliverable.",
     "Related Terms": [
-      "Earned Value Analysis",
-      "Variance Analysis",
-      "Trend Analysis",
-      "Control Costs"
+      "Earned value analysis",
+      "Variance analysis",
+      "Trend analysis",
+      "Control costs"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - data analysis techniques"
@@ -1982,7 +1982,7 @@
     "Contrast": "PMBOK Guide — PRINCE2 is a prescriptive methodology with set processes; the PMBOK Guide is a principles-and-domains body of knowledge, not a methodology.",
     "Example": "A UK government programme mandates PRINCE2 stage boundaries and a project board for governance decisions.",
     "Synonyms": [
-      "Projects in Controlled Environments"
+      "Projects in controlled environments"
     ],
     "Related Terms": [
       "Methodology",
@@ -2033,7 +2033,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Project Brief",
+    "Term": "Project brief",
     "Core Meaning": "A concise early description of a proposed project used to summarize purpose, scope, context, and key expectations before fuller authorization or planning.",
     "Depth": "Standard",
     "Expansion": "Project brief is a commonly used practitioner term for a short document that outlines the project's rationale, objectives, major deliverables, constraints, and stakeholders at a high level. PMI materials use nearby formal concepts such as business case and project charter more consistently than project brief as a standard glossary term. In practice, a project brief often serves as a precursor or lightweight input to chartering, funding, or initiation decisions.",
@@ -2077,7 +2077,7 @@
     "Contrast": "Phase closure — project closure ends the entire project, while phase closure formally completes only one phase before the next begins or before a phase-gate decision.",
     "Example": "A hospital equipment-upgrade project closes by obtaining final acceptance from clinical leadership, transferring maintenance documents to operations, reconciling supplier payments, and recording lessons learned for future sites.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Lessons learned",
       "Acceptance criteria",
       "Transition",
@@ -2105,7 +2105,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, project documents, page 244"
   },
   {
-    "Term": "Project Governance",
+    "Term": "Project governance",
     "Core Meaning": "A framework, functions, and processes that guide project management activities in order to meet organizational or strategic goals.",
     "Depth": "Foundational",
     "Expansion": "Project governance defines how direction, oversight, decision-making, and accountability are structured for a project. In PMI usage, it connects project work to organizational governance and strategy by establishing authorities, policies, escalation paths, and control mechanisms. It helps ensure that project decisions are made consistently, transparently, and in alignment with intended benefits and risk tolerances.",
@@ -2123,7 +2123,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition and The Standard for Project Management, page 237"
   },
   {
-    "Term": "Project Initiation",
+    "Term": "Project initiation",
     "Core Meaning": "The early effort to define and authorize a new project or phase, typically culminating in an approved charter.",
     "Depth": "Standard",
     "Expansion": "Project initiation defines and authorizes a new project or a new phase, usually producing an approved project charter and an initial identification of stakeholders. It establishes the project's purpose, high-level scope, and the project manager's authority. Successful initiation aligns the project with organizational strategy and business need before significant resources are committed.",
@@ -2140,7 +2140,7 @@
     "Source": "PMBOK Guide - Initiating Process Group"
   },
   {
-    "Term": "Project Integration Management",
+    "Term": "Project integration management",
     "Core Meaning": "The knowledge area concerned with identifying, defining, combining, unifying, and coordinating the various processes and project management activities so the project works as a coherent whole.",
     "Depth": "Foundational",
     "Expansion": "Project Integration Management brings the many parts of a project together so decisions made in one area remain aligned with the project's overall objectives, constraints, and governance. In PMI's process-based framing, it includes developing foundational documents, directing work, managing knowledge, monitoring and controlling the project holistically, performing integrated change control, and closing the project or phase. It matters because projects fail less often from a single isolated mistake than from disconnected decisions, unresolved trade-offs, and weak coordination across planning, execution, and control. The concept is central to the project manager's role because it links strategy, delivery, stakeholder expectations, and change into one managed system.",
@@ -2148,12 +2148,12 @@
     "Contrast": "Project coordination — coordination is an activity within delivery; Project Integration Management is the broader discipline of unifying decisions, processes, and change across the whole project.",
     "Example": "On an ERP implementation, the project manager assesses a requested reporting enhancement by examining its impact on scope, testing effort, training, deployment date, vendor work, and budget before approving it through integrated change control.",
     "Related Terms": [
-      "Develop Project Charter",
-      "Project Management Plan",
-      "Direct and Manage Project Work",
-      "Monitor and Control Project Work",
-      "Perform Integrated Change Control",
-      "Close Project or Phase"
+      "Develop project charter",
+      "Project management plan",
+      "Direct and manage project work",
+      "Monitor and control project work",
+      "Perform integrated change control",
+      "Close project or phase"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Project Integration Management, Chapter 4, pages 69-113"
@@ -2176,7 +2176,7 @@
     "Source": "PMBOK Guide Sixth Edition (Manage Project Knowledge)"
   },
   {
-    "Term": "Project Management Information System (PMIS)",
+    "Term": "Project management information system (PMIS)",
     "Core Meaning": "The collection of tools and techniques used to gather, integrate, and disseminate the outputs of project management processes.",
     "Depth": "Standard",
     "Expansion": "A PMIS is part of the organization's enterprise environmental factors and provides automated tools such as scheduling software, work authorization systems, configuration management systems, and information repositories. It supports planning, executing, and monitoring by giving the team access to schedules, budgets, and performance data. It is used throughout the project to collect and distribute information.",
@@ -2247,7 +2247,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Project Planning",
+    "Term": "Project planning",
     "Core Meaning": "The overall effort of defining scope, objectives, and the course of action needed to achieve project goals.",
     "Depth": "Atomic",
     "Expansion": "Project planning develops the project management plan and its subsidiary plans and baselines, defining how the project will be executed, monitored, and closed. Good planning is iterative and progressively elaborated as more information becomes available.",
@@ -2256,7 +2256,7 @@
     "Example": "During planning, a team defines scope, builds a WBS, sequences activities, estimates costs, and sets baselines.",
     "Related Terms": [
       "Project management plan",
-      "Planning Process Group",
+      "Planning process group",
       "Progressive elaboration",
       "Baseline"
     ],
@@ -2303,7 +2303,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Project Vision Statement",
+    "Term": "Project vision statement",
     "Core Meaning": "A concise description of the desired future state or intended outcome that the project seeks to realise.",
     "Depth": "Standard",
     "Expansion": "A Project Vision Statement expresses the purpose and aspirational direction of the project in clear, outcome-focused language. It is used to align stakeholders, guide decision-making, and keep delivery focused on the value the project is meant to create. In PMI usage it appears more as a practitioner concept than as a formal core glossary term, especially in agile and product-oriented contexts.",
@@ -2311,11 +2311,11 @@
     "Contrast": "Project Objective — a vision statement describes the desired future state and overarching intent; an objective states a specific result to be achieved, often with measurable criteria.",
     "Example": "In a citizen-services transformation, the vision statement is to create a single digital entry point where residents can complete the most common services in minutes rather than across multiple offices and forms.",
     "Related Terms": [
-      "Project Objective",
-      "Business Case",
+      "Project objective",
+      "Business case",
       "Benefit",
-      "Product Vision",
-      "Value Proposition"
+      "Product vision",
+      "Value proposition"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -2331,7 +2331,7 @@
     "Related Terms": [
       "Project documents",
       "Configuration management",
-      "Organisational process assets",
+      "Organizational process assets",
       "Compliance",
       "Audit trail"
     ],
@@ -2357,7 +2357,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project artifacts section, p. 153"
   },
   {
-    "Term": "Requested Change",
+    "Term": "Requested change",
     "Core Meaning": "A formally documented request to modify a project document, deliverable, or baseline.",
     "Depth": "Atomic",
     "Expansion": "A requested change is a proposal to alter scope, schedule, cost, or other project elements, submitted for evaluation through integrated change control. It must be assessed and approved or rejected before the change is implemented.",
@@ -2382,7 +2382,7 @@
     "Contrast": "Validate Scope — Sign-off is the formal approval record, while Validate Scope is the process of formalising acceptance of completed deliverables.",
     "Example": "At the end of user acceptance testing, the business sponsor signs off on the release package to confirm the system meets agreed acceptance criteria before deployment.",
     "Related Terms": [
-      "Validate Scope",
+      "Validate scope",
       "Acceptance criteria",
       "Formal acceptance",
       "Phase gate",
@@ -2480,7 +2480,7 @@
     "Example": "An experienced scheduler adjusts a dependency plan based on past vendor behavior and local permitting realities that are not captured in the formal schedule guidance.",
     "Related Terms": [
       "Explicit knowledge",
-      "Manage Project Knowledge",
+      "Manage project knowledge",
       "Lessons learned",
       "Knowledge management",
       "Mentoring"
@@ -2501,13 +2501,13 @@
       "Life cycle",
       "Governance",
       "Process",
-      "PMBOK Guide"
+      "PMBOK guide"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge, Seventh Edition, section 3 Model, Methods, and Artifacts and section 4 Tailoring"
   },
   {
-    "Term": "Technical Performance Analysis",
+    "Term": "Technical performance analysis",
     "Core Meaning": "Comparing actual technical achievement against planned technical measures to detect deviations.",
     "Depth": "Standard",
     "Expansion": "Technical performance analysis (or measurement) compares delivered technical metrics, such as weight, capacity, or response time, against the values planned during planning. Significant variances signal scope or quality risks and may indicate the project will not meet requirements. It is used in risk monitoring and quality control to catch problems early.",
@@ -2515,8 +2515,8 @@
     "Contrast": "Earned value analysis - earned value tracks cost and schedule performance, whereas technical performance analysis tracks achievement of technical requirements.",
     "Example": "Measuring that a prototype drone weighs 1.4 kg against a 1.2 kg target, flagging a design risk.",
     "Related Terms": [
-      "Performance Reviews",
-      "Quality Requirement",
+      "Performance reviews",
+      "Quality requirement",
       "Variation"
     ],
     "Tier": "Adjacent concept",
@@ -2577,7 +2577,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Value Delivery Office (VDO)",
+    "Term": "Value delivery office (VDO)",
     "Core Meaning": "A project delivery support structure that focuses on coaching teams, building agile skills and capabilities, and mentoring sponsors and product owners.",
     "Depth": "Standard",
     "Expansion": "PMI defines the Value Delivery Office as a project delivery support structure that focuses on coaching teams, building agile skills and capabilities throughout the organization, and mentoring sponsors and product owners to be more effective in those roles. It supports value delivery by strengthening delivery practices and decision quality rather than only enforcing governance. The concept reflects an evolution from control-oriented support models toward capability-building and outcome focus.",
@@ -2602,7 +2602,7 @@
     "Contrast": "Special Cause - special cause is one assignable source of variation, whereas variation is the broader difference from expected conditions.",
     "Example": "A task planned for five days that actually takes seven shows a schedule variation.",
     "Related Terms": [
-      "Special Cause",
+      "Special cause",
       "Common cause",
       "Variance",
       "Control chart"
@@ -2642,7 +2642,7 @@
     "Example": "The statement 'make local public transport so easy that residents prefer it to driving' framing a transit app project.",
     "Related Terms": [
       "Objective",
-      "Product Visioning",
+      "Product visioning",
       "Project charter"
     ],
     "Tier": "Practitioner term",

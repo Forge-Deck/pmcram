@@ -1,6 +1,24 @@
 [
   {
-    "Term": "Anchoring Bias",
+    "Term": "Adaptive leadership",
+    "Core Meaning": "A leadership style focused on helping a team navigate uncertainty and change by mobilizing them to tackle hard problems rather than supplying ready answers.",
+    "Depth": "Standard",
+    "Expansion": "Adaptive leaders distinguish problems that have known solutions from adaptive challenges that require the team to learn, experiment, and change behavior. They stay flexible, encourage diverse viewpoints, and create enough safety for people to take smart risks and learn from failure. This style suits complex, fast-changing projects where no single expert holds the answer, such as agile delivery or novel research. It emphasizes building the team's own problem-solving capacity over time rather than relying on the leader's directives.",
+    "Deep Dive": null,
+    "Contrast": "Adaptive vs situational leadership: adaptive leadership grows a team's capacity to solve novel, ambiguous problems, whereas situational leadership adjusts directive versus supportive behavior to each member's readiness on a defined task.",
+    "Example": "Facing shifting regulations mid-project, a manager convenes the team to experiment with several compliance approaches instead of dictating one, letting them learn which actually works.",
+    "Related Terms": [
+      "Situational leadership",
+      "Servant leadership",
+      "Transformational leadership",
+      "Self-managing team",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - leadership styles"
+  },
+  {
+    "Term": "Anchoring bias",
     "Core Meaning": "A cognitive bias where an initial piece of information disproportionately influences subsequent judgments and estimates.",
     "Depth": "Standard",
     "Expansion": "Anchoring bias occurs when an early reference point - such as a first cost figure or schedule guess - anchors later thinking, so adjustments remain insufficiently far from that anchor. It distorts estimating and negotiation, for example when a stakeholder's casual deadline becomes the fixed expectation regardless of analysis.",
@@ -12,13 +30,31 @@
       "Focalism"
     ],
     "Related Terms": [
-      "Confirmation Bias",
-      "Optimism Bias",
+      "Confirmation bias",
+      "Optimism bias",
       "Estimating",
       "Negotiation"
     ],
     "Tier": "Adjacent concept",
     "Source": "Tversky and Kahneman - anchoring and adjustment"
+  },
+  {
+    "Term": "Authentic leadership",
+    "Core Meaning": "A leadership style built on self-awareness, transparency, and consistency with one's stated values, so the team trusts what the leader says and does.",
+    "Depth": "Standard",
+    "Expansion": "Authentic leaders act from genuine values, are open about their reasoning and limitations, and stay consistent between words and actions. Because their behavior is predictable and honest, they build psychological safety and credibility that make it easier for a team to raise concerns and bad news early. This style is valuable on projects where trust has been damaged, or where difficult trade-offs and setbacks require candid communication. Its strength is relational rather than directive, so it works best paired with clear goals and structure.",
+    "Deep Dive": null,
+    "Contrast": "Authentic vs charismatic leadership: authentic leadership earns trust through genuineness and consistent values, whereas charismatic leadership relies on personal magnetism and persuasive appeal that may or may not reflect the leader's true self.",
+    "Example": "A project lead openly admits an estimate was too optimistic, explains what was misjudged, and resets expectations, strengthening rather than losing the team's confidence.",
+    "Related Terms": [
+      "Ethical leadership",
+      "Servant leadership",
+      "Transformational leadership",
+      "Emotional intelligence",
+      "Self-awareness"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - leadership styles"
   },
   {
     "Term": "Authority",
@@ -75,7 +111,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Belbin Team Roles",
+    "Term": "Belbin team roles",
     "Core Meaning": "A model identifying nine behavioural roles people tend to adopt in a team, grouped into action, people, and thinking categories.",
     "Depth": "Standard",
     "Expansion": "Meredith Belbin's research identified nine clusters of behaviour that contribute to team success, grouped into three categories:\n\n- Action-oriented roles — Shaper, Implementer, Completer Finisher.\n- People-oriented roles — Coordinator, Teamworker, Resource Investigator.\n- Thinking-oriented roles — Plant, Monitor Evaluator, Specialist.\n\nMost people have two or three preferred roles, and balanced teams cover the full range rather than duplicating the same strengths. Each role carries both a contribution and an allowable weakness the team should tolerate.",
@@ -83,8 +119,8 @@
     "Contrast": "Tuckman's Stages of Team Development - Belbin classifies the behavioural roles individuals play, whereas Tuckman describes the stages a whole team passes through over time.",
     "Example": "A PM staffing a team notices it has three Plants generating ideas but no Completer Finisher, so recruits someone strong on follow-through.",
     "Related Terms": [
-      "Tuckman's Stages of Team Development",
-      "Drexler-Sibbet Team Performance Model",
+      "Tuckman's stages of team development",
+      "Drexler-Sibbet team performance model",
       "Team development",
       "Roles and responsibilities"
     ],
@@ -108,7 +144,7 @@
     "Source": "Resource and team development practice"
   },
   {
-    "Term": "Caves and Commons",
+    "Term": "Caves and commons",
     "Core Meaning": "An office layout combining shared social spaces ('commons') with quiet private spaces ('caves').",
     "Depth": "Standard",
     "Expansion": "Caves and commons is a workspace design for agile teams that provides two kinds of zones: open 'commons' areas that encourage osmotic communication and collaboration, and quieter 'caves' where individuals can do focused work without interruption. The idea balances the agile preference for high-bandwidth interaction with the need for concentration. It supports both teamwork and individual productivity in a colocated setting.",
@@ -116,9 +152,9 @@
     "Contrast": "Osmotic communication - osmotic communication is the information overheard in a shared space, whereas caves and commons is the physical layout that deliberately enables it alongside quiet focus.",
     "Example": "A team room with a central table for collaboration plus side nooks where developers retreat to concentrate.",
     "Related Terms": [
-      "Osmotic Communication",
+      "Osmotic communication",
       "Colocation",
-      "Tacit Knowledge"
+      "Tacit knowledge"
     ],
     "Tier": "Adjacent concept",
     "Source": "Agile Practice Guide - team space (caves and commons)"
@@ -140,7 +176,25 @@
     "Source": "Agile Practice Guide"
   },
   {
-    "Term": "Coercive Power",
+    "Term": "Coaching leadership",
+    "Core Meaning": "A leadership style centered on developing team members' skills and self-reliance through questions, feedback, and guidance rather than direct instruction.",
+    "Depth": "Standard",
+    "Expansion": "Coaching leaders act as mentors, helping people identify strengths and gaps, asking powerful questions, and prompting them to reach their own solutions. They give regular, balanced feedback and create a safe environment where mistakes become learning. This style fits capable, motivated teams and longer-horizon work where growing capability pays off, and it pairs naturally with servant leadership. It is slower than simply telling people what to do, so it is less suited to urgent situations needing an immediate answer.",
+    "Deep Dive": null,
+    "Contrast": "Coaching vs directive leadership: a coaching leader develops people by guiding them to find their own answers, whereas a directive leader supplies the answer and instructs the team to execute it.",
+    "Example": "Instead of solving a defect himself, a project lead uses questions to help a junior developer diagnose the root cause, building skill she reuses on later issues.",
+    "Related Terms": [
+      "Servant leadership",
+      "Transformational leadership",
+      "GROW model",
+      "Mentoring",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - leadership styles"
+  },
+  {
+    "Term": "Coercive power",
     "Core Meaning": "Influence based on the ability to impose penalties or negative consequences.",
     "Depth": "Standard",
     "Expansion": "Coercive power (also called penalty or punishment power) is a form of organizational power rooted in the capacity to discipline or impose negative outcomes such as reprimands, undesirable assignments, or withheld benefits. It can compel short-term compliance but tends to damage trust, morale, and engagement when relied upon. It is widely viewed as the weakest basis for influence and a last resort.",
@@ -151,10 +205,10 @@
       "Penalty power"
     ],
     "Related Terms": [
-      "Reward Power",
-      "Expert Power",
-      "Referent Power",
-      "Legitimate Power"
+      "Reward power",
+      "Expert power",
+      "Referent power",
+      "Legitimate power"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - types of power"
@@ -168,9 +222,9 @@
     "Contrast": "Groupthink — a cognitive bias is an individual reasoning error, while groupthink is a group dynamic where the desire for harmony suppresses dissent.",
     "Example": "A team anchored on its first estimate of three weeks resists evidence the work will take six, illustrating anchoring bias in planning.",
     "Related Terms": [
-      "Confirmation Bias",
-      "Anchoring Bias",
-      "Optimism Bias",
+      "Confirmation bias",
+      "Anchoring bias",
+      "Optimism bias",
       "Groupthink"
     ],
     "Tier": "Adjacent concept",
@@ -227,8 +281,8 @@
     ],
     "Related Terms": [
       "Virtual team",
-      "War Room",
-      "Osmotic Communication"
+      "War room",
+      "Osmotic communication"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - team resource management (colocation)"
@@ -287,7 +341,7 @@
     "Source": "PMBOK Guide - conflict resolution (compromise / reconcile)"
   },
   {
-    "Term": "Confirmation Bias",
+    "Term": "Confirmation bias",
     "Core Meaning": "A cognitive bias in which people favour information that supports their existing beliefs, expectations, or hypotheses.",
     "Depth": "Standard",
     "Expansion": "PMI identifies confirmation bias as a cognitive bias that confirms preexisting beliefs or hypotheses. In projects, it can distort forecasting, risk assessment, stakeholder interpretation, and issue escalation because teams may notice supporting evidence while discounting warning signs. Recognising it improves decision quality by encouraging disconfirming evidence, broader review, and more balanced judgment.",
@@ -432,7 +486,7 @@
     "Source": "Agile Practice Guide — confirm exact citation in PMI source"
   },
   {
-    "Term": "Cultural Awareness",
+    "Term": "Cultural awareness",
     "Core Meaning": "Understanding differences among individuals, groups, and organizations and adapting communication to fit them.",
     "Depth": "Standard",
     "Expansion": "Cultural awareness is a communication and interpersonal skill that involves recognizing how people from different backgrounds, organizations, and regions differ in values, expectations, and styles. The project manager uses that understanding to adapt the communication strategy, reducing misunderstanding and building trust across a diverse team. It is especially important on global and virtual projects.",
@@ -449,7 +503,7 @@
     "Source": "PMBOK Guide - communication skills (cultural awareness)"
   },
   {
-    "Term": "Daniel Pink's Drive",
+    "Term": "Daniel pink's drive",
     "Core Meaning": "A motivation model arguing that for complex work, intrinsic drivers - autonomy, mastery, and purpose - outperform external rewards.",
     "Depth": "Standard",
     "Expansion": "Daniel Pink synthesised behavioural research to argue that carrot-and-stick rewards work for simple routine tasks but can undermine performance on creative, cognitively demanding work. Lasting motivation instead comes from three intrinsic elements:\n\n- Autonomy — control over how, when, and with whom one works.\n- Mastery — the urge to get better at something that matters.\n- Purpose — serving a cause larger than oneself.\n\nFor knowledge teams, leaders should provide direction and good conditions rather than rely on bonuses.",
@@ -457,8 +511,8 @@
     "Contrast": "Herzberg's Two-Factor Theory - Pink centres motivation on autonomy, mastery, and purpose for creative work, whereas Herzberg distinguishes hygiene factors from motivators across work generally.",
     "Example": "A PM motivates a development team by giving them latitude over technical decisions, time to deepen skills, and a clear line of sight to the customer's mission.",
     "Related Terms": [
-      "Herzberg's Two-Factor Theory",
-      "Maslow's Hierarchy of Needs",
+      "Herzberg's two-factor theory",
+      "Maslow's hierarchy of needs",
       "Intrinsic motivation",
       "Motivation"
     ],
@@ -466,7 +520,7 @@
     "Source": "Pink - Drive (autonomy, mastery, purpose)"
   },
   {
-    "Term": "Decision-Making Techniques",
+    "Term": "Decision-making techniques",
     "Core Meaning": "Methods used to choose among options, including voting, autocratic decision making, and multicriteria decision analysis.",
     "Depth": "Atomic",
     "Expansion": "Decision-making techniques are a PMBOK grouping of methods for reaching a choice among alternatives. Common forms include voting (unanimity, majority, or plurality), autocratic decision making (one person decides for the group), and multicriteria decision analysis (scoring options against weighted criteria).",
@@ -536,7 +590,7 @@
     "Source": "PMBOK Guide - Seventh Edition"
   },
   {
-    "Term": "Drexler-Sibbet Team Performance Model",
+    "Term": "Drexler-Sibbet team performance model",
     "Core Meaning": "A model mapping seven stages teams move through when creating and then sustaining high performance.",
     "Depth": "Standard",
     "Expansion": "Allan Drexler and David Sibbet describe team development as seven stages:\n\n- Orientation — why am I here?\n- Trust building — who are you?\n- Goal clarification — what are we doing?\n- Commitment — how will we do it?\n- Implementation — who does what, when, and where?\n- High performance — the wow stage.\n- Renewal — why continue?\n\nThe first four stages create the team and the last three sustain it, with each stage posing a question that must be resolved before the team advances. Unresolved early questions tend to resurface as problems later.",
@@ -544,8 +598,8 @@
     "Contrast": "Tuckman's Stages of Team Development - Drexler-Sibbet defines seven stages each framed by a question to resolve, whereas Tuckman describes five broader stages of group maturity.",
     "Example": "A PM facilitating a new team works explicitly through purpose and trust before assigning tasks, following the Drexler-Sibbet sequence.",
     "Related Terms": [
-      "Tuckman's Stages of Team Development",
-      "Belbin Team Roles",
+      "Tuckman's stages of team development",
+      "Belbin team roles",
       "Team charter",
       "Team development"
     ],
@@ -553,7 +607,7 @@
     "Source": "Drexler and Sibbet - Team Performance Model"
   },
   {
-    "Term": "Dreyfus Model",
+    "Term": "Dreyfus model",
     "Core Meaning": "A model of skill acquisition describing progression through five stages from novice to expert.",
     "Depth": "Standard",
     "Expansion": "The Dreyfus model of skill acquisition holds that learners pass through novice, advanced beginner, competent, proficient, and expert stages. Novices rely on rigid rules and context-free guidance, while experts act intuitively from deep tacit experience. It informs how project managers coach, delegate, and set expectations based on an individual's stage.",
@@ -570,7 +624,7 @@
     "Source": "Dreyfus and Dreyfus - skill acquisition model"
   },
   {
-    "Term": "Dunning-Kruger Effect",
+    "Term": "Dunning-Kruger effect",
     "Core Meaning": "A cognitive bias in which people with low competence overestimate their ability while experts may underestimate theirs.",
     "Depth": "Standard",
     "Expansion": "The Dunning-Kruger effect describes how those least skilled in an area lack the metacognition to recognize their own gaps, inflating their self-assessment, while highly competent people often assume tasks are equally easy for others and underrate their relative skill. It cautions project managers to validate self-reported confidence with objective evidence.",
@@ -578,10 +632,10 @@
     "Contrast": "Impostor Syndrome - Dunning-Kruger has the unskilled overrating themselves, whereas impostor syndrome has capable people doubting their genuine competence.",
     "Example": "A junior developer confidently promises a quick fix, unaware of the complexity an expert would immediately flag.",
     "Related Terms": [
-      "Impostor Syndrome",
-      "Confirmation Bias",
+      "Impostor syndrome",
+      "Confirmation bias",
       "Competency",
-      "Dreyfus Model"
+      "Dreyfus model"
     ],
     "Tier": "Adjacent concept",
     "Source": "Dunning and Kruger - unskilled and unaware"
@@ -627,7 +681,7 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
-    "Term": "Escalation of Commitment",
+    "Term": "Escalation of commitment",
     "Core Meaning": "The tendency to increase investment in a failing course of action to justify prior decisions.",
     "Depth": "Standard",
     "Expansion": "Escalation of commitment describes decision makers doubling down on a losing path rather than cutting losses, often to avoid admitting a mistake or because of sunk costs and ego. It explains why troubled projects receive more resources instead of being cancelled, and it is countered by independent reviews and clear kill criteria.",
@@ -635,13 +689,31 @@
     "Contrast": "Sunk Cost Fallacy - the sunk cost fallacy is the reasoning error about past spending, while escalation of commitment is the resulting behavior of pouring in still more resources.",
     "Example": "A sponsor approves yet another budget increase for a late project to avoid conceding the original plan failed.",
     "Related Terms": [
-      "Sunk Cost Fallacy",
+      "Sunk cost fallacy",
       "Go/no-go decision",
       "Governance",
-      "Optimism Bias"
+      "Optimism bias"
     ],
     "Tier": "Adjacent concept",
     "Source": "Staw - escalation of commitment research"
+  },
+  {
+    "Term": "Ethical leadership",
+    "Core Meaning": "A leadership style grounded in integrity, fairness, and accountability, guiding decisions by moral principles and their impact on all stakeholders.",
+    "Depth": "Standard",
+    "Expansion": "Ethical leaders model honesty and respect, hold themselves and others to the same standards, and weigh the effect of decisions on everyone affected, not just the project's immediate goals. They favor transparency and responsible choices, which builds a culture of trust and accountability. This style is essential where projects touch safety, compliance, public interest, or contested trade-offs, and it underpins credible stakeholder relationships. It aligns closely with PMI's Code of Ethics and Professional Conduct, which sets responsibility, respect, fairness, and honesty as core values.",
+    "Deep Dive": null,
+    "Contrast": "Ethical vs authentic leadership: ethical leadership is defined by adherence to moral standards and stakeholder impact, whereas authentic leadership is defined by being genuine and consistent with one's own values, which are not necessarily framed around ethics.",
+    "Example": "Under schedule pressure, a project manager refuses to sign off on skipped safety tests and escalates the risk, protecting users even at the cost of a delayed launch.",
+    "Related Terms": [
+      "Authentic leadership",
+      "Servant leadership",
+      "PMI code of ethics and professional conduct",
+      "Integrity",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition and PMI Code of Ethics and Professional Conduct"
   },
   {
     "Term": "Ethnocentrism",
@@ -661,7 +733,7 @@
     "Source": "PMBOK Guide - cultural awareness (communication skills)"
   },
   {
-    "Term": "Expectancy Theory",
+    "Term": "Expectancy theory",
     "Core Meaning": "A motivation theory holding that people are motivated when they expect effort to lead to good performance and to valued rewards.",
     "Depth": "Standard",
     "Expansion": "Expectancy theory, developed by Victor Vroom, explains motivation as the product of three beliefs:\n\n- Expectancy — that effort will produce performance.\n- Instrumentality — that performance will be rewarded.\n- Valence — that the reward is worth having.\n\nIf any one of these is weak, motivation collapses. It implies leaders should link effort to attainable outcomes and to rewards people genuinely value.",
@@ -681,7 +753,7 @@
     "Source": "Vroom's expectancy theory (motivation theory)"
   },
   {
-    "Term": "Expert Power",
+    "Term": "Expert power",
     "Core Meaning": "Influence derived from a person's specialized knowledge, skill, or expertise.",
     "Depth": "Standard",
     "Expansion": "Expert power is one of the classic forms of power, based on others' respect for a person's demonstrated knowledge or competence. Because it is earned rather than assigned, it tends to build genuine commitment rather than mere compliance. It is widely regarded as one of the most effective bases of power for a project manager.",
@@ -715,7 +787,7 @@
     "Source": "PMI Knowledgebase, term Facilitation"
   },
   {
-    "Term": "Fait Accompli",
+    "Term": "Fait accompli",
     "Core Meaning": "A negotiation tactic of presenting something as already decided and beyond discussion.",
     "Depth": "Atomic",
     "Expansion": "Fait accompli is a negotiation tactic in which one party frames an issue as already settled or non-negotiable to take it off the table. It may reflect a genuine constraint, such as a regulation, or be a pressure move to limit the other side's options and extract concessions.",
@@ -751,7 +823,7 @@
     "Source": "PMBOK Guide - conflict management techniques"
   },
   {
-    "Term": "Four Stages of Competence",
+    "Term": "Four stages of competence",
     "Core Meaning": "A learning model describing how people progress from unconscious incompetence to unconscious competence as they acquire a skill.",
     "Depth": "Standard",
     "Expansion": "The four stages of competence model describes learning as movement through four stages:\n\n- Unconscious incompetence — not knowing what you lack.\n- Conscious incompetence — aware of the gap.\n- Conscious competence — able but only with deliberate effort.\n- Unconscious competence — the skill has become second nature.\n\nRecognising a learner's current stage lets a coach pitch support appropriately, building awareness first, then practice, then automaticity. The hardest step is often moving people from unconscious to conscious incompetence.",
@@ -780,7 +852,7 @@
     "Related Terms": [
       "Virtual team",
       "Distributed team",
-      "Cultural Awareness",
+      "Cultural awareness",
       "High context culture"
     ],
     "Tier": "Adjacent concept",
@@ -855,7 +927,7 @@
     "Source": "PMI Lexicon of Project Management Terms / Groupthink, p. 152"
   },
   {
-    "Term": "GROW Model",
+    "Term": "GROW model",
     "Core Meaning": "A four-stage coaching framework structured around Goal, Reality, Options, and Will.",
     "Depth": "Standard",
     "Expansion": "The GROW model guides a coaching conversation through four steps:\n\n- Goal — clarifying what the person wants to achieve.\n- Reality — examining the current situation.\n- Options — exploring possible ways forward.\n- Will — confirming the way forward they commit to.\n\nProject managers use it to coach team members toward their own solutions rather than directing them, supporting a servant-leadership style.",
@@ -863,7 +935,7 @@
     "Contrast": "OSCAR Model - both are coaching frameworks, but OSCAR adds explicit Affirm-style review and follow-up steps that GROW does not name separately.",
     "Example": "A project manager uses the GROW model to help a developer define a personal growth goal and commit to concrete next steps.",
     "Related Terms": [
-      "OSCAR Model",
+      "OSCAR model",
       "Servant leadership",
       "Emotional intelligence",
       "Leadership style"
@@ -872,7 +944,7 @@
     "Source": "Whitmore - Coaching for Performance"
   },
   {
-    "Term": "Halo Effect",
+    "Term": "Halo effect",
     "Core Meaning": "A cognitive bias in which a positive impression of someone in one area leads people to assume competence in unrelated areas.",
     "Depth": "Standard",
     "Expansion": "The halo effect is a bias where one outstanding trait or achievement causes an observer to rate a person favorably on unrelated attributes. In project staffing it appears when a strong technical performer is assumed to be a good manager and is promoted into a role they may not suit. Awareness of the bias helps managers evaluate people against the actual competencies a role demands.",
@@ -888,7 +960,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Hersey-Blanchard Situational Leadership",
+    "Term": "Hersey-Blanchard situational leadership",
     "Core Meaning": "The original situational leadership model prescribing four styles - telling, selling, participating, and delegating - matched to follower maturity.",
     "Depth": "Standard",
     "Expansion": "Paul Hersey and Ken Blanchard's original model holds that leaders should adapt their style to a follower's readiness or maturity for a task by balancing task behaviour and relationship behaviour. As maturity rises, the leader moves from telling (high task, low relationship) to selling, to participating, and finally to delegating (low task, low relationship). There is no single best style, since effectiveness depends on diagnosing each follower's competence and willingness.",
@@ -899,10 +971,10 @@
       "svg": "<svg viewBox='0 0 270 207' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='40' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><rect x='145' y='20' width='105' height='72' fill='#1F5FA8' fill-opacity='0.12' stroke='currentColor' stroke-width='1'/><rect x='40' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1'/><rect x='145' y='92' width='105' height='72' fill='#1F5FA8' fill-opacity='0.1' stroke='currentColor' stroke-width='1'/><text x='92' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S3</text><text x='92' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Supporting</text><text x='197' y='52' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S2</text><text x='197' y='65' fill='currentColor' font-size='8.5' text-anchor='middle'>Coaching</text><text x='92' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S4</text><text x='92' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Delegating</text><text x='197' y='124' fill='currentColor' font-size='9.5' font-weight='bold' text-anchor='middle'>S1</text><text x='197' y='137' fill='currentColor' font-size='8.5' text-anchor='middle'>Directing</text><line x1='28' y1='164' x2='28' y2='16' stroke='currentColor' stroke-width='1'/><polygon points='28,12 25,20 31,20' fill='currentColor'/><line x1='40' y1='176' x2='254' y2='176' stroke='currentColor' stroke-width='1'/><polygon points='258,176 250,173 250,179' fill='currentColor'/><text x='20' y='92' fill='currentColor' font-size='8' text-anchor='middle' transform='rotate(-90 20 92)'>Supportive behaviour</text><text x='147' y='192' fill='currentColor' font-size='8' text-anchor='middle'>Directive behaviour</text></svg>"
     },
     "Synonyms": [
-      "Situational Leadership Theory"
+      "Situational leadership theory"
     ],
     "Related Terms": [
-      "Situational Leadership II",
+      "Situational leadership II",
       "Leadership style",
       "Delegation",
       "Servant leadership"
@@ -911,7 +983,7 @@
     "Source": "Hersey and Blanchard - situational leadership theory"
   },
   {
-    "Term": "Herzberg's Two-Factor Theory",
+    "Term": "Herzberg's two-factor theory",
     "Core Meaning": "A motivation theory distinguishing hygiene factors that prevent dissatisfaction from motivators that actively create satisfaction.",
     "Depth": "Standard",
     "Expansion": "Frederick Herzberg found that two separate sets of factors govern attitudes at work:\n\n- Hygiene factors — such as salary, company policy, working conditions, and supervision; cause dissatisfaction when poor but do not motivate when good.\n- Motivators — such as achievement, recognition, the work itself, responsibility, and growth; drive genuine satisfaction.\n\nImproving hygiene only moves people from dissatisfied to neutral, so lasting motivation requires enriching the work itself. The two are independent dimensions rather than opposite ends of one scale.",
@@ -922,12 +994,12 @@
       "svg": "<svg viewBox='0 0 256 163' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='18' y1='33' x2='238' y2='33' stroke='currentColor' stroke-width='1.2'/><polygon points='14,33 22,29 22,37' fill='currentColor'/><polygon points='242,33 234,29 234,37' fill='currentColor'/><line x1='128' y1='27' x2='128' y2='39' stroke='currentColor' stroke-width='1'/><text x='18' y='21' fill='#B5462F' font-size='9' text-anchor='start'>Dissatisfaction</text><text x='128' y='21' fill='currentColor' font-size='9' text-anchor='middle'>Neutral</text><text x='238' y='21' fill='#2F6F5E' font-size='9' text-anchor='end'>Satisfaction</text><rect x='12' y='57' width='118' height='94' rx='4' fill='#B5462F' fill-opacity='0.07' stroke='currentColor' stroke-width='1'/><rect x='136' y='57' width='108' height='94' rx='4' fill='#2F6F5E' fill-opacity='0.08' stroke='currentColor' stroke-width='1'/><text x='71' y='77' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Hygiene factors</text><text x='71' y='91' fill='currentColor' font-size='7.5' text-anchor='middle'>prevent dissatisfaction</text><text x='71' y='111' fill='currentColor' font-size='8' text-anchor='middle'>Salary, policies,</text><text x='71' y='123' fill='currentColor' font-size='8' text-anchor='middle'>security, conditions,</text><text x='71' y='135' fill='currentColor' font-size='8' text-anchor='middle'>supervision</text><text x='190' y='77' fill='currentColor' font-size='10' font-weight='bold' text-anchor='middle'>Motivators</text><text x='190' y='91' fill='currentColor' font-size='7.5' text-anchor='middle'>create satisfaction</text><text x='190' y='111' fill='currentColor' font-size='8' text-anchor='middle'>Achievement,</text><text x='190' y='123' fill='currentColor' font-size='8' text-anchor='middle'>recognition, growth,</text><text x='190' y='135' fill='currentColor' font-size='8' text-anchor='middle'>responsibility</text></svg>"
     },
     "Synonyms": [
-      "Motivation-Hygiene Theory"
+      "Motivation-hygiene theory"
     ],
     "Related Terms": [
-      "Maslow's Hierarchy of Needs",
-      "McClelland's Theory of Needs",
-      "Daniel Pink's Drive",
+      "Maslow's hierarchy of needs",
+      "McClelland's theory of needs",
+      "Daniel pink's drive",
       "Motivation"
     ],
     "Tier": "Adjacent concept",
@@ -964,7 +1036,7 @@
       "Horns effect"
     ],
     "Related Terms": [
-      "Halo Effect",
+      "Halo effect",
       "Cognitive bias",
       "Performance appraisal"
     ],
@@ -972,7 +1044,7 @@
     "Source": "PMBOK Guide - Seventh Edition"
   },
   {
-    "Term": "I-shaped Skills",
+    "Term": "I-shaped skills",
     "Core Meaning": "A profile describing a person with deep expertise in one specialty but little capability outside that core area.",
     "Depth": "Atomic",
     "Expansion": "I-shaped people have deep, narrow knowledge in a single discipline, the vertical bar of the letter I, but limited skills beyond it. On agile teams they can become bottlenecks because work in their specialty queues up behind them, which is why teams encourage cross-skilling toward a T-shaped profile.",
@@ -988,7 +1060,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Impostor Syndrome",
+    "Term": "Impostor syndrome",
     "Core Meaning": "A psychological pattern of doubting one's accomplishments and fearing being exposed as a fraud despite evident competence.",
     "Depth": "Atomic",
     "Expansion": "Impostor syndrome is the persistent internal experience of believing one is not as capable as others perceive, attributing success to luck rather than skill. In teams it can suppress contributions from capable members and is addressed through psychological safety, mentoring, and recognition.",
@@ -999,7 +1071,7 @@
       "Impostor phenomenon"
     ],
     "Related Terms": [
-      "Dunning-Kruger Effect",
+      "Dunning-Kruger effect",
       "Emotional intelligence",
       "Team dynamics",
       "Leadership"
@@ -1173,7 +1245,7 @@
     ],
     "Related Terms": [
       "Servant leadership",
-      "Situational Leadership II",
+      "Situational leadership II",
       "Delegation"
     ],
     "Tier": "Adjacent concept",
@@ -1224,7 +1296,7 @@
     "Contrast": "Distinct from team building, which strengthens relationships and cohesion rather than individual competence.",
     "Example": "The plan funds cloud-certification training so engineers gain the skills the new platform of the project requires.",
     "Synonyms": [
-      "L&D"
+      "L&d"
     ],
     "Related Terms": [
       "Team development",
@@ -1235,7 +1307,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Legitimate Power",
+    "Term": "Legitimate power",
     "Core Meaning": "Influence a project manager holds by virtue of their formal position or role.",
     "Depth": "Standard",
     "Expansion": "Legitimate power, also called formal or positional power, derives from a person's official rank and the authority the organization grants that position. Team members comply because they recognize the project manager's right to direct them, not necessarily out of respect or fear. It is effective for routine direction but, on its own, rarely inspires high commitment, so it is usually combined with expert or referent power.",
@@ -1290,7 +1362,7 @@
     "Source": "PMBOK Guide - voting (decision making)"
   },
   {
-    "Term": "Management Skills",
+    "Term": "Management skills",
     "Core Meaning": "The ability to plan, organize, direct, and control people and resources to achieve defined goals.",
     "Depth": "Standard",
     "Expansion": "Management skills are the administrative competencies used to plan, organize, direct, and control work so that specific objectives are met consistently and predictably. They emphasize systems, processes, and positional authority to keep delivery on track. In PMP thinking they complement leadership skills, which inspire and align people toward a vision; effective project managers blend both.",
@@ -1305,7 +1377,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Maslow's Hierarchy of Needs",
+    "Term": "Maslow's hierarchy of needs",
     "Core Meaning": "A motivation theory arranging human needs in five ascending levels, where lower needs must be largely met before higher ones drive behaviour.",
     "Depth": "Foundational",
     "Expansion": "Abraham Maslow ordered needs as physiological, safety, social or belonging, esteem, and self-actualisation, arguing that a substantially satisfied need stops motivating and attention shifts upward. People pursue higher-order growth needs only once lower deficiency needs are reasonably secure. For project leaders this implies that pay and job security must be addressed before recognition and challenging work will motivate.",
@@ -1316,16 +1388,16 @@
       "svg": "<svg viewBox='0 0 244 184' xmlns='http://www.w3.org/2000/svg'><polygon points='30,140 214,140 232,172 12,172' fill='#1F5FA8' fill-opacity='0.05' stroke='currentColor' stroke-width='1.1'/><polygon points='48,108 196,108 214,140 30,140' fill='#1F5FA8' fill-opacity='0.08' stroke='currentColor' stroke-width='1.1'/><polygon points='66,76 178,76 196,108 48,108' fill='#1F5FA8' fill-opacity='0.11' stroke='currentColor' stroke-width='1.1'/><polygon points='84,44 160,44 178,76 66,76' fill='#1F5FA8' fill-opacity='0.14' stroke='currentColor' stroke-width='1.1'/><polygon points='102,12 142,12 160,44 84,44' fill='#1F5FA8' fill-opacity='0.2' stroke='currentColor' stroke-width='1.1'/><text x='122' y='160' fill='currentColor' font-size='10' text-anchor='middle'>Physiological</text><text x='122' y='128' fill='currentColor' font-size='10' text-anchor='middle'>Safety</text><text x='122' y='96' fill='currentColor' font-size='10' text-anchor='middle'>Belonging</text><text x='122' y='64' fill='currentColor' font-size='9.5' text-anchor='middle'>Esteem</text><text x='122' y='25' fill='currentColor' font-size='7' text-anchor='middle'>Self-</text><text x='122' y='36' fill='currentColor' font-size='7' text-anchor='middle'>actualisation</text></svg>"
     },
     "Related Terms": [
-      "Herzberg's Two-Factor Theory",
-      "McClelland's Theory of Needs",
-      "Expectancy Theory",
+      "Herzberg's two-factor theory",
+      "McClelland's theory of needs",
+      "Expectancy theory",
       "Motivation"
     ],
     "Tier": "Adjacent concept",
     "Source": "Maslow - A Theory of Human Motivation (hierarchy of needs)"
   },
   {
-    "Term": "McClelland's Theory of Needs",
+    "Term": "McClelland's theory of needs",
     "Core Meaning": "A motivation theory holding that people are driven by three acquired needs - achievement, affiliation, and power - in differing proportions.",
     "Depth": "Standard",
     "Expansion": "McClelland's theory of needs, also called the three needs or acquired needs theory, proposes that everyone is motivated by some mix of the need for achievement, affiliation, and power, with one usually dominant. Understanding which need drives a person lets a manager assign work and rewards that fit, for example giving achievement-oriented people challenging, measurable goals. The power need can be personal or institutional, the latter being healthier for leadership.",
@@ -1333,8 +1405,8 @@
     "Contrast": "Maslow's hierarchy of needs - Maslow arranges universal needs in an ascending hierarchy, whereas McClelland focuses on three learned needs whose balance varies by individual.",
     "Example": "A manager gives a high-achievement team member a stretch goal with clear metrics, while placing a high-affiliation member in a collaborative role.",
     "Synonyms": [
-      "Acquired Needs Theory",
-      "Three Needs Theory"
+      "Acquired needs theory",
+      "Three needs theory"
     ],
     "Related Terms": [
       "Maslow's hierarchy of needs",
@@ -1346,7 +1418,7 @@
     "Source": "PMBOK Guide - motivation theories"
   },
   {
-    "Term": "McGregor's Theory X",
+    "Term": "McGregor's theory x",
     "Core Meaning": "A management assumption that workers are inherently lazy, avoid responsibility, and need close supervision and control.",
     "Depth": "Standard",
     "Expansion": "Theory X is one half of Douglas McGregor's pair of management assumptions, holding that the average employee dislikes work, shirks responsibility, and must be directed, controlled, and sometimes coerced to perform. Managers who hold it tend toward authoritarian, top-down, closely monitored styles. It contrasts with Theory Y and is generally seen as suitable only for limited situations, since it can become a self-fulfilling prophecy.",
@@ -1354,7 +1426,7 @@
     "Contrast": "McGregor's Theory Y - Theory Y assumes workers are self-motivated and seek responsibility, whereas Theory X assumes they are lazy and need control.",
     "Example": "A Theory X manager requires detailed daily timesheets and signs off on every minor decision, trusting little to the team.",
     "Related Terms": [
-      "McGregor's Theory Y",
+      "McGregor's theory y",
       "Motivation",
       "Leadership style",
       "Maslow's hierarchy of needs"
@@ -1363,7 +1435,7 @@
     "Source": "PMBOK Guide - motivation theories"
   },
   {
-    "Term": "McGregor's Theory Y",
+    "Term": "McGregor's theory y",
     "Core Meaning": "A management assumption that workers are self-motivated, accept responsibility, and can be trusted to direct themselves.",
     "Depth": "Standard",
     "Expansion": "Theory Y is the optimistic half of McGregor's pair, assuming employees find work natural, are willing to take ownership, and seek opportunities for growth and self-respect. Managers who hold it favor participative, empowering, and coaching styles that grant autonomy. It aligns well with knowledge work and servant leadership, though the right assumption depends on the people and context.",
@@ -1371,7 +1443,7 @@
     "Contrast": "McGregor's Theory X - Theory X assumes workers must be controlled and coerced, whereas Theory Y assumes they are self-directed and seek responsibility.",
     "Example": "A Theory Y manager sets goals and then trusts the team to organize its own work, offering support rather than surveillance.",
     "Related Terms": [
-      "McGregor's Theory X",
+      "McGregor's theory x",
       "Servant leadership",
       "Motivation",
       "Self-organizing team"
@@ -1414,7 +1486,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Mood Chart",
+    "Term": "Mood chart",
     "Core Meaning": "A visualization chart for tracking moods or reactions to identify areas for improvement.",
     "Depth": "Atomic",
     "Expansion": "A Mood Chart makes emotional responses or team sentiment visible over time so patterns can be discussed and improved.",
@@ -1439,10 +1511,10 @@
     "Contrast": "Engagement — motivation is the internal drive to act, while engagement is the observable involvement and commitment that results from it.",
     "Example": "A project manager rotates a developer onto a challenging new module to renew their sense of mastery and keep motivation high during a long delivery.",
     "Related Terms": [
-      "Maslow's Hierarchy of Needs",
-      "Herzberg's Two-Factor Theory",
+      "Maslow's hierarchy of needs",
+      "Herzberg's two-factor theory",
       "Empowerment",
-      "Expectancy Theory"
+      "Expectancy theory"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide Seventh Edition — Team Performance Domain"
@@ -1489,15 +1561,15 @@
     "Contrast": "Communication - communication exchanges specific project information, whereas networking builds the relationships through which information and influence flow.",
     "Example": "Attending an industry conference to build contacts who can later advise on a vendor selection.",
     "Related Terms": [
-      "Interpersonal Skills",
-      "Stakeholder Engagement",
-      "Political Awareness"
+      "Interpersonal skills",
+      "Stakeholder engagement",
+      "Political awareness"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - interpersonal and team skills"
   },
   {
-    "Term": "Optimism Bias",
+    "Term": "Optimism bias",
     "Core Meaning": "The systematic tendency to overestimate favorable outcomes and underestimate costs, durations, and risks.",
     "Depth": "Standard",
     "Expansion": "Optimism bias leads planners to expect things to go better than they realistically will, producing underestimated budgets and schedules and underweighted risks. It is a root cause of the planning fallacy and is often countered with reference class forecasting, which grounds estimates in the outcomes of similar past projects.",
@@ -1505,8 +1577,8 @@
     "Contrast": "Planning Fallacy - optimism bias is the broad tendency toward rosy expectations, while the planning fallacy is its specific manifestation in underestimating task time and cost.",
     "Example": "A team confident in a three-month delivery ignores that every similar past project took six, exhibiting optimism bias.",
     "Related Terms": [
-      "Planning Fallacy",
-      "Anchoring Bias",
+      "Planning fallacy",
+      "Anchoring bias",
       "Reserve analysis",
       "Estimating"
     ],
@@ -1550,7 +1622,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide, Seventh Edition, section discussing organizational theory"
   },
   {
-    "Term": "OSCAR Model",
+    "Term": "OSCAR model",
     "Core Meaning": "A coaching framework built on Outcome, Situation, Choices, Actions, and Review.",
     "Depth": "Atomic",
     "Expansion": "The OSCAR coaching model structures a development conversation around the desired Outcome, the current Situation, the Choices available, the Actions to take, and a Review of progress. It is solution-focused and emphasizes ongoing follow-up to sustain change.",
@@ -1558,13 +1630,34 @@
     "Contrast": "GROW Model - GROW ends at securing the will to act, while OSCAR explicitly builds in a Review stage for accountability and reinforcement.",
     "Example": "A team lead applies the OSCAR model to coach a tester, agreeing on actions and scheduling a review to track improvement.",
     "Related Terms": [
-      "GROW Model",
+      "GROW model",
       "Leadership style",
       "Servant leadership",
       "Emotional intelligence"
     ],
     "Tier": "Adjacent concept",
     "Source": "Gilbert and Whittleworth - OSCAR coaching model"
+  },
+  {
+    "Term": "Participative leadership",
+    "Core Meaning": "A leadership style in which the leader actively involves the team in decisions and problem-solving before acting.",
+    "Depth": "Standard",
+    "Expansion": "Also called democratic leadership, this style seeks input, weighs diverse perspectives, and builds decisions collaboratively while the leader retains final accountability. Involving the team raises buy-in, surfaces knowledge the leader lacks, and strengthens commitment to the outcome. It fits projects with skilled, engaged members and enough time to consult, such as planning workshops or cross-functional design work. Its main cost is speed, so it is a poor fit for genuine emergencies that need an immediate call.",
+    "Deep Dive": null,
+    "Contrast": "Participative vs laissez-faire leadership: a participative leader consults the team but still owns and makes the decision, whereas a laissez-faire leader hands the decision to the team and largely steps back.",
+    "Example": "Before committing to a release date, a project manager runs a planning session where the team debates scope and jointly agrees on a realistic target.",
+    "Synonyms": [
+      "Democratic leadership"
+    ],
+    "Related Terms": [
+      "Shared leadership",
+      "Laissez-faire",
+      "Servant leadership",
+      "Directive leadership",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - leadership styles"
   },
   {
     "Term": "Performance appraisal",
@@ -1578,14 +1671,14 @@
       "Performance review"
     ],
     "Related Terms": [
-      "Team Performance Assessments",
+      "Team performance assessments",
       "Horn effect"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - Seventh Edition"
   },
   {
-    "Term": "Planning Fallacy",
+    "Term": "Planning fallacy",
     "Core Meaning": "The tendency to underestimate the time, cost, and risk of future actions despite knowing that similar past efforts overran.",
     "Depth": "Standard",
     "Expansion": "The planning fallacy, identified by Kahneman and Tversky, is the systematic underestimation of how long tasks will take and how much they will cost, even when people know that comparable past projects exceeded their plans. It stems from taking an inside view focused on the specifics of the current plan; the remedy is an outside view using reference class forecasting.",
@@ -1593,10 +1686,10 @@
     "Contrast": "Optimism Bias - optimism bias is the general tendency toward favorable expectations, while the planning fallacy is its specific form applied to time and cost estimates.",
     "Example": "Despite every past audit taking six weeks, the team again commits to four, falling into the planning fallacy.",
     "Related Terms": [
-      "Optimism Bias",
+      "Optimism bias",
       "Estimating",
       "Reserve analysis",
-      "Student Syndrome"
+      "Student syndrome"
     ],
     "Tier": "Adjacent concept",
     "Source": "Kahneman and Tversky - planning fallacy"
@@ -1613,7 +1706,7 @@
       "Majority",
       "Unanimity",
       "Voting",
-      "Decision-Making Techniques"
+      "Decision-making techniques"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - decision-making (voting)"
@@ -1664,7 +1757,7 @@
       "Soft skills"
     ],
     "Related Terms": [
-      "PMI Talent Triangle",
+      "PMI talent triangle",
       "Emotional intelligence",
       "Leadership",
       "Interpersonal skills"
@@ -1727,7 +1820,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Referent Power",
+    "Term": "Referent power",
     "Core Meaning": "Influence derived from a person's charisma, character, and the respect and admiration others hold for them.",
     "Depth": "Standard",
     "Expansion": "Referent power is a basis of organizational power grounded in personality, reputation, and the relationships a leader builds, rather than position or rewards. People follow because they like, respect, or want to identify with the leader. It tends to be durable and to foster genuine commitment, though it takes time to develop.",
@@ -1762,7 +1855,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Reward Power",
+    "Term": "Reward power",
     "Core Meaning": "Influence a project manager exerts through the ability to grant benefits or incentives.",
     "Depth": "Standard",
     "Expansion": "Reward power is based on the leader's capacity to provide positive outcomes such as recognition, bonuses, promotions, or desirable assignments in exchange for performance. It can effectively motivate when rewards are valued and fairly distributed, but it weakens if rewards are seen as unfair or beyond the leader's control. It is one of the classic bases of organizational power.",
@@ -1875,6 +1968,24 @@
     "Source": "Agile Practice Guide — servant leader, page 38"
   },
   {
+    "Term": "Shared leadership",
+    "Core Meaning": "An approach in which leadership responsibilities are distributed across team members rather than held by a single leader.",
+    "Depth": "Standard",
+    "Expansion": "Under shared leadership, different members take the lead where their expertise is strongest, so leadership rotates with the work rather than resting on one role. This leverages the team's full range of skills, boosts motivation and ownership, and improves decision quality through wider participation. PMI notes it is especially useful for virtual and highly skilled teams, where a single point of coordination would be a bottleneck. It depends on trust, clear boundaries, and mutual accountability to avoid confusion over who owns what.",
+    "Deep Dive": null,
+    "Contrast": "Shared vs participative leadership: shared leadership distributes the leadership role itself among members, whereas participative leadership keeps one leader who consults the team before deciding.",
+    "Example": "On a distributed product team, the security specialist leads threat-modeling sessions while the UX lead drives design reviews, each steering their own domain.",
+    "Related Terms": [
+      "Participative leadership",
+      "Self-managing team",
+      "Servant leadership",
+      "Team",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - Team performance domain"
+  },
+  {
     "Term": "Shu-Ha-Ri",
     "Core Meaning": "A Japanese concept of skill mastery in three stages: follow the rules, break the rules, and transcend the rules.",
     "Depth": "Atomic",
@@ -1883,7 +1994,7 @@
     "Contrast": "Dreyfus Model - Dreyfus describes five graded stages of skill acquisition, while Shu-Ha-Ri compresses mastery into three stages centered on one's relationship to the rules.",
     "Example": "A coach insists a new team practice Scrum by the book (Shu) before customizing ceremonies once they understand the intent (Ha).",
     "Related Terms": [
-      "Dreyfus Model",
+      "Dreyfus model",
       "Tailoring",
       "Agile",
       "Continuous improvement"
@@ -1892,7 +2003,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Situational Leadership II",
+    "Term": "Situational leadership II",
     "Core Meaning": "A leadership model that matches leader behavior to a follower's competence and commitment on a specific task.",
     "Depth": "Standard",
     "Expansion": "Situational Leadership II, developed by Blanchard building on the original Hersey and Blanchard model, holds that effective leaders flex between directing, coaching, supporting, and delegating styles based on the follower's development level for the task at hand. There is no single best style; the leader diagnoses the individual's competence and commitment and adapts accordingly.",
@@ -1936,7 +2047,7 @@
     "Source": "PMBOK Guide - conflict resolution techniques"
   },
   {
-    "Term": "Sunk Cost Fallacy",
+    "Term": "Sunk cost fallacy",
     "Core Meaning": "The error of continuing an endeavor because of already-spent resources that cannot be recovered, rather than future value.",
     "Depth": "Standard",
     "Expansion": "The sunk cost fallacy occurs when prior investments of money, time, or effort irrationally justify further commitment, even when objective analysis says to stop. Sound decisions should weigh only future costs and benefits, because sunk costs are gone regardless. The fallacy frequently drives organizations to keep funding failing projects.",
@@ -1949,7 +2060,7 @@
     ],
     "Related Terms": [
       "Sunk cost",
-      "Escalation of Commitment",
+      "Escalation of commitment",
       "Opportunity cost",
       "Go/no-go decision"
     ],
@@ -1974,7 +2085,7 @@
     "Source": "Agile Practice Guide, p. 154"
   },
   {
-    "Term": "T-shaped Skills",
+    "Term": "T-shaped skills",
     "Core Meaning": "Deep expertise in one specialty paired with broad competence across other areas.",
     "Depth": "Standard",
     "Expansion": "A T-shaped person has deep skill in a core discipline (the vertical bar) plus enough breadth to contribute outside it (the horizontal bar). Agile teams value T-shaped members because they can swap in to help across the workflow, reducing bottlenecks and improving cross-functional flow. It contrasts with narrow specialists who can only do one job.",
@@ -1982,7 +2093,7 @@
     "Contrast": "I-shaped Skills - I-shaped people have deep skill in one area only, whereas T-shaped people add broad skills across others.",
     "Example": "A tester who is an expert in automation but can also help with requirements analysis and basic coding.",
     "Related Terms": [
-      "I-shaped Skills",
+      "I-shaped skills",
       "Cross-functional team",
       "Swarming",
       "Generalizing specialist"
@@ -2164,8 +2275,8 @@
     "Contrast": "Team Performance Domain — team performance is the outcome being pursued, whereas the Team Performance Domain is the PMBOK area of activities that produces it.",
     "Example": "After introducing daily coordination and a team charter, a software team raises its velocity and reduces rework, both signs of improving team performance.",
     "Related Terms": [
-      "Team Performance Domain",
-      "Tuckman's Stages of Team Development",
+      "Team performance domain",
+      "Tuckman's stages of team development",
       "Team charter",
       "High-performing project teams"
     ],
@@ -2173,7 +2284,7 @@
     "Source": "PMBOK Guide Seventh Edition — Team Performance Domain"
   },
   {
-    "Term": "Team Performance Domain",
+    "Term": "Team performance domain",
     "Core Meaning": "The Team Performance Domain addresses the people, interactions, culture, and capabilities needed for a project team to deliver value.",
     "Depth": "Foundational",
     "Expansion": "In PMI's performance-domain model, the Team Performance Domain focuses on how team members and other contributors work together to achieve project outcomes. It includes shared ownership, leadership, collaboration, emotional intelligence, decision making, and the development of a supportive team environment. Rather than prescribing a single structure, it emphasises principles and desired outcomes that help teams perform effectively across predictive, adaptive, and hybrid approaches.",
@@ -2181,11 +2292,11 @@
     "Contrast": "Stakeholder Performance Domain — the Team Performance Domain focuses on people doing the project work; the Stakeholder Performance Domain focuses on individuals and groups affected by or able to influence the project.",
     "Example": "A project manager on a hybrid ERP implementation sets team working agreements, defines decision paths across business and IT leads, and uses regular retrospectives to improve collaboration between vendor and internal staff.",
     "Related Terms": [
-      "Project Performance Domains",
+      "Project performance domains",
       "Leadership",
       "Team development",
       "Collaboration",
-      "Stakeholder Performance Domain"
+      "Stakeholder performance domain"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Team Performance Domain section, pp. 33-40"
@@ -2209,7 +2320,7 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
-    "Term": "Thomas-Kilmann Conflict Mode Instrument (TKI)",
+    "Term": "Thomas-Kilmann conflict mode instrument (TKI)",
     "Core Meaning": "A model identifying five conflict-handling modes based on how assertive and how cooperative a person chooses to be.",
     "Depth": "Standard",
     "Expansion": "Kenneth Thomas and Ralph Kilmann mapped conflict responses on two axes — assertiveness (concern for one's own goals) and cooperativeness (concern for others' goals) — yielding five modes:\n\n- Competing.\n- Collaborating.\n- Compromising.\n- Avoiding.\n- Accommodating.\n\nNo single mode is best, since the right choice depends on the stakes, the relationship, and the time available. Collaborating seeks a win-win that fully satisfies both parties, while compromising splits the difference.",
@@ -2224,6 +2335,24 @@
     ],
     "Tier": "Adjacent concept",
     "Source": "Thomas-Kilmann - conflict mode instrument"
+  },
+  {
+    "Term": "Transformational leadership",
+    "Core Meaning": "A leadership style that inspires and motivates a team around a compelling vision to achieve change and exceptional results.",
+    "Depth": "Standard",
+    "Expansion": "Transformational leaders articulate a clear future vision, raise the team's aspirations above short-term self-interest, and encourage innovation and ownership. They pay attention to individual growth, mentoring and stretching each person rather than simply directing tasks. This style fits projects that demand change, high commitment, or breakthrough thinking, such as organizational transformations or ambitious new products. It is less suited to routine, tightly constrained work where inspiration matters less than steady execution.",
+    "Deep Dive": null,
+    "Contrast": "Transformational vs transactional leadership: transformational inspires change and shared vision, whereas transactional trades rewards and corrections for compliance with defined expectations.",
+    "Example": "A project manager rallies a struggling platform-migration team around a vision of a faster, more reliable product, energizing them to volunteer improvements beyond their assigned tasks.",
+    "Related Terms": [
+      "Transactional leadership",
+      "Servant leadership",
+      "Charismatic leadership",
+      "Coaching leadership",
+      "Leadership style"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition - leadership styles"
   },
   {
     "Term": "Trust",
@@ -2243,7 +2372,7 @@
     "Source": "PMBOK Guide Seventh Edition — leadership and team development"
   },
   {
-    "Term": "Tuckman's Stages of Team Development",
+    "Term": "Tuckman's stages of team development",
     "Core Meaning": "A model describing five sequential stages - forming, storming, norming, performing, and adjourning - that teams typically move through as they develop.",
     "Depth": "Foundational",
     "Expansion": "Bruce Tuckman proposed that groups mature through forming (orientation and dependence on the leader), storming (conflict over roles and approach), norming (cohesion and agreed ways of working), and performing (autonomous high output), with adjourning later added for disbandment. Progress is not strictly linear, since a change in membership or scope can send a team back to an earlier stage. The model helps leaders treat early conflict as normal and tailor their support to each stage.",
@@ -2257,10 +2386,10 @@
       "Tuckman's ladder"
     ],
     "Related Terms": [
-      "Drexler-Sibbet Team Performance Model",
-      "Belbin Team Roles",
+      "Drexler-Sibbet team performance model",
+      "Belbin team roles",
       "Team development",
-      "Situational Leadership II"
+      "Situational leadership II"
     ],
     "Tier": "Adjacent concept",
     "Source": "Tuckman - stages of group development"

@@ -12,7 +12,8 @@
       "Increment",
       "Backlog",
       "Iterative",
-      "Predictive approach"
+      "Predictive approach",
+      "Adaptive planning"
     ],
     "Tier": "Core glossary",
     "Source": "Agile Practice Guide — Adaptive approach"
@@ -34,7 +35,8 @@
       "Increment",
       "Iteration",
       "Predictive life cycle",
-      "Progressive elaboration"
+      "Progressive elaboration",
+      "Adaptive planning"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Seventh Edition / PMI Lexicon — confirm exact citation in Infinity"
@@ -51,7 +53,9 @@
       "Rolling wave planning",
       "Iteration planning",
       "Product backlog",
-      "Progressive elaboration"
+      "Progressive elaboration",
+      "Adaptive approach",
+      "Adaptive life cycle"
     ],
     "Tier": "Adjacent concept",
     "Source": "Agile Practice Guide"
@@ -83,7 +87,7 @@
     "Contrast": "Agile Practice Guide — the Agile Manifesto states the values and principles; the Agile Practice Guide explains how those ideas can be applied in delivery.",
     "Example": "A product team decides to shorten release cycles and involve users in each review because the manifesto's values push them toward faster feedback and closer collaboration.",
     "Synonyms": [
-      "Manifesto for Agile Software Development"
+      "Manifesto for Agile software development"
     ],
     "Related Terms": [
       "Agile",
@@ -114,7 +118,7 @@
     "Source": "Agile Practice Guide, page 1"
   },
   {
-    "Term": "Agile Project Management",
+    "Term": "Agile project management",
     "Core Meaning": "An iterative, adaptive approach to delivering projects through short cycles of work and frequent feedback.",
     "Depth": "Standard",
     "Expansion": "Agile project management delivers value incrementally through short iterations rather than a single long sequence of phases, emphasizing collaboration, customer feedback, and responsiveness to change. It is grounded in the values and principles of the Agile Manifesto and is well suited to projects with high uncertainty or evolving requirements. Common frameworks include Scrum, Kanban, and XP, and progress is measured by working deliverables rather than documentation alone.",
@@ -149,7 +153,7 @@
     "Source": "Agile Practice Guide, page 41"
   },
   {
-    "Term": "Backlog prioritisation",
+    "Term": "Backlog prioritization",
     "Core Meaning": "The ongoing ordering of backlog items so the most valuable work is done first.",
     "Depth": "Standard",
     "Expansion": "Backlog prioritisation arranges the product backlog so that items delivering the greatest value, or reducing the most risk, sit at the top ready to be pulled into the next iteration. The product owner continually re-ranks items as value, cost, dependencies, and new information change. Techniques such as MoSCoW, weighted shortest job first, and cost of delay inform the ordering.",
@@ -162,7 +166,10 @@
       "Weighted shortest job first"
     ],
     "Tier": "Adjacent concept",
-    "Source": "Agile Practice Guide"
+    "Source": "Agile Practice Guide",
+    "Synonyms": [
+      "Backlog prioritisation"
+    ]
   },
   {
     "Term": "Backlog refinement",
@@ -259,7 +266,7 @@
       "Escalation",
       "Impediments",
       "Obstacle",
-      "Daily Standup"
+      "Daily standup"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -282,7 +289,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Burn Chart",
+    "Term": "Burn chart",
     "Core Meaning": "A visual chart that shows work completed or work remaining over time so a team can track progress against an iteration, release, or project plan.",
     "Depth": "Foundational",
     "Expansion": "A burn chart is a lightweight visual control used in adaptive delivery to show whether work is being completed at the expected pace. It commonly appears as a burndown chart, which tracks remaining work, or a burnup chart, which tracks completed work against total scope. Teams use it to inspect progress quickly, spot delivery risk early, and support forecasting conversations.",
@@ -300,7 +307,7 @@
     "Source": "Agile Practice Guide, burnup and burndown chart entries in glossary section"
   },
   {
-    "Term": "Burn Rate",
+    "Term": "Burn rate",
     "Core Meaning": "The rate at which an agile team consumes effort or budget relative to the work remaining.",
     "Depth": "Standard",
     "Expansion": "Burn rate measures how quickly a team is using up its available hours or budget to complete work. In agile contexts it often refers to the pace at which the team is consuming the effort set aside for the iteration or release, and it can be read from burndown data. A burn rate higher than planned warns that capacity or budget will be exhausted before the work is done.",
@@ -308,9 +315,9 @@
     "Contrast": "Velocity - velocity measures how much work the team completes per iteration, whereas burn rate focuses on how fast effort or money is being consumed.",
     "Example": "A team that has spent 60% of its sprint hours with only 40% of stories done has a burn rate that signals trouble.",
     "Related Terms": [
-      "Burndown Chart",
+      "Burndown chart",
       "Velocity",
-      "Cost Performance Index"
+      "Cost performance index"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -376,7 +383,7 @@
     "Source": "PMI Lexicon of Project Management Terms, Cadence, page citation not confirmed in current context"
   },
   {
-    "Term": "Chickens and Pigs",
+    "Term": "Chickens and pigs",
     "Core Meaning": "A Scrum metaphor distinguishing those committed to the work (pigs) from those merely involved (chickens).",
     "Depth": "Atomic",
     "Expansion": "Drawn from a fable about a pig and chicken opening a restaurant, the metaphor labels people committed and accountable for delivering the sprint as pigs, and interested but not accountable stakeholders as chickens. Historically it governed who could speak in the daily scrum, though modern Scrum has largely retired the terminology as potentially demeaning.",
@@ -385,7 +392,7 @@
     "Example": "During the daily standup the Scrum Master reminds attending managers they are chickens and should observe rather than redirect the team.",
     "Related Terms": [
       "Scrum",
-      "Daily Standup",
+      "Daily standup",
       "Stakeholder",
       "Scrum team"
     ],
@@ -420,7 +427,7 @@
       "Collective code ownership"
     ],
     "Related Terms": [
-      "Pair Programming",
+      "Pair programming",
       "Refactoring",
       "Shared understanding",
       "Self-organizing team"
@@ -429,7 +436,7 @@
     "Source": "Extreme Programming (Kent Beck) — collective code ownership"
   },
   {
-    "Term": "Continuous Delivery",
+    "Term": "Continuous delivery",
     "Core Meaning": "The practice of making feature increments ready for immediate customer delivery through small batches of work and extensive automation.",
     "Depth": "Foundational",
     "Expansion": "PMI defines continuous delivery as the practice of delivering feature increments immediately to customers, often through small batches of work and automation technology. It supports fast, reliable flow from completed work to usable value by reducing manual handoffs and release friction. The concept is especially important in adaptive and product-focused environments where rapid feedback improves outcomes and lowers delivery risk.",
@@ -470,7 +477,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Conway's Law",
+    "Term": "Conway's law",
     "Core Meaning": "The observation that a system's design tends to mirror the communication structure of the organisation that builds it.",
     "Depth": "Standard",
     "Expansion": "Melvin Conway observed that any organisation designing a system will produce a design whose structure copies the organisation's own communication patterns. In practice, teams that communicate poorly tend to build poorly integrated interfaces, while clean, modular architectures emerge from well-bounded, well-communicating teams. This insight motivates the inverse Conway manoeuvre, deliberately shaping team structure to encourage the desired architecture.",
@@ -496,13 +503,13 @@
     "Example": "A team prioritizes a feature whose market window closes soon because its cost of delay is highest.",
     "Related Terms": [
       "Weighted shortest job first",
-      "Backlog prioritisation"
+      "Backlog prioritization"
     ],
     "Tier": "Adjacent concept",
     "Source": "Scaled Agile Framework"
   },
   {
-    "Term": "Cumulative Flow Diagram (CFD)",
+    "Term": "Cumulative flow diagram (CFD)",
     "Core Meaning": "A visual chart that shows how work items accumulate across workflow states over time to help monitor flow and bottlenecks.",
     "Depth": "Standard",
     "Expansion": "A cumulative flow diagram displays the quantity of work in each stage of a process, such as requested, in progress, and done, across a timeline. It helps teams assess throughput, work in progress, and stability of flow by making queues and delays visible. In agile and Kanban-oriented project work, it is used to spot bottlenecks, manage capacity, and support data-based improvement of delivery performance.",
@@ -523,7 +530,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Cycle Time",
+    "Term": "Cycle time",
     "Core Meaning": "The total elapsed time from when work starts on an item until that item is completed.",
     "Depth": "Standard",
     "Expansion": "In PMI usage, cycle time measures how long a work item takes once active work begins and ends when the item is finished. It is commonly used in adaptive and flow-based environments to evaluate delivery speed, reveal bottlenecks, and improve predictability. Teams often track it across similar work items to understand system performance rather than to judge individual effort.",
@@ -541,7 +548,7 @@
     "Source": "PMI Lexicon / Process Groups: A Practice Guide, term Cycle Time"
   },
   {
-    "Term": "Cycle Time Chart",
+    "Term": "Cycle time chart",
     "Core Meaning": "A visual chart used in flow-based or iterative work to show how long work items take to move through the process so teams can inspect throughput and delivery speed.",
     "Depth": "Standard",
     "Expansion": "A cycle time chart displays the elapsed time for work items from the moment work starts until the item is finished. In PMI-aligned agile and Kanban contexts, it helps teams see delivery patterns, identify delay, and monitor whether work is flowing predictably. It is primarily a practical visualisation built from the underlying concept of cycle time rather than a formal PMI glossary term.",
@@ -595,7 +602,7 @@
     "Source": "The Scrum Guide"
   },
   {
-    "Term": "Daily Standup",
+    "Term": "Daily standup",
     "Core Meaning": "A brief daily collaboration meeting in which the team reviews recent progress, states near-term intentions, and raises obstacles.",
     "Depth": "Standard",
     "Expansion": "In PMI terminology, this is aligned with the daily coordination meeting and reflects the common practice formerly called a standup meeting. Its purpose is to synchronise team members quickly, expose impediments early, and support short-cycle delivery. It is most common in agile and hybrid environments where teams coordinate work frequently.",
@@ -616,7 +623,7 @@
     "Source": "PMI Lexicon of Project Management Terms, Daily coordination meeting, p. 7"
   },
   {
-    "Term": "Definition of Done",
+    "Term": "Definition of done",
     "Core Meaning": "A formal shared description of the state a product increment must meet to be considered complete.",
     "Depth": "Foundational",
     "Expansion": "Definition of Done sets the quality and completion conditions that an increment, feature, or work item must satisfy before the team treats it as finished. It creates a common understanding across the team and stakeholders about what complete means, reducing ambiguity and hidden rework. In agile delivery, it often includes coding, testing, integration, documentation, compliance, and approval expectations.",
@@ -637,7 +644,7 @@
     "Source": "Agile Practice Guide — Definition of Done"
   },
   {
-    "Term": "Definition of Ready",
+    "Term": "Definition of ready",
     "Core Meaning": "A team's checklist for a user-centric requirement that has all the information the team needs to begin working on it.",
     "Depth": "Standard",
     "Expansion": "Definition of Ready is a working agreement that helps a team decide whether a backlog item is sufficiently understood and prepared for implementation. It improves flow by reducing ambiguity at the point work starts. Teams often use it in adaptive delivery to confirm that acceptance criteria, dependencies, and needed information are in place.",
@@ -650,7 +657,7 @@
     "Related Terms": [
       "Backlog",
       "User story",
-      "Definition of Done",
+      "Definition of done",
       "Acceptance criteria",
       "Iteration"
     ],
@@ -666,16 +673,16 @@
     "Contrast": "Developers differ from the Product Owner and Scrum Master, who hold distinct accountabilities for value and process within the same Scrum Team.",
     "Example": "On a marketing product, the Developers include a copywriter, a designer, and an analyst who together produce the Sprint increment.",
     "Related Terms": [
-      "Scrum Team",
-      "Product Owner",
-      "Sprint Backlog",
-      "Definition of Done"
+      "Scrum team",
+      "Product owner",
+      "Sprint backlog",
+      "Definition of done"
     ],
     "Tier": "Adjacent concept",
     "Source": "Scrum Guide"
   },
   {
-    "Term": "Development Team",
+    "Term": "Development team",
     "Core Meaning": "In earlier Scrum, the cross-functional group responsible for delivering a usable increment each Sprint.",
     "Depth": "Standard",
     "Expansion": "The Development Team was the self-organizing, cross-functional set of professionals who did the work of building the increment in Scrum. It had no sub-titles or internal hierarchy and was accountable as a whole for the output of each Sprint. The 2020 Scrum Guide replaced the term with Developers, folding them into a single Scrum Team to remove the sense of a team within a team.",
@@ -684,8 +691,8 @@
     "Example": "A Scrum Development Team of five engineers and a designer collectively committed to delivering the Sprint Backlog.",
     "Related Terms": [
       "Developers",
-      "Scrum Team",
-      "Sprint Backlog",
+      "Scrum team",
+      "Sprint backlog",
       "Self-organizing team"
     ],
     "Tier": "Adjacent concept",
@@ -719,7 +726,7 @@
     "Synonyms": [
       "DA",
       "DAD",
-      "Disciplined Agile Delivery"
+      "Disciplined Agile delivery"
     ],
     "Related Terms": [
       "Agile",
@@ -749,7 +756,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Empirical Process Control",
+    "Term": "Empirical process control",
     "Core Meaning": "Managing work through transparency, inspection, and adaptation based on observation rather than detailed up-front planning.",
     "Depth": "Standard",
     "Expansion": "Empirical process control is the foundation of Scrum and other agile approaches. It rests on three pillars - transparency, inspection, and adaptation - and holds that knowledge comes from experience and decisions are based on what is actually observed. It suits work with high uncertainty, where a fully predictive plan would quickly become wrong.",
@@ -817,7 +824,7 @@
     "Source": "Agile Practice Guide (PMI and Agile Alliance)"
   },
   {
-    "Term": "Extreme Programming",
+    "Term": "Extreme programming",
     "Core Meaning": "An agile software development method emphasizing technical excellence, frequent feedback, and close customer collaboration.",
     "Depth": "Standard",
     "Expansion": "Extreme Programming, or XP, is an agile approach built on short development cycles and disciplined engineering practices that keep software flexible and high in quality. Its practices include pair programming, test-driven development, continuous integration, simple design, refactoring, and an on-site customer. XP aims to lower the cost of change so that requirements can evolve throughout delivery without degrading the codebase.",
@@ -836,7 +843,7 @@
     "Source": "Agile Practice Guide"
   },
   {
-    "Term": "Fail Fast",
+    "Term": "Fail fast",
     "Core Meaning": "An agile practice of running small, frequent experiments to surface failures early and learn from them quickly.",
     "Depth": "Atomic",
     "Expansion": "Fail fast is an agile mindset of testing ideas in small, low-cost increments so that flawed approaches are discovered and discarded early, before large investment. The aim is rapid learning and course correction, not failure as a goal in itself.",
@@ -921,7 +928,7 @@
     "Related Terms": [
       "Iteration",
       "Increment",
-      "Definition of Done",
+      "Definition of done",
       "Technical debt",
       "Release"
     ],
@@ -998,7 +1005,7 @@
       "Servant leader",
       "Flow",
       "Blockers",
-      "Scrum master",
+      "Scrum Master",
       "Daily standup",
       "Risk"
     ],
@@ -1036,7 +1043,7 @@
       "Backlog",
       "Release",
       "Agile",
-      "Definition of Done"
+      "Definition of done"
     ],
     "Tier": "Core glossary",
     "Source": "Agile Practice Guide, term Increment, page 167"
@@ -1126,7 +1133,7 @@
       "Retrospective",
       "Empiricism",
       "Continuous improvement",
-      "Sprint Review"
+      "Sprint review"
     ],
     "Tier": "Adjacent concept",
     "Source": "Scrum Guide — empiricism (inspect and adapt)"
@@ -1201,7 +1208,7 @@
     "Source": "Agile Practice Guide (PMI and Agile Alliance)"
   },
   {
-    "Term": "Iteration Plan",
+    "Term": "Iteration plan",
     "Core Meaning": "A short-horizon plan that describes the work a team intends to complete during a specific iteration and how it will accomplish it.",
     "Depth": "Standard",
     "Expansion": "An iteration plan translates prioritised backlog items or agreed scope into near-term team work for a timeboxed cycle. It typically covers selected work items, capacity, sequencing, and the practical approach for completing the iteration goal. In PMI's agile context, it supports adaptive delivery by aligning the team around what will be done now rather than attempting to detail the whole project upfront.",
@@ -1309,7 +1316,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, section discussing development approaches and life cycles, including iterative life cycle, page citation requires confirmation in PMI source"
   },
   {
-    "Term": "JIT Manufacturing",
+    "Term": "JIT manufacturing",
     "Core Meaning": "A lean approach that delivers materials exactly when needed in order to minimize inventory and waste.",
     "Depth": "Standard",
     "Expansion": "Just-in-time (JIT) manufacturing is a lean production strategy in which materials and components arrive precisely when they are needed in the process, rather than being stockpiled. By minimizing inventory it cuts holding, handling, and obsolescence costs and exposes process problems quickly. It depends on reliable suppliers and stable demand, since there is little buffer to absorb disruption.",
@@ -1374,7 +1381,7 @@
     "Source": "Agile Practice Guide, Kanban, p. 56"
   },
   {
-    "Term": "Last Responsible Moment",
+    "Term": "Last responsible moment",
     "Core Meaning": "The point in time at which delaying a decision any further would eliminate an important option or create unnecessary risk.",
     "Depth": "Standard",
     "Expansion": "Last Responsible Moment is a lean and agile decision principle that encourages teams to defer irreversible choices until they have enough information to decide well. It does not mean procrastinating; it means preserving flexibility while learning. In project work, it is useful when requirements, technology, or market conditions are still evolving and premature decisions could lock in waste or rework.",
@@ -1410,7 +1417,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Lead Time Chart",
+    "Term": "Lead time chart",
     "Core Meaning": "A visual measure of how long work items take to move from request or commitment to completion.",
     "Depth": "Standard",
     "Expansion": "A lead time chart helps teams inspect delivery speed and predictability by showing the elapsed time for completed work items. It is commonly used in flow-based agile environments to spot delays, variability, and systemic bottlenecks. As a management aid, it supports forecasting and continuous improvement rather than judging individual performance.",
@@ -1481,7 +1488,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Little's Law",
+    "Term": "Little's law",
     "Core Meaning": "A queuing principle stating that average cycle time equals the average work in progress divided by the average throughput.",
     "Depth": "Standard",
     "Expansion": "Little's Law states that the average time an item spends in a system, its cycle time, equals the average number of items in progress divided by the average completion rate, or throughput. The practical lesson for agile and Kanban teams is that the more work they take on at once, the longer each item takes to finish. Limiting work in progress is therefore the most direct lever for shortening delivery times.",
@@ -1536,7 +1543,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Niko-Niko Calendar",
+    "Term": "Niko-Niko calendar",
     "Core Meaning": "A visual chart where team members record their daily mood to surface morale trends over time.",
     "Depth": "Atomic",
     "Expansion": "A Niko-Niko calendar, also called a mood board, is an information radiator on which each team member marks a simple happy, neutral, or unhappy face each day. Tracking these moods across a sprint reveals patterns that can prompt the team to address morale or impediment issues in retrospectives.",
@@ -1546,14 +1553,14 @@
     "Related Terms": [
       "Information radiator",
       "Retrospective",
-      "Mood Chart",
+      "Mood chart",
       "Team dynamics"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Pair Programming",
+    "Term": "Pair programming",
     "Core Meaning": "An agile practice in which two developers work together at one workstation, one writing code while the other reviews in real time.",
     "Depth": "Standard",
     "Expansion": "Pair programming, a core Extreme Programming practice, has two developers collaborate on the same task at a single workstation: the driver writes the code while the navigator reviews each line, thinks ahead, and catches issues immediately. The pair switch roles frequently to stay fresh and share understanding. Although two people produce one stream of code, the continuous review tends to improve quality, spread knowledge, and reduce defects and key-person risk.",
@@ -1665,7 +1672,7 @@
     "Source": "Agile Practice Guide, product owner, page 168"
   },
   {
-    "Term": "Product Roadmap",
+    "Term": "Product roadmap",
     "Core Meaning": "A product roadmap is a high-level visual summary of a product's vision, direction, priorities, and progress over time.",
     "Depth": "Standard",
     "Expansion": "In PMI product management usage, a product roadmap communicates how planned work is intended to advance product goals and deliver value over time. It aligns stakeholders around likely sequencing, major outcomes, and strategic intent rather than serving as a fixed delivery schedule. It is commonly updated as learning, market conditions, and priorities change.",
@@ -1673,7 +1680,7 @@
     "Contrast": "Release plan — a product roadmap shows strategic direction and higher-level sequencing; a release plan details nearer-term delivery content and timing.",
     "Example": "A digital-banking program uses a roadmap to show that onboarding simplification comes before savings-goal features and later expands into small-business services.",
     "Related Terms": [
-      "Product Vision",
+      "Product vision",
       "Product strategy",
       "Release plan",
       "Backlog",
@@ -1683,7 +1690,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Product Vision",
+    "Term": "Product vision",
     "Core Meaning": "A product vision is a concise description of the desired future state a product is intended to create for users and the organization.",
     "Depth": "Standard",
     "Expansion": "The product vision expresses the aspirational end state that gives the product direction and purpose. It helps teams and stakeholders align on what they are trying to achieve before debating detailed features or delivery sequencing. In PMI-aligned product and agile practice, it anchors prioritization and supports consistent decision-making as conditions change.",
@@ -1692,7 +1699,7 @@
     "Example": "A university defines the product vision for its student portal as one seamless digital front door for enrollment, advising, billing, and academic support.",
     "Related Terms": [
       "Product strategy",
-      "Product Roadmap",
+      "Product roadmap",
       "Vision statement",
       "Outcome",
       "Value"
@@ -1701,7 +1708,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Pull System",
+    "Term": "Pull system",
     "Core Meaning": "A lean scheduling technique in which work or materials are produced only in response to actual downstream demand.",
     "Depth": "Standard",
     "Expansion": "A pull system limits work in progress by starting new work only when there is a signal of demand, rather than pushing work based on a forecast or schedule. Often visualized with kanban boards and signals, it reduces waste, overproduction, and inventory while exposing bottlenecks. It is a foundational concept in lean and many agile approaches.",
@@ -1736,7 +1743,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Relative Estimating",
+    "Term": "Relative estimating",
     "Core Meaning": "An estimating approach that sizes work by comparison with other work items rather than by assigning absolute units directly.",
     "Depth": "Standard",
     "Expansion": "Relative estimating compares one item with another to judge size, effort, or complexity. It is especially useful when exact detail is limited or when a team wants faster, more consistent sizing across a backlog or work set. PMI commonly associates it with agile ways of working, where the focus is on comparative understanding more than precision early on.",
@@ -1826,7 +1833,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Release Train Engineer",
+    "Term": "Release train engineer",
     "Core Meaning": "The servant-leader and chief facilitator of an Agile Release Train in the Scaled Agile Framework.",
     "Depth": "Standard",
     "Expansion": "In SAFe, the Release Train Engineer coordinates the Agile Release Train, the set of multiple agile teams working toward a common set of objectives. The RTE facilitates program-level events such as PI planning, manages risks and dependencies across teams, and removes impediments, acting in effect as a chief Scrum Master at scale.",
@@ -1846,7 +1853,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Remote Pairing",
+    "Term": "Remote pairing",
     "Core Meaning": "Two team members working together on the same task from different locations using virtual collaboration tools.",
     "Depth": "Atomic",
     "Expansion": "Remote pairing replicates the benefits of face-to-face pair programming or pair working when team members are distributed, using shared screens, voice, and video links. It supports knowledge sharing, real-time review, and collective ownership across dispersed agile teams.",
@@ -1862,7 +1869,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Response Time",
+    "Term": "Response time",
     "Core Meaning": "The elapsed time an item waits in a queue before active work on it begins.",
     "Depth": "Atomic",
     "Expansion": "Response time is a kanban and flow metric measuring the delay between when an item is requested or committed and when work actually starts on it. Reducing response time, alongside cycle time, improves a team's overall lead time and responsiveness to demand.",
@@ -1900,7 +1907,7 @@
     "Source": "PMI Agile Practice Guide — retrospective"
   },
   {
-    "Term": "Risk-Adjusted Backlog",
+    "Term": "Risk-adjusted backlog",
     "Core Meaning": "An ordered backlog that reflects risk and uncertainty alongside value when deciding what to address next.",
     "Depth": "Standard",
     "Expansion": "A risk-adjusted backlog is a practitioner prioritisation approach in which backlog items are sequenced not only by business value but also by exposure, uncertainty, dependency, or technical risk. It helps teams surface unknowns earlier, test risky assumptions sooner, and reduce the chance that major issues remain hidden until late in delivery. In adaptive work, this can improve learning speed and reduce rework, even when lower-risk items appear more immediately attractive from a pure value perspective.",
@@ -1929,8 +1936,8 @@
       "SAFe"
     ],
     "Related Terms": [
-      "Release Train Engineer",
-      "Weighted Shortest Job First (WSJF)",
+      "Release train engineer",
+      "Weighted shortest job first (WSJF)",
       "Cost of delay",
       "Agile"
     ],
@@ -1965,8 +1972,8 @@
     "Example": "On a product delivery effort, the Scrum Master facilitates sprint reviews and retrospectives, helps the team resolve blockers, and coaches stakeholders on backlog refinement practices.",
     "Related Terms": [
       "Scrum",
-      "Product Owner",
-      "Development Team",
+      "Product owner",
+      "Development team",
       "Impediment",
       "Retrospective"
     ],
@@ -1983,7 +1990,7 @@
     "Example": "In a product-development effort, a Scrum team with one Product Owner, one Scrum Master, and five Developers delivers a tested feature increment every two weeks.",
     "Related Terms": [
       "Scrum",
-      "Product Owner",
+      "Product owner",
       "Scrum Master",
       "Developers",
       "Sprint"
@@ -2003,7 +2010,8 @@
       "Cross-functional team",
       "Self-management",
       "Scrum team",
-      "Servant leadership"
+      "Servant leadership",
+      "Self-organization"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Knowledgebase — self-organizing team"
@@ -2038,7 +2046,7 @@
     "Example": "A developer implements only the rules the current story requires, refactoring later when a new requirement actually appears.",
     "Related Terms": [
       "Refactoring",
-      "Extreme Programming"
+      "Extreme programming"
     ],
     "Tier": "Practitioner term",
     "Source": "Extreme Programming; not a formal PMI glossary entry"
@@ -2054,7 +2062,7 @@
     "Related Terms": [
       "Timeboxing",
       "User story",
-      "Fail Fast",
+      "Fail fast",
       "Empiricism"
     ],
     "Tier": "Practitioner term",
@@ -2132,7 +2140,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Sprint Retrospective",
+    "Term": "Sprint retrospective",
     "Core Meaning": "A Scrum event held after the sprint to inspect how the team worked and identify improvements for the next sprint.",
     "Depth": "Standard",
     "Expansion": "The Sprint Retrospective focuses on the team's process, collaboration, tools, and working practices rather than on the product increment itself. It gives the Scrum Team a recurring chance to reflect on what went well, what did not, and what to change next. In PMI-aligned agile practice, it supports continuous improvement, team learning, and adaptation of the way of working.",
@@ -2144,7 +2152,7 @@
     ],
     "Related Terms": [
       "Sprint",
-      "Sprint Review",
+      "Sprint review",
       "Scrum",
       "Continuous improvement",
       "Team learning"
@@ -2153,7 +2161,7 @@
     "Source": "Agile Practice Guide, Appendix X3, page 169"
   },
   {
-    "Term": "Sprint Review",
+    "Term": "Sprint review",
     "Core Meaning": "A Scrum event held at the end of a sprint to inspect the increment with stakeholders and adapt the backlog based on feedback.",
     "Depth": "Standard",
     "Expansion": "The sprint review is the point in the sprint cycle when the team presents what was completed and discusses the current state of the product with stakeholders. Its purpose is to gather feedback, review progress toward the product goal, and inform what should happen next. In PMI-aligned agile practice, it is an inspect-and-adapt event focused on value and learning, not just a status meeting or formal sign-off session.",
@@ -2164,14 +2172,14 @@
       "Scrum",
       "Sprint",
       "Increment",
-      "Product Backlog",
-      "Sprint Retrospective"
+      "Product backlog",
+      "Sprint retrospective"
     ],
     "Tier": "Core glossary",
     "Source": "Agile Practice Guide / The Scrum Guide — Sprint Review, exact PMI page citation not confirmed"
   },
   {
-    "Term": "Story Map",
+    "Term": "Story map",
     "Core Meaning": "A visual arrangement of user stories that shows the flow of user activities and helps plan releases or iterations around slices of value.",
     "Depth": "Standard",
     "Expansion": "A story map organises backlog items by the user journey or workflow rather than as a flat priority list. In agile practice, it helps teams see the big picture, identify meaningful increments, and decide what belongs in an initial release versus later iterations. It is especially useful when teams need both customer-context visibility and practical release planning.",
@@ -2207,8 +2215,8 @@
       "User story",
       "Backlog",
       "Velocity",
-      "Ideal Time",
-      "Story Mapping",
+      "Ideal time",
+      "Story mapping",
       "Planning poker"
     ],
     "Tier": "Practitioner term",
@@ -2262,13 +2270,13 @@
       "Mobbing",
       "Work in progress",
       "Impediments",
-      "Pull System"
+      "Pull system"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Takt Time",
+    "Term": "Takt time",
     "Core Meaning": "The rate at which a unit must be completed to meet customer demand, calculated as available time divided by demand.",
     "Depth": "Standard",
     "Expansion": "Takt time, from Lean manufacturing, sets the pace of production by dividing available working time by customer demand over that period, giving the maximum time allowed per unit to keep up with demand. Used in location-based and Lean scheduling, it synchronizes flow and exposes bottlenecks where work exceeds the takt.",
@@ -2276,7 +2284,7 @@
     "Contrast": "Cycle Time - takt time is the demand-driven target pace you must meet, while cycle time is the actual time a unit takes to complete.",
     "Example": "With 8 productive hours and demand for 16 units a day, takt time is 30 minutes, so each station must finish a unit every half hour.",
     "Related Terms": [
-      "Cycle Time",
+      "Cycle time",
       "Lean",
       "Throughput",
       "Line of balance"
@@ -2314,7 +2322,7 @@
     "Contrast": "An org chart shows reporting lines, while a team topology defines value-flow and interaction patterns between teams.",
     "Example": "An organization sets up a platform team to provide self-service infrastructure, lowering the cognitive load on stream-aligned teams.",
     "Related Terms": [
-      "Conway's Law"
+      "Conway's law"
     ],
     "Tier": "Practitioner term",
     "Source": "Team Topologies; not a formal PMI glossary entry"
@@ -2382,7 +2390,7 @@
     "Source": "The Standard for Project Management and A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, glossary entry for theory of constraints; confirm exact page in your edition"
   },
   {
-    "Term": "Three Amigos",
+    "Term": "Three amigos",
     "Core Meaning": "A practice where a business representative, developer, and tester jointly review a requirement before development to build shared understanding.",
     "Depth": "Atomic",
     "Expansion": "The Three Amigos meeting brings together three perspectives - business or product, development, and testing or quality - to examine a user story or its acceptance criteria before work begins. It surfaces ambiguities, edge cases, and differing assumptions early, and is closely associated with behavior-driven development.",
@@ -2393,7 +2401,7 @@
       "Behavior-driven development",
       "Acceptance criteria",
       "User story",
-      "Definition of Ready"
+      "Definition of ready"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -2416,7 +2424,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Throughput Chart",
+    "Term": "Throughput chart",
     "Core Meaning": "A visual chart that shows how many work items are completed over a period of time, helping teams understand delivery rate and flow.",
     "Depth": "Standard",
     "Expansion": "A throughput chart tracks the number of items passing through a process over time. In PMI-aligned flow and agile contexts, it is used to inspect whether delivery is stable, to spot trends in output, and to support forecasting. It is a practical performance view rather than a formal PMI glossary entry.",
@@ -2479,7 +2487,7 @@
       "Spike",
       "Sprint",
       "Iteration",
-      "Parkinson's Law"
+      "Parkinson's law"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -2569,7 +2577,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Value Stream Map",
+    "Term": "Value stream map",
     "Core Meaning": "A variation of process flow used to locate delays, queues, or handoffs in a current process.",
     "Depth": "Standard",
     "Expansion": "PMI defines a value stream map as a variation of process flows that can be used to locate delays, queues, or handoffs occurring in current processes. It helps teams see where work waits, where it is transferred, and where inefficiencies reduce flow. The technique is used to improve end-to-end delivery by making non-value-adding time visible.",
@@ -2589,7 +2597,7 @@
     "Source": "The PMI Lexicon of Project Management Terms — value stream map, page 107"
   },
   {
-    "Term": "Value Stream Mapping",
+    "Term": "Value stream mapping",
     "Core Meaning": "A visual technique used to analyse the flow of materials and information needed to deliver value so waste and improvement opportunities can be identified.",
     "Depth": "Standard",
     "Expansion": "Value Stream Mapping helps teams see how work moves from request to delivery and where delays, handoffs, rework, or other inefficiencies occur. In PMI usage, it supports value stream analysis and process improvement by making the current flow visible. It is especially useful before redesigning a process or improving delivery performance.",
@@ -2645,7 +2653,7 @@
     "Source": "Agile Practice Guide Glossary — Velocity"
   },
   {
-    "Term": "Velocity Chart",
+    "Term": "Velocity chart",
     "Core Meaning": "A chart that shows how much work a team completes in each iteration so future delivery can be forecast more realistically.",
     "Depth": "Standard",
     "Expansion": "A Velocity Chart displays completed work across successive iterations to help a team understand its delivery pace. PMI discusses velocity in agile planning and forecasting, but the chart itself is better treated as a practitioner expression of that concept than as a formal glossary term. It is most useful when iteration lengths and the team's method of sizing work are reasonably stable.",
@@ -2735,7 +2743,7 @@
     "Source": "Lean; PMBOK Guide - Seventh Edition"
   },
   {
-    "Term": "Weighted Shortest Job First (WSJF)",
+    "Term": "Weighted shortest job first (WSJF)",
     "Core Meaning": "An agile prioritisation method that sequences work by dividing each item's cost of delay by its size or duration.",
     "Depth": "Standard",
     "Expansion": "Weighted Shortest Job First, popularised by the Scaled Agile Framework, prioritises a backlog by calculating cost of delay divided by job size or duration, then doing the highest-scoring items first. Cost of delay typically combines user and business value, time criticality, and risk reduction or opportunity enablement. Because it favours high-value, short jobs, WSJF maximises the economic benefit delivered per unit of effort when capacity is constrained.",
@@ -2744,7 +2752,7 @@
     "Example": "A product owner scores backlog epics by cost of delay over effort and schedules a small, time-critical, high-value feature ahead of a large one.",
     "Related Terms": [
       "Cost of delay",
-      "Backlog prioritisation",
+      "Backlog prioritization",
       "Scaled Agile Framework"
     ],
     "Tier": "Practitioner term",
@@ -2849,7 +2857,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "XP Metaphor",
+    "Term": "XP metaphor",
     "Core Meaning": "An Extreme Programming practice of using a shared, simple story or analogy to describe how a system works.",
     "Depth": "Standard",
     "Expansion": "The metaphor in Extreme Programming gives the team and stakeholders a common, plain-language picture of the system's architecture and behavior, guiding naming and design decisions. It substitutes a vivid shared mental model for heavy upfront design documentation. A good metaphor keeps everyone's understanding aligned as the system evolves.",
@@ -2860,7 +2868,7 @@
       "System metaphor"
     ],
     "Related Terms": [
-      "Extreme Programming",
+      "Extreme programming",
       "Empiricism",
       "Ubiquitous language",
       "Simple design"

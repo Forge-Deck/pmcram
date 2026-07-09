@@ -53,6 +53,24 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
+    "Term": "Adaptability",
+    "Core Meaning": "The willingness and ability to adjust plans, methods, and behaviour in response to changing conditions and new information.",
+    "Depth": "Standard",
+    "Expansion": "Adaptability is the trait that lets teams and project managers change course as requirements, stakeholders, and environments shift, rather than defending a plan that no longer fits. It combines a learning mindset with the practical flexibility to revise scope, approach, leadership style, and communication to suit each situation. PMI positions adaptability as essential to navigating complexity and as a companion to tailoring, resilience, and continuous improvement. Adaptable teams treat change as expected input, not as failure of the original plan.",
+    "Deep Dive": null,
+    "Contrast": "Adaptability vs resilience: adaptability is adjusting proactively as conditions change, while resilience is absorbing and recovering from disruption once it hits.",
+    "Example": "Mid-project, a regulatory change reshapes the requirements, and the team reprioritises the backlog and switches to a more iterative cadence rather than pushing the old plan through.",
+    "Related Terms": [
+      "Resilience",
+      "Tailoring",
+      "Adaptive approach",
+      "Complexity",
+      "Continuous improvement"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — tailoring and complexity"
+  },
+  {
     "Term": "Alternatives analysis",
     "Core Meaning": "A technique used to evaluate different options against decision criteria in order to choose a preferred course of action.",
     "Depth": "Standard",
@@ -192,7 +210,7 @@
     "Related Terms": [
       "Constraint",
       "Risk",
-      "Assumption Log",
+      "Assumption log",
       "Issue",
       "Uncertainty"
     ],
@@ -200,7 +218,7 @@
     "Source": "PMBOK Guide — Assumption"
   },
   {
-    "Term": "Brain Writing",
+    "Term": "Brain writing",
     "Core Meaning": "A variation of brainstorming where participants generate ideas individually in writing before group discussion.",
     "Depth": "Standard",
     "Expansion": "Brain writing is a refinement of brainstorming in which participants are given time to think about and write down their ideas individually before the group convenes to share and build on them. This reduces the dominance of louder voices and the anchoring effect of the first idea spoken, producing a wider and more independent set of inputs. It is used as a data-gathering and creativity technique during requirements and risk work.",
@@ -209,7 +227,7 @@
     "Example": "Before a risk workshop, each participant writes down five potential risks on cards, which are then collected and discussed together.",
     "Related Terms": [
       "Brainstorming",
-      "Nominal Group Technique"
+      "Nominal group technique"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - data gathering (brainstorming / brain writing)"
@@ -415,7 +433,7 @@
     "Contrast": "Executing — executing performs the project work, while controlling evaluates that work against plan and drives adjustments when needed.",
     "Example": "During weekly governance reviews, a project manager compares actual burn rate and milestone completion against the plan and redirects resources when delivery drifts behind target.",
     "Related Terms": [
-      "Monitoring and Controlling",
+      "Monitoring and controlling",
       "Variance analysis",
       "Corrective action",
       "Preventive action",
@@ -442,7 +460,7 @@
     "Source": "PMI Lexicon of Project Management Terms, Version 4.0, page 5"
   },
   {
-    "Term": "Cynefin Framework",
+    "Term": "Cynefin framework",
     "Core Meaning": "A sense-making framework that sorts situations into clear, complicated, complex, chaotic, and disordered domains to guide the appropriate response.",
     "Depth": "Foundational",
     "Expansion": "Created by Dave Snowden, Cynefin helps leaders match their approach to the nature of the problem. Clear or obvious problems have known best practices; complicated ones need analysis or expertise, that is good practice; complex ones require safe-to-fail experiments to let solutions emerge; chaotic ones demand immediate action to establish order; and disorder is not yet knowing which domain applies.",
@@ -453,7 +471,7 @@
       "svg": "<svg viewBox='0 0 304 200' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='140' height='88' fill='#2F6F5E' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='152' y='12' width='140' height='88' fill='#1F5FA8' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='12' y='100' width='140' height='88' fill='#B5462F' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><rect x='152' y='100' width='140' height='88' fill='#C98A1F' fill-opacity='0.13' stroke='currentColor' stroke-width='0.8'/><text x='82' y='46' fill='currentColor' font-size='11' text-anchor='middle'>Complex</text><text x='82' y='62' fill='currentColor' font-size='8' text-anchor='middle'>probe-sense-respond</text><text x='222' y='46' fill='currentColor' font-size='11' text-anchor='middle'>Complicated</text><text x='222' y='62' fill='currentColor' font-size='8' text-anchor='middle'>sense-analyse-respond</text><text x='82' y='138' fill='currentColor' font-size='11' text-anchor='middle'>Chaotic</text><text x='82' y='154' fill='currentColor' font-size='8' text-anchor='middle'>act-sense-respond</text><text x='222' y='138' fill='currentColor' font-size='11' text-anchor='middle'>Clear</text><text x='222' y='154' fill='currentColor' font-size='8' text-anchor='middle'>sense-categorise-respond</text><circle cx='152' cy='100' r='26' fill='currentColor' fill-opacity='0.09' stroke='currentColor' stroke-width='1'/><rect x='133' y='95.5' width='38' height='11' fill='%BG%'/><text x='152' y='103.5' fill='currentColor' font-size='8' text-anchor='middle'>Disorder</text></svg>"
     },
     "Related Terms": [
-      "Stacey Matrix",
+      "Stacey matrix",
       "Complexity",
       "Tailoring",
       "Empiricism"
@@ -514,7 +532,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition, section on Models, Methods, and Artifacts, data-gathering and analysis techniques; confirm exact page in local edition"
   },
   {
-    "Term": "Data Gathering and Analysis Methods",
+    "Term": "Data gathering and analysis methods",
     "Core Meaning": "A set of techniques used to collect, examine, and interpret information to support project decisions, planning, and evaluation.",
     "Depth": "Foundational",
     "Expansion": "In PMI practice, data gathering and analysis methods include techniques such as interviews, brainstorming, checklists, observation, root cause analysis, alternatives analysis, and document analysis. They are not a single process output but a family of methods used across domains and processes to understand context, define work, assess risk, evaluate performance, and support decision making. Their value lies in turning raw observations or stakeholder input into actionable insight.",
@@ -532,7 +550,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Data Gathering Techniques",
+    "Term": "Data gathering techniques",
     "Core Meaning": "A family of PMBOK tools used to collect data and information, such as brainstorming, interviews, focus groups, and questionnaires.",
     "Depth": "Atomic",
     "Expansion": "Data gathering techniques are a grouping of tools used across many processes to collect information from stakeholders and other sources. Common examples include brainstorming, interviews, focus groups, checklists, questionnaires and surveys, and benchmarking.",
@@ -548,7 +566,7 @@
     "Source": "PMBOK Guide - data gathering (tools and techniques)"
   },
   {
-    "Term": "Data Representation Techniques",
+    "Term": "Data representation techniques",
     "Core Meaning": "A grouping of tools that organize and display data visually, such as charts, matrices, and diagrams.",
     "Depth": "Atomic",
     "Expansion": "Data representation techniques are a PMBOK tools-and-techniques grouping used to arrange and display information so that patterns and relationships are easy to see. Examples include flowcharts, histograms, scatter diagrams, control charts, matrix diagrams, and affinity diagrams.",
@@ -629,7 +647,7 @@
     "Related Terms": [
       "Decision analysis technique",
       "Selection criteria",
-      "Scoring Model",
+      "Scoring model",
       "Alternatives analysis",
       "Acceptance criteria"
     ],
@@ -645,7 +663,7 @@
     "Contrast": "Decision Tree — Decision making is the broader process of choosing among alternatives; a Decision Tree is one analytical technique that can support that process.",
     "Example": "A project steering committee reviews three vendor options against cost, implementation speed, security, and supportability before selecting the supplier for a new platform.",
     "Related Terms": [
-      "Decision Tree",
+      "Decision tree",
       "Expert judgment",
       "Problem solving",
       "Change control",
@@ -664,7 +682,7 @@
     "Example": "A project team selects a scheduling software package by rating three vendors against implementation effort, integration capability, security, usability, and support quality.",
     "Related Terms": [
       "Alternatives analysis",
-      "Scoring Model",
+      "Scoring model",
       "Prioritization",
       "Decision tree",
       "Selection criteria"
@@ -698,7 +716,7 @@
     "Contrast": "Closeout — project closeout formally ends a delivery effort, whereas decommissioning retires the operational asset that delivery produced.",
     "Example": "When the legacy data center is replaced, a decommissioning plan governs secure data wiping and safe equipment disposal.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Asset life cycle",
       "Operational readiness",
       "Project closure"
@@ -707,7 +725,7 @@
     "Source": "Project and asset closure practice"
   },
   {
-    "Term": "Delphi Technique",
+    "Term": "Delphi technique",
     "Core Meaning": "An information-gathering technique in which subject matter experts provide input anonymously and iteratively to reach a more reliable consensus.",
     "Depth": "Standard",
     "Expansion": "The Delphi Technique gathers judgments from experts without requiring them to debate face to face, which reduces the influence of hierarchy, reputation, and group pressure. Responses are collected, summarised, and recirculated through multiple rounds until views converge or become clearer. In projects it is commonly used for estimating, risk identification, prioritisation, and forecasting where uncertainty is high.",
@@ -736,13 +754,13 @@
       "Precedence diagramming method",
       "Network diagram",
       "Cause-and-effect diagram",
-      "Sequence Activities"
+      "Sequence activities"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition — various process tool sections using diagramming methods, including Sequence Activities and Control Quality; confirm exact page by term in local edition"
   },
   {
-    "Term": "Digital Product",
+    "Term": "Digital product",
     "Core Meaning": "A product delivered and experienced through digital technology, such as software, platforms, or online services.",
     "Depth": "Standard",
     "Expansion": "A digital product is created, delivered, and evolved primarily through digital channels rather than as a physical good. In project and product work, it usually implies ongoing enhancement, rapid feedback, and measurable user interaction after release. PMI sources retrieved do not show it as a formal glossary entry, but it is a distinct practitioner concept in modern delivery environments.",
@@ -847,6 +865,27 @@
     "Source": "PMI Lexicon — Driver"
   },
   {
+    "Term": "Emergence",
+    "Core Meaning": "The way new patterns, behaviours, or properties arise from the interactions of a system's parts rather than from any single component.",
+    "Depth": "Standard",
+    "Expansion": "Emergence is a core idea in complexity thinking: a system as a whole can do things its individual parts cannot, and those outcomes are not readable from the parts in isolation. On projects it shows up as unforeseen risks, opportunities, and behaviours produced by the interplay of people, technology, and environment. Because emergent outcomes cannot be fully predicted up front, PMI's guidance stresses tailoring, sensing, and adjusting rather than assuming a plan can foresee everything. Recognising emergence pushes teams to hold plans loosely and respond to what actually surfaces during delivery.",
+    "Deep Dive": null,
+    "Contrast": "Emergence vs planning: emergent behaviour arises from interactions and cannot be fully predicted or scheduled up front, whereas a plan assumes outcomes can be defined in advance.",
+    "Example": "Integrating three vendor systems produces unexpected performance failures that none of the components showed on their own, forcing an unplanned redesign.",
+    "Synonyms": [
+      "Emergent behaviour"
+    ],
+    "Related Terms": [
+      "Complexity",
+      "Nonlinearity",
+      "Self-organization",
+      "Adaptability",
+      "Systems thinking"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — complexity and systems thinking"
+  },
+  {
     "Term": "Estimate",
     "Core Meaning": "A quantitative assessment of the likely amount or outcome of a variable such as cost, duration, resources, or effort.",
     "Depth": "Standard",
@@ -874,7 +913,7 @@
     "Example": "A project manager submits a cost estimate together with labour-rate assumptions, vendor quotes, exclusions, and contingency reasoning.",
     "Synonyms": [
       "BOE",
-      "basis of estimates"
+      "Basis of estimates"
     ],
     "Related Terms": [
       "Estimate",
@@ -923,7 +962,7 @@
     "Source": "PMI Lexicon / PMI Knowledgebase — Estimate; exact standard page citation not available in retrieved PMI sources"
   },
   {
-    "Term": "Estimating Methods",
+    "Term": "Estimating methods",
     "Core Meaning": "Techniques used to develop approximate values for project work such as cost, duration, or resources.",
     "Depth": "Standard",
     "Expansion": "Estimating methods are the approaches a project team uses to forecast values when exact figures are not yet known. PMI commonly recognises methods such as analogous, parametric, bottom-up, and three-point estimating, selected based on available data, uncertainty, and required precision. The method chosen influences the effort needed, the confidence level of the result, and how estimates are refined over time.",
@@ -950,7 +989,7 @@
     "Example": "During planning, the team performs estimation for development effort, testing duration, and procurement lead time.",
     "Related Terms": [
       "Estimate",
-      "Estimate Costs",
+      "Estimate costs",
       "Three-point estimating",
       "Forecast",
       "Uncertainty"
@@ -1012,7 +1051,7 @@
     "Source": "PMBOK Guide / PMI Knowledgebase — Executing; exact standard page citation not available in retrieved PMI sources"
   },
   {
-    "Term": "Executing Process Group",
+    "Term": "Executing process group",
     "Core Meaning": "The process group in which project work is performed to complete the work defined in the project management plan.",
     "Depth": "Foundational",
     "Expansion": "The Executing Process Group is where the team carries out the planned work to produce deliverables and implement the approved approach for the project. It includes directing work, managing team performance, engaging stakeholders, managing communications, and applying quality and resource practices during delivery. In PMI's process-based view, this is where planned intent becomes actual outputs and where much of the project's time and budget are consumed.",
@@ -1024,13 +1063,13 @@
       "Direct and manage project work",
       "Deliverable",
       "Stakeholder engagement",
-      "Planning Process Group"
+      "Planning process group"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 3.5, page 25"
   },
   {
-    "Term": "Executing Processes",
+    "Term": "Executing processes",
     "Core Meaning": "The process group covering the work performed to complete what is defined in the project management plan.",
     "Depth": "Standard",
     "Expansion": "Executing processes are one of the five PMBOK process groups. They cover coordinating people and resources, managing stakeholder engagement, and performing the activities of the project management plan to produce the deliverables. This is typically where the largest share of the project budget is spent.",
@@ -1039,8 +1078,8 @@
     "Example": "Directing the development team, managing quality, and conducting procurements are all executing processes.",
     "Related Terms": [
       "Process group",
-      "Direct and Manage Project Work",
-      "Monitoring and Controlling processes",
+      "Direct and manage project work",
+      "Monitoring and controlling processes",
       "Planning processes"
     ],
     "Tier": "Core glossary",
@@ -1083,7 +1122,28 @@
     "Source": "PMI Knowledgebase — Expert judgment"
   },
   {
-    "Term": "Focus Areas (PMBOK 8)",
+    "Term": "Feedback loop",
+    "Core Meaning": "A circular flow of information in which a process's output feeds back to influence its own future inputs, either amplifying or dampening change.",
+    "Depth": "Standard",
+    "Expansion": "Feedback loops are how systems sense their own results and adjust, and they come in two forms. A reinforcing (positive) loop amplifies change and can drive runaway growth or decline, while a balancing (negative) loop counteracts change and pushes the system toward stability. On projects, deliberate feedback loops such as reviews, demos, and metrics let teams detect deviation early and correct course, which is central to iterative and adaptive delivery. Understanding which loops are reinforcing and which are balancing helps a team intervene before small effects compound.",
+    "Deep Dive": null,
+    "Contrast": "Reinforcing vs balancing loop: a reinforcing loop amplifies change and can spiral, while a balancing loop resists change and seeks equilibrium.",
+    "Example": "Daily standups and a burndown chart form a balancing loop that surfaces slippage early so the team can reprioritise before the sprint is lost.",
+    "Figure": {
+      "svg": "<svg viewBox='0 0 276 115' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='12' y='12' width='72' height='30' rx='4' fill='#1F5FA8' fill-opacity='0.1' stroke='#1F5FA8' stroke-width='1.1'/><rect x='192' y='12' width='72' height='30' rx='4' fill='#1F5FA8' fill-opacity='0.1' stroke='#1F5FA8' stroke-width='1.1'/><text x='48' y='31' fill='currentColor' font-size='9.5' text-anchor='middle'>Action</text><text x='228' y='31' fill='currentColor' font-size='9.5' text-anchor='middle'>Result</text><line x1='84' y1='27' x2='186' y2='27' stroke='currentColor' stroke-width='1.2'/><polygon points='192,27 184,24 184,30' fill='currentColor'/><polyline points='228,42 228,66 48,66 48,42' stroke='currentColor' stroke-width='1.2'/><polygon points='48,42 44,50 52,50' fill='currentColor'/><text x='138' y='60' fill='currentColor' font-size='8' text-anchor='middle'>feedback</text><text x='138' y='88' fill='currentColor' font-size='8' text-anchor='middle'>Reinforcing loop amplifies change;</text><text x='138' y='100' fill='currentColor' font-size='8' text-anchor='middle'>balancing loop dampens it.</text></svg>"
+    },
+    "Related Terms": [
+      "Nonlinearity",
+      "Retrospective",
+      "Iteration",
+      "Systems thinking",
+      "Continuous improvement"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — systems thinking"
+  },
+  {
+    "Term": "Focus areas (PMBOK 8)",
     "Core Meaning": "PMBOK 8's renaming of the five Process Groups into Focus Areas that organize the 40 project management processes.",
     "Depth": "Standard",
     "Expansion": "In the PMBOK Guide Eighth Edition, the five traditional Process Groups (Initiating, Planning, Executing, Monitoring and Controlling, Closing) are reframed as Focus Areas. They group the 40 processes by the kind of work being performed rather than implying a strict sequence, reinforcing that project work is iterative and overlapping. The terminology sits alongside the 7 performance domains carried forward from the principles-based structure.",
@@ -1092,7 +1152,7 @@
     "Example": "A team maps each of the 40 processes to one of the five Focus Areas when tailoring its methodology for a new construction project.",
     "Related Terms": [
       "Process group",
-      "PMBOK Guide",
+      "PMBOK guide",
       "Performance domain",
       "Tailoring"
     ],
@@ -1274,7 +1334,7 @@
     "Source": "PMBOK Guide — Sixth Edition, Initiating Process Group, exact page citation to confirm in PMI source"
   },
   {
-    "Term": "Initiating Process Group",
+    "Term": "Initiating process group",
     "Core Meaning": "The Process Group associated with defining a new phase or a new project and obtaining authorization to start it.",
     "Depth": "Foundational",
     "Expansion": "The Initiating Process Group establishes the initial purpose, boundaries, and authority for a project or phase. PMI uses it to frame the work that formally starts effort, aligns key stakeholders, and connects the initiative to business value. It is not a one-time event only at the very beginning of a multiyear effort because a new phase can also require initiating work.",
@@ -1286,13 +1346,13 @@
       "Sponsor",
       "Stakeholder",
       "Phase",
-      "Planning Process Group"
+      "Planning process group"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition Glossary, term Initiating Process Group, page 721"
   },
   {
-    "Term": "Initiating Processes",
+    "Term": "Initiating processes",
     "Core Meaning": "The processes that authorize a new project or phase and define its initial scope and stakeholders.",
     "Depth": "Standard",
     "Expansion": "The Initiating Process Group comprises the processes performed to define and authorize a new project or a new phase, principally developing the project charter and identifying stakeholders. Completing them gives the project manager formal authority and a shared understanding of high-level objectives, success criteria, and key stakeholders. It marks the formal start that aligns the project with organizational strategy.",
@@ -1317,7 +1377,7 @@
     "Contrast": "Project charter — initiation is the process group or stage of starting and authorising work, while the project charter is one of the key outputs used to formalise that authorisation.",
     "Example": "Before launching an enterprise data-migration effort, the sponsor approves a charter, identifies the project manager, and confirms the business need and high-level scope during initiation.",
     "Related Terms": [
-      "Initiating Process Group",
+      "Initiating process group",
       "Project charter",
       "Stakeholder identification",
       "Phase gate"
@@ -1372,7 +1432,7 @@
     ],
     "Related Terms": [
       "Project management process",
-      "Process Group",
+      "Process group",
       "Tailoring"
     ],
     "Tier": "Adjacent concept",
@@ -1427,7 +1487,7 @@
     "Example": "A project manager uses the risk management knowledge area to identify, analyze, plan responses for, and monitor project risks.",
     "Related Terms": [
       "Process group",
-      "PMBOK Guide",
+      "PMBOK guide",
       "Scope management",
       "Risk management",
       "Cost management"
@@ -1633,7 +1693,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Measurement Performance Domain",
+    "Term": "Measurement performance domain",
     "Core Meaning": "The Measurement Performance Domain is the area of project performance concerned with assessing project conditions, progress, and outcomes through appropriate measures that support informed decisions.",
     "Depth": "Foundational",
     "Expansion": "The Measurement Performance Domain in PMBOK Guide Seventh Edition focuses on selecting and using measures that help evaluate whether the project is performing effectively and delivering intended results. It is not limited to tracking schedule and cost variance; it also includes value delivery, quality, risk, stakeholder outcomes, and other indicators suited to the context. PMI presents it as one of the project performance domains that enables learning, adaptation, and evidence-based governance across the life cycle.",
@@ -1643,7 +1703,7 @@
     "Related Terms": [
       "Performance domain",
       "Measure",
-      "Key Performance Indicator",
+      "Key performance indicator",
       "Monitor",
       "Project performance"
     ],
@@ -1651,7 +1711,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition, Measurement Performance Domain, page 153"
   },
   {
-    "Term": "Measures of Effectiveness",
+    "Term": "Measures of effectiveness",
     "Core Meaning": "Measures of Effectiveness are criteria used to evaluate how well a system, product, service, or solution achieves its intended outcomes in its operational environment.",
     "Depth": "Foundational",
     "Expansion": "Measures of Effectiveness focus on whether the delivered result works successfully from the user, mission, or business perspective rather than only whether technical specifications were met. They are outcome-oriented measures used to assess fitness for purpose and realized value. They are especially common in systems engineering, defense, capability development, and complex solution delivery.",
@@ -1662,7 +1722,7 @@
       "MOE"
     ],
     "Related Terms": [
-      "Measures of Performance",
+      "Measures of performance",
       "Requirements",
       "Benefits realization",
       "Acceptance criteria",
@@ -1685,7 +1745,7 @@
     ],
     "Related Terms": [
       "Requirements",
-      "Measures of Effectiveness",
+      "Measures of effectiveness",
       "Acceptance criteria",
       "System performance",
       "Metric",
@@ -1776,7 +1836,7 @@
     "Related Terms": [
       "Monitoring",
       "Control",
-      "Monitor and Control Project Work",
+      "Monitor and control project work",
       "Performance measurement",
       "Variance"
     ],
@@ -1796,7 +1856,7 @@
       "Performance data",
       "Performance measures",
       "Performance information",
-      "Monitor and Control Project Work"
+      "Monitor and control project work"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, glossary term monitoring, page 719"
@@ -1820,7 +1880,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) / Process Groups: A Practice Guide"
   },
   {
-    "Term": "Monitoring and Controlling Process Group",
+    "Term": "Monitoring and controlling process group",
     "Core Meaning": "The group of processes required to track, review, and regulate project performance and progress, identify needed changes, and initiate those changes.",
     "Depth": "Foundational",
     "Expansion": "The Monitoring and Controlling Process Group provides the mechanisms for comparing actual performance with the plan and taking corrective, preventive, or adaptive action when needed. It spans all knowledge areas and runs throughout the project, not only at the end of a phase or after problems appear. PMI positions it as essential for integrated control of scope, schedule, cost, quality, resources, communications, risks, procurements, and stakeholder engagement.",
@@ -1828,8 +1888,8 @@
     "Contrast": "Executing Process Group — Executing performs the work defined in the plan, while Monitoring and Controlling checks results against the plan and directs needed adjustments.",
     "Example": "On a construction project, weekly control reviews reveal cost variance and delayed steel delivery, leading to a forecast update, change analysis, and corrective replanning.",
     "Related Terms": [
-      "Process Group",
-      "Monitor and Control Project Work",
+      "Process group",
+      "Monitor and control project work",
       "Integrated change control",
       "Variance analysis",
       "Forecast"
@@ -1838,7 +1898,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 1.2.3.4 Monitoring and Controlling Process Group, pp. 25-26"
   },
   {
-    "Term": "Monitoring and Controlling Processes",
+    "Term": "Monitoring and controlling processes",
     "Core Meaning": "The process group that tracks, reviews, and regulates project progress and performance against the plan and triggers corrective action.",
     "Depth": "Standard",
     "Expansion": "Monitoring and Controlling is one of the five PMBOK process groups, and it runs continuously across the entire project life cycle rather than in a single phase. It compares actual performance to the project management plan and baselines, identifies variances, and initiates changes through integrated change control. Because it overlaps every other process group, it is where the project manager keeps scope, schedule, cost, quality, and risk in check.",
@@ -1846,10 +1906,10 @@
     "Contrast": "Executing Processes - executing performs the work, whereas monitoring and controlling measures that work and steers it back on course.",
     "Example": "Reviewing earned value metrics each week and raising a change request when the cost performance index drops below target.",
     "Related Terms": [
-      "Executing Processes",
-      "Planning Processes",
-      "Integrated Change Control",
-      "Performance Reviews"
+      "Executing processes",
+      "Planning processes",
+      "Integrated change control",
+      "Performance reviews"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Process Groups"
@@ -1868,7 +1928,7 @@
     "Related Terms": [
       "Decision making",
       "Prioritization",
-      "Scoring Model",
+      "Scoring model",
       "Alternatives analysis"
     ],
     "Tier": "Core glossary",
@@ -1931,6 +1991,24 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
+    "Term": "Nonlinearity",
+    "Core Meaning": "A property of complex systems in which cause and effect are not proportional, so small inputs can produce large effects and vice versa.",
+    "Depth": "Standard",
+    "Expansion": "In a nonlinear system the relationship between effort and result is not a straight line, and outcomes can be disproportionate or hard to predict. On projects this means a minor change can cascade into major disruption, while significant effort sometimes yields little. Nonlinearity undermines simple cause-and-effect estimating and linear extrapolation from past performance. PMI's complexity guidance responds to it with short feedback cycles, buffers, and frequent re-evaluation rather than assuming predictable, proportional progress.",
+    "Deep Dive": null,
+    "Contrast": "Nonlinearity vs linear thinking: linear thinking assumes proportional, additive cause and effect, while nonlinearity allows small causes to trigger outsized or unpredictable effects.",
+    "Example": "A one-line configuration change intended as a quick fix triggers a chain of outages that consumes weeks of recovery effort.",
+    "Related Terms": [
+      "Complexity",
+      "Emergence",
+      "Feedback loop",
+      "Risk",
+      "Systems thinking"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — complexity and systems thinking"
+  },
+  {
     "Term": "Normalized data",
     "Core Meaning": "Data adjusted to a common basis so comparisons can be made consistently.",
     "Depth": "Standard",
@@ -1962,7 +2040,7 @@
       "Goal",
       "Requirement",
       "Deliverable",
-      "Success Criteria",
+      "Success criteria",
       "Strategic goals",
       "Outcome",
       "Benefit"
@@ -2188,7 +2266,7 @@
     "Contrast": "Knowledge area — a performance domain is an outcome-oriented area of ongoing attention in PMBOK Seventh Edition, while a knowledge area is a structured subject area used prominently in earlier PMI frameworks.",
     "Example": "A digital-transformation project uses the stakeholder, planning, delivery, and uncertainty performance domains together to balance executive alignment, rolling-wave plans, iterative releases, and emerging risks.",
     "Related Terms": [
-      "PMBOK Guide",
+      "PMBOK guide",
       "Project performance",
       "Tailoring",
       "Planning performance domain",
@@ -2306,7 +2384,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Planning Performance Domain; also reflected throughout PMBOK Guide, Sixth Edition planning processes"
   },
   {
-    "Term": "Planning Performance Domain",
+    "Term": "Planning performance domain",
     "Core Meaning": "The performance domain concerned with organising and coordinating work, resources, estimates, and approaches so the project can move toward intended outcomes.",
     "Depth": "Foundational",
     "Expansion": "In PMBOK Seventh Edition, the Planning Performance Domain focuses on the ongoing activities needed to proactively prepare for delivering project outcomes rather than treating planning as a one-time phase. It addresses how scope, schedule, cost, resources, communications, risk, quality, procurement, and other considerations are thought through and integrated in a way appropriate to the project context. The domain emphasises that planning is iterative, proportionate, and closely tied to uncertainty, stakeholder needs, and the chosen development approach.",
@@ -2315,7 +2393,7 @@
     "Example": "A hybrid enterprise-system project sets an overall roadmap and procurement plan upfront, then refines release plans and team-level iteration plans as requirements become clearer.",
     "Related Terms": [
       "Performance domain",
-      "Project Work Performance Domain",
+      "Project work performance domain",
       "Development approach",
       "Progressive elaboration",
       "Integrated planning"
@@ -2324,7 +2402,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition — Performance Domains, Planning Performance Domain"
   },
   {
-    "Term": "Planning Process Group",
+    "Term": "Planning process group",
     "Core Meaning": "The Process Group required to establish the scope of the project, refine objectives, and define the course of action required to attain the objectives that the project was undertaken to achieve.",
     "Depth": "Foundational",
     "Expansion": "The Planning Process Group develops the coordinated approach for delivering the project and managing its work. It includes processes used to define scope, schedule, cost, quality, resources, communications, risk, procurement, and stakeholder approaches. PMI presents it as iterative, meaning planning is revisited and refined as more information becomes available.",
@@ -2333,7 +2411,7 @@
     "Example": "After approving a project charter for a manufacturing-line upgrade, the team creates the scope baseline, integrated schedule, cost estimates, risk responses, procurement approach, and stakeholder engagement plan.",
     "Related Terms": [
       "Project management plan",
-      "Initiating Process Group",
+      "Initiating process group",
       "Progressive elaboration",
       "Scope baseline",
       "Schedule baseline"
@@ -2342,7 +2420,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 3.2, pp. 23-25"
   },
   {
-    "Term": "Planning Processes",
+    "Term": "Planning processes",
     "Core Meaning": "The process group that establishes scope, refines objectives, and defines the course of action to achieve them.",
     "Depth": "Standard",
     "Expansion": "The Planning process group comprises the processes that develop the project management plan and its subsidiary plans and baselines. It defines and refines scope, schedule, cost, quality, resources, communications, risk, procurement, and stakeholder approaches. Because projects elaborate progressively, planning is iterative and revisited throughout the project as new information emerges.",
@@ -2350,16 +2428,16 @@
     "Contrast": "Executing Processes - planning decides what will be done and how, whereas executing carries out that plan.",
     "Example": "Building the WBS, schedule, and budget before work begins, then re-planning after a major scope change.",
     "Related Terms": [
-      "Executing Processes",
-      "Monitoring and Controlling Processes",
-      "Project Management Plan",
-      "Initiating Processes"
+      "Executing processes",
+      "Monitoring and controlling processes",
+      "Project management plan",
+      "Initiating processes"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Process Groups"
   },
   {
-    "Term": "PMBOK Guide",
+    "Term": "PMBOK guide",
     "Core Meaning": "The PMBOK Guide is PMI's foundational standard-and-guidance publication that organizes generally recognized project management principles, domains, and practices.",
     "Depth": "Foundational",
     "Expansion": "The PMBOK Guide is PMI's flagship reference for the project management profession and has evolved across editions from a process-focused framework to a principles-and-performance-domains model. It does not prescribe a single way to run every project; instead, it provides a common vocabulary, structure, and body of guidance that practitioners tailor to context. In practice, it is widely used to support shared understanding, professional development, exam preparation, and alignment of project management practices across organizations.",
@@ -2370,13 +2448,13 @@
       "Project management",
       "Tailoring",
       "Performance domain",
-      "Standard for Project Management"
+      "Standard for project management"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) / The Standard for Project Management, Seventh Edition, PMI, pp. 1-4"
   },
   {
-    "Term": "PMBOK Guide Seventh Edition",
+    "Term": "PMBOK guide seventh edition",
     "Core Meaning": "The 2021 edition of PMI's foundational reference, which shifted from a process-based model to twelve principles and eight performance domains.",
     "Depth": "Standard",
     "Expansion": "The seventh edition marked a major reorientation, replacing the knowledge-area and process structure of earlier editions with a principles-based, outcome-focused model that spans predictive, hybrid, and adaptive approaches. It is bound with the Standard for Project Management and centers on a system for value delivery and tailoring. Performance domains describe areas of activity such as stakeholders, team, and delivery, rather than prescribed processes. It reflects the profession's move toward flexibility over prescription.",
@@ -2387,15 +2465,15 @@
       "PMBOK 7"
     ],
     "Related Terms": [
-      "PMBOK Guide",
-      "Standard for Project Management",
+      "PMBOK guide",
+      "Standard for project management",
       "Project life cycle"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Seventh Edition (PMI, 2021)"
   },
   {
-    "Term": "PMI Talent Triangle",
+    "Term": "PMI talent triangle",
     "Core Meaning": "PMI's framework of three skill domains project professionals need: ways of working, power skills, and business acumen.",
     "Depth": "Standard",
     "Expansion": "The PMI Talent Triangle defines the balanced skill set modern project professionals require. Its current three sides are Ways of Working, covering technical and methodological skills; Power Skills, covering interpersonal and leadership abilities; and Business Acumen, covering strategic and organizational understanding. PMI uses it to structure continuing certification education and professional development.",
@@ -2454,7 +2532,7 @@
     "Contrast": "Adaptive approach — a predictive approach defines and plans most work early, while an adaptive approach evolves scope and plans as learning occurs.",
     "Example": "A hospital expansion project finalizes design packages, procurement plans, budget baselines, and construction sequencing before major execution begins.",
     "Synonyms": [
-      "plan-driven"
+      "Plan-driven"
     ],
     "Related Terms": [
       "Adaptive approach",
@@ -2503,7 +2581,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Prioritization Schema",
+    "Term": "Prioritization schema",
     "Core Meaning": "Methods used to prioritize portfolio, program, or project components, as well as requirements, risks, features, or other product information.",
     "Depth": "Foundational",
     "Expansion": "A Prioritization Schema is the structured method used to rank or sequence work items, choices, or concerns so attention and resources go first to what matters most. PMI uses the term broadly because prioritization applies at multiple levels, from selecting portfolio components to ordering backlog items, features, risks, or change requests. The schema may be simple or formal, but it should reflect agreed decision criteria rather than personal preference alone.",
@@ -2511,7 +2589,7 @@
     "Contrast": "Weighted scoring model — A Prioritization Schema is the broader method for ordering items, while a weighted scoring model is one specific technique that can be used within it.",
     "Example": "A product team ranks proposed features using customer value, revenue impact, implementation effort, and regulatory urgency so the next release includes the highest-value items first.",
     "Related Terms": [
-      "Scoring Model",
+      "Scoring model",
       "Backlog",
       "Risk ranking",
       "Portfolio selection",
@@ -2532,7 +2610,7 @@
       "Backlog",
       "Risk ranking",
       "Issue log",
-      "Requirements prioritisation",
+      "Requirements prioritization",
       "Decision making"
     ],
     "Tier": "Practitioner term",
@@ -2586,7 +2664,7 @@
       "Initiating",
       "Planning",
       "Executing",
-      "Monitoring and Controlling",
+      "Monitoring and controlling",
       "Closing"
     ],
     "Tier": "Core glossary",
@@ -2665,7 +2743,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Seventh Edition — Project, page 4"
   },
   {
-    "Term": "Project Lead",
+    "Term": "Project lead",
     "Core Meaning": "A person who helps the project team to achieve the project objectives, typically by orchestrating the work of the project.",
     "Depth": "Standard",
     "Expansion": "A Project Lead coordinates and guides project work so the team can move toward planned outcomes. The term emphasizes helping the team achieve objectives through orchestration, alignment, and support rather than only through positional authority. Depending on the organization, a Project Lead may perform many functions associated with project management, team coordination, or delivery leadership.",
@@ -2700,7 +2778,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition — project life cycle, page 554"
   },
   {
-    "Term": "Project Management",
+    "Term": "Project management",
     "Core Meaning": "The application of knowledge, skills, tools, and techniques to project activities to meet project requirements.",
     "Depth": "Foundational",
     "Expansion": "Project management is the disciplined practice of leading and coordinating work so that a temporary endeavor achieves its intended objectives. PMI frames it as applying knowledge, skills, tools, and techniques through an appropriate approach, whether predictive, adaptive, or hybrid. It matters because projects create change, and effective management improves the likelihood of delivering value, managing uncertainty, and aligning outcomes with stakeholder needs.",
@@ -2721,7 +2799,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition and The Standard for Project Management, page 4"
   },
   {
-    "Term": "Project Management Body of Knowledge (PMBOK)",
+    "Term": "Project management body of knowledge (PMBOK)",
     "Core Meaning": "The sum of knowledge within the profession of project management that PMI organizes and publishes through its standards and guides.",
     "Depth": "Foundational",
     "Expansion": "PMBOK refers to the body of knowledge associated with professional project management, not just a single book. PMI's PMBOK Guide is one major expression of that body of knowledge, capturing broadly recognized principles, domains, practices, and terminology. The concept matters because it gives practitioners a shared professional reference point while still allowing tailoring to context, industry, and delivery approach.",
@@ -2729,8 +2807,8 @@
     "Contrast": "PMBOK Guide — the PMBOK is the broader body of professional knowledge; the PMBOK Guide is a published PMI guide that captures part of that knowledge.",
     "Example": "A PMO uses PMBOK-based terminology and practices to standardize risk management, stakeholder planning, and performance reporting across software, construction, and product projects.",
     "Related Terms": [
-      "PMBOK Guide",
-      "The Standard for Project Management",
+      "PMBOK guide",
+      "The standard for project management",
       "Project management",
       "Tailoring",
       "Performance domain"
@@ -2739,7 +2817,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition, page 3"
   },
   {
-    "Term": "Project Management Knowledge Area",
+    "Term": "Project management knowledge area",
     "Core Meaning": "An identified area of project management defined by its knowledge requirements and described in terms of its component processes.",
     "Depth": "Standard",
     "Expansion": "In the PMBOK Guide (6th edition and earlier), knowledge areas group related processes by subject matter, such as Scope, Schedule, Cost, Quality, Resource, Communications, Risk, Procurement, Stakeholder, and Integration Management. There are ten knowledge areas, each with defined inputs, tools and techniques, and outputs. They cut across the process groups to organize the discipline.",
@@ -2748,14 +2826,14 @@
     "Example": "Estimate Activity Durations belongs to the Project Schedule Management knowledge area but the Planning process group.",
     "Related Terms": [
       "Process group",
-      "Project Integration Management",
-      "PMBOK Guide"
+      "Project integration management",
+      "PMBOK guide"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide (6th ed.) - Knowledge Areas"
   },
   {
-    "Term": "Project Management Process",
+    "Term": "Project management process",
     "Core Meaning": "A set of interrelated actions and activities performed to manage a project and produce a pre-specified result.",
     "Depth": "Atomic",
     "Expansion": "A project management process takes inputs and applies tools and techniques to produce outputs, and these processes are organized into process groups and knowledge areas. Each process is performed at least once on a project, and many are repeated as the work progresses.",
@@ -2771,7 +2849,7 @@
     "Source": "PMBOK Guide - project management process"
   },
   {
-    "Term": "Project Management Process Group",
+    "Term": "Project management process group",
     "Core Meaning": "A logical grouping of project management inputs, tools and techniques, and outputs used to achieve specific project objectives.",
     "Depth": "Foundational",
     "Expansion": "A Project Management Process Group organises project management processes by purpose rather than by timing, so the grouped processes can be applied where needed across the project life cycle. In PMI usage, the classic groups are Initiating, Planning, Executing, Monitoring and Controlling, and Closing. They are not project phases, and they may overlap or recur within a phase, release, or iteration.",
@@ -2779,17 +2857,17 @@
     "Contrast": "Project Phase — a Process Group is a category of management activity; a phase is a life-cycle segment of the project.",
     "Example": "On an ERP implementation, the team uses Initiating to authorise the project, Planning to build scope and schedule baselines, Executing to configure and test the system, Monitoring and Controlling to manage variance and risks, and Closing to obtain formal acceptance.",
     "Related Terms": [
-      "Project Phase",
-      "Initiating Process Group",
-      "Planning Process Group",
-      "Monitoring and Controlling Process Group",
-      "Closing Process Group"
+      "Project phase",
+      "Initiating process group",
+      "Planning process group",
+      "Monitoring and controlling process group",
+      "Closing process group"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process Groups: A Practice Guide, page citation needed from PMI source"
   },
   {
-    "Term": "Project Management Team",
+    "Term": "Project management team",
     "Core Meaning": "The members of the project team who are directly involved in project management activities.",
     "Depth": "Standard",
     "Expansion": "The Project Management Team consists of the people responsible for leading, coordinating, and administering the project management work. It commonly includes the project manager and may include project coordinators, schedulers, risk leads, PMO support, or other roles assigned to planning, monitoring, reporting, and control. It is a subset of the broader project team and focuses on managing the project rather than only performing product or technical work.",
@@ -2797,8 +2875,8 @@
     "Contrast": "Project Team — the Project Management Team manages and coordinates the project; the Project Team includes all members performing project work, including technical and delivery roles.",
     "Example": "In a hospital construction project, the project manager, scheduler, cost controller, and risk coordinator form the Project Management Team, while architects, engineers, contractors, and inspectors are part of the wider project team.",
     "Related Terms": [
-      "Project Team",
-      "Project Manager",
+      "Project team",
+      "Project manager",
       "PMO",
       "Stakeholder",
       "Governance"
@@ -2851,7 +2929,7 @@
     "Source": "PMBOK Guide and The Standard for Project Management"
   },
   {
-    "Term": "Project Performance Domains",
+    "Term": "Project performance domains",
     "Core Meaning": "A group of related activities that are critical for the effective delivery of project outcomes.",
     "Depth": "Foundational",
     "Expansion": "Project Performance Domains are the broad areas of focus used in PMI's principle-based PMBOK Guide Seventh Edition to describe what matters most in delivering project outcomes. Rather than organising guidance primarily around process groups and knowledge areas, the performance-domain model highlights interacting domains such as stakeholders, team, development approach and life cycle, planning, project work, delivery, measurement, and uncertainty. The concept matters because it shifts attention from mechanically following processes to understanding the conditions that drive value delivery and project success. It is especially useful in tailoring, since projects can emphasise different domains depending on context, complexity, and delivery approach.",
@@ -2862,18 +2940,18 @@
       "Performance domains"
     ],
     "Related Terms": [
-      "PMBOK Guide Seventh Edition",
+      "PMBOK guide seventh edition",
       "Tailoring",
       "Stakeholder performance domain",
-      "Team Performance Domain",
-      "Delivery Performance Domain",
-      "Measurement Performance Domain"
+      "Team performance domain",
+      "Delivery performance domain",
+      "Measurement performance domain"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition, Section 2, pages 21-128"
   },
   {
-    "Term": "Project Phase",
+    "Term": "Project phase",
     "Core Meaning": "A collection of logically related project activities that culminates in the completion of one or more deliverables.",
     "Depth": "Foundational",
     "Expansion": "A Project Phase is a structured segment of the project life cycle used to organise work toward a defined interim result. Phases can be sequential, overlapping, or iterative depending on the delivery approach and governance model. They help teams manage control points, funding decisions, reviews, and transitions from one major body of work to the next.",
@@ -2881,11 +2959,11 @@
     "Contrast": "Project Management Process Group — a phase is a life-cycle segment of work; a Process Group is a type of management activity applied within and across phases.",
     "Example": "A pharmaceutical project divides work into feasibility, clinical development, regulatory submission, and launch, with each phase ending in a formal review before the next begins.",
     "Related Terms": [
-      "Project Life Cycle",
-      "Phase Gate",
+      "Project life cycle",
+      "Phase gate",
       "Milestone",
       "Deliverable",
-      "Process Group"
+      "Process group"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), page citation needed from PMI source"
@@ -2977,6 +3055,24 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
+    "Term": "Resilience",
+    "Core Meaning": "The ability of a project, team, or organization to absorb disruption, adapt, and recover while still delivering its intended outcomes.",
+    "Depth": "Standard",
+    "Expansion": "Resilience is the capacity to keep functioning and to bounce back when setbacks, shocks, and unexpected events occur, which in complex work is a matter of when, not if. It is built through proactive risk management, redundancy and buffers, clear roles and communication, and a culture that treats problems as learning rather than blame. PMI frames resilience as a valued attribute of both project teams and organizations, closely tied to responsiveness and adaptability. A resilient project protects its core objectives even when parts of the plan fail.",
+    "Deep Dive": null,
+    "Contrast": "Resilience vs robustness: robustness resists disruption by staying unchanged, whereas resilience absorbs the disruption, adapts, and recovers.",
+    "Example": "When a key supplier collapses mid-project, the team activates a pre-identified alternate source and re-sequences work, keeping the delivery date largely intact.",
+    "Related Terms": [
+      "Adaptability",
+      "Risk management",
+      "Contingency reserve",
+      "Complexity",
+      "Business agility"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition — team and organizational attributes"
+  },
+  {
     "Term": "Result",
     "Core Meaning": "A result is an output, outcome, or other consequence produced by work that can be evaluated for its contribution to project objectives.",
     "Depth": "Standard",
@@ -3046,6 +3142,25 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
+    "Term": "Self-organization",
+    "Core Meaning": "The capacity of a system or team to coordinate, adapt, and solve problems from within, without direction from a central authority.",
+    "Depth": "Standard",
+    "Expansion": "Self-organization describes order that arises from local interaction and shared goals rather than top-down control. In agile and complex delivery, self-organizing teams decide among themselves how to accomplish work, allocate tasks, and resolve issues within agreed boundaries. PMI and agile practice treat this as a way to move decisions closer to the people with the most information, improving responsiveness in uncertain conditions. It depends on clear objectives, trust, and enabling leadership rather than the absence of structure.",
+    "Deep Dive": null,
+    "Contrast": "Self-organization vs command-and-control: self-organizing teams determine how work gets done within set boundaries, whereas command-and-control assigns tasks and decisions from a central manager.",
+    "Example": "A cross-functional team, given only the sprint goal, decides internally who takes which stories and reworks its own workflow when a bottleneck appears.",
+    "Related Terms": [
+      "Emergence",
+      "Servant leadership",
+      "Agile",
+      "Adaptability",
+      "Team empowerment",
+      "Self-organizing team"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition and Agile Practice Guide — team performance and complexity"
+  },
+  {
     "Term": "Site work",
     "Core Meaning": "Construction work performed on the project location to prepare and develop the ground and surrounding area.",
     "Depth": "Atomic",
@@ -3062,7 +3177,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Stacey Matrix",
+    "Term": "Stacey matrix",
     "Core Meaning": "A model that plots the degree of agreement against the degree of certainty to recommend simple, complicated, complex, or chaotic management approaches.",
     "Depth": "Standard",
     "Expansion": "The Stacey matrix, from Ralph Stacey, positions a decision on two axes: how much stakeholders agree on what to do, and how certain the cause-and-effect knowledge is. Combinations near agreement and certainty suit traditional plan-driven control, while areas of low agreement or low certainty call for collaborative, adaptive, or experimental approaches. It is widely used to justify selecting agile over predictive methods.",
@@ -3070,7 +3185,7 @@
     "Contrast": "Cynefin Framework - the Stacey matrix uses two continuous axes of agreement and certainty, whereas Cynefin presents discrete domains each with its own response strategy.",
     "Example": "Because stakeholders disagree on requirements and the technology is unproven, the team places the work in the complex zone and chooses an adaptive approach.",
     "Related Terms": [
-      "Cynefin Framework",
+      "Cynefin framework",
       "Complexity",
       "Development approach",
       "Uncertainty"
@@ -3097,7 +3212,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, page 4"
   },
   {
-    "Term": "Success Criteria",
+    "Term": "Success criteria",
     "Core Meaning": "The standards and measures used to judge whether a project, deliverable, or objective has been achieved successfully.",
     "Depth": "Standard",
     "Expansion": "Success criteria define in advance what a successful outcome looks like, translating objectives into measurable conditions against which results can be assessed. They may cover scope, quality, schedule, cost, benefits, and stakeholder satisfaction, and they guide decisions throughout delivery. Agreeing them early with sponsors and key stakeholders prevents later disputes about whether the project delivered.",
@@ -3188,7 +3303,7 @@
     "Example": "A manager applies technical project management by building a resource-loaded schedule and tracking it with earned value.",
     "Related Terms": [
       "Earned value management",
-      "Work Breakdown Structure",
+      "Work breakdown structure",
       "Schedule baseline"
     ],
     "Tier": "Adjacent concept",
@@ -3219,7 +3334,7 @@
     "Example": "A hospital-implementation project depends on cloud hosting, API integrations, and cybersecurity controls as core technologies that shape scope, schedule, and risk responses.",
     "Related Terms": [
       "Development approach",
-      "Technical Performance Measures",
+      "Technical performance measures",
       "Project work performance domain"
     ],
     "Tier": "Adjacent concept",
@@ -3258,7 +3373,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, section 1.1; also reflected in PMI Lexicon entry for project"
   },
   {
-    "Term": "The Standard for Project Management",
+    "Term": "The standard for project management",
     "Core Meaning": "The PMI foundational standard that defines the principles guiding effective project management, published alongside the PMBOK Guide.",
     "Depth": "Standard",
     "Expansion": "The Standard for Project Management presents a principles-based view of the discipline, articulating twelve guiding principles and a system for value delivery rather than a prescriptive set of processes. It is an American National Standard and forms the normative companion to the PMBOK Guide, which provides supporting practices. The shift to principles reflects recognition that approaches must adapt to context. It anchors how value, stewardship, and outcomes are framed across predictive and adaptive work.",
@@ -3266,14 +3381,14 @@
     "Contrast": "PMBOK Guide — the PMBOK Guide offers detailed practices and methods, whereas the Standard for Project Management states the higher-level principles they serve.",
     "Example": "A team cites the principle of focusing on value from the Standard for Project Management to justify reprioritizing the backlog.",
     "Synonyms": [
-      "Standard for Project Management"
+      "Standard for project management"
     ],
     "Related Terms": [
-      "PMBOK Guide",
-      "Project Management Body of Knowledge (PMBOK)",
+      "PMBOK guide",
+      "Project management body of knowledge (PMBOK)",
       "Performance domain",
-      "Agile Practice Guide",
-      "PMBOK Guide Seventh Edition",
+      "Agile practice guide",
+      "PMBOK guide seventh edition",
       "Project life cycle"
     ],
     "Tier": "Core glossary",
@@ -3363,7 +3478,7 @@
       "Multicriteria decision analysis",
       "Decision matrix",
       "Trade-off",
-      "Alternatives Analysis"
+      "Alternatives analysis"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide — multicriteria decision analysis"
@@ -3432,7 +3547,7 @@
     "Synonyms": [
       "Iron triangle",
       "Project management triangle",
-      "Triple Constraints"
+      "Triple constraints"
     ],
     "Related Terms": [
       "Scope",

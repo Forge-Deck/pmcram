@@ -35,7 +35,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Glossary, Appraisal Costs, page 695"
   },
   {
-    "Term": "Attribute Sampling",
+    "Term": "Attribute sampling",
     "Core Meaning": "A quality measurement that records whether each inspected item simply has or lacks a given characteristic.",
     "Depth": "Standard",
     "Expansion": "Attribute sampling is a quality control method that evaluates each unit on a pass/fail or present/absent basis for a particular attribute, rather than measuring a continuous value. The result is conforming or nonconforming, which makes it useful for go/no-go decisions. It contrasts with variables sampling, which measures the degree of conformance on a scale.",
@@ -43,9 +43,9 @@
     "Contrast": "Variables sampling - variables sampling measures a continuous quantity (e.g., length in millimeters), whereas attribute sampling only notes whether a characteristic is present or absent.",
     "Example": "Inspecting a batch of bolts and recording each simply as 'defective' or 'not defective.'",
     "Related Terms": [
-      "Variables Sampling",
-      "Statistical Sampling",
-      "Quality Control"
+      "Variables sampling",
+      "Statistical sampling",
+      "Quality control"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - quality control measurements"
@@ -102,7 +102,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Check Sheet",
+    "Term": "Check sheet",
     "Core Meaning": "A structured form used to collect and tally data consistently so that patterns, frequency, or defect types can later be analysed.",
     "Depth": "Standard",
     "Expansion": "A check sheet is one of the basic quality tools used to capture observations at the point of work in a simple, repeatable format. It supports fact-based quality analysis by making data collection visible and consistent across time, shifts, locations, or categories. In project settings it is commonly used for defect counts, error types, inspection findings, or recurring process issues.",
@@ -179,7 +179,7 @@
     "Source": "PMI Lexicon of Project Management Terms, p. 15"
   },
   {
-    "Term": "Conformance Work",
+    "Term": "Conformance work",
     "Core Meaning": "Work performed to prevent defects and meet quality requirements correctly the first time.",
     "Depth": "Standard",
     "Expansion": "Conformance work is the effort spent up front to do project work correctly and avoid defects. It consists of prevention activities (such as training, documented processes, and good design) and appraisal activities (such as inspection and testing). Investing in conformance work reduces the more expensive nonconformance work of fixing failures later.",
@@ -254,7 +254,7 @@
     "Source": "PMBOK Guide quality management tools and control chart terminology; PMI Lexicon — exact page citation not retrievable from current source"
   },
   {
-    "Term": "Control Quality",
+    "Term": "Control quality",
     "Core Meaning": "The process of monitoring and recording results of executing the quality activities to assess performance and recommend necessary changes.",
     "Depth": "Standard",
     "Expansion": "Control Quality checks deliverables and work results against quality requirements and standards. It uses inspection, testing, and related verification methods to identify defects, measure compliance, and support corrective action. PMI treats it as a monitoring and controlling process focused on outputs and performance results rather than on designing or improving the quality management processes themselves.",
@@ -262,7 +262,7 @@
     "Contrast": "Manage Quality — Control Quality evaluates deliverables and results; Manage Quality focuses on improving and assuring the processes used to create them.",
     "Example": "A software project team executes test cases on a release candidate, records defects, and verifies that acceptance criteria are met before deployment approval.",
     "Related Terms": [
-      "Manage Quality",
+      "Manage quality",
       "Inspection",
       "Defect",
       "Quality control",
@@ -323,7 +323,7 @@
     "Source": "PMBOK Guide - cost of quality"
   },
   {
-    "Term": "Cost of Nonconformance",
+    "Term": "Cost of nonconformance",
     "Core Meaning": "The portion of cost of quality spent because work fails to meet requirements, covering internal and external failure costs.",
     "Depth": "Standard",
     "Expansion": "Cost of nonconformance is the money spent as a result of failing to meet quality requirements, and it forms one half of the cost of quality. It comprises internal failure costs such as rework and scrap found before delivery, and external failure costs such as warranty claims, liabilities, recalls, and lost reputation found after delivery. It contrasts with the cost of conformance - prevention and appraisal spending - and the central argument is that investing in conformance up front is cheaper than paying for nonconformance later.",
@@ -331,9 +331,9 @@
     "Contrast": "Cost of conformance - cost of nonconformance is money lost to failures and rework, whereas cost of conformance is money spent on prevention and appraisal to avoid those failures.",
     "Example": "A project incurs cost of nonconformance when a delivered feature fails in production and the team pays for emergency fixes and customer credits.",
     "Related Terms": [
-      "Cost of Quality",
+      "Cost of quality",
       "Cost of conformance",
-      "Crosby's Zero Defects",
+      "Crosby's zero defects",
       "Nonconformance"
     ],
     "Tier": "Core glossary",
@@ -363,7 +363,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 8.1.2.3, page 282"
   },
   {
-    "Term": "Crosby's Zero Defects",
+    "Term": "Crosby's zero defects",
     "Core Meaning": "A quality philosophy holding that the performance standard should be zero defects, achieved by preventing problems rather than inspecting them out.",
     "Depth": "Standard",
     "Expansion": "Philip Crosby argued that quality means conformance to requirements, that the only acceptable performance standard is zero defects, and that quality is free because preventing defects costs less than the rework, scrap, and warranty claims they cause. He stressed building quality in through prevention and doing it right the first time rather than relying on detection. Defects are not inevitable but stem from inattention to requirements and process.",
@@ -371,12 +371,12 @@
     "Contrast": "Juran's Quality Trilogy - Crosby targets an absolute zero-defect standard through conformance and prevention, whereas Juran frames quality as fitness for use managed through planning, control, and improvement.",
     "Example": "A PM invests in design reviews and automated testing so defects are prevented early, arguing the prevention cost is lower than late rework.",
     "Synonyms": [
-      "Zero Defects"
+      "Zero defects"
     ],
     "Related Terms": [
-      "Juran's Quality Trilogy",
-      "Cost of Quality",
-      "Cost of Nonconformance",
+      "Juran's quality trilogy",
+      "Cost of quality",
+      "Cost of nonconformance",
       "Prevention cost"
     ],
     "Tier": "Adjacent concept",
@@ -397,7 +397,7 @@
       "Quality",
       "Requirements",
       "Stakeholder engagement",
-      "Benefits realisation",
+      "Benefits realization",
       "Value delivery"
     ],
     "Tier": "Core glossary",
@@ -466,8 +466,8 @@
     "Example": "A project team introduces peer reviews, coding standards, and automated test checks before integration so common errors are avoided instead of discovered during user acceptance testing.",
     "Related Terms": [
       "Quality",
-      "Manage Quality",
-      "Control Quality",
+      "Manage quality",
+      "Control quality",
       "Inspection",
       "Prevention over inspection"
     ],
@@ -475,7 +475,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Defect Repair",
+    "Term": "Defect repair",
     "Core Meaning": "The action taken to correct a defect in a component or deliverable.",
     "Depth": "Standard",
     "Expansion": "Defect repair is the work performed to fix a discovered nonconformance so the product can meet requirements or quality expectations. It may involve rework, replacement, correction, or another approved remedy depending on the nature of the defect. In PMI usage, it is a specific response to a quality problem rather than a general performance adjustment.",
@@ -493,7 +493,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Defect repair"
   },
   {
-    "Term": "Deming Cycle",
+    "Term": "Deming cycle",
     "Core Meaning": "A four-step iterative model for continuous improvement: Plan-Do-Check-Act.",
     "Depth": "Foundational",
     "Expansion": "The Deming Cycle, also called the PDCA or Shewhart cycle, is a repeating loop of Plan, Do, Check, and Act used to drive continuous improvement. You plan a change, do it on a small scale, check the results against expectations, and act by adopting, adjusting, or abandoning it. Each pass feeds learning into the next, steadily refining a process or product. It underpins much of modern quality management and many lean and agile practices.",
@@ -502,7 +502,7 @@
     "Example": "A team struggling with defects plans a new code-review step, runs it for one sprint, checks the defect rate, then standardizes the step after confirming the improvement.",
     "Synonyms": [
       "PDCA",
-      "Plan-Do-Check-Act",
+      "Plan-do-check-act",
       "Shewhart cycle"
     ],
     "Related Terms": [
@@ -515,7 +515,7 @@
     "Source": "Deming/Shewhart Plan-Do-Check-Act cycle (quality management theory)"
   },
   {
-    "Term": "Design for X",
+    "Term": "Design for x",
     "Core Meaning": "A product design approach that optimises a design for a specific characteristic such as manufacturability, reliability, cost, serviceability, or safety.",
     "Depth": "Standard",
     "Expansion": "Design for X is a family of design approaches that deliberately emphasises one or more critical quality or lifecycle characteristics during product development. PMI uses it in the quality context as a way to build desired attributes into the design rather than relying only on inspection later. It helps teams align technical choices with operational needs, customer expectations, and downstream constraints such as production or maintenance.",
@@ -551,7 +551,7 @@
       "Control quality",
       "Statistical sampling",
       "Cause and effect",
-      "Design for X"
+      "Design for x"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Sixth Edition, Glossary, design of experiments, p. 706"
@@ -568,11 +568,11 @@
       "svg": "<svg viewBox='0 0 316 119' xmlns='http://www.w3.org/2000/svg' fill='none'><path d='M286,50 C 296,90 26,90 32,52' stroke='currentColor' stroke-width='1.1' stroke-dasharray='4 3'/><polygon points='32,52 27,62 37,61' fill='currentColor'/><circle cx='30' cy='30' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='30' y='35' fill='currentColor' font-size='13' text-anchor='middle'>D</text><text x='30' y='68' fill='currentColor' font-size='8' text-anchor='middle'>Define</text><circle cx='94' cy='30' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='94' y='35' fill='currentColor' font-size='13' text-anchor='middle'>M</text><text x='94' y='68' fill='currentColor' font-size='8' text-anchor='middle'>Measure</text><circle cx='158' cy='30' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='158' y='35' fill='currentColor' font-size='13' text-anchor='middle'>A</text><text x='158' y='68' fill='currentColor' font-size='8' text-anchor='middle'>Analyse</text><circle cx='222' cy='30' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='222' y='35' fill='currentColor' font-size='13' text-anchor='middle'>I</text><text x='222' y='68' fill='currentColor' font-size='8' text-anchor='middle'>Improve</text><circle cx='286' cy='30' r='18' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.5'/><text x='286' y='35' fill='currentColor' font-size='13' text-anchor='middle'>C</text><text x='286' y='68' fill='currentColor' font-size='8' text-anchor='middle'>Control</text><line x1='50' y1='30' x2='72' y2='30' stroke='currentColor' stroke-width='1.2'/><polygon points='76,30 68,26 68,34' fill='currentColor'/><line x1='114' y1='30' x2='136' y2='30' stroke='currentColor' stroke-width='1.2'/><polygon points='140,30 132,26 132,34' fill='currentColor'/><line x1='178' y1='30' x2='200' y2='30' stroke='currentColor' stroke-width='1.2'/><polygon points='204,30 196,26 196,34' fill='currentColor'/><line x1='242' y1='30' x2='264' y2='30' stroke='currentColor' stroke-width='1.2'/><polygon points='268,30 260,26 260,34' fill='currentColor'/><text x='158' y='104' fill='currentColor' font-size='8' text-anchor='middle'>improve an existing process, then sustain and repeat</text></svg>"
     },
     "Synonyms": [
-      "Define-Measure-Analyze-Improve-Control"
+      "Define-measure-analyze-improve-control"
     ],
     "Related Terms": [
       "Six Sigma",
-      "Deming Cycle",
+      "Deming cycle",
       "Continuous improvement",
       "Root cause analysis"
     ],
@@ -580,7 +580,7 @@
     "Source": "Six Sigma - DMAIC methodology"
   },
   {
-    "Term": "External Failures",
+    "Term": "External failures",
     "Core Meaning": "Quality failures discovered by the customer after delivery.",
     "Depth": "Atomic",
     "Expansion": "External failure costs are part of the cost of nonconformance and arise when defects reach the customer - through returns, warranty claims, recalls, or damage to reputation. They are usually the most expensive failures because they occur after the product has left the organization.",
@@ -770,7 +770,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Internal Failures",
+    "Term": "Internal failures",
     "Core Meaning": "Defects found by the project team before the deliverable reaches the customer.",
     "Depth": "Standard",
     "Expansion": "Internal failure costs are a category of the cost of quality, covering rework, scrap, and re-testing needed to fix defects discovered internally before delivery. They are part of the cost of nonconformance, but catching defects internally is far cheaper than letting them reach the customer as external failures. Tracking them helps justify investment in prevention and appraisal.",
@@ -803,7 +803,7 @@
     "Source": "International Organization for Standardization (ISO 9000 family)"
   },
   {
-    "Term": "Juran's Quality Trilogy",
+    "Term": "Juran's quality trilogy",
     "Core Meaning": "A framework defining quality management as three interconnected processes - quality planning, quality control, and quality improvement.",
     "Depth": "Standard",
     "Expansion": "Joseph Juran held that managing for quality rests on three processes:\n\n- Quality planning — designing products and processes to meet customer needs.\n- Quality control — monitoring operations and holding the gains.\n- Quality improvement — raising performance to new levels by attacking chronic problems.\n\nJuran also defined quality as fitness for use, emphasising the customer's real needs over mere conformance to specification. The trilogy mirrors how organisations manage finances through budgeting, cost control, and cost reduction.",
@@ -811,12 +811,12 @@
     "Contrast": "Crosby's Zero Defects - Juran defines quality as fitness for use and accepts an economic balance point, whereas Crosby defines quality as conformance to requirements with an absolute goal of zero defects.",
     "Example": "A PM plans quality metrics up front (planning), inspects deliverables against them (control), and runs retrospectives to cut recurring defects (improvement).",
     "Synonyms": [
-      "Juran Trilogy",
-      "Quality Trilogy"
+      "Juran trilogy",
+      "Quality trilogy"
     ],
     "Related Terms": [
-      "Crosby's Zero Defects",
-      "Cost of Quality",
+      "Crosby's zero defects",
+      "Cost of quality",
       "Quality management",
       "Continuous improvement"
     ],
@@ -874,13 +874,13 @@
       "Reliability",
       "Lifecycle",
       "Requirements",
-      "Technical Performance Measures"
+      "Technical performance measures"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Manage Quality",
+    "Term": "Manage quality",
     "Core Meaning": "The process of translating quality requirements into executable quality activities and evaluating whether project processes are adequate to achieve the intended quality outcomes.",
     "Depth": "Standard",
     "Expansion": "Manage Quality focuses on building quality into the work rather than only inspecting results after the fact. It uses audits, process analysis, and continuous-improvement techniques to confirm that planned quality approaches are practical and effective. The process connects quality planning with day-to-day execution so that deliverables are produced through capable, controlled processes.",
@@ -889,7 +889,7 @@
     "Example": "On an infrastructure project, the team reviews concrete testing procedures, audits supplier inspection steps, and updates work instructions before large-scale pours begin.",
     "Related Terms": [
       "Quality management plan",
-      "Control Quality",
+      "Control quality",
       "Quality assurance",
       "Process analysis",
       "Continuous improvement"
@@ -898,7 +898,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition and Process Groups: A Practice Guide, Manage Quality"
   },
   {
-    "Term": "Matrix Diagram",
+    "Term": "Matrix diagram",
     "Core Meaning": "A quality tool that shows the strength of relationships among factors arranged in rows and columns.",
     "Depth": "Standard",
     "Expansion": "A matrix diagram is one of the seven quality management and control tools, used to analyze the relationships between two or more groups of items placed in the rows and columns of a grid. Symbols or values in the cells indicate the presence and strength of each relationship, helping teams prioritize. Common forms include the L-shaped, T-shaped, and Y-shaped matrices, depending on how many groups are compared.",
@@ -968,7 +968,7 @@
     "Source": "PMI Lexicon of Project Management Terms — nonconformance"
   },
   {
-    "Term": "Nonconformance Work",
+    "Term": "Nonconformance work",
     "Core Meaning": "The cost of quality spent dealing with failures and rework because work was not done correctly the first time.",
     "Depth": "Standard",
     "Expansion": "Nonconformance work is part of the cost of quality, covering everything done to handle defects and failures, including internal rework and scrap and external warranty, returns, and liability. It is the money spent because deliverables did not meet requirements, in contrast to the proactive cost of conformance. Effective quality management invests in conformance so that nonconformance work trends toward zero.",
@@ -976,10 +976,10 @@
     "Contrast": "Conformance work - conformance work prevents defects through planning and inspection, whereas nonconformance work pays for the consequences of defects after they occur.",
     "Example": "The labor and materials needed to rework a batch of parts that failed inspection.",
     "Related Terms": [
-      "Cost of Quality",
-      "Conformance Work",
-      "Internal Failures",
-      "External Failures"
+      "Cost of quality",
+      "Conformance work",
+      "Internal failures",
+      "External failures"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - cost of quality"
@@ -1003,7 +1003,7 @@
     "Source": "Project Quality Management guidelines in PMI standards; exact page citation requires source confirmation"
   },
   {
-    "Term": "Pareto Chart",
+    "Term": "Pareto chart",
     "Core Meaning": "A bar chart used to show which causes or categories contribute most to a problem so effort can be focused where it has the greatest effect.",
     "Depth": "Standard",
     "Expansion": "PMI describes Pareto diagrams as a histogram that can communicate the results of root cause analysis. In project quality work, the chart helps teams separate the 'vital few' causes from the less significant many. This makes it useful for prioritising corrective action when multiple defects, issues, or complaint types are present.",
@@ -1014,7 +1014,7 @@
       "svg": "<svg viewBox='0 0 278 153' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='12' y1='12' x2='12' y2='126' stroke='currentColor' stroke-width='1'/><line x1='12' y1='126' x2='266' y2='126' stroke='currentColor' stroke-width='1'/><line x1='12' y1='38' x2='262' y2='38' stroke='#B5462F' stroke-width='0.9' stroke-dasharray='4 3'/><text x='264' y='35' fill='#B5462F' font-size='8' text-anchor='end'>80%</text><rect x='16' y='16' width='42' height='110' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1'/><rect x='66' y='63' width='42' height='63' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1'/><rect x='116' y='105' width='42' height='21' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1'/><rect x='166' y='115.5' width='42' height='10.5' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1'/><rect x='216' y='119.7' width='42' height='6.3' fill='#1F5FA8' fill-opacity='0.15' stroke='#1F5FA8' stroke-width='1'/><polyline points='37,68.8 87,35.8 137,24.8 187,20 237,16' stroke='#1F5FA8' stroke-width='1.6'/><circle cx='37' cy='68.8' r='2.6' fill='#1F5FA8'/><circle cx='87' cy='35.8' r='2.6' fill='#1F5FA8'/><circle cx='137' cy='24.8' r='2.6' fill='#1F5FA8'/><circle cx='187' cy='20' r='2.6' fill='#1F5FA8'/><circle cx='237' cy='16' r='2.6' fill='#1F5FA8'/><text x='37' y='138' fill='currentColor' font-size='8' text-anchor='middle'>Wiring</text><text x='87' y='138' fill='currentColor' font-size='8' text-anchor='middle'>Solder</text><text x='137' y='138' fill='currentColor' font-size='8' text-anchor='middle'>Align</text><text x='187' y='138' fill='currentColor' font-size='8' text-anchor='middle'>Label</text><text x='237' y='138' fill='currentColor' font-size='8' text-anchor='middle'>Pack</text></svg>"
     },
     "Synonyms": [
-      "80/20 chart",
+      "80/20 Chart",
       "Pareto diagram"
     ],
     "Related Terms": [
@@ -1027,7 +1027,7 @@
     "Source": "The PMI Guide to Business Analysis, Section 4.2.2.7 Pareto Diagrams, p. 69"
   },
   {
-    "Term": "Pareto's Law",
+    "Term": "Pareto's law",
     "Core Meaning": "The principle that roughly 80 percent of effects come from 20 percent of causes.",
     "Depth": "Standard",
     "Expansion": "Pareto's law, the 80/20 principle, observes that a small number of causes typically account for the majority of results, problems, or defects. In quality management it directs attention to the vital few sources responsible for most issues, often visualized with a Pareto chart. Focusing improvement effort on that critical 20 percent yields the greatest return.",
@@ -1035,20 +1035,20 @@
     "Contrast": "Pareto chart - Pareto's law is the underlying 80/20 principle, whereas a Pareto chart is the ranked bar chart used to apply it to real data.",
     "Example": "Finding that 80 percent of customer complaints stem from 20 percent of the defect types, and fixing those first.",
     "Synonyms": [
-      "80/20 rule",
+      "80/20 Rule",
       "Pareto principle"
     ],
     "Related Terms": [
-      "Pareto Chart",
-      "Cause-and-Effect Diagram",
-      "Quality Control",
-      "Seven Basic Quality Tools"
+      "Pareto chart",
+      "Cause-and-effect diagram",
+      "Quality control",
+      "Seven basic quality tools"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - quality tools (Pareto principle)"
   },
   {
-    "Term": "Peer Review",
+    "Term": "Peer review",
     "Core Meaning": "Examination of a person's work by a qualified colleague to find errors and improve quality.",
     "Depth": "Atomic",
     "Expansion": "A peer review is a quality technique in which a coworker of similar expertise inspects completed work, such as requirements, code, or documents, to catch defects and confirm completeness. By bringing a second set of informed eyes before formal acceptance, it catches problems early and cheaply.",
@@ -1057,7 +1057,7 @@
     "Example": "A business analyst asking a colleague to review a requirements document before sending it to stakeholders.",
     "Related Terms": [
       "Inspection",
-      "Quality Control",
+      "Quality control",
       "Walkthrough",
       "Verification"
     ],
@@ -1065,7 +1065,7 @@
     "Source": "PMBOK Guide - quality control techniques"
   },
   {
-    "Term": "Plan Quality Management",
+    "Term": "Plan quality management",
     "Core Meaning": "The process of identifying quality requirements and standards for the project and documenting how to meet them.",
     "Depth": "Standard",
     "Expansion": "Plan Quality Management determines the quality requirements and standards that apply to the project and its deliverables and defines how compliance will be demonstrated. Its main output is the quality management plan, which guides later assurance and control work. Planning quality early helps embed prevention over inspection and avoids costly rework.",
@@ -1074,8 +1074,8 @@
     "Example": "For a medical device project, the team documents applicable regulatory standards and test criteria in the quality management plan.",
     "Related Terms": [
       "Quality management plan",
-      "Manage Quality",
-      "Control Quality",
+      "Manage quality",
+      "Control quality",
       "Quality metrics"
     ],
     "Tier": "Core glossary",
@@ -1327,7 +1327,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Project Quality Management",
+    "Term": "Project quality management",
     "Core Meaning": "The knowledge area that applies the organization's quality policy to plan, manage, and control project and product quality requirements.",
     "Depth": "Standard",
     "Expansion": "Project Quality Management comprises Plan Quality Management, Manage Quality (quality assurance), and Control Quality. It works to ensure the project satisfies the needs for which it was undertaken, emphasizing prevention over inspection and continuous improvement. It addresses both the quality of the project's deliverables and the quality of the management processes used.",
@@ -1335,8 +1335,8 @@
     "Contrast": "Manage Quality vs Control Quality - Manage Quality is process- and assurance-focused, while Control Quality inspects deliverables for conformance.",
     "Example": "A team writes a quality management plan, audits processes, and inspects deliverables against checklists to keep defects within tolerance.",
     "Related Terms": [
-      "Plan Quality Management",
-      "Control Quality",
+      "Plan quality management",
+      "Control quality",
       "Cost of quality",
       "Quality assurance"
     ],
@@ -1400,7 +1400,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 8.2.2.5, page 291"
   },
   {
-    "Term": "Quality Checklists",
+    "Term": "Quality checklists",
     "Core Meaning": "Structured lists of items to inspect or steps to perform, used to verify that deliverables meet quality requirements.",
     "Depth": "Atomic",
     "Expansion": "Quality checklists are component- or activity-specific lists created during Plan Quality Management and used in Control Quality to confirm that required steps were performed and that deliverables conform to standards. They promote consistency and completeness in inspections.",
@@ -1408,8 +1408,8 @@
     "Contrast": "Quality metrics - a checklist confirms steps and items, while a quality metric defines a measurable attribute and its tolerance.",
     "Example": "An installation team uses a checklist to confirm every wiring step before sign-off.",
     "Related Terms": [
-      "Control Quality",
-      "Plan Quality Management",
+      "Control quality",
+      "Plan quality management",
       "Quality metrics",
       "Inspection"
     ],
@@ -1508,7 +1508,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, section 8.1.3.1 Quality Management Plan, p. 282"
   },
   {
-    "Term": "Quality Management System",
+    "Term": "Quality management system",
     "Core Meaning": "The organizational framework of policies, processes, and procedures used to plan, execute, and control quality.",
     "Depth": "Standard",
     "Expansion": "A quality management system (QMS) provides the structure through which an organization directs and coordinates its quality activities, often aligned to standards such as ISO 9000. On projects it supplies the policies, procedures, and resources that the quality management plan draws upon. A QMS supports continuous improvement and consistent, repeatable quality outcomes.",
@@ -1598,7 +1598,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 8.3.3.2, page 300"
   },
   {
-    "Term": "Quality Requirement",
+    "Term": "Quality requirement",
     "Core Meaning": "A condition or capability used to assess conformance by validating the acceptability of an attribute for the quality of a result.",
     "Depth": "Atomic",
     "Expansion": "A quality requirement specifies the standard a deliverable's attribute must meet to be acceptable, giving an objective basis for validation. It is captured during requirements collection and quality planning and verified during Control Quality.",
@@ -1609,7 +1609,7 @@
       "Acceptance criteria",
       "Quality metrics",
       "Requirements documentation",
-      "Control Quality"
+      "Control quality"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - quality requirement"
@@ -1744,7 +1744,7 @@
     "Source": "PMBOK Guide Seventh Edition, section 7.8.2.10"
   },
   {
-    "Term": "Rule of Seven",
+    "Term": "Rule of seven",
     "Core Meaning": "A control chart heuristic that flags seven consecutive points on the same side of the mean as a likely non-random pattern.",
     "Depth": "Standard",
     "Expansion": "The rule of seven is a rule of thumb used in statistical process control: when seven or more consecutive data points fall on one side of the mean, the process is treated as out of control even if no point breaches the control limits. The pattern suggests an assignable (special) cause rather than normal random variation and should be investigated. It helps detect drift or bias that single-point checks would miss.",
@@ -1753,7 +1753,7 @@
     "Example": "On a control chart tracking weld defects, seven straight measurements above the mean prompt the team to investigate a possible equipment problem.",
     "Related Terms": [
       "Control chart",
-      "Special Cause",
+      "Special cause",
       "Common cause",
       "Variation"
     ],
@@ -1829,7 +1829,7 @@
     "Contrast": "SIPOC stays at a summary altitude of five to seven steps, while a detailed process map decomposes each step.",
     "Example": "A Six Sigma team builds a SIPOC for the invoicing process to agree on its start and end points before measuring defects.",
     "Synonyms": [
-      "Suppliers, Inputs, Process, Outputs, Customers"
+      "Suppliers, inputs, process, outputs, customers"
     ],
     "Related Terms": [
       "Process map",
@@ -1860,7 +1860,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Special Cause",
+    "Term": "Special cause",
     "Core Meaning": "A source of process variation that is not inherent to the system and signals an assignable problem.",
     "Depth": "Standard",
     "Expansion": "A special cause (or assignable cause) is variation arising from a specific, unusual factor rather than the normal operation of the process. On a control chart it shows up as points outside the control limits or as non-random patterns within them, indicating the process is out of control and needs investigation. Identifying and removing special causes restores the process to a stable, predictable state.",
@@ -1873,7 +1873,7 @@
     "Related Terms": [
       "Common cause",
       "Control chart",
-      "Rule of Seven",
+      "Rule of seven",
       "Variation"
     ],
     "Tier": "Adjacent concept",
@@ -1906,8 +1906,8 @@
     "Contrast": "Methodology — a standard sets authoritative guidance or requirements, while a methodology is a specific system of practices and procedures used to perform the work.",
     "Example": "A PMO aligns its delivery governance to PMI's Standard for Project Management so project teams use a shared basis for planning, oversight, and decision-making.",
     "Related Terms": [
-      "The Standard for Project Management",
-      "PMBOK Guide",
+      "The standard for project management",
+      "PMBOK guide",
       "Framework",
       "Methodology",
       "Governance"
@@ -2024,7 +2024,7 @@
     "Source": "PMBOK Guide Seventh Edition / Process Groups A Practice Guide — Technical performance analysis, p. 205"
   },
   {
-    "Term": "Technical Performance Measures",
+    "Term": "Technical performance measures",
     "Core Meaning": "Technical performance measures are indicators that track whether a product, system, or project deliverable is achieving required technical parameters over time.",
     "Depth": "Standard",
     "Expansion": "These measures compare actual technical achievement against planned specifications or thresholds, such as weight, speed, capacity, reliability, or response time. They help teams detect whether solution performance is drifting away from requirements before the issue becomes a late-stage quality or acceptance problem. In practice they are especially useful in engineering, construction, defense, technology, and product-development projects where technical compliance must be monitored progressively.",
@@ -2045,7 +2045,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Monitor Communications and Monitor Risks glossary usage; also formal term in PMI Lexicon, exact page varies by edition"
   },
   {
-    "Term": "Test and Evaluation Documents",
+    "Term": "Test and evaluation documents",
     "Core Meaning": "Project documents that define how deliverables will be checked against quality requirements.",
     "Depth": "Atomic",
     "Expansion": "Test and evaluation documents describe the activities, criteria, and records used to verify that deliverables meet quality goals, and they capture results during control quality. They are created when managing quality and provide evidence of conformance.",
@@ -2053,8 +2053,8 @@
     "Contrast": "Quality Checklists - a quality checklist is a simple list of items to verify, whereas test and evaluation documents are the broader set defining and recording how testing is done.",
     "Example": "Test plans, inspection sheets, and evaluation reports prepared for a new medical device.",
     "Related Terms": [
-      "Quality Checklists",
-      "Quality Requirement",
+      "Quality checklists",
+      "Quality requirement",
       "Control quality",
       "Manage quality"
     ],
@@ -2062,7 +2062,7 @@
     "Source": "PMBOK Guide - test and evaluation documents"
   },
   {
-    "Term": "Test Plan",
+    "Term": "Test plan",
     "Core Meaning": "A test plan is a document that describes the scope, approach, resources, schedule, and criteria for testing a product or deliverable.",
     "Depth": "Standard",
     "Expansion": "It defines what will be tested, how testing will be performed, who is responsible, and what conditions must be met for acceptance or completion. In project management it supports quality planning and control by making verification activities explicit rather than ad hoc. Test plans are especially visible in software, systems, product-development, and regulated environments, but the concept applies wherever deliverables require structured validation.",
@@ -2098,7 +2098,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Total Quality Management (TQM)",
+    "Term": "Total quality management (TQM)",
     "Core Meaning": "An organization-wide philosophy of continuous improvement that engages everyone in raising quality.",
     "Depth": "Standard",
     "Expansion": "TQM is a management approach in which all members of an organization continuously improve processes, products, and culture to meet or exceed customer expectations. It stresses customer focus, employee involvement, fact-based decisions, and ongoing process improvement. It influenced modern quality practice and underlies tools such as the Deming cycle.",
@@ -2106,7 +2106,7 @@
     "Contrast": "Six Sigma - Six Sigma is a data-driven methodology focused on reducing defects and variation, whereas TQM is a broader organization-wide quality philosophy.",
     "Example": "A manufacturer empowers every employee to suggest process improvements and tracks customer satisfaction as a company-wide goal.",
     "Related Terms": [
-      "Deming Cycle",
+      "Deming cycle",
       "Continuous improvement",
       "Cost of conformance",
       "Six Sigma"
@@ -2190,7 +2190,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Validation"
   },
   {
-    "Term": "Variables Sampling",
+    "Term": "Variables sampling",
     "Core Meaning": "Quality sampling that measures a characteristic on a continuous scale rather than as pass or fail.",
     "Depth": "Standard",
     "Expansion": "Variables sampling assesses quality by measuring a quantifiable attribute, such as length or weight, and recording the actual value on a continuous scale. It yields more information per sample than attribute sampling and supports analysis of how far results deviate from target. It is used when the degree of conformance, not just conformance itself, matters.",

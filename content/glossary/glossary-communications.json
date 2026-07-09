@@ -8,7 +8,7 @@
     "Contrast": "Communications Management Plan — Communication is the actual exchange of information; the Communications Management Plan defines how project communications will be structured and governed.",
     "Example": "A project manager briefs sponsors on milestone risk, confirms the team understood the revised priorities, and follows up with written actions so everyone is aligned.",
     "Related Terms": [
-      "Communications Management Plan",
+      "Communications management plan",
       "Stakeholder engagement",
       "Information distribution",
       "Feedback"
@@ -35,7 +35,7 @@
     "Source": "PMBOK Guide — communication methods; exact page citation not confirmed in available search results"
   },
   {
-    "Term": "Communication Models",
+    "Term": "Communication models",
     "Core Meaning": "Representations of how the communication process works, used to plan effective project communication.",
     "Depth": "Standard",
     "Expansion": "Communication models describe the process by which information is encoded by a sender, transmitted through a medium, and decoded by a receiver, including the noise and feedback that affect understanding. They help project managers anticipate where messages can be distorted and design communications that account for the audience and barriers. The basic sender-receiver model can be extended to reflect cross-cultural and interactive nuances.",
@@ -43,8 +43,8 @@
     "Contrast": "Communication methods - communication methods are the channels used (push, pull, interactive), whereas communication models explain the underlying encode-transmit-decode process.",
     "Example": "Recognizing from the sender-receiver model that 'noise' such as jargon may distort a status report, the project manager simplifies the language.",
     "Related Terms": [
-      "Communication Methods",
-      "Communication Requirements Analysis"
+      "Communication methods",
+      "Communication requirements analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - communication models"
@@ -67,7 +67,7 @@
     "Source": "PMI Lexicon, Communication skills; page citation not confirmed in available sources"
   },
   {
-    "Term": "Communication Styles Assessment",
+    "Term": "Communication styles assessment",
     "Core Meaning": "A technique for identifying stakeholders' preferred communication methods and styles in order to tailor engagement.",
     "Depth": "Standard",
     "Expansion": "A communication styles assessment is a technique used to identify the preferred communication style, format, and content for planned communications, especially for stakeholders whose support is needed. It helps the project manager adapt messages to how different people best receive information. It is often used together with stakeholder engagement planning.",
@@ -75,9 +75,9 @@
     "Contrast": "Communication requirements analysis - requirements analysis determines what information stakeholders need, whereas a styles assessment determines how they prefer to receive it.",
     "Example": "Assessing that a key sponsor prefers brief verbal briefings over lengthy written reports, and adjusting communications accordingly.",
     "Related Terms": [
-      "Stakeholder Engagement",
-      "Communication Models",
-      "Cultural Awareness"
+      "Stakeholder engagement",
+      "Communication models",
+      "Cultural awareness"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Plan Stakeholder Engagement (communication styles assessment)"
@@ -95,7 +95,7 @@
     ],
     "Related Terms": [
       "Communication",
-      "Communications Management Plan",
+      "Communications management plan",
       "Stakeholder engagement",
       "Information distribution",
       "Stakeholder communication"
@@ -104,7 +104,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management chapter and glossary, page citation depends on format"
   },
   {
-    "Term": "Communications Management Plan",
+    "Term": "Communications management plan",
     "Core Meaning": "A component of the project management plan that describes how, when, and by whom information will be administered and disseminated.",
     "Depth": "Standard",
     "Expansion": "The Communications Management Plan defines the project's approach to creating, storing, distributing, and monitoring information. It helps align communication methods, timing, audiences, and responsibilities with stakeholder needs. It is used to make communication more deliberate and less dependent on ad hoc habits across the team.",
@@ -114,7 +114,7 @@
     "Related Terms": [
       "Project management plan",
       "Communication",
-      "Stakeholder Engagement Plan",
+      "Stakeholder engagement plan",
       "Information distribution",
       "Stakeholder"
     ],
@@ -146,14 +146,14 @@
     "Contrast": "Stakeholder analysis - stakeholder analysis identifies and assesses who the stakeholders are, whereas communication requirements analysis focuses on what information those stakeholders need.",
     "Example": "Analyzing that executives need a monthly one-page summary while the team needs daily standup updates.",
     "Synonyms": [
-      "Communication Requirements Analysis"
+      "Communication requirements analysis"
     ],
     "Related Terms": [
-      "Communications Management Plan",
-      "Stakeholder Analysis",
+      "Communications management plan",
+      "Stakeholder analysis",
       "Information distribution",
       "Stakeholder engagement",
-      "Number of Communication Channels"
+      "Number of communication channels"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Plan Communications Management"
@@ -237,7 +237,7 @@
     "Contrast": "Lessons learned register — a final report summarises overall project outcomes at closure, while a lessons learned register captures learning in more detailed form across the life of the project.",
     "Example": "At the end of an office relocation project, the project manager issues a final report covering scope delivered, budget performance, schedule variance, stakeholder feedback, and key lessons.",
     "Related Terms": [
-      "Close Project or Phase",
+      "Close project or phase",
       "Lessons learned register",
       "Project documents",
       "Project performance"
@@ -246,7 +246,7 @@
     "Source": "PMI Knowledgebase, term Final report"
   },
   {
-    "Term": "Fishbowl Window",
+    "Term": "Fishbowl window",
     "Core Meaning": "A persistent video link kept open all day between dispersed team locations to enable spontaneous interaction.",
     "Depth": "Atomic",
     "Expansion": "A fishbowl window is a technique for distributed agile teams in which a continuous video-conferencing link stays open throughout the workday between locations. It lets remote team members see and casually talk to each other on demand, reducing the collaboration lag that comes from being physically apart.",
@@ -299,7 +299,7 @@
     "Source": "The PMI Guide to Business Analysis — glossary/index reference for Information distribution, page 395"
   },
   {
-    "Term": "Information Management Systems",
+    "Term": "Information management systems",
     "Core Meaning": "The tools and processes used to capture, store, and distribute project information to stakeholders.",
     "Depth": "Atomic",
     "Expansion": "Information management systems are the manual and electronic tools, such as document repositories, shared drives, and collaboration platforms, used to collect, organize, and circulate project information. They support communications by getting the right information to the right stakeholders in a usable form.",
@@ -367,7 +367,7 @@
     "Source": "PMI Knowledgebase — low context culture; based on Hofstede cultural dimensions excerpt in available search results"
   },
   {
-    "Term": "Manage Communications",
+    "Term": "Manage communications",
     "Core Meaning": "The process of ensuring timely and appropriate collection, creation, distribution, storage, retrieval, management, monitoring, and ultimate disposition of project information.",
     "Depth": "Foundational",
     "Expansion": "Manage Communications is the process that carries out the project's communication approach in day-to-day work. It ensures information reaches stakeholders in forms they can use and at times that support action and decision-making. PMI treats it as an execution process because communication requires active production, distribution, storage, and control throughout the project lifecycle.",
@@ -375,7 +375,7 @@
     "Contrast": "Plan Communications Management — Manage Communications executes the communication approach; Plan Communications Management defines how communication will be structured.",
     "Example": "A project manager issues weekly progress dashboards to sponsors, posts daily coordination notes for the team, and stores approved decisions in the project repository.",
     "Related Terms": [
-      "Plan Communications Management",
+      "Plan communications management",
       "Communications management plan",
       "Stakeholder",
       "Project information",
@@ -402,7 +402,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Monitor Communications",
+    "Term": "Monitor communications",
     "Core Meaning": "The process of ensuring the information needs of the project and its stakeholders are met.",
     "Depth": "Standard",
     "Expansion": "Monitor Communications evaluates whether communication activities are actually producing understanding and meeting stakeholder information needs. It checks effectiveness, identifies gaps, and supports adjustments to format, timing, channel, or audience. The process matters because sending information does not guarantee that it is useful, received, or acted upon as intended.",
@@ -410,7 +410,7 @@
     "Contrast": "Manage Communications — Monitor Communications evaluates whether communication is effective; Manage Communications performs the actual creation, distribution, and retrieval of project information.",
     "Example": "After executives stop using a weekly status deck, the project manager replaces it with a one-page dashboard and a short decision-focused briefing.",
     "Related Terms": [
-      "Manage Communications",
+      "Manage communications",
       "Communications management plan",
       "Stakeholder engagement",
       "Performance reporting",
@@ -437,7 +437,7 @@
     "Source": "The PMI Guide to Business Analysis, Narrative"
   },
   {
-    "Term": "Number of Communication Channels",
+    "Term": "Number of communication channels",
     "Core Meaning": "The count of potential communication paths in a team, calculated as n times n minus 1 divided by 2.",
     "Depth": "Standard",
     "Expansion": "The number of communication channels measures how many distinct two-way links exist among stakeholders, using the formula n(n-1)/2 where n is the number of people. It illustrates how communication complexity grows rapidly as a team enlarges, informing the need for structured communication planning. Adding people increases channels far faster than it increases headcount.",
@@ -453,7 +453,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Osmotic Communication",
+    "Term": "Osmotic communication",
     "Core Meaning": "The informal absorption of useful information by team members simply from working near one another and overhearing relevant interactions.",
     "Depth": "Standard",
     "Expansion": "Osmotic communication is associated with highly collaborative, often agile team environments where shared space increases awareness and speeds problem solving. It matters because teams can pick up context, risks, and decisions without waiting for formal status exchanges. PMI discussions of agile ways of working treat it as a practical communication dynamic rather than a core formal glossary term.",
@@ -471,7 +471,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Parking Lot",
+    "Term": "Parking lot",
     "Core Meaning": "A facilitation technique for capturing off-topic but important points to address later without derailing the current discussion.",
     "Depth": "Atomic",
     "Expansion": "A parking lot is a visible list where a facilitator records tangential issues, questions, or ideas that arise during a meeting so they are not lost but do not consume current agenda time. The captured items are revisited at the meeting's end or assigned as follow-up actions.",
@@ -524,7 +524,7 @@
     "Source": "PMBOK Guide — work performance reports; page citation not available in retrieved source"
   },
   {
-    "Term": "Plan Communications Management",
+    "Term": "Plan communications management",
     "Core Meaning": "Plan Communications Management is the process of developing an appropriate approach and plan for project communications based on stakeholder information needs.",
     "Depth": "Foundational",
     "Expansion": "This process determines what information will be communicated, to whom, when, in what format, and through which channels. It aligns project communication methods with stakeholder expectations, governance requirements, and the operating environment. PMI treats it as a planning process that creates the communications management plan and improves the likelihood that the right people receive the right information at the right time.",
@@ -535,8 +535,8 @@
       "Communications management plan",
       "Communications requirements analysis",
       "Stakeholder engagement",
-      "Manage Communications",
-      "Monitor Communications"
+      "Manage communications",
+      "Monitor communications"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Plan Communications Management, pp. 70, 72, 73"
@@ -570,7 +570,7 @@
     "Related Terms": [
       "Work performance information",
       "Status report",
-      "Monitor and Control Project Work",
+      "Monitor and control project work",
       "Performance reporting"
     ],
     "Tier": "Practitioner term",
@@ -588,7 +588,7 @@
       "Work performance data",
       "Work performance information",
       "Work performance reports",
-      "Monitor and Control Project Work",
+      "Monitor and control project work",
       "Communications management"
     ],
     "Tier": "Practitioner term",
@@ -630,7 +630,7 @@
     "Source": "PMBOK Guide — not confirmed to exact page in available search results"
   },
   {
-    "Term": "Project Communications Management",
+    "Term": "Project communications management",
     "Core Meaning": "The knowledge area covering planning, managing, and monitoring project communications.",
     "Depth": "Standard",
     "Expansion": "Project Communications Management is the PMBOK knowledge area that ensures timely and appropriate planning, creation, distribution, storage, and disposition of project information. It includes planning communications, managing communications during execution, and monitoring that information needs are being met. Because project managers spend the majority of their time communicating, it is central to stakeholder engagement and project success.",
@@ -638,10 +638,10 @@
     "Contrast": "Stakeholder Management - communications management handles the flow of information, whereas stakeholder management focuses on engaging and influencing the people themselves.",
     "Example": "Defining who receives status reports, in what format, and how often, then producing and adjusting them.",
     "Related Terms": [
-      "Plan Communications Management",
-      "Manage Communications",
-      "Monitor Communications",
-      "Stakeholder Engagement"
+      "Plan communications management",
+      "Manage communications",
+      "Monitor communications",
+      "Stakeholder engagement"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Project Communications Management"
@@ -664,7 +664,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition, page 260"
   },
   {
-    "Term": "Project Reporting",
+    "Term": "Project reporting",
     "Core Meaning": "The act of collecting and distributing project information to stakeholders.",
     "Depth": "Atomic",
     "Expansion": "Project reporting gathers performance data and packages it into reports such as status, progress, and forecast reports for the right audiences at the right time. It is a key part of communications management and supports informed decision-making.",
@@ -673,7 +673,7 @@
     "Example": "A PM issues a weekly status report summarizing schedule, cost, and risk to the steering committee.",
     "Related Terms": [
       "Work performance reports",
-      "Manage Communications",
+      "Manage communications",
       "Stakeholder engagement"
     ],
     "Tier": "Core glossary",
@@ -691,7 +691,7 @@
       "Work performance data",
       "Work performance information",
       "Performance reporting",
-      "Monitor and Control Project Work",
+      "Monitor and control project work",
       "Project communications"
     ],
     "Tier": "Core glossary",
@@ -794,7 +794,7 @@
     "Example": "A project manager sends executives a concise monthly dashboard while giving the operations team detailed weekly working sessions.",
     "Related Terms": [
       "Stakeholder engagement",
-      "Communications Management Plan",
+      "Communications management plan",
       "Communications requirements analysis",
       "Stakeholder register"
     ],
@@ -802,7 +802,7 @@
     "Source": "PMBOK Guide — Manage Communications and Stakeholder Engagement"
   },
   {
-    "Term": "Status Meeting",
+    "Term": "Status meeting",
     "Core Meaning": "A regularly scheduled meeting to exchange and analyze information about the current progress of the project and its performance.",
     "Depth": "Standard",
     "Expansion": "A Status Meeting is a recurring forum used to review where the project stands against plan or current expectations. Participants share updates, assess progress, surface issues, and interpret performance information so decisions or follow-up actions can be taken. Its value comes from turning scattered updates into shared understanding and coordinated next steps.",
@@ -873,7 +873,7 @@
     "Source": "PMI Knowledgebase — Virtual collaboration tools"
   },
   {
-    "Term": "Visual Data and Information",
+    "Term": "Visual data and information",
     "Core Meaning": "Project data and information presented visually so patterns, trends, relationships, or status can be understood more quickly.",
     "Depth": "Atomic",
     "Expansion": "This concept covers charts, graphs, dashboards, and other visual displays used to communicate project meaning more clearly than raw text or numbers alone. In PMI practice it is a useful communication approach, but not a distinct formal glossary entry in the same way as a named method or technique.",

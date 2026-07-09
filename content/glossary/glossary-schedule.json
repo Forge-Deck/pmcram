@@ -18,7 +18,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Activity"
   },
   {
-    "Term": "Activity Attributes",
+    "Term": "Activity attributes",
     "Core Meaning": "The set of detailed characteristics associated with each schedule activity.",
     "Depth": "Standard",
     "Expansion": "Activity attributes extend the activity list by capturing the details needed to build and manage the schedule. They typically include an activity identifier and code, predecessors and successors, logical relationships, leads and lags, resource requirements, imposed dates, constraints, and assumptions. The attributes evolve as planning progresses and support schedule development, reporting, and filtering.",
@@ -26,16 +26,16 @@
     "Contrast": "Activity list - the activity list simply names the scheduled activities, whereas activity attributes hold the supporting detail for each one.",
     "Example": "For the activity 'Pour foundation,' the attributes record its predecessor 'Excavate site,' a 2-day lag for curing, and a crew of three laborers.",
     "Related Terms": [
-      "Activity List",
-      "Activity Code",
-      "Activity Identifier",
-      "Milestone List"
+      "Activity list",
+      "Activity code",
+      "Activity identifier",
+      "Milestone list"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Define Activities (activity attributes)"
   },
   {
-    "Term": "Activity Code",
+    "Term": "Activity code",
     "Core Meaning": "An alphanumeric value that classifies a schedule activity so activities can be sorted and filtered.",
     "Depth": "Atomic",
     "Expansion": "An activity code is a numeric or alphanumeric tag assigned to schedule activities to categorize them, for example by phase, location, or responsible department. Codes let planners filter, group, and order activities within schedule reports.",
@@ -43,9 +43,9 @@
     "Contrast": "Activity identifier - an identifier uniquely names one activity, whereas an activity code is a shared category used to group many activities.",
     "Example": "Tagging all electrical activities with the code 'ELEC' so a report can show only electrical work.",
     "Related Terms": [
-      "Activity Identifier",
-      "Activity Attributes",
-      "Work Breakdown Structure"
+      "Activity identifier",
+      "Activity attributes",
+      "Work breakdown structure"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - schedule activity attributes"
@@ -87,7 +87,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 191"
   },
   {
-    "Term": "Activity Duration Estimates",
+    "Term": "Activity duration estimates",
     "Core Meaning": "The quantitative assessments of the likely number of work periods needed to complete an activity.",
     "Depth": "Standard",
     "Expansion": "Activity duration estimates state how many work periods (hours, days, weeks) an activity is expected to take, given the planned resources. They may be expressed as a single value or as a range with confidence levels, and often note the assumptions behind them. These estimates feed schedule development and are produced by techniques such as analogous, parametric, and three-point estimating.",
@@ -95,9 +95,9 @@
     "Contrast": "Effort - effort is the number of labor units (e.g., person-hours) required, whereas duration is the elapsed work periods, which depend on how many resources are applied.",
     "Example": "Estimating that testing a module will take 5 days, assuming one tester works on it full time.",
     "Related Terms": [
-      "Three-Point Estimating",
+      "Three-point estimating",
       "Effort",
-      "Estimate Activity Durations"
+      "Estimate activity durations"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Estimate Activity Durations"
@@ -121,7 +121,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Estimate Activity Durations"
   },
   {
-    "Term": "Activity Identifier",
+    "Term": "Activity identifier",
     "Core Meaning": "A unique label distinguishing one schedule activity from all others in the schedule.",
     "Depth": "Atomic",
     "Expansion": "An activity identifier is a short unique code or number assigned to a single schedule activity so it can be referenced unambiguously in network diagrams, reports, and software. Unlike a category code, it points to exactly one activity.",
@@ -132,9 +132,9 @@
       "Activity ID"
     ],
     "Related Terms": [
-      "Activity Code",
-      "Activity Attributes",
-      "Schedule Network Diagram"
+      "Activity code",
+      "Activity attributes",
+      "Schedule network diagram"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - schedule activity attributes"
@@ -151,7 +151,7 @@
       "Activity",
       "Work breakdown structure",
       "Schedule model",
-      "Sequence Activities",
+      "Sequence activities",
       "Milestone list"
     ],
     "Tier": "Core glossary",
@@ -175,7 +175,7 @@
     ],
     "Related Terms": [
       "Schedule network diagram",
-      "Precedence Diagramming Method",
+      "Precedence diagramming method",
       "Dummy activity",
       "Dependency",
       "Critical path"
@@ -198,7 +198,7 @@
       "AON"
     ],
     "Related Terms": [
-      "Precedence Diagramming Method",
+      "Precedence diagramming method",
       "Schedule network diagram",
       "Dependency",
       "Logical relationship",
@@ -208,7 +208,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), activity-on-node, page 699"
   },
   {
-    "Term": "Actual Duration",
+    "Term": "Actual duration",
     "Core Meaning": "The real elapsed work time an activity has taken, measured from its actual start.",
     "Depth": "Atomic",
     "Expansion": "Actual duration is the number of work periods between an activity's actual start date and either the data date (for in-progress work) or the actual finish date (for completed work). It is compared against the planned duration to assess schedule performance.",
@@ -216,9 +216,9 @@
     "Contrast": "Remaining duration - actual duration is time already spent, whereas remaining duration is the time still estimated to finish.",
     "Example": "An activity that started Monday and is still running on Thursday's data date has an actual duration of 4 days.",
     "Related Terms": [
-      "Data Date",
-      "Remaining Duration",
-      "Percent Complete"
+      "Data date",
+      "Remaining duration",
+      "Percent complete"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - schedule terms"
@@ -233,15 +233,15 @@
     "Example": "An activity planned to start Monday actually began Wednesday, so the project manager records Wednesday as its actual start date and assesses the delay.",
     "Related Terms": [
       "Early start date",
-      "Late Start Date",
-      "Actual Duration",
+      "Late start date",
+      "Actual duration",
       "Schedule baseline"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms — actual start date"
   },
   {
-    "Term": "Analogous Estimating",
+    "Term": "Analogous estimating",
     "Core Meaning": "A technique for estimating duration, cost, or resources using historical data from a similar activity or project.",
     "Depth": "Standard",
     "Expansion": "Analogous Estimating uses information from past similar work to produce a high-level estimate for current work. It is usually faster and less detailed than bottom-up estimating, which makes it useful early when information is limited. Its accuracy depends on how comparable the prior work really is and how well differences are adjusted.",
@@ -253,16 +253,16 @@
     ],
     "Related Terms": [
       "Estimate",
-      "Bottom-up Estimating",
-      "Parametric Estimating",
-      "Duration Estimate",
-      "Cost Estimate"
+      "Bottom-up estimating",
+      "Parametric estimating",
+      "Duration estimate",
+      "Cost estimate"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide — Analogous Estimating"
   },
   {
-    "Term": "Antecedent Condition",
+    "Term": "Antecedent condition",
     "Core Meaning": "A predecessor relationship condition that must be true before a successor activity can begin or finish.",
     "Depth": "Atomic",
     "Expansion": "Antecedent condition is used in network logic to describe the prior condition that governs a following activity. It helps define sequencing logic in schedule development.",
@@ -273,7 +273,7 @@
       "Predecessor",
       "Successor",
       "Dependency",
-      "Sequence Activities"
+      "Sequence activities"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -393,7 +393,7 @@
     "Example": "The contractor sequences foundation, framing, and roofing with a network schedule so each trade has cleared predecessors before mobilizing.",
     "Related Terms": [
       "Schedule baseline",
-      "Milestone Schedule",
+      "Milestone schedule",
       "Resource leveling"
     ],
     "Tier": "Practitioner term",
@@ -453,7 +453,7 @@
     "Source": "PMBOK Guide Sixth Edition — Critical activity; exact page not available in provided results"
   },
   {
-    "Term": "Critical Chain Method",
+    "Term": "Critical chain method",
     "Core Meaning": "A scheduling method that plans work around resource constraints and protects delivery dates with strategically placed buffers.",
     "Depth": "Foundational",
     "Expansion": "Critical Chain Method is a schedule-development and control approach derived from the theory of constraints. Instead of focusing only on logical task dependencies, it also accounts for limited resource availability and uses project and feeding buffers to protect the completion date. It is most useful where shared resources and multitasking significantly affect schedule performance.",
@@ -467,7 +467,7 @@
       "CCM"
     ],
     "Related Terms": [
-      "Critical Path Method",
+      "Critical path method",
       "Buffer",
       "Resource leveling",
       "Schedule model",
@@ -547,7 +547,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / PMI Lexicon: critical path method; also reflected in Practice Standard for Scheduling, Third Edition"
   },
   {
-    "Term": "Data Date",
+    "Term": "Data date",
     "Core Meaning": "The point in time through which schedule progress information is known and statused.",
     "Depth": "Standard",
     "Expansion": "Data date is the cutoff date used when updating a schedule model with actual progress. It separates completed or statused work from future planned work in forecasting calculations. In scheduling practice, it anchors remaining duration, critical path analysis, and variance interpretation after a status update.",
@@ -569,7 +569,7 @@
     "Source": "Practice Standard for Scheduling, Glossary, data date, p. 183"
   },
   {
-    "Term": "Define Activities",
+    "Term": "Define activities",
     "Core Meaning": "The process of identifying and documenting the specific actions to be performed to produce the project deliverables.",
     "Depth": "Standard",
     "Expansion": "Define Activities breaks work packages and planning components into the discrete activities needed to create the planned outputs. It makes the schedule actionable by identifying what work must actually be performed rather than stopping at high-level scope statements. This process creates the activity list and related attributes used in sequencing, estimating, and scheduling.",
@@ -580,7 +580,7 @@
       "Activity",
       "Activity list",
       "Create WBS",
-      "Sequence Activities",
+      "Sequence activities",
       "Work package"
     ],
     "Tier": "Core glossary",
@@ -634,7 +634,7 @@
       "Dependency",
       "Mandatory dependency",
       "External dependency",
-      "Sequence Activities"
+      "Sequence activities"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition — Sequence Activities, page 185"
@@ -676,7 +676,7 @@
     "Source": "Scaled-agile / schedule practice — dependency mapping"
   },
   {
-    "Term": "Develop Schedule",
+    "Term": "Develop schedule",
     "Core Meaning": "The process of analyzing activity sequences, durations, resource requirements, and schedule constraints to create the project schedule model for execution and control.",
     "Depth": "Standard",
     "Expansion": "Develop Schedule turns activity and resource planning data into a workable schedule model. It evaluates sequencing logic, durations, calendars, constraints, and resource availability to forecast start and finish dates. The result supports execution, progress tracking, forecasting, and schedule control throughout the project.",
@@ -688,7 +688,7 @@
       "Critical path",
       "Resource requirements",
       "Schedule baseline",
-      "Sequence Activities"
+      "Sequence activities"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Develop Schedule, page 715"
@@ -762,7 +762,7 @@
       "Crashing",
       "Fast tracking",
       "Critical path",
-      "Schedule optimisation"
+      "Schedule optimization"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Develop Schedule process, schedule compression techniques; confirm exact page in local edition"
@@ -785,7 +785,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Estimate Activity Durations process; confirm exact page in local edition"
   },
   {
-    "Term": "Early Finish",
+    "Term": "Early finish",
     "Core Meaning": "The earliest possible point in time at which a schedule activity can finish based on the network logic and durations.",
     "Depth": "Standard",
     "Expansion": "Early Finish is calculated during schedule network analysis and shows the soonest an activity could complete if predecessor work occurs as planned. It is typically derived from the Early Start plus the activity duration. PMI uses it to support forward-pass calculations, float analysis, and schedule feasibility checks.",
@@ -796,8 +796,8 @@
       "EF"
     ],
     "Related Terms": [
-      "Early Start",
-      "Late Finish",
+      "Early start",
+      "Late finish",
       "Forward pass",
       "Float",
       "Schedule network analysis"
@@ -827,7 +827,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, PMBOK Guide Seventh Edition Glossary, early finish date, page 243"
   },
   {
-    "Term": "Early Start",
+    "Term": "Early start",
     "Core Meaning": "The earliest possible point in time at which a schedule activity can begin based on the network logic and durations.",
     "Depth": "Standard",
     "Expansion": "Early Start is the earliest time an activity can begin when predecessor relationships and durations are applied in schedule analysis. It is produced through the forward pass and is a key input to Early Finish calculations. PMI uses it to understand sequencing effects and the earliest achievable schedule.",
@@ -838,7 +838,7 @@
       "ES"
     ],
     "Related Terms": [
-      "Early Finish",
+      "Early finish",
       "Forward pass",
       "Schedule model",
       "Critical path"
@@ -868,7 +868,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, PMBOK Guide Seventh Edition Glossary, early start date, page 243"
   },
   {
-    "Term": "Earned Schedule (ES)",
+    "Term": "Earned schedule (ES)",
     "Core Meaning": "An extension of earned value that measures schedule performance in time units rather than cost.",
     "Depth": "Standard",
     "Expansion": "Earned schedule refines earned value management by expressing schedule progress in terms of time. It finds the point in time at which the planned value should have equaled the current earned value, producing schedule indicators that stay meaningful late in a project. It addresses a known weakness of traditional schedule variance, which is measured in cost and loses accuracy as a project nears completion.",
@@ -919,7 +919,7 @@
     "Source": "PMI Lexicon of Project Management Terms"
   },
   {
-    "Term": "Estimate Activity Durations",
+    "Term": "Estimate activity durations",
     "Core Meaning": "Estimate Activity Durations is the process of approximating the number of work periods needed to complete individual activities with estimated resources.",
     "Depth": "Standard",
     "Expansion": "This schedule management process develops duration estimates for the activities identified in the project schedule model. PMI positions it after activities are defined and sequenced because duration estimates depend on activity scope, resource capability, calendars, and constraints. Its output supports schedule development, forecasting, and analysis of delivery feasibility.",
@@ -929,9 +929,9 @@
     "Related Terms": [
       "Activity",
       "Duration estimate",
-      "Schedule Management",
-      "Estimate Costs",
-      "Develop Schedule"
+      "Schedule management",
+      "Estimate costs",
+      "Develop schedule"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Sixth Edition, 6.4 Estimate Activity Durations, p. 200"
@@ -973,7 +973,7 @@
     "Source": "PMI Lexicon / PMBOK Guide glossary, Fast tracking; page citation not available in retrieved source"
   },
   {
-    "Term": "Finish Date",
+    "Term": "Finish date",
     "Core Meaning": "The point in time associated with the completion of a schedule activity.",
     "Depth": "Standard",
     "Expansion": "Finish Date identifies when a scheduled activity is planned or calculated to be complete. It is used in schedule development and control alongside related terms such as early finish and late finish. Finish dates help teams understand sequencing, monitor progress, and evaluate the effect of delays on downstream work.",
@@ -981,9 +981,9 @@
     "Contrast": "Early Finish — Finish Date is the general completion point for an activity, while Early Finish is the earliest possible completion date based on schedule logic.",
     "Example": "A testing activity is planned to finish on 18 July, and that date is recorded as its finish date in the schedule.",
     "Related Terms": [
-      "Early Finish",
-      "Late Finish",
-      "Forward Pass",
+      "Early finish",
+      "Late finish",
+      "Forward pass",
       "Schedule activity",
       "Milestone"
     ],
@@ -1048,7 +1048,7 @@
     "Source": "PMBOK Guide glossary, Finish on, page 181"
   },
   {
-    "Term": "Finish-to-Finish",
+    "Term": "Finish-to-finish",
     "Core Meaning": "A logical relationship in which a successor activity cannot finish until a predecessor activity has finished.",
     "Depth": "Standard",
     "Expansion": "Finish-to-Finish is a schedule dependency that links the completion of one activity to the completion of another. It does not require the two activities to start together, only that the successor cannot finish before the predecessor finishes. PMI includes it as one of the four core precedence relationships used in schedule network logic.",
@@ -1060,16 +1060,16 @@
     ],
     "Related Terms": [
       "Logical relationship",
-      "Finish-to-Start Relationship",
-      "Start-to-Start relationship",
-      "Start-to-Finish relationship",
+      "Finish-to-start relationship",
+      "Start-to-start relationship",
+      "Start-to-finish relationship",
       "Sequence activities"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Finish-to-Finish, page 181"
   },
   {
-    "Term": "Finish-to-Finish relationship",
+    "Term": "Finish-to-finish relationship",
     "Core Meaning": "A logical relationship in which a successor activity cannot finish until a predecessor activity has finished.",
     "Depth": "Standard",
     "Expansion": "Finish-to-Finish is one of the precedence relationships used in schedule network analysis. It links the completion of one activity to the completion of another rather than linking their start dates. Project managers use it to model work that may proceed in parallel but must conclude in a defined sequence.",
@@ -1082,7 +1082,7 @@
     "Related Terms": [
       "Logical relationship",
       "Precedence relationship",
-      "Finish-to-Start relationship",
+      "Finish-to-start relationship",
       "Schedule network diagram"
     ],
     "Tier": "Core glossary",
@@ -1111,7 +1111,7 @@
     "Source": "PMBOK Guide — Seventh Edition / Process Groups: A Practice Guide, schedule network relationship definitions, exact page citation to confirm in PMI source"
   },
   {
-    "Term": "Finish-to-Start Relationship",
+    "Term": "Finish-to-start relationship",
     "Core Meaning": "A logical relationship in which a successor activity cannot start until a predecessor activity has finished.",
     "Depth": "Foundational",
     "Expansion": "Finish-to-Start is the most common dependency used in project schedules. It defines a handoff in which one piece of work must be completed before the next can begin. PMI treats it as one of the core logical relationship types used to build schedule networks and analyse project timing.",
@@ -1123,9 +1123,9 @@
     ],
     "Related Terms": [
       "Logical relationship",
-      "Start-to-Start relationship",
-      "Finish-to-Finish relationship",
-      "Critical Path Method",
+      "Start-to-start relationship",
+      "Finish-to-finish relationship",
+      "Critical path method",
       "Sequence activities"
     ],
     "Tier": "Core glossary",
@@ -1193,16 +1193,16 @@
     "Example": "A reporting task has three days of float, so it can move later within that window without affecting the planned project completion date.",
     "Related Terms": [
       "Slack",
-      "Free Float",
-      "Total Float",
-      "Critical Path",
+      "Free float",
+      "Total float",
+      "Critical path",
       "Schedule network analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Float, page 181"
   },
   {
-    "Term": "Forward Pass",
+    "Term": "Forward pass",
     "Core Meaning": "A Critical Path Method technique for calculating the early start and early finish dates by working forward through the schedule model from the project start date or a given point in time.",
     "Depth": "Foundational",
     "Expansion": "Forward Pass is the schedule calculation used to determine the earliest dates activities can begin and end based on durations and dependencies. It moves from the start of the network toward the finish and establishes the earliest possible project completion date under the current logic. PMI treats it as a core element of schedule network analysis and critical path work.",
@@ -1210,17 +1210,17 @@
     "Contrast": "Backward Pass — Forward Pass calculates earliest possible dates from the start of the schedule, while Backward Pass calculates latest allowable dates from the end.",
     "Example": "A project planner runs a forward pass through the activity network to find the earliest date system integration testing can begin after build and configuration tasks are complete.",
     "Related Terms": [
-      "Backward Pass",
-      "Early Start",
-      "Early Finish",
-      "Critical Path Method",
-      "Total Float"
+      "Backward pass",
+      "Early start",
+      "Early finish",
+      "Critical path method",
+      "Total float"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Forward Pass, page 181"
   },
   {
-    "Term": "Free Float",
+    "Term": "Free float",
     "Core Meaning": "The amount of time a schedule activity can be delayed without delaying the early start date of any successor or violating a schedule constraint.",
     "Depth": "Foundational",
     "Expansion": "Free Float measures how much scheduling flexibility an individual activity has before its delay affects the next activity in the network. It is narrower than total float because it focuses on immediate successors rather than the project completion date. PMI uses it in schedule analysis to understand local flexibility and spot potential slippage before it propagates.",
@@ -1232,10 +1232,10 @@
     ],
     "Related Terms": [
       "Float",
-      "Total Float",
-      "Early Start",
+      "Total float",
+      "Early start",
       "Successor activity",
-      "Critical Path Method"
+      "Critical path method"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide glossary, Free Float, page 181"
@@ -1297,7 +1297,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Heuristic Estimation",
+    "Term": "Heuristic estimation",
     "Core Meaning": "Estimating effort or duration using experience-based rules of thumb rather than detailed analysis.",
     "Depth": "Atomic",
     "Expansion": "Heuristic estimation applies a generally accepted rule of thumb learned from past projects to size new work quickly, for example assuming testing takes roughly 20 percent of coding time. It trades precision for speed and is most useful early on or when detailed data is unavailable.",
@@ -1313,7 +1313,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Ideal Time",
+    "Term": "Ideal time",
     "Core Meaning": "An estimate of how long work would take with no interruptions and all needed resources immediately available.",
     "Depth": "Atomic",
     "Expansion": "Ideal time, also called ideal days or ideal hours, is the effort an item would require under perfect conditions, with no distractions, meetings, or waiting. Because real workdays carry overhead, ideal time is always less than elapsed calendar time, so teams apply a load factor when forecasting actual delivery.",
@@ -1330,7 +1330,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Imposed Date",
+    "Term": "Imposed date",
     "Core Meaning": "A fixed calendar date forced onto an activity or milestone that constrains when it can start or finish.",
     "Depth": "Atomic",
     "Expansion": "An imposed date is an externally dictated constraint, typically expressed as 'start no earlier than' or 'finish no later than', that limits the scheduling flexibility of an activity or milestone. Such dates often stem from contracts, regulations, market windows, or weather, and the scheduling tool must honor them during network analysis.",
@@ -1383,7 +1383,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, glossary, p. 182"
   },
   {
-    "Term": "Late Finish",
+    "Term": "Late finish",
     "Core Meaning": "The latest possible point in time when the uncompleted portions of a schedule activity can finish without delaying the project finish date.",
     "Depth": "Foundational",
     "Expansion": "Late Finish is a core schedule-network calculation used in critical path method analysis. It expresses the latest allowable finish for an activity based on network logic, successor relationships, and project or milestone constraints. Project teams use it to determine schedule flexibility and calculate total float. It is fundamental to understanding which activities can slip and which directly threaten completion dates.",
@@ -1394,7 +1394,7 @@
       "LF"
     ],
     "Related Terms": [
-      "Early Finish",
+      "Early finish",
       "Critical path",
       "Schedule network analysis",
       "Float"
@@ -1403,7 +1403,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Late Finish, page 717"
   },
   {
-    "Term": "Late Finish Date",
+    "Term": "Late finish date",
     "Core Meaning": "In the critical path method, the latest possible point in time when the uncompleted portions of a schedule activity can finish based on the schedule network logic, the project completion date, and any schedule constraints.",
     "Depth": "Standard",
     "Expansion": "Late finish date is a schedule calculation used to determine the latest time an activity can complete without delaying the project finish. It is derived from the network logic and any imposed constraints. PMI uses it in critical path method analysis alongside early finish date and late start date.",
@@ -1414,9 +1414,9 @@
       "LF"
     ],
     "Related Terms": [
-      "Late Start Date",
-      "Early Finish Date",
-      "Early Start Date",
+      "Late start date",
+      "Early finish date",
+      "Early start date",
       "Schedule network analysis",
       "Critical path method"
     ],
@@ -1424,7 +1424,7 @@
     "Source": "PMI Knowledgebase — Late Finish Date"
   },
   {
-    "Term": "Late Start Date",
+    "Term": "Late start date",
     "Core Meaning": "In the critical path method, the latest possible point in time when the uncompleted portions of a schedule activity can start based on the schedule network logic, the project completion date, and any schedule constraints.",
     "Depth": "Standard",
     "Expansion": "Late start date shows the latest time an activity may begin without delaying the project finish. It is calculated from the schedule network logic and project completion date, with any constraints applied. PMI lists it with the other critical path timing dates used in schedule analysis.",
@@ -1435,9 +1435,9 @@
       "LS"
     ],
     "Related Terms": [
-      "Late Finish Date",
-      "Early Start Date",
-      "Early Finish Date",
+      "Late finish date",
+      "Early start date",
+      "Early finish date",
       "Schedule network analysis",
       "Critical path method"
     ],
@@ -1499,7 +1499,7 @@
     "Source": "PMI Knowledgebase / Lean scheduling"
   },
   {
-    "Term": "Level of Effort",
+    "Term": "Level of effort",
     "Core Meaning": "An activity that does not produce definitive end products and is measured by the passage of time.",
     "Depth": "Standard",
     "Expansion": "Level of effort activities support the project but do not create discrete deliverables that can be measured by output. PMI distinguishes them from discrete effort and apportioned effort. They are typically ongoing support or oversight work whose value is tied to duration rather than a finished product.",
@@ -1685,7 +1685,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, glossary term milestone list, page 720"
   },
   {
-    "Term": "Milestone Schedule",
+    "Term": "Milestone schedule",
     "Core Meaning": "A milestone schedule is a summary-level schedule that identifies major milestones and planned dates for significant events or deliverables in a project.",
     "Depth": "Standard",
     "Expansion": "A milestone schedule presents key points in time such as phase completions, approvals, external commitments, and major deliverable dates without showing the full detail of all activities. It is used to communicate high-level timing expectations to sponsors, customers, and governance bodies. In PMI practice, it supports alignment and oversight by highlighting the dates that matter most for control, reporting, and decision making.",
@@ -1703,7 +1703,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, milestone schedule, page 715"
   },
   {
-    "Term": "Most Likely Duration (tM)",
+    "Term": "Most likely duration (tM)",
     "Core Meaning": "The realistic estimate of an activity's duration assuming normal conditions and resources.",
     "Depth": "Standard",
     "Expansion": "Most likely duration (tM) is one of the three estimates used in three-point estimating and PERT, alongside the optimistic and pessimistic durations. It represents the duration expected under typical, realistic conditions, accounting for the resources likely to be assigned and the usual interruptions. Combined with the other two estimates, it feeds the triangular or beta (PERT) distribution to produce a more reliable expected duration.",
@@ -1711,9 +1711,9 @@
     "Contrast": "Optimistic duration - the most likely value assumes normal conditions, whereas the optimistic value assumes the best-case scenario.",
     "Example": "Estimating a test cycle at 10 days as the most likely duration, with 7 days optimistic and 16 days pessimistic.",
     "Related Terms": [
-      "Optimistic Duration",
-      "Pessimistic Duration",
-      "Three-Point Estimating",
+      "Optimistic duration",
+      "Pessimistic duration",
+      "Three-point estimating",
       "PERT"
     ],
     "Tier": "Core glossary",
@@ -1754,7 +1754,7 @@
     "Source": "PMI Lexicon of Project Management Terms — near-critical path"
   },
   {
-    "Term": "Negative Float",
+    "Term": "Negative float",
     "Core Meaning": "The amount by which an activity's required dates exceed its available dates, signaling the schedule is behind a constraint.",
     "Depth": "Standard",
     "Expansion": "Negative float (or negative slack) occurs when a schedule constraint, such as an imposed finish date, cannot be met given the current network logic, so an activity's early dates fall later than its late dates. It indicates the schedule is infeasible as planned and that time must be recovered through compression, re-sequencing, or renegotiating the constraint. It is revealed during critical path analysis.",
@@ -1765,10 +1765,10 @@
       "Negative slack"
     ],
     "Related Terms": [
-      "Total Float",
-      "Free Float",
-      "Critical Path Method",
-      "Imposed Date"
+      "Total float",
+      "Free float",
+      "Critical path method",
+      "Imposed date"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide / Practice Standard for Scheduling - float"
@@ -1811,7 +1811,7 @@
     "Source": "PMI Lexicon of Project Management Terms — network logic"
   },
   {
-    "Term": "Network Loop",
+    "Term": "Network loop",
     "Core Meaning": "An invalid schedule path that returns through the same node, which standard network analysis cannot resolve.",
     "Depth": "Atomic",
     "Expansion": "A network loop is a sequence of activities and dependencies that circles back to revisit a node already on the path. Because the critical path method assumes a one-directional flow toward project end, loops create logical contradictions and cannot be analyzed with traditional schedule techniques, so they must be removed or modeled differently.",
@@ -1819,15 +1819,15 @@
     "Contrast": "Network path - a valid network path flows in one direction to project end, whereas a loop doubles back on itself.",
     "Example": "Activity B depends on A, C depends on B, and A is set to depend on C, forming an unresolvable loop.",
     "Related Terms": [
-      "Critical Path Method",
-      "Schedule Network Diagram",
-      "Precedence Diagramming Method"
+      "Critical path method",
+      "Schedule network diagram",
+      "Precedence diagramming method"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - schedule network analysis"
   },
   {
-    "Term": "Network Path",
+    "Term": "Network path",
     "Core Meaning": "A sequence of schedule activities linked by logical relationships in a project schedule network diagram.",
     "Depth": "Standard",
     "Expansion": "A network path shows one route through the scheduled work from one point in the project to another. Project managers use paths in network analysis to understand sequencing, identify schedule sensitivity, and determine which path is critical or near critical. In PMI usage, it is a scheduling concept tied to dependency logic rather than a general description of workflow.",
@@ -1854,7 +1854,7 @@
     "Example": "In a precedence diagramming method network, each task box shown for design, build, and test is a node linked by dependencies.",
     "Related Terms": [
       "Activity",
-      "Precedence Diagramming Method",
+      "Precedence diagramming method",
       "Schedule network diagram",
       "Dependency"
     ],
@@ -1862,7 +1862,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Project schedule network diagram terms, p. 243"
   },
   {
-    "Term": "Node Duration",
+    "Term": "Node duration",
     "Core Meaning": "The estimated time associated with a node in a network model, typically representing the duration of the activity shown there.",
     "Depth": "Atomic",
     "Expansion": "Node duration is used in network-based schedule representations to indicate how long the represented work is expected to take. It supports sequencing and path analysis across the schedule.",
@@ -1897,7 +1897,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, non-discretionary dependency, p. 715"
   },
   {
-    "Term": "Optimistic Duration (tO)",
+    "Term": "Optimistic duration (tO)",
     "Core Meaning": "The best-case estimate of an activity's duration assuming everything goes well.",
     "Depth": "Atomic",
     "Expansion": "Optimistic duration (tO) is the shortest time an activity could take if all favorable conditions hold and no problems arise. It is one of the three inputs to three-point estimating and PERT, used with the most likely and pessimistic values to model the uncertainty in a duration estimate.",
@@ -1905,9 +1905,9 @@
     "Contrast": "Pessimistic duration - the optimistic value assumes the best case, whereas the pessimistic value assumes the worst case.",
     "Example": "Estimating that coding could finish in 7 days if no blockers appear.",
     "Related Terms": [
-      "Pessimistic Duration",
-      "Most Likely Duration",
-      "Three-Point Estimating",
+      "Pessimistic duration",
+      "Most likely duration",
+      "Three-point estimating",
       "PERT"
     ],
     "Tier": "Core glossary",
@@ -1922,16 +1922,16 @@
     "Contrast": "Contingency reserve - a contingency reserve is a transparent, analyzed allowance for identified risk, whereas padding is hidden, arbitrary buffer.",
     "Example": "An engineer quietly doubling a 5-day estimate to 10 days just in case, without explaining why.",
     "Related Terms": [
-      "Contingency Reserve",
-      "Management Reserve",
-      "Student Syndrome",
-      "Parkinson's Law"
+      "Contingency reserve",
+      "Management reserve",
+      "Student syndrome",
+      "Parkinson's law"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Parkinson's Law",
+    "Term": "Parkinson's law",
     "Core Meaning": "Work expands to fill the time allotted to it.",
     "Depth": "Atomic",
     "Expansion": "Parkinson's law states that a task will swell in perceived effort and duration to consume whatever time is made available for it. In project estimating it warns that overly generous durations get used up regardless of the real work needed, eroding schedule efficiency and feeding behaviors like padding and student syndrome.",
@@ -1939,7 +1939,7 @@
     "Contrast": "Student syndrome - Parkinson's law says work stretches to fill the time, whereas student syndrome is delaying effort until just before the deadline.",
     "Example": "A task that genuinely needs three days takes the full two weeks scheduled for it.",
     "Related Terms": [
-      "Student Syndrome",
+      "Student syndrome",
       "Padding",
       "Timeboxing"
     ],
@@ -1981,7 +1981,7 @@
     "Source": "PMBOK Guide — path divergence, p. 127"
   },
   {
-    "Term": "Percent Complete",
+    "Term": "Percent complete",
     "Core Meaning": "The ratio of work done to total work on an activity or component, expressed as a percentage.",
     "Depth": "Atomic",
     "Expansion": "Percent complete is a progress measure comparing the estimated work accomplished to the total estimated work for an activity or WBS component. It is used to report status and, in earned value management, to help determine earned value. Because it can rely on subjective judgment, organizations often use rules like fixed-formula or weighted milestones to make it more objective.",
@@ -1989,19 +1989,19 @@
     "Contrast": "Earned value - percent complete is a progress percentage, whereas earned value translates that progress into a budgeted dollar amount.",
     "Example": "Reporting an activity as 60 percent complete in a weekly status update.",
     "Synonyms": [
-      "% complete"
+      "% Complete"
     ],
     "Related Terms": [
-      "Earned Value",
-      "Fixed Formula Method",
-      "Performance Reviews",
-      "Estimate to Complete"
+      "Earned value",
+      "Fixed formula method",
+      "Performance reviews",
+      "Estimate to complete"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - earned value / progress measurement"
   },
   {
-    "Term": "Pessimistic Duration (tP)",
+    "Term": "Pessimistic duration (tP)",
     "Core Meaning": "The worst-case estimate of an activity's duration assuming problems arise.",
     "Depth": "Atomic",
     "Expansion": "Pessimistic duration (tP) is the longest time an activity could reasonably take if unfavorable conditions and known risks materialize. It is one of the three estimates in three-point estimating and PERT, used with the optimistic and most likely values to capture the range of uncertainty in a duration.",
@@ -2009,16 +2009,16 @@
     "Contrast": "Optimistic duration - the pessimistic value assumes the worst case, whereas the optimistic value assumes the best case.",
     "Example": "Estimating that integration could take 16 days if major defects surface.",
     "Related Terms": [
-      "Optimistic Duration",
-      "Most Likely Duration",
-      "Three-Point Estimating",
+      "Optimistic duration",
+      "Most likely duration",
+      "Three-point estimating",
       "PERT"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - three-point estimating"
   },
   {
-    "Term": "Precedence Diagramming Method",
+    "Term": "Precedence diagramming method",
     "Core Meaning": "A schedule network diagramming technique in which activities are represented by nodes and linked by logical relationships.",
     "Depth": "Standard",
     "Expansion": "Precedence Diagramming Method is a scheduling technique used to model the sequence of project activities with nodes and dependency arrows. It supports relationship types such as finish-to-start, start-to-start, finish-to-finish, and start-to-finish. PMI uses it to develop schedule logic, analyse dependencies, and support critical path analysis.",
@@ -2074,7 +2074,7 @@
       "Logical relationship",
       "Dependency",
       "Schedule activity",
-      "Sequence Activities"
+      "Sequence activities"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide, Predecessor activity, page 214"
@@ -2130,7 +2130,7 @@
     "Source": "PMBOK Guide, Project calendars, p. 81"
   },
   {
-    "Term": "Project Float",
+    "Term": "Project float",
     "Core Meaning": "The amount of time a whole project can slip without missing an externally imposed or customer-committed delivery date.",
     "Depth": "Standard",
     "Expansion": "Project float (sometimes called project slack) is the difference between the project's calculated completion date from the schedule network and an externally imposed deadline that is later than that date. It differs from activity float because it applies to the entire project rather than a single activity. Positive project float gives the team a buffer against delays; if the imposed date is earlier than the calculated finish, project float is negative and the schedule must be compressed.",
@@ -2164,7 +2164,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition and PMI Lexicon of Project Management Terms — Project schedule, page 271"
   },
   {
-    "Term": "Project Schedule Management",
+    "Term": "Project schedule management",
     "Core Meaning": "Project Schedule Management is the knowledge area that includes the processes required to plan, develop, manage, execute, and control the project schedule.",
     "Depth": "Foundational",
     "Expansion": "Project Schedule Management covers how the project team defines activities, sequences work, estimates durations, develops the schedule, and controls schedule performance over time. In PMI terms, it is not just the timeline itself but the full set of management processes and practices used to produce and maintain a realistic schedule. It is foundational because time performance affects delivery commitments, resource coordination, stakeholder expectations, and often cost and risk outcomes. It applies across predictive, hybrid, and adaptive environments, though the techniques and level of detail differ by approach.",
@@ -2175,14 +2175,14 @@
       "Project schedule",
       "Schedule baseline",
       "Critical path",
-      "Develop Schedule",
-      "Control Schedule"
+      "Develop schedule",
+      "Control schedule"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 6, pp. 173-174"
   },
   {
-    "Term": "Project Schedule Network Diagram",
+    "Term": "Project schedule network diagram",
     "Core Meaning": "A graphical representation of the logical relationships among the schedule activities of a project.",
     "Depth": "Standard",
     "Expansion": "A Project Schedule Network Diagram shows activities as nodes or arrows and displays the precedence relationships that determine sequencing. It is used to analyse dependencies, identify possible parallel work, and support methods such as critical path analysis. The diagram helps the team understand how schedule logic drives start and finish dates rather than treating the schedule as a simple list of tasks.",
@@ -2192,9 +2192,9 @@
     "Related Terms": [
       "Activity",
       "Dependency",
-      "Critical Path",
-      "Sequence Activities",
-      "Schedule Model"
+      "Critical path",
+      "Sequence activities",
+      "Schedule model"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), page citation needed from PMI source"
@@ -2216,7 +2216,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Pull Scheduling",
+    "Term": "Pull scheduling",
     "Core Meaning": "A planning approach where work is scheduled backward from a target milestone based on what downstream activities actually need.",
     "Depth": "Standard",
     "Expansion": "Pull scheduling, common in Lean and the Last Planner System, builds a plan by starting from a completion milestone and having teams define handoffs based on what the next activity requires, pulling work rather than pushing it from a central master schedule. It increases reliability and ownership because those doing the work commit to their own handoffs.",
@@ -2228,8 +2228,8 @@
     ],
     "Related Terms": [
       "Lean",
-      "Last Responsible Moment",
-      "Pull System",
+      "Last responsible moment",
+      "Pull system",
       "Lookahead planning"
     ],
     "Tier": "Adjacent concept",
@@ -2253,7 +2253,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge — Qualitative estimating techniques, p. 170"
   },
   {
-    "Term": "Remaining Duration",
+    "Term": "Remaining duration",
     "Core Meaning": "The estimated time still needed to finish an in-progress activity.",
     "Depth": "Atomic",
     "Expansion": "Remaining duration is the time required to complete the unfinished portion of an activity from the status date forward. It is used to update the schedule model and forecast completion as work progresses.",
@@ -2262,7 +2262,7 @@
     "Example": "An activity planned for ten days is half done at day six, so its remaining duration is revised to four days.",
     "Related Terms": [
       "Actual duration",
-      "Schedule Forecasts",
+      "Schedule forecasts",
       "Estimate to complete"
     ],
     "Tier": "Core glossary",
@@ -2350,7 +2350,7 @@
     "Example": "After the steering committee approves the implementation timeline, the project manager uses that approved plan as the schedule baseline to track slippage in testing and deployment.",
     "Related Terms": [
       "Schedule model",
-      "Project Schedule Management",
+      "Project schedule management",
       "Variance analysis",
       "Change control"
     ],
@@ -2412,7 +2412,7 @@
     "Source": "PMBOK Guide Sixth Edition — Control Schedule, pp. 222-230"
   },
   {
-    "Term": "Schedule Data",
+    "Term": "Schedule data",
     "Core Meaning": "The collection of information used to describe and control the project schedule.",
     "Depth": "Atomic",
     "Expansion": "Schedule data is the supporting information behind the schedule model, including milestones, activities, attributes, assumptions, and constraints, along with items such as resource histograms and alternative schedules. It provides the detail needed to analyze, report, and control the schedule over the life of the project.",
@@ -2422,7 +2422,7 @@
     "Related Terms": [
       "Project schedule",
       "Schedule model",
-      "Resource Histogram",
+      "Resource histogram",
       "Schedule baseline"
     ],
     "Tier": "Core glossary",
@@ -2464,7 +2464,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Schedule Forecasts",
+    "Term": "Schedule forecasts",
     "Core Meaning": "Predictions of future schedule outcomes based on current progress, performance trends, and known conditions.",
     "Depth": "Standard",
     "Expansion": "Schedule forecasts estimate likely completion dates or milestone outcomes using actual performance and current project information. They support monitoring and controlling work by showing where the schedule is trending rather than only where it was originally planned to go. Teams use them to anticipate slippage, evaluate corrective action, and communicate likely timing impacts before missed dates become final facts.",
@@ -2475,7 +2475,7 @@
       "Project schedule",
       "Forecast",
       "Schedule baseline",
-      "Control Schedule",
+      "Control schedule",
       "Earned value analysis"
     ],
     "Tier": "Adjacent concept",
@@ -2494,13 +2494,13 @@
       "Project schedule",
       "Schedule baseline",
       "Critical path",
-      "Control Schedule"
+      "Control schedule"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Seventh Edition / PMBOK Guide Sixth Edition — Schedule Management Plan, Project Schedule Management knowledge area, not enough verified page detail available from retrieved PMI content"
   },
   {
-    "Term": "Schedule Management Plan",
+    "Term": "Schedule management plan",
     "Core Meaning": "A component of the project management plan that defines how the project schedule will be developed, monitored, and controlled.",
     "Depth": "Foundational",
     "Expansion": "The schedule management plan sets the rules for managing time on the project rather than listing the dates themselves. It typically defines the scheduling method, level of detail, units of measure, control thresholds, update frequency, and reporting expectations. PMI treats it as foundational because it establishes the governance that makes scheduling consistent, measurable, and controllable across the life of the project.",
@@ -2512,7 +2512,7 @@
       "Project schedule",
       "Schedule baseline",
       "Schedule model",
-      "Control Schedule"
+      "Control schedule"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process group practice for plan schedule management — exact page citation unavailable in retrieved context"
@@ -2589,40 +2589,28 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, schedule network diagram, page 197"
   },
   {
-    "Term": "Schedule optimisation",
+    "Term": "Schedule optimization",
     "Core Meaning": "The improvement of a schedule to better balance timing, feasibility, resources, and project constraints.",
     "Depth": "Standard",
     "Expansion": "Schedule optimisation refers to adjusting the schedule so it better supports project objectives and constraints. It can involve resequencing work, refining logic, or applying schedule and resource optimisation techniques to improve feasibility or efficiency. PMI discusses this kind of work within schedule development and control, but does not treat Schedule optimisation as a formal standalone glossary term.",
     "Deep Dive": null,
     "Contrast": "Schedule compression — schedule optimisation is the broader effort to improve the schedule, while schedule compression specifically aims to shorten total duration.",
     "Example": "A construction team resequences interior fit-out tasks and levels specialist trades to reduce waiting time without changing the delivery date.",
-    "Related Terms": [
-      "Schedule compression",
-      "Resource optimisation",
-      "Critical path",
-      "Float",
-      "Schedule model"
+    "Synonyms": [
+      "Schedule optimisation"
     ],
     "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Schedule optimization",
-    "Core Meaning": "The analysis and adjustment of a schedule to improve its likelihood of meeting target dates or other time objectives.",
-    "Depth": "Standard",
-    "Expansion": "Schedule optimization refers to techniques used to make a schedule more effective, realistic, or resilient within project constraints. In PMI practice this commonly includes actions such as schedule compression, logic refinement, resource-based adjustments, and scenario analysis. It is used when the initial schedule does not adequately meet required dates, risk tolerance, or delivery priorities.",
-    "Deep Dive": null,
-    "Contrast": "Schedule compression — schedule optimization is the broader effort to improve schedule performance; schedule compression is one specific way of shortening duration without reducing scope.",
-    "Example": "A product-launch team revises dependency logic, overlaps selected design and procurement tasks, and reassigns specialist resources to improve confidence in meeting the launch window.",
+    "Source": "not a formal PMI glossary entry",
     "Related Terms": [
       "Schedule compression",
+      "Resource optimization",
+      "Critical path",
+      "Float",
+      "Schedule model",
       "Crashing",
       "Fast tracking",
-      "Critical path",
       "Schedule model analysis"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
+    ]
   },
   {
     "Term": "Schedule performance index",
@@ -2654,8 +2642,8 @@
     "Contrast": "Schedule development — schedule planning sets how scheduling will be done, while schedule development is the act of producing the actual dated schedule.",
     "Example": "Early in a construction project, the team agrees to use the critical path method with monthly rebaselining, documenting these choices as the schedule plan.",
     "Related Terms": [
-      "Develop Schedule",
-      "Schedule Management Plan",
+      "Develop schedule",
+      "Schedule management plan",
       "Schedule baseline",
       "Rolling wave planning"
     ],
@@ -2737,7 +2725,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Scheduling Tool",
+    "Term": "Scheduling tool",
     "Core Meaning": "A tool that provides schedule component names, definitions, relationships, and formats to support a scheduling method.",
     "Depth": "Atomic",
     "Expansion": "A scheduling tool is the software or system used to build and maintain the schedule model by applying a chosen scheduling method such as the critical path method. Combined with the scheduling method and manual inputs, it generates and updates the project schedule.",
@@ -2753,7 +2741,7 @@
     "Source": "PMBOK Guide - scheduling tool"
   },
   {
-    "Term": "Sequence Activities",
+    "Term": "Sequence activities",
     "Core Meaning": "The process of identifying and documenting relationships among project activities.",
     "Depth": "Standard",
     "Expansion": "Sequence Activities establishes the logical order in which activities should occur based on dependencies and constraints. It creates the basis for the project schedule network by showing predecessor and successor relationships, including leads and lags where appropriate. PMI treats it as a core scheduling process because activity lists alone do not show how work flows through time. Its outputs support schedule development, critical path analysis, and realistic planning.",
@@ -2806,7 +2794,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Single-Point Estimating",
+    "Term": "Single-point estimating",
     "Core Meaning": "An estimating approach that assigns one specific value as the estimate for a cost, duration, effort, or resource need.",
     "Depth": "Standard",
     "Expansion": "Single-point estimating produces one forecast number rather than a range or probability distribution. In PMI practice, it is useful when speed and simplicity are more important than expressing uncertainty explicitly. Its limitation is that it can conceal variability unless it is paired with reserves, assumptions, or risk analysis.",
@@ -2884,7 +2872,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — term appears as discretionary dependency; confirm exact page in Infinity"
   },
   {
-    "Term": "Software Sizing",
+    "Term": "Software sizing",
     "Core Meaning": "Estimating the magnitude of a software effort using measures of functionality or relative complexity.",
     "Depth": "Standard",
     "Expansion": "Software sizing produces a measure of size, such as function points, lines of code, or story points, that is then converted into effort and duration estimates. Sizing supports budgeting, planning, and productivity comparison across projects. Relative sizing techniques like story points are common in agile, while function point analysis is widely used in predictive contexts.",
@@ -2918,7 +2906,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Start date, p. 28"
   },
   {
-    "Term": "Start-to-Finish (SF)",
+    "Term": "Start-to-finish (SF)",
     "Core Meaning": "A logical relationship in which a successor activity must start before its predecessor can finish.",
     "Depth": "Standard",
     "Expansion": "Start-to-finish is the rarest of the four precedence relationships: the predecessor (from) activity cannot finish until the successor (to) activity has started. It is typically used to model handovers, such as a new shift starting before the previous one ends. Most schedules rely on finish-to-start instead.",
@@ -2926,16 +2914,16 @@
     "Contrast": "Finish-to-start - in finish-to-start the predecessor must finish before the successor starts, the reverse logic of start-to-finish.",
     "Example": "The new security guard's shift must begin before the outgoing guard's shift can end.",
     "Related Terms": [
-      "Start-to-Start (SS)",
+      "Start-to-start (SS)",
       "Finish-to-start",
-      "Precedence Diagramming Method",
+      "Precedence diagramming method",
       "Logical relationship"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - start-to-finish relationship"
   },
   {
-    "Term": "Start-to-Finish relationship",
+    "Term": "Start-to-finish relationship",
     "Core Meaning": "A logical relationship in which a successor activity cannot finish until a predecessor activity has started.",
     "Depth": "Standard",
     "Expansion": "Start-to-Finish is one of PMI's precedence relationship types used in schedule network analysis. It ties the finish of the successor to the start of the predecessor rather than to the predecessor's finish. It is valid but less common than Finish-to-Start in most project schedules.",
@@ -2949,13 +2937,13 @@
       "Logical relationship",
       "Precedence relationship",
       "Schedule network diagram",
-      "Finish-to-Start relationship"
+      "Finish-to-start relationship"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Start-to-Finish relationship, p. 243"
   },
   {
-    "Term": "Start-to-Start (SS)",
+    "Term": "Start-to-start (SS)",
     "Core Meaning": "A logical relationship in which a successor activity cannot start until its predecessor has started.",
     "Depth": "Atomic",
     "Expansion": "In a start-to-start relationship, the successor (to) activity can begin only once the predecessor (from) activity has begun, often with a lead or lag. It is used when two activities can run partly in parallel once the first is underway.",
@@ -2963,7 +2951,7 @@
     "Contrast": "Finish-to-start - finish-to-start ties the successor's start to the predecessor's finish, whereas start-to-start ties it to the predecessor's start.",
     "Example": "Pouring concrete can start two days after leveling the ground begins (SS with a 2-day lag).",
     "Related Terms": [
-      "Start-to-Finish (SF)",
+      "Start-to-finish (SF)",
       "Finish-to-start",
       "Lead",
       "Lag"
@@ -2972,7 +2960,7 @@
     "Source": "PMBOK Guide - start-to-start relationship"
   },
   {
-    "Term": "Start-to-Start relationship",
+    "Term": "Start-to-start relationship",
     "Core Meaning": "A logical relationship in which a successor activity cannot start until a predecessor activity has started.",
     "Depth": "Standard",
     "Expansion": "A Start-to-Start relationship is a dependency type used in schedule network analysis when two activities may proceed in parallel once the first one begins. It allows overlap rather than requiring the predecessor to finish. PMI includes it as one of the standard precedence relationships used to model realistic sequencing, often with lead or lag.",
@@ -2987,13 +2975,13 @@
       "Schedule network diagram",
       "Lead",
       "Lag",
-      "Finish-to-Start relationship"
+      "Finish-to-start relationship"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, section 6.3.3.1, page 157"
   },
   {
-    "Term": "Student Syndrome",
+    "Term": "Student syndrome",
     "Core Meaning": "The tendency to delay starting work until just before a deadline, consuming any safety margin.",
     "Depth": "Standard",
     "Expansion": "Named in critical chain theory, student syndrome describes people putting off effort until the last possible moment, so any padding built into an estimate is wasted and a late surprise leaves no recovery time. It is one reason individual task buffers tend to disappear. Critical chain counters it by removing local safety and pooling it into shared project and feeding buffers.",
@@ -3001,7 +2989,7 @@
     "Contrast": "Parkinson's Law - Parkinson's law says work expands to fill available time, whereas student syndrome is specifically the delayed start that burns the buffer up front.",
     "Example": "A team member with a two-week task does nothing for the first week and a half, then scrambles and still finishes late.",
     "Related Terms": [
-      "Parkinson's Law",
+      "Parkinson's law",
       "Critical chain method",
       "Padding",
       "Buffer"
@@ -3218,7 +3206,7 @@
     "Contrast": "Sensitivity analysis — What-If-Scenario Analysis tests specific hypothetical situations, while sensitivity analysis examines which variables drive the greatest impact.",
     "Example": "A scheduler models the effect of a two-week supplier delay and compares whether resequencing work or adding resources would better protect the target finish date.",
     "Synonyms": [
-      "What-If-Scenario Analysis"
+      "What-if-scenario analysis"
     ],
     "Related Terms": [
       "Schedule network analysis",
@@ -3240,7 +3228,7 @@
     "Contrast": "Delphi Technique — Wideband Delphi adds structured group discussion and iterative feedback to the basic Delphi approach.",
     "Example": "A software team estimates a complex integration feature by having several engineers estimate independently, discuss differences, and then re-estimate until the range narrows.",
     "Related Terms": [
-      "Delphi Technique",
+      "Delphi technique",
       "Expert judgment",
       "Estimating",
       "Consensus"

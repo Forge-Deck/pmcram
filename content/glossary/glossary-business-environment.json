@@ -8,7 +8,7 @@
     "Contrast": "Kotter 8-Step Model - Kotter is an organization-level sequence led from the top, while ADKAR targets the individual's personal transition.",
     "Example": "A rollout stalls until the team realizes users have Awareness and Knowledge but lack Ability, so hands-on coaching is added.",
     "Related Terms": [
-      "Kotter 8-Step Model",
+      "Kotter 8-step model",
       "Organizational change",
       "Readiness assessment",
       "Change management"
@@ -55,7 +55,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Organizational Structures; exact page citation unavailable in retrieved results"
   },
   {
-    "Term": "Balanced Matrix Organization",
+    "Term": "Balanced matrix organization",
     "Core Meaning": "A matrix structure where authority is shared roughly equally between the project manager and functional managers.",
     "Depth": "Standard",
     "Expansion": "In a balanced matrix organization, power over project resources and decisions is split fairly evenly between the project manager and the functional managers. The project manager has a recognized role but does not fully control the budget or staff, which can blur authority and create competing priorities. It sits between the weak matrix (functional managers dominate) and the strong matrix (project managers dominate).",
@@ -63,14 +63,14 @@
     "Contrast": "Strong matrix - in a strong matrix the project manager holds most of the authority and resources, whereas in a balanced matrix that authority is shared with functional managers.",
     "Example": "A project manager who co-decides a team member's assignments and reviews with that person's department head, neither side having final say.",
     "Related Terms": [
-      "Strong Matrix Organization",
-      "Functional Organization"
+      "Strong matrix organization",
+      "Functional organization"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - organizational structures"
   },
   {
-    "Term": "Balanced Scorecard",
+    "Term": "Balanced scorecard",
     "Core Meaning": "A strategic performance framework that measures organizational health across financial, customer, internal process, and learning-and-growth perspectives.",
     "Depth": "Standard",
     "Expansion": "Developed by Kaplan and Norton, the Balanced Scorecard translates strategy into a balanced set of objectives and metrics beyond purely financial measures. The four perspectives - financial, customer, internal business process, and learning and growth - give a holistic view of performance. In a project context it helps ensure benefits map to strategic outcomes rather than only cost and schedule.",
@@ -180,44 +180,31 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Benefits realisation",
+    "Term": "Benefits realization",
     "Core Meaning": "The process of achieving and sustaining the measurable value that justified undertaking the project, program, or portfolio work.",
     "Depth": "Foundational",
     "Expansion": "Benefits realisation connects delivery outputs to the outcomes and value the organisation expects to gain. In PMI usage, it is closely associated with programs and portfolios because benefits often emerge after individual project deliverables are produced and adopted. It requires identifying expected benefits, assigning ownership, measuring results over time, and adjusting work or operations to maximise value.",
     "Deep Dive": "What it is: Benefits realisation is the disciplined management of how planned benefits are defined, tracked, transitioned, and confirmed. It focuses not just on producing deliverables, but on ensuring those deliverables create intended organisational outcomes.\n\nWhy it matters and where it applies: many projects finish on scope, schedule, and budget yet still fail to create meaningful value. Benefits realisation is especially important in strategic change, digital transformation, product, program, and portfolio environments where value depends on adoption, operational change, and time.\n\nThe most common misconception: that benefits are automatically realised once a project is completed. In practice, benefits often require business readiness, behavioural change, process integration, and post-project measurement before they can be confirmed.\n\nHow it shows up in real projects: teams define benefit metrics in business cases and benefit management plans, assign benefit owners, track leading and lagging indicators, and continue monitoring after delivery to verify that the expected value actually materialises.",
     "Contrast": "Outputs — outputs are the deliverables produced by the work; benefits realisation concerns the measurable outcomes and value created from using those deliverables.",
     "Example": "A CRM implementation project delivers the new platform on time, but benefits realisation is tracked through later improvements in sales-conversion rate, customer retention, and service response time.",
+    "Synonyms": [
+      "Benefits realisation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "The Standard for Program Management, Fourth Edition, benefits management and benefits realization discussion; exact page citation not confirmed in available PMI source",
     "Related Terms": [
       "Benefit",
       "Business case",
       "Outcome",
       "Value delivery",
       "Program management",
-      "Portfolio management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The Standard for Program Management, Fourth Edition, benefits management and benefits realization discussion; exact page citation not confirmed in available PMI source"
-  },
-  {
-    "Term": "Benefits realization",
-    "Core Meaning": "The process of ensuring that planned benefits are identified, executed, sustained, and measured from an initiative.",
-    "Depth": "Foundational",
-    "Expansion": "Benefits realization is the disciplined management of intended value from a project, program, or portfolio investment. PMI treats it as more than tracking outputs, because value often emerges only when outcomes are adopted and sustained in operations. It links strategy to execution by defining expected benefits, assigning ownership, measuring achievement, and adjusting actions when benefits are at risk.",
-    "Deep Dive": "What it is: Benefits realization is the structured work of turning delivered capabilities into actual value. It includes defining benefits early, planning how they will be achieved, monitoring them over time, and confirming whether they materialize.\n\nWhy it matters and where it applies: organizations invest in change to create value, not merely to finish deliverables. Benefits realization is especially important in programs, portfolios, and strategy-driven projects where long-term outcomes depend on adoption, transition, and sustained use.\n\nThe most common misconception: that benefits are fully achieved when the project closes. In reality, many benefits emerge after handoff to operations and require ownership, change management, and measurement beyond the delivery phase.\n\nHow it shows up in real projects: a digital-transformation program tracks not only system deployment, but also customer adoption, process-cycle reduction, and revenue uplift for months after implementation to confirm the intended benefits are being achieved.",
-    "Contrast": "Benefit — a benefit is a specific positive effect or gain; benefits realization is the ongoing process of making sure those gains actually occur and are sustained.",
-    "Example": "A claims-automation initiative delivers new software, then monitors processing speed and rework rates over two quarters to verify the promised operational improvement has been realized.",
-    "Related Terms": [
-      "Benefit",
+      "Portfolio management",
       "Business value",
-      "Outcome",
-      "Program management",
       "Strategic alignment"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The Standard for Program Management, Glossary, benefits realization"
+    ]
   },
   {
-    "Term": "Benefits Realization Management (BRM)",
+    "Term": "Benefits realization management (BRM)",
     "Core Meaning": "The practice of identifying, planning, measuring, and sustaining the benefits a project or program is meant to deliver.",
     "Depth": "Foundational",
     "Expansion": "Benefits realization management (BRM) is the collective set of processes for ensuring that the intended benefits of a project, program, or portfolio are clearly defined, actively pursued, and actually achieved and sustained over time. It shifts the focus from delivering outputs (a product) to realizing outcomes and value (the benefit). BRM spans identifying benefits, planning how and when they will be measured and by whom, and sustaining them after the project closes, connecting project work back to organizational strategy.",
@@ -225,8 +212,8 @@
     "Contrast": "Scope management - scope management ensures the project delivers the agreed outputs, whereas BRM ensures those outputs translate into realized organizational value.",
     "Example": "After launching a new CRM, the organization tracks a targeted 15% reduction in customer churn over the following year and assigns the sales director to own that benefit.",
     "Related Terms": [
-      "Benefits Realization Plan",
-      "Business Case",
+      "Benefits realization plan",
+      "Business case",
       "Value",
       "Outcome"
     ],
@@ -234,7 +221,7 @@
     "Source": "PMI - Benefits Realization Management"
   },
   {
-    "Term": "Benefits Realization Plan",
+    "Term": "Benefits realization plan",
     "Core Meaning": "The document defining how and when a project's benefits will be delivered, measured, and sustained.",
     "Depth": "Standard",
     "Expansion": "A benefits realization plan (or benefits management plan) describes the target benefits, how they will be measured, who owns them, and the timeline over which they are expected to be realized and sustained. It links project deliverables to the outcomes that justify the investment and is used to track value beyond project closure. It is typically created early and maintained alongside the business case.",
@@ -242,15 +229,15 @@
     "Contrast": "Business case - the business case justifies whether to undertake the project, whereas the benefits realization plan governs how the promised benefits will actually be achieved and tracked.",
     "Example": "A plan stating that a process-automation project should cut invoice-processing time by 40% within six months, measured monthly by the finance manager.",
     "Related Terms": [
-      "Benefits Realization Management (BRM)",
-      "Business Case",
+      "Benefits realization management (BRM)",
+      "Business case",
       "Value"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI - benefits management plan"
   },
   {
-    "Term": "Bridges Transition Model",
+    "Term": "Bridges transition model",
     "Core Meaning": "A change model distinguishing the external event of change from the internal psychological transition people pass through in three phases.",
     "Depth": "Standard",
     "Expansion": "William Bridges argued that change is situational and external, while transition is the internal three-phase psychological process people experience:\n\n- Ending — letting go.\n- Neutral Zone — the uncertain in-between.\n- New Beginning.\n\nLeaders support people through each phase, recognizing that resistance often stems from incomplete endings rather than the change itself.",
@@ -258,8 +245,8 @@
     "Contrast": "Lewin Change Model - Lewin's unfreeze-change-refreeze describes managing the change process, while Bridges focuses on the emotional transition individuals undergo.",
     "Example": "When a reorganization is announced, the manager helps staff acknowledge what they are losing before pushing the new structure, honoring the Ending phase.",
     "Related Terms": [
-      "Lewin Change Model",
-      "Satir Change Model",
+      "Lewin change model",
+      "Satir change model",
       "Organizational change",
       "ADKAR"
     ],
@@ -293,7 +280,7 @@
     "Contrast": "Power skills — business acumen is strategic and organizational understanding, while power skills are interpersonal abilities such as communication and leadership.",
     "Example": "A project manager reprioritizes features after recognizing a market shift that threatens the product's revenue case.",
     "Related Terms": [
-      "PMI Talent Triangle",
+      "PMI talent triangle",
       "Business value",
       "Business case",
       "Strategic alignment"
@@ -492,7 +479,7 @@
     "Example": "Before launching an enterprise AI program, leaders perform a capability assessment of data governance, technical skills, model oversight, and change readiness to identify gaps that could block delivery.",
     "Related Terms": [
       "Maturity assessment",
-      "Organisational readiness",
+      "Organizational readiness",
       "Gap analysis",
       "Competency",
       "Process capability"
@@ -519,6 +506,24 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
+    "Term": "Carbon footprint",
+    "Core Meaning": "The total greenhouse gas emissions, expressed as carbon dioxide equivalent, attributable to an activity, product, organisation, or project.",
+    "Depth": "Standard",
+    "Expansion": "A carbon footprint measures climate impact by summing the emissions - chiefly carbon dioxide from burning fossil fuels - generated across an activity's life cycle. On a project, estimating the footprint of materials, transport, and energy use highlights where reductions are possible through renewable power, better waste management, and more efficient processes. Tracking it during planning and execution turns an abstract sustainability goal into a measurable target the team can act on. This supports PMBOK 8's sustainability emphasis by giving environmental impact a concrete metric.",
+    "Deep Dive": null,
+    "Contrast": "Ecological footprint - a carbon footprint counts only greenhouse gas emissions, while an ecological footprint measures the total demand an activity places on nature, including land and water.",
+    "Example": "A construction project switches to low-carbon concrete and site solar power after a baseline estimate shows those two sources dominate its carbon footprint.",
+    "Related Terms": [
+      "Green procurement",
+      "Sustainability",
+      "Environmental impact",
+      "Sustainable development",
+      "Life cycle assessment"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
     "Term": "Change management",
     "Core Meaning": "A comprehensive, cyclic, and structured approach for transitioning individuals, groups, and organizations from a current state to a future state with intended business benefits realized.",
     "Depth": "Foundational",
@@ -536,7 +541,7 @@
     "Source": "The Standard for Change Management, Glossary — Change management"
   },
   {
-    "Term": "Citizen Development",
+    "Term": "Citizen development",
     "Core Meaning": "The practice of business users building applications using low-code or no-code platforms without formal software development skills.",
     "Depth": "Standard",
     "Expansion": "Citizen development empowers non-IT employees, called citizen developers, to create applications on approved low-code and no-code platforms governed by IT. PMI has promoted it as a way to accelerate solution delivery and digital transformation, while stressing the governance needed to manage security, quality, and shadow-IT risks.",
@@ -544,8 +549,8 @@
     "Contrast": "Shadow IT - shadow IT is unsanctioned technology built outside governance, whereas citizen development is sanctioned, governed, business-led app building.",
     "Example": "A finance analyst builds an approval-workflow app on a no-code platform under the IT-approved citizen development program.",
     "Related Terms": [
-      "Digital Product",
-      "Center of Excellence",
+      "Digital product",
+      "Center of excellence",
       "Governance",
       "Innovation"
     ],
@@ -553,7 +558,7 @@
     "Source": "PMI Citizen Developer"
   },
   {
-    "Term": "Code of Ethics and Professional Conduct",
+    "Term": "Code of ethics and professional conduct",
     "Core Meaning": "PMI's formal ethical standard that defines expected behaviour through the values of responsibility, respect, fairness, and honesty.",
     "Depth": "Foundational",
     "Expansion": "The Code of Ethics and Professional Conduct sets the behavioural expectations for PMI members, certification holders, and others covered by the standard. It combines aspirational standards, which describe the conduct practitioners should strive toward, with mandatory standards, which describe conduct that is required. In practice, it serves as a foundation for professional judgment, stakeholder trust, and responsible decision-making across all forms of project work.",
@@ -572,7 +577,7 @@
     "Source": "PMI Code of Ethics and Professional Conduct, p. 2-4"
   },
   {
-    "Term": "Collective Bargaining Agreement",
+    "Term": "Collective bargaining agreement",
     "Core Meaning": "A negotiated contract between an employer and a unionized group of employees governing employment terms.",
     "Depth": "Standard",
     "Expansion": "A collective bargaining agreement is a contract negotiated between an organization and a labor union representing its workers, setting wages, hours, working conditions, and other terms. For a project manager it acts as a constraint and an enterprise environmental factor, shaping how and when team members can be assigned and worked. Honoring it is both a legal obligation and a stakeholder consideration.",
@@ -583,15 +588,15 @@
       "CBA"
     ],
     "Related Terms": [
-      "Enterprise Environmental Factors",
+      "Enterprise environmental factors",
       "Constraint",
-      "Resource Management Plan"
+      "Resource management plan"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - enterprise environmental factors"
   },
   {
-    "Term": "Competitive Analysis",
+    "Term": "Competitive analysis",
     "Core Meaning": "A technique for studying an organization's external competitors and market environment.",
     "Depth": "Standard",
     "Expansion": "Competitive analysis gathers and evaluates information about an organization's external environment - particularly its competitors, their strengths, weaknesses, and strategies - to inform decisions. In a business-analysis and project context it helps shape requirements, product direction, and the business case by clarifying where the organization stands in its market. It is one of several strategic-analysis techniques.",
@@ -599,9 +604,9 @@
     "Contrast": "Market analysis - market analysis examines overall market conditions and demand, whereas competitive analysis focuses specifically on rival organizations.",
     "Example": "Reviewing competitors' product features and pricing before defining the requirements for a new mobile app.",
     "Related Terms": [
-      "Market Analysis",
-      "Market Research",
-      "Business Case"
+      "Market analysis",
+      "Market research",
+      "Business case"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Guide to Business Analysis - competitive analysis"
@@ -636,16 +641,16 @@
       "COI"
     ],
     "Related Terms": [
-      "Code of Ethics and Professional Conduct",
+      "Code of ethics and professional conduct",
       "Ethics",
-      "Duty of Loyalty",
+      "Duty of loyalty",
       "Professional conduct"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Code of Ethics and Professional Conduct"
   },
   {
-    "Term": "Constrained optimisation methods",
+    "Term": "Constrained optimization methods",
     "Core Meaning": "Mathematical techniques that optimise an objective such as cost, schedule, or resource use while respecting defined limits or constraints.",
     "Depth": "Atomic",
     "Expansion": "PMI refers to constrained optimisation methods as decision techniques used in project settings where choices must satisfy restrictions such as budget, capacity, or time. They are often applied in areas such as resource optimisation, scheduling, and portfolio selection.",
@@ -653,10 +658,11 @@
     "Contrast": "Data gathering and representation techniques — constrained optimisation methods use mathematical optimisation to select the best feasible solution, rather than primarily collecting or displaying information.",
     "Example": "A portfolio team uses linear programming to select the mix of projects that maximises strategic value without exceeding funding and staffing limits.",
     "Synonyms": [
+      "Constrained optimisation methods",
       "Mathematical models"
     ],
     "Related Terms": [
-      "Resource optimisation",
+      "Resource optimization",
       "Decision making",
       "Linear programming",
       "Scheduling",
@@ -704,6 +710,28 @@
     "Source": "PMI Guide to Business Analysis — current state assessment"
   },
   {
+    "Term": "Customer lifetime value",
+    "Core Meaning": "The total net profit a business can expect from a customer over the entire duration of the relationship.",
+    "Depth": "Standard",
+    "Expansion": "Customer lifetime value (CLV) estimates a customer's long-term worth rather than the value of a single transaction, factoring in retention, repeat purchases, and loyalty. In project management it helps justify and prioritise work whose payoff is durable, such as features that improve retention or reduce churn. Weighing CLV guides decisions on resource allocation, feature prioritisation, and overall strategy so a project serves lasting organisational goals, not just short-term output. Reliable CLV depends on good customer data and sound assumptions about margin and relationship length.",
+    "Deep Dive": null,
+    "Contrast": "Customer acquisition cost - CLV is the total net profit a customer generates over the relationship, while acquisition cost is the one-time spend required to win that customer.",
+    "Example": "A subscription product team prioritises an onboarding-improvement project after modelling that better first-month retention raises average CLV enough to fund it.",
+    "Synonyms": [
+      "CLV",
+      "Lifetime value"
+    ],
+    "Related Terms": [
+      "Value creation",
+      "Value",
+      "Benefit",
+      "Return on investment",
+      "Business case"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
     "Term": "Digital transformation",
     "Core Meaning": "The deep integration of digital technology across an organization that reshapes how it operates and delivers value.",
     "Depth": "Standard",
@@ -724,7 +752,7 @@
     "Source": "Digital transformation management practice"
   },
   {
-    "Term": "Duty of Loyalty",
+    "Term": "Duty of loyalty",
     "Core Meaning": "A person's obligation to act in the best interest of an organization or party they are affiliated with.",
     "Depth": "Standard",
     "Expansion": "Duty of loyalty is the ethical and often legal obligation to put the interests of one's organization or client ahead of personal gain. For project professionals it means avoiding situations where self-interest could compromise judgment and disclosing conflicts of interest when they arise. It is closely tied to the fairness and responsibility values in professional conduct.",
@@ -738,6 +766,24 @@
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Code of Ethics and Professional Conduct - fairness (conflict of interest)"
+  },
+  {
+    "Term": "Ecosystem services",
+    "Core Meaning": "The benefits that natural systems provide to people, such as air and water purification, carbon storage, pollination, and habitat.",
+    "Depth": "Standard",
+    "Expansion": "Ecosystem services are the practical outputs of healthy ecosystems that underpin economic activity and human well-being, often provided for free and therefore easy to overlook. In projects, recognising these services encourages a holistic view that weighs environmental alongside socio-economic impacts. A team that understands which services a site provides can design work to avoid, minimise, or even enhance them rather than unknowingly destroying value. This aligns with PMBOK 8's sustainability emphasis, extending the definition of project impact beyond direct cost and schedule.",
+    "Deep Dive": null,
+    "Contrast": "Natural capital - ecosystem services are the benefits that flow from nature, while natural capital is the underlying stock of assets that generates them.",
+    "Example": "A riverside development is redesigned to preserve a floodplain because its natural drainage is a cheaper flood-control service than the engineered alternative.",
+    "Related Terms": [
+      "Natural capital",
+      "Sustainable development",
+      "Triple bottom line",
+      "Environmental impact",
+      "Sustainability"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
   },
   {
     "Term": "Enterprise architecture",
@@ -791,8 +837,8 @@
     "Example": "An infrastructure team conducts an environmental impact assessment that leads them to reroute construction away from a protected wetland.",
     "Related Terms": [
       "Sustainability",
-      "Life Cycle Assessment",
-      "Triple Bottom Line",
+      "Life cycle assessment",
+      "Triple bottom line",
       "Enterprise environmental factors"
     ],
     "Tier": "Adjacent concept",
@@ -810,7 +856,7 @@
       "Integrity",
       "Honesty",
       "Professional conduct",
-      "Code of Ethics and Professional Conduct"
+      "Code of ethics and professional conduct"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Code of Ethics and Professional Conduct / PMI Knowledgebase — Ethics; exact standard page citation not available in retrieved PMI sources"
@@ -900,7 +946,7 @@
     "Source": "PMI Lexicon / PMBOK-related glossary, Feasibility study; page citation not available in retrieved source"
   },
   {
-    "Term": "Functional Organization",
+    "Term": "Functional organization",
     "Core Meaning": "An organizational structure in which staff is grouped by specialty and the project manager has limited authority to assign work and apply resources.",
     "Depth": "Foundational",
     "Expansion": "A Functional Organization groups people by discipline such as engineering, finance, operations, or marketing rather than around projects. In this structure, authority over resources usually remains with functional managers, and the project manager often plays more of a coordinating role. PMI treats it as a core organizational context that strongly influences governance, communication, and decision speed on projects.",
@@ -918,6 +964,24 @@
     "Source": "PMBOK Guide glossary, Functional Organization, page 181"
   },
   {
+    "Term": "Green procurement",
+    "Core Meaning": "The practice of sourcing goods and services whose production, use, and disposal cause the least practical environmental harm.",
+    "Depth": "Standard",
+    "Expansion": "Green procurement applies environmental criteria alongside cost, quality, and delivery when selecting suppliers and materials. On a project it lowers the environmental footprint of the work and signals demand that pushes suppliers toward greener innovation. Embedding it in procurement documents and evaluation criteria also reinforces an organisational culture of sustainability and long-term stewardship. This gives PMBOK 8's sustainability emphasis a concrete lever in the procurement processes a project manager already runs.",
+    "Deep Dive": null,
+    "Contrast": "Procurement - ordinary procurement optimises mainly for cost, quality, and schedule, while green procurement adds environmental impact as a weighted selection criterion.",
+    "Example": "A data-centre build requires bidders to document recycled content and energy efficiency, and scores those factors when awarding the contract.",
+    "Related Terms": [
+      "Sustainable development",
+      "Sustainability",
+      "Carbon footprint",
+      "Procurement",
+      "Triple bottom line"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
     "Term": "Health and safety",
     "Core Meaning": "Practices that protect the physical and psychological wellbeing of people involved in or affected by the project.",
     "Depth": "Atomic",
@@ -926,7 +990,7 @@
     "Contrast": "Distinct from quality management, which focuses on the product meeting requirements rather than on protecting people from harm.",
     "Example": "A construction project enforces hard-hat zones and logs near-miss incidents to meet occupational safety rules.",
     "Synonyms": [
-      "H&S"
+      "H&s"
     ],
     "Related Terms": [
       "Resource management plan",
@@ -1024,7 +1088,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Kotter 8-Step Model",
+    "Term": "Kotter 8-step model",
     "Core Meaning": "An eight-step process for leading organizational change, from creating urgency to anchoring the change in the culture.",
     "Depth": "Standard",
     "Expansion": "John Kotter's model sequences large-scale change through eight steps:\n\n- Create urgency.\n- Build a guiding coalition.\n- Form a strategic vision.\n- Enlist a volunteer army.\n- Enable action by removing barriers.\n- Generate short-term wins.\n- Sustain acceleration.\n- Institute change in the culture.\n\nIt emphasizes top-down leadership and momentum, treating the early steps as essential groundwork often skipped in failed change efforts.",
@@ -1034,14 +1098,14 @@
     "Related Terms": [
       "ADKAR",
       "Organizational change",
-      "Lewin Change Model",
+      "Lewin change model",
       "Change management"
     ],
     "Tier": "Adjacent concept",
     "Source": "Kotter - Leading Change"
   },
   {
-    "Term": "Law of Diminishing Returns",
+    "Term": "Law of diminishing returns",
     "Core Meaning": "The principle that beyond a point, adding more of one input yields progressively smaller gains in output.",
     "Depth": "Standard",
     "Expansion": "The law of diminishing returns holds that as you keep adding units of one input while others stay fixed, each additional unit eventually produces less incremental output. On projects it explains why piling more people onto a task does not proportionally speed it up and can even slow it through added coordination overhead. Recognizing it helps managers avoid over-resourcing and find the efficient level of effort.",
@@ -1075,7 +1139,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Lewin Change Model",
+    "Term": "Lewin change model",
     "Core Meaning": "A three-stage change model of unfreezing the status quo, changing, and refreezing the new state.",
     "Depth": "Standard",
     "Expansion": "Kurt Lewin's model frames change as unfreeze (creating motivation and loosening current behaviors), change (implementing the new way), and refreeze (stabilizing and embedding the new state so it becomes the norm). It is one of the earliest and most cited change frameworks and underpins many later models.",
@@ -1083,11 +1147,11 @@
     "Contrast": "Kotter 8-Step Model - Lewin offers three broad phases, while Kotter expands the change journey into eight prescriptive, leadership-driven steps.",
     "Example": "Before introducing remote work, leadership builds the case for change (unfreeze), pilots new norms (change), then formalizes policy (refreeze).",
     "Synonyms": [
-      "Unfreeze-Change-Refreeze model"
+      "Unfreeze-change-refreeze model"
     ],
     "Related Terms": [
-      "Kotter 8-Step Model",
-      "Bridges Transition Model",
+      "Kotter 8-step model",
+      "Bridges transition model",
       "Organizational change",
       "Change management"
     ],
@@ -1113,7 +1177,7 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
-    "Term": "Life Cycle Assessment",
+    "Term": "Life cycle assessment",
     "Core Meaning": "A tool used to evaluate the total environmental impact of a product, process, or system.",
     "Depth": "Standard",
     "Expansion": "Life Cycle Assessment examines environmental effects across the full life span of something being delivered or used, such as material extraction, production, operation, maintenance, and disposal. In project work, it helps decision makers compare alternatives not only on cost and schedule but also on sustainability impact. It is especially relevant when a project must support environmental goals, regulatory expectations, or long-term asset decisions.",
@@ -1205,7 +1269,7 @@
     "Source": "OPM3 Organizational Project Management Maturity Model"
   },
   {
-    "Term": "McKinsey 7-S Framework",
+    "Term": "McKinsey 7-s framework",
     "Core Meaning": "An organisational model asserting that effectiveness requires aligning seven interdependent elements, with shared values at the centre.",
     "Depth": "Standard",
     "Expansion": "Developed at McKinsey by Tom Peters and Robert Waterman, the 7-S framework holds that organisational performance depends on the alignment of seven elements:\n\n- Strategy (hard).\n- Structure (hard).\n- Systems (hard).\n- Shared values (soft).\n- Skills (soft).\n- Style (soft).\n- Staff (soft).\n\nThe elements are interconnected, so changing one requires realigning the others, and shared values sit at the centre tying them together. It is often used to diagnose why a change effort is stalling.",
@@ -1213,12 +1277,12 @@
     "Contrast": "SWOT analysis - the 7-S framework checks internal alignment across seven organisational elements, whereas SWOT scans strengths, weaknesses, opportunities, and threats including the external environment.",
     "Example": "After a reorganisation, a PMO uses 7-S to check that new structures, systems, and skills still align with the firm's strategy and shared values.",
     "Synonyms": [
-      "7-S Model"
+      "7-S model"
     ],
     "Related Terms": [
       "Organizational structure",
       "Change management",
-      "Organisational culture",
+      "Organizational culture",
       "Strategy"
     ],
     "Tier": "Adjacent concept",
@@ -1243,7 +1307,25 @@
     "Source": "PMIstandards+ Organizational Project Management"
   },
   {
-    "Term": "Net Promoter Score",
+    "Term": "Natural capital",
+    "Core Meaning": "The world's stock of natural assets - geology, soil, air, water, and all living organisms - from which people derive goods and services.",
+    "Depth": "Standard",
+    "Expansion": "Natural capital treats the environment as a form of capital, an asset base that yields ongoing value in the same way financial or human capital does. It matters to projects because activities such as construction, extraction, or land use can deplete or degrade that stock, imposing real costs that traditional budgets ignore. Accounting for natural capital lets a project team weigh the true costs and benefits of a decision, including impacts on the resources a community depends on. This supports PMBOK 8's sustainability emphasis by making long-term environmental value visible in project decision making.",
+    "Deep Dive": null,
+    "Contrast": "Ecosystem services - natural capital is the underlying stock of assets, while ecosystem services are the flows of benefits that stock provides.",
+    "Example": "A highway project quantifies the natural capital of a wetland it will drain so the lost flood-buffering and water-filtration value appears in the business case.",
+    "Related Terms": [
+      "Ecosystem services",
+      "Triple bottom line",
+      "Sustainable development",
+      "Sustainability",
+      "Environmental impact"
+    ],
+    "Tier": "Practitioner term",
+    "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Net promoter score",
     "Core Meaning": "A customer-loyalty metric that indicates how likely customers are to recommend a product, service, or organisation to others.",
     "Depth": "Standard",
     "Expansion": "In project management, Net Promoter Score is often used as an outcome or benefits measure when a project affects customer experience, product quality, or service performance. It helps teams assess whether delivered results are creating stakeholder advocacy rather than only meeting internal delivery targets. PMI materials reference it as a business or product performance indicator that can inform value-focused decision making.",
@@ -1299,64 +1381,6 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Organisational culture",
-    "Core Meaning": "The shared values, beliefs, norms, and behaviours that shape how people work and make decisions within an organisation.",
-    "Depth": "Foundational",
-    "Expansion": "Organisational culture influences how authority is exercised, how teams collaborate, how risk is treated, and how change is received. PMI treats it as a major enterprise environmental factor because it affects project governance, communication, stakeholder engagement, and delivery behaviour. A project's methods may be technically sound yet still struggle if they conflict with the surrounding culture.",
-    "Deep Dive": "What it is: Organisational culture is the pattern of assumptions, behaviours, and working norms that people experience as 'how things are done here'. It can be formal and visible through policies and structures, or informal through habits, incentives, and leadership behaviour.\n\nWhy it matters and where it applies: culture affects decision speed, escalation paths, openness to bad news, collaboration across functions, and willingness to adopt predictive, agile, or hybrid ways of working. It matters in every project, but especially in transformation, cross-functional work, and environments with significant stakeholder complexity.\n\nThe most common misconception: that culture is a soft topic separate from delivery performance. In practice, culture directly shapes schedule realism, risk transparency, governance quality, and whether project teams can adapt effectively.\n\nHow it shows up in real projects: a highly hierarchical culture may slow approvals and discourage escalation, while a learning-oriented culture may support experimentation, faster feedback, and earlier surfacing of delivery risks.",
-    "Contrast": "Organisational structure — culture is the shared behavioural environment and norms; structure is the formal arrangement of roles, authority, and reporting relationships.",
-    "Example": "A project introducing agile delivery struggles because the organisation's culture rewards strict adherence to fixed annual plans and discourages iterative reprioritisation.",
-    "Synonyms": [
-      "Corporate culture"
-    ],
-    "Related Terms": [
-      "Enterprise environmental factors",
-      "Organizational structure",
-      "Governance",
-      "Change management",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide — organisational culture and enterprise environmental factors; confirm exact PMI citation"
-  },
-  {
-    "Term": "Organisational process assets",
-    "Core Meaning": "The organisation's plans, processes, policies, procedures, and knowledge bases that can be used to support and govern a project.",
-    "Depth": "Foundational",
-    "Expansion": "Organisational process assets are internal resources that help projects work consistently and learn from prior experience. They include templates, historical information, lessons learned, policies, standard procedures, and repositories that teams use to plan and execute work. PMI treats them as key inputs because they reduce reinvention, support governance, and improve repeatability across projects.",
-    "Deep Dive": "What it is: Organisational process assets are the reusable management resources and institutional knowledge available within an organisation. They include both formal items such as standards, templates, and procedures, and knowledge assets such as prior estimates, issue logs, and lessons learned repositories.\n\nWhy it matters and where it applies: OPAs speed planning, improve quality, and support consistency with organisational expectations. They are especially important in regulated environments, mature PMOs, and organisations managing portfolios of similar projects where standardisation and historical learning create strong advantages.\n\nThe most common misconception: that OPAs are just document templates. In PMI usage, they also include accumulated knowledge and governance mechanisms that shape how projects are initiated, planned, monitored, and closed.\n\nHow it shows up in real projects: a project manager may use a charter template, consult historical schedule data from similar projects, follow the organisation's change-control procedure, and add new lessons learned back into the repository at closure.",
-    "Contrast": "Enterprise environmental factors — organisational process assets are internal resources the project can use and update, while enterprise environmental factors are broader internal and external conditions that constrain or influence the project.",
-    "Example": "A PM uses the organisation's risk register template, procurement procedures, and historical vendor performance data from prior projects to plan a new implementation.",
-    "Synonyms": [
-      "OPAs"
-    ],
-    "Related Terms": [
-      "Enterprise environmental factors",
-      "Lessons learned repository",
-      "Templates",
-      "Historical information"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide, pages 123-124"
-  },
-  {
-    "Term": "Organisational readiness",
-    "Core Meaning": "The degree to which an organization is prepared to adopt, absorb, and sustain a change produced by a project.",
-    "Depth": "Standard",
-    "Expansion": "Organisational readiness considers whether people, processes, culture, and systems can accept a new solution without unacceptable disruption. It is assessed through stakeholder analysis, capability checks, and change impact reviews before deployment. Low readiness signals the need for training, communication, or phased rollout to protect benefit realization.",
-    "Deep Dive": null,
-    "Contrast": "Differs from solution readiness, which asks whether the deliverable itself is complete; organisational readiness asks whether the receiving organization can use it.",
-    "Example": "Before launching a new ERP system, the team surveys departments and delays go-live for two units that lack trained super-users.",
-    "Related Terms": [
-      "Change management",
-      "Benefits realization",
-      "Stakeholder engagement plan",
-      "Transition plan"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "Managing Change in Organizations: A Practice Guide (PMI)"
-  },
-  {
     "Term": "Organizational change",
     "Core Meaning": "A shift in an organization's structures, processes, technologies, behaviors, or ways of working that affects how work is performed and value is delivered.",
     "Depth": "Standard",
@@ -1382,37 +1406,41 @@
     "Contrast": "Organizational politics — culture is the broader system of shared norms and values; politics is the exercise of influence and power within that environment.",
     "Example": "A project introducing a new enterprise system succeeds only after the team shifts from informal updates to formal steering-committee decisions because the organization values hierarchy and documented approval.",
     "Synonyms": [
-      "Corporate culture"
+      "Corporate culture",
+      "Organisational culture"
     ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, section on organizational systems and culture; exact page citation should be verified in the PMI standard",
     "Related Terms": [
       "Enterprise environmental factors",
       "Organizational politics",
       "Governance",
       "Stakeholder engagement",
-      "Change management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, section on organizational systems and culture; exact page citation should be verified in the PMI standard"
+      "Change management",
+      "Organizational structure"
+    ]
   },
   {
-    "Term": "Organizational Process Assets",
-    "Core Meaning": "Plans, processes, policies, procedures, and knowledge bases specific to and used by the performing organization.",
+    "Term": "Organizational process assets",
+    "Core Meaning": "The organisation's plans, processes, policies, procedures, and knowledge bases that can be used to support and govern a project.",
     "Depth": "Foundational",
-    "Expansion": "Organizational process assets are internal resources that influence how projects are planned and executed. They include artifacts such as templates, policies, procedures, lessons learned, and historical information. Because they belong to the performing organization, project teams may use them, tailor them, and in some cases update them during the project.",
-    "Deep Dive": "What it is: Organizational process assets are the reusable internal assets an organization relies on to manage work. They include formal documentation, knowledge repositories, historical records, and established ways of working.\n\nWhy it matters and where it applies: they improve consistency, speed, and decision quality by giving teams proven templates, prior data, and institutional knowledge. They apply across planning, execution, monitoring, and closing, especially where teams benefit from lessons learned or standardized governance.\n\nThe most common misconception: that these assets are only stored documents. PMI uses the term more broadly to include knowledge bases, practices, and other internal resources used by the performing organization.\n\nHow it shows up in real projects: a team starts with the company charter template, estimates from historical cost data, follows internal change procedures, and adds new lessons learned at closeout.",
-    "Contrast": "Enterprise environmental factors — organizational process assets are internal reusable assets; enterprise environmental factors are the broader conditions and constraints that influence the project.",
-    "Example": "A project manager uses the organization's standard risk register template and historical schedule data from similar projects to build the plan.",
+    "Expansion": "Organisational process assets are internal resources that help projects work consistently and learn from prior experience. They include templates, historical information, lessons learned, policies, standard procedures, and repositories that teams use to plan and execute work. PMI treats them as key inputs because they reduce reinvention, support governance, and improve repeatability across projects.",
+    "Deep Dive": "What it is: Organisational process assets are the reusable management resources and institutional knowledge available within an organisation. They include both formal items such as standards, templates, and procedures, and knowledge assets such as prior estimates, issue logs, and lessons learned repositories.\n\nWhy it matters and where it applies: OPAs speed planning, improve quality, and support consistency with organisational expectations. They are especially important in regulated environments, mature PMOs, and organisations managing portfolios of similar projects where standardisation and historical learning create strong advantages.\n\nThe most common misconception: that OPAs are just document templates. In PMI usage, they also include accumulated knowledge and governance mechanisms that shape how projects are initiated, planned, monitored, and closed.\n\nHow it shows up in real projects: a project manager may use a charter template, consult historical schedule data from similar projects, follow the organisation's change-control procedure, and add new lessons learned back into the repository at closure.",
+    "Contrast": "Enterprise environmental factors — organisational process assets are internal resources the project can use and update, while enterprise environmental factors are broader internal and external conditions that constrain or influence the project.",
+    "Example": "A PM uses the organisation's risk register template, procurement procedures, and historical vendor performance data from prior projects to plan a new implementation.",
     "Synonyms": [
-      "OPAs"
-    ],
-    "Related Terms": [
-      "Enterprise environmental factors",
-      "Lessons learned",
-      "Historical information",
-      "Templates"
+      "OPAs",
+      "Organisational process assets"
     ],
     "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms — Organizational Process Assets"
+    "Source": "PMBOK Guide, pages 123-124",
+    "Related Terms": [
+      "Enterprise environmental factors",
+      "Lessons learned repository",
+      "Templates",
+      "Historical information",
+      "Lessons learned"
+    ]
   },
   {
     "Term": "Organizational project management",
@@ -1434,6 +1462,26 @@
     ],
     "Tier": "Core glossary",
     "Source": "The Standard for Organizational Project Management, Fourth Edition, Organizational project management, p. 65"
+  },
+  {
+    "Term": "Organizational readiness",
+    "Core Meaning": "The degree to which an organization is prepared to adopt, absorb, and sustain a change produced by a project.",
+    "Depth": "Standard",
+    "Expansion": "Organisational readiness considers whether people, processes, culture, and systems can accept a new solution without unacceptable disruption. It is assessed through stakeholder analysis, capability checks, and change impact reviews before deployment. Low readiness signals the need for training, communication, or phased rollout to protect benefit realization.",
+    "Deep Dive": null,
+    "Contrast": "Differs from solution readiness, which asks whether the deliverable itself is complete; organisational readiness asks whether the receiving organization can use it.",
+    "Example": "Before launching a new ERP system, the team surveys departments and delays go-live for two units that lack trained super-users.",
+    "Related Terms": [
+      "Change management",
+      "Benefits realization",
+      "Stakeholder engagement plan",
+      "Transition plan"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "Managing Change in Organizations: A Practice Guide (PMI)",
+    "Synonyms": [
+      "Organisational readiness"
+    ]
   },
   {
     "Term": "Organizational strategy",
@@ -1572,7 +1620,7 @@
       "Portfolio management",
       "Project selection methods",
       "Benefit measurement methods",
-      "Scoring Model"
+      "Scoring model"
     ],
     "Tier": "Adjacent concept",
     "Source": "The Standard for Portfolio Management"
@@ -1586,8 +1634,8 @@
     "Contrast": "Product roadmap — product strategy explains the choices and value logic behind the product; a product roadmap shows how priorities are expected to unfold over time.",
     "Example": "A health-tech company defines a strategy to win mid-size clinics by reducing appointment no-shows through integrated reminders, analytics, and easy staff workflows, and then uses that logic to prioritize its delivery backlog.",
     "Related Terms": [
-      "Product Vision",
-      "Product Roadmap",
+      "Product vision",
+      "Product roadmap",
       "Benefits management",
       "Value proposition",
       "Outcome"
@@ -1604,7 +1652,7 @@
     "Contrast": "Compliance — compliance is adherence to rules or requirements; professional conduct is the broader ethical and behavioral standard guiding how a practitioner acts.",
     "Example": "During a vendor evaluation, a project manager discloses a prior relationship with one bidder, recuses themselves from scoring that proposal, and documents the decision path for transparency.",
     "Related Terms": [
-      "Code of Ethics and Professional Conduct",
+      "Code of ethics and professional conduct",
       "Responsibility",
       "Respect",
       "Fairness",
@@ -1623,7 +1671,7 @@
     "Example": "A project manager reports a likely schedule slip as soon as evidence emerges, explains the impact honestly, and works with stakeholders on recovery options instead of masking the delay.",
     "Related Terms": [
       "Ethics",
-      "Code of Ethics and Professional Conduct",
+      "Code of ethics and professional conduct",
       "Responsibility",
       "Respect",
       "Accountability"
@@ -1696,7 +1744,7 @@
       "Enterprise environmental factors",
       "Tailoring",
       "Governance",
-      "Organisational culture",
+      "Organizational culture",
       "Stakeholder environment"
     ],
     "Tier": "Core glossary",
@@ -1714,7 +1762,7 @@
       "Business case",
       "Portfolio management",
       "Benefit measurement methods",
-      "Constrained optimisation methods",
+      "Constrained optimization methods",
       "Selection criteria"
     ],
     "Tier": "Core glossary",
@@ -1750,7 +1798,7 @@
       "Go-live",
       "Cutover",
       "Transition",
-      "Definition of Ready"
+      "Definition of ready"
     ],
     "Tier": "Adjacent concept",
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
@@ -1832,7 +1880,7 @@
     "Source": "PMI Code of Ethics and Professional Conduct - Respect"
   },
   {
-    "Term": "Satir Change Model",
+    "Term": "Satir change model",
     "Core Meaning": "A five-stage model describing how performance dips and then recovers as a group absorbs a disruptive change.",
     "Depth": "Standard",
     "Expansion": "Virginia Satir's model traces change through five stages:\n\n- Late Status Quo.\n- Resistance — triggered by a foreign element.\n- Chaos.\n- Transforming Idea.\n- New Status Quo — at higher performance.\n\nIt explicitly predicts a temporary performance and morale dip during Chaos, helping leaders normalize that decline rather than abandon the change prematurely.",
@@ -1840,8 +1888,8 @@
     "Contrast": "Bridges Transition Model - Satir emphasizes the performance dip and recovery curve of a system, while Bridges focuses on the individual's psychological phases of letting go.",
     "Example": "A team's velocity drops after adopting a new tool; the coach cites the Satir model to reassure them the Chaos stage precedes higher performance.",
     "Related Terms": [
-      "Bridges Transition Model",
-      "Lewin Change Model",
+      "Bridges transition model",
+      "Lewin change model",
       "Organizational change",
       "Team dynamics"
     ],
@@ -1849,7 +1897,7 @@
     "Source": "Satir - the Satir change model"
   },
   {
-    "Term": "Scoring Model",
+    "Term": "Scoring model",
     "Core Meaning": "A project selection technique that ranks options by scoring them against weighted criteria.",
     "Depth": "Atomic",
     "Expansion": "A scoring model, or weighted scoring model, evaluates candidate projects or solutions by rating each against defined criteria and multiplying by criterion weights to produce a comparable total score. It is a benefit-measurement method that makes selection transparent and reduces bias in prioritization.",
@@ -1860,7 +1908,7 @@
       "Project selection methods",
       "Benefit measurement methods",
       "Multicriteria decision analysis",
-      "Prioritization Matrix"
+      "Prioritization matrix"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - project selection methods"
@@ -1954,7 +2002,7 @@
     "Source": "The Standard for Portfolio Management, Fourth Edition, section on strategic objectives and strategic alignment, exact page not confirmed in current context"
   },
   {
-    "Term": "Strategic Plan",
+    "Term": "Strategic plan",
     "Core Meaning": "A high-level document that defines an organization's long-term direction, goals, and priorities and guides how initiatives should align to them.",
     "Depth": "Foundational",
     "Expansion": "A strategic plan sets out where the organization intends to go and the objectives it seeks to achieve over time. In PMI usage, projects and programs are expected to align with this broader direction so that work contributes to intended benefits and business value. It matters because project selection, prioritisation, and success criteria are shaped by strategy rather than by isolated delivery performance alone.",
@@ -1990,7 +2038,7 @@
     "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
   },
   {
-    "Term": "Strategy Artifacts",
+    "Term": "Strategy artifacts",
     "Core Meaning": "Documents created prior to or at the start of the project that address strategic, business, or high-level information about the project.",
     "Depth": "Foundational",
     "Expansion": "Strategy Artifacts are early documents that explain why a project exists, what strategic purpose it serves, and what high-level context should guide it. They are created before delivery work is fully underway or at project initiation, and they provide the business and strategic framing for later planning and execution. These artifacts help connect project activity to organizational intent rather than treating the work as isolated task execution.",
@@ -2026,7 +2074,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Section 2.3.2, pages 47-48"
   },
   {
-    "Term": "Strong Matrix Organization",
+    "Term": "Strong matrix organization",
     "Core Meaning": "A matrix structure in which the project manager holds most of the authority over resources and budget.",
     "Depth": "Standard",
     "Expansion": "In a strong matrix, project managers are typically full-time, have significant authority, and may have administrative staff, while functional managers retain ownership of their staff between assignments. It sits at the project-manager-favoring end of the matrix spectrum, with the balanced and weak forms giving the PM progressively less power. It improves project focus while keeping functional expertise intact.",
@@ -2034,7 +2082,7 @@
     "Contrast": "Weak matrix - in a weak matrix the functional manager holds most authority and the PM acts more as a coordinator, the opposite of a strong matrix.",
     "Example": "A PM who controls the budget and assigns engineers full-time to a project while they still report to engineering managers for career matters.",
     "Related Terms": [
-      "Balanced Matrix Organization",
+      "Balanced matrix organization",
       "Weak matrix",
       "Functional organization",
       "Projectized organization"
@@ -2102,13 +2150,31 @@
     "Contrast": "Sustainable pace — sustainability concerns long-term environmental and social responsibility, while sustainable pace concerns a workload a team can maintain over time.",
     "Example": "A facilities project specifies recycled materials and energy-efficient systems to lower lifetime emissions and operating costs.",
     "Related Terms": [
-      "Triple Bottom Line",
-      "Life Cycle Assessment",
+      "Triple bottom line",
+      "Life cycle assessment",
       "Environmental impact",
       "Business environment"
     ],
     "Tier": "Adjacent concept",
     "Source": "Triple Bottom Line (Elkington) and PMI sustainability practice"
+  },
+  {
+    "Term": "Sustainable development",
+    "Core Meaning": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "Depth": "Standard",
+    "Expansion": "Sustainable development balances environmental, social, and economic considerations so that near-term gains do not create long-term harm. For project managers it is closely tied to stewardship: delivering outcomes responsibly across their full life cycle, from planning through operation and disposal. Practising it means minimising negative environmental effects, acting with social responsibility, and ensuring the project's results remain viable over time. It provides the ethical backdrop for PMBOK 8's sustainability emphasis, framing why a team should look beyond immediate deliverables to lasting value.",
+    "Deep Dive": null,
+    "Contrast": "Triple Bottom Line - sustainable development is the guiding goal of balancing present and future needs, while the Triple Bottom Line is a measurement framework (people, planet, profit) used to report on it.",
+    "Example": "A city transit program chooses electric buses and reusable infrastructure so the network lowers emissions today without locking in costs future residents must bear.",
+    "Related Terms": [
+      "Sustainability",
+      "Triple bottom line",
+      "Stewardship",
+      "Natural capital",
+      "Green procurement"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Eighth Edition - sustainability emphasis; concept originates from the Brundtland Commission, not a formal PMI glossary entry"
   },
   {
     "Term": "Target state",
@@ -2164,7 +2230,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Technology feasibility"
   },
   {
-    "Term": "Triple Bottom Line",
+    "Term": "Triple bottom line",
     "Core Meaning": "A framework for evaluating an organisation's performance from the perspectives of profit, people, and the planet.",
     "Depth": "Standard",
     "Expansion": "PMI defines triple bottom line as a framework for considering the full cost of doing business by evaluating a company's bottom line from the perspective of profit, people, and the planet. It is used to broaden decision making beyond financial return alone and to consider social and environmental effects alongside economic outcomes. The concept appears in PMI's glossary as a formal term.",
@@ -2202,6 +2268,25 @@
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Value creation",
+    "Core Meaning": "The process of generating tangible or intangible benefits for an organisation and its stakeholders through project work.",
+    "Depth": "Foundational",
+    "Expansion": "Value creation is the reason projects are undertaken: to produce outcomes worth more to stakeholders than the resources consumed. It can take many forms - improved efficiency, lower cost, higher revenue, better customer satisfaction, or new market opportunities. Project managers drive it by aligning objectives with strategy, using resources effectively, and encouraging innovation. In PMBOK 7 it sits at the centre of the value delivery system, which reframes projects as components of value delivery rather than isolated efforts to hit scope, cost, and schedule.",
+    "Deep Dive": "What it is: value creation is the generation of benefit for the organisation and its stakeholders, whether financial (revenue, savings) or non-financial (capability, satisfaction, reputation, social good). It is measured by the worth of outcomes, not the volume of output produced.\n\nWhy it matters: PMBOK 7 moved the profession from a deliverable-centric view to a value-centric one. Projects, programs, and portfolios are seen as parts of a value delivery system that connects work to strategy, so a team is expected to ask not only whether the deliverable is done but whether it enables value.\n\nThe common misconception: that finishing the deliverable creates the value. In practice creation only sets up the potential; the value is realised later through adoption, use, and sustained operation, which is why creation and realization are treated as distinct steps.\n\nHow it shows up in projects: a team building a new analytics platform creates value not by shipping the software but by enabling faster, better decisions once people rely on it - so scope is shaped around the outcomes that generate that benefit.",
+    "Contrast": "Value realization - value creation generates the potential benefits, while value realization is the later confirmation that those benefits are actually achieved and sustained.",
+    "Example": "A retailer's inventory-optimisation project creates value by cutting stockouts and holding costs, raising both sales and margin once the new process is adopted.",
+    "Related Terms": [
+      "Value",
+      "Value realization",
+      "Value delivery system",
+      "Benefit",
+      "Benefits realization",
+      "Customer lifetime value"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition - value delivery system"
   },
   {
     "Term": "Value delivery",
@@ -2256,6 +2341,24 @@
     ],
     "Tier": "Core glossary",
     "Source": "PMIstandards+ Navigator Glossary, value proposition, page not available in retrieved source"
+  },
+  {
+    "Term": "Value realization",
+    "Core Meaning": "The process of ensuring the intended benefits and value of a project are actually achieved and sustained over time.",
+    "Depth": "Standard",
+    "Expansion": "Value realization shifts the focus from delivering outputs to confirming that expected value materialises after delivery. It relies on defining value objectives up front, then tracking outcomes against clear metrics and KPIs and adjusting as needed to close any gap. Because value often depends on adoption and use well beyond project closure, realization frequently continues into operations. In PMBOK 7's value delivery framing, this is how a team demonstrates that an investment paid off rather than assuming completion equals success.",
+    "Deep Dive": null,
+    "Contrast": "Value creation - value creation generates the potential benefits, while value realization confirms those benefits are actually attained and maintained after delivery.",
+    "Example": "After launching a self-service portal, the team keeps monitoring call-deflection and satisfaction metrics for two quarters to verify the projected savings are realised.",
+    "Related Terms": [
+      "Value creation",
+      "Benefits realization",
+      "Value",
+      "Value delivery system",
+      "Benefit"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition - value delivery system; not a formal PMI glossary entry"
   },
   {
     "Term": "Vision statement",

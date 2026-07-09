@@ -36,7 +36,7 @@
     "Source": "PMBOK Guide Seventh Edition, ambiguity definition in PMI terminology section, page 237"
   },
   {
-    "Term": "Ambiguity Risk",
+    "Term": "Ambiguity risk",
     "Core Meaning": "Uncertainty that arises from a lack of knowledge or understanding about aspects of the project.",
     "Depth": "Standard",
     "Expansion": "Ambiguity risk is uncertainty caused by imperfect knowledge - gaps in understanding requirements, technology, the market, or future conditions. Unlike risks tied to natural variation, ambiguity risks stem from what the team does not yet know, and they are addressed by acquiring knowledge: research, prototyping, expert consultation, and incremental development. It is one of the emergent risk types discussed in PMI risk guidance, alongside variability and emergent risk.",
@@ -44,9 +44,9 @@
     "Contrast": "Variability risk - variability risk comes from known events whose outcome varies, whereas ambiguity risk comes from incomplete knowledge of the situation itself.",
     "Example": "Uncertainty about how a newly released technology will perform because the team has never used it before.",
     "Related Terms": [
-      "Variability Risk",
+      "Variability risk",
       "Uncertainty",
-      "Emergent Risk"
+      "Emergent risk"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Practice Standard for Project Risk Management - ambiguity risk"
@@ -61,7 +61,7 @@
     "Example": "A team that runs frequent small releases learns from each minor failure, becoming antifragile compared with one chasing a single flawless big-bang launch.",
     "Related Terms": [
       "Volatility",
-      "Fail Fast",
+      "Fail fast",
       "Empiricism",
       "VUCA"
     ],
@@ -69,7 +69,7 @@
     "Source": "Taleb - Antifragile"
   },
   {
-    "Term": "Assumption and Constraint Analysis",
+    "Term": "Assumption and constraint analysis",
     "Core Meaning": "A planning and analysis technique used to identify, examine, and evaluate assumptions and constraints that can shape project decisions, risks, and delivery options.",
     "Depth": "Standard",
     "Expansion": "Assumption and constraint analysis tests the conditions a project is treating as true and the limitations it must operate within. PMI practice uses this kind of analysis to expose hidden risk, clarify planning boundaries, and improve the realism of estimates, schedules, and solution choices. It is often applied early in planning and revisited when uncertainty, dependencies, or external conditions change.",
@@ -97,7 +97,7 @@
     "Related Terms": [
       "Assumption",
       "Assumption log",
-      "Identify Risks",
+      "Identify risks",
       "Risk register"
     ],
     "Tier": "Core glossary",
@@ -122,7 +122,7 @@
     "Source": "PMBOK Guide Sixth Edition, Plan Risk Responses, page 443"
   },
   {
-    "Term": "Bowtie Method",
+    "Term": "Bowtie method",
     "Core Meaning": "A visual risk analysis technique that maps the causes and consequences of a risk event around a central knot with preventive and mitigating barriers.",
     "Depth": "Standard",
     "Expansion": "The bowtie method diagrams a single hazard or risk event in the center, with threats and their preventive controls on the left and consequences with their mitigating controls on the right, forming a bowtie shape. It makes the relationship between causes, the event, controls, and outcomes visible, supporting both qualitative analysis and barrier management.",
@@ -145,7 +145,7 @@
     "Source": "IEC 31010 - bowtie analysis"
   },
   {
-    "Term": "Business Risk",
+    "Term": "Business risk",
     "Core Meaning": "A risk that can result in either a gain or a loss.",
     "Depth": "Standard",
     "Expansion": "A business risk carries the possibility of either a positive (opportunity) or negative (threat) outcome, unlike a pure risk that can only cause loss. Organizations accept business risks deliberately in pursuit of profit or strategic advantage. The concept distinguishes speculative, two-sided uncertainties from insurable, one-sided ones.",
@@ -153,7 +153,7 @@
     "Contrast": "Pure risk - a pure (insurable) risk offers only the chance of loss, whereas a business risk can yield either gain or loss.",
     "Example": "Investing in developing a new product line that may either capture market share or fail to sell.",
     "Related Terms": [
-      "Pure Risk",
+      "Pure risk",
       "Opportunity",
       "Threat"
     ],
@@ -161,7 +161,7 @@
     "Source": "PMI risk management - business (speculative) risk"
   },
   {
-    "Term": "Checklist Analysis",
+    "Term": "Checklist analysis",
     "Core Meaning": "Systematically reviewing items against a predefined list to ensure accuracy and completeness.",
     "Depth": "Standard",
     "Expansion": "Checklist analysis uses a structured list - often built from historical information and lessons learned - to systematically verify that required items have been addressed. In risk management it helps identify risks by walking through categories that have arisen on past similar projects. Its strength is consistency; its weakness is that it can blind teams to risks not on the list.",
@@ -169,9 +169,9 @@
     "Contrast": "Brainstorming - brainstorming openly generates new ideas, whereas checklist analysis checks against a fixed, predefined list and may miss novel items.",
     "Example": "Using a standard risk checklist from previous construction projects to confirm common risks such as permit delays have been considered.",
     "Related Terms": [
-      "Risk Identification",
-      "Quality Checklists",
-      "Lessons Learned"
+      "Risk identification",
+      "Quality checklists",
+      "Lessons learned"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - checklist analysis"
@@ -248,7 +248,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Contingent Response Strategies",
+    "Term": "Contingent response strategies",
     "Core Meaning": "Risk responses planned in advance but executed only if specific trigger conditions occur.",
     "Depth": "Standard",
     "Expansion": "Contingent response strategies are responses designed for use only under certain predefined conditions. The team agrees in advance what action to take and what trigger or warning sign will set it in motion, then holds the response in reserve. This keeps the team prepared for risks that may not happen, without spending effort until a trigger event actually occurs.",
@@ -307,7 +307,7 @@
     "Source": "PMBOK Guide — decision tree analysis term; exact page citation requires source verification"
   },
   {
-    "Term": "Emergent Risk",
+    "Term": "Emergent risk",
     "Core Meaning": "A risk that was unforeseeable at planning time and arises from changing conditions during the project.",
     "Depth": "Standard",
     "Expansion": "An emergent risk is one that could not be identified in advance because it stems from new, evolving, or previously unknown circumstances. Such risks are the unknown-unknowns that escape traditional identification and demand resilience and adaptive response. Management reserves and a responsive risk process help absorb their impact.",
@@ -437,7 +437,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Identify Risks",
+    "Term": "Identify risks",
     "Core Meaning": "The process of identifying individual project risks as well as sources of overall project risk and documenting their characteristics.",
     "Depth": "Foundational",
     "Expansion": "Identify Risks is the risk management process used to discover uncertain events or conditions that could affect project objectives, along with broader sources of uncertainty affecting the project as a whole. It is not a one-time workshop but a recurring activity performed throughout the project as scope, assumptions, constraints, and external conditions change. Its main output is the risk register, typically supported by a risk report and related updates to project documents.",
@@ -448,8 +448,8 @@
       "Risk",
       "Risk register",
       "Overall project risk",
-      "Perform Qualitative Risk Analysis",
-      "Plan Risk Management"
+      "Perform qualitative risk analysis",
+      "Plan risk management"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process from the PMBOK Guide, Sixth Edition, Project Risk Management — Identify Risks; confirm exact page in Infinity"
@@ -649,7 +649,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Manage Risk",
+    "Term": "Manage risk",
     "Core Meaning": "The ongoing execution of agreed risk responses together with coordination of risk-related actions as project conditions change.",
     "Depth": "Standard",
     "Expansion": "Manage Risk is the work of putting planned risk responses into action and adjusting them when assumptions, triggers, or exposure levels shift. It keeps risk management active during delivery rather than treating it as a one-time planning exercise. The focus is practical: assign owners, watch triggers, execute responses, and adapt when new information emerges.",
@@ -659,7 +659,7 @@
     "Related Terms": [
       "Risk response",
       "Risk owner",
-      "Monitor Risks",
+      "Monitor risks",
       "Risk register",
       "Contingency plan"
     ],
@@ -685,7 +685,7 @@
     "Source": "PMI Lexicon / A Guide to the Project Management Body of Knowledge (PMBOK Guide)"
   },
   {
-    "Term": "Monitor Risks",
+    "Term": "Monitor risks",
     "Core Meaning": "The process of monitoring the implementation of agreed-upon risk response plans, tracking identified risks, identifying and analyzing new risks, and evaluating risk process effectiveness throughout the project.",
     "Depth": "Foundational",
     "Expansion": "Monitor Risks keeps the project risk picture current as conditions change. It tracks known risks, checks whether response actions are working, and identifies new threats or opportunities that emerge during delivery. PMI treats it as continuous work because uncertainty changes over time with scope decisions, external events, technical progress, and stakeholder actions.",
@@ -697,7 +697,7 @@
       "Risk report",
       "Risk response",
       "Risk owner",
-      "Identify Risks"
+      "Identify risks"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Monitor Risks, p. 452"
@@ -823,7 +823,7 @@
     "Source": "PMI risk management standards and PMBOK risk response guidance — confirm exact PMI citation"
   },
   {
-    "Term": "Overall Project Risk",
+    "Term": "Overall project risk",
     "Core Meaning": "The effect of uncertainty on the project as a whole, arising from all sources of uncertainty including individual risks.",
     "Depth": "Foundational",
     "Expansion": "Overall project risk reflects the combined exposure of the entire project rather than the effect of one discrete uncertain event. PMI distinguishes it from individual project risks because a project can face broad uncertainty from complexity, volatility, ambiguity, and interdependencies even when single risks seem controlled. It is used to inform governance, contingency, and decisions about viability and delivery confidence.",
@@ -877,7 +877,7 @@
     "Source": "PMI Knowledgebase — Perform Quantitative Risk Analysis, page 10"
   },
   {
-    "Term": "Plan Risk Management",
+    "Term": "Plan risk management",
     "Core Meaning": "The process of defining how risk management activities will be conducted for a project.",
     "Depth": "Foundational",
     "Expansion": "Plan Risk Management establishes the approach, roles, tools, reporting formats, and timing that will be used to manage project risk. In PMI's process framework, it is performed early so later risk identification, analysis, response planning, and monitoring are consistent and fit the project's context. It helps tailor risk work to the project's size, complexity, stakeholder expectations, and governance needs.",
@@ -886,10 +886,10 @@
     "Example": "Before starting a plant-upgrade project, the team agrees on risk workshops, scoring scales, reporting thresholds, and who must approve contingency use, then records that approach in the risk management plan.",
     "Related Terms": [
       "Risk management plan",
-      "Identify Risks",
-      "Perform Qualitative Risk Analysis",
-      "Plan Risk Responses",
-      "Monitor Risks"
+      "Identify risks",
+      "Perform qualitative risk analysis",
+      "Plan risk responses",
+      "Monitor risks"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process from PMBOK Guide, Sixth Edition, Section 11.1, Plan Risk Management, p. 401"
@@ -978,13 +978,13 @@
       "svg": "<svg viewBox='0 0 254 196' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='62' y='12' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><rect x='122' y='12' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='182' y='12' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='62' y='58' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='122' y='58' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><rect x='182' y='58' width='60' height='46' fill='#B5462F' fill-opacity='0.38' stroke='currentColor' stroke-width='0.5'/><rect x='62' y='104' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='122' y='104' width='60' height='46' fill='#2F6F5E' fill-opacity='0.32' stroke='currentColor' stroke-width='0.5'/><rect x='182' y='104' width='60' height='46' fill='#C98A1F' fill-opacity='0.35' stroke='currentColor' stroke-width='0.5'/><text x='54' y='38' fill='currentColor' font-size='9' text-anchor='end'>High</text><text x='54' y='84' fill='currentColor' font-size='9' text-anchor='end'>Med</text><text x='54' y='130' fill='currentColor' font-size='9' text-anchor='end'>Low</text><text x='22' y='81' fill='currentColor' font-size='10' text-anchor='middle' transform='rotate(-90 22 81)'>Probability</text><text x='92' y='165' fill='currentColor' font-size='9' text-anchor='middle'>Low</text><text x='152' y='165' fill='currentColor' font-size='9' text-anchor='middle'>Med</text><text x='212' y='165' fill='currentColor' font-size='9' text-anchor='middle'>High</text><text x='152' y='181' fill='currentColor' font-size='10' text-anchor='middle'>Impact</text></svg>"
     },
     "Synonyms": [
-      "P-I matrix"
+      "P-i matrix"
     ],
     "Related Terms": [
       "Risk",
-      "Perform Qualitative Risk Analysis",
+      "Perform qualitative risk analysis",
       "Probability distribution",
-      "Risk prioritisation"
+      "Risk prioritization"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms — probability and impact matrix; A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, exact page citation not confirmed in current context"
@@ -999,7 +999,7 @@
     "Example": "A schedule risk model uses a triangular distribution for activity duration to reflect optimistic, most likely, and pessimistic estimates.",
     "Related Terms": [
       "Monte Carlo simulation",
-      "Quantitative Risk Analysis",
+      "Quantitative risk analysis",
       "Risk",
       "Uncertainty"
     ],
@@ -1024,7 +1024,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Pure Risk",
+    "Term": "Pure risk",
     "Core Meaning": "A risk that can only result in a loss or no loss, with no possibility of gain; also called insurable risk.",
     "Depth": "Standard",
     "Expansion": "Pure risk presents only downside outcomes, such as fire, theft, or accidents, and is typically transferable through insurance. It contrasts with business or speculative risk, which carries both upside and downside potential. Recognizing pure risks helps a project decide what to insure versus what to actively manage for opportunity.",
@@ -1214,7 +1214,7 @@
       "Quantitative risk analysis",
       "Risk",
       "Risk data quality assessment",
-      "Risk prioritisation"
+      "Risk prioritization"
     ],
     "Tier": "Core glossary",
     "Source": "Practice Standard for Project Risk Management, 2nd Edition — Risk analysis, p. 167; PMBOK Guide Sixth Edition — Risk analysis, p. 720"
@@ -1247,13 +1247,31 @@
     "Example": "A construction team assesses weather, permitting, and subcontractor risks, then prioritises the permitting risk for immediate response because it has moderate likelihood but severe schedule impact.",
     "Related Terms": [
       "Risk identification",
-      "Perform Qualitative Risk Analysis",
-      "Perform Quantitative Risk Analysis",
+      "Perform qualitative risk analysis",
+      "Perform quantitative risk analysis",
       "Probability and impact matrix",
       "Risk response"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
+  },
+  {
+    "Term": "Risk attitude",
+    "Core Meaning": "The disposition of an individual, group, or organization toward taking or avoiding risk in pursuit of objectives.",
+    "Depth": "Standard",
+    "Expansion": "Risk attitude is the stance a stakeholder holds toward uncertainty, ranging from risk-seeking, through risk-neutral, to risk-averse. It is shaped by perceptions, values, and appetite, and it directly influences how risks are identified, assessed, and responded to. Because stakeholders on the same project can hold very different attitudes, the project manager must understand and reconcile them so that risk thresholds and responses reflect a consistent, agreed basis. PMI treats risk attitude as a key driver of how risk appetite is expressed in practice.",
+    "Deep Dive": null,
+    "Contrast": "Risk appetite vs risk attitude: risk appetite is the degree of uncertainty an entity is willing to accept in anticipation of reward, while risk attitude is the broader chosen disposition (seeking, neutral, or averse) that shapes that appetite.",
+    "Example": "A risk-averse sponsor insists on extra testing and larger contingency reserves, while a risk-seeking business lead pushes to launch early, forcing the project manager to align their differing attitudes on agreed thresholds.",
+    "Related Terms": [
+      "Risk appetite",
+      "Risk threshold",
+      "Risk tolerance",
+      "Risk culture",
+      "Stakeholder"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "PMBOK Guide Seventh Edition"
   },
   {
     "Term": "Risk audit",
@@ -1313,7 +1331,7 @@
     "Source": "The Standard for Portfolio Management, Fourth Edition — Risk breakdown structure, pp. 135-136"
   },
   {
-    "Term": "Risk Categorization",
+    "Term": "Risk categorization",
     "Core Meaning": "Grouping identified risks by source, project area affected, or other category to find concentrations of risk.",
     "Depth": "Standard",
     "Expansion": "Risk categorization organizes risks using structures such as the risk breakdown structure (by source), the WBS (by affected area), or by project phase. It reveals where risk exposure is concentrated, helping target risk responses and root-cause analysis. It is performed during Perform Qualitative Risk Analysis.",
@@ -1322,7 +1340,7 @@
     "Example": "Sorting project risks by RBS reveals that most exposure comes from external supplier sources.",
     "Related Terms": [
       "Risk breakdown structure",
-      "Perform Qualitative Risk Analysis",
+      "Perform qualitative risk analysis",
       "Root cause analysis",
       "Work breakdown structure"
     ],
@@ -1348,7 +1366,7 @@
     "Source": "Practice Standard for Project Risk Management, 2nd Edition — Risk category, p. 25; PMBOK Guide Sixth Edition — Risk category, p. 720"
   },
   {
-    "Term": "Risk Connectivity",
+    "Term": "Risk connectivity",
     "Core Meaning": "The degree to which an individual risk is related to or interconnected with other risks.",
     "Depth": "Atomic",
     "Expansion": "Risk connectivity is one of the parameters assessed during qualitative risk analysis to prioritize risks beyond probability and impact. Highly connected risks can trigger or amplify others, so they may warrant elevated attention even if their standalone impact is moderate.",
@@ -1357,7 +1375,7 @@
     "Example": "A supplier-delay risk that would cascade into testing and launch risks is rated high in connectivity.",
     "Related Terms": [
       "Risk propinquity",
-      "Perform Qualitative Risk Analysis",
+      "Perform qualitative risk analysis",
       "Risk urgency",
       "Risk breakdown structure"
     ],
@@ -1365,7 +1383,7 @@
     "Source": "PMBOK Guide - assessment of other risk parameters"
   },
   {
-    "Term": "Risk Controllability",
+    "Term": "Risk controllability",
     "Core Meaning": "The degree to which the risk owner is able to control the risk's outcome.",
     "Depth": "Atomic",
     "Expansion": "Risk controllability is a qualitative-analysis parameter indicating how much influence the owner has over whether and how a risk materializes. Low-controllability risks may push a team toward acceptance or contingency planning, while high-controllability risks favor active mitigation.",
@@ -1375,10 +1393,28 @@
     "Related Terms": [
       "Risk manageability",
       "Risk detectability",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
+  },
+  {
+    "Term": "Risk culture",
+    "Core Meaning": "The shared values, beliefs, and behaviors that shape how an organization perceives, discusses, and manages risk.",
+    "Depth": "Standard",
+    "Expansion": "Risk culture is the collective mindset that determines whether risk management is embraced as everyday practice or treated as a paperwork formality. A healthy risk culture is built on leadership commitment, open communication, psychological safety to raise bad news, and a learning orientation that treats surfaced risks as valuable rather than as failures. It strongly influences whether risks are reported honestly, escalated early, and acted on, so it can matter more to outcomes than the formal process itself. PMI frames it as an enabler that must be actively fostered for risk management to be effective.",
+    "Deep Dive": null,
+    "Contrast": "Risk attitude vs risk culture: risk attitude is a specific person's or group's disposition toward a given risk, whereas risk culture is the organization-wide, enduring set of shared norms and behaviors around risk.",
+    "Example": "On one program, team members flag emerging threats in weekly stand-ups without fear of blame, reflecting a strong risk culture that surfaces issues while they are still cheap to address.",
+    "Related Terms": [
+      "Risk attitude",
+      "Risk appetite",
+      "Risk tolerance",
+      "Organizational governance",
+      "Psychological safety"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "The Standard for Risk Management in Portfolios, Programs, and Projects"
   },
   {
     "Term": "Risk data quality assessment",
@@ -1399,7 +1435,7 @@
     "Source": "Practice Standard for Project Risk Management, 2nd Edition — Risk data quality assessment, p. 167; PMBOK Guide Sixth Edition — Risk data quality assessment, p. 720"
   },
   {
-    "Term": "Risk Detectability",
+    "Term": "Risk detectability",
     "Core Meaning": "The ease with which the occurrence, or imminent occurrence, of a risk can be detected and recognized.",
     "Depth": "Atomic",
     "Expansion": "Risk detectability is a qualitative parameter describing how readily warning signs of a risk can be sensed. Low detectability is dangerous because a risk may strike with little warning, raising its priority for monitoring or early-warning indicators.",
@@ -1409,13 +1445,13 @@
     "Related Terms": [
       "Risk dormancy",
       "Risk urgency",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
   },
   {
-    "Term": "Risk Dormancy",
+    "Term": "Risk dormancy",
     "Core Meaning": "The period that may elapse after a risk occurs before its impact becomes apparent.",
     "Depth": "Atomic",
     "Expansion": "Risk dormancy measures the lag between a risk event happening and the project discovering its consequences. Long dormancy is concerning because damage can accumulate undetected, so such risks may justify additional monitoring or detection mechanisms.",
@@ -1425,7 +1461,7 @@
     "Related Terms": [
       "Risk proximity",
       "Risk detectability",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
@@ -1539,7 +1575,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Process 11.2 Identify Risks; also reflected in The Standard for Risk Management in Portfolios, Programs, and Projects"
   },
   {
-    "Term": "Risk Manageability",
+    "Term": "Risk manageability",
     "Core Meaning": "The ease with which the risk owner can manage the occurrence or impact of a risk.",
     "Depth": "Atomic",
     "Expansion": "Risk manageability is a qualitative parameter reflecting how practical it is to respond to a risk. Easily managed risks can be addressed efficiently, while hard-to-manage risks may need earlier action, escalation, or contingency reserves.",
@@ -1549,7 +1585,7 @@
     "Related Terms": [
       "Risk controllability",
       "Risk urgency",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
@@ -1582,7 +1618,7 @@
     "Example": "On an infrastructure project, the team sets common probability-impact scales, reporting thresholds, and monthly risk-review rules in the risk management plan before tracking site, permitting, and supplier risks.",
     "Related Terms": [
       "Risk register",
-      "Plan Risk Management",
+      "Plan risk management",
       "Risk appetite",
       "Risk threshold",
       "Risk response"
@@ -1627,24 +1663,6 @@
     "Source": "PMI Lexicon of Project Management Terms — risk owner"
   },
   {
-    "Term": "Risk prioritisation",
-    "Core Meaning": "The process of ordering identified risks so the project can focus attention and response effort on the most significant ones first.",
-    "Depth": "Standard",
-    "Expansion": "Risk prioritisation evaluates risks against criteria such as probability, impact, urgency, proximity, and detectability. In PMI practice, it is commonly performed during qualitative risk analysis to support efficient allocation of management attention and response planning. The result is a relative view of which risks matter most at a given point in time.",
-    "Deep Dive": null,
-    "Contrast": "Risk ranking — risk prioritisation is the broader act of determining response focus; risk ranking is the ordered result or comparative placement of risks.",
-    "Example": "A construction project prioritises delayed permit approval above possible material price fluctuation because it has a more immediate and severe schedule effect.",
-    "Related Terms": [
-      "Qualitative risk analysis",
-      "Risk ranking",
-      "Probability and impact matrix",
-      "Risk response planning",
-      "Risk urgency"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
     "Term": "Risk prioritization",
     "Core Meaning": "The ranking of identified risks so the most significant ones receive attention and response first.",
     "Depth": "Standard",
@@ -1652,18 +1670,25 @@
     "Deep Dive": null,
     "Contrast": "Risk review — risk prioritization ranks risks by relative importance; risk review revisits current risks and the status of their responses.",
     "Example": "After identifying ten delivery risks, a project team places a likely supplier delay above a low-probability requirements dispute because the supplier issue could affect the near-term critical path.",
+    "Synonyms": [
+      "Risk prioritisation"
+    ],
+    "Tier": "Core glossary",
+    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process groups-aligned discussion of qualitative risk analysis; exact glossary-page citation not confirmed in PMI Lexicon",
     "Related Terms": [
-      "Perform Qualitative Risk Analysis",
+      "Perform qualitative risk analysis",
       "Probability and impact matrix",
       "Risk register",
       "Risk score",
-      "Risk review"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition / Process groups-aligned discussion of qualitative risk analysis; exact glossary-page citation not confirmed in PMI Lexicon"
+      "Risk review",
+      "Qualitative risk analysis",
+      "Risk ranking",
+      "Risk response planning",
+      "Risk urgency"
+    ]
   },
   {
-    "Term": "Risk Propinquity",
+    "Term": "Risk propinquity",
     "Core Meaning": "The degree to which a risk is perceived to matter by one or more stakeholders.",
     "Depth": "Atomic",
     "Expansion": "Risk propinquity is a qualitative parameter capturing the subjective importance stakeholders attach to a risk, which can differ from its objective probability and impact. A risk seen as highly significant by key stakeholders may receive priority attention for political or reputational reasons.",
@@ -1674,13 +1699,13 @@
       "Risk connectivity",
       "Risk urgency",
       "Stakeholder analysis",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
   },
   {
-    "Term": "Risk Proximity",
+    "Term": "Risk proximity",
     "Core Meaning": "The length of time before a risk might have an impact on one or more project objectives.",
     "Depth": "Atomic",
     "Expansion": "Risk proximity indicates how soon a risk could affect the project, helping teams prioritize near-term risks for earlier response planning. Risks with close proximity generally demand more immediate attention than those further in the future.",
@@ -1690,7 +1715,7 @@
     "Related Terms": [
       "Risk urgency",
       "Risk dormancy",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
@@ -1704,7 +1729,7 @@
     "Contrast": "Risk prioritisation — risk ranking is the ordered list or placement of risks; risk prioritisation is the broader decision process for where to focus action.",
     "Example": "A product launch team ranks supply-chain disruption as the highest risk, followed by delayed regulatory approval and then training readiness.",
     "Related Terms": [
-      "Risk prioritisation",
+      "Risk prioritization",
       "Risk register",
       "Qualitative risk analysis",
       "Probability and impact matrix"
@@ -1793,7 +1818,7 @@
     "Contrast": "Qualitative risk analysis — qualitative analysis assesses and prioritizes risks; risk response planning decides the actions to take about them.",
     "Example": "After rating a data-migration failure as high priority, the project team plans a mitigation response that includes a trial migration, rollback steps, a named action owner, and a trigger for invoking contingency support.",
     "Related Terms": [
-      "Plan Risk Responses",
+      "Plan risk responses",
       "Risk response strategy",
       "Risk owner",
       "Risk action owner",
@@ -1833,7 +1858,7 @@
       "Risk register",
       "Risk report",
       "Risk owner",
-      "Monitor Risks"
+      "Monitor risks"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition / Monitor Risks discussion of risk reviews; exact glossary-page citation not confirmed in PMI Lexicon"
@@ -1963,7 +1988,7 @@
     "Source": "The Standard for Risk Management in Portfolios, Programs, and Projects — trigger"
   },
   {
-    "Term": "Risk Urgency",
+    "Term": "Risk urgency",
     "Core Meaning": "The time available to implement a risk response before the opportunity to respond effectively is lost.",
     "Depth": "Atomic",
     "Expansion": "Risk urgency assesses how quickly a response must be put in place, so risks needing near-term action can be flagged and prioritized. It is often combined with proximity to identify risks for accelerated response planning.",
@@ -1973,10 +1998,28 @@
     "Related Terms": [
       "Risk proximity",
       "Risk categorization",
-      "Perform Qualitative Risk Analysis"
+      "Perform qualitative risk analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - assessment of other risk parameters"
+  },
+  {
+    "Term": "Risk velocity",
+    "Core Meaning": "The speed at which a risk would take effect and impact objectives once it occurs.",
+    "Depth": "Standard",
+    "Expansion": "Risk velocity describes how quickly a risk's impact would be felt after the risk event materializes, and how little time the team would have to respond. It complements probability and impact by adding a time dimension to prioritization: two risks with similar impact may demand very different urgency if one hits almost instantly and the other unfolds over months. High-velocity risks need pre-positioned responses, triggers, and contingency reserves because there is no time to plan once they strike. It is often captured in the risk register to sharpen response planning and reserve allocation.",
+    "Deep Dive": null,
+    "Contrast": "Risk velocity vs probability: how FAST a risk would hit and how little warning you get if it occurs, not how LIKELY it is to occur at all.",
+    "Example": "A data-center power failure and a slow supplier price drift may score similar impact, but the outage's high velocity means the team pre-arranges failover, while the price drift can be monitored and addressed over quarters.",
+    "Related Terms": [
+      "Risk appetite",
+      "Risk threshold",
+      "Risk tolerance",
+      "Risk response",
+      "Contingency reserve"
+    ],
+    "Tier": "Adjacent concept",
+    "Source": "The Standard for Risk Management in Portfolios, Programs, and Projects"
   },
   {
     "Term": "Scenario",
@@ -2156,7 +2199,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "SWOT Analysis",
+    "Term": "SWOT analysis",
     "Core Meaning": "A technique for examining strengths, weaknesses, opportunities, and threats to understand a situation or option in project and business analysis work.",
     "Depth": "Standard",
     "Expansion": "PMI identifies SWOT analysis as a technique used in current state assessment. It helps teams evaluate internal factors, such as strengths and weaknesses, alongside external factors, such as opportunities and threats. In project work, it supports framing a problem or decision before selecting actions, requirements, or solution options.",
@@ -2326,7 +2369,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Seventh Edition, section 2.4 and section 2.5; PMI Lexicon — uncertainty"
   },
   {
-    "Term": "Uncertainty Domain",
+    "Term": "Uncertainty domain",
     "Core Meaning": "A PMI performance domain focused on identifying, assessing, and responding to uncertainty so the project can adapt effectively.",
     "Depth": "Standard",
     "Expansion": "PMI describes uncertainty as a lack of understanding and awareness of issues, events, path to follow, or solutions to pursue. The uncertainty domain is therefore concerned with how projects recognise ambiguity, complexity, and volatility and then choose responses that reduce exposure or increase adaptability. It frames uncertainty as something to be managed through learning, tailoring, and appropriate response strategies.",
@@ -2399,7 +2442,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Variability Risk",
+    "Term": "Variability risk",
     "Core Meaning": "Uncertainty about a key characteristic of a planned event, activity, or decision.",
     "Depth": "Standard",
     "Expansion": "Variability risk arises when a feature of the work could vary within a range, such as productivity, weather, or defect rates, but the exact value is unknown. It is addressed with techniques like sensitivity analysis and Monte Carlo simulation that model the range of possible outcomes. It is one type of uncertainty within the broader category of non-event risks.",
@@ -2407,7 +2450,7 @@
     "Contrast": "Ambiguity Risk - ambiguity risk comes from lack of knowledge or understanding, whereas variability risk comes from known factors whose values can fluctuate within a range.",
     "Example": "The number of defects found in testing could be anywhere from 10 to 100, affecting rework effort.",
     "Related Terms": [
-      "Ambiguity Risk",
+      "Ambiguity risk",
       "Monte Carlo simulation",
       "Non-event risk",
       "Sensitivity analysis"

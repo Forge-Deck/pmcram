@@ -10,7 +10,7 @@
     "Related Terms": [
       "Acceptance criteria",
       "Accepted deliverables",
-      "Validate Scope"
+      "Validate scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms — Accept; Acceptance"
@@ -28,7 +28,7 @@
       "Quality control",
       "Requirements",
       "Validation",
-      "Definition of Done"
+      "Definition of done"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon of Project Management Terms — Acceptance criteria"
@@ -59,7 +59,7 @@
     "Example": "After reviewing the finished training package against the agreed criteria, the client signs the approval form and the materials become accepted deliverables.",
     "Related Terms": [
       "Deliverable",
-      "Validate Scope",
+      "Validate scope",
       "Acceptance criteria",
       "Formal approval",
       "Scope baseline"
@@ -79,13 +79,13 @@
       "Use case",
       "Persona",
       "Entity relationship diagram",
-      "Data Flow Diagram"
+      "Data flow diagram"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Guide to Business Analysis — use case modeling"
   },
   {
-    "Term": "Affinity Diagram",
+    "Term": "Affinity diagram",
     "Core Meaning": "A technique that organizes large numbers of ideas into groups based on their natural relationships.",
     "Depth": "Standard",
     "Expansion": "An affinity diagram helps teams sort raw inputs such as issues, requirements, risks, or stakeholder comments into meaningful clusters. It is commonly used during brainstorming, root cause work, and requirements analysis to reveal patterns that are hard to see in an unstructured list. The technique supports sense-making before prioritisation, decision-making, or further analysis.",
@@ -94,7 +94,7 @@
     "Example": "During a lessons learned workshop, a project team groups dozens of schedule problems into clusters such as vendor delays, approval bottlenecks, and internal handoff issues before deciding improvement actions.",
     "Synonyms": [
       "Affinity chart",
-      "KJ Method"
+      "KJ method"
     ],
     "Related Terms": [
       "Brainstorming",
@@ -106,7 +106,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Glossary, Affinity Diagram, page 694"
   },
   {
-    "Term": "Affinity Grouping",
+    "Term": "Affinity grouping",
     "Core Meaning": "A technique used to organise a large number of ideas, issues, or requirements into natural clusters so teams can identify themes and make sense of complex information.",
     "Depth": "Standard",
     "Expansion": "Affinity grouping helps a team sort related items into categories based on their natural relationships rather than a predefined structure. In project work it is commonly used during brainstorming, requirements gathering, root-cause analysis, and retrospective discussions to turn raw inputs into patterns that can be acted on. It is especially useful when many stakeholders contribute overlapping or unstructured information.",
@@ -265,7 +265,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 698"
   },
   {
-    "Term": "Collaborative Games",
+    "Term": "Collaborative games",
     "Core Meaning": "Structured group activities that spark collaboration and creativity to elicit requirements or ideas.",
     "Depth": "Standard",
     "Expansion": "Collaborative games are facilitated activities designed to encourage participants to share knowledge, build on one another's ideas, and reach a shared understanding in a creative, low-pressure way. They are used in requirements elicitation and team work to surface needs that conventional interviews might miss. Common examples include Product Box, Speedboat (Sailboat), and Spider Web.",
@@ -273,7 +273,7 @@
     "Contrast": "Interviews - interviews gather information one-on-one through direct questioning, whereas collaborative games draw it out through interactive group play.",
     "Example": "Running a Product Box game where stakeholders design the packaging for the product to reveal the features they value most.",
     "Related Terms": [
-      "Product Box Exercise",
+      "Product box exercise",
       "Elicitation",
       "Brainstorming"
     ],
@@ -281,7 +281,7 @@
     "Source": "Agile Practice Guide / PMI Guide to Business Analysis - collaborative games"
   },
   {
-    "Term": "Collect Requirements",
+    "Term": "Collect requirements",
     "Core Meaning": "The process of determining, documenting, and managing stakeholder needs and requirements to meet objectives.",
     "Depth": "Standard",
     "Expansion": "Collect Requirements turns stakeholder expectations into documented requirements that can guide scope definition and solution development. It uses techniques such as interviews, workshops, observation, prototypes, and surveys to clarify what must be delivered. The process helps reduce ambiguity early and creates a basis for later validation and control.",
@@ -291,7 +291,7 @@
     "Related Terms": [
       "Requirements documentation",
       "Requirements traceability matrix",
-      "Define Scope",
+      "Define scope",
       "Stakeholder",
       "Product scope"
     ],
@@ -299,7 +299,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, Glossary, page 698"
   },
   {
-    "Term": "Conduct Elicitation",
+    "Term": "Conduct elicitation",
     "Core Meaning": "The process of drawing out, discovering, and capturing information from stakeholders and other sources to understand needs.",
     "Depth": "Standard",
     "Expansion": "In PMI business analysis practice, Conduct Elicitation is used to obtain information relevant to requirements, problems, opportunities, and solution options. It includes techniques such as interviews, workshops, observation, and prototypes to uncover explicit and implicit stakeholder needs. The purpose is to build a reliable basis for analysis and decision-making.",
@@ -311,13 +311,13 @@
       "Requirements",
       "Business analysis",
       "Stakeholder",
-      "Collect Requirements"
+      "Collect requirements"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Context Diagrams",
+    "Term": "Context diagrams",
     "Core Meaning": "A visual model showing how a business system interacts with the people and external systems that surround it.",
     "Depth": "Standard",
     "Expansion": "A context diagram depicts the product or business system as a single unit and shows the actors - people and other systems - that exchange information with it. It is used during requirements work to define scope boundaries and clarify what is inside versus outside the system. By keeping the system as one box, it focuses attention on external interactions rather than internal detail.",
@@ -364,7 +364,7 @@
       "Work package",
       "Decomposition",
       "Scope baseline",
-      "Define Scope"
+      "Define scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Sixth Edition — Create WBS; exact page not available in provided results"
@@ -438,7 +438,7 @@
     "Example": "A hospital portal project drops several low-use dashboard features and instead prioritises online appointment rescheduling because patient feedback shows it reduces call-centre burden and improves patient experience.",
     "Related Terms": [
       "Business value",
-      "Benefits realisation",
+      "Benefits realization",
       "Outcome",
       "Stakeholder value",
       "Prioritization"
@@ -447,7 +447,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Data Dictionary",
+    "Term": "Data dictionary",
     "Core Meaning": "A reference that defines the data fields, attributes, and allowable values for a data object.",
     "Depth": "Standard",
     "Expansion": "A data dictionary catalogs the detailed definitions behind a data model - each field's name, format, meaning, and permitted values. It gives analysts, developers, and stakeholders a single authoritative description of the data, reducing ambiguity and inconsistency. It is typically paired with a data model, which shows how the data entities relate.",
@@ -464,7 +464,7 @@
     "Source": "PMI Guide to Business Analysis - data dictionary"
   },
   {
-    "Term": "Data Flow Diagram",
+    "Term": "Data flow diagram",
     "Core Meaning": "A model depicting how data moves among external entities, processes, and data stores.",
     "Depth": "Standard",
     "Expansion": "A data flow diagram (DFD) shows how information enters a system, is transformed by processes, and is stored or sent out. It decomposes the system into processes and traces the data passing between them, external entities, and data stores. It is used in requirements and business analysis to understand and communicate how data is handled.",
@@ -476,7 +476,7 @@
     ],
     "Related Terms": [
       "Data model",
-      "Context Diagrams",
+      "Context diagrams",
       "Flowchart",
       "Process model"
     ],
@@ -484,7 +484,7 @@
     "Source": "PMI Guide to Business Analysis - data flow diagram"
   },
   {
-    "Term": "Data Model",
+    "Term": "Data model",
     "Core Meaning": "A representation of the data used by a process or system, including its structure, relationships, and lifecycle.",
     "Depth": "Standard",
     "Expansion": "A data model documents the entities, attributes, and relationships of the data a process or system relies on, often shown as an entity-relationship diagram. It helps stakeholders agree on what data exists, how it connects, and how it moves through its lifecycle. It is frequently paired with a data dictionary that holds the detailed field definitions.",
@@ -536,7 +536,7 @@
     "Source": "PMBOK Guide, Glossary, decomposition, p. 699"
   },
   {
-    "Term": "Define Scope",
+    "Term": "Define scope",
     "Core Meaning": "The process of developing a detailed description of the project and product.",
     "Depth": "Foundational",
     "Expansion": "Define Scope turns approved requirements and high-level intent into a clear statement of what the project includes and excludes. PMI positions it as the process that establishes the boundaries of the project, the major deliverables, assumptions, and constraints that will guide downstream planning and control. It matters because teams cannot manage change, verify completion, or control expectations without a shared scope baseline. In practice, it is where ambiguity is reduced enough for reliable planning to begin.",
@@ -545,7 +545,7 @@
     "Example": "In a warehouse automation project, the team defines scope to include barcode scanning, conveyor controls, and reporting dashboards while explicitly excluding redesign of the enterprise ERP.",
     "Related Terms": [
       "Project scope statement",
-      "Collect Requirements",
+      "Collect requirements",
       "Scope baseline",
       "Create WBS",
       "Product scope"
@@ -608,7 +608,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) – Seventh Edition, Section 2.4.4, pp. 33-36"
   },
   {
-    "Term": "Determine Future State",
+    "Term": "Determine future state",
     "Core Meaning": "A business analysis process used to define the desired condition that the organisation or initiative intends to achieve.",
     "Depth": "Standard",
     "Expansion": "Within PMI business analysis practice, Determine Future State establishes the target environment, capabilities, and outcomes needed to realise value. It translates needs and strategic intent into a clearer picture of what the solution and organisation should look like after change. This process creates a basis for evaluating options, defining scope, and aligning stakeholders around the intended direction.",
@@ -662,7 +662,7 @@
     "Source": "PMBOK Guide glossary, Document analysis, page 717"
   },
   {
-    "Term": "Ecosystem Map",
+    "Term": "Ecosystem map",
     "Core Meaning": "A scope model showing all relevant systems, their relationships, and the data passed between them.",
     "Depth": "Atomic",
     "Expansion": "An ecosystem map is a business-analysis scope model that depicts the systems relevant to a solution and how they connect, optionally showing the data objects they exchange. It helps define solution boundaries and reveal integration points across a landscape of systems.",
@@ -670,7 +670,7 @@
     "Contrast": "Context diagram - a context diagram centers on one system and its external actors, whereas an ecosystem map shows the broader web of interrelated systems.",
     "Example": "A business analyst maps how a new CRM connects to billing, support, and marketing systems and what data flows between them.",
     "Related Terms": [
-      "Context Diagrams",
+      "Context diagrams",
       "Scope model",
       "System interface",
       "Business analysis"
@@ -687,7 +687,7 @@
     "Contrast": "Requirements gathering — elicitation is broader because it includes discovering and clarifying information, not just collecting stated requirements.",
     "Example": "A project team runs interviews and workshops with users to uncover reporting needs before defining solution scope.",
     "Related Terms": [
-      "Conduct Elicitation",
+      "Conduct elicitation",
       "Requirements",
       "Stakeholder",
       "Interview",
@@ -725,10 +725,10 @@
       "ERD"
     ],
     "Related Terms": [
-      "Data Model",
-      "Logical Data Model",
-      "Data Flow Diagram",
-      "Data Dictionary"
+      "Data model",
+      "Logical data model",
+      "Data flow diagram",
+      "Data dictionary"
     ],
     "Tier": "Adjacent concept",
     "Source": "Data modeling practice (Chen entity-relationship model)"
@@ -752,7 +752,7 @@
     "Source": "The PMI Guide to Business Analysis — Evaluate Solution Performance, pp. 280-282"
   },
   {
-    "Term": "Event List",
+    "Term": "Event list",
     "Core Meaning": "A scope model that enumerates the external events which trigger a solution's behavior.",
     "Depth": "Atomic",
     "Expansion": "An event list is a business-analysis scope model that catalogs the external events a system must respond to, helping ensure that no triggering condition is overlooked. Each event typically maps to a required solution behavior or a use case.",
@@ -762,7 +762,7 @@
     "Related Terms": [
       "Scope model",
       "Use case",
-      "Context Diagrams",
+      "Context diagrams",
       "Business analysis"
     ],
     "Tier": "Practitioner term",
@@ -805,7 +805,7 @@
     "Source": "PMI Lexicon — Feature; specific page not confirmed in available PMI source"
   },
   {
-    "Term": "Feature Model",
+    "Term": "Feature model",
     "Core Meaning": "A scope model that represents all of a solution's features arranged in a tree or hierarchy.",
     "Depth": "Atomic",
     "Expansion": "A feature model is a business-analysis scope model that displays a solution's features in a hierarchical structure, giving a structured overview of capabilities and their sub-features. It supports defining scope, prioritizing, and communicating what the solution will and will not include.",
@@ -834,7 +834,7 @@
       "Accepted deliverables",
       "Project closure",
       "Deliverable",
-      "Validate Scope"
+      "Validate scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Lexicon — Final acceptance; specific page not confirmed in available PMI source"
@@ -866,15 +866,15 @@
     "Example": "After user acceptance testing is completed for a payroll platform upgrade, the sponsor signs the acceptance record confirming that the release meets agreed business and compliance requirements.",
     "Related Terms": [
       "Acceptance criteria",
-      "Validate Scope",
+      "Validate scope",
       "Deliverable",
-      "Close Project or Phase"
+      "Close project or phase"
     ],
     "Tier": "Core glossary",
     "Source": "PMI Knowledgebase, term Formal acceptance"
   },
   {
-    "Term": "Function Point",
+    "Term": "Function point",
     "Core Meaning": "A unit of measure used to express the size of software based on the functionality it provides to users.",
     "Depth": "Standard",
     "Expansion": "A function point measures software size from the user's functional perspective rather than from the amount of code written. It supports estimating, benchmarking, and productivity analysis because it helps compare software work across different technologies and implementations. In project management, it is commonly used in software projects to improve effort and cost estimation.",
@@ -887,7 +887,7 @@
     "Related Terms": [
       "Estimate",
       "Requirements",
-      "Software Sizing",
+      "Software sizing",
       "Productivity",
       "Scope"
     ],
@@ -925,7 +925,7 @@
     "Related Terms": [
       "Current state",
       "Gap analysis",
-      "Determine Future State",
+      "Determine future state",
       "Solution",
       "Target state"
     ],
@@ -951,7 +951,7 @@
     "Source": "PMI Guide to Business Analysis, gap analysis"
   },
   {
-    "Term": "Goal Model",
+    "Term": "Goal model",
     "Core Meaning": "A business-analysis diagram that shows stakeholder goals and sub-goals for a solution, including supporting and conflicting relationships among them.",
     "Depth": "Atomic",
     "Expansion": "A goal model visually decomposes high-level stakeholder goals into supporting objectives, showing how they reinforce or conflict with one another. Business analysts use it to keep requirements traceable to the outcomes the solution is meant to achieve.",
@@ -1041,7 +1041,7 @@
     "Source": "PMI Lexicon / user experience-related PMI references; exact page citation requires source verification"
   },
   {
-    "Term": "Impact Mapping",
+    "Term": "Impact mapping",
     "Core Meaning": "A visual planning technique that links a goal to the actors involved, the impacts sought, and the deliverables expected to create those impacts.",
     "Depth": "Standard",
     "Expansion": "Impact mapping is used to connect planned work to intended outcomes instead of jumping directly from goals to features or tasks. It helps teams clarify who must change behavior, what change is needed, and which deliverables are most likely to produce that result. In practice, it is especially useful in product, digital, and change initiatives where value depends on adoption and measurable effects rather than output alone.",
@@ -1052,14 +1052,14 @@
       "Outcome",
       "Benefit",
       "Stakeholder",
-      "Work Breakdown Structure",
-      "Product Roadmap"
+      "Work breakdown structure",
+      "Product roadmap"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Interaction Matrix",
+    "Term": "Interaction matrix",
     "Core Meaning": "A lightweight grid used to check whether requirements are sufficiently detailed and whether any elements are missing.",
     "Depth": "Atomic",
     "Expansion": "An interaction matrix is a simplified form of traceability matrix that cross-references requirements or entities to expose gaps, such as missing relationships or under-specified items. Business analysts use it as a quick completeness check rather than a full traceability record.",
@@ -1106,7 +1106,7 @@
       "Requirements",
       "Workshop",
       "Stakeholder",
-      "Collect Requirements",
+      "Collect requirements",
       "Facilitation"
     ],
     "Tier": "Core glossary",
@@ -1134,7 +1134,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Kano analysis, p. 400"
   },
   {
-    "Term": "Logical Data Model",
+    "Term": "Logical data model",
     "Core Meaning": "A technology-independent representation of an organization's data described in business terms.",
     "Depth": "Atomic",
     "Expansion": "A logical data model depicts the entities, attributes, and relationships in an organization's data using business language, without committing to any particular database or technology. Business analysts use it to confirm a shared understanding of data requirements before physical implementation.",
@@ -1244,7 +1244,7 @@
     "Source": "PMI Lexicon of Project Management Terms — Needs assessment, page 14"
   },
   {
-    "Term": "Needs Assessment Knowledge Area",
+    "Term": "Needs assessment knowledge area",
     "Core Meaning": "The set of processes used to analyze current business problems or opportunities and determine what is necessary to reach a desired future state.",
     "Depth": "Foundational",
     "Expansion": "The Needs Assessment Knowledge Area focuses on understanding the current situation, the desired future state, and the gap between them. It helps establish the business need before solution design begins. In PMI business analysis guidance, it frames the rationale for change and supports better upstream decision making.",
@@ -1350,13 +1350,13 @@
     ],
     "Related Terms": [
       "Stakeholder",
-      "User Story",
+      "User story",
       "Requirements",
       "Business analysis",
       "Customer",
       "Actor",
-      "Product Visioning",
-      "Requirements Elicitation"
+      "Product visioning",
+      "Requirements elicitation"
     ],
     "Tier": "Adjacent concept",
     "Source": "not a formal PMI glossary entry"
@@ -1379,7 +1379,7 @@
     "Source": "PMBOK Guide, Planning package, p. 140"
   },
   {
-    "Term": "Prioritization Matrix",
+    "Term": "Prioritization matrix",
     "Core Meaning": "A scatter diagram that plots effort against value so items can be classified by relative priority.",
     "Depth": "Standard",
     "Expansion": "A prioritization matrix is a visual decision tool that compares items using effort and value so the team can rank what to address first. It helps structure tradeoff discussions when there are more candidate actions than capacity. In practice it is often used for backlog items, improvement opportunities, requirements, or risks.",
@@ -1387,9 +1387,9 @@
     "Contrast": "Prioritization Schema — a prioritization matrix is the visual comparison tool; a prioritization schema is the rule set or classification method used to assign priority.",
     "Example": "A product team plots enhancement requests on a value-versus-effort grid and selects the high-value, low-effort items for the next release.",
     "Related Terms": [
-      "Prioritization Schema",
-      "Decision Matrix",
-      "Multicriteria Decision Analysis",
+      "Prioritization schema",
+      "Decision matrix",
+      "Multicriteria decision analysis",
       "Backlog",
       "Value"
     ],
@@ -1414,7 +1414,7 @@
     "Source": "PMBOK Guide"
   },
   {
-    "Term": "Process Model",
+    "Term": "Process model",
     "Core Meaning": "A model that describes business processes and how stakeholders interact with them.",
     "Depth": "Atomic",
     "Expansion": "A process model represents the steps, flows, and actors of a business process to show how a solution will be used in practice. By mapping how work moves and where people and systems interact, it helps analysts understand current operations and design or validate future ones. It is commonly used in requirements and scope analysis.",
@@ -1422,10 +1422,10 @@
     "Contrast": "Data model - a process model shows how work and activities flow, whereas a data model shows the information and its relationships.",
     "Example": "A swim-lane diagram mapping how an order moves from sales to fulfillment to billing.",
     "Related Terms": [
-      "Data Flow Diagram",
+      "Data flow diagram",
       "Flowcharting",
-      "Scope Model",
-      "Use Case"
+      "Scope model",
+      "Use case"
     ],
     "Tier": "Adjacent concept",
     "Source": "Business analysis practice - process modeling"
@@ -1448,7 +1448,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, product, page 725"
   },
   {
-    "Term": "Product Analysis",
+    "Term": "Product analysis",
     "Core Meaning": "A technique for defining project and product scope by analyzing what the product is and how it works.",
     "Depth": "Standard",
     "Expansion": "Product analysis translates high-level product descriptions into tangible deliverables and requirements by studying the product's purpose, characteristics, function, and use. It includes techniques such as product breakdown, requirements analysis, systems analysis, and value engineering. It is used when the project's end result is a product, to define the scope of work needed to create it.",
@@ -1456,16 +1456,16 @@
     "Contrast": "Decomposition - product analysis examines the nature of the product to derive scope, whereas decomposition breaks deliverables into smaller WBS components.",
     "Example": "Breaking down a new appliance into its features and components to define what must be designed and built.",
     "Related Terms": [
-      "Define Scope",
+      "Define scope",
       "Decomposition",
-      "Value Engineering",
-      "Requirements Analysis"
+      "Value engineering",
+      "Requirements analysis"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - Define Scope (product analysis)"
   },
   {
-    "Term": "Product Box Exercise",
+    "Term": "Product box exercise",
     "Core Meaning": "A collaborative game where stakeholders design a mock product box to surface a product's key features and benefits.",
     "Depth": "Atomic",
     "Expansion": "The product box is a collaborative elicitation game in which participants imagine selling the product and design its retail box, choosing the headline features, slogans, and benefits that would make a customer buy it. The exercise forces the group to prioritize what truly matters and build a shared vision of the product's value. It is one of several innovation games used in agile and requirements work.",
@@ -1473,19 +1473,19 @@
     "Contrast": "Product visioning - the product box is a specific hands-on game, whereas product visioning is the broader activity of forming a shared product direction that such games support.",
     "Example": "A team mocking up a cereal-style box for their app, picking the three benefits that earn the front panel.",
     "Synonyms": [
-      "Design the Box"
+      "Design the box"
     ],
     "Related Terms": [
-      "Collaborative Games",
-      "Product Visioning",
-      "Requirements Elicitation",
+      "Collaborative games",
+      "Product visioning",
+      "Requirements elicitation",
       "Personas"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Product Breakdown Structure",
+    "Term": "Product breakdown structure",
     "Core Meaning": "A hierarchical decomposition of a product into its component parts.",
     "Depth": "Standard",
     "Expansion": "A product breakdown structure organizes the product into progressively smaller components so the team can understand what the product contains. It supports product-scope definition, design coordination, and communication by showing the structure of the deliverable itself rather than the work to create it. Teams use it to clarify boundaries, interfaces, and completeness before or alongside detailed planning.",
@@ -1496,8 +1496,8 @@
       "PBS"
     ],
     "Related Terms": [
-      "Product Scope",
-      "Work Breakdown Structure",
+      "Product scope",
+      "Work breakdown structure",
       "Deliverable",
       "Decomposition",
       "Scope"
@@ -1524,7 +1524,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Product Management",
+    "Term": "Product management",
     "Core Meaning": "The integration of people, data, processes, and business systems to create, maintain, and evolve a product or service throughout its life cycle.",
     "Depth": "Foundational",
     "Expansion": "Product management is the coordinated management of a product or service across its life cycle, not just during one project. PMI frames it as integrating people, data, processes, and business systems so the offering can be created, sustained, and evolved over time. It is broader than project delivery because it continues after an initial release and focuses on ongoing customer value and business performance.",
@@ -1533,16 +1533,16 @@
     "Example": "A digital payments team launches a wallet feature, then continues to refine onboarding, fraud controls, pricing options, and user experience based on market feedback and adoption data.",
     "Related Terms": [
       "Product",
-      "Product Life Cycle",
-      "Project Management",
+      "Product life cycle",
+      "Project management",
       "Roadmap",
-      "Value Delivery System"
+      "Value delivery system"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge, page 270"
   },
   {
-    "Term": "Product Manager",
+    "Term": "Product manager",
     "Core Meaning": "The person accountable for a product's market and customer success across its life cycle.",
     "Depth": "Standard",
     "Expansion": "A product manager owns the strategy, vision, and outcomes for a product, ensuring it meets customer needs and achieves business success in its market. The role spans defining the product direction, prioritizing features, and coordinating across business and development functions. In agile contexts the product manager often works closely with, or encompasses, the product owner who manages the backlog.",
@@ -1550,10 +1550,10 @@
     "Contrast": "Product owner - a product manager owns the broad market and business success of the product, whereas a product owner focuses on maximizing value through the team's backlog.",
     "Example": "Deciding which features to fund next quarter based on customer demand and market positioning.",
     "Related Terms": [
-      "Product Owner",
-      "Product Visioning",
+      "Product owner",
+      "Product visioning",
       "Stakeholder",
-      "Business Value"
+      "Business value"
     ],
     "Tier": "Adjacent concept",
     "Source": "Agile / product management practice"
@@ -1576,7 +1576,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition and PMI Lexicon of Project Management Terms — Product scope, page 271"
   },
   {
-    "Term": "Product Scope Description",
+    "Term": "Product scope description",
     "Core Meaning": "The documented features and characteristics of the product, service, or result the project will deliver.",
     "Depth": "Atomic",
     "Expansion": "The product scope description progressively elaborates the characteristics of the product, service, or result first noted in the project charter, and it is a key element of the project scope statement. It defines what the deliverable will be and do, providing the basis for acceptance and for distinguishing product scope from the work needed to deliver it.",
@@ -1584,16 +1584,16 @@
     "Contrast": "Project scope - the product scope description defines the features of the deliverable, whereas project scope is the work required to produce that deliverable.",
     "Example": "Stating that a new phone will have a 6-inch display, 48-hour battery, and water resistance.",
     "Related Terms": [
-      "Project Scope Statement",
-      "Product Scope",
-      "Acceptance Criteria",
-      "Define Scope"
+      "Project scope statement",
+      "Product scope",
+      "Acceptance criteria",
+      "Define scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide - project scope statement"
   },
   {
-    "Term": "Product Visioning",
+    "Term": "Product visioning",
     "Core Meaning": "A technique for building a shared understanding and high-level direction for a product.",
     "Depth": "Atomic",
     "Expansion": "Product visioning brings a product team together to agree on what the product is, who it serves, and where it is headed, establishing a clear high-level direction before detailed work begins. A shared vision aligns stakeholders and the team, guiding prioritization and decisions throughout development. It is common in agile and product-led efforts.",
@@ -1601,9 +1601,9 @@
     "Contrast": "Product roadmap - product visioning sets the overarching direction and purpose, whereas a roadmap lays out the planned sequence of work to pursue it.",
     "Example": "A kickoff workshop producing a vision statement for a new mobile banking product.",
     "Related Terms": [
-      "Product Box Exercise",
-      "Product Roadmap",
-      "Product Manager"
+      "Product box exercise",
+      "Product roadmap",
+      "Product manager"
     ],
     "Tier": "Practitioner term",
     "Source": "not a formal PMI glossary entry"
@@ -1695,7 +1695,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge — Questionnaires, p. 192"
   },
   {
-    "Term": "Questionnaires and Surveys",
+    "Term": "Questionnaires and surveys",
     "Core Meaning": "Written sets of questions designed to gather information from a large number of respondents quickly.",
     "Depth": "Atomic",
     "Expansion": "Questionnaires and surveys are a data-gathering technique used to accumulate information from many people, often geographically dispersed, when statistical analysis is appropriate. On projects they support requirements collection, stakeholder analysis, and quality or satisfaction measurement.",
@@ -1721,7 +1721,7 @@
     "Related Terms": [
       "Functional requirement",
       "Nonfunctional requirement",
-      "Collect Requirements",
+      "Collect requirements",
       "Requirements documentation",
       "Scope",
       "Acceptance criteria"
@@ -1777,7 +1777,7 @@
       "Requirements management plan",
       "Requirements traceability matrix",
       "Scope baseline",
-      "Validate Scope"
+      "Validate scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Sixth Edition — Requirements documentation"
@@ -1810,7 +1810,7 @@
     "Example": "An analyst runs workshops with finance and sales staff to gather requirements for a new reporting tool.",
     "Related Terms": [
       "Requirements elicitation",
-      "Collect Requirements",
+      "Collect requirements",
       "Elicitation",
       "Interview"
     ],
@@ -1829,7 +1829,7 @@
       "Requirements documentation",
       "Requirements management plan",
       "Requirements traceability matrix",
-      "Collect Requirements",
+      "Collect requirements",
       "Scope baseline"
     ],
     "Tier": "Practitioner term",
@@ -1871,7 +1871,7 @@
     "Source": "not a formal PMI glossary entry"
   },
   {
-    "Term": "Requirements prioritisation",
+    "Term": "Requirements prioritization",
     "Core Meaning": "The process of ranking requirements by relative importance to maximise value and guide scope and delivery decisions.",
     "Depth": "Standard",
     "Expansion": "Requirements prioritisation determines which requirements matter most so the team can make informed decisions about scope, sequencing, and trade-offs. It is used to align product or project work with stakeholder value, risk, urgency, and constraints. In PMI practice, prioritisation commonly appears within requirements management, backlog management, and progressive elaboration rather than as a standalone delivery method.",
@@ -1885,7 +1885,10 @@
       "Progressive elaboration"
     ],
     "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
+    "Source": "not a formal PMI glossary entry",
+    "Synonyms": [
+      "Requirements prioritisation"
+    ]
   },
   {
     "Term": "Requirements traceability matrix",
@@ -1925,7 +1928,7 @@
     "Source": "BABOK Guide (IIBA)"
   },
   {
-    "Term": "Rule Model",
+    "Term": "Rule model",
     "Core Meaning": "A business analysis model that captures the business rules and policies a solution must enforce.",
     "Depth": "Standard",
     "Expansion": "A rule model documents the constraints, conditions, and logic that govern how a business operates, such as eligibility criteria, calculations, and decision policies. It is one of the analysis models used in business analysis to make implicit policies explicit so they can be validated and built into a solution. Separating rules from process makes them easier to maintain when policies change.",
@@ -1933,10 +1936,10 @@
     "Contrast": "Process Model - a process model shows the sequence of activities, whereas a rule model defines the policies and constraints that govern those activities.",
     "Example": "Documenting that a loan applicant must be at least 18 and have a credit score above 650 as enforceable rules in a lending system.",
     "Related Terms": [
-      "Process Model",
-      "Scope Model",
+      "Process model",
+      "Scope model",
       "Business rule",
-      "Decision-Making Techniques"
+      "Decision-making techniques"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Guide to Business Analysis - rule model"
@@ -2002,7 +2005,7 @@
     "Contrast": "Scope planning — scope planning decides how scope will be handled, whereas scope definition produces the detailed scope statement itself.",
     "Example": "The team writes a scope statement listing the three modules in scope and explicitly excluding mobile, to prevent later creep.",
     "Related Terms": [
-      "Define Scope",
+      "Define scope",
       "Scope baseline",
       "Scope planning"
     ],
@@ -2022,8 +2025,8 @@
       "Product scope",
       "Requirements",
       "Work breakdown structure",
-      "Validate Scope",
-      "Control Scope"
+      "Validate scope",
+      "Control scope"
     ],
     "Tier": "Core glossary",
     "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Seventh Edition / Process Groups: A Practice Guide, Scope Management — confirm exact page in PMI source"
@@ -2047,7 +2050,7 @@
     "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, scope management plan, page 539"
   },
   {
-    "Term": "Scope Model",
+    "Term": "Scope model",
     "Core Meaning": "A business analysis model that structures and bounds the features, functions, and limits of the domain under analysis.",
     "Depth": "Standard",
     "Expansion": "Scope models organize what is and is not included in a solution, clarifying boundaries, interfaces, and major capabilities. Examples include context diagrams, ecosystem maps, feature models, and goal models. They give stakeholders a shared, visual understanding of scope before detailed requirements are written.",
@@ -2055,10 +2058,10 @@
     "Contrast": "Process Model - a process model details how work flows, whereas a scope model defines the boundaries and high-level content of the domain.",
     "Example": "Drawing a context diagram to show which external systems and actors interact with a new order-management application.",
     "Related Terms": [
-      "Context Diagrams",
-      "Ecosystem Map",
-      "Feature Model",
-      "Goal Model"
+      "Context diagrams",
+      "Ecosystem map",
+      "Feature model",
+      "Goal model"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Guide to Business Analysis - scope model"
@@ -2074,7 +2077,7 @@
     "Related Terms": [
       "Scope definition",
       "Scope baseline",
-      "Define Scope"
+      "Define scope"
     ],
     "Tier": "Core glossary",
     "Source": "PMBOK Guide Sixth Edition (Plan Scope Management)"
@@ -2211,7 +2214,7 @@
       "Solution evaluation",
       "Evaluate solution performance",
       "Evaluation criteria",
-      "Measures of Effectiveness"
+      "Measures of effectiveness"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMI Guide to Business Analysis — Determine Solution Evaluation Approach"
@@ -2270,7 +2273,7 @@
     "Source": "PMI Knowledgebase — specification"
   },
   {
-    "Term": "Story Mapping",
+    "Term": "Story mapping",
     "Core Meaning": "A technique that arranges user stories by user workflow and priority to build shared understanding of a product.",
     "Depth": "Standard",
     "Expansion": "Story mapping organizes user stories into a two-dimensional map: a backbone of user activities across the top in the order users perform them, with supporting stories prioritized vertically beneath each. It helps teams visualize the whole product, identify gaps, and slice releases that deliver coherent value. The map keeps the user journey visible rather than reducing the backlog to a flat list.",
@@ -2319,7 +2322,7 @@
       "Wireframes",
       "Prototype",
       "Personas",
-      "Context Diagrams"
+      "Context diagrams"
     ],
     "Tier": "Adjacent concept",
     "Source": "PMBOK Guide - prototypes / storyboarding"
@@ -2433,7 +2436,7 @@
     "Source": "PMI Lexicon, user experience, exact page not confirmed"
   },
   {
-    "Term": "Validate Scope",
+    "Term": "Validate scope",
     "Core Meaning": "The process of formalizing acceptance of completed project deliverables.",
     "Depth": "Foundational",
     "Expansion": "Validate Scope is the process used to review completed deliverables with the customer or sponsor and obtain formal acceptance. It focuses on confirming that what was produced matches the approved scope and acceptance criteria. In PMI practice, it is distinct from quality control because it emphasizes stakeholder acceptance rather than technical correctness alone.",
@@ -2443,7 +2446,7 @@
     "Related Terms": [
       "Scope baseline",
       "Accepted deliverables",
-      "Control Quality",
+      "Control quality",
       "Requirements documentation",
       "Acceptance criteria"
     ],
