@@ -1,0 +1,122 @@
+[
+  {
+    "deck": "Cognitive Biases",
+    "front": "What trap does anchoring create in PM estimates, and how do you counter it?",
+    "back": "Anchoring makes the first number heard, such as a target date or budget, pull later estimates toward it. Counter it by having people estimate independently before discussing sponsor targets or prior numbers.",
+    "tags": ["Mindset", "Estimation", "Anchoring"],
+    "difficulty": "medium",
+    "tip": "Exam cue: get independent estimates before the anchor enters the room."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is availability bias in project risk work?",
+    "back": "Availability bias makes vivid or memorable events feel more likely than they really are. Counter it by using risk data, base rates, and probability-impact analysis instead of memorability.",
+    "tags": ["Mindset", "Risk", "Availability Bias"],
+    "difficulty": "medium",
+    "tip": "A dramatic recent story is not the same as a high-probability risk."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "How does confirmation bias distort monitoring and control?",
+    "back": "Confirmation bias makes the PM favor evidence that supports the current belief and discount warning signs. Counter it by asking what would prove the view wrong and inviting independent challenge.",
+    "tags": ["Mindset", "Monitoring and Control", "Confirmation Bias"],
+    "difficulty": "medium",
+    "tip": "PMBOK-aligned behavior: weigh evidence over comfort or confidence."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is the sunk-cost fallacy in project decisions?",
+    "back": "Sunk-cost fallacy keeps a failing effort alive because time or money has already been spent. Counter it by ignoring past spend and deciding on future cost, risk, and expected value.",
+    "tags": ["Mindset", "Risk", "Sunk Cost"],
+    "difficulty": "medium",
+    "tip": "Past spend is gone either way; the decision is about what happens next."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is escalation of commitment, and what is the PM countermeasure?",
+    "back": "Escalation of commitment is investing more to justify a bad prior decision. Counter it by setting kill criteria in advance and reviewing the effort against those criteria objectively.",
+    "tags": ["Mindset", "Risk", "Escalation of Commitment"],
+    "difficulty": "hard",
+    "tip": "Kill criteria are easiest to use when agreed before emotions and reputation are involved."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "How does loss aversion affect PM decisions?",
+    "back": "Loss aversion makes people overprotect what they might lose and underweight better future options. Counter it by comparing options on expected value, risk exposure, and business outcomes.",
+    "tags": ["Mindset", "Decision Making", "Loss Aversion"],
+    "difficulty": "medium",
+    "tip": "Do not let fear of loss replace objective option analysis."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is overconfidence bias in project estimating?",
+    "back": "Overconfidence makes estimates and forecasts too narrow because the team feels more certain than the evidence supports. Counter it with three-point estimates, ranges, assumptions, and risk review.",
+    "tags": ["Mindset", "Estimation", "Overconfidence"],
+    "difficulty": "medium",
+    "tip": "A tight range without evidence is a warning sign."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is optimism bias in project planning?",
+    "back": "Optimism bias makes the team expect work to go better than realistic evidence supports. Counter it by taking the outside view and basing plans on comparable past outcomes.",
+    "tags": ["Mindset", "Planning", "Optimism Bias"],
+    "difficulty": "easy",
+    "tip": "Ask how similar work actually performed, not how smoothly this one should go."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is the planning fallacy, and what is the best PM counter?",
+    "back": "The planning fallacy is underestimating time or cost for your own work despite past overruns. Counter it with reference-class forecasting from similar completed projects.",
+    "tags": ["Mindset", "Planning", "Planning Fallacy"],
+    "difficulty": "medium",
+    "tip": "Reference-class forecasting uses real outcomes as the starting point."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is recency bias in risk management?",
+    "back": "Recency bias makes the latest incident feel like the biggest threat. Counter it by reviewing the full risk register and rating risks by probability, impact, and urgency.",
+    "tags": ["Mindset", "Risk", "Recency Bias"],
+    "difficulty": "easy",
+    "tip": "Recent does not automatically mean most important."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "How does groupthink harm project decisions?",
+    "back": "Groupthink suppresses dissent so the team converges on a weak decision to preserve harmony. Counter it with facilitation, independent input, devil's advocate review, and psychological safety.",
+    "tags": ["Mindset", "Teams", "Groupthink"],
+    "difficulty": "medium",
+    "tip": "The accountable PM makes disagreement safe before the decision is final."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is the halo effect in stakeholder or team judgment?",
+    "back": "The halo effect lets one positive trait or past success distort judgment about unrelated performance. Counter it by evaluating current evidence, role-specific criteria, and measurable results.",
+    "tags": ["Mindset", "Stakeholders", "Halo Effect"],
+    "difficulty": "medium",
+    "tip": "A strong reputation is not a substitute for current evidence."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "What is Dunning-Kruger bias, and how should a PM respond?",
+    "back": "Dunning-Kruger bias occurs when low competence overestimates itself and sounds very confident. Counter it by probing for evidence and weighting input by expertise and track record.",
+    "tags": ["Mindset", "Teams", "Dunning-Kruger"],
+    "difficulty": "medium",
+    "tip": "Confidence is not the same as competence."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "How can impostor syndrome distort project decision-making?",
+    "back": "Impostor syndrome can cause capable experts to underrate themselves or stay quiet. Counter it by drawing out quieter expert views and asking for the reasoning behind their concerns.",
+    "tags": ["Mindset", "Teams", "Impostor Syndrome"],
+    "difficulty": "medium",
+    "tip": "A hesitant expert may still have the best evidence in the room."
+  },
+  {
+    "deck": "Cognitive Biases",
+    "front": "Which debiasing tools are strongest for high-stakes PM decisions?",
+    "back": "Use structured process: premortems, independent estimates, devil's advocate review, checklists, reference-class data, and pre-set kill criteria. The fix is process, not willpower.",
+    "tags": ["Mindset", "Decision Making", "Debiasing"],
+    "difficulty": "hard",
+    "tip": "On the exam, prefer the answer that adds disciplined evidence and challenge."
+  }
+]

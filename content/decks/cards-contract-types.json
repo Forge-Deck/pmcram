@@ -1,0 +1,98 @@
+[
+  {
+    "deck": "Contract Types",
+    "front": "FFP contract: who carries the cost risk, and when should you use it?",
+    "back": "Firm Fixed Price puts almost all cost risk on the seller. Use it when scope is clear, stable, and the buyer wants a predictable total price.",
+    "tags": ["procurement", "contracts", "fixed-price", "risk allocation"],
+    "difficulty": "easy",
+    "tip": "FFP is usually the buyer's lowest-risk price arrangement."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "FPIF contract: how is risk shared, and when is it useful?",
+    "back": "Fixed Price Incentive Fee keeps a fixed-price structure but shares savings or overruns by formula, usually up to a ceiling. Use it when scope is fairly clear and you want to motivate cost, schedule, or performance results.",
+    "tags": ["procurement", "contracts", "fixed-price", "incentives"],
+    "difficulty": "medium",
+    "tip": "FPIF is seller-leaning risk, but not as seller-risky as FFP."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "FPEPA contract: what makes it different from other fixed-price contracts?",
+    "back": "Fixed Price with Economic Price Adjustment allows price changes for defined external conditions such as inflation, currency, or commodity rates. Use it for long-term contracts exposed to economic change.",
+    "tags": ["procurement", "contracts", "fixed-price", "economic price adjustment"],
+    "difficulty": "medium",
+    "tip": "Exam cue: long duration plus inflation or currency risk points to FPEPA."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "CPFF contract: who carries the cost risk, and when should you use it?",
+    "back": "Cost Plus Fixed Fee puts most cost risk on the buyer because the buyer reimburses allowable costs plus a fixed fee. Use it when scope cannot be fully defined yet.",
+    "tags": ["procurement", "contracts", "cost-reimbursable", "risk allocation"],
+    "difficulty": "easy",
+    "tip": "The seller's fee is fixed, but the buyer's reimbursed cost is not."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "CPIF contract: how is the seller motivated when scope is uncertain?",
+    "back": "Cost Plus Incentive Fee reimburses allowable costs and adjusts the fee based on performance against targets. Use it for uncertain scope when the buyer still wants a measurable cost or performance incentive.",
+    "tags": ["procurement", "contracts", "cost-reimbursable", "incentives"],
+    "difficulty": "medium",
+    "tip": "CPIF is buyer-leaning risk, with some sharing through the incentive formula."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "CPAF contract: when would you choose it over CPIF?",
+    "back": "Cost Plus Award Fee reimburses allowable costs and adds an award fee based on the buyer's subjective satisfaction. Use it when performance quality matters but is hard to measure with a formula.",
+    "tags": ["procurement", "contracts", "cost-reimbursable", "award fee"],
+    "difficulty": "medium",
+    "tip": "CPIF is formula-based; CPAF is judgment-based."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "T&M contract: where does it sit on buyer-seller risk, and when is it appropriate?",
+    "back": "Time and Materials is a hybrid with medium risk: the buyer pays agreed labor or unit rates plus materials. Use it for staff augmentation or work that must start before scope is clear.",
+    "tags": ["procurement", "contracts", "time and materials", "risk allocation"],
+    "difficulty": "easy",
+    "tip": "A T&M contract should be bounded with a not-to-exceed ceiling and time limits."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "IDIQ contract: what is it used for in procurement?",
+    "back": "Indefinite Delivery Indefinite Quantity sets terms for future orders when exact timing and quantities are not known. Use it for recurring needs where the buyer wants flexibility within contract limits.",
+    "tags": ["procurement", "contracts", "IDIQ", "delivery"],
+    "difficulty": "medium",
+    "tip": "IDIQ answers the quantity and timing problem, not the pricing-family question by itself."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "Which contract type gives the buyer the most predictable total price?",
+    "back": "FFP. A firm fixed price locks in the total price, so the seller absorbs cost overruns unless the contract changes.",
+    "tags": ["procurement", "contracts", "fixed-price", "exam cue"],
+    "difficulty": "easy",
+    "tip": "Predictable price plus clear scope usually points to FFP."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "Which contract family puts the most cost uncertainty on the buyer?",
+    "back": "Cost-reimbursable contracts. The buyer pays allowable costs plus a fee, so final cost is uncertain until the work is done.",
+    "tags": ["procurement", "contracts", "cost-reimbursable", "risk allocation"],
+    "difficulty": "easy",
+    "tip": "Cost Plus means the buyer owns more of the cost uncertainty."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "Contract risk spectrum: how does risk shift from fixed-price to cost-reimbursable?",
+    "back": "Seller risk is highest at FFP, then shared through FPIF or FPEPA, medium around T&M, buyer-leaning in CPIF or CPAF, and highest buyer risk at CPFF.",
+    "tags": ["procurement", "contracts", "risk spectrum", "risk allocation"],
+    "difficulty": "hard",
+    "tip": "As scope gets fuzzier, contracts tend to move away from fixed price and toward buyer-bearing cost risk."
+  },
+  {
+    "deck": "Contract Types",
+    "front": "Scope is unclear but work must begin now. Which contract type is often the practical bridge?",
+    "back": "T&M, because it lets work start using agreed rates while the scope is still developing. Protect the buyer with a not-to-exceed limit and time boundary.",
+    "tags": ["procurement", "contracts", "time and materials", "exam cue"],
+    "difficulty": "medium",
+    "tip": "T&M without an NTE cap is a common PMP trap."
+  }
+]

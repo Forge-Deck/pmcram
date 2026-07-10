@@ -1,0 +1,438 @@
+[
+  {
+    "deck": "Study Notes",
+    "front": "On a PMP question, what should you read first when time is tight?",
+    "back": "Read what the question is asking for, then scan answer verbs, then answer choices, then the full question text.",
+    "tags": ["Exam Strategy"],
+    "difficulty": "medium",
+    "tip": "The final sentence often tells you whether the exam wants a first action, best action, or next action."
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What answer cues are usually strong on PMP situational questions?",
+    "back": "Coach, mentor, collaborate, discuss, assess, review, business value, backlog, user stories, MVP, change management, and official PMI artifacts.",
+    "tags": ["Exam Strategy"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When two PMP answers seem reasonable, how can verb choice help?",
+    "back": "Prefer active leadership verbs that gather facts and engage people: assess, review, discuss, collaborate, coach, mentor, and facilitate.",
+    "tags": ["Exam Strategy"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "In many PMP questions, why is 'discuss with the team' stronger than immediately performing a technical analysis?",
+    "back": "PMI often rewards collaboration and shared understanding before isolated technical action, especially when people, conflict, or ambiguity are involved.",
+    "tags": ["Exam Strategy", "People"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What should the project manager usually do first when the root cause is unclear?",
+    "back": "Review, evaluate, or assess the situation before choosing a response or escalating.",
+    "tags": ["Exam Strategy", "Problem Solving"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What actions are usually poor first choices on PMP people questions?",
+    "back": "Fire or replace people, go straight to HR, ask the sponsor to handle it, escalate without analysis, or request more money/resources too early.",
+    "tags": ["Exam Strategy", "People"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What should you usually avoid when the project is on track?",
+    "back": "Avoid making unnecessary changes, adding unrequested work, or disrupting approved plans without a justified need.",
+    "tags": ["Exam Strategy", "Change"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "In agile questions, what is the usual handling point for new ideas or requested changes?",
+    "back": "Put the idea in the product backlog for prioritization by the product owner and refinement with the team.",
+    "tags": ["Exam Strategy", "Agile"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What keyword association should you remember for agile exam questions?",
+    "back": "Agile usually points to backlog, user stories, servant leadership, self-organizing teams, customer value, and iterative feedback.",
+    "tags": ["Exam Strategy", "Agile"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What keyword association should you remember for negotiation questions?",
+    "back": "Negotiation points to resolving conflict, preserving relationships, understanding interests, active listening, and seeking agreement.",
+    "tags": ["Exam Strategy", "Conflict"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What keyword association should you remember when a stakeholder is new?",
+    "back": "Meet with the stakeholder, review existing documents and agreements, understand concerns, and align expectations before acting.",
+    "tags": ["Exam Strategy", "Stakeholders"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What keyword association should you remember for business value?",
+    "back": "Business value points to the business case, benefits, value delivery, and alignment with organizational objectives.",
+    "tags": ["Exam Strategy", "Value"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What process group cue is associated with processes that start with 'Manage'?",
+    "back": "Manage processes are generally in Executing.",
+    "tags": ["Exam Strategy", "Process Groups"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What process group cue is associated with corrective actions?",
+    "back": "Corrective actions point to Monitoring and Controlling, because performance is being measured and adjusted.",
+    "tags": ["Exam Strategy", "Process Groups"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "Which Monitoring and Controlling process does not start with Monitor or Control?",
+    "back": "Validate Scope.",
+    "tags": ["Exam Strategy", "Process Groups"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are Kotter's 8 steps for leading change?",
+    "back": "Create urgency; build a guiding coalition; form a vision; communicate the vision; remove barriers; create short-term wins; sustain acceleration; anchor change in culture.",
+    "tags": ["Change Management", "Models"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How does Kotter's model help on PMP change questions?",
+    "back": "It emphasizes urgency, coalition-building, communication, empowerment, visible wins, and embedding change so it lasts.",
+    "tags": ["Change Management", "Models"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the Kubler-Ross stages often used to understand change reactions?",
+    "back": "Denial, anger, bargaining, depression, and acceptance.",
+    "tags": ["Change Management", "People"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How should a project manager respond to resistance during change?",
+    "back": "Acknowledge concerns, communicate the reason for change, involve stakeholders, provide support/training, and reinforce benefits.",
+    "tags": ["Change Management", "Stakeholders"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are common methods to manage resistance to change?",
+    "back": "Education and communication, participation, facilitation and support, negotiation, coalition-building, and clear reinforcement of benefits.",
+    "tags": ["Change Management", "Stakeholders"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the Trust Pyramid sequence?",
+    "back": "Build from credibility and reliability, through intimacy/safety, toward strong trust and collaboration.",
+    "tags": ["Leadership", "Teams"],
+    "difficulty": "medium",
+    "tip": "Trust comes before effective collaboration."
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are Cialdini's 6 principles of influence?",
+    "back": "Reciprocity, commitment/consistency, social proof, authority, liking, and scarcity.",
+    "tags": ["Leadership", "Influence"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What three attributes does the Salience model use to classify stakeholders?",
+    "back": "Power, legitimacy, and urgency.",
+    "tags": ["Stakeholders", "Models"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "In the Salience model, which stakeholders deserve the most attention?",
+    "back": "Definitive stakeholders, who have power, legitimacy, and urgency.",
+    "tags": ["Stakeholders", "Models"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are six common leadership styles a PM may need to adapt among?",
+    "back": "Directive, consultative, consensus, coaching, facilitative, and delegating/supportive styles.",
+    "tags": ["Leadership", "People"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is principled negotiation?",
+    "back": "A negotiation approach that separates people from the problem, focuses on interests, creates options, and uses objective criteria.",
+    "tags": ["Negotiation", "Conflict"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What does BATNA mean in negotiation?",
+    "back": "Best Alternative to a Negotiated Agreement: the fallback option if no agreement is reached.",
+    "tags": ["Negotiation"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the P2O2 shorthand for principled negotiation?",
+    "back": "People, problem, options, and objective criteria: handle people respectfully, define the problem, generate options, and use fair standards.",
+    "tags": ["Negotiation", "Conflict"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are six useful ways to prioritize work or requirements?",
+    "back": "MoSCoW, dot voting, ranking, paired comparison, weighted scoring, and value-versus-effort assessment.",
+    "tags": ["Prioritization", "Agile"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How does MoSCoW prioritization classify requirements?",
+    "back": "Must have, Should have, Could have, and Won't have or Wish to have.",
+    "tags": ["Prioritization", "Agile"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When is dot voting useful?",
+    "back": "When a group needs a quick, visible way to narrow many options into a smaller priority set.",
+    "tags": ["Prioritization", "Facilitation"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the three stages of PMI's Benefits Realization Management framework?",
+    "back": "Identify benefits, execute/manage benefits, and sustain benefits.",
+    "tags": ["Benefits", "Value"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the purpose of benefits realization management?",
+    "back": "To ensure projects, programs, and portfolios produce intended business results and continue creating value after delivery.",
+    "tags": ["Benefits", "Value"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the 8 governance components in the study notes?",
+    "back": "Governance models; accountability/responsibilities; stakeholder engagement; stakeholder communication; meetings/reporting; risk and issue management; assurance; PM control process.",
+    "tags": ["Governance"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are key benefits of project governance?",
+    "back": "A single point of accountability, clear roles and relationships, issue resolution, and transparent communication.",
+    "tags": ["Governance"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the six phases of the decision-making model?",
+    "back": "Define the problem; generate solutions; select an option; plan the action; plan evaluation; evaluate outcomes and process.",
+    "tags": ["Decision Making"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "During group decision making, what should the team do before selecting an option?",
+    "back": "Define criteria, rate alternatives against those criteria, compare pros and cons, and then choose the best option.",
+    "tags": ["Decision Making", "Teams"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between iterative and incremental delivery?",
+    "back": "Iterative repeats and refines the solution through feedback before final delivery; incremental delivers usable pieces in multiple releases.",
+    "tags": ["Agile", "Lifecycle"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When is an iterative approach especially useful?",
+    "back": "When requirements are uncertain and the team needs repeated feedback to get the overall solution right before final delivery.",
+    "tags": ["Agile", "Lifecycle"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When is an incremental approach especially useful?",
+    "back": "When the team can deliver valuable usable parts in stages instead of waiting for the full solution.",
+    "tags": ["Agile", "Lifecycle"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How do SAFe, DAD, and LeSS compare at a high level?",
+    "back": "SAFe is enterprise-scale and more prescriptive; DAD is more flexible and goal-driven; LeSS scales Scrum with less structure when Scrum is already strong.",
+    "tags": ["Agile", "Scaling"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When is SAFe most appropriate?",
+    "back": "Large enterprise environments that need alignment, governance, compliance, and coordination across many agile teams.",
+    "tags": ["Agile", "Scaling"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "When is LeSS most appropriate?",
+    "back": "Organizations already strong in Scrum that want to scale with minimal additional roles and structure.",
+    "tags": ["Agile", "Scaling"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are Tuckman's team development stages?",
+    "back": "Forming, storming, norming, performing, and adjourning.",
+    "tags": ["Teams", "Models"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "In Tuckman's model, what happens during storming?",
+    "back": "Team members challenge ideas, roles, and ways of working; conflict is normal and needs facilitation.",
+    "tags": ["Teams", "Models"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is McGregor's Theory X view of workers?",
+    "back": "Workers are assumed to dislike work, avoid responsibility, and need direction or control.",
+    "tags": ["Leadership", "Motivation"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is McGregor's Theory Y view of workers?",
+    "back": "Workers are assumed to be self-motivated, capable of responsibility, and able to exercise self-direction.",
+    "tags": ["Leadership", "Motivation"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is Ouchi's Theory Z view of workers?",
+    "back": "Workers perform well with trust, long-term employment orientation, collective decision making, and concern for the whole person.",
+    "tags": ["Leadership", "Motivation"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the 12 PMBOK project management principles?",
+    "back": "Stewardship, team, stakeholders, value, systems thinking, leadership, tailoring, quality, complexity, risk, adaptability/resiliency, and change.",
+    "tags": ["PMBOK", "Principles"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What are the 8 PMBOK performance domains?",
+    "back": "Stakeholder, team, development approach and life cycle, planning, project work, delivery, measurement, and uncertainty.",
+    "tags": ["PMBOK", "Performance Domains"],
+    "difficulty": "hard"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between a risk and an issue?",
+    "back": "A risk is an uncertain future event; an issue is a current event or condition that is already affecting the project.",
+    "tags": ["Risk", "Issues"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between residual and secondary risk?",
+    "back": "Residual risk remains after a response is implemented; secondary risk is a new risk caused by implementing the response.",
+    "tags": ["Risk"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between lead and lag in scheduling?",
+    "back": "Lead advances a successor activity; lag delays a successor activity relative to its predecessor.",
+    "tags": ["Schedule"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between cycle time and lead time?",
+    "back": "Cycle time is the time to complete work once started; lead time is the total time from customer request to delivery.",
+    "tags": ["Agile", "Flow"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How do resource leveling and resource smoothing differ?",
+    "back": "Leveling adjusts dates to balance limited resources and may change the schedule; smoothing uses available float and does not change the overall schedule.",
+    "tags": ["Schedule", "Resources"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "What is the difference between a sprint review and a retrospective?",
+    "back": "A review inspects the product increment and gets feedback; a retrospective inspects the team's process and identifies improvements.",
+    "tags": ["Agile", "Scrum"],
+    "difficulty": "easy"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How do contingency reserve and management reserve differ?",
+    "back": "Contingency reserve covers known risks and is in the baseline; management reserve covers unforeseen in-scope work and sits outside the baseline.",
+    "tags": ["Risk", "Cost"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How do quality assurance and quality control differ?",
+    "back": "Quality assurance evaluates and improves processes; quality control inspects deliverables to verify they meet requirements.",
+    "tags": ["Quality"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "How does the stakeholder engagement plan differ from the communications management plan?",
+    "back": "The engagement plan guides how to involve stakeholders and manage their participation; the communications plan defines information needs, channels, timing, and format.",
+    "tags": ["Stakeholders", "Communications"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "Why is a communication plan alone not enough to ensure project success?",
+    "back": "Communication must be tied to stakeholder engagement, performance indicators, deliverables, and value outcomes.",
+    "tags": ["Communications", "Value"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "In agile, when should risk analysis happen?",
+    "back": "At the start of each iteration, with higher-risk work prioritized early so risk is reduced sooner.",
+    "tags": ["Agile", "Risk"],
+    "difficulty": "medium"
+  },
+  {
+    "deck": "Study Notes",
+    "front": "If a team member makes a recommendation, what should the project manager do first?",
+    "back": "Assess the recommendation's validity before accepting, rejecting, or acting on it.",
+    "tags": ["Exam Strategy", "Teams"],
+    "difficulty": "easy"
+  }
+]
