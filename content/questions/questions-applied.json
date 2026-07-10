@@ -31,7 +31,10 @@
       }
     ],
     "explanation": "When quality control reveals defects, analyze the root cause first so corrective action targets the underlying problem.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -65,7 +68,10 @@
       }
     ],
     "explanation": "The engagement assessment matrix uses five levels: Unaware, Resistant, Neutral, Supportive, Leading.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -99,7 +105,10 @@
       }
     ],
     "explanation": "Preventing creep means running each request through change control, not implementing informally or blanket-rejecting.",
-    "subDomain": "Scope Management"
+    "subDomain": "Scope Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -133,7 +142,10 @@
       }
     ],
     "explanation": "The rule of seven flags a run of seven consecutive points on one side of the mean as likely non-random variation.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -167,7 +179,10 @@
       }
     ],
     "explanation": "Balance the constraints through analysis and stakeholder-informed trade-off decisions, not blanket priority rules.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -201,7 +216,10 @@
       }
     ],
     "explanation": "The matrix contrasts current versus desired engagement levels so the team can plan gap-closing strategies.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -235,7 +253,10 @@
       }
     ],
     "explanation": "Procurement spans multiple groups but is completed with formal contract closure in Closing.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -269,7 +290,10 @@
       }
     ],
     "explanation": "Process capability measures whether a process's variation fits within specification limits.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -303,7 +327,10 @@
       }
     ],
     "explanation": "Attribute sampling classifies conform/non-conform; variable sampling measures the degree of conformance.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -337,7 +364,10 @@
       }
     ],
     "explanation": "Reversed manifesto value pairings are classic exam traps; only 'working software over comprehensive documentation' is stated correctly.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -371,7 +401,10 @@
       }
     ],
     "explanation": "When requirements are uncertain, T&M with a ceiling balances flexibility with a cap on the buyer's exposure.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -405,7 +438,10 @@
       }
     ],
     "explanation": "Solving the right problem is an outcome question; customer satisfaction and task success validate problem-solution fit, unlike output metrics.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -439,7 +475,10 @@
       }
     ],
     "explanation": "PERT uses the beta-weighted formula (O + 4M + P) / 6, which gives 5 weeks here.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -473,7 +512,10 @@
       }
     ],
     "explanation": "Agile fixes cost and time per iteration with variable scope, using iteration-level visibility to steer.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -507,7 +549,10 @@
       }
     ],
     "explanation": "Product scope = the product's features/functions; project scope = the work required to deliver that product.",
-    "subDomain": "Scope Management"
+    "subDomain": "Scope Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -541,7 +586,10 @@
       }
     ],
     "explanation": "Servant leadership serves and develops the team while removing obstacles, building high-performing, self-managing teams.",
-    "subDomain": "Lead Project Team"
+    "subDomain": "Lead Project Team",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -575,7 +623,10 @@
       }
     ],
     "explanation": "Newly identified risks are first recorded in the register and analyzed for probability and impact before responding or escalating.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -609,7 +660,10 @@
       }
     ],
     "explanation": "An escalation path defines the hierarchy and process for raising unresolved issues to appropriate decision-makers through proper channels.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -643,7 +697,10 @@
       }
     ],
     "explanation": "Timeboxing sets a fixed duration; when time expires the team stops and evaluates, forcing prioritization and enabling regular feedback.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -677,7 +734,10 @@
       }
     ],
     "explanation": "Value stream mapping visualizes the concept-to-customer flow of work to expose waste and bottlenecks and improve flow efficiency.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -711,7 +771,10 @@
       }
     ],
     "explanation": "PMI defaults to neither acceptance nor rejection; the first action is impact analysis through the integrated change control process.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -745,7 +808,10 @@
       }
     ],
     "explanation": "Mentoring builds careers over the long term; coaching improves specific performance in the short term, and PMs may provide both.",
-    "subDomain": "Lead Project Team"
+    "subDomain": "Lead Project Team",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -779,7 +845,10 @@
       }
     ],
     "explanation": "Succession planning proactively builds a bench for critical roles to mitigate key-person risk before a vacancy occurs.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -813,7 +882,10 @@
       }
     ],
     "explanation": "Bad news should be communicated promptly and honestly with impacts and mitigation, because early communication enables early corrective action.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -847,7 +919,10 @@
       }
     ],
     "explanation": "The procurement SOW details the need so vendors can bid; it precedes contracts and invoices in the procurement lifecycle.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -881,7 +956,10 @@
       }
     ],
     "explanation": "The sprint review demonstrates the increment to stakeholders and collects feedback that informs future sprints; it is not a status report or appraisal.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -915,7 +993,10 @@
       }
     ],
     "explanation": "Written communication is best for complexity, permanent records, legal requirements, and distributed audiences; verbal is better for sensitive, urgent, or collaborative exchanges.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -949,7 +1030,10 @@
       }
     ],
     "explanation": "Parametric estimating multiplies a statistical unit rate by the quantity of work; it is more accurate than analogous when valid parameters exist.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -983,7 +1067,10 @@
       }
     ],
     "explanation": "Refinement is continuous preparation of upcoming backlog items so they are understood and 'ready' before sprint planning.",
-    "subDomain": "Scope Management"
+    "subDomain": "Scope Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1017,7 +1104,10 @@
       }
     ],
     "explanation": "The cone of uncertainty shows estimate accuracy improving over time, supporting iterative and rolling-wave planning.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1051,7 +1141,10 @@
       }
     ],
     "explanation": "The process improvement plan is a component of the project management plan focused on analyzing and improving work processes.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1085,7 +1178,10 @@
       }
     ],
     "explanation": "An MMF is the smallest unit of standalone customer value, letting teams deliver incrementally and learn from each release.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1119,7 +1215,10 @@
       }
     ],
     "explanation": "Culture affects communication, decisions, conflict, motivation, and authority, so PMs must tailor their approach to the cultural context.",
-    "subDomain": "Resource Management"
+    "subDomain": "Resource Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1153,7 +1252,10 @@
       }
     ],
     "explanation": "CI is a technical practice of frequent automated code merging and testing that keeps the codebase in a working state.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1187,7 +1289,10 @@
       }
     ],
     "explanation": "AI enhances PM practice as a data-driven aid, but the team retains decision-making authority with appropriate human oversight.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1221,7 +1326,10 @@
       }
     ],
     "explanation": "Synchronous communication means simultaneous, real-time participation (meetings, calls, video, live chat), enabling immediate two-way exchange.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1255,7 +1363,10 @@
       }
     ],
     "explanation": "Crashing adds resources at extra cost while preserving scope and quality, so it carries the least risk of the compression options.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1289,7 +1400,10 @@
       }
     ],
     "explanation": "Bottom-up estimating aggregates detailed work-package estimates for maximum accuracy at the cost of the most effort.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1323,7 +1437,10 @@
       }
     ],
     "explanation": "CPI of 1.25 indicates strong cost efficiency: $1.25 of earned value per $1 spent, meaning the project is under budget.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1357,7 +1474,10 @@
       }
     ],
     "explanation": "CPI of 1.0 means cost performance exactly matches plan, the breakeven point between under and over budget.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1391,7 +1511,10 @@
       }
     ],
     "explanation": "When EAC exceeds BAC, first analyze the variance and its root cause, then determine corrective action through proper process.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1425,7 +1548,10 @@
       }
     ],
     "explanation": "Under the 0/100 rule, an activity earns zero value until it is fully complete, a conservative approach ideal for short-duration tasks.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1459,7 +1585,10 @@
       }
     ],
     "explanation": "The PM is accountable for stakeholder engagement, distributing relationship work by expertise while retaining ownership.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1493,7 +1622,10 @@
       }
     ],
     "explanation": "Collaborative WBS creation improves accuracy, surfaces risks early, and builds shared accountability.",
-    "subDomain": "Scope Management"
+    "subDomain": "Scope Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1527,7 +1659,10 @@
       }
     ],
     "explanation": "The purpose of communication is alignment and coordinated action, not paperwork or activity for its own sake.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1561,7 +1696,10 @@
       }
     ],
     "explanation": "Executive summaries are concise entry points to understanding, not a replacement for detailed reporting.",
-    "subDomain": "Communication Management"
+    "subDomain": "Communication Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1595,7 +1733,10 @@
       }
     ],
     "explanation": "Comprehensive risk management is iterative, reassessing risks at each phase rather than once at the start.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1629,7 +1770,10 @@
       }
     ],
     "explanation": "The DoD is a shared, transparent quality standard for completion, independent of PO acceptance or the calendar.",
-    "subDomain": "Quality Management"
+    "subDomain": "Quality Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1663,7 +1807,10 @@
       }
     ],
     "explanation": "A secondary risk is a new risk created by implementing a risk response, distinct from a residual or low-ranked risk.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1697,7 +1844,10 @@
       }
     ],
     "explanation": "Timeboxing allocates a fixed maximum duration to an activity or event to maintain focus.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1731,7 +1881,10 @@
       }
     ],
     "explanation": "Burnup charts separate completed work from a total scope line, so scope changes are visible; burndowns show only remaining work.",
-    "subDomain": "Project Monitoring"
+    "subDomain": "Project Monitoring",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1765,7 +1918,10 @@
       }
     ],
     "explanation": "Starting too much work spreads resources thin; portfolio management prioritizes and limits WIP to improve completion.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1799,7 +1955,10 @@
       }
     ],
     "explanation": "Float measures the schedule flexibility of an activity, computed from the network and critical path, not reserves or resources.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "definition"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1833,7 +1992,10 @@
       }
     ],
     "explanation": "Negative total float indicates the schedule cannot meet its deadline as planned and requires compression or renegotiation.",
-    "subDomain": "Schedule Management"
+    "subDomain": "Schedule Management",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1867,6 +2029,9 @@
       }
     ],
     "explanation": "WIP limits optimize flow by cutting context switching, finishing work faster, and exposing bottlenecks.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario"
+    ]
   }
 ]

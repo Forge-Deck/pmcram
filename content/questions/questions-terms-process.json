@@ -37,6 +37,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "artifacts",
       "events",
       "increment",
@@ -81,6 +82,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cycle time",
       "lead time",
       "flow",
@@ -129,10 +131,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "flow metrics",
       "cycle time",
-      "throughput",
-      "categorise"
+      "throughput"
     ]
   },
   {
@@ -173,6 +175,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "cumulative flow diagram",
       "bottleneck",
       "kanban",
@@ -217,6 +220,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "planning poker",
       "relative estimation",
       "estimation",
@@ -265,10 +269,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "sprint review",
       "sprint retrospective",
-      "events",
-      "categorise"
+      "events"
     ]
   },
   {
@@ -309,6 +313,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "cost-variance",
       "cpi",
@@ -353,6 +358,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "cpi",
       "interpretation",
@@ -397,6 +403,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "schedule-variance",
       "interpretation",
@@ -441,6 +448,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "bac",
       "eac",
@@ -485,6 +493,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "vac",
       "forecast",
@@ -529,6 +538,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "planned-value",
       "forecast",
@@ -573,6 +583,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost-management-plan",
       "cost-baseline",
       "contrast"
@@ -616,6 +627,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimate-costs",
       "determine-budget",
       "process",
@@ -660,6 +672,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "npv",
       "irr",
       "selection",
@@ -704,6 +717,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "chart-of-accounts",
       "code-of-accounts",
       "wbs",
@@ -748,6 +762,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "control-account",
       "work-package",
       "evm",
@@ -792,6 +807,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "earned-value-analysis",
       "contrast"
@@ -839,6 +855,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "reserves",
       "contingency-reserve",
       "management-reserve",
@@ -884,6 +901,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "reserve-analysis",
       "contingency-reserve",
       "management-reserve",
@@ -928,6 +946,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "control-costs",
       "determine-budget",
       "cost-baseline",
@@ -972,6 +991,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimate",
       "budget",
       "contrast"
@@ -1015,6 +1035,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost-baseline",
       "time-phased",
       "planned-value"
@@ -1058,6 +1079,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "project-funding-requirements",
       "cost-baseline",
       "cash-flow",
@@ -1102,6 +1124,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "cpi",
       "planned-value",
@@ -1146,6 +1169,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "evm",
       "spi",
       "cpi",
@@ -1190,6 +1214,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "buffer",
       "contingency-reserve",
       "confusable"
@@ -1233,6 +1258,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "life-cycle-costing",
       "cost-baseline",
       "operating-cost",
@@ -1277,6 +1303,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "charter",
       "sponsor",
       "authorization",
@@ -1321,6 +1348,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "configuration management",
       "change control",
       "baseline",
@@ -1365,6 +1393,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "change control board",
       "change request",
       "change log",
@@ -1409,6 +1438,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "phase gate",
       "tollgate",
       "governance",
@@ -1453,6 +1483,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "gate",
       "milestone",
       "governance",
@@ -1497,6 +1528,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "go no-go",
       "gate",
       "decision",
@@ -1541,6 +1573,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "predictive",
       "life cycle",
       "baseline",
@@ -1585,6 +1618,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "definition",
       "adaptive",
       "predictive",
       "life cycle",
@@ -1629,6 +1663,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "iterative",
       "incremental",
       "development approach",
@@ -1673,6 +1708,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "hybrid",
       "predictive",
       "adaptive",
@@ -1717,6 +1753,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "pmbok8",
       "performance domains",
       "structure",
@@ -1761,6 +1798,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "pmbok8",
       "focus areas",
       "process groups",
@@ -1805,6 +1843,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "pmbok8",
       "principles",
       "structure",
@@ -1849,6 +1888,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "pmbok8",
       "performance domains",
       "odd-one-out",
@@ -1893,6 +1933,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "pmbok8",
       "processes",
       "structure",
@@ -1937,6 +1978,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "validated deliverable",
       "accepted deliverable",
       "validate scope",
@@ -1981,6 +2023,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "authorization",
       "charter",
       "initiating",
@@ -2025,6 +2068,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "gold plating",
       "scope creep",
       "scope",
@@ -2069,6 +2113,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "escalation",
       "delegation",
       "decision authority",
@@ -2113,6 +2158,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "expected monetary value",
       "quantitative risk analysis",
       "contingency reserve",
@@ -2157,6 +2203,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "contract type",
       "fixed-price",
@@ -2202,6 +2249,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "contract type",
       "time-and-materials",
@@ -2247,6 +2295,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "contract type",
       "cost-reimbursable",
@@ -2292,6 +2341,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "incentive-fee",
       "award-fee",
@@ -2337,6 +2387,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "award-fee",
       "incentive-fee",
@@ -2382,6 +2433,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "fpif",
       "point-of-total-assumption",
@@ -2427,6 +2479,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "ceiling-price",
       "target-cost",
@@ -2472,6 +2525,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "rfi",
       "procurement-documents",
@@ -2517,6 +2571,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "rfp",
       "rfq",
@@ -2562,6 +2617,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "rfc",
       "procurement-documents",
@@ -2607,6 +2663,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "ifb",
       "rfp",
@@ -2652,6 +2709,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "make-or-buy",
       "relationship",
@@ -2697,6 +2755,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "source-selection",
       "qbs",
@@ -2742,6 +2801,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "qualification-criteria",
       "source-selection-criteria",
@@ -2787,6 +2847,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "statement-of-work",
       "psow",
@@ -2832,6 +2893,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "warranty",
       "quality",
@@ -2877,6 +2939,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality",
       "cost-of-quality",
       "nonconformance",
@@ -2922,6 +2985,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "adr",
       "arbitration",
@@ -2967,6 +3031,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "claim",
       "dispute",
@@ -3012,6 +3077,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "dispute-review-board",
       "adr",
@@ -3057,6 +3123,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "negotiation",
       "batna",
@@ -3102,6 +3169,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "negotiation",
       "zopa",
@@ -3147,6 +3215,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "negotiation",
       "fait-accompli",
@@ -3192,6 +3261,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "buyer",
       "seller",
@@ -3237,6 +3307,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "contract",
       "agreement",
@@ -3282,6 +3353,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk",
       "risk-transfer",
       "insurance",
@@ -3327,6 +3399,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk",
       "risk-transfer",
       "risk-sharing",
@@ -3372,6 +3445,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk",
       "insurance",
       "contingency-reserve",
@@ -3417,6 +3491,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "kraljic-matrix",
       "sourcing-strategy",
@@ -3462,6 +3537,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "long-lead-item",
       "schedule",
@@ -3507,6 +3583,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "control-procurements",
       "close-procurements",
@@ -3552,6 +3629,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "bidder-conference",
       "solicitation",
@@ -3605,11 +3683,11 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "contract-type",
       "cost-reimbursable",
-      "multi",
-      "categorise"
+      "multi"
     ]
   },
   {
@@ -3658,6 +3736,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "procurement",
       "adr",
       "mediation",
@@ -3703,6 +3782,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality",
       "quality assurance",
       "quality control",
@@ -3747,6 +3827,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "verification",
       "validation",
       "quality control",
@@ -3791,6 +3872,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "accuracy",
       "precision",
       "measurement",
@@ -3835,6 +3917,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality",
       "grade",
       "contrast",
@@ -3879,6 +3962,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost of quality",
       "appraisal cost",
       "prevention cost",
@@ -3923,6 +4007,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost of quality",
       "failure cost",
       "external failure",
@@ -3967,9 +4052,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost of quality",
       "conformance",
-      "categorise",
       "multi"
     ]
   },
@@ -4011,6 +4096,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "common cause",
       "special cause",
       "control chart",
@@ -4055,6 +4141,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "audit",
       "inspection",
       "quality assurance",
@@ -4099,6 +4186,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "prevention",
       "inspection",
       "cost of quality",
@@ -4143,6 +4231,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "attribute sampling",
       "variable sampling",
       "statistical sampling",
@@ -4187,6 +4276,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "lean",
       "waste",
       "non-value-added",
@@ -4231,6 +4321,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "six sigma",
       "dmaic",
       "dmadv",
@@ -4275,6 +4366,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "kaizen",
       "continuous improvement",
       "lean",
@@ -4319,6 +4411,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "fishbone",
       "ishikawa",
       "cause-and-effect diagram",
@@ -4363,6 +4456,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality gurus",
       "crosby",
       "quality is free",
@@ -4407,6 +4501,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality gurus",
       "juran",
       "fitness for use",
@@ -4451,6 +4546,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality gurus",
       "deming",
       "pdca",
@@ -4495,6 +4591,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "specification limits",
       "control limits",
       "quality control",
@@ -4539,6 +4636,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "control chart",
       "histogram",
       "seven basic quality tools",
@@ -4583,6 +4681,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "pareto chart",
       "histogram",
       "seven basic quality tools",
@@ -4627,6 +4726,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "manage quality",
       "control quality",
       "quality assurance",
@@ -4671,6 +4771,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "defect",
       "nonconformance",
       "quality control",
@@ -4715,6 +4816,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "corrective action",
       "preventive action",
       "change request",
@@ -4759,6 +4861,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "defect repair",
       "corrective action",
       "refactoring",
@@ -4803,6 +4906,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scatter diagram",
       "correlation",
       "seven basic quality tools",
@@ -4847,6 +4951,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "check sheet",
       "checklist",
       "seven basic quality tools",
@@ -4891,10 +4996,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "seven basic quality tools",
       "affinity diagram",
-      "odd-one-out",
-      "categorise"
+      "odd-one-out"
     ]
   },
   {
@@ -4935,6 +5040,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality metrics",
       "quality requirements",
       "quality control measurements",
@@ -4979,6 +5085,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality policy",
       "quality management plan",
       "quality objectives",
@@ -5023,6 +5130,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "rework",
       "repair",
       "nonconformance",
@@ -5067,6 +5175,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "design of experiments",
       "design for x",
       "statistical sampling",
@@ -5111,6 +5220,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "definition of done",
       "acceptance criteria",
       "agile",
@@ -5155,6 +5265,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "customer satisfaction",
       "quality",
       "conformance",
@@ -5199,6 +5310,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "process capability",
       "process performance",
       "process stability",
@@ -5243,6 +5355,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "statistical sampling",
       "inspection",
       "quality control",
@@ -5287,10 +5400,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost of quality",
       "conformance",
-      "nonconformance",
-      "categorise"
+      "nonconformance"
     ]
   },
   {
@@ -5331,6 +5444,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality assurance",
       "quality audit",
       "inspection",
@@ -5375,6 +5489,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "hardening sprint",
       "definition of done",
       "technical debt",
@@ -5419,6 +5534,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "integration test",
       "system test",
       "verification",
@@ -5463,6 +5579,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "technical debt",
       "defect",
       "refactoring",
@@ -5507,6 +5624,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "process stability",
       "process capability",
       "control chart",
@@ -5551,6 +5669,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "histogram",
       "bar chart",
       "seven basic quality tools",
@@ -5595,6 +5714,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "opportunity",
       "threat",
@@ -5640,6 +5760,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "mitigate",
       "enhance",
@@ -5684,6 +5805,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "transfer",
       "share",
@@ -5732,6 +5854,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "accept",
       "escalate",
@@ -5776,6 +5899,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "opportunity",
       "odd-one-out",
@@ -5820,6 +5944,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "transfer",
       "insurance",
@@ -5864,6 +5989,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "avoid",
       "mitigate",
@@ -5908,6 +6034,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "avoid",
       "application"
@@ -5951,6 +6078,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "exploit",
       "enhance",
@@ -5995,6 +6123,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-response",
       "share",
       "opportunity",
@@ -6039,6 +6168,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "acceptance",
       "contingency-reserve",
       "contrast"
@@ -6082,6 +6212,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "acceptance",
       "active-acceptance",
       "application"
@@ -6125,6 +6256,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "acceptance",
       "passive-acceptance",
       "watch-list",
@@ -6169,6 +6301,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "secondary-risk",
       "residual-risk",
       "contrast"
@@ -6212,6 +6345,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "residual-risk",
       "application"
     ]
@@ -6254,6 +6388,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "secondary-risk",
       "application"
     ]
@@ -6296,6 +6431,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "contingency-reserve",
       "management-reserve",
       "contrast"
@@ -6339,6 +6475,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "management-reserve",
       "unknown-unknown",
       "application"
@@ -6382,6 +6519,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "contingency-reserve",
       "application"
     ]
@@ -6424,6 +6562,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "contingency-plan",
       "fallback-plan",
       "contrast"
@@ -6467,6 +6606,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "fallback-plan",
       "application"
     ]
@@ -6509,6 +6649,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "contingency-plan",
       "contingency-reserve",
       "confusable"
@@ -6552,6 +6693,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk",
       "issue",
       "contrast"
@@ -6595,6 +6737,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "issue",
       "risk",
       "application"
@@ -6638,6 +6781,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "hazard",
       "risk",
       "confusable"
@@ -6681,6 +6825,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "ambiguity",
       "uncertainty",
       "contrast"
@@ -6724,6 +6869,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "volatility",
       "vuca",
       "application"
@@ -6767,6 +6913,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "ambiguity",
       "application"
     ]
@@ -6809,6 +6956,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-appetite",
       "risk-threshold",
       "contrast"
@@ -6852,6 +7000,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-threshold",
       "application"
     ]
@@ -6894,6 +7043,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-appetite",
       "risk-tolerance",
       "confusable"
@@ -6937,9 +7087,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "emv",
       "expected-monetary-value",
-      "calculation",
       "application"
     ]
   },
@@ -6981,6 +7131,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "calculation",
       "emv",
       "decision-tree",
       "contrast"
@@ -7024,6 +7175,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "decision-tree",
       "emv",
       "application"
@@ -7067,6 +7219,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "qualitative-analysis",
       "quantitative-analysis",
       "contrast"
@@ -7110,6 +7263,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "sensitivity-analysis",
       "tornado-diagram",
       "application"
@@ -7153,6 +7307,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "rbs",
       "wbs",
       "contrast"
@@ -7196,6 +7351,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-register",
       "risk-report",
       "contrast"
@@ -7239,6 +7395,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "trigger",
       "monitor-risks",
       "application"
@@ -7282,6 +7439,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-owner",
       "risk-action-owner",
       "contrast"
@@ -7325,6 +7483,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "workaround",
       "contingency-plan",
       "application"
@@ -7368,6 +7527,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk-audit",
       "risk-review",
       "contrast"
@@ -7411,6 +7571,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "individual-project-risk",
       "overall-project-risk",
       "contrast"
@@ -7454,6 +7615,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "float",
       "free-float",
@@ -7498,6 +7660,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "resource-optimization",
       "leveling",
@@ -7543,6 +7706,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "compression",
       "crashing",
@@ -7587,6 +7751,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "compression",
       "fast-tracking",
@@ -7632,6 +7797,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "critical-chain",
       "critical-path",
@@ -7677,6 +7843,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "finish-to-start",
@@ -7721,6 +7888,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "start-to-start",
@@ -7765,6 +7933,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "start-to-finish",
@@ -7809,6 +7978,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "lead",
       "lag",
@@ -7853,6 +8023,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "lag",
       "application"
@@ -7896,6 +8067,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "mandatory",
@@ -7940,6 +8112,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "discretionary",
@@ -7985,6 +8158,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "external",
@@ -8029,6 +8203,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "milestone",
       "activity",
@@ -8073,6 +8248,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
       "three-point",
       "triangular",
@@ -8117,6 +8293,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "rolling-wave",
       "progressive-elaboration",
@@ -8161,6 +8338,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "critical-chain",
       "buffer",
@@ -8206,6 +8384,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "cost",
       "reserve",
       "contingency",
@@ -8251,6 +8430,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "forward-pass",
       "backward-pass",
@@ -8295,6 +8475,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "backward-pass",
       "late-dates",
@@ -8339,6 +8520,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "critical-activity",
       "float",
@@ -8383,6 +8565,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "float",
       "slack",
@@ -8427,6 +8610,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "definition",
       "schedule",
       "baseline",
       "schedule-model",
@@ -8471,9 +8655,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "compression",
-      "categorise",
       "confusable"
     ]
   },
@@ -8515,9 +8699,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
-      "odd-one-out",
-      "categorise"
+      "odd-one-out"
     ]
   },
   {
@@ -8558,6 +8742,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
       "analogous",
       "application"
@@ -8601,6 +8786,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
       "parametric",
       "application"
@@ -8644,6 +8830,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
       "bottom-up",
       "application"
@@ -8687,6 +8874,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "estimating",
       "duration",
       "effort",
@@ -8731,6 +8919,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "near-critical-path",
       "critical-path",
@@ -8775,6 +8964,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "dependencies",
       "soft-logic",
@@ -8820,6 +9010,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "risk",
       "monte-carlo",
       "sensitivity",
@@ -8864,10 +9055,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "definition",
       "schedule",
       "develop-schedule",
-      "process",
-      "categorise"
+      "process"
     ]
   },
   {
@@ -8908,6 +9099,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "control-schedule",
       "develop-schedule",
@@ -8952,6 +9144,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope",
       "decomposition",
       "rolling-wave",
@@ -8996,6 +9189,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "network-diagram",
       "gantt",
@@ -9040,6 +9234,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "resource-smoothing",
       "leveling",
@@ -9084,6 +9279,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "resource-leveling",
       "smoothing",
@@ -9132,9 +9328,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "resource-optimization",
-      "categorise",
       "multi"
     ]
   },
@@ -9180,9 +9376,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "compression",
-      "categorise",
       "multi"
     ]
   },
@@ -9228,6 +9424,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "schedule",
       "float",
       "free-float",
@@ -9273,6 +9470,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope",
       "product scope",
       "project scope",
@@ -9317,6 +9515,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope creep",
       "gold plating",
       "change control",
@@ -9365,10 +9564,10 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope baseline",
       "wbs",
-      "wbs dictionary",
-      "categorise"
+      "wbs dictionary"
     ]
   },
   {
@@ -9409,6 +9608,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "validate scope",
       "acceptance",
       "application"
@@ -9452,6 +9652,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "control scope",
       "validate scope",
       "contrast"
@@ -9495,6 +9696,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "definition",
       "work package",
       "wbs",
       "application"
@@ -9538,6 +9740,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "control account",
       "earned value",
       "application"
@@ -9581,6 +9784,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "planning package",
       "work package",
       "contrast"
@@ -9624,6 +9828,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "decomposition",
       "progressive elaboration",
       "contrast"
@@ -9667,6 +9872,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "rolling wave planning",
       "progressive elaboration",
       "contrast"
@@ -9710,6 +9916,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "definition of done",
       "acceptance criteria",
       "application"
@@ -9753,6 +9960,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "definition of ready",
       "definition of done",
       "mirror"
@@ -9796,6 +10004,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "elicitation",
       "requirements traceability matrix",
       "odd-one-out"
@@ -9839,6 +10048,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "nonfunctional requirement",
       "functional requirement",
       "application"
@@ -9886,9 +10096,9 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "requirements",
-      "requirement types",
-      "categorise"
+      "requirement types"
     ]
   },
   {
@@ -9929,6 +10139,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "requirements traceability matrix",
       "application"
     ]
@@ -9971,6 +10182,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "requirements documentation",
       "requirements traceability matrix",
       "contrast"
@@ -10014,6 +10226,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "collect requirements",
       "define scope",
       "mirror"
@@ -10057,6 +10270,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "define scope",
       "create wbs",
       "contrast"
@@ -10100,6 +10314,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "100 percent rule",
       "wbs",
       "application"
@@ -10143,6 +10358,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "wbs",
       "wbs dictionary",
       "contrast"
@@ -10186,6 +10402,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope baseline",
       "scope creep",
       "contrast"
@@ -10229,6 +10446,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "gold plating",
       "scope creep",
       "application"
@@ -10272,6 +10490,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "scope creep",
       "change control",
       "application"
@@ -10315,6 +10534,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "exclusion",
       "constraint",
       "application"
@@ -10358,6 +10578,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "assumption",
       "constraint",
       "contrast"
@@ -10401,6 +10622,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "deliverable",
       "milestone",
       "contrast"
@@ -10444,6 +10666,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "validated deliverables",
       "accepted deliverables",
       "application"
@@ -10487,6 +10710,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "acceptance",
       "acceptance criteria",
       "contrast"
@@ -10530,6 +10754,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "brainstorming",
       "brainwriting",
       "contrast"
@@ -10573,6 +10798,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "mind mapping",
       "affinity diagram",
       "contrast"
@@ -10616,6 +10842,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "observation",
       "interview",
       "application"
@@ -10659,6 +10886,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "questionnaire",
       "interview",
       "contrast"
@@ -10702,6 +10930,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "kano analysis",
       "prioritization",
       "application"
@@ -10745,6 +10974,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "feature",
       "requirement",
       "contrast"
@@ -10788,6 +11018,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "statement of work",
       "project scope statement",
       "confusable"
@@ -10831,6 +11062,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "quality requirement",
       "acceptance criteria",
       "contrast"
@@ -10874,6 +11106,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "decompose",
       "decomposition",
       "contrast"
@@ -10917,6 +11150,7 @@
       "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
+      "scenario",
       "elicitation",
       "requirements gathering",
       "confusable"

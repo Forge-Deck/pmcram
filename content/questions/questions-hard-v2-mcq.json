@@ -31,7 +31,10 @@
       }
     ],
     "explanation": "A phase gate's go/no-go needs a reviewed, demonstrable increment. That is what the sprint review produces, so it is the ceremony you protect when a gate lands mid-sprint; standups, retros and informal chats do not feed the gate.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario"
+    ]
   },
   {
     "schema": "question/v1",
@@ -65,7 +68,10 @@
       }
     ],
     "explanation": "EAC = BAC/CPI is the forecast when the current cost performance is representative and expected to continue — it projects the observed efficiency across the remaining work.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "calculation"
+    ]
   },
   {
     "schema": "question/v1",
@@ -99,7 +105,10 @@
       }
     ],
     "explanation": "When the overrun is a one-off and future work runs to plan, EAC = AC + (BAC − EV): actual cost so far plus the remaining budgeted work at its planned value.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "calculation"
+    ]
   },
   {
     "schema": "question/v1",
@@ -133,6 +142,9 @@
       }
     ],
     "explanation": "When both cost and schedule variances will persist, EAC = AC + (BAC − EV)/(CPI × SPI) applies both performance indices to the remaining work — the most pessimistic of the standard forecasts.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "calculation"
+    ]
   }
 ]

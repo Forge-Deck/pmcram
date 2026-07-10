@@ -59,7 +59,11 @@
       }
     ],
     "explanation": "Privacy exposure and possible bias make this a governance matter: the PM escalates, addresses privacy, bias, and data representativeness, and uses the tool only with approved safeguards and human oversight regardless of the model's confidence.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -121,7 +125,11 @@
       }
     ],
     "explanation": "An external regulatory change is first assessed for scope and compliance impact, then handled through integrated change control, not absorbed silently, delegated wholesale to legal, or acted on unilaterally.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -179,7 +187,11 @@
       }
     ],
     "explanation": "Across a multicultural team, the PM should understand each culture's norms before imposing a single blanket policy, not escalate, survey preferences, or gauge unrelated factors.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -241,7 +253,11 @@
       }
     ],
     "explanation": "Before using a public AI tool on confidential material, the PM confirms organizational policy and data handling requirements, protects the sensitive information, and uses only an approved approach rather than uploading based on deadline pressure or partial redaction.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -303,7 +319,11 @@
       }
     ],
     "explanation": "A market-driven feature request is evaluated against value, cost, and schedule and, if justified, routed through a change request, rather than absorbed, rejected outright, or committed to on the spot.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -361,7 +381,11 @@
       }
     ],
     "explanation": "When governance shifts from a sponsor to a steering committee, the PM recognizes the changed stakeholder structure and tailors communications, rather than continuing as before or relying on a single meeting or report.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -427,7 +451,11 @@
       }
     ],
     "explanation": "When value materializes after handoff, the PM should establish a post-transition measurement approach with defined metrics, cadence, and ownership rather than closing out or reassigning accountability.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -489,7 +517,11 @@
       }
     ],
     "explanation": "When a ready solution stalls on adoption due to mixed leadership signals, the PM first assesses and closes sponsor and manager alignment gaps rather than adding scope, extending testing, or disciplining users.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -551,7 +583,11 @@
       }
     ],
     "explanation": "On discovering a conflict of interest in source selection, the PM discloses it immediately to the proper authority and recuses if required, rather than self-managing objectivity, concealing, or delaying disclosure.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -613,7 +649,11 @@
       }
     ],
     "explanation": "When the business case shifts, the PM revalues the initiative with current assumptions and escalates continuation options to governance rather than pressing on, accelerating, or acting unilaterally.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -675,7 +715,11 @@
       }
     ],
     "explanation": "When leads report unprepared teams despite a sound solution, the PM conducts a readiness assessment and tailors the approach, instead of launching on validation alone, forcing compliance, or reshuffling leaders.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -737,7 +781,11 @@
       }
     ],
     "explanation": "With limited capacity, the PM guides the product owner to triage impediments by business-value impact and clear the highest-value blockers first, not by difficulty, arrival order, ease, or equal splitting.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -799,7 +847,11 @@
       }
     ],
     "explanation": "Before using project data with AI, the PM must confirm approved data-handling rules and use a compliant method with sanitized or authorized data.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -861,7 +913,11 @@
       }
     ],
     "explanation": "Governance provides oversight, decision rights, and escalation paths that enable timely corrective action to keep a drifting project aligned with organizational objectives.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -923,7 +979,11 @@
       }
     ],
     "explanation": "The first action is to ensure legal and policy compliance: escalate, halt affected procurement, and assess approved alternatives through integrated change control.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -985,7 +1045,11 @@
       }
     ],
     "explanation": "External changes call for reassessing net value and strategic fit and taking options to governance, not clinging to the old forecast, deferring, or jumping straight to execution.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1047,7 +1111,11 @@
       }
     ],
     "explanation": "An Operations Manager sustains efficient ongoing operations and coordinates execution, distinct from marketing, finance, portfolio, or product-owner roles.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "definition",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1105,7 +1173,11 @@
       }
     ],
     "explanation": "The right move is to quantify the financial and contractual impact and coordinate a governed reassessment with finance, procurement, and the sponsor, not unilateral freezes, conversions, or reserve draws.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1167,7 +1239,11 @@
       }
     ],
     "explanation": "A likely pending external change warrants early, controlled action, so the project manager performs a proactive impact analysis and prepares a change request if approved scope is affected.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1233,7 +1309,11 @@
       }
     ],
     "explanation": "The proposed rule is an uncertain future event, so the project manager assesses its potential impact, logs the risks in the risk register, and develops responses with relevant experts.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1295,7 +1375,11 @@
       }
     ],
     "explanation": "A material business-case change calls for structured evaluation, so the project manager assesses localization options and presents a change request comparing cost, schedule, quality, and risk tradeoffs.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1361,7 +1445,11 @@
       }
     ],
     "explanation": "Because culture strongly shapes adoption, the PM should analyze local norms and influencers and tailor messages, channels, and transition support by stakeholder group.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1427,7 +1515,11 @@
       }
     ],
     "explanation": "When stakeholders interpret new requirements differently, the PM should first convene a facilitated workshop to build shared understanding and agree on a coordinated approach.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1489,7 +1581,11 @@
       }
     ],
     "explanation": "Facing an external route disruption, the PM should work with stakeholders to assess alternatives and tradeoffs, then submit recommended baseline changes for formal approval.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1551,7 +1647,11 @@
       }
     ],
     "explanation": "A newly issued external regulation is a change to plan for, not a late test activity; the project manager should first assess its impact on scope, approach, and compliance obligations, then update plans and engage affected stakeholders.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1613,7 +1713,11 @@
       }
     ],
     "explanation": "When community support is weakening, the project manager should first elicit stakeholders' concerns directly through structured, two-way sessions to build shared understanding before choosing any engagement or mitigation response.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1671,7 +1775,11 @@
       }
     ],
     "explanation": "A new data-residency law is a binding obligation; the project manager should pause the affected implementation and facilitate a governed, stakeholder-based evaluation of compliant architecture options rather than proceed, defer, or decide unilaterally.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1733,7 +1841,11 @@
       }
     ],
     "explanation": "The first step is to reassess the project against current strategy and future value, ignoring sunk cost, rather than continuing, accelerating, or deferring the value question.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1791,7 +1903,11 @@
       }
     ],
     "explanation": "The correct next step elevates the regulatory risk through governance and assesses structural, timing, and value impacts, rather than ignoring it, hiding it, or acting unilaterally.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1845,7 +1961,11 @@
       }
     ],
     "explanation": "The best action is to lead a revalidation of the business case with current data and present updated options to governance, rather than cutting quality, continuing blindly, or freezing spend.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1908,7 +2028,11 @@
       }
     ],
     "explanation": "An external market change does not authorize cutting baselined scope; the project manager first performs an integrated impact assessment, then routes any change through formal change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -1967,7 +2091,11 @@
       }
     ],
     "explanation": "With leadership undecided, the project manager's value is trigger-based continuation, pause, and exit scenarios that link external conditions to impacts and decision thresholds.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2026,7 +2154,11 @@
       }
     ],
     "explanation": "A shift in the external policy environment is handled through formal change control: the project manager raises a change request to evaluate strategic fit and options before any decision to alter or end the project.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2093,7 +2225,11 @@
       }
     ],
     "explanation": "Inconsistent leadership messaging is the core risk, so the first step is aligning sponsors and regional leaders on a shared change narrative and reinforcement before deployment.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2156,7 +2292,11 @@
       }
     ],
     "explanation": "A sudden regulatory change near a critical staffing milestone calls first for assessing the impact with the sponsor and legal/compliance before altering baselines or acting.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2219,7 +2359,11 @@
       }
     ],
     "explanation": "A component change affecting scope, cost, schedule, and quality must go through integrated change control with impact analysis and stakeholder review before it is approved.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2282,7 +2426,11 @@
       }
     ],
     "explanation": "Because accountability stays with the buyer, compliance obligations must become mandatory procurement requirements evaluated before award, not deferred, contractually shifted, or self-attested.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2345,7 +2493,11 @@
       }
     ],
     "explanation": "A mandatory national-security review is a required governance gate, so the PM must work with procurement, legal, and the sponsor to build it into the process rather than bypassing or ignoring it.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2408,7 +2560,11 @@
       }
     ],
     "explanation": "The PM protects procurement integrity by applying the approved criteria consistently and directing any sourcing-policy change through legitimate governance, not by manipulating or bypassing the evaluation.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2474,7 +2630,11 @@
       }
     ],
     "explanation": "Because success includes achieving intended outcomes, the next step is to evaluate whether the delivered capability is producing the targeted benefit and recommend value-based adjustments.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2536,7 +2696,11 @@
       }
     ],
     "explanation": "A currency-control change alters the project's value basis, so the first step is to update the business case assumptions and escalate the benefits impact to governance for a decision.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2598,7 +2762,11 @@
       }
     ],
     "explanation": "Facing a potential duty-driven cost increase, the project manager should coordinate a cross-functional impact analysis and present governance with decision options before altering commitments.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2660,7 +2828,11 @@
       }
     ],
     "explanation": "A newly effective law is an external business environment change: the PM must assess its impact on affected deliverables and scope, then process any required scope change through formal change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2718,7 +2890,11 @@
       }
     ],
     "explanation": "When geopolitical shifts threaten strategic viability, the PM facilitates a reassessment of assumptions, scenarios, and risks with sponsors and stakeholders rather than freezing, narrowing, or abandoning the plan unilaterally.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2776,7 +2952,11 @@
       }
     ],
     "explanation": "A mid-execution trade-agreement change is an external factor: the PM first assesses its impact on compliance, supplier eligibility, and scope, then processes any required change through formal change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2843,7 +3023,11 @@
       }
     ],
     "explanation": "Approved deliverables and a successful pilot confirm solution readiness, not organizational readiness; the project manager should assess role preparedness, capacity, leadership commitment, process fit, and transition risk before finalizing rollout timing.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2902,7 +3086,11 @@
       }
     ],
     "explanation": "Regulatory compliance takes priority; the project manager should pause the affected shipments to stop potentially noncompliant activity and engage legal, compliance, and procurement to assess the licensing obligations and impact.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -2961,7 +3149,11 @@
       }
     ],
     "explanation": "Facing a sovereign technology-transfer requirement, the project manager should first assess the legal, contractual, intellectual-property, and stakeholder impacts and escalate the findings so leadership can decide on a compliant path.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3024,7 +3216,11 @@
       }
     ],
     "explanation": "Mandatory external requirements take precedence, so the project manager must map all applicable obligations, align internal standards to them, and add jurisdiction-specific deliverables to achieve full compliance.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3083,7 +3279,11 @@
       }
     ],
     "explanation": "A material change to financing assumptions calls for the project manager to reassess the business case, risks, and alternatives with finance and sponsors before altering any commitments.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3142,7 +3342,11 @@
       }
     ],
     "explanation": "Reduced insurance coverage changes residual risk, so the project manager must update the risk analysis and response strategies and escalate exposure that now exceeds tolerance.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3208,7 +3412,11 @@
       }
     ],
     "explanation": "An external market shift can erode value even on-schedule, so the first step is to reevaluate the benefits and value proposition before recommending a path.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3270,7 +3478,11 @@
       }
     ],
     "explanation": "A mid-planning regulatory change should be integrated into the procurement and stakeholder plans with a proper assessment of scope, cost, and schedule impacts.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3332,7 +3544,11 @@
       }
     ],
     "explanation": "A sudden foreign-ownership rule change can invalidate the business case and authorization, so governance escalation and review must come before further commitments.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3398,7 +3614,11 @@
       }
     ],
     "explanation": "A PESTLE signal should prompt proactive assessment of potential scope impacts and preparation of response options for governance, not delay, premature change requests, hand-off, or halting work.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3460,7 +3680,11 @@
       }
     ],
     "explanation": "The project manager supports strategic diversification decisions by supplying project-level impact analysis on cost, schedule, risk, and dependencies, not by making enterprise decisions, freezing work, or disowning the topic.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3522,7 +3746,11 @@
       }
     ],
     "explanation": "The best action is to assess the policy's impact on assumptions, risks, and alternatives and present options to governance, rather than rebaselining, stockpiling, ignoring the signal, or committing unilaterally.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3589,7 +3817,11 @@
       }
     ],
     "explanation": "Because organizational culture varies across departments, tailoring engagement and transition tactics with local influencers improves adoption more than a uniform package.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3652,7 +3884,11 @@
       }
     ],
     "explanation": "The best immediate action is to build sanctions screening into procurement and risk controls and coordinate verification with legal, compliance, and suppliers before violations occur.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3715,7 +3951,11 @@
       }
     ],
     "explanation": "The best action is a coordinated procurement-and-compliance evaluation of sourcing risk that keeps materials lacking traceability out of the product before violations occur.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3777,7 +4017,11 @@
       }
     ],
     "explanation": "Distinct compliance categories carry different obligations and evidence needs, so each requires its own controls, owner, and monitoring rather than one generic checklist item.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3839,7 +4083,11 @@
       }
     ],
     "explanation": "A policy reversal threatens the project's authorization and benefits, so the project manager pauses major commitments and escalates to the sponsor for governance direction.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3901,7 +4149,11 @@
       }
     ],
     "explanation": "New consolidation scope should be assessed for impact and processed through integrated change control rather than added, rejected, or baselined unilaterally.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -3963,7 +4215,11 @@
       }
     ],
     "explanation": "The benefits management plan defines the targeted benefits, their measures, timing, and accountability, making it the reference for confirming realized value.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4025,7 +4281,11 @@
       }
     ],
     "explanation": "A material change in tax assumptions affects the business case; update the financial assumptions transparently and escalate any impact on viability.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4087,7 +4347,11 @@
       }
     ],
     "explanation": "An IP ownership dispute is a compliance and deliverability risk: escalate through governance and coordinate with legal and stakeholders to assess scope and delivery impact.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4150,7 +4414,11 @@
       }
     ],
     "explanation": "A known, time-sensitive regulatory change should first be assessed against the scope baseline, then handled through integrated change control if scope is affected.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4213,7 +4481,11 @@
       }
     ],
     "explanation": "Informal pressure is not authority; obtain documented direction through governance before altering approved baselines.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4276,7 +4548,11 @@
       }
     ],
     "explanation": "A changed risk appetite and stricter compliance call first for reassessing risks and updating the risk approach, not deflecting or deferring.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4335,7 +4611,11 @@
       }
     ],
     "explanation": "Low adoption after a technically complete deployment is a change management problem, so the project manager should first assess resistance and readiness and then apply tailored communication, training, and reinforcement.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4390,7 +4670,11 @@
       }
     ],
     "explanation": "After a reorganization changes reporting lines and creates conflicting executive direction, the project manager should escalate and confirm the updated decision-making authority and governance path before acting.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4445,7 +4729,11 @@
       }
     ],
     "explanation": "An informal challenge to a project's continuation should be resolved by engaging the sponsor and governance body to validate strategic alignment and obtain a formal continuation decision, not by acting on the comment.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4507,7 +4795,11 @@
       }
     ],
     "explanation": "A compliance framework that classifies obligations by source and type, and defines monitoring, evidence, and governance for each category, creates clear ownership and verification.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4569,7 +4861,11 @@
       }
     ],
     "explanation": "Under strategic pressure that would affect baselines, the project manager should present impact scenarios and route the recommended option through change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4631,7 +4927,11 @@
       }
     ],
     "explanation": "After an authority shift, the project manager should first realign the stakeholder engagement approach and decision pathways to match the new power structure.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4693,7 +4993,11 @@
       }
     ],
     "explanation": "The benefits owner is accountable for monitoring, measuring, and reporting whether the intended benefit is realized after transition to operations.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4755,7 +5059,11 @@
       }
     ],
     "explanation": "Conflicting definitions and retention rules are a data-integrity risk; first establish unified data requirements and acceptance criteria with business and compliance stakeholders.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4817,7 +5125,11 @@
       }
     ],
     "explanation": "Obligations do not transfer automatically; treat the unconfirmed novation as a contractual risk, engage legal and procurement, and replan until it is confirmed.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4879,7 +5191,11 @@
       }
     ],
     "explanation": "PESTLE is the framework specifically built to scan external political, economic, social, technological, legal, and environmental factors for impacts on project scope.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4941,7 +5257,11 @@
       }
     ],
     "explanation": "A conflict between mandatory compliance obligations must be escalated to the appropriate compliance or governance authority for a formal decision, after which the plans are updated.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -4999,7 +5319,11 @@
       }
     ],
     "explanation": "When new enterprise brand requirements take effect, project communications should be aligned to them before external release to protect consistency and reputation.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5061,7 +5385,11 @@
       }
     ],
     "explanation": "Employee resistance to a new operating model is an adoption issue for change management, distinct from baseline change control, which governs proposed changes to scope, schedule, or deliverables.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5123,7 +5451,11 @@
       }
     ],
     "explanation": "When portfolio decisions invalidate the business case, the project manager revises the benefits assumptions and secures governance approval for updated success measures rather than clinging to, hiding, or abandoning the targets.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5185,7 +5517,11 @@
       }
     ],
     "explanation": "When the funding model changes, the project manager first understands the new governance, prepares the business case impact, and seeks approval through the authorized process rather than working around, bypassing, or prematurely replanning.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5251,7 +5587,11 @@
       }
     ],
     "explanation": "Missed attestations stem from unmapped roles, so the project manager should first map each obligation to work, owners, evidence, and control points across project and partner activities.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5313,7 +5653,11 @@
       }
     ],
     "explanation": "The experts' knowledge is undocumented and at risk of leaving, so arranging immediate knowledge-transfer sessions to capture it is the best action.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5375,7 +5719,11 @@
       }
     ],
     "explanation": "Post-divestiture support is a contractual responsibility with rising risk, so the project manager should first update the transition and risk plans to clarify obligations, service levels, and escalation routes.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5437,7 +5785,11 @@
       }
     ],
     "explanation": "When maximizing long-term financial value is the stated criterion, the higher net present value option is the strongest recommendation, not the faster payback, lower cost, most deliverables, or a deferred or blended decision.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "calculation",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5499,7 +5851,11 @@
       }
     ],
     "explanation": "The project manager should pause the impacted work, assess the compliance gap and its impacts, and bring options to governance, rather than continuing, rewriting blindly, ignoring the standards, or seeking a retroactive waiver.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5561,7 +5917,11 @@
       }
     ],
     "explanation": "The project manager should first revalidate the business case and benefits with the sponsor to confirm continued strategic alignment, rather than continuing blindly, cutting costs, seeking cancellation, expanding scope, or deferring the question.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5627,7 +5987,11 @@
       }
     ],
     "explanation": "Treat a competitor-driven request as an external change: assess impact on scope, schedule, cost, and benefits, then process it through integrated change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5689,7 +6053,11 @@
       }
     ],
     "explanation": "When the portfolio is reprioritized, first confirm the decision, assess its impact on commitments and resources, then realign the plan.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5751,7 +6119,11 @@
       }
     ],
     "explanation": "A new data-residency law is an external change: document it, assess impact with experts, and take a change request through integrated change control.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5817,7 +6189,11 @@
       }
     ],
     "explanation": "Awareness is present but desire is missing, so the ADKAR-aligned action is to build desire through active manager sponsorship and clear personal benefits.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5879,7 +6255,11 @@
       }
     ],
     "explanation": "Authority has moved to the new board, so the project manager should submit through that path while documenting the regulatory impact and urgency to obtain a timely decision.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -5941,7 +6321,11 @@
       }
     ],
     "explanation": "A new mandatory certification changes supplier eligibility, so the project manager should update the evaluation criteria and reassess suppliers rather than accept a future promise.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6003,7 +6387,11 @@
       }
     ],
     "explanation": "Compliance obligations continue after go-live, so the transition plan must explicitly hand off the recurring activities, ownership, evidence retention, and monitoring to operations.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6065,7 +6453,11 @@
       }
     ],
     "explanation": "The first step is to assess the compliance implications and mitigations with legal, security, and IT experts before disrupting collaboration or switching tools.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6123,7 +6515,11 @@
       }
     ],
     "explanation": "When a rule change may make data use noncompliant, the project manager should stop the affected use, assess impact with legal and privacy experts, and replan on compliant data.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6185,7 +6581,11 @@
       }
     ],
     "explanation": "Adoption is blocked by misaligned incentives, so the first step is to escalate the misalignment to business leaders who can realign measures, roles, and transition actions.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6247,7 +6647,11 @@
       }
     ],
     "explanation": "Emerging regulation is best handled by raising it as a risk, assessing impacts on requirements and acceptance criteria, and aligning stakeholders rather than releasing or deferring unilaterally.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6309,7 +6713,11 @@
       }
     ],
     "explanation": "The mandated response is to run the third-party supplier risk review with procurement and security and let its results drive the release decision, not to skip or substitute for it.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6372,7 +6780,11 @@
       }
     ],
     "explanation": "An external change affecting scope is handled by structured impact assessment on the baseline, requirements, and assumptions first, then a change request through integrated change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6435,7 +6847,11 @@
       }
     ],
     "explanation": "When new regulation shortens the notification window, the project manager must update risk responses and reporting controls so detection and escalation can meet the deadline before launch.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6498,7 +6914,11 @@
       }
     ],
     "explanation": "Data-localization obligations are best met by engaging legal, security, and enterprise IT to find a compliant storage or configuration solution and revising the plan, not by ad hoc workarounds or ignoring the law.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6560,7 +6980,11 @@
       }
     ],
     "explanation": "Sustained adoption depends on visible leader sponsorship and role modeling; when managers demonstrate the new behaviors, teams follow far more than they do with mandates, extra training, or metrics pressure.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6622,7 +7046,11 @@
       }
     ],
     "explanation": "When a regulation mandates a data-protection impact assessment before high-risk processing, the project manager must build that step into the plan and pause the pilot until it and its approvals are complete.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6684,7 +7112,11 @@
       }
     ],
     "explanation": "Mandatory traceability must be confirmed and built into requirements and acceptance criteria before the design is finalized, not deferred to a later release or handed off as an operational concern.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6751,7 +7183,11 @@
       }
     ],
     "explanation": "A material external change should prompt the project manager to revalidate the project against its current business justification and then recommend adjustment, acceleration, or termination.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6814,7 +7250,11 @@
       }
     ],
     "explanation": "The project manager should incorporate the mandated secure SDLC controls, assess the delivery impact, and transparently raise the resulting tradeoffs with stakeholders.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6877,7 +7317,11 @@
       }
     ],
     "explanation": "Data minimization requires reviewing each field against an approved purpose and removing or deferring what is unnecessary, rather than relying on encryption, consent, or later cleanup.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6935,7 +7379,11 @@
       }
     ],
     "explanation": "Confirm and classify the applicable compliance requirements, then embed them into project planning and controls rather than deferring or offloading them.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -6989,7 +7437,11 @@
       }
     ],
     "explanation": "Assess the regulatory impact with legal, security, and operations, then route the required changes through governance to keep the project compliant.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7043,7 +7495,11 @@
       }
     ],
     "explanation": "Build a controlled human review step for regulated decisions into the operating model and acceptance criteria to satisfy the oversight requirement.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7106,7 +7562,11 @@
       }
     ],
     "explanation": "The right response to an external constraint is to analyze scope-preserving alternatives, document impacts on scope and quality, and submit a change request if the baseline must change, keeping the business objective in focus.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7169,7 +7629,11 @@
       }
     ],
     "explanation": "When new regulations tighten handling of biometric or sensitive data, the best action is to make the solution compliant first, replacing it with a compliant alternative or pausing until legal, privacy, and security sign off.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7232,7 +7696,11 @@
       }
     ],
     "explanation": "Selection of a provider handling regulated data must be based on demonstrated compliance, so the project manager escalates and updates the evaluation and approval criteria, accepting replanning rather than yielding to schedule pressure.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7294,7 +7762,11 @@
       }
     ],
     "explanation": "Structured organizational change relies on forming a guiding coalition of influential leaders to align messaging, remove barriers, and champion the change across units, rather than fragmenting, centralizing on one person, or rushing ahead.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7352,7 +7824,11 @@
       }
     ],
     "explanation": "A regulatory third-party assurance gap must be escalated and resolved through governance with procurement and risk owners to obtain compliant evidence or an alternative, not accepted, deferred, or self-certified for the sake of schedule.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7410,7 +7886,11 @@
       }
     ],
     "explanation": "Facing a mid-project regulatory change, the project manager first assesses the impact with compliance and technical leads and processes the scope, risk, and schedule changes through formal change control, rather than deferring, over-building, or trading away quality.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7476,7 +7956,11 @@
       }
     ],
     "explanation": "Realized value requires the receiving organization to be operationally ready; the project manager should close readiness gaps before success is declared rather than deferring, downscoping, or shifting the work.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7538,7 +8022,11 @@
       }
     ],
     "explanation": "Regulatory mandates for data access, deletion, and portability are compliance requirements that must be built into the solution baseline, not deferred, waived, or handled through manual workarounds.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7600,7 +8088,11 @@
       }
     ],
     "explanation": "Required open-source security and licensing reviews must be completed before a component is included, with any schedule impact managed transparently, rather than skipped, bypassed, or over-restricted.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7662,7 +8154,11 @@
       }
     ],
     "explanation": "When regulations change, the PM proactively assesses impact, updates compliance plans and documents, and implements the required changes through governance and change control rather than delaying, deflecting, or reducing compliance to a cost calculation.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7724,7 +8220,11 @@
       }
     ],
     "explanation": "The PM must verify whether sector-specific rules impose obligations beyond the internal standard and update controls, plans, and stakeholder engagement, rather than assuming equivalence, deferring, or relying on informal commitments.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7786,7 +8286,11 @@
       }
     ],
     "explanation": "Faced with a new enterprise readiness requirement, the PM first assesses the impact with stakeholders, updates the risk register and test plan, and brings options to governance, rather than deferring, downplaying, or unilaterally reacting to the mandate.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7848,7 +8352,11 @@
       }
     ],
     "explanation": "External ecosystem changes can reshape stakeholder needs, so the manager assesses their impact on scope and processes any updates through formal change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7910,7 +8418,11 @@
       }
     ],
     "explanation": "The obligation calls for a governed, cross-functional disclosure process and secure development requirements built into the plan, not an ad hoc channel or a deferred risk-log entry.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -7972,7 +8484,11 @@
       }
     ],
     "explanation": "Early cross-functional impact assessment lets the team adapt the backlog and architecture before noncompliant authentication work turns into costly rework.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8039,7 +8555,11 @@
       }
     ],
     "explanation": "Adoption is best shown by sustained real-world use of the new process, not by training completion, communications acknowledgment, quiz scores, or change-request counts.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8102,7 +8622,11 @@
       }
     ],
     "explanation": "New regulatory obligations for security controls require reassessing the solution with experts and raising change requests now, not waiting for an incident or outsourcing accountability.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8165,7 +8689,11 @@
       }
     ],
     "explanation": "A strategy shift is handled by portfolio governance re-evaluating and reprioritizing projects consistently, not by unilateral action, team-level decisions, or padding scope.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8227,7 +8755,11 @@
       }
     ],
     "explanation": "A legal or regulatory compliance requirement is one imposed externally by a governing authority—such as a permit-linked reporting mandate—as opposed to internal, contractual, or voluntary standards.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8289,7 +8821,11 @@
       }
     ],
     "explanation": "A continued-investment challenge should be answered with an updated business case showing current strategic alignment, benefits, and clear continue-or-close options for governance.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8351,7 +8887,11 @@
       }
     ],
     "explanation": "When new strategic targets affect a project, the manager should assess scope and benefit impacts and route justified changes through the business case and integrated change control.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8414,7 +8954,11 @@
       }
     ],
     "explanation": "The business case exists to assess a proposed project's expected benefits, strategic fit, and feasibility before it is formally initiated, justifying whether the investment should proceed.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8477,7 +9021,11 @@
       }
     ],
     "explanation": "When capacity is constrained, the PM should analyze delivery options (scope, sequencing, timeline) and present the tradeoffs to stakeholders so they can decide how to best preserve business value.",
-    "subDomain": "Resource Management"
+    "subDomain": "Resource Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8540,7 +9088,11 @@
       }
     ],
     "explanation": "A drop in organizational risk appetite means previously accepted risks may no longer be within tolerance, so the PM should review the risk register and responses with stakeholders to realign them.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8606,7 +9158,11 @@
       }
     ],
     "explanation": "Enterprise Environmental Factors are surrounding conditions, such as culture, regulations, market conditions, and infrastructure, that influence the project but are not created by the team.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8668,7 +9224,11 @@
       }
     ],
     "explanation": "A newly approved cross-project standard should be handled by assessing its impact across affected projects and routing any exceptions through the defined governance process.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8730,7 +9290,11 @@
       }
     ],
     "explanation": "The PM should evaluate feasibility, risk, and value, then present options and a recommendation to stakeholders rather than adopting, ignoring, or outsourcing the decision.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8796,7 +9360,11 @@
       }
     ],
     "explanation": "Voluntary early participation in a learning session improves a later-wave stakeholder's readiness and adoption at little risk, so the PM should encourage it rather than gatekeep, escalate, or prematurely change the deployment scope.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8858,7 +9426,11 @@
       }
     ],
     "explanation": "When strategy shifts mid-project, the first step is to realign success criteria, benefits, and measures with the sponsor and stakeholders; rebaselining, adding scope, or rechartering before that confirmation is premature.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8920,7 +9492,11 @@
       }
     ],
     "explanation": "Facing a portfolio rationalization, the PM's first move is to engage portfolio and sponsor stakeholders to understand impacts, dependencies, and transition needs before taking any irreversible or unauthorized action.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -8983,7 +9559,11 @@
       }
     ],
     "explanation": "Compliance must be planned into the work, so the PM first analyzes the impact of the scope change and updates requirements and controls before implementing.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9042,7 +9622,11 @@
       }
     ],
     "explanation": "Good governance means proactively preparing for and engaging the required review before the threshold is breached, supporting transparency and timely decisions.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9101,7 +9685,11 @@
       }
     ],
     "explanation": "The PM adapts reporting to the new governance standard by adding the required benefits measures and cadence in coordination with the sponsor and portfolio office.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9163,7 +9751,11 @@
       }
     ],
     "explanation": "Value-based prioritization builds the most beneficial items first so stakeholders receive useful outcomes as early as possible, maximizing delivered benefit over time.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9225,7 +9817,11 @@
       }
     ],
     "explanation": "A funding-process change is a risk to manage: update the risk register and align with the sponsor on contingency and decision points before taking drastic or premature action.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9287,7 +9883,11 @@
       }
     ],
     "explanation": "A strategic partner change should trigger a review of assumptions, dependencies, and risks plus governance guidance, not premature partner switches, deletions, or continued planning as if nothing changed.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9353,7 +9953,11 @@
       }
     ],
     "explanation": "Regulatory conditions outside the project's control are external influences classified as enterprise environmental factors.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9415,7 +10019,11 @@
       }
     ],
     "explanation": "Continuation decisions should rest on a clear line of sight from the project's deliverables and benefits to strategic objectives, best built with the sponsor.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9477,7 +10085,11 @@
       }
     ],
     "explanation": "When strategy calls for capability building, the project should be planned to deliver outcomes while also enabling sustainable internal competence through knowledge transfer.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9543,7 +10155,11 @@
       }
     ],
     "explanation": "The first step is to bring the team together, connect the work to organizational priorities, and reaffirm each person's value, stabilizing morale before replanning or escalating.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9605,7 +10221,11 @@
       }
     ],
     "explanation": "Conflicting strategic objectives are resolved by escalating through governance so sponsors can reconcile priorities and confirm decision criteria the project can act on.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9663,7 +10283,11 @@
       }
     ],
     "explanation": "The best first step is to confirm with sponsors and key stakeholders how the project should align with the revised strategy before changing scope, measures, or plans.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9725,7 +10349,11 @@
       }
     ],
     "explanation": "Mandatory compliance obligations can arise from regulations, contracts, and organizational standards alike, so all applicable ones must be integrated into project planning and control.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9787,7 +10415,11 @@
       }
     ],
     "explanation": "Because projects will now be judged on the reusable assets they create, the PM should plan explicit deliverables to identify, document, and transition that knowledge.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9849,7 +10481,11 @@
       }
     ],
     "explanation": "A crisis that changes how and where the team can work calls for adapting ways of working and delivery cadence to sustain remote, incremental value delivery.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9911,7 +10547,11 @@
       }
     ],
     "explanation": "Not following the benefits realization plan can leave expected value unachieved or poorly communicated, which typically leads to stakeholder dissatisfaction.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -9973,7 +10613,11 @@
       }
     ],
     "explanation": "After a strategic shift in how success is measured, the project manager should collaborate with stakeholders to reassess success criteria and recommend changes that reflect the new value measures.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10035,7 +10679,11 @@
       }
     ],
     "explanation": "After a site disruption, the project manager's first action is to confirm personnel safety and assess critical-path and recovery impacts so subsequent decisions are fact-based.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10101,7 +10749,11 @@
       }
     ],
     "explanation": "The first step is to assess the regulation's impact across all phases and integrate the required compliance work into the plan, rather than jumping to redesign, deferral, or a presumed schedule change.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10163,7 +10815,11 @@
       }
     ],
     "explanation": "A resilience and antifragility strategy is best served by designing in flexibility, recovery options, and stress-tested scenarios, rather than optimizing for speed, simplicity, or single points of dependence.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10225,7 +10881,11 @@
       }
     ],
     "explanation": "A data exposure requires the PM to immediately follow the organization's incident-response process and to formally manage the added remediation through a change request, not to hide, delay, or fully offload it.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10291,7 +10951,11 @@
       }
     ],
     "explanation": "The sponsor's goal of user self-sufficiency is best met by consolidating scattered materials into an integrated, searchable support experience before launch, not by reactive staffing, one-time emails, or bolt-on automation.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10349,7 +11013,11 @@
       }
     ],
     "explanation": "A sudden supply disruption calls first for a collaborative assessment of sourcing alternatives, scope options, and their impacts, not immediate scope cuts, passive waiting, or unanalyzed spending.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10411,7 +11079,11 @@
       }
     ],
     "explanation": "A relocation triggered by a geopolitical crisis requires a structured, multi-factor impact assessment first; picking by cost, convenience, or speed, or pausing entirely, skips the analysis needed to protect strategic benefits.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10473,7 +11145,11 @@
       }
     ],
     "explanation": "Outsourcing to a certified third party does not transfer compliance accountability, so the project manager must validate obligations, define oversight, and monitor that the provider's controls satisfy requirements with evidence.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10535,7 +11211,11 @@
       }
     ],
     "explanation": "An imposed organizational requirement is handled by documenting it, assessing its impact, and running it through formal change control with stakeholder visibility rather than absorbing it informally, delegating it away, or delaying.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10597,7 +11277,11 @@
       }
     ],
     "explanation": "During an infrastructure disruption the project manager first activates the continuity response, secures workarounds for critical work, and communicates near-term impact, rather than stopping work, rebaselining, or leaving the response to individuals.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10664,7 +11348,11 @@
       }
     ],
     "explanation": "Agile backlog prioritization favors the highest-value work while confronting major uncertainty early, so the high-value, high-risk feature is sequenced first to enable learning and adaptation.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10727,7 +11415,11 @@
       }
     ],
     "explanation": "A shift in stakeholder priorities calls for updating the benefits approach with stakeholders and evaluating the controlled project changes needed to support the new value expectations.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10790,7 +11482,11 @@
       }
     ],
     "explanation": "A reputational crisis shifts stakeholder needs, so the project manager should adapt the stakeholder engagement and communications approach, align messaging with the organization, and communicate more frequently.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10852,7 +11548,11 @@
       }
     ],
     "explanation": "The best next step is collaborating with the compliance expert to translate the regulatory change into clear backlog items and acceptance criteria the team can assess and prioritize.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10914,7 +11614,11 @@
       }
     ],
     "explanation": "The project manager should first assess the regulatory impact with compliance stakeholders and raise a change request, rather than defer, ignore, or unilaterally alter scope.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -10976,7 +11680,11 @@
       }
     ],
     "explanation": "New insurance conditions that gate work must first be reviewed with experts and assessed for risk and schedule impact, with plans updated before the affected activities start.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11039,7 +11747,11 @@
       }
     ],
     "explanation": "When external assumptions shift, the project manager should first recalculate expected benefits and confirm the project still delivers the intended business value before adjusting execution.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11102,7 +11814,11 @@
       }
     ],
     "explanation": "The best response is a revised, blended delivery approach: reprioritize internal work, add qualified outsourced capacity, and update risk controls while retaining oversight.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11165,7 +11881,11 @@
       }
     ],
     "explanation": "Material clause changes require the project manager to work with procurement and legal to evaluate the impact on risk, cost, and obligations before finalizing the contract.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11227,7 +11947,11 @@
       }
     ],
     "explanation": "A newly enacted law affecting an ongoing project requires consulting legal experts, assessing the impact, and updating the affected plans so compliance measures are built into execution and communicated.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11289,7 +12013,11 @@
       }
     ],
     "explanation": "Resilience is demonstrated by documenting concrete adaptive capability, such as flexible plans, decision triggers, and alternative response paths, not by vague statements of intent.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11351,7 +12079,11 @@
       }
     ],
     "explanation": "Actionable lessons should be documented and shared promptly through organizational knowledge-sharing channels while still timely, strengthening enterprise learning and future resilience.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11414,7 +12146,11 @@
       }
     ],
     "explanation": "The core benefit of an MVP is early validated learning that reduces the risk of building unwanted features, not full-feature delivery, less engagement, or reduced prioritization.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11477,7 +12213,11 @@
       }
     ],
     "explanation": "The proportionate answer is a focused, facilitated scenario review of plausible disruptions across key dimensions; waiting, fragmenting, over-tooling, or offloading either miss the intent or add the overhead the sponsor wants to avoid.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11536,7 +12276,11 @@
       }
     ],
     "explanation": "A mandatory responsible-innovation control must be met before customer testing, so the first step is to pause and complete the assessment with governance, not continue, seek exemptions, or shift accountability.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11602,7 +12346,11 @@
       }
     ],
     "explanation": "Faced with an external market shift, the project manager should first validate it with the product owner against customer feedback and value priorities before reprioritizing, rather than jumping to implementation, imitation, funding, or freezes.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11664,7 +12412,11 @@
       }
     ],
     "explanation": "When environmental change weakens the benefits assumptions, the project manager should reforecast benefits with stakeholders and compare them to the business case, rather than reporting stale numbers, closing prematurely, or narrowing focus to delivery.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11726,7 +12478,11 @@
       }
     ],
     "explanation": "Under a new stage-gate governance model, the project manager should apply the agreed continue/pivot/stop criteria with stakeholders rather than ignoring the gates, escalating prematurely, blaming the team lead, or bending the process.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11785,7 +12541,11 @@
       }
     ],
     "explanation": "When a crisis compresses the timeline, the first step is to reconfirm the priority business outcomes with stakeholders so acceleration decisions protect value rather than merely compressing activity.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11844,7 +12604,11 @@
       }
     ],
     "explanation": "Responsive governance under uncertainty means faster, time-boxed reviews with explicit escalation thresholds and decision authority — not more approvals, frozen change, or abandoned oversight.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11903,7 +12667,11 @@
       }
     ],
     "explanation": "A policy requiring demonstrated ethical use must be met by documenting and reviewing bias, privacy, and stakeholder-impact considerations before release — not bypassed, deferred indefinitely, or replaced with self-certification.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -11961,7 +12729,11 @@
       }
     ],
     "explanation": "A cost benefit analysis compares expected costs against anticipated benefits to judge whether an initiative's value justifies its investment, informing the sponsor's funding decision.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12019,7 +12791,11 @@
       }
     ],
     "explanation": "Until the newly required IP ownership terms are clarified and approved, the project manager must prevent external disclosure of co-developed concepts, so the external sharing should be postponed.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12077,7 +12853,11 @@
       }
     ],
     "explanation": "A proportional, transparent societal impact assessment that presents assumptions, risks, and mitigations lets governance decide responsibly, satisfying the policy without demanding impossible certainty.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12139,7 +12919,11 @@
       }
     ],
     "explanation": "When a renewed contract violates a recently passed law, the root cause is that the legal department did not disseminate the new requirement across the organization so the renewal could be updated, not a project-team, quality, or stakeholder-plan failure.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12201,7 +12985,11 @@
       }
     ],
     "explanation": "Facing a failing initiative under evidence-based portfolio governance, the project manager should present the review data and support the decision the agreed termination criteria indicate, rather than lobbying to continue, changing metrics, delaying, or gaming the process.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12263,7 +13051,11 @@
       }
     ],
     "explanation": "Under pressure to skip approved responsible-innovation safeguards, the project manager should recommend a phased release or scope adjustment that protects the critical safeguards while improving time to market, rather than cutting the reviews, refusing absolutely, relying on customers, or concealing a slip.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12325,7 +13117,11 @@
       }
     ],
     "explanation": "The project manager must first assess the change's strategic alignment and analyze its impact on scope, schedule, cost, risk, and benefits before approving, rejecting, or routing it through governance.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12387,7 +13183,11 @@
       }
     ],
     "explanation": "With a governance mandate for learning in tension with schedule, the project manager should first align the sponsor with the requirement and assess options that preserve both delivery and learning outcomes.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12449,7 +13249,11 @@
       }
     ],
     "explanation": "When a high-performing model fails the enterprise explainability rules, the project manager should surface the compliance gap and drive evaluation of options that meet both performance and transparency requirements.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12507,7 +13311,11 @@
       }
     ],
     "explanation": "Controlled exploration with defined governance balances innovation opportunity against regulatory uncertainty better than rushing, halting, or offloading accountability.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12569,7 +13377,11 @@
       }
     ],
     "explanation": "A structured cross-functional review with defined criteria is the strongest way to govern ethically sensitive, dual-use technology before further investment or exposure.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12631,7 +13443,11 @@
       }
     ],
     "explanation": "Cross-domain projects need integrated governance so dependencies, cumulative risk, and decision ownership are managed consistently rather than in fragmented silos.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12693,7 +13509,11 @@
       }
     ],
     "explanation": "Compliance planning starts with obtaining authoritative guidance from legal or compliance on the specific requirements before any product or backlog changes are made.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12755,7 +13575,11 @@
       }
     ],
     "explanation": "Technical debt is best managed at the portfolio level by adding its visibility, thresholds, and remediation triggers to governance so leaders can make balanced decisions.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12817,7 +13641,11 @@
       }
     ],
     "explanation": "Strategic fit is best judged by comparing the initiative to strategic objectives, expected benefits, key assumptions, and the organization's capacity to realize the value.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12879,7 +13707,11 @@
       }
     ],
     "explanation": "Under high uncertainty about value, the project manager should facilitate a minimal, testable release that validates core user needs and delivers early value, rather than locking full scope, over-documenting, or escalating.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -12941,7 +13773,11 @@
       }
     ],
     "explanation": "Meeting an initiation-onward accessibility mandate means embedding inclusive criteria, diverse user input, and compliance checks into planning and continuous reviews, not deferring the work to a late audit, tool, or single owner.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13003,7 +13839,11 @@
       }
     ],
     "explanation": "A new sustainability expectation should be grounded in the business case and benefits approach with stakeholders to define measurable, governed outcomes before changing scope or producing figures.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13069,7 +13909,11 @@
       }
     ],
     "explanation": "A significant, late, regulated scope request must first be assessed through integrated change control for its impacts on scope, schedule, cost, risk, and compliance before any approve, reject, or escalate decision.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13131,7 +13975,11 @@
       }
     ],
     "explanation": "A multi-party collaboration with differing goals and IP concerns should first establish a shared governance framework defining decision rights, data sharing, IP handling, and escalation.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13193,7 +14041,11 @@
       }
     ],
     "explanation": "When a project challenges the organization's business model and leaders disagree, the project manager should escalate through governance so the right decision makers can evaluate the strategic tradeoffs.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13251,7 +14103,11 @@
       }
     ],
     "explanation": "Aligning to an outcome-based governance expectation starts with defining measurable outcome metrics, thresholds, and review evidence with stakeholders.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13309,7 +14165,11 @@
       }
     ],
     "explanation": "A new governance policy should be integrated into project controls and backlog priorities, pausing affected work, before development continues.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13367,7 +14227,11 @@
       }
     ],
     "explanation": "A new consultation requirement should be integrated into stakeholder engagement, planning, and risk responses rather than handled as a separate or delayed activity.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13429,7 +14293,11 @@
       }
     ],
     "explanation": "When new regulations emerge, the first step is an authoritative legal review to clarify the actual obligations and impact before redesigning, escalating, or committing schedule and budget changes.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13491,7 +14359,11 @@
       }
     ],
     "explanation": "Demonstrating social impact starts with engaging stakeholders to define meaningful, benefits-aligned outcome measures and reporting methods, not equating outputs with outcomes, collecting data prematurely, or deferring assessment.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13553,7 +14425,11 @@
       }
     ],
     "explanation": "Meaningful inclusive engagement means reassessing stakeholder identification and participation methods with community representatives, not relying on a single town-hall, proxies, delays, or wider publicity for one-way events.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13616,7 +14492,11 @@
       }
     ],
     "explanation": "Facing a cost overrun with a value tradeoff, the project manager should first lead a value engineering review of alternatives against function, life-cycle cost, and benefits, rather than approving, funding, renegotiating, cutting scope, or escalating reflexively.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13679,7 +14559,11 @@
       }
     ],
     "explanation": "Escalating community opposition should be handled through structured stakeholder, risk, and governance processes, not by accelerating work, going silent, unilaterally cutting scope, or managing only optics.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13742,7 +14626,11 @@
       }
     ],
     "explanation": "A supplier flagged for possible labor-rights violations must be escalated and reassessed through governance, procurement, and ethics controls before any contract award, not accepted, waived, deferred, or self-certified.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13808,7 +14696,11 @@
       }
     ],
     "explanation": "A confirmed external regulatory change must be assessed for scope impact and reflected in the affected documents and baselines through integrated change control.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13870,7 +14762,11 @@
       }
     ],
     "explanation": "The project manager should pause the release, assess the new local-content requirement, engage compliance and community stakeholders, and adapt the procurement approach before committing.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13932,7 +14828,11 @@
       }
     ],
     "explanation": "An emerging local-development expectation should be evaluated with the sponsor and stakeholders, with feasible commitments defined and formally incorporated into governing documents if approved.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -13994,7 +14894,11 @@
       }
     ],
     "explanation": "The best response is coordinated action with the sponsor, procurement, and stakeholders to review commitments and propose governed changes, rather than deflection or unilateral contract changes.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14056,7 +14960,11 @@
       }
     ],
     "explanation": "Reputational expectations should be handled proactively by adding reputational-risk indicators, strengthening communications, and reviewing response plans with leadership and partners before any incident occurs.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14118,7 +15026,11 @@
       }
     ],
     "explanation": "The most effective response recognizes the legacy grievances and adapts the engagement strategy with appropriate leaders to rebuild trust before advancing detailed planning.",
-    "subDomain": "Engage Stakeholders"
+    "subDomain": "Engage Stakeholders",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14180,7 +15092,11 @@
       }
     ],
     "explanation": "A value decision requires weighing the savings against the impact on required functionality and benefits; the project manager should assess whether the cheaper option still meets targets before recommending a decision.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14242,7 +15158,11 @@
       }
     ],
     "explanation": "When a project may affect culturally significant land, the project manager should engage the affected community and governance bodies to assess impacts and alternatives before finalizing the decision, rather than relying on permits alone.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14304,7 +15224,11 @@
       }
     ],
     "explanation": "Before detailed collaboration with an external partner, the project manager should first confirm IP ownership, access, confidentiality, and handling terms so sharing happens under agreed controls and disputes are avoided.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14370,7 +15294,11 @@
       }
     ],
     "explanation": "Facing a compliance gap in environmental documentation, the project manager should first obtain a qualified expert assessment of the missing impact before authorizing work, escalating, negotiating timing, or patching the paperwork.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14432,7 +15360,11 @@
       }
     ],
     "explanation": "Declining community sentiment despite permit compliance calls for active re-engagement, impact mitigation, and ongoing sentiment monitoring, not reliance on compliance, one-off fixes, or offloading the concern.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14494,7 +15426,11 @@
       }
     ],
     "explanation": "To protect continuity at handoff, the project manager should first run structured knowledge-transfer sessions capturing procedures, decisions, and risks before staff leave, rather than relying on documents, recordings, or after-the-fact support.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14556,7 +15492,11 @@
       }
     ],
     "explanation": "Emerging external regulatory changes should be systematically assessed for impact across the project's baselines and stakeholders, then integrated through normal governance and controls.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14618,7 +15558,11 @@
       }
     ],
     "explanation": "The governance rule mandates timely escalation through the defined reputational path, with documented response ownership, once exposure is plausible, rather than waiting for confirmed publicity.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14680,7 +15624,11 @@
       }
     ],
     "explanation": "The project manager should comply with the PMO policy by integrating curated knowledge-sharing into ongoing project work rather than deferring, declining, or narrowing it.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14742,7 +15690,11 @@
       }
     ],
     "explanation": "The first step is to build a consistent, governed reporting framework with defined measures, owners, and verification, not to publish inconsistent data, offload the duty, or delay.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14804,7 +15756,11 @@
       }
     ],
     "explanation": "The new requirement means due diligence must be completed and its findings weighed before award, rather than approving on cost, over-delaying, or fully offloading the responsibility.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14866,7 +15822,11 @@
       }
     ],
     "explanation": "Before releasing sensitive proprietary technology the project manager must first verify the contractual, legal, and governance restrictions that determine whether access is allowed.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14932,7 +15892,11 @@
       }
     ],
     "explanation": "After a sponsor transition and funding pause, the project manager should directly reengage the new executive, connecting the initiative's benefits and progress to organizational strategy.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -14994,7 +15958,11 @@
       }
     ],
     "explanation": "Employment restrictions and knowledge-protection obligations must be handled through HR and legal within authorized organizational policy, never through unilateral or self-authored project manager actions.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15056,7 +16024,11 @@
       }
     ],
     "explanation": "The most reliable response to imminent loss of critical expertise is a planned, structured knowledge transfer through sessions, documentation, and decision walkthroughs before the person departs.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15122,7 +16094,11 @@
       }
     ],
     "explanation": "A known compliance gap is an immediate issue, so the PM should first analyze the law, assess design gaps, and build a compliance plan before acting or escalating.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15184,7 +16160,11 @@
       }
     ],
     "explanation": "The policy requires treating the outputs as organizational assets, so the PM should formally transfer their documentation, ownership, and access controls into approved governance.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15246,7 +16226,11 @@
       }
     ],
     "explanation": "The right response is to integrate the new policy into project governance and workflows so license review, contribution approval, and compliance checks apply consistently before release.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15312,7 +16296,11 @@
       }
     ],
     "explanation": "The first step is to assess the external change's impact on scope, reporting, approvals, and risk, then update risk responses and route recommended plan changes through governance rather than waiting, offloading, or overreacting.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15374,7 +16362,11 @@
       }
     ],
     "explanation": "For reusable assets, the PM should establish governance over ownership, access, reuse, and maintenance with key stakeholders before delivery, rather than deferring, over-restricting, or acting unilaterally.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15436,7 +16428,11 @@
       }
     ],
     "explanation": "With conflicting cross-organization IP policies, the PM should first establish a shared governance agreement covering ownership, usage, disclosure, and dispute paths before significant work, rather than deferring, imposing one side's rules, or proceeding informally.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15498,7 +16494,11 @@
       }
     ],
     "explanation": "The expectation is met by embedding recurring lessons learned reviews throughout the life cycle and keeping the shared knowledge records current, not by deferring, narrowing, or informally storing them.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15560,7 +16560,11 @@
       }
     ],
     "explanation": "Capability growth is built in by adding knowledge transfer, coaching, and adoption measurement to delivery, not by outsourcing, deferring, credentialing, or merely documenting the expectation.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15622,7 +16626,11 @@
       }
     ],
     "explanation": "Decision traceability is satisfied by capturing rationale in a lightweight, consistent format embedded in existing governance routines, not by selective, delayed, ignored, or heavyweight approaches.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15688,7 +16696,11 @@
       }
     ],
     "explanation": "Initiating value delivery starts with analyzing each segment's distinct needs, success criteria, and constraints before scope and solution are defined.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15750,7 +16762,11 @@
       }
     ],
     "explanation": "Knowledge continuity at closure means adding a real transfer and repository step to the closure work and assigning a clear owner in operations.",
-    "subDomain": "Knowledge Transfer"
+    "subDomain": "Knowledge Transfer",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15812,7 +16828,11 @@
       }
     ],
     "explanation": "In a platform strategy, benefits tracking should tie the release's local metrics to platform-level leading indicators and handoff points that signal ecosystem value.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15875,7 +16895,11 @@
       }
     ],
     "explanation": "The correct action is to identify the applicable regulatory obligations, assess where the project could fail to meet them, and document the compliance risks and responses before execution.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -15938,7 +16962,11 @@
       }
     ],
     "explanation": "In an uncertain market, benefits should be reassessed at defined intervals and updated through governance as new evidence emerges, keeping the program aligned to validated value.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16001,7 +17029,11 @@
       }
     ],
     "explanation": "The project manager should first define leading indicators and review points that reveal whether adoption is trending toward the intended benefits before full value is observable.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16063,7 +17095,11 @@
       }
     ],
     "explanation": "An emerging external regulation should be assessed for impact, recorded in risk and issue artifacts, and taken to governance with response options for a timely decision.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16125,7 +17161,11 @@
       }
     ],
     "explanation": "When multiple initiatives drive one outcome, the project manager should establish shared metrics and agreed contribution rules with sponsors so attribution is consistent and defensible.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16187,7 +17227,11 @@
       }
     ],
     "explanation": "A benefit dependent on an external approval should still be governed: record it as an external risk and define ownership, review triggers, and response plans with the sponsor.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16249,7 +17293,11 @@
       }
     ],
     "explanation": "Before disclosing project-created IP, the project manager should first confirm the organization's IP handling requirements and obtain the required sharing approvals.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16311,7 +17359,11 @@
       }
     ],
     "explanation": "Negative side effects should be captured as dis-benefits, assessed with stakeholders, and reflected in the benefits plan so value decisions account for both gains and harms.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16373,7 +17425,11 @@
       }
     ],
     "explanation": "A material descope requires updating the benefits approach and business case to reflect realistic remaining value, informing whether continuing the project is still justified.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16435,7 +17491,11 @@
       }
     ],
     "explanation": "When delivered outputs are not translating into expected benefits, the project manager should first analyze value delivery trends to find root causes before selecting a corrective response, rather than acting on assumptions.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16497,7 +17557,11 @@
       }
     ],
     "explanation": "Conflicting benefit expectations are resolved by facilitating prioritization and tradeoffs through the sponsor and governance, not by deferring to funding authority, technical convenience, votes, or excluding stakeholders.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16555,7 +17619,11 @@
       }
     ],
     "explanation": "A material external change to the value case calls for updating the benefits forecast and escalating to governance for an adapt, pause, or stop decision, not for continuing blindly, accelerating, hiding benefits, or acting unilaterally.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16617,7 +17685,11 @@
       }
     ],
     "explanation": "The project manager should assess the compliance gap with experts, determine what is affected, and take corrective action before proceeding with the impacted deployment.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16679,7 +17751,11 @@
       }
     ],
     "explanation": "The project manager should first assess adoption barriers and define behavioral metrics to confirm whether the benefit is truly being realized before reporting it as achieved.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16741,7 +17817,11 @@
       }
     ],
     "explanation": "Intangible benefits should be tracked through agreed proxy indicators such as engagement trends, collaboration cycle times, and retention, rather than dropped or left to anecdote.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16799,7 +17879,11 @@
       }
     ],
     "explanation": "When a local goal conflicts with approved strategy, the PM should escalate and work with the sponsor to realign benefits and success criteria to the transformation objectives.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16857,7 +17941,11 @@
       }
     ],
     "explanation": "When value accrues outside the funder, benefits should be governed by assigning owners from the affected stakeholder groups and tracking outcomes for those external beneficiaries.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16915,7 +18003,11 @@
       }
     ],
     "explanation": "A benefit spanning multiple programs and an operational change needs an assigned benefit owner and cross-program governance, not local optimization, restructuring, or blame.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -16977,7 +18069,11 @@
       }
     ],
     "explanation": "Enabling projects create value through options and organizational agility; the best response is to define and measure that strategic value explicitly rather than dismiss, hide, or overstate it.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17039,7 +18135,11 @@
       }
     ],
     "explanation": "Outcome-based contracts are governed by realized value, not activity completion; the next step is to review the outcome measures, validate attribution, and collaboratively adjust delivery.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17101,7 +18201,11 @@
       }
     ],
     "explanation": "A benefit delayed by adoption timing is not a failure; the first step is to rebaseline the benefits realization plan with the owner, document the adoption dependency, and update governance reporting to the later date.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17164,7 +18268,11 @@
       }
     ],
     "explanation": "The PM should prepare a lifecycle-cost and benefits comparison so decision makers can weigh the added short-term cost and time against long-term value, rather than acting, rejecting, or changing baselines prematurely.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17223,7 +18331,11 @@
       }
     ],
     "explanation": "In volatile, complex environments the PM should recommend tailoring governance, keeping core accountability controls while adapting review cadence, escalation paths, and decision routes to fit the context rather than forcing one uniform model.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17282,7 +18394,11 @@
       }
     ],
     "explanation": "The changed governance cadence calls for forward-looking, decision-oriented uncertainty reporting that surfaces assumptions, emerging risks, and confidence levels, rather than backward-looking issue logs or cosmetic relabeling.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17340,7 +18456,11 @@
       }
     ],
     "explanation": "In compliance-driven work the project manager should reframe value around risk reduction and confirm which controls are mandatory before conceding any scope, since required conformance drives the decision.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17398,7 +18518,11 @@
       }
     ],
     "explanation": "A cross-border rollout needs governance that pairs global standards with defined local compliance controls, decision rights, and escalation paths so jurisdiction-specific legal obligations are met without losing enterprise consistency.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17456,7 +18580,11 @@
       }
     ],
     "explanation": "Facing political scrutiny, the project manager should tailor governance toward stronger decision documentation, transparent reporting, and timely sponsor engagement so it holds up to external review while delivery continues.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17518,7 +18646,11 @@
       }
     ],
     "explanation": "For high-uncertainty innovation, benefits are best expressed as validated learning and option value, with investment governed through evidence-based review gates rather than a premature revenue commitment.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17580,7 +18712,11 @@
       }
     ],
     "explanation": "The gap is that reporting shows control metrics but not strategic contribution, so the first step is to update governance reporting to connect deliverables to the retention objective and its expected benefits.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17642,7 +18778,11 @@
       }
     ],
     "explanation": "A new mandatory ESG requirement must be embedded into governance criteria, decision checkpoints, and reporting so sustainability impacts are weighed during delivery, not deferred or handled informally.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17704,7 +18844,11 @@
       }
     ],
     "explanation": "The project manager should connect project success measures to the organization's enterprise value framework and report benefits against it, so project decisions serve enterprise outcomes rather than only local efficiency.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17766,7 +18910,11 @@
       }
     ],
     "explanation": "Interdependent external dependencies require governance that integrates accountable ownership, shared decision checkpoints, and clear escalation across organizational boundaries, not merely more reporting or risk transfer.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17828,7 +18976,11 @@
       }
     ],
     "explanation": "Governance for a strategically critical project should be tailored so routine decisions are delegated to move quickly while high-impact risk responses escalate rapidly to the sponsor or governing body.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17890,7 +19042,11 @@
       }
     ],
     "explanation": "With limited capacity, the agile project manager prioritizes the backlog by validated customer value and expected benefit and delivers the highest-value features first, rather than committing to everything, chasing influence, or optimizing easy wins.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -17948,7 +19104,11 @@
       }
     ],
     "explanation": "A conflict of interest must be disclosed through the appropriate governance process and managed under the organization's conflict rules, not resolved by trusting self-assessment, hiding it, or acting unilaterally.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18006,7 +19166,11 @@
       }
     ],
     "explanation": "When a project materially affects communities, the best response is to strengthen governance with transparent engagement, impact review, and public-interest decision criteria, rather than leaving governance unchanged, deferring to legal, or minimizing communication.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18068,7 +19232,11 @@
       }
     ],
     "explanation": "High-uncertainty innovation work needs governance tailored to its learning cycles, using iterative reviews, decision gates, and tolerances, rather than an unchanged predictive model, no governance, or over-centralized approvals.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18130,7 +19298,11 @@
       }
     ],
     "explanation": "Across organizations of differing maturity and culture, the best approach is a shared framework of minimum controls with locally tailored implementation, not imposing one model, removing standards, or minimizing governance.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18192,7 +19364,11 @@
       }
     ],
     "explanation": "To evidence ethical consideration on key decisions, embed ethical criteria and a documented rationale into the governance process itself, rather than delegating, recording outcomes only, relying on compliance, or adding after-the-fact reviews.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18254,7 +19430,11 @@
       }
     ],
     "explanation": "Adaptive governance is best supported by embedding recurring reviews and retrospectives that evaluate lessons learned and authorize adjustments during delivery.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18316,7 +19496,11 @@
       }
     ],
     "explanation": "Value assurance means adding measures that link deliverables to expected benefits and reviewing them regularly with governance stakeholders throughout the project.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18378,7 +19562,11 @@
       }
     ],
     "explanation": "Hybrid initiatives need an integrated governance framework with shared decision authorities and controls tailored to each delivery approach, balancing alignment with fit-for-purpose control.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18440,7 +19628,11 @@
       }
     ],
     "explanation": "The PM should surface the policy conflict transparently and work through formal governance to obtain an approved exception or policy update before proceeding.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18502,7 +19694,11 @@
       }
     ],
     "explanation": "Risk-based governance means assessing external exposure by deliverable and concentrating stronger controls on the highest-risk areas while keeping lower-risk work efficient.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18564,7 +19760,11 @@
       }
     ],
     "explanation": "The PM should institute governance that explicitly defines knowledge capture, access, retention, and IP decision rights across all participating parties.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18631,7 +19831,11 @@
       }
     ],
     "explanation": "The PM recommends evaluating alternatives on total value and life cycle impacts across people, planet, and profit, aligned with the business case, rather than defaulting to lowest cost or treating sustainability as a side issue.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18697,7 +19901,11 @@
       }
     ],
     "explanation": "The business case records the approved rationale and target outcomes, so the incoming project manager should review it first to judge proposed directional changes against the project's intended value.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18759,7 +19967,11 @@
       }
     ],
     "explanation": "Agile governance uses value-based reviews at release boundaries with authority to continue, adjust, or stop, aligning oversight with delivered value rather than heavy gates or line-level approvals.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18817,7 +20029,11 @@
       }
     ],
     "explanation": "Volatile environments call for shorter governance cycles with trigger-based reassessment of assumptions, so leadership can act on external change in time rather than reacting late.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18879,7 +20095,11 @@
       }
     ],
     "explanation": "When a decision exceeds the PM's authority, the PM should escalate through the proper path with analysis, options, and a recommendation rather than acting alone or stalling.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -18941,7 +20161,11 @@
       }
     ],
     "explanation": "A deliverable that changes how many people work requires attention to the human side, readiness, communication, training, support, and feedback, alongside technical delivery.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19003,7 +20227,11 @@
       }
     ],
     "explanation": "Lessons learned drive organizational improvement only when captured in OPAs, surfaced when future projects need them, and used to update standards, not discarded, siloed, or merely discussed.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19069,7 +20297,11 @@
       }
     ],
     "explanation": "A triple-bottom-line recommendation weighs people, planet, and profit over the asset's life cycle and documents the rationale in benefits and decision records, rather than defaulting to lowest cost, a single dimension, escalation, or convenience.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19127,7 +20359,11 @@
       }
     ],
     "explanation": "On agile work the iteration goal is protected during the iteration and the product owner reprioritizes the backlog between iterations, rather than freezing all change or forcing every change through a change control board.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19194,7 +20430,11 @@
       }
     ],
     "explanation": "The best recommendation balances people, planet, and profit while meeting delivery constraints and benefit targets, treating sustainability as part of value realization.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19257,7 +20497,11 @@
       }
     ],
     "explanation": "The right response is to evaluate the impediment's impact, prioritize it against other issues, and apply an intervention to remove the blocker.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19319,7 +20563,11 @@
       }
     ],
     "explanation": "Servant leadership in impediment removal means the leader clears obstacles and protects the team's focus so it can do its best work — not abdicating leadership, doing the work, controlling decisions, or merely tracking blockers.",
-    "subDomain": "Manage Impediments"
+    "subDomain": "Manage Impediments",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19382,7 +20630,11 @@
       }
     ],
     "explanation": "Integrating sustainability means considering environmental, social, and economic impacts across the project's decisions, design, processes, and outcomes, not a single dimension or a token gesture.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19440,7 +20692,11 @@
       }
     ],
     "explanation": "Once a change request is approved, the project manager must implement it and update all affected artifacts, plan, baselines, risk register, and communications, so the project stays aligned with the authorized change.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19502,7 +20758,11 @@
       }
     ],
     "explanation": "The best response combines communicating change status with accelerating legitimate decisions and fixing the governance bottleneck, not batch-approving, batch-rejecting, or ignoring the requests.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19565,7 +20825,11 @@
       }
     ],
     "explanation": "A competitor's faster launch is an external business-environment change; the PM should first assess its impact on the project's value with stakeholders and consider strategy adjustments before acting.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19627,7 +20891,11 @@
       }
     ],
     "explanation": "For positive risks, the response strategies are exploit, share, enhance, and accept, with escalate available for opportunities beyond the project's authority.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19689,7 +20957,11 @@
       }
     ],
     "explanation": "A risk is an uncertain future event that may or may not occur, whereas an issue is a condition that has already happened and requires action now.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19751,7 +21023,11 @@
       }
     ],
     "explanation": "Communicating the status of proposed changes sets realistic expectations, prevents surprises, and lets affected stakeholders plan ahead; it is about proactive transparency, not delaying the change, box-checking, or shifting approval or accountability.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19813,7 +21089,11 @@
       }
     ],
     "explanation": "When the same actions recur without resolution, the team should find and fix why follow-through fails and commit to a smaller, achievable set, rather than abandoning retrospectives, swapping the team, or piling on more actions.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19875,7 +21155,11 @@
       }
     ],
     "explanation": "The most useful action is to assess how the organizational culture supports or hinders the required ways of working and tailor the approach accordingly.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19937,7 +21221,11 @@
       }
     ],
     "explanation": "A threat that is both high-probability and high-impact requires an active response — avoid, mitigate, or transfer — followed by continued monitoring.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -19999,7 +21287,11 @@
       }
     ],
     "explanation": "Every change, no matter how small it seems, should go through change control: assess the impact, route it to the proper authority, and document the decision.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20061,7 +21353,11 @@
       }
     ],
     "explanation": "The team protects its iteration goal: the project manager or Scrum Master helps the stakeholder, PO, and team evaluate the request, deferring by default or swapping work out if urgent, never adding it for free.",
-    "subDomain": "Change Control"
+    "subDomain": "Change Control",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20124,7 +21420,11 @@
       }
     ],
     "explanation": "The project manager should monitor relevant technology changes and adapt scope, backlog, and approach only when a validated impact justifies it, rather than avoiding or chasing every development.",
-    "subDomain": "Monitor External Environment"
+    "subDomain": "Monitor External Environment",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20186,7 +21486,11 @@
       }
     ],
     "explanation": "When an identified risk materializes, the project manager moves it to the issue log, executes the planned response, and captures lessons, rather than deleting it, leaving it in the register, rescoring it, or blaming the team.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20248,7 +21552,11 @@
       }
     ],
     "explanation": "Regulatory compliance must be integrated throughout the project lifecycle, into requirements, design, quality criteria, and testing, rather than isolated to legal, deferred to the end, or merely documented without implementation.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20310,7 +21618,11 @@
       }
     ],
     "explanation": "The first response to a potential compliance gap is to analyze the consequences of noncompliance, determine the necessary action, and engage stakeholders, rather than ignore, conceal, defer, or overreact.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20372,7 +21684,11 @@
       }
     ],
     "explanation": "Organizational change succeeds by engaging resistance, understanding root causes, and tailoring support through training, coaching, pilots, and leadership, not by mandating, coercing, or abandoning the change.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20435,7 +21751,11 @@
       }
     ],
     "explanation": "On a predictive project, process improvement is continuous: opportunities are identified and applied throughout execution, at phase ends, and at closure rather than deferred to the end of the project.",
-    "subDomain": "Continuous Improvement"
+    "subDomain": "Continuous Improvement",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20494,7 +21814,11 @@
       }
     ],
     "explanation": "For negative risks (threats), the recognized response strategies are avoid, transfer, mitigate, and accept, with escalate used when the risk lies outside the project's authority; exploit, share, and enhance apply to opportunities instead.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20552,7 +21876,11 @@
       }
     ],
     "explanation": "A business case provides the business information needed to determine whether a proposed initiative is a worthwhile investment for the organization.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20610,7 +21938,11 @@
       }
     ],
     "explanation": "The PM must immediately stop the unethical billing, remove the involved staff, and refund the customer to correct the harm.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20673,7 +22005,11 @@
       }
     ],
     "explanation": "Project risk is an uncertain future event or condition that, if it occurs, has a positive or negative effect on objectives, distinguishing it from current issues, assumptions, or variance metrics.",
-    "subDomain": "Risk Management"
+    "subDomain": "Risk Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20735,7 +22071,11 @@
       }
     ],
     "explanation": "A PM should identify all applicable compliance categories, legal and regulatory, security, health and safety, sustainability, and contractual, rather than filtering by interest, cost, or a single category.",
-    "subDomain": "Compliance Management"
+    "subDomain": "Compliance Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20794,7 +22134,11 @@
       }
     ],
     "explanation": "The PMO's first move is to standardize, validate, and consolidate resource and performance data so leadership gains clear portfolio visibility and can make informed decisions about the shared-resource constraint.",
-    "subDomain": "Resource Management"
+    "subDomain": "Resource Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20856,7 +22200,11 @@
       }
     ],
     "explanation": "Moving people late tends to slow the project they leave and delays help to the receiving project because onboarding and coordination take time.",
-    "subDomain": "Resource Management"
+    "subDomain": "Resource Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20919,7 +22267,11 @@
       }
     ],
     "explanation": "When a fixed-price customer disputes whether requested work is in scope, the next step is to review the contract and scope agreements and, if collaboration fails, follow the contract's dispute-resolution procedures rather than performing, rejecting, or escalating unilaterally.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -20978,7 +22330,11 @@
       }
     ],
     "explanation": "A Net Promoter Score near zero signals a neutral overall response, where promoters and detractors roughly balance and neither advocacy nor dissatisfaction dominates.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21036,7 +22392,11 @@
       }
     ],
     "explanation": "The first step is to review the existing business case and benefits management plan so the project manager understands the objectives and expected value before developing the charter.",
-    "subDomain": "Support Org Change"
+    "subDomain": "Support Org Change",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21098,7 +22458,11 @@
       }
     ],
     "explanation": "A controlling PMO exerts moderate control by requiring conformance to mandated methodologies, templates, and governance gates while project managers retain ownership of delivery.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21160,7 +22524,11 @@
       }
     ],
     "explanation": "Contract enforceability across borders depends on local laws and culture, so those factors must be considered even with clear contract language.",
-    "subDomain": "Procurement Management"
+    "subDomain": "Procurement Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21223,7 +22591,11 @@
       }
     ],
     "explanation": "Because the statement of work is incorporated into the binding contract, the contractor should ensure the team treats it as a key input that guides planning and delivery alongside the full contract, rather than downplaying it, over-relying on it alone, or bypassing the contract documents.",
-    "subDomain": "Integrated Planning"
+    "subDomain": "Integrated Planning",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21285,7 +22657,11 @@
       }
     ],
     "explanation": "The benefit is the net measurable value the organization realizes, such as higher annual revenue; the deliverable is an output and the changed customer behavior is an outcome that only enables the benefit.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21343,7 +22719,11 @@
       }
     ],
     "explanation": "A benefit-cost ratio above 1.0 means the present value of benefits exceeds the present value of costs, so a BCR of 1.4 indicates a financially favorable project.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21405,7 +22785,11 @@
       }
     ],
     "explanation": "An EPMO aligns the portfolio with enterprise strategy and prioritizes investments, while business-unit PMOs own delivery methods, standards, and support; strategic selection should not be pushed down, rotated, or outsourced.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21467,7 +22851,11 @@
       }
     ],
     "explanation": "A portfolio is a collection of projects, programs, and operations managed together for strategic objectives; the components need not be related to one another.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21525,7 +22913,11 @@
       }
     ],
     "explanation": "Governance is the framework for directing and controlling the organization, setting direction and oversight, while management executes the work within that framework.",
-    "subDomain": "Establish Governance"
+    "subDomain": "Establish Governance",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21583,7 +22975,11 @@
       }
     ],
     "explanation": "The benefit-cost ratio is a relative measure of benefits to costs, while net present value is an absolute monetary figure obtained by discounting cash flows.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21641,7 +23037,11 @@
       }
     ],
     "explanation": "With a positive discount rate, discounting reduces a future amount to a smaller present value, so present value is always lower than future value.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21704,7 +23104,11 @@
       }
     ],
     "explanation": "A benefit is the measurable value realized from using an output; it is distinct from the output itself, the enabling outcome, and the business case that justified the work.",
-    "subDomain": "Value Delivery"
+    "subDomain": "Value Delivery",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   },
   {
     "schema": "question/v1",
@@ -21767,6 +23171,10 @@
       }
     ],
     "explanation": "A discount rate is used to present-value future cash flows in project evaluation, while an interest rate is the cost of borrowing or the return on lending; they are conceptually distinct and often numerically different.",
-    "subDomain": "Financial Management"
+    "subDomain": "Financial Management",
+    "tags": [
+      "scenario",
+      "dynamic"
+    ]
   }
 ]

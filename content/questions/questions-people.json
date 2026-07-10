@@ -55,6 +55,7 @@
       "PMP Examination Content Outline 2026"
     ],
     "tags": [
+      "scenario",
       "ai",
       "addressing-stakeholder-concern-about-ai-adoption"
     ]
@@ -114,6 +115,7 @@
       "Agile Practice Guide, Servant Leadership and Motivated Teams"
     ],
     "tags": [
+      "scenario",
       "depth",
       "restoring-intrinsic-motivation-after-disappointment"
     ]
@@ -174,6 +176,7 @@
       "PMBOK Guide Sixth Edition, Section 9.5 Manage Team"
     ],
     "tags": [
+      "scenario",
       "depth",
       "psychological-safety-in-stakeholder-collaboration"
     ]
@@ -229,6 +232,7 @@
       "Process Groups Practice Guide, Executing and Closing considerations"
     ],
     "tags": [
+      "scenario",
       "depth",
       "stakeholder-collaboration-for-continuity-and-distributed-understanding"
     ]
@@ -288,6 +292,7 @@
       "PMBOK Guide Seventh Edition, Stakeholder Performance Domain"
     ],
     "tags": [
+      "scenario",
       "depth",
       "unavailable-decision-maker"
     ]
@@ -347,6 +352,7 @@
       "PMBOK Guide Sixth Edition, Manage Team and interpersonal skills"
     ],
     "tags": [
+      "scenario",
       "depth",
       "cultural-and-communication-differences-as-conflict-sources"
     ]
@@ -402,6 +408,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
+      "scenario",
       "depth",
       "engagement-gap-analysis-and-buy-in"
     ]
@@ -457,6 +464,7 @@
       "Process Groups A Practice Guide, Executing Process Group, manage team and knowledge transfer considerations"
     ],
     "tags": [
+      "scenario",
       "depth",
       "cross-training-for-continuity"
     ]
@@ -516,6 +524,7 @@
       "Process Groups A Practice Guide, Monitor Team Performance and Develop Team related guidance"
     ],
     "tags": [
+      "scenario",
       "depth",
       "reinforcement-and-periodic-inspection-of-ground-rules"
     ]
@@ -575,6 +584,7 @@
       "Agile Practice Guide, Section 4, Shared understanding and decentralized decision making"
     ],
     "tags": [
+      "scenario",
       "depth",
       "empowerment-within-compliance-constraints"
     ]
@@ -635,6 +645,7 @@
       "Process Groups A Practice Guide, Manage Communications"
     ],
     "tags": [
+      "scenario",
       "depth",
       "information-radiators-and-source-of-truth"
     ]
@@ -690,6 +701,7 @@
       "PMBOK Guide Sixth Edition, Section 13 Project Stakeholder Management"
     ],
     "tags": [
+      "scenario",
       "depth",
       "systems-thinking-across-stakeholder-groups"
     ]
@@ -749,6 +761,7 @@
       "Process Groups A Practice Guide, Monitor and Control Project Work"
     ],
     "tags": [
+      "scenario",
       "depth",
       "external-dependency-management-and-escalation"
     ]
@@ -808,6 +821,7 @@
       "Agile Practice Guide Section 5.2 Agile Team"
     ],
     "tags": [
+      "scenario",
       "depth",
       "selecting-an-appropriate-conflict-mode-under-severe-time-pressure"
     ]
@@ -863,6 +877,7 @@
       "Process Groups A Practice Guide, Planning domain"
     ],
     "tags": [
+      "scenario",
       "depth",
       "common-language-and-assumption-alignment"
     ]
@@ -918,6 +933,7 @@
       "Process Groups A Practice Guide, Develop Team"
     ],
     "tags": [
+      "scenario",
       "depth",
       "behavioral-expectations-and-code-of-conduct-alignment"
     ]
@@ -973,6 +989,7 @@
       "Agile Practice Guide, section 5.3 Agile in Distributed Teams"
     ],
     "tags": [
+      "scenario",
       "depth",
       "distributed-authority-with-guardrails"
     ]
@@ -1028,6 +1045,7 @@
       "PMI Examination Content Outline for PMP, People domain task Build and Lead a Team"
     ],
     "tags": [
+      "scenario",
       "build-lead-team",
       "raci-and-accountability"
     ]
@@ -1079,6 +1097,7 @@
       "PMP Examination Content Outline, People domain, task Build and Lead a Team"
     ],
     "tags": [
+      "scenario",
       "build-lead-team",
       "tuckman-performing-stage"
     ]
@@ -1096,8 +1115,8 @@
     "select": 2,
     "present": 5,
     "prompts": [
-      "Following ABC Electric Company's service disruption loss, the project manager is asked to prevent a similar communication breakdown on future outages. Which actions should be taken?",
-      "After a failed outage notification at ABC Electric caused stakeholder losses, which two actions are most appropriate for the project manager to implement going forward?"
+      "Following Company A's service disruption loss, the project manager is asked to prevent a similar communication breakdown on future outages. Which actions should be taken?",
+      "After a failed outage notification at Company A caused stakeholder losses, which two actions are most appropriate for the project manager to implement going forward?"
     ],
     "correct": [
       {
@@ -1134,6 +1153,7 @@
       "PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders"
     ],
     "tags": [
+      "scenario",
       "communications-case",
       "communication-plan-gaps"
     ]
@@ -1194,6 +1214,7 @@
       "PMI PMP Examination Content Outline People domain task Promote Team Performance Through the Application of Emotional Intelligence"
     ],
     "tags": [
+      "scenario",
       "emotional-intelligence",
       "motivation-and-sensing-morale"
     ]
@@ -1253,6 +1274,7 @@
       "The Standard for Project Management, section on Stewardship and Team"
     ],
     "tags": [
+      "scenario",
       "emotional-intelligence",
       "leader-emotional-contagion"
     ]
@@ -1312,6 +1334,7 @@
       "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Team performance domain"
     ],
     "tags": [
+      "scenario",
       "empower-team",
       "self-organizing-teams"
     ]
@@ -1371,6 +1394,7 @@
       "PMI, Process Groups A Practice Guide, section on delegation, accountability, and stakeholder engagement"
     ],
     "tags": [
+      "scenario",
       "empower-team",
       "delegation-with-accountability"
     ]
@@ -1426,6 +1450,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 13.3 Manage Stakeholder Engagement"
     ],
     "tags": [
+      "scenario",
       "engage-stakeholders",
       "participative-stakeholder-ownership"
     ]
@@ -1481,6 +1506,7 @@
       "PMP Examination Content Outline, People, task Ensure Knowledge Transfer for Project Continuity"
     ],
     "tags": [
+      "scenario",
       "knowledge-transfer",
       "lessons-learned-register-and-organizational-learning"
     ]
@@ -1539,6 +1565,7 @@
       "PMI, Process Groups A Practice Guide, resource planning and project work performance support guidance"
     ],
     "tags": [
+      "scenario",
       "knowledge-transfer",
       "operational-readiness-and-backup-capability"
     ]
@@ -1589,6 +1616,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Systems Thinking and complexity related communication considerations"
     ],
     "tags": [
+      "calculation",
       "manage-communications",
       "channels-formula"
     ]
@@ -1647,6 +1675,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models Methods and Artifacts sections related to communication, tailoring, and stakeholder engagement"
     ],
     "tags": [
+      "scenario",
       "manage-communications",
       "communication-barriers-and-tailored-methods"
     ]
@@ -1697,6 +1726,7 @@
       "Process Groups A Practice Guide, planning and managing team roles and responsibilities"
     ],
     "tags": [
+      "scenario",
       "manage-conflict",
       "sources-of-conflict"
     ]
@@ -1755,6 +1785,7 @@
       "Process Groups A Practice Guide, Manage Team, interpersonal and team skills"
     ],
     "tags": [
+      "scenario",
       "manage-conflict",
       "smoothing-accommodating-and-selective-withdrawal"
     ]
@@ -1809,6 +1840,7 @@
       "PMI, Project Management Professional PMP Examination Content Outline, People domain, task Manage Conflict"
     ],
     "tags": [
+      "scenario",
       "manage-conflict",
       "sources-of-conflict"
     ]
@@ -1864,6 +1896,7 @@
       "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
     ],
     "tags": [
+      "scenario",
       "mentor-stakeholders",
       "knowledge-sharing-and-collaboration"
     ]
@@ -1919,6 +1952,7 @@
       "PMI, Exam Content Outline for PMP, People Domain, Task Mentor and Collaborate With Stakeholders"
     ],
     "tags": [
+      "scenario",
       "mentor-stakeholders",
       "mentoring-and-coaching-distinction"
     ]
@@ -1974,6 +2008,7 @@
       "PMI, PMP Examination Content Outline, People domain, task Mentor and Collaborate With Stakeholders"
     ],
     "tags": [
+      "scenario",
       "mentor-stakeholders",
       "developing-stakeholder-communication-effectiveness"
     ]
@@ -2033,6 +2068,7 @@
       "PMP Examination Content Outline, People domain, task Address and Remove Impediments, Obstacles, and Blockers for the Team"
     ],
     "tags": [
+      "scenario",
       "remove-impediments",
       "dependency-and-resource-unblocking"
     ]
@@ -2092,6 +2128,7 @@
       "PMI, Process Groups A Practice Guide, section on monitor and control project work and manage team"
     ],
     "tags": [
+      "scenario",
       "remove-impediments",
       "definition-of-ready-and-backlog-quality-as-blocker-prevention"
     ]
@@ -2147,6 +2184,7 @@
       "PMI Knowledgebase, measure training outcomes and continuously assess and refresh team skills"
     ],
     "tags": [
+      "scenario",
       "support-training",
       "measuring-training-outcomes"
     ]
@@ -2206,6 +2244,7 @@
       "PMBOK Guide Sixth Edition, Section 9.5 Manage Team"
     ],
     "tags": [
+      "scenario",
       "support-training",
       "process-alignment-through-role-based-training"
     ]
@@ -2261,6 +2300,7 @@
       "PMI, Exam Content Outline for PMP Certification, People domain, task Define Team Ground Rules"
     ],
     "tags": [
+      "scenario",
       "team-ground-rules",
       "code-of-conduct-integration"
     ]
@@ -2316,6 +2356,7 @@
       "PMP Examination Content Outline, People domain, Define Team Ground Rules"
     ],
     "tags": [
+      "scenario",
       "team-ground-rules",
       "information-flow-and-transparency-norms"
     ]
@@ -2370,6 +2411,7 @@
       "PMBOK Guide Seventh Edition, Communication and Team guidance related to virtual collaboration technology and tailoring"
     ],
     "tags": [
+      "scenario",
       "virtual-teams",
       "selecting-communication-technology"
     ]
@@ -2425,6 +2467,7 @@
       "PMBOK Guide Seventh Edition, knowledge sharing and team collaboration concepts"
     ],
     "tags": [
+      "scenario",
       "virtual-teams",
       "decision-traceability-and-shared-knowledge-management"
     ]
@@ -2475,7 +2518,7 @@
       "PMI Talent Triangle and PMI Exam Content Outline, People domain, team leadership and motivation concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "motivation-theory"
     ]
   },
@@ -2521,7 +2564,7 @@
       "PMI Exam Content Outline, People domain, team interactions and stakeholder engagement concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preference"
     ]
   },
@@ -2580,7 +2623,7 @@
       "PMBOK Guide Seventh Edition, Leadership"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "active-listening"
     ]
   },
@@ -2631,7 +2674,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "salience-model"
     ]
   },
@@ -2682,7 +2725,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "informal-verbal-communication"
     ]
   },
@@ -2733,7 +2776,7 @@
       "Agile Practice Guide, section on conflict resolution and communication"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "collaborative-conflict-resolution"
     ]
   },
@@ -2784,7 +2827,7 @@
       "Agile Practice Guide, section on servant leadership, coaching, and team development"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "coaching-aligned-to-team-objectives"
     ]
   },
@@ -2835,7 +2878,7 @@
       "PMBOK Guide Sixth Edition, section 9.4 Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "team-charter"
     ]
   },
@@ -2890,7 +2933,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "virtual-agile-team-coordination"
     ]
   },
@@ -2940,7 +2983,7 @@
       "PMI Talent Triangle and interpersonal skills guidance referenced in People domain preparation materials"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preferences-and-introversion"
     ]
   },
@@ -2990,7 +3033,7 @@
       "Agile Practice Guide, Create a Collaborative Team Environment"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-team-development-stages"
     ]
   },
@@ -3040,7 +3083,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-adjourning-stage"
     ]
   },
@@ -3090,7 +3133,7 @@
       "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 2.4.3.2 Functional Manager"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "functional-manager-role"
     ]
   },
@@ -3140,7 +3183,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "raci-responsibility-assignment"
     ]
   },
@@ -3191,7 +3234,7 @@
       "Agile Practice Guide, Business satisfaction, p. 60"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-communication"
     ]
   },
@@ -3242,7 +3285,7 @@
       "Process Groups A Practice Guide, Interpersonal and Team Skills, Decision Making"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "project-decision-making"
     ]
   },
@@ -3292,7 +3335,7 @@
       "PMBOK Guide Seventh Edition, section on Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "motivation-theory"
     ]
   },
@@ -3342,7 +3385,7 @@
       "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, interpersonal skills"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "myers-briggs-decision-making-preferences"
     ]
   },
@@ -3392,7 +3435,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "scrum-master-role"
     ]
   },
@@ -3442,7 +3485,7 @@
       "Agile Practice Guide, section 5.2 Agile Team Composition"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "scrum-master-servant-leadership"
     ]
   },
@@ -3492,7 +3535,7 @@
       "PMBOK Guide Sixth Edition, section 9.5 Manage Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "transactional-leadership"
     ]
   },
@@ -3542,7 +3585,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide, Seventh Edition, Team domain and tailoring considerations"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preference-perceiver"
     ]
   },
@@ -3592,7 +3635,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide, Seventh Edition, Team development concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-performing-stage"
     ]
   },
@@ -3642,7 +3685,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide, Seventh Edition, Team development concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-storming-stage"
     ]
   },
@@ -3693,7 +3736,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "cross-functional-quality-collaboration"
     ]
   },
@@ -3743,7 +3786,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "daily-stand-up-purpose"
     ]
   },
@@ -3794,7 +3837,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "product-owner-change-prioritization"
     ]
   },
@@ -3845,7 +3888,7 @@
       "PMBOK Guide Seventh Edition, Delivery Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "product-owner-work-prioritization"
     ]
   },
@@ -3895,7 +3938,7 @@
       "PMBOK Guide Seventh Edition, Performance Domain, Team"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "project-team-member-responsibilities"
     ]
   },
@@ -3945,7 +3988,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "functional-manager-role"
     ]
   },
@@ -3995,7 +4038,7 @@
       "PMBOK Guide Sixth Edition, Section 9.4 Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "daily-standups"
     ]
   },
@@ -4046,7 +4089,7 @@
       "PMBOK Guide, Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "performing-stage-of-team-development"
     ]
   },
@@ -4096,7 +4139,7 @@
       "PMI Exam Content Outline, People domain, Build and Lead a Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "theory-x-and-theory-y"
     ]
   },
@@ -4146,7 +4189,7 @@
       "PMI Exam Content Outline, People domain, Build and Lead a Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "theory-x-management-style"
     ]
   },
@@ -4196,7 +4239,7 @@
       "PMBOK Guide Sixth Edition, Section 9 Project Resource Management"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "project-team-composition"
     ]
   },
@@ -4247,7 +4290,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "disengaged-stakeholder-risk"
     ]
   },
@@ -4298,7 +4341,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-expectations-and-project-success"
     ]
   },
@@ -4349,7 +4392,7 @@
       "Agile Practice Guide, section on collaborative team environments"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "virtual-team-communication"
     ]
   },
@@ -4400,7 +4443,7 @@
       "PMBOK Guide Sixth Edition, Manage Stakeholder Engagement"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-communication-during-project-delays"
     ]
   },
@@ -4450,7 +4493,7 @@
       "PMI, PMBOK Guide Seventh Edition, Leadership"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "development-focused-conflict-resolution"
     ]
   },
@@ -4500,7 +4543,7 @@
       "PMI, PMBOK Guide Sixth Edition, Section 9.4 Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "theory-y-motivation"
     ]
   },
@@ -4550,7 +4593,7 @@
       "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Sixth Edition, Section 9.5 Manage Team, Interpersonal and Team Skills"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "influencing-stakeholders"
     ]
   },
@@ -4600,7 +4643,7 @@
       "PMBOK Guide Seventh Edition, section on stakeholder engagement and value delivery"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "product-owner-responsibilities"
     ]
   },
@@ -4650,7 +4693,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "perceiving-preference"
     ]
   },
@@ -4700,7 +4743,7 @@
       "PMBOK Guide Seventh Edition, section on servant leadership and enabling team effectiveness"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "scrum-master-impediment-removal"
     ]
   },
@@ -4751,7 +4794,7 @@
       "Agile Practice Guide, Section on Communication and Colocation Alternatives"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "virtual-communication-method-selection"
     ]
   },
@@ -4802,7 +4845,7 @@
       "Agile Practice Guide, Section on Servant Leadership and Team Empowerment"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "leadership-styles"
     ]
   },
@@ -4853,7 +4896,7 @@
       "Process Groups Practice Guide, section on Leadership"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "situational-leadership"
     ]
   },
@@ -4904,7 +4947,7 @@
       "Process Groups Practice Guide, section on Team Development and Motivation"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "maslow-motivation-theory"
     ]
   },
@@ -4954,7 +4997,7 @@
       "PMI Process Groups Practice Guide, Team and Leadership Concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "motivation-theory-theory-y"
     ]
   },
@@ -5004,7 +5047,7 @@
       "Agile Practice Guide, Communication and Collaboration for Distributed Teams"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "virtual-team-communication-tool-selection"
     ]
   },
@@ -5054,7 +5097,7 @@
       "Agile Practice Guide, Servant Leadership"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "servant-leadership"
     ]
   },
@@ -5105,7 +5148,7 @@
       "Process Groups A Practice Guide, Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-team-development-stages"
     ]
   },
@@ -5155,7 +5198,7 @@
       "PMI Process Groups Practice Guide, Team Performance and Motivation discussions"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "extrinsic-motivation"
     ]
   },
@@ -5205,7 +5248,7 @@
       "Agile Practice Guide, Team Development and Team Dynamics"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "team-development-stages"
     ]
   },
@@ -5255,7 +5298,7 @@
       "PMBOK Guide Sixth Edition, Section 9.4 Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "herzberg-motivation-hygiene-theory"
     ]
   },
@@ -5306,7 +5349,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "project-manager-versus-functional-manager"
     ]
   },
@@ -5356,7 +5399,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "theory-y-motivation"
     ]
   },
@@ -5406,7 +5449,7 @@
       "PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, responsibility assignment matrix"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "raci-matrix"
     ]
   },
@@ -5456,7 +5499,7 @@
       "Process Groups A Practice Guide, Team Development Concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-performing-stage"
     ]
   },
@@ -5506,7 +5549,7 @@
       "PMBOK Guide Sixth Edition, section 10, Project Communications Management"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "virtual-meeting-tools"
     ]
   },
@@ -5557,7 +5600,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders section"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "agile-stakeholder-transparency"
     ]
   },
@@ -5607,7 +5650,7 @@
       "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Performance Domain Team"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "onboarding-and-role-clarification"
     ]
   },
@@ -5657,7 +5700,7 @@
       "The Scrum Guide, Scrum Master accountabilities"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "scrum-master-impediment-removal"
     ]
   },
@@ -5707,7 +5750,7 @@
       "Process Groups: A Practice Guide, project roles and organizational context"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "functional-manager-role"
     ]
   },
@@ -5757,7 +5800,7 @@
       "Process Groups: A Practice Guide, communications planning and communication methods"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "communication-tools"
     ]
   },
@@ -5807,7 +5850,7 @@
       "Process Groups A Practice Guide, Develop Team and Manage Team concepts"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-team-development-stages"
     ]
   },
@@ -5858,7 +5901,7 @@
       "PMBOK Guide Seventh Edition, Stakeholder Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "communication-benefits"
     ]
   },
@@ -5909,7 +5952,7 @@
       "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "servant-leadership"
     ]
   },
@@ -5959,7 +6002,7 @@
       "Process Groups A Practice Guide, Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "performing-stage-of-team-development"
     ]
   },
@@ -6009,7 +6052,7 @@
       "Agile Practice Guide, section 3 Life Cycle Selection and sustainable pace concepts"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "agile-sustainable-pace"
     ]
   },
@@ -6059,7 +6102,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "stakeholder-engagement"
     ]
   },
@@ -6110,7 +6153,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "project-communications-purpose"
     ]
   },
@@ -6161,7 +6204,7 @@
       "PMBOK Guide Seventh Edition, Project Performance Domains overview"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "stakeholder-satisfaction"
     ]
   },
@@ -6211,7 +6254,7 @@
       "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Sixth Edition, Section 13 Project Stakeholder Management"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "project-sponsor-role"
     ]
   },
@@ -6261,7 +6304,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "daily-stand-up"
     ]
   },
@@ -6311,7 +6354,7 @@
       "Agile Practice Guide, section 5.2 Agile Delivery Rhythm"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "sprint-retrospective"
     ]
   },
@@ -6361,7 +6404,7 @@
       "PMI Talent Triangle and leadership concepts referenced in PMP Exam Content Outline People domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "leadership-styles"
     ]
   },
@@ -6411,7 +6454,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "definition",
       "extrinsic-motivation"
     ]
   },
@@ -6460,7 +6503,7 @@
       "PMI Knowledgebase, emotional intelligence and personality type terms"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preference-for-adaptability"
     ]
   },
@@ -6510,7 +6553,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "data-gathering-for-remote-hiring"
     ]
   },
@@ -6560,7 +6603,7 @@
       "PMBOK Guide Seventh Edition, Team and Stakeholder performance domains"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "communication-styles-and-personality-preferences"
     ]
   },
@@ -6610,7 +6653,7 @@
       "PMBOK Guide Seventh Edition, Team performance domain and leadership"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "servant-leadership"
     ]
   },
@@ -6660,7 +6703,7 @@
       "PMBOK Guide Seventh Edition, Team and Communication performance domains"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "hybrid-team-meeting-tools"
     ]
   },
@@ -6710,7 +6753,7 @@
       "PMBOK Guide Seventh Edition, Team performance domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "team-development-stages"
     ]
   },
@@ -6760,7 +6803,7 @@
       "PMI Talent Triangle and leadership concepts as reflected in PMI project leadership guidance"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "transactional-leadership"
     ]
   },
@@ -6811,7 +6854,7 @@
       "PMI project leadership guidance on personality and interpersonal awareness"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preferences"
     ]
   },
@@ -6861,7 +6904,7 @@
       "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preference-extraversion"
     ]
   },
@@ -6911,7 +6954,7 @@
       "A Guide to the Project Management Body of Knowledge, PMBOK Guide, Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "personality-preference-feeling"
     ]
   },
@@ -6962,7 +7005,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Sections 6 Project Schedule Management and 7 Project Cost Management"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "project-manager-responsibilities"
     ]
   },
@@ -7013,7 +7056,7 @@
       "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "product-backlog-ownership"
     ]
   },
@@ -7063,7 +7106,7 @@
       "PMBOK Guide Seventh Edition, section on team development and team performance"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "tuckman-team-development-stages"
     ]
   },
@@ -7113,7 +7156,7 @@
       "Agile Practice Guide, section on collaborative team environments"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "co-location"
     ]
   },
@@ -7164,7 +7207,7 @@
       "Process Groups A Practice Guide, section on team and stakeholder roles"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "project-team-composition"
     ]
   },
@@ -7215,7 +7258,7 @@
       "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Performance Domain: Project Work"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "communication-effectiveness"
     ]
   },
@@ -7266,7 +7309,7 @@
       "Process Groups: A Practice Guide, Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "role-clarity"
     ]
   },
@@ -7317,7 +7360,7 @@
       "Process Groups: A Practice Guide, Manage Stakeholder Engagement"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-engagement"
     ]
   },
@@ -7368,7 +7411,7 @@
       "PMBOK Guide Seventh Edition, Development Approach and Life Cycle Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "agile-demonstrations-and-feedback"
     ]
   },
@@ -7419,7 +7462,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-buy-in-before-decisions"
     ]
   },
@@ -7481,7 +7524,7 @@
       "PMBOK Guide Sixth Edition, Section 13.2 Manage Stakeholder Engagement"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "stakeholder-engagement-benefits"
     ]
   },
@@ -7532,7 +7575,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "agile-transparency-with-stakeholders"
     ]
   },
@@ -7583,7 +7626,7 @@
       "PMBOK Guide Sixth Edition, Section 9.4 Develop Team"
     ],
     "tags": [
-      "quizlet",
+      "scenario",
       "team-charter"
     ]
   },
@@ -7638,7 +7681,7 @@
       "PMBOK Guide Seventh Edition, Team"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "active-listening"
     ]
   },
@@ -7688,7 +7731,7 @@
       "A Guide to the Project Management Body of Knowledge, Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "communication-as-core-pm-skill"
     ]
   },
@@ -7739,7 +7782,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "manage-team"
     ]
   },
@@ -7793,7 +7836,7 @@
       "Process Groups Practice Guide, resource acquisition and staffing sections"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "pre-assignment"
     ]
   },
@@ -7844,7 +7887,7 @@
       "Process Groups A Practice Guide, Initiating, Identify Stakeholders"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "direction-of-stakeholder-influence"
     ]
   },
@@ -7895,7 +7938,7 @@
       "Process Groups A Practice Guide, Develop Team"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "leadership"
     ]
   },
@@ -7946,7 +7989,7 @@
       "PMBOK Guide Seventh Edition, Team Performance Domain"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "conflict-management"
     ]
   },
@@ -7996,7 +8039,7 @@
       "Process Groups Practice Guide, Executing Process Group, Develop Team"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "develop-team-output"
     ]
   },
@@ -8047,7 +8090,7 @@
       "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "customer-feedback-in-scrum"
     ]
   },
@@ -8097,7 +8140,7 @@
       "PMBOK Guide Sixth Edition, Section 9.4 Develop Team"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "tuckman-team-development-sequence"
     ]
   },
@@ -8148,7 +8191,7 @@
       "Agile Practice Guide, section on servant leadership and conflict resolution"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "facilitative-conflict-resolution"
     ]
   },
@@ -8199,7 +8242,7 @@
       "Agile Practice Guide, section 4 Team Performance"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "tuckman-forming-stage"
     ]
   },
@@ -8250,7 +8293,7 @@
       "Agile Practice Guide, section 5 Agile Team Leadership"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "communication-in-conflict-resolution"
     ]
   },
@@ -8301,7 +8344,7 @@
       "Agile Practice Guide, section 4.1 Team Development"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "withdraw-or-avoid-conflict-technique"
     ]
   },
@@ -8352,7 +8395,7 @@
       "Agile Practice Guide, Section 5, Lead a Team"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "theory-x-management-style"
     ]
   },
@@ -8402,7 +8445,7 @@
       "The Scrum Guide, Scrum Events, Daily Scrum"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "daily-stand-up"
     ]
   },
@@ -8452,7 +8495,7 @@
       "PMBOK Guide Seventh Edition, Team Domain, Addressing Conflict"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "compromising-conflict-resolution"
     ]
   },
@@ -8503,7 +8546,7 @@
       "Process Groups A Practice Guide, Planning Process Group"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "planning-stakeholder-engagement-approach"
     ]
   },
@@ -8554,7 +8597,7 @@
       "Business Analysis for Practitioners, Elicitation and Analysis Techniques"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "prototype-for-stakeholder-feedback"
     ]
   },
@@ -8604,7 +8647,7 @@
       "Process Groups Practice Guide, section on interpersonal and team skills for conflict management"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "conflict-resolution-by-directing"
     ]
   },
@@ -8654,7 +8697,7 @@
       "PMBOK Guide Seventh Edition, Models Methods and Artifacts, Focus Groups"
     ],
     "tags": [
-      "restructure",
+      "scenario",
       "focus-groups"
     ]
   },
@@ -8700,6 +8743,7 @@
       "PMP Examination Content Outline 2026 - People Task 4"
     ],
     "tags": [
+      "definition",
       "people",
       "predictive",
       "stakeholders"
@@ -8748,6 +8792,7 @@
       "PMP Examination Content Outline 2026 - People Task 3"
     ],
     "tags": [
+      "scenario",
       "people",
       "hybrid",
       "communications",
@@ -8796,6 +8841,7 @@
       "PMP Examination Content Outline 2026 - People Task 1"
     ],
     "tags": [
+      "scenario",
       "people",
       "agile",
       "team"
@@ -8840,6 +8886,7 @@
       "PMP Examination Content Outline 2026 - People Task 8"
     ],
     "tags": [
+      "scenario",
       "people",
       "agile",
       "team"
@@ -8883,6 +8930,7 @@
       "PMP Examination Content Outline 2026 - People Task 8"
     ],
     "tags": [
+      "definition",
       "people",
       "predictive",
       "stakeholders",
@@ -8927,6 +8975,7 @@
       "PMP Examination Content Outline 2026 - People Task 8"
     ],
     "tags": [
+      "scenario",
       "people",
       "agile",
       "retrospective",
@@ -8972,6 +9021,7 @@
       "PMP Examination Content Outline 2026 - People Task 8"
     ],
     "tags": [
+      "scenario",
       "people",
       "hybrid"
     ]
@@ -9019,6 +9069,7 @@
       "PMP Examination Content Outline 2026 - People Task 7"
     ],
     "tags": [
+      "scenario",
       "people",
       "hybrid",
       "communications"
@@ -9066,6 +9117,7 @@
       "PMP Examination Content Outline 2026 - People Task 2"
     ],
     "tags": [
+      "scenario",
       "people",
       "agile",
       "conflict",
@@ -9110,6 +9162,7 @@
       "PMP Examination Content Outline 2026 - People Task 4"
     ],
     "tags": [
+      "scenario",
       "people",
       "hybrid",
       "stakeholders"
@@ -9153,6 +9206,7 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
+      "scenario",
       "people",
       "brainbok",
       "situational"
@@ -9195,9 +9249,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9237,9 +9290,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9279,9 +9331,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9321,9 +9372,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9363,9 +9413,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9405,9 +9454,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9447,9 +9495,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9489,9 +9536,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9531,9 +9577,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9573,9 +9618,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9615,9 +9659,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9657,9 +9700,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9699,9 +9741,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "oliver1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9741,9 +9782,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9783,9 +9823,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9825,9 +9864,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9867,9 +9905,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9909,9 +9946,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9951,9 +9987,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -9993,9 +10028,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "definition",
+      "people"
     ]
   },
   {
@@ -10035,9 +10069,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -10077,9 +10110,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   },
   {
@@ -10119,9 +10151,8 @@
       "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
-      "people",
-      "edwel1",
-      "modernized"
+      "scenario",
+      "people"
     ]
   }
 ]
