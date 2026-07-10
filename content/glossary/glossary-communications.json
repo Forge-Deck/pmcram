@@ -1,925 +1,985 @@
 [
-  {
-    "Term": "Communication",
-    "Core Meaning": "The exchange of information intended to create shared understanding among participants.",
-    "Depth": "Foundational",
-    "Expansion": "Communication in PMI usage is more than sending messages; it includes transmitting, receiving, and interpreting information so meaning is understood. It underpins stakeholder engagement, coordination, decision-making, and issue resolution across all delivery approaches. Weak communication degrades alignment even when plans and roles are otherwise clear.",
-    "Deep Dive": "What it is: Communication is the purposeful exchange of information between people or groups. In project work, it includes both the message itself and whether the receiver actually understands what was intended.\n\nIt can take several forms:\n\n- Verbal.\n- Nonverbal.\n- Written.\n- Visual.\n- Digital.\n\nWhy it matters and where it applies: every project depends on communication to align scope, schedule, risks, decisions, and stakeholder expectations. It shows up in governance reporting, team coordination, vendor interactions, change discussions, and day-to-day collaboration.\n\nThe most common misconception: that communication is complete once information is sent. In practice, project communication is only effective when the message is received, interpreted correctly, and useful for action.\n\nHow it shows up in real projects: status reports, daily coordination, issue escalation, workshops, demos, risk reviews, stakeholder briefings, and informal conversations that prevent misunderstanding before it becomes rework.",
-    "Contrast": "Communications Management Plan — Communication is the actual exchange of information; the Communications Management Plan defines how project communications will be structured and governed.",
-    "Example": "A project manager briefs sponsors on milestone risk, confirms the team understood the revised priorities, and follows up with written actions so everyone is aligned.",
-    "Related Terms": [
-      "Communications management plan",
-      "Stakeholder engagement",
-      "Information distribution",
-      "Feedback"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon — Communication; PMBOK Guide glossary page citation not confirmed in available search results"
-  },
-  {
-    "Term": "Communication methods",
-    "Core Meaning": "The approaches or channels used to share information among project participants and stakeholders.",
-    "Depth": "Standard",
-    "Expansion": "Communication methods include interactive, push, and pull approaches, each suited to different audiences and purposes. Choosing the right method affects speed, clarity, traceability, and engagement. PMI uses the term to guide deliberate matching of message, audience, urgency, and medium.",
-    "Deep Dive": null,
-    "Contrast": "Communication skills — Communication methods are the channels or approaches used to convey information; communication skills are the personal abilities used to communicate effectively through those methods.",
-    "Example": "A team uses workshops for issue resolution, email for formal approvals, and a dashboard portal for on-demand status access by executives.",
-    "Related Terms": [
-      "Communication",
-      "Communication skills",
-      "Interactive communication",
-      "Push communication",
-      "Pull communication"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide — communication methods; exact page citation not confirmed in available search results"
-  },
-  {
-    "Term": "Communication models",
-    "Core Meaning": "Representations of how the communication process works, used to plan effective project communication.",
-    "Depth": "Standard",
-    "Expansion": "Communication models describe the process by which information is encoded by a sender, transmitted through a medium, and decoded by a receiver, including the noise and feedback that affect understanding. They help project managers anticipate where messages can be distorted and design communications that account for the audience and barriers. The basic sender-receiver model can be extended to reflect cross-cultural and interactive nuances.",
-    "Deep Dive": null,
-    "Contrast": "Communication methods - communication methods are the channels used (push, pull, interactive), whereas communication models explain the underlying encode-transmit-decode process.",
-    "Example": "Recognizing from the sender-receiver model that 'noise' such as jargon may distort a status report, the project manager simplifies the language.",
-    "Related Terms": [
-      "Communication methods",
-      "Communication requirements analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - communication models"
-  },
-  {
-    "Term": "Communication skills",
-    "Core Meaning": "The interpersonal abilities used to exchange information clearly and build shared understanding among project participants.",
-    "Depth": "Standard",
-    "Expansion": "Communication skills enable project work by supporting clear sending, receiving, and interpretation of information. In PMI practice they include listening, speaking, writing, questioning, and tailoring messages to audience needs. They are central to leadership, stakeholder engagement, conflict management, and team coordination.",
-    "Deep Dive": null,
-    "Contrast": "Communication methods — communication skills are the human abilities used to communicate effectively; communication methods are the channels or approaches used to deliver information.",
-    "Example": "A project manager adjusts a risk update for executives, then uses active listening with the delivery team to confirm that actions and owners are understood.",
-    "Related Terms": [
-      "Communication",
-      "Stakeholder engagement",
-      "Interpersonal and team skills",
-      "Leadership"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon, Communication skills; page citation not confirmed in available sources"
-  },
-  {
-    "Term": "Communication styles assessment",
-    "Core Meaning": "A technique for identifying stakeholders' preferred communication methods and styles in order to tailor engagement.",
-    "Depth": "Standard",
-    "Expansion": "A communication styles assessment is a technique used to identify the preferred communication style, format, and content for planned communications, especially for stakeholders whose support is needed. It helps the project manager adapt messages to how different people best receive information. It is often used together with stakeholder engagement planning.",
-    "Deep Dive": null,
-    "Contrast": "Communication requirements analysis - requirements analysis determines what information stakeholders need, whereas a styles assessment determines how they prefer to receive it.",
-    "Example": "Assessing that a key sponsor prefers brief verbal briefings over lengthy written reports, and adjusting communications accordingly.",
-    "Related Terms": [
-      "Stakeholder engagement",
-      "Communication models",
-      "Cultural awareness"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - Plan Stakeholder Engagement (communication styles assessment)"
-  },
-  {
-    "Term": "Communications management",
-    "Core Meaning": "The project management function of planning, creating, distributing, storing, retrieving, monitoring, and disposing of project information so stakeholders get what they need when they need it.",
-    "Depth": "Foundational",
-    "Expansion": "Communications management is the disciplined handling of project information across its full lifecycle, from planning communications needs through monitoring whether communication is effective. PMI treats it as more than sending messages; it is about enabling understanding among stakeholders with different interests, authority, and information needs. It matters because weak communications distort decisions, hide risk, and slow delivery even when technical work is strong. It applies across all delivery approaches because every project depends on timely, usable, and appropriately targeted information exchange.",
-    "Deep Dive": "What it is: Communications management is the structured management of project information.\n\nIt defines:\n\n- Who needs information.\n- What information they need.\n- When they need it.\n- How it will be delivered.\n- How effectiveness will be assessed.\n\nIt includes formal and informal communication, documentation practices, channels, escalation paths, and feedback loops.\n\nWhy it matters and where it applies: most project failure points involve misunderstanding, delayed awareness, or missing alignment rather than pure technical inability. Communications management supports stakeholder engagement, governance reporting, team coordination, issue escalation, and decision quality in predictive, agile, and hybrid settings.\n\nThe most common misconception: that communications management means producing status reports or running meetings. In practice, it is broader and focuses on whether the right people actually receive, understand, and can act on the information.\n\nHow it shows up in real projects: communication plans, stakeholder-specific reporting cadences, dashboards, escalation rules, collaboration norms, meeting structures, feedback mechanisms, and periodic adjustment when stakeholder needs or project conditions change.",
-    "Contrast": "Stakeholder engagement — communications management focuses on information flow and understanding; stakeholder engagement focuses on building support, involvement, and relationships.",
-    "Example": "On a construction project, the team sets weekly site briefings for subcontractors, monthly steering updates for executives, immediate safety escalation rules, and a document repository with version controls.",
-    "Synonyms": [
-      "Communication management"
-    ],
-    "Related Terms": [
-      "Communication",
-      "Communications management plan",
-      "Stakeholder engagement",
-      "Information distribution",
-      "Stakeholder communication"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management chapter and glossary, page citation depends on format"
-  },
-  {
-    "Term": "Communications management plan",
-    "Core Meaning": "A component of the project management plan that describes how, when, and by whom information will be administered and disseminated.",
-    "Depth": "Standard",
-    "Expansion": "The Communications Management Plan defines the project's approach to creating, storing, distributing, and monitoring information. It helps align communication methods, timing, audiences, and responsibilities with stakeholder needs. It is used to make communication more deliberate and less dependent on ad hoc habits across the team.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder Engagement Plan — the Communications Management Plan defines how information is handled and shared; the Stakeholder Engagement Plan focuses more broadly on how stakeholders are engaged and supported.",
-    "Example": "A transformation project sets a plan that weekly progress dashboards go to sponsors, daily coordination updates go to the core team, and monthly steering summaries go to executives.",
-    "Related Terms": [
-      "Project management plan",
-      "Communication",
-      "Stakeholder engagement plan",
-      "Information distribution",
-      "Stakeholder"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 10.1.3.1, page 377"
-  },
-  {
-    "Term": "Communications model",
-    "Core Meaning": "A representation of how information is encoded, transmitted, received, and interpreted between participants.",
-    "Depth": "Standard",
-    "Expansion": "The communications model explains that effective communication depends on both sender and receiver, the medium used, and the possibility of noise or misunderstanding. It helps project professionals design messages that are more likely to be understood as intended. PMI uses it to emphasise that communication quality is shaped by the full exchange, not just message delivery.",
-    "Deep Dive": null,
-    "Contrast": "Communication — Communication is the actual exchange of information; a communications model is the conceptual framework used to understand how that exchange works.",
-    "Example": "Before announcing a process change, a project manager uses multiple channels and checks for understanding because the message could be interpreted differently by field teams and executives.",
-    "Related Terms": [
-      "Communication",
-      "Feedback",
-      "Sender-receiver model"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide — communications model; exact page citation not confirmed in available search results"
-  },
-  {
-    "Term": "Communications requirements analysis",
-    "Core Meaning": "Determining the information needs of project stakeholders in order to plan communications.",
-    "Depth": "Standard",
-    "Expansion": "Communication requirements analysis identifies what information each stakeholder needs, in what format, how often, and through which channel, so that communications are valuable and not wasteful. It considers the number of potential communication channels, which grows rapidly as stakeholders increase. Its results drive the communications management plan.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder analysis - stakeholder analysis identifies and assesses who the stakeholders are, whereas communication requirements analysis focuses on what information those stakeholders need.",
-    "Example": "Analyzing that executives need a monthly one-page summary while the team needs daily standup updates.",
-    "Synonyms": [
-      "Communication requirements analysis"
-    ],
-    "Related Terms": [
-      "Communications management plan",
-      "Stakeholder analysis",
-      "Information distribution",
-      "Stakeholder engagement",
-      "Number of communication channels"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - Plan Communications Management"
-  },
-  {
-    "Term": "Dashboard",
-    "Core Meaning": "A visual display that consolidates key project or product information so stakeholders can quickly understand current status and trends.",
-    "Depth": "Standard",
-    "Expansion": "A dashboard presents selected indicators such as schedule health, cost status, risks, quality measures, or delivery metrics in a concise format for decision making. In PMI practice it is a communication and monitoring aid rather than a control mechanism by itself. Its usefulness depends on choosing measures that reflect the project's objectives, performance domain needs, and stakeholder information requirements.",
-    "Deep Dive": null,
-    "Contrast": "Status report — a dashboard emphasises at-a-glance visual indicators, while a status report usually provides broader narrative explanation and context.",
-    "Example": "A programme dashboard shows milestone status, budget variance, top risks, and benefits progress for executives reviewing the portfolio each month.",
-    "Related Terms": [
-      "Performance measurement",
-      "Status report",
-      "Information radiator",
-      "Key performance indicator",
-      "Stakeholder communication"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon / A Guide to the Project Management Body of Knowledge, term Dashboard"
-  },
-  {
-    "Term": "Data representation",
-    "Core Meaning": "The way project data is structured, formatted, modelled, or visualised so it can be understood and used.",
-    "Depth": "Standard",
-    "Expansion": "Data representation refers to how information is expressed, such as in tables, charts, dashboards, models, or coded fields. In project management, the same underlying data can support better or worse decisions depending on how clearly and consistently it is represented. It matters in reporting, analytics, requirements traceability, risk visualisation, and communication with stakeholders.",
-    "Deep Dive": null,
-    "Contrast": "Data quality — data representation concerns the form and presentation of data; data quality concerns whether the data itself is trustworthy and suitable for use.",
-    "Example": "A PMO converts a raw issue log into a dashboard showing issue age, severity, and ownership so executives can quickly spot escalation patterns.",
-    "Related Terms": [
-      "Information radiator",
-      "Dashboard",
-      "Data quality"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Data visualization",
-    "Core Meaning": "A graphical representation of information and data used to communicate patterns, trends, and insights relevant to project work.",
-    "Depth": "Standard",
-    "Expansion": "In project management, data visualization turns project data into charts, graphs, dashboards, heat maps, or similar visual formats so stakeholders can interpret status, risk, performance, or trends quickly. It supports monitoring, reporting, and decision-making by making complex information easier to understand than raw tables alone. It is commonly used in status dashboards, earned value reporting, risk heat maps, burndown charts, and portfolio views.",
-    "Deep Dive": null,
-    "Contrast": "Report — data visualization is the visual representation of information; a report is the broader communication artifact that may include narrative, tables, and visuals.",
-    "Example": "A PMO uses a dashboard with schedule variance charts, budget trend lines, and a risk heat map so executives can see portfolio health at a glance.",
-    "Related Terms": [
-      "Dashboard",
-      "Performance reporting",
-      "Information radiator",
-      "Risk heat map",
-      "Burndown chart"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Feedback",
-    "Core Meaning": "Information about reactions, results, or performance that is used to confirm, adjust, or improve project work.",
-    "Depth": "Standard",
-    "Expansion": "Feedback helps project teams learn whether their actions are producing the intended results. It can come from stakeholders, customers, team members, or performance data, and it is used to refine decisions, communication, and deliverables. PMI links feedback to communication, governance, and checking outcomes, making it a key input for adaptation and control.",
-    "Deep Dive": null,
-    "Contrast": "Status report — feedback is used to improve or adjust work, while a status report primarily communicates progress and current condition.",
-    "Example": "After a sprint review, users say a screen is confusing, so the team revises the design before the next release.",
-    "Related Terms": [
-      "Communication",
-      "Stakeholder engagement",
-      "Governance",
-      "Review",
-      "Inspection"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase, Feedback, page 170"
-  },
-  {
-    "Term": "Final report",
-    "Core Meaning": "A report that summarises project performance, results, and lessons at the end of the project.",
-    "Depth": "Standard",
-    "Expansion": "The final report records what the project delivered, how it performed against objectives, and what was learned during execution. It supports formal closure by giving stakeholders a concise end-of-project record. In practice, it also helps organisational learning by preserving outcomes, variances, and recommendations for future work.",
-    "Deep Dive": null,
-    "Contrast": "Lessons learned register — a final report summarises overall project outcomes at closure, while a lessons learned register captures learning in more detailed form across the life of the project.",
-    "Example": "At the end of an office relocation project, the project manager issues a final report covering scope delivered, budget performance, schedule variance, stakeholder feedback, and key lessons.",
-    "Related Terms": [
-      "Close project or phase",
-      "Lessons learned register",
-      "Project documents",
-      "Project performance"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase, term Final report"
-  },
-  {
-    "Term": "Fishbowl window",
-    "Core Meaning": "A persistent video link kept open all day between dispersed team locations to enable spontaneous interaction.",
-    "Depth": "Atomic",
-    "Expansion": "A fishbowl window is a technique for distributed agile teams in which a continuous video-conferencing link stays open throughout the workday between locations. It lets remote team members see and casually talk to each other on demand, reducing the collaboration lag that comes from being physically apart.",
-    "Deep Dive": null,
-    "Contrast": "Remote pairing - remote pairing connects two people for focused joint work on a task, whereas a fishbowl window keeps a whole location's ambient link open for casual, spontaneous interaction.",
-    "Example": "A team split between two cities keeps a video link open all day so people can glance over and start a conversation as if they shared a room.",
-    "Related Terms": [
-      "Remote pairing",
-      "Distributed team",
-      "Osmotic communication",
-      "Colocation"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "Agile Practice Guide - communication on distributed teams"
-  },
-  {
-    "Term": "High context culture",
-    "Core Meaning": "A cultural environment in which meaning is conveyed heavily through shared context, relationships, and implicit communication rather than only through explicit statements.",
-    "Depth": "Standard",
-    "Expansion": "High context culture affects how stakeholders interpret messages, make decisions, and respond to conflict or escalation in projects. For project managers, it matters because communication plans, stakeholder engagement, and negotiation approaches may need to rely more on relationship building and indirect cues. PMI discusses culture and context as important influences on tailoring and stakeholder work, even when this exact phrase is not a core glossary entry.",
-    "Deep Dive": null,
-    "Contrast": "Low context culture — high context culture relies more on implicit meaning and shared understanding, while low context culture relies more on explicit and direct communication.",
-    "Example": "In a regional transformation project, the project manager secures alignment through informal relationship-building conversations because stakeholders are unlikely to challenge concerns openly in formal meetings.",
-    "Related Terms": [
-      "Culture",
-      "Stakeholder engagement",
-      "Communication",
-      "Tailoring",
-      "Interpersonal skills"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Information distribution",
-    "Core Meaning": "The act of making project information available to stakeholders in a timely and appropriate manner.",
-    "Depth": "Standard",
-    "Expansion": "Information distribution concerns sending or publishing project information so the right stakeholders can access it when needed. It supports coordination, transparency, and informed decision making across the project environment. The concept is closely tied to communications and stakeholder engagement practices.",
-    "Deep Dive": null,
-    "Contrast": "Communication — information distribution is the sharing of information outward, while communication also includes exchange, feedback, and shared understanding.",
-    "Example": "A project team posts weekly status reports and risk updates to the project portal for sponsors and team members.",
-    "Related Terms": [
-      "Communication",
-      "Stakeholder",
-      "Status report",
-      "Project information",
-      "Communications management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The PMI Guide to Business Analysis — glossary/index reference for Information distribution, page 395"
-  },
-  {
-    "Term": "Information management systems",
-    "Core Meaning": "The tools and processes used to capture, store, and distribute project information to stakeholders.",
-    "Depth": "Atomic",
-    "Expansion": "Information management systems are the manual and electronic tools, such as document repositories, shared drives, and collaboration platforms, used to collect, organize, and circulate project information. They support communications by getting the right information to the right stakeholders in a usable form.",
-    "Deep Dive": null,
-    "Contrast": "Project management information system (PMIS) - the PMIS is the broader integrated toolset for planning and controlling the whole project, whereas information management systems focus specifically on storing and distributing information.",
-    "Example": "A team uses a shared collaboration site as its information management system for distributing status reports and storing deliverables.",
-    "Related Terms": [
-      "Project management information system",
-      "Communication methods",
-      "Knowledge management"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "PMBOK Guide - information management systems (Manage Communications)"
-  },
-  {
-    "Term": "Interactive communication",
-    "Core Meaning": "Interactive communication is multidirectional communication between two or more parties that enables real-time exchange, clarification, and shared understanding.",
-    "Depth": "Standard",
-    "Expansion": "PMI describes interactive communication as a form of communication in which participants exchange information together rather than simply sending or pulling it. It is especially useful when the message is complex, sensitive, ambiguous, or important enough to require immediate feedback and confirmation of understanding. Common examples include meetings, phone calls, workshops, and video conferences.",
-    "Deep Dive": null,
-    "Contrast": "Push communication — interactive communication involves live exchange and feedback, while push communication sends information directly to recipients without requiring immediate interaction.",
-    "Example": "A project manager holds a risk workshop with engineering, operations, and the sponsor so assumptions can be challenged in real time and mitigation actions agreed on immediately.",
-    "Related Terms": [
-      "Communications management",
-      "Push communication",
-      "Pull communication",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management; exact page citation should be verified against the edition in use"
-  },
-  {
-    "Term": "Kickoff meeting",
-    "Core Meaning": "A meeting held at the start of a project or phase to align participants on objectives, roles, ways of working, and immediate next steps.",
-    "Depth": "Standard",
-    "Expansion": "A kickoff meeting establishes shared understanding at the outset of work and helps create early alignment among the team and stakeholders. It commonly covers purpose, scope, milestones, responsibilities, communication expectations, and decision paths. In practice, it reduces ambiguity and gives the project a coordinated start.",
-    "Deep Dive": null,
-    "Contrast": "Project charter — a kickoff meeting is an event used to align people; a project charter is the formal document that authorises the project and frames its intent.",
-    "Example": "At the start of an ERP implementation, the project manager brings business leads, vendors, and technical teams together to confirm scope boundaries, governance, milestones, and escalation routes.",
-    "Related Terms": [
-      "Project charter",
-      "Stakeholder engagement",
-      "Communications management plan",
-      "Team charter",
-      "Milestone"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Low context culture",
-    "Core Meaning": "A culture in which communication relies more on explicit words and less on shared background or implied meaning.",
-    "Depth": "Standard",
-    "Expansion": "In a low context culture, messages are expected to be direct, clear, and complete because listeners are not assumed to infer much from context. This affects how project information is written, spoken, and documented. PMI uses the concept to help project teams adapt communication style to cultural expectations and reduce misunderstanding.",
-    "Deep Dive": null,
-    "Contrast": "High context culture — low context culture depends on explicit verbal or written detail; high context culture depends more on shared understanding and implied meaning.",
-    "Example": "A project team working with a low context culture sends a detailed written change notice instead of assuming stakeholders will infer the impact from a brief verbal update.",
-    "Related Terms": [
-      "Communication",
-      "Culture",
-      "High context culture",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "PMI Knowledgebase — low context culture; based on Hofstede cultural dimensions excerpt in available search results"
-  },
-  {
-    "Term": "Manage communications",
-    "Core Meaning": "The process of ensuring timely and appropriate collection, creation, distribution, storage, retrieval, management, monitoring, and ultimate disposition of project information.",
-    "Depth": "Foundational",
-    "Expansion": "Manage Communications is the process that carries out the project's communication approach in day-to-day work. It ensures information reaches stakeholders in forms they can use and at times that support action and decision-making. PMI treats it as an execution process because communication requires active production, distribution, storage, and control throughout the project lifecycle.",
-    "Deep Dive": "Manage Communications is the process of creating and distributing project information according to stakeholder needs and the communications management approach. Its work spans:\n\n- Formal reports.\n- Informal exchanges.\n- Records handling.\n- Information storage and retrieval.\n\nWhy it matters and where it applies: it matters because projects depend on shared understanding, timely decisions, and coordinated action across people and groups. It applies in every project, and becomes especially important when stakeholders are numerous, geographically distributed, or dependent on fast issue escalation.\n\nThe most common misconception is that it is simply sending updates. In practice it also involves tailoring messages, selecting channels, maintaining records, controlling access, and confirming that information is useful to its audience.\n\nHow it shows up in real projects: the project manager circulates status reports, maintains decision logs, publishes dashboards, archives approved artifacts, and routes urgent issues through agreed escalation paths. Strong execution of this process reduces confusion and shortens response time.",
-    "Contrast": "Plan Communications Management — Manage Communications executes the communication approach; Plan Communications Management defines how communication will be structured.",
-    "Example": "A project manager issues weekly progress dashboards to sponsors, posts daily coordination notes for the team, and stores approved decisions in the project repository.",
-    "Related Terms": [
-      "Plan communications management",
-      "Communications management plan",
-      "Stakeholder",
-      "Project information",
-      "Performance reporting"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Manage Communications, page 377"
-  },
-  {
-    "Term": "Meeting minutes",
-    "Core Meaning": "A written record of what was discussed, decided, and assigned during a meeting.",
-    "Depth": "Atomic",
-    "Expansion": "Meeting minutes capture key points, decisions, and action items with owners and due dates, providing an authoritative record for participants and absentees. They support accountability and follow-up and become part of the project's documentation and audit trail.",
-    "Deep Dive": null,
-    "Contrast": "Decision log — meeting minutes record the full proceedings of a meeting, while a decision log is a focused running record of decisions made across the project.",
-    "Example": "After a steering committee meeting, the coordinator circulates minutes listing the approved budget change and three follow-up actions.",
-    "Related Terms": [
-      "Action item",
-      "Kickoff meeting",
-      "Status report",
-      "Project documents"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Monitor communications",
-    "Core Meaning": "The process of ensuring the information needs of the project and its stakeholders are met.",
-    "Depth": "Standard",
-    "Expansion": "Monitor Communications evaluates whether communication activities are actually producing understanding and meeting stakeholder information needs. It checks effectiveness, identifies gaps, and supports adjustments to format, timing, channel, or audience. The process matters because sending information does not guarantee that it is useful, received, or acted upon as intended.",
-    "Deep Dive": null,
-    "Contrast": "Manage Communications — Monitor Communications evaluates whether communication is effective; Manage Communications performs the actual creation, distribution, and retrieval of project information.",
-    "Example": "After executives stop using a weekly status deck, the project manager replaces it with a one-page dashboard and a short decision-focused briefing.",
-    "Related Terms": [
-      "Manage communications",
-      "Communications management plan",
-      "Stakeholder engagement",
-      "Performance reporting",
-      "Information distribution"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Monitor Communications, p. 390"
-  },
-  {
-    "Term": "Narrative",
-    "Core Meaning": "A story used to describe a situation, person, or context.",
-    "Depth": "Atomic",
-    "Expansion": "In business analysis, a narrative is written to describe context and behaviour in story form. It is often used to develop or enrich personas.",
-    "Deep Dive": null,
-    "Contrast": "Persona — a narrative is the descriptive story; a persona is the represented user or stakeholder profile.",
-    "Example": "A business analyst writes a short narrative about a first-time homeowner to illustrate how that customer researches mortgage options and where confusion occurs.",
-    "Related Terms": [
-      "Persona",
-      "Business analysis",
-      "Stakeholder",
-      "Scenario"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The PMI Guide to Business Analysis, Narrative"
-  },
-  {
-    "Term": "Number of communication channels",
-    "Core Meaning": "The count of potential communication paths in a team, calculated as n times n minus 1 divided by 2.",
-    "Depth": "Standard",
-    "Expansion": "The number of communication channels measures how many distinct two-way links exist among stakeholders, using the formula n(n-1)/2 where n is the number of people. It illustrates how communication complexity grows rapidly as a team enlarges, informing the need for structured communication planning. Adding people increases channels far faster than it increases headcount.",
-    "Deep Dive": null,
-    "Contrast": "Unlike headcount, which grows linearly, the number of communication channels grows roughly with the square of the team size.",
-    "Example": "A team of five has 10 channels, but adding one more member raises it to 15.",
-    "Related Terms": [
-      "Communications management plan",
-      "Stakeholder engagement",
-      "Communication requirements analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide"
-  },
-  {
-    "Term": "Osmotic communication",
-    "Core Meaning": "The informal absorption of useful information by team members simply from working near one another and overhearing relevant interactions.",
-    "Depth": "Standard",
-    "Expansion": "Osmotic communication is associated with highly collaborative, often agile team environments where shared space increases awareness and speeds problem solving. It matters because teams can pick up context, risks, and decisions without waiting for formal status exchanges. PMI discussions of agile ways of working treat it as a practical communication dynamic rather than a core formal glossary term.",
-    "Deep Dive": null,
-    "Contrast": "Formal communication — Osmotic communication is ambient and informal through proximity, while formal communication is intentionally structured through planned channels, meetings, or documented reporting.",
-    "Example": "A co-located product team overhears a tester describe a recurring defect pattern, prompting a developer to investigate and fix the underlying cause the same day.",
-    "Related Terms": [
-      "Colocation",
-      "Agile team",
-      "Information radiator",
-      "Communication management",
-      "Collaboration"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Parking lot",
-    "Core Meaning": "A facilitation technique for capturing off-topic but important points to address later without derailing the current discussion.",
-    "Depth": "Atomic",
-    "Expansion": "A parking lot is a visible list where a facilitator records tangential issues, questions, or ideas that arise during a meeting so they are not lost but do not consume current agenda time. The captured items are revisited at the meeting's end or assigned as follow-up actions.",
-    "Deep Dive": null,
-    "Contrast": "Issue log - an issue log is a formal project artifact tracking issues to resolution, while a parking lot is an informal in-meeting holding place for deferred topics.",
-    "Example": "When a discussion about hosting costs erupts during sprint planning, the facilitator adds it to the parking lot and returns the team to story estimation.",
-    "Related Terms": [
-      "Facilitation",
-      "Issue log",
-      "Action item",
-      "Workshop"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Performance report",
-    "Core Meaning": "A project document or communication that presents performance information such as status, progress, forecasts, and variances to stakeholders.",
-    "Depth": "Standard",
-    "Expansion": "A performance report communicates how the project is performing against approved plans and expected outcomes. In PMI practice it may include measures such as schedule and cost variance, milestone status, risk information, forecasts, and narrative interpretation for decision-making. Its purpose is not just to display data but to support governance, corrective action, and stakeholder alignment.",
-    "Deep Dive": null,
-    "Contrast": "Work performance data — performance reports interpret and communicate analysed performance information; work performance data are the raw observations and measurements.",
-    "Example": "A monthly steering-committee report shows SPI and CPI trends, major milestone slippage, key risks, and a forecasted completion date.",
-    "Related Terms": [
-      "Work performance information",
-      "Work performance reports",
-      "Status report",
-      "Forecast",
-      "Variance analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Glossary — exact page citation requires source confirmation"
-  },
-  {
-    "Term": "Performance reporting",
-    "Core Meaning": "The process of collecting, organizing, and communicating analyzed performance information to stakeholders.",
-    "Depth": "Standard",
-    "Expansion": "Performance reporting converts project analysis into forms stakeholders can understand and act on, such as dashboards, status reports, and trend summaries. It communicates progress, variances, forecasts, risks, and issues in ways matched to governance and stakeholder needs. In PMI practice, it is essential because insight has limited value unless it is distributed clearly and at the right decision points.",
-    "Deep Dive": null,
-    "Contrast": "Performance information — performance reporting is the communication of analyzed information to stakeholders, not the information itself.",
-    "Example": "A project manager issues a monthly sponsor report that summarizes earned value results, milestone slippage, top risks, and corrective actions.",
-    "Related Terms": [
-      "Performance data",
-      "Performance information",
-      "Work performance reports",
-      "Dashboard",
-      "Status report"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide — work performance reports; page citation not available in retrieved source"
-  },
-  {
-    "Term": "Plan communications management",
-    "Core Meaning": "Plan Communications Management is the process of developing an appropriate approach and plan for project communications based on stakeholder information needs.",
-    "Depth": "Foundational",
-    "Expansion": "This process determines what information will be communicated, to whom, when, in what format, and through which channels. It aligns project communication methods with stakeholder expectations, governance requirements, and the operating environment. PMI treats it as a planning process that creates the communications management plan and improves the likelihood that the right people receive the right information at the right time.",
-    "Deep Dive": "What it is: Plan Communications Management is the planning process that defines the project's communication strategy, communication requirements, methods, frequency, ownership, and escalation paths. It turns stakeholder information needs into a practical communication model for the project.\n\nWhy it matters and where it applies: projects fail when information is late, unclear, excessive, or sent to the wrong audience. This process matters in all delivery environments because sponsors, customers, team members, and governance bodies need different information at different times.\n\nThe most common misconception: that communications planning is just creating a status report template or meeting calendar. In practice it is a broader design decision about information flow, transparency, timing, audience needs, confidentiality, and decision support.\n\nHow it shows up in real projects: a team defines weekly dashboards for leadership, daily coordination channels for delivery staff, issue escalation routes, decision logs, and tailored stakeholder updates across the project lifecycle.",
-    "Contrast": "Communications management plan — Plan Communications Management is the process; the communications management plan is the documented output it produces.",
-    "Example": "In an enterprise system rollout, the project manager maps executives to monthly steering updates, business users to change-readiness briefings, and the delivery team to daily coordination channels and weekly risk reviews.",
-    "Related Terms": [
-      "Communications management plan",
-      "Communications requirements analysis",
-      "Stakeholder engagement",
-      "Manage communications",
-      "Monitor communications"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Plan Communications Management, pp. 70, 72, 73"
-  },
-  {
-    "Term": "Progress meeting",
-    "Core Meaning": "A meeting held to review current status, discuss progress against plan, surface issues, and coordinate next actions.",
-    "Depth": "Standard",
-    "Expansion": "In project practice, a progress meeting is a recurring status-oriented meeting used to compare actual progress with planned work and to align stakeholders on immediate actions. It supports monitoring and controlling by creating a forum for reporting, escalation, and coordination. The term is widely used in practice, but it is not usually treated by PMI as a distinct formal glossary entry with a stable technical definition.",
-    "Deep Dive": null,
-    "Contrast": "Progress update — a progress meeting is the live forum for discussing status; a progress update is the communicated content about that status.",
-    "Example": "During a construction project, the site team holds a weekly progress meeting to review completed work, schedule slippage, safety issues, and actions needed from subcontractors.",
-    "Related Terms": [
-      "Status meeting",
-      "Progress update",
-      "Monitoring",
-      "Controlling",
-      "Issue escalation"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Progress report",
-    "Core Meaning": "A progress report is a document or communication that describes the current status of project work against the plan.",
-    "Depth": "Standard",
-    "Expansion": "In PMI practice, a progress report communicates how work is advancing, typically including completed work, work in progress, upcoming work, and notable variances or issues. It supports monitoring by making schedule, cost, scope, or performance information visible to stakeholders. It is a reporting artifact rather than the broader management activity of tracking and controlling performance.",
-    "Deep Dive": null,
-    "Contrast": "Status report — a progress report focuses on advancement of work against plan, while a status report may present a broader current-state snapshot including health, risks, and decisions needed.",
-    "Example": "A construction project manager issues a weekly progress report showing foundation work completed, steel delivery delayed by three days, and the forecast effect on the milestone schedule.",
-    "Related Terms": [
-      "Work performance information",
-      "Status report",
-      "Monitor and control project work",
-      "Performance reporting"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Progress reporting",
-    "Core Meaning": "Progress reporting is the ongoing activity of collecting, analysing, and communicating information about project performance and advancement.",
-    "Depth": "Standard",
-    "Expansion": "It is part of project monitoring and stakeholder communication, turning performance data into usable information for decision-making. In PMI terms, this activity draws on work performance data and produces work performance information and reports for stakeholders. It helps compare actual results with the baseline so that corrective action, escalation, or replanning can occur when needed.",
-    "Deep Dive": null,
-    "Contrast": "Performance reporting — progress reporting emphasises advancement of planned work, while performance reporting more broadly communicates analysed project performance across measures such as schedule, cost, quality, and forecast outcomes.",
-    "Example": "On an ERP implementation, the PMO consolidates team updates each Friday and publishes progress reporting that compares completed configuration tasks and testing results with the approved baseline.",
-    "Related Terms": [
-      "Work performance data",
-      "Work performance information",
-      "Work performance reports",
-      "Monitor and control project work",
-      "Communications management"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Progress update",
-    "Core Meaning": "A communication that reports the current state of work, typically comparing actual progress with the plan and noting key issues or next steps.",
-    "Depth": "Atomic",
-    "Expansion": "A progress update is a status communication artifact rather than a distinct PMI technical concept. It is commonly used to keep stakeholders informed about what has been completed, what is in progress, and what needs attention.",
-    "Deep Dive": null,
-    "Contrast": "Status report — a progress update is any communication on current progress; a status report is a more formal, structured reporting document or output.",
-    "Example": "A project lead sends a Friday progress update summarizing completed milestones, delayed tasks, and the actions planned for the next week.",
-    "Related Terms": [
-      "Status report",
-      "Progress meeting",
-      "Work performance information",
-      "Stakeholder communication"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Project communications",
-    "Core Meaning": "Project communications are the purposeful generation, collection, distribution, storage, retrieval, management, monitoring, and disposition of project information.",
-    "Depth": "Foundational",
-    "Expansion": "Project communications cover how information moves among stakeholders so work can be coordinated, decisions can be made, and expectations can be managed. PMI treats communication as both a management process and a practical capability that affects stakeholder engagement, risk visibility, and delivery performance. It includes selecting channels, tailoring messages to audiences, and ensuring information is timely, accurate, and usable.",
-    "Deep Dive": "What it is: Project communications are the structured and ongoing exchange of project information among team members, sponsors, customers, vendors, and other stakeholders. It includes both formal and informal communication, written and verbal communication, and pull, push, and interactive methods.\n\nWhy it matters and where it applies: projects fail when the right people do not get the right information at the right time. Communication is central in every delivery approach because alignment, escalation, approvals, stakeholder confidence, and issue resolution all depend on it.\n\nThe most common misconception: that project communications means sending status reports. In practice, it is much broader and includes planning communication needs, shaping messages for different stakeholders, confirming understanding, and managing information flow across the full project lifecycle.\n\nHow it shows up in real projects:\n- Communication plans\n- Daily coordination\n- Steering-committee updates\n- RAID reporting\n- Vendor notices\n- Decision logs\n- Dashboards\n- Demos\n- Workshops\n- Stakeholder-specific briefings",
-    "Contrast": "Stakeholder engagement — project communications focuses on the flow and management of information, while stakeholder engagement focuses on building support, involvement, and relationships.",
-    "Example": "On an ERP rollout, the project manager uses weekly team standups, monthly sponsor dashboards, change-impact briefings for department heads, and a central repository for decisions and risks.",
-    "Related Terms": [
-      "Communications management",
-      "Stakeholder engagement",
-      "Information distribution",
-      "Communication methods",
-      "Stakeholder"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide — not confirmed to exact page in available search results"
-  },
-  {
-    "Term": "Project communications management",
-    "Core Meaning": "The knowledge area covering planning, managing, and monitoring project communications.",
-    "Depth": "Standard",
-    "Expansion": "Project Communications Management is the PMBOK knowledge area that ensures timely and appropriate planning, creation, distribution, storage, and disposition of project information. It includes planning communications, managing communications during execution, and monitoring that information needs are being met. Because project managers spend the majority of their time communicating, it is central to stakeholder engagement and project success.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder Management - communications management handles the flow of information, whereas stakeholder management focuses on engaging and influencing the people themselves.",
-    "Example": "Defining who receives status reports, in what format, and how often, then producing and adjusting them.",
-    "Related Terms": [
-      "Plan communications management",
-      "Manage communications",
-      "Monitor communications",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - Project Communications Management"
-  },
-  {
-    "Term": "Project information",
-    "Core Meaning": "Data that has been organized, interpreted, or communicated so it is meaningful for managing and governing a project.",
-    "Depth": "Standard",
-    "Expansion": "Project information includes status details, forecasts, decisions, assumptions, issues, and other content used to direct and control project work. It is more useful than raw data because it has been contextualised for stakeholders or management needs. Effective project information supports timely decisions, transparency, and alignment across the project environment.",
-    "Deep Dive": null,
-    "Contrast": "Work performance data — project information is processed and contextualised for use, while work performance data is the raw observation gathered during execution.",
-    "Example": "A project manager converts task-completion data, cost figures, and risk updates into a weekly dashboard that helps the sponsor assess overall project health.",
-    "Related Terms": [
-      "Work performance data",
-      "Work performance information",
-      "Communication",
-      "Decision making"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition, page 260"
-  },
-  {
-    "Term": "Project reporting",
-    "Core Meaning": "The act of collecting and distributing project information to stakeholders.",
-    "Depth": "Atomic",
-    "Expansion": "Project reporting gathers performance data and packages it into reports such as status, progress, and forecast reports for the right audiences at the right time. It is a key part of communications management and supports informed decision-making.",
-    "Deep Dive": null,
-    "Contrast": "Work performance reports - project reporting is the activity, while work performance reports are the physical or electronic artifacts produced.",
-    "Example": "A PM issues a weekly status report summarizing schedule, cost, and risk to the steering committee.",
-    "Related Terms": [
-      "Work performance reports",
-      "Manage communications",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMBOK Guide - project reporting"
-  },
-  {
-    "Term": "Project work performance reports",
-    "Core Meaning": "Physical or electronic representations of work performance information compiled in project documents and intended to generate decisions, actions, or awareness.",
-    "Depth": "Standard",
-    "Expansion": "Project work performance reports present analysed project information in a form suited to decision making and communication. They draw on work performance information and may include status reports, memos, explanations, and recommendations. In PMI usage, they are outputs used to inform stakeholders and support monitoring and control.",
-    "Deep Dive": null,
-    "Contrast": "Work performance information — information is analysed performance data; reports package that information into communicated outputs for stakeholders and decisions.",
-    "Example": "A project manager issues a monthly dashboard showing schedule variance, cost performance, forecast completion dates, major risks, and recommended corrective actions for the steering committee.",
-    "Related Terms": [
-      "Work performance data",
-      "Work performance information",
-      "Performance reporting",
-      "Monitor and control project work",
-      "Project communications"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 105 and p. 722"
-  },
-  {
-    "Term": "Pull communication",
-    "Core Meaning": "A communication method used to provide large volumes of information to a large audience that accesses it at their own discretion.",
-    "Depth": "Standard",
-    "Expansion": "Pull communication makes information available for recipients to retrieve when needed. It is useful when the audience is large, the content is extensive, or different stakeholders need different levels of detail. Common examples include dashboards, repositories, portals, and intranet sites. It supports self-service access and reduces unnecessary message traffic.",
-    "Deep Dive": null,
-    "Contrast": "Push communication — pull communication is accessed on demand by the recipient; push communication is sent directly to recipients.",
-    "Example": "A project team posts status reports, decision logs, and schedule updates on a shared portal for stakeholders to review when needed.",
-    "Related Terms": [
-      "Push communication",
-      "Communication methods",
-      "Dashboard",
-      "Stakeholder"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMIstandards+ Navigator, pull communication, page 377"
-  },
-  {
-    "Term": "Push communication",
-    "Core Meaning": "A communication method used to distribute information directly to specific recipients who need to receive it.",
-    "Depth": "Standard",
-    "Expansion": "Push communication sends information to intended recipients rather than requiring them to retrieve it. It is effective when messages are targeted and timely delivery matters, such as approvals, escalations, or status updates. Common examples include email, memos, voice mail, and direct messaging. It helps ensure key stakeholders receive information that is relevant to their role.",
-    "Deep Dive": null,
-    "Contrast": "Pull communication — push communication is sent directly to recipients; pull communication is made available for recipients to access on demand.",
-    "Example": "A project manager emails a risk escalation and revised milestone date directly to the sponsor, steering committee, and affected workstream leads.",
-    "Related Terms": [
-      "Pull communication",
-      "Communication methods",
-      "Stakeholder",
-      "Status report"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, push communication, page 727"
-  },
-  {
-    "Term": "Report",
-    "Core Meaning": "A communication artifact that presents project information in a form suited to stakeholder awareness, analysis, or decision making.",
-    "Depth": "Standard",
-    "Expansion": "A report conveys project information for a purpose such as status visibility, performance review, risk awareness, or forecasting. It is audience-oriented and may be produced in narrative, visual, dashboard, or summary form. In PMI terms, reports support transparency and informed decision making rather than acting as the primary record of tracked items.",
-    "Deep Dive": null,
-    "Contrast": "Register — a report communicates information to an audience; a register stores and maintains a tracked set of project entries over time.",
-    "Example": "The project manager sends a monthly performance report showing milestone progress, cost trends, major risks, and forecast completion dates.",
-    "Related Terms": [
-      "Status report",
-      "Performance report",
-      "Dashboard",
-      "Communication",
-      "Project work performance reports"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project artifacts section, p. 153"
-  },
-  {
-    "Term": "Sender-receiver model",
-    "Core Meaning": "A communication model in which a sender encodes and transmits a message and a receiver decodes it, with understanding affected by medium, noise, and feedback.",
-    "Depth": "Foundational",
-    "Expansion": "The sender-receiver model explains communication as more than simply sending information; meaning must be encoded, transmitted, decoded, and confirmed. PMI uses it to show why miscommunication occurs even when a message was technically delivered. It is foundational in stakeholder and team communication because project success depends on shared understanding, not just message transmission.",
-    "Deep Dive": "What it is: The sender-receiver model describes communication as a process with distinct stages:\n\n- Message creation.\n- Transmission through a channel.\n- Reception.\n- Interpretation.\n- Feedback.\n\nIt highlights that barriers such as assumptions, language differences, timing, and noise can distort meaning along the way.\n\nWhy it matters and where it applies: projects rely on accurate communication across sponsors, team members, vendors, and stakeholders with different perspectives. The model helps explain why communication planning must consider audience, method, context, and confirmation of understanding rather than only frequency of updates.\n\nThe most common misconception: that communication is complete once a message is sent. In practice, a project communication is only effective when the receiver interprets it as intended and feedback confirms that understanding.\n\nHow it shows up in real projects: status reports are tailored to executive audiences, technical instructions are followed by confirmation, risks are escalated through agreed channels, and meetings include feedback loops to verify decisions and next steps.",
-    "Contrast": "Communication method — the sender-receiver model explains how understanding is created or distorted; a communication method is simply the channel or mechanism used to exchange information.",
-    "Example": "A project manager emails a scope change to a supplier, then schedules a short call to confirm the supplier interpreted the revised acceptance criteria correctly and can act on them.",
-    "Related Terms": [
-      "Communication",
-      "Feedback",
-      "Communication methods",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Sixth Edition, page 361"
-  },
-  {
-    "Term": "Shared understanding",
-    "Core Meaning": "A common and aligned interpretation of goals, terms, expectations, and decisions among stakeholders.",
-    "Depth": "Foundational",
-    "Expansion": "Shared understanding exists when project participants interpret key information in the same way. It reduces ambiguity, rework, and conflict by aligning people on what is being done and why. PMI treats this as essential to effective communication, stakeholder engagement, and requirements work. It becomes especially important when multiple functions, disciplines, or organisations are involved.",
-    "Deep Dive": "What it is: Shared understanding means the team and stakeholders attach the same meaning to important goals, terms, constraints, and decisions. It is an outcome of communication, collaboration, and validation rather than simply the act of distributing information.\n\nWhy it matters and where it applies: It is critical in requirements definition, scope clarification, change review, and acceptance because many project failures come from people believing they agreed when they actually interpreted something differently. It matters most where work crosses business, technical, operational, and external boundaries.\n\nThe most common misconception: that communication is complete once information has been sent. In practice, understanding is only shared when people confirm meaning through discussion, examples, walkthroughs, prototypes, or acceptance criteria.\n\nHow it shows up in real projects: Teams build shared understanding through facilitated workshops, backlog refinement, visual models, review sessions, decision logs, and explicit definitions of done and acceptance. When it is missing, rework, disputes, and avoidable change requests usually increase.",
-    "Contrast": "Information distribution — information distribution is the act of sharing information; shared understanding is the result of people interpreting it consistently.",
-    "Example": "A project team reviews a prototype with users and confirms that the term dashboard refers to the same reporting view for both business and technical stakeholders.",
-    "Related Terms": [
-      "Communication",
-      "Stakeholder engagement",
-      "Requirements",
-      "Acceptance criteria",
-      "Facilitation"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Stakeholder communication",
-    "Core Meaning": "The deliberate exchange of project information with stakeholders to build understanding and support.",
-    "Depth": "Standard",
-    "Expansion": "Stakeholder communication tailors the content, channel, frequency, and tone of information to each audience's needs and influence. It supports engagement by keeping stakeholders informed, managing expectations, and surfacing concerns early. A communications management plan and analysis of requirements guide who receives what, when, and how.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder engagement — communication is the act of conveying information, while engagement is the broader effort to involve and influence stakeholders over time.",
-    "Example": "A project manager sends executives a concise monthly dashboard while giving the operations team detailed weekly working sessions.",
-    "Related Terms": [
-      "Stakeholder engagement",
-      "Communications management plan",
-      "Communications requirements analysis",
-      "Stakeholder register"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "PMBOK Guide — Manage Communications and Stakeholder Engagement"
-  },
-  {
-    "Term": "Status meeting",
-    "Core Meaning": "A regularly scheduled meeting to exchange and analyze information about the current progress of the project and its performance.",
-    "Depth": "Standard",
-    "Expansion": "A Status Meeting is a recurring forum used to review where the project stands against plan or current expectations. Participants share updates, assess progress, surface issues, and interpret performance information so decisions or follow-up actions can be taken. Its value comes from turning scattered updates into shared understanding and coordinated next steps.",
-    "Deep Dive": null,
-    "Contrast": "Steering committee meeting — A Status Meeting focuses on current progress and performance exchange, while a steering committee meeting focuses more on oversight, escalation, and governance decisions.",
-    "Example": "Every Monday, the project team reviews completed tasks, milestone status, schedule variance, open risks, and decisions needed for the coming week.",
-    "Related Terms": [
-      "Project communications",
-      "Performance reporting",
-      "Issue review",
-      "Progress update"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms"
-  },
-  {
-    "Term": "Status report",
-    "Core Meaning": "A project document or communication that describes current performance and condition at a specific point in time.",
-    "Depth": "Atomic",
-    "Expansion": "A status report summarises where the project stands against the plan at a given moment. It commonly covers progress, key issues, risks, schedule or cost condition, and near-term next steps.",
-    "Deep Dive": null,
-    "Contrast": "Progress report — a status report shows the current state at a point in time, while a progress report emphasises work completed during a reporting period.",
-    "Example": "A weekly status report to the sponsor shows that testing is on track, two defects remain high priority, and the deployment decision is due on Friday.",
-    "Related Terms": [
-      "Work performance reports",
-      "Progress report",
-      "Project communications",
-      "Dashboard",
-      "Forecast"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Status review",
-    "Core Meaning": "A recurring review of current project progress, issues, and near-term actions used to support coordination and control.",
-    "Depth": "Standard",
-    "Expansion": "A status review is a common project-management review practice for assessing where work stands against plan. It typically covers completed work, upcoming activities, issues, risks, and decisions needed from stakeholders. Although widely used in PMI-aligned practice, it is better treated as a practitioner term than as a distinct formal glossary concept.",
-    "Deep Dive": null,
-    "Contrast": "Status report — a status review is the discussion or meeting, while a status report is the documented output or input for that discussion.",
-    "Example": "Each Friday the project manager runs a status review with workstream leads to confirm milestone health and escalate unresolved blockers.",
-    "Related Terms": [
-      "Status report",
-      "Progress meeting",
-      "Issue log",
-      "Risk review",
-      "Project communications"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Virtual collaboration tools",
-    "Core Meaning": "Software applications and platforms designed to facilitate communication, coordination, and collaboration among geographically dispersed project team members.",
-    "Depth": "Standard",
-    "Expansion": "Virtual collaboration tools support teams that do not work in the same physical location. PMI describes them as enabling communication, coordination, and collaboration across dispersed team members. They are especially useful for meetings, shared workspaces, document exchange, and ongoing team interaction. Their value depends on how well they support the team's working agreements and communication needs.",
-    "Deep Dive": null,
-    "Contrast": "Virtual team — virtual collaboration tools are the technology that supports distributed work; a virtual team is the people and working arrangement using that technology.",
-    "Example": "A global project team uses video meetings, shared task boards, and document collaboration software to coordinate work across time zones.",
-    "Related Terms": [
-      "Virtual team",
-      "Communication methods",
-      "Collaboration",
-      "Team charter",
-      "Stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase — Virtual collaboration tools"
-  },
-  {
-    "Term": "Visual data and information",
-    "Core Meaning": "Project data and information presented visually so patterns, trends, relationships, or status can be understood more quickly.",
-    "Depth": "Atomic",
-    "Expansion": "This concept covers charts, graphs, dashboards, and other visual displays used to communicate project meaning more clearly than raw text or numbers alone. In PMI practice it is a useful communication approach, but not a distinct formal glossary entry in the same way as a named method or technique.",
-    "Deep Dive": null,
-    "Contrast": "Work performance report — Visual Data and Information is a presentation form, while a work performance report is a specific project output that may use visuals.",
-    "Example": "A PMO uses a dashboard with trend lines and traffic-light indicators to show cost and schedule status across projects.",
-    "Related Terms": [
-      "Dashboard",
-      "Work performance reports"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Visualization",
-    "Core Meaning": "Representing data or information graphically to aid understanding and decisions.",
-    "Depth": "Standard",
-    "Expansion": "Visualization turns numbers and relationships into charts, boards, and diagrams that make patterns, status, and outliers easy to grasp. It supports faster, better-informed communication and decision-making.",
-    "Deep Dive": null,
-    "Contrast": "Report — a report communicates information often in text/tables; visualization specifically presents it in graphical form.",
-    "Example": "A burndown chart visualizes remaining work so the team sees at a glance whether it is on track.",
-    "Related Terms": [
-      "Data visualization",
-      "Dashboard",
-      "Information radiator",
-      "Burndown chart"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
-  },
-  {
-    "Term": "Work performance reports",
-    "Core Meaning": "Physical or electronic representations of work performance information compiled to generate decisions, actions, or awareness.",
-    "Depth": "Standard",
-    "Expansion": "Work performance reports package analysed project performance into formats stakeholders can use for oversight and action. PMI distinguishes them from raw data and analysed information because reports are the communicated output, such as dashboards, status reports, or trend views. They support governance, escalation, and decision making across the project life cycle.",
-    "Deep Dive": null,
-    "Contrast": "Work performance information — information is the analysed performance content; reports are the representations used to communicate it.",
-    "Example": "A project manager issues a weekly dashboard showing schedule variance, defect trends, and forecast completion dates to the sponsor and team leads.",
-    "Related Terms": [
-      "Work performance data",
-      "Work performance information",
-      "Status report",
-      "Progress report",
-      "Dashboard"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, work performance reports, page 144"
-  }
+ {
+  "Term": "Communication",
+  "Core Meaning": "The exchange of information intended to create shared understanding among participants.",
+  "Depth": "Foundational",
+  "Expansion": "Communication in PMI usage is more than sending messages; it includes transmitting, receiving, and interpreting information so meaning is understood. It underpins stakeholder engagement, coordination, decision-making, and issue resolution across all delivery approaches. Weak communication degrades alignment even when plans and roles are otherwise clear.",
+  "Deep Dive": "What it is: Communication is the purposeful exchange of information between people or groups. In project work, it includes both the message itself and whether the receiver actually understands what was intended.\n\nIt can take several forms:\n\n- Verbal.\n- Nonverbal.\n- Written.\n- Visual.\n- Digital.\n\nWhy it matters and where it applies: every project depends on communication to align scope, schedule, risks, decisions, and stakeholder expectations. It shows up in governance reporting, team coordination, vendor interactions, change discussions, and day-to-day collaboration.\n\nThe most common misconception: that communication is complete once information is sent. In practice, project communication is only effective when the message is received, interpreted correctly, and useful for action.\n\nHow it shows up in real projects: status reports, daily coordination, issue escalation, workshops, demos, risk reviews, stakeholder briefings, and informal conversations that prevent misunderstanding before it becomes rework.",
+  "Contrast": "Communications Management Plan — Communication is the actual exchange of information; the Communications Management Plan defines how project communications will be structured and governed.",
+  "Example": "A project manager briefs sponsors on milestone risk, confirms the team understood the revised priorities, and follows up with written actions so everyone is aligned.",
+  "Related Terms": [
+   "Communications management plan",
+   "Stakeholder engagement",
+   "Information distribution",
+   "Feedback"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon — Communication; PMBOK Guide glossary page citation not confirmed in available search results",
+  "Synonyms": [
+   "Communications"
+  ]
+ },
+ {
+  "Term": "Communication methods",
+  "Core Meaning": "The approaches or channels used to share information among project participants and stakeholders.",
+  "Depth": "Standard",
+  "Expansion": "Communication methods include interactive, push, and pull approaches, each suited to different audiences and purposes. Choosing the right method affects speed, clarity, traceability, and engagement. PMI uses the term to guide deliberate matching of message, audience, urgency, and medium.",
+  "Deep Dive": null,
+  "Contrast": "Communication skills — Communication methods are the channels or approaches used to convey information; communication skills are the personal abilities used to communicate effectively through those methods.",
+  "Example": "A team uses workshops for issue resolution, email for formal approvals, and a dashboard portal for on-demand status access by executives.",
+  "Related Terms": [
+   "Communication",
+   "Communication skills",
+   "Interactive communication",
+   "Push communication",
+   "Pull communication"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide — communication methods; exact page citation not confirmed in available search results"
+ },
+ {
+  "Term": "Communication models",
+  "Core Meaning": "Representations of how the communication process works, used to plan effective project communication.",
+  "Depth": "Standard",
+  "Expansion": "Communication models describe the process by which information is encoded by a sender, transmitted through a medium, and decoded by a receiver, including the noise and feedback that affect understanding. They help project managers anticipate where messages can be distorted and design communications that account for the audience and barriers. The basic sender-receiver model can be extended to reflect cross-cultural and interactive nuances.",
+  "Deep Dive": null,
+  "Contrast": "Communication methods - communication methods are the channels used (push, pull, interactive), whereas communication models explain the underlying encode-transmit-decode process.",
+  "Example": "Recognizing from the sender-receiver model that 'noise' such as jargon may distort a status report, the project manager simplifies the language.",
+  "Related Terms": [
+   "Communication methods",
+   "Communication requirements analysis"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide - communication models"
+ },
+ {
+  "Term": "Communication skills",
+  "Core Meaning": "The interpersonal abilities used to exchange information clearly and build shared understanding among project participants.",
+  "Depth": "Standard",
+  "Expansion": "Communication skills enable project work by supporting clear sending, receiving, and interpretation of information. In PMI practice they include listening, speaking, writing, questioning, and tailoring messages to audience needs. They are central to leadership, stakeholder engagement, conflict management, and team coordination.",
+  "Deep Dive": null,
+  "Contrast": "Communication methods — communication skills are the human abilities used to communicate effectively; communication methods are the channels or approaches used to deliver information.",
+  "Example": "A project manager adjusts a risk update for executives, then uses active listening with the delivery team to confirm that actions and owners are understood.",
+  "Related Terms": [
+   "Communication",
+   "Stakeholder engagement",
+   "Interpersonal and team skills",
+   "Leadership"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon, Communication skills; page citation not confirmed in available sources",
+  "Synonyms": [
+   "Communication competence"
+  ]
+ },
+ {
+  "Term": "Communication styles assessment",
+  "Core Meaning": "A technique for identifying stakeholders' preferred communication methods and styles in order to tailor engagement.",
+  "Depth": "Standard",
+  "Expansion": "A communication styles assessment is a technique used to identify the preferred communication style, format, and content for planned communications, especially for stakeholders whose support is needed. It helps the project manager adapt messages to how different people best receive information. It is often used together with stakeholder engagement planning.",
+  "Deep Dive": null,
+  "Contrast": "Communication requirements analysis - requirements analysis determines what information stakeholders need, whereas a styles assessment determines how they prefer to receive it.",
+  "Example": "Assessing that a key sponsor prefers brief verbal briefings over lengthy written reports, and adjusting communications accordingly.",
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Communication models",
+   "Cultural awareness"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide - Plan Stakeholder Engagement (communication styles assessment)"
+ },
+ {
+  "Term": "Communications management",
+  "Core Meaning": "The project management function of planning, creating, distributing, storing, retrieving, monitoring, and disposing of project information so stakeholders get what they need when they need it.",
+  "Depth": "Foundational",
+  "Expansion": "Communications management is the disciplined handling of project information across its full lifecycle, from planning communications needs through monitoring whether communication is effective. PMI treats it as more than sending messages; it is about enabling understanding among stakeholders with different interests, authority, and information needs. It matters because weak communications distort decisions, hide risk, and slow delivery even when technical work is strong. It applies across all delivery approaches because every project depends on timely, usable, and appropriately targeted information exchange.",
+  "Deep Dive": "What it is: Communications management is the structured management of project information.\n\nIt defines:\n\n- Who needs information.\n- What information they need.\n- When they need it.\n- How it will be delivered.\n- How effectiveness will be assessed.\n\nIt includes formal and informal communication, documentation practices, channels, escalation paths, and feedback loops.\n\nWhy it matters and where it applies: most project failure points involve misunderstanding, delayed awareness, or missing alignment rather than pure technical inability. Communications management supports stakeholder engagement, governance reporting, team coordination, issue escalation, and decision quality in predictive, agile, and hybrid settings.\n\nThe most common misconception: that communications management means producing status reports or running meetings. In practice, it is broader and focuses on whether the right people actually receive, understand, and can act on the information.\n\nHow it shows up in real projects: communication plans, stakeholder-specific reporting cadences, dashboards, escalation rules, collaboration norms, meeting structures, feedback mechanisms, and periodic adjustment when stakeholder needs or project conditions change.",
+  "Contrast": "Stakeholder engagement — communications management focuses on information flow and understanding; stakeholder engagement focuses on building support, involvement, and relationships.",
+  "Example": "On a construction project, the team sets weekly site briefings for subcontractors, monthly steering updates for executives, immediate safety escalation rules, and a document repository with version controls.",
+  "Synonyms": [
+   "Communication management"
+  ],
+  "Related Terms": [
+   "Communication",
+   "Communications management plan",
+   "Stakeholder engagement",
+   "Information distribution",
+   "Stakeholder communication"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management chapter and glossary, page citation depends on format"
+ },
+ {
+  "Term": "Communications management plan",
+  "Core Meaning": "A component of the project management plan that describes how, when, and by whom information will be administered and disseminated.",
+  "Depth": "Standard",
+  "Expansion": "The Communications Management Plan defines the project's approach to creating, storing, distributing, and monitoring information. It helps align communication methods, timing, audiences, and responsibilities with stakeholder needs. It is used to make communication more deliberate and less dependent on ad hoc habits across the team.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder Engagement Plan — the Communications Management Plan defines how information is handled and shared; the Stakeholder Engagement Plan focuses more broadly on how stakeholders are engaged and supported.",
+  "Example": "A transformation project sets a plan that weekly progress dashboards go to sponsors, daily coordination updates go to the core team, and monthly steering summaries go to executives.",
+  "Related Terms": [
+   "Project management plan",
+   "Communication",
+   "Stakeholder engagement plan",
+   "Information distribution",
+   "Stakeholder"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 10.1.3.1, page 377",
+  "Synonyms": [
+   "Communication plan"
+  ]
+ },
+ {
+  "Term": "Communications model",
+  "Core Meaning": "A representation of how information is encoded, transmitted, received, and interpreted between participants.",
+  "Depth": "Standard",
+  "Expansion": "The communications model explains that effective communication depends on both sender and receiver, the medium used, and the possibility of noise or misunderstanding. It helps project professionals design messages that are more likely to be understood as intended. PMI uses it to emphasise that communication quality is shaped by the full exchange, not just message delivery.",
+  "Deep Dive": null,
+  "Contrast": "Communication — Communication is the actual exchange of information; a communications model is the conceptual framework used to understand how that exchange works.",
+  "Example": "Before announcing a process change, a project manager uses multiple channels and checks for understanding because the message could be interpreted differently by field teams and executives.",
+  "Related Terms": [
+   "Communication",
+   "Feedback",
+   "Sender-receiver model"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide — communications model; exact page citation not confirmed in available search results"
+ },
+ {
+  "Term": "Communications requirements analysis",
+  "Core Meaning": "Determining the information needs of project stakeholders in order to plan communications.",
+  "Depth": "Standard",
+  "Expansion": "Communication requirements analysis identifies what information each stakeholder needs, in what format, how often, and through which channel, so that communications are valuable and not wasteful. It considers the number of potential communication channels, which grows rapidly as stakeholders increase. Its results drive the communications management plan.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder analysis - stakeholder analysis identifies and assesses who the stakeholders are, whereas communication requirements analysis focuses on what information those stakeholders need.",
+  "Example": "Analyzing that executives need a monthly one-page summary while the team needs daily standup updates.",
+  "Synonyms": [
+   "Communication requirements analysis"
+  ],
+  "Related Terms": [
+   "Communications management plan",
+   "Stakeholder analysis",
+   "Information distribution",
+   "Stakeholder engagement",
+   "Number of communication channels"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide - Plan Communications Management"
+ },
+ {
+  "Term": "Dashboard",
+  "Core Meaning": "A visual display that consolidates key project or product information so stakeholders can quickly understand current status and trends.",
+  "Depth": "Standard",
+  "Expansion": "A dashboard presents selected indicators such as schedule health, cost status, risks, quality measures, or delivery metrics in a concise format for decision making. In PMI practice it is a communication and monitoring aid rather than a control mechanism by itself. Its usefulness depends on choosing measures that reflect the project's objectives, performance domain needs, and stakeholder information requirements.",
+  "Deep Dive": null,
+  "Contrast": "Status report — a dashboard emphasises at-a-glance visual indicators, while a status report usually provides broader narrative explanation and context.",
+  "Example": "A programme dashboard shows milestone status, budget variance, top risks, and benefits progress for executives reviewing the portfolio each month.",
+  "Related Terms": [
+   "Performance measurement",
+   "Status report",
+   "Information radiator",
+   "Key performance indicator",
+   "Stakeholder communication"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon / A Guide to the Project Management Body of Knowledge, term Dashboard",
+  "Synonyms": [
+   "Project dashboard"
+  ]
+ },
+ {
+  "Term": "Data representation",
+  "Core Meaning": "The way project data is structured, formatted, modelled, or visualised so it can be understood and used.",
+  "Depth": "Standard",
+  "Expansion": "Data representation refers to how information is expressed, such as in tables, charts, dashboards, models, or coded fields. In project management, the same underlying data can support better or worse decisions depending on how clearly and consistently it is represented. It matters in reporting, analytics, requirements traceability, risk visualisation, and communication with stakeholders.",
+  "Deep Dive": null,
+  "Contrast": "Data quality — data representation concerns the form and presentation of data; data quality concerns whether the data itself is trustworthy and suitable for use.",
+  "Example": "A PMO converts a raw issue log into a dashboard showing issue age, severity, and ownership so executives can quickly spot escalation patterns.",
+  "Related Terms": [
+   "Information radiator",
+   "Dashboard",
+   "Data quality"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Data visualization",
+  "Core Meaning": "A graphical representation of information and data used to communicate patterns, trends, and insights relevant to project work.",
+  "Depth": "Standard",
+  "Expansion": "In project management, data visualization turns project data into charts, graphs, dashboards, heat maps, or similar visual formats so stakeholders can interpret status, risk, performance, or trends quickly. It supports monitoring, reporting, and decision-making by making complex information easier to understand than raw tables alone. It is commonly used in status dashboards, earned value reporting, risk heat maps, burndown charts, and portfolio views.",
+  "Deep Dive": null,
+  "Contrast": "Report — data visualization is the visual representation of information; a report is the broader communication artifact that may include narrative, tables, and visuals.",
+  "Example": "A PMO uses a dashboard with schedule variance charts, budget trend lines, and a risk heat map so executives can see portfolio health at a glance.",
+  "Related Terms": [
+   "Dashboard",
+   "Performance reporting",
+   "Information radiator",
+   "Risk heat map",
+   "Burndown chart"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Feedback",
+  "Core Meaning": "Information about reactions, results, or performance that is used to confirm, adjust, or improve project work.",
+  "Depth": "Standard",
+  "Expansion": "Feedback helps project teams learn whether their actions are producing the intended results. It can come from stakeholders, customers, team members, or performance data, and it is used to refine decisions, communication, and deliverables. PMI links feedback to communication, governance, and checking outcomes, making it a key input for adaptation and control.",
+  "Deep Dive": null,
+  "Contrast": "Status report — feedback is used to improve or adjust work, while a status report primarily communicates progress and current condition.",
+  "Example": "After a sprint review, users say a screen is confusing, so the team revises the design before the next release.",
+  "Related Terms": [
+   "Communication",
+   "Stakeholder engagement",
+   "Governance",
+   "Review",
+   "Inspection"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Knowledgebase, Feedback, page 170"
+ },
+ {
+  "Term": "Final report",
+  "Core Meaning": "A report that summarises project performance, results, and lessons at the end of the project.",
+  "Depth": "Standard",
+  "Expansion": "The final report records what the project delivered, how it performed against objectives, and what was learned during execution. It supports formal closure by giving stakeholders a concise end-of-project record. In practice, it also helps organisational learning by preserving outcomes, variances, and recommendations for future work.",
+  "Deep Dive": null,
+  "Contrast": "Lessons learned register — a final report summarises overall project outcomes at closure, while a lessons learned register captures learning in more detailed form across the life of the project.",
+  "Example": "At the end of an office relocation project, the project manager issues a final report covering scope delivered, budget performance, schedule variance, stakeholder feedback, and key lessons.",
+  "Related Terms": [
+   "Close project or phase",
+   "Lessons learned register",
+   "Project documents",
+   "Project performance"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Knowledgebase, term Final report",
+  "Synonyms": [
+   "Final project report"
+  ]
+ },
+ {
+  "Term": "Fishbowl window",
+  "Core Meaning": "A persistent video link kept open all day between dispersed team locations to enable spontaneous interaction.",
+  "Depth": "Atomic",
+  "Expansion": "A fishbowl window is a technique for distributed agile teams in which a continuous video-conferencing link stays open throughout the workday between locations. It lets remote team members see and casually talk to each other on demand, reducing the collaboration lag that comes from being physically apart.",
+  "Deep Dive": null,
+  "Contrast": "Remote pairing - remote pairing connects two people for focused joint work on a task, whereas a fishbowl window keeps a whole location's ambient link open for casual, spontaneous interaction.",
+  "Example": "A team split between two cities keeps a video link open all day so people can glance over and start a conversation as if they shared a room.",
+  "Related Terms": [
+   "Remote pairing",
+   "Distributed team",
+   "Osmotic communication",
+   "Colocation"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "Agile Practice Guide - communication on distributed teams"
+ },
+ {
+  "Term": "High context culture",
+  "Core Meaning": "A cultural environment in which meaning is conveyed heavily through shared context, relationships, and implicit communication rather than only through explicit statements.",
+  "Depth": "Standard",
+  "Expansion": "High context culture affects how stakeholders interpret messages, make decisions, and respond to conflict or escalation in projects. For project managers, it matters because communication plans, stakeholder engagement, and negotiation approaches may need to rely more on relationship building and indirect cues. PMI discusses culture and context as important influences on tailoring and stakeholder work, even when this exact phrase is not a core glossary entry.",
+  "Deep Dive": null,
+  "Contrast": "Low context culture — high context culture relies more on implicit meaning and shared understanding, while low context culture relies more on explicit and direct communication.",
+  "Example": "In a regional transformation project, the project manager secures alignment through informal relationship-building conversations because stakeholders are unlikely to challenge concerns openly in formal meetings.",
+  "Related Terms": [
+   "Culture",
+   "Stakeholder engagement",
+   "Communication",
+   "Tailoring",
+   "Interpersonal skills"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Information distribution",
+  "Core Meaning": "The act of making project information available to stakeholders in a timely and appropriate manner.",
+  "Depth": "Standard",
+  "Expansion": "Information distribution concerns sending or publishing project information so the right stakeholders can access it when needed. It supports coordination, transparency, and informed decision making across the project environment. The concept is closely tied to communications and stakeholder engagement practices.",
+  "Deep Dive": null,
+  "Contrast": "Communication — information distribution is the sharing of information outward, while communication also includes exchange, feedback, and shared understanding.",
+  "Example": "A project team posts weekly status reports and risk updates to the project portal for sponsors and team members.",
+  "Related Terms": [
+   "Communication",
+   "Stakeholder",
+   "Status report",
+   "Project information",
+   "Communications management"
+  ],
+  "Tier": "Core glossary",
+  "Source": "The PMI Guide to Business Analysis — glossary/index reference for Information distribution, page 395"
+ },
+ {
+  "Term": "Information management systems",
+  "Core Meaning": "The tools and processes used to capture, store, and distribute project information to stakeholders.",
+  "Depth": "Atomic",
+  "Expansion": "Information management systems are the manual and electronic tools, such as document repositories, shared drives, and collaboration platforms, used to collect, organize, and circulate project information. They support communications by getting the right information to the right stakeholders in a usable form.",
+  "Deep Dive": null,
+  "Contrast": "Project management information system (PMIS) - the PMIS is the broader integrated toolset for planning and controlling the whole project, whereas information management systems focus specifically on storing and distributing information.",
+  "Example": "A team uses a shared collaboration site as its information management system for distributing status reports and storing deliverables.",
+  "Related Terms": [
+   "Project management information system",
+   "Communication methods",
+   "Knowledge management"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "PMBOK Guide - information management systems (Manage Communications)"
+ },
+ {
+  "Term": "Interactive communication",
+  "Core Meaning": "Interactive communication is multidirectional communication between two or more parties that enables real-time exchange, clarification, and shared understanding.",
+  "Depth": "Standard",
+  "Expansion": "PMI describes interactive communication as a form of communication in which participants exchange information together rather than simply sending or pulling it. It is especially useful when the message is complex, sensitive, ambiguous, or important enough to require immediate feedback and confirmation of understanding. Common examples include meetings, phone calls, workshops, and video conferences.",
+  "Deep Dive": null,
+  "Contrast": "Push communication — interactive communication involves live exchange and feedback, while push communication sends information directly to recipients without requiring immediate interaction.",
+  "Example": "A project manager holds a risk workshop with engineering, operations, and the sponsor so assumptions can be challenged in real time and mitigation actions agreed on immediately.",
+  "Related Terms": [
+   "Communications management",
+   "Push communication",
+   "Pull communication",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition — Project Communications Management; exact page citation should be verified against the edition in use"
+ },
+ {
+  "Term": "Kickoff meeting",
+  "Core Meaning": "A meeting held at the start of a project or phase to align participants on objectives, roles, ways of working, and immediate next steps.",
+  "Depth": "Standard",
+  "Expansion": "A kickoff meeting establishes shared understanding at the outset of work and helps create early alignment among the team and stakeholders. It commonly covers purpose, scope, milestones, responsibilities, communication expectations, and decision paths. In practice, it reduces ambiguity and gives the project a coordinated start.",
+  "Deep Dive": null,
+  "Contrast": "Project charter — a kickoff meeting is an event used to align people; a project charter is the formal document that authorises the project and frames its intent.",
+  "Example": "At the start of an ERP implementation, the project manager brings business leads, vendors, and technical teams together to confirm scope boundaries, governance, milestones, and escalation routes.",
+  "Related Terms": [
+   "Project charter",
+   "Stakeholder engagement",
+   "Communications management plan",
+   "Team charter",
+   "Milestone"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Low context culture",
+  "Core Meaning": "A culture in which communication relies more on explicit words and less on shared background or implied meaning.",
+  "Depth": "Standard",
+  "Expansion": "In a low context culture, messages are expected to be direct, clear, and complete because listeners are not assumed to infer much from context. This affects how project information is written, spoken, and documented. PMI uses the concept to help project teams adapt communication style to cultural expectations and reduce misunderstanding.",
+  "Deep Dive": null,
+  "Contrast": "High context culture — low context culture depends on explicit verbal or written detail; high context culture depends more on shared understanding and implied meaning.",
+  "Example": "A project team working with a low context culture sends a detailed written change notice instead of assuming stakeholders will infer the impact from a brief verbal update.",
+  "Related Terms": [
+   "Communication",
+   "Culture",
+   "High context culture",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "PMI Knowledgebase — low context culture; based on Hofstede cultural dimensions excerpt in available search results"
+ },
+ {
+  "Term": "Manage communications",
+  "Core Meaning": "The process of ensuring timely and appropriate collection, creation, distribution, storage, retrieval, management, monitoring, and ultimate disposition of project information.",
+  "Depth": "Foundational",
+  "Expansion": "Manage Communications is the process that carries out the project's communication approach in day-to-day work. It ensures information reaches stakeholders in forms they can use and at times that support action and decision-making. PMI treats it as an execution process because communication requires active production, distribution, storage, and control throughout the project lifecycle.",
+  "Deep Dive": "Manage Communications is the process of creating and distributing project information according to stakeholder needs and the communications management approach. Its work spans:\n\n- Formal reports.\n- Informal exchanges.\n- Records handling.\n- Information storage and retrieval.\n\nWhy it matters and where it applies: it matters because projects depend on shared understanding, timely decisions, and coordinated action across people and groups. It applies in every project, and becomes especially important when stakeholders are numerous, geographically distributed, or dependent on fast issue escalation.\n\nThe most common misconception is that it is simply sending updates. In practice it also involves tailoring messages, selecting channels, maintaining records, controlling access, and confirming that information is useful to its audience.\n\nHow it shows up in real projects: the project manager circulates status reports, maintains decision logs, publishes dashboards, archives approved artifacts, and routes urgent issues through agreed escalation paths. Strong execution of this process reduces confusion and shortens response time.",
+  "Contrast": "Plan Communications Management — Manage Communications executes the communication approach; Plan Communications Management defines how communication will be structured.",
+  "Example": "A project manager issues weekly progress dashboards to sponsors, posts daily coordination notes for the team, and stores approved decisions in the project repository.",
+  "Related Terms": [
+   "Plan communications management",
+   "Communications management plan",
+   "Stakeholder",
+   "Project information",
+   "Performance reporting"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Manage Communications, page 377",
+  "Synonyms": [
+   "Managing Communication"
+  ]
+ },
+ {
+  "Term": "Meeting minutes",
+  "Core Meaning": "A written record of what was discussed, decided, and assigned during a meeting.",
+  "Depth": "Atomic",
+  "Expansion": "Meeting minutes capture key points, decisions, and action items with owners and due dates, providing an authoritative record for participants and absentees. They support accountability and follow-up and become part of the project's documentation and audit trail.",
+  "Deep Dive": null,
+  "Contrast": "Decision log — meeting minutes record the full proceedings of a meeting, while a decision log is a focused running record of decisions made across the project.",
+  "Example": "After a steering committee meeting, the coordinator circulates minutes listing the approved budget change and three follow-up actions.",
+  "Related Terms": [
+   "Action item",
+   "Kickoff meeting",
+   "Status report",
+   "Project documents"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Monitor communications",
+  "Core Meaning": "The process of ensuring the information needs of the project and its stakeholders are met.",
+  "Depth": "Standard",
+  "Expansion": "Monitor Communications evaluates whether communication activities are actually producing understanding and meeting stakeholder information needs. It checks effectiveness, identifies gaps, and supports adjustments to format, timing, channel, or audience. The process matters because sending information does not guarantee that it is useful, received, or acted upon as intended.",
+  "Deep Dive": null,
+  "Contrast": "Manage Communications — Monitor Communications evaluates whether communication is effective; Manage Communications performs the actual creation, distribution, and retrieval of project information.",
+  "Example": "After executives stop using a weekly status deck, the project manager replaces it with a one-page dashboard and a short decision-focused briefing.",
+  "Related Terms": [
+   "Manage communications",
+   "Communications management plan",
+   "Stakeholder engagement",
+   "Performance reporting",
+   "Information distribution"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Monitor Communications, p. 390",
+  "Synonyms": [
+   "Communication control"
+  ]
+ },
+ {
+  "Term": "Narrative",
+  "Core Meaning": "A story used to describe a situation, person, or context.",
+  "Depth": "Atomic",
+  "Expansion": "In business analysis, a narrative is written to describe context and behaviour in story form. It is often used to develop or enrich personas.",
+  "Deep Dive": null,
+  "Contrast": "Persona — a narrative is the descriptive story; a persona is the represented user or stakeholder profile.",
+  "Example": "A business analyst writes a short narrative about a first-time homeowner to illustrate how that customer researches mortgage options and where confusion occurs.",
+  "Related Terms": [
+   "Persona",
+   "Business analysis",
+   "Stakeholder",
+   "Scenario"
+  ],
+  "Tier": "Core glossary",
+  "Source": "The PMI Guide to Business Analysis, Narrative"
+ },
+ {
+  "Term": "Number of communication channels",
+  "Core Meaning": "The count of potential communication paths in a team, calculated as n times n minus 1 divided by 2.",
+  "Depth": "Standard",
+  "Expansion": "The number of communication channels measures how many distinct two-way links exist among stakeholders, using the formula n(n-1)/2 where n is the number of people. It illustrates how communication complexity grows rapidly as a team enlarges, informing the need for structured communication planning. Adding people increases channels far faster than it increases headcount.",
+  "Deep Dive": null,
+  "Contrast": "Unlike headcount, which grows linearly, the number of communication channels grows roughly with the square of the team size.",
+  "Example": "A team of five has 10 channels, but adding one more member raises it to 15.",
+  "Related Terms": [
+   "Communications management plan",
+   "Stakeholder engagement",
+   "Communication requirements analysis"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide"
+ },
+ {
+  "Term": "Osmotic communication",
+  "Core Meaning": "The informal absorption of useful information by team members simply from working near one another and overhearing relevant interactions.",
+  "Depth": "Standard",
+  "Expansion": "Osmotic communication is associated with highly collaborative, often agile team environments where shared space increases awareness and speeds problem solving. It matters because teams can pick up context, risks, and decisions without waiting for formal status exchanges. PMI discussions of agile ways of working treat it as a practical communication dynamic rather than a core formal glossary term.",
+  "Deep Dive": null,
+  "Contrast": "Formal communication — Osmotic communication is ambient and informal through proximity, while formal communication is intentionally structured through planned channels, meetings, or documented reporting.",
+  "Example": "A co-located product team overhears a tester describe a recurring defect pattern, prompting a developer to investigate and fix the underlying cause the same day.",
+  "Related Terms": [
+   "Colocation",
+   "Agile team",
+   "Information radiator",
+   "Communication management",
+   "Collaboration"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry",
+  "Synonyms": [
+   "Close or osmotic communication"
+  ]
+ },
+ {
+  "Term": "Parking lot",
+  "Core Meaning": "A facilitation technique for capturing off-topic but important points to address later without derailing the current discussion.",
+  "Depth": "Atomic",
+  "Expansion": "A parking lot is a visible list where a facilitator records tangential issues, questions, or ideas that arise during a meeting so they are not lost but do not consume current agenda time. The captured items are revisited at the meeting's end or assigned as follow-up actions.",
+  "Deep Dive": null,
+  "Contrast": "Issue log - an issue log is a formal project artifact tracking issues to resolution, while a parking lot is an informal in-meeting holding place for deferred topics.",
+  "Example": "When a discussion about hosting costs erupts during sprint planning, the facilitator adds it to the parking lot and returns the team to story estimation.",
+  "Related Terms": [
+   "Facilitation",
+   "Issue log",
+   "Action item",
+   "Workshop"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Performance report",
+  "Core Meaning": "A project document or communication that presents performance information such as status, progress, forecasts, and variances to stakeholders.",
+  "Depth": "Standard",
+  "Expansion": "A performance report communicates how the project is performing against approved plans and expected outcomes. In PMI practice it may include measures such as schedule and cost variance, milestone status, risk information, forecasts, and narrative interpretation for decision-making. Its purpose is not just to display data but to support governance, corrective action, and stakeholder alignment.",
+  "Deep Dive": null,
+  "Contrast": "Work performance data — performance reports interpret and communicate analysed performance information; work performance data are the raw observations and measurements.",
+  "Example": "A monthly steering-committee report shows SPI and CPI trends, major milestone slippage, key risks, and a forecasted completion date.",
+  "Related Terms": [
+   "Work performance information",
+   "Work performance reports",
+   "Status report",
+   "Forecast",
+   "Variance analysis"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Glossary — exact page citation requires source confirmation"
+ },
+ {
+  "Term": "Performance reporting",
+  "Core Meaning": "The process of collecting, organizing, and communicating analyzed performance information to stakeholders.",
+  "Depth": "Standard",
+  "Expansion": "Performance reporting converts project analysis into forms stakeholders can understand and act on, such as dashboards, status reports, and trend summaries. It communicates progress, variances, forecasts, risks, and issues in ways matched to governance and stakeholder needs. In PMI practice, it is essential because insight has limited value unless it is distributed clearly and at the right decision points.",
+  "Deep Dive": null,
+  "Contrast": "Performance information — performance reporting is the communication of analyzed information to stakeholders, not the information itself.",
+  "Example": "A project manager issues a monthly sponsor report that summarizes earned value results, milestone slippage, top risks, and corrective actions.",
+  "Related Terms": [
+   "Performance data",
+   "Performance information",
+   "Work performance reports",
+   "Dashboard",
+   "Status report"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide — work performance reports; page citation not available in retrieved source"
+ },
+ {
+  "Term": "Plan communications management",
+  "Core Meaning": "Plan Communications Management is the process of developing an appropriate approach and plan for project communications based on stakeholder information needs.",
+  "Depth": "Foundational",
+  "Expansion": "This process determines what information will be communicated, to whom, when, in what format, and through which channels. It aligns project communication methods with stakeholder expectations, governance requirements, and the operating environment. PMI treats it as a planning process that creates the communications management plan and improves the likelihood that the right people receive the right information at the right time.",
+  "Deep Dive": "What it is: Plan Communications Management is the planning process that defines the project's communication strategy, communication requirements, methods, frequency, ownership, and escalation paths. It turns stakeholder information needs into a practical communication model for the project.\n\nWhy it matters and where it applies: projects fail when information is late, unclear, excessive, or sent to the wrong audience. This process matters in all delivery environments because sponsors, customers, team members, and governance bodies need different information at different times.\n\nThe most common misconception: that communications planning is just creating a status report template or meeting calendar. In practice it is a broader design decision about information flow, transparency, timing, audience needs, confidentiality, and decision support.\n\nHow it shows up in real projects: a team defines weekly dashboards for leadership, daily coordination channels for delivery staff, issue escalation routes, decision logs, and tailored stakeholder updates across the project lifecycle.",
+  "Contrast": "Communications management plan — Plan Communications Management is the process; the communications management plan is the documented output it produces.",
+  "Example": "In an enterprise system rollout, the project manager maps executives to monthly steering updates, business users to change-readiness briefings, and the delivery team to daily coordination channels and weekly risk reviews.",
+  "Related Terms": [
+   "Communications management plan",
+   "Communications requirements analysis",
+   "Stakeholder engagement",
+   "Manage communications",
+   "Monitor communications"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Plan Communications Management, pp. 70, 72, 73",
+  "Synonyms": [
+   "Communication Planning",
+   "Develop Communication Management Plan",
+   "Communications Planning"
+  ]
+ },
+ {
+  "Term": "Progress meeting",
+  "Core Meaning": "A meeting held to review current status, discuss progress against plan, surface issues, and coordinate next actions.",
+  "Depth": "Standard",
+  "Expansion": "In project practice, a progress meeting is a recurring status-oriented meeting used to compare actual progress with planned work and to align stakeholders on immediate actions. It supports monitoring and controlling by creating a forum for reporting, escalation, and coordination. The term is widely used in practice, but it is not usually treated by PMI as a distinct formal glossary entry with a stable technical definition.",
+  "Deep Dive": null,
+  "Contrast": "Progress update — a progress meeting is the live forum for discussing status; a progress update is the communicated content about that status.",
+  "Example": "During a construction project, the site team holds a weekly progress meeting to review completed work, schedule slippage, safety issues, and actions needed from subcontractors.",
+  "Related Terms": [
+   "Status meeting",
+   "Progress update",
+   "Monitoring",
+   "Controlling",
+   "Issue escalation"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Progress report",
+  "Core Meaning": "A progress report is a document or communication that describes the current status of project work against the plan.",
+  "Depth": "Standard",
+  "Expansion": "In PMI practice, a progress report communicates how work is advancing, typically including completed work, work in progress, upcoming work, and notable variances or issues. It supports monitoring by making schedule, cost, scope, or performance information visible to stakeholders. It is a reporting artifact rather than the broader management activity of tracking and controlling performance.",
+  "Deep Dive": null,
+  "Contrast": "Status report — a progress report focuses on advancement of work against plan, while a status report may present a broader current-state snapshot including health, risks, and decisions needed.",
+  "Example": "A construction project manager issues a weekly progress report showing foundation work completed, steel delivery delayed by three days, and the forecast effect on the milestone schedule.",
+  "Related Terms": [
+   "Work performance information",
+   "Status report",
+   "Monitor and control project work",
+   "Performance reporting"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Progress reporting",
+  "Core Meaning": "Progress reporting is the ongoing activity of collecting, analysing, and communicating information about project performance and advancement.",
+  "Depth": "Standard",
+  "Expansion": "It is part of project monitoring and stakeholder communication, turning performance data into usable information for decision-making. In PMI terms, this activity draws on work performance data and produces work performance information and reports for stakeholders. It helps compare actual results with the baseline so that corrective action, escalation, or replanning can occur when needed.",
+  "Deep Dive": null,
+  "Contrast": "Performance reporting — progress reporting emphasises advancement of planned work, while performance reporting more broadly communicates analysed project performance across measures such as schedule, cost, quality, and forecast outcomes.",
+  "Example": "On an ERP implementation, the PMO consolidates team updates each Friday and publishes progress reporting that compares completed configuration tasks and testing results with the approved baseline.",
+  "Related Terms": [
+   "Work performance data",
+   "Work performance information",
+   "Work performance reports",
+   "Monitor and control project work",
+   "Communications management"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Progress update",
+  "Core Meaning": "A communication that reports the current state of work, typically comparing actual progress with the plan and noting key issues or next steps.",
+  "Depth": "Atomic",
+  "Expansion": "A progress update is a status communication artifact rather than a distinct PMI technical concept. It is commonly used to keep stakeholders informed about what has been completed, what is in progress, and what needs attention.",
+  "Deep Dive": null,
+  "Contrast": "Status report — a progress update is any communication on current progress; a status report is a more formal, structured reporting document or output.",
+  "Example": "A project lead sends a Friday progress update summarizing completed milestones, delayed tasks, and the actions planned for the next week.",
+  "Related Terms": [
+   "Status report",
+   "Progress meeting",
+   "Work performance information",
+   "Stakeholder communication"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Project communications",
+  "Core Meaning": "Project communications are the purposeful generation, collection, distribution, storage, retrieval, management, monitoring, and disposition of project information.",
+  "Depth": "Foundational",
+  "Expansion": "Project communications cover how information moves among stakeholders so work can be coordinated, decisions can be made, and expectations can be managed. PMI treats communication as both a management process and a practical capability that affects stakeholder engagement, risk visibility, and delivery performance. It includes selecting channels, tailoring messages to audiences, and ensuring information is timely, accurate, and usable.",
+  "Deep Dive": "What it is: Project communications are the structured and ongoing exchange of project information among team members, sponsors, customers, vendors, and other stakeholders. It includes both formal and informal communication, written and verbal communication, and pull, push, and interactive methods.\n\nWhy it matters and where it applies: projects fail when the right people do not get the right information at the right time. Communication is central in every delivery approach because alignment, escalation, approvals, stakeholder confidence, and issue resolution all depend on it.\n\nThe most common misconception: that project communications means sending status reports. In practice, it is much broader and includes planning communication needs, shaping messages for different stakeholders, confirming understanding, and managing information flow across the full project lifecycle.\n\nHow it shows up in real projects:\n- Communication plans\n- Daily coordination\n- Steering-committee updates\n- RAID reporting\n- Vendor notices\n- Decision logs\n- Dashboards\n- Demos\n- Workshops\n- Stakeholder-specific briefings",
+  "Contrast": "Stakeholder engagement — project communications focuses on the flow and management of information, while stakeholder engagement focuses on building support, involvement, and relationships.",
+  "Example": "On an ERP rollout, the project manager uses weekly team standups, monthly sponsor dashboards, change-impact briefings for department heads, and a central repository for decisions and risks.",
+  "Related Terms": [
+   "Communications management",
+   "Stakeholder engagement",
+   "Information distribution",
+   "Communication methods",
+   "Stakeholder"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide — not confirmed to exact page in available search results"
+ },
+ {
+  "Term": "Project communications management",
+  "Core Meaning": "The knowledge area covering planning, managing, and monitoring project communications.",
+  "Depth": "Standard",
+  "Expansion": "Project Communications Management is the PMBOK knowledge area that ensures timely and appropriate planning, creation, distribution, storage, and disposition of project information. It includes planning communications, managing communications during execution, and monitoring that information needs are being met. Because project managers spend the majority of their time communicating, it is central to stakeholder engagement and project success.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder Management - communications management handles the flow of information, whereas stakeholder management focuses on engaging and influencing the people themselves.",
+  "Example": "Defining who receives status reports, in what format, and how often, then producing and adjusting them.",
+  "Related Terms": [
+   "Plan communications management",
+   "Manage communications",
+   "Monitor communications",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide - Project Communications Management",
+  "Synonyms": [
+   "Project Communication Management"
+  ]
+ },
+ {
+  "Term": "Project information",
+  "Core Meaning": "Data that has been organized, interpreted, or communicated so it is meaningful for managing and governing a project.",
+  "Depth": "Standard",
+  "Expansion": "Project information includes status details, forecasts, decisions, assumptions, issues, and other content used to direct and control project work. It is more useful than raw data because it has been contextualised for stakeholders or management needs. Effective project information supports timely decisions, transparency, and alignment across the project environment.",
+  "Deep Dive": null,
+  "Contrast": "Work performance data — project information is processed and contextualised for use, while work performance data is the raw observation gathered during execution.",
+  "Example": "A project manager converts task-completion data, cost figures, and risk updates into a weekly dashboard that helps the sponsor assess overall project health.",
+  "Related Terms": [
+   "Work performance data",
+   "Work performance information",
+   "Communication",
+   "Decision making"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Seventh Edition, page 260"
+ },
+ {
+  "Term": "Project reporting",
+  "Core Meaning": "The act of collecting and distributing project information to stakeholders.",
+  "Depth": "Atomic",
+  "Expansion": "Project reporting gathers performance data and packages it into reports such as status, progress, and forecast reports for the right audiences at the right time. It is a key part of communications management and supports informed decision-making.",
+  "Deep Dive": null,
+  "Contrast": "Work performance reports - project reporting is the activity, while work performance reports are the physical or electronic artifacts produced.",
+  "Example": "A PM issues a weekly status report summarizing schedule, cost, and risk to the steering committee.",
+  "Related Terms": [
+   "Work performance reports",
+   "Manage communications",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide - project reporting"
+ },
+ {
+  "Term": "Project work performance reports",
+  "Core Meaning": "Physical or electronic representations of work performance information compiled in project documents and intended to generate decisions, actions, or awareness.",
+  "Depth": "Standard",
+  "Expansion": "Project work performance reports present analysed project information in a form suited to decision making and communication. They draw on work performance information and may include status reports, memos, explanations, and recommendations. In PMI usage, they are outputs used to inform stakeholders and support monitoring and control.",
+  "Deep Dive": null,
+  "Contrast": "Work performance information — information is analysed performance data; reports package that information into communicated outputs for stakeholders and decisions.",
+  "Example": "A project manager issues a monthly dashboard showing schedule variance, cost performance, forecast completion dates, major risks, and recommended corrective actions for the steering committee.",
+  "Related Terms": [
+   "Work performance data",
+   "Work performance information",
+   "Performance reporting",
+   "Monitor and control project work",
+   "Project communications"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 105 and p. 722"
+ },
+ {
+  "Term": "Pull communication",
+  "Core Meaning": "A communication method used to provide large volumes of information to a large audience that accesses it at their own discretion.",
+  "Depth": "Standard",
+  "Expansion": "Pull communication makes information available for recipients to retrieve when needed. It is useful when the audience is large, the content is extensive, or different stakeholders need different levels of detail. Common examples include dashboards, repositories, portals, and intranet sites. It supports self-service access and reduces unnecessary message traffic.",
+  "Deep Dive": null,
+  "Contrast": "Push communication — pull communication is accessed on demand by the recipient; push communication is sent directly to recipients.",
+  "Example": "A project team posts status reports, decision logs, and schedule updates on a shared portal for stakeholders to review when needed.",
+  "Related Terms": [
+   "Push communication",
+   "Communication methods",
+   "Dashboard",
+   "Stakeholder"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMIstandards+ Navigator, pull communication, page 377"
+ },
+ {
+  "Term": "Push communication",
+  "Core Meaning": "A communication method used to distribute information directly to specific recipients who need to receive it.",
+  "Depth": "Standard",
+  "Expansion": "Push communication sends information to intended recipients rather than requiring them to retrieve it. It is effective when messages are targeted and timely delivery matters, such as approvals, escalations, or status updates. Common examples include email, memos, voice mail, and direct messaging. It helps ensure key stakeholders receive information that is relevant to their role.",
+  "Deep Dive": null,
+  "Contrast": "Pull communication — push communication is sent directly to recipients; pull communication is made available for recipients to access on demand.",
+  "Example": "A project manager emails a risk escalation and revised milestone date directly to the sponsor, steering committee, and affected workstream leads.",
+  "Related Terms": [
+   "Pull communication",
+   "Communication methods",
+   "Stakeholder",
+   "Status report"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, push communication, page 727"
+ },
+ {
+  "Term": "Report",
+  "Core Meaning": "A communication artifact that presents project information in a form suited to stakeholder awareness, analysis, or decision making.",
+  "Depth": "Standard",
+  "Expansion": "A report conveys project information for a purpose such as status visibility, performance review, risk awareness, or forecasting. It is audience-oriented and may be produced in narrative, visual, dashboard, or summary form. In PMI terms, reports support transparency and informed decision making rather than acting as the primary record of tracked items.",
+  "Deep Dive": null,
+  "Contrast": "Register — a report communicates information to an audience; a register stores and maintains a tracked set of project entries over time.",
+  "Example": "The project manager sends a monthly performance report showing milestone progress, cost trends, major risks, and forecast completion dates.",
+  "Related Terms": [
+   "Status report",
+   "Performance report",
+   "Dashboard",
+   "Communication",
+   "Project work performance reports"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project artifacts section, p. 153",
+  "Synonyms": [
+   "Reports"
+  ]
+ },
+ {
+  "Term": "Sender-receiver model",
+  "Core Meaning": "A communication model in which a sender encodes and transmits a message and a receiver decodes it, with understanding affected by medium, noise, and feedback.",
+  "Depth": "Foundational",
+  "Expansion": "The sender-receiver model explains communication as more than simply sending information; meaning must be encoded, transmitted, decoded, and confirmed. PMI uses it to show why miscommunication occurs even when a message was technically delivered. It is foundational in stakeholder and team communication because project success depends on shared understanding, not just message transmission.",
+  "Deep Dive": "What it is: The sender-receiver model describes communication as a process with distinct stages:\n\n- Message creation.\n- Transmission through a channel.\n- Reception.\n- Interpretation.\n- Feedback.\n\nIt highlights that barriers such as assumptions, language differences, timing, and noise can distort meaning along the way.\n\nWhy it matters and where it applies: projects rely on accurate communication across sponsors, team members, vendors, and stakeholders with different perspectives. The model helps explain why communication planning must consider audience, method, context, and confirmation of understanding rather than only frequency of updates.\n\nThe most common misconception: that communication is complete once a message is sent. In practice, a project communication is only effective when the receiver interprets it as intended and feedback confirms that understanding.\n\nHow it shows up in real projects: status reports are tailored to executive audiences, technical instructions are followed by confirmation, risks are escalated through agreed channels, and meetings include feedback loops to verify decisions and next steps.",
+  "Contrast": "Communication method — the sender-receiver model explains how understanding is created or distorted; a communication method is simply the channel or mechanism used to exchange information.",
+  "Example": "A project manager emails a scope change to a supplier, then schedules a short call to confirm the supplier interpreted the revised acceptance criteria correctly and can act on them.",
+  "Related Terms": [
+   "Communication",
+   "Feedback",
+   "Communication methods",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) — Sixth Edition, page 361"
+ },
+ {
+  "Term": "Shared understanding",
+  "Core Meaning": "A common and aligned interpretation of goals, terms, expectations, and decisions among stakeholders.",
+  "Depth": "Foundational",
+  "Expansion": "Shared understanding exists when project participants interpret key information in the same way. It reduces ambiguity, rework, and conflict by aligning people on what is being done and why. PMI treats this as essential to effective communication, stakeholder engagement, and requirements work. It becomes especially important when multiple functions, disciplines, or organisations are involved.",
+  "Deep Dive": "What it is: Shared understanding means the team and stakeholders attach the same meaning to important goals, terms, constraints, and decisions. It is an outcome of communication, collaboration, and validation rather than simply the act of distributing information.\n\nWhy it matters and where it applies: It is critical in requirements definition, scope clarification, change review, and acceptance because many project failures come from people believing they agreed when they actually interpreted something differently. It matters most where work crosses business, technical, operational, and external boundaries.\n\nThe most common misconception: that communication is complete once information has been sent. In practice, understanding is only shared when people confirm meaning through discussion, examples, walkthroughs, prototypes, or acceptance criteria.\n\nHow it shows up in real projects: Teams build shared understanding through facilitated workshops, backlog refinement, visual models, review sessions, decision logs, and explicit definitions of done and acceptance. When it is missing, rework, disputes, and avoidable change requests usually increase.",
+  "Contrast": "Information distribution — information distribution is the act of sharing information; shared understanding is the result of people interpreting it consistently.",
+  "Example": "A project team reviews a prototype with users and confirms that the term dashboard refers to the same reporting view for both business and technical stakeholders.",
+  "Related Terms": [
+   "Communication",
+   "Stakeholder engagement",
+   "Requirements",
+   "Acceptance criteria",
+   "Facilitation"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Stakeholder communication",
+  "Core Meaning": "The deliberate exchange of project information with stakeholders to build understanding and support.",
+  "Depth": "Standard",
+  "Expansion": "Stakeholder communication tailors the content, channel, frequency, and tone of information to each audience's needs and influence. It supports engagement by keeping stakeholders informed, managing expectations, and surfacing concerns early. A communications management plan and analysis of requirements guide who receives what, when, and how.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder engagement — communication is the act of conveying information, while engagement is the broader effort to involve and influence stakeholders over time.",
+  "Example": "A project manager sends executives a concise monthly dashboard while giving the operations team detailed weekly working sessions.",
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Communications management plan",
+   "Communications requirements analysis",
+   "Stakeholder register"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "PMBOK Guide — Manage Communications and Stakeholder Engagement"
+ },
+ {
+  "Term": "Status meeting",
+  "Core Meaning": "A regularly scheduled meeting to exchange and analyze information about the current progress of the project and its performance.",
+  "Depth": "Standard",
+  "Expansion": "A Status Meeting is a recurring forum used to review where the project stands against plan or current expectations. Participants share updates, assess progress, surface issues, and interpret performance information so decisions or follow-up actions can be taken. Its value comes from turning scattered updates into shared understanding and coordinated next steps.",
+  "Deep Dive": null,
+  "Contrast": "Steering committee meeting — A Status Meeting focuses on current progress and performance exchange, while a steering committee meeting focuses more on oversight, escalation, and governance decisions.",
+  "Example": "Every Monday, the project team reviews completed tasks, milestone status, schedule variance, open risks, and decisions needed for the coming week.",
+  "Related Terms": [
+   "Project communications",
+   "Performance reporting",
+   "Issue review",
+   "Progress update"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon of Project Management Terms"
+ },
+ {
+  "Term": "Status report",
+  "Core Meaning": "A project document or communication that describes current performance and condition at a specific point in time.",
+  "Depth": "Atomic",
+  "Expansion": "A status report summarises where the project stands against the plan at a given moment. It commonly covers progress, key issues, risks, schedule or cost condition, and near-term next steps.",
+  "Deep Dive": null,
+  "Contrast": "Progress report — a status report shows the current state at a point in time, while a progress report emphasises work completed during a reporting period.",
+  "Example": "A weekly status report to the sponsor shows that testing is on track, two defects remain high priority, and the deployment decision is due on Friday.",
+  "Related Terms": [
+   "Work performance reports",
+   "Progress report",
+   "Project communications",
+   "Dashboard",
+   "Forecast"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry",
+  "Synonyms": [
+   "Status reporting"
+  ]
+ },
+ {
+  "Term": "Status review",
+  "Core Meaning": "A recurring review of current project progress, issues, and near-term actions used to support coordination and control.",
+  "Depth": "Standard",
+  "Expansion": "A status review is a common project-management review practice for assessing where work stands against plan. It typically covers completed work, upcoming activities, issues, risks, and decisions needed from stakeholders. Although widely used in PMI-aligned practice, it is better treated as a practitioner term than as a distinct formal glossary concept.",
+  "Deep Dive": null,
+  "Contrast": "Status report — a status review is the discussion or meeting, while a status report is the documented output or input for that discussion.",
+  "Example": "Each Friday the project manager runs a status review with workstream leads to confirm milestone health and escalate unresolved blockers.",
+  "Related Terms": [
+   "Status report",
+   "Progress meeting",
+   "Issue log",
+   "Risk review",
+   "Project communications"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Virtual collaboration tools",
+  "Core Meaning": "Software applications and platforms designed to facilitate communication, coordination, and collaboration among geographically dispersed project team members.",
+  "Depth": "Standard",
+  "Expansion": "Virtual collaboration tools support teams that do not work in the same physical location. PMI describes them as enabling communication, coordination, and collaboration across dispersed team members. They are especially useful for meetings, shared workspaces, document exchange, and ongoing team interaction. Their value depends on how well they support the team's working agreements and communication needs.",
+  "Deep Dive": null,
+  "Contrast": "Virtual team — virtual collaboration tools are the technology that supports distributed work; a virtual team is the people and working arrangement using that technology.",
+  "Example": "A global project team uses video meetings, shared task boards, and document collaboration software to coordinate work across time zones.",
+  "Related Terms": [
+   "Virtual team",
+   "Communication methods",
+   "Collaboration",
+   "Team charter",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Knowledgebase — Virtual collaboration tools",
+  "Synonyms": [
+   "Collaboration platforms",
+   "Shared workspace tools"
+  ]
+ },
+ {
+  "Term": "Visual data and information",
+  "Core Meaning": "Project data and information presented visually so patterns, trends, relationships, or status can be understood more quickly.",
+  "Depth": "Atomic",
+  "Expansion": "This concept covers charts, graphs, dashboards, and other visual displays used to communicate project meaning more clearly than raw text or numbers alone. In PMI practice it is a useful communication approach, but not a distinct formal glossary entry in the same way as a named method or technique.",
+  "Deep Dive": null,
+  "Contrast": "Work performance report — Visual Data and Information is a presentation form, while a work performance report is a specific project output that may use visuals.",
+  "Example": "A PMO uses a dashboard with trend lines and traffic-light indicators to show cost and schedule status across projects.",
+  "Related Terms": [
+   "Dashboard",
+   "Work performance reports"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Visualization",
+  "Core Meaning": "Representing data or information graphically to aid understanding and decisions.",
+  "Depth": "Standard",
+  "Expansion": "Visualization turns numbers and relationships into charts, boards, and diagrams that make patterns, status, and outliers easy to grasp. It supports faster, better-informed communication and decision-making.",
+  "Deep Dive": null,
+  "Contrast": "Report — a report communicates information often in text/tables; visualization specifically presents it in graphical form.",
+  "Example": "A burndown chart visualizes remaining work so the team sees at a glance whether it is on track.",
+  "Related Terms": [
+   "Data visualization",
+   "Dashboard",
+   "Information radiator",
+   "Burndown chart"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "Not a formal PMI glossary entry; defined for glossary completeness"
+ },
+ {
+  "Term": "Work performance reports",
+  "Core Meaning": "Physical or electronic representations of work performance information compiled to generate decisions, actions, or awareness.",
+  "Depth": "Standard",
+  "Expansion": "Work performance reports package analysed project performance into formats stakeholders can use for oversight and action. PMI distinguishes them from raw data and analysed information because reports are the communicated output, such as dashboards, status reports, or trend views. They support governance, escalation, and decision making across the project life cycle.",
+  "Deep Dive": null,
+  "Contrast": "Work performance information — information is the analysed performance content; reports are the representations used to communicate it.",
+  "Example": "A project manager issues a weekly dashboard showing schedule variance, defect trends, and forecast completion dates to the sponsor and team leads.",
+  "Related Terms": [
+   "Work performance data",
+   "Work performance information",
+   "Status report",
+   "Progress report",
+   "Dashboard"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, work performance reports, page 144"
+ },
+ {
+  "Term": "Active listening",
+  "Core Meaning": "Active listening is a communication technique in which the listener fully attends to the speaker, checks understanding, and responds in ways that clarify meaning and show respect.",
+  "Depth": "Standard",
+  "Expansion": "Active listening goes beyond hearing words: it includes focused attention, paraphrasing or summarizing, asking clarifying questions, and noticing non-verbal cues. In projects it improves requirements quality, helps de-escalate conflict, and builds trust with team members and stakeholders. PMI treats it as a core interpersonal and team skill used in coaching, negotiation, facilitation, and stakeholder engagement.",
+  "Deep Dive": null,
+  "Contrast": "Osmotic communication - osmotic communication is passive absorption of ambient team information, while active listening is deliberate attention to a speaker to confirm shared understanding.",
+  "Example": "In a risk review, the project manager restates a sponsor concern about the audit window, asks what success looks like for that date, and only then offers schedule options.",
+  "Related Terms": [
+   "Communication skills",
+   "Interpersonal skills",
+   "Facilitation",
+   "Conflict management",
+   "Stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMBOK Guide, interpersonal and team skills (active listening)"
+ }
 ]

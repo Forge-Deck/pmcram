@@ -1,518 +1,538 @@
 [
-  {
-    "Term": "Co-creation",
-    "Core Meaning": "The collaborative development of solutions, outcomes, or value with stakeholders rather than for them.",
-    "Depth": "Standard",
-    "Expansion": "In PMI-aligned practice, co-creation emphasises active stakeholder participation in shaping requirements, decisions, and deliverables. It is especially relevant where user insight, shared ownership, or innovation improves results. The concept supports stronger alignment between delivered outputs and stakeholder needs, even when it is not always presented as a formal standalone glossary term in PMI standards.",
-    "Deep Dive": null,
-    "Contrast": "Collaboration — co-creation goes beyond working together by jointly shaping the solution or outcome itself.",
-    "Example": "A product team runs workshops with customers, operations staff, and developers to jointly design service features before finalising the release scope.",
-    "Related Terms": [
-      "Stakeholder engagement",
-      "Requirements",
-      "Facilitation",
-      "Value",
-      "Collaboration"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "not a formal PMI glossary entry"
+ {
+  "Term": "Co-creation",
+  "Core Meaning": "The collaborative development of solutions, outcomes, or value with stakeholders rather than for them.",
+  "Depth": "Standard",
+  "Expansion": "In PMI-aligned practice, co-creation emphasises active stakeholder participation in shaping requirements, decisions, and deliverables. It is especially relevant where user insight, shared ownership, or innovation improves results. The concept supports stronger alignment between delivered outputs and stakeholder needs, even when it is not always presented as a formal standalone glossary term in PMI standards.",
+  "Deep Dive": null,
+  "Contrast": "Collaboration — co-creation goes beyond working together by jointly shaping the solution or outcome itself.",
+  "Example": "A product team runs workshops with customers, operations staff, and developers to jointly design service features before finalising the release scope.",
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Requirements",
+   "Facilitation",
+   "Value",
+   "Collaboration"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Customer",
+  "Core Meaning": "A person or organization that will use the project's product, service, or result.",
+  "Depth": "Atomic",
+  "Expansion": "The customer is the intended user or recipient of what the project delivers. In some projects the customer and sponsor are the same party, but in others they are distinct with different interests and decision roles.",
+  "Deep Dive": null,
+  "Contrast": "Sponsor — the customer uses or receives the outcome; the sponsor provides authorization, support, and often funding.",
+  "Example": "In a learning platform project, the corporate training department may sponsor the work while employees and managers are the customers who use the finished system.",
+  "Related Terms": [
+   "Sponsor",
+   "Stakeholder",
+   "End user",
+   "Requirements",
+   "Product"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, customer glossary entry, page 702"
+ },
+ {
+  "Term": "Empathy map",
+  "Core Meaning": "A simple visual that captures what a user or stakeholder says, thinks, does, and feels, to build shared understanding of their needs.",
+  "Depth": "Standard",
+  "Expansion": "An empathy map is a collaborative tool — usually a quadrant grid of Says, Thinks, Does, and Feels (sometimes with Pains and Gains) — used to synthesize what a team knows about a person it is designing for or engaging. By externalizing assumptions and evidence about a stakeholder's experience, the team surfaces gaps, aligns on priorities, and grounds decisions in real needs rather than opinion. It supports requirements elicitation, stakeholder engagement, and user-centered design.",
+  "Deep Dive": null,
+  "Contrast": "Persona — an empathy map organizes what is known about one person's experience into Says/Thinks/Does/Feels, while a persona is a fuller fictional profile representing a whole segment of users.",
+  "Example": "Before redesigning the intake form, the team fills an empathy map for a frontline clerk and realizes their strongest 'feel' is anxiety about entering wrong data, so input validation becomes a priority.",
+  "Related Terms": [
+   "Stakeholder analysis",
+   "Requirements elicitation",
+   "Persona",
+   "Customer journey map",
+   "Voice of the customer"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "Design-thinking practice — empathy map"
+ },
+ {
+  "Term": "End user",
+  "Core Meaning": "The person or group that ultimately uses the product, service, or result created by the project.",
+  "Depth": "Standard",
+  "Expansion": "An end user is the intended user of the project outcome. PMI distinguishes end users from sponsors, customers, and other stakeholders because those who approve, fund, or receive the work may not be the same people who use it in practice. Identifying end users helps shape requirements, usability, training, adoption, and acceptance expectations.",
+  "Deep Dive": null,
+  "Contrast": "Customer — an end user uses the result, while a customer may buy, fund, or receive it without personally using it.",
+  "Example": "In a hospital scheduling-system project, nurses and reception staff are the end users even though hospital leadership funds the work.",
+  "Related Terms": [
+   "Stakeholder",
+   "Customer",
+   "Requirements"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon of Project Management Terms, End user"
+ },
+ {
+  "Term": "Expectation management",
+  "Core Meaning": "The ongoing practice of aligning stakeholder expectations with what the project can realistically deliver and when.",
+  "Depth": "Standard",
+  "Expansion": "Expectation management is the practical work of ensuring stakeholders understand likely outcomes, constraints, tradeoffs, and changes throughout the project. It helps reduce misunderstanding, dissatisfaction, and conflict by keeping expectations realistic as scope, risk, schedule, or priorities evolve. In PMI usage it is better understood as a stakeholder engagement and communication practice than as a named formal process.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder engagement — expectation management focuses specifically on aligning what stakeholders expect; stakeholder engagement is the broader practice of involving and working with stakeholders throughout the project.",
+  "Example": "When a vendor delay threatens a release date, the project manager resets stakeholder expectations early by explaining schedule impacts and the resulting feature tradeoffs.",
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Communication management",
+   "Change management",
+   "Transparency",
+   "Scope management"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry",
+  "Synonyms": [
+   "Stakeholder expectation management"
+  ]
+ },
+ {
+  "Term": "Key stakeholder",
+  "Core Meaning": "A stakeholder with the ability to affect change, influence decisions, or be significantly impacted by project outcomes.",
+  "Depth": "Standard",
+  "Expansion": "A key stakeholder is someone whose influence, authority, interest, or exposure makes their engagement especially important to project success. These stakeholders often shape priorities, approve decisions, remove obstacles, or experience major impacts from the work. Identifying them early improves communication, governance, and stakeholder engagement planning.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder — every key stakeholder is a stakeholder, but not every stakeholder has the same level of influence, decision power, or impact.",
+  "Example": "In a hospital system rollout, the chief medical officer is treated as a key stakeholder because clinical adoption depends on that leader's support and decisions.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder analysis",
+   "Influence",
+   "Governance"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, key stakeholder, p. 400"
+ },
+ {
+  "Term": "Manage stakeholder engagement",
+  "Core Meaning": "The process of communicating and working with stakeholders to meet their needs and expectations, address issues, and foster appropriate stakeholder involvement in project activities and decisions.",
+  "Depth": "Foundational",
+  "Expansion": "Manage Stakeholder Engagement is the execution work of turning stakeholder strategies into active relationship management. It focuses on building and maintaining support, reducing resistance, and responding to stakeholder concerns as the project unfolds. PMI treats it as more than communication alone because engagement also involves listening, negotiation, expectation management, and issue resolution.",
+  "Deep Dive": "What it is: Manage Stakeholder Engagement is the process of actively working with stakeholders so their needs, concerns, and influence are addressed in ways that support project success.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just technical delivery. This process matters most where there are competing interests, organisational change, regulatory oversight, or strong user impact, but it applies to every project.\n\nThe most common misconception: that stakeholder engagement is just sending updates. In practice, communication is only one part; real engagement includes dialogue, trust-building, problem solving, and adapting the approach based on stakeholder reactions.\n\nHow it shows up in real projects: a project manager meets with sponsors, users, and functional leaders, resolves emerging concerns, adjusts engagement tactics, and works continuously to sustain buy-in through changes and decisions.",
+  "Contrast": "Manage Communications — Manage Stakeholder Engagement focuses on relationships, influence, and involvement; Manage Communications focuses on creating, distributing, and storing project information.",
+  "Example": "During an enterprise system rollout, the project manager runs workshops with department heads and user representatives to surface resistance early and gain support for process changes.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement plan",
+   "Plan stakeholder engagement",
+   "Manage communications",
+   "Issue log"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Manage Stakeholder Engagement, p. 523"
+ },
+ {
+  "Term": "Monitor stakeholder engagement",
+  "Core Meaning": "The process of monitoring overall project stakeholder relationships and tailoring strategies for engaging stakeholders through modification of engagement approaches and plans.",
+  "Depth": "Foundational",
+  "Expansion": "Monitor Stakeholder Engagement is the project management process used to check whether stakeholder engagement strategies are working as intended and to adjust them when stakeholder attitudes, influence, or needs change. It compares current and desired engagement levels, reviews relationship quality, and identifies emerging issues that may affect support for the project. The process helps sustain alignment across stakeholders throughout the project life cycle rather than treating engagement as a one-time planning activity.",
+  "Deep Dive": "What it is: Monitor Stakeholder Engagement is a Monitoring and Controlling process focused on tracking stakeholder responses, relationships, and engagement effectiveness over time. It uses work performance data, stakeholder feedback, issue information, and observation to determine whether current engagement actions remain appropriate.\n\nWhy it matters and where it applies: Stakeholder positions can shift as scope, risk, timing, or external conditions change. Ongoing monitoring helps the team detect resistance early, maintain sponsor and user support, and adjust communications and engagement tactics before issues grow into delays or conflict.\n\nThe most common misconception: that stakeholder engagement is handled once in planning and then simply executed. In practice, stakeholder dynamics are fluid, so the project manager must continually assess influence, expectations, and sentiment.\n\nHow it shows up in real projects: A project team may discover that a previously supportive operations group has become resistant after a rollout schedule change. The team updates engagement strategies, increases targeted workshops, and revises escalation paths to rebuild commitment.",
+  "Contrast": "Manage Stakeholder Engagement — Manage Stakeholder Engagement implements communication and collaboration actions, while Monitor Stakeholder Engagement evaluates whether those actions are effective and adjusts them as needed.",
+  "Example": "During an ERP rollout, the project team tracks business-unit sentiment and sees adoption concerns rising among regional managers, prompting revised workshops and more active sponsor outreach.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement plan",
+   "Manage stakeholder engagement",
+   "Monitoring and controlling process group",
+   "Issue log"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 13.4 Monitor Stakeholder Engagement, pp. 530-541"
+ },
+ {
+  "Term": "Negative stakeholder",
+  "Core Meaning": "A stakeholder who would be harmed by the project or otherwise wants it to fail.",
+  "Depth": "Standard",
+  "Expansion": "A negative stakeholder is one whose interests are adversely affected by the project's success, or who for other reasons opposes it. Unlike positive stakeholders who benefit and support the work, negative stakeholders may actively resist, obstruct, or undermine it. Identifying them early lets the project manager plan engagement and mitigation rather than be blindsided.",
+  "Deep Dive": null,
+  "Contrast": "Positive stakeholder - a positive stakeholder benefits from and supports the project, whereas a negative stakeholder is disadvantaged and may work against it.",
+  "Example": "Residents near a planned highway who will lose green space and lobby to cancel the project.",
+  "Related Terms": [
+   "Positive stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder analysis"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "PMBOK Guide - stakeholder concepts"
+ },
+ {
+  "Term": "Plan stakeholder engagement",
+  "Core Meaning": "The process of developing approaches to involve project stakeholders based on their needs, expectations, interests, and potential impact on the project.",
+  "Depth": "Foundational",
+  "Expansion": "Plan Stakeholder Engagement is the planning process used to define how stakeholders will be engaged throughout the project. It translates stakeholder analysis into a practical approach for gaining appropriate support, participation, and alignment. PMI treats it as a distinct process within project stakeholder management, not merely a communications activity.",
+  "Deep Dive": "What it is: Plan Stakeholder Engagement is a planning process that determines how to engage stakeholders throughout the project or phase. Its main output is the stakeholder engagement plan, which sets out strategies for involving stakeholders in ways that support project success.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just through technical execution. This process matters wherever stakeholder influence, expectations, resistance, or support can affect outcomes, which means it applies broadly across predictive, adaptive, and hybrid environments.\n\nThe most common misconception: that it is just about sending information to people. In PMI terms, it is broader than communications because it focuses on how to involve stakeholders, address their concerns, and build or maintain commitment.\n\nHow it shows up in real projects: a team may plan tailored approaches such as sponsor briefings, regulator consultations, user workshops, and targeted actions for resistant groups rather than relying on one generic engagement method for everyone.",
+  "Contrast": "Manage Stakeholder Engagement — Plan Stakeholder Engagement defines the approach; Manage Stakeholder Engagement carries out that approach during project work.",
+  "Example": "A hospital system implementation team creates a stakeholder engagement plan that includes executive steering reviews, nurse-superuser workshops, and targeted outreach to departments likely to resist workflow changes.",
+  "Related Terms": [
+   "Stakeholder engagement plan",
+   "Stakeholder analysis",
+   "Manage stakeholder engagement",
+   "Monitor stakeholder engagement",
+   "Communications management"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Plan Stakeholder Engagement, pp. 518-523",
+  "Synonyms": [
+   "Stakeholder engagement planning"
+  ]
+ },
+ {
+  "Term": "Positive stakeholder",
+  "Core Meaning": "A stakeholder who supports the project and stands to benefit from its success.",
+  "Depth": "Standard",
+  "Expansion": "A positive stakeholder views the project favorably and is likely to gain from its outcomes, so they tend to champion it, supply resources, and help remove obstacles. Engaging positive stakeholders well turns their support into active advocacy that can offset resistance elsewhere. Recognizing them helps the team build a coalition that sustains momentum.",
+  "Deep Dive": null,
+  "Contrast": "A positive stakeholder benefits from success and supports the project, while a negative stakeholder perceives harm and may resist it.",
+  "Example": "A department head who will gain efficiency from a new system actively promotes its adoption to peers.",
+  "Related Terms": [
+   "Negative stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder analysis"
+  ],
+  "Tier": "Adjacent concept",
+  "Source": "PMBOK Guide - Sixth Edition"
+ },
+ {
+  "Term": "Power interest grid",
+  "Core Meaning": "A power interest grid is a stakeholder analysis tool that maps stakeholders by their level of authority and their level of concern or involvement to guide engagement strategy.",
+  "Depth": "Standard",
+  "Expansion": "Project teams use the power interest grid to decide how closely different stakeholders should be engaged, informed, or monitored. It supports stakeholder identification and engagement planning by highlighting which people or groups can influence outcomes and which are most affected by the work. The grid is especially useful early in a project and whenever the stakeholder landscape shifts.",
+  "Deep Dive": null,
+  "Contrast": "Salience model — a power interest grid classifies stakeholders by power and interest; a salience model classifies them by power, legitimacy, and urgency.",
+  "Example": "A project manager maps the chief operations officer as high power and high interest and therefore schedules frequent briefings, while keeping low power and low interest external observers updated through periodic summaries.",
+  "Figure": {
+   "svg": "<svg viewBox='0 0 315 207' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='41' y1='12' x2='41' y2='168' stroke='currentColor' stroke-width='1.5'/><line x1='41' y1='168' x2='303' y2='168' stroke='currentColor' stroke-width='1.5'/><line x1='172' y1='12' x2='172' y2='168' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><line x1='41' y1='90' x2='303' y2='90' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><text x='106' y='54' fill='#B5462F' font-size='10' text-anchor='middle'>Keep Satisfied</text><text x='237' y='54' fill='#1F5FA8' font-size='10' text-anchor='middle'>Manage Closely</text><text x='106' y='132' fill='currentColor' font-size='10' text-anchor='middle'>Monitor</text><text x='237' y='132' fill='#2F6F5E' font-size='10' text-anchor='middle'>Keep Informed</text><text x='23' y='90' fill='currentColor' font-size='11' text-anchor='middle' transform='rotate(-90 23 90)'>Power</text><text x='172' y='191' fill='currentColor' font-size='11' text-anchor='middle'>Interest</text></svg>"
   },
-  {
-    "Term": "Customer",
-    "Core Meaning": "A person or organization that will use the project's product, service, or result.",
-    "Depth": "Atomic",
-    "Expansion": "The customer is the intended user or recipient of what the project delivers. In some projects the customer and sponsor are the same party, but in others they are distinct with different interests and decision roles.",
-    "Deep Dive": null,
-    "Contrast": "Sponsor — the customer uses or receives the outcome; the sponsor provides authorization, support, and often funding.",
-    "Example": "In a learning platform project, the corporate training department may sponsor the work while employees and managers are the customers who use the finished system.",
-    "Related Terms": [
-      "Sponsor",
-      "Stakeholder",
-      "End user",
-      "Requirements",
-      "Product"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, customer glossary entry, page 702"
+  "Synonyms": [
+   "Mendelow's matrix"
+  ],
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder analysis",
+   "Salience model",
+   "Stakeholder engagement plan"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Project sponsor",
+  "Core Meaning": "The project sponsor is the person or group that provides resources and support for the project, program, or portfolio and is accountable for enabling success.",
+  "Depth": "Foundational",
+  "Expansion": "The sponsor champions the initiative at an organisational level, helps secure funding and authority, and supports key governance and decision-making needs. PMI treats the sponsor as distinct from the project manager: the sponsor owns high-level business backing and strategic alignment, while the project manager leads day-to-day management of delivery. This role is foundational because projects often fail not only from execution issues but from weak sponsorship, unclear escalation paths, or lack of executive support. The sponsor is especially visible at initiation, major decisions, risk escalation points, and benefit-realisation discussions.",
+  "Deep Dive": "What it is: The project sponsor is the senior individual or governing body that legitimises the project and connects it to organisational strategy, funding, and executive support. The sponsor helps establish direction, resolves escalated issues, and ensures the project has the backing needed to proceed.\n\nWhy it matters and where it applies: projects need more than a competent project manager; they need authority, alignment, and timely decisions from the business side. Sponsorship is critical in change initiatives, cross-functional work, and any project where priorities, resources, or business outcomes must be defended at leadership level.\n\nThe most common misconception: that the sponsor is just a ceremonial approver who signs the charter and disappears. In strong practice, the sponsor remains engaged, removes obstacles, supports governance, and helps maintain alignment between delivery and intended business value.\n\nHow it shows up in real projects — the sponsor:\n- Approves the charter\n- Supports funding\n- Attends governance reviews\n- Resolves escalated stakeholder conflicts\n- Confirms major scope decisions\n- Advocates for adoption of the project's outcomes",
+  "Contrast": "Project manager — the sponsor provides executive ownership, support, and strategic accountability; the project manager leads planning, coordination, and day-to-day delivery management.",
+  "Example": "In an enterprise ERP rollout, the CFO acts as sponsor by securing funding, resolving conflicts between business units, approving major decisions, and reinforcing adoption expectations with department leaders.",
+  "Related Terms": [
+   "Project manager",
+   "Project charter",
+   "Governance",
+   "Business case",
+   "Steering committee"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Glossary, p. 369"
+ },
+ {
+  "Term": "Salience model",
+  "Core Meaning": "A classification model that identifies stakeholder importance based on power, legitimacy, and urgency.",
+  "Depth": "Foundational",
+  "Expansion": "The salience model helps a project team determine which stakeholders need the most immediate attention by assessing three attributes: power, legitimacy, and urgency. Stakeholders may possess one, two, or all three attributes, which affects how prominently they are managed. It is commonly used during stakeholder identification and analysis to shape engagement strategies.",
+  "Deep Dive": "Salience is the degree to which a stakeholder commands a project manager's priority, and it is built from three attributes shown as overlapping circles in a Venn diagram:\n\n- Power: the ability to influence outcomes — to impose their will, supply or withhold resources, or override decisions.\n- Legitimacy: whether their involvement is seen as proper or appropriate — a recognised, authorised claim, such as a sponsor, owner, or regulator.\n- Urgency: how time-sensitive and critical their claim is — how quickly they need a response.\n\nThe number of attributes a stakeholder holds determines which of seven classes they fall into, and the more they hold, the more closely you manage them:\n\nOne attribute (latent, low salience):\n- Dormant — power only. Can act but has no pressing or legitimate claim right now; watch in case that changes.\n- Discretionary — legitimacy only. A proper claim but no power and no urgency; often the target of goodwill rather than active management.\n- Demanding — urgency only. Noisy and insistent but lacks power and legitimacy; a 'mosquito' that consumes attention without warranting priority.\n\nTwo attributes (expectant, moderate salience):\n- Dominant — power + legitimacy. A formal, influential stakeholder (e.g. a sponsor) whose expectations clearly matter; keep informed and engaged.\n- Dependent — legitimacy + urgency but no power. A valid, pressing claim with no clout of its own, so they rely on a champion or build coalitions to be heard; advocate for them.\n- Dangerous — power + urgency but no legitimacy. Coercive and able to act, with no proper claim; may bypass process, so manage carefully to contain the threat.\n\nThree attributes (definitive, highest salience):\n- Definitive — power + legitimacy + urgency. Your top priority; engage and satisfy first.\n\nWhat it means for people: salience is dynamic. Urgency in particular rises and falls, so a discretionary or dependent stakeholder can become definitive overnight when a deadline or crisis hits. Reassess the classification as the project moves rather than treating it as fixed.",
+  "Contrast": "Power interest grid — the salience model classifies stakeholders by power, legitimacy, and urgency; the power interest grid focuses on power and level of interest.",
+  "Example": "In a hospital system upgrade, a regulatory body with formal authority, a legitimate oversight role, and an urgent compliance deadline is treated as highly salient and engaged closely.",
+  "Figure": {
+   "svg": "<svg viewBox='0 0 227 238' xmlns='http://www.w3.org/2000/svg'><circle cx='68' cy='86.5' r='56' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><circle cx='148' cy='86.5' r='56' fill='#2F6F5E' fill-opacity='0.12' stroke='#2F6F5E' stroke-width='1.2'/><circle cx='108' cy='148.5' r='56' fill='#B5462F' fill-opacity='0.12' stroke='#B5462F' stroke-width='1.2'/><text x='68' y='22.5' fill='#1F5FA8' font-size='10.5' text-anchor='middle'>Power</text><text x='148' y='22.5' fill='#2F6F5E' font-size='10.5' text-anchor='middle'>Legitimacy</text><text x='108' y='222.5' fill='#B5462F' font-size='10.5' text-anchor='middle'>Urgency</text><text x='32' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dormant</text><text x='184' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Discretionary</text><text x='108' y='186.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Demanding</text><rect x='89' y='55.5' width='38' height='10' fill='%BG%'/><text x='108' y='63.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dominant</text><rect x='48' y='125.5' width='44' height='10' fill='%BG%'/><text x='70' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dangerous</text><rect x='124' y='125.5' width='44' height='10' fill='%BG%'/><text x='146' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dependent</text><rect x='81' y='99.5' width='54' height='12' fill='%BG%'/><text x='108' y='108.5' fill='currentColor' font-size='8.5' font-weight='bold' text-anchor='middle'>Definitive</text></svg>"
   },
-  {
-    "Term": "Empathy map",
-    "Core Meaning": "A simple visual that captures what a user or stakeholder says, thinks, does, and feels, to build shared understanding of their needs.",
-    "Depth": "Standard",
-    "Expansion": "An empathy map is a collaborative tool — usually a quadrant grid of Says, Thinks, Does, and Feels (sometimes with Pains and Gains) — used to synthesize what a team knows about a person it is designing for or engaging. By externalizing assumptions and evidence about a stakeholder's experience, the team surfaces gaps, aligns on priorities, and grounds decisions in real needs rather than opinion. It supports requirements elicitation, stakeholder engagement, and user-centered design.",
-    "Deep Dive": null,
-    "Contrast": "Persona — an empathy map organizes what is known about one person's experience into Says/Thinks/Does/Feels, while a persona is a fuller fictional profile representing a whole segment of users.",
-    "Example": "Before redesigning the intake form, the team fills an empathy map for a frontline clerk and realizes their strongest 'feel' is anxiety about entering wrong data, so input validation becomes a priority.",
-    "Related Terms": [
-      "Stakeholder analysis",
-      "Requirements elicitation",
-      "Persona",
-      "Customer journey map",
-      "Voice of the customer"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "Design-thinking practice — empathy map"
-  },
-  {
-    "Term": "End user",
-    "Core Meaning": "The person or group that ultimately uses the product, service, or result created by the project.",
-    "Depth": "Standard",
-    "Expansion": "An end user is the intended user of the project outcome. PMI distinguishes end users from sponsors, customers, and other stakeholders because those who approve, fund, or receive the work may not be the same people who use it in practice. Identifying end users helps shape requirements, usability, training, adoption, and acceptance expectations.",
-    "Deep Dive": null,
-    "Contrast": "Customer — an end user uses the result, while a customer may buy, fund, or receive it without personally using it.",
-    "Example": "In a hospital scheduling-system project, nurses and reception staff are the end users even though hospital leadership funds the work.",
-    "Related Terms": [
-      "Stakeholder",
-      "Customer",
-      "Requirements"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms, End user"
-  },
-  {
-    "Term": "Expectation management",
-    "Core Meaning": "The ongoing practice of aligning stakeholder expectations with what the project can realistically deliver and when.",
-    "Depth": "Standard",
-    "Expansion": "Expectation management is the practical work of ensuring stakeholders understand likely outcomes, constraints, tradeoffs, and changes throughout the project. It helps reduce misunderstanding, dissatisfaction, and conflict by keeping expectations realistic as scope, risk, schedule, or priorities evolve. In PMI usage it is better understood as a stakeholder engagement and communication practice than as a named formal process.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder engagement — expectation management focuses specifically on aligning what stakeholders expect; stakeholder engagement is the broader practice of involving and working with stakeholders throughout the project.",
-    "Example": "When a vendor delay threatens a release date, the project manager resets stakeholder expectations early by explaining schedule impacts and the resulting feature tradeoffs.",
-    "Related Terms": [
-      "Stakeholder engagement",
-      "Communication management",
-      "Change management",
-      "Transparency",
-      "Scope management"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Key stakeholder",
-    "Core Meaning": "A stakeholder with the ability to affect change, influence decisions, or be significantly impacted by project outcomes.",
-    "Depth": "Standard",
-    "Expansion": "A key stakeholder is someone whose influence, authority, interest, or exposure makes their engagement especially important to project success. These stakeholders often shape priorities, approve decisions, remove obstacles, or experience major impacts from the work. Identifying them early improves communication, governance, and stakeholder engagement planning.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder — every key stakeholder is a stakeholder, but not every stakeholder has the same level of influence, decision power, or impact.",
-    "Example": "In a hospital system rollout, the chief medical officer is treated as a key stakeholder because clinical adoption depends on that leader's support and decisions.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder analysis",
-      "Influence",
-      "Governance"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, key stakeholder, p. 400"
-  },
-  {
-    "Term": "Manage stakeholder engagement",
-    "Core Meaning": "The process of communicating and working with stakeholders to meet their needs and expectations, address issues, and foster appropriate stakeholder involvement in project activities and decisions.",
-    "Depth": "Foundational",
-    "Expansion": "Manage Stakeholder Engagement is the execution work of turning stakeholder strategies into active relationship management. It focuses on building and maintaining support, reducing resistance, and responding to stakeholder concerns as the project unfolds. PMI treats it as more than communication alone because engagement also involves listening, negotiation, expectation management, and issue resolution.",
-    "Deep Dive": "What it is: Manage Stakeholder Engagement is the process of actively working with stakeholders so their needs, concerns, and influence are addressed in ways that support project success.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just technical delivery. This process matters most where there are competing interests, organisational change, regulatory oversight, or strong user impact, but it applies to every project.\n\nThe most common misconception: that stakeholder engagement is just sending updates. In practice, communication is only one part; real engagement includes dialogue, trust-building, problem solving, and adapting the approach based on stakeholder reactions.\n\nHow it shows up in real projects: a project manager meets with sponsors, users, and functional leaders, resolves emerging concerns, adjusts engagement tactics, and works continuously to sustain buy-in through changes and decisions.",
-    "Contrast": "Manage Communications — Manage Stakeholder Engagement focuses on relationships, influence, and involvement; Manage Communications focuses on creating, distributing, and storing project information.",
-    "Example": "During an enterprise system rollout, the project manager runs workshops with department heads and user representatives to surface resistance early and gain support for process changes.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement plan",
-      "Plan stakeholder engagement",
-      "Manage communications",
-      "Issue log"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, Manage Stakeholder Engagement, p. 523"
-  },
-  {
-    "Term": "Monitor stakeholder engagement",
-    "Core Meaning": "The process of monitoring overall project stakeholder relationships and tailoring strategies for engaging stakeholders through modification of engagement approaches and plans.",
-    "Depth": "Foundational",
-    "Expansion": "Monitor Stakeholder Engagement is the project management process used to check whether stakeholder engagement strategies are working as intended and to adjust them when stakeholder attitudes, influence, or needs change. It compares current and desired engagement levels, reviews relationship quality, and identifies emerging issues that may affect support for the project. The process helps sustain alignment across stakeholders throughout the project life cycle rather than treating engagement as a one-time planning activity.",
-    "Deep Dive": "What it is: Monitor Stakeholder Engagement is a Monitoring and Controlling process focused on tracking stakeholder responses, relationships, and engagement effectiveness over time. It uses work performance data, stakeholder feedback, issue information, and observation to determine whether current engagement actions remain appropriate.\n\nWhy it matters and where it applies: Stakeholder positions can shift as scope, risk, timing, or external conditions change. Ongoing monitoring helps the team detect resistance early, maintain sponsor and user support, and adjust communications and engagement tactics before issues grow into delays or conflict.\n\nThe most common misconception: that stakeholder engagement is handled once in planning and then simply executed. In practice, stakeholder dynamics are fluid, so the project manager must continually assess influence, expectations, and sentiment.\n\nHow it shows up in real projects: A project team may discover that a previously supportive operations group has become resistant after a rollout schedule change. The team updates engagement strategies, increases targeted workshops, and revises escalation paths to rebuild commitment.",
-    "Contrast": "Manage Stakeholder Engagement — Manage Stakeholder Engagement implements communication and collaboration actions, while Monitor Stakeholder Engagement evaluates whether those actions are effective and adjusts them as needed.",
-    "Example": "During an ERP rollout, the project team tracks business-unit sentiment and sees adoption concerns rising among regional managers, prompting revised workshops and more active sponsor outreach.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement plan",
-      "Manage stakeholder engagement",
-      "Monitoring and controlling process group",
-      "Issue log"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge, Sixth Edition, section 13.4 Monitor Stakeholder Engagement, pp. 530-541"
-  },
-  {
-    "Term": "Negative stakeholder",
-    "Core Meaning": "A stakeholder who would be harmed by the project or otherwise wants it to fail.",
-    "Depth": "Standard",
-    "Expansion": "A negative stakeholder is one whose interests are adversely affected by the project's success, or who for other reasons opposes it. Unlike positive stakeholders who benefit and support the work, negative stakeholders may actively resist, obstruct, or undermine it. Identifying them early lets the project manager plan engagement and mitigation rather than be blindsided.",
-    "Deep Dive": null,
-    "Contrast": "Positive stakeholder - a positive stakeholder benefits from and supports the project, whereas a negative stakeholder is disadvantaged and may work against it.",
-    "Example": "Residents near a planned highway who will lose green space and lobby to cancel the project.",
-    "Related Terms": [
-      "Positive stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder analysis"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "PMBOK Guide - stakeholder concepts"
-  },
-  {
-    "Term": "Plan stakeholder engagement",
-    "Core Meaning": "The process of developing approaches to involve project stakeholders based on their needs, expectations, interests, and potential impact on the project.",
-    "Depth": "Foundational",
-    "Expansion": "Plan Stakeholder Engagement is the planning process used to define how stakeholders will be engaged throughout the project. It translates stakeholder analysis into a practical approach for gaining appropriate support, participation, and alignment. PMI treats it as a distinct process within project stakeholder management, not merely a communications activity.",
-    "Deep Dive": "What it is: Plan Stakeholder Engagement is a planning process that determines how to engage stakeholders throughout the project or phase. Its main output is the stakeholder engagement plan, which sets out strategies for involving stakeholders in ways that support project success.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just through technical execution. This process matters wherever stakeholder influence, expectations, resistance, or support can affect outcomes, which means it applies broadly across predictive, adaptive, and hybrid environments.\n\nThe most common misconception: that it is just about sending information to people. In PMI terms, it is broader than communications because it focuses on how to involve stakeholders, address their concerns, and build or maintain commitment.\n\nHow it shows up in real projects: a team may plan tailored approaches such as sponsor briefings, regulator consultations, user workshops, and targeted actions for resistant groups rather than relying on one generic engagement method for everyone.",
-    "Contrast": "Manage Stakeholder Engagement — Plan Stakeholder Engagement defines the approach; Manage Stakeholder Engagement carries out that approach during project work.",
-    "Example": "A hospital system implementation team creates a stakeholder engagement plan that includes executive steering reviews, nurse-superuser workshops, and targeted outreach to departments likely to resist workflow changes.",
-    "Related Terms": [
-      "Stakeholder engagement plan",
-      "Stakeholder analysis",
-      "Manage stakeholder engagement",
-      "Monitor stakeholder engagement",
-      "Communications management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Plan Stakeholder Engagement, pp. 518-523"
-  },
-  {
-    "Term": "Positive stakeholder",
-    "Core Meaning": "A stakeholder who supports the project and stands to benefit from its success.",
-    "Depth": "Standard",
-    "Expansion": "A positive stakeholder views the project favorably and is likely to gain from its outcomes, so they tend to champion it, supply resources, and help remove obstacles. Engaging positive stakeholders well turns their support into active advocacy that can offset resistance elsewhere. Recognizing them helps the team build a coalition that sustains momentum.",
-    "Deep Dive": null,
-    "Contrast": "A positive stakeholder benefits from success and supports the project, while a negative stakeholder perceives harm and may resist it.",
-    "Example": "A department head who will gain efficiency from a new system actively promotes its adoption to peers.",
-    "Related Terms": [
-      "Negative stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder analysis"
-    ],
-    "Tier": "Adjacent concept",
-    "Source": "PMBOK Guide - Sixth Edition"
-  },
-  {
-    "Term": "Power interest grid",
-    "Core Meaning": "A power interest grid is a stakeholder analysis tool that maps stakeholders by their level of authority and their level of concern or involvement to guide engagement strategy.",
-    "Depth": "Standard",
-    "Expansion": "Project teams use the power interest grid to decide how closely different stakeholders should be engaged, informed, or monitored. It supports stakeholder identification and engagement planning by highlighting which people or groups can influence outcomes and which are most affected by the work. The grid is especially useful early in a project and whenever the stakeholder landscape shifts.",
-    "Deep Dive": null,
-    "Contrast": "Salience model — a power interest grid classifies stakeholders by power and interest; a salience model classifies them by power, legitimacy, and urgency.",
-    "Example": "A project manager maps the chief operations officer as high power and high interest and therefore schedules frequent briefings, while keeping low power and low interest external observers updated through periodic summaries.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 315 207' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='41' y1='12' x2='41' y2='168' stroke='currentColor' stroke-width='1.5'/><line x1='41' y1='168' x2='303' y2='168' stroke='currentColor' stroke-width='1.5'/><line x1='172' y1='12' x2='172' y2='168' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><line x1='41' y1='90' x2='303' y2='90' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><text x='106' y='54' fill='#B5462F' font-size='10' text-anchor='middle'>Keep Satisfied</text><text x='237' y='54' fill='#1F5FA8' font-size='10' text-anchor='middle'>Manage Closely</text><text x='106' y='132' fill='currentColor' font-size='10' text-anchor='middle'>Monitor</text><text x='237' y='132' fill='#2F6F5E' font-size='10' text-anchor='middle'>Keep Informed</text><text x='23' y='90' fill='currentColor' font-size='11' text-anchor='middle' transform='rotate(-90 23 90)'>Power</text><text x='172' y='191' fill='currentColor' font-size='11' text-anchor='middle'>Interest</text></svg>"
-    },
-    "Synonyms": [
-      "Mendelow's matrix"
-    ],
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder analysis",
-      "Salience model",
-      "Stakeholder engagement plan"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Project sponsor",
-    "Core Meaning": "The project sponsor is the person or group that provides resources and support for the project, program, or portfolio and is accountable for enabling success.",
-    "Depth": "Foundational",
-    "Expansion": "The sponsor champions the initiative at an organisational level, helps secure funding and authority, and supports key governance and decision-making needs. PMI treats the sponsor as distinct from the project manager: the sponsor owns high-level business backing and strategic alignment, while the project manager leads day-to-day management of delivery. This role is foundational because projects often fail not only from execution issues but from weak sponsorship, unclear escalation paths, or lack of executive support. The sponsor is especially visible at initiation, major decisions, risk escalation points, and benefit-realisation discussions.",
-    "Deep Dive": "What it is: The project sponsor is the senior individual or governing body that legitimises the project and connects it to organisational strategy, funding, and executive support. The sponsor helps establish direction, resolves escalated issues, and ensures the project has the backing needed to proceed.\n\nWhy it matters and where it applies: projects need more than a competent project manager; they need authority, alignment, and timely decisions from the business side. Sponsorship is critical in change initiatives, cross-functional work, and any project where priorities, resources, or business outcomes must be defended at leadership level.\n\nThe most common misconception: that the sponsor is just a ceremonial approver who signs the charter and disappears. In strong practice, the sponsor remains engaged, removes obstacles, supports governance, and helps maintain alignment between delivery and intended business value.\n\nHow it shows up in real projects — the sponsor:\n- Approves the charter\n- Supports funding\n- Attends governance reviews\n- Resolves escalated stakeholder conflicts\n- Confirms major scope decisions\n- Advocates for adoption of the project's outcomes",
-    "Contrast": "Project manager — the sponsor provides executive ownership, support, and strategic accountability; the project manager leads planning, coordination, and day-to-day delivery management.",
-    "Example": "In an enterprise ERP rollout, the CFO acts as sponsor by securing funding, resolving conflicts between business units, approving major decisions, and reinforcing adoption expectations with department leaders.",
-    "Related Terms": [
-      "Project manager",
-      "Project charter",
-      "Governance",
-      "Business case",
-      "Steering committee"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Glossary, p. 369"
-  },
-  {
-    "Term": "Salience model",
-    "Core Meaning": "A classification model that identifies stakeholder importance based on power, legitimacy, and urgency.",
-    "Depth": "Foundational",
-    "Expansion": "The salience model helps a project team determine which stakeholders need the most immediate attention by assessing three attributes: power, legitimacy, and urgency. Stakeholders may possess one, two, or all three attributes, which affects how prominently they are managed. It is commonly used during stakeholder identification and analysis to shape engagement strategies.",
-    "Deep Dive": "Salience is the degree to which a stakeholder commands a project manager's priority, and it is built from three attributes shown as overlapping circles in a Venn diagram:\n\n- Power: the ability to influence outcomes — to impose their will, supply or withhold resources, or override decisions.\n- Legitimacy: whether their involvement is seen as proper or appropriate — a recognised, authorised claim, such as a sponsor, owner, or regulator.\n- Urgency: how time-sensitive and critical their claim is — how quickly they need a response.\n\nThe number of attributes a stakeholder holds determines which of seven classes they fall into, and the more they hold, the more closely you manage them:\n\nOne attribute (latent, low salience):\n- Dormant — power only. Can act but has no pressing or legitimate claim right now; watch in case that changes.\n- Discretionary — legitimacy only. A proper claim but no power and no urgency; often the target of goodwill rather than active management.\n- Demanding — urgency only. Noisy and insistent but lacks power and legitimacy; a 'mosquito' that consumes attention without warranting priority.\n\nTwo attributes (expectant, moderate salience):\n- Dominant — power + legitimacy. A formal, influential stakeholder (e.g. a sponsor) whose expectations clearly matter; keep informed and engaged.\n- Dependent — legitimacy + urgency but no power. A valid, pressing claim with no clout of its own, so they rely on a champion or build coalitions to be heard; advocate for them.\n- Dangerous — power + urgency but no legitimacy. Coercive and able to act, with no proper claim; may bypass process, so manage carefully to contain the threat.\n\nThree attributes (definitive, highest salience):\n- Definitive — power + legitimacy + urgency. Your top priority; engage and satisfy first.\n\nWhat it means for people: salience is dynamic. Urgency in particular rises and falls, so a discretionary or dependent stakeholder can become definitive overnight when a deadline or crisis hits. Reassess the classification as the project moves rather than treating it as fixed.",
-    "Contrast": "Power interest grid — the salience model classifies stakeholders by power, legitimacy, and urgency; the power interest grid focuses on power and level of interest.",
-    "Example": "In a hospital system upgrade, a regulatory body with formal authority, a legitimate oversight role, and an urgent compliance deadline is treated as highly salient and engaged closely.",
-    "Figure": {
-      "svg": "<svg viewBox='0 0 227 238' xmlns='http://www.w3.org/2000/svg'><circle cx='68' cy='86.5' r='56' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><circle cx='148' cy='86.5' r='56' fill='#2F6F5E' fill-opacity='0.12' stroke='#2F6F5E' stroke-width='1.2'/><circle cx='108' cy='148.5' r='56' fill='#B5462F' fill-opacity='0.12' stroke='#B5462F' stroke-width='1.2'/><text x='68' y='22.5' fill='#1F5FA8' font-size='10.5' text-anchor='middle'>Power</text><text x='148' y='22.5' fill='#2F6F5E' font-size='10.5' text-anchor='middle'>Legitimacy</text><text x='108' y='222.5' fill='#B5462F' font-size='10.5' text-anchor='middle'>Urgency</text><text x='32' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dormant</text><text x='184' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Discretionary</text><text x='108' y='186.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Demanding</text><rect x='89' y='55.5' width='38' height='10' fill='%BG%'/><text x='108' y='63.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dominant</text><rect x='48' y='125.5' width='44' height='10' fill='%BG%'/><text x='70' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dangerous</text><rect x='124' y='125.5' width='44' height='10' fill='%BG%'/><text x='146' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dependent</text><rect x='81' y='99.5' width='54' height='12' fill='%BG%'/><text x='108' y='108.5' fill='currentColor' font-size='8.5' font-weight='bold' text-anchor='middle'>Definitive</text></svg>"
-    },
-    "Related Terms": [
-      "Stakeholder analysis",
-      "Power interest grid",
-      "Stakeholder register",
-      "Stakeholder engagement plan"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition — Salience model, page 512"
-  },
-  {
-    "Term": "Sponsor",
-    "Core Meaning": "A person or group that provides resources and support for the project and is accountable for enabling its success.",
-    "Depth": "Standard",
-    "Expansion": "The sponsor champions the project at an organisational level by securing support, helping resolve escalated issues, and reinforcing alignment with business objectives. This role is distinct from the project manager, who leads day-to-day planning and delivery. A strong sponsor improves decision making, removes barriers, and increases the likelihood that benefits will be realised.",
-    "Deep Dive": null,
-    "Contrast": "Project manager — the sponsor provides strategic backing, authority, and organisational support; the project manager manages the work of planning and delivery.",
-    "Example": "For an enterprise data migration, the CIO acts as sponsor by approving funding, clearing cross-functional roadblocks, and confirming the target business outcomes.",
-    "Related Terms": [
-      "Stakeholder",
-      "Project manager",
-      "Governance",
-      "Business case"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Sponsor, page 245"
-  },
-  {
-    "Term": "Stakeholder",
-    "Core Meaning": "An individual, group, or organisation that may affect, be affected by, or perceive itself to be affected by a project decision, activity, or outcome.",
-    "Depth": "Foundational",
-    "Expansion": "Stakeholders include anyone with interests, influence, exposure to impact, or decision authority related to the work. They are not limited to the customer or sponsor; they can include team members, regulators, suppliers, operational users, and communities affected by the outcome. Effective project management depends on identifying stakeholders early, understanding their needs and influence, and engaging them appropriately throughout the project life cycle.",
-    "Deep Dive": "What it is: A stakeholder is any person, group, or organisation connected to the project through influence, impact, authority, interest, or perceived effect. Stakeholders can be internal or external, supportive or resistant, and their relevance can change over time.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder alignment. Requirements quality, decision speed, adoption, funding stability, and issue resolution all depend on understanding who matters, what they need, and how they should be engaged.\n\nThe most common misconception: that stakeholders are only senior decision makers or paying customers. In practice, overlooked groups such as end users, support teams, regulators, or affected departments often shape outcomes just as strongly.\n\nHow it shows up in real projects: stakeholder registers, power-interest analysis, tailored communications, expectation management, workshop facilitation, and escalation paths all reflect active stakeholder management.",
-    "Contrast": "Sponsor — a sponsor is a specific stakeholder who provides support and resources; a stakeholder is the broader category of anyone who can affect or be affected by the project.",
-    "Example": "In a hospital software rollout, stakeholders include clinicians, IT support, compliance officers, patients, department heads, and the executive sponsor, each needing different forms of engagement.",
-    "Related Terms": [
-      "Sponsor",
-      "Stakeholder engagement",
-      "Stakeholder register",
-      "Communications management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Stakeholder, page 243"
-  },
-  {
-    "Term": "Stakeholder analysis",
-    "Core Meaning": "A technique for systematically gathering and analysing information about stakeholders to understand their interests, influence, and potential impact on the project.",
-    "Depth": "Standard",
-    "Expansion": "Stakeholder analysis is used to identify who can affect or be affected by the project and to assess their expectations, interests, and influence. It helps the team decide how to prioritise attention and tailor engagement strategies. In PMI practice, it supports planning for communications, stakeholder engagement, and decision making across the project life cycle.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder engagement — stakeholder analysis assesses stakeholders and their characteristics; stakeholder engagement is the ongoing work of involving and working with them.",
-    "Example": "At project start, a hospital-system implementation team analyses clinicians, administrators, regulators, and vendors to understand who may support, resist, or shape rollout decisions.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder register",
-      "Communication management"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Stakeholder engagement",
-    "Core Meaning": "The process of involving stakeholders in the project in a way that meets their needs, expectations, and interests.",
-    "Depth": "Foundational",
-    "Expansion": "Stakeholder engagement is the active effort to build and maintain productive relationships with stakeholders throughout the project. It goes beyond identifying stakeholders by focusing on how they are involved, informed, and supported. PMI treats it as essential because stakeholder attitudes and participation strongly influence project outcomes, decision speed, and acceptance of deliverables.",
-    "Deep Dive": "What it is: Stakeholder engagement is the deliberate work of involving stakeholders so they understand the project, contribute appropriately, and remain aligned with its direction.\n\nWhy it matters and where it applies: projects depend on stakeholder support for requirements, approvals, funding, adoption, and issue resolution. It applies across the life cycle, especially when expectations differ or when the project affects many groups.\n\nThe most common misconception: that engagement means simply sending updates. In practice it includes listening, tailoring involvement, managing expectations, and responding to concerns.\n\nHow it shows up in real projects: workshops, demos, steering meetings, feedback sessions, escalation paths, and tailored communications all reflect stakeholder engagement in action.",
-    "Contrast": "Stakeholder management — stakeholder engagement focuses on the quality and effectiveness of involvement; stakeholder management is the broader discipline of identifying, analysing, planning, and controlling stakeholder interactions.",
-    "Example": "A hospital IT project holds regular clinician demos and feedback sessions so end users can shape the rollout and adoption plan.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement plan",
-      "Communications management plan",
-      "Stakeholder register",
-      "Expectation management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Knowledgebase — stakeholder engagement"
-  },
-  {
-    "Term": "Stakeholder engagement assessment matrix",
-    "Core Meaning": "A matrix used to compare the current and desired engagement level of stakeholders so engagement strategies can be planned and monitored.",
-    "Depth": "Foundational",
-    "Expansion": "The stakeholder engagement assessment matrix is a PMI tool for analysing how key stakeholders are currently engaged and how engaged they need to be for project success. It commonly classifies stakeholders into engagement states such as unaware, resistant, neutral, supportive, and leading. The matrix helps the project manager identify gaps between current and desired positions and then tailor communication and engagement actions accordingly.",
-    "Deep Dive": "What it is: The stakeholder engagement assessment matrix is an analysis tool that maps each important stakeholder against both their current engagement level and the target level needed. It makes engagement gaps visible in a simple, actionable format.\n\nWhy it matters and where it applies: Projects succeed or fail partly because of stakeholder behaviour, not just technical delivery. The matrix is especially useful in change-heavy initiatives, politically sensitive work, and projects with many affected groups because it helps the team focus effort where support must be built or resistance reduced.\n\nThe most common misconception: that it is just a contact list or communication tracker. In practice it is an analytical tool for assessing attitude and influence, while communication planning is only one of the actions that may follow from it.\n\nHow it shows up in real projects: A project team reviews sponsor, user, regulator, and operations stakeholders, marks each as currently neutral or resistant, defines the desired state, and then plans targeted actions such as workshops, demos, decision forums, or executive alignment sessions.",
-    "Contrast": "Stakeholder register — the stakeholder engagement assessment matrix compares current and desired engagement levels; the stakeholder register records stakeholder identification, details, and classification information.",
-    "Example": "In an ERP rollout, the project manager marks the finance director as currently supportive and desired leading, while regional users are currently resistant and desired supportive, then builds engagement actions around those gaps.",
-    "Related Terms": [
-      "Stakeholder engagement",
-      "Stakeholder register",
-      "Stakeholder analysis",
-      "Communications management plan",
-      "Manage stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 521"
-  },
-  {
-    "Term": "Stakeholder engagement plan",
-    "Core Meaning": "A component of the project management plan that documents strategies and actions for engaging stakeholders effectively.",
-    "Depth": "Foundational",
-    "Expansion": "The Stakeholder Engagement Plan defines how the project will involve stakeholders according to their needs, interests, influence, and potential impact on the work. PMI positions it as a planning output that turns stakeholder analysis into deliberate engagement approaches rather than ad hoc communication. It helps the team decide who needs what level of involvement, when, and through which interactions.",
-    "Deep Dive": "What it is: The Stakeholder Engagement Plan is the documented approach for how the team will engage stakeholders throughout the project. It translates stakeholder identification and analysis into practical strategies for support, consultation, collaboration, and expectation management.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just technical execution. This plan matters wherever stakeholder influence is high, such as regulated environments, cross-functional change initiatives, infrastructure delivery, and product launches involving sponsors, users, suppliers, and governance bodies.\n\nThe most common misconception: that it is just a communications list or meeting schedule. In PMI terms, communication is only one part of engagement; the deeper purpose is to shape stakeholder attitudes, commitment, and participation in ways that support project outcomes.\n\nHow it shows up in real projects: the plan may specify sponsor alignment sessions, community briefings, user workshops, executive steering updates, escalation paths, and tailored tactics for resistant or high-power stakeholders.",
-    "Contrast": "Communications Management Plan — the Stakeholder Engagement Plan focuses on how stakeholders will be engaged and influenced, while the Communications Management Plan focuses on information needs, format, timing, and flow.",
-    "Example": "In an enterprise ERP rollout, the project team plans executive steering reviews for sponsors, weekly workshops for process owners, and targeted change sessions for departments likely to resist the new workflow.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder analysis",
-      "Stakeholder register",
-      "Communications management plan",
-      "Manage stakeholder engagement"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, page 522"
-  },
-  {
-    "Term": "Stakeholder environment",
-    "Core Meaning": "The conditions and contextual influences surrounding stakeholders that shape their interests, attitudes, and potential impact on the project.",
-    "Depth": "Standard",
-    "Expansion": "The stakeholder environment includes internal and external factors that affect how stakeholders perceive and interact with the project. These factors can include organisational culture, politics, regulation, market conditions, and relationships among stakeholder groups. Understanding this environment helps the project team tailor engagement approaches and anticipate support, resistance, or changing expectations.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder register — the stakeholder environment is the broader context influencing stakeholders, while the stakeholder register is the documented record of identified stakeholders and relevant details.",
-    "Example": "A public-sector programme adjusts its engagement strategy after recognising that regulatory scrutiny, local politics, and union concerns are shaping stakeholder reactions.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder register",
-      "Organizational culture",
-      "External environment"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Stakeholder feedback",
-    "Core Meaning": "Information, reactions, or opinions provided by stakeholders about the project, its deliverables, or its direction.",
-    "Depth": "Standard",
-    "Expansion": "Stakeholder feedback gives the project team insight into whether expectations are being met and where adjustments may be needed. It may be gathered through reviews, demonstrations, surveys, workshops, interviews, or informal conversations. In project management practice, it is an important input for adaptation, issue resolution, and ongoing stakeholder engagement.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder satisfaction — feedback is the input stakeholders provide, while satisfaction is their overall perception of how well the project meets their needs and expectations.",
-    "Example": "During a product demo, users say the new dashboard is useful but needs clearer filtering, and the team updates the backlog based on that feedback.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Review",
-      "Surveys"
-    ],
-    "Tier": "Practitioner term",
-    "Source": "not a formal PMI glossary entry"
-  },
-  {
-    "Term": "Stakeholder identification",
-    "Core Meaning": "The process of determining the people, groups, or organisations that could affect, be affected by, or perceive themselves to be affected by the project.",
-    "Depth": "Standard",
-    "Expansion": "Stakeholder identification establishes who has an interest in the project and documents relevant information about their roles, interests, influence, and potential impact. In PMI practice, it is performed early and revisited throughout the project because stakeholder landscapes can change. It provides the basis for stakeholder analysis, engagement planning, and communication decisions.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder communication — stakeholder identification determines who the stakeholders are; stakeholder communication concerns how information is exchanged with them.",
-    "Example": "At the start of an ERP implementation, the project manager identifies finance leaders, IT operations, end users, vendors, regulators, and executive sponsors, then records their interests and influence in a stakeholder register.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder register",
-      "Stakeholder analysis",
-      "Stakeholder engagement",
-      "Communications management"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, stakeholder domain and glossary; exact page citation should be verified against the edition in use"
-  },
-  {
-    "Term": "Stakeholder needs",
-    "Core Meaning": "The requirements, expectations, and concerns that stakeholders have regarding the project and its outcomes.",
-    "Depth": "Standard",
-    "Expansion": "Stakeholder needs capture what individuals or groups want, require, or care about from the project. They may include formal requirements, service expectations, operational constraints, and success conditions. In PMI practice, understanding these needs is central to stakeholder engagement, requirements work, and shaping decisions about scope, communications, and acceptance.",
-    "Deep Dive": null,
-    "Contrast": "Requirements — stakeholder needs are the broader wants and expectations of stakeholders; requirements are the documented conditions or capabilities the project must satisfy.",
-    "Example": "In a hospital system upgrade, clinicians need minimal downtime, compliance officers need auditability, and executives need cost and adoption visibility.",
-    "Related Terms": [
-      "Stakeholder",
-      "Requirements",
-      "Stakeholder engagement",
-      "Stakeholder register",
-      "Acceptance criteria"
-    ],
-    "Tier": "Core glossary",
-    "Source": "PMI Lexicon of Project Management Terms — Stakeholder needs"
-  },
-  {
-    "Term": "Stakeholder performance domain",
-    "Core Meaning": "A performance domain that addresses activities and functions associated with stakeholders throughout the project.",
-    "Depth": "Foundational",
-    "Expansion": "The Stakeholder Performance Domain focuses on building productive working relationships with stakeholders, aligning stakeholder engagement with project needs, and maintaining stakeholder support over time. In PMI's performance-domain model, it is not a one-time stakeholder register exercise but an ongoing area of attention that influences decisions, communications, risk responses, and value delivery. It matters because projects succeed or fail partly through stakeholder acceptance, sponsorship, resistance, and feedback. The domain applies across predictive, agile, and hybrid environments, with the specific engagement tactics varying by context.",
-    "Deep Dive": "What it is: The Stakeholder Performance Domain is one of the PMBOK Guide Seventh Edition performance domains. It concerns identifying stakeholders, understanding their interests and influence, engaging them appropriately, and monitoring the quality of those relationships as the project evolves.\n\nWhy it matters and where it applies: stakeholder support affects funding, access to resources, decision speed, adoption, and benefits realisation. This domain applies in every project environment because all projects operate within a social and organisational system, even when the delivery method differs.\n\nThe most common misconception: that stakeholder management is mainly a communication-plan exercise or a list of names and influence ratings. In practice, the domain is about sustaining engagement, adjusting to changing stakeholder needs, and using feedback to improve both delivery and outcomes.\n\nHow it shows up in real projects: teams map stakeholder expectations, tailor engagement strategies, gather feedback during reviews and checkpoints, manage resistance, and adapt communications and involvement as the project moves through uncertainty and change.",
-    "Contrast": "Communications management — the stakeholder performance domain is broader, covering relationships, engagement, and stakeholder system dynamics, not just information exchange.",
-    "Example": "On an enterprise system rollout, the project team works with executives, end users, compliance staff, and support teams through demos, workshops, and readiness sessions to maintain buy-in and reduce resistance before deployment.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Stakeholder analysis",
-      "Communications management",
-      "Performance domain"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) – Seventh Edition, Stakeholder Performance Domain section, pp. 21-27"
-  },
-  {
-    "Term": "Stakeholder register",
-    "Core Meaning": "A project document that records stakeholder identification information, assessment, and classification.",
-    "Depth": "Standard",
-    "Expansion": "The stakeholder register captures who the stakeholders are and relevant information about their interests, influence, expectations, and engagement needs. It supports stakeholder analysis and helps the team tailor communications and engagement strategies. PMI treats it as a living project document that is updated as stakeholders and project conditions change.",
-    "Deep Dive": null,
-    "Contrast": "Stakeholder engagement plan — the stakeholder register identifies and classifies stakeholders; the stakeholder engagement plan describes how the team will engage them.",
-    "Example": "A construction project maintains a stakeholder register listing regulators, nearby residents, suppliers, sponsors, and operations staff with notes on influence and concerns.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement plan",
-      "Project documents",
-      "Communications management plan",
-      "Stakeholder analysis"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Stakeholder register, page 243"
-  },
-  {
-    "Term": "Stakeholder satisfaction",
-    "Core Meaning": "The degree to which stakeholder needs, expectations, and perceptions are positively met by the project and its outcomes.",
-    "Depth": "Foundational",
-    "Expansion": "Stakeholder satisfaction is a key indicator of whether the project is delivering value in a way that important stakeholders recognise and accept. It is shaped not only by the quality of deliverables, but also by communication, responsiveness, involvement, timing, and perceived fairness in decisions. PMI treats stakeholder outcomes as central to project success because a project can meet schedule and cost targets yet still fail if stakeholders do not support or accept the result.",
-    "Deep Dive": "What it is: Stakeholder satisfaction is the overall level of approval, acceptance, or confidence that stakeholders have in the project process, deliverables, and outcomes. It reflects lived experience and perception, not just technical compliance with requirements.\n\nWhy it matters and where it applies: Projects exist in an environment of sponsors, customers, users, regulators, partners, and affected groups. Their satisfaction influences adoption, support, decision speed, benefit realisation, and whether the project is ultimately seen as successful.\n\nThe most common misconception: that satisfaction is the same as keeping everyone happy or saying yes to every request. In practice, it comes from managing expectations well, making trade-offs transparently, and delivering outcomes stakeholders see as valuable and trustworthy.\n\nHow it shows up in real projects: It appears in acceptance decisions, sponsor confidence, user adoption levels, survey results, reduced resistance, and the willingness of stakeholders to continue supporting the initiative.",
-    "Contrast": "Customer satisfaction — customer satisfaction focuses on the customer or end user, while stakeholder satisfaction covers the wider set of individuals and groups affected by or able to influence the project.",
-    "Example": "A hospital system implementation meets its launch date, but the team also runs training, addresses clinician concerns, and adapts workflows so department leaders and end users accept and support the new system.",
-    "Related Terms": [
-      "Stakeholder",
-      "Stakeholder engagement",
-      "Customer satisfaction",
-      "Acceptance criteria",
-      "Project success"
-    ],
-    "Tier": "Core glossary",
-    "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, page 14"
-  },
-  {
-    "Term": "Stakeholder trust",
-    "Core Meaning": "The confidence stakeholders hold that the project team will act with competence, honesty, and consistency on their interests.",
-    "Depth": "Atomic",
-    "Expansion": "Stakeholder trust is built through transparent communication, reliable follow-through, and demonstrated stewardship, and it lowers resistance and speeds decisions. Once damaged it is slow to rebuild, so the team protects it through credibility and ethical conduct.",
-    "Deep Dive": null,
-    "Contrast": "Differs from stakeholder engagement, which is the activity of involving stakeholders; trust is the relational quality that engagement aims to build.",
-    "Example": "By delivering on every small commitment early in the project, the manager earns the sponsor's trust and is granted more autonomy.",
-    "Related Terms": [
-      "Stakeholder engagement plan",
-      "Servant leadership",
-      "Communications management plan"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The Standard for Project Management"
-  },
-  {
-    "Term": "Stakeholder value",
-    "Core Meaning": "The benefit or worth that a project's outcomes deliver to a particular stakeholder or stakeholder group.",
-    "Depth": "Atomic",
-    "Expansion": "Stakeholder value reflects how well outcomes meet the needs and expectations of those affected, and it can be financial, social, or experiential. Recognizing that different stakeholders value different things helps the team prioritize scope and trade-offs.",
-    "Deep Dive": null,
-    "Contrast": "Differs from business value, which centers on the sponsoring organization's gain; stakeholder value spans the full range of affected parties.",
-    "Example": "A new clinic system creates stakeholder value for nurses through faster charting, distinct from the financial value it gives the hospital.",
-    "Related Terms": [
-      "Value delivery system",
-      "Benefits realization",
-      "Stakeholder engagement plan",
-      "Business case"
-    ],
-    "Tier": "Core glossary",
-    "Source": "The Standard for Project Management"
-  }
+  "Related Terms": [
+   "Stakeholder analysis",
+   "Power interest grid",
+   "Stakeholder register",
+   "Stakeholder engagement plan"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition — Salience model, page 512",
+  "Synonyms": [
+   "Stakeholder salience model"
+  ]
+ },
+ {
+  "Term": "Sponsor",
+  "Core Meaning": "A person or group that provides resources and support for the project and is accountable for enabling its success.",
+  "Depth": "Standard",
+  "Expansion": "The sponsor champions the project at an organisational level by securing support, helping resolve escalated issues, and reinforcing alignment with business objectives. This role is distinct from the project manager, who leads day-to-day planning and delivery. A strong sponsor improves decision making, removes barriers, and increases the likelihood that benefits will be realised.",
+  "Deep Dive": null,
+  "Contrast": "Project manager — the sponsor provides strategic backing, authority, and organisational support; the project manager manages the work of planning and delivery.",
+  "Example": "For an enterprise data migration, the CIO acts as sponsor by approving funding, clearing cross-functional roadblocks, and confirming the target business outcomes.",
+  "Related Terms": [
+   "Stakeholder",
+   "Project manager",
+   "Governance",
+   "Business case"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Sponsor, page 245"
+ },
+ {
+  "Term": "Stakeholder",
+  "Core Meaning": "An individual, group, or organisation that may affect, be affected by, or perceive itself to be affected by a project decision, activity, or outcome.",
+  "Depth": "Foundational",
+  "Expansion": "Stakeholders include anyone with interests, influence, exposure to impact, or decision authority related to the work. They are not limited to the customer or sponsor; they can include team members, regulators, suppliers, operational users, and communities affected by the outcome. Effective project management depends on identifying stakeholders early, understanding their needs and influence, and engaging them appropriately throughout the project life cycle.",
+  "Deep Dive": "What it is: A stakeholder is any person, group, or organisation connected to the project through influence, impact, authority, interest, or perceived effect. Stakeholders can be internal or external, supportive or resistant, and their relevance can change over time.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder alignment. Requirements quality, decision speed, adoption, funding stability, and issue resolution all depend on understanding who matters, what they need, and how they should be engaged.\n\nThe most common misconception: that stakeholders are only senior decision makers or paying customers. In practice, overlooked groups such as end users, support teams, regulators, or affected departments often shape outcomes just as strongly.\n\nHow it shows up in real projects: stakeholder registers, power-interest analysis, tailored communications, expectation management, workshop facilitation, and escalation paths all reflect active stakeholder management.",
+  "Contrast": "Sponsor — a sponsor is a specific stakeholder who provides support and resources; a stakeholder is the broader category of anyone who can affect or be affected by the project.",
+  "Example": "In a hospital software rollout, stakeholders include clinicians, IT support, compliance officers, patients, department heads, and the executive sponsor, each needing different forms of engagement.",
+  "Related Terms": [
+   "Sponsor",
+   "Stakeholder engagement",
+   "Stakeholder register",
+   "Communications management"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition — Stakeholder, page 243",
+  "Synonyms": [
+   "Stakeholders"
+  ]
+ },
+ {
+  "Term": "Stakeholder analysis",
+  "Core Meaning": "A technique for systematically gathering and analysing information about stakeholders to understand their interests, influence, and potential impact on the project.",
+  "Depth": "Standard",
+  "Expansion": "Stakeholder analysis is used to identify who can affect or be affected by the project and to assess their expectations, interests, and influence. It helps the team decide how to prioritise attention and tailor engagement strategies. In PMI practice, it supports planning for communications, stakeholder engagement, and decision making across the project life cycle.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder engagement — stakeholder analysis assesses stakeholders and their characteristics; stakeholder engagement is the ongoing work of involving and working with them.",
+  "Example": "At project start, a hospital-system implementation team analyses clinicians, administrators, regulators, and vendors to understand who may support, resist, or shape rollout decisions.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder register",
+   "Communication management"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Stakeholder engagement",
+  "Core Meaning": "The process of involving stakeholders in the project in a way that meets their needs, expectations, and interests.",
+  "Depth": "Foundational",
+  "Expansion": "Stakeholder engagement is the active effort to build and maintain productive relationships with stakeholders throughout the project. It goes beyond identifying stakeholders by focusing on how they are involved, informed, and supported. PMI treats it as essential because stakeholder attitudes and participation strongly influence project outcomes, decision speed, and acceptance of deliverables.",
+  "Deep Dive": "What it is: Stakeholder engagement is the deliberate work of involving stakeholders so they understand the project, contribute appropriately, and remain aligned with its direction.\n\nWhy it matters and where it applies: projects depend on stakeholder support for requirements, approvals, funding, adoption, and issue resolution. It applies across the life cycle, especially when expectations differ or when the project affects many groups.\n\nThe most common misconception: that engagement means simply sending updates. In practice it includes listening, tailoring involvement, managing expectations, and responding to concerns.\n\nHow it shows up in real projects: workshops, demos, steering meetings, feedback sessions, escalation paths, and tailored communications all reflect stakeholder engagement in action.",
+  "Contrast": "Stakeholder management — stakeholder engagement focuses on the quality and effectiveness of involvement; stakeholder management is the broader discipline of identifying, analysing, planning, and controlling stakeholder interactions.",
+  "Example": "A hospital IT project holds regular clinician demos and feedback sessions so end users can shape the rollout and adoption plan.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement plan",
+   "Communications management plan",
+   "Stakeholder register",
+   "Expectation management"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Knowledgebase — stakeholder engagement",
+  "Synonyms": [
+   "Inclusive Stakeholder Engagement",
+   "Stakeholder relationship management",
+   "Effectively Engage with Stakeholders"
+  ]
+ },
+ {
+  "Term": "Stakeholder engagement assessment matrix",
+  "Core Meaning": "A matrix used to compare the current and desired engagement level of stakeholders so engagement strategies can be planned and monitored.",
+  "Depth": "Foundational",
+  "Expansion": "The stakeholder engagement assessment matrix is a PMI tool for analysing how key stakeholders are currently engaged and how engaged they need to be for project success. It commonly classifies stakeholders into engagement states such as unaware, resistant, neutral, supportive, and leading. The matrix helps the project manager identify gaps between current and desired positions and then tailor communication and engagement actions accordingly.",
+  "Deep Dive": "What it is: The stakeholder engagement assessment matrix is an analysis tool that maps each important stakeholder against both their current engagement level and the target level needed. It makes engagement gaps visible in a simple, actionable format.\n\nWhy it matters and where it applies: Projects succeed or fail partly because of stakeholder behaviour, not just technical delivery. The matrix is especially useful in change-heavy initiatives, politically sensitive work, and projects with many affected groups because it helps the team focus effort where support must be built or resistance reduced.\n\nThe most common misconception: that it is just a contact list or communication tracker. In practice it is an analytical tool for assessing attitude and influence, while communication planning is only one of the actions that may follow from it.\n\nHow it shows up in real projects: A project team reviews sponsor, user, regulator, and operations stakeholders, marks each as currently neutral or resistant, defines the desired state, and then plans targeted actions such as workshops, demos, decision forums, or executive alignment sessions.",
+  "Contrast": "Stakeholder register — the stakeholder engagement assessment matrix compares current and desired engagement levels; the stakeholder register records stakeholder identification, details, and classification information.",
+  "Example": "In an ERP rollout, the project manager marks the finance director as currently supportive and desired leading, while regional users are currently resistant and desired supportive, then builds engagement actions around those gaps.",
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Stakeholder register",
+   "Stakeholder analysis",
+   "Communications management plan",
+   "Manage stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, p. 521"
+ },
+ {
+  "Term": "Stakeholder engagement plan",
+  "Core Meaning": "A component of the project management plan that documents strategies and actions for engaging stakeholders effectively.",
+  "Depth": "Foundational",
+  "Expansion": "The Stakeholder Engagement Plan defines how the project will involve stakeholders according to their needs, interests, influence, and potential impact on the work. PMI positions it as a planning output that turns stakeholder analysis into deliberate engagement approaches rather than ad hoc communication. It helps the team decide who needs what level of involvement, when, and through which interactions.",
+  "Deep Dive": "What it is: The Stakeholder Engagement Plan is the documented approach for how the team will engage stakeholders throughout the project. It translates stakeholder identification and analysis into practical strategies for support, consultation, collaboration, and expectation management.\n\nWhy it matters and where it applies: projects succeed or fail partly through stakeholder behaviour, not just technical execution. This plan matters wherever stakeholder influence is high, such as regulated environments, cross-functional change initiatives, infrastructure delivery, and product launches involving sponsors, users, suppliers, and governance bodies.\n\nThe most common misconception: that it is just a communications list or meeting schedule. In PMI terms, communication is only one part of engagement; the deeper purpose is to shape stakeholder attitudes, commitment, and participation in ways that support project outcomes.\n\nHow it shows up in real projects: the plan may specify sponsor alignment sessions, community briefings, user workshops, executive steering updates, escalation paths, and tailored tactics for resistant or high-power stakeholders.",
+  "Contrast": "Communications Management Plan — the Stakeholder Engagement Plan focuses on how stakeholders will be engaged and influenced, while the Communications Management Plan focuses on information needs, format, timing, and flow.",
+  "Example": "In an enterprise ERP rollout, the project team plans executive steering reviews for sponsors, weekly workshops for process owners, and targeted change sessions for departments likely to resist the new workflow.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder analysis",
+   "Stakeholder register",
+   "Communications management plan",
+   "Manage stakeholder engagement"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) Sixth Edition, page 522"
+ },
+ {
+  "Term": "Stakeholder environment",
+  "Core Meaning": "The conditions and contextual influences surrounding stakeholders that shape their interests, attitudes, and potential impact on the project.",
+  "Depth": "Standard",
+  "Expansion": "The stakeholder environment includes internal and external factors that affect how stakeholders perceive and interact with the project. These factors can include organisational culture, politics, regulation, market conditions, and relationships among stakeholder groups. Understanding this environment helps the project team tailor engagement approaches and anticipate support, resistance, or changing expectations.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder register — the stakeholder environment is the broader context influencing stakeholders, while the stakeholder register is the documented record of identified stakeholders and relevant details.",
+  "Example": "A public-sector programme adjusts its engagement strategy after recognising that regulatory scrutiny, local politics, and union concerns are shaping stakeholder reactions.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder register",
+   "Organizational culture",
+   "External environment"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Stakeholder feedback",
+  "Core Meaning": "Information, reactions, or opinions provided by stakeholders about the project, its deliverables, or its direction.",
+  "Depth": "Standard",
+  "Expansion": "Stakeholder feedback gives the project team insight into whether expectations are being met and where adjustments may be needed. It may be gathered through reviews, demonstrations, surveys, workshops, interviews, or informal conversations. In project management practice, it is an important input for adaptation, issue resolution, and ongoing stakeholder engagement.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder satisfaction — feedback is the input stakeholders provide, while satisfaction is their overall perception of how well the project meets their needs and expectations.",
+  "Example": "During a product demo, users say the new dashboard is useful but needs clearer filtering, and the team updates the backlog based on that feedback.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Review",
+   "Surveys"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Stakeholder identification",
+  "Core Meaning": "The process of determining the people, groups, or organisations that could affect, be affected by, or perceive themselves to be affected by the project.",
+  "Depth": "Standard",
+  "Expansion": "Stakeholder identification establishes who has an interest in the project and documents relevant information about their roles, interests, influence, and potential impact. In PMI practice, it is performed early and revisited throughout the project because stakeholder landscapes can change. It provides the basis for stakeholder analysis, engagement planning, and communication decisions.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder communication — stakeholder identification determines who the stakeholders are; stakeholder communication concerns how information is exchanged with them.",
+  "Example": "At the start of an ERP implementation, the project manager identifies finance leaders, IT operations, end users, vendors, regulators, and executive sponsors, then records their interests and influence in a stakeholder register.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder register",
+   "Stakeholder analysis",
+   "Stakeholder engagement",
+   "Communications management"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, stakeholder domain and glossary; exact page citation should be verified against the edition in use",
+  "Synonyms": [
+   "Program Stakeholder Identification"
+  ]
+ },
+ {
+  "Term": "Stakeholder needs",
+  "Core Meaning": "The requirements, expectations, and concerns that stakeholders have regarding the project and its outcomes.",
+  "Depth": "Standard",
+  "Expansion": "Stakeholder needs capture what individuals or groups want, require, or care about from the project. They may include formal requirements, service expectations, operational constraints, and success conditions. In PMI practice, understanding these needs is central to stakeholder engagement, requirements work, and shaping decisions about scope, communications, and acceptance.",
+  "Deep Dive": null,
+  "Contrast": "Requirements — stakeholder needs are the broader wants and expectations of stakeholders; requirements are the documented conditions or capabilities the project must satisfy.",
+  "Example": "In a hospital system upgrade, clinicians need minimal downtime, compliance officers need auditability, and executives need cost and adoption visibility.",
+  "Related Terms": [
+   "Stakeholder",
+   "Requirements",
+   "Stakeholder engagement",
+   "Stakeholder register",
+   "Acceptance criteria"
+  ],
+  "Tier": "Core glossary",
+  "Source": "PMI Lexicon of Project Management Terms — Stakeholder needs"
+ },
+ {
+  "Term": "Stakeholder performance domain",
+  "Core Meaning": "A performance domain that addresses activities and functions associated with stakeholders throughout the project.",
+  "Depth": "Foundational",
+  "Expansion": "The Stakeholder Performance Domain focuses on building productive working relationships with stakeholders, aligning stakeholder engagement with project needs, and maintaining stakeholder support over time. In PMI's performance-domain model, it is not a one-time stakeholder register exercise but an ongoing area of attention that influences decisions, communications, risk responses, and value delivery. It matters because projects succeed or fail partly through stakeholder acceptance, sponsorship, resistance, and feedback. The domain applies across predictive, agile, and hybrid environments, with the specific engagement tactics varying by context.",
+  "Deep Dive": "What it is: The Stakeholder Performance Domain is one of the PMBOK Guide Seventh Edition performance domains. It concerns identifying stakeholders, understanding their interests and influence, engaging them appropriately, and monitoring the quality of those relationships as the project evolves.\n\nWhy it matters and where it applies: stakeholder support affects funding, access to resources, decision speed, adoption, and benefits realisation. This domain applies in every project environment because all projects operate within a social and organisational system, even when the delivery method differs.\n\nThe most common misconception: that stakeholder management is mainly a communication-plan exercise or a list of names and influence ratings. In practice, the domain is about sustaining engagement, adjusting to changing stakeholder needs, and using feedback to improve both delivery and outcomes.\n\nHow it shows up in real projects: teams map stakeholder expectations, tailor engagement strategies, gather feedback during reviews and checkpoints, manage resistance, and adapt communications and involvement as the project moves through uncertainty and change.",
+  "Contrast": "Communications management — the stakeholder performance domain is broader, covering relationships, engagement, and stakeholder system dynamics, not just information exchange.",
+  "Example": "On an enterprise system rollout, the project team works with executives, end users, compliance staff, and support teams through demos, workshops, and readiness sessions to maintain buy-in and reduce resistance before deployment.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Stakeholder analysis",
+   "Communications management",
+   "Performance domain"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide) – Seventh Edition, Stakeholder Performance Domain section, pp. 21-27"
+ },
+ {
+  "Term": "Stakeholder register",
+  "Core Meaning": "A project document that records stakeholder identification information, assessment, and classification.",
+  "Depth": "Standard",
+  "Expansion": "The stakeholder register captures who the stakeholders are and relevant information about their interests, influence, expectations, and engagement needs. It supports stakeholder analysis and helps the team tailor communications and engagement strategies. PMI treats it as a living project document that is updated as stakeholders and project conditions change.",
+  "Deep Dive": null,
+  "Contrast": "Stakeholder engagement plan — the stakeholder register identifies and classifies stakeholders; the stakeholder engagement plan describes how the team will engage them.",
+  "Example": "A construction project maintains a stakeholder register listing regulators, nearby residents, suppliers, sponsors, and operations staff with notes on influence and concerns.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement plan",
+   "Project documents",
+   "Communications management plan",
+   "Stakeholder analysis"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Stakeholder register, page 243"
+ },
+ {
+  "Term": "Stakeholder satisfaction",
+  "Core Meaning": "The degree to which stakeholder needs, expectations, and perceptions are positively met by the project and its outcomes.",
+  "Depth": "Foundational",
+  "Expansion": "Stakeholder satisfaction is a key indicator of whether the project is delivering value in a way that important stakeholders recognise and accept. It is shaped not only by the quality of deliverables, but also by communication, responsiveness, involvement, timing, and perceived fairness in decisions. PMI treats stakeholder outcomes as central to project success because a project can meet schedule and cost targets yet still fail if stakeholders do not support or accept the result.",
+  "Deep Dive": "What it is: Stakeholder satisfaction is the overall level of approval, acceptance, or confidence that stakeholders have in the project process, deliverables, and outcomes. It reflects lived experience and perception, not just technical compliance with requirements.\n\nWhy it matters and where it applies: Projects exist in an environment of sponsors, customers, users, regulators, partners, and affected groups. Their satisfaction influences adoption, support, decision speed, benefit realisation, and whether the project is ultimately seen as successful.\n\nThe most common misconception: that satisfaction is the same as keeping everyone happy or saying yes to every request. In practice, it comes from managing expectations well, making trade-offs transparently, and delivering outcomes stakeholders see as valuable and trustworthy.\n\nHow it shows up in real projects: It appears in acceptance decisions, sponsor confidence, user adoption levels, survey results, reduced resistance, and the willingness of stakeholders to continue supporting the initiative.",
+  "Contrast": "Customer satisfaction — customer satisfaction focuses on the customer or end user, while stakeholder satisfaction covers the wider set of individuals and groups affected by or able to influence the project.",
+  "Example": "A hospital system implementation meets its launch date, but the team also runs training, addresses clinician concerns, and adapts workflows so department leaders and end users accept and support the new system.",
+  "Related Terms": [
+   "Stakeholder",
+   "Stakeholder engagement",
+   "Customer satisfaction",
+   "Acceptance criteria",
+   "Project success"
+  ],
+  "Tier": "Core glossary",
+  "Source": "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, page 14"
+ },
+ {
+  "Term": "Stakeholder trust",
+  "Core Meaning": "The confidence stakeholders hold that the project team will act with competence, honesty, and consistency on their interests.",
+  "Depth": "Atomic",
+  "Expansion": "Stakeholder trust is built through transparent communication, reliable follow-through, and demonstrated stewardship, and it lowers resistance and speeds decisions. Once damaged it is slow to rebuild, so the team protects it through credibility and ethical conduct.",
+  "Deep Dive": null,
+  "Contrast": "Differs from stakeholder engagement, which is the activity of involving stakeholders; trust is the relational quality that engagement aims to build.",
+  "Example": "By delivering on every small commitment early in the project, the manager earns the sponsor's trust and is granted more autonomy.",
+  "Related Terms": [
+   "Stakeholder engagement plan",
+   "Servant leadership",
+   "Communications management plan"
+  ],
+  "Tier": "Core glossary",
+  "Source": "The Standard for Project Management"
+ },
+ {
+  "Term": "Stakeholder value",
+  "Core Meaning": "The benefit or worth that a project's outcomes deliver to a particular stakeholder or stakeholder group.",
+  "Depth": "Atomic",
+  "Expansion": "Stakeholder value reflects how well outcomes meet the needs and expectations of those affected, and it can be financial, social, or experiential. Recognizing that different stakeholders value different things helps the team prioritize scope and trade-offs.",
+  "Deep Dive": null,
+  "Contrast": "Differs from business value, which centers on the sponsoring organization's gain; stakeholder value spans the full range of affected parties.",
+  "Example": "A new clinic system creates stakeholder value for nurses through faster charting, distinct from the financial value it gives the hospital.",
+  "Related Terms": [
+   "Value delivery system",
+   "Benefits realization",
+   "Stakeholder engagement plan",
+   "Business case"
+  ],
+  "Tier": "Core glossary",
+  "Source": "The Standard for Project Management"
+ }
 ]
