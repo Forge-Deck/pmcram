@@ -32,10 +32,6 @@
       }
     ],
     "explanation": "Artifacts are the Product Backlog, Sprint Backlog, and Increment; the Retrospective is an event, making it the odd one out.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "artifacts",
@@ -77,10 +73,6 @@
       }
     ],
     "explanation": "Cycle time runs from work start to completion; lead time begins earlier at request or commitment.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cycle time",
@@ -126,10 +118,6 @@
       }
     ],
     "explanation": "Cycle time and throughput describe flow of work; the others are earned value constructs tied to baselines.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "flow metrics",
@@ -170,10 +158,6 @@
       }
     ],
     "explanation": "The cumulative flow diagram exposes bottlenecks by showing work accumulating in each state over time.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "cumulative flow diagram",
@@ -215,10 +199,6 @@
       }
     ],
     "explanation": "Simultaneous reveal of relative estimates to converge through discussion is planning poker.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "planning poker",
@@ -264,10 +244,6 @@
       }
     ],
     "explanation": "At the end of a Sprint the review inspects the product and the retrospective inspects the process.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "sprint review",
@@ -308,10 +284,6 @@
       }
     ],
     "explanation": "Same inputs, different math: subtract for the dollar gap (CV), divide for the efficiency ratio (CPI).",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -353,10 +325,6 @@
       }
     ],
     "explanation": "Read any performance index against 1.0: above 1 is good, below 1 is unfavorable. CPI is the cost lens, so 0.9 means cost overrun.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -398,10 +366,6 @@
       }
     ],
     "explanation": "For both variances, negative is unfavorable. SV negative means earned value is below planned value - behind schedule.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -443,10 +407,6 @@
       }
     ],
     "explanation": "BAC is the plan (approved total). EAC is the prediction (where you now expect to land). Compare them with VAC equals BAC minus EAC.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -488,10 +448,6 @@
       }
     ],
     "explanation": "VAC equals BAC minus EAC - the forecast of how far over or under budget the project will end up. Positive means under budget.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -533,10 +489,6 @@
       }
     ],
     "explanation": "EAC, ETC, and TCPI all look forward. Planned Value is a baseline input (budget for scheduled work), not a forecast.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -578,10 +530,6 @@
       }
     ],
     "explanation": "Plan equals the governance and method; baseline equals the approved time-phased number you compare actuals against.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost-management-plan",
@@ -622,10 +570,6 @@
       }
     ],
     "explanation": "Estimate Costs equals price the pieces; Determine Budget equals add them up plus reserves to set the baseline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimate-costs",
@@ -667,10 +611,6 @@
       }
     ],
     "explanation": "NPV equals dollars-today at a given rate; IRR equals the rate that makes those dollars net to zero. Both rest on discounting.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "npv",
@@ -712,10 +652,6 @@
       }
     ],
     "explanation": "Chart equals financial categories (accounting); code equals WBS component identifiers (scope). Similar names, different jobs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "chart-of-accounts",
@@ -757,10 +693,6 @@
       }
     ],
     "explanation": "Control account equals the integration and measurement point above work packages; the work package equals the detailed lowest level of planned work.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "control-account",
@@ -802,10 +734,6 @@
       }
     ],
     "explanation": "EVM equals the system that integrates scope, schedule, and cost; EVA equals the analysis you run on its outputs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -850,10 +778,6 @@
       }
     ],
     "explanation": "Inside the baseline equals contingency reserve (known risks). Outside the baseline equals management reserve (unknown-unknowns). Together with the work budget they form the project budget.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "reserves",
@@ -896,10 +820,6 @@
       }
     ],
     "explanation": "Reserve analysis is the technique; contingency and management reserves are what it determines.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "reserve-analysis",
@@ -941,10 +861,6 @@
       }
     ],
     "explanation": "Determine Budget equals build the baseline; Control Costs equals watch actuals against it and manage changes.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "control-costs",
@@ -986,10 +902,6 @@
       }
     ],
     "explanation": "Estimate equals likely cost (a forecast); budget equals the approved, authorized amount. Estimates feed budgets but are not the same.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimate",
@@ -1030,10 +942,6 @@
       }
     ],
     "explanation": "Time-phased equals budget mapped to the schedule over time - the source of the Planned Value (PV) curve used in EVM.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost-baseline",
@@ -1074,10 +982,6 @@
       }
     ],
     "explanation": "Cost baseline equals the time-phased spend plan; funding requirements equal the money that must be available, by period and source, to fund it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "project-funding-requirements",
@@ -1119,10 +1023,6 @@
       }
     ],
     "explanation": "The three primary EVM measures are PV, EV, and AC. CPI, CV, SV, and SPI are all derived from them.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -1164,10 +1064,6 @@
       }
     ],
     "explanation": "Read each index against 1.0 independently. SPI 1.1 equals ahead of schedule; CPI 0.95 equals over budget. Speed gained, money lost.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "evm",
@@ -1209,10 +1105,6 @@
       }
     ],
     "explanation": "Buffer equals a flow or timing cushion against general variability; contingency reserve equals capacity set aside for specific identified risks.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "buffer",
@@ -1253,10 +1145,6 @@
       }
     ],
     "explanation": "Life-cycle costing equals total cost from cradle to grave (acquisition plus operation plus disposal). The cost baseline is only the project-build slice.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "life-cycle-costing",
@@ -1298,10 +1186,6 @@
       }
     ],
     "explanation": "The sponsor, an authority external to the project with funding power, issues and signs the charter to authorize the project and the project manager.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "charter",
@@ -1343,10 +1227,6 @@
       }
     ],
     "explanation": "Configuration management keeps item descriptions and versions correct and consistent; change control is the separate process of assessing and approving proposed changes.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "configuration management",
@@ -1388,10 +1268,6 @@
       }
     ],
     "explanation": "Change request equals the proposal; Change Control Board equals the body that decides; change log equals the record of decisions.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "change control board",
@@ -1433,10 +1309,6 @@
       }
     ],
     "explanation": "A phase gate, tollgate, or stage gate is the governance decision point at a phase boundary that authorizes continuation, change, or termination.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "phase gate",
@@ -1478,10 +1350,6 @@
       }
     ],
     "explanation": "Gate equals a decision point with criteria; milestone equals a significant scheduled marker with no inherent decision.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "gate",
@@ -1523,10 +1391,6 @@
       }
     ],
     "explanation": "The gate is where the decision is made; the go or no-go decision is the proceed, pause, or stop determination itself.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "go no-go",
@@ -1568,10 +1432,6 @@
       }
     ],
     "explanation": "Defining scope fully early and managing to the baseline is the signature of a predictive, plan-driven life cycle.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "predictive",
@@ -1613,10 +1473,6 @@
       }
     ],
     "explanation": "Adaptive equals emergent scope delivered iteratively; predictive equals early-fixed scope managed against a baseline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "definition",
       "adaptive",
@@ -1658,10 +1514,6 @@
       }
     ],
     "explanation": "Iterative equals repeated refinement of the same solution to improve it; incremental equals delivering the solution in successive usable pieces.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "iterative",
@@ -1703,10 +1555,6 @@
       }
     ],
     "explanation": "Mixing predictive and adaptive methods within one project to fit each part of the work is the defining feature of a hybrid approach.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "hybrid",
@@ -1748,10 +1596,6 @@
       }
     ],
     "explanation": "PMBOK 8 has seven performance domains; the common trap is the eight domains from PMBOK 7.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "pmbok8",
@@ -1793,10 +1637,6 @@
       }
     ],
     "explanation": "PMBOK 8 calls the five Process Groups Focus Areas; performance domains and principles are different constructs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "pmbok8",
@@ -1838,10 +1678,6 @@
       }
     ],
     "explanation": "PMBOK 8 has six principles; the trap is the twelve principles from PMBOK 7.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "pmbok8",
@@ -1883,10 +1719,6 @@
       }
     ],
     "explanation": "The seven PMBOK 8 performance domains are Stakeholders, Scope, Schedule, Finance, Resources, Governance, and Risk; Team is a PMBOK 7 label that does not appear.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "pmbok8",
@@ -1928,10 +1760,6 @@
       }
     ],
     "explanation": "PMBOK 8 has approximately forty processes; the trap is the forty-nine from PMBOK 6.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "pmbok8",
@@ -1973,10 +1801,6 @@
       }
     ],
     "explanation": "Validated means checked against requirements; accepted adds the formal approval. Verified but unsigned equals validated, not accepted.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "validated deliverable",
@@ -2018,10 +1842,6 @@
       }
     ],
     "explanation": "Authorization is the formal green light to begin work, distinct from accepting or validating finished outputs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "authorization",
@@ -2063,10 +1883,6 @@
       }
     ],
     "explanation": "Gold plating equals the team adding unrequested extras; scope creep equals uncontrolled growth of scope, usually stakeholder driven.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "gold plating",
@@ -2108,10 +1924,6 @@
       }
     ],
     "explanation": "Delegation moves tasks down; escalation moves decisions and issues up to higher authority.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "escalation",
@@ -2153,10 +1965,6 @@
       }
     ],
     "explanation": "Expected monetary value equals probability times impact summed across outcomes, distinct from the raw impact alone.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "expected monetary value",
@@ -2198,10 +2006,6 @@
       }
     ],
     "explanation": "In a firm fixed price contract the seller commits to a set price and absorbs any cost overrun, placing maximum cost risk on the seller. Cost-reimbursable and T and M types shift more cost risk to the buyer.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2244,10 +2048,6 @@
       }
     ],
     "explanation": "Time and materials is the hybrid of choice when scope is not yet defined and the effort is small, since it bills actual hours and materials at preset rates, frequently bounded by a not-to-exceed limit.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2290,10 +2090,6 @@
       }
     ],
     "explanation": "CPFF, CPIF, and CPAF all reimburse the seller's allowable costs and differ only in how the fee is set. FPIF is a fixed-price contract, so it is the outlier.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2336,10 +2132,6 @@
       }
     ],
     "explanation": "An incentive fee changes according to a preset formula linked to objective performance measures. That formula-based, measurable nature is what separates it from a subjective award fee.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2382,10 +2174,6 @@
       }
     ],
     "explanation": "The defining difference is how the fee is decided: an award fee depends on the buyer's subjective performance evaluation against criteria, while an incentive fee is calculated from a predefined formula tied to objective targets.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2428,10 +2216,6 @@
       }
     ],
     "explanation": "The point of total assumption (PTA) on an FPIF contract is the cost figure beyond which the seller absorbs all additional costs up to the ceiling price. It is distinct from the ceiling price, which is a maximum payment.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2474,10 +2258,6 @@
       }
     ],
     "explanation": "The ceiling price is the absolute upper limit on buyer payment in an FPIF contract. Target cost and target fee are planning bases for the incentive, and the point of total assumption is a cost threshold, not a payment cap.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2520,10 +2300,6 @@
       }
     ],
     "explanation": "When the goal is to learn what the market offers before a requirement is set, the buyer issues a request for information. Solicitation documents like RFP, RFQ, and IFB come later once the need is defined.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2566,10 +2342,6 @@
       }
     ],
     "explanation": "A request for proposal is appropriate when the buyer wants competing solution approaches and technical capability evaluated, whereas RFQ and IFB are price-driven instruments for well-defined needs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2612,10 +2384,6 @@
       }
     ],
     "explanation": "RFI, RFP, and IFB are all solicitation documents that obtain seller responses. A request for change belongs to integrated change control, making it the trap answer that does not fit the procurement set.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2658,10 +2426,6 @@
       }
     ],
     "explanation": "An invitation for bid suits a well-defined requirement where selection turns chiefly on price. An RFP is reserved for situations needing evaluation of approach and capability.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2704,10 +2468,6 @@
       }
     ],
     "explanation": "A make-or-buy decision chooses between internal performance and external sourcing. Procurement is the broader process of actually acquiring products or services from outside once the buy option is selected.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2750,10 +2510,6 @@
       }
     ],
     "explanation": "Quality-based selection evaluates technical quality first and only then negotiates price with the leading seller. Quality-and-cost-based selection instead weighs quality and price together in one score.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2796,10 +2552,6 @@
       }
     ],
     "explanation": "Qualification criteria act as an eligibility gate to determine which sellers may be considered. Source selection criteria are then used to compare those qualified sellers and select the awardee.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2842,10 +2594,6 @@
       }
     ],
     "explanation": "The procurement statement of work describes the deliverable or work to be acquired under the contract. It is distinct from the scope statement, the procurement management plan, and the broader bid documents package.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2888,10 +2636,6 @@
       }
     ],
     "explanation": "A warranty obligates the seller to correct covered defects in a deliverable for a stated period after acceptance. SLAs, retainage, and claims address different contractual concerns.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -2934,10 +2678,6 @@
       }
     ],
     "explanation": "Money spent because defects occurred is the cost of nonconformance; when the customer finds the defect after delivery it is an external failure cost. Prevention and appraisal are conformance costs spent to avoid failures.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality",
@@ -2980,10 +2720,6 @@
       }
     ],
     "explanation": "Arbitration submits a dispute to a neutral third party whose decision the parties accept. Mediation differs because the mediator facilitates rather than decides.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3026,10 +2762,6 @@
       }
     ],
     "explanation": "A claim is a request or assertion of entitlement, such as for added compensation. A dispute is what exists when the parties cannot agree and the claim remains unresolved.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3072,10 +2804,6 @@
       }
     ],
     "explanation": "A dispute review board is established early and remains engaged through the project to head off and resolve disputes. Arbitration and mediation are typically engaged only once a dispute has arisen.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3118,10 +2846,6 @@
       }
     ],
     "explanation": "BATNA is the best alternative a party can pursue if the negotiation collapses. It anchors how far a negotiator is willing to go, and it differs from the ZOPA, which is the range where agreement is possible.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3164,10 +2888,6 @@
       }
     ],
     "explanation": "The zone of possible agreement is the overlap between the buyer's maximum and the seller's minimum, the band within which a mutually acceptable deal can be made.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3210,10 +2930,6 @@
       }
     ],
     "explanation": "Fait accompli is a tactic of treating an issue as a done deal to take it off the table. It contrasts with good-faith negotiation, in which issues remain genuinely open.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3256,10 +2972,6 @@
       }
     ],
     "explanation": "By definition the buyer acquires and pays for products, services, or results, and the seller provides them under the procurement arrangement.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3302,10 +3014,6 @@
       }
     ],
     "explanation": "A contract is a mutually binding agreement that creates enforceable obligations. Agreement is the broader category, which can include both binding and nonbinding arrangements.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3348,10 +3056,6 @@
       }
     ],
     "explanation": "Insurance is a classic risk transfer mechanism: a premium is paid so a third party absorbs the defined financial consequences of a threat. Mitigation, acceptance, and avoidance keep or eliminate the risk differently.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk",
@@ -3394,10 +3098,6 @@
       }
     ],
     "explanation": "Risk transference shifts a threat's impact to a third party, commonly via contract or insurance. Risk sharing allocates a portion of ownership or outcome with another party and is frequently used for opportunities.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk",
@@ -3440,10 +3140,6 @@
       }
     ],
     "explanation": "Insurance is a transfer mechanism that moves financial exposure to an insurer. A contingency reserve is an acceptance mechanism that retains the risk and earmarks internal funds to cover it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk",
@@ -3486,10 +3182,6 @@
       }
     ],
     "explanation": "The Kraljic matrix is a procurement portfolio model that maps purchases on profit impact and supply risk so the team can tailor a sourcing strategy to each quadrant.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3532,10 +3224,6 @@
       }
     ],
     "explanation": "A long-lead item requires extended time to procure, produce, or deliver, so it is identified early and ordered well ahead of need to protect the schedule.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3578,10 +3266,6 @@
       }
     ],
     "explanation": "Control Procurements manages the contract relationship and performance while work is ongoing, making corrections as needed. Close Procurements formally completes and closes each contract after the work is finished.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3624,10 +3308,6 @@
       }
     ],
     "explanation": "A bidder conference, sometimes called a contractor or vendor conference, ensures every prospective seller has the same clear understanding of the requirement before preparing a bid or proposal.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3678,10 +3358,6 @@
       }
     ],
     "explanation": "The cost-reimbursable family pays the seller's allowable actual costs plus a fee and includes CPFF, CPIF, and CPAF. FFP and FPIF are fixed-price, and T and M is a hybrid.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3731,10 +3407,6 @@
       }
     ],
     "explanation": "Alternative dispute resolution avoids litigation through methods such as mediation, arbitration, and standing dispute review boards. Bidder conferences, source selection, and kitting are unrelated procurement activities.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -3777,10 +3449,6 @@
       }
     ],
     "explanation": "Distinguish QA (process: building confidence the process is right) from QC (product: inspecting the outputs). The stem describes process adequacy, so it is QA.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality",
@@ -3822,10 +3490,6 @@
       }
     ],
     "explanation": "Verification = conformance to specifications (building it right). Validation = fitness for intended use / meeting the need (building the right thing).",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "verification",
@@ -3867,10 +3531,6 @@
       }
     ],
     "explanation": "Precision is repeatability of results; accuracy is closeness to the true value. Consistent-but-wrong equals precise but not accurate.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "accuracy",
@@ -3912,10 +3572,6 @@
       }
     ],
     "explanation": "Grade ranks technical characteristics/features; quality measures conformance to requirements. Low grade with high quality is acceptable; low quality is always a problem.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality",
@@ -3957,10 +3613,6 @@
       }
     ],
     "explanation": "Inspection and testing to detect defects is appraisal cost (a cost of conformance). Prevention avoids defects; failure costs occur after defects exist.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost of quality",
@@ -4002,10 +3654,6 @@
       }
     ],
     "explanation": "Failure costs split into internal (found before delivery) and external (found by the customer). Warranty and recall costs are external failure, a cost of nonconformance.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost of quality",
@@ -4047,10 +3695,6 @@
       }
     ],
     "explanation": "Cost of conformance = prevention + appraisal. Cost of nonconformance = internal failure + external failure.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost of quality",
@@ -4091,10 +3735,6 @@
       }
     ],
     "explanation": "Common cause = inherent system noise in a stable process. Special (assignable) cause = a specific identifiable disturbance requiring investigation.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "common cause",
@@ -4136,10 +3776,6 @@
       }
     ],
     "explanation": "Audit = process/compliance focus (independent examination of how work is done). Inspection = product focus (examining the deliverable itself).",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "audit",
@@ -4181,10 +3817,6 @@
       }
     ],
     "explanation": "Prevention (keeping defects out) is preferred over inspection (finding defects after they occur) because preventing a defect is cheaper than detecting and fixing it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "prevention",
@@ -4226,10 +3858,6 @@
       }
     ],
     "explanation": "Attribute sampling = conforms or not (pass/fail, discrete). Variable sampling = degree of conformance on a continuous measured scale.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "attribute sampling",
@@ -4271,10 +3899,6 @@
       }
     ],
     "explanation": "Lean maximizes value while eliminating waste (waiting, inventory, defects, overproduction, motion, transport, over-processing). Value-added transformation is the opposite of waste.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "lean",
@@ -4316,10 +3940,6 @@
       }
     ],
     "explanation": "DMAIC improves an existing process; DMADV (Design for Six Sigma) creates a new product or process. The stem describes fixing an existing process, so DMAIC.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "six sigma",
@@ -4361,10 +3981,6 @@
       }
     ],
     "explanation": "Kaizen is the practice of continual, small, incremental improvement. It is a specific pattern within the broader idea of continuous improvement.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "kaizen",
@@ -4406,10 +4022,6 @@
       }
     ],
     "explanation": "Fishbone = Ishikawa = cause-and-effect diagram: one tool, three names, used to trace an effect back to candidate root causes.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "fishbone",
@@ -4451,10 +4063,6 @@
       }
     ],
     "explanation": "Crosby: quality is free and zero defects. Juran: fitness for use. Deming: PDCA and variation reduction. Ishikawa: fishbone diagram.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality gurus",
@@ -4496,10 +4104,6 @@
       }
     ],
     "explanation": "Juran = fitness for use and the quality trilogy. Crosby = conformance to requirements and quality is free. The fitness-for-use phrasing is the Juran tell.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality gurus",
@@ -4541,10 +4145,6 @@
       }
     ],
     "explanation": "PDCA (Plan-Do-Check-Act) is the Deming (Shewhart-Deming) cycle for continuous improvement.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality gurus",
@@ -4586,10 +4186,6 @@
       }
     ],
     "explanation": "Specification limits = required acceptance band (voice of the customer). Control limits = natural process variation (voice of the process), derived from the data.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "specification limits",
@@ -4631,10 +4227,6 @@
       }
     ],
     "explanation": "Control chart = process behavior over time vs limits. Histogram = distribution snapshot. The time dimension and limits point to the control chart.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "control chart",
@@ -4676,10 +4268,6 @@
       }
     ],
     "explanation": "The Pareto chart applies the 80/20 principle, ordering causes by frequency so teams target the vital few. A histogram shows distribution without that prioritizing order.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "pareto chart",
@@ -4721,10 +4309,6 @@
       }
     ],
     "explanation": "Manage Quality (assurance) improves processes; Control Quality measures and inspects outputs against requirements. Process versus product.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "manage quality",
@@ -4766,10 +4350,6 @@
       }
     ],
     "explanation": "A defect is a specific flaw; nonconformance is the broader state of not meeting a requirement. The defect is an instance of nonconformance.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "defect",
@@ -4811,10 +4391,6 @@
       }
     ],
     "explanation": "Corrective action fixes an existing deviation; preventive action heads off a future one. The variance has already occurred, so it is corrective.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "corrective action",
@@ -4856,10 +4432,6 @@
       }
     ],
     "explanation": "Defect repair = fix a specific flaw. Corrective action = broader realignment to the plan. Fixing one bug is defect repair.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "defect repair",
@@ -4901,10 +4473,6 @@
       }
     ],
     "explanation": "A scatter diagram reveals correlation between two variables; a histogram shows distribution of one. Two variables and paired points point to scatter.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scatter diagram",
@@ -4946,10 +4514,6 @@
       }
     ],
     "explanation": "A check sheet collects and tallies observed data; a checklist confirms completion of required items. The stem describes tallying frequency, so check sheet.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "check sheet",
@@ -4991,10 +4555,6 @@
       }
     ],
     "explanation": "The seven basic quality tools include cause-and-effect, control charts, check sheets, histograms, Pareto charts, scatter diagrams, and flowcharts. Affinity diagrams are not in that set.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "seven basic quality tools",
@@ -5035,10 +4595,6 @@
       }
     ],
     "explanation": "Quality requirements = what; quality metrics = how it will be measured. Quality control measurements are the resulting recorded data.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality metrics",
@@ -5080,10 +4636,6 @@
       }
     ],
     "explanation": "Quality policy = organization-wide direction from top management. The quality management plan is the project-level implementation of that policy.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality policy",
@@ -5125,10 +4677,6 @@
       }
     ],
     "explanation": "Rework restores conformance to the original requirement; repair makes an item usable but may not fully restore original conformity.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "rework",
@@ -5170,10 +4718,6 @@
       }
     ],
     "explanation": "Design of experiments deliberately varies factors to quantify their influence on an outcome. Design for X optimizes a design toward a target attribute.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "design of experiments",
@@ -5215,10 +4759,6 @@
       }
     ],
     "explanation": "Definition of Done = shared completion standard for all increments. Acceptance criteria = conditions for an individual requirement or item.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "definition of done",
@@ -5260,10 +4800,6 @@
       }
     ],
     "explanation": "Conformance can be achieved while customer satisfaction is not, because satisfaction reflects perceived value and expectations beyond the written requirements.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "customer satisfaction",
@@ -5305,10 +4841,6 @@
       }
     ],
     "explanation": "Capability = what a stable process is able to achieve versus requirements. Performance = how the process is actually behaving right now.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "process capability",
@@ -5350,10 +4882,6 @@
       }
     ],
     "explanation": "Statistical sampling inspects a representative subset to draw population conclusions, trading some certainty for lower inspection cost.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "statistical sampling",
@@ -5395,10 +4923,6 @@
       }
     ],
     "explanation": "Cost of quality bundles all conformance and nonconformance costs over the product life into one framework: prevention, appraisal, internal failure, external failure.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost of quality",
@@ -5439,10 +4963,6 @@
       }
     ],
     "explanation": "Quality assurance is process-focused and uses quality audits. Quality control is product-focused and uses inspection, sampling, and control charts.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality assurance",
@@ -5484,10 +5004,6 @@
       }
     ],
     "explanation": "A hardening sprint concentrates stabilization and defect-fixing in a later timebox. A strong Definition of Done reduces the need for one.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "hardening sprint",
@@ -5529,10 +5045,6 @@
       }
     ],
     "explanation": "Integration test = interactions across combined components. System test = the whole integrated system against broad requirements.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "integration test",
@@ -5574,10 +5086,6 @@
       }
     ],
     "explanation": "Technical debt is the future rework cost of expedient choices, distinct from a present defect or nonconformance that already fails a requirement.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "technical debt",
@@ -5619,10 +5127,6 @@
       }
     ],
     "explanation": "Process stability = predictable, in-control variation over time. Process capability = the ability to meet specification limits. A process can be stable yet not capable.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "process stability",
@@ -5664,10 +5168,6 @@
       }
     ],
     "explanation": "A histogram shows the distribution of continuous data across intervals; a bar chart compares discrete categories.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "histogram",
@@ -5709,10 +5209,6 @@
       }
     ],
     "explanation": "The aggressive pair is Avoid/Exploit: Avoid drives a threat probability to zero, Exploit drives an opportunity probability to certainty.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5755,10 +5251,6 @@
       }
     ],
     "explanation": "Mitigate (reduce threat P/I) mirrors Enhance (increase opportunity P/I). Both adjust probability or impact without forcing the outcome.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5800,10 +5292,6 @@
       }
     ],
     "explanation": "Transfer/Share are the third-party pair: Transfer moves threat impact out, Share brings in a partner to realise an opportunity.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5849,10 +5337,6 @@
       }
     ],
     "explanation": "Accept and Escalate are the two strategies shared by threats and opportunities. The other four come in threat/opportunity pairs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5894,10 +5378,6 @@
       }
     ],
     "explanation": "The opportunity strategies are Exploit, Enhance, Share (plus Accept/Escalate). Mitigate is a threat-only strategy.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5939,10 +5419,6 @@
       }
     ],
     "explanation": "Buying insurance, warranties, or performance bonds shifts impact ownership to a third party - the definition of Transfer.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -5984,10 +5460,6 @@
       }
     ],
     "explanation": "Avoid removes the threat or the team's exposure to it; Mitigate lowers probability or impact but exposure remains.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -6029,10 +5501,6 @@
       }
     ],
     "explanation": "Changing the plan so the threat no longer applies - dropping the risky vendor - is the textbook Avoid response.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -6073,10 +5541,6 @@
       }
     ],
     "explanation": "Exploit makes the upside certain; Enhance merely improves its odds or size. This is the opportunity-side analogue of Avoid vs Mitigate.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -6118,10 +5582,6 @@
       }
     ],
     "explanation": "Share is the opportunity strategy of giving ownership to a partner best positioned to realise the benefit - the mirror of Transfer.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-response",
@@ -6163,10 +5623,6 @@
       }
     ],
     "explanation": "The only difference is preparation: active acceptance sets up a contingency reserve; passive acceptance just acknowledges the risk and deals with it if it occurs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "acceptance",
@@ -6207,10 +5663,6 @@
       }
     ],
     "explanation": "Active acceptance = acknowledge the risk plus hold a contingency reserve to act on if it occurs. Passive acceptance holds no reserve.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "acceptance",
@@ -6251,10 +5703,6 @@
       }
     ],
     "explanation": "Low-priority risks placed on a watch list with no action are typically passively accepted. Adding a reserve would make it active acceptance.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "acceptance",
@@ -6296,10 +5744,6 @@
       }
     ],
     "explanation": "Implementing a response can leave some risk behind (residual) and can spawn a brand-new risk (secondary).",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "secondary-risk",
@@ -6340,10 +5784,6 @@
       }
     ],
     "explanation": "Residual risk = what is left over after the planned response is in place. It is often accepted if within thresholds.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "residual-risk",
@@ -6383,10 +5823,6 @@
       }
     ],
     "explanation": "Responses can generate new risks. The subcontractor reliability is a secondary risk born from the mitigation action.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "secondary-risk",
@@ -6426,10 +5862,6 @@
       }
     ],
     "explanation": "Contingency reserve = identified risks (known-unknowns), inside the performance baseline. Management reserve = unforeseen work (unknown-unknowns), outside the baseline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "contingency-reserve",
@@ -6470,10 +5902,6 @@
       }
     ],
     "explanation": "Unknown-unknowns outside the baseline = management reserve. Using it usually requires a baseline change and management approval.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "management-reserve",
@@ -6514,10 +5942,6 @@
       }
     ],
     "explanation": "Identified risks + active responses + inside the baseline = contingency reserve.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "contingency-reserve",
@@ -6557,10 +5981,6 @@
       }
     ],
     "explanation": "Contingency plan = the primary planned response triggered by a risk; fallback plan = the secondary plan if the primary one fails.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "contingency-plan",
@@ -6601,10 +6021,6 @@
       }
     ],
     "explanation": "A fallback plan is the pre-planned backup for when the primary (contingency) response does not work.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "fallback-plan",
@@ -6644,10 +6060,6 @@
       }
     ],
     "explanation": "Contingency plan = the actions; contingency reserve = the time/money that backs them.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "contingency-plan",
@@ -6688,10 +6100,6 @@
       }
     ],
     "explanation": "The key is timing and certainty: a risk is uncertain and in the future; an issue has already materialised.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk",
@@ -6732,10 +6140,6 @@
       }
     ],
     "explanation": "Once an uncertain event actually occurs, it ceases to be a risk and becomes an issue requiring current action.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "issue",
@@ -6776,10 +6180,6 @@
       }
     ],
     "explanation": "A hazard is a source of potential harm (for example, a chemical store); the risk is the uncertain event arising from it and its effect on objectives.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "hazard",
@@ -6820,10 +6220,6 @@
       }
     ],
     "explanation": "Ambiguity is conceptual unclearness or competing interpretations; uncertainty is simply not knowing the outcome.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "ambiguity",
@@ -6864,10 +6260,6 @@
       }
     ],
     "explanation": "Volatility names rapid, turbulent change (the V in VUCA). Ambiguity, complexity, and uncertainty describe different facets.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "volatility",
@@ -6908,10 +6300,6 @@
       }
     ],
     "explanation": "Conflicting interpretations and lack of conceptual clarity = ambiguity. Variability is about spread of outcomes; volatility is about rate of change.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "ambiguity",
@@ -6951,10 +6339,6 @@
       }
     ],
     "explanation": "Appetite is the qualitative willingness to take on uncertainty; the threshold is the measurable boundary that makes that willingness actionable.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-appetite",
@@ -6995,10 +6379,6 @@
       }
     ],
     "explanation": "A specific, measurable limit (10 days) is a risk threshold - the quantified expression of appetite and tolerance.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-threshold",
@@ -7038,10 +6418,6 @@
       }
     ],
     "explanation": "Appetite (broad willingness) and tolerance (degree of variation withstood) are related but distinct; the threshold is the measurable line.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-appetite",
@@ -7082,10 +6458,6 @@
       }
     ],
     "explanation": "EMV multiplies probability by impact. For a threat the result is negative: 0.30 times 100,000 = minus 30,000.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "emv",
@@ -7126,10 +6498,6 @@
       }
     ],
     "explanation": "EMV is the probability-weighted figure for an outcome; decision tree analysis is the structured model that often computes EMV along each branch to choose the best decision.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "emv",
@@ -7170,10 +6538,6 @@
       }
     ],
     "explanation": "Decision trees model discrete decisions plus chance events and payoffs, typically using EMV on each branch to select the optimal choice.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "decision-tree",
@@ -7214,10 +6578,6 @@
       }
     ],
     "explanation": "Qualitative prioritises risks subjectively (probability and impact); quantitative models their numeric, combined effect on objectives.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "qualitative-analysis",
@@ -7258,10 +6618,6 @@
       }
     ],
     "explanation": "Identifying the most influential variables (tornado diagram) is the signature use of sensitivity analysis.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "sensitivity-analysis",
@@ -7302,10 +6658,6 @@
       }
     ],
     "explanation": "The RBS is a categorical hierarchy of risk sources; the WBS is a deliverable-oriented decomposition of project scope.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "rbs",
@@ -7346,10 +6698,6 @@
       }
     ],
     "explanation": "The register holds detailed, individual risk entries; the report summarises overall project risk and aggregated information.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-register",
@@ -7390,10 +6738,6 @@
       }
     ],
     "explanation": "A trigger (or trigger condition) is the signal that a risk is occurring and that the contingency response should start.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "trigger",
@@ -7434,10 +6778,6 @@
       }
     ],
     "explanation": "The risk owner is accountable for the risk and its response; the risk action owner is the person who performs a specific response action.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-owner",
@@ -7478,10 +6818,6 @@
       }
     ],
     "explanation": "A workaround is an unplanned, reactive response to an unidentified risk or a current issue - distinct from the pre-planned contingency and fallback plans.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "workaround",
@@ -7522,10 +6858,6 @@
       }
     ],
     "explanation": "A risk audit evaluates how well responses and the overall risk process are working; a risk review is the recurring examination of current risks and their status.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk-audit",
@@ -7566,10 +6898,6 @@
       }
     ],
     "explanation": "Individual project risk is one discrete uncertainty; overall project risk is the combined effect of all sources of uncertainty on the whole project.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "individual-project-risk",
@@ -7610,10 +6938,6 @@
       }
     ],
     "explanation": "Free float relates to the next activity; total float relates to the whole project. The successor early start is the tell for free float.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7655,10 +6979,6 @@
       }
     ],
     "explanation": "Leveling can move the critical path because it ignores float limits to fix over-allocation; smoothing stays within float and keeps the finish date.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7701,10 +7021,6 @@
       }
     ],
     "explanation": "Crashing trades money for time; fast tracking trades risk for time. Adding resources to buy duration is the signature of crashing.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7746,10 +7062,6 @@
       }
     ],
     "explanation": "Fast tracking buys time by overlapping; its cost is added risk and potential rework, distinguishing it from crashing.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7792,10 +7104,6 @@
       }
     ],
     "explanation": "Buffers plus resource constraints signal critical chain; logic and float alone signal critical path.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7838,10 +7146,6 @@
       }
     ],
     "explanation": "Finish-to-start is the default and most common precedence relationship; the others change which endpoints are constrained.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7883,10 +7187,6 @@
       }
     ],
     "explanation": "When two activities should kick off together, the start of one gates the start of the other, which is start-to-start.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7928,10 +7228,6 @@
       }
     ],
     "explanation": "Start-to-finish is the rare relationship used in handover or shift scenarios where a successor can finish only after the predecessor starts.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -7973,10 +7269,6 @@
       }
     ],
     "explanation": "Lead accelerates the successor and lag delays it; the question describes acceleration, so it is lead.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8018,10 +7310,6 @@
       }
     ],
     "explanation": "A planned, required wait between activities is lag; lead does the opposite by overlapping them.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8062,10 +7350,6 @@
       }
     ],
     "explanation": "Hard logic required by the work itself is a mandatory dependency; team-chosen ordering is discretionary.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8107,10 +7391,6 @@
       }
     ],
     "explanation": "Discretionary equals soft logic; mandatory equals hard logic. Preferred sequencing maps to soft logic.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8153,10 +7433,6 @@
       }
     ],
     "explanation": "Reliance on a party outside the project boundary is an external dependency; the internal versus external split is about who controls the work.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8198,10 +7474,6 @@
       }
     ],
     "explanation": "Milestones mark events and have no duration; activities and work packages represent work that takes time.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8243,10 +7515,6 @@
       }
     ],
     "explanation": "Equal weighting of the three points is triangular; four-times weighting of the most likely is beta or PERT.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8288,10 +7556,6 @@
       }
     ],
     "explanation": "Rolling wave is a specific application of the broader idea of progressive elaboration; the timing of detail is the tell.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8333,10 +7597,6 @@
       }
     ],
     "explanation": "Critical chain uses feeding buffers at merge points and a project buffer at the end; the merge point is the feeding buffer.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8379,10 +7639,6 @@
       }
     ],
     "explanation": "Contingency reserve is in the baseline for known risks; management reserve is outside it for unknown work.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "cost",
@@ -8425,10 +7681,6 @@
       }
     ],
     "explanation": "Forward pass yields early dates from the start; backward pass yields late dates from the end.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8470,10 +7722,6 @@
       }
     ],
     "explanation": "Late dates come from the backward pass; subtracting early from late dates yields total float.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8515,10 +7763,6 @@
       }
     ],
     "explanation": "Zero float on the longest path defines a critical activity; small positive float defines near-critical.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8560,10 +7804,6 @@
       }
     ],
     "explanation": "Slack and float are synonyms for schedule flexibility; lead, lag, and buffer are different constructs.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8605,10 +7845,6 @@
       }
     ],
     "explanation": "The schedule baseline is the approved, change-controlled reference; the schedule model is the editable working version.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "definition",
       "schedule",
@@ -8650,10 +7886,6 @@
       }
     ],
     "explanation": "Crashing and fast tracking are both schedule compression techniques; leveling and smoothing are resource optimization techniques.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8694,10 +7926,6 @@
       }
     ],
     "explanation": "Three options are estimating techniques; resource leveling is the odd one out as a scheduling technique.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8737,10 +7965,6 @@
       }
     ],
     "explanation": "Comparison with one similar past project for a quick figure is analogous; component build-up is bottom-up; unit-rate math is parametric.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8781,10 +8005,6 @@
       }
     ],
     "explanation": "A unit rate multiplied by a quantity is the signature of parametric estimating.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8825,10 +8045,6 @@
       }
     ],
     "explanation": "Estimating each component and summing is bottom-up; it is the most detailed but most effort-intensive approach.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8869,10 +8085,6 @@
       }
     ],
     "explanation": "Duration is elapsed time; effort is labor units. The five calendar days are duration; the 40 hours are effort.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "estimating",
@@ -8914,10 +8126,6 @@
       }
     ],
     "explanation": "Low but nonzero float that could become schedule-driving marks the near-critical path; zero float marks the critical path.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -8959,10 +8167,6 @@
       }
     ],
     "explanation": "Hard logic equals mandatory, soft logic equals discretionary; the relationship mirrors the synonym pairings.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9005,10 +8209,6 @@
       }
     ],
     "explanation": "Monte Carlo yields the distribution of outcomes; sensitivity analysis identifies the most influential drivers.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "risk",
@@ -9050,10 +8250,6 @@
       }
     ],
     "explanation": "Develop Schedule integrates the planning outputs into a schedule model; Control Schedule comes later to monitor it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "definition",
       "schedule",
@@ -9094,10 +8290,6 @@
       }
     ],
     "explanation": "Creating the schedule is Develop Schedule; monitoring and managing baseline changes is Control Schedule.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9139,10 +8331,6 @@
       }
     ],
     "explanation": "Decomposition breaks scope down; rolling wave decides the timing of planning detail. They answer different questions.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope",
@@ -9184,10 +8372,6 @@
       }
     ],
     "explanation": "Network diagrams show logic and dependencies; Gantt and bar charts show timing against a timeline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9229,10 +8413,6 @@
       }
     ],
     "explanation": "Staying within float and preserving the finish date is smoothing; moving beyond float to fix over-allocation is leveling.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9274,10 +8454,6 @@
       }
     ],
     "explanation": "Accepting a later finish to fix over-allocation is the hallmark of leveling; smoothing never moves the finish date.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9323,10 +8499,6 @@
       }
     ],
     "explanation": "Resource optimization covers leveling and smoothing; crashing and fast tracking belong to schedule compression.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9371,10 +8543,6 @@
       }
     ],
     "explanation": "Schedule compression is achieved by crashing and fast tracking; the resource optimization options do not shorten duration.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9419,10 +8587,6 @@
       }
     ],
     "explanation": "Free float protects the next activity start; total float protects the project end. Swapping those is the common trap.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "schedule",
@@ -9465,10 +8629,6 @@
       }
     ],
     "explanation": "Product scope = the features and functions of the result. Project scope = the work to produce it. Features and functions point to product scope.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope",
@@ -9510,10 +8670,6 @@
       }
     ],
     "explanation": "Gold plating = team-driven extras the customer never asked for. Scope creep = uncontrolled, often stakeholder-driven growth. Both are bad and both should route through integrated change control.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope creep",
@@ -9559,10 +8715,6 @@
       }
     ],
     "explanation": "The scope baseline = approved project scope statement + WBS + WBS dictionary. The RTM and charter are related artifacts but not part of it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope baseline",
@@ -9603,10 +8755,6 @@
       }
     ],
     "explanation": "Customer acceptance of completed deliverables = Validate Scope. Internal conformance checking = Control Quality. Managing the baseline against creep = Control Scope.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "validate scope",
@@ -9647,10 +8795,6 @@
       }
     ],
     "explanation": "Control Scope = monitor status and manage baseline changes (prevent creep). Validate Scope = formal stakeholder acceptance of deliverables.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "control scope",
@@ -9691,10 +8835,6 @@
       }
     ],
     "explanation": "The work package is the lowest WBS level. Above it sits the control account; a planning package is a not-yet-detailed placeholder under a control account.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "definition",
       "work package",
@@ -9735,10 +8875,6 @@
       }
     ],
     "explanation": "A control account integrates scope, cost, and schedule for earned value measurement. A work package is its lowest scope detail; the code of accounts only labels components.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "control account",
@@ -9779,10 +8915,6 @@
       }
     ],
     "explanation": "Planning package = known work below a control account that is not yet decomposed. Work package = detailed, execution-ready lowest WBS element.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "planning package",
@@ -9823,10 +8955,6 @@
       }
     ],
     "explanation": "Decomposition = subdivide scope into smaller parts (e.g., building the WBS). Progressive elaboration = increasing detail as understanding grows. Different ideas, not opposites of life cycle.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "decomposition",
@@ -9867,10 +8995,6 @@
       }
     ],
     "explanation": "Progressive elaboration is the broad principle; rolling wave planning is a specific implementation that elaborates imminent work while leaving later work at a higher level.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "rolling wave planning",
@@ -9911,10 +9035,6 @@
       }
     ],
     "explanation": "Acceptance criteria are per-item and were met; the Definition of Done is the broader, common completion standard (regression, docs, etc.) applied to every increment.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "definition of done",
@@ -9955,10 +9075,6 @@
       }
     ],
     "explanation": "Definition of Ready = a story has enough information to be started. Definition of Done = the increment is genuinely complete. Entry versus completion.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "definition of ready",
@@ -9999,10 +9115,6 @@
       }
     ],
     "explanation": "Brainstorming, focus groups, and interviews elicit requirements. The requirements traceability matrix tracks requirements afterward; it is not an elicitation technique.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "elicitation",
@@ -10043,10 +9155,6 @@
       }
     ],
     "explanation": "What it must do = functional. How well or under what conditions = nonfunctional. A response-time-under-load constraint is a nonfunctional requirement.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "nonfunctional requirement",
@@ -10091,10 +9199,6 @@
       }
     ],
     "explanation": "Common requirement classifications include business, stakeholder, solution (functional and nonfunctional), transition, project, and quality requirements. Traceability and baseline are not requirement types.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "requirements",
@@ -10134,10 +9238,6 @@
       }
     ],
     "explanation": "The requirements traceability matrix maps requirements to origins, deliverables, and verification. Documentation records them; the management plan governs them.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "requirements traceability matrix",
@@ -10177,10 +9277,6 @@
       }
     ],
     "explanation": "Requirements documentation = the recorded requirements. RTM = the grid that links each requirement to its source, deliverables, and verification for coverage control.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "requirements documentation",
@@ -10221,10 +9317,6 @@
       }
     ],
     "explanation": "Order: Collect Requirements documents needs, Define Scope turns them into the project scope statement, then Create WBS decomposes it.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "collect requirements",
@@ -10265,10 +9357,6 @@
       }
     ],
     "explanation": "Define Scope = the detailed scope description. Create WBS = decompose that scope into work packages. Define precedes decompose.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "define scope",
@@ -10309,10 +9397,6 @@
       }
     ],
     "explanation": "The 100 percent rule: a WBS includes all the work and only the work, and each level rolls up completely to its parent. No gold plating, no omissions.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "100 percent rule",
@@ -10353,10 +9437,6 @@
       }
     ],
     "explanation": "WBS = the hierarchical decomposition. WBS dictionary = the supporting detail for each component. Both, with the scope statement, form the scope baseline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "wbs",
@@ -10397,10 +9477,6 @@
       }
     ],
     "explanation": "Scope baseline = approved scope used for comparison. Scope creep = uncontrolled additions beyond it. Changes should go through a change request.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope baseline",
@@ -10441,10 +9517,6 @@
       }
     ],
     "explanation": "Team-initiated, unrequested extras = gold plating. If the additions had come from stakeholder requests slipping in without control, it would be scope creep.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "gold plating",
@@ -10485,10 +9557,6 @@
       }
     ],
     "explanation": "Stakeholder-driven additions bypassing change control = scope creep. The fix is to route requests through integrated change control against the baseline.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "scope creep",
@@ -10529,10 +9597,6 @@
       }
     ],
     "explanation": "Stating what is out of scope = exclusion. A constraint limits in-scope work; an assumption is a planning supposition.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "exclusion",
@@ -10573,10 +9637,6 @@
       }
     ],
     "explanation": "Constraint = a real limiting factor (e.g., fixed deadline). Assumption = taken as true for planning until confirmed. Out-of-scope items are exclusions.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "assumption",
@@ -10617,10 +9677,6 @@
       }
     ],
     "explanation": "Deliverable = a tangible, verifiable result. Milestone = a significant point in the schedule with no duration.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "deliverable",
@@ -10661,10 +9717,6 @@
       }
     ],
     "explanation": "Validated (verified against requirements via Control Quality) comes before accepted (formal customer sign-off via Validate Scope). It is currently validated, not yet accepted.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "validated deliverables",
@@ -10705,10 +9757,6 @@
       }
     ],
     "explanation": "Acceptance criteria = the conditions to be met. Acceptance = the formal decision to approve once those conditions are satisfied.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "acceptance",
@@ -10749,10 +9797,6 @@
       }
     ],
     "explanation": "Brainstorming = open verbal group generation. Brainwriting = individual written ideas first, then shared. Asynchronous electronic generation is brain-netting.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "brainstorming",
@@ -10793,10 +9837,6 @@
       }
     ],
     "explanation": "Mind mapping radiates from a central concept; affinity diagrams group a large number of generated ideas by natural relationship.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "mind mapping",
@@ -10837,10 +9877,6 @@
       }
     ],
     "explanation": "Watching work as it is actually performed = observation (job shadowing). Interviews capture what people say; observation captures what they do.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "observation",
@@ -10881,10 +9917,6 @@
       }
     ],
     "explanation": "Questionnaires = efficient, standardised, many respondents. Interviews = interactive, allow probing and follow-up.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "questionnaire",
@@ -10925,10 +9957,6 @@
       }
     ],
     "explanation": "Classifying features by their satisfaction impact (basic, performance, delighter) is Kano analysis. A prioritization matrix only ranks against weighted criteria.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "kano analysis",
@@ -10969,10 +9997,6 @@
       }
     ],
     "explanation": "Requirement = a condition or capability that must be satisfied. Feature = a capability the solution provides. Epics decompose into features, features into stories.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "feature",
@@ -11013,10 +10037,6 @@
       }
     ],
     "explanation": "A statement of work describes requested work or deliverables (often for procurement). The project scope statement defines the approved project scope in detail.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "statement of work",
@@ -11057,10 +10077,6 @@
       }
     ],
     "explanation": "Quality requirement = a specific attribute conformance. Acceptance criteria = the broader conditions for accepting a deliverable. A quality metric is how an attribute is measured.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "quality requirement",
@@ -11101,10 +10117,6 @@
       }
     ],
     "explanation": "Decompose = the verb (to subdivide). Decomposition = the technique or its result (e.g., the WBS). Refining detail over time is progressive elaboration.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "decompose",
@@ -11145,10 +10157,6 @@
       }
     ],
     "explanation": "Elicitation draws out, discovers, and clarifies information from many sources, which is broader than collecting requirements stakeholders simply state.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "elicitation",

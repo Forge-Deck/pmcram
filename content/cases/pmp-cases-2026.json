@@ -37,11 +37,7 @@
             "trap": "This changes the cadence instead of addressing the impediment causing the problem."
           }
         ],
-        "explanation": "The first response is to assess the situation and coach the team through resolution. In agile environments, the project manager supports healthy team dynamics rather than imposing a command-and-control solution.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The first response is to assess the situation and coach the team through resolution. In agile environments, the project manager supports healthy team dynamics rather than imposing a command-and-control solution."
       },
       {
         "prompt": "After the facilitated discussion, one developer says the conflict started because expectations for code review, pairing, and decision making were never clearly defined. What should the project manager do next?",
@@ -76,11 +72,7 @@
             "trap": "This ignores a current impediment that is already harming delivery."
           }
         ],
-        "explanation": "The team should make expectations explicit and improve them through regular inspection and adaptation. These actions strengthen self-management and psychological safety without escalating unnecessarily.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The team should make expectations explicit and improve them through regular inspection and adaptation. These actions strengthen self-management and psychological safety without escalating unnecessarily."
       },
       {
         "prompt": "In the next sprint, one of the same developers openly dismisses a junior tester's concerns during refinement, and the tester later says they no longer feel comfortable speaking up. What is the best action now?",
@@ -111,16 +103,8 @@
             "trap": "This sacrifices team health and long-term performance for short-term output."
           }
         ],
-        "explanation": "People issues should be handled through coaching and, when necessary, collaboration with the appropriate people manager. A servant leader protects psychological safety so all team members can contribute.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "People issues should be handled through coaching and, when necessary, collaboration with the appropriate people manager. A servant leader protects psychological safety so all team members can contribute."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "agile",
@@ -173,11 +157,7 @@
             "trap": "This replaces analysis with a vague visual judgment."
           }
         ],
-        "explanation": "The correct interpretation is schedule delay and cost overrun. The variances are SV equals negative 80000 and CV equals negative 60000, both showing unfavorable performance.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The correct interpretation is schedule delay and cost overrun. The variances are SV equals negative 80000 and CV equals negative 60000, both showing unfavorable performance."
       },
       {
         "prompt": "The root cause review shows unexpected production shutdown windows and low contractor productivity during equipment installation. What should the project manager do next?",
@@ -212,11 +192,7 @@
             "trap": "This is premature because the problem is ongoing and work remains."
           }
         ],
-        "explanation": "The next step after identifying unfavorable variances is to analyze causes, evaluate response options, and refresh forecasts. This keeps corrective action evidence-based and integrated across project constraints.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The next step after identifying unfavorable variances is to analyze causes, evaluate response options, and refresh forecasts. This keeps corrective action evidence-based and integrated across project constraints."
       },
       {
         "prompt": "The team recommends adding a second night shift for three weeks and resequencing noncritical commissioning tasks. This action would increase short-term cost but is expected to recover most of the schedule loss. What should the project manager do?",
@@ -247,11 +223,7 @@
             "trap": "This manipulates reporting rather than managing performance."
           }
         ],
-        "explanation": "Corrective action is not exempt from governance. If the recommended response affects the approved plan or baselines, the project manager should process it through formal change control before implementation.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Corrective action is not exempt from governance. If the recommended response affects the approved plan or baselines, the project manager should process it through formal change control before implementation."
       },
       {
         "prompt": "After approval, the project manager implements the corrective action. Which follow-on actions are most appropriate?",
@@ -286,16 +258,8 @@
             "trap": "This treats approval as success without monitoring results."
           }
         ],
-        "explanation": "Once an action is approved, the project manager incorporates it into the plan, communicates appropriately, and continues monitoring performance. Control is iterative, not a one-time decision.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once an action is approved, the project manager incorporates it into the plan, communicates appropriately, and continues monitoring performance. Control is iterative, not a one-time decision."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "earned value",
@@ -343,11 +307,7 @@
             "trap": "This confuses quality management work with the initial risk identification process."
           }
         ],
-        "explanation": "The first move is to identify risks systematically and capture them in the risk register under the agreed risk management approach. Hybrid delivery does not change the need to begin with Plan Risk Management and Identify Risks.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The first move is to identify risks systematically and capture them in the risk register under the agreed risk management approach. Hybrid delivery does not change the need to begin with Plan Risk Management and Identify Risks."
       },
       {
         "prompt": "The team has identified several risks and now needs to decide which ones require urgent attention before the next release and infrastructure milestone. What should the project manager do next?",
@@ -378,11 +338,7 @@
             "trap": "Risk prioritization is not itself a change control board decision."
           }
         ],
-        "explanation": "After identification, the team should analyze the risks to understand exposure and priority. This supports evidence-based selection of response strategies across predictive and iterative work.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "After identification, the team should analyze the risks to understand exposure and priority. This supports evidence-based selection of response strategies across predictive and iterative work."
       },
       {
         "prompt": "Analysis shows the legacy interface failure risk has high impact and moderate probability, while clinician adoption risk is moderate impact but rising quickly. Which actions best reflect appropriate next steps?",
@@ -417,11 +373,7 @@
             "trap": "This ignores timely response planning by the project team."
           }
         ],
-        "explanation": "The team should tailor risk responses to the nature of each threat and embed those actions into near-term work. Hybrid projects often combine technical mitigation on predictive work with iterative feedback mechanisms for user-facing risks.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The team should tailor risk responses to the nature of each threat and embed those actions into near-term work. Hybrid projects often combine technical mitigation on predictive work with iterative feedback mechanisms for user-facing risks."
       },
       {
         "prompt": "Two sprints later, pilot feedback improves adoption, but the vendor reports a new dependency that may delay interface testing. What should the project manager do now?",
@@ -452,16 +404,8 @@
             "trap": "This assumes changing the entire delivery approach is the appropriate response to a specific risk event."
           }
         ],
-        "explanation": "Risk management continues through delivery, including reassessment of existing and emerging risks. A change request is appropriate only when the approved plan or baselines must be formally changed.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Risk management continues through delivery, including reassessment of existing and emerging risks. A change request is appropriate only when the approved plan or baselines must be formally changed."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "hybrid",
@@ -509,11 +453,7 @@
             "trap": "This abdicates stakeholder accountability instead of identifying and analyzing engagement needs."
           }
         ],
-        "explanation": "When a communication breakdown emerges, the project manager should first verify whether key stakeholders were properly identified and understood. Stakeholder engagement begins with a reliable stakeholder picture.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When a communication breakdown emerges, the project manager should first verify whether key stakeholders were properly identified and understood. Stakeholder engagement begins with a reliable stakeholder picture."
       },
       {
         "prompt": "The project manager confirms that the regional managers were listed as stakeholders, but their influence increased after a recent policy shift. What is the best next action?",
@@ -544,11 +484,7 @@
             "trap": "This delays engagement planning despite clear evidence of misalignment."
           }
         ],
-        "explanation": "Stakeholder engagement planning should evolve when stakeholder power, interest, or support changes. Communication is one component, but the broader engagement strategy must be updated first.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Stakeholder engagement planning should evolve when stakeholder power, interest, or support changes. Communication is one component, but the broader engagement strategy must be updated first."
       },
       {
         "prompt": "The project manager learns that one business analyst has been dismissive in meetings with regional managers, worsening trust. What is the most appropriate response?",
@@ -583,11 +519,7 @@
             "trap": "This confuses stakeholder management with formal integrated change governance."
           }
         ],
-        "explanation": "The project manager should address the team member behavior through coaching and proper manager collaboration while actively engaging stakeholders to restore trust. This aligns with people leadership and stakeholder engagement practice.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should address the team member behavior through coaching and proper manager collaboration while actively engaging stakeholders to restore trust. This aligns with people leadership and stakeholder engagement practice."
       },
       {
         "prompt": "After several targeted sessions, regional managers begin participating constructively, but one senior leader still says updates arrive too late for local planning. What should the project manager do?",
@@ -618,16 +550,8 @@
             "trap": "This misclassifies a stakeholder communication issue."
           }
         ],
-        "explanation": "Monitoring stakeholder engagement includes evaluating the effectiveness of current communication and engagement tactics, then tailoring them as needed. The goal is sustained support, not a one-time recovery.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Monitoring stakeholder engagement includes evaluating the effectiveness of current communication and engagement tactics, then tailoring them as needed. The goal is sustained support, not a one-time recovery."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "stakeholders",
@@ -675,11 +599,7 @@
             "trap": "The CCB evaluates proposed changes, but the team first needs analysis to identify an appropriate action."
           }
         ],
-        "explanation": "When a defect pattern emerges, the project manager should use Manage Quality to analyze process performance and identify root causes. Acting before analysis risks implementing the wrong fix and creating more rework.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When a defect pattern emerges, the project manager should use Manage Quality to analyze process performance and identify root causes. Acting before analysis risks implementing the wrong fix and creating more rework."
       },
       {
         "prompt": "The root-cause analysis shows that seal failures correlate with one supplier lot of film stock and a narrower temperature tolerance than documented in the process baseline. What is the best next action?",
@@ -710,11 +630,7 @@
             "trap": "Risk documentation may be useful, but it does not replace required change control for corrective changes."
           }
         ],
-        "explanation": "Once the analysis shows the likely causes and the proposed fix affects approved process controls, the project manager should raise a change request through the defined governance path. That preserves traceability and ensures the impact on quality, schedule, and compliance is assessed.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once the analysis shows the likely causes and the proposed fix affects approved process controls, the project manager should raise a change request through the defined governance path. That preserves traceability and ensures the impact on quality, schedule, and compliance is assessed."
       },
       {
         "prompt": "The CCB approves the change request to tighten material controls and revise equipment settings. During rollout, one technician continues using the old setup because it is faster and says the new settings are unnecessary. What should the project manager do?",
@@ -745,11 +661,7 @@
             "trap": "This avoids the behavior issue and bypasses the manager responsible for the resource."
           }
         ],
-        "explanation": "People issues in PMP scenarios are handled through coaching and engagement with the resource or functional manager, not invented disciplinary mechanisms. The goal is to reinforce the approved quality process and remove adoption barriers.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "People issues in PMP scenarios are handled through coaching and engagement with the resource or functional manager, not invented disciplinary mechanisms. The goal is to reinforce the approved quality process and remove adoption barriers."
       },
       {
         "prompt": "Two weeks later, defect rates remain below target and process stability has improved. What should the project manager do next to sustain the result?",
@@ -784,16 +696,8 @@
             "trap": "This misses organizational learning from a meaningful quality event."
           }
         ],
-        "explanation": "After corrective action is implemented, the project manager should embed the approved updates and continue monitoring results. Sustained quality improvement depends on both controlled documentation and evidence that the process remains stable over time.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "After corrective action is implemented, the project manager should embed the approved updates and continue monitoring results. Sustained quality improvement depends on both controlled documentation and evidence that the process remains stable over time."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "quality",
@@ -842,11 +746,7 @@
             "trap": "This creates hidden hybrid behavior without deliberate tailoring or stakeholder alignment."
           }
         ],
-        "explanation": "PMI guidance supports tailoring based on project context, uncertainty, and value delivery needs. The project manager should first evaluate the work characteristics and then design a fit-for-purpose approach rather than switching methods by assumption.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "PMI guidance supports tailoring based on project context, uncertainty, and value delivery needs. The project manager should first evaluate the work characteristics and then design a fit-for-purpose approach rather than switching methods by assumption."
       },
       {
         "prompt": "The assessment shows that compliance rules and core integration points are stable, but user-interface workflows would benefit from rapid feedback. What is the best recommendation?",
@@ -877,11 +777,7 @@
             "trap": "This changes meeting cadence, not the underlying delivery approach."
           }
         ],
-        "explanation": "The evidence supports a hybrid approach because different parts of the project have different uncertainty profiles. Tailoring by work type improves responsiveness without sacrificing necessary compliance control.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The evidence supports a hybrid approach because different parts of the project have different uncertainty profiles. Tailoring by work type improves responsiveness without sacrificing necessary compliance control."
       },
       {
         "prompt": "Governance leaders agree in principle but want formal oversight of the transition. What should the project manager do next?",
@@ -912,11 +808,7 @@
             "trap": "Risk updates may be needed, but they do not replace the required change request."
           }
         ],
-        "explanation": "When the delivery model, planning approach, and governance artifacts are being changed, the project manager should use formal change control. That ensures impacts are reviewed and the transition is properly authorized.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When the delivery model, planning approach, and governance artifacts are being changed, the project manager should use formal change control. That ensures impacts are reviewed and the transition is properly authorized."
       },
       {
         "prompt": "After approval, the business analyst assigned from a functional department keeps writing large up-front requirement packages and resists backlog refinement, saying the old way is more efficient. What should the project manager do?",
@@ -947,16 +839,8 @@
             "trap": "This skips the expected first response of coaching and manager engagement."
           }
         ],
-        "explanation": "When a team member struggles with a new working approach, the project manager should coach and collaborate with the functional manager to reinforce expectations. That is the PMI-aligned way to address behavior and capability issues in a matrix environment.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When a team member struggles with a new working approach, the project manager should coach and collaborate with the functional manager to reinforce expectations. That is the PMI-aligned way to address behavior and capability issues in a matrix environment."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "tailoring",
@@ -1005,11 +889,7 @@
             "trap": "Specialist input may be needed, but an immediate full stop without analysis and governance is not the best first step."
           }
         ],
-        "explanation": "Once the external regulatory change is known to affect deliverables, the project manager should analyze impact with subject matter experts and submit a change request. This supports compliance while preserving governance discipline.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once the external regulatory change is known to affect deliverables, the project manager should analyze impact with subject matter experts and submit a change request. This supports compliance while preserving governance discipline."
       },
       {
         "prompt": "The impact analysis shows that compliance will add four weeks and require new validation activities. The sponsor wants a narrow implementation, while the compliance officer wants full rollout across all markets now. What should the project manager do next?",
@@ -1044,11 +924,7 @@
             "trap": "Starting unapproved scope based on a possible decision is premature."
           }
         ],
-        "explanation": "The project manager should use Identify, Plan, Manage, and Monitor Stakeholder Engagement practices to prepare a clear decision path, then bring the analyzed options to the change control board. This keeps compliance and business value visible without bypassing governance.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should use Identify, Plan, Manage, and Monitor Stakeholder Engagement practices to prepare a clear decision path, then bring the analyzed options to the change control board. This keeps compliance and business value visible without bypassing governance."
       },
       {
         "prompt": "The change control board approves a phased approach for the affected market only, with added validation and audit controls. During implementation, a quality lead says the team can skip one traceability review because testing already passed. What should the project manager do?",
@@ -1079,11 +955,7 @@
             "trap": "A disagreement on process should be handled through coaching, clarification, and the resource or functional manager if needed."
           }
         ],
-        "explanation": "Approved compliance and quality activities remain mandatory unless formally changed. The project manager should reinforce the agreed process, coach the team, and ensure required controls are completed.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Approved compliance and quality activities remain mandatory unless formally changed. The project manager should reinforce the agreed process, coach the team, and ensure required controls are completed."
       },
       {
         "prompt": "The market specific release is completed and passes validation. Senior leadership now asks how to reduce disruption if another external rule changes next quarter. What is the best project manager response?",
@@ -1118,16 +990,8 @@
             "trap": "Project closure should not be held open indefinitely for hypothetical future changes."
           }
         ],
-        "explanation": "The best response is to institutionalize what was learned and improve future risk planning and analysis. That strengthens organizational agility in the Business Environment domain.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The best response is to institutionalize what was learned and improve future risk planning and analysis. That strengthens organizational agility in the Business Environment domain."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "regulatory-change",
@@ -1176,11 +1040,7 @@
             "trap": "The underperformance is already an active issue, not only a future uncertainty."
           }
         ],
-        "explanation": "The first step is to ground the response in contract terms, actual performance, and direct communication. That supports a fact based vendor management approach and avoids premature escalation.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The first step is to ground the response in contract terms, actual performance, and direct communication. That supports a fact based vendor management approach and avoids premature escalation."
       },
       {
         "prompt": "The vendor explains that a subcontractor shortage caused the delays and proposes a compressed shipment plan that may affect inspection quality. Which actions should the project manager take next?",
@@ -1215,11 +1075,7 @@
             "trap": "A change request may become necessary, but the project manager should first determine whether contract based recovery is feasible."
           }
         ],
-        "explanation": "The next move is to evaluate whether the proposed recovery is viable and compliant. If not, escalation through the agreed path is the proper process response.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The next move is to evaluate whether the proposed recovery is viable and compliant. If not, escalation through the agreed path is the proper process response."
       },
       {
         "prompt": "After escalation, the vendor agrees to add resources, but one internal engineer blames procurement and refuses to collaborate with the vendor team. What should the project manager do?",
@@ -1250,11 +1106,7 @@
             "trap": "Procurement supports the contract relationship, but the project manager still manages team collaboration."
           }
         ],
-        "explanation": "The project manager should manage stakeholder engagement within the team through coaching and role clarity, using the resource manager when needed. That keeps the response aligned with PMI people leadership expectations.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should manage stakeholder engagement within the team through coaching and role clarity, using the resource manager when needed. That keeps the response aligned with PMI people leadership expectations."
       },
       {
         "prompt": "The vendor recovers enough to meet the next milestone, but the project has consumed most contingency and remains vulnerable. What is the best action now?",
@@ -1289,16 +1141,8 @@
             "trap": "Supplier risk remains a project concern even when procurement has a supporting role."
           }
         ],
-        "explanation": "Once short term recovery is underway, the project manager should shift to active monitoring of residual risk, forecast impact, and stakeholder expectations. This is a process disciplined response to underperformance.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once short term recovery is underway, the project manager should shift to active monitoring of residual risk, forecast impact, and stakeholder expectations. This is a process disciplined response to underperformance."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "vendor-management",
@@ -1347,11 +1191,7 @@
             "trap": "This shifts accountability to the vendor instead of ensuring organizational governance is satisfied."
           }
         ],
-        "explanation": "The first action is to align use of the AI tool with organizational governance and stakeholder requirements. The project manager should use expert support from compliance and legal while preserving human accountability for estimates and decisions.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The first action is to align use of the AI tool with organizational governance and stakeholder requirements. The project manager should use expert support from compliance and legal while preserving human accountability for estimates and decisions."
       },
       {
         "prompt": "After stakeholder review, compliance allows a limited pilot only if personal and confidential data are protected and estimates are not accepted without review. What is the best next action?",
@@ -1382,11 +1222,7 @@
             "trap": "This increases exposure of sensitive information instead of minimizing it."
           }
         ],
-        "explanation": "The project manager should operationalize the approved guardrails through clear controls, acceptance criteria, and human review. That supports Manage Quality and risk response while keeping the pilot usable.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should operationalize the approved guardrails through clear controls, acceptance criteria, and human review. That supports Manage Quality and risk response while keeping the pilot usable."
       },
       {
         "prompt": "The pilot forecasts that a critical integration can be completed two weeks sooner than the team estimate. The engineering lead says the AI result is plausible, but historical data for similar work were incomplete. What should the project manager do?",
@@ -1421,11 +1257,7 @@
             "trap": "This reverses good practice by changing commitments before adequate analysis."
           }
         ],
-        "explanation": "AI-supported estimates should be validated, not accepted blindly or rejected reflexively. The project manager integrates data, expert judgment, and risk analysis before proposing a planning change.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "AI-supported estimates should be validated, not accepted blindly or rejected reflexively. The project manager integrates data, expert judgment, and risk analysis before proposing a planning change."
       },
       {
         "prompt": "Validated analysis shows the AI-informed estimate can shorten the schedule if the team adopts the new approach for future forecasting and updates the release plan. What should the project manager do next?",
@@ -1456,16 +1288,8 @@
             "trap": "This substitutes informal coordination for required governance."
           }
         ],
-        "explanation": "Once the team has enough evidence to alter baselines or approved plans, the project manager should use formal change control. This preserves governance while showing that AI was used as a supported input rather than an unchecked authority.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once the team has enough evidence to alter baselines or approved plans, the project manager should use formal change control. This preserves governance while showing that AI was used as a supported input rather than an unchecked authority."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "AI",
@@ -1515,11 +1339,7 @@
             "trap": "This delays a key value decision that shapes the project business case."
           }
         ],
-        "explanation": "The project manager should frame the issue as a value trade-off, not a simple cost contest. PMI guidance emphasizes aligning decisions to outcomes, strategy, risk, and stakeholder expectations.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should frame the issue as a value trade-off, not a simple cost contest. PMI guidance emphasizes aligning decisions to outcomes, strategy, risk, and stakeholder expectations."
       },
       {
         "prompt": "The steering group agrees to compare options more fully. Which action should the project manager take next?",
@@ -1554,11 +1374,7 @@
             "trap": "This applies change control before a decision recommendation has been developed."
           }
         ],
-        "explanation": "A structured value model and active stakeholder planning are the strongest next steps. They create a credible basis for comparing alternatives and help prevent later resistance.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "A structured value model and active stakeholder planning are the strongest next steps. They create a credible basis for comparing alternatives and help prevent later resistance."
       },
       {
         "prompt": "Analysis shows the sustainable option has a higher initial cost but lower operating costs, reduced regulatory risk, and stronger support from community stakeholders. The sponsor still argues that the approved budget cannot increase. What should the project manager do?",
@@ -1589,11 +1405,7 @@
             "trap": "This avoids decision making despite having enough analysis."
           }
         ],
-        "explanation": "The project manager should facilitate a decision grounded in agreed criteria and transparent consequences. That supports governance and helps leaders choose consciously rather than defaulting to headline cost.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "The project manager should facilitate a decision grounded in agreed criteria and transparent consequences. That supports governance and helps leaders choose consciously rather than defaulting to headline cost."
       },
       {
         "prompt": "The steering group approves the sustainable option if the project can offset part of the added capital through phased implementation and revised scope sequencing. What should the project manager do next?",
@@ -1628,16 +1440,8 @@
             "trap": "This jumps to authority and ignores stakeholder engagement planning."
           }
         ],
-        "explanation": "Once a path is selected, the project manager must translate that choice into controlled project changes and stakeholder actions. Benefits and stakeholder expectations should be monitored as part of ongoing delivery.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Once a path is selected, the project manager must translate that choice into controlled project changes and stakeholder actions. Benefits and stakeholder expectations should be monitored as part of ongoing delivery."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "ESG",
@@ -1687,11 +1491,7 @@
             "trap": "This relies on stakeholder preference instead of objective business justification."
           }
         ],
-        "explanation": "When the business case erodes, the first step is to validate the change in expected value and compare response options. The project manager should work with the sponsor and stakeholders, then use formal change control rather than reacting informally.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When the business case erodes, the first step is to validate the change in expected value and compare response options. The project manager should work with the sponsor and stakeholders, then use formal change control rather than reacting informally."
       },
       {
         "prompt": "The assessment shows plant 1 will still deliver acceptable value, but plants 2 and 3 will not unless the solution is redesigned. What is the best next action?",
@@ -1722,11 +1522,7 @@
             "trap": "This starts new work before approval of scope and investment changes."
           }
         ],
-        "explanation": "A selective response is appropriate when value differs by scope segment. The project manager should formalize the descoping and potential pivot through a change request and CCB review.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "A selective response is appropriate when value differs by scope segment. The project manager should formalize the descoping and potential pivot through a change request and CCB review."
       },
       {
         "prompt": "The CCB approves descoping to plant 1 and asks for a recommendation on whether to redesign for plants 2 and 3. Which two actions should the project manager take next?",
@@ -1761,11 +1557,7 @@
             "trap": "This starts execution before approval of the pivot."
           }
         ],
-        "explanation": "After partial approval, the project manager must align the current project with that decision and evaluate the remaining option rigorously. Risk-informed analysis supports a recommendation to pivot or stop the rest of the work.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "After partial approval, the project manager must align the current project with that decision and evaluate the remaining option rigorously. Risk-informed analysis supports a recommendation to pivot or stop the rest of the work."
       },
       {
         "prompt": "The redesign analysis shows high technical uncertainty and weak projected returns for plants 2 and 3. What recommendation is most consistent with PMI guidance?",
@@ -1796,16 +1588,8 @@
             "trap": "This bypasses formal governance and integrated decision making."
           }
         ],
-        "explanation": "PMI guidance emphasizes continued business justification and value delivery. If the remaining scope no longer supports a sound business case, the project manager should recommend closure of that portion and ensure orderly transition of approved deliverables.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "PMI guidance emphasizes continued business justification and value delivery. If the remaining scope no longer supports a sound business case, the project manager should recommend closure of that portion and ensure orderly transition of approved deliverables."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "business-case",
@@ -1854,11 +1638,7 @@
             "trap": "This assumes reserve planning itself requires formal change control rather than normal budgeting."
           }
         ],
-        "explanation": "For identified risks with planned responses, PMI guidance places the budget in contingency reserves. Those reserves are part of the cost baseline and support cost control.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "For identified risks with planned responses, PMI guidance places the budget in contingency reserves. Those reserves are part of the cost baseline and support cost control."
       },
       {
         "prompt": "After creating the time-phased budget, the project manager finds that planned spending exceeds the organization cash cap in quarter one even though the total approved budget is still acceptable. What should the project manager do next?",
@@ -1889,11 +1669,7 @@
             "trap": "This ignores governance and the need to align with authorized funding releases."
           }
         ],
-        "explanation": "When expenditures exceed available funding in specific periods, the project manager reconciles the funding limits by changing timing or sequencing. The issue is cash flow alignment, not reserve type selection.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "When expenditures exceed available funding in specific periods, the project manager reconciles the funding limits by changing timing or sequencing. The issue is cash flow alignment, not reserve type selection."
       },
       {
         "prompt": "The sponsor now proposes using management reserves to cover the quarter one funding gap because unknown events may happen later anyway. What is the best response from the project manager?",
@@ -1924,11 +1700,7 @@
             "trap": "This bypasses project governance and obscures budget control."
           }
         ],
-        "explanation": "Management reserves are outside the cost baseline and are intended for unforeseen work. They do not solve a mismatch between planned spending and authorized funding by period.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Management reserves are outside the cost baseline and are intended for unforeseen work. They do not solve a mismatch between planned spending and authorized funding by period."
       },
       {
         "prompt": "To complete reconciliation without reducing scope, the project manager evaluates resequencing equipment installation into quarter two. The shift would delay one internal milestone by two weeks but would not affect the contractual go-live date. What should the project manager do?",
@@ -1959,16 +1731,8 @@
             "trap": "This would likely worsen the near-term funding problem instead of reconciling it."
           }
         ],
-        "explanation": "Funding-limit reconciliation often results in adjustments to the schedule or sequencing of work. If the contractual completion date remains protected, the revised plan is the appropriate control response.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "Agile Practice Guide"
-        ]
+        "explanation": "Funding-limit reconciliation often results in adjustments to the schedule or sequencing of work. If the contractual completion date remains protected, the revised plan is the appropriate control response."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "Agile Practice Guide"
     ],
     "tags": [
       "cost baseline",

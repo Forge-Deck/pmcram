@@ -44,11 +44,6 @@
       }
     ],
     "explanation": "A new architecture standard from the client organization is an enterprise environmental factor that can materially change the project's required deliverables. The project manager should assess its full impact and then route any necessary scope modification through the approved governance process. Immediate implementation without approval would undermine integrated change control.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge Sixth Edition, Enterprise Environmental Factors",
-      "A Guide to the Project Management Body of Knowledge Sixth Edition, Perform Integrated Change Control",
-      "Process Groups A Practice Guide, Plan Scope Management and Control Scope"
-    ],
     "tags": [
       "scenario",
       "depth",
@@ -104,11 +99,6 @@
       }
     ],
     "explanation": "The scenario shows a common mistake: declaring success based on implementation activity rather than sustained use and realized outcomes. Supporting organizational change requires planning for reinforcement after deployment and measuring transition success through adoption and operational indicators, not only schedule completion or training attendance. These actions help prevent regression to legacy behaviors.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Delivery and Measurement Performance Domains",
-      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
-      "Process Groups A Practice Guide, Plan Transition to Future State"
-    ],
     "tags": [
       "scenario",
       "depth",
@@ -160,11 +150,6 @@
       }
     ],
     "explanation": "Projects in the business environment domain often create value that is not purely financial. PMI encourages evaluation of outcomes in the context of organizational goals and stakeholder expectations. The project manager should establish aligned criteria that capture the full intended value profile rather than defaulting to a single financial metric or delaying the discussion.",
-    "references": [
-      "PMI PMP Examination Content Outline, Business Environment, Evaluate and Deliver Project Benefits and Value",
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Stakeholders Performance Domain",
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Value Delivery System"
-    ],
     "tags": [
       "scenario",
       "depth",
@@ -220,11 +205,6 @@
       }
     ],
     "explanation": "A merger or acquisition can materially change business context, stakeholders, compliance needs, and expected outcomes. The project manager should first clarify the implications for scope, then use formal change evaluation if modifications are needed. Immediate expansion, automatic rejection, or passive waiting are weaker responses because they ignore disciplined impact assessment.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Identify Stakeholders",
-      "PMBOK Guide Sixth Edition, Perform Integrated Change Control",
-      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
-    ],
     "tags": [
       "scenario",
       "depth",
@@ -280,10 +260,6 @@
       }
     ],
     "explanation": "High adoption does not necessarily mean the intended business benefit has been realized. PMI guidance emphasizes measuring outcomes and value, not just outputs or usage. The right first steps are to revisit the benefits management approach, including KPIs, assumptions, and timing, and to work with the benefits owner to analyze operational data for root causes. This supports corrective action focused on realizing the target outcome rather than reacting with premature scope changes or misleading reporting.",
-    "references": [
-      "The Standard for Benefits Realization Management A Practice Guide, section on monitoring and measuring benefits",
-      "PMBOK Guide Seventh Edition, section on Measurement Performance Domain and outcomes"
-    ],
     "tags": [
       "scenario",
       "benefits-value",
@@ -335,11 +311,6 @@
       }
     ],
     "explanation": "A gap between delivered scope and observed business outcome requires evaluation of assumptions, adoption conditions, process interactions, and other drivers of value. PMI oriented thinking distinguishes outputs from outcomes and encourages collaboration with business stakeholders to understand why expected value has not materialized. The project manager should help assess the shortfall and support targeted actions that improve transition into benefits realization rather than assuming deployment alone equals success.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Outcomes",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on Systems Thinking",
-      "Process Groups A Practice Guide, section on monitoring project work in relation to business value"
-    ],
     "tags": [
       "scenario",
       "benefits-value",
@@ -395,10 +366,6 @@
       }
     ],
     "explanation": "Effective compliance management uses defined controls, documentation, and monitoring throughout the project life cycle. PMI emphasizes confirming and classifying compliance requirements, identifying threats, selecting support methods, and measuring compliance. Governance reviews and audits complement risk management rather than being replaced by it.",
-    "references": [
-      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
-      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on monitoring compliance and conducting compliance related audits"
-    ],
     "tags": [
       "scenario",
       "compliance",
@@ -454,10 +421,6 @@
       }
     ],
     "explanation": "Audit findings in regulated projects must be treated as compliance issues, not merely administrative inconveniences. The project manager should assess the gap, understand the consequences of noncompliance, use governance channels to control release decisions, and verify corrective action effectiveness. PMI emphasizes both the analysis of noncompliance impact and the measurement of actual compliance status after remediation.",
-    "references": [
-      "PMI PMP Examination Content Outline, Domain III Business Environment, Task Plan and Manage Project Compliance",
-      "Governance of Portfolios, Programs, and Projects A Practice Guide, sections on audits, controls, and compliance oversight"
-    ],
     "tags": [
       "scenario",
       "compliance",
@@ -509,11 +472,6 @@
       }
     ],
     "explanation": "Compliance traceability requires more than listing obligations. The project manager should connect each applicable obligation to the relevant scope components, accountable owners, monitoring and verification activities, and current status. In addition, the team should define what objective evidence will prove fulfillment. This approach supports ongoing control, transparent reporting, and defensible demonstration of compliance throughout the project life cycle.",
-    "references": [
-      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Project Work",
-      "PMI, Process Groups A Practice Guide, Control Quality section",
-      "PMI, Process Groups A Practice Guide, Monitor and Control Project Work section"
-    ],
     "tags": [
       "scenario",
       "compliance",
@@ -569,11 +527,6 @@
       }
     ],
     "explanation": "A new permitting rule is an external legal change and part of the broader business environment in which the project operates. The project manager must assess its effect on scope related elements such as assumptions, constraints, and acceptance criteria, then use formal change control to obtain a decision from the appropriate authority. Compliance support functions may contribute expertise, but they do not replace project governance.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 5 Project Scope Management",
-      "Examination Content Outline for PMP, Business Environment domain, task Evaluate and Address External Business Environment Changes for Impact on Scope"
-    ],
     "tags": [
       "scenario",
       "external-changes-scope",
@@ -629,11 +582,6 @@
       }
     ],
     "explanation": "A newly adopted internal policy is part of the project's business environment and may function as an enterprise environmental factor that changes what the project must deliver or how acceptance will be judged. The project manager should assess impacts comprehensively and then use formal change control to present governance with informed options. Neither optional treatment nor informal implementation is appropriate when organizational policy alters the conditions under which the project is considered successful.",
-    "references": [
-      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Performance Domain Business Environment",
-      "PMI, A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, section on enterprise environmental factors and organizational governance systems",
-      "PMI, Process Groups A Practice Guide, Perform Integrated Change Control and Control Scope"
-    ],
     "tags": [
       "scenario",
       "external-changes-scope",
@@ -685,11 +633,6 @@
       }
     ],
     "explanation": "Organizational culture is a major factor in how change should be introduced. In a regulated, hierarchical, and risk averse environment, the project manager should tailor the change approach through readiness assessment and visible sponsor and supervisor engagement. These actions improve legitimacy, address concerns early, and increase the probability that the new process will be accepted and sustained in operations.",
-    "references": [
-      "PMI, Exam Content Outline for PMP Certification, Business Environment, task Support Organizational Change.",
-      "PMI, A Guide to the Project Management Body of Knowledge, Seventh Edition, section on organizational culture and enterprise environmental factors.",
-      "PMI, Process Groups A Practice Guide, section on stakeholder identification and engagement."
-    ],
     "tags": [
       "scenario",
       "org-change",
@@ -745,10 +688,6 @@
       }
     ],
     "explanation": "The strongest response is to analyze the root cause of the resistance and then engage leaders to clarify the future-state roles, expectations, and benefits. In this case, the resistance is not primarily about technical skills or system usability; it is about perceived loss of authority and uncertainty in the new operating model. PMI-aligned organizational change support requires stakeholder-specific engagement, leadership reinforcement, and actions that help people understand what is changing for them and why. Excluding resistant stakeholders or simply accelerating rollout generally worsens hidden opposition.",
-    "references": [
-      "PMI, Managing Change in Organizations: A Practice Guide, sections on stakeholder impacts, resistance management, and reinforcement by leadership",
-      "PMI, Exam Content Outline for PMP, Business Environment domain, task Support Organizational Change"
-    ],
     "tags": [
       "scenario",
       "org-change",
@@ -796,10 +735,6 @@
       }
     ],
     "explanation": "A portfolio is not just a collection of related work; it is an investment structure used to realize organizational strategy. PMI distinguishes portfolios from programs and projects by emphasizing strategic alignment, prioritization, and value delivery at the enterprise level. That makes strategic business goals the best answer.",
-    "references": [
-      "The Standard for Portfolio Management, Portfolio definition and strategic alignment",
-      "PMBOK Guide Seventh Edition, Business Environment performance domain, organizational strategy and value"
-    ],
     "tags": [
       "scenario",
       "portfolio-alignment"
@@ -818,39 +753,34 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "A project manager prepared a project benefits management plan. Which items should be included in this document?",
-      "A project manager is completing a project benefits management plan. What information belongs in that plan?"
+      "A sponsor asks what should be captured before benefits tracking begins. Which set best fits a project benefits management plan?",
+      "While drafting a benefits management plan, which information should the project manager include?"
     ],
     "correct": [
       {
-        "text": "Target benefits, strategic alignment, time frame for realizing benefits",
-        "why": "A project benefits management plan defines the expected benefits, how they align to strategy, and when they are expected to be realized."
+        "text": "Expected benefits, strategy link, realization timing",
+        "why": "A project benefits management plan identifies the benefits sought, their connection to organizational strategy, and the expected timing for achieving them."
       }
     ],
     "distractors": [
       {
-        "text": "Target benefits, benefits owner, lessons learned",
-        "trap": "This reflects the misconception that lessons learned are a core content element of the benefits management plan rather than a separate project knowledge artifact."
+        "text": "Expected benefits, accountable owner, retrospective findings",
+        "trap": "This treats lessons learned as a core benefits management plan element, when they are maintained as separate project knowledge."
       },
       {
-        "text": "Project requirements, target benefits, issue log, metrics",
-        "trap": "This assumes the benefits management plan should combine scope and issue-management artifacts instead of focusing on benefit definition and realization."
+        "text": "Business requirements, benefits, open issues, measures",
+        "trap": "This blends scope and issue-management records with benefits planning instead of focusing on benefit definition and realization."
       },
       {
-        "text": "Strategic alignment, benefits owner, risk register",
-        "trap": "This represents the misconception that the risk register is part of the benefits management plan rather than a separate risk artifact."
+        "text": "Strategy link, accountable owner, risk log",
+        "trap": "This incorrectly pulls the risk register into the benefits management plan rather than keeping it as a separate risk artifact."
       },
       {
-        "text": "Benefits owner, schedule baseline, procurement strategy",
-        "trap": "This reflects confusion between benefits realization information and unrelated planning components from schedule and procurement management."
+        "text": "Benefits owner, schedule baseline, buying approach",
+        "trap": "This mixes benefits information with schedule and procurement planning items that are not central content for this plan."
       }
     ],
-    "explanation": "The benefits management plan focuses on what benefits are expected, why they matter strategically, and when they should be achieved. While benefits ownership may be tracked in practice, the strongest match to the standard content here is the option with target benefits, strategic alignment, and time frame. The other choices mix in artifacts from lessons learned, scope, issues, risk, schedule, or procurement.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.2 Project Benefits Management Plan",
-      "PMBOK Guide Seventh Edition, Measurement Performance Domain, value and outcomes alignment",
-      "Process Groups A Practice Guide, business documents and benefits management plan"
-    ],
+    "explanation": "The benefits management plan explains the intended benefits, why they support strategy, and when those benefits should be realized. Ownership and measures may be useful in practice, but the strongest answer here is the one centered on benefits, strategic alignment, and realization time frame. The other choices add unrelated artifacts from lessons learned, scope, issue, risk, schedule, or procurement management.",
     "tags": [
       "scenario",
       "benefits-management-plan"
@@ -897,10 +827,6 @@
       }
     ],
     "explanation": "Cost-benefit analysis is a standard way to assess whether a project is worth pursuing by comparing what it will cost with the value it is expected to produce. It does not replace risk analysis, resource planning, or communications planning, but it informs the feasibility and business value decision. In PMP terms, this aligns with evaluating expected benefits before committing organizational resources.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project Performance Domain 'Measurement Performance Domain'",
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 1.2.6.4 Business Case"
-    ],
     "tags": [
       "scenario",
       "cost-benefit-analysis"
@@ -947,10 +873,6 @@
       }
     ],
     "explanation": "Project governance establishes how decisions are made, escalated, and monitored so that projects remain aligned with enterprise priorities. It supports strategic fit, accountability, and consistent oversight rather than focusing only on money or team morale. Strong governance helps ensure projects deliver outcomes that matter to the organization.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Seventh Edition, Project Performance Domain 'Stakeholder Performance Domain'",
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 2.1.5 Organizational Governance Framework"
-    ],
     "tags": [
       "scenario",
       "project-governance-alignment"
@@ -997,10 +919,6 @@
       }
     ],
     "explanation": "A project sponsor contributes by connecting the project to business objectives and helping secure the authority, funding, and support needed for success. Sponsors operate at a governance and strategic level rather than managing daily delivery tasks. The distractors reflect role confusion between sponsor, project manager, and delivery team responsibilities.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain",
-      "Process Groups A Practice Guide, Develop Project Charter"
-    ],
     "tags": [
       "scenario",
       "project-sponsor-role"
@@ -1047,10 +965,6 @@
       }
     ],
     "explanation": "An operations manager contributes by supporting effective use of organizational resources and helping maintain continuity between ongoing operations and project work. This often includes coordination that helps milestones stay on track. The wrong options either overstate, misstate, or confuse the role with unrelated business functions.",
-    "references": [
-      "PMBOK Guide Seventh Edition, System for Value Delivery",
-      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain"
-    ],
     "tags": [
       "scenario",
       "operations-manager-support-to-projects"
@@ -1097,10 +1011,6 @@
       }
     ],
     "explanation": "An MVP is a learning-focused product version that contains only the minimum essential capability needed to test assumptions with users. In agile settings, it supports early feedback, faster validation, and more informed decisions about what to build next. It is not the final complete product and not merely a stakeholder management method.",
-    "references": [
-      "Agile Practice Guide, section on value delivery and incremental product development",
-      "PMI Knowledge Base, Minimum viable product"
-    ],
     "tags": [
       "scenario",
       "minimum-viable-product"
@@ -1147,10 +1057,6 @@
       }
     ],
     "explanation": "KPIs are measurable indicators selected to show whether the project is achieving desired performance and outcomes. They help teams and stakeholders assess progress, detect gaps, and support evidence-based decisions. Effective KPIs are tied to goals, not limited to finance or disconnected from project context.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Measurement Performance Domain",
-      "The Standard for Project Management in PMBOK Guide Seventh Edition, outcomes, value, and measurement guidance"
-    ],
     "tags": [
       "scenario",
       "key-performance-indicators"
@@ -1197,10 +1103,6 @@
       }
     ],
     "explanation": "A benefits realization plan helps ensure the intended value from the project is identified, tracked, and evaluated over time. It connects project outputs to expected outcomes and business benefits, often extending beyond project delivery. The distractors confuse benefits management with budgeting, communications, or execution logistics.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Develop Project Charter, Benefits Management Plan",
-      "PMBOK Guide Seventh Edition, Performance Domain, Measurement and Benefits"
-    ],
     "tags": [
       "definition",
       "benefits-realization-planning"
@@ -1247,10 +1149,6 @@
       }
     ],
     "explanation": "Iterative prototyping is meant to surface feedback, reveal misunderstandings, and improve the solution over time. Organizations new to Agile may interpret repeated revision as poor planning or unnecessary rework rather than evidence of empirical learning. The challenge is often cultural and mindset-based, not a flaw in the practice itself.",
-    "references": [
-      "Agile Practice Guide, section on iterative development and feedback",
-      "PMBOK Guide Seventh Edition, section on tailoring and development approach"
-    ],
     "tags": [
       "scenario",
       "iterative-development-mindset"
@@ -1297,10 +1195,6 @@
       }
     ],
     "explanation": "Program management focuses on coordinating related projects to achieve benefits that would not be available if each project were managed independently. In a cross functional product launch, the key need is integrated oversight across multiple efforts, which is the program manager's role. A project manager, team leader, or scrum master does not normally own strategic coordination across several related projects.",
-    "references": [
-      "The Standard for Program Management Fifth Edition, Section 1",
-      "The Standard for Portfolio Management Fourth Edition, Section 1"
-    ],
     "tags": [
       "scenario",
       "program-management-alignment"
@@ -1347,10 +1241,6 @@
       }
     ],
     "explanation": "When additional funding is needed, the strongest support comes from the document that explains why the project is worth the investment. The business case connects costs to expected benefits and strategic value. Other artifacts may support planning or governance, but they do not serve as the primary basis for funding justification.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Performance Domain 'Measurement' and value delivery concepts",
-      "Process Groups A Practice Guide, Business Documents, section on the business case"
-    ],
     "tags": [
       "scenario",
       "business-case"
@@ -1397,11 +1287,6 @@
       }
     ],
     "explanation": "A sponsor may prefer rescheduling when the issue is timing of available funds rather than total project affordability. In that case, adjusting when work occurs can better align expenditures with funding limits while preserving scope and intended outcomes. The distractors either misunderstand the effects of rescheduling or make unsupported generalizations.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Project Cost Management, Determine Budget",
-      "PMBOK Guide Sixth Edition, Funding Limit Reconciliation",
-      "PMBOK Guide Seventh Edition, Planning Performance Domain"
-    ],
     "tags": [
       "scenario",
       "funding-alignment-through-rescheduling"
@@ -1448,10 +1333,6 @@
       }
     ],
     "explanation": "Portfolio management is strategy driven and focuses on selecting and overseeing components to achieve organizational objectives. It can include projects, programs, subportfolios, and operations as appropriate. Program management, by contrast, is centered on coordinated management of related projects to realize benefits not available if managed separately.",
-    "references": [
-      "The Standard for Portfolio Management Fourth Edition, section 1 Introduction and strategic alignment concepts",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, section 1.2.3.4 Portfolio Management"
-    ],
     "tags": [
       "scenario",
       "portfolio-management"
@@ -1498,11 +1379,6 @@
       }
     ],
     "explanation": "Cost-benefit analysis is used to assess whether a proposed initiative is economically justified by comparing expected returns to the investment required over time. It supports selection and value-based decision making, not strategic scanning, schedule development, or stock price management. Documentation may result from the analysis, but that is not its primary purpose.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.4 Business Documents",
-      "PMBOK Guide Sixth Edition, Section 4.1 Develop Project Charter",
-      "Process Groups A Practice Guide, Initiating Process Group, Develop Project Charter"
-    ],
     "tags": [
       "definition",
       "cost-benefit-analysis"
@@ -1521,39 +1397,34 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "The technology market is very competitive and getting its product out to market quickly is one of the critical factors for the success of a technology startup. An agile team launches the product with minimal features and plans to learn from the early adopters' feedback. What agile tool or technique is the team embracing in this situation?",
-      "A startup team releases a product with only the essential features so it can reach the market quickly and learn from early adopter feedback. Which agile technique is being used?"
+      "A new payments app team releases only enough functionality for early customers to complete one basic transaction, then uses market feedback to decide what to build next. Which agile concept is this?",
+      "A product group ships a bare-bones release that can deliver value and test assumptions with real users. What technique is being applied?"
     ],
     "correct": [
       {
         "text": "MVP",
-        "why": "A minimum viable product is a version with just enough features to deliver value, validate assumptions, and gather feedback from early users."
+        "why": "A minimum viable product contains enough capability to provide value, test assumptions, and generate feedback from early users."
       }
     ],
     "distractors": [
       {
-        "text": "Early launch",
-        "trap": "Confuses a general speed-to-market idea with a specific agile product strategy."
+        "text": "Fast rollout",
+        "trap": "This is only a general idea about speed and does not name the agile product-learning technique."
       },
       {
         "text": "MMP",
-        "trap": "Mistakes minimum marketable product for the lean experiment of releasing the smallest viable feature set to learn quickly."
+        "trap": "A minimum marketable product is about the smallest commercially marketable release, not primarily the lean experiment to learn from the smallest viable version."
       },
       {
         "text": "Kano Analysis",
-        "trap": "Confuses a prioritization and customer satisfaction analysis technique with a release strategy for testing assumptions in the market."
+        "trap": "Kano Analysis helps classify features by their effect on satisfaction; it is not the release technique described."
       },
       {
         "text": "Prototype",
-        "trap": "Assumes any early version shown to users is necessarily the same as a viable product released for real-world use and feedback."
+        "trap": "A prototype may be used to explore an idea, but the scenario describes a usable product released to real customers for learning."
       }
     ],
-    "explanation": "The scenario describes releasing only essential functionality in order to test demand and gather real user feedback quickly, which is the core purpose of an MVP. An MMP focuses on the minimum feature set that is marketable, while Kano Analysis helps classify features by customer satisfaction impact. The emphasis here is learning fast from actual adopters.",
-    "references": [
-      "Agile Practice Guide, Value Delivery and Product Development",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Delivery Performance Domain",
-      "Agile Practice Guide, Agile and Lean Frameworks"
-    ],
+    "explanation": "The team is releasing the smallest useful version so it can validate assumptions and learn from actual customer behavior. That is the purpose of an MVP. MMP, Kano Analysis, and prototypes serve related but different product discovery and prioritization purposes.",
     "tags": [
       "scenario",
       "minimum-viable-product"
@@ -1600,10 +1471,6 @@
       }
     ],
     "explanation": "Enterprise Environmental Factors include internal and external conditions such as organizational culture, market conditions, regulatory climate, and infrastructure that shape project outcomes without being directly controlled by the team. Organizational Process Assets are different because they are reusable organizational resources such as policies, templates, and lessons learned. The correct option is the only PMI term that matches the definition in the stem.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 2.2 Enterprise Environmental Factors",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Section 2.3 Organizational Process Assets"
-    ],
     "tags": [
       "definition",
       "enterprise-environmental-factors"
@@ -1650,11 +1517,6 @@
       }
     ],
     "explanation": "The business case is developed to support the decision to undertake a project by evaluating expected benefits, costs, and strategic alignment. The project charter may reference that justification, but it is not the primary source of the initial cost-benefit analysis. Benefits management planning comes later and focuses on how benefits will be measured and sustained.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.4 Business Documents",
-      "PMBOK Guide Sixth Edition, Section 4.1 Develop Project Charter",
-      "PMBOK Guide Seventh Edition, Business Environment Performance Domain"
-    ],
     "tags": [
       "scenario",
       "business-case"
@@ -1701,10 +1563,6 @@
       }
     ],
     "explanation": "A benefits management plan focuses on the value the project is expected to create, including timing, ownership, and measures of realization. It is not primarily a risk plan, schedule plan, stakeholder plan, or quality plan. This makes it a key artifact for linking project outputs to intended business outcomes.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.2 Project Benefits Management Plan",
-      "PMBOK Guide Seventh Edition, Performance Domain, Measurement, and Project Work aligned to value delivery"
-    ],
     "tags": [
       "definition",
       "benefits-management-plan"
@@ -1751,10 +1609,6 @@
       }
     ],
     "explanation": "A portfolio exists to support strategic objectives, not just to deliver a single output. PMI distinguishes portfolios from projects and programs by their purpose and composition: portfolios can include projects, programs, subsidiary portfolios, and operations. One distractor is especially plausible because it describes a program, which many learners confuse with a portfolio.",
-    "references": [
-      "The Standard for Portfolio Management, portfolio definition concepts",
-      "PMBOK Guide Sixth Edition, Section 1.2.3.1 Portfolios and Portfolio Management"
-    ],
     "tags": [
       "definition",
       "portfolio-definition"
@@ -1801,10 +1655,6 @@
       }
     ],
     "explanation": "The business case exists to justify why an organization should invest in a project by outlining benefits, value, and strategic rationale. It supports selection and authorization decisions before detailed planning begins. It is distinct from stakeholder planning, scheduling, and project closure artifacts.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.1 Business Documents",
-      "PMBOK Guide Seventh Edition, Section 2.1 Value Delivery System"
-    ],
     "tags": [
       "definition",
       "business-case"
@@ -1851,10 +1701,6 @@
       }
     ],
     "explanation": "Portfolio management focuses on selecting and overseeing projects, programs, and other work to support organizational strategy. It is broader than managing one project and different from program management, which coordinates related projects for combined benefits. Strategic objective achievement is the defining purpose.",
-    "references": [
-      "PMBOK Guide Sixth Edition, section 1.2.3.4 Portfolio Management",
-      "The Standard for Portfolio Management Fourth Edition, section 1 Introduction"
-    ],
     "tags": [
       "definition",
       "portfolio-management-objective"
@@ -1901,10 +1747,6 @@
       }
     ],
     "explanation": "A program is a group of related projects, subprograms, and program activities managed in a coordinated way to obtain benefits not available from managing them individually. This distinguishes programs from portfolios, which focus on strategic selection and prioritization, and from operations, which sustain ongoing business activities. The concept being tested is benefits realization through coordinated management.",
-    "references": [
-      "The Standard for Program Management, Fourth Edition, section on definition of a program and benefits realization",
-      "PMBOK Guide, Seventh Edition, section on portfolios, programs, projects, and products"
-    ],
     "tags": [
       "scenario",
       "program-management-benefits"
@@ -1923,39 +1765,34 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "According to the auditor's report, what is the primary reason for the violation of the renewed contract?",
-      "An auditor's report identifies a violation of a renewed contract. What is the main reason indicated for that violation?"
+      "A compliance audit finds that a renewed supplier agreement was breached because staff followed outdated rules. The audit notes that the legal update was not properly communicated across the organization. What is the primary cause?",
+      "An audit of a renewed contract shows noncompliance because employees were never given the updated legal guidance. What caused the violation?"
     ],
     "correct": [
       {
-        "text": "The legal department has not disseminated the law correctly to all staff.",
-        "why": "The reported violation stems from a compliance communication failure in which required legal guidance was not properly shared with staff."
+        "text": "Legal guidance was not properly shared with staff.",
+        "why": "The violation results from a compliance communication breakdown in which required legal direction did not reach the people who needed to apply it."
       }
     ],
     "distractors": [
       {
-        "text": "The project manager does not have enough knowledge on this legal matter.",
-        "trap": "Places the issue solely on the project manager instead of recognizing an organizational compliance communication breakdown."
+        "text": "The project manager lacked legal expertise.",
+        "trap": "This places the problem on one person instead of recognizing the organizational failure to communicate compliance requirements."
       },
       {
-        "text": "The contract has not been appropriately reviewed by the project team.",
-        "trap": "Confuses review quality with the stated root cause of failed legal dissemination."
+        "text": "The team failed to review the contract.",
+        "trap": "This changes the cause to poor review quality, while the scenario identifies failed dissemination of legal requirements."
       },
       {
-        "text": "The stakeholder engagement plan has not been correctly implemented.",
-        "trap": "Assumes a general stakeholder issue when the scenario points specifically to legal compliance communication."
+        "text": "The stakeholder plan was poorly executed.",
+        "trap": "This makes the issue a broad stakeholder-management problem rather than the specific legal compliance communication failure described."
       },
       {
-        "text": "The procurement schedule did not include enough approval time.",
-        "trap": "Mistakes a timing issue for the actual compliance cause identified in the audit."
+        "text": "Procurement allowed too little approval time.",
+        "trap": "This reframes the issue as schedule pressure, but the audit points to missing compliance communication."
       }
     ],
-    "explanation": "The scenario points to a compliance failure caused by inadequate dissemination of legal requirements. That makes the issue an organizational communication and compliance problem rather than simply a project manager knowledge gap or a generic stakeholder engagement failure. PMI emphasizes managing compliance obligations and ensuring relevant requirements are understood and applied.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Compliance and Project Management considerations",
-      "PMBOK Guide Sixth Edition, Section 12 Project Procurement Management",
-      "Process Groups A Practice Guide, Monitor and Control Project Work and compliance-related oversight"
-    ],
+    "explanation": "The audit points to a failure to communicate legal requirements to the relevant staff. In PMI terms, the issue is a compliance and communication failure at the organizational level, not simply a project manager knowledge gap, contract review problem, stakeholder plan issue, or procurement timing issue.",
     "tags": [
       "scenario",
       "compliance-communication-failure"
@@ -2002,11 +1839,6 @@
       }
     ],
     "explanation": "A program manager focuses on coordinating multiple related projects to realize benefits and maintain alignment with organizational strategy. This is broader than managing individual project tasks or facilitating team ceremonies. The role is primarily strategic and integrative rather than narrowly tactical.",
-    "references": [
-      "The Standard for Program Management, Program Manager role and responsibilities",
-      "PMBOK Guide Seventh Edition, Value Delivery System",
-      "PMBOK Guide Seventh Edition, Organizational Strategy and Project Alignment"
-    ],
     "tags": [
       "definition",
       "program-management-role"
@@ -2025,39 +1857,34 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "What role does a program manager play in an organization?",
-      "In organizational project management, how is the role of a program manager best described?"
+      "An organization assigns one manager to coordinate several related initiatives so combined benefits and strategic outcomes are achieved. Which role is being described?",
+      "How should a program manager's role be understood in organizational project management?"
     ],
     "correct": [
       {
-        "text": "A program manager supervises groups of projects and focuses on long-term business objectives.",
-        "why": "Program management coordinates related projects to realize benefits and strategic outcomes that would not be achieved if the projects were managed separately."
+        "text": "Coordinating related projects toward business outcomes",
+        "why": "Program management manages related projects together to realize benefits and strategic results that would not be achieved as effectively if the projects were managed separately."
       }
     ],
     "distractors": [
       {
-        "text": "A program manager oversees individual projects and has short-term, concrete deliverables.",
-        "trap": "Confuses the project manager role with the broader strategic role of a program manager."
+        "text": "Managing one project to deliver specific outputs",
+        "trap": "This describes project management, which is narrower than the benefits-oriented role of a program manager."
       },
       {
-        "text": "A program manager supervises a group of projects and programs and provides centralized management of them.",
-        "trap": "Describes portfolio-style centralized oversight rather than program management of related projects."
+        "text": "Overseeing all programs and projects centrally",
+        "trap": "This is closer to portfolio management, which provides broader centralized oversight of selected work."
       },
       {
-        "text": "A program manager oversees the individual work of team members on a daily basis.",
-        "trap": "Mistakes program management for direct functional supervision or line management."
+        "text": "Directing team members' daily assignments",
+        "trap": "This confuses program management with functional supervision or line management."
       },
       {
-        "text": "A program manager is primarily responsible for approving every change request across all organizational initiatives.",
-        "trap": "Assumes governance approval authority is the defining purpose of the role rather than benefits coordination."
+        "text": "Approving every enterprise change request",
+        "trap": "Governance approval authority is not the defining purpose of program management; benefits coordination is."
       }
     ],
-    "explanation": "A program manager manages related projects in a coordinated way to obtain benefits and control not available from managing them individually. The emphasis is on strategic alignment and long-term business outcomes, not day-to-day task supervision or centralized oversight of all work in the organization. That broader centralized oversight more closely aligns with portfolio management.",
-    "references": [
-      "The Standard for Program Management Fifth Edition, Section 1 Program Management Overview",
-      "PMBOK Guide Seventh Edition, Organizational Context and Value Delivery System",
-      "The Standard for Portfolio Management Fourth Edition, portfolio versus program distinctions"
-    ],
+    "explanation": "A program manager coordinates related projects to obtain benefits, control, and strategic outcomes that are not available when those projects are managed separately. The role is broader than managing one project and different from portfolio management, which is concerned with selecting and overseeing work to support strategy across the organization.",
     "tags": [
       "scenario",
       "program-management-role"
@@ -2104,11 +1931,6 @@
       }
     ],
     "explanation": "A business case explains why a project is worth doing by documenting expected benefits, estimated costs, and associated risks. Its purpose is to support an informed decision about whether the initiative should proceed. The other choices describe different management plans, governance concepts, or scope documents rather than the business case itself.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.6.1 Business Documents",
-      "PMBOK Guide Seventh Edition, Measurement Performance Domain",
-      "Process Groups A Practice Guide, Section on Business Documents"
-    ],
     "tags": [
       "scenario",
       "business-case-purpose"
@@ -2127,38 +1949,34 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "Which of the following best describes a portfolio in PMI terms?",
-      "What is the best definition of a portfolio in project, program, and portfolio management?"
+      "An executive group reviews programs, standalone projects, operations, and smaller collections of work to decide where investment best supports strategy. What PMI term describes that collection?",
+      "In PMI usage, what is a portfolio?"
     ],
     "correct": [
       {
-        "text": "A collection of programs, subportfolios, and projects that support strategic business goals or objectives.",
-        "why": "A portfolio groups related and unrelated components so the organization can align investments and work with strategy."
+        "text": "A strategic collection of projects, programs, and subportfolios",
+        "why": "A portfolio can include related and unrelated components that are managed together to align work and investment with organizational strategy."
       }
     ],
     "distractors": [
       {
-        "text": "A group of project investments that are maintained to help finance projects.",
-        "trap": "This mistakes a portfolio for a funding pool rather than a strategic collection of work."
+        "text": "A reserve fund used to finance project work",
+        "trap": "This treats a portfolio as a pool of money rather than a strategy-aligned grouping of work."
       },
       {
-        "text": "A collection of sample work a project manager has completed and should bring to an interview.",
-        "trap": "This uses the everyday meaning of portfolio instead of the PMI management term."
+        "text": "A set of work samples for a job interview",
+        "trap": "This is the everyday meaning of portfolio, not the PMI management term."
       },
       {
-        "text": "A group of related projects that are managed together using shared resources and similar techniques.",
+        "text": "Related projects coordinated for shared benefits",
         "trap": "This describes a program rather than a portfolio."
       },
       {
-        "text": "A temporary effort undertaken to create a unique product, service, or result.",
-        "trap": "This describes a project rather than a portfolio."
+        "text": "A temporary effort that creates a unique outcome",
+        "trap": "This is the PMI definition of a project, not a portfolio."
       }
     ],
-    "explanation": "A portfolio is a strategic collection of components managed together to achieve organizational objectives. It is broader than a single project and different from a program, which consists of related projects managed in a coordinated way. PMI distinguishes portfolios by their strategic alignment role rather than by operational similarity alone.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 1.2.3.4 Portfolio Management",
-      "The Standard for Portfolio Management, portfolio definition section"
-    ],
+    "explanation": "A portfolio is a collection of work components managed to support strategic objectives. It may include projects, programs, subsidiary portfolios, and operations. Unlike a program, the components do not have to be closely related; the common thread is strategic alignment and investment oversight.",
     "tags": [
       "scenario",
       "portfolio-definition"
@@ -2205,10 +2023,6 @@
       }
     ],
     "explanation": "The business case explains why the organization should undertake the project by defining the need, justification, and expected value. The project charter formally authorizes the effort after the project is selected, while the benefits management plan describes how benefits will be measured and sustained. The project management plan is developed later to guide delivery.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 1.2.6.1 Business Documents",
-      "A Guide to the Project Management Body of Knowledge (PMBOK Guide), Sixth Edition, Section 4.1 Develop Project Charter"
-    ],
     "tags": [
       "scenario",
       "business-case"
@@ -2263,13 +2077,6 @@
       }
     ],
     "explanation": "When external environmental or ESG requirements change, the project manager should evaluate impacts and integrate the changes into planning, controls, and governance. Procurement is a key lever because responsible sourcing, supplier due diligence, and contract clauses help ensure compliance. The correct mindset is proactive adaptation, not delay or segregation of sustainability from delivery.",
-    "references": [
-      "PMBOK Guide Eighth Edition, Performance Domain Uncertainty",
-      "PMBOK Guide Eighth Edition, Performance Domain Planning",
-      "PMBOK Guide Eighth Edition, Performance Domain Stakeholders",
-      "Process Groups A Practice Guide, Plan Procurement Management and Plan Compliance Management",
-      "PMP Examination Content Outline 2026"
-    ],
     "tags": [
       "scenario",
       "sustainability",
@@ -2286,33 +2093,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "A planned organizational change will affect a project's resourcing model mid-execution. What should the PM do?"
+      "A company announces that project staffing will shift from dedicated teams to a shared resource pool next quarter. The change will affect a project already in execution. What should the project manager do first?"
     ],
     "correct": [
       {
-        "text": "Evaluate the impact on the project, raise it with governance, and update plans to align with the new model.",
-        "why": "ECO Task 7 enabler 'Evaluate the impact of organizational change on the project and determine required actions.'"
+        "text": "Assess the impact and work through governance",
+        "why": "ECO Task 7 includes evaluating how organizational change affects the project and determining the actions needed in response."
       }
     ],
     "distractors": [
       {
-        "text": "Lock the project's resourcing model as it is and refuse to align with the planned organizational change.",
-        "trap": "Declining sidesteps a responsibility the PM should own."
+        "text": "Keep the existing staffing model unchanged",
+        "trap": "Refusing to address the organizational change avoids a responsibility the project manager needs to manage."
       },
       {
-        "text": "Cancel the project on the grounds that the planned organizational change has made the project unviable.",
-        "trap": "Cancelling is a disproportionate overreaction to the situation."
+        "text": "Terminate the project because staffing is changing",
+        "trap": "Cancellation is an excessive response before impact analysis and governance review."
       },
       {
-        "text": "Ignore the planned organizational change until the project's current execution work has been finished.",
-        "trap": "Ignoring the issue lets it grow instead of addressing it."
+        "text": "Wait until current execution work is complete",
+        "trap": "Delaying action allows the change impact to grow instead of being assessed and managed."
       }
     ],
-    "explanation": "ECO Task 7 enabler 'Evaluate the impact of organizational change on the project and determine required actions.' Misalignment with org change creates avoidable friction.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.1, §2.2",
-      "PMP Examination Content Outline 2026 - Business Environment Task 7"
-    ],
+    "explanation": "When organizational change affects a project, the project manager should evaluate the impact, identify needed responses, involve the appropriate governance body, and update plans as required. Simply resisting, cancelling, or ignoring the change does not manage the project responsibly.",
     "tags": [
       "scenario",
       "business-environment",
@@ -2357,11 +2160,6 @@
       }
     ],
     "explanation": "The Agile Practice Guide §5: risks can be backlogged, discussed in iteration events, and tracked on visible boards. Skipping (C) and executive-only treatment (E) hide risks from the people best able to act.",
-    "references": [
-      "Agile Practice Guide §5 risk",
-      "PMBOK Guide Eighth Edition §2.7",
-      "PMP Examination Content Outline 2026 - Business Environment Task 5"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2403,10 +2201,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 (Governance Performance Domain): governance frames decision rights, escalation, and alignment with strategy. ECO Business Task 1 enablers cover structure, rules, procedures, reporting, ethics, and policies.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.1 Governance Performance Domain",
-      "PMP Examination Content Outline 2026 - Business Environment Task 1"
-    ],
     "tags": [
       "definition",
       "business-environment",
@@ -2452,11 +2246,6 @@
       }
     ],
     "explanation": "ECO Task 4: resolve within authority (A), escalate beyond (B), collaborate (D). Suppression (C) hides risk; penalizing the messenger (E) destroys psychological safety and future signal.",
-    "references": [
-      "Agile Practice Guide §4",
-      "PMBOK Guide Eighth Edition §2.1",
-      "PMP Examination Content Outline 2026 - Business Environment Task 4"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2475,33 +2264,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "In a software company a large number of simultaneously performed projects utilize the same groups of human and other resources from a corporate resource directory and support the organization's strategic objectives. What is the term commonly used for this grouping of multiple projects?"
+      "A software firm runs many projects at the same time, some related and some independent. They draw from a common resource pool and are selected because they support company strategy. What is this grouping called?"
     ],
     "correct": [
       {
         "text": "Portfolio",
-        "why": "A portfolio is a collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives."
+        "why": "A portfolio is a set of projects, programs, subsidiary portfolios, and operations managed together to achieve strategic objectives."
       }
     ],
     "distractors": [
       {
         "text": "Strategic plan",
-        "trap": "(A) is incorrect because a strategic plan is the document that defines the organization's strategy and direction; it is not a grouping of work."
+        "trap": "A strategic plan describes direction and goals; it is not the managed grouping of work."
       },
       {
         "text": "Project",
-        "trap": "The correct choice — portfolio — addresses the situation more effectively."
+        "trap": "A project is one temporary endeavor, while the scenario describes many initiatives grouped together."
       },
       {
         "text": "Program",
-        "trap": "The correct choice — portfolio — addresses the situation more effectively."
+        "trap": "A program contains related projects coordinated for shared benefits; the scenario emphasizes strategy-aligned grouping across many efforts."
       }
     ],
-    "explanation": "A portfolio is a collection of projects, programs, subsidiary portfolios, and operations managed as a group to achieve strategic objectives. The scenario captures the two defining characteristics: multiple components grouped together (the projects and the program shown in the diagram), and alignment to organizational strategy (the \"Strategic Objectives\" shown as the receiving element). Portfolio components are not necessarily related by deliverable or customer — they are grouped because they share resources and contribute to the same strategic goals, which matches the software company sharing a corporate resource directory across many simultaneous projects. (A) is incorrect because a strategic plan is the document that defines the organization's strategy and direction; it is not a grouping of work. (C) is incorrect because a project is a single temporary endeavor undertaken to produce a unique product, service, or result — the scenario describes many such endeavors together, not one. (D) is incorrect because a program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually; programs are about benefit-related coordination, not strategy-aligned grouping of unrelated work. The diagram reinforces this by showing Program 1 as one component within the portfolio alongside individual projects.",
-    "references": [
-      "PMBOK Guide Eighth Edition §1 (project, program, portfolio definitions and relationships)",
-      "PMP Examination Content Outline 2026 - Business Environment (strategy alignment context)"
-    ],
+    "explanation": "The scenario describes a portfolio because multiple components are grouped and managed in support of strategic objectives. A project would be a single temporary effort. A program would be a set of related projects coordinated for benefits. A strategic plan is the guiding document, not the grouping of initiatives itself.",
     "tags": [
       "scenario",
       "business-environment",
@@ -2542,10 +2327,6 @@
       }
     ],
     "explanation": "The Agile Practice Guide: regulated agile environments embed compliance into DoD, automate verification, and treat compliance partners as collaborative stakeholders. Late or external compliance creates rework cycles.",
-    "references": [
-      "Agile Practice Guide §6 regulated environments",
-      "PMP Examination Content Outline 2026 - Business Environment Task 2"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2564,33 +2345,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "An impediment is outside the project team's authority to resolve. What should the project manager do?"
+      "A regulatory dependency is blocking progress, and the project team has no authority to obtain the needed decision. What should the project manager do?"
     ],
     "correct": [
       {
-        "text": "Escalate to the appropriate authority with the relevant context, options, and a recommended action.",
-        "why": "ECO Task 4 and PMBOK Guide 8 (Governance): impediments beyond team authority require escalation with sufficient context for the decision-maker."
+        "text": "Escalate with context, options, and a recommendation",
+        "why": "ECO Task 4 and PMBOK governance guidance support escalating impediments beyond the team's authority with enough information for the right decision-maker to act."
       }
     ],
     "distractors": [
       {
-        "text": "Hide the impediment from stakeholders so as not to alarm them about the progress of the project.",
-        "trap": "Withholding information erodes transparency and trust."
+        "text": "Keep the obstacle quiet to avoid concern",
+        "trap": "Withholding material information undermines transparency and stakeholder trust."
       },
       {
-        "text": "Blame the project team for not having been able to resolve the impediment on their own authority.",
-        "trap": "Blaming people damages trust and ignores systemic causes."
+        "text": "Fault the team for not solving it",
+        "trap": "Blame damages trust and ignores the fact that the impediment is outside the team's authority."
       },
       {
-        "text": "Wait passively until the impediment resolves itself through the actions of other people in the organization.",
-        "trap": "Passive waiting fails to take ownership of the issue."
+        "text": "Wait for another group to fix it",
+        "trap": "Passive waiting fails to take ownership of removing or escalating the impediment."
       }
     ],
-    "explanation": "ECO Task 4 and PMBOK Guide 8 (Governance): impediments beyond team authority require escalation with sufficient context for the decision-maker.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.1",
-      "PMP Examination Content Outline 2026 - Business Environment Task 4"
-    ],
+    "explanation": "When an impediment exceeds the team's authority, the project manager should escalate it to the appropriate authority and provide the information needed for a decision. Transparency, ownership, and governance are more effective than hiding the issue, blaming the team, or waiting passively.",
     "tags": [
       "scenario",
       "business-environment",
@@ -2632,10 +2409,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 §2.7: qualitative analysis prioritizes risks for further attention or response. Quantitative analysis (when warranted) follows. ECO Task 5 enabler 'Analyze risks.'",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.7",
-      "PMP Examination Content Outline 2026 - Business Environment Task 5"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2676,10 +2449,6 @@
       }
     ],
     "explanation": "ECO Task 4 enabler 'Reassess continually to help ensure impediments, obstacles, and blockers for the team are being addressed.' Stale impediment logs hide real problems.",
-    "references": [
-      "Agile Practice Guide §5",
-      "PMP Examination Content Outline 2026 - Business Environment Task 4"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2721,10 +2490,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 (Business Environment §2.1, Risk §2.7): external environment shifts require active reassessment and contingency planning. ECO Task 8 + Task 5.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.1, §2.7",
-      "PMP Examination Content Outline 2026 - Business Environment Task 5 , Business Task 8"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2765,11 +2530,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 §3.6 'Be an Accountable Leader' and the Agile Practice Guide §6: organizational change depends heavily on consistent leadership modeling; mixed signals stall adoption.",
-    "references": [
-      "PMBOK Guide Eighth Edition §3.6",
-      "Agile Practice Guide §6",
-      "PMP Examination Content Outline 2026 - Business Environment Task 7"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2811,10 +2571,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 (Business Environment) and ECO Task 8 enablers: 'Survey changes,' 'Assess and prioritize the impact on project scope/backlog,' and 'Continually review.' Early action is cheaper than late.",
-    "references": [
-      "PMBOK Guide Eighth Edition Business Environment",
-      "PMP Examination Content Outline 2026 - Business Environment Task 8"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2856,10 +2612,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 §2.1 and §3.4: success metrics span baseline conformance and outcomes/value. ECO Business Task 1 enabler 'Define success metrics.'",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.1, §3.4",
-      "PMP Examination Content Outline 2026 - Business Environment Task 1"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2901,10 +2653,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 §2.2 and ECO Task 6: continuous improvement at the organizational level depends on cross-team sharing. Hoarding (B) and waiting (D) miss the leverage.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.2",
-      "PMP Examination Content Outline 2026 - Business Environment Task 6"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2946,11 +2694,6 @@
       }
     ],
     "explanation": "The Agile Practice Guide §5: inspect-and-adapt is the engine of agile continuous improvement; events like reviews and retrospectives create the regular cadence.",
-    "references": [
-      "Agile Practice Guide §5",
-      "PMBOK Guide Eighth Edition §3.5",
-      "PMP Examination Content Outline 2026 - Business Environment Task 6"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -2991,10 +2734,6 @@
       }
     ],
     "explanation": "ECO Task 4 enabler 'Collaborate with relevant stakeholders on an approach to resolve the issues.' Multi-stakeholder issues need multi-stakeholder solutions; PMBOK Guide 8 (Stakeholders) reinforces this.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.5",
-      "PMP Examination Content Outline 2026 - Business Environment Task 4"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -3035,10 +2774,6 @@
       }
     ],
     "explanation": "PMBOK Guide 8 §2.7 and ECO Task 5 enabler 'Maintain a risk register.' The register is a living artifact.",
-    "references": [
-      "PMBOK Guide Eighth Edition §2.7",
-      "PMP Examination Content Outline 2026 - Business Environment Task 5"
-    ],
     "tags": [
       "scenario",
       "business-environment",
@@ -3056,34 +2791,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "How does an agile approach inherently address some categories of project risk?"
+      "A team is uncertain whether users will accept a new workflow and whether the chosen technology will scale. How does an agile delivery approach help manage that uncertainty?"
     ],
     "correct": [
       {
-        "text": "Incremental delivery, frequent feedback, and short iterations expose uncertainty and limit each bet.",
-        "why": "The Agile Practice Guide §3: iterative-incremental delivery is itself a risk-management strategy for requirement and technology uncertainty."
+        "text": "Small increments and feedback reduce exposure",
+        "why": "The Agile Practice Guide explains that iterative and incremental delivery helps manage requirements and technology uncertainty by creating frequent learning points."
       }
     ],
     "distractors": [
       {
-        "text": "By transferring all of the project's risk to the product owner, who manages it on behalf of the team.",
-        "trap": "The correct choice — incremental delivery, frequent feedback, and short iterations expose uncertainty and limit… — addresses the situation more effectively."
+        "text": "The product owner absorbs all project risk",
+        "trap": "Risk is not transferred wholesale to the product owner; the team and stakeholders manage uncertainty collaboratively."
       },
       {
-        "text": "By avoiding the formal risk identification activity entirely in favor of just-in-time responses.",
-        "trap": "Avoidance defers the problem rather than resolving it."
+        "text": "The team skips risk identification completely",
+        "trap": "Agile approaches still address risk; they do not rely on ignoring or deferring risk identification."
       },
       {
-        "text": "By eliminating project risk altogether through the use of team self-organization and empowerment.",
-        "trap": "The correct choice — incremental delivery, frequent feedback, and short iterations expose uncertainty and limit… — addresses the situation more effectively."
+        "text": "Self-organization removes all project risk",
+        "trap": "Empowered teams help respond to uncertainty, but no delivery approach eliminates risk entirely."
       }
     ],
-    "explanation": "The Agile Practice Guide §3: iterative-incremental delivery is itself a risk-management strategy for requirement and technology uncertainty. PMBOK Guide 8 §2.7 acknowledges that delivery approach affects risk exposure.",
-    "references": [
-      "Agile Practice Guide §3",
-      "PMBOK Guide Eighth Edition §2.7",
-      "PMP Examination Content Outline 2026 - Business Environment Task 5"
-    ],
+    "explanation": "Agile approaches reduce some forms of risk by delivering in small increments, inspecting results often, and adapting based on feedback. This limits the size of each commitment and exposes problems sooner, especially where requirements or technology are uncertain.",
     "tags": [
       "scenario",
       "business-environment",
@@ -3124,10 +2854,6 @@
       }
     ],
     "explanation": "A bidder conference supports fairness, clarity, and consistent communication with potential sellers before they respond. It helps reduce misunderstandings and gives all bidders access to the same information before proposal preparation.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment"
@@ -3165,10 +2891,6 @@
       }
     ],
     "explanation": "In PMI terminology, portfolios are managed to align investments and resources with organizational strategy. Shared resources may exist across the work, but the defining characteristic is strategic alignment rather than team structure.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment"
@@ -3206,10 +2928,6 @@
       }
     ],
     "explanation": "IRR is used in project selection to compare the attractiveness of investment options. It represents the project's implied yield rate based on projected cash inflows and outflows over time.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment"
@@ -3247,10 +2965,6 @@
       }
     ],
     "explanation": "Under current PMI guidance, the business case is used to support a go/no-go decision by explaining why the project should be undertaken. Once the initiative is approved, benefits-related artifacts may be used to track realization, but the investment justification still begins with the business case.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment"
@@ -3288,10 +3002,6 @@
       }
     ],
     "explanation": "In current PMI practice, not every risk requires an active response beyond monitoring. When a threat is low priority and the team chooses no immediate action, that is risk acceptance, often with a plan to respond only if the event happens.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment"

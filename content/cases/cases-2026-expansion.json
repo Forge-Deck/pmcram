@@ -32,11 +32,7 @@
             "trap": "Resetting the baseline to hide variance is cosmetic, removes the data you need to diagnose, and misleads the funding decision."
           }
         ],
-        "explanation": "Recovering a troubled project starts with an honest diagnosis. Measuring actual performance against the baseline and finding root causes is the foundation for any defensible recovery plan or go/kill recommendation.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Recovering a troubled project starts with an honest diagnosis. Measuring actual performance against the baseline and finding root causes is the foundation for any defensible recovery plan or go/kill recommendation."
       },
       {
         "prompt": "The diagnostic shows the dominant root cause is uncontrolled scope: marketing requests have been absorbed informally without re-estimating schedule or cost, and the team is constantly reworking. Which two actions best address this root cause?",
@@ -67,11 +63,7 @@
             "trap": "Starving quality activities to push features is what drove the rising defect count and would deepen the rework spiral."
           }
         ],
-        "explanation": "The fix must match the root cause. Uncontrolled scope is addressed by re-agreeing a prioritized baseline and enforcing integrated change control, not by absorbing more work or sacrificing quality.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "The fix must match the root cause. Uncontrolled scope is addressed by re-agreeing a prioritized baseline and enforcing integrated change control, not by absorbing more work or sacrificing quality."
       },
       {
         "prompt": "With change control in place and a prioritized scope agreed, the project manager builds the recovery plan. What is the most important thing to do so the plan is realistic and trusted?",
@@ -98,11 +90,7 @@
             "trap": "Committing to a plan before governance approves it bypasses the very gate the sponsor set up and risks promising what is not yet sanctioned."
           }
         ],
-        "explanation": "Re-planning means rebuilding estimates from current conditions with the team, then having governance approve the new baseline. That is what makes the plan both realistic and trusted going into the funding decision.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Re-planning means rebuilding estimates from current conditions with the team, then having governance approve the new baseline. That is what makes the plan both realistic and trusted going into the funding decision."
       },
       {
         "prompt": "At the six-week gate, the re-baselined plan shows the platform can still deliver positive value but only with more time and money, while a competing initiative promises higher returns for the same investment. How should the project manager frame the go/kill recommendation?",
@@ -129,16 +117,8 @@
             "trap": "The sponsor explicitly asked the project manager to take control; withholding a reasoned recommendation abdicates that accountability."
           }
         ],
-        "explanation": "Stage gates exist to confirm continued business justification. The project manager should compare the remaining value of completion against alternatives, exclude sunk costs, and make a clear value-based recommendation, even if that means recommending the project be stopped.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Stage gates exist to confirm continued business justification. The project manager should compare the remaining value of completion against alternatives, exclude sunk costs, and make a clear value-based recommendation, even if that means recommending the project be stopped."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
       "troubled-project",
@@ -184,11 +164,7 @@
             "trap": "Staffing up to enforce before defining purpose builds an overhead function with no agreed value to deliver."
           }
         ],
-        "explanation": "An effective PMO is designed around the outcomes leadership and teams need. Establishing the problem and target outcomes first lets the leader choose a fitting type and mandate rather than copying a structure or imposing control.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "An effective PMO is designed around the outcomes leadership and teams need. Establishing the problem and target outcomes first lets the leader choose a fitting type and mandate rather than copying a structure or imposing control."
       },
       {
         "prompt": "Leadership wants stronger strategic alignment and visibility across the portfolio, but delivery teams are mature and value their autonomy. Which PMO operating model best fits this situation?",
@@ -215,11 +191,7 @@
             "trap": "Leaving coordination to ad hoc goodwill is the status quo that produced the inconsistency and resource collisions in the first place."
           }
         ],
-        "explanation": "PMO types range from supportive to controlling to directive. For mature teams that need alignment and visibility without losing autonomy, a supportive-plus-controlling blend that enables teams and provides governance and reporting fits best.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "PMO types range from supportive to controlling to directive. For mature teams that need alignment and visibility without losing autonomy, a supportive-plus-controlling blend that enables teams and provides governance and reporting fits best."
       },
       {
         "prompt": "The skeptical delivery managers fear the EPMO will again become an audit and reporting burden. Which two actions will best earn their adoption?",
@@ -250,11 +222,7 @@
             "trap": "Relying on authority and threats to force compliance wins grudging conformance, not genuine adoption, and damages engagement."
           }
         ],
-        "explanation": "Adoption is earned, not mandated. Co-designing standards with delivery teams and proving value by solving a real problem builds trust, whereas compliance scoring, added reporting, and authority threats reinforce the project police image.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "Adoption is earned, not mandated. Co-designing standards with delivery teams and proving value by solving a real problem builds trust, whereas compliance scoring, added reporting, and authority threats reinforce the project police image."
       },
       {
         "prompt": "A year in, executives ask how to judge whether the EPMO is succeeding. Which measure best reflects the EPMO's intended purpose?",
@@ -281,16 +249,8 @@
             "trap": "Growth in overhead is an input cost, not evidence the office is improving delivery or strategic alignment."
           }
         ],
-        "explanation": "A PMO should be evaluated on the outcomes it enables, not the activity it generates. Strategic alignment, portfolio throughput, and realized benefits show whether the EPMO is delivering value rather than merely policing process.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "A PMO should be evaluated on the outcomes it enables, not the activity it generates. Strategic alignment, portfolio throughput, and realized benefits show whether the EPMO is delivering value rather than merely policing process."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
     ],
     "tags": [
       "pmo",
@@ -336,11 +296,7 @@
             "trap": "Crediting a past expense to one option's benefits double counts and skews the comparison."
           }
         ],
-        "explanation": "Sunk costs are unrecoverable and common to all alternatives, so they are excluded from a project selection decision. Including them, in any direction, biases the comparison away from objective future value.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "Sunk costs are unrecoverable and common to all alternatives, so they are excluded from a project selection decision. Including them, in any direction, biases the comparison away from objective future value."
       },
       {
         "prompt": "Option A returns higher cash flows but mostly in later years; Option B returns less overall but recovers its cost much sooner. The committee says long-term shareholder value is the priority. Which selection metric should carry the most weight?",
@@ -367,11 +323,7 @@
             "trap": "Minimizing upfront cost ignores the benefits each option produces and can forgo far greater value."
           }
         ],
-        "explanation": "When long-term value is the priority and cash flows have different timing, NPV is the strongest selection metric because it discounts the full stream of future cash flows to present value. Payback and undiscounted sums miss timing or later value.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "When long-term value is the priority and cash flows have different timing, NPV is the strongest selection metric because it discounts the full stream of future cash flows to present value. Payback and undiscounted sums miss timing or later value."
       },
       {
         "prompt": "The committee also reviews benefit-cost ratios. Option A has a BCR of 1.4, Option B has a BCR of 0.9, and Option C has a BCR of 1.1. On the BCR measure alone, which options are financially justified?",
@@ -398,11 +350,7 @@
             "trap": "A BCR of exactly 1 is merely break even; the decision rule is greater than 1, not equal to 1."
           }
         ],
-        "explanation": "A benefit-cost ratio above 1 means benefits exceed costs and the option is financially justified. Options A and C clear that bar; Option B at 0.9 destroys value and is not justified on BCR.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "A benefit-cost ratio above 1 means benefits exceed costs and the option is financially justified. Options A and C clear that bar; Option B at 0.9 destroys value and is not justified on BCR."
       },
       {
         "prompt": "The committee selects Option A and now must decide whether to build the claims engine in-house or buy a vendor product. What is the soundest basis for this make-or-buy decision?",
@@ -429,16 +377,8 @@
             "trap": "Prioritizing speed alone ignores total cost of ownership, strategic control, and whether the product actually fits long-term needs."
           }
         ],
-        "explanation": "Make-or-buy analysis compares total cost of ownership together with capability fit, risk, and strategic considerations such as whether the function is a core differentiator. A single price point or an absolute rule is not a sound basis.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Business Environment"
-        ]
+        "explanation": "Make-or-buy analysis compares total cost of ownership together with capability fit, risk, and strategic considerations such as whether the function is a core differentiator. A single price point or an absolute rule is not a sound basis."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
     ],
     "tags": [
       "project-selection",
@@ -484,11 +424,7 @@
             "trap": "Inspector hours are one appraisal cost and ignore failure costs and prevention, so they cannot explain the quality problem."
           }
         ],
-        "explanation": "The cost of quality framework splits spending into cost of conformance, prevention and appraisal, and cost of nonconformance, internal and external failure. Categorizing this way is the first step to seeing that the line is paying heavily for appraisal and failure while under-investing in prevention.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "The cost of quality framework splits spending into cost of conformance, prevention and appraisal, and cost of nonconformance, internal and external failure. Categorizing this way is the first step to seeing that the line is paying heavily for appraisal and failure while under-investing in prevention."
       },
       {
         "prompt": "The analysis shows high appraisal cost from inspection, high internal failure cost from scrap at the final gate, and external failure cost from returns, but almost nothing spent on prevention. The defects are being caught late or escaping entirely. What does this pattern most strongly indicate?",
@@ -515,11 +451,7 @@
             "trap": "Relaxing specs on a medical device to mask a process problem trades a quality issue for a patient-safety and compliance risk."
           }
         ],
-        "explanation": "Modern quality thinking holds that quality is planned and built in, not inspected in. High appraisal and failure costs with no prevention spending shows the line is detecting defects late rather than preventing them at the source.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Modern quality thinking holds that quality is planned and built in, not inspected in. High appraisal and failure costs with no prevention spending shows the line is detecting defects late rather than preventing them at the source."
       },
       {
         "prompt": "Before changing the process, the project manager wants to find the underlying source of the most frequent defect. Which two quality tools are most appropriate for this analysis?",
@@ -550,11 +482,7 @@
             "trap": "Selecting more inspectors doubles down on appraisal and never addresses why defects occur."
           }
         ],
-        "explanation": "Pareto analysis pinpoints the vital few defect types, and a cause-and-effect diagram traces the dominant one to its root causes. Together they direct improvement at the source rather than at detection.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Pareto analysis pinpoints the vital few defect types, and a cause-and-effect diagram traces the dominant one to its root causes. Together they direct improvement at the source rather than at detection."
       },
       {
         "prompt": "Root-cause analysis points to an unstable calibration step early in the line. Leadership still wants to fund more final-gate inspectors. What should the project manager recommend?",
@@ -581,16 +509,8 @@
             "trap": "Trading quality for schedule on a medical device drives up external failure cost and creates serious safety and compliance exposure."
           }
         ],
-        "explanation": "Preventing defects at the calibration root cause is more economical than inspecting and scrapping them later, because prevention reduces the much larger appraisal and failure costs. The PMI principle is that it is cheaper to build quality in than to inspect or rework it in.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Preventing defects at the calibration root cause is more economical than inspecting and scrapping them later, because prevention reduces the much larger appraisal and failure costs. The PMI principle is that it is cheaper to build quality in than to inspect or rework it in."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
       "cost-of-quality",
@@ -636,11 +556,7 @@
             "trap": "Reinforcement is the final ADKAR element and sustains a change that people can already make, not one they do not yet understand or want."
           }
         ],
-        "explanation": "ADKAR moves through Awareness, Desire, Knowledge, Ability, and Reinforcement in order. Low training attendance and continued spreadsheet use are classic signs of unmet Awareness and Desire, so the project manager must address the why before the how.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "ADKAR moves through Awareness, Desire, Knowledge, Ability, and Reinforcement in order. Low training attendance and continued spreadsheet use are classic signs of unmet Awareness and Desire, so the project manager must address the why before the how."
       },
       {
         "prompt": "To build momentum and credibility for the change, which two actions best reflect a Kotter-style approach? (Select 2)",
@@ -671,11 +587,7 @@
             "trap": "Naming and shaming damages trust and psychological safety and undermines the voluntary buy-in Kotter aims to build."
           }
         ],
-        "explanation": "Kotter's model emphasizes a guiding coalition and visible short-term wins to create momentum. Premature victory declarations, one-off broadcasts, and coercive tactics work against durable adoption.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Kotter's model emphasizes a guiding coalition and visible short-term wins to create momentum. Premature victory declarations, one-off broadcasts, and coercive tactics work against durable adoption."
       },
       {
         "prompt": "Several long-serving staff say they feel they are losing a familiar way of working they trusted for years. Using the Bridges Transition model, what should the project manager do?",
@@ -702,11 +614,7 @@
             "trap": "Bridges distinguishes the external change event from the internal transition; ignoring the transition is why adoption stalls."
           }
         ],
-        "explanation": "Bridges separates the external change from the internal transition people experience: Ending and Loss, the Neutral Zone, and the New Beginning. Helping people through these states is essential to lasting adoption.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Bridges separates the external change from the internal transition people experience: Ending and Loss, the Neutral Zone, and the New Beginning. Helping people through these states is essential to lasting adoption."
       },
       {
         "prompt": "Adoption has now climbed to about 80 percent and the sponsor wants to close the project. What should the project manager do to make the change stick?",
@@ -733,16 +641,8 @@
             "trap": "Handing off without measurement or embedded process means no reinforcement and likely erosion of the gains."
           }
         ],
-        "explanation": "Sustaining a change requires reinforcement: tracking adoption, celebrating progress, correcting backsliding, and embedding the new way into everyday processes. Closing support too early is a common cause of regression.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Sustaining a change requires reinforcement: tracking adoption, celebrating progress, correcting backsliding, and embedding the new way into everyday processes. Closing support too early is a common cause of regression."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
       "change management",
@@ -786,11 +686,7 @@
             "trap": "Even legitimate-sounding requests must go through change control; acting on them informally is exactly what makes it scope creep."
           }
         ],
-        "explanation": "Scope creep is uncontrolled growth in scope from requests that skip the change control process. The source here is a stakeholder, and the work is being absorbed without assessment or approval.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Scope creep is uncontrolled growth in scope from requests that skip the change control process. The source here is a stakeholder, and the work is being absorbed without assessment or approval."
       },
       {
         "prompt": "How should the project manager characterize the developer adding an animated dashboard the customer never requested?",
@@ -817,11 +713,7 @@
             "trap": "Quality means conformance to requirements, not exceeding them; building beyond spec is gold plating, not a quality gain."
           }
         ],
-        "explanation": "Gold plating is the team voluntarily exceeding requirements. It is internally generated, unlike scope creep, and it consumes resources and introduces risk without delivering authorized value.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Gold plating is the team voluntarily exceeding requirements. It is internally generated, unlike scope creep, and it consumes resources and introduces risk without delivering authorized value."
       },
       {
         "prompt": "The new usage report the stakeholder wants does appear genuinely useful to the business. What is the correct way to handle it?",
@@ -848,11 +740,7 @@
             "trap": "Authorizing scope changes is not the team's call; it belongs to the change control board or designated authority."
           }
         ],
-        "explanation": "A potentially valuable change is still a change. The project manager routes it through the integrated change control process so the impact is assessed and an authorized decision is made before work begins.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "A potentially valuable change is still a change. The project manager routes it through the integrated change control process so the impact is assessed and an authorized decision is made before work begins."
       },
       {
         "prompt": "What is the best way for the project manager to deal with the developer's unrequested animated dashboard?",
@@ -879,16 +767,8 @@
             "trap": "Charging for work the customer never asked for damages trust and still does not address the underlying gold plating."
           }
         ],
-        "explanation": "Gold plating is corrected by realigning the team to the scope baseline. Because no stakeholder requested the feature, there is no basis to formalize it; the work is stopped and the developer is coached toward conformance to requirements.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Gold plating is corrected by realigning the team to the scope baseline. Because no stakeholder requested the feature, there is no basis to formalize it; the work is stopped and the developer is coached toward conformance to requirements."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
       "scope creep",
@@ -932,11 +812,7 @@
             "trap": "Delaying documentation lets a known threat go unmanaged; risks are recorded and tracked as soon as they are identified."
           }
         ],
-        "explanation": "The first step once a risk is identified is to capture it in the risk register with a structured statement and an assigned owner, so it can be analyzed and managed rather than forgotten or hidden.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "The first step once a risk is identified is to capture it in the risk register with a structured statement and an assigned owner, so it can be analyzed and managed rather than forgotten or hidden."
       },
       {
         "prompt": "With several risks now on the register, how should the project manager decide how much attention this one deserves relative to the others?",
@@ -963,11 +839,7 @@
             "trap": "Skipping prioritization assumes the answer; even a serious-looking risk is assessed for probability and impact so responses are proportionate."
           }
         ],
-        "explanation": "Qualitative risk analysis rates probability and impact to prioritize risks. It is the quick screening step that decides which risks justify deeper analysis or an active response.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Qualitative risk analysis rates probability and impact to prioritize risks. It is the quick screening step that decides which risks justify deeper analysis or an active response."
       },
       {
         "prompt": "The risk ranks as a high-priority threat. Which response strategy best fits the situation?",
@@ -994,11 +866,7 @@
             "trap": "Escalation is for risks outside the project's authority; extending a contract and cross-training are squarely within the project manager's control."
           }
         ],
-        "explanation": "Threat strategies are escalate, avoid, transfer, mitigate, and accept. Because the project can act directly to reduce probability and impact, mitigation through contract extension and cross-training fits best. Exploit applies only to opportunities.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Threat strategies are escalate, avoid, transfer, mitigate, and accept. Because the project can act directly to reduce probability and impact, mitigation through contract extension and cross-training fits best. Exploit applies only to opportunities."
       },
       {
         "prompt": "After mitigation, some residual risk remains and the planned responses cost money. Which funding source should the project manager use for these planned risk responses?",
@@ -1025,16 +893,8 @@
             "trap": "Planned responses to identified risks are funded from contingency within the cost baseline, not from an external budget line."
           }
         ],
-        "explanation": "Contingency reserves fund planned responses to identified, known risks and are part of the cost baseline controlled by the project manager. Management reserves cover unforeseen, unknown risks, sit outside the baseline, and require management approval to access.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - Process"
-        ]
+        "explanation": "Contingency reserves fund planned responses to identified, known risks and are part of the cost baseline controlled by the project manager. Management reserves cover unforeseen, unknown risks, sit outside the baseline, and require management approval to access."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
     ],
     "tags": [
       "risk management",
@@ -1078,11 +938,7 @@
             "trap": "Framing storming-stage conflict as a mere personality clash misses that this is a predictable phase the team needs help moving through."
           }
         ],
-        "explanation": "Tuckman describes forming, storming, norming, performing, and adjourning. The behaviors here -- caution, role confusion, leader dependence, and early conflict -- place the team in forming and storming, which the project manager should expect and guide, not punish.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Tuckman describes forming, storming, norming, performing, and adjourning. The behaviors here -- caution, role confusion, leader dependence, and early conflict -- place the team in forming and storming, which the project manager should expect and guide, not punish."
       },
       {
         "prompt": "Applying situational leadership to a team at this stage of development, which leadership style is most appropriate?",
@@ -1109,11 +965,7 @@
             "trap": "Pure command and control supplies direction but no development; situational leadership pairs direction with coaching so maturity grows."
           }
         ],
-        "explanation": "Situational leadership matches style to team readiness. An early, low-maturity team needs high direction and supportive coaching to clarify roles and build capability, not full delegation or a hands-off stance.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Situational leadership matches style to team readiness. An early, low-maturity team needs high direction and supportive coaching to clarify roles and build capability, not full delegation or a hands-off stance."
       },
       {
         "prompt": "Which two concrete actions will best help develop this team and resolve the confusion over who owns integration testing? (Select 2)",
@@ -1144,11 +996,7 @@
             "trap": "Escalating an internal role question the project manager can resolve abdicates the team-development responsibility and overburdens the sponsor."
           }
         ],
-        "explanation": "Building a team charter and clarifying roles with a RACI are direct, developmental actions that give an early team the structure it needs and resolve the ownership ambiguity behind the conflict.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Building a team charter and clarifying roles with a RACI are direct, developmental actions that give an early team the structure it needs and resolve the ownership ambiguity behind the conflict."
       },
       {
         "prompt": "Despite the clarified roles, the two members clash again in a meeting over how integration testing should be run. What conflict-handling approach should the project manager use?",
@@ -1175,16 +1023,8 @@
             "trap": "Avoiding or withdrawing leaves a recurring conflict unmanaged during a fragile development stage that needs active facilitation."
           }
         ],
-        "explanation": "Among the conflict modes -- collaborating, compromising, smoothing, forcing, and withdrawing -- collaborating and problem solving best resolves the root issue and strengthens the team, whereas smoothing, forcing, and withdrawing leave the conflict to recur.",
-        "references": [
-          "PMBOK Guide Eighth Edition",
-          "PMP Examination Content Outline 2026 - People"
-        ]
+        "explanation": "Among the conflict modes -- collaborating, compromising, smoothing, forcing, and withdrawing -- collaborating and problem solving best resolves the root issue and strengthens the team, whereas smoothing, forcing, and withdrawing leave the conflict to recur."
       }
-    ],
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - People"
     ],
     "tags": [
       "team development",

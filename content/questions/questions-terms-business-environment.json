@@ -32,10 +32,6 @@
       }
     ],
     "explanation": "NPV rule: positive is good, higher is better. A negative NPV destroys value and should be rejected.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "npv",
@@ -76,10 +72,6 @@
       }
     ],
     "explanation": "Rules of thumb: IRR higher is better, BCR higher is better (and above 1 to be worthwhile), payback shorter is better.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "irr",
@@ -121,10 +113,6 @@
       }
     ],
     "explanation": "BCR above 1 equals benefits beat costs (favorable); below 1 equals costs beat benefits (unfavorable); 1.0 equals break-even.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "bcr",
@@ -165,10 +153,6 @@
       }
     ],
     "explanation": "PV equals today's worth of future money; NPV equals the sum of discounted benefits minus discounted costs - the net result.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "calculation",
       "present-value",
@@ -210,10 +194,6 @@
       }
     ],
     "explanation": "Discount rate equals the conversion factor for future-to-present value; interest rate equals the price of money borrowed or lent.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Process"
-    ],
     "tags": [
       "scenario",
       "discount-rate",
@@ -255,10 +235,6 @@
       }
     ],
     "explanation": "Selecting and balancing a group of components to align investment with strategy is the defining job of portfolio management; relatedness is not required.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "portfolio",
@@ -301,10 +277,6 @@
       }
     ],
     "explanation": "Program equals coordinated benefits from related components; portfolio equals strategic selection and balancing of components that need not be related.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "program",
@@ -346,10 +318,6 @@
       }
     ],
     "explanation": "Business case answers why invest; benefits management plan answers how and when promised value is delivered and measured.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "benefits management plan",
@@ -395,10 +363,6 @@
       }
     ],
     "explanation": "EEFs are conditions not under the team's control such as regulations, market, and culture; OPAs are internal assets like templates and lessons learned that the organization owns and reuses.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "enterprise environmental factors",
@@ -439,10 +403,6 @@
       }
     ],
     "explanation": "Internal, reusable items such as templates and lessons learned are organizational process assets; external conditions are enterprise environmental factors.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "organizational process assets",
@@ -484,10 +444,6 @@
       }
     ],
     "explanation": "Supportive, controlling, and directive PMOs sit on an increasing scale of control; directive is the high-control type that manages the projects directly.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "pmo",
@@ -529,10 +485,6 @@
       }
     ],
     "explanation": "The PMO scale runs supportive (low control, advisory) to controlling (compliance required) to directive (direct management).",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "pmo",
@@ -574,10 +526,6 @@
       }
     ],
     "explanation": "An enterprise PMO is the strategic, organization-wide office that aligns the portfolio to strategy, distinct from the control-based supportive, controlling, and directive project PMO types.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "epmo",
@@ -619,10 +567,6 @@
       }
     ],
     "explanation": "Governing body equals formal oversight and decision authority; project team equals execution and day-to-day delivery.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "governing body",
@@ -664,10 +608,6 @@
       }
     ],
     "explanation": "Feasibility study answers can it be done; business case answers why it should be done. They are easily confused inputs to selection.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "feasibility study",
@@ -713,10 +653,6 @@
       }
     ],
     "explanation": "The control-based PMO types are supportive, controlling, and directive; enterprise is a scope-based concept and functional is an organizational structure.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "pmo",
@@ -758,10 +694,6 @@
       }
     ],
     "explanation": "Total cost of ownership evaluates the full direct and indirect costs over an asset's life, including operation, support, and disposal, giving a truer comparison than purchase price alone.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "procurement",
@@ -804,10 +736,6 @@
       }
     ],
     "explanation": "A legal requirement is externally and formally enforceable through law or regulation. Policies, procedures, and guidelines are internal instruments that may support compliance but do not carry the force of law.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "compliance",
@@ -850,10 +778,6 @@
       }
     ],
     "explanation": "A collective bargaining agreement is a binding negotiated contract governing unionized employment terms. It acts as an enterprise environmental factor that constrains how project resources can be assigned and scheduled.",
-    "references": [
-      "PMBOK Guide Eighth Edition",
-      "PMP Examination Content Outline 2026 - Business Environment"
-    ],
     "tags": [
       "scenario",
       "business-environment",

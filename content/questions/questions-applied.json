@@ -193,29 +193,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "What is the stakeholder engagement assessment matrix used for?"
+      "A stakeholder register lists several people as neutral today, while the team needs them to become supportive before rollout. Which tool helps show that gap?"
     ],
     "correct": [
       {
-        "text": "To compare current and desired engagement levels",
-        "why": "It maps each stakeholder's current level against the desired level to reveal gaps needing action."
+        "text": "A matrix comparing actual and target engagement",
+        "why": "It shows where each stakeholder is now versus where the project needs their engagement to be, so response actions can be planned."
       }
     ],
     "distractors": [
       {
-        "text": "To calculate stakeholder priority and influence ranking",
-        "trap": "Prioritization uses tools like the power/interest grid or salience model."
+        "text": "A chart scoring authority and level of interest",
+        "trap": "Prioritization is handled with tools such as a power/interest grid or salience model."
       },
       {
-        "text": "To assign stakeholder roles and responsibilities",
-        "trap": "Roles are assigned via the stakeholder register or a RACI chart."
+        "text": "A table assigning accountability for project activities",
+        "trap": "Responsibility assignment belongs in tools such as a RACI chart, not the engagement assessment matrix."
       },
       {
-        "text": "To measure overall stakeholder satisfaction levels",
-        "trap": "Satisfaction is gathered via surveys or interviews, not this matrix."
+        "text": "A survey summarizing stakeholder satisfaction ratings",
+        "trap": "Satisfaction data may come from surveys or interviews, but that is not the purpose of this matrix."
       }
     ],
-    "explanation": "The matrix contrasts current versus desired engagement levels so the team can plan gap-closing strategies.",
+    "explanation": "A stakeholder engagement assessment matrix is used to compare the current engagement state with the desired state. The value is in identifying gaps so the team can decide how to move specific stakeholders toward the needed level of support or involvement.",
     "subDomain": "Engage Stakeholders",
     "tags": [
       "definition"
@@ -933,29 +933,29 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "What is a sprint review, and who should attend?"
+      "At the end of an iteration, the Scrum team invites business users and sponsors to inspect the finished increment. What is this event intended to accomplish?"
     ],
     "correct": [
       {
-        "text": "A ceremony where the team demos completed work to stakeholders and gathers feedback.",
-        "why": "It is an inspect-and-adapt event attended by the team, PO, Scrum Master, and stakeholders that shapes future backlog priorities."
+        "text": "Show completed work and collect stakeholder input",
+        "why": "The sprint review is an inspect-and-adapt event involving the Scrum team, product owner, Scrum Master, and stakeholders, and it can influence future backlog ordering."
       }
     ],
     "distractors": [
       {
-        "text": "A session where the PM evaluates individual team members' performance.",
-        "trap": "Individual performance appraisal is an HR activity, not a Scrum event."
+        "text": "Rate each team member's individual performance",
+        "trap": "Individual performance evaluation is an HR or management activity, not the purpose of a Scrum event."
       },
       {
-        "text": "An internal technical meeting attended only by developers to review code.",
-        "trap": "Sprint reviews are outward-facing; excluding stakeholders defeats their purpose."
+        "text": "Hold a developer-only inspection of source code",
+        "trap": "The sprint review includes stakeholders and focuses on the product increment, not only internal technical review."
       },
       {
-        "text": "A financial review of project budget and costs held with finance stakeholders.",
-        "trap": "Budget analysis belongs to cost management, not the sprint review's product focus."
+        "text": "Reconcile project spending with the finance group",
+        "trap": "Cost analysis is part of project financial management, not the product-focused sprint review."
       }
     ],
-    "explanation": "The sprint review demonstrates the increment to stakeholders and collects feedback that informs future sprints; it is not a status report or appraisal.",
+    "explanation": "A sprint review is used to inspect the product increment with stakeholders and adapt the backlog based on what is learned. It is not a status meeting, a personnel review, or a finance checkpoint.",
     "subDomain": "Engage Stakeholders",
     "tags": [
       "definition"

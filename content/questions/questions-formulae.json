@@ -40,11 +40,6 @@
       }
     ],
     "explanation": "This question tests the basic earned value variance formulas. Cost variance measures cost performance and equals earned value minus actual cost. Schedule variance measures schedule performance and equals earned value minus planned value. Negative results indicate the project is over budget and behind schedule respectively.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Measurement Performance Domain, sections on work performance measures and forecasting",
-      "The Standard for Project Management, section on Measurement Performance Domain",
-      "Practice Standard for Earned Value Management, sections on basic EVM metrics and variance analysis"
-    ],
     "tags": [
       "calculation",
       "formulae",
@@ -92,11 +87,6 @@
       }
     ],
     "explanation": "The key to EAC questions is selecting the correct forecasting assumption before calculating. Here the question states that present cost efficiency will continue, so the appropriate formula is EAC = BAC divided by CPI. Many distractors come from using a different EAC formula or confusing the direction of the CPI calculation.",
-    "references": [
-      "PMBOK Guide Sixth Edition, section 7.4 Control Costs, earned value analysis and forecasting formulas",
-      "Practice Standard for Earned Value Management, sections on estimate at completion forecasting methods",
-      "The Standard for Project Management, Measurement Performance Domain, forecasting and trend assessment"
-    ],
     "tags": [
       "calculation",
       "formulae",
@@ -144,11 +134,6 @@
       }
     ],
     "explanation": "Formula selection questions test whether you recognize what each metric is measuring rather than just performing arithmetic. ETC focuses on the forecasted remaining cost from now forward, so it starts from EAC and subtracts actual cost already spent. VAC compares the original total budget to the revised completion forecast. TCPI compares remaining work to remaining funds and is especially easy to confuse with CPI.",
-    "references": [
-      "PMBOK Guide Sixth Edition, section 7.4 Control Costs, table and discussion of EVM formulas",
-      "Practice Standard for Earned Value Management, sections on forecasting and to-complete performance index",
-      "The Standard for Project Management, Measurement Performance Domain, performance measurement and forecasting"
-    ],
     "tags": [
       "calculation",
       "formulae",
@@ -196,11 +181,6 @@
       }
     ],
     "explanation": "PERT uses a weighted average that gives the most likely estimate four times the influence of the optimistic and pessimistic values. The standard deviation is based on the spread between pessimistic and optimistic estimates divided by 6. Common mistakes include using a plain average, using only the most likely estimate, or forgetting the division in the standard deviation formula.",
-    "references": [
-      "PMBOK Guide Sixth Edition, section 6.4 Estimate Activity Durations, three-point estimating",
-      "PMBOK Guide Seventh Edition, Planning Performance Domain, estimating discussion",
-      "The Standard for Project Management, sections addressing estimation and uncertainty in planning"
-    ],
     "tags": [
       "calculation",
       "formulae",
@@ -248,11 +228,6 @@
       }
     ],
     "explanation": "Communication complexity rises quickly as stakeholder count increases because each new person can connect with all existing participants. The formula n times n minus 1 divided by 2 counts unique two-way channels. The most common mistake is forgetting to divide by 2, which counts A to B and B to A as separate channels.",
-    "references": [
-      "PMBOK Guide Sixth Edition, section 10.1 Plan Communications Management, communication channels",
-      "PMBOK Guide Seventh Edition, Stakeholders Performance Domain, communication complexity considerations",
-      "The Standard for Project Management, stakeholder and communication considerations across performance domains"
-    ],
     "tags": [
       "calculation",
       "formulae",

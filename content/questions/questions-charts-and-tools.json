@@ -44,11 +44,6 @@
       }
     ],
     "explanation": "The key need is a time-scaled display of planned work across a calendar so stakeholders can quickly see when activities start, finish, and run in parallel. A Gantt or bar chart is designed for that purpose. Other charts may support reporting, logic analysis, staffing, or agile tracking, but they do not communicate full scheduled activity durations as clearly.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, bar charts section",
-      "Practice Standard for Scheduling, schedule presentation formats section",
-      "PMBOK Guide Sixth Edition, Project Schedule Management, schedule data and schedule presentation discussion"
-    ],
     "tags": [
       "scenario",
       "charts",
@@ -96,11 +91,6 @@
       }
     ],
     "explanation": "When leadership wants only major checkpoints, the milestone chart is the most suitable visual because it strips away detailed activities and emphasizes significant planned or achieved events. A Gantt chart is richer but less concise, while network, cost, or agile flow visuals do not match the reporting objective.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, milestone charts section",
-      "Practice Standard for Scheduling, milestone schedule and summary schedule presentation section",
-      "PMBOK Guide Sixth Edition, Project Schedule Management, milestone list and schedule reporting discussion"
-    ],
     "tags": [
       "scenario",
       "charts",
@@ -152,11 +142,6 @@
       }
     ],
     "explanation": "The task calls for monitoring cumulative planned and actual cost over time. That is exactly the kind of trend an S-curve is meant to show. Other visuals may support scheduling, staffing, or agile delivery tracking, but they do not present cumulative cost accumulation against a baseline as effectively.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Project Cost Management, earned value analysis and performance review discussion",
-      "Practice Standard for Earned Value Management, performance measurement baseline and cumulative performance graph discussion",
-      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, trend charts and forecasting related artifacts"
-    ],
     "tags": [
       "scenario",
       "charts",
@@ -208,11 +193,6 @@
       }
     ],
     "explanation": "The need here is not simple schedule display but logical analysis of activity sequencing. A project network or precedence diagram is the most appropriate tool because it explicitly shows dependencies and supports critical path and float analysis. Timeline and reporting visuals may complement the schedule later, but they are not the primary tool for this task.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Project Schedule Management, sequence activities and precedence diagramming method",
-      "Practice Standard for Scheduling, network diagrams and critical path method sections",
-      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, network diagrams section"
-    ],
     "tags": [
       "scenario",
       "charts",
@@ -264,11 +244,6 @@
       }
     ],
     "explanation": "The defining clue is remaining work during a sprint. A burndown chart directly supports that purpose by plotting work left against time and helping the team inspect pace toward sprint completion. Burnup and cumulative flow diagrams are also agile visuals, but they answer different questions.",
-    "references": [
-      "Agile Practice Guide, agile metrics and information radiators discussion",
-      "PMBOK Guide Seventh Edition, Models Methods and Artifacts, burndown chart section",
-      "Disciplined Agile and agile delivery guidance on visual management metrics"
-    ],
     "tags": [
       "scenario",
       "charts",
@@ -316,11 +291,6 @@
       }
     ],
     "explanation": "The task asks for a matrix that defines who does the work, who approves it, and who must be consulted or informed. That is exactly the purpose of a RACI matrix, also called a responsibility assignment matrix. The other matrices serve different needs: risk prioritization, requirement traceability, stakeholder analysis, or alternative selection. Because the problem is role ambiguity around deliverables, the responsibility assignment matrix is the most appropriate tool.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Resource Management, Responsibility Assignment Matrix section",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Responsibility Assignment Matrix",
-      "Process Groups A Practice Guide, Develop Team and Manage Team discussion of roles and responsibilities artifacts"
-    ],
     "tags": [
       "scenario",
       "matrices",
@@ -368,11 +338,6 @@
       }
     ],
     "explanation": "The scenario is explicitly about sorting risks by how likely they are and how much damage or benefit they could create. PMI describes the probability-and-impact matrix as the standard qualitative tool for this purpose. It helps the team interpret which risks need immediate attention. The other matrices may support ownership, traceability, stakeholder analysis, or general decision making, but none is as directly aligned to qualitative risk prioritization.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Risk Management, Perform Qualitative Risk Analysis, Probability and Impact Matrix",
-      "The Standard for Risk Management in Portfolios Programs and Projects, risk assessment and prioritization sections",
-      "Process Groups A Practice Guide, Project Risk Management domain guidance on qualitative analysis artifacts"
-    ],
     "tags": [
       "scenario",
       "matrices",
@@ -420,11 +385,6 @@
       }
     ],
     "explanation": "The requirement in this scenario is not to assign people or assess risks but to maintain visibility from approved requirements to design, build, test, and acceptance. The requirements traceability matrix is built for that exact purpose. It helps prevent missing work, scope gaps, and unverified requirements by preserving trace links across the project life cycle. The other matrices may be useful elsewhere, but they do not provide requirement lineage.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Scope Management, Collect Requirements, Requirements Traceability Matrix",
-      "Business Analysis for Practitioners A Practice Guide, requirements life cycle and traceability sections",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Traceability artifacts for requirements and deliverables"
-    ],
     "tags": [
       "scenario",
       "matrices",
@@ -472,11 +432,6 @@
       }
     ],
     "explanation": "The question is really about interpreting a stakeholder power-interest grid, not just naming it. PMI uses stakeholder mapping tools to understand who has authority and how engaged they are, then align communication and involvement accordingly. A stakeholder with high power but lower current interest is generally kept satisfied so the project maintains support without overloading that person with detail. The other choices confuse engagement analysis with role assignment, risk ranking, requirement tracing, or weighted decision making.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Project Stakeholder Management, Identify Stakeholders, Power Interest Grid",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Stakeholders performance domain and stakeholder analysis artifacts",
-      "Process Groups A Practice Guide, stakeholder identification and stakeholder engagement planning sections"
-    ],
     "tags": [
       "scenario",
       "matrices",
@@ -524,11 +479,6 @@
       }
     ],
     "explanation": "When a team needs to compare alternatives across several criteria, the appropriate tool is a prioritization or decision matrix. It creates transparency in how options are evaluated and helps reduce bias by using agreed criteria and relative weighting. The other matrices answer different questions: role assignment, risk exposure, requirement linkage, or stakeholder engagement. None of those directly provides a structured multi-criteria selection method.",
-    "references": [
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Seventh Edition, Models, Methods, and Artifacts, Decision Matrix",
-      "A Guide to the Project Management Body of Knowledge PMBOK Guide Sixth Edition, Data Analysis tools including alternatives analysis and prioritization techniques",
-      "Business Analysis for Practitioners A Practice Guide, decision analysis and option evaluation sections"
-    ],
     "tags": [
       "scenario",
       "matrices",
@@ -580,10 +530,6 @@
       }
     ],
     "explanation": "The key clue is the need to identify the few categories causing most of the problems. That is the classic use of a Pareto chart, which helps focus attention on the highest-value improvement targets. Other quality tools may support later analysis, but they do not provide the same category-by-category prioritization for decision making.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including Pareto charts",
-      "The PMI Guide to Business Analysis, Figure 4-6 Pareto Diagram Sample Format"
-    ],
     "tags": [
       "scenario",
       "quality-tools",
@@ -635,10 +581,6 @@
       }
     ],
     "explanation": "This question tests recognition of the diagram's structure and intent rather than simple terminology. A fishbone diagram is the same family of tool as an Ishikawa or cause-and-effect diagram, but here the best cue is the visual arrangement of head, bones, categories, and subcauses. Its primary value is to organize possible causes clearly so the team can investigate systematically.",
-    "references": [
-      "The PMI Guide to Business Analysis, p. 70, fishbone diagram as a visual tool with the problem at the head and causes and subcauses on the bones",
-      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, data representation tools including cause-and-effect diagrams"
-    ],
     "tags": [
       "scenario",
       "quality-tools",
@@ -690,10 +632,6 @@
       }
     ],
     "explanation": "The task described is not just analyzing a defect or displaying data. It is about repeatedly improving a process by planning a change, trying it, evaluating the results, and taking action based on evidence. That pattern aligns directly with Deming's PDCA cycle. Several other quality tools may be used within the cycle, but they do not replace the cycle itself.",
-    "references": [
-      "PMI quality management knowledgebase content describing PDCA as a continuous improvement and process refinement cycle",
-      "PMBOK Guide Sixth Edition, Section 8 Project Quality Management, continuous improvement context within quality management"
-    ],
     "tags": [
       "scenario",
       "quality-tools",
@@ -745,10 +683,6 @@
       }
     ],
     "explanation": "This question is about the task, not just the label. Once the team already knows which problem matters most, the next step is root-cause analysis. A cause-and-effect diagram is the best fit because it structures possible causes under a defined problem. The deliberate presence of fishbone as a distractor tests whether the learner understands that the terms overlap, while still focusing on selecting the tool for the root-cause purpose.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 8.3 Control Quality, cause-and-effect diagrams and root cause analysis",
-      "The PMI Guide to Business Analysis, p. 70, fishbone diagram described as a good starting point for root-cause analysis"
-    ],
     "tags": [
       "scenario",
       "quality-tools",

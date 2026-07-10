@@ -40,11 +40,6 @@
       }
     ],
     "explanation": "WBS means Work Breakdown Structure and is used to break project scope into manageable components based on deliverables. A common confusion is to treat it as a schedule, workflow map, or backlog tool, but PMI defines it as a scope structuring mechanism that supports estimating, assigning work, and controlling scope.",
-    "references": [
-      "PMBOK Guide Seventh Edition, Project Work Performance Domain, decomposition and deliverable-based planning discussion",
-      "PMBOK Guide Sixth Edition, Section 5.4 Create WBS",
-      "Practice Standard for Work Breakdown Structures, Third Edition, Sections 1 through 3"
-    ],
     "tags": [
       "definition",
       "acronyms",
@@ -92,11 +87,6 @@
       }
     ],
     "explanation": "RACI is a common form of responsibility assignment matrix. Its purpose is to reduce ambiguity about ownership, decision authority, consultation, and communication. The most frequent misconception is treating RACI as a process flow or approval sequence instead of a role-clarification tool that supports stakeholder engagement and team coordination.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 9.1 Plan Resource Management, responsibility assignment matrix",
-      "PMBOK Guide Seventh Edition, Team Performance Domain, role clarity and accountability concepts",
-      "PMP Examination Content Outline, People domain, team roles and stakeholder engagement responsibilities"
-    ],
     "tags": [
       "scenario",
       "acronyms",
@@ -144,11 +134,6 @@
       }
     ],
     "explanation": "EVM stands for Earned Value Management and is used to measure project performance by integrating scope, schedule, and cost. It supports variance analysis and forecasting such as estimate at completion. Learners often confuse it with estimation, valuation, or agile throughput metrics, but PMI treats it as a formal project performance measurement method.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 7.4 Control Costs, earned value analysis",
-      "PMBOK Guide Sixth Edition, Section 6.6 Control Schedule, schedule performance measurements",
-      "PMBOK Guide Seventh Edition, Measurement Performance Domain, performance metrics and forecasting concepts"
-    ],
     "tags": [
       "scenario",
       "acronyms",
@@ -200,11 +185,6 @@
       }
     ],
     "explanation": "SOW and RFP are both procurement-related artifacts, but they serve different purposes. A SOW defines the work, deliverables, or service expectations, while an RFP solicits proposed seller solutions. The common traps are to confuse estimating artifacts, governance groups, or monitoring tools with procurement documentation.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 12.1 Plan Procurement Management, procurement statement of work",
-      "PMBOK Guide Sixth Edition, Section 12.2 Conduct Procurements, bid documents including requests for proposal",
-      "PMBOK Guide Seventh Edition, Delivery Performance Domain, procurement and external partnership considerations"
-    ],
     "tags": [
       "scenario",
       "acronyms",
@@ -252,11 +232,6 @@
       }
     ],
     "explanation": "CCB stands for Change Control Board. Its function is governance over change requests, especially in integrated change control. The key confusion is with baselines, budgets, or customer review groups. PMI distinguishes the CCB as a decision-making body, not a document, reserve, or general coordination forum.",
-    "references": [
-      "PMBOK Guide Sixth Edition, Section 4.6 Perform Integrated Change Control",
-      "PMBOK Guide Sixth Edition, Glossary, Change Control Board",
-      "PMBOK Guide Seventh Edition, Uncertainty and Measurement performance discussions related to change governance"
-    ],
     "tags": [
       "definition",
       "acronyms",
