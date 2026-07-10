@@ -11973,8 +11973,7 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "What document formally authorizes the existence of a project?",
-      "Which project document officially authorizes a project to begin?"
+      "An organization is launching a new initiative and needs a document that formally authorizes the project to exist and empowers the assigned manager to draw on organizational resources. Which document does this?"
     ],
     "correct": [
       {
@@ -12000,7 +11999,7 @@
         "trap": "This confuses benefits tracking with the document that officially creates the project."
       }
     ],
-    "explanation": "The project charter is created during initiation and formally establishes the project. It also authorizes the project manager to use organizational resources for project activities. Planning documents such as the project management plan and its components are developed after authorization.",
+    "explanation": "Produced during initiation, this document formally establishes the project and gives the project manager authority to apply organizational resources.",
     "tags": [
       "scenario",
       "project-charter-authorization"
@@ -12019,8 +12018,7 @@
     "select": 1,
     "present": 4,
     "prompts": [
-      "What document is used to initiate a project and grant authority to the project manager?",
-      "Which document starts the project formally and authorizes the project manager to act?"
+      "At the start of a project, the sponsor issues a single document that both brings the project into being and gives the project manager authority to commit organizational resources. What is this document?"
     ],
     "correct": [
       {
@@ -12046,7 +12044,7 @@
         "trap": "This assumes project scope definition is the same as project authorization."
       }
     ],
-    "explanation": "The project charter is the formal starting document for a project. It both authorizes the project and empowers the project manager to move forward using organizational resources. Other planning artifacts are developed after the charter is approved.",
+    "explanation": "The sponsor issues this document during initiation; it authorizes the project and empowers the project manager to use resources.",
     "tags": [
       "scenario",
       "project-initiation-artifact"

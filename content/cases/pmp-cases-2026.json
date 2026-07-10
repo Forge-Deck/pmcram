@@ -1456,11 +1456,11 @@
   {
     "schema": "case/v1",
     "id": "factory-sensor-rollout-at-risk",
-    "title": "Factory Sensor Rollout at Risk",
+    "title": "Remote Monitoring Rollout at Risk",
     "domain": "Business Environment",
     "topic": "Business case erosion mid-project",
     "difficulty": "medium",
-    "scenario": "A manufacturing company is deploying IoT sensors across three plants to reduce downtime and improve maintenance planning. Midway through execution, inflation and supplier constraints increase hardware costs, while early pilot data shows benefits are lower than forecast in the original business case. The sponsor asks the project manager to recommend whether the project should pivot, descope, or stop. Several plant leaders still support the effort, but finance is questioning whether the expected value justifies continued investment.",
+    "scenario": "A regional healthcare network is rolling out a remote patient-monitoring platform across three clinics to cut avoidable readmissions and improve care coordination. Midway through execution, inflation and supplier constraints push device costs higher, while early pilot data shows the benefits are tracking below the original business case. The sponsor asks the project manager to recommend whether to pivot, descope, or stop. Several clinic directors still back the effort, but finance is questioning whether the expected value justifies continued investment.",
     "steps": [
       {
         "prompt": "What should the project manager do first after learning that the business case may no longer be valid?",
@@ -1494,19 +1494,19 @@
         "explanation": "When the business case erodes, the first step is to validate the change in expected value and compare response options. The project manager should work with the sponsor and stakeholders, then use formal change control rather than reacting informally."
       },
       {
-        "prompt": "The assessment shows plant 1 will still deliver acceptable value, but plants 2 and 3 will not unless the solution is redesigned. What is the best next action?",
+        "prompt": "The assessment shows clinic 1 will still deliver acceptable value, but clinics 2 and 3 will not unless the solution is redesigned. What is the best next action?",
         "type": "single",
         "select": 1,
         "present": 4,
         "correct": [
           {
-            "text": "Submit a change request to descope deployment to plant 1 and evaluate a pivot for the remaining plants through the change control board",
+            "text": "Submit a change request to descope deployment to clinic 1 and evaluate a pivot for the remaining clinics through the change control board",
             "why": "This preserves value where justified and routes the pivot decision through the approved governance process."
           }
         ],
         "distractors": [
           {
-            "text": "Continue deploying to all plants because partial delivery could disappoint stakeholders",
+            "text": "Continue deploying to all clinics because partial delivery could disappoint stakeholders",
             "trap": "This prioritizes perception over business value."
           },
           {
@@ -1514,7 +1514,7 @@
             "trap": "This ignores the fact that part of the project still supports the business case."
           },
           {
-            "text": "Let each plant manager decide whether to continue independently",
+            "text": "Let each clinic manager decide whether to continue independently",
             "trap": "This bypasses project governance and creates uncontrolled scope decisions."
           },
           {
@@ -1525,7 +1525,7 @@
         "explanation": "A selective response is appropriate when value differs by scope segment. The project manager should formalize the descoping and potential pivot through a change request and CCB review."
       },
       {
-        "prompt": "The CCB approves descoping to plant 1 and asks for a recommendation on whether to redesign for plants 2 and 3. Which two actions should the project manager take next?",
+        "prompt": "The CCB approves descoping to clinic 1 and asks for a recommendation on whether to redesign for clinics 2 and 3. Which two actions should the project manager take next?",
         "type": "multi",
         "select": 2,
         "present": 5,
@@ -1560,19 +1560,19 @@
         "explanation": "After partial approval, the project manager must align the current project with that decision and evaluate the remaining option rigorously. Risk-informed analysis supports a recommendation to pivot or stop the rest of the work."
       },
       {
-        "prompt": "The redesign analysis shows high technical uncertainty and weak projected returns for plants 2 and 3. What recommendation is most consistent with PMI guidance?",
+        "prompt": "The redesign analysis shows high technical uncertainty and weak projected returns for clinics 2 and 3. What recommendation is most consistent with PMI guidance?",
         "type": "single",
         "select": 1,
         "present": 4,
         "correct": [
           {
-            "text": "Recommend closing the remaining work for plants 2 and 3 and transition the approved plant 1 deployment into operations",
+            "text": "Recommend closing the remaining work for clinics 2 and 3 and transition the approved clinic 1 deployment into operations",
             "why": "When the updated business case does not justify continued investment, stopping the nonviable work is the appropriate governance decision."
           }
         ],
         "distractors": [
           {
-            "text": "Keep a small team working on plants 2 and 3 informally until market conditions improve",
+            "text": "Keep a small team working on clinics 2 and 3 informally until market conditions improve",
             "trap": "This continues investment without a justified business case or approved plan."
           },
           {
@@ -1580,11 +1580,11 @@
             "trap": "This reflects the sunk cost fallacy rather than value-based decision making."
           },
           {
-            "text": "Transfer ownership of plants 2 and 3 to operations so the project can report success",
+            "text": "Transfer ownership of clinics 2 and 3 to operations so the project can report success",
             "trap": "This obscures the lack of project viability instead of addressing it."
           },
           {
-            "text": "Ask plant leaders to fund the remaining scope outside change control",
+            "text": "Ask clinic leaders to fund the remaining scope outside change control",
             "trap": "This bypasses formal governance and integrated decision making."
           }
         ],
