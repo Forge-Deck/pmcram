@@ -394,6 +394,246 @@
             "text": "When you blank, expand the acronym first - the words usually point to the answer."
           }
         ]
+      },
+      {
+        "heading": "User stories as agile requirements",
+        "body": "In adaptive work, requirements are often captured as user stories: short statements of who needs something, what they need, and why it matters. The story is not the full requirement package; it is a placeholder for collaboration, clarification, and later confirmation.\n\nFor the PMP exam, connect user stories to value delivery. A good story keeps attention on the user outcome, supports prioritization, and can be refined into acceptance criteria, estimates, and delivery tasks.",
+        "tip": "A user story should invite discussion. If it reads like a fixed technical specification with no room for conversation, it is probably too rigid for agile use.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "The Three Cs",
+            "items": [
+              {
+                "title": "Card",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A brief written reminder of the need or feature."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keeps the backlog visible without pretending all details are known upfront."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Conversation",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Ongoing discussion among the product owner, team, and stakeholders."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Turns a short story into shared understanding before and during delivery."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Confirmation",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "The evidence that the story meets the intended outcome."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Usually expressed through acceptance criteria and acceptance tests."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "INVEST-ready backlog items",
+        "body": "INVEST is a quality check for user stories and other backlog items. It helps the team spot work that is too dependent, vague, oversized, or hard to validate.\n\nThe exam angle is practical: INVEST improves planning, estimation, prioritization, and stakeholder confidence because the team can understand what value is being delivered and how completion will be judged.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "INVEST",
+            "items": [
+              {
+                "code": "I",
+                "text": "Independent enough to plan and deliver without unnecessary coupling."
+              },
+              {
+                "code": "N",
+                "text": "Negotiable, meaning the detail can evolve through collaboration."
+              },
+              {
+                "code": "V",
+                "text": "Valuable to a customer, user, or business stakeholder."
+              },
+              {
+                "code": "E",
+                "text": "Estimable because enough is known to size the work responsibly."
+              },
+              {
+                "code": "S",
+                "text": "Small enough to complete within a short planning horizon."
+              },
+              {
+                "code": "T",
+                "text": "Testable through clear conditions or observable results."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If a story is valuable but too large, do not discard it. Treat it as an epic or split it into smaller slices that still deliver value.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Epics and splitting stories",
+        "body": "An epic is a large body of work that is not ready for near-term execution as a single backlog item. It may represent a feature area, user journey, or broad capability that must be decomposed before the team can estimate and deliver it reliably.\n\nSplitting should preserve value. The goal is not to create technical fragments that only make sense internally, but to create smaller pieces that can be developed, tested, reviewed, and demonstrated.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "A practical split sequence",
+            "items": [
+              {
+                "title": "Find the user outcome",
+                "lines": [
+                  "Clarify the persona, goal, and business reason behind the epic."
+                ]
+              },
+              {
+                "title": "Slice by path or rule",
+                "lines": [
+                  "Break work by workflow step, business rule, data variation, channel, or risk area."
+                ]
+              },
+              {
+                "title": "Keep each slice testable",
+                "lines": [
+                  "Each resulting story should have acceptance criteria and a visible result."
+                ]
+              },
+              {
+                "title": "Sequence by value and risk",
+                "lines": [
+                  "Prioritize slices that validate assumptions, unlock dependencies, or deliver high stakeholder value."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Backlog refinement and prioritization",
+        "body": "The product backlog is a living, ordered list of potential work. Refinement keeps it usable by adding detail, removing stale items, improving estimates, clarifying dependencies, and reordering items as value, risk, and stakeholder needs change.\n\nIn PMBOK terms, refinement supports progressive elaboration and continuous value delivery. The product owner usually owns backlog ordering, but the team contributes technical insight, estimates, risks, and implementation constraints.",
+        "tip": "Backlog refinement prepares options for planning; it is not the same event as sprint or iteration planning.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Common refinement decisions",
+            "rows": [
+              {
+                "key": "Add detail",
+                "value": "Clarify the user need, assumptions, acceptance criteria, or business rule."
+              },
+              {
+                "key": "Estimate",
+                "value": "Use relative sizing such as story points when time-based precision would be misleading."
+              },
+              {
+                "key": "Reorder",
+                "value": "Move items based on value, urgency, risk reduction, dependencies, or feedback."
+              },
+              {
+                "key": "Remove or defer",
+                "value": "Drop items that no longer support the product goal or current business case."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Personas, scenarios, and story maps",
+        "body": "Personas and scenarios make requirements less abstract. A persona represents a meaningful user type, while a scenario describes how that user tries to accomplish a goal in context. Together, they help the team see whether requirements support real behavior rather than internal assumptions.\n\nStory mapping then arranges work around the user's journey. The top level shows the major activities or flow, while lower rows break those activities into stories that can be prioritized into releases or increments.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "User-centered analysis tools",
+            "items": [
+              {
+                "title": "Persona",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A representative user profile with needs, goals, constraints, and behaviors."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Guides feature choices and reduces the risk of designing for an average user who does not exist."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Scenario",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A narrative of how a persona performs a task under specific conditions."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Surfaces preconditions, exceptions, decisions, and desired results."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Story map",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A visual model of user activities, stories, gaps, and release slices."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Helps sequence work around usable increments instead of isolated tasks."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "tags": [

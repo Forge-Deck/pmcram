@@ -300,6 +300,403 @@
             "text": "Agile -> servant leadership. Leadership is a behaviour, not just a title, and the best style depends on team maturity and context."
           }
         ]
+      },
+      {
+        "heading": "Psychological safety",
+        "body": "Psychological safety is a shared belief that the team is safe for interpersonal risk-taking. People can raise concerns, admit mistakes, ask questions, and propose imperfect ideas without fear of blame or ridicule.\n\nWithout safety, problems stay hidden, learning slows, and conflict goes underground. With it, teams surface issues early, experiment, and improve. Safety is not the absence of standards; it is the presence of respect while holding high expectations for the work.\n\nLeaders build safety by modeling curiosity, separating people from problems, protecting confidentiality when appropriate, and discouraging personal attacks. They also close the loop: when someone speaks up, acknowledge it and show what changed.",
+        "tip": "On the exam, if fear of speaking up is the root issue, fix the environment before adding process. Safety enables honest status, risk reporting, and healthy conflict.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "What safety enables",
+            "items": [
+              {
+                "title": "Open ideas",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "People share half-formed thoughts and dissenting views."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Better options surface earlier; groupthink drops."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Honest risk and status",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Bad news and uncertainty are reported promptly."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "You can respond while options remain open."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Learning from failure",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Mistakes are treated as data, not as character flaws."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Retrospectives and continuous improvement become real, not performative."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Safety supports empowerment. A self-organizing team cannot thrive if members are punished for visible learning or dissent.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Active listening and collaborative conversations",
+        "body": "Active listening means giving full attention, seeking to understand before you respond, and reflecting back meaning so the speaker feels heard. It is not waiting for your turn to talk. In conflict and coaching, it lowers heat and surfaces real interests behind positions.\n\nCollaborative conversations are open, multi-directional exchanges grounded in mutual respect. Everyone can contribute; ideas are challenged without attacking people. The leader's job is to invite quieter voices, keep discussion on the problem, and prevent dominance by a few speakers.\n\nAssertive communication complements both skills: state needs, facts, and boundaries clearly without dismissing others. Focus on the issue and impact, not on blame.",
+        "tip": "If a scenario shows misunderstanding or escalating emotion, choose listening and clarifying before deciding or directing. Heard people de-escalate faster.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Active listening in practice",
+            "items": [
+              {
+                "title": "Focus and hold judgment",
+                "lines": [
+                  "Give undivided attention; notice content and emotion.",
+                  "Avoid interrupting with solutions or defenses."
+                ]
+              },
+              {
+                "title": "Reflect and check",
+                "lines": [
+                  "Paraphrase: What I am hearing is... Is that right?",
+                  "Name feelings carefully when they matter to the issue."
+                ]
+              },
+              {
+                "title": "Respond with intent",
+                "lines": [
+                  "Ask clarifying questions; confirm interests and constraints.",
+                  "Then move to options, decisions, or next steps."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Conversation habits that help or hurt",
+            "rows": [
+              {
+                "key": "Helpful",
+                "value": "Invite all voices, use I statements, separate people from problems, seek common ground."
+              },
+              {
+                "key": "Harmful",
+                "value": "Talk over others, personalize criticism, debate to win status, or punish candor."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Coaching, mentoring, and teaching",
+        "body": "Developing people is a core leadership behavior, not a side activity. Teaching transfers knowledge and skills. Coaching draws out the person's own thinking so they grow judgment and ownership. Mentoring shares experience and perspective over a longer arc of growth.\n\nOn projects, use teaching when a skill gap is clear and time-sensitive. Use coaching when the person can reason through options with support. Use mentoring when career context, political navigation, or long-term capability matters. In adaptive teams, leaders often coach more and dictate less so the team builds self-reliance.\n\nEffective development is goal-linked: identify strengths and gaps, set realistic improvement goals, practice, and follow up with feedback. The aim is capability the team can apply, not training theater.",
+        "tip": "Exam cue: if the issue is growth and performance, coach or mentor. If the issue is missing knowledge for a task, teach. If the issue is blocked work, remove impediments first.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Three development modes",
+            "items": [
+              {
+                "title": "Teach",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Explain concepts, techniques, or standards so others can apply them."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "New tools, process rules, domain facts, or lessons from prior work."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Coach",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Guide reflection, goals, and practice; the coachee owns the solution."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Performance growth, problem-solving skill, and confidence under change."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Mentor",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Offer experience-based guidance and broader career or organizational context."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Longer-term development, navigation of culture, and professional judgment."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Servant leaders develop people so the team can deliver without constant direction. Coaching supports self-organization; micromanaging undermines it.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Empowerment and self-organization",
+        "body": "Empowerment means people have the authority, information, tools, and support to make decisions within clear boundaries. Self-organization is the team's ability to plan work, solve problems, and adjust how they collaborate without waiting for constant instruction.\n\nLeaders set purpose, constraints, and success criteria, then step back from task-level control. They still provide guardrails: vision, priorities, definitions of done, and escalation paths. Autonomy without clarity becomes chaos; control without trust becomes bottleneck.\n\nEmpowered teams show higher ownership, faster local decisions, and better creativity. The leader's leverage shifts to removing impediments, protecting focus, and facilitating agreement when the team is stuck.",
+        "tip": "PMI favors empowering the team. If a question offers take over vs enable the team with clear goals and support, enable is usually correct unless safety or crisis requires directive action.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "How leaders enable self-organization",
+            "items": [
+              {
+                "title": "Clarify outcomes and limits",
+                "lines": [
+                  "Define goals, priorities, quality bars, and decision rights.",
+                  "Make constraints visible: budget, compliance, interfaces, and deadlines."
+                ]
+              },
+              {
+                "title": "Delegate real authority",
+                "lines": [
+                  "Let the team choose how to approach work inside the guardrails.",
+                  "Avoid re-deciding every local choice."
+                ]
+              },
+              {
+                "title": "Support and unblock",
+                "lines": [
+                  "Provide resources, coaching, and protection from thrash.",
+                  "Remove impediments and escalate organizational barriers the team cannot fix alone."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Empowerment vs abdication",
+            "rows": [
+              {
+                "key": "Empowerment",
+                "value": "Clear purpose, shared norms, available support, and accountable ownership."
+              },
+              {
+                "key": "Abdication",
+                "value": "Hands-off without goals, feedback, or help when the team is blocked."
+              },
+              {
+                "key": "Micromanagement",
+                "value": "Constant task control that signals distrust and slows delivery."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Feedback and facilitating performance",
+        "body": "Feedback is timely information about behavior and results that helps people improve. It should be specific, constructive, and balanced: recognize what works, name gaps with evidence, and agree on next actions. In adaptive work, short feedback loops (reviews, demos, retrospectives, one-on-ones) keep learning continuous.\n\nFacilitating performance means making high performance easier: clear goals, the right tools, removed obstacles, and fair accountability. Leaders notice strengths and stretch assignments, and they do not confuse busy activity with outcomes.\n\nEmotional intelligence strengthens both feedback and facilitation. Self-awareness and self-regulation keep your delivery calm. Empathy helps you tailor the message. Social skill helps you read the room and keep relationships intact while raising standards.",
+        "tip": "Prefer timely, private, behavior-based feedback over delayed personality judgments. Public praise can motivate; public shaming rarely improves performance.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Feedback quality checks",
+            "items": [
+              {
+                "code": "Specific",
+                "text": "Cite observable work or behavior, not vague labels."
+              },
+              {
+                "code": "Timely",
+                "text": "Give feedback close to the event while it is still actionable."
+              },
+              {
+                "code": "Actionable",
+                "text": "Pair the observation with a clear improvement or next experiment."
+              },
+              {
+                "code": "Two-way",
+                "text": "Invite the other person's view; feedback is a conversation, not a monologue."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Facilitation moves that raise performance",
+            "items": [
+              {
+                "title": "Clear goals",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Shared definition of success and priorities."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Align effort and make trade-offs explicit."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Remove friction",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Eliminate blockers, unclear handoffs, and needless process."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Protect flow so talent can convert into results."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Accountable follow-through",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Visible commitments, reviews, and fair consequences."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Turn good intentions into sustained delivery."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Conflict process toolkit",
+        "body": "Beyond choosing a conflict mode, project leaders use process tools to understand and resolve disputes. Start with conflict analysis: who is involved, what interests sit under the positions, what triggers raised intensity, and what outcomes each party needs. Then choose an intervention that matches severity and relationship risk.\n\nEarly intervention and de-escalation keep conflict productive. When emotions run high, slow the conversation, restate interests, and re-center on shared goals. Collaborative problem-solving seeks an inclusive solution that addresses root causes, not only a quick split of positions.\n\nWhen parties cannot resolve it alone, a neutral third party may help. Facilitation structures dialogue toward consensus. Mediation guides parties to their own agreement. Negotiation is direct bargaining for a mutually acceptable deal. Arbitration hands the decision to a third party and is more formal, used when other approaches fail or a binding call is required.",
+        "tip": "Default path on the exam: address conflict early, with those involved, aiming for a collaborative solution. Escalate process (mediate, then more formal steps) only when needed. Avoid jumping to force or arbitration as the first move.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Intervention options",
+            "rows": [
+              {
+                "key": "Facilitation",
+                "value": "Neutral guide structures discussion so all voices are heard and the group reaches agreement."
+              },
+              {
+                "key": "Negotiation",
+                "value": "Parties bargain directly to reconcile interests; success depends on communication and trade-offs."
+              },
+              {
+                "key": "Mediation",
+                "value": "Neutral third party helps parties craft their own resolution; the mediator does not impose the answer."
+              },
+              {
+                "key": "Arbitration",
+                "value": "Neutral third party decides the outcome; more formal and often used after other methods fail."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Practical conflict handling sequence",
+            "items": [
+              {
+                "title": "Analyze before you prescribe",
+                "lines": [
+                  "Map stakeholders, interests, facts, and escalation signals.",
+                  "Separate symptoms (anger, silence) from causes (schedule pressure, unclear roles)."
+                ]
+              },
+              {
+                "title": "De-escalate and open dialogue",
+                "lines": [
+                  "Create a safe space; use active listening and assertive issue framing.",
+                  "Keep focus on the problem and desired outcomes."
+                ]
+              },
+              {
+                "title": "Solve or escalate the process",
+                "lines": [
+                  "Seek a collaborative solution the parties own.",
+                  "If stuck, use facilitation or mediation; reserve formal third-party decision for last-resort cases."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Collaborate/problem-solve is the preferred mode; mediation and facilitation are process supports for that outcome. Arbitration is decisive but not automatically win-win.",
+            "tone": "warn"
+          }
+        ]
       }
     ],
     "tags": [

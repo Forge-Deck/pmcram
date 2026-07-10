@@ -305,6 +305,202 @@
             ]
           }
         ]
+      },
+      {
+        "heading": "Estimating with expert input",
+        "body": "Expert judgment is useful when the team lacks complete data, faces novel work, or needs a quick reasonableness check. On the exam, treat it as informed input, not a substitute for evidence.\n\nStrong estimates often combine expert judgment with historical information, assumptions, constraints, and team discussion. The project manager should also watch for optimism bias, anchoring, and pressure from influential stakeholders.",
+        "tip": "If experts disagree, the PM should facilitate clarification and convergence, not simply average opinions or accept the loudest voice.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Using experts well",
+            "items": [
+              {
+                "title": "Select the right voices",
+                "lines": [
+                  "Use people with relevant domain, technical, delivery, or organizational experience.",
+                  "Include the team members who will perform the work when possible."
+                ]
+              },
+              {
+                "title": "Surface assumptions",
+                "lines": [
+                  "Ask what conditions must be true for the estimate to hold.",
+                  "Document major constraints, exclusions, and dependencies."
+                ]
+              },
+              {
+                "title": "Challenge bias",
+                "lines": [
+                  "Compare expert views with actual data from similar work.",
+                  "Use anonymous or iterative techniques when hierarchy may distort estimates."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Consensus techniques for uncertain work",
+        "body": "Consensus-based estimating helps when uncertainty is high and no single person has the full answer. The purpose is not just to produce a number; it is to expose hidden assumptions, risks, and different interpretations of the work.\n\nDelphi-style estimating gathers expert input independently, shares summarized results, and repeats the cycle until the range narrows. Planning poker uses simultaneous team estimates, then discussion and re-estimation when scores differ widely.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Consensus options",
+            "items": [
+              {
+                "title": "Delphi",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Experts estimate independently, often anonymously, across multiple rounds."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Good for complex or sensitive estimates where status or personality could skew input."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Planning poker",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Team members reveal relative estimates at the same time, then discuss differences."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Good for agile teams sizing backlog items and building shared understanding."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Dot voting",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Participants allocate votes to show perceived effort, risk, or complexity."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Best as a quick signal for discussion, not as a precise cost or duration estimate."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Quality costs in estimates",
+        "body": "Cost of quality reminds the project manager that quality work has costs on both sides: preventing defects and dealing with defects. The exam often tests the idea that spending appropriately on prevention and appraisal can reduce more expensive failure costs later.\n\nQuality-related estimates should fit the product risk, stakeholder expectations, regulatory environment, and definition of done. The goal is not zero spending on quality; it is the right balance for value and risk.",
+        "tip": "External failure costs are usually the most damaging because the customer or end user has already been affected.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Cost of quality categories",
+            "rows": [
+              {
+                "key": "Prevention",
+                "value": "Costs to avoid defects, such as training, process improvement, and design reviews."
+              },
+              {
+                "key": "Appraisal",
+                "value": "Costs to inspect or test work, such as audits, reviews, and verification."
+              },
+              {
+                "key": "Internal failure",
+                "value": "Costs to fix defects found before delivery, such as rework and scrap."
+              },
+              {
+                "key": "External failure",
+                "value": "Costs after delivery, such as warranty claims, support, reputation damage, and lost trust."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Market and vendor-based estimates",
+        "body": "When work will be bought from outside the performing organization, the estimate may come partly from the market. Vendor bids, quotes, and proposals can reveal current pricing, capability, assumptions, exclusions, and delivery risk.\n\nThe project manager should compare bids on a common basis. A low bid may exclude needed scope, depend on risky assumptions, or shift costs into change requests.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Do not treat the lowest vendor price as automatically best. The PM should evaluate total cost, scope fit, quality, risk, schedule, and procurement rules.",
+            "tone": "warn"
+          },
+          {
+            "kind": "table",
+            "title": "What to compare",
+            "rows": [
+              {
+                "key": "Scope basis",
+                "value": "Are vendors estimating the same deliverables, acceptance criteria, and exclusions?"
+              },
+              {
+                "key": "Commercial terms",
+                "value": "What payment terms, warranties, escalation clauses, and change rules are included?"
+              },
+              {
+                "key": "Delivery confidence",
+                "value": "Does the vendor have credible capacity, experience, schedule logic, and risk controls?"
+              },
+              {
+                "key": "Hidden costs",
+                "value": "Consider integration, oversight, transition, licensing, support, and internal effort."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Flow-based forecasting",
+        "body": "Agile and lean teams may estimate delivery by observing actual flow instead of forecasting every item in detail. Measures such as throughput, lead time, cycle time, work in progress, and cumulative flow help the team predict outcomes from real performance.\n\nA cumulative flow diagram can show whether work is moving smoothly. Expanding bands may indicate a bottleneck, too much work in progress, or blocked handoffs.",
+        "tip": "For adaptive work, the exam may favor empirical forecasting from completed work over detailed early prediction when the backlog is volatile.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Flow terms",
+            "items": [
+              {
+                "code": "Throughput",
+                "text": "Amount of work completed in a period."
+              },
+              {
+                "code": "Lead time",
+                "text": "Elapsed time from request to delivery."
+              },
+              {
+                "code": "Cycle time",
+                "text": "Elapsed time from starting work to finishing it."
+              },
+              {
+                "code": "WIP",
+                "text": "Work in progress; too much WIP usually slows flow and increases delays."
+              },
+              {
+                "code": "CFD",
+                "text": "Cumulative flow diagram; a visual of work counts across workflow states over time."
+              }
+            ]
+          }
+        ]
       }
     ],
     "tags": [

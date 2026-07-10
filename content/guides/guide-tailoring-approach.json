@@ -2093,6 +2093,428 @@
             ]
           }
         ]
+      },
+      {
+        "heading": "Diagnostics before you tailor",
+        "body": "Diagnostics are the deliberate check of project and organizational context before you change process, governance, or artifacts. You assess culture, constraints, stakeholder expectations, complexity, risk posture, and available capability so the tailored approach matches reality rather than a default template.\n\nOn the exam, jump-to-method answers are weak when the scenario still lacks context. Diagnose first: what is fixed, what is uncertain, who must be satisfied, and what constraints limit options. Only then select or adjust the life cycle, cadence, and controls.",
+        "tip": "If options include assess/diagnose and impose a full process stack, prefer the diagnostic step unless the scenario already gives enough signal to act.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "A practical diagnostic pass",
+            "items": [
+              {
+                "title": "Frame the work",
+                "lines": [
+                  "Clarify outcomes, constraints, compliance needs, and what value means for this effort.",
+                  "Separate must-have governance from optional ceremony."
+                ]
+              },
+              {
+                "title": "Read complexity and uncertainty",
+                "lines": [
+                  "Stable requirements and clear technology favor more predictive structure.",
+                  "High change, discovery, or novelty favor iterative or adaptive delivery."
+                ]
+              },
+              {
+                "title": "Map people and capability",
+                "lines": [
+                  "Stakeholder influence, culture, team skills, and tool maturity shape what will actually work.",
+                  "A great method fails if the organization cannot support it."
+                ]
+              },
+              {
+                "title": "Decide what to keep, cut, or intensify",
+                "lines": [
+                  "Keep controls that protect value and compliance.",
+                  "Cut overhead that does not reduce risk or improve delivery."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Diagnostics are not endless analysis. They are enough context to choose a fit-for-purpose approach and revisit when signals change.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "The tailoring process: organization, then project",
+        "body": "PMBOK frames tailoring as a process, not a one-time preference. Start with organizational context, then refine for the specific project. Organization-level tailoring sets the house style: standard life cycles, mandatory gates, approved toolsets, documentation baselines, and compliance floors. Project-level tailoring applies those defaults to size, risk, novelty, and stakeholder mix.\n\nYou do not invent a private methodology that fights PMO or regulatory rules. You adapt within the allowed range, document meaningful deviations, and keep just enough process to deliver value safely.",
+        "tip": "Org first, project second: if a scenario pits a preferred team practice against a stated organizational mandate, respect the mandate unless a formal exception path is described.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Two levels of tailoring",
+            "items": [
+              {
+                "title": "Tailor for the organization",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Culture, strategy, structure, standard processes, tools, and compliance requirements."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Set defaults and non-negotiables so projects start from a coherent baseline."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Tailor for the project",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Size, complexity, uncertainty, stakeholder needs, industry, and team capability."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Scale detail, cadence, artifacts, and controls up or down for this effort."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Core process flow",
+            "items": [
+              {
+                "title": "Understand organizational context",
+                "lines": [
+                  "Strategy, governance, culture, and mandatory methods or artifacts."
+                ]
+              },
+              {
+                "title": "Select an initial development approach",
+                "lines": [
+                  "Predictive, iterative, incremental, adaptive, or hybrid based on uncertainty and constraint signals."
+                ]
+              },
+              {
+                "title": "Customize for the project",
+                "lines": [
+                  "Adjust processes, engagement, tools, and artifact depth to fit risk and value delivery."
+                ]
+              },
+              {
+                "title": "Review and improve",
+                "lines": [
+                  "Re-tailor when reality diverges - retrospectives, phase gates, or major change events."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Select the initial development approach",
+        "body": "Choosing the initial development approach is the pivot step after diagnostics. It sets how requirements evolve, how work is sequenced, and how change is absorbed. Predictive fits stable scope and heavy compliance. Iterative refines through successive cycles. Incremental delivers usable slices over time. Adaptive (agile) thrives on feedback and evolving priorities. Hybrid mixes models by workstream or phase.\n\nThe exam cares less about loyalty to a label and more about whether the approach matches uncertainty, stakeholder need for early value, team skill, and governance constraints.",
+        "tip": "When part of the work is fixed by contract or regulation and part is exploratory, hybrid is often the disciplined answer: govern the fixed boundary, iterate the uncertain rest.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Signal -> initial approach bias",
+            "rows": [
+              {
+                "key": "Clear scope, low change, audit trail critical",
+                "value": "Predictive life cycle with formal baselines and change control."
+              },
+              {
+                "key": "Solution shape unknown; learning needed",
+                "value": "Iterative or adaptive cycles with frequent feedback."
+              },
+              {
+                "key": "Value needed early in usable pieces",
+                "value": "Incremental delivery; thin vertical slices over big-bang release."
+              },
+              {
+                "key": "Mixed certainty across components",
+                "value": "Hybrid - predictive for stable parts, agile for uncertain parts."
+              },
+              {
+                "key": "Team new to agile; org is stage-gate driven",
+                "value": "Start hybrid or lighter agile inside existing gates rather than a hard flip."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Initial approach is a starting point, not a prison. Good answers allow later re-tailoring when uncertainty or constraints shift.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "What to tailor: processes, methods, artifacts, tools",
+        "body": "After the approach is chosen, tailor the operating system of the project. Processes decide how much planning, review, and control you run. Methods are the techniques used inside those processes. Artifacts are the documents and visuals that carry decisions. Tools are the platforms and techniques that make the work practical.\n\nSimple, low-risk work can streamline risk reviews, lighten documentation, and use lighter tooling. Complex, regulated, or multi-vendor work intensifies process rigor, traceability artifacts, and controlled tools. Tailoring is selective intensity - not inventing random process.",
+        "tip": "Never tailor away a control the scenario marks as regulatory, contractual, or baseline-protected. You can lighten ceremony; you cannot ignore compliance.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Four things you actually adjust",
+            "items": [
+              {
+                "title": "Processes",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Which practices run, how often, and how formal approvals are."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keep value-adding steps; drop busywork that does not reduce risk or improve outcomes."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Methods",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Estimating style, facilitation, analysis, delivery practices (sprints, phase gates, hybrids)."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Match technique to data quality, time pressure, and team skill."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Artifacts",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Plans, registers, baselines, boards, reports - depth and formality vary."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Enough shared understanding and auditability without document theater."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Tools",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Scheduling, collaboration, risk, quality, and communication platforms."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Pick tools the org supports and the team will actually use; integrate rather than stack."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Quick exam vocabulary",
+            "items": [
+              {
+                "code": "Process",
+                "text": "How work is governed and repeated - cadence, approvals, control loops."
+              },
+              {
+                "code": "Method",
+                "text": "Technique applied inside a process (three-point estimate, retrospective, critical path)."
+              },
+              {
+                "code": "Artifact",
+                "text": "Tangible output of decisions (charter, backlog, risk register, baseline)."
+              },
+              {
+                "code": "Tool",
+                "text": "Enabler that stores, calculates, or coordinates work across the team."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What to tailor: engagement",
+        "body": "Engagement tailoring means fitting who is involved, how often you communicate, and how formal interactions are. High-influence stakeholders may need frequent, detailed updates and decision forums. Low-interest groups may need lighter, less frequent broadcasts. Culture and geography also matter: some environments expect formal written status; others move faster with demos and short syncs.\n\nDo not confuse engagement volume with engagement quality. Over-communicating noise burns trust. Under-engaging critical stakeholders creates late resistance. Tailor cadence, channel, content depth, and decision rights to influence, interest, and risk.",
+        "tip": "On the exam, when stakeholders are misaligned or surprised, the better first move is usually assess and re-plan engagement - not send more raw status to everyone.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Engagement levers",
+            "rows": [
+              {
+                "key": "Cadence",
+                "value": "Daily standups for delivery teams; weekly or monthly steering for sponsors; event-driven for silent stakeholders."
+              },
+              {
+                "key": "Channel",
+                "value": "Face-to-face or workshop for conflict and complex decisions; written for audit trails; visual boards for progress."
+              },
+              {
+                "key": "Content depth",
+                "value": "Executive summary for sponsors; technical detail for implementers; compliance evidence for auditors."
+              },
+              {
+                "key": "Decision rights",
+                "value": "Clarify who prioritizes, who approves baseline change, and who can accept product increments."
+              },
+              {
+                "key": "Form of interaction",
+                "value": "Reviews and demos for feedback; retrospectives for process; formal change boards when baselines are protected."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Engagement is tailored continuously. A new high-power stakeholder or a shift from planning to delivery is a cue to re-tailor communications - not to keep the original plan on autopilot.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Tailoring the performance domains",
+        "body": "PMBOK 7 organizes work through interacting performance domains. Tailoring means adjusting how strongly each domain is applied, not treating every domain the same on every project. Development approach and life cycle set the skeleton. Planning sets how much upfront detail is useful. Project work and delivery shape execution and outcome handoff. Measurement defines what success looks like in numbers and signals. Stakeholders, project team, and uncertainty domains shape people systems and risk posture.\n\nUse domain tailoring as a checklist: for this context, where do we need more rigor, and where is lighter treatment still safe?",
+        "tip": "If a scenario stresses one domain (for example high uncertainty or fragile stakeholders), intensify practices there first rather than uniformly increasing bureaucracy everywhere.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Domain -> what you tailor",
+            "rows": [
+              {
+                "key": "Development approach and life cycle",
+                "value": "Predictive, iterative, incremental, adaptive, or hybrid; phase structure and exit criteria."
+              },
+              {
+                "key": "Planning",
+                "value": "Depth of plans, rolling wave vs full upfront, estimating methods, and re-planning triggers."
+              },
+              {
+                "key": "Project work",
+                "value": "How work is assigned, constrained, coordinated, and improved day to day."
+              },
+              {
+                "key": "Delivery",
+                "value": "Definition of done, release strategy, acceptance, and value realization checkpoints."
+              },
+              {
+                "key": "Measurement",
+                "value": "Which metrics matter (schedule variance, velocity, defects, benefits) and reporting cadence."
+              },
+              {
+                "key": "Stakeholders",
+                "value": "Identification depth, engagement strategy, and communication formality."
+              },
+              {
+                "key": "Project team",
+                "value": "Structure, roles, decision rights, co-location vs distributed norms, and leadership style."
+              },
+              {
+                "key": "Uncertainty",
+                "value": "Risk process intensity, reserves, experiments, and response speed when change hits."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "How intensity shifts with context",
+            "items": [
+              {
+                "title": "Low uncertainty, clear scope",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Stronger predictive planning, baselines, and formal change control."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Protect stability; measure against plan; limit midstream redesign."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "High uncertainty, evolving needs",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Lighter long-range plans; stronger feedback loops, experiments, and stakeholder touchpoints."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Short cycles, outcome metrics, and rapid re-prioritization over rigid forecasts."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Heavy compliance or multi-party delivery",
+                "tone": "bad",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Elevated governance, traceable artifacts, explicit acceptance, and tighter uncertainty controls."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keep adaptive delivery only inside allowed boundaries; never tailor away mandatory evidence."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Domains interact. Changing the life cycle usually forces re-tailoring of planning depth, measurement, and engagement. Pick answers that keep the system coherent.",
+            "tone": "accent"
+          }
+        ]
       }
     ],
     "tags": [

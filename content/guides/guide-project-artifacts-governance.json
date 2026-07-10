@@ -411,6 +411,406 @@
             "text": "Business case justifies, charter authorises, governance decides, gates confirm value - and baselines only move by change request."
           }
         ]
+      },
+      {
+        "heading": "Acceptance criteria",
+        "body": "Acceptance criteria state the measurable conditions a deliverable must meet before stakeholders will accept it as complete. They turn vague expectations into testable checks and reduce disputes at handoff.\n\nWrite them early, ideally when requirements are agreed. Poor criteria show up late as rework, scope arguments, and delayed formal acceptance.",
+        "tip": "If a scenario asks whether work is done, look for acceptance criteria and who is authorized to accept the deliverable.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "What good criteria look like",
+            "items": [
+              {
+                "title": "Measurable",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Conditions you can verify with a pass or fail result."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Avoid soft wording like better or user-friendly unless you define how it will be measured."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Agreed",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A shared understanding between the team and the accepting stakeholder."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Confirm criteria before build and re-check them before formal acceptance."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Scoped",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Only the work required for that deliverable, nothing extra."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keeps acceptance aligned to the scope baseline and reduces gold-plating."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Acceptance criteria support the Scope domain: they define done for a deliverable. Changing them after agreement is a scope change, not an informal team tweak.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Subsidiary management plans",
+        "body": "The project management plan is the integrated master document. Subsidiary plans explain how each aspect of the work will be planned, executed, monitored, and controlled.\n\nOn the exam, treat these plans as governance scaffolding: they set the agreed way of working before the team improvises under pressure.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Common subsidiary plans",
+            "rows": [
+              {
+                "key": "Scope",
+                "value": "How scope is defined, validated, and controlled; links to WBS and acceptance."
+              },
+              {
+                "key": "Schedule",
+                "value": "How activities are sequenced, estimated, baselined, and tracked."
+              },
+              {
+                "key": "Cost",
+                "value": "How costs are estimated, budgeted, funded, and controlled against the cost baseline."
+              },
+              {
+                "key": "Quality",
+                "value": "Quality standards, assurance activities, and control methods for deliverables."
+              },
+              {
+                "key": "Resource",
+                "value": "How people, equipment, and materials are planned, acquired, and managed."
+              },
+              {
+                "key": "Communications",
+                "value": "Who needs what information, how often, in what format, and through which channel."
+              },
+              {
+                "key": "Risk",
+                "value": "How risks are identified, analyzed, responded to, and monitored."
+              },
+              {
+                "key": "Procurement",
+                "value": "What will be bought or contracted, how sellers are selected, and how contracts are managed."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Integration management coordinates these pieces. When objectives compete (scope vs cost vs time vs quality), the plan and change process define how trade-offs are decided.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Progress and schedule visuals",
+        "body": "Visual status artifacts help stakeholders see progress without reading every task. Pick the chart that matches the delivery model and the question you need answered.",
+        "tip": "Match the visual to the method: Gantt for predictive timelines; burndown, burnup, and CFD for iterative or flow work.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Chart chooser",
+            "items": [
+              {
+                "title": "Gantt chart",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Timeline bars for activities, durations, dependencies, and milestones."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Show planned vs actual schedule in predictive or hybrid plans."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Burndown",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Work remaining over time, often against an ideal completion line."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Track whether a sprint or fixed set of work will finish on time."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Burnup",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Work completed over time plus a total-scope line."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Show progress and whether scope has grown while work completes."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Cumulative flow (CFD)",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Stacked bands of work items by workflow state over time."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Spot bottlenecks, rising WIP, and unstable flow in Kanban-style systems."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Quick distinctions",
+            "items": [
+              {
+                "code": "Burndown",
+                "text": "Remaining work falls toward zero; best when scope for the period is fairly stable."
+              },
+              {
+                "code": "Burnup",
+                "text": "Completed work rises; total-scope line makes scope change visible."
+              },
+              {
+                "code": "CFD",
+                "text": "Band width shows inventory in each state; widening in-progress bands signal flow problems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Quality analysis tools",
+        "body": "Quality governance needs evidence, not opinions. Two high-yield tools help separate process noise from real problems and dig to root causes when defects or delays appear.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Two tools, two jobs",
+            "items": [
+              {
+                "title": "Control chart",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Data plotted over time with a center line, upper control limit, and lower control limit."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Decide if a process is stable (common-cause variation) or out of control (special-cause variation)."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Fishbone (Ishikawa)",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Cause-and-effect diagram that groups possible causes under categories such as people, process, tools, materials, environment, and management."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Structure root-cause analysis for a known problem, defect, or effect before jumping to fixes."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Quality management threads",
+            "rows": [
+              {
+                "key": "Plan quality",
+                "value": "Define standards, metrics, and how quality will be built in."
+              },
+              {
+                "key": "Manage quality",
+                "value": "Process-focused assurance that the approach can meet the standards."
+              },
+              {
+                "key": "Control quality",
+                "value": "Inspect deliverables and measurements; control charts often live here."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "A point outside control limits (or a non-random pattern) means investigate special causes. Do not redesign the whole process for normal random variation.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Communications as a governed artifact",
+        "body": "Communication failure is a top project killer. The communications management plan is the artifact that turns stakeholder needs into a repeatable information system rather than ad hoc messages.\n\nIt sits under governance because reporting cadence, escalation paths, and decision forums only work when people know who says what, to whom, and when.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "What the plan should define",
+            "items": [
+              {
+                "title": "Audience and need",
+                "lines": [
+                  "Which stakeholders need which information, and why."
+                ]
+              },
+              {
+                "title": "Format and channel",
+                "lines": [
+                  "Report, meeting, dashboard, message, or workshop; push vs pull vs interactive."
+                ]
+              },
+              {
+                "title": "Frequency and owner",
+                "lines": [
+                  "How often communication happens and who is responsible for sending it."
+                ]
+              },
+              {
+                "title": "Escalation",
+                "lines": [
+                  "When issues leave the normal path and move to sponsor, steering group, or CCB."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "The stakeholder register lists who people are. The communications (and stakeholder engagement) plans describe how you inform and involve them. Do not mix those artifacts.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Decision trees",
+        "body": "A decision tree maps choices, chance events, and outcomes so teams can compare alternatives with expected value or preferred risk exposure. It is useful when a governance decision has several paths and uncertain payoffs.\n\nTreat it as analysis input for decision-makers, not as the decision itself. The tree clarifies options; governance still decides.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Node types",
+            "items": [
+              {
+                "code": "Decision",
+                "text": "A point where the team or sponsor chooses among options (often shown as a square)."
+              },
+              {
+                "code": "Chance",
+                "text": "An uncertain event with probabilities and branch outcomes (often a circle)."
+              },
+              {
+                "code": "Outcome",
+                "text": "End result of a path, usually with cost, benefit, or net value."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "How to use one",
+            "items": [
+              {
+                "title": "Frame the decision",
+                "lines": [
+                  "State the choice and the objective (cost, schedule recovery, risk reduction, value)."
+                ]
+              },
+              {
+                "title": "Branch options and uncertainties",
+                "lines": [
+                  "List alternatives, then add chance events that change results."
+                ]
+              },
+              {
+                "title": "Score the paths",
+                "lines": [
+                  "Attach costs, benefits, and probabilities; compute expected monetary value where useful."
+                ]
+              },
+              {
+                "title": "Recommend and route",
+                "lines": [
+                  "Present the preferred path to the authority defined by governance."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Decision trees often appear with expected monetary value (EMV). EMV = probability x impact for each branch, then choose the best overall path for the decision node.",
+            "tone": "good"
+          }
+        ]
       }
     ],
     "tags": [

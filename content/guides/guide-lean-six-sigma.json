@@ -431,6 +431,263 @@
             ]
           }
         ]
+      },
+      {
+        "heading": "Lean software principles for the exam",
+        "body": "Lean software development adapts Lean thinking to knowledge work. The PMP exam may frame it as an agile or hybrid way to improve flow, reduce rework, and learn quickly while still protecting customer value.\n\nThe key idea is not speed at any cost. Lean asks the team to deliver useful increments, expose problems early, and remove activities that do not help the customer or the project outcome.",
+        "tip": "If an answer improves speed by skipping quality, stakeholder feedback, or team learning, it is usually not the best Lean answer.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Common Lean software principles",
+            "items": [
+              {
+                "code": "Eliminate waste",
+                "text": "Remove work that does not add value, such as unused features, avoidable handoffs, waiting, defects, or excessive work in progress."
+              },
+              {
+                "code": "Build quality in",
+                "text": "Prevent defects through disciplined practices instead of relying on late inspection."
+              },
+              {
+                "code": "Create knowledge",
+                "text": "Use feedback, experiments, retrospectives, and shared learning to improve decisions."
+              },
+              {
+                "code": "Defer commitment",
+                "text": "Keep options open until enough information exists to make a responsible decision."
+              },
+              {
+                "code": "Deliver fast",
+                "text": "Shorten feedback cycles by delivering small, valuable increments."
+              },
+              {
+                "code": "Respect people",
+                "text": "Trust the people closest to the work and create conditions for ownership, safety, and improvement."
+              },
+              {
+                "code": "Optimize the whole",
+                "text": "Improve the end-to-end system instead of making one activity look efficient at the expense of overall value."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Learning loops and knowledge creation",
+        "body": "Continuous improvement depends on learning from real evidence. Short iterations, frequent stakeholder review, demonstrations, retrospectives, experiments, and lessons learned all help the team replace assumptions with knowledge.\n\nFor the exam, connect learning loops to risk reduction. The earlier the team validates a product decision, process change, or technical assumption, the less costly it is to adjust.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "A Lean learning cycle",
+            "items": [
+              {
+                "title": "Deliver a small increment",
+                "lines": [
+                  "Keep the batch size small enough to inspect quickly.",
+                  "Make the result visible to users, sponsors, or the team."
+                ]
+              },
+              {
+                "title": "Gather feedback",
+                "lines": [
+                  "Look for evidence about value, defects, usability, risk, and flow.",
+                  "Use data and observation, not only opinions."
+                ]
+              },
+              {
+                "title": "Adapt the work system",
+                "lines": [
+                  "Update the backlog, process, quality practices, or decision assumptions.",
+                  "Share what was learned so knowledge does not remain with one person."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "In agile and Lean scenarios, the project manager or servant leader should help the team learn, remove obstacles, and make information visible rather than dictate detailed solutions.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Build quality into the flow",
+        "body": "Lean treats defects as waste because they create rework, delays, inspection effort, and loss of trust. Building quality in means designing the process so problems are prevented or found quickly while they are still inexpensive to correct.\n\nThis aligns with PMBOK quality management: plan quality, manage quality through the process, and control quality through inspection and measurement. Lean shifts the emphasis toward prevention and shared responsibility.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Quality built in versus inspected later",
+            "items": [
+              {
+                "title": "Built in",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Quality practices are part of daily work."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Peer review, checklists, automated tests, clear acceptance criteria, definition of done, and early validation."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Inspected later",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Defects are found after significant work is complete."
+                    ]
+                  },
+                  {
+                    "label": "Risk",
+                    "lines": [
+                      "Rework increases cost, schedule pressure, and stakeholder dissatisfaction."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Last responsible moment decisions",
+        "body": "Defer commitment does not mean avoid decisions. It means delaying irreversible or costly choices until the team has enough information to decide responsibly.\n\nThis is useful when requirements, technology, market needs, or constraints are uncertain. The team preserves options, runs small experiments, and narrows choices as evidence improves.",
+        "tip": "On the exam, choose defer commitment when the problem is uncertainty. Do not choose it when a decision is urgent, risk exposure is increasing, or delay would block the team.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Decision timing cues",
+            "rows": [
+              {
+                "key": "Decide now",
+                "value": "The decision is reversible, needed to unblock work, or enough facts are already available."
+              },
+              {
+                "key": "Defer briefly",
+                "value": "More information is expected soon and waiting does not create meaningful risk."
+              },
+              {
+                "key": "Run an experiment",
+                "value": "The team can test an assumption with a prototype, spike, pilot, or small release."
+              },
+              {
+                "key": "Escalate or facilitate",
+                "value": "The decision crosses authority boundaries, affects major constraints, or needs stakeholder alignment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fast delivery without overloading the team",
+        "body": "Deliver fast means shortening the path from idea to feedback. It is achieved through small batches, clear priorities, limited work in progress, fewer handoffs, automation where useful, and rapid review.\n\nFast delivery is not the same as pushing people harder. Overloaded teams create queues, defects, context switching, and burnout. Lean improves flow by reducing friction in the system.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Flow-friendly practices",
+            "items": [
+              {
+                "title": "Small batches",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Break work into increments that can be completed and reviewed quickly."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Reduce waiting time and make feedback faster."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Limit WIP",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Control the amount of started but unfinished work."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Expose bottlenecks and reduce multitasking."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Remove blockers",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Address delays caused by dependencies, approvals, unclear requirements, or resource constraints."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Help work move through the whole system, not just one step."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Respect people and optimize the whole",
+        "body": "Lean improvement depends on the people doing the work. Respect people means listening to team insight, making constraints visible, encouraging problem solving, and giving teams the authority needed to improve their process.\n\nOptimize the whole means avoiding local improvements that damage overall outcomes. A single department may look efficient while the project still suffers from delays, rework, or poor value delivery.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Exam contrasts",
+            "rows": [
+              {
+                "key": "Respect people",
+                "value": "Coach, facilitate, remove impediments, involve the team, and support psychological safety."
+              },
+              {
+                "key": "Command and control",
+                "value": "Assign solutions without team input, ignore work constraints, or blame individuals for system problems."
+              },
+              {
+                "key": "Optimize the whole",
+                "value": "Improve end-to-end value delivery, including dependencies, queues, quality, and stakeholder feedback."
+              },
+              {
+                "key": "Local optimization",
+                "value": "Maximize one metric or team output while increasing delays or rework elsewhere."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "When a scenario shows a bottleneck or cross-team delay, the best answer usually improves system flow and collaboration instead of pressuring one group to work faster.",
+            "tone": "good"
+          }
+        ]
       }
     ],
     "tags": [

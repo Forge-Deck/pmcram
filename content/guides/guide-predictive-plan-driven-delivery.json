@@ -1,0 +1,470 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Predictive & Plan-Driven Delivery",
+    "category": "Delivery Approaches",
+    "summary": "Use predictive, phase-gated delivery when scope is stable and success depends on meeting baselines for schedule, cost, and quality.",
+    "intro": "Predictive (plan-driven) delivery builds a detailed plan up front and executes work in ordered phases. For the PMP exam, know when it fits, how baselines and phase gates work, and what trade-offs it creates versus adaptive approaches.",
+    "sections": [
+      {
+        "heading": "What Predictive Delivery Means",
+        "body": "Predictive delivery plans the work thoroughly before major construction begins. Scope, schedule, cost, and quality targets are defined early, then the team executes against those baselines.\n\nWork typically moves through distinct phases in sequence. A phase is substantially complete before the next begins, with limited overlap. This produces high control and predictability when requirements are well understood and unlikely to shift midstream.",
+        "tip": "On the exam, predictive = plan first, execute to the plan, control variance. Adaptive = learn and replan in short cycles.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Core characteristics",
+            "items": [
+              {
+                "title": "Upfront definition",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Goals, requirements, and constraints are clarified before build work scales up."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Create a shared baseline for scope, time, cost, and quality that guides execution."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Linear phases",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Work flows through ordered stages such as requirements, design, build, test, and release."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Control handoffs, reduce rework from incomplete prior work, and make progress auditable."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Baseline control",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Performance is judged against the approved plan for schedule, cost, and deliverable quality."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Detect variance early and apply corrective action to stay on plan."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "When Predictive Fits Best",
+        "body": "Predictive delivery shines when the product and constraints can be specified with confidence. Clear goals, stable requirements, and regulated or safety-critical work often favor a plan-driven path.\n\nIt is a weaker fit when discovery is high, stakeholders need frequent course correction, or the environment changes faster than formal change control can keep up. Choosing the approach is a project design decision, not a default.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Fit signals",
+            "rows": [
+              {
+                "key": "Stable scope",
+                "value": "Requirements are known, durable, and unlikely to churn after approval."
+              },
+              {
+                "key": "Precise objectives",
+                "value": "Success criteria for time, cost, and quality can be stated up front."
+              },
+              {
+                "key": "High cost of late change",
+                "value": "Rework after build is expensive, risky, or contractually constrained."
+              },
+              {
+                "key": "Compliance needs",
+                "value": "Formal reviews, traceability, and phase evidence are required."
+              },
+              {
+                "key": "Poor fit",
+                "value": "Rapid learning, evolving customer needs, or high uncertainty about the solution."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If a scenario stresses fixed contracts, regulated deliverables, or well-known scope, lean predictive. If it stresses changing priorities or early value delivery, lean adaptive or hybrid.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Typical Phase Sequence",
+        "body": "Plan-driven life cycles break the work into phases with clear entry and exit criteria. Names vary by industry, but the logic is similar: understand the need, design the solution, build it, verify it, then release and support it.\n\nEach phase produces approved outputs that feed the next. Skipping or shortcutting an early phase often injects defects that are costly to fix later.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Common predictive flow",
+            "items": [
+              {
+                "title": "Requirements and analysis",
+                "lines": [
+                  "Identify stakeholders, capture needs and constraints, and document them in a formal requirements baseline.",
+                  "Incomplete or wrong requirements here cascade into design, build, and test failures."
+                ]
+              },
+              {
+                "title": "Design",
+                "lines": [
+                  "Translate requirements into architecture, interfaces, and detailed design so builders know what to construct.",
+                  "A sound design reduces implementation complexity and clarifies how components interact."
+                ]
+              },
+              {
+                "title": "Build and unit verification",
+                "lines": [
+                  "Construct deliverables against the design and verify pieces early to surface defects.",
+                  "Work is controlled by the approved design and requirements, not by ad hoc discovery."
+                ]
+              },
+              {
+                "title": "Integration and system test",
+                "lines": [
+                  "Combine modules and test the whole system for interfaces, behavior, and requirements compliance.",
+                  "Integration often reveals issues that unit checks alone cannot find."
+                ]
+              },
+              {
+                "title": "Release and maintenance",
+                "lines": [
+                  "Deploy to the customer environment and support operations with fixes, updates, and enhancements.",
+                  "Maintenance can run long after go-live as latent defects and new needs appear."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Planning for Timeline and Budget",
+        "body": "Because later phases depend on earlier ones finishing as planned, schedule and cost discipline matter more than in highly flexible approaches. The detailed plan defines phase effort, milestones, and spending so the team can manage commitments.\n\nThat same rigor can slow response to surprise change. Formal change control protects the baseline but may delay adaptation when the environment shifts.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Plan-driven control",
+            "items": [
+              {
+                "title": "Baselines",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Approved scope, schedule, and cost targets used as the reference for performance."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Compare actuals to plan; only change baselines through controlled decisions."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Phase dependency",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Downstream work waits on upstream completion and quality."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Protect critical path milestones; late early phases threaten the whole commitment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Change trade-off",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Strict adherence to plan can limit midstream flexibility."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Route new needs through impact analysis rather than informal scope creep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Questions that praise being on time and on budget usually assume a predictive baseline. Answers that skip impact analysis for mid-project changes are often wrong.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Documentation, Reviews, and Phase Gates",
+        "body": "Predictive delivery relies on written agreements so handoffs stay clean. Requirements specs, design packages, test records, and approval artifacts form the project's memory and its audit trail.\n\nAt phase ends, teams review deliverables against standards and requirements before authorizing the next phase. Documentation supports onboarding, maintenance, and future projects, but excessive paperwork can distract from real risks if it becomes ceremony without decision value.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Why documentation matters",
+            "rows": [
+              {
+                "key": "Handoffs",
+                "value": "Each phase needs a clear, approved input from the prior phase."
+              },
+              {
+                "key": "Stakeholder alignment",
+                "value": "Shared records reduce ambiguity about what was agreed."
+              },
+              {
+                "key": "Traceability",
+                "value": "Links needs to design, build, and test evidence for compliance and quality."
+              },
+              {
+                "key": "Future work",
+                "value": "Maintenance and later enhancements depend on knowing how the system was built."
+              },
+              {
+                "key": "Risk of excess",
+                "value": "Over-documenting can hide issues if the team optimizes paperwork over outcomes."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Useful terms",
+            "items": [
+              {
+                "code": "Phase gate",
+                "text": "A decision point where readiness and quality of phase outputs are reviewed before continuing."
+              },
+              {
+                "code": "Exit criteria",
+                "text": "Conditions that must be met to close a phase and accept its deliverables."
+              },
+              {
+                "code": "Requirements baseline",
+                "text": "The approved set of needs and constraints used as the reference for design and verification."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Stakeholder Involvement Pattern",
+        "body": "In classic predictive delivery, stakeholders are heavily engaged at the start for requirements and planning, then again near acceptance and release. Mid-project contact is often lighter because the team is executing an approved design.\n\nThat pattern works when needs stay stable. It fails when customers need to shape the product as they learn, because late feedback arrives after expensive work is already complete.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Engagement pattern",
+            "items": [
+              {
+                "title": "Front-loaded input",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Detailed needs, constraints, and success criteria are captured early."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Lock a requirements baseline that design and build can trust."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "End-loaded validation",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Customers often see a complete product late, near acceptance testing."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Plan formal reviews and acceptance criteria carefully; surprises are costly."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Limited mid-cycle change",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Incremental feedback windows are fewer than in iterative approaches."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Prefer this model only when collaboration demand is low and scope is stable."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If the scenario requires frequent customer feedback or evolving priorities, pure predictive is rarely the best answer. Look for hybrid or adaptive options.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Monitoring and Corrective Action",
+        "body": "Plan-driven projects measure progress against the plan continuously. Teams collect schedule, cost, and quality data, compare it to baselines, and act when variance appears.\n\nMonitoring is not only status reporting. It includes review meetings, performance analysis, and feedback loops that restore control before small slips become phase failures.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Control cycle",
+            "items": [
+              {
+                "title": "Collect performance data",
+                "lines": [
+                  "Track progress, spend, defects, and milestone completion against the plan."
+                ]
+              },
+              {
+                "title": "Compare to baseline",
+                "lines": [
+                  "Identify schedule, cost, or quality variances and assess impact on downstream phases."
+                ]
+              },
+              {
+                "title": "Take corrective action",
+                "lines": [
+                  "Reallocate resources, resequence work, or process formal changes to recover the plan."
+                ]
+              },
+              {
+                "title": "Report and re-plan as needed",
+                "lines": [
+                  "Communicate status and decisions so stakeholders understand risks and residual variance."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "In predictive scenarios, first measure against the baseline, then decide. Do not invent a new plan casually without impact analysis and approval.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Exam Trade-offs to Remember",
+        "body": "Predictive delivery buys predictability, auditability, and control when the problem is well understood. The price is reduced flexibility and delayed learning from real user feedback.\n\nPMP questions often test whether you pick the approach that matches uncertainty, stakeholder needs, and the cost of change—not whether waterfall is always good or always bad.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Strengths vs limitations",
+            "rows": [
+              {
+                "key": "Strength: control",
+                "value": "Clear phases, baselines, and gates support governance and forecasting."
+              },
+              {
+                "key": "Strength: clarity",
+                "value": "Precise goals and documentation reduce ambiguity for stable work."
+              },
+              {
+                "key": "Strength: quality gates",
+                "value": "Sequential completion encourages thorough design and verification before release."
+              },
+              {
+                "key": "Limit: change lag",
+                "value": "Late discoveries are expensive because earlier phases are already closed."
+              },
+              {
+                "key": "Limit: feedback lag",
+                "value": "Limited mid-project customer involvement can hide misalignment until acceptance."
+              },
+              {
+                "key": "Limit: documentation load",
+                "value": "Heavy artifacts help handoffs but can become overhead if not decision-focused."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Quick recall",
+            "items": [
+              {
+                "code": "Predictive",
+                "text": "Plan-driven life cycle with substantial upfront definition and sequential execution."
+              },
+              {
+                "code": "Sequential design",
+                "text": "Each major phase completes before the next starts, with limited overlap."
+              },
+              {
+                "code": "Integration",
+                "text": "Combining components and testing them together against system-level requirements."
+              },
+              {
+                "code": "Maintenance",
+                "text": "Post-release work to correct defects, improve units, and respond to new operational needs."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "topics": [
+      "Predictive",
+      "Phase gates",
+      "Baselines",
+      "Plan-driven"
+    ],
+    "tags": [
+      "waterfall",
+      "predictive",
+      "delivery-approach",
+      "PMBOK"
+    ],
+    "source": "synthesized from PMP concept study notes; PMBOK 7/8 aligned"
+  }
+]

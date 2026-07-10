@@ -378,6 +378,261 @@
             "text": "Known + in baseline + PM controls = contingency. Unknown + outside baseline + needs approval = management reserve."
           }
         ]
+      },
+      {
+        "heading": "Risk in adaptive and agile work",
+        "body": "In adaptive projects, risk management is not a one-time planning activity. The team looks for uncertainty in every iteration, planning event, review, and retrospective, then adjusts work before exposure grows.\n\nThe PMP exam may frame this as agile, hybrid, iterative, or incremental delivery. The core idea is the same: short feedback cycles make risk easier to see, discuss, and respond to.",
+        "tip": "For the exam, connect agile risk management to transparency, frequent inspection, and adaptation. It does not remove the need for a risk register or clear ownership.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Adaptive risk loop",
+            "items": [
+              {
+                "title": "Inspect",
+                "lines": [
+                  "Review new information from demos, tests, stakeholder feedback, and team conversations.",
+                  "Look for both threats and opportunities."
+                ]
+              },
+              {
+                "title": "Reassess",
+                "lines": [
+                  "Update probability, impact, urgency, and proximity as conditions change.",
+                  "Retire risks that no longer matter and add newly discovered risks."
+                ]
+              },
+              {
+                "title": "Adapt",
+                "lines": [
+                  "Change backlog order, response actions, reserves, or stakeholder communication based on current exposure.",
+                  "Use the next iteration to reduce uncertainty where possible."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Risk-adjusted backlog prioritization",
+        "body": "A backlog can be prioritized by value, dependencies, urgency, and risk. Risk-adjusted ordering brings uncertain, complex, or technically difficult items forward so the team can learn early instead of discovering major problems near the end.\n\nThis does not mean every risky item is always first. The product owner and team balance risk reduction against value delivery, stakeholder priorities, and capacity.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Backlog risk signals",
+            "items": [
+              {
+                "title": "High uncertainty",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "The team lacks enough information to estimate, design, or test confidently."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Run a spike, prototype, experiment, or proof of concept."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "High impact",
+                "tone": "bad",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Failure could harm scope, schedule, cost, quality, compliance, or customer value."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Escalate visibility, assign an owner, and plan a response before commitment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "High learning value",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Early work can validate assumptions and reduce later rework."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Schedule the item early enough for results to influence future planning."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Risk ownership and collaboration",
+        "body": "A risk without an owner is unlikely to be managed well. Ownership means one person is accountable for tracking the risk, coordinating the response, and reporting changes in exposure.\n\nIn agile and hybrid environments, ownership still matters, but risk identification and response are collaborative. Developers, testers, customers, vendors, business owners, and the project manager may all notice different sources of uncertainty.",
+        "tip": "On exam questions, do not choose an answer where the project manager silently handles all risk alone. PMBOK favors engagement, accountability, and transparent communication.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Risk roles",
+            "rows": [
+              {
+                "key": "Risk owner",
+                "value": "Accountable for monitoring a specific risk and driving the agreed response."
+              },
+              {
+                "key": "Action owner",
+                "value": "Responsible for completing a particular response action, which may be different from the risk owner."
+              },
+              {
+                "key": "Project manager",
+                "value": "Facilitates the process, maintains visibility, removes barriers, and escalates when needed."
+              },
+              {
+                "key": "Team and stakeholders",
+                "value": "Help identify risks, validate assumptions, and contribute practical response ideas."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Visualizing risk work",
+        "body": "Visual tools make risk easier to discuss and harder to ignore. A team may use a risk board, colored backlog items, a risk register view, or a risk burndown chart to show current exposure and response progress.\n\nThe tool is less important than the behavior it supports: shared visibility, timely decisions, and follow-through on response actions.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Common risk visuals",
+            "items": [
+              {
+                "title": "Risk board",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A visible workflow for risks, such as identified, analyzed, response planned, monitoring, and closed."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Supports daily or iteration-level discussion of active risks."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Risk burndown",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A trend view of risk exposure or risk count over time."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Shows whether responses are reducing exposure as the project progresses."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Risk-colored stories",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Backlog items marked by relative risk level."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Helps the team discuss risk during refinement, planning, and sequencing."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Risk appetite, tolerance, and thresholds",
+        "body": "Risk appetite describes how much uncertainty an organization is willing to pursue in exchange for value. Risk tolerance is the acceptable variation for a specific objective, stakeholder, or project area. A threshold is the point at which action, escalation, or governance is required.\n\nThese concepts help the team decide whether to accept, respond to, escalate, or avoid a risk. The same exposure may be acceptable in one organization and unacceptable in another.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Decision language",
+            "items": [
+              {
+                "code": "Appetite",
+                "text": "The general degree of risk an organization is willing to take to create value."
+              },
+              {
+                "code": "Tolerance",
+                "text": "The acceptable range of variation around a specific objective, such as budget, schedule, or performance."
+              },
+              {
+                "code": "Threshold",
+                "text": "A defined trigger point that requires action, escalation, or a change in response."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "When a risk exceeds an agreed threshold, the best answer usually involves escalation, replanning, or an approved response rather than informal acceptance.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Learning from risk responses",
+        "body": "Risk management improves when the team studies what happened, not just what was planned. Retrospectives, lessons learned, incident reviews, and risk audits help the team judge whether responses were timely, proportionate, and effective.\n\nThe goal is not blame. The goal is better prediction, stronger response choices, and reusable knowledge for the current project and future work.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Retrospective risk questions",
+            "items": [
+              {
+                "title": "What changed",
+                "lines": [
+                  "Which risks increased, decreased, occurred, or disappeared during the last period?"
+                ]
+              },
+              {
+                "title": "What worked",
+                "lines": [
+                  "Which responses reduced probability, impact, or urgency as expected?"
+                ]
+              },
+              {
+                "title": "What to improve",
+                "lines": [
+                  "Which assumptions were wrong, which triggers were missed, and what should be updated in the risk register or backlog?"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "tags": [

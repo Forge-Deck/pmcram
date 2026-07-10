@@ -501,6 +501,281 @@
             ]
           }
         ]
+      },
+      {
+        "heading": "Adaptive mindset and empirical control",
+        "body": "Agile work is managed through learning, not by pretending all details are knowable at the start. The team makes work visible, inspects results often, and adapts the product or process based on evidence.\n\nFor the PMP exam, connect adaptive delivery to uncertainty. When requirements, technology, or stakeholder preferences are likely to change, the project manager or agile lead should create fast feedback loops instead of locking decisions too early.",
+        "tip": "When an exam question says the team has discovered new information, the best agile response is usually to inspect, adapt, and reprioritize with the right stakeholders rather than defend the original plan.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Empirical control in practice",
+            "items": [
+              {
+                "title": "Transparency",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Make goals, progress, quality, blockers, and backlog order visible."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Use information radiators, backlog views, reviews, demos, and shared definitions."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Inspection",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Regularly compare actual results with expectations."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Inspect product increments, team flow, stakeholder feedback, and risk signals."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Adaptation",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Adjust plans, backlog order, working agreements, or solution direction."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Adapt soon after learning appears, while change is still manageable."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Lightweight tailoring and fit-for-purpose process",
+        "body": "A lightweight agile approach keeps only the process needed to deliver value, manage risk, and support collaboration. It does not mean unmanaged work; it means avoiding unnecessary ceremony, documents, approvals, and handoffs.\n\nTailoring should consider team size, product complexity, uncertainty, stakeholder availability, compliance needs, and organizational constraints. The process should help the team learn and deliver, not become the main product of the project.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Tailor an agile way of working",
+            "items": [
+              {
+                "title": "Start with context",
+                "lines": [
+                  "Assess uncertainty, delivery risk, dependencies, stakeholder access, and regulatory needs."
+                ]
+              },
+              {
+                "title": "Choose minimum useful controls",
+                "lines": [
+                  "Keep controls that protect value, quality, safety, traceability, or coordination.",
+                  "Remove controls that only add delay or duplicate information."
+                ]
+              },
+              {
+                "title": "Review and adjust",
+                "lines": [
+                  "Use retrospectives and performance data to refine the process over time."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "PMBOK 7/8 thinking favors tailoring. Do not assume Scrum, Kanban, or a predictive method is automatically best; choose the approach that fits the work and environment.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Definition of Done and releasable increments",
+        "body": "A Definition of Done is the shared quality standard for completed work. It prevents teams from calling work complete when it is only coded, partially tested, awaiting review, or missing required documentation.\n\nAn increment is the integrated, usable result of completed backlog items. In Scrum, each sprint should produce an increment that is potentially releasable, even when the product owner chooses not to release it immediately.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Done versus accepted",
+            "rows": [
+              {
+                "key": "Definition of Done",
+                "value": "Team-level quality criteria that must be met before work counts as complete."
+              },
+              {
+                "key": "Acceptance criteria",
+                "value": "Item-specific conditions that show whether a backlog item satisfies the user or stakeholder need."
+              },
+              {
+                "key": "Increment",
+                "value": "All completed work integrated with previous completed work into a usable product state."
+              },
+              {
+                "key": "Potentially releasable",
+                "value": "Good enough to release from a quality and integration standpoint, even if the business waits."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If quality problems appear at the end of every sprint, strengthen the Definition of Done, improve testing and integration, and address the root cause rather than extending every sprint.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Team safety and self-organization",
+        "body": "Agile teams need enough autonomy to plan their work, solve problems, and improve their own process. The project manager, Scrum Master, or team lead supports this by removing impediments, clarifying priorities, and protecting the environment for focused collaboration.\n\nPersonal safety matters because teams surface risks and mistakes earlier when people can speak honestly. A fear-based environment hides problems until they become larger defects, delays, or stakeholder surprises.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Leadership signals in agile questions",
+            "items": [
+              {
+                "title": "Self-organizing team",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "The team decides how to accomplish selected work within agreed goals and constraints."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Encourage collaboration, ownership, and peer problem solving."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Servant leadership",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Lead by enabling others rather than directing every task."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Remove blockers, coach practices, facilitate decisions, and support stakeholder alignment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Personal safety",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "People can raise concerns, admit uncertainty, and challenge ideas respectfully."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Use blameless learning, retrospectives, clear working agreements, and active listening."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Backlog refinement and readiness",
+        "body": "Backlog refinement keeps near-term work clear enough for planning and delivery. The team and product owner review upcoming items, split large items, clarify acceptance criteria, identify dependencies, and adjust ordering as new information emerges.\n\nRefinement is not a one-time planning phase. It is recurring preparation that helps sprint planning or flow-based selection move quickly because the highest-value items are already understood well enough to start.",
+        "tip": "In exam scenarios, unclear or oversized backlog items should be refined with the product owner and team before commitment. Do not push vague work into a sprint just to keep people busy.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Readiness cues",
+            "items": [
+              {
+                "code": "Small",
+                "text": "The item can be completed within the team cadence or flow expectations."
+              },
+              {
+                "code": "Clear",
+                "text": "The team understands the desired outcome and acceptance criteria."
+              },
+              {
+                "code": "Valuable",
+                "text": "The item links to stakeholder value, risk reduction, learning, or required enablement."
+              },
+              {
+                "code": "Sequenced",
+                "text": "Dependencies and priority are understood well enough to decide when to pull the work."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Continuous learning and reflective improvement",
+        "body": "Agile teams improve by deliberately learning from each cycle of work. Feedback from users, stakeholders, defects, flow metrics, and retrospectives should lead to small process or product adjustments.\n\nContinuous learning is exam-relevant because it connects agile delivery to PMBOK performance domains: team, planning, delivery, measurement, uncertainty, and stakeholder engagement all improve when teams inspect outcomes and change their behavior.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Turn feedback into improvement",
+            "items": [
+              {
+                "title": "Collect signals",
+                "lines": [
+                  "Use reviews, metrics, conversations, incidents, and retrospectives to find useful evidence."
+                ]
+              },
+              {
+                "title": "Choose one change",
+                "lines": [
+                  "Select a practical improvement the team can try in the next iteration or work cycle."
+                ]
+              },
+              {
+                "title": "Measure the effect",
+                "lines": [
+                  "Check whether the change improved quality, speed, predictability, collaboration, or stakeholder satisfaction."
+                ]
+              },
+              {
+                "title": "Keep or revise",
+                "lines": [
+                  "Adopt what works, adjust what partially works, and discard what does not help."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Retrospectives are about improving how the team works. Sprint reviews are about inspecting the product increment with stakeholders. Keep these purposes separate.",
+            "tone": "accent"
+          }
+        ]
       }
     ],
     "tags": [

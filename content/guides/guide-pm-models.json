@@ -257,6 +257,450 @@
             ]
           }
         ]
+      },
+      {
+        "heading": "Models, methods, and artifacts as one toolkit",
+        "body": "PMBOK frames delivery support as three complementary layers. Models are thinking lenses that help you interpret a situation. Methods are ways of doing work - techniques you run to estimate, gather data, facilitate, or decide. Artifacts are the tangible outputs - plans, baselines, logs, reports, and visual summaries that carry shared meaning.\n\nOn the exam, the right choice is rarely 'use a model' in the abstract. You pick the lens, apply a method, and update the artifact that stakeholders will use. Tailoring means choosing enough structure for the risk and uncertainty, not stacking every tool because it exists.",
+        "tip": "If a scenario names a document (charter, register, baseline), think artifact. If it names a technique (interview, parametric estimate, retrospective), think method. If it names a frame for reasoning (Cynefin, ADKAR, situational leadership), think model.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Three layers, three jobs",
+            "items": [
+              {
+                "title": "Models",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Simplified frames for leadership, change, complexity, motivation, and similar themes."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Name the problem type first, then choose a response style that fits."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Methods",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Repeatable techniques for estimating, analysis, facilitation, and decision support."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Produce evidence and shared understanding you can act on."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Artifacts",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Approved or living documents that capture decisions, baselines, risks, and status."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Align stakeholders, measure performance, and leave an audit trail."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Models, methods, and artifacts are tailored - none are mandatory for every project. Match the tool to uncertainty, governance needs, and stakeholder demand for transparency.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Methods that travel across domains",
+        "body": "Many methods are domain-agnostic: you reuse them for scope, schedule, cost, risk, quality, and stakeholder work. The exam cares that you pick a method that fits data quality and time pressure, not that you memorize a vendor checklist.\n\nThree clusters appear often: data gathering and analysis, estimating, and meetings or events. Each can support planning early and control later.",
+        "tip": "When information is thin, prefer expert judgment, analogous estimates, and facilitated workshops. When history and metrics exist, lean on parametric models and quantitative analysis.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Method cluster -> exam cue",
+            "rows": [
+              {
+                "key": "Data gathering",
+                "value": "Interviews, surveys, observation, document review, focus groups - collect facts and perspectives before deciding."
+              },
+              {
+                "key": "Data analysis",
+                "value": "Root cause, alternatives, variance, trend, and earned value style thinking - turn data into options and forecasts."
+              },
+              {
+                "key": "Estimating",
+                "value": "Analogous (fast, history-based), parametric (formula from drivers), bottom-up (detailed), three-point (uncertainty)."
+              },
+              {
+                "key": "Meetings and events",
+                "value": "Kickoff, standups, reviews, retrospectives, steering - purpose first, agenda and outcomes always documented."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Choosing an estimating approach",
+            "items": [
+              {
+                "title": "Check what you know",
+                "lines": [
+                  "Similar past work available? Analogous is often enough for early ranges.",
+                  "Clear cost or effort drivers with history? Parametric scales cleanly."
+                ]
+              },
+              {
+                "title": "Match precision to the decision",
+                "lines": [
+                  "Rough order of magnitude suits go/no-go and funding envelopes.",
+                  "Definitive estimates fit baseline commits when scope is stable enough."
+                ]
+              },
+              {
+                "title": "Expose uncertainty",
+                "lines": [
+                  "Use ranges or three-point estimates when risk is high.",
+                  "Record assumptions so later variance has a baseline explanation."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Estimating shortcuts",
+            "items": [
+              {
+                "code": "Analogous",
+                "text": "Scale from a similar past project; quick but sensitive to how similar the work really is."
+              },
+              {
+                "code": "Parametric",
+                "text": "Apply a rate or unit cost (for example cost per square foot or hours per feature) using historical data."
+              },
+              {
+                "code": "Bottom-up",
+                "text": "Estimate work packages then roll up; more accurate when decomposition is solid, more effort up front."
+              },
+              {
+                "code": "Three-point",
+                "text": "Optimistic, most likely, and pessimistic values to reflect uncertainty instead of a single false precision."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Baselines, logs, and registers",
+        "body": "Control artifacts turn plans into measurable commitments and living memory. Baselines are approved snapshots used to measure performance. Logs and registers are working stores that track what is happening now - issues, risks, changes, decisions, and assumptions.\n\nThe Performance Measurement Baseline (PMB) typically integrates scope, schedule, and cost. You measure progress against those approved versions, not against the latest draft still in someone's notebook.",
+        "tip": "Changing a baseline is a governance event (change control or agile product decision, depending on approach). Updating a register entry is ordinary delivery hygiene.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Baseline vs living tracker",
+            "items": [
+              {
+                "title": "Baselines",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Approved scope, schedule, and cost references (often as an integrated PMB)."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Compare planned vs actual, compute variance, and decide whether replanning is needed."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Logs",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Chronological records of events such as issues, decisions, or change requests."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Trace accountability, follow open items, and support audits or lessons learned."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Registers",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Structured inventories - risk register, stakeholder register, assumption log as a living set."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Prioritize responses, assign owners, and keep analysis current as the project learns."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Common control artifacts",
+            "rows": [
+              {
+                "key": "Scope baseline",
+                "value": "Approved scope statement, WBS, and WBS dictionary - the agreed product and work boundary."
+              },
+              {
+                "key": "Schedule baseline",
+                "value": "Approved timeline used for start/finish and float comparisons."
+              },
+              {
+                "key": "Cost baseline",
+                "value": "Time-phased approved budget for measuring cost performance."
+              },
+              {
+                "key": "Issue log",
+                "value": "Current problems that need resolution now (not uncertain future events)."
+              },
+              {
+                "key": "Risk register",
+                "value": "Identified risks, analysis, owners, and responses updated through the life cycle."
+              },
+              {
+                "key": "Change log",
+                "value": "Requested and decided changes with status and disposition."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Plans, reports, and strategy artifacts",
+        "body": "Plans describe how the team will deliver. Reports describe how delivery is going. Strategy artifacts connect the project to why the organization funded it.\n\nThe project management plan integrates subsidiary plans (scope, schedule, cost, quality, resources, communications, risk, procurement, stakeholder engagement, and more). You do not invent every subsidiary plan from scratch on every project - you tailor depth to risk and governance. Reports then tell sponsors and teams whether reality still matches the plan and the business case.",
+        "tip": "A status report that only lists activities is weak. Exam-strong reporting answers: progress vs baseline, risks and issues, decisions needed, and forecast to complete.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Artifact family -> job",
+            "rows": [
+              {
+                "key": "Project management plan",
+                "value": "Integrated how-we-will-deliver document; may be lightweight or formal depending on approach."
+              },
+              {
+                "key": "Subsidiary plans",
+                "value": "Focused playbooks for scope, schedule, cost, quality, risk, communications, and similar areas."
+              },
+              {
+                "key": "Status and progress reports",
+                "value": "Regular health snapshots for decisions, not vanity activity lists."
+              },
+              {
+                "key": "Business case / benefits",
+                "value": "Strategy-facing justification: problem, options, value, and ongoing viability checks."
+              },
+              {
+                "key": "Roadmap",
+                "value": "Time-oriented view of major outcomes and dependencies for leadership alignment."
+              },
+              {
+                "key": "Balanced scorecard style views",
+                "value": "Multi-perspective performance (financial, customer, process, learning) when strategy tracking matters."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "From strategy to delivery evidence",
+            "items": [
+              {
+                "title": "Anchor why",
+                "lines": [
+                  "Confirm the business case, success measures, and constraints still hold.",
+                  "Capture strategy intent in charter-level and roadmap-level artifacts."
+                ]
+              },
+              {
+                "title": "Plan how",
+                "lines": [
+                  "Build or tailor the management plan and baselines appropriate to uncertainty.",
+                  "Define how progress, risks, and changes will be reported."
+                ]
+              },
+              {
+                "title": "Report truthfully",
+                "lines": [
+                  "Compare actuals to baselines and highlight decisions needed.",
+                  "Escalate when value or feasibility drifts, not only when a task slips."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Agreements, hierarchy charts, and visual information",
+        "body": "Some artifacts shape relationships and understanding more than day-to-day task tracking. Agreements define mutual expectations between parties. Contracts are legally enforceable agreements - stronger form, higher formality. Hierarchy charts show structure: work breakdown, organizational breakdown, or product breakdown. Visual data turns tables into meaning for busy stakeholders.\n\nUse the lightest agreement that still protects both sides and matches organizational policy. Use hierarchy charts when decomposition and ownership are the confusion. Use visuals when volume of data is drowning the message.",
+        "tip": "MOUs and SLAs can coordinate behavior without being full commercial contracts. If money, liability, or formal remedies are central, expect contract language and change clauses.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Agreement language",
+            "items": [
+              {
+                "code": "Agreement",
+                "text": "Any mutual understanding of roles, expectations, or terms - formal or informal."
+              },
+              {
+                "code": "Contract",
+                "text": "A legally enforceable agreement; often includes acceptance, change, and remedies."
+              },
+              {
+                "code": "MOU",
+                "text": "Memorandum of understanding - alignment document that may not create full legal obligations."
+              },
+              {
+                "code": "SLA",
+                "text": "Service level agreement - measurable service targets and response expectations."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Structure and visuals",
+            "items": [
+              {
+                "title": "Hierarchy charts",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Top-down breakdowns of work (WBS), organization, or product structure."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Clarify scope boundaries, ownership, and how pieces roll up to outcomes."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Visual data",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Charts, dashboards, burn charts, network diagrams, and information radiators."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Surface trends, bottlenecks, and KPI movement faster than raw tables."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Other support artifacts",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Matrices (RACI, stakeholder), assumption logs, checklists, and decision records."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Fill gaps that plans and baselines do not cover day to day."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Applying the toolkit across performance domains",
+        "body": "Performance domains (stakeholders, team, development approach and life cycle, planning, project work, delivery, measurement, uncertainty, and related focus areas) all draw from the same toolkit. A risk register supports uncertainty and measurement. A communication plan supports stakeholders and team. Estimating methods feed planning and measurement. Models help you interpret which domain is under stress.\n\nExam questions often hide the domain inside a story. Your job is to select the model, method, or artifact that restores value with the least unnecessary process.",
+        "tip": "When stuck, ask: Do I need a better lens (model), a better technique (method), or a clearer shared record (artifact)? Then pick the lightest option that fits risk and governance.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Situation -> toolkit move",
+            "rows": [
+              {
+                "key": "Unclear problem type",
+                "value": "Apply a complexity or change model before locking a heavy plan."
+              },
+              {
+                "key": "Thin data for a decision",
+                "value": "Run targeted data gathering, expert judgment, or a facilitated workshop."
+              },
+              {
+                "key": "Performance drifting",
+                "value": "Compare to baselines, update forecasts, and surface variance in a report."
+              },
+              {
+                "key": "Open problems vs uncertain events",
+                "value": "Issues go to the issue log; risks stay in the risk register with responses."
+              },
+              {
+                "key": "Strategy misalignment",
+                "value": "Revisit business case, roadmap, and benefits measures with sponsors."
+              },
+              {
+                "key": "Vendor or partner obligations",
+                "value": "Check agreements and contract change paths before informal promises."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Agile, lean, hybrid, and predictive approaches still use models, methods, and artifacts - they differ in cadence and formality, not in the need for shared understanding and evidence.",
+            "tone": "good"
+          }
+        ]
       }
     ],
     "tags": [
