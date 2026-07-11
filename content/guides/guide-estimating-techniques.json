@@ -175,7 +175,7 @@
           {
             "kind": "formulas",
             "title": "PERT",
-            "note": "O = optimistic, M = most likely, P = pessimistic",
+            "note": "O optimistic; M likely; P pessimistic",
             "items": [
               {
                 "formula": "tE = (O + 4M + P) / 6",

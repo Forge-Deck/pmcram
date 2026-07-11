@@ -234,7 +234,7 @@
           {
             "kind": "formulas",
             "title": "PTA",
-            "note": "Applies to fixed-price incentive-fee (FPIF) contracts",
+            "note": "FPIF contracts only",
             "items": [
               {
                 "formula": "PTA = ((Ceiling Price - Target Price) / Buyer Share) + Target Cost",

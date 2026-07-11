@@ -176,28 +176,46 @@
             ]
           },
           {
-            "kind": "table",
+            "kind": "cards",
             "title": "Cue -> approach",
-            "rows": [
+            "items": [
               {
-                "key": "Sprint, backlog, Product Owner, standup",
-                "value": "Agile."
+                "title": "Agile",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Sprint, backlog, Product Owner, standup"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Baseline, WBS, CCB, critical path, earned value",
-                "value": "Predictive."
+                "title": "Predictive",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Baseline, WBS, CCB, critical path, earned value"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Mixes both, or mentions tailoring",
-                "value": "Hybrid."
-              },
-              {
-                "key": "Part fixed by contract, part on a backlog",
-                "value": "Hybrid - preserve the contract boundary, iterate the rest."
-              },
-              {
-                "key": "Governance roles plus agile ceremonies",
-                "value": "Hybrid - keep approvals, support the ceremonies."
+                "title": "Hybrid",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Mixes both, or mentions tailoring",
+                      "Part fixed by contract, part on a backlog - preserve the contract boundary, iterate the rest.",
+                      "Governance roles plus agile ceremonies - keep approvals, support the ceremonies."
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -385,56 +403,152 @@
             ]
           },
           {
-            "kind": "table",
+            "kind": "cards",
             "title": "When in doubt - the mindset map",
-            "rows": [
+            "items": [
               {
-                "key": "Baseline needs changing",
-                "value": "Change request (not modify directly)."
+                "title": "Change request",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Baseline needs changing - not modify directly."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Current problem",
-                "value": "Issue Log (not Risk Register)."
+                "title": "Issue Log",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Current problem - not Risk Register."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Future uncertainty",
-                "value": "Risk Register (not Issue Log)."
+                "title": "Risk Register",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Future uncertainty - not Issue Log."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "New risk spotted",
-                "value": "Log it in the register first, then act."
+                "title": "Register first, then act",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "New risk spotted"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Agile team struggling",
-                "value": "Diagnose WITH the team (not PM decides / change the timeline)."
+                "title": "Diagnose with the team",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Agile team struggling - not PM decides / change the timeline."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "One person struggling",
-                "value": "A one-on-one (not a team-wide fix)."
+                "title": "One-on-one",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "One person struggling - not a team-wide fix."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Value questioned",
-                "value": "Prototype / MVP (not extend the timeline)."
+                "title": "Prototype / MVP",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Value questioned - not extend the timeline."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Resource pulled by a functional manager",
-                "value": "Talk to the functional manager first."
+                "title": "Talk to the functional manager",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Resource pulled by a functional manager"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "New stakeholder / role",
-                "value": "Register them first; update the Engagement Plan."
+                "title": "Register and update plan",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "New stakeholder / role - register them first; update the Engagement Plan."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Organisation-wide alignment",
-                "value": "PMO (not the Sponsor)."
+                "title": "PMO",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Organisation-wide alignment - not the Sponsor."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "High-risk items in agile",
-                "value": "Address EARLIER."
+                "title": "Address earlier",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "High-risk items in agile"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Conflict",
-                "value": "Collaborate / confront the root cause."
+                "title": "Collaborate / confront",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Conflict - root cause."
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1898,36 +2012,93 @@
             ]
           },
           {
-            "kind": "table",
+            "kind": "cards",
             "title": "The seven quality tools - which to reach for",
-            "rows": [
+            "items": [
               {
-                "key": "Root cause",
-                "value": "Cause-and-effect / fishbone / Ishikawa (one tool, three names)."
+                "title": "Cause-and-effect / fishbone / Ishikawa",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Root cause",
+                      "One tool, three names."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Rank the vital few (80/20)",
-                "value": "Pareto chart."
+                "title": "Pareto chart",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Rank the vital few (80/20)"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Distribution / count of defects",
-                "value": "Histogram."
+                "title": "Histogram",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Distribution / count of defects"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Is the process stable / in control?",
-                "value": "Control chart."
+                "title": "Control chart",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Is the process stable / in control?"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Relationship between two variables",
-                "value": "Scatter diagram."
+                "title": "Scatter diagram",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Relationship between two variables"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Verify steps done / consistency",
-                "value": "Checklist (check sheet)."
+                "title": "Checklist / check sheet",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Verify steps done / consistency"
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Map process steps / trend over time",
-                "value": "Flowchart / run chart."
+                "title": "Flowchart / run chart",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Map process steps / trend over time"
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2017,7 +2188,7 @@
           {
             "kind": "formulas",
             "title": "Formula bank",
-            "note": "Variance = EV minus (PV or AC); index = EV over (PV or AC); below 1 / negative is bad.",
+            "note": "Below 1 or negative = unfavorable",
             "items": [
               {
                 "formula": "CV = EV - AC",
@@ -2226,28 +2397,57 @@
         "tip": "When part of the work is fixed by contract or regulation and part is exploratory, hybrid is often the disciplined answer: govern the fixed boundary, iterate the uncertain rest.",
         "blocks": [
           {
-            "kind": "table",
+            "kind": "cards",
             "title": "Signal -> initial approach bias",
-            "rows": [
+            "items": [
               {
-                "key": "Clear scope, low change, audit trail critical",
-                "value": "Predictive life cycle with formal baselines and change control."
+                "title": "Predictive",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Clear scope, low change, audit trail critical - life cycle with formal baselines and change control."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Solution shape unknown; learning needed",
-                "value": "Iterative or adaptive cycles with frequent feedback."
+                "title": "Iterative or adaptive",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Solution shape unknown; learning needed - cycles with frequent feedback."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Value needed early in usable pieces",
-                "value": "Incremental delivery; thin vertical slices over big-bang release."
+                "title": "Incremental",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Value needed early in usable pieces - delivery; thin vertical slices over big-bang release."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Mixed certainty across components",
-                "value": "Hybrid - predictive for stable parts, agile for uncertain parts."
-              },
-              {
-                "key": "Team new to agile; org is stage-gate driven",
-                "value": "Start hybrid or lighter agile inside existing gates rather than a hard flip."
+                "title": "Hybrid",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Mixed certainty across components - predictive for stable parts, agile for uncertain parts.",
+                      "Team new to agile; org is stage-gate driven - start hybrid or lighter agile inside existing gates rather than a hard flip."
+                    ]
+                  }
+                ]
               }
             ]
           },

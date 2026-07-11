@@ -307,7 +307,7 @@
           {
             "kind": "formulas",
             "title": "EVM essentials",
-            "note": "Use x for multiplication. Interpret negative variances and indexes below 1.0 as unfavorable.",
+            "note": "Below 1.0 or negative = unfavorable",
             "items": [
               {
                 "formula": "SV = EV - PV",
