@@ -8,9 +8,9 @@ Study content for the **PM Cram: PMP Prep** app — glossary terms, flashcards, 
 
 ## How the app uses this repo
 
-1. On sync, the app reads **`content/manifest.json`** (a CI-generated index) — or, as a fallback, **lists the files** in each `content/` subfolder (`glossary/`, `questions/`, `decks/`, `guides/`, `sequences/`, `cases/`, `figuregen/`) via the GitHub Contents API.
-2. It downloads each file from `raw.githubusercontent.com`, parses the JSON array, and **merges all records into a local store** keyed by `id` (questions/cards) or `Term` (glossary).
-3. The store is **cached on-device** so the app works offline; sync only re-fetches files whose hash / `updatedAt` changed.
+1. On sync, the app reads **`content/manifest.json`** (a CI-generated per-file index with sha256 hashes). For a first sync or when many files changed it downloads the single-file **`content/bundle.json`** payload — the entire library in one request. For incremental updates it fetches only the files whose sha256 changed since the last sync.
+2. Records from each file are **merged into a local store** keyed by `id` (questions/cards) or `Term` (glossary).
+3. The merged store is **cached on-device** (filesystem, not AsyncStorage) so the app works offline between syncs.
 
 Because the app merges *all* files, **content is added by dropping in new files — not by editing big ones.** See [Append-only model](#append-only-model).
 
@@ -37,13 +37,15 @@ content/
     sequence.schema.json
     case.schema.json
     figuregen.schema.json
-  manifest.json    # CI-generated sync index (do not edit by hand)
+  bundle.json      # CI-generated full-content payload — the whole library in one file (do not edit by hand)
+  manifest.json    # CI-generated per-file index with sha256 hashes (do not edit by hand)
 scripts/
   validate.mjs           # validates every file against the schemas (+ cross-field checks)
-  generate-manifest.mjs  # regenerates content/manifest.json
+  generate-bundle.mjs    # regenerates content/bundle.json (full payload)
+  generate-manifest.mjs  # regenerates content/manifest.json (per-file index; `npm run manifest` runs both)
 .github/workflows/
   validate.yml     # runs validation on every PR and push
-  manifest.yml     # regenerates + commits the manifest on merge to main
+  manifest.yml     # regenerates + commits bundle.json + manifest.json on merge to main
 CONTRIBUTING.md
 README.md
 ```
@@ -94,8 +96,8 @@ Follow `schema/question.schema.json`. **Options are never stored as a fixed A/B/
 }
 ```
 
-### Dynamic pooled-correct questions (`questions-dynamic-*.json`, ids `dyn-*`)
-A higher-variance flavour of the standard question, used for the large `questions-dynamic-people.json` / `-process.json` / `-business-environment.json` banks (ids all prefixed `dyn-`). Same `question/v1` schema — no new fields — but authored so the runtime engine can draw a fresh-feeling variant every time:
+### Dynamic pooled-correct questions (`questions-dynamic-*.json`, `questions-scenarios-*.json`)
+A higher-variance flavour of the standard question, used for the `questions-dynamic-*` banks (ids prefixed `dyn-`) and the larger `questions-scenarios-*` banks (provenance-neutral ids). Together these make up the **4,058 group-keyed questions** that carry a `group` field. Same `question/v1` schema — no new fields — but authored so the runtime engine can draw a fresh-feeling variant every time:
 
 - **`prompts[]`** — several equivalent wordings of the same scenario; the engine picks **one** at random.
 - **`correct[]`** — a **POOL of interchangeable correct answers** (typically 3), each `{ text, why }`. For a `single` question the engine surfaces just `select` (one) of them, so the "right answer" wording rotates. Every entry must be fully correct on its own.
@@ -105,7 +107,7 @@ A higher-variance flavour of the standard question, used for the large `question
 
 **How it renders:** the engine samples one `prompt` + `select` from `correct` + `present-select` from `distractors`, then **shuffles**. The chosen option's per-option `why` (correct) or `trap` (distractor) renders as **inline feedback** on review.
 
-**STYLE expectations (these are what make a `dyn-*` question fair):**
+**STYLE expectations (these are what make a dynamic/group-keyed question fair):**
 - **All four served options must read as equally-legitimate PMP actions.** Distractors are wrong on **target, sequence, owner, scope, or timing** — not because they're obviously silly. No absolutes ("always/never/immediately"), no covert/unethical tells, no self-justifying phrasing that telegraphs the key.
 - **Per-draw LENGTH PARITY.** Because only one `correct` and a sample of distractors are shown together, the *correct answer must not be the longest or most detailed option*. Rule of thumb: **at most 2 distractors may be shorter than the longest correct** — keep all four options comparable in length and specificity so length never signals the answer.
 
@@ -191,6 +193,8 @@ The front is the prompt (e.g. the formula's name); `formula` is revealed on the 
 
 ### Study guides (`guides/`)
 Read-and-absorb material that isn't recall-tested — mindset, agile, exam strategy, charts & diagrams. Follow `schema/guide.schema.json`. A guide has a `title` (its natural key), a `category`, and an array of `sections`, each with a `heading`, a `body`, an optional `tip` (highlighted exam-tip callout), and an optional `figure`.
+
+Guides with `"category": "Exam"` appear in the dedicated **Exam Prep** screen in the app (overviews, tips & tricks, hard-question breakdowns, cheat sheets) and are excluded from the main Guides list. All other categories appear in the main Guides list, filterable by topic tag.
 
 Body formatting is deliberately simple (no markdown): a **blank line** starts a new paragraph, and lines beginning with `- ` render as a bullet list.
 
@@ -290,17 +294,19 @@ See the worked templates in `content/figuregen/` and the engine (expression func
 ```bash
 npm install                          # one-time: installs the validator (ajv)
 npm run validate                     # alias for: node scripts/validate.mjs
-npm run manifest                     # alias for: node scripts/generate-manifest.mjs
+npm run bundle                       # alias for: node scripts/generate-bundle.mjs (full payload only)
+npm run manifest                     # alias for: generate-bundle.mjs && generate-manifest.mjs (runs both)
 ```
 
 Or call the scripts directly:
 
 ```bash
 node scripts/validate.mjs            # validate every file against the schemas + cross-field checks (must pass / exits non-zero on error)
-node scripts/generate-manifest.mjs   # regenerate content/manifest.json (CI does this on merge)
+node scripts/generate-bundle.mjs     # regenerate content/bundle.json (full-content payload)
+node scripts/generate-manifest.mjs   # regenerate content/manifest.json (per-file index; CI runs both on merge)
 ```
 
-**Contributor workflow:** edit or add a JSON file → run `node scripts/validate.mjs` and make sure it passes → regenerate the index with `node scripts/generate-manifest.mjs` → open a PR. CI runs the same validation on every pull request and push; on push to `main` it **regenerates and commits `content/manifest.json`** for you, so you never hand-edit the manifest. See **[CONTRIBUTING.md](./CONTRIBUTING.md)** to submit a file.
+**Contributor workflow:** edit or add a JSON file → run `node scripts/validate.mjs` and make sure it passes → regenerate with `npm run manifest` → open a PR. CI runs the same validation on every pull request and push; on push to `main` it **regenerates and commits `content/bundle.json` + `content/manifest.json`** for you, so you never hand-edit either file. See **[CONTRIBUTING.md](./CONTRIBUTING.md)** to submit a file.
 
 ---
 

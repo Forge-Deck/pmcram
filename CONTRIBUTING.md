@@ -21,7 +21,7 @@ You can put 1 record or 50 in a file. New file = the app picks it up on next syn
 ## Naming
 
 - Contribution files: `contrib-YYYY-MM-yourhandle.json` (e.g. `contrib-2026-06-jdoe.json`).
-- Curated/topic files (maintainers): `questions-<topic>.json`, `glossary-<range>.json`, `cards-<deck>.json`.
+- Curated/topic files (maintainers): `questions-<topic>.json`, `questions-scenarios-<domain>.json`, `glossary-<range>.json`, `cards-<deck>.json`.
 
 ## IDs and keys
 
@@ -67,6 +67,7 @@ Plain `question/v1` records grouped into `questions-acronyms.json`, `questions-f
 - Each `sections` entry has a `heading`, a `body`, and an optional `tip`. In `body`, a blank line starts a paragraph and `- ` lines become bullets.
 - A section may also carry a `figure` (`{svg|image, caption}`) — see **Figures** in the README for the rules (theme-aware SVG via `currentColor`, `viewBox` sets the aspect, single-quote attributes).
 - Write original wording in your own voice; keep it current to the ECO-based exam.
+- Use `"category": "Exam"` for exam-day prep content (overviews, tips & tricks, hard-question breakdowns, cheat sheets). These guides appear in the dedicated **Exam Prep** screen in the app, not in the main Guides list.
 
 ### Sequencing questions (`schema/sequence.schema.json`)
 - A `prompt` plus a `steps[]` array **in the correct order** (3–8 steps); the app shuffles them for the user to rearrange. Don't pre-shuffle.
@@ -93,10 +94,11 @@ Plain `question/v1` records grouped into `questions-acronyms.json`, `questions-f
 ```bash
 npm install                          # one-time
 node scripts/validate.mjs            # (= npm run validate) schemas + cross-field rules + duplicate keys; must exit clean
-node scripts/generate-manifest.mjs   # (= npm run manifest) optional locally — regenerates content/manifest.json
+node scripts/generate-bundle.mjs     # (= npm run bundle) optional locally — regenerates content/bundle.json
+node scripts/generate-manifest.mjs   # optional locally — regenerates content/manifest.json (`npm run manifest` runs both)
 ```
 
-The full workflow: **edit/add JSON → `node scripts/validate.mjs` passes → `node scripts/generate-manifest.mjs` → open a PR.** CI runs the same validation on your pull request, so fixing it locally first is the fastest path to merge. You don't have to commit `content/manifest.json` — **CI regenerates and commits it on push to `main`** — but running the manifest script locally is a good final check.
+The full workflow: **edit/add JSON → `node scripts/validate.mjs` passes → `npm run manifest` → open a PR.** CI runs the same validation on your pull request, so fixing it locally first is the fastest path to merge. You don't have to commit `content/bundle.json` or `content/manifest.json` — **CI regenerates and commits both on push to `main`** — but running `npm run manifest` locally is a good final check.
 
 ## PR checklist
 
@@ -105,7 +107,7 @@ The full workflow: **edit/add JSON → `node scripts/validate.mjs` passes → `n
 - [ ] No duplicate `Term` (glossary) already in the repo. (Question/card ids are optional and auto-derived — only check for dupes if you set one explicitly.)
 - [ ] Sources cited; no copyrighted text reproduced.
 - [ ] Questions: `select` / `present` / `correct` / `distractors` counts are consistent, and `domain` + `subDomain` are set from the 26-item taxonomy.
-- [ ] Dynamic (`dyn-*`) questions: pooled `correct`/`distractors`, a `group`, equal-legitimacy options, and per-draw length parity.
+- [ ] Dynamic (group-keyed) questions: pooled `correct`/`distractors`, a `group`, equal-legitimacy options, and per-draw length parity.
 
 ## Scope & conduct
 
