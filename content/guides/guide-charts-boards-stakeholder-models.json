@@ -1,0 +1,1014 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Charts, Boards & Stakeholder Models",
+    "category": "Charts & Diagrams",
+    "summary": "A curated PMP guide to the exam visuals that turn project data, flow, ownership, risk and stakeholder analysis into decisions.",
+    "intro": "Use these charts, boards and models as tailored artifacts, not paperwork. The exam usually asks what the visual tells you and what action protects value next.",
+    "sections": [
+      {
+        "heading": "Why these visuals matter",
+        "body": "PMBOK 8 is principle- and outcome-based. Charts, boards and matrices are artifacts you tailor to context so the team can see work, understand signals and make timely decisions. Most questions are not asking you to admire the visual - they are asking how to use it to protect value.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Visual -> what it answers -> where it fits",
+            "rows": [
+              {
+                "key": "Pareto",
+                "value": "Which few causes drive most defects? -> Scope / Quality."
+              },
+              {
+                "key": "Control chart",
+                "value": "Is the process stable and in control? -> Monitoring & controlling / Quality."
+              },
+              {
+                "key": "Burndown",
+                "value": "How much work is left this sprint? -> Schedule / monitoring."
+              },
+              {
+                "key": "Burn-up",
+                "value": "How much is done, and did scope change? -> Scope / monitoring."
+              },
+              {
+                "key": "Fishbone",
+                "value": "What are the possible root causes? -> Risk / Scope."
+              },
+              {
+                "key": "Kanban board",
+                "value": "How is work flowing? -> Governance + Scope."
+              },
+              {
+                "key": "RACI / RAM",
+                "value": "Who does what, and who owns the outcome? -> Resources."
+              },
+              {
+                "key": "Power-interest grid",
+                "value": "Where should stakeholder engagement effort go? -> Stakeholders."
+              },
+              {
+                "key": "Probability-impact matrix",
+                "value": "Which risks get a response first? -> Risk."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tailoring reminder",
+            "text": "Artifacts are chosen, not mandated. Pick the lightest visual that fits the delivery approach and drives a decision; be suspicious of an answer that says to always produce the full matrix.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Pareto chart",
+        "body": "A Pareto chart is a bar chart of causes ordered from most to least frequent, with a line showing the running cumulative percentage. It is a quality tool used to find which few causes drive most of the problems, so you fix those first. It supports the Scope domain and the Embed Quality principle by focusing prevention where it pays off.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='18' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.5'/><rect x='52' y='52' width='34' height='108' fill='#1F5FA8'/><rect x='100' y='82' width='34' height='78' fill='#1F5FA8'/><rect x='148' y='112' width='34' height='48' fill='#1F5FA8'/><rect x='196' y='134' width='34' height='26' fill='#1F5FA8'/><rect x='244' y='148' width='34' height='12' fill='#1F5FA8'/><polyline points='69,50 117,32 165,23 213,19 261,17' stroke='#B5462F' stroke-width='2'/><circle cx='69' cy='50' r='3' fill='#B5462F'/><circle cx='117' cy='32' r='3' fill='#B5462F'/><circle cx='165' cy='23' r='3' fill='#B5462F'/><circle cx='213' cy='19' r='3' fill='#B5462F'/><circle cx='261' cy='17' r='3' fill='#B5462F'/><text x='170' y='182' fill='currentColor' font-size='11' text-anchor='middle'>causes — most frequent first</text></svg>",
+          "caption": "Bars: frequency (descending). Line: cumulative %."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "How to read it",
+            "items": [
+              {
+                "title": "Pareto signals",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Bars",
+                    "lines": [
+                      "Frequency of each cause, tallest on the left, descending to the right."
+                    ]
+                  },
+                  {
+                    "label": "Line",
+                    "lines": [
+                      "Cumulative percentage climbing left to right, flattening near 100 percent."
+                    ]
+                  },
+                  {
+                    "label": "Decision",
+                    "lines": [
+                      "Attack the tall left-hand bars first for the biggest quality gain."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Pareto = the 80/20 rule: focus on the 'vital few' causes on the left, not the 'trivial many' on the right. It ranks discrete categories, not a trend over time, and is often paired after a fishbone: fishbone finds candidate causes, Pareto ranks the ones that actually occur.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Control chart",
+        "body": "A control chart shows measurements over time with a centre line, or process mean, plus upper and lower control limits. It tells you whether a process is stable and 'in control'. This is monitoring and controlling in action: distinguish normal variation from a signal worth investigating.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='30' x2='300' y2='30' stroke='#B5462F' stroke-width='1.4' stroke-dasharray='4 4'/><line x1='40' y1='150' x2='300' y2='150' stroke='#B5462F' stroke-width='1.4' stroke-dasharray='4 4'/><line x1='40' y1='90' x2='300' y2='90' stroke='currentColor' stroke-width='1.4'/><polyline points='55,96 82,78 109,102 136,74 163,96 190,70 217,100 244,22 271,86' stroke='#1F5FA8' stroke-width='2'/><circle cx='55' cy='96' r='3' fill='#1F5FA8'/><circle cx='82' cy='78' r='3' fill='#1F5FA8'/><circle cx='109' cy='102' r='3' fill='#1F5FA8'/><circle cx='136' cy='74' r='3' fill='#1F5FA8'/><circle cx='163' cy='96' r='3' fill='#1F5FA8'/><circle cx='190' cy='70' r='3' fill='#1F5FA8'/><circle cx='217' cy='100' r='3' fill='#1F5FA8'/><circle cx='244' cy='22' r='4' fill='#B5462F'/><circle cx='271' cy='86' r='3' fill='#1F5FA8'/><text x='304' y='30' fill='#B5462F' font-size='10' text-anchor='end'>UCL</text><text x='304' y='150' fill='#B5462F' font-size='10' text-anchor='end'>LCL</text><text x='304' y='86' fill='currentColor' font-size='10' text-anchor='end'>mean</text></svg>",
+          "caption": "The red point above the UCL is out of control."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Control signals",
+            "items": [
+              {
+                "title": "In control",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Points inside the control limits.",
+                      "Randomly scattered around the mean."
+                    ]
+                  },
+                  {
+                    "label": "Action",
+                    "lines": [
+                      "Leave it alone - only common-cause variation is present."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Out of control",
+                "tone": "bad",
+                "groups": [
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "A point beyond UCL or LCL.",
+                      "A non-random run, such as the rule of seven."
+                    ]
+                  },
+                  {
+                    "label": "Action",
+                    "lines": [
+                      "Investigate the special cause; assign and remove it."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Control-chart terms",
+            "items": [
+              {
+                "code": "UCL / LCL",
+                "text": "Upper / lower control limits - the boundary of expected variation, set from the process, usually +/- 3 sigma."
+              },
+              {
+                "code": "Spec limits",
+                "text": "Customer requirement limits - not the same as control limits; control limits are process-driven."
+              },
+              {
+                "code": "Rule of seven",
+                "text": "Seven points in a row on one side of the mean signals a non-random trend, even inside the limits."
+              },
+              {
+                "code": "Common cause",
+                "text": "Normal, inherent variation; do not react to it."
+              },
+              {
+                "code": "Special cause",
+                "text": "An assignable, unusual event to investigate."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Out of control = a point beyond UCL/LCL, or the rule of seven. Do not confuse control limits, the process voice, with specification limits, the customer voice. Reacting to common-cause variation, or 'tampering', makes a stable process worse.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Cause-and-effect fishbone",
+        "body": "A cause-and-effect diagram, also called a fishbone or Ishikawa diagram, is a root-cause tool. The effect, or problem, sits at the head; angled bones group possible causes into categories, with finer sub-causes branching off. It structures brainstorming so you investigate causes by category rather than at random.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 340 200' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='16' y1='100' x2='266' y2='100' stroke='currentColor' stroke-width='1.6'/><polygon points='266,94 278,100 266,106' fill='currentColor'/><rect x='280' y='84' width='52' height='32' rx='4' stroke='currentColor' stroke-width='1.4'/><text x='306' y='104' fill='currentColor' font-size='10' text-anchor='middle'>Effect</text><line x1='70' y1='44' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='44' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='70' y1='156' x2='104' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><line x1='170' y1='156' x2='204' y2='100' stroke='#1F5FA8' stroke-width='1.5'/><text x='66' y='38' fill='currentColor' font-size='10' text-anchor='middle'>People</text><text x='166' y='38' fill='currentColor' font-size='10' text-anchor='middle'>Process</text><text x='66' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Tools</text><text x='166' y='170' fill='currentColor' font-size='10' text-anchor='middle'>Environment</text></svg>",
+          "caption": "Causes grouped on bones; the problem (effect) at the head."
+        },
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Common cause categories",
+            "rows": [
+              {
+                "key": "Manufacturing (6M)",
+                "value": "Machine, Method, Material, Manpower, Measurement, Mother Nature (Environment)."
+              },
+              {
+                "key": "Service / generic",
+                "value": "People, Process, Tools, Environment."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Fishbone = Ishikawa = cause-and-effect diagram. It explores possible causes; it does not prove them. Pair it with data, such as Pareto or 5 Whys, to confirm.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Burndown chart",
+        "body": "A burndown chart shows work remaining over a sprint or release. The straight ideal line runs from all the work down to zero; the actual line is the real remaining work each day. It is a Schedule-domain progress artifact tailored to an adaptive approach, giving the team fast, self-managed feedback.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='44' y1='34' x2='296' y2='158' stroke='currentColor' stroke-width='1.4' stroke-dasharray='5 4'/><polyline points='44,34 90,52 136,86 182,96 228,128 296,158' stroke='#1F5FA8' stroke-width='2'/><text x='250' y='52' fill='currentColor' font-size='10'>ideal</text><text x='150' y='80' fill='#1F5FA8' font-size='10'>actual</text><text x='170' y='182' fill='currentColor' font-size='11' text-anchor='middle'>sprint days</text></svg>",
+          "caption": "Work remaining vs the ideal line, across the sprint."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "How to read it",
+            "items": [
+              {
+                "title": "Burndown signals",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Ideal line",
+                    "lines": [
+                      "Straight line from total work down to zero at sprint end."
+                    ]
+                  },
+                  {
+                    "label": "Actual above ideal",
+                    "lines": [
+                      "More work remaining than planned = behind."
+                    ]
+                  },
+                  {
+                    "label": "Actual below ideal",
+                    "lines": [
+                      "Less work remaining than planned = ahead."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Burndown shows work remaining, trending down toward zero. It can hide scope changes: a flat line could mean added scope offsetting progress, so use burn-up to tell them apart.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Burn-up chart",
+        "body": "A burn-up chart plots work completed against a separate line for total scope. Because scope is its own line, you can see scope changes that a burndown would hide, directly supporting the Scope domain's focus on deliverables and realised value.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 190' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='40' y1='20' x2='40' y2='160' stroke='currentColor' stroke-width='1.5'/><line x1='40' y1='160' x2='300' y2='160' stroke='currentColor' stroke-width='1.5'/><polyline points='44,60 170,60 170,42 296,42' stroke='#B5462F' stroke-width='1.6' stroke-dasharray='5 4'/><polyline points='44,158 92,140 140,110 188,96 236,70 296,46' stroke='#2F6F5E' stroke-width='2'/><text x='250' y='36' fill='#B5462F' font-size='10'>scope</text><text x='150' y='118' fill='#2F6F5E' font-size='10'>completed</text><text x='170' y='182' fill='currentColor' font-size='11' text-anchor='middle'>sprint days</text></svg>",
+          "caption": "Completed work rising toward total scope (which steps up when scope is added)."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "How to read it",
+            "items": [
+              {
+                "title": "Burn-up signals",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Completed line",
+                    "lines": [
+                      "Rises over time toward the scope line."
+                    ]
+                  },
+                  {
+                    "label": "Scope line",
+                    "lines": [
+                      "Steps up when work is added, down when removed."
+                    ]
+                  },
+                  {
+                    "label": "Done when",
+                    "lines": [
+                      "The completed line meets the scope line."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Burn-up separates progress from scope. A jump in the top line means scope was added, not that the team slowed down. The gap between the two lines is the remaining work.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Kanban board",
+        "body": "A Kanban board pulls work through columns, typically To Do, In Progress and Done. A work-in-progress limit caps how many items a column may hold, exposing bottlenecks and keeping the team focused on finishing before starting.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 330 200' xmlns='http://www.w3.org/2000/svg' fill='none'><text x='58' y='20' fill='currentColor' font-size='11' text-anchor='middle'>To Do</text><text x='165' y='20' fill='currentColor' font-size='11' text-anchor='middle'>In Progress</text><text x='165' y='33' fill='#B5462F' font-size='9' text-anchor='middle'>WIP limit 2</text><text x='272' y='20' fill='currentColor' font-size='11' text-anchor='middle'>Done</text><rect x='10' y='40' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='117' y='40' width='96' height='150' rx='5' stroke='#B5462F' stroke-width='1.3'/><rect x='224' y='40' width='96' height='150' rx='5' stroke='currentColor' stroke-width='1.2'/><rect x='18' y='50' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='18' y='80' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='18' y='110' width='80' height='24' rx='3' stroke='currentColor' stroke-width='1'/><rect x='125' y='50' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='125' y='80' width='80' height='24' rx='3' stroke='#1F5FA8' stroke-width='1.3'/><rect x='232' y='50' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/><rect x='232' y='80' width='80' height='24' rx='3' fill='#E7F1ED' stroke='#2F6F5E' stroke-width='1'/></svg>",
+          "caption": "Cards pulled left to right; the middle column is capped at its WIP limit."
+        },
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "How the board works",
+            "items": [
+              {
+                "title": "Visualise the work",
+                "lines": [
+                  "Every item is a card in a column.",
+                  "Columns model your real workflow stages."
+                ]
+              },
+              {
+                "title": "Limit WIP",
+                "lines": [
+                  "Cap each column's card count.",
+                  "Lower the limit to surface bottlenecks."
+                ]
+              },
+              {
+                "title": "Pull, don't push",
+                "lines": [
+                  "Pull a new card only when capacity frees up.",
+                  "Finish before starting."
+                ]
+              },
+              {
+                "title": "Manage flow",
+                "lines": [
+                  "Watch where cards pile up.",
+                  "Improve the slowest stage first."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Kanban core practices",
+            "rows": [
+              {
+                "key": "Columns",
+                "value": "To Do -> In Progress -> Done, or columns that mirror your workflow."
+              },
+              {
+                "key": "WIP limit",
+                "value": "The key lever; a capped column exposes the constraint."
+              },
+              {
+                "key": "Pull system",
+                "value": "New work starts only when downstream frees up."
+              },
+              {
+                "key": "Metrics",
+                "value": "Lead time, cycle time and throughput; a cumulative flow diagram shows trends."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Kanban = visualise flow, limit WIP, pull work. A WIP limit is the primary lever; reduce bottlenecks by finishing work, not by starting more.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "RACI responsibility assignment matrix",
+        "body": "A RACI is a responsibility assignment matrix that maps activities to roles and records each role's involvement. Rows are activities or deliverables; columns are roles or people. The matrix clarifies who does the work, who owns the result, who gives input and who is kept informed.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 330 175' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='10' y1='10' x2='320' y2='10' stroke='currentColor' stroke-width='1'/><line x1='10' y1='40' x2='320' y2='40' stroke='currentColor' stroke-width='1'/><line x1='10' y1='74' x2='320' y2='74' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='108' x2='320' y2='108' stroke='currentColor' stroke-width='0.8'/><line x1='10' y1='142' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><line x1='10' y1='10' x2='10' y2='142' stroke='currentColor' stroke-width='1'/><line x1='120' y1='10' x2='120' y2='142' stroke='currentColor' stroke-width='1'/><line x1='170' y1='10' x2='170' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='220' y1='10' x2='220' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='270' y1='10' x2='270' y2='142' stroke='currentColor' stroke-width='0.6'/><line x1='320' y1='10' x2='320' y2='142' stroke='currentColor' stroke-width='1'/><text x='145' y='30' fill='currentColor' font-size='10' text-anchor='middle'>PM</text><text x='195' y='30' fill='currentColor' font-size='9' text-anchor='middle'>Sponsor</text><text x='245' y='30' fill='currentColor' font-size='10' text-anchor='middle'>Team</text><text x='295' y='30' fill='currentColor' font-size='10' text-anchor='middle'>QA</text><text x='16' y='61' fill='currentColor' font-size='10'>Charter</text><text x='16' y='95' fill='currentColor' font-size='10'>Plan</text><text x='16' y='129' fill='currentColor' font-size='10'>Build</text><text x='145' y='61' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='195' y='61' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='245' y='61' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='295' y='61' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='95' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='95' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='245' y='95' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='95' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='145' y='129' fill='#B5462F' font-size='11' text-anchor='middle'>A</text><text x='195' y='129' fill='currentColor' font-size='11' text-anchor='middle'>I</text><text x='245' y='129' fill='#1F5FA8' font-size='11' text-anchor='middle'>R</text><text x='295' y='129' fill='currentColor' font-size='11' text-anchor='middle'>C</text><text x='165' y='162' fill='currentColor' font-size='9' text-anchor='middle'>R responsible · A accountable · C consulted · I informed</text></svg>",
+          "caption": "Roles across the top, activities down the side; one A per row."
+        },
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "The four letters",
+            "items": [
+              {
+                "code": "R",
+                "text": "Responsible - does the work. One or more per activity."
+              },
+              {
+                "code": "A",
+                "text": "Accountable - owns the outcome. Exactly one per activity."
+              },
+              {
+                "code": "C",
+                "text": "Consulted - gives input; two-way communication."
+              },
+              {
+                "code": "I",
+                "text": "Informed - kept in the loop; one-way communication."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Worked example",
+            "items": [
+              {
+                "title": "RACI sample",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Charter",
+                    "lines": [
+                      "PM: R",
+                      "Sponsor: A",
+                      "Team: C",
+                      "QA: I"
+                    ]
+                  },
+                  {
+                    "label": "Plan",
+                    "lines": [
+                      "PM: A",
+                      "Sponsor: C",
+                      "Team: R",
+                      "QA: I"
+                    ]
+                  },
+                  {
+                    "label": "Build",
+                    "lines": [
+                      "PM: A",
+                      "Sponsor: I",
+                      "Team: R",
+                      "QA: C"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Reading the grid",
+            "rows": [
+              {
+                "key": "One A per row",
+                "value": "Single point of accountability; it cannot be shared."
+              },
+              {
+                "key": "Empty row",
+                "value": "No owner - a gap to fix."
+              },
+              {
+                "key": "Overloaded column",
+                "value": "One role is R on too much - a bottleneck."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Exactly one 'A' per row. Several can be R, C or I, but accountability cannot be shared. RACI is a form of RAM; a RAM can also roll up at a summary level.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Probability-impact matrix",
+        "body": "A probability-impact matrix scores each risk by probability and impact, giving a risk score that sets priority. It drives qualitative risk analysis: which risks get a response first. Both threats and opportunities live on the matrix.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Priority zones",
+            "items": [
+              {
+                "title": "P x I priority",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Red - high",
+                    "lines": [
+                      "High probability and/or high impact.",
+                      "Respond first; assign an owner now."
+                    ]
+                  },
+                  {
+                    "label": "Yellow - medium",
+                    "lines": [
+                      "Moderate score.",
+                      "Watch and plan a response."
+                    ]
+                  },
+                  {
+                    "label": "Green - low",
+                    "lines": [
+                      "Low probability and impact.",
+                      "Accept or add to a watch list."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Scoring",
+            "note": "Same math sizes threats and opportunities.",
+            "items": [
+              {
+                "formula": "Risk score = Probability x Impact",
+                "lines": [
+                  "Higher score = higher priority.",
+                  "Rank all risks, then respond top-down."
+                ]
+              },
+              {
+                "formula": "EMV = Probability x Impact ($)",
+                "lines": [
+                  "Expected monetary value.",
+                  "Sum identified risks to size contingency reserve."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Response strategies",
+            "rows": [
+              {
+                "key": "Threats",
+                "value": "Escalate, Avoid, Transfer, Mitigate, Accept."
+              },
+              {
+                "key": "Opportunities",
+                "value": "Escalate, Exploit, Share, Enhance, Accept."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Probability x Impact sets qualitative priority. The matrix ranks risks; it does not resolve them by itself. New risk -> register it, analyse P and I, then plan the response and assign an owner.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Power-interest grid",
+        "body": "The power-interest grid plots stakeholders by their power to affect the project and their interest in it. Each quadrant implies a different engagement strategy. Close relatives swap one axis: the Power/Influence grid uses active involvement instead of interest, and the Influence/Impact grid uses ability to change the plan.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 205' xmlns='http://www.w3.org/2000/svg' fill='none'><line x1='44' y1='16' x2='44' y2='172' stroke='currentColor' stroke-width='1.5'/><line x1='44' y1='172' x2='306' y2='172' stroke='currentColor' stroke-width='1.5'/><line x1='175' y1='16' x2='175' y2='172' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><line x1='44' y1='94' x2='306' y2='94' stroke='currentColor' stroke-width='0.8' stroke-dasharray='4 4'/><text x='109' y='58' fill='#B5462F' font-size='10' text-anchor='middle'>Keep Satisfied</text><text x='240' y='58' fill='#1F5FA8' font-size='10' text-anchor='middle'>Manage Closely</text><text x='109' y='136' fill='currentColor' font-size='10' text-anchor='middle'>Monitor</text><text x='240' y='136' fill='#2F6F5E' font-size='10' text-anchor='middle'>Keep Informed</text><text x='26' y='94' fill='currentColor' font-size='11' text-anchor='middle' transform='rotate(-90 26 94)'>Power</text><text x='175' y='195' fill='currentColor' font-size='11' text-anchor='middle'>Interest</text></svg>",
+          "caption": "Power up the side, interest across the bottom; each quadrant has its own strategy."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Quadrant strategies",
+            "items": [
+              {
+                "title": "Manage closely",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "High power, high interest",
+                    "lines": [
+                      "Your key players.",
+                      "Involve them and meet their expectations.",
+                      "Partner and collaborate; these drive success."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Keep satisfied",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "High power, low interest",
+                    "lines": [
+                      "Enough attention that they don't become blockers.",
+                      "Don't overload them, but don't lose them."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Keep informed",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Low power, high interest",
+                    "lines": [
+                      "Engaged supporters and the 'affected'.",
+                      "Communicate regularly; useful allies.",
+                      "Consult on detail."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Monitor",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Low power, low interest",
+                    "lines": [
+                      "Minimal effort.",
+                      "Watch for movement."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Related classification models",
+            "rows": [
+              {
+                "key": "Power-interest",
+                "value": "Authority vs concern, the default grid."
+              },
+              {
+                "key": "Power-influence",
+                "value": "Authority vs active involvement."
+              },
+              {
+                "key": "Influence-impact",
+                "value": "Involvement vs ability to change the project."
+              },
+              {
+                "key": "Salience model",
+                "value": "Power, urgency and legitimacy combined."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "High power + high interest = manage closely. High power + low interest = keep satisfied. The grid feeds the engagement plan; the stakeholder register still says who they are. Re-plot as positions change.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Salience model",
+        "body": "The salience model adds a third dimension. It scores each stakeholder on power, legitimacy and urgency, then uses the overlaps of a Venn diagram to set priority. The more attributes someone holds, the more salient they are.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 227 238' xmlns='http://www.w3.org/2000/svg'><circle cx='68' cy='86.5' r='56' fill='#1F5FA8' fill-opacity='0.12' stroke='#1F5FA8' stroke-width='1.2'/><circle cx='148' cy='86.5' r='56' fill='#2F6F5E' fill-opacity='0.12' stroke='#2F6F5E' stroke-width='1.2'/><circle cx='108' cy='148.5' r='56' fill='#B5462F' fill-opacity='0.12' stroke='#B5462F' stroke-width='1.2'/><text x='68' y='22.5' fill='#1F5FA8' font-size='10.5' text-anchor='middle'>Power</text><text x='148' y='22.5' fill='#2F6F5E' font-size='10.5' text-anchor='middle'>Legitimacy</text><text x='108' y='222.5' fill='#B5462F' font-size='10.5' text-anchor='middle'>Urgency</text><text x='32' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dormant</text><text x='178' y='92.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Discretionary</text><text x='108' y='186.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Demanding</text><rect x='89' y='55.5' width='38' height='10' fill='%BG%'/><text x='108' y='63.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dominant</text><rect x='48' y='125.5' width='44' height='10' fill='%BG%'/><text x='70' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dangerous</text><rect x='124' y='125.5' width='44' height='10' fill='%BG%'/><text x='146' y='133.5' fill='currentColor' font-size='7.5' text-anchor='middle'>Dependent</text><rect x='81' y='99.5' width='54' height='12' fill='%BG%'/><text x='108' y='108.5' fill='currentColor' font-size='8.5' font-weight='bold' text-anchor='middle'>Definitive</text></svg>",
+          "caption": "Three attributes overlap; a stakeholder with all three (Definitive) is highest priority."
+        },
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Three attributes",
+            "rows": [
+              {
+                "key": "Power",
+                "value": "Can they influence the outcome or withhold resources?"
+              },
+              {
+                "key": "Legitimacy",
+                "value": "Is their involvement proper and authorised, such as a sponsor, owner or regulator?"
+              },
+              {
+                "key": "Urgency",
+                "value": "Is their claim time-critical, or does only the eventual outcome matter regardless of timing?"
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Stakeholder types",
+            "items": [
+              {
+                "title": "Latent - one attribute",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Dormant (power only)",
+                    "lines": [
+                      "e.g. a senior manager in another division."
+                    ]
+                  },
+                  {
+                    "label": "Discretionary (legitimacy only)",
+                    "lines": [
+                      "e.g. an NGO, or a team member giving feedback."
+                    ]
+                  },
+                  {
+                    "label": "Demanding (urgency only)",
+                    "lines": [
+                      "e.g. the CEO's assistant chasing information."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Expectant - two attributes",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Dominant (power + legitimacy)",
+                    "lines": [
+                      "e.g. your boss, or a government clearance office."
+                    ]
+                  },
+                  {
+                    "label": "Dependent (legitimacy + urgency)",
+                    "lines": [
+                      "No power, so they need a champion or coalition.",
+                      "e.g. local residents affected by construction."
+                    ]
+                  },
+                  {
+                    "label": "Dangerous (power + urgency)",
+                    "lines": [
+                      "No legitimacy - coercive, may bypass process.",
+                      "e.g. a group threatening disruptive action."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Definitive - all three",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Definitive",
+                    "lines": [
+                      "The centre of the diagram, your highest priority.",
+                      "e.g. your executive sponsor or the key customer."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Engagement by salience",
+            "rows": [
+              {
+                "key": "Manage closely",
+                "value": "Definitive and Dependent."
+              },
+              {
+                "key": "Keep satisfied",
+                "value": "Dangerous - keep satisfied to contain the threat."
+              },
+              {
+                "key": "Keep informed",
+                "value": "Dominant and Demanding."
+              },
+              {
+                "key": "Monitor",
+                "value": "Dormant and Discretionary."
+              },
+              {
+                "key": "Non-stakeholder",
+                "value": "Outside all three circles - no power, legitimacy or urgency, so no active engagement."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Urgency is volatile",
+            "text": "Urgency spikes with deadlines and crises. A Discretionary or Dependent stakeholder can jump to Definitive overnight, so re-score regularly.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Stakeholder Cube",
+        "body": "The Stakeholder Cube takes the 2D Power/Interest grid and adds attitude: supportive backer versus opposed blocker. Combining power, interest and attitude gives eight stakeholder characters. Its value is that two stakeholders with identical power and interest may need opposite handling depending on whether they back or block you.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 212' xmlns='http://www.w3.org/2000/svg'><line x1='40' y1='155' x2='120' y2='155' stroke='currentColor' stroke-width='1' opacity='0.55'/><line x1='120' y1='155' x2='120' y2='75' stroke='currentColor' stroke-width='1' opacity='0.55'/><line x1='120' y1='75' x2='40' y2='75' stroke='currentColor' stroke-width='1' opacity='0.55'/><line x1='40' y1='75' x2='40' y2='155' stroke='currentColor' stroke-width='1' opacity='0.55'/><line x1='78' y1='125' x2='158' y2='125' stroke='currentColor' stroke-width='1' opacity='0.28'/><line x1='158' y1='125' x2='158' y2='45' stroke='currentColor' stroke-width='1' opacity='0.28'/><line x1='158' y1='45' x2='78' y2='45' stroke='currentColor' stroke-width='1' opacity='0.28'/><line x1='78' y1='45' x2='78' y2='125' stroke='currentColor' stroke-width='1' opacity='0.28'/><line x1='40' y1='155' x2='78' y2='125' stroke='currentColor' stroke-width='1' opacity='0.4'/><line x1='120' y1='155' x2='158' y2='125' stroke='currentColor' stroke-width='1' opacity='0.4'/><line x1='40' y1='75' x2='78' y2='45' stroke='currentColor' stroke-width='1' opacity='0.4'/><line x1='120' y1='75' x2='158' y2='45' stroke='currentColor' stroke-width='1' opacity='0.4'/><text x='80' y='180' fill='currentColor' font-size='7' text-anchor='middle' letter-spacing='0.5'>INTEREST</text><text x='40' y='170' fill='currentColor' font-size='6' opacity='0.6' text-anchor='middle'>passive</text><text x='120' y='170' fill='currentColor' font-size='6' opacity='0.6' text-anchor='middle'>active</text><text x='16' y='115' fill='currentColor' font-size='7' text-anchor='middle' letter-spacing='0.5' transform='rotate(-90 16 115)'>ATTITUDE</text><text x='57' y='136' fill='currentColor' font-size='6.5' text-anchor='middle' letter-spacing='0.4' transform='rotate(-38 57 136)'>POWER</text><circle cx='40' cy='155' r='9.5' fill='#C75C5C'/><text x='40' y='158.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>1</text><circle cx='120' cy='155' r='9.5' fill='#C75C5C'/><text x='120' y='158.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>2</text><circle cx='78' cy='125' r='9.5' fill='#C75C5C'/><text x='78' y='128.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>3</text><circle cx='158' cy='125' r='9.5' fill='#C75C5C'/><text x='158' y='128.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>4</text><circle cx='40' cy='75' r='9.5' fill='#4E9C6A'/><text x='40' y='78.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>5</text><circle cx='120' cy='75' r='9.5' fill='#4E9C6A'/><text x='120' y='78.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>6</text><circle cx='78' cy='45' r='9.5' fill='#4E9C6A'/><text x='78' y='48.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>7</text><circle cx='158' cy='45' r='9.5' fill='#4E9C6A'/><text x='158' y='48.2' fill='#fff' font-size='9' font-weight='bold' text-anchor='middle'>8</text><circle cx='186' cy='28' r='6.5' fill='#C75C5C'/><text x='186' y='30.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>1</text><text x='198' y='30.5' fill='currentColor' font-size='7.3'>Insignificant passive blocker</text><circle cx='186' cy='50' r='6.5' fill='#C75C5C'/><text x='186' y='52.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>2</text><text x='198' y='52.5' fill='currentColor' font-size='7.3'>Insignificant active blocker</text><circle cx='186' cy='72' r='6.5' fill='#C75C5C'/><text x='186' y='74.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>3</text><text x='198' y='74.5' fill='currentColor' font-size='7.3'>Influential passive blocker</text><circle cx='186' cy='94' r='6.5' fill='#C75C5C'/><text x='186' y='96.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>4</text><text x='198' y='96.5' fill='currentColor' font-size='7.3'>Influential active blocker</text><circle cx='186' cy='116' r='6.5' fill='#4E9C6A'/><text x='186' y='118.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>5</text><text x='198' y='118.5' fill='currentColor' font-size='7.3'>Insignificant passive backer</text><circle cx='186' cy='138' r='6.5' fill='#4E9C6A'/><text x='186' y='140.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>6</text><text x='198' y='140.5' fill='currentColor' font-size='7.3'>Insignificant active backer</text><circle cx='186' cy='160' r='6.5' fill='#4E9C6A'/><text x='186' y='162.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>7</text><text x='198' y='162.5' fill='currentColor' font-size='7.3'>Influential passive backer</text><circle cx='186' cy='182' r='6.5' fill='#4E9C6A'/><text x='186' y='184.5' fill='#fff' font-size='7' font-weight='bold' text-anchor='middle'>8</text><text x='198' y='184.5' fill='currentColor' font-size='7.3'>Influential active backer</text></svg>",
+          "caption": "Power x interest x attitude - eight corners, from Saviour (high power, active, backer) to Irritant."
+        },
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Eight cube characters",
+            "items": [
+              {
+                "title": "High power",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Saviour",
+                    "lines": [
+                      "Active, backer.",
+                      "Your best ally; engage fully."
+                    ]
+                  },
+                  {
+                    "label": "Saboteur",
+                    "lines": [
+                      "Active, blocker.",
+                      "The biggest threat; manage and contain."
+                    ]
+                  },
+                  {
+                    "label": "Sleeping giant",
+                    "lines": [
+                      "Passive, backer.",
+                      "Wake them up - a powerful supporter not yet engaged."
+                    ]
+                  },
+                  {
+                    "label": "Time bomb",
+                    "lines": [
+                      "Passive, blocker.",
+                      "Dormant opposition that could detonate; watch closely."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Low power",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "Friend",
+                    "lines": [
+                      "Active, backer.",
+                      "A confidant and sounding board."
+                    ]
+                  },
+                  {
+                    "label": "Trip wire",
+                    "lines": [
+                      "Active, blocker.",
+                      "Minor but vocal opposition; can trip you up."
+                    ]
+                  },
+                  {
+                    "label": "Acquaintance",
+                    "lines": [
+                      "Passive, backer.",
+                      "Keep gently informed."
+                    ]
+                  },
+                  {
+                    "label": "Irritant",
+                    "lines": [
+                      "Passive, blocker.",
+                      "Low impact; don't over-invest."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "What to remember",
+            "text": "The cube is the most detailed but least commonly tested. Know that it adds attitude, backer vs blocker, to power and interest, and that a high-power blocker, Saboteur or Time bomb, is the corner to fear.",
+            "tone": "neutral"
+          }
+        ]
+      },
+      {
+        "heading": "Engagement assessment and model choice",
+        "body": "Classification tells you who matters; the stakeholder engagement-assessment matrix tracks how engaged each one is versus how engaged they need to be. Classification models feed the stakeholder register and engagement plan, and the assessment matrix shows where engagement actions are needed.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Five engagement levels",
+            "rows": [
+              {
+                "key": "Unaware",
+                "value": "Does not know about the project or its impact."
+              },
+              {
+                "key": "Resistant",
+                "value": "Aware but opposed to the work or its outcomes."
+              },
+              {
+                "key": "Neutral",
+                "value": "Aware but neither supportive nor resistant."
+              },
+              {
+                "key": "Supportive",
+                "value": "Aware and supportive of the work and outcomes."
+              },
+              {
+                "key": "Leading",
+                "value": "Aware and actively engaged in ensuring success."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "When to use which",
+            "rows": [
+              {
+                "key": "Power/Interest grid",
+                "value": "Fast, intuitive; good for most projects and for communicating with leadership."
+              },
+              {
+                "key": "Salience model",
+                "value": "When timing and legitimacy matter - regulators, crisis response, or stakeholders whose urgency swings."
+              },
+              {
+                "key": "Stakeholder Cube",
+                "value": "When attitude is decisive and you need to separate supporters from opponents who otherwise look identical."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam clue",
+            "text": "'Power, legitimacy, and urgency' = salience model. 'Power and interest' = the grid. Adding 'attitude' or backer/blocker = the cube. Current vs desired engagement = the engagement-assessment matrix.",
+            "tone": "accent"
+          },
+          {
+            "kind": "tip",
+            "title": "Close the gap",
+            "text": "Mark C = current and D = desired for each stakeholder. Where C and D differ, plan engagement actions to move them. People move between categories as the project changes, so re-map at major milestones.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Quick distinctions",
+        "body": "Use these side-by-side cues to avoid the common exam traps.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Don't confuse these",
+            "rows": [
+              {
+                "key": "Ranked bars + cumulative line",
+                "value": "Pareto - focus on the vital few."
+              },
+              {
+                "key": "Points, mean, UCL/LCL",
+                "value": "Control chart - stable process vs special cause."
+              },
+              {
+                "key": "Line falling to zero",
+                "value": "Burndown - work remaining."
+              },
+              {
+                "key": "Line rising to a scope line",
+                "value": "Burn-up - work completed vs scope."
+              },
+              {
+                "key": "Bones grouped by category",
+                "value": "Fishbone - possible root causes."
+              },
+              {
+                "key": "Kanban vs RACI",
+                "value": "Kanban shows flow of work; RACI shows ownership of work."
+              },
+              {
+                "key": "RACI vs RAM",
+                "value": "RACI is one form of RAM; RAM is the general responsibility grid."
+              },
+              {
+                "key": "Register vs grid",
+                "value": "Stakeholder register = who they are; power-interest grid = how to engage."
+              },
+              {
+                "key": "P-I matrix vs register",
+                "value": "Matrix = risk priority; risk register = the full list and responses."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Final tip",
+            "text": "Match the visual to the performance domain the question is really about. Pick the tailored, value-delivering option over the heaviest process; boards, charts and matrices inform decisions, and the exam rewards acting on them.",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "topics": [
+      "Charts",
+      "Boards",
+      "Stakeholders",
+      "Risk"
+    ],
+    "tags": [
+      "charts",
+      "diagrams",
+      "stakeholders",
+      "risk",
+      "pmbok 8",
+      "exam"
+    ],
+    "source": "PM Cram — aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]

@@ -1,0 +1,1252 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Agile, Hybrid & Flow Delivery",
+    "category": "Agile",
+    "summary": "Adaptive, hybrid, Scrum, Kanban, backlog, flow and exam-mindset guidance for delivering value under uncertainty.",
+    "intro": "Use agile when learning and feedback matter, hybrid when the work needs both governance and adaptation, and Kanban when the main challenge is managing flow. The exam rewards value, transparency, tailoring, collaboration and disciplined change.",
+    "sections": [
+      {
+        "heading": "Agile and hybrid fit",
+        "body": "Agile is not one method. In PMI terms it is a mindset built around iterative delivery, rapid feedback, continuous learning and adaptation. PMBOK 8 is principle-based and outcome-based, so agile and hybrid are choices you make to satisfy the performance domains and honour the principles.\n\nPick the cadence and level of detail that deliver value for this product, in this context. In hybrid scenarios, use enough planning and governance to manage risk, but still seek feedback and adapt as the work unfolds.",
+        "blocks": [
+          {
+            "kind": "tip",
+            "title": "How agile and hybrid map to PMBOK 8",
+            "text": "Life-cycle and approach selection is now in The Standard, Project Life Cycles: choose predictive, adaptive or hybrid so the approach fits the product and its uncertainty. Scope domain: deliver value early and often; validate deliverables with the customer as you go. Build an Empowered Culture principle: build a collaborative, self-organising, accountable team environment. Tailoring is a general concept, not one of the six principles: fit the cadence, detail and ceremonies to the work - not the work to a fixed process. Focus on Value principle: value delivered is the measure of success, not documents produced.",
+            "tone": "accent"
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "text": "If an option delivers value sooner, improves feedback or helps the team adapt, it is often the stronger agile choice. PMBOK 8 lens: this is life-cycle and approach selection in action - match the approach to the product.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Values, principles and empirical control",
+        "body": "The four Agile Manifesto values still shape exam thinking. For PMP alignment, connect them to PMBOK 8 principles - especially Focus on Value - and treat them as behaviour guardrails, not slogans to memorise.\n\nAgile work is managed through learning, not by pretending all details are knowable at the start. The team makes work visible, inspects results often, and adapts the product or process based on evidence.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "The 4 Agile Manifesto values",
+            "items": [
+              {
+                "title": "Individuals and interactions",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Prefer",
+                    "lines": [
+                      "Individuals and interactions over processes and tools."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Working product",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Prefer",
+                    "lines": [
+                      "Working product over comprehensive documentation."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Customer collaboration",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Prefer",
+                    "lines": [
+                      "Customer collaboration over contract negotiation."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Responding to change",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Prefer",
+                    "lines": [
+                      "Responding to change over following a plan."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "PMBOK 8 principles most relevant to the agile mindset",
+            "items": [
+              {
+                "code": "Focus on Value",
+                "text": "Treat value as the ultimate measure of success; deliver it early and often and adapt to change."
+              },
+              {
+                "code": "Build an Empowered Culture",
+                "text": "Foster a collaborative, self-managing team environment where people own their work."
+              },
+              {
+                "code": "Be an Accountable Leader",
+                "text": "Lead with integrity and care; take responsibility as a diligent, respectful steward."
+              },
+              {
+                "code": "Embed Quality",
+                "text": "Build quality into processes and deliverables, not just inspect it in."
+              },
+              {
+                "code": "Adopt a Holistic View",
+                "text": "See the whole system - people, product and context - when making decisions."
+              },
+              {
+                "code": "Integrate Sustainability",
+                "text": "Balance value delivery with sustainable outcomes for people and stakeholders."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Empirical control in practice",
+            "items": [
+              {
+                "title": "Transparency",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Make goals, progress, quality, blockers and backlog order visible."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Use information radiators, backlog views, reviews, demos and shared definitions."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Inspection",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Regularly compare actual results with expectations."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Inspect product increments, team flow, stakeholder feedback and risk signals."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Adaptation",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Adjust plans, backlog order, working agreements or solution direction."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Adapt soon after learning appears, while change is still manageable."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tie-breaker",
+            "text": "When two answers seem plausible, prefer the one that best supports value, stakeholder engagement and adaptation to change. When an exam question says the team has discovered new information, the best agile response is usually to inspect, adapt and reprioritize with the right stakeholders rather than defend the original plan.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Teams, safety and servant leadership",
+        "body": "Agile teams are typically cross-functional and self-managing. They decide how to accomplish the work, collaborate closely and improve through regular feedback loops. Self-managing is used more broadly than the older self-organising language, but both point to team empowerment rather than command-and-control.\n\nIn broader PMP scenarios the project manager acts with a servant-leadership style - facilitating, coaching and supporting decisions rather than assigning every task. Personal safety matters because teams surface risks and mistakes earlier when people can speak honestly.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Scrum roles at a glance",
+            "rows": [
+              {
+                "key": "Product Owner",
+                "value": "Orders the product backlog to maximise value."
+              },
+              {
+                "key": "Scrum Master",
+                "value": "Enables the team and helps remove impediments."
+              },
+              {
+                "key": "Developers",
+                "value": "Create the increment; decide how the work is done."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Leadership signals in agile questions",
+            "items": [
+              {
+                "title": "Self-organizing team",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "The team decides how to accomplish selected work within agreed goals and constraints."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Encourage collaboration, ownership and peer problem solving."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Servant leadership",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Lead by enabling others rather than directing every task."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Remove blockers, coach practices, facilitate decisions and support stakeholder alignment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Personal safety",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "People can raise concerns, admit uncertainty and challenge ideas respectfully."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Use blameless learning, retrospectives, clear working agreements and active listening."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Servant-leadership cues",
+            "text": "Do not jump in to solve everything yourself. The best first move is often to enable the team to solve the problem. Facilitate and coach; remove impediments instead of assigning tasks. Leadership is a behaviour, not a title.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Tailoring, progressive elaboration and rolling wave planning",
+        "body": "A lightweight agile approach keeps only the process needed to deliver value, manage risk and support collaboration. It does not mean unmanaged work; it means avoiding unnecessary ceremony, documents, approvals and handoffs.\n\nProgressive elaboration means planning imminent work in detail while leaving distant work at a high level, then adding detail as you learn more. Rolling wave planning applies this idea to scheduling: near-term work packages are decomposed to activity level, while later phases stay as coarse milestones or planning packages until they draw closer.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Tailor an agile way of working",
+            "items": [
+              {
+                "title": "Start with context",
+                "lines": [
+                  "Assess uncertainty, delivery risk, dependencies, stakeholder access and regulatory needs."
+                ]
+              },
+              {
+                "title": "Choose minimum useful controls",
+                "lines": [
+                  "Keep controls that protect value, quality, safety, traceability or coordination.",
+                  "Remove controls that only add delay or duplicate information."
+                ]
+              },
+              {
+                "title": "Review and adjust",
+                "lines": [
+                  "Use retrospectives and performance data to refine the process over time."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tell them apart",
+            "text": "Progressive elaboration adds detail over time as you learn. Rolling wave is the same idea applied specifically to the schedule. Both express the Tailoring and Planning outcomes: plan deliberately, but only as far as certainty allows.",
+            "tone": "accent"
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "PMBOK 7/8 thinking favors tailoring. Do not assume Scrum, Kanban or a predictive method is automatically best; choose the approach that fits the work and environment.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Backlog, priorities and change",
+        "body": "Agile work is managed as a prioritised backlog and delivered in small increments. Prioritisation sequences the backlog by value so the team builds the most valuable, least risky work first.\n\nAgile welcomes change when it improves value, but that does not mean uncontrolled change. New ideas, defects, risks and stakeholder requests are evaluated, added to the backlog as needed and prioritised. The team protects the current iteration goal as much as possible, then adapts in the next planning cycle unless an urgent issue justifies immediate action.",
+        "figure": {
+          "svg": "<svg viewBox='0 0 320 160' xmlns='http://www.w3.org/2000/svg' fill='none'><rect x='14' y='12' width='30' height='28' rx='4' fill='#B5462F'/><text x='29' y='31' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>M</text><text x='54' y='25' fill='currentColor' font-size='11'>Must have</text><text x='54' y='38' fill='currentColor' font-size='9'>non-negotiable — the release fails without it</text><rect x='14' y='48' width='30' height='28' rx='4' fill='#1F5FA8'/><text x='29' y='67' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>S</text><text x='54' y='61' fill='currentColor' font-size='11'>Should have</text><text x='54' y='74' fill='currentColor' font-size='9'>important, but has a workaround</text><rect x='14' y='84' width='30' height='28' rx='4' fill='#2F6F5E'/><text x='29' y='103' fill='#ffffff' font-size='13' text-anchor='middle' font-weight='bold'>C</text><text x='54' y='97' fill='currentColor' font-size='11'>Could have</text><text x='54' y='110' fill='currentColor' font-size='9'>desirable; the first to drop under pressure</text><rect x='14' y='120' width='30' height='28' rx='4' fill='none' stroke='currentColor' stroke-width='1.3' stroke-dasharray='4 3'/><text x='29' y='139' fill='currentColor' font-size='13' text-anchor='middle' font-weight='bold'>W</text><text x='54' y='133' fill='currentColor' font-size='11'>Won't have (this time)</text><text x='54' y='146' fill='currentColor' font-size='9'>out of scope for now, recorded</text></svg>",
+          "caption": "MoSCoW: Must / Should / Could are in; Won't have is explicitly deferred."
+        },
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "MoSCoW bands",
+            "rows": [
+              {
+                "key": "Must have",
+                "value": "Non-negotiable; the release fails without it."
+              },
+              {
+                "key": "Should have",
+                "value": "Important but not vital; a painful omission with a workaround."
+              },
+              {
+                "key": "Could have",
+                "value": "Desirable, low impact; the first to drop under pressure."
+              },
+              {
+                "key": "Won't have this time",
+                "value": "Explicitly out of scope for now, recorded to manage expectations - deferred, not deleted."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Prioritisation methods",
+            "items": [
+              {
+                "title": "WSJF",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Weighted Shortest Job First.",
+                      "WSJF = cost of delay / job size."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Sequence work by economic value.",
+                      "Do the highest value-per-effort item next."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Kano model",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Classifies features by customer reaction."
+                    ]
+                  },
+                  {
+                    "label": "Categories",
+                    "lines": [
+                      "Basic - expected; absence angers.",
+                      "Performance - more is better.",
+                      "Delighter - unexpected wow."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Collaborative voting",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "100-point or dot voting."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Quick, collaborative group ranking.",
+                      "Good for fast stakeholder consensus."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Handling a mid-iteration request",
+            "items": [
+              {
+                "title": "Capture it",
+                "lines": [
+                  "Add the idea, defect or request to the backlog."
+                ]
+              },
+              {
+                "title": "Assess it",
+                "lines": [
+                  "Weigh value, risk and impact on the iteration goal."
+                ]
+              },
+              {
+                "title": "Reprioritise",
+                "lines": [
+                  "Sequence it into a future cycle unless it is urgent."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "text": "The fourth MoSCoW band is 'Won't have this time' - deferred and recorded, not thrown away. The Product Owner owns backlog priority and value. In a sprint or iteration, avoid disruptive mid-cycle changes unless the issue is urgent. Capture, assess and reprioritise through the backlog.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Stories, readiness and estimating",
+        "body": "Adaptive teams size work relatively rather than in hours, then use their own recent throughput to forecast. Keep stories small, valuable and testable so they flow smoothly.\n\nBacklog refinement keeps near-term work clear enough for planning and delivery. The team and product owner review upcoming items, split large items, clarify acceptance criteria, identify dependencies and adjust ordering as new information emerges.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "INVEST - a good user story is",
+            "items": [
+              {
+                "code": "I",
+                "text": "Independent - can be built without depending on other stories."
+              },
+              {
+                "code": "N",
+                "text": "Negotiable - a conversation, not a rigid contract."
+              },
+              {
+                "code": "V",
+                "text": "Valuable - delivers value to a user or customer."
+              },
+              {
+                "code": "E",
+                "text": "Estimable - the team can size it."
+              },
+              {
+                "code": "S",
+                "text": "Small - fits comfortably inside one iteration."
+              },
+              {
+                "code": "T",
+                "text": "Testable - has clear acceptance criteria."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Relative estimating",
+            "rows": [
+              {
+                "key": "Story points",
+                "value": "Relative size of effort/complexity/risk, not hours. Often a Fibonacci-like scale (1, 2, 3, 5, 8, 13)."
+              },
+              {
+                "key": "Planning poker",
+                "value": "Team estimates together; discussion surfaces hidden assumptions and converges the estimate."
+              },
+              {
+                "key": "Velocity",
+                "value": "Story points a team completes per sprint. Averaged over recent sprints to forecast future capacity."
+              },
+              {
+                "key": "Ideal days",
+                "value": "Alternative unit - uninterrupted effort - when teams prefer time over points."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Readiness cues",
+            "items": [
+              {
+                "code": "Small",
+                "text": "The item can be completed within the team cadence or flow expectations."
+              },
+              {
+                "code": "Clear",
+                "text": "The team understands the desired outcome and acceptance criteria."
+              },
+              {
+                "code": "Valuable",
+                "text": "The item links to stakeholder value, risk reduction, learning or required enablement."
+              },
+              {
+                "code": "Sequenced",
+                "text": "Dependencies and priority are understood well enough to decide when to pull the work."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Using velocity",
+            "text": "Velocity forecasts how much backlog fits in upcoming sprints; it is not a productivity target to compare across teams. It stabilises after a few sprints - early velocity is noisy. Points are relative and team-specific; do not compare point totals between teams. In exam scenarios, unclear or oversized backlog items should be refined with the product owner and team before commitment.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Scrum, Kanban, Scrumban and XP",
+        "body": "These are cadence and practice choices for adaptive work. Match the choice to how work arrives and how predictable it is.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Adaptive approaches",
+            "items": [
+              {
+                "title": "Scrum",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Fixed-length, timeboxed iterations called sprints.",
+                      "Defined roles and events."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Feature delivery against a prioritised backlog.",
+                      "Planned batches of work."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Kanban",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Continuous flow with WIP limits.",
+                      "No fixed iterations; pull work when capacity frees."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Steady streams of varied work.",
+                      "Support, maintenance and unpredictable inflow."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Scrumban",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Keeps Scrum's structure but pulls work continuously under WIP limits like Kanban."
+                    ]
+                  },
+                  {
+                    "label": "Best for",
+                    "lines": [
+                      "Transitioning between the two.",
+                      "Smoothing unpredictable demand."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "XP",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "How",
+                    "lines": [
+                      "Extreme Programming - engineering discipline layered on an iterative cadence."
+                    ]
+                  },
+                  {
+                    "label": "Practices",
+                    "lines": [
+                      "Pair programming, TDD and continuous integration.",
+                      "Refactoring, small releases and collective ownership."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "text": "Steady, unpredictable inflow points to Kanban. Planned feature batches point to Scrum. Quality or engineering-discipline questions point to XP practices.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Sprint cadence, artifacts and quality",
+        "body": "A Scrum sprint follows a repeating flow. The events create the feedback loops that let the team inspect and adapt toward value.\n\nA Definition of Done is the shared quality standard for completed work. It prevents teams from calling work complete when it is only coded, partially tested, awaiting review or missing required documentation. Each sprint should produce an increment that is potentially releasable, even when the product owner chooses not to release it immediately.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Sprint flow",
+            "items": [
+              {
+                "title": "Sprint planning",
+                "lines": [
+                  "Pull top-priority backlog items into the sprint.",
+                  "Agree the sprint goal and forecast."
+                ]
+              },
+              {
+                "title": "Daily standup",
+                "lines": [
+                  "Short daily sync.",
+                  "Surface progress and impediments; re-plan the day."
+                ]
+              },
+              {
+                "title": "Development",
+                "lines": [
+                  "Build increments against the sprint goal.",
+                  "Servant leader removes blockers."
+                ]
+              },
+              {
+                "title": "Sprint review",
+                "lines": [
+                  "Demo the increment to stakeholders.",
+                  "Gather feedback; adapt the backlog."
+                ]
+              },
+              {
+                "title": "Retrospective",
+                "lines": [
+                  "Inspect the process, not just the product.",
+                  "Agree improvements for the next sprint."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Key artifacts",
+            "rows": [
+              {
+                "key": "Product backlog",
+                "value": "Ordered list of everything that might be built; owned by the Product Owner."
+              },
+              {
+                "key": "Sprint backlog",
+                "value": "Items selected for the current sprint plus the plan to deliver them."
+              },
+              {
+                "key": "Increment",
+                "value": "The sum of completed, working, potentially releasable work."
+              },
+              {
+                "key": "Definition of Done",
+                "value": "Shared quality bar an item must meet to count as complete."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Done versus accepted",
+            "rows": [
+              {
+                "key": "Definition of Done",
+                "value": "Team-level quality criteria that must be met before work counts as complete."
+              },
+              {
+                "key": "Acceptance criteria",
+                "value": "Item-specific conditions that show whether a backlog item satisfies the user or stakeholder need."
+              },
+              {
+                "key": "Increment",
+                "value": "All completed work integrated with previous completed work into a usable product state."
+              },
+              {
+                "key": "Potentially releasable",
+                "value": "Good enough to release from a quality and integration standpoint, even if the business waits."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If quality problems appear at the end of every sprint, strengthen the Definition of Done, improve testing and integration, and address the root cause rather than extending every sprint.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Kanban boards, policies, WIP and pull",
+        "body": "Kanban helps teams see how work moves from request to delivery. The board is a model of the workflow, not just a task list. A strong Kanban system makes policies visible, exposes bottlenecks and gives the team data for improving delivery.\n\nWork in progress limits cap the number of items allowed in a workflow state or across a team. A pull system means team members start new work only when capacity is available. The purpose is not to keep everyone busy; it is to finish work faster by reducing multitasking, queues and hidden overload.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Core ideas",
+            "items": [
+              {
+                "title": "Visualize work",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Represent work items and workflow states on a shared board."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Create transparency so the team can see progress, waiting work, blocked work and bottlenecks."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Manage flow",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Observe how work moves through the system over time."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Improve predictability, reduce delays and address constraints where work piles up."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Improve continuously",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Use evidence from the workflow to adjust policies and practices."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Make small, evolutionary changes rather than large disruptive process changes."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "What to make visible",
+            "rows": [
+              {
+                "key": "Workflow states",
+                "value": "The steps work follows from request to delivery."
+              },
+              {
+                "key": "Work item details",
+                "value": "Enough information to understand scope, owner, priority, due date and current status."
+              },
+              {
+                "key": "Policies",
+                "value": "Rules for pulling work, starting work, finishing work, handling blocked items and applying WIP limits."
+              },
+              {
+                "key": "Exceptions",
+                "value": "Blocked, urgent, aging or high-risk items that need attention."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Flow control",
+            "items": [
+              {
+                "title": "WIP limits",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "A maximum number of active work items in a stage or system."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Expose bottlenecks, reduce task switching and encourage finishing before starting."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Pull",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "New work starts when the team has capacity."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Match demand to capacity and protect the team from unmanaged overload."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Overloaded WIP",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Too many active items compete for attention."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Treat it as a system signal: stop starting, help finish and remove constraints."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Kanban is usually tied to visual management, limiting WIP, pull systems and continuous improvement. A board without agreed policies can create visibility but not control. PMP questions often reward the answer that makes work and rules transparent before forcing a solution.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Flow metrics, bottlenecks and classes of service",
+        "body": "Kanban uses clear points in the workflow to measure performance. The commitment point is where the team accepts work into the system. The delivery point is where the item is complete from the customer or stakeholder perspective. Metrics should support better decisions, not blame.\n\nA blocked item is work that cannot move because of an impediment, dependency, missing information, approval delay or resource constraint. A bottleneck is a workflow constraint where work accumulates faster than it can be completed. Classes of service help teams apply different handling rules to different types of work.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Key metrics",
+            "items": [
+              {
+                "code": "Lead time",
+                "text": "Elapsed time from commitment to delivery, often viewed from the customer perspective."
+              },
+              {
+                "code": "Cycle time",
+                "text": "Elapsed time work spends actively inside a defined part of the workflow."
+              },
+              {
+                "code": "Throughput",
+                "text": "Number of work items completed in a period."
+              },
+              {
+                "code": "WIP age",
+                "text": "How long an unfinished item has been in progress."
+              }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "Simple flow relationships",
+            "note": "Interpretation over calculation",
+            "items": [
+              {
+                "formula": "Lead time = delivery point - commitment point",
+                "lines": [
+                  "Long lead time may indicate waiting, rework or overloaded WIP."
+                ]
+              },
+              {
+                "formula": "Throughput = completed items / time period",
+                "lines": [
+                  "Stable throughput improves short-term forecasting."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Respond to blocked or stuck work",
+            "items": [
+              {
+                "title": "Make it visible",
+                "lines": [
+                  "Mark the item clearly and record why it is blocked."
+                ]
+              },
+              {
+                "title": "Protect flow",
+                "lines": [
+                  "Avoid pulling more work into an already constrained area."
+                ]
+              },
+              {
+                "title": "Remove the impediment",
+                "lines": [
+                  "Clarify requirements, secure a decision, resolve a dependency or escalate when needed."
+                ]
+              },
+              {
+                "title": "Learn from recurrence",
+                "lines": [
+                  "If the same blockage repeats, adjust policy, staffing, sequencing or stakeholder engagement."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Common classes",
+            "rows": [
+              {
+                "key": "Expedite",
+                "value": "Urgent, high-value or time-critical work that may bypass normal order. Use sparingly because it disrupts flow."
+              },
+              {
+                "key": "Fixed date",
+                "value": "Work that must be delivered by a specific date, such as a regulatory or event-driven need."
+              },
+              {
+                "key": "Standard",
+                "value": "Normal work handled through the usual policies and priority rules."
+              },
+              {
+                "key": "Intangible",
+                "value": "Useful work without immediate visible payoff, such as improvement, risk reduction or technical health."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "When a flow problem appears, prefer transparency, collaboration and impediment removal over assigning blame or simply adding more work. Urgent work should not silently disrupt normal work; use explicit classes of service.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Cadences, metrics and feedback loops",
+        "body": "Scrum and Kanban both depend on feedback loops, but they express them differently. Kanban teams use recurring cadences to keep work aligned and improve the system. These events are not the same as Scrum events, but they serve similar goals: inspect reality, coordinate work and adapt.\n\nMetrics exist to prompt timely decisions and honest conversation, not to police people. Prefer measures of value delivered and flow over raw activity.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Flow and progress metrics",
+            "rows": [
+              {
+                "key": "Burndown chart",
+                "value": "Remaining work over time; trends toward zero by sprint end."
+              },
+              {
+                "key": "Burnup chart",
+                "value": "Completed work plus total scope; shows scope change too."
+              },
+              {
+                "key": "Velocity",
+                "value": "Points completed per sprint; forecasts capacity."
+              },
+              {
+                "key": "Cumulative flow",
+                "value": "WIP across workflow states; widening bands reveal bottlenecks."
+              },
+              {
+                "key": "Lead / cycle time",
+                "value": "Speed from request to done; core Kanban health metrics."
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Typical Kanban cadences",
+            "rows": [
+              {
+                "key": "Daily coordination",
+                "value": "Review the board, blocked items, aging work and flow risks."
+              },
+              {
+                "key": "Replenishment",
+                "value": "Decide what work is ready to enter the system when capacity is available."
+              },
+              {
+                "key": "Delivery review",
+                "value": "Assess whether completed work met customer and stakeholder expectations."
+              },
+              {
+                "key": "Improvement review",
+                "value": "Use metrics and team learning to adjust policies, limits and workflow design."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Monitoring and controlling cue",
+            "text": "Metrics exist to prompt timely decisions and honest conversation, not to police people. Feedback loops are a PMBOK-aligned way to support adaptation, stakeholder engagement, quality and value delivery.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Customer-focused service delivery",
+        "body": "Kanban frames work as service delivery. The team is not only completing tasks; it is delivering value to customers or stakeholders through a managed system.\n\nCustomer focus means prioritizing valuable work, delivering in smaller increments where appropriate, listening to feedback and improving the workflow so value arrives sooner and more predictably.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "PMBOK alignment",
+            "items": [
+              {
+                "title": "Value",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Work should contribute to outcomes stakeholders care about."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Prioritize based on value, urgency, risk and feedback."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Stakeholders",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Customers, users, sponsors and decision makers shape what success means."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keep feedback visible and use it to refine priorities and acceptance expectations."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Adaptation",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "The process evolves as the team learns."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Adjust WIP limits, workflow steps and policies using evidence."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "When requirements are uncertain",
+            "items": [
+              {
+                "title": "Clarify with stakeholders",
+                "lines": [
+                  "Talk to the people who define value."
+                ]
+              },
+              {
+                "title": "Refine the backlog",
+                "lines": [
+                  "Turn ambiguity into ordered, workable items."
+                ]
+              },
+              {
+                "title": "Learn through small releases",
+                "lines": [
+                  "Get feedback on a small increment instead of freezing scope too early."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam cue",
+            "text": "If requirements are unclear, refine the backlog and get feedback on a small increment instead of forcing detailed up-front requirements.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Choosing and combining hybrid approaches",
+        "body": "Match cadence and level of detail to the nature of the work. Stable, well-understood scope can stay predictive; uncertain, fast-changing work suits an adaptive cadence. Many real projects are hybrid.\n\nSome changes still require formal governance, so tailor the response to the context. The exam often mixes predictive, agile and hybrid ways of working: first identify the environment, then choose the action that best fits that context.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Hybrid patterns",
+            "items": [
+              {
+                "title": "Predictive shell, agile core",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Govern the whole with phase gates and a baseline.",
+                      "Run the uncertain build work in sprints inside a phase."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Regulated or contract-heavy programmes with an exploratory build."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Split by component",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Predictive delivery of hardware.",
+                      "Agile development of the software that runs on it."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Products blending stable and evolving parts."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Agile front, predictive rollout",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Pattern",
+                    "lines": [
+                      "Iterate to discover and validate the solution.",
+                      "Switch to planned, controlled deployment once scope firms up."
+                    ]
+                  },
+                  {
+                    "label": "Fits",
+                    "lines": [
+                      "Uncertain discovery followed by a fixed, high-risk cutover."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Answer routine",
+            "items": [
+              {
+                "title": "Identify the delivery approach",
+                "lines": [
+                  "Predictive, agile or hybrid - read the wording first."
+                ]
+              },
+              {
+                "title": "Eliminate unethical options",
+                "lines": [
+                  "Drop anything that hides information or weakens collaboration."
+                ]
+              },
+              {
+                "title": "Pick the value-and-principle choice",
+                "lines": [
+                  "Favour transparency, stakeholder engagement and adaptation."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Tailoring and ethics reminder",
+            "text": "There is no single right approach - tailor the cadence to the work, not the work to the cadence. When an option insists on always using the full process, be suspicious. Eliminate any option that violates ethics, hides information or weakens collaboration.",
+            "tone": "warn"
+          }
+        ]
+      }
+    ],
+    "topics": [
+      "Agile Mindset",
+      "Hybrid Delivery",
+      "Kanban Flow",
+      "Scrum"
+    ],
+    "tags": [
+      "agile",
+      "hybrid",
+      "kanban",
+      "flow",
+      "pmp"
+    ],
+    "source": "PM Cram — aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]

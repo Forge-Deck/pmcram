@@ -1,0 +1,958 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Project Life Cycles & Delivery Approaches",
+    "category": "Delivery Approaches",
+    "summary": "Select and manage the right life cycle by matching uncertainty, governance needs, stakeholder feedback, and the cost of change.",
+    "intro": "Project life cycles organize work from idea to closure. For the PMP exam, know how predictive phases, gates, baselines, validation, and closing decisions fit together.",
+    "sections": [
+      {
+        "heading": "What a Project Life Cycle Is",
+        "body": "A project life cycle is the series of phases a project moves through from concept to closure. Phases group related work, create natural review points, and help the organization apply the right level of governance and detail at the right time.\n\nCommon high-level phases include starting the project, organizing and preparing, carrying out the work, monitoring performance and validating outputs, and closing. Exact names vary by organization and development approach, but the exam expects you to know the purpose of each stage rather than one fixed template.\n\nLife cycles can be predictive, iterative, incremental, adaptive, or hybrid. The life cycle choice should fit uncertainty, delivery risk, and stakeholder needs. Phase structure and gate rigor usually increase when cost of change is high or regulatory oversight is strong.",
+        "tip": "If a question mentions formal authorization, charters, or business justification, think early life cycle. If it mentions baselines, think planning. If it mentions acceptance, contracts, and lessons learned, think closing.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Phase intent at a glance",
+            "items": [
+              {
+                "title": "Start / discover",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Clarify the need, assess viability, and decide whether to authorize the project."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Business case, feasibility, early estimates, assumptions, and constraints."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Plan",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Define how work will be delivered and establish approved baselines."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Scope, schedule, cost baselines, communication plan, and kickoff alignment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Deliver and control",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Produce deliverables while tracking performance and validating outputs."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Status reviews, cost control, quality checks, and formal validation against acceptance criteria."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Close",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Confirm completion, settle obligations, transfer knowledge, and archive records."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Final acceptance, contract closure, lessons learned, and the final project report."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What Predictive Delivery Means",
+        "body": "Predictive delivery plans the work thoroughly before major construction begins. Scope, schedule, cost, and quality targets are defined early, then the team executes against those baselines.\n\nWork typically moves through distinct phases in sequence. A phase is substantially complete before the next begins, with limited overlap. This produces high control and predictability when requirements are well understood and unlikely to shift midstream.\n\nPredictive delivery is one life cycle choice, not a default. It fits best when the product and constraints can be specified with confidence and when formal governance, traceability, or high cost of late change matter.",
+        "tip": "On the exam, predictive = plan first, execute to the plan, control variance. Adaptive = learn and replan in short cycles.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Core characteristics",
+            "items": [
+              {
+                "title": "Upfront definition",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Goals, requirements, and constraints are clarified before build work scales up."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Create a shared baseline for scope, time, cost, and quality that guides execution."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Linear phases",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Work flows through ordered stages such as requirements, design, build, test, and release."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Control handoffs, reduce rework from incomplete prior work, and make progress auditable."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Baseline control",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Performance is judged against the approved plan for schedule, cost, and deliverable quality."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Detect variance early and apply corrective action to stay on plan."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Fit signals",
+            "rows": [
+              {
+                "key": "Stable scope",
+                "value": "Requirements are known, durable, and unlikely to churn after approval."
+              },
+              {
+                "key": "Precise objectives",
+                "value": "Success criteria for time, cost, and quality can be stated up front."
+              },
+              {
+                "key": "High cost of late change",
+                "value": "Rework after build is expensive, risky, or contractually constrained."
+              },
+              {
+                "key": "Compliance needs",
+                "value": "Formal reviews, traceability, and phase evidence are required."
+              },
+              {
+                "key": "Poor fit",
+                "value": "Rapid learning, evolving customer needs, or high uncertainty about the solution."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If a scenario stresses fixed contracts, regulated deliverables, or well-known scope, lean predictive. If it stresses changing priorities or early value delivery, lean adaptive or hybrid.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Initiation and Discovery",
+        "body": "Initiation and discovery convert a business need into a decision to invest. The goal is not detailed design. The goal is enough evidence to authorize or reject the project with eyes open.\n\nTeams identify the problem or opportunity, gather high-level requirements, surface assumptions and constraints, and test feasibility. A business case explains why the project matters, what benefits are expected, what it may cost, what risks are known, and how it aligns with strategy.\n\nAssumptions are treated as true for planning when facts are incomplete. Constraints limit options, such as fixed deadlines, budgets, regulations, or resource availability. Both must be recorded and revisited because false assumptions and tight constraints are major sources of risk.",
+        "tip": "When a question asks what justifies starting a project, look for business case and feasibility. When it asks what may invalidate the plan later, look for broken assumptions or ignored constraints.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Early decision tools",
+            "items": [
+              {
+                "code": "Business case",
+                "text": "Documented rationale for the investment: objectives, benefits, costs, risks, and strategic fit."
+              },
+              {
+                "code": "Feasibility study",
+                "text": "Assessment of technical, economic, operational, legal, and schedule viability before large spend."
+              },
+              {
+                "code": "Cost-benefit analysis",
+                "text": "Comparison of expected costs and expected benefits to support go/no-go decisions."
+              },
+              {
+                "code": "Assumptions",
+                "text": "Unverified factors accepted as true so planning can proceed; they carry risk if wrong."
+              },
+              {
+                "code": "Constraints",
+                "text": "Known limits on time, cost, scope, quality, resources, or compliance that the plan must respect."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Selection metrics often used at the front gate",
+            "items": [
+              {
+                "title": "NPV",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Net present value: present value of inflows minus present value of outflows using a discount rate."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Prefer projects with positive NPV when comparing investment value over time."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "IRR",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Internal rate of return: the discount rate at which NPV equals zero."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Compare expected return to the organization's required rate or hurdle rate."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "CBA",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Cost-benefit analysis of direct and indirect costs against tangible and intangible benefits."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Support initiation and planning decisions when full financial models are still forming."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Planning, Baselines, and Alignment",
+        "body": "Planning turns authorization into an executable approach. The team defines scope, sequences work, estimates effort and cost, and sets how communication, quality, risk, and procurement will be handled.\n\nBaselines are approved reference points used later to measure performance. The scope baseline, schedule baseline, and cost baseline together form the performance measurement baseline. Once approved, changes to baselines normally go through formal change control.\n\nBudget planning identifies labor, materials, vendors, training, overhead, and reserves, then documents the approved funding envelope. Communication planning defines who needs what information, when, and through which channels. A kickoff meeting then aligns sponsor, team, and key stakeholders on objectives, roles, and working agreements before execution ramps up.",
+        "tip": "Baselines are not forecasts you casually rewrite. Exam answers often hinge on measuring against the approved plan and processing changes formally.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Core baselines",
+            "rows": [
+              {
+                "key": "Scope baseline",
+                "value": "Approved scope statement, WBS, and WBS dictionary that define what is in and out of the project."
+              },
+              {
+                "key": "Schedule baseline",
+                "value": "Approved version of the schedule used to measure progress over time."
+              },
+              {
+                "key": "Cost baseline",
+                "value": "Approved time-phased budget used to measure cost performance, usually excluding management reserve."
+              },
+              {
+                "key": "Performance measurement baseline",
+                "value": "Integrated scope, schedule, and cost baselines used for earned value and variance analysis."
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "title": "Budget planning path",
+            "items": [
+              {
+                "title": "Identify cost elements",
+                "lines": [
+                  "Capture labor, materials, equipment, contractors, travel, training, and overhead."
+                ]
+              },
+              {
+                "title": "Estimate using suitable methods",
+                "lines": [
+                  "Use analogous estimates early, parametric models when data supports them, and bottom-up detail when the work is well defined."
+                ]
+              },
+              {
+                "title": "Aggregate and fund",
+                "lines": [
+                  "Roll estimates into a budget, add contingency where justified, and seek approval of the cost baseline."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Plan-driven control",
+            "items": [
+              {
+                "title": "Baselines",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Approved scope, schedule, and cost targets used as the reference for performance."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Compare actuals to plan; only change baselines through controlled decisions."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Phase dependency",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Downstream work waits on upstream completion and quality."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Protect critical path milestones; late early phases threaten the whole commitment."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Change trade-off",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Strict adherence to plan can limit midstream flexibility."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Route new needs through impact analysis rather than informal scope creep."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Kickoff is alignment after planning is sufficiently ready. It is not a substitute for the charter or for building the baselines themselves.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Typical Predictive Phase Sequence",
+        "body": "Plan-driven life cycles break the work into phases with clear entry and exit criteria. Names vary by industry, but the logic is similar: understand the need, design the solution, build it, verify it, then release and support it.\n\nEach phase produces approved outputs that feed the next. Skipping or shortcutting an early phase often injects defects that are costly to fix later.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Common predictive flow",
+            "items": [
+              {
+                "title": "Requirements and analysis",
+                "lines": [
+                  "Identify stakeholders, capture needs and constraints, and document them in a formal requirements baseline.",
+                  "Incomplete or wrong requirements here cascade into design, build, and test failures."
+                ]
+              },
+              {
+                "title": "Design",
+                "lines": [
+                  "Translate requirements into architecture, interfaces, and detailed design so builders know what to construct.",
+                  "A sound design reduces implementation complexity and clarifies how components interact."
+                ]
+              },
+              {
+                "title": "Build and unit verification",
+                "lines": [
+                  "Construct deliverables against the design and verify pieces early to surface defects.",
+                  "Work is controlled by the approved design and requirements, not by ad hoc discovery."
+                ]
+              },
+              {
+                "title": "Integration and system test",
+                "lines": [
+                  "Combine modules and test the whole system for interfaces, behavior, and requirements compliance.",
+                  "Integration often reveals issues that unit checks alone cannot find."
+                ]
+              },
+              {
+                "title": "Release and maintenance",
+                "lines": [
+                  "Deploy to the customer environment and support operations with fixes, updates, and enhancements.",
+                  "Maintenance can run long after go-live as latent defects and new needs appear."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Phase Gates and Decision Points",
+        "body": "A phase gate, also called a stage gate or kill point, is a formal review at the end of a phase or at another agreed decision point. Leadership compares planned outcomes to actual results and decides whether to continue, modify, or stop the project.\n\nGates protect investment. They force a pause to recheck business value, risk exposure, funding, and readiness for the next phase. Good gates use predefined criteria rather than informal opinions alone.\n\nTypical gate questions include: Is the business case still valid? Are deliverables complete enough to proceed? Are major risks acceptable? Is funding still justified? Should scope, approach, or resources change before more work is authorized?",
+        "tip": "On the exam, a gate is a governance decision, not just a status meeting. The correct action is often continue, replan, or terminate based on evidence against exit criteria.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "What happens at a phase gate",
+            "items": [
+              {
+                "title": "Review phase outcomes",
+                "lines": [
+                  "Compare planned deliverables, costs, schedule, quality, and risks to actual results.",
+                  "Confirm that exit criteria for the current phase were met or that variances are approved."
+                ]
+              },
+              {
+                "title": "Reassess business justification",
+                "lines": [
+                  "Check whether benefits, costs, assumptions, and strategic fit still support the investment.",
+                  "Update the business case when conditions have changed."
+                ]
+              },
+              {
+                "title": "Decide next action",
+                "lines": [
+                  "Authorize the next phase, require rework or replanning, change approach, or stop the project.",
+                  "Document the decision and any new constraints or funding limits."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Gate outcomes you may see",
+            "rows": [
+              {
+                "key": "Go",
+                "value": "Proceed into the next phase with current or approved updated plans."
+              },
+              {
+                "key": "Conditional go",
+                "value": "Continue only after specific actions, fixes, or revised plans are completed."
+              },
+              {
+                "key": "Hold / replan",
+                "value": "Pause authorization until viability, funding, or readiness is restored."
+              },
+              {
+                "key": "No-go / terminate",
+                "value": "Stop further investment when value or feasibility no longer supports continuation."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Useful terms",
+            "items": [
+              {
+                "code": "Phase gate",
+                "text": "A decision point where readiness and quality of phase outputs are reviewed before continuing."
+              },
+              {
+                "code": "Exit criteria",
+                "text": "Conditions that must be met to close a phase and accept its deliverables."
+              },
+              {
+                "code": "Requirements baseline",
+                "text": "The approved set of needs and constraints used as the reference for design and verification."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Documentation, Traceability, and Stakeholders",
+        "body": "Predictive delivery relies on written agreements so handoffs stay clean. Requirements specs, design packages, test records, and approval artifacts form the project's memory and its audit trail.\n\nAt phase ends, teams review deliverables against standards and requirements before authorizing the next phase. Documentation supports onboarding, maintenance, and future projects, but excessive paperwork can distract from real risks if it becomes ceremony without decision value.\n\nIn classic predictive delivery, stakeholders are heavily engaged at the start for requirements and planning, then again near acceptance and release. That pattern works when needs stay stable. It fails when customers need to shape the product as they learn, because late feedback arrives after expensive work is already complete.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Why documentation matters",
+            "rows": [
+              {
+                "key": "Handoffs",
+                "value": "Each phase needs a clear, approved input from the prior phase."
+              },
+              {
+                "key": "Stakeholder alignment",
+                "value": "Shared records reduce ambiguity about what was agreed."
+              },
+              {
+                "key": "Traceability",
+                "value": "Links needs to design, build, and test evidence for compliance and quality."
+              },
+              {
+                "key": "Future work",
+                "value": "Maintenance and later enhancements depend on knowing how the system was built."
+              },
+              {
+                "key": "Risk of excess",
+                "value": "Over-documenting can hide issues if the team optimizes paperwork over outcomes."
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Engagement pattern",
+            "items": [
+              {
+                "title": "Front-loaded input",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Detailed needs, constraints, and success criteria are captured early."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Lock a requirements baseline that design and build can trust."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "End-loaded validation",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Customers often see a complete product late, near acceptance testing."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Plan formal reviews and acceptance criteria carefully; surprises are costly."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Limited mid-cycle change",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Incremental feedback windows are fewer than in iterative approaches."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Prefer this model only when collaboration demand is low and scope is stable."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "If the scenario requires frequent customer feedback or evolving priorities, pure predictive is rarely the best answer. Look for hybrid or adaptive options.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Delivery, Validation, and Control",
+        "body": "During execution and monitoring, the team produces deliverables while comparing reality to the plan. Budget management continues across phases: track actual spend, explain variances, and take corrective or preventive action before funding is exhausted.\n\nDeliverable validation confirms that outputs meet defined requirements and acceptance criteria. Validation is stakeholder-facing: does the product satisfy agreed needs? Verification is more about whether the work was built correctly against specifications. On the exam, both matter, but formal acceptance often hinges on validation against predetermined criteria.\n\nMonitoring is not only status reporting. It includes review meetings, performance analysis, and feedback loops that restore control before small slips become phase failures.",
+        "tip": "If performance looks poor, first measure against the baseline, then analyze variance root cause, then recommend corrective action or a change request.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Control cycle",
+            "items": [
+              {
+                "title": "Collect performance data",
+                "lines": [
+                  "Track progress, spend, defects, and milestone completion against the plan."
+                ]
+              },
+              {
+                "title": "Compare to baseline",
+                "lines": [
+                  "Identify schedule, cost, or quality variances and assess impact on downstream phases."
+                ]
+              },
+              {
+                "title": "Take corrective action",
+                "lines": [
+                  "Reallocate resources, resequence work, or process formal changes to recover the plan."
+                ]
+              },
+              {
+                "title": "Report and re-plan as needed",
+                "lines": [
+                  "Communicate status and decisions so stakeholders understand risks and residual variance."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "formulas",
+            "title": "EVM essentials",
+            "note": "Below 1.0 or negative = unfavorable",
+            "items": [
+              {
+                "formula": "SV = EV - PV",
+                "lines": [
+                  "Schedule variance: negative means behind schedule in earned value terms."
+                ]
+              },
+              {
+                "formula": "CV = EV - AC",
+                "lines": [
+                  "Cost variance: negative means over budget for the work performed."
+                ]
+              },
+              {
+                "formula": "SPI = EV / PV",
+                "lines": [
+                  "Schedule performance index: less than 1.0 means less progress than planned."
+                ]
+              },
+              {
+                "formula": "CPI = EV / AC",
+                "lines": [
+                  "Cost performance index: less than 1.0 means less value earned per unit of cost spent."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Control focus during delivery",
+            "items": [
+              {
+                "title": "Cost tracking",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Compare actual costs to the cost baseline and investigate variances."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Forecast remaining funds and trigger corrective action or change control when needed."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Deliverable validation",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Confirm outputs satisfy requirements, quality standards, and acceptance criteria."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Obtain formal acceptance evidence before treating work as complete."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Team facilitation",
+                "tone": "neutral",
+                "groups": [
+                  {
+                    "label": "What",
+                    "lines": [
+                      "Guide meetings and address conflict so decisions and progress stay unblocked."
+                    ]
+                  },
+                  {
+                    "label": "Use",
+                    "lines": [
+                      "Keep sessions agenda-driven, inclusive, and outcome-focused throughout the life cycle."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "In predictive scenarios, first measure against the baseline, then decide. Do not invent a new plan casually without impact analysis and approval.",
+            "tone": "accent"
+          }
+        ]
+      },
+      {
+        "heading": "Money and Decisions Across the Life Cycle",
+        "body": "Financial work is not limited to one phase. Early phases use rough estimates and selection metrics to decide whether to invest. Planning builds detailed estimates and the cost baseline. Execution tracks spend and forecasts completion. Closing reconciles actuals and confirms financial obligations are complete.\n\nEstimation methods get more accurate as information improves. Analogous estimating is fast and early. Parametric estimating uses statistical relationships. Bottom-up estimating builds from detailed work packages when definition is strong. Controllers then watch actual cost against planned value and earned value, not against gut feel alone.\n\nFor the exam, connect the financial artifact to the life cycle moment: business case and NPV or IRR for selection, cost baseline for planning approval, EVM for midstream control, and final cost reconciliation at close.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Financial focus by life cycle stage",
+            "rows": [
+              {
+                "key": "Initiation",
+                "value": "ROM estimates, business case, CBA, NPV, IRR, and funding approval to proceed."
+              },
+              {
+                "key": "Planning",
+                "value": "Detailed estimates, reserves as justified, approved cost baseline, and budget documents."
+              },
+              {
+                "key": "Execution / control",
+                "value": "Cost tracking, variance analysis, forecasts, and change-controlled baseline updates."
+              },
+              {
+                "key": "Closing",
+                "value": "Final cost reporting, contract settlement, and financial closure of the project."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Estimation methods to recognize",
+            "items": [
+              {
+                "code": "Analogous",
+                "text": "Top-down estimate using historical data from a similar project; quick but less precise."
+              },
+              {
+                "code": "Parametric",
+                "text": "Uses a unit rate or statistical model, for example cost per square foot, scaled to size."
+              },
+              {
+                "code": "Bottom-up",
+                "text": "Detailed estimate of work packages rolled up; more effort, often more accurate when scope is clear."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "A positive NPV or attractive IRR does not replace ongoing gate reviews. Business value can erode after authorization if assumptions fail or benefits fade.",
+            "tone": "warn"
+          }
+        ]
+      },
+      {
+        "heading": "Closing: Acceptance, Contracts, and Learning",
+        "body": "Closing confirms that the project is finished as agreed and that the organization captures value from the experience. Acceptance criteria verification checks deliverables against standards set earlier in the life cycle. Only after acceptance or approved exceptions should the project fully release resources and close administrative work.\n\nContract closure settles vendor and supplier agreements: deliverables received, invoices reconciled, claims resolved, and contracts formally completed. Project closure also includes a final report, knowledge transfer to operations or next owners, documentation archiving, and lessons learned.\n\nA closure meeting reviews objectives versus outcomes, confirms remaining actions, celebrates or acknowledges results, and makes the end of the project explicit for stakeholders.",
+        "tip": "Closing is not only a party. Incomplete acceptance, open contracts, missing archives, or undocumented lessons are classic exam traps for projects that look done but are not closed.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Closing sequence",
+            "items": [
+              {
+                "title": "Confirm acceptance",
+                "lines": [
+                  "Validate deliverables against acceptance criteria and obtain formal sign-off or approved variance."
+                ]
+              },
+              {
+                "title": "Close contracts and finances",
+                "lines": [
+                  "Complete procurement closure, settle payments, and confirm no open obligations remain."
+                ]
+              },
+              {
+                "title": "Transfer knowledge and ownership",
+                "lines": [
+                  "Hand off products, support materials, and know-how to operations, product owners, or receiving teams."
+                ]
+              },
+              {
+                "title": "Capture learning and archive",
+                "lines": [
+                  "Document lessons learned, write the final report, archive records, and release the team."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Closing artifacts",
+            "rows": [
+              {
+                "key": "Acceptance evidence",
+                "value": "Proof that deliverables met criteria or that exceptions were formally approved."
+              },
+              {
+                "key": "Final project report",
+                "value": "Summary of objectives, actual vs planned performance, outcomes, and recommendations."
+              },
+              {
+                "key": "Lessons learned",
+                "value": "What worked, what failed, and what should change on future work."
+              },
+              {
+                "key": "Archived records",
+                "value": "Charter, baselines, changes, reports, contracts, and other retained project history."
+              },
+              {
+                "key": "Knowledge transfer package",
+                "value": "Operational guidance, known issues, contacts, and skills needed to sustain the product."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Lessons learned should be captured throughout the project, but formal review and repository updates are a hallmark of closing. Do not wait until memories fade.",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "Exam Trade-offs to Remember",
+        "body": "Predictive delivery buys predictability, auditability, and control when the problem is well understood. The price is reduced flexibility and delayed learning from real user feedback.\n\nPMP questions often test whether you pick the approach that matches uncertainty, stakeholder needs, and the cost of change. The right answer is not that waterfall is always good or always bad; it is that the delivery approach should fit the work.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Strengths vs limitations",
+            "rows": [
+              {
+                "key": "Strength: control",
+                "value": "Clear phases, baselines, and gates support governance and forecasting."
+              },
+              {
+                "key": "Strength: clarity",
+                "value": "Precise goals and documentation reduce ambiguity for stable work."
+              },
+              {
+                "key": "Strength: quality gates",
+                "value": "Sequential completion encourages thorough design and verification before release."
+              },
+              {
+                "key": "Limit: change lag",
+                "value": "Late discoveries are expensive because earlier phases are already closed."
+              },
+              {
+                "key": "Limit: feedback lag",
+                "value": "Limited mid-project customer involvement can hide misalignment until acceptance."
+              },
+              {
+                "key": "Limit: documentation load",
+                "value": "Heavy artifacts help handoffs but can become overhead if not decision-focused."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Quick recall",
+            "items": [
+              {
+                "code": "Predictive",
+                "text": "Plan-driven life cycle with substantial upfront definition and sequential execution."
+              },
+              {
+                "code": "Sequential design",
+                "text": "Each major phase completes before the next starts, with limited overlap."
+              },
+              {
+                "code": "Integration",
+                "text": "Combining components and testing them together against system-level requirements."
+              },
+              {
+                "code": "Maintenance",
+                "text": "Post-release work to correct defects, improve units, and respond to new operational needs."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam tip",
+            "text": "Questions that praise being on time and on budget usually assume a predictive baseline. Answers that skip impact analysis for mid-project changes are often wrong.",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "topics": [
+      "Life cycles",
+      "Predictive delivery",
+      "Phase gates",
+      "Baselines"
+    ],
+    "tags": [
+      "life-cycle",
+      "predictive",
+      "phase-gates",
+      "PMBOK"
+    ],
+    "source": "PM Cram — aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]
