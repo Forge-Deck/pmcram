@@ -36,32 +36,80 @@
         "body": "Trouble rarely announces itself. It shows up as a pattern of small signals that, taken together, say the project is drifting. Lean on objective trends to cut through the optimism.",
         "blocks": [
           {
-            "kind": "table",
+            "kind": "cards",
             "title": "Warning sign -> response",
-            "rows": [
+            "items": [
               {
-                "key": "Milestones keep slipping",
-                "value": "Stop and establish the real status before promising new dates."
+                "title": "Milestones keep slipping",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Stop and establish the real status before promising new dates."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Budget burning faster than work is done",
-                "value": "Check CPI; re-plan spend from current reality, not the plan."
+                "title": "Budget burning faster than work is done",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Check CPI; re-plan spend from current reality, not the plan."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Scope churns without settling",
-                "value": "Freeze low-value churn; re-baseline through change control."
+                "title": "Scope churns without settling",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Freeze low-value churn; re-baseline through change control."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Morale sinking or best people leaving",
-                "value": "Protect and re-motivate the team before adding pressure."
+                "title": "Morale sinking or best people leaving",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Protect and re-motivate the team before adding pressure."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Rising defect counts and rework",
-                "value": "Treat as a leading indicator; find the root cause, not the symptom."
+                "title": "Rising defect counts and rework",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Treat as a leading indicator; find the root cause, not the symptom."
+                    ]
+                  }
+                ]
               },
               {
-                "key": "Status reports go quiet, vague or stay 'green'",
-                "value": "Dig into how status is measured - reporting no longer matches reality."
+                "title": "Status reports go quiet, vague or stay 'green'",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Dig into how status is measured - reporting no longer matches reality."
+                    ]
+                  }
+                ]
               }
             ]
           },
