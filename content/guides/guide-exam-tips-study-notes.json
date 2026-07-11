@@ -1,0 +1,903 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Comprehensive Exam Tips & Study Notes",
+    "category": "Exam",
+    "summary": "A high-yield PMP exam guide that turns study notes, mindset rules, keyword cues, formulas, agile and predictive signals, and core frameworks into a practical question-answering system.",
+    "intro": "Use this as the exam-room lens:\n1. Read for the real decision\n2. Match the delivery approach\n3. Assess before acting\n4. Choose the people-first, ethical, value-protecting answer",
+    "sections": [
+      {
+        "kicker": "Question setup",
+        "heading": "Read the question like a decision problem",
+        "body": "Most PMP questions are not asking for a definition. They describe a messy situation and ask what a disciplined project leader should do next. First identify the decision, the delivery approach, the people involved, and whether the problem is a risk, issue, change, conflict, quality gap, or value threat.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Fast read sequence",
+            "items": [
+              {
+                "title": "Read the last line first",
+                "lines": [
+                  "Find whether it asks first, next, best, least likely, should have done, or what to avoid.",
+                  "This prevents chasing irrelevant details."
+                ]
+              },
+              {
+                "title": "Scan answer verbs",
+                "lines": [
+                  "Assess, review, analyze, discuss, facilitate, coach, update, escalate, implement, reject.",
+                  "The verb often reveals the timing trap."
+                ]
+              },
+              {
+                "title": "Find the context",
+                "lines": [
+                  "Predictive, agile, or hybrid changes the right answer.",
+                  "Look for baseline, backlog, sprint, change control, product owner, sponsor, or stakeholder cues."
+                ]
+              },
+              {
+                "title": "Then read the scenario",
+                "lines": [
+                  "Remove distracting adjectives if needed.",
+                  "Do not ignore a specific fact the question deliberately included."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Exam lens",
+            "tone": "accent",
+            "text": "Ask what is really at risk: value, trust, quality, compliance, stakeholder alignment, team performance, or the approved baseline."
+          }
+        ]
+      },
+      {
+        "kicker": "Command words",
+        "heading": "Decode first, next, best, and except",
+        "body": "Command words tell you how strict the sequence is. A good action can be wrong if it happens too early. A true statement can be wrong if the question asks for the exception.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Command word cues",
+            "rows": [
+              {
+                "key": "First / next",
+                "value": "Sequence matters. Prefer assess, review, clarify, or discuss before deciding, implementing, escalating, or rejecting."
+              },
+              {
+                "key": "Best / most appropriate",
+                "value": "Several choices may work. Pick the one most aligned to value, collaboration, ethics, and the delivery approach."
+              },
+              {
+                "key": "Should have done",
+                "value": "This is usually a prevention question. Look for earlier planning, stakeholder engagement, risk identification, or working agreement actions."
+              },
+              {
+                "key": "Except / least likely / not",
+                "value": "Flip the filter. Identify the normal correct set, then choose the item that does not belong."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Verb hierarchy",
+            "tone": "good",
+            "lines": [
+              "Discuss or facilitate often beats a purely technical action when people are involved.",
+              "Assess or review usually beats implement when facts are incomplete.",
+              "Escalate is usually late in the sequence, not the first move."
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Answer selection",
+        "heading": "Use PMI tie-breakers",
+        "body": "When two answers survive elimination, use PMI's mindset as the tie-breaker. The strongest answer is usually proactive, collaborative, ethical, tailored to context, and focused on value rather than status protection or administrative neatness.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Prefer vs avoid",
+            "items": [
+              {
+                "title": "Prefer",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Assess impact and root cause.",
+                      "Engage the right people directly.",
+                      "Coach, mentor, facilitate, or remove impediments.",
+                      "Follow the agreed process and protect value."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Avoid",
+                "tone": "bad",
+                "groups": [
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "Ignore, delay, or merely monitor an active issue.",
+                      "Fire, replace, punish, or blame without due process.",
+                      "Ask the sponsor, HR, or senior management to solve a problem the PM should handle.",
+                      "Make uncontrolled changes or hide bad news."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Use with caution",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Signals",
+                    "lines": [
+                      "The longest answer can be right, but only if it also matches the problem.",
+                      "Keyword-rich answers can be traps if they use the wrong artifact or wrong delivery approach.",
+                      "Vague wording such as speak with may be weaker than a specific action such as facilitate a meeting to resolve the conflict."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "DO FIRST",
+        "heading": "Assess before acting",
+        "body": "A PMP answer normally starts by understanding the situation. Review the relevant evidence, identify root cause and impact, then act through the right process. This is not passivity; it is disciplined diagnosis.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Diagnose-before-action sequence",
+            "items": [
+              {
+                "title": "Gather facts",
+                "lines": [
+                  "Review the plan, baseline, backlog, risk register, issue log, team charter, agreement, or performance data that fits the problem."
+                ]
+              },
+              {
+                "title": "Find cause and impact",
+                "lines": [
+                  "Use root-cause analysis for recurring problems.",
+                  "Assess impact before a change, escalation, or corrective action."
+                ]
+              },
+              {
+                "title": "Engage the right people",
+                "lines": [
+                  "Talk directly with affected stakeholders or team members.",
+                  "Use active listening and clarify expectations."
+                ]
+              },
+              {
+                "title": "Act and communicate",
+                "lines": [
+                  "Use the agreed change, risk, issue, quality, or stakeholder process.",
+                  "Inform stakeholders after the action path is understood."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Root-cause cue",
+            "tone": "accent",
+            "text": "If the question describes repeated defects, delays, conflict, or performance gaps, review and analyze before empowering others to fix symptoms."
+          }
+        ]
+      },
+      {
+        "kicker": "Hard filters",
+        "heading": "Never and always rules",
+        "body": "Absolute rules are dangerous on the PMP because tailoring matters. Still, some answer patterns are consistently weak because they violate ethics, process discipline, servant leadership, or the PM's responsibility to resolve issues at the proper level.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Exam-room filters",
+            "items": [
+              {
+                "title": "Never choose",
+                "tone": "bad",
+                "groups": [
+                  {
+                    "label": "Weak patterns",
+                    "lines": [
+                      "Fire or replace a person as the first response.",
+                      "Request more money or resources before analysis.",
+                      "Escalate without review, assessment, or a failed attempt to resolve.",
+                      "Bypass change control in predictive work.",
+                      "Hide, soften, or manipulate truthful status information."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Usually choose",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Strong patterns",
+                    "lines": [
+                      "Follow agreed processes and working agreements.",
+                      "Show or protect value.",
+                      "Coach, mentor, train, collaborate, and demonstrate support.",
+                      "Meet new stakeholders and review relevant documents with them.",
+                      "Use emotional intelligence when people are upset or resistant."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Always protect",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Boundaries",
+                    "lines": [
+                      "Ethics, safety, compliance, confidentiality, fairness, and honest reporting.",
+                      "These beat speed, convenience, and pressure from powerful stakeholders."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Keyword cues",
+        "heading": "Map keywords to concepts",
+        "body": "Keywords are not a substitute for thinking, but they are useful when the scenario is long or oddly worded. Match the cue to the concept, then confirm it fits the delivery approach and the question's command word.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "High-yield associations",
+            "rows": [
+              {
+                "key": "Agile / sprint / iteration",
+                "value": "Backlog, product owner, servant leadership, team self-organization, reviews, retrospectives, and incremental value."
+              },
+              {
+                "key": "New stakeholder / new PM",
+                "value": "Meet, review current documents and project history, clarify expectations, and engage early."
+              },
+              {
+                "key": "Business value",
+                "value": "Business case, benefits realization, MVP, prioritization, and alignment to strategic goals."
+              },
+              {
+                "key": "Negotiation",
+                "value": "Resolve conflict, preserve relationships, understand interests, use active listening, and know BATNA."
+              },
+              {
+                "key": "International / local / culture",
+                "value": "Adapt to local environment, seek buy-in, respect cultural differences, and use change management."
+              },
+              {
+                "key": "Megaproject / governance",
+                "value": "Steering committee, transparent reporting, issue management, and defined accountability."
+              },
+              {
+                "key": "Agreed-upon",
+                "value": "Stakeholder engagement plan, communications plan, team charter, working agreements, contract, or acceptance criteria."
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Artifact shortcuts",
+            "items": [
+              {
+                "code": "Threat not yet happened",
+                "text": "Risk register and risk response planning."
+              },
+              {
+                "code": "Problem already happening",
+                "text": "Issue log and corrective action."
+              },
+              {
+                "code": "Behavior expectations",
+                "text": "Team charter or working agreements."
+              },
+              {
+                "code": "Scope disagreement",
+                "text": "Scope baseline, WBS, WBS dictionary, acceptance criteria, and change control."
+              },
+              {
+                "code": "Stakeholder confusion",
+                "text": "Stakeholder engagement plan before a simple broadcast communication."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Delivery approach",
+        "heading": "Match predictive, agile, and hybrid signals",
+        "body": "The right action depends on how the work is being delivered. A predictive project protects baselines through integrated change control. An agile project adapts through backlog refinement and team learning. A hybrid project tailors both.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "Approach signals",
+            "items": [
+              {
+                "title": "Predictive",
+                "badge": "Plan-driven",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Approved baseline, detailed requirements, formal change request, CCB, phase gate, contract-driven work."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Assess impact, submit change request, follow integrated change control, update plans and baselines after approval."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Agile",
+                "badge": "Adaptive",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Backlog, user stories, sprint, iteration, review, retrospective, product owner, servant leader, WIP."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Collaborate with the team, refine and reprioritize the backlog, remove impediments, inspect and adapt."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Hybrid",
+                "badge": "Tailored",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Cues",
+                    "lines": [
+                      "Governance and baselines exist, but delivery is iterative or uncertain in part of the project."
+                    ]
+                  },
+                  {
+                    "label": "Answer style",
+                    "lines": [
+                      "Use formal control for stable or governed work and adaptive learning for uncertain product work."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Context trap",
+            "tone": "bad",
+            "text": "Formal change control can be a distractor in agile questions; backlog reprioritization can be a distractor when a predictive baseline is being changed."
+          }
+        ]
+      },
+      {
+        "kicker": "People domain",
+        "heading": "Choose people-first leadership patterns",
+        "body": "People problems normally need a direct human response before administrative handling. The PMP leader coaches, facilitates, listens, clarifies, develops capability, and protects psychological safety while keeping accountability.",
+        "blocks": [
+          {
+            "kind": "cards",
+            "title": "People-first responses",
+            "items": [
+              {
+                "title": "Low performance",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Meet privately, understand cause, provide feedback, coach, mentor, train, or clarify role expectations."
+                    ]
+                  },
+                  {
+                    "label": "Avoid",
+                    "lines": [
+                      "Public criticism, replacement, HR escalation, or sponsor intervention as the first step."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Conflict",
+                "tone": "accent",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Facilitate direct discussion with those involved, use active listening, focus on interests, and seek collaborative resolution."
+                    ]
+                  },
+                  {
+                    "label": "Avoid",
+                    "lines": [
+                      "Suppressing conflict, forcing a decision, or sending a one-way email instead of resolving it."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Agile team issue",
+                "tone": "good",
+                "groups": [
+                  {
+                    "label": "Response",
+                    "lines": [
+                      "Encourage the team to find a new way of working, remove impediments, and support self-organization within clear guardrails."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Private vs group",
+            "tone": "accent",
+            "text": "One person's behavior usually starts with a private conversation. A system-wide team issue usually starts with the team."
+          }
+        ]
+      },
+      {
+        "kicker": "Stakeholders",
+        "heading": "Engage before you broadcast",
+        "body": "Stakeholder engagement is not the same as communication. Communication sends information. Engagement builds alignment, commitment, and input. When a stakeholder is resistant, new, influential, or affected by change, meet and understand before sending a status update.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Stakeholder sequence",
+            "items": [
+              {
+                "title": "Identify and analyze",
+                "lines": [
+                  "Know who is affected, their power, interest, needs, expectations, and attitude."
+                ]
+              },
+              {
+                "title": "Engage intentionally",
+                "lines": [
+                  "Use the stakeholder engagement plan and tailor the approach to each stakeholder."
+                ]
+              },
+              {
+                "title": "Communicate with purpose",
+                "lines": [
+                  "Use the communications plan for timing, format, channel, and reporting needs.",
+                  "Use direct conversation for conflict, resistance, and sensitive alignment."
+                ]
+              },
+              {
+                "title": "Monitor alignment",
+                "lines": [
+                  "Watch for attitude shifts, missing feedback, unresolved objections, and benefits risk."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "Engagement vs communication",
+            "rows": [
+              {
+                "key": "Stakeholder engagement plan",
+                "value": "How to involve stakeholders, gain support, manage expectations, and move them toward desired engagement."
+              },
+              {
+                "key": "Communications plan",
+                "value": "What information is sent, to whom, by which channel, how often, and in what format."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Change",
+        "heading": "Handle change without reflexes",
+        "body": "Do not automatically approve, reject, implement, or escalate a change. First determine whether the request affects scope, schedule, cost, quality, risk, benefits, or compliance, then use the correct system for the delivery approach.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Change handling sequence",
+            "items": [
+              {
+                "title": "Clarify the request",
+                "lines": [
+                  "Confirm what is being asked and why.",
+                  "Determine whether it is a true change, defect, risk response, or clarification."
+                ]
+              },
+              {
+                "title": "Assess impact",
+                "lines": [
+                  "Evaluate scope, schedule, cost, quality, risk, benefits, resources, and stakeholder effects."
+                ]
+              },
+              {
+                "title": "Use the right path",
+                "lines": [
+                  "Predictive: submit and process a change request through change control.",
+                  "Agile: capture, refine, and reprioritize through the product backlog.",
+                  "Hybrid: apply governance to governed work and adapt the iterative work."
+                ]
+              },
+              {
+                "title": "Update and communicate",
+                "lines": [
+                  "After approval or prioritization, update artifacts and communicate decisions to affected stakeholders."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Baseline cue",
+            "tone": "warn",
+            "text": "Every change to a predictive baseline should go through integrated change control. A PM does not quietly change the baseline."
+          }
+        ]
+      },
+      {
+        "kicker": "Ethics",
+        "heading": "Ethics and compliance are non-negotiable",
+        "body": "When an answer conflicts with honesty, responsibility, respect, fairness, safety, law, contract, or policy, eliminate it. The ethical choice is not balanced against convenience. A project manager reports true status, protects confidentiality, avoids favoritism, and follows required processes.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "PMI ethics filters",
+            "rows": [
+              {
+                "key": "Responsibility",
+                "value": "Own decisions, disclose issues appropriately, and do not ignore known problems."
+              },
+              {
+                "key": "Respect",
+                "value": "Treat people professionally, listen to different views, and respect cultural and legal contexts."
+              },
+              {
+                "key": "Fairness",
+                "value": "Avoid favoritism, hidden conflicts of interest, biased decisions, and unequal treatment."
+              },
+              {
+                "key": "Honesty",
+                "value": "Do not falsify, mislead, conceal defects, or report progress inaccurately."
+              },
+              {
+                "key": "Compliance",
+                "value": "Follow laws, regulations, contracts, organizational policy, safety rules, and approved governance."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Pressure trap",
+            "tone": "bad",
+            "text": "A powerful stakeholder asking for a shortcut does not make the shortcut acceptable. Escalate or report through the proper channel when ethics or compliance is at risk."
+          }
+        ]
+      },
+      {
+        "kicker": "Numbers",
+        "heading": "Avoid formula and number traps",
+        "body": "Calculation questions are usually testing interpretation more than arithmetic. Watch signs, units, assumptions, and extra data. Know what the number means before choosing the answer.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "Core formulas to keep sharp",
+            "note": "EV is always the hinge for earned value",
+            "items": [
+              {
+                "formula": "CPI = EV / AC",
+                "lines": [
+                  "Below 1.0 = over budget.",
+                  "Above 1.0 = under budget."
+                ]
+              },
+              {
+                "formula": "SPI = EV / PV",
+                "lines": [
+                  "Below 1.0 = behind schedule.",
+                  "Above 1.0 = ahead of schedule."
+                ]
+              },
+              {
+                "formula": "CV = EV - AC",
+                "lines": [
+                  "Negative = over budget."
+                ]
+              },
+              {
+                "formula": "SV = EV - PV",
+                "lines": [
+                  "Negative = behind schedule."
+                ]
+              },
+              {
+                "formula": "PERT = (O + 4M + P) / 6",
+                "lines": [
+                  "Weighted three-point estimate.",
+                  "The most likely estimate gets four times the weight."
+                ]
+              },
+              {
+                "formula": "EMV = Probability x Impact",
+                "lines": [
+                  "Threats are negative and opportunities are positive.",
+                  "Sum branch or risk values when needed."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "cards",
+            "title": "Common traps",
+            "items": [
+              {
+                "title": "Wrong direction",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "Negative variance is bad.",
+                      "Index below 1.0 is bad."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Wrong assumption",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "EAC formula depends on whether current variances will continue.",
+                      "Do not use every number just because it is provided."
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Wrong unit",
+                "tone": "warn",
+                "groups": [
+                  {
+                    "label": "Watch",
+                    "lines": [
+                      "Weeks vs months, percent vs currency, people added vs total people.",
+                      "Communication channels often ask for the increase, not the final total."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kicker": "Prioritization",
+        "heading": "Prioritize by value, risk, and constraints",
+        "body": "Prioritization questions usually test whether you can balance value delivery with risk, dependencies, constraints, stakeholder needs, and readiness. Do not prioritize only because something is loud or urgent.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Prioritization methods and cues",
+            "rows": [
+              {
+                "key": "MoSCoW",
+                "value": "Must have, should have, could have, will not have for now. Useful for stakeholder trade-off conversations."
+              },
+              {
+                "key": "MVP",
+                "value": "Smallest usable product that validates value and enables feedback."
+              },
+              {
+                "key": "WSJF",
+                "value": "Prioritize higher cost of delay relative to job size; common in scaled agile thinking."
+              },
+              {
+                "key": "Risk-first agile work",
+                "value": "Address high-risk or uncertain items early so learning happens while options remain."
+              },
+              {
+                "key": "Last responsible moment",
+                "value": "Delay a decision only until the cost of waiting exceeds the benefit of more information."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Value cue",
+            "tone": "good",
+            "text": "When customer needs, business value, and team convenience compete, customer value and business outcomes usually carry the most weight."
+          }
+        ]
+      },
+      {
+        "kicker": "Frameworks",
+        "heading": "Condense team and leadership models",
+        "body": "Framework questions often reward recognition of the model plus the right leadership move. Keep the model simple and focus on what action follows.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Team and leadership shortcuts",
+            "items": [
+              {
+                "code": "Tuckman",
+                "text": "Forming, storming, norming, performing, adjourning. Shift from directing to coaching to facilitating to delegating as maturity rises."
+              },
+              {
+                "code": "Servant leadership",
+                "text": "Serve the team, remove impediments, coach, protect focus, and enable self-organization."
+              },
+              {
+                "code": "Situational leadership",
+                "text": "Tailor style to team maturity, urgency, complexity, and risk."
+              },
+              {
+                "code": "Transformational leadership",
+                "text": "Inspire through vision, change energy, and shared purpose."
+              },
+              {
+                "code": "Transactional leadership",
+                "text": "Use clear targets and rewards; useful for structured performance but not the agile default."
+              },
+              {
+                "code": "Laissez-faire",
+                "text": "Hands-off style that only works well with expert, self-directed teams."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Power cue",
+            "tone": "good",
+            "text": "Expert and referent power are stronger than coercive or positional power. Coercion is a last resort."
+          }
+        ]
+      },
+      {
+        "kicker": "Frameworks",
+        "heading": "Use change, negotiation, and stakeholder models",
+        "body": "Many scenario questions hide a framework under ordinary language. Resistance may call for change management. Conflict may call for negotiation. Stakeholder pressure may call for salience, engagement analysis, or transparent governance.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Model-to-action map",
+            "rows": [
+              {
+                "key": "ADKAR",
+                "value": "Awareness, desire, knowledge, ability, reinforcement. Use when adoption or resistance is the issue."
+              },
+              {
+                "key": "Kotter",
+                "value": "Create urgency, coalition, vision, enlist volunteers, remove barriers, generate wins, sustain acceleration, anchor change."
+              },
+              {
+                "key": "BATNA",
+                "value": "Best alternative to a negotiated agreement. Know your fallback before bargaining."
+              },
+              {
+                "key": "Salience model",
+                "value": "Power, legitimacy, urgency. Use to understand which stakeholders need close attention."
+              },
+              {
+                "key": "Trust",
+                "value": "Trust enables collaboration; build it through transparency, competence, reliability, and respect."
+              },
+              {
+                "key": "Governance",
+                "value": "Accountability, roles, communication, risk and issue management, assurance, and project control processes."
+              }
+            ]
+          },
+          {
+            "kind": "tip",
+            "title": "Negotiation cue",
+            "tone": "accent",
+            "text": "The main purpose of negotiation is resolving conflict while preserving a workable relationship, not simply winning the scope argument."
+          }
+        ]
+      },
+      {
+        "kicker": "Value",
+        "heading": "Think benefits realization",
+        "body": "The PMP exam increasingly frames success as value delivery, not just finishing outputs. The project exists to enable business outcomes. When in doubt, choose the answer that protects value, validates benefits, and keeps stakeholders aligned to intended outcomes.",
+        "blocks": [
+          {
+            "kind": "steps",
+            "title": "Benefits realization flow",
+            "items": [
+              {
+                "title": "Identify benefits",
+                "lines": [
+                  "Confirm that the project can produce intended business results.",
+                  "Use the business case and benefits management plan as anchors."
+                ]
+              },
+              {
+                "title": "Manage benefits",
+                "lines": [
+                  "Track risks to benefits, align scope and priorities to value, and adjust when expected value is threatened."
+                ]
+              },
+              {
+                "title": "Sustain benefits",
+                "lines": [
+                  "Ensure the output can continue creating value after delivery and transition."
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Value signals",
+            "items": [
+              {
+                "code": "Business case",
+                "text": "Why the project is worth doing and how it supports strategy."
+              },
+              {
+                "code": "Benefits management plan",
+                "text": "How benefits will be measured, owned, realized, and sustained."
+              },
+              {
+                "code": "MVP",
+                "text": "Early usable slice that validates value and enables learning."
+              },
+              {
+                "code": "KPI",
+                "text": "Measure that indicates whether outcomes and performance are moving in the intended direction."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "exam",
+      "pmp",
+      "study notes",
+      "exam strategy",
+      "mindset",
+      "agile",
+      "predictive",
+      "hybrid",
+      "ethics",
+      "formulas",
+      "frameworks",
+      "pmbok 8"
+    ],
+    "topics": [
+      "Exam",
+      "Mindset",
+      "Exam Strategy"
+    ],
+    "source": "PM Cram — aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]
