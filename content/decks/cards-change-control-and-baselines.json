@@ -1,0 +1,160 @@
+[
+  {
+    "deck": "Change Control & Baselines",
+    "front": "On a predictive project, a sponsor verbally asks for a significant scope add mid-execution. What is the correct sequence before work starts?",
+    "back": "Document the change request → assess impact on baselines (scope/schedule/cost/quality/risk) → submit through integrated change control / CCB → implement only if approved → update baselines and communicate. Do not start work on verbal authority alone.",
+    "tags": [
+      "change-control",
+      "baselines",
+      "predictive",
+      "Governance",
+      "ECO-Business-T3"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam trap: 'just start because the sponsor said so' is almost always wrong once baselines exist."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "What is the Change Control Board (CCB), and when does the PM escalate to it?",
+    "back": "A formally chartered body that reviews, approves, defers, or rejects change requests per the change management plan. Escalate when the request exceeds the PM’s delegated authority or tolerance thresholds (e.g., multi-baseline or business-case impact).",
+    "tags": [
+      "CCB",
+      "change-control",
+      "governance",
+      "authority"
+    ],
+    "difficulty": "easy",
+    "tip": "PM authority is defined in the charter/governance plan—not assumed unlimited."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Which project artifacts are typically baselined and therefore require formal change control to modify?",
+    "back": "Scope baseline (scope statement + WBS/scope structure + WBS dictionary), schedule baseline, and cost baseline. Together they form the performance measurement baseline (PMB). Quality metrics and configuration items may also be controlled under configuration management.",
+    "tags": [
+      "baselines",
+      "PMB",
+      "scope",
+      "schedule",
+      "finance"
+    ],
+    "difficulty": "medium",
+    "tip": "Management reserve is outside the cost baseline; contingency is inside it."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "What is the Performance Measurement Baseline (PMB), and why does it matter for change control?",
+    "back": "The integrated, approved scope + schedule + cost baselines used to measure performance (e.g., EVM). Approved changes that alter any of those three require re-baselining the PMB so variance analysis stays meaningful.",
+    "tags": [
+      "PMB",
+      "baselines",
+      "EVM",
+      "monitoring"
+    ],
+    "difficulty": "medium",
+    "tip": "If you measure against an outdated PMB, CV/SV become fiction."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "When may the team start implementing a proposed change on a baselined predictive project?",
+    "back": "Only after the change is approved through the defined change control process (PM or CCB/sponsor per authority). Documentation and baseline updates follow approval; implementation without approval is unauthorized scope.",
+    "tags": [
+      "change-control",
+      "approval",
+      "predictive",
+      "ECO-Business-T3"
+    ],
+    "difficulty": "easy",
+    "tip": "Approval first → then implement and update plans/baselines/logs."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Predictive vs adaptive: how does change handling differ once work is underway?",
+    "back": "Predictive: formal change requests, impact analysis, CCB/integrated change control, baseline updates. Adaptive: new work enters the backlog, is refined and prioritized by the product owner/value owner; capacity is traded each iteration—no mid-iteration baseline rewrite for every idea.",
+    "tags": [
+      "predictive",
+      "adaptive",
+      "agile",
+      "change-control",
+      "tailoring"
+    ],
+    "difficulty": "medium",
+    "tip": "Same need (control change); different mechanism (CCB vs backlog prioritization)."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "In PMBOK 8, which Governance process evaluates change requests and implements approved changes across baselines?",
+    "back": "Assess and Implement Changes (Monitoring & Controlling Focus Area). It reviews multi-baseline impact, routes approval by authority, updates plans/baselines, and communicates decisions.",
+    "tags": [
+      "PMBOK8",
+      "Governance",
+      "Assess and Implement Changes",
+      "processes"
+    ],
+    "difficulty": "medium",
+    "tip": "Classic 'Perform Integrated Change Control' maps here in PMBOK 8."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Change control vs configuration management — what is the distinction?",
+    "back": "Change control: identify, document, decide, and manage changes to project documents, deliverables, and baselines. Configuration management: identify configuration items, version/baseline product and process specs, and ensure only authorized versions are used. Config control feeds change control when a CI changes.",
+    "tags": [
+      "change-control",
+      "configuration-management",
+      "distinction"
+    ],
+    "difficulty": "hard",
+    "tip": "Config = what version of what item; change control = may we alter the plan/baseline?"
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Before baselines are set vs after: how does change handling differ?",
+    "back": "Before baselining, refinements are normal planning work (update drafts via progressive elaboration). After baselining, changes that affect controlled baselines require formal change control, impact assessment, and approval—then re-baseline.",
+    "tags": [
+      "baselines",
+      "planning",
+      "change-control",
+      "progressive-elaboration"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam cue: 'baselines already approved' → formal CR path."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Name the four common types of change requests and what each addresses.",
+    "back": "Corrective action (bring future performance back in line with plan), preventive action (reduce probability of negative deviation), defect repair (fix a nonconforming product/component), and pure/update change (modify scope, schedule, cost, or other plan elements).",
+    "tags": [
+      "change-request",
+      "corrective",
+      "preventive",
+      "defect-repair"
+    ],
+    "difficulty": "medium",
+    "tip": "All four still go through change control if they affect baselined work or controlled docs."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "What must happen after a change is approved (beyond doing the work)?",
+    "back": "Update the project management plan and affected baselines, revise related project documents, record the decision in the change log, communicate status to stakeholders, and ensure configuration items reflect the approved version.",
+    "tags": [
+      "change-control",
+      "documentation",
+      "communication",
+      "ECO-Business-T3"
+    ],
+    "difficulty": "easy",
+    "tip": "2026 ECO: execute change control → communicate status → implement → update documentation."
+  },
+  {
+    "deck": "Change Control & Baselines",
+    "front": "Scope creep vs gold plating vs an approved scope change — how do you tell them apart on the exam?",
+    "back": "Scope creep: uncontrolled expansion without CR/approval. Gold plating: team adds unrequested extras. Approved scope change: documented CR, impact assessed, authorized, baselines updated. Only the last is legitimate baselined work.",
+    "tags": [
+      "scope-creep",
+      "gold-plating",
+      "change-control",
+      "scope"
+    ],
+    "difficulty": "medium",
+    "tip": "If it never went through change control, it is not an approved change."
+  }
+]

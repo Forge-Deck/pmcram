@@ -1,0 +1,180 @@
+[
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Requirements are unstable, customer value is best proven incrementally, and the team can deliver working product every few weeks. Which development approach should you recommend, and why?",
+    "back": "Adaptive/agile. High uncertainty and frequent change favor short feedback loops, backlog prioritization, and incremental value delivery over a fixed predictive baseline.",
+    "tags": [
+      "delivery-approach",
+      "adaptive",
+      "agile",
+      "ECO-process"
+    ],
+    "difficulty": "easy",
+    "tip": "2026 ECO Process Task 1 explicitly tests recommending predictive, adaptive/agile, or hybrid."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Scope is well defined, change is rare, and schedule/cost baselines must be locked early for a fixed-price contract. Which development approach fits best?",
+    "back": "Predictive (plan-driven). Stable requirements and contractual need for fixed baselines support detailed upfront planning, sequential execution, and formal change control.",
+    "tags": [
+      "delivery-approach",
+      "predictive",
+      "scope",
+      "contracts"
+    ],
+    "difficulty": "easy",
+    "tip": "Contract type and baseline rigidity are strong predictive cues on the exam."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Hardware/infrastructure must be engineered with fixed design gates, while software features still evolve with user feedback. Which approach should you recommend?",
+    "back": "Hybrid. Use predictive (or stage-gate) control where uncertainty is low and compliance/design locks matter; use adaptive delivery where requirements remain uncertain and feedback adds value.",
+    "tags": [
+      "delivery-approach",
+      "hybrid",
+      "tailoring"
+    ],
+    "difficulty": "medium",
+    "tip": "Different workstreams can legitimately use different approaches on one project."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "What three high-level cues most strongly drive choosing predictive vs adaptive vs hybrid?",
+    "back": "Requirement/uncertainty level, expected rate of change, and preferred delivery cadence (single big release vs frequent usable increments with feedback).",
+    "tags": [
+      "delivery-approach",
+      "selection-criteria",
+      "uncertainty"
+    ],
+    "difficulty": "medium",
+    "tip": "If two of three cues point one way, that approach usually wins."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "On the 2026 PMP exam, roughly what share of items is predictive vs adaptive/hybrid across the value-delivery spectrum?",
+    "back": "About 40% predictive; about 60% adaptive/agile and hybrid combined. Approaches are integrated across People, Process, and Business Environment—not confined to one domain.",
+    "tags": [
+      "ECO-2026",
+      "exam-structure",
+      "delivery-approach"
+    ],
+    "difficulty": "easy",
+    "tip": "Do not assume agile is only a Process-domain topic."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "A regulated build needs heavy documentation, formal stage approvals, and low tolerance for midstream scope change. Adaptive delivery is popular with the team. What should you recommend?",
+    "back": "Lean predictive (or hybrid with predictive governance). Regulatory gates, documentation, and low change tolerance outweigh preference for pure agile; adaptive practices can still sit inside controlled phases if they do not bypass compliance.",
+    "tags": [
+      "delivery-approach",
+      "predictive",
+      "governance",
+      "compliance"
+    ],
+    "difficulty": "medium",
+    "tip": "Team preference never overrides compliance and governance constraints."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Product vision is clear, but solution design is highly uncertain and stakeholders can only validate value when they use partial deliverables. Which approach, and what cadence cue matters most?",
+    "back": "Adaptive/agile with short delivery cadence. Frequent usable increments enable learning and reprioritization; long single-release cadences hide discovery risk.",
+    "tags": [
+      "delivery-approach",
+      "adaptive",
+      "cadence",
+      "value"
+    ],
+    "difficulty": "medium",
+    "tip": "Cadence is a selection input, not just a scheduling detail."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "When is hybrid the better recommendation than pure predictive or pure adaptive?",
+    "back": "When project parts differ: some work has stable requirements/constraints (contracts, compliance, physical construction) while other work has high change or discovery needs (software, UX, innovation). Combine approaches by work package or phase.",
+    "tags": [
+      "delivery-approach",
+      "hybrid",
+      "tailoring"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam trap: hybrid is not 'weaker agile'—it is intentional mix by context."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "How should development-approach choice shape Scope and Schedule domain practices (PMBOK 8 function domains)?",
+    "back": "Predictive: define and baseline full scope early; network/critical-path schedule with change control. Adaptive: progressive elaboration via backlog; timeboxed iterations/releases and velocity/throughput tracking instead of a fixed full-scope baseline.",
+    "tags": [
+      "delivery-approach",
+      "scope",
+      "schedule",
+      "PMBOK-8"
+    ],
+    "difficulty": "hard",
+    "tip": "Same domains, different control mechanisms by approach."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Stakeholders demand a firm end date and budget, yet requirements still shift weekly. Pure predictive planning keeps failing. What approach and why?",
+    "back": "Hybrid: hold fixed outer constraints (date/budget/governance) while using adaptive scope prioritization inside the envelope—deliver highest value first and descope lower-value work if needed.",
+    "tags": [
+      "delivery-approach",
+      "hybrid",
+      "constraints",
+      "value"
+    ],
+    "difficulty": "hard",
+    "tip": "Fixed constraints + unstable scope ≈ hybrid with value-based prioritization."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "What organizational or team conditions favor adaptive delivery even when some requirements look stable?",
+    "back": "Available product owner/customer for frequent feedback, cross-functional team that can ship increments, and a culture that accepts changing priorities. Without those enablers, 'agile theater' underperforms.",
+    "tags": [
+      "delivery-approach",
+      "adaptive",
+      "stakeholders",
+      "resources"
+    ],
+    "difficulty": "medium",
+    "tip": "Approach must match stakeholder engagement and team capability, not only scope uncertainty."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "A sponsor insists on pure waterfall for a novel digital product with unknown user behavior. What is the PM's best exam-aligned response?",
+    "back": "Assess uncertainty and recommend adaptive or hybrid with evidence: unknown user behavior needs short feedback loops. Educate on risk of late discovery under pure predictive; propose a tailored approach that still meets governance needs.",
+    "tags": [
+      "delivery-approach",
+      "predictive",
+      "adaptive",
+      "leadership"
+    ],
+    "difficulty": "hard",
+    "tip": "Recommend based on project characteristics, not hierarchy alone—then gain buy-in."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Per 2026 ECO Process Task 1, what does 'recommend a project management development approach' include beyond naming predictive/adaptive/hybrid?",
+    "back": "Assess needs, complexity, and magnitude; recommend an execution strategy; create and maintain an integrated plan suited to that approach; and use data to keep decisions aligned with value and constraints.",
+    "tags": [
+      "ECO-2026",
+      "process",
+      "delivery-approach",
+      "integrated-plan"
+    ],
+    "difficulty": "medium",
+    "tip": "Selection is the start; the plan and execution strategy must match the choice."
+  },
+  {
+    "deck": "Delivery Approach Selection",
+    "front": "Mid-project, uncertainty drops after a pilot and remaining work is well specified under a firm regulatory deadline. Should you stick with pure adaptive?",
+    "back": "Not necessarily. Re-tailor: shift remaining work toward more predictive planning and control to protect the deadline and compliance path, while keeping adaptive practices only where residual uncertainty remains.",
+    "tags": [
+      "delivery-approach",
+      "tailoring",
+      "hybrid",
+      "governance"
+    ],
+    "difficulty": "hard",
+    "tip": "Approach selection is not one-and-done—reassess when context changes."
+  }
+]

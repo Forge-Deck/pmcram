@@ -1,0 +1,133 @@
+[
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "Define risk, issue, and impediment as three distinct work-item types on the PMP exam.",
+    "back": "Risk: uncertain future event (threat or opportunity) that may affect objectives. Issue: a present problem that has already occurred or is occurring. Impediment (obstacle/blocker): anything currently obstructing the team’s flow or progress—often an issue viewed through delivery velocity.",
+    "tags": [
+      "risk",
+      "issue",
+      "impediment",
+      "definitions",
+      "eco-be-task4"
+    ],
+    "difficulty": "easy",
+    "tip": "Time axis: future (risk) vs now (issue/impediment)."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "Risk register vs issue log: purpose, timing, and what each typically records.",
+    "back": "Risk register is proactive: probability/impact, triggers, owners, planned responses for uncertain events. Issue log is reactive: description, owner, open/target dates, priority/impact, and status for problems that already exist and need resolution.",
+    "tags": [
+      "risk-register",
+      "issue-log",
+      "artifacts",
+      "mapping"
+    ],
+    "difficulty": "easy",
+    "tip": "May/might → register; is/has → log."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "A key vendor may deliver late (probability 40%). Two days later the shipment actually misses the gate. How do the work-item type and artifact change?",
+    "back": "Before: threat risk → risk register + planned response. After: it is now an issue (uncertainty resolved unfavorably) → issue log, impact assessment, and intervention/escalation to remove the impediment; residual risk of further delay may remain on the risk register.",
+    "tags": [
+      "risk-to-issue",
+      "transition",
+      "artifacts",
+      "scenario"
+    ],
+    "difficulty": "medium",
+    "tip": "2026 ECO BE Task 4: recognize when a risk becomes an issue."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "How does an impediment differ from a generic project issue on scenario questions?",
+    "back": "An issue is any current problem needing resolution. An impediment (blocker/obstacle) specifically stalls team progress or value delivery—e.g., missing access, wait on another team, tool outage. Exam answers emphasize evaluate impact → prioritize → intervene → reassess, not only documenting the problem.",
+    "tags": [
+      "impediment",
+      "issue",
+      "blocker",
+      "distinction"
+    ],
+    "difficulty": "medium",
+    "tip": "If the team cannot move work, call it an impediment first."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "Per the 2026 ECO Business Environment Task 4, what is the ordered playbook for removing impediments?",
+    "back": "1) Evaluate impact. 2) Prioritize and highlight. 3) Determine and apply an intervention to remove/minimize. 4) Reassess continually so obstacles and blockers stay addressed. Parallel for issues: recognize risk→issue transitions and collaborate with stakeholders on the resolution approach.",
+    "tags": [
+      "eco-2026",
+      "business-environment",
+      "impediments",
+      "sequence"
+    ],
+    "difficulty": "hard",
+    "tip": "Impact → prioritize → intervene → reassess (not jump straight to escalate)."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "When a planned threat occurs, what do you do with the risk register, issue log, and any contingency reserve?",
+    "back": "Treat it as an issue: log it, execute the planned risk response, and draw contingency if that response was funded. Update the risk register (status/history); keep residual risk if exposure remains. No new change request is needed solely because a planned contingency is used—CRs apply when the response changes baselines beyond planned reserves/governance.",
+    "tags": [
+      "risk-to-issue",
+      "contingency",
+      "change-control",
+      "when-to-use"
+    ],
+    "difficulty": "hard",
+    "tip": "Planned risk firing ≠ surprise issue; still issue-log it and run the response."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "A problem appears that was never identified as a risk. Is it a risk or an issue, and which artifact owns it?",
+    "back": "It is an issue (present problem)—record and manage it in the issue log with owner, impact, and actions. Optionally feed root-cause learning into risk identification for future similar threats, but do not park a current problem only on the risk register.",
+    "tags": [
+      "issue",
+      "unplanned",
+      "issue-log",
+      "exam-trap"
+    ],
+    "difficulty": "medium",
+    "tip": "Unknown until it hit you → issue now; improve the risk process later."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "Can a positive risk (opportunity) become an “issue”? What language should you use instead?",
+    "back": "No—issues are adverse present problems. When an opportunity materializes or is realized, you execute the exploit/enhance/share response and capture benefits/status; you do not move it to the issue log as an issue. Only threats that occur (or other current problems) become issues.",
+    "tags": [
+      "opportunity",
+      "threat",
+      "issue",
+      "distinction"
+    ],
+    "difficulty": "medium",
+    "tip": "Issue = bad thing now; opportunity realized = good thing now."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "What escalation triggers separate “PM handles it” from “escalate governance/sponsor” for issues and impediments?",
+    "back": "Escalate when the item exceeds the PM’s authority, budget/schedule thresholds, or agreed governance paths; when cross-team/org power is required; or when safety, compliance, or contractual commitments are at stake. Otherwise evaluate, prioritize, intervene with the team/stakeholders first—do not escalate by default.",
+    "tags": [
+      "escalation",
+      "governance",
+      "impediment",
+      "issue"
+    ],
+    "difficulty": "medium",
+    "tip": "Authority and thresholds—not severity alone—drive escalation."
+  },
+  {
+    "deck": "Risk vs Issue vs Impediment",
+    "front": "Map risk, issue, and impediment work to PMBOK 8 performance domains and 2026 ECO domains.",
+    "back": "Uncertainty planning/monitoring → PMBOK 8 Risk domain and ECO BE Task 5 (plan/manage risk, maintain risk register). Present problems, blockers, and risk→issue recognition → ECO BE Task 4; interventions often touch Resources (team flow), Stakeholders (collaboration), and Governance (escalation paths/thresholds).",
+    "tags": [
+      "pmbok8",
+      "eco-2026",
+      "mapping",
+      "risk-domain"
+    ],
+    "difficulty": "hard",
+    "tip": "Task 5 = still uncertain; Task 4 = blocking/now and the risk→issue handoff."
+  }
+]

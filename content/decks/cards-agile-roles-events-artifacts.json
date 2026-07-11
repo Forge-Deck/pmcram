@@ -1,0 +1,210 @@
+[
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Definition of Ready (DoR) vs Definition of Done (DoD) — what does each gate, and who primarily owns each?",
+    "back": "DoR: criteria for a backlog item to enter a sprint/iteration (team + product owner collaboration). DoD: criteria for a product increment to be considered complete/potentially releasable (team-owned quality bar). DoR protects planning; DoD protects quality and releasability.",
+    "tags": [
+      "agile",
+      "dor",
+      "dod",
+      "quality",
+      "scope"
+    ],
+    "difficulty": "medium",
+    "tip": "Entry gate = Ready; exit/quality gate = Done. DoD is a Scrum commitment; DoR is common practice, not Scrum-mandated."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Scrum Team accountabilities (2020): who are the three, and what is each primarily accountable for?",
+    "back": "Product Owner — maximize product value and own Product Backlog content/order. Developers — create a usable Increment each Sprint. Scrum Master — establish Scrum, coach the team/org, and remove impediments (servant-leader).",
+    "tags": [
+      "scrum",
+      "roles",
+      "accountabilities",
+      "people-domain"
+    ],
+    "difficulty": "easy",
+    "tip": "2020 Guide: accountabilities, not hierarchical “roles”; no separate “Development Team.”"
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Who may cancel a Sprint, and on what basis?",
+    "back": "Only the Product Owner may cancel a Sprint—if the Sprint Goal becomes obsolete (e.g., major market/tech shift). Completed Done items can still be released; unfinished work returns to the Product Backlog.",
+    "tags": [
+      "scrum",
+      "product-owner",
+      "sprint",
+      "governance"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam trap: SM or sponsor does not cancel the Sprint—PO owns that call."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Map each Scrum artifact to its commitment.",
+    "back": "Product Backlog → Product Goal. Sprint Backlog → Sprint Goal. Increment → Definition of Done.",
+    "tags": [
+      "scrum",
+      "artifacts",
+      "commitments",
+      "memorize"
+    ],
+    "difficulty": "easy",
+    "tip": "Three artifacts, three commitments—high-yield 2020 Scrum mapping."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "What belongs in the Sprint Backlog, and who owns it?",
+    "back": "The Sprint Goal, the selected Product Backlog items for the Sprint, and an actionable plan for delivering the Increment. Owned and updated by the Developers (emergent plan).",
+    "tags": [
+      "scrum",
+      "sprint-backlog",
+      "artifacts",
+      "developers"
+    ],
+    "difficulty": "medium",
+    "tip": "PO owns Product Backlog; Developers own Sprint Backlog."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "What makes work a valid Increment in Scrum?",
+    "back": "A concrete stepping stone toward the Product Goal that is usable and meets the Definition of Done. Multiple Increments may be created in a Sprint; the Increment is inspectable at or before Sprint Review.",
+    "tags": [
+      "scrum",
+      "increment",
+      "dod",
+      "value"
+    ],
+    "difficulty": "medium",
+    "tip": "If it isn’t Done, it is not part of the Increment—no partial credit on the exam."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "List the five Scrum events and the max timeboxes for a one-month Sprint.",
+    "back": "Sprint (container, ≤1 month). Sprint Planning (≤8 h). Daily Scrum (≤15 min). Sprint Review (≤4 h). Sprint Retrospective (≤3 h). Shorter Sprints use proportionally shorter events.",
+    "tags": [
+      "scrum",
+      "events",
+      "timebox",
+      "memorize"
+    ],
+    "difficulty": "medium",
+    "tip": "All events are formal opportunities to inspect and adapt; timeboxes protect focus."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Sprint Planning: what three topics/questions structure the event?",
+    "back": "Why is this Sprint valuable? (Sprint Goal—PO proposes value; team crafts Goal). What can be Done this Sprint? (select backlog items). How will the chosen work get done? (Developers plan the work).",
+    "tags": [
+      "scrum",
+      "sprint-planning",
+      "events"
+    ],
+    "difficulty": "medium",
+    "tip": "Why / What / How—full Scrum Team collaborates; Developers own the “how.”"
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Daily Scrum: who must attend, what is the purpose, and what is it NOT?",
+    "back": "Developers required (others may attend if useful). Purpose: inspect progress toward the Sprint Goal and adapt the Sprint Backlog for the next 24 hours. Not a status report to the SM/PM or a problem-solving workshop.",
+    "tags": [
+      "scrum",
+      "daily-scrum",
+      "events",
+      "anti-pattern"
+    ],
+    "difficulty": "easy",
+    "tip": "If the answer turns it into PM status theater, reject it."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Sprint Review vs Sprint Retrospective — primary focus and typical attendees (beyond the basic distinction).",
+    "back": "Review: inspect the Increment and adapt the Product Backlog with stakeholders (Scrum Team + key stakeholders); outcome is a revised Product Backlog. Retro: Scrum Team only inspects people/process/tools and agrees on improvements for the next Sprint.",
+    "tags": [
+      "scrum",
+      "sprint-review",
+      "retrospective",
+      "events"
+    ],
+    "difficulty": "medium",
+    "tip": "Review = product/value with stakeholders; Retro = process with the team only."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Product Owner vs project sponsor/customer: how should the PMP exam treat backlog priority conflicts?",
+    "back": "The PO is the single voice of priority for the Product Backlog. Sponsors/customers influence value and constraints, but competing requests are ordered through the PO—not by the team taking orders from multiple bosses mid-Sprint.",
+    "tags": [
+      "product-owner",
+      "stakeholders",
+      "backlog",
+      "governance"
+    ],
+    "difficulty": "hard",
+    "tip": "One Product Owner, one ordered backlog—hybrid projects still need a clear product decision owner."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Scrum Master as servant-leader: what do they do for the team, PO, and organization?",
+    "back": "Team: coach self-management, remove impediments, protect Scrum. PO: help with backlog techniques, clear goals, stakeholder collaboration. Org: lead Scrum adoption, coach managers/stakeholders, remove systemic barriers.",
+    "tags": [
+      "scrum-master",
+      "servant-leadership",
+      "people-domain"
+    ],
+    "difficulty": "medium",
+    "tip": "SM enables outcomes; does not assign tasks or own delivery like a command-and-control PM."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Servant-leader cues vs command-and-control cues on agile/hybrid PMP items—what does the exam favor?",
+    "back": "Favor: facilitate, coach, remove impediments, ask the team, protect focus, empower decisions. Avoid as first move: dictate tasks, unilaterally re-prioritize Sprint work, skip team input, or “take over” technical solutions when the team can decide.",
+    "tags": [
+      "servant-leadership",
+      "anti-pattern",
+      "exam-cues",
+      "people-domain"
+    ],
+    "difficulty": "medium",
+    "tip": "2026 ECO People domain: lead by enabling the team, not by hierarchical control."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Velocity vs capacity — definitions and how each is used in planning.",
+    "back": "Velocity: historical throughput of Done work per Sprint (often story points)—a forecast input, not a target/commitment weapon. Capacity: available effort this iteration after leave, meetings, support (usually hours/person-days). Plan with capacity for who is available; use velocity to forecast how much similar work fits.",
+    "tags": [
+      "metrics",
+      "velocity",
+      "capacity",
+      "schedule",
+      "planning"
+    ],
+    "difficulty": "medium",
+    "tip": "Weaponizing velocity (demand more points) is an anti-pattern; capacity explains this Sprint’s reality."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Backlog refinement (grooming): purpose, who participates, and roughly how much effort?",
+    "back": "Ongoing activity (not a formal Scrum event) to add detail, estimates, and order so upcoming items meet readiness for planning. PO + Developers (SM coaches as needed). Common rule of thumb: up to ~10% of team capacity—enough that Sprint Planning is not discovery chaos.",
+    "tags": [
+      "backlog-refinement",
+      "product-backlog",
+      "planning"
+    ],
+    "difficulty": "medium",
+    "tip": "Refinement feeds DoR; it does not replace Sprint Planning’s commitment to a Sprint Goal."
+  },
+  {
+    "deck": "Agile Roles Events Artifacts",
+    "front": "Kanban vs Scrum on roles, cadence, and flow control—what must you know for PMP?",
+    "back": "Scrum: fixed roles/accountabilities, timeboxed Sprints and events, pull work into a Sprint commitment. Kanban: no required roles/sprints; visualize workflow, limit WIP, manage flow (cycle time/throughput), continuous delivery/pull. Hybrid often uses Scrum events with Kanban WIP limits on the board.",
+    "tags": [
+      "kanban",
+      "scrum",
+      "wip",
+      "hybrid",
+      "flow"
+    ],
+    "difficulty": "hard",
+    "tip": "Kanban core: visualize, limit WIP, manage flow, make policies explicit, improve collaboratively."
+  }
+]

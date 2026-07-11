@@ -1,0 +1,196 @@
+[
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Name the seven PMBOK 8 performance domains in any order.",
+    "back": "Governance, Scope, Schedule, Finance, Stakeholders, Resources, Risk.",
+    "tags": [
+      "pmbok8",
+      "performance-domains",
+      "list"
+    ],
+    "difficulty": "easy",
+    "tip": "Mnemonic: Gov-Scope-Sched-Fin-Stake-Res-Risk (GSSFSRR)."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "How do PMBOK 8 performance domains differ in design from PMBOK 7 domains?",
+    "back": "7th: 8 outcome-focused domains with no embedded processes. 8th: 7 function-oriented domains, each with processes and ITTOs (~40 total).",
+    "tags": [
+      "pmbok8",
+      "pmbok7",
+      "structure"
+    ],
+    "difficulty": "medium",
+    "tip": "7th = what success looks like; 8th = what function you manage."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "In PMBOK 8, which performance domain absorbed Integration, change control, knowledge management, quality assurance, and sourcing strategy?",
+    "back": "Governance (9 processes). It is the integrative domain spanning Initiating through Closing Focus Areas.",
+    "tags": [
+      "pmbok8",
+      "governance",
+      "mapping"
+    ],
+    "difficulty": "medium",
+    "tip": "Governance ≈ Integration KA expanded + QA + strategic sourcing."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Which PMBOK 8 domain is the only one with processes in all five Focus Areas?",
+    "back": "Governance. Scope, Schedule, Finance, Stakeholders, Resources, and Risk each span only two or three Focus Areas.",
+    "tags": [
+      "pmbok8",
+      "governance",
+      "focus-areas"
+    ],
+    "difficulty": "easy",
+    "tip": "Full lifecycle backbone = Governance."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "List the nine Governance domain processes (PMBOK 8).",
+    "back": "Initiate Project or Phase; Integrate and Align Project Plans; Plan Sourcing Strategy; Manage Project Execution; Manage Project Knowledge; Manage Quality Assurance; Monitor and Control Project Performance; Assess and Implement Changes; Close Project or Phase.",
+    "tags": [
+      "pmbok8",
+      "governance",
+      "processes"
+    ],
+    "difficulty": "hard",
+    "tip": "Init → integrate plans + sourcing → execute/knowledge/QA → monitor + change → close."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Where does quality assurance vs quality control live in PMBOK 8 domains?",
+    "back": "QA (process audits, standards compliance) is Manage Quality Assurance under Governance. QC/deliverable inspection aligns with Scope (e.g., Validate Scope; Monitor and Control Scope).",
+    "tags": [
+      "pmbok8",
+      "governance",
+      "scope",
+      "quality"
+    ],
+    "difficulty": "hard",
+    "tip": "Process health → Governance; product fitness → Scope."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "What does the Scope performance domain own in PMBOK 8, and about how many processes?",
+    "back": "Defining and managing what is included: plan scope, elicit/analyze requirements, define scope, develop scope structure (WBS-like), validate scope, monitor/control scope (~6 processes; Planning + M&C).",
+    "tags": [
+      "pmbok8",
+      "scope"
+    ],
+    "difficulty": "medium",
+    "tip": "Create WBS → Develop Scope Structure (approach-agnostic)."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "What does the Schedule performance domain own, and how were classic schedule processes consolidated?",
+    "back": "Planning and controlling the timeline (~3 processes: Plan Schedule Management, Develop Schedule, Monitor and Control Schedule). Define/Sequence/Estimate activities merged into Develop Schedule.",
+    "tags": [
+      "pmbok8",
+      "schedule",
+      "processes"
+    ],
+    "difficulty": "medium",
+    "tip": "Four old scheduling steps → one Develop Schedule process."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Why is Cost Management called Finance in PMBOK 8, and what does that domain cover?",
+    "back": "Finance broadens Cost to funding, budgets, financial reporting, and value/financial performance—not only expense control. Typical processes: Plan Financial Management, Estimate Costs, Develop Budget, Monitor and Control Finances (~4).",
+    "tags": [
+      "pmbok8",
+      "finance",
+      "rename"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam trap: answer may say Finance, not Cost."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "What moved into the Stakeholders performance domain that used to be a separate Knowledge Area?",
+    "back": "Communications management (plan, manage, monitor communications) now sits with identify stakeholders, plan/manage/monitor engagement (~7 processes).",
+    "tags": [
+      "pmbok8",
+      "stakeholders",
+      "communications"
+    ],
+    "difficulty": "medium",
+    "tip": "No standalone Communications domain in PMBOK 8."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "How does PMBOK 8 Resources relate to the 7th Edition Team domain?",
+    "back": "Team content largely maps into Resources (people + physical assets). Develop Team + Manage Team merge into Lead the Team; broader culture themes also sit under the Empowered Culture principle.",
+    "tags": [
+      "pmbok8",
+      "resources",
+      "pmbok7",
+      "mapping"
+    ],
+    "difficulty": "hard",
+    "tip": "Team domain disappears as a domain; team leadership stays in Resources + principles."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "What does the Risk performance domain own, and what happened to Uncertainty / dual risk analysis?",
+    "back": "Risk replaces 7th’s Uncertainty domain with focused risk processes (~6). Qual + quant analysis merge into Perform Risk Analysis; ambiguity/complexity themes shift toward the Holistic View principle.",
+    "tags": [
+      "pmbok8",
+      "risk",
+      "pmbok7",
+      "mapping"
+    ],
+    "difficulty": "medium",
+    "tip": "Uncertainty → Risk; two analyses → one Perform Risk Analysis."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Map these 7th Edition domains: Planning, Measurement, Development Approach & Life Cycle — where did they go in PMBOK 8?",
+    "back": "Planning: distributed into every domain’s planning processes. Measurement: distributed into each domain’s M&C (e.g., EVM in Finance). Dev Approach & Life Cycle: moved to The Standard (life cycles/Focus Areas), not a performance domain.",
+    "tags": [
+      "pmbok8",
+      "pmbok7",
+      "mapping"
+    ],
+    "difficulty": "hard",
+    "tip": "Three domains dissolved, not renamed 1:1."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Map Project Work and Delivery from PMBOK 7 to PMBOK 8 domains.",
+    "back": "Project Work → largely Governance (execution coordination, knowledge, change, close-out, sourcing). Delivery → largely Scope (requirements, structure, validation/acceptance).",
+    "tags": [
+      "pmbok8",
+      "pmbok7",
+      "mapping"
+    ],
+    "difficulty": "hard",
+    "tip": "Work orchestration = Governance; what gets delivered = Scope."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Where does procurement live in PMBOK 8 relative to the seven domains?",
+    "back": "Strategic make-or-buy/sourcing is Plan Sourcing Strategy in Governance. Detailed Conduct/Control Procurements are demoted to Appendix X4—not core domain processes.",
+    "tags": [
+      "pmbok8",
+      "governance",
+      "procurement"
+    ],
+    "difficulty": "medium",
+    "tip": "Strategy in Governance; tactics in the appendix."
+  },
+  {
+    "deck": "PMBOK 8 Performance Domains",
+    "front": "Approximate process counts by PMBOK 8 domain (Governance through Risk) and total.",
+    "back": "Governance 9, Scope 6, Schedule 3, Finance 4, Stakeholders 7, Resources 5, Risk 6 → ~40 processes embedded in domains (not the old 49 across 10 KAs).",
+    "tags": [
+      "pmbok8",
+      "processes",
+      "counts"
+    ],
+    "difficulty": "hard",
+    "tip": "Governance is densest; Schedule is leanest."
+  }
+]

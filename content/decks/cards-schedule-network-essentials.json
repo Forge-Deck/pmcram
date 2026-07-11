@@ -1,0 +1,211 @@
+[
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Name the four precedence relationship types used in schedule networks, and what each links.",
+    "back": "FS (Finish-to-Start): successor starts after predecessor finishes. SS (Start-to-Start): successor starts after predecessor starts. FF (Finish-to-Finish): successor finishes after predecessor finishes. SF (Start-to-Finish): successor finishes after predecessor starts (rare).",
+    "tags": [
+      "schedule",
+      "dependencies",
+      "precedence",
+      "pmbok8"
+    ],
+    "difficulty": "easy",
+    "tip": "Default exam assumption is FS unless the scenario forces another type."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Which precedence type is most common on the PMP exam, and when would you deliberately use SS or FF instead?",
+    "back": "FS is by far the most common. Use SS when work must begin together or the successor can start once the predecessor has begun (e.g., leveling starts when excavation starts). Use FF when the successor cannot finish until the predecessor finishes (e.g., testing ends when coding ends).",
+    "tags": [
+      "schedule",
+      "dependencies",
+      "FS",
+      "SS",
+      "FF"
+    ],
+    "difficulty": "medium",
+    "tip": "SF is almost never the correct exam answer unless the stem screams it."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Mandatory vs discretionary vs external vs internal dependencies — how do you distinguish them?",
+    "back": "Mandatory (hard logic): physically or contractually required. Discretionary (soft/preferential logic): preferred sequence based on best practice or preference—can be changed. External: outside the project team’s control. Internal: within the project team’s control. Combinations matter (e.g., mandatory external).",
+    "tags": [
+      "schedule",
+      "dependencies",
+      "logic",
+      "ECO-process"
+    ],
+    "difficulty": "medium",
+    "tip": "Only discretionary/soft logic is a first place to look when compressing the schedule."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "How does lag change network logic, and what is a classic lag example?",
+    "back": "Lag is a required waiting time inserted between related activities—it delays the successor relative to the relationship type. Example: concrete pour → wait 3 days cure (lag) → formwork strip (FS + 3d lag). Lag lengthens the path that includes it.",
+    "tags": [
+      "schedule",
+      "lag",
+      "network"
+    ],
+    "difficulty": "easy",
+    "tip": "Lag = planned wait; it is not the same as float."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "How does lead change network logic, and what is a classic lead example?",
+    "back": "Lead is acceleration/overlap: the successor may start before the predecessor fully finishes (often modeled as negative lag on FS). Example: start system testing 5 days before coding completes (FS − 5d lead). Lead shortens elapsed schedule time but raises rework risk.",
+    "tags": [
+      "schedule",
+      "lead",
+      "network",
+      "fast-tracking"
+    ],
+    "difficulty": "easy",
+    "tip": "Lead is how you often implement fast-tracking on the network."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "What is the critical path, and what float does a critical activity normally have?",
+    "back": "The critical path is the longest path through the network (or any path with least/zero total float) that drives the earliest project finish. Critical activities typically have zero total float: delay them, and you delay the project end date (unless negative float already exists).",
+    "tags": [
+      "schedule",
+      "critical-path",
+      "float",
+      "CPM"
+    ],
+    "difficulty": "easy",
+    "tip": "Longest path = shortest project duration you can claim under current logic."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Forward pass vs backward pass — what does each calculate, and in which direction?",
+    "back": "Forward pass (start → finish): earliest start (ES) and earliest finish (EF) for each activity; EF = ES + duration (relationship rules apply). Backward pass (finish → start): latest finish (LF) and latest start (LS); LS = LF − duration. Together they enable float calculation.",
+    "tags": [
+      "schedule",
+      "forward-pass",
+      "backward-pass",
+      "CPM"
+    ],
+    "difficulty": "medium",
+    "tip": "Forward = earliest dates; backward = latest dates."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "At a merge point (multiple predecessors), which date does the forward pass use for the successor’s earliest start?",
+    "back": "The successor’s ES is driven by the latest EF (or governing relationship constraint) among its predecessors—you wait for all required predecessors to finish (for FS). Using the earliest predecessor would understate the schedule.",
+    "tags": [
+      "schedule",
+      "forward-pass",
+      "network",
+      "merge"
+    ],
+    "difficulty": "hard",
+    "tip": "Merge → take the later of the predecessor finishes."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "At a burst point (multiple successors), which date does the backward pass use for the predecessor’s latest finish?",
+    "back": "The predecessor’s LF is driven by the earliest LS (or governing constraint) among its successors—you must finish early enough for every successor. Using the latest successor would overstate available time.",
+    "tags": [
+      "schedule",
+      "backward-pass",
+      "network",
+      "burst"
+    ],
+    "difficulty": "hard",
+    "tip": "Burst on backward pass → take the earlier of the successor latest starts."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Total float formulas: give both common expressions and what total float means.",
+    "back": "Total float = LS − ES = LF − EF. It is how long you can delay an activity from its early dates without delaying the project finish date (or an imposed constraint). Zero (or least) total float marks the critical path.",
+    "tags": [
+      "schedule",
+      "total-float",
+      "formulas",
+      "CPM"
+    ],
+    "difficulty": "medium",
+    "tip": "Exam trap: float is not the same as lag."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Free float: formula intuition and how it differs from total float in decision-making.",
+    "back": "Free float is how long you can delay an activity without delaying the early start of any immediate successor (roughly ES_successor − EF_activity for simple FS, adjusted for relationships/lag). Free float ≤ total float. Use free float when you care about successor starts; use total float when you care about project finish.",
+    "tags": [
+      "schedule",
+      "free-float",
+      "total-float",
+      "formulas"
+    ],
+    "difficulty": "hard",
+    "tip": "Free float protects successors; total float protects the project end date."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "What does negative float mean on a network, and what should a PM do first?",
+    "back": "Negative float means the current logic/durations cannot meet an imposed finish constraint (or intermediate constraint)—the plan is already late relative to the target. Analyze drivers (critical/near-critical paths), then recover via scope, logic (soft deps), lead/fast-track, crash, or renegotiate the constraint—do not ignore it.",
+    "tags": [
+      "schedule",
+      "negative-float",
+      "constraints",
+      "recovery"
+    ],
+    "difficulty": "medium",
+    "tip": "Negative float is a schedule-feasibility alarm, not a math glitch to hide."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "Crashing vs fast-tracking — what does each change, and what is the primary risk of each?",
+    "back": "Crashing: add resources/cost (or overtime) to shorten critical-path work (risk: higher cost, possible diminishing returns). Fast-tracking: overlap activities that were sequential (risk: rework, more integration risk, quality hits). Both target the critical path; neither helps non-critical float work until the path changes.",
+    "tags": [
+      "schedule",
+      "crashing",
+      "fast-tracking",
+      "compression",
+      "ECO-process"
+    ],
+    "difficulty": "medium",
+    "tip": "Compress only where it shortens project duration—usually critical activities."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "After you crash or fast-track the current critical path, why might another path become critical?",
+    "back": "Shortening one path can reduce project duration until a previously non-critical (near-critical) path has less or zero float and becomes the new critical path. Always re-run network analysis after compression; multiple critical or near-critical paths raise schedule risk.",
+    "tags": [
+      "schedule",
+      "critical-path",
+      "compression",
+      "near-critical"
+    ],
+    "difficulty": "medium",
+    "tip": "Watch near-critical paths—exam loves the ‘new critical path’ twist."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "When is crashing the better compression choice than fast-tracking, and when is it not?",
+    "back": "Prefer crashing when activities can productively absorb more resources and budget is available, and overlapping would create unacceptable rework/risk. Avoid or limit crashing when the work is not resource-compressible (purely sequential skill, fixed curing times) or cost of added resources exceeds schedule value (diminishing returns).",
+    "tags": [
+      "schedule",
+      "crashing",
+      "fast-tracking",
+      "when-to-use"
+    ],
+    "difficulty": "hard",
+    "tip": "If cost is scarce and risk is tolerable, fast-track first; if risk is scarce and budget exists, crash."
+  },
+  {
+    "deck": "Schedule Network Essentials",
+    "front": "How do ECO 2026 Process Task 8 (plan and manage schedule) and the PMBOK 8 Schedule domain map to network techniques?",
+    "back": "Task 8 / Schedule domain cover estimating work (milestones, dependencies, story points), creating and baselining a schedule, executing the schedule plan, and analyzing variation. Network logic (dependencies, lead/lag), CPM (critical path, float, passes), and compression (crash/fast-track) are core predictive tools for those enablers—tailored by development approach.",
+    "tags": [
+      "schedule",
+      "ECO-2026",
+      "pmbok8",
+      "domain-mapping"
+    ],
+    "difficulty": "medium",
+    "tip": "Predictive networks still appear on an exam that is ~40% predictive / ~60% adaptive+hybrid."
+  }
+]

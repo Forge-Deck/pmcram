@@ -1,0 +1,178 @@
+[
+  {
+    "deck": "Quality Essentials",
+    "front": "QA vs QC — which is process-focused and which is product-focused? Give one example of each.",
+    "back": "QA = process-focused (audits, process standards, Manage Quality / assurance activities). QC = product/deliverable-focused (inspection, testing, defect measurement, Control Quality). Prefer prevention (QA) over inspection (QC).",
+    "tags": [
+      "quality",
+      "QA",
+      "QC",
+      "PMBOK8",
+      "ECO-Process-T7"
+    ],
+    "difficulty": "easy",
+    "tip": "If the stem says 'process audit' think QA; if it says 'inspect the deliverable' think QC."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "What are the four Cost of Quality (CoQ) categories, and which two are costs of conformance vs nonconformance?",
+    "back": "Conformance: Prevention + Appraisal. Nonconformance: Internal failure + External failure. CoQ is the total cost of ensuring quality plus the cost of poor quality.",
+    "tags": [
+      "quality",
+      "CoQ",
+      "ECO-Process-T7"
+    ],
+    "difficulty": "easy",
+    "tip": "Exam cue: invest more in prevention/appraisal to slash failure costs."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Name typical Prevention costs in CoQ. When do you incur them?",
+    "back": "Training, process design, quality planning, documented procedures, design reviews, supplier qualification, mistake-proofing (poka-yoke). Incurred to keep defects from occurring in the first place.",
+    "tags": [
+      "quality",
+      "CoQ",
+      "prevention"
+    ],
+    "difficulty": "medium",
+    "tip": "Prevention = build quality in (PMBOK 8 Embed Quality)."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Name typical Appraisal costs in CoQ. How do they differ from prevention?",
+    "back": "Inspection, testing, audits, calibration, quality reviews of completed work. Appraisal detects defects; prevention stops them from being created.",
+    "tags": [
+      "quality",
+      "CoQ",
+      "appraisal"
+    ],
+    "difficulty": "medium",
+    "tip": "Appraisal finds defects; prevention avoids them."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Internal failure vs external failure costs — what's the difference, and which is usually worse?",
+    "back": "Internal failure = defects found before the customer receives the product (rework, scrap, scrap disposal, retesting). External failure = defects found after delivery (warranty, returns, liability, lost reputation). External is usually more expensive and damaging.",
+    "tags": [
+      "quality",
+      "CoQ",
+      "failure-costs"
+    ],
+    "difficulty": "easy",
+    "tip": "Customer-found defects = external failure — highest CoQ pain."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Prevention vs inspection — which does PMI prefer, and why?",
+    "back": "Prevention over inspection. Building quality into processes and deliverables costs less than finding and fixing defects later, reduces rework, and aligns with Embed Quality (PMBOK 8).",
+    "tags": [
+      "quality",
+      "prevention",
+      "PMBOK8"
+    ],
+    "difficulty": "easy",
+    "tip": "Default exam answer: prevent, don't inspect quality in at the end."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Grade vs quality — define each and give a classic exam trap.",
+    "back": "Quality = degree to which requirements are fulfilled (fitness for purpose / conformance). Grade = category or rank of features/technical characteristics (low-grade can still be high-quality). Trap: a low-grade product is not automatically low quality if it meets its requirements.",
+    "tags": [
+      "quality",
+      "grade",
+      "definitions"
+    ],
+    "difficulty": "medium",
+    "tip": "Economy car (low grade) can still be high quality if reliable and in-spec."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Gold plating vs scope creep — how do they differ, and what should the PM do about each?",
+    "back": "Gold plating = team adds unrequested features/polish (often well-intentioned). Scope creep = uncontrolled expansion of scope without approved change. Both waste effort and risk schedule/budget. PM response: refuse unapproved extras; route through change control / backlog prioritization.",
+    "tags": [
+      "quality",
+      "scope",
+      "gold-plating",
+      "scope-creep"
+    ],
+    "difficulty": "medium",
+    "tip": "Gold plating is 'extra quality/features nobody asked for' — still wrong on the exam."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "PMBOK 8 principle Embed Quality — what does it require of the PM and team?",
+    "back": "Build quality into processes and deliverables throughout the lifecycle—not as a late-phase checklist. Dimensions include performance, conformity, reliability, resilience, satisfaction, efficiency, and sustainability. Tailor processes so quality is proactive, not only inspected at the end.",
+    "tags": [
+      "quality",
+      "PMBOK8",
+      "principles",
+      "Embed-Quality"
+    ],
+    "difficulty": "medium",
+    "tip": "PMBOK 8: quality is continuous and embedded, not a separate phase."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Per the 2026 ECO Process Task 7, what must a PM do to plan and optimize quality of products/deliverables?",
+    "back": "Gather quality requirements; plan quality processes and tools; execute the quality management plan; help ensure regulatory compliance; manage CoQ and sustainability; conduct ongoing quality reviews; implement continuous improvement.",
+    "tags": [
+      "quality",
+      "ECO-Process-T7",
+      "2026-ECO"
+    ],
+    "difficulty": "hard",
+    "tip": "Memorize Task 7 enablers: requirements → plan → execute → compliance → CoQ/sustainability → reviews → CI."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Continuous improvement on projects — what cues signal CI, and what artifacts/practices support it?",
+    "back": "Cues: retros, lessons learned, Kaizen, PDCA, root-cause fixes that change the process (not just the defect). Support: update OPAs, refine the quality management plan, process audits (QA), metrics trending, and feeding improvements into future work.",
+    "tags": [
+      "quality",
+      "continuous-improvement",
+      "ECO",
+      "PDCA"
+    ],
+    "difficulty": "medium",
+    "tip": "CI = improve the system; QC alone only catches today's defect."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "How do quality and regulatory compliance relate on the PMP exam?",
+    "back": "Quality work includes helping ensure deliverables and processes meet applicable regulations, standards, and policies (security, H&S, sustainability, industry rules). Noncompliance is a quality and business-environment risk—confirm requirements early, classify needs, measure compliance, and address gaps.",
+    "tags": [
+      "quality",
+      "compliance",
+      "ECO-Process-T7",
+      "business-environment"
+    ],
+    "difficulty": "medium",
+    "tip": "Compliance is both Process Task 7 (quality) and Business Environment (project compliance)."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "How does PMBOK 8 place quality across principles and domains (vs treating it as a standalone knowledge area)?",
+    "back": "Principle: Embed Quality into processes and deliverables. Functionally, product quality planning/control ties to delivery work; assurance and integrative process quality lean toward Governance. ECO still tests quality as Process Task 7 (plan/optimize products & deliverables) plus continuous improvement in Business Environment.",
+    "tags": [
+      "quality",
+      "PMBOK8",
+      "Governance",
+      "domains"
+    ],
+    "difficulty": "hard",
+    "tip": "Don't hunt for a 'Quality domain'—look for Embed Quality + Process Task 7 + Governance for assurance."
+  },
+  {
+    "deck": "Quality Essentials",
+    "front": "Validate Scope vs Control Quality — what's the distinction and typical sequence?",
+    "back": "Control Quality = check the deliverable against quality requirements/specs (defect detection, measurements). Validate Scope = formal acceptance of deliverables by the customer/sponsor (acceptance decision). Typical order: QC first (is it correct?), then Validate Scope (do they accept it?).",
+    "tags": [
+      "quality",
+      "scope",
+      "validate-scope",
+      "control-quality"
+    ],
+    "difficulty": "hard",
+    "tip": "QC = correct; Validate Scope = accepted. Often QC before formal acceptance."
+  }
+]
