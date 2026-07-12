@@ -15,29 +15,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Facilitate a focused conversation with the team members to understand root causes, reinforce working agreements, and coach the team toward a collaborative resolution.",
-            "why": "This applies servant leadership by removing an impediment and helping the team resolve conflict constructively."
+            "text": "Facilitate a focused conversation with the team to understand root causes and coach them toward a collaborative resolution.",
+            "why": "This applies servant leadership by removing an impediment and helping the team resolve the conflict constructively."
           }
         ],
         "distractors": [
           {
-            "text": "Reassign one of the developers to another team immediately so the sprint can continue without tension.",
-            "trap": "This avoids the issue instead of coaching the team through conflict and may reduce team ownership."
+            "text": "Reassign one of the senior developers to another team so the sprint can continue without the tension.",
+            "trap": "Premature solution: removes the friction but resolves nothing and erodes team ownership before the cause is understood."
           },
           {
-            "text": "Issue a formal warning to both developers for disruptive behavior during meetings.",
-            "trap": "This treats the issue as a punitive HR action before understanding the cause or using coaching."
+            "text": "Raise the repeated arguments with the two developers' functional manager and ask them to address the behavior formally through the line-management process.",
+            "trap": "Wrong sequence: goes to formal management before the team has a chance to resolve it through facilitation and coaching."
           },
           {
-            "text": "Ask the product owner to decide which developer is right about the coding approach.",
-            "trap": "This confuses product accountability with team process and technical collaboration."
+            "text": "Ask the product owner to rule on the coding-standard dispute so the team can move on.",
+            "trap": "Wrong party: hands a team-process and technical matter to product accountability rather than the team."
           },
           {
-            "text": "Extend the sprint so the team has more time to calm down and finish the work.",
-            "trap": "This changes the cadence instead of addressing the impediment causing the problem."
+            "text": "Add the coding-standard decision to the next retrospective and keep the sprint running for now.",
+            "trap": "Procedural deferral: postpones a live impediment that is already harming participation and delivery."
           }
         ],
-        "explanation": "The first response is to assess the situation and coach the team through resolution. In agile environments, the project manager supports healthy team dynamics rather than imposing a command-and-control solution."
+        "explanation": "Each option addresses the friction somehow, but the first response is to assess and coach the team through resolution now. Reassigning skips the cause, going to the manager or product owner uses the wrong channel, and deferring to the retrospective delays a live impediment."
       },
       {
         "prompt": "After the facilitated discussion, one developer says the conflict started because expectations for code review, pairing, and decision making were never clearly defined. What should the project manager do next?",
@@ -50,29 +50,29 @@
             "why": "Working agreements make team norms visible and reduce repeated misunderstandings."
           },
           {
-            "text": "Coach the team to inspect and adapt its process during the retrospective and commit to specific behavioral experiments for the next sprint.",
+            "text": "Coach the team to inspect and adapt during the retrospective and commit to specific experiments for the next sprint.",
             "why": "Using retrospectives to improve collaboration is a core agile practice."
           }
         ],
         "distractors": [
           {
-            "text": "Create a detailed approval hierarchy so all technical decisions must be routed through the project manager.",
-            "trap": "This undermines team self-management and slows delivery."
+            "text": "Set up an approval step so contested technical decisions are escalated to you before the team proceeds.",
+            "trap": "Over-control: inserting the PM as gatekeeper undermines team self-management and slows delivery."
           },
           {
-            "text": "Have the functional manager dictate the team's coding standards without team discussion.",
-            "trap": "This bypasses team ownership and does not build shared commitment."
+            "text": "Have the functional manager set the team's coding standards so the dispute is settled by authority.",
+            "trap": "Wrong party: authority-imposed standards bypass team ownership and build no shared commitment."
           },
           {
-            "text": "Remove newer team members from design discussions until the senior developers align.",
-            "trap": "This excludes stakeholders within the team and worsens psychological safety."
+            "text": "Draft a complete set of working agreements covering code review, pairing, and decision rules yourself and present them to the team for adoption at the next planning session.",
+            "trap": "Premature solution: jumps to a polished answer the team should co-create, which reduces buy-in."
           },
           {
-            "text": "Delay all improvement actions until the release is complete so the team can stay focused on delivery.",
-            "trap": "This ignores a current impediment that is already harming delivery."
+            "text": "Defer process improvements until after the release so the team can focus on delivery.",
+            "trap": "Procedural deferral: postpones fixing an impediment that is already harming delivery."
           }
         ],
-        "explanation": "The team should make expectations explicit and improve them through regular inspection and adaptation. These actions strengthen self-management and psychological safety without escalating unnecessarily."
+        "explanation": "The team should make expectations explicit and improve them through inspection and adaptation, which strengthens self-management. Escalating decisions to the PM, letting the manager dictate standards, drafting the agreements alone, or deferring improvement all weaken ownership or delay a live issue."
       },
       {
         "prompt": "In the next sprint, one of the same developers openly dismisses a junior tester's concerns during refinement, and the tester later says they no longer feel comfortable speaking up. What is the best action now?",
@@ -81,29 +81,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Coach the developer privately on the impact of the behavior, support inclusive team norms, and engage the resource or functional manager if sustained behavior change is needed.",
+            "text": "Coach the developer privately on the impact of the behavior and involve the resource or functional manager if it continues.",
             "why": "This addresses the behavior through coaching and appropriate management support without inventing punitive project actions."
           }
         ],
         "distractors": [
           {
-            "text": "Document a documented improvement plan and place the developer on it as project manager.",
-            "trap": "This invents an HR mechanism that is outside the project manager's role in this context."
+            "text": "Open a formal improvement plan for the developer so the behavior is documented and tracked.",
+            "trap": "Invented mechanism: an HR device outside the PM's role, used before coaching and manager support are tried."
           },
           {
-            "text": "Ask the tester to raise concerns only in writing so meetings stay efficient.",
-            "trap": "This normalizes exclusion instead of improving team dynamics."
+            "text": "Introduce a rule that all refinement input be submitted in writing to keep discussions civil.",
+            "trap": "Symptom not root cause: a process rule that normalizes exclusion instead of correcting the behavior."
           },
           {
-            "text": "Replace the tester on the team with someone more assertive.",
-            "trap": "This blames the affected team member rather than addressing harmful behavior."
+            "text": "Move the tester to a different squad where they will feel more comfortable speaking up.",
+            "trap": "Wrong target: relocates the affected person rather than addressing the harmful behavior."
           },
           {
-            "text": "Ignore the incident because velocity has improved and the sprint goal is at risk.",
-            "trap": "This sacrifices team health and long-term performance for short-term output."
+            "text": "Raise the incident with the developer's functional manager before speaking with the developer.",
+            "trap": "Wrong sequence: escalates before trying coaching, the expected first response."
           }
         ],
-        "explanation": "People issues should be handled through coaching and, when necessary, collaboration with the appropriate people manager. A servant leader protects psychological safety so all team members can contribute."
+        "explanation": "People issues are handled through coaching and, when needed, collaboration with the appropriate people manager. A formal plan invents an HR step, a writing-only rule treats the symptom, moving the tester blames the victim, and going to the manager first skips coaching."
       }
     ],
     "tags": [
@@ -142,22 +142,22 @@
         "distractors": [
           {
             "text": "The project is ahead of schedule because AC is close to PV.",
-            "trap": "This confuses cost spending with schedule performance."
+            "trap": "Misread: compares spending to the plan and confuses cost with schedule performance."
           },
           {
             "text": "The project is under budget because EV is positive.",
-            "trap": "This misunderstands earned value as a budget surplus indicator by itself."
+            "trap": "Misread: treats a positive earned value as a budget surplus, ignoring that AC exceeds EV."
           },
           {
             "text": "No conclusion can be drawn until all procurement invoices are finalized.",
-            "trap": "This ignores that current EV metrics already support performance interpretation."
+            "trap": "Misread: the reported EV and AC already support a performance interpretation."
           },
           {
-            "text": "The project is on track because all three values are within the same general range.",
-            "trap": "This replaces analysis with a vague visual judgment."
+            "text": "The project is on track because PV, EV, and AC all fall within the same general range of one another this reporting period.",
+            "trap": "Misread: replaces variance analysis with a vague visual judgment that the three numbers look close."
           }
         ],
-        "explanation": "The correct interpretation is schedule delay and cost overrun. The variances are SV equals negative 80000 and CV equals negative 60000, both showing unfavorable performance."
+        "explanation": "The two correct readings follow directly from the formulas: SV equals negative 80000 and CV equals negative 60000, so the project is both behind schedule and over budget. Each distractor is a common earned-value misreading that confuses cost with schedule or substitutes intuition for calculation."
       },
       {
         "prompt": "The root cause review shows unexpected production shutdown windows and low contractor productivity during equipment installation. What should the project manager do next?",
@@ -166,33 +166,33 @@
         "present": 5,
         "correct": [
           {
-            "text": "Analyze options for corrective action and assess impacts to scope, schedule, cost, quality, and risk before deciding.",
+            "text": "Analyze corrective-action options and assess their impact on scope, schedule, cost, and quality before deciding.",
             "why": "Corrective action should follow integrated analysis rather than an immediate reaction."
           },
           {
-            "text": "Review the remaining work with the team and update forecasts such as EAC based on current performance information.",
+            "text": "Review the remaining work with the team and update forecasts such as EAC using current performance.",
             "why": "Forecasting is necessary to understand likely outcomes and support informed decisions."
           }
         ],
         "distractors": [
           {
-            "text": "Freeze all reporting until performance improves so stakeholders do not overreact.",
-            "trap": "This reduces transparency when control information is most needed."
+            "text": "Direct the contractor to add installation resources and a second crew immediately to recover the schedule lost during the shutdown windows.",
+            "trap": "Premature solution: jumps to a resourcing fix before analyzing the response options and their impacts."
           },
           {
-            "text": "Cut quality inspections to recover schedule because delivery speed is the main concern.",
-            "trap": "This treats quality control as optional and risks downstream failures."
+            "text": "Re-baseline cost and schedule to the current overrun so reporting shows green again.",
+            "trap": "Symptom not root cause: adjusts the metric rather than the performance problem, and pre-empts analysis."
           },
           {
-            "text": "Immediately replace the installation contractor without impact analysis.",
-            "trap": "This jumps to a drastic action before evaluating consequences and alternatives."
+            "text": "Escalate the variance to the sponsor and ask them to decide the corrective action.",
+            "trap": "Procedural deflection: hands the sponsor a decision before the team has analyzed options to prepare."
           },
           {
-            "text": "Submit final lessons learned and close the installation work package.",
-            "trap": "This is premature because the problem is ongoing and work remains."
+            "text": "Close the installation work package and capture lessons learned before starting recovery.",
+            "trap": "Wrong sequence: premature because the work is ongoing and the problem is unresolved."
           }
         ],
-        "explanation": "The next step after identifying unfavorable variances is to analyze causes, evaluate response options, and refresh forecasts. This keeps corrective action evidence-based and integrated across project constraints."
+        "explanation": "After identifying the causes, the next step is to analyze response options and refresh forecasts so corrective action is evidence-based. Adding resources jumps ahead, re-baselining hides the problem, escalating defers preparation, and closing the package is premature while work remains."
       },
       {
         "prompt": "The team recommends adding a second night shift for three weeks and resequencing noncritical commissioning tasks. This action would increase short-term cost but is expected to recover most of the schedule loss. What should the project manager do?",
@@ -201,29 +201,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Evaluate the proposal against the baselines and submit a change request if approval is needed before implementing the corrective action.",
+            "text": "Evaluate the proposal against the baselines and submit a change request before implementing the corrective action.",
             "why": "A corrective action that changes approved baselines or controlled components requires formal change control."
           }
         ],
         "distractors": [
           {
-            "text": "Implement the extra shift immediately because corrective action never requires formal approval.",
-            "trap": "This ignores governance when a proposed action affects controlled baselines."
+            "text": "Implement the extra shift now and submit the paperwork once the schedule is back on track.",
+            "trap": "Wrong sequence: acts on a baseline-affecting change before it is approved."
           },
           {
-            "text": "Reject the option because any cost increase is unacceptable once a budget baseline exists.",
-            "trap": "This assumes baselines cannot be changed through approved control processes."
+            "text": "Have the sponsor verbally approve the plan and update the records afterward.",
+            "trap": "Procedural shortcut: skips integrated change control and weakens traceability."
           },
           {
-            "text": "Ask the sponsor to verbally approve the plan and then update records later if needed.",
-            "trap": "This bypasses integrated change control and weakens traceability."
+            "text": "Reject the second-shift option outright because the approved cost baseline cannot be exceeded once senior management has signed off on it.",
+            "trap": "Misjudgment: assumes baselines can never change through approved change control, blocking an otherwise viable option."
           },
           {
-            "text": "Move the remaining installation scope into the next phase so current metrics look better.",
-            "trap": "This manipulates reporting rather than managing performance."
+            "text": "Shift the remaining installation scope into the next phase so current metrics recover.",
+            "trap": "Symptom not root cause: manipulates reporting instead of managing performance."
           }
         ],
-        "explanation": "Corrective action is not exempt from governance. If the recommended response affects the approved plan or baselines, the project manager should process it through formal change control before implementation."
+        "explanation": "Corrective action is not exempt from governance, so a baseline-affecting response goes through formal change control first. Implementing now or getting a verbal nod bypasses control, rejecting outright misreads how baselines change, and moving scope only massages the metrics."
       },
       {
         "prompt": "After approval, the project manager implements the corrective action. Which follow-on actions are most appropriate?",
@@ -242,23 +242,23 @@
         ],
         "distractors": [
           {
-            "text": "Stop tracking EV metrics until the project returns to baseline performance.",
-            "trap": "This removes the very control mechanism needed to verify recovery."
+            "text": "Treat the recovery as complete once the change is approved and turn attention to closeout.",
+            "trap": "Premature: approval is not results; monitoring must confirm the action actually works."
           },
           {
-            "text": "Archive the variance analysis because approved action makes prior data irrelevant.",
-            "trap": "This ignores the need for traceability and lessons learned."
+            "text": "Communicate the approved change only in the next scheduled month-end performance report so that all project updates stay consolidated in one channel.",
+            "trap": "Too narrow: delays material change communication that stakeholders need sooner than month-end."
           },
           {
-            "text": "Avoid telling stakeholders about the approved action until the month-end report is complete.",
-            "trap": "This delays necessary stakeholder communication about material project changes."
+            "text": "Reduce EV reporting frequency to save effort now that the fix is in place.",
+            "trap": "Symptom not root cause: removes the very control needed to verify recovery."
           },
           {
-            "text": "Assume the issue is resolved and shift all management attention to procurement closeout.",
-            "trap": "This treats approval as success without monitoring results."
+            "text": "Archive the variance analysis since the approved action supersedes the earlier data.",
+            "trap": "Loses traceability and lessons learned that the record still supports."
           }
         ],
-        "explanation": "Once an action is approved, the project manager incorporates it into the plan, communicates appropriately, and continues monitoring performance. Control is iterative, not a one-time decision."
+        "explanation": "Once an action is approved, the PM integrates it into the plan and keeps monitoring performance because control is iterative. Assuming success, waiting for month-end, cutting reporting, or archiving the analysis each drops the feedback loop that confirms recovery."
       }
     ],
     "tags": [
@@ -285,29 +285,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Facilitate risk identification with the team and key stakeholders, document risks in the risk register, and confirm the approach in Plan Risk Management.",
-            "why": "This establishes a structured basis for subsequent analysis and response planning using identified risks and agreed risk management methods."
+            "text": "Facilitate risk identification with the team and stakeholders, record the risks in the register, and confirm the risk approach.",
+            "why": "This establishes a structured basis for later analysis and response using identified risks and agreed risk management methods."
           }
         ],
         "distractors": [
           {
-            "text": "Escalate all concerns immediately to the sponsor because the launch date is externally committed.",
-            "trap": "This assumes every uncertainty is already an escalated issue rather than first identifying and documenting risks."
+            "text": "Ask the vendor to assess and prepare mitigations for the legacy-interface risk since it is technical.",
+            "trap": "Too narrow: engages only the vendor and misses collaborative identification across project and stakeholder perspectives."
           },
           {
-            "text": "Submit a change request to extend the schedule before assessing the threats.",
-            "trap": "This treats unassessed risk signals as approved scope or schedule change needs."
+            "text": "Start planning mitigation responses for the three concerns now to protect the launch date.",
+            "trap": "Wrong sequence: jumps to response planning before the risks are identified and analyzed."
           },
           {
-            "text": "Ask the vendor alone to prepare mitigation actions because the interface risk is technical.",
-            "trap": "This overlooks collaborative risk identification across project and stakeholder perspectives."
-          },
-          {
-            "text": "Start Manage Quality activities to test the migration process before defining the risks.",
-            "trap": "This confuses quality management work with the initial risk identification process."
+            "text": "Escalate the three concerns to the sponsor now because the launch date is externally committed.",
+            "trap": "Procedural deflection: treats early uncertainties as issues to escalate rather than risks to identify and document."
           }
         ],
-        "explanation": "The first move is to identify risks systematically and capture them in the risk register under the agreed risk management approach. Hybrid delivery does not change the need to begin with Plan Risk Management and Identify Risks."
+        "explanation": "The first move is structured, collaborative risk identification captured in the register under the agreed approach. Handing it to the vendor is too narrow, planning responses skips analysis, and escalating converts uncertainties into premature issues. Hybrid delivery does not change the need to begin here."
       },
       {
         "prompt": "The team has identified several risks and now needs to decide which ones require urgent attention before the next release and infrastructure milestone. What should the project manager do next?",
@@ -316,29 +312,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Perform Risk Analysis to assess probability, impact, urgency, and other relevant factors so the team can prioritize the risks.",
-            "why": "Analysis allows the team to focus response effort on the most significant risks rather than treating all risks equally."
+            "text": "Perform risk analysis to assess probability, impact, and urgency so the team can prioritize the risks.",
+            "why": "Analysis lets the team focus response effort on the most significant risks rather than treating them all equally."
           }
         ],
         "distractors": [
           {
-            "text": "Implement contingency plans for every identified risk to avoid missing the launch date.",
-            "trap": "This skips analysis and wastes effort by responding to all risks at the same level."
+            "text": "Put contingency plans and reserves in place for every identified risk now so that nothing is missed ahead of the externally committed launch date.",
+            "trap": "Premature solution: responds to all risks at the same level, skipping the analysis that would focus effort on the significant ones."
           },
           {
-            "text": "Move the highest visibility risks directly to the issue log because executives are watching closely.",
-            "trap": "This confuses uncertain events with current issues and prioritizes visibility over analysis."
+            "text": "Ask the product owner to reprioritize the backlog by risk and leave the predictive work untouched.",
+            "trap": "Too narrow: applies a partial agile tactic without analyzing risks across the whole hybrid project."
           },
           {
-            "text": "Ask the product owner to reorder the backlog and leave predictive work unchanged.",
-            "trap": "This applies a partial agile tactic without analyzing risks across the full hybrid project."
-          },
-          {
-            "text": "Convene the change control board to approve the risk ranking.",
-            "trap": "Risk prioritization is not itself a change control board decision."
+            "text": "Take the risk list to the change control board to approve the prioritization.",
+            "trap": "Procedural deflection: risk prioritization is the team's analysis, not a change-board decision."
           }
         ],
-        "explanation": "After identification, the team should analyze the risks to understand exposure and priority. This supports evidence-based selection of response strategies across predictive and iterative work."
+        "explanation": "After identification, the team analyzes exposure and priority to guide evidence-based responses across predictive and iterative work. Blanket contingency wastes effort, backlog-only reprioritization is too narrow, and routing to the board misplaces a decision the team should make."
       },
       {
         "prompt": "Analysis shows the legacy interface failure risk has high impact and moderate probability, while clinician adoption risk is moderate impact but rising quickly. Which actions best reflect appropriate next steps?",
@@ -347,33 +339,29 @@
         "present": 5,
         "correct": [
           {
-            "text": "Plan Risk Responses for the interface risk by assigning an owner, defining technical mitigation actions, and reserving contingency for fallback integration support.",
-            "why": "A high impact technical threat needs a defined owner and response actions matched to the assessed exposure."
+            "text": "Plan a response for the interface risk: assign an owner, define technical mitigation, and reserve contingency for fallback support.",
+            "why": "A high-impact technical threat needs a defined owner and response actions matched to the assessed exposure."
           },
           {
-            "text": "Plan Risk Responses for clinician adoption by adding pilot training sessions and feedback loops into upcoming iterative releases.",
-            "why": "Using targeted engagement and incremental learning is an effective response for an adoption risk in hybrid delivery."
+            "text": "Plan a response for clinician adoption by adding pilot training and feedback loops into upcoming iterative releases.",
+            "why": "Targeted engagement and incremental learning are an effective response for an adoption risk in hybrid delivery."
           }
         ],
         "distractors": [
           {
-            "text": "Treat both risks as accepted because changing the plan could affect the public launch commitment.",
-            "trap": "This mistakes schedule pressure for a valid reason to avoid response planning."
+            "text": "Defer response planning to the next steering committee since responses are a governance decision.",
+            "trap": "Procedural deflection: delays timely response planning that belongs to the project team."
           },
           {
-            "text": "Submit a change request immediately to remove the legacy interface from scope.",
-            "trap": "This jumps to a major scope change before considering proportionate risk responses."
+            "text": "Submit a change request to remove the legacy interface from scope to eliminate its risk.",
+            "trap": "Premature solution: jumps to a major scope change before considering proportionate responses."
           },
           {
-            "text": "Transfer the clinician adoption risk to the training vendor because they own user materials.",
-            "trap": "This assumes a stakeholder behavior risk can simply be shifted contractually."
-          },
-          {
-            "text": "Delay action until the next monthly steering committee because response planning is a governance activity.",
-            "trap": "This ignores timely response planning by the project team."
+            "text": "Transfer the clinician adoption risk to the training vendor since they own the user materials.",
+            "trap": "Too narrow: a stakeholder-behavior risk cannot simply be shifted contractually."
           }
         ],
-        "explanation": "The team should tailor risk responses to the nature of each threat and embed those actions into near-term work. Hybrid projects often combine technical mitigation on predictive work with iterative feedback mechanisms for user-facing risks."
+        "explanation": "Responses should be tailored to each threat and embedded in near-term work, combining technical mitigation on predictive work with iterative feedback for user-facing risk. Deferring to a committee delays action, removing the interface overreacts, and transferring adoption misjudges a behavior risk."
       },
       {
         "prompt": "Two sprints later, pilot feedback improves adoption, but the vendor reports a new dependency that may delay interface testing. What should the project manager do now?",
@@ -382,29 +370,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Monitor Risks, reassess the risk register, implement the planned response for the dependency risk, and raise a change request only if approved baselines need revision.",
+            "text": "Reassess the risk register, apply the planned response for the dependency, and raise a change request only if baselines change.",
             "why": "This applies ongoing risk monitoring and keeps formal change control tied to actual baseline impacts."
           }
         ],
         "distractors": [
           {
-            "text": "Send the dependency directly to the change control board before reviewing the current response plan.",
-            "trap": "This bypasses normal risk monitoring and assumes governance approval is always the first action."
+            "text": "Send the new interface dependency straight to the change control board for a ruling before reviewing the existing response plan or reassessing the risk register.",
+            "trap": "Procedural deflection: bypasses risk monitoring and assumes governance approval is always the first action to take."
           },
           {
-            "text": "Close the clinician adoption risk and stop tracking residual risk because the pilot improved sentiment.",
-            "trap": "This ignores residual and secondary risk monitoring after partial improvement."
+            "text": "Replace the vendor now because the new dependency shows the original analysis was wrong.",
+            "trap": "Premature solution: overreacts to emerging information instead of applying the monitored response."
           },
           {
-            "text": "Replace the vendor immediately because a new dependency proves the original analysis was wrong.",
-            "trap": "This overreacts to emerging risk information instead of applying monitored responses."
-          },
-          {
-            "text": "Move all remaining hybrid work to predictive delivery to reduce uncertainty.",
-            "trap": "This assumes changing the entire delivery approach is the appropriate response to a specific risk event."
+            "text": "Close the clinician adoption risk and stop tracking residual risk since pilot sentiment improved.",
+            "trap": "Wrong sequence: drops residual and secondary risk monitoring after only partial improvement."
           }
         ],
-        "explanation": "Risk management continues through delivery, including reassessment of existing and emerging risks. A change request is appropriate only when the approved plan or baselines must be formally changed."
+        "explanation": "Risk management continues through delivery, so the PM reassesses, applies the planned response, and uses change control only when baselines actually move. Going to the board first, replacing the vendor, or closing the adoption risk each skips or overreacts to monitored risk response."
       }
     ],
     "tags": [
@@ -431,29 +415,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Revisit Identify Stakeholders to confirm affected stakeholders, their interests, influence, and current attitudes toward the change.",
+            "text": "Revisit Identify Stakeholders to confirm the affected stakeholders, their interests, influence, and current attitudes toward the change.",
             "why": "Recovery starts by ensuring the stakeholder landscape is complete and current before choosing engagement actions."
           }
         ],
         "distractors": [
           {
-            "text": "Issue a corrective communication to all staff explaining that the original communication plan was sufficient.",
-            "trap": "This defends the prior approach instead of reassessing who the stakeholders are and what they need."
+            "text": "Send the regional managers a detailed briefing on the new workflow to bring them up to speed.",
+            "trap": "Premature solution: pushes one-way information before understanding their concerns and stake."
           },
           {
-            "text": "Escalate the regional managers to the sponsor as blockers to project progress.",
-            "trap": "This frames a stakeholder identification gap as misconduct rather than a project management issue."
+            "text": "Raise the regional pushback to the sponsor as a blocker to keep the rollout on schedule.",
+            "trap": "Procedural deflection: frames a stakeholder-analysis gap as an escalation rather than a project management issue."
           },
           {
-            "text": "Submit a change request to pause deployment until all stakeholders agree.",
-            "trap": "This jumps to schedule control before understanding the stakeholder problem."
-          },
-          {
-            "text": "Ask the functional manager to address the resistant managers directly without project involvement.",
-            "trap": "This abdicates stakeholder accountability instead of identifying and analyzing engagement needs."
+            "text": "Submit a change request to pause deployment until the regional managers are on board.",
+            "trap": "Wrong sequence: jumps to schedule control before understanding the stakeholder problem."
           }
         ],
-        "explanation": "When a communication breakdown emerges, the project manager should first verify whether key stakeholders were properly identified and understood. Stakeholder engagement begins with a reliable stakeholder picture."
+        "explanation": "When a communication breakdown emerges, the PM first verifies whether key stakeholders were properly identified and understood. Briefing them pushes information prematurely, escalating misframes the gap, and a change request controls schedule before the real problem is understood."
       },
       {
         "prompt": "The project manager confirms that the regional managers were listed as stakeholders, but their influence increased after a recent policy shift. What is the best next action?",
@@ -462,29 +442,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Update the stakeholder analysis and Plan Stakeholder Engagement to match the managers' current influence, needs, and preferred communication channels.",
+            "text": "Update the stakeholder analysis and engagement plan to match the managers' current influence, needs, and preferred channels.",
             "why": "Changed stakeholder influence requires revised engagement strategies rather than continued use of the original plan."
           }
         ],
         "distractors": [
           {
-            "text": "Keep the current engagement approach because the managers were already on the stakeholder register.",
-            "trap": "This assumes identification alone is enough even when stakeholder influence has changed."
+            "text": "Add the regional managers to the weekly status-report distribution list so they receive exactly the same written updates as every other stakeholder group on the project.",
+            "trap": "Too narrow: equates more information with tailored engagement for a group whose influence has now increased."
           },
           {
-            "text": "Create a detailed technical status dashboard and send it weekly to all stakeholders.",
-            "trap": "This confuses more information with targeted stakeholder engagement."
+            "text": "Log the misalignment in the issue log and watch whether the complaints continue.",
+            "trap": "Procedural deflection: delays engagement planning despite clear evidence of a gap."
           },
           {
-            "text": "Have the sponsor announce that the regional managers must support the rollout decision.",
-            "trap": "This relies on authority rather than planned engagement tailored to stakeholder concerns."
-          },
-          {
-            "text": "Move the issue to the issue log and wait to see whether complaints continue.",
-            "trap": "This delays engagement planning despite clear evidence of misalignment."
+            "text": "Ask the sponsor to direct the regional managers to support the rollout decision.",
+            "trap": "Wrong approach: relies on authority instead of engagement tailored to their concerns."
           }
         ],
-        "explanation": "Stakeholder engagement planning should evolve when stakeholder power, interest, or support changes. Communication is one component, but the broader engagement strategy must be updated first."
+        "explanation": "Engagement planning must evolve when stakeholder power or interest changes, so the plan is updated to the managers' new influence. Adding them to a distribution list is too narrow, logging the issue defers action, and directing them by authority ignores their concerns."
       },
       {
         "prompt": "The project manager learns that one business analyst has been dismissive in meetings with regional managers, worsening trust. What is the most appropriate response?",
@@ -493,33 +469,29 @@
         "present": 5,
         "correct": [
           {
-            "text": "Coach the business analyst on stakeholder interaction expectations and collaborate with the resource or functional manager if behavior change support is needed.",
+            "text": "Coach the business analyst on stakeholder interaction expectations and collaborate with the resource or functional manager if needed.",
             "why": "This addresses the people issue through coaching and appropriate manager involvement rather than punitive improvisation."
           },
           {
-            "text": "Manage Stakeholder Engagement by holding focused working sessions with the regional managers to listen, clarify impacts, and incorporate relevant feedback.",
+            "text": "Manage Stakeholder Engagement by holding focused sessions with the regional managers to listen, clarify impacts, and incorporate feedback.",
             "why": "Active engagement and two-way communication rebuild trust more effectively than one-way updates."
           }
         ],
         "distractors": [
           {
-            "text": "Place the analyst on a performance improvement plan within the project team.",
-            "trap": "This uses an invented project action instead of coaching and working with the resource or functional manager."
+            "text": "Place the analyst on a formal improvement plan within the project team.",
+            "trap": "Invented mechanism: an HR action instead of coaching plus collaboration with the resource or functional manager."
           },
           {
-            "text": "Remove the analyst from all meetings immediately without discussing the issue with their manager.",
-            "trap": "This overcorrects without using appropriate people management channels."
+            "text": "Remove the analyst from the regional meetings immediately before discussing it with their manager.",
+            "trap": "Wrong sequence: overcorrects without using appropriate people-management channels."
           },
           {
-            "text": "Send a project-wide memo stating that all stakeholder concerns have already been addressed.",
-            "trap": "This is defensive and does not rebuild engagement."
-          },
-          {
-            "text": "Escalate the communication problem to the change control board.",
-            "trap": "This confuses stakeholder management with formal integrated change governance."
+            "text": "Issue a message assuring stakeholders their concerns have all been addressed to reset the tone.",
+            "trap": "Premature and defensive: a one-way message that does not rebuild engagement."
           }
         ],
-        "explanation": "The project manager should address the team member behavior through coaching and proper manager collaboration while actively engaging stakeholders to restore trust. This aligns with people leadership and stakeholder engagement practice."
+        "explanation": "The PM addresses the behavior through coaching and manager collaboration while actively engaging the managers to restore trust. A formal plan invents an HR step, immediate removal skips proper channels, and a reassurance memo is defensive rather than engaging."
       },
       {
         "prompt": "After several targeted sessions, regional managers begin participating constructively, but one senior leader still says updates arrive too late for local planning. What should the project manager do?",
@@ -528,29 +500,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Monitor Stakeholder Engagement and adjust communication timing and format to better support the leader's planning needs.",
+            "text": "Monitor Stakeholder Engagement and adjust the timing and format of updates to fit the leader's planning needs.",
             "why": "Monitoring engagement means measuring whether current strategies work and refining them based on stakeholder response."
           }
         ],
         "distractors": [
           {
-            "text": "Keep the revised plan unchanged because overall stakeholder sentiment has improved.",
-            "trap": "This ignores remaining engagement gaps that still affect project adoption."
+            "text": "Switch every stakeholder group to daily updates and a shared live dashboard so that no one anywhere on the program ever receives information too late again.",
+            "trap": "Too broad: applies a blanket frequency and channel change to what is a single leader's targeted need."
           },
           {
-            "text": "Convert all communications to daily updates for every stakeholder group.",
-            "trap": "This assumes more frequent communication for everyone solves a targeted need."
+            "text": "Keep the revised plan unchanged because overall stakeholder sentiment has clearly improved.",
+            "trap": "Symptom not root cause: ignores a remaining engagement gap that still affects adoption."
           },
           {
-            "text": "Ask the sponsor to overrule the leader's request because the project already made concessions.",
-            "trap": "This prioritizes authority over monitoring and adapting engagement effectiveness."
-          },
-          {
-            "text": "Log the complaint as a procurement issue because it concerns service expectations.",
-            "trap": "This misclassifies a stakeholder communication issue."
+            "text": "Ask the sponsor to overrule the leader's request because concessions were already made.",
+            "trap": "Wrong approach: prioritizes authority over monitoring and adapting engagement effectiveness."
           }
         ],
-        "explanation": "Monitoring stakeholder engagement includes evaluating the effectiveness of current communication and engagement tactics, then tailoring them as needed. The goal is sustained support, not a one-time recovery."
+        "explanation": "Monitoring engagement means evaluating what is working and tailoring it, so the fix targets this leader's timing need. A blanket daily cadence over-generalizes, leaving the plan unchanged ignores a real gap, and overruling substitutes authority for adaptation."
       }
     ],
     "tags": [
@@ -583,23 +551,19 @@
         ],
         "distractors": [
           {
-            "text": "Immediately replace the night-shift operators because human error is the most likely cause.",
-            "trap": "This assumes a cause without evidence and treats a people issue as proven before analysis."
+            "text": "Adjust the sealing equipment temperature settings and re-run the seal-integrity checks on the next lots now, since temperature drift is the usual cause of these failures.",
+            "trap": "Premature solution: fixes a presumed cause and re-tests before analysis confirms the real driver."
           },
           {
-            "text": "Fast-track the remaining verification work so the schedule impact is minimized.",
-            "trap": "This prioritizes schedule over understanding an active quality problem."
+            "text": "Have quality inspectors tighten sampling on the night shift where the defects appear worst.",
+            "trap": "Too narrow: targets one suspected source before root-cause analysis across shifts and materials."
           },
           {
-            "text": "Submit a change request to increase the acceptable seal-defect threshold.",
-            "trap": "This attempts to redefine acceptance criteria instead of resolving the defect."
-          },
-          {
-            "text": "Escalate directly to the CCB to ask which corrective action the team should take.",
-            "trap": "The CCB evaluates proposed changes, but the team first needs analysis to identify an appropriate action."
+            "text": "Escalate to the change control board to decide which corrective action the team should take.",
+            "trap": "Procedural deflection: the board evaluates proposed changes; the team needs analysis first to propose one."
           }
         ],
-        "explanation": "When a defect pattern emerges, the project manager should use Manage Quality to analyze process performance and identify root causes. Acting before analysis risks implementing the wrong fix and creating more rework."
+        "explanation": "When a defect pattern emerges, the PM uses Manage Quality to find root causes before acting. Adjusting temperature assumes the cause, focusing on the night shift is too narrow, and escalating to the board asks for a decision before analysis has produced an option."
       },
       {
         "prompt": "The root-cause analysis shows that seal failures correlate with one supplier lot of film stock and a narrower temperature tolerance than documented in the process baseline. What is the best next action?",
@@ -608,29 +572,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Document corrective action recommendations and submit a change request for the approved process and material controls.",
+            "text": "Document the corrective-action recommendations and submit a change request for the process and material controls.",
             "why": "A baseline-affecting adjustment requires formal change control after the cause has been identified."
           }
         ],
         "distractors": [
           {
-            "text": "Tell the team to change machine settings immediately and keep the update informal until testing is complete.",
-            "trap": "This bypasses integrated change control for a change to controlled process parameters."
+            "text": "Have the team adjust the machine settings now and formalize the change after testing confirms it.",
+            "trap": "Premature: changes controlled process parameters before integrated change control."
           },
           {
-            "text": "Coach the operators to be more careful and monitor the next lot before changing anything else.",
-            "trap": "This ignores evidence that the issue involves material and process tolerances, not just operator attention."
+            "text": "Switch to a different supplier lot of film stock and rerun all the failed seal-integrity checks before changing any documented process parameters.",
+            "trap": "Symptom not root cause: swaps the suspect input but leaves the documented temperature tolerance gap unaddressed."
           },
           {
-            "text": "Remove the supplier from the project and procure from a new source without review.",
-            "trap": "This is an unapproved procurement response that may create new risks and delays."
-          },
-          {
-            "text": "Update the risk register only, since quality problems are covered by project risk responses.",
-            "trap": "Risk documentation may be useful, but it does not replace required change control for corrective changes."
+            "text": "Remove the supplier from the project and source new film stock without a formal review.",
+            "trap": "Too narrow: an unapproved procurement response that may create new risks and delays."
           }
         ],
-        "explanation": "Once the analysis shows the likely causes and the proposed fix affects approved process controls, the project manager should raise a change request through the defined governance path. That preserves traceability and ensures the impact on quality, schedule, and compliance is assessed."
+        "explanation": "Once analysis points to process and material causes, the fix affects controlled baselines and goes through a change request. Adjusting settings now bypasses control, swapping the film lot treats only the symptom, and dropping the supplier is an unapproved procurement reaction."
       },
       {
         "prompt": "The CCB approves the change request to tighten material controls and revise equipment settings. During rollout, one technician continues using the old setup because it is faster and says the new settings are unnecessary. What should the project manager do?",
@@ -645,23 +605,19 @@
         ],
         "distractors": [
           {
-            "text": "Place the technician on a documented improvement plan so the team sees the issue is being handled firmly.",
-            "trap": "This uses an invented PM action and skips the proper approach of coaching plus coordination with the functional manager."
+            "text": "Place the technician on a formal improvement plan so the team sees the issue handled firmly.",
+            "trap": "Invented mechanism: an HR action that skips coaching plus coordination with the functional manager."
           },
           {
-            "text": "Ignore the behavior temporarily because the process update has already been approved by the CCB.",
-            "trap": "Approval alone does not ensure adoption or quality compliance."
-          },
-          {
-            "text": "Submit another change request to make adherence optional during the transition period.",
-            "trap": "This weakens the approved corrective action instead of managing implementation."
+            "text": "Submit a change request to make the new settings optional during the transition period.",
+            "trap": "Weakens governance: undercuts the approved corrective action instead of managing its adoption."
           },
           {
             "text": "Reassign all setup work away from the technician without informing the resource manager.",
-            "trap": "This avoids the behavior issue and bypasses the manager responsible for the resource."
+            "trap": "Avoidance: sidesteps the behavior and bypasses the manager responsible for the resource."
           }
         ],
-        "explanation": "People issues in PMP scenarios are handled through coaching and engagement with the resource or functional manager, not invented disciplinary mechanisms. The goal is to reinforce the approved quality process and remove adoption barriers."
+        "explanation": "People issues are handled through coaching and engagement with the resource manager, reinforcing the approved process. A formal plan invents discipline, making settings optional weakens the approved action, and quietly reassigning work avoids the issue and the manager."
       },
       {
         "prompt": "Two weeks later, defect rates remain below target and process stability has improved. What should the project manager do next to sustain the result?",
@@ -680,23 +636,19 @@
         ],
         "distractors": [
           {
-            "text": "Close the issue immediately because the latest lots passed, and the project should refocus on schedule recovery.",
-            "trap": "This assumes short-term improvement is enough without verifying sustained control."
+            "text": "Close the issue now since the latest lots passed, and refocus on schedule recovery.",
+            "trap": "Premature: assumes short-term improvement equals sustained control."
           },
           {
-            "text": "Reduce inspection sampling to recover cost lost during investigation.",
-            "trap": "This cuts control too early before confirming stable process performance."
+            "text": "Reduce inspection sampling to recover the cost lost during the investigation.",
+            "trap": "Symptom not root cause: cuts control before confirming stable process performance."
           },
           {
-            "text": "Ask the CCB to waive documentation updates because the corrective action is already in use.",
-            "trap": "This confuses implementation with proper documentation and controlled baselines."
-          },
-          {
-            "text": "Treat the problem as resolved without capturing lessons learned because the root cause is specific to this line.",
-            "trap": "This misses organizational learning from a meaningful quality event."
+            "text": "Update the operational work instructions to capture the new settings but leave verification to the routine end-of-line check already running on the line.",
+            "trap": "Too narrow: institutionalizes the change but drops the dedicated monitoring that confirms the fix holds across shifts and lots."
           }
         ],
-        "explanation": "After corrective action is implemented, the project manager should embed the approved updates and continue monitoring results. Sustained quality improvement depends on both controlled documentation and evidence that the process remains stable over time."
+        "explanation": "Sustaining the result means embedding the approved updates and continuing to monitor stability. Closing the issue is premature, cutting sampling removes control too early, and updating instructions without dedicated monitoring is too narrow to confirm the gains persist."
       }
     ],
     "tags": [
@@ -724,29 +676,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Assess the project context and tailor the delivery approach by evaluating which work can remain predictive and which can shift to agile increments.",
+            "text": "Assess the project context and tailor the approach, deciding which work stays predictive and which shifts to agile increments.",
             "why": "Tailoring should start with context assessment so the method fits the nature of the work and constraints."
           }
         ],
         "distractors": [
           {
-            "text": "Convert the entire project to agile immediately because changing user preferences always require agile delivery.",
-            "trap": "This assumes one method fits all work without assessing compliance and governance constraints."
+            "text": "Move the user-facing work to agile increments now to cut the rework quickly.",
+            "trap": "Premature solution: jumps to a fix before assessing which work suits which approach."
           },
           {
-            "text": "Keep the predictive plan unchanged because the project baseline has already been approved.",
-            "trap": "This ignores evidence that the current approach is driving rework and poor fit."
+            "text": "Ask the development lead to quietly run informal sprints on the user-facing work without changing the plan, the baselines, or the governance for now.",
+            "trap": "Too narrow: creates hidden hybrid behavior without deliberate tailoring or stakeholder alignment on the change."
           },
           {
-            "text": "Submit a change request to remove detailed user reviews until final testing.",
-            "trap": "This reduces feedback instead of tailoring the approach to benefit from it."
-          },
-          {
-            "text": "Ask the development lead to run informal sprints without changing planning or governance artifacts.",
-            "trap": "This creates hidden hybrid behavior without deliberate tailoring or stakeholder alignment."
+            "text": "Tighten requirements sign-off so users stop changing their minds after baselining.",
+            "trap": "Symptom not root cause: suppresses feedback rather than tailoring the approach to use it."
           }
         ],
-        "explanation": "PMI guidance supports tailoring based on project context, uncertainty, and value delivery needs. The project manager should first evaluate the work characteristics and then design a fit-for-purpose approach rather than switching methods by assumption."
+        "explanation": "PMI guidance supports tailoring from context, so the PM first evaluates the work before designing a fit-for-purpose approach. Moving to increments now jumps ahead, informal sprints create hidden hybrid behavior, and tightening sign-off treats the symptom by suppressing feedback."
       },
       {
         "prompt": "The assessment shows that compliance rules and core integration points are stable, but user-interface workflows would benefit from rapid feedback. What is the best recommendation?",
@@ -755,29 +703,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Use a hybrid approach with predictive planning for compliance and integration work and agile delivery for user-facing workflow features.",
+            "text": "Use a hybrid approach: predictive planning for compliance and integration, agile delivery for user-facing workflow features.",
             "why": "A hybrid model matches stable, high-governance work with predictive control while using agility where feedback and change are frequent."
           }
         ],
         "distractors": [
           {
-            "text": "Use predictive delivery for all work so documentation remains uniform across the project.",
-            "trap": "This values consistency of method over suitability to the work."
+            "text": "Keep all work predictive so documentation and governance stay uniform across the project.",
+            "trap": "Too narrow: values consistency of method over suitability to the work."
           },
           {
-            "text": "Use agile delivery for all work, including compliance signoffs, because increments create the most transparency.",
-            "trap": "This ignores the benefit of predictive control for stable and tightly governed work."
+            "text": "Move all work, including compliance sign-offs, to agile increments for maximum transparency.",
+            "trap": "Over-broad: ignores the benefit of predictive control for stable and tightly governed work."
           },
           {
-            "text": "Pause the project and restart it as a new agile project with a new charter.",
-            "trap": "This is unnecessarily disruptive when targeted tailoring can address the issue."
-          },
-          {
-            "text": "Keep the current plan but shorten status meetings so users can give feedback faster.",
-            "trap": "This changes meeting cadence, not the underlying delivery approach."
+            "text": "Pause and re-charter the effort as a new agile project to reset the approach.",
+            "trap": "Over-reaction: unnecessarily disruptive when targeted tailoring can address the issue."
           }
         ],
-        "explanation": "The evidence supports a hybrid approach because different parts of the project have different uncertainty profiles. Tailoring by work type improves responsiveness without sacrificing necessary compliance control."
+        "explanation": "Different parts of the project have different uncertainty profiles, so a hybrid approach tailors by work type. Keeping everything predictive or moving everything to agile forces one method onto unlike work, and re-chartering is disruptive when targeted tailoring suffices."
       },
       {
         "prompt": "Governance leaders agree in principle but want formal oversight of the transition. What should the project manager do next?",
@@ -786,29 +730,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Submit a change request to update the project management plan, baselines, and governance approach for the tailored delivery model.",
+            "text": "Submit a change request to update the project management plan, baselines, and governance approach for the tailored model.",
             "why": "Changing the delivery approach and related planning artifacts requires formal integrated change control."
           }
         ],
         "distractors": [
           {
-            "text": "Tell the team to start using agile ceremonies first and document the updates after the next release.",
-            "trap": "This implements a material process change before approval."
+            "text": "Have the team adopt the agile ceremonies now and document the plan updates after the next release.",
+            "trap": "Premature: implements a material process change before it is approved."
           },
           {
-            "text": "Create a separate team agreement and avoid formal change control because the scope is unchanged.",
-            "trap": "Delivery approach and governance changes can still require formal approval even if scope is constant."
+            "text": "Create a team working agreement for the new ceremonies and skip formal change control on the grounds that the project's approved scope itself is unchanged.",
+            "trap": "Too narrow: delivery-approach and governance changes can still require approval even when scope is constant."
           },
           {
-            "text": "Ask the scrum lead to explain agile to the CCB, then proceed once they seem comfortable.",
-            "trap": "Informal understanding is not the same as approved project change."
-          },
-          {
-            "text": "Update the risk register only because methodology changes are handled as project risks.",
-            "trap": "Risk updates may be needed, but they do not replace the required change request."
+            "text": "Have the scrum lead brief the CCB on agile and proceed once they seem comfortable.",
+            "trap": "Informal: comfort in a briefing is not the same as approved project change."
           }
         ],
-        "explanation": "When the delivery model, planning approach, and governance artifacts are being changed, the project manager should use formal change control. That ensures impacts are reviewed and the transition is properly authorized."
+        "explanation": "Because the delivery model, planning approach, and governance artifacts are changing, the PM uses formal change control. Adopting ceremonies now acts before approval, a working agreement alone sidesteps required governance, and a comfort briefing is not authorization."
       },
       {
         "prompt": "After approval, the business analyst assigned from a functional department keeps writing large up-front requirement packages and resists backlog refinement, saying the old way is more efficient. What should the project manager do?",
@@ -823,23 +763,19 @@
         ],
         "distractors": [
           {
-            "text": "Put the analyst on a documented improvement plan because resistance threatens delivery.",
-            "trap": "This uses an inappropriate invented PM action instead of coaching plus manager partnership."
+            "text": "Put the analyst on a formal improvement plan because the resistance threatens delivery.",
+            "trap": "Invented mechanism: an inappropriate PM action instead of coaching plus manager partnership."
           },
           {
-            "text": "Remove the analyst from stakeholder sessions so the team can protect the agile process.",
-            "trap": "This avoids the adoption problem and may reduce needed business input."
+            "text": "Escalate to the sponsor for a replacement resource before attempting to resolve the issue.",
+            "trap": "Wrong sequence: skips the expected first response of coaching and manager engagement."
           },
           {
             "text": "Reverse the tailoring decision because one key contributor is uncomfortable with the change.",
-            "trap": "This lets one person's resistance override a context-based project decision."
-          },
-          {
-            "text": "Escalate directly to the sponsor and request a replacement resource before trying to resolve the issue.",
-            "trap": "This skips the expected first response of coaching and manager engagement."
+            "trap": "Over-reaction: lets one person's resistance override a context-based project decision."
           }
         ],
-        "explanation": "When a team member struggles with a new working approach, the project manager should coach and collaborate with the functional manager to reinforce expectations. That is the PMI-aligned way to address behavior and capability issues in a matrix environment."
+        "explanation": "When a team member struggles with a new approach, the PM coaches and collaborates with the functional manager. A formal plan invents discipline, escalating for a replacement skips coaching, and reversing the tailoring lets one person override a sound decision."
       }
     ],
     "tags": [
@@ -867,29 +803,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Assess the impact with relevant experts, document the needed change, and prepare a change request for review through integrated change control",
+            "text": "Assess the impact with relevant experts, document the needed change, and prepare a change request for integrated change control",
             "why": "A regulatory change that affects scope, compliance, schedule, and cost should be analyzed and routed through formal change control."
           }
         ],
         "distractors": [
           {
-            "text": "Direct the team to add the compliance features immediately to avoid delay",
-            "trap": "This bypasses approved change control and can create uncontrolled scope and baseline impact."
+            "text": "Direct the team to build the new audit-trail and translation controls now to protect the launch date",
+            "trap": "Premature: bypasses change control and can create uncontrolled scope and baseline impact."
           },
           {
             "text": "Ask the sponsor to decide whether the team should comply or stay with the original plan",
-            "trap": "The sponsor has influence, but the project manager should first evaluate impacts and use the defined governance process."
+            "trap": "Too narrow: the PM should first assess impact and use governance, not hand the sponsor an unanalyzed choice."
           },
           {
-            "text": "Update the risk register only and continue execution while monitoring the regulation",
-            "trap": "The issue is no longer only a risk because the external change has occurred and now requires action."
-          },
-          {
-            "text": "Escalate the matter directly to legal counsel and pause all project work",
-            "trap": "Specialist input may be needed, but an immediate full stop without analysis and governance is not the best first step."
+            "text": "Escalate the matter directly to legal counsel and pause all project work until they confirm exactly which audit-trail and translation controls the new regulation requires",
+            "trap": "Procedural over-stop: specialist input helps, but a full work stoppage without impact analysis and governance is not the best first step."
           }
         ],
-        "explanation": "Once the external regulatory change is known to affect deliverables, the project manager should analyze impact with subject matter experts and submit a change request. This supports compliance while preserving governance discipline."
+        "explanation": "Once the external change is known to affect deliverables, the PM assesses impact with experts and submits a change request. Building now creates uncontrolled scope, handing the sponsor an unanalyzed choice is too narrow, and stopping all work without analysis overreacts."
       },
       {
         "prompt": "The impact analysis shows that compliance will add four weeks and require new validation activities. The sponsor wants a narrow implementation, while the compliance officer wants full rollout across all markets now. What should the project manager do next?",
@@ -902,29 +834,25 @@
             "why": "Structured stakeholder engagement helps surface interests, influence, and required inputs for a sound decision."
           },
           {
-            "text": "Present impact options and the change request to the change control board with schedule, cost, scope, and compliance consequences",
-            "why": "The change control board needs decision ready information to approve, defer, or reject the proposed change."
+            "text": "Present the impact options and change request to the board with schedule, cost, scope, and compliance consequences",
+            "why": "The change control board needs decision-ready information to approve, defer, or reject the proposed change."
           }
         ],
         "distractors": [
           {
-            "text": "Choose the compliance officer's preferred option because regulatory voices override project governance",
-            "trap": "Regulatory input is critical, but governance still requires balanced analysis and formal approval."
+            "text": "Adopt the compliance officer's full-rollout option because regulatory voices take priority over governance",
+            "trap": "Too narrow: regulatory input matters, but governance still requires balanced analysis and formal approval."
           },
           {
-            "text": "Negotiate informal agreement among stakeholders and implement the most popular option",
-            "trap": "Consensus alone does not replace formal change approval."
+            "text": "Have the team begin preparing all market changes now so work moves faster after approval",
+            "trap": "Premature: starting unapproved scope on a possible decision is premature."
           },
           {
-            "text": "Remove lower priority quality activities to absorb the schedule impact before seeking approval",
-            "trap": "Reducing approved quality work without authorization can create noncompliance and quality failures."
-          },
-          {
-            "text": "Tell the team to prepare all market changes now so the project can move faster after approval",
-            "trap": "Starting unapproved scope based on a possible decision is premature."
+            "text": "Trim lower-priority quality activities to absorb the schedule impact before seeking approval",
+            "trap": "Unauthorized: reducing approved quality work without authorization can create noncompliance and quality failures."
           }
         ],
-        "explanation": "The project manager should use Identify, Plan, Manage, and Monitor Stakeholder Engagement practices to prepare a clear decision path, then bring the analyzed options to the change control board. This keeps compliance and business value visible without bypassing governance."
+        "explanation": "The PM prepares a clear decision path through stakeholder engagement, then brings analyzed options to the board. Adopting one voice bypasses balanced governance, prepping all markets acts before approval, and trimming quality work is unauthorized and risky."
       },
       {
         "prompt": "The change control board approves a phased approach for the affected market only, with added validation and audit controls. During implementation, a quality lead says the team can skip one traceability review because testing already passed. What should the project manager do?",
@@ -933,29 +861,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Ensure the approved quality and compliance activities are followed through Manage Quality and project oversight, and address the concern through the defined quality process",
+            "text": "Enforce the approved quality and compliance activities through Manage Quality and address the concern through the defined quality process",
             "why": "Passing tests does not remove the need to execute approved quality and compliance processes required for acceptance."
           }
         ],
         "distractors": [
           {
-            "text": "Accept the recommendation because the team needs to recover schedule after the approved delay",
-            "trap": "Schedule pressure does not justify bypassing required quality and compliance work."
-          },
-          {
-            "text": "Submit a new change request immediately to eliminate the traceability review",
-            "trap": "The first action is to enforce the approved plan and evaluate the issue within quality management, not shortcut governance to remove controls."
+            "text": "Submit a change request to drop the one traceability review from the approved plan since testing has already passed for that component",
+            "trap": "Premature: first enforce the approved plan and assess within quality, rather than shortcut governance to remove a control."
           },
           {
             "text": "Ask the testing team to sign off on behalf of quality so work can continue",
-            "trap": "Functional substitution does not address the actual compliance requirement."
+            "trap": "Too narrow: functional substitution does not satisfy the actual compliance requirement."
           },
           {
-            "text": "Escalate the quality lead to human resources for nonperformance",
-            "trap": "A disagreement on process should be handled through coaching, clarification, and the resource or functional manager if needed."
+            "text": "Accept the recommendation because the team needs to recover schedule after the approved delay",
+            "trap": "Symptom not root cause: schedule pressure does not justify bypassing required quality and compliance work."
           }
         ],
-        "explanation": "Approved compliance and quality activities remain mandatory unless formally changed. The project manager should reinforce the agreed process, coach the team, and ensure required controls are completed."
+        "explanation": "Approved compliance and quality activities remain mandatory unless formally changed, so the PM enforces the process and addresses the concern within quality. A change request to drop the review is premature, testing sign-off is functional substitution, and accepting the skip yields to schedule pressure."
       },
       {
         "prompt": "The market specific release is completed and passes validation. Senior leadership now asks how to reduce disruption if another external rule changes next quarter. What is the best project manager response?",
@@ -968,29 +892,25 @@
             "why": "Documenting lessons improves future readiness and supports more effective response to similar external changes."
           },
           {
-            "text": "Recommend updates to Plan Risk Management and ongoing Perform Risk Analysis for regulatory triggers, thresholds, and response ownership",
+            "text": "Recommend updates to Plan Risk Management and ongoing risk analysis for regulatory triggers, thresholds, and response ownership",
             "why": "Strengthening risk planning and analysis helps the organization anticipate and respond to future compliance changes earlier."
           }
         ],
         "distractors": [
           {
-            "text": "Lock the current requirements baseline so no future regulation can affect the project environment",
-            "trap": "Baselines do not prevent external change and cannot override legal obligations."
+            "text": "Transfer all future regulatory compliance responsibility to the legal department so a single accountable team owns every upcoming external rule change",
+            "trap": "Too narrow: compliance risk needs cross-functional ownership across the project, not a full handoff to legal."
           },
           {
-            "text": "Transfer all future compliance responsibility to the legal department",
-            "trap": "Compliance risk requires cross functional ownership, not total handoff."
+            "text": "Lock the current requirements baseline so no future regulation can affect the project",
+            "trap": "Misconception: baselines do not prevent external change or override legal obligations."
           },
           {
-            "text": "Avoid phased rollouts because they always increase complexity",
-            "trap": "A phased approach may be the most appropriate response depending on impact and constraints."
-          },
-          {
-            "text": "Delay closing project records until all possible future regulations are known",
-            "trap": "Project closure should not be held open indefinitely for hypothetical future changes."
+            "text": "Avoid phased rollouts in future because they always increase complexity",
+            "trap": "Over-generalizes: a phased approach may be the best response depending on impact and constraints."
           }
         ],
-        "explanation": "The best response is to institutionalize what was learned and improve future risk planning and analysis. That strengthens organizational agility in the Business Environment domain."
+        "explanation": "The best response institutionalizes lessons learned and strengthens risk planning for future regulatory change. Handing compliance to legal narrows ownership, locking the baseline misunderstands external change, and avoiding phased rollouts over-generalizes a sometimes-optimal tactic."
       }
     ],
     "tags": [
@@ -1018,29 +938,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Review the contract, verify the performance gap against agreed deliverables, and meet with the vendor to understand root causes and required corrective actions",
+            "text": "Review the contract, verify the performance gap against agreed deliverables, and meet the vendor to understand root causes and corrective actions",
             "why": "The project manager should use the contract and actual performance data to address the issue objectively before escalating."
           }
         ],
         "distractors": [
           {
             "text": "Replace the vendor immediately because repeated delay proves they cannot recover",
-            "trap": "Replacement may be an option later, but it should not be the first move without contract review and escalation steps."
+            "trap": "Premature: replacement may come later, but not before contract review and the agreed escalation steps."
           },
           {
             "text": "Instruct the internal team to absorb the delay by working overtime on downstream tasks",
-            "trap": "This treats the symptom before addressing the source issue and may increase cost without solving vendor performance."
-          },
-          {
-            "text": "Issue a public warning to the vendor during the steering committee meeting",
-            "trap": "Public confrontation can damage collaboration and should not precede formal contract based engagement."
+            "trap": "Symptom not root cause: treats the slip before addressing the vendor performance source, and may raise cost."
           },
           {
             "text": "Document the issue as a risk and continue to monitor the situation",
-            "trap": "The underperformance is already an active issue, not only a future uncertainty."
+            "trap": "Procedural deflection: the underperformance is already an active issue, not only a future uncertainty."
           }
         ],
-        "explanation": "The first step is to ground the response in contract terms, actual performance, and direct communication. That supports a fact based vendor management approach and avoids premature escalation."
+        "explanation": "The first step grounds the response in contract terms, actual performance, and direct communication. Replacing the vendor jumps ahead, having the team absorb the delay treats the symptom, and logging a risk defers a live issue."
       },
       {
         "prompt": "The vendor explains that a subcontractor shortage caused the delays and proposes a compressed shipment plan that may affect inspection quality. Which actions should the project manager take next?",
@@ -1059,23 +975,19 @@
         ],
         "distractors": [
           {
-            "text": "Accept the compressed plan because restoring schedule is the highest priority",
-            "trap": "Schedule recovery should not come at the expense of agreed quality requirements."
+            "text": "Accept the compressed plan because restoring the schedule is the highest priority",
+            "trap": "Symptom not root cause: schedule recovery should not come at the expense of agreed quality requirements."
           },
           {
-            "text": "Ask the team to skip incoming inspections temporarily until the vendor is back on track",
-            "trap": "Bypassing controls can introduce defects and larger downstream impacts."
+            "text": "Submit a change request to extend the schedule before evaluating the vendor's recovery plan",
+            "trap": "Premature: a change request may be needed, but assess whether contract-based recovery is feasible first."
           },
           {
-            "text": "Coach the vendor's staff directly and reassign their work priorities",
-            "trap": "The project manager manages the supplier relationship through contract and governance, not by directly supervising vendor staff."
-          },
-          {
-            "text": "Submit a change request to extend the schedule before evaluating the vendor plan",
-            "trap": "A change request may become necessary, but the project manager should first determine whether contract based recovery is feasible."
+            "text": "Coach the vendor's installation staff directly and reassign their internal work priorities so the compressed shipment plan can be delivered on time",
+            "trap": "Wrong role: the PM manages the supplier through the contract and governance, not by supervising the vendor's own staff."
           }
         ],
-        "explanation": "The next move is to evaluate whether the proposed recovery is viable and compliant. If not, escalation through the agreed path is the proper process response."
+        "explanation": "The next move is to evaluate whether the proposed recovery is viable and compliant, escalating through the agreed path if not. Accepting the compressed plan sacrifices quality, a change request pre-empts assessment, and directing vendor staff exceeds the PM's role."
       },
       {
         "prompt": "After escalation, the vendor agrees to add resources, but one internal engineer blames procurement and refuses to collaborate with the vendor team. What should the project manager do?",
@@ -1091,22 +1003,18 @@
         "distractors": [
           {
             "text": "Remove the engineer from the project immediately to send a strong message",
-            "trap": "Immediate removal is not the first response when coaching and manager support may resolve the issue."
-          },
-          {
-            "text": "Ignore the behavior because vendor delay is the real problem",
-            "trap": "Internal stakeholder behavior can worsen delivery risk and should be managed."
+            "trap": "Premature: removal is not the first response when coaching and manager support may resolve the issue."
           },
           {
             "text": "Create a performance improvement plan for the engineer and present it in the next team meeting",
-            "trap": "This is not the appropriate project manager action and mishandles the people management path."
+            "trap": "Invented mechanism: not the appropriate PM action and mishandles the people-management path."
           },
           {
             "text": "Ask procurement to handle the engineer since the conflict involves a supplier",
-            "trap": "Procurement supports the contract relationship, but the project manager still manages team collaboration."
+            "trap": "Wrong party: procurement supports the contract, but the PM still manages team collaboration."
           }
         ],
-        "explanation": "The project manager should manage stakeholder engagement within the team through coaching and role clarity, using the resource manager when needed. That keeps the response aligned with PMI people leadership expectations."
+        "explanation": "The PM manages team collaboration through coaching and role clarity, using the resource manager when needed. Immediate removal is premature, a formal plan invents discipline, and handing the engineer to procurement misassigns a people-management responsibility."
       },
       {
         "prompt": "The vendor recovers enough to meet the next milestone, but the project has consumed most contingency and remains vulnerable. What is the best action now?",
@@ -1126,22 +1034,18 @@
         "distractors": [
           {
             "text": "Close the issue because the latest milestone was met",
-            "trap": "One recovered milestone does not eliminate residual risk or the need for continued oversight."
+            "trap": "Premature: one recovered milestone does not eliminate residual risk or the need for oversight."
           },
           {
-            "text": "Reduce reporting frequency so the vendor can focus on delivery",
-            "trap": "Lower visibility can hide renewed slippage at a sensitive stage."
-          },
-          {
-            "text": "Freeze all other project work until the vendor completes every remaining deliverable",
-            "trap": "This is an overly disruptive response unless dependency analysis shows no alternative."
+            "text": "Reduce the vendor reporting frequency for now so they can concentrate their limited capacity on delivery rather than on preparing status updates",
+            "trap": "Symptom not root cause: lower visibility can hide renewed slippage at a sensitive, low-contingency stage."
           },
           {
             "text": "Transfer the remaining delivery risk entirely to procurement",
-            "trap": "Supplier risk remains a project concern even when procurement has a supporting role."
+            "trap": "Too narrow: supplier risk remains a project concern even when procurement has a supporting role."
           }
         ],
-        "explanation": "Once short term recovery is underway, the project manager should shift to active monitoring of residual risk, forecast impact, and stakeholder expectations. This is a process disciplined response to underperformance."
+        "explanation": "With short-term recovery underway, the PM shifts to monitoring residual risk, updating forecasts, and keeping stakeholders informed. Closing the issue is premature, reducing reporting hides slippage, and transferring the risk to procurement narrows ownership the project still holds."
       }
     ],
     "tags": [
@@ -1169,29 +1073,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Review governance constraints, engage compliance and legal stakeholders, and confirm how the tool can be used with human oversight before adopting it",
-            "why": "This addresses policy, privacy, and decision accountability before the tool influences project planning."
+            "text": "Confirm with compliance and legal how the tool can be used under current governance and human oversight before adopting it",
+            "why": "Aligning use with policy, privacy, and decision accountability comes before the tool influences planning."
           }
         ],
         "distractors": [
           {
-            "text": "Load all available historical data into the tool so the first forecast is as accurate as possible",
-            "trap": "This assumes more data is always better and ignores privacy and data minimization obligations."
+            "text": "Run the first forecast on the fullest available history so the pilot proves the accuracy gains quickly",
+            "trap": "Premature solution: chases accuracy before confirming which data may be used and how oversight applies."
           },
           {
-            "text": "Replace the team estimating workshop because the AI output is likely less biased than expert judgment",
-            "trap": "This treats AI as a substitute for human judgment rather than a decision support input."
+            "text": "Have the team run its full estimating workshop and use the AI output only to cross-check the result, documenting any variances for the sponsor so the pilot still generates evidence for the next decision",
+            "trap": "Wrong sequence: a reasonable check with useful documentation, but it still runs the tool on real data before governance and data terms are confirmed."
           },
           {
-            "text": "Submit a change request to the change control board to approve use of the tool before any analysis is performed",
-            "trap": "This jumps to formal change control before clarifying whether governance review or pilot conditions are required."
+            "text": "Submit a change request to the change control board to approve the tool before any governance review",
+            "trap": "Procedural deflection: routes to change control before clarifying whether governance or pilot conditions even apply."
           },
           {
-            "text": "Ask the vendor to certify that its model is compliant and proceed based on that assurance",
-            "trap": "This shifts accountability to the vendor instead of ensuring organizational governance is satisfied."
+            "text": "Ask the vendor to certify the model meets privacy and compliance rules and proceed on that assurance",
+            "trap": "Too narrow: relies on the vendor alone and skips the organization's own compliance and legal owners."
           }
         ],
-        "explanation": "The first action is to align use of the AI tool with organizational governance and stakeholder requirements. The project manager should use expert support from compliance and legal while preserving human accountability for estimates and decisions."
+        "explanation": "The first action is to align the tool with organizational governance and stakeholder requirements, using compliance and legal expertise while keeping human accountability for estimates. The other options act before that alignment is confirmed."
       },
       {
         "prompt": "After stakeholder review, compliance allows a limited pilot only if personal and confidential data are protected and estimates are not accepted without review. What is the best next action?",
@@ -1200,29 +1104,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Define pilot controls including approved data sources, data masking, review criteria, and human validation of forecasts",
-            "why": "This translates governance requirements into practical controls for safe and reliable use."
+            "text": "Define pilot controls covering approved data sources, masking, and human review of forecasts",
+            "why": "This turns the approved guardrails into practical controls for safe, reliable use."
           }
         ],
         "distractors": [
           {
-            "text": "Use the tool only on the most complex work packages because higher uncertainty justifies fewer controls",
-            "trap": "This wrongly suggests riskier estimates need less governance."
+            "text": "Begin the pilot on a low-risk work package immediately to start learning while controls are worked out later",
+            "trap": "Premature solution: runs the pilot before the required masking and review controls exist."
           },
           {
-            "text": "Delay all estimating until the organization publishes an enterprise AI policy",
-            "trap": "This ignores the approved path to proceed through a controlled pilot."
+            "text": "Wait for the organization to publish an enterprise AI policy before defining any pilot controls",
+            "trap": "Procedural deflection: defers the approved pilot to a future policy instead of operationalizing the guardrails now."
           },
           {
-            "text": "Have the scrum lead approve AI outputs for the team to avoid schedule delay",
-            "trap": "This narrows oversight to one role and does not establish objective validation criteria."
+            "text": "Have the scrum lead review and approve the AI forecasts so the team is not slowed down",
+            "trap": "Too narrow: puts oversight on one role without objective, agreed validation criteria."
           },
           {
-            "text": "Store a full copy of the training data with the vendor so future audits are easier",
-            "trap": "This increases exposure of sensitive information instead of minimizing it."
+            "text": "Keep a fully masked and encrypted copy of the source data with the vendor under the existing non-disclosure agreement so that any future compliance audit can be completed quickly and without re-extracting records",
+            "trap": "Symptom not root cause: solves auditability by increasing the sensitive-data exposure the guardrails are meant to reduce."
           }
         ],
-        "explanation": "The project manager should operationalize the approved guardrails through clear controls, acceptance criteria, and human review. That supports Manage Quality and risk response while keeping the pilot usable."
+        "explanation": "The project manager should operationalize the approved guardrails through concrete controls, acceptance criteria, and human review. That supports Manage Quality and risk response while keeping the pilot usable."
       },
       {
         "prompt": "The pilot forecasts that a critical integration can be completed two weeks sooner than the team estimate. The engineering lead says the AI result is plausible, but historical data for similar work were incomplete. What should the project manager do?",
@@ -1235,26 +1139,26 @@
             "why": "Triangulating estimates strengthens confidence and reduces the risk of acting on weak data."
           },
           {
-            "text": "Document the uncertainty and related risk so the team can monitor the effect of estimate quality on delivery commitments",
+            "text": "Log the data-quality uncertainty as a risk and monitor its effect on delivery commitments",
             "why": "Incomplete data is a risk factor that should be analyzed and monitored."
           }
         ],
         "distractors": [
           {
-            "text": "Accept the earlier date because using the pilot requires the team to rely on the model output",
-            "trap": "This confuses piloting a tool with surrendering professional judgment."
+            "text": "Accept the earlier date because using the pilot means trusting the model output",
+            "trap": "Premature solution: treats piloting a tool as a reason to drop professional judgment."
           },
           {
-            "text": "Discard the AI result entirely because any data gap makes the output unusable",
-            "trap": "This overreacts and ignores the value of bounded, reviewed decision support."
+            "text": "Discard the AI result entirely and rerun the estimate once complete history is available",
+            "trap": "Symptom not root cause: overreacts to the data gap and throws away bounded, reviewed decision support."
           },
           {
-            "text": "Escalate the estimate directly to the sponsor as a commitment to create momentum",
-            "trap": "This turns an uncertain forecast into a promise before validation."
+            "text": "Escalate the forecast to the sponsor and let governance decide whether to accept it",
+            "trap": "Procedural deflection: hands an unvalidated number to the sponsor instead of triangulating it first."
           },
           {
-            "text": "Update the schedule immediately and analyze the risk later if variance appears",
-            "trap": "This reverses good practice by changing commitments before adequate analysis."
+            "text": "Update the schedule to the earlier date now and analyze the data-quality risk only if variance later appears",
+            "trap": "Wrong sequence: changes commitments before doing the analysis that should come first."
           }
         ],
         "explanation": "AI-supported estimates should be validated, not accepted blindly or rejected reflexively. The project manager integrates data, expert judgment, and risk analysis before proposing a planning change."
@@ -1266,29 +1170,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Raise a change request for the planning updates and present the impact, assumptions, controls, and risks to the change control board",
-            "why": "A baseline-affecting planning change should move through formal change control with decision transparency."
+            "text": "Raise a change request for the planning updates and take the impact and risks to the change control board",
+            "why": "A baseline-affecting planning change belongs in formal change control with decision transparency."
           }
         ],
         "distractors": [
           {
-            "text": "Implement the revised dates immediately because the pilot already proved the approach works",
-            "trap": "This bypasses integrated change control for a baseline change."
+            "text": "Implement the revised dates now since the pilot already showed the approach works",
+            "trap": "Premature solution: acts on a baseline change before integrated change control reviews it."
           },
           {
-            "text": "Ask the vendor to sign off on the new release plan since the model produced the improvement",
-            "trap": "This misplaces approval authority outside project governance."
+            "text": "Have the vendor formally sign off on the new release plan and attach its model accuracy report as supporting evidence, since its forecast produced the projected gain in the first place",
+            "trap": "Too narrow: places approval and accountability with the vendor rather than project governance."
           },
           {
-            "text": "Update only the risk register because schedule changes can wait until the next reporting cycle",
-            "trap": "This underresponds to a confirmed planning impact."
+            "text": "Update only the risk register and let the schedule change wait for the next reporting cycle",
+            "trap": "Symptom not root cause: logs the impact but does not act on a confirmed planning change."
           },
           {
-            "text": "Have the team lead communicate the new dates informally to maintain agility",
-            "trap": "This substitutes informal coordination for required governance."
+            "text": "Have the team lead brief the new dates informally to keep the team agile",
+            "trap": "Wrong sequence: communicates dates before the change is approved, skipping required governance."
           }
         ],
-        "explanation": "Once the team has enough evidence to alter baselines or approved plans, the project manager should use formal change control. This preserves governance while showing that AI was used as a supported input rather than an unchecked authority."
+        "explanation": "Once there is enough evidence to alter baselines, the project manager should use formal change control. This preserves governance and shows AI was used as a supported input, not an unchecked authority."
       }
     ],
     "tags": [
@@ -1317,29 +1221,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Evaluate both options against business value criteria, including life-cycle benefits, strategic alignment, risk exposure, and ESG outcomes",
-            "why": "This supports a balanced decision based on value rather than initial cost alone."
+            "text": "Evaluate both options against business value criteria such as life-cycle cost, risk, and ESG outcomes",
+            "why": "This bases the recommendation on value rather than initial cost alone."
           }
         ],
         "distractors": [
           {
-            "text": "Recommend the lower-cost option because sustainability benefits are too intangible for project decisions",
-            "trap": "This wrongly excludes material strategic and operational benefits from decision making."
+            "text": "Recommend the lower-cost package now to protect the approved budget and revisit ESG upgrades in a later phase",
+            "trap": "Premature solution: picks the cheaper option before value criteria are weighed."
           },
           {
-            "text": "Recommend the higher-cost option because ESG objectives should override budget constraints in all cases",
-            "trap": "This assumes one criterion always dominates instead of using a balanced evaluation."
+            "text": "Base the recommendation on life-cycle cost so that the option with the lowest total cost of ownership over the full asset life wins the comparison and settles the debate",
+            "trap": "Too narrow: a single financial lens, however thorough, still omits strategic, reputational, and ESG value."
           },
           {
-            "text": "Avoid comparing the options and ask the sponsor to choose based on executive preference",
-            "trap": "This abandons the project manager's role in enabling informed decisions."
+            "text": "Survey community and strategy stakeholders on their preference before defining any evaluation criteria",
+            "trap": "Wrong sequence: gathers preferences before framing the value criteria that should structure them."
           },
           {
-            "text": "Treat the decision as a procurement issue and defer analysis until contract award",
-            "trap": "This delays a key value decision that shapes the project business case."
+            "text": "Refer the choice to procurement to decide at contract award using its supplier scoring model",
+            "trap": "Procedural deflection: hands a value decision to a sourcing process and delays it."
           }
         ],
-        "explanation": "The project manager should frame the issue as a value trade-off, not a simple cost contest. PMI guidance emphasizes aligning decisions to outcomes, strategy, risk, and stakeholder expectations."
+        "explanation": "The project manager should frame the issue as a value trade-off, not a simple cost contest, aligning the decision to outcomes, strategy, risk, and stakeholder expectations."
       },
       {
         "prompt": "The steering group agrees to compare options more fully. Which action should the project manager take next?",
@@ -1348,33 +1252,33 @@
         "present": 5,
         "correct": [
           {
-            "text": "Work with relevant stakeholders to define weighted decision criteria that include cost, operational efficiency, compliance, reputation, and ESG benefits",
+            "text": "Work with stakeholders to define weighted criteria spanning cost, operations, compliance, and ESG benefits",
             "why": "Explicit criteria make trade-offs transparent and reduce subjective conflict."
           },
           {
-            "text": "Identify stakeholders affected by sustainability outcomes and plan stakeholder engagement for groups with different priorities",
+            "text": "Identify stakeholders affected by sustainability outcomes and plan engagement for groups with different priorities",
             "why": "Stakeholder priorities shape value definition and support later decision acceptance."
           }
         ],
         "distractors": [
           {
-            "text": "Freeze the stakeholder list because broadening engagement will make the decision slower",
-            "trap": "This ignores that omitted stakeholders can undermine implementation and benefits realization."
+            "text": "Score the two options immediately on payback period so the board gets a fast financial answer",
+            "trap": "Premature solution: jumps to scoring on one metric before criteria and stakeholders are set."
           },
           {
-            "text": "Use only payback period because the board needs one simple financial indicator",
-            "trap": "This narrows the evaluation so much that important value drivers may be lost."
+            "text": "Send the recommendation to the change control board now since ESG criteria will alter scope",
+            "trap": "Wrong sequence: invokes change control before a recommendation even exists."
           },
           {
-            "text": "Wait for the sustainability office to set the priorities so the project team remains neutral",
-            "trap": "This confuses facilitation with passivity and leaves key trade-offs undefined."
+            "text": "Wait for the sustainability office to set the priorities so the project stays neutral",
+            "trap": "Procedural deflection: passivity in place of facilitation leaves the trade-offs undefined."
           },
           {
-            "text": "Move directly to the change control board because sustainability criteria alter project scope",
-            "trap": "This applies change control before a decision recommendation has been developed."
+            "text": "Keep the current stakeholder list to avoid slowing the decision with more voices",
+            "trap": "Too narrow: omitting affected stakeholders undermines later implementation and benefits."
           }
         ],
-        "explanation": "A structured value model and active stakeholder planning are the strongest next steps. They create a credible basis for comparing alternatives and help prevent later resistance."
+        "explanation": "A structured value model and active stakeholder planning are the strongest next steps, creating a credible basis for comparison and reducing later resistance."
       },
       {
         "prompt": "Analysis shows the sustainable option has a higher initial cost but lower operating costs, reduced regulatory risk, and stronger support from community stakeholders. The sponsor still argues that the approved budget cannot increase. What should the project manager do?",
@@ -1383,29 +1287,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Present the trade-off analysis and recommend a decision based on agreed value criteria, including the consequences of prioritizing short-term cost over long-term benefits",
-            "why": "This keeps the recommendation evidence-based and tied to previously agreed decision logic."
+            "text": "Present the trade-off analysis against the agreed criteria and recommend a decision, including the cost of favoring short-term savings",
+            "why": "This keeps the recommendation evidence-based and tied to the previously agreed decision logic."
           }
         ],
         "distractors": [
           {
-            "text": "Remove the ESG benefits from the comparison because they are not direct deliverables",
-            "trap": "This mistakes benefits realization for scope definition and strips out relevant value."
+            "text": "Recommend the sustainable option but present only the operating-cost savings the sponsor cares about, framing the payback in the budget terms most likely to win the sponsor's approval quickly",
+            "trap": "Too narrow: leaning on one benefit and tailoring it to the sponsor ignores the agreed multi-criteria basis."
           },
           {
-            "text": "Escalate the sponsor's position as a team conflict requiring coaching by the functional manager",
-            "trap": "This misframes a strategic decision disagreement as a people performance issue."
+            "text": "Propose a value-engineering pass to cut the sustainable option's price down to the current budget",
+            "trap": "Premature solution: jumps to reshaping the option before the trade-off decision is even made."
           },
           {
-            "text": "Select the cheaper option because the current budget baseline outweighs all future considerations",
-            "trap": "This assumes baseline cost is the only legitimate criterion."
+            "text": "Escalate the disagreement to the steering group as a conflict for them to settle",
+            "trap": "Procedural deflection: hands off the decision instead of presenting the evidence at the right level."
           },
           {
-            "text": "Delay the recommendation until market conditions improve so no trade-off decision is needed",
-            "trap": "This avoids decision making despite having enough analysis."
+            "text": "Defer the recommendation until commodity prices ease so the cost gap narrows on its own",
+            "trap": "Wrong sequence: delays a decision the analysis already supports."
           }
         ],
-        "explanation": "The project manager should facilitate a decision grounded in agreed criteria and transparent consequences. That supports governance and helps leaders choose consciously rather than defaulting to headline cost."
+        "explanation": "The project manager should facilitate a decision grounded in agreed criteria and transparent consequences, helping leaders choose consciously rather than defaulting to headline cost."
       },
       {
         "prompt": "The steering group approves the sustainable option if the project can offset part of the added capital through phased implementation and revised scope sequencing. What should the project manager do next?",
@@ -1414,33 +1318,33 @@
         "present": 5,
         "correct": [
           {
-            "text": "Prepare the needed change request with impacts to scope, schedule, cost, and expected benefits for review by the change control board",
+            "text": "Prepare the change request with scope, schedule, cost, and benefit impacts for the change control board",
             "why": "The approved direction requires controlled updates to project baselines and plans."
           },
           {
-            "text": "Update stakeholder engagement and communications to address how the decision affects operations, community expectations, and benefit tracking",
+            "text": "Update stakeholder engagement to address how the decision affects operations, community expectations, and benefit tracking",
             "why": "The chosen option changes stakeholder interests and how benefits should be monitored."
           }
         ],
         "distractors": [
           {
-            "text": "Treat the decision as final and skip formal change control because strategy already endorsed it",
-            "trap": "This confuses strategic endorsement with project baseline approval."
+            "text": "Move straight to procurement for the phased packages, releasing the first purchase orders now so long-lead equipment is secured before prices rise further, since the value decision is already made",
+            "trap": "Premature solution: starts sourcing and commits funds before baselines and stakeholder impacts are updated."
           },
           {
-            "text": "Focus only on procurement since the value decision has already been made",
-            "trap": "This overlooks planning updates and stakeholder consequences."
+            "text": "Log the decision and defer the baseline updates to the next monthly governance review",
+            "trap": "Procedural deflection: parks a confirmed change in a future review instead of processing it now."
           },
           {
-            "text": "Reopen the option analysis from the beginning to verify that no stakeholder disagrees",
-            "trap": "This creates unnecessary churn after a governance decision has been reached."
+            "text": "Reopen the full option analysis to confirm no stakeholder still disagrees",
+            "trap": "Wrong sequence: reruns analysis after a governance decision has been made."
           },
           {
-            "text": "Ask the resource manager to enforce compliance from resistant plant supervisors",
-            "trap": "This jumps to authority and ignores stakeholder engagement planning."
+            "text": "Ask the resource manager to require compliance from resistant plant supervisors",
+            "trap": "Too narrow: reaches for authority and skips planned stakeholder engagement."
           }
         ],
-        "explanation": "Once a path is selected, the project manager must translate that choice into controlled project changes and stakeholder actions. Benefits and stakeholder expectations should be monitored as part of ongoing delivery."
+        "explanation": "Once a path is selected, the project manager translates that choice into controlled changes and stakeholder actions, monitoring benefits and expectations through delivery."
       }
     ],
     "tags": [
@@ -1469,29 +1373,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Review the business case and current benefits data with the sponsor and key stakeholders, then assess options through integrated change control",
-            "why": "This confirms whether the value proposition has changed and frames any pivot, descoping, or closure decision through formal governance."
+            "text": "Review the business case and current benefits data with the sponsor, then assess response options through integrated change control",
+            "why": "This confirms whether the value proposition has changed and frames any pivot, descope, or closure through governance."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately stop all project work until finance issues a final decision",
-            "trap": "This assumes the project manager should halt work before evaluating impacts and following governance."
-          },
-          {
-            "text": "Submit a change request to reduce scope before analyzing the updated benefits",
-            "trap": "This jumps to a solution without first validating whether descoping is the best response."
+            "text": "Submit a change request to descope the two weakest clinics and redirect their remaining budget to the strongest site before the benefits are re-analyzed",
+            "trap": "Premature solution: picks descoping and reallocation before confirming it is the best response."
           },
           {
             "text": "Direct the team to accelerate deployment to recover the original business case",
-            "trap": "This treats schedule compression as a substitute for value analysis."
+            "trap": "Symptom not root cause: compresses schedule instead of examining the eroded value."
           },
           {
-            "text": "Ask operations leaders to approve the original plan because they still support the project",
-            "trap": "This relies on stakeholder preference instead of objective business justification."
+            "text": "Ask the supportive clinic directors to reaffirm the original plan and continue",
+            "trap": "Too narrow: leans on stakeholder preference over objective business justification, and misses finance."
+          },
+          {
+            "text": "Pause all work and wait for finance to issue a final continue-or-stop decision",
+            "trap": "Procedural deflection: halts delivery and hands the call to finance before assessing impacts."
           }
         ],
-        "explanation": "When the business case erodes, the first step is to validate the change in expected value and compare response options. The project manager should work with the sponsor and stakeholders, then use formal change control rather than reacting informally."
+        "explanation": "When the business case erodes, the first step is to validate the change in expected value and compare response options with the sponsor and stakeholders, then use change control rather than reacting informally."
       },
       {
         "prompt": "The assessment shows clinic 1 will still deliver acceptable value, but clinics 2 and 3 will not unless the solution is redesigned. What is the best next action?",
@@ -1500,29 +1404,29 @@
         "present": 4,
         "correct": [
           {
-            "text": "Submit a change request to descope deployment to clinic 1 and evaluate a pivot for the remaining clinics through the change control board",
-            "why": "This preserves value where justified and routes the pivot decision through the approved governance process."
+            "text": "Submit a change request to focus deployment on clinic 1 and route the pivot for the other clinics through the change control board",
+            "why": "This preserves value where justified and routes the pivot decision through approved governance."
           }
         ],
         "distractors": [
           {
-            "text": "Continue deploying to all clinics because partial delivery could disappoint stakeholders",
-            "trap": "This prioritizes perception over business value."
+            "text": "Start redesigning the solution for clinics 2 and 3 now and update the baseline afterward",
+            "trap": "Premature solution: begins new work before scope and investment changes are approved."
           },
           {
-            "text": "Cancel the entire project because the original scope is no longer achievable",
-            "trap": "This ignores the fact that part of the project still supports the business case."
+            "text": "Cancel the entire project since the original scope is no longer achievable",
+            "trap": "Symptom not root cause: stops everything although part still supports the business case."
           },
           {
-            "text": "Let each clinic manager decide whether to continue independently",
-            "trap": "This bypasses project governance and creates uncontrolled scope decisions."
+            "text": "Continue deploying to all three clinics to avoid disappointing stakeholders",
+            "trap": "Too narrow: prioritizes perception over the differing business value by segment."
           },
           {
-            "text": "Ask the team to redesign the solution immediately and update the baseline later",
-            "trap": "This starts new work before approval of scope and investment changes."
+            "text": "Let each clinic manager decide independently whether to continue",
+            "trap": "Procedural deflection: pushes governance decisions down and creates uncontrolled scope."
           }
         ],
-        "explanation": "A selective response is appropriate when value differs by scope segment. The project manager should formalize the descoping and potential pivot through a change request and CCB review."
+        "explanation": "A selective response fits when value differs by segment. The project manager formalizes the descoping and potential pivot through a change request and CCB review."
       },
       {
         "prompt": "The CCB approves descoping to clinic 1 and asks for a recommendation on whether to redesign for clinics 2 and 3. Which two actions should the project manager take next?",
@@ -1541,23 +1445,23 @@
         ],
         "distractors": [
           {
-            "text": "Tell the team to pause all documentation updates until the redesign decision is final",
-            "trap": "This ignores the need to align current plans and stakeholder expectations with approved changes."
+            "text": "Direct procurement to order the redesigned monitoring hardware now, locking in current pricing on the long-lead devices, so that clinic 2 and 3 timelines do not slip if the redesign is later approved",
+            "trap": "Premature solution: starts execution and commits spend before the pivot is approved."
           },
           {
-            "text": "Rebaseline the entire project immediately, including unapproved redesign work",
-            "trap": "This treats a possible future option as already approved."
+            "text": "Rebaseline the whole project now, including the not-yet-approved redesign work",
+            "trap": "Wrong sequence: bakes in a future option as if it were already approved."
           },
           {
-            "text": "Remove finance from future reviews because the CCB already approved partial continuation",
-            "trap": "This misunderstands the ongoing role of governance stakeholders."
+            "text": "Hold all document updates until the redesign decision is final",
+            "trap": "Procedural deflection: delays required alignment of plans and stakeholder expectations."
           },
           {
-            "text": "Direct procurement to order redesigned hardware so lead times do not increase",
-            "trap": "This starts execution before approval of the pivot."
+            "text": "Drop finance from further reviews since the CCB already approved partial continuation",
+            "trap": "Too narrow: removes a key governance stakeholder from an ongoing decision."
           }
         ],
-        "explanation": "After partial approval, the project manager must align the current project with that decision and evaluate the remaining option rigorously. Risk-informed analysis supports a recommendation to pivot or stop the rest of the work."
+        "explanation": "After partial approval, the project manager aligns the project with that decision and evaluates the remaining option rigorously; risk-informed analysis supports a pivot-or-stop recommendation."
       },
       {
         "prompt": "The redesign analysis shows high technical uncertainty and weak projected returns for clinics 2 and 3. What recommendation is most consistent with PMI guidance?",
@@ -1572,23 +1476,23 @@
         ],
         "distractors": [
           {
-            "text": "Keep a small team working on clinics 2 and 3 informally until market conditions improve",
-            "trap": "This continues investment without a justified business case or approved plan."
+            "text": "Proceed with the redesign because the money already spent on clinics 2 and 3 would otherwise be wasted, and the team is already familiar with those sites",
+            "trap": "Symptom not root cause: sunk-cost reasoning rather than value-based judgment."
           },
           {
-            "text": "Proceed with the redesign because sunk costs make closure inefficient",
-            "trap": "This reflects the sunk cost fallacy rather than value-based decision making."
+            "text": "Escalate the redesign to the sponsor to fund at their discretion outside the CCB",
+            "trap": "Procedural deflection: routes a weak-value option around integrated governance."
           },
           {
-            "text": "Transfer ownership of clinics 2 and 3 to operations so the project can report success",
-            "trap": "This obscures the lack of project viability instead of addressing it."
+            "text": "Transfer clinics 2 and 3 to operations so the project can be closed as a success",
+            "trap": "Too narrow: manages optics instead of addressing the lack of viability."
           },
           {
-            "text": "Ask clinic leaders to fund the remaining scope outside change control",
-            "trap": "This bypasses formal governance and integrated decision making."
+            "text": "Keep a small team on clinics 2 and 3 informally until market conditions improve",
+            "trap": "Wrong sequence: continues investment with no justified business case or approved plan."
           }
         ],
-        "explanation": "PMI guidance emphasizes continued business justification and value delivery. If the remaining scope no longer supports a sound business case, the project manager should recommend closure of that portion and ensure orderly transition of approved deliverables."
+        "explanation": "PMI guidance emphasizes continued business justification. If the remaining scope no longer supports a sound business case, recommend closing that portion and ensure orderly transition of approved deliverables."
       }
     ],
     "tags": [
@@ -1622,20 +1526,20 @@
         ],
         "distractors": [
           {
-            "text": "Place the amount in management reserves outside the cost baseline.",
-            "trap": "This confuses identified risks with unforeseen work that management reserves are meant to address."
+            "text": "Place the amount in management reserves held outside the cost baseline so that senior management approval is required before any of the identified risk responses can draw on it.",
+            "trap": "Wrong bucket: management reserves cover unforeseen work, so this misclassifies budget for identified, planned responses and adds needless approval friction."
           },
           {
             "text": "Exclude the amount until a risk event actually occurs.",
-            "trap": "This ignores proactive risk budgeting and would understate the approved baseline."
+            "trap": "Symptom not root cause: waiting until an event occurs drops proactive risk budgeting and understates the approved baseline."
           },
           {
             "text": "Add the amount directly to each activity estimate without separate reserve visibility.",
-            "trap": "This hides risk reserve usage and weakens control of reserve consumption."
+            "trap": "Too narrow: burying reserve amounts in activity estimates hides reserve consumption and weakens cost control."
           },
           {
             "text": "Submit a change request immediately to increase the project budget for all identified risks.",
-            "trap": "This assumes reserve planning itself requires formal change control rather than normal budgeting."
+            "trap": "Procedural deflection: reserve planning is normal budgeting, not a change to an approved baseline requiring a change request."
           }
         ],
         "explanation": "For identified risks with planned responses, PMI guidance places the budget in contingency reserves. Those reserves are part of the cost baseline and support cost control."
@@ -1654,19 +1558,19 @@
         "distractors": [
           {
             "text": "Move the quarter one overage into management reserves so the spending cap is no longer exceeded.",
-            "trap": "This treats reserve classification as a substitute for aligning the expenditure plan to funding availability."
+            "trap": "Wrong bucket: reclassifying spend as reserve does not change when cash is needed and dodges aligning the plan to funding."
           },
           {
             "text": "Reduce the contingency reserves by the amount of the overage.",
-            "trap": "This assumes identified risk funding should be cut to solve a timing problem rather than a total cost problem."
+            "trap": "Symptom not root cause: cutting identified-risk funding attacks a timing problem as if it were a total-cost problem."
           },
           {
             "text": "Issue a change request to remove lower-priority scope immediately.",
-            "trap": "This jumps to scope reduction before using funding-limit reconciliation."
+            "trap": "Premature solution: jumps to scope reduction before trying funding-limit reconciliation."
           },
           {
             "text": "Ask the team to spend as planned and document the variance later.",
-            "trap": "This ignores governance and the need to align with authorized funding releases."
+            "trap": "Procedural deflection: spending past authorized releases ignores governance and the funding constraint."
           }
         ],
         "explanation": "When expenditures exceed available funding in specific periods, the project manager reconciles the funding limits by changing timing or sequencing. The issue is cash flow alignment, not reserve type selection."
@@ -1684,20 +1588,20 @@
         ],
         "distractors": [
           {
-            "text": "Agree because any budget not assigned to scope can be used to absorb quarterly funding caps.",
-            "trap": "This assumes reserves are interchangeable with approved funding availability."
+            "text": "Agree because any budget not yet assigned to specific scope can reasonably be used to absorb the quarterly funding caps and keep spending inside the authorized release.",
+            "trap": "Wrong bucket: reserves are not interchangeable with authorized period funding, so agreeing conflates the two."
           },
           {
             "text": "Transfer all contingency reserves into management reserves to create more flexibility.",
-            "trap": "This confuses reserve purposes and removes budget for identified risks from the baseline."
+            "trap": "Too narrow: moving contingency into management reserves strips identified-risk budget from the baseline."
+          },
+          {
+            "text": "Use management reserves this quarter and replenish them from later contingency savings.",
+            "trap": "Symptom not root cause: still misuses reserves for a cash-timing issue and assumes savings that may not appear."
           },
           {
             "text": "Use management reserves first, then ask the CCB to approve schedule changes later if needed.",
-            "trap": "This reverses proper planning and treats governance as an afterthought."
-          },
-          {
-            "text": "Create a new operational account outside the project budget to hold the excess spending.",
-            "trap": "This bypasses project governance and obscures budget control."
+            "trap": "Wrong sequence: uses reserves first and treats governance approval as an afterthought."
           }
         ],
         "explanation": "Management reserves are outside the cost baseline and are intended for unforeseen work. They do not solve a mismatch between planned spending and authorized funding by period."
@@ -1709,26 +1613,26 @@
         "present": 4,
         "correct": [
           {
-            "text": "Update the time-phased budget and schedule to reflect the resequencing that aligns spending with funding limits while protecting the required completion date.",
+            "text": "Update the budget and schedule to reflect the resequencing, which aligns spending with funding and protects the required finish date.",
             "why": "If the revised sequencing preserves key commitments and resolves the funding constraint, the project manager should incorporate it into the approved plans."
           }
         ],
         "distractors": [
           {
-            "text": "Reject the option because any milestone movement requires immediate scope reduction instead.",
-            "trap": "This assumes all milestone movement is unacceptable even when the required finish date is preserved."
+            "text": "Reject the resequencing because moving any internal milestone should trigger an immediate scope reduction rather than a schedule shift, even when the contractual finish date still has float to absorb the two-week move.",
+            "trap": "Too narrow: insisting every milestone is fixed forces scope cuts even when the required finish date is safe."
           },
           {
-            "text": "Keep the original schedule and plan to request additional funds after execution begins.",
-            "trap": "This ignores known funding constraints and weak planning discipline."
+            "text": "Keep the original schedule and plan to request additional funds from finance once execution is underway.",
+            "trap": "Symptom not root cause: ignoring a known funding cap and asking for funds later reflects weak planning discipline."
           },
           {
-            "text": "Convert the resequencing impact into management reserves since it changes the spending pattern.",
-            "trap": "This again confuses schedule and funding adjustments with reserve classification."
+            "text": "Convert the resequencing impact into management reserves because it changes the project's period spending pattern.",
+            "trap": "Wrong bucket: again confuses a schedule and funding adjustment with reserve classification."
           },
           {
-            "text": "Direct the team to accelerate procurement to offset the quarter one cap.",
-            "trap": "This would likely worsen the near-term funding problem instead of reconciling it."
+            "text": "Direct the team to accelerate procurement into quarter one to try to offset the funding cap sooner.",
+            "trap": "Premature solution: accelerating procurement worsens the near-term cash cap instead of reconciling it."
           }
         ],
         "explanation": "Funding-limit reconciliation often results in adjustments to the schedule or sequencing of work. If the contractual completion date remains protected, the revised plan is the appropriate control response."

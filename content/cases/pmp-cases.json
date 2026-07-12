@@ -12,25 +12,25 @@
         "prompt": "The sponsor worries the delays could threaten the organisation's sustainability targets and market position. What should you do first?",
         "correct": [
           {
-            "text": "Analyse the impact on overall value delivery, benefits realisation and strategic alignment with the ESG objectives",
-            "why": "In the 2026 PMP ECO, the Business Environment domain (now 26%) requires project managers to first evaluate how performance issues affect organizational strategy, benefits realization, and value delivery. Per PMBOK 8 Performance Domains (Business Environment and Value Delivery), understanding strategic impact frames all subsequent decisions and prevents reactive actions that could harm long-term outcomes."
+            "text": "Analyse how the delays affect value delivery, benefits realisation, and alignment with the ESG objectives",
+            "why": "The Business Environment domain expects the PM to first evaluate how a performance issue affects strategy, benefits, and value delivery. Understanding strategic impact frames the tactical response and prevents reactive moves that harm outcomes."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately request a resource replacement from HR",
-            "trap": "Jumps to removal before assessing impact, root cause, or support options. Violates the principle of exhausting lower-level interventions first (Team Performance Domain)."
+            "text": "Run structured 1:1 coaching with the developer to diagnose and fix the missed deliverables before anything else, since resolving the individual's throughput is what directly restores the MVP timeline",
+            "trap": "Wrong sequence: coaching may follow, but strategic impact should be assessed before choosing a tactical fix."
           },
           {
-            "text": "Escalate straight to the steering committee for a go/no-go decision",
-            "trap": "Premature escalation before analysing the situation or exhausting PM-level actions. PMP situational questions reward owning the issue first."
+            "text": "Escalate to the steering committee for a go/no-go decision on the agile stream",
+            "trap": "Procedural deflection: hands a live, PM-level issue upward before owning the analysis."
           },
           {
-            "text": "Reassign the developer to non-critical predictive tasks without further assessment",
-            "trap": "An impulsive reshuffle that ignores value impact, root cause, team dynamics, and strategic ESG alignment."
+            "text": "Ask HR and the resource manager to line up a replacement developer as a contingency",
+            "trap": "Too narrow: moves toward replacement before impact and root cause are understood."
           }
         ],
-        "explanation": "Correct answer prioritises strategic assessment (Business Environment domain). In the new exam, you must demonstrate judgment by linking team performance to organisational value, benefits, and ESG objectives before choosing tactical actions. This aligns with the shift toward outcome-focused leadership rather than pure process execution.",
+        "explanation": "The best first move is strategic assessment: link the team performance issue to organisational value, benefits, and ESG objectives before choosing tactical actions. This reflects outcome-focused leadership over pure process execution.",
         "domain": "Business Environment"
       },
       {
@@ -38,25 +38,25 @@
         "prompt": "After 1:1s and coaching there's still no improvement, and no skills gap that training would fix. The team runs Kanban. What is the next best action to protect outcomes?",
         "correct": [
           {
-            "text": "Agree a documented, time-bound improvement plan with measurable goals tied to flow and business-value metrics, coordinated with the resource or functional manager",
-            "why": "Once informal coaching is exhausted, the next step per standard performance management and PMP best practice is a documented PIP. This provides due process, clear expectations, and measurable criteria linked to value (sprint flow + business outcomes). It protects both the individual and the project while building the required audit trail for any future escalation (People & Team Performance Domains)."
+            "text": "Agree a documented, time-bound improvement plan with measurable goals tied to flow and value, with the resource manager",
+            "why": "With informal coaching exhausted, a documented improvement plan gives due process, clear expectations, and value-linked criteria. It protects the individual and the project and builds the record needed for any later escalation."
           }
         ],
         "distractors": [
           {
-            "text": "Review the developer's performance publicly in the daily standup to drive accountability",
-            "trap": "Public criticism damages psychological safety and team morale. PMP emphasises servant leadership and creating a safe environment (Team Performance Domain)."
+            "text": "Move straight to escalating the developer to the resource manager for reassignment",
+            "trap": "Premature solution: seeks removal before a documented improvement plan gives a fair chance."
           },
           {
-            "text": "Ignore the short-term delays because agile is flexible",
-            "trap": "Agility does not mean tolerating repeated missed commitments that threaten value delivery. Flexibility has limits when business outcomes are at risk."
+            "text": "Reassign the developer's blocked stories to other team members to protect the MVP date",
+            "trap": "Too narrow: recovers the sprint but leaves the performance issue and its root cause unaddressed."
           },
           {
-            "text": "Shift the entire workstream to predictive planning",
-            "trap": "A disproportionate change of delivery approach that does not address the root performance issue and may reduce adaptability needed for the ESG/AI goals."
+            "text": "Shift the agile stream to predictive planning to add more control over the work",
+            "trap": "Wrong sequence and disproportionate: changes delivery approach instead of managing the specific performance issue."
           }
         ],
-        "explanation": "A documented, time-bound improvement plan agreed with the resource or functional manager is the correct next step. It balances fairness to the team member with protection of project value. In hybrid environments, tying goals to both flow metrics (Kanban) and business value ensures alignment with the 2026 exam's emphasis on outcomes over outputs.",
+        "explanation": "A documented, time-bound plan agreed with the resource manager balances fairness with protecting project value. Tying goals to flow metrics and business value fits the emphasis on outcomes over outputs.",
         "domain": "People"
       },
       {
@@ -64,25 +64,25 @@
         "prompt": "The functional manager suggests reassigning the developer permanently. Given the hybrid nature and sustainability goals, what should you prioritise in your recommendation?",
         "correct": [
           {
-            "text": "Evaluate reassignment against value delivery, team morale, knowledge retention and alignment with long-term ESG and AI-capability goals",
-            "why": "The 2026 exam tests integrated thinking across domains. Reassignment decisions must weigh multiple factors: immediate value delivery, team health (People domain), knowledge loss, and strategic fit with ESG and AI capability building (Business Environment). This reflects real-world PM responsibility in hybrid, value-driven projects."
+            "text": "Weigh reassignment against value delivery, team health, knowledge retention, and long-term ESG and AI goals",
+            "why": "Reassignment decisions must balance immediate value, team health, knowledge loss, and strategic fit with ESG and AI capability. This integrated judgment reflects real PM responsibility in value-driven hybrid projects."
           }
         ],
         "distractors": [
           {
-            "text": "Focus solely on recovering the schedule",
-            "trap": "Single-dimensional thinking that ignores people, knowledge, and strategic alignment — contrary to the balanced approach expected in the new ECO."
+            "text": "Base the recommendation mainly on recovering the MVP schedule the repeated delays have put at risk, since the schedule is the commitment stakeholders are watching most closely right now",
+            "trap": "Too narrow: a schedule-only view ignores people, knowledge, and strategic alignment."
           },
           {
-            "text": "Accept the reassignment immediately to avoid further escalation",
-            "trap": "Avoidance behaviour rather than value-based decision making. PMP situational questions penalise passing the buck without analysis."
+            "text": "Support the functional manager's reassignment now to stabilise the stream quickly",
+            "trap": "Premature solution: accepts the move before weighing value, knowledge loss, and team impact."
           },
           {
-            "text": "Request AI tools to automate the developer's tasks as a replacement",
-            "trap": "Technology gimmick that sidesteps the real issues of performance management, capability development, and human factors."
+            "text": "Backfill the developer's tasks with AI coding tools so delivery continues during the change",
+            "trap": "Symptom not root cause: patches throughput and sidesteps the performance and capability questions."
           }
         ],
-        "explanation": "Correct answer demonstrates holistic judgment: schedule recovery is important, but must be balanced against value, people, knowledge retention, and long-term strategic goals (ESG + AI capability). This is the type of integrated reasoning the 2026 exam rewards.",
+        "explanation": "The strongest answer weighs value, people, knowledge retention, and long-term ESG and AI-capability goals together, rather than optimising one dimension. This integrated reasoning is what the exam rewards.",
         "domain": "Process"
       }
     ],
@@ -108,25 +108,25 @@
         "prompt": "Executive stakeholders are concerned that poor data quality will undermine both the financial ROI and the sustainability (energy reduction) benefits. What is the most appropriate first action?",
         "correct": [
           {
-            "text": "Quantify the impact of current data quality issues on model performance, projected ROI, energy savings, and strategic net-zero goals, then develop mitigation options",
-            "why": "The 2026 ECO places heavy weight on Business Environment. You must first translate technical performance issues into business and strategic language (value, benefits, ESG alignment) before tactical fixes. This demonstrates the judgment expected when AI and sustainability intersect with project delivery."
+            "text": "Quantify how the data-quality issues affect model performance, ROI, and net-zero benefits, then develop mitigation options",
+            "why": "The Business Environment weighting means translating a technical performance issue into value, benefits, and ESG terms before tactical fixes. That framing shapes the right response where AI and sustainability meet delivery."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately remove the analyst from the AI workstream",
-            "trap": "Reactive removal before understanding full business impact or attempting structured support — violates due process."
+            "text": "Hold a detailed root-cause session with the analyst on the recurring dataset defects before anything else, walking the failing records together so the underlying data errors are pinned down first",
+            "trap": "Wrong sequence: root-causing with the individual is useful, but impact should be framed in business terms first."
           },
           {
-            "text": "Escalate to the AI ethics committee for an investigation",
-            "trap": "Premature escalation to a governance body before the PM has performed basic impact analysis and internal interventions."
+            "text": "Refer the data-quality concern to the AI ethics committee to investigate",
+            "trap": "Procedural deflection: sends a live issue to a governance body before the PM does basic impact analysis."
           },
           {
-            "text": "Add more AI engineers to compensate for the data issues",
-            "trap": "Throwing resources at symptoms rather than addressing root cause and strategic alignment."
+            "text": "Add data-cleaning tooling and extra QA checks to lift dataset quality right away",
+            "trap": "Premature solution: fixes the symptom before quantifying impact or finding root cause."
           }
         ],
-        "explanation": "Correct first step is impact quantification in business terms. In the new exam, questions on emerging tech (AI) and sustainability test your ability to connect team performance issues directly to organisational value and strategic objectives before choosing people-process actions.",
+        "explanation": "The correct first step is quantifying impact in business terms. Emerging-tech and sustainability questions test connecting a team performance issue to value and strategy before people-process actions.",
         "domain": "Business Environment"
       },
       {
@@ -134,25 +134,25 @@
         "prompt": "After private coaching and root-cause discussion, the analyst's data quality remains inconsistent. No obvious skills gap exists that standard training would resolve quickly. What is the next best step?",
         "correct": [
           {
-            "text": "Agree a time-bound, documented improvement plan with specific, measurable data-quality KPIs tied to AI model accuracy targets and sustainability outcomes, coordinated with the analyst's functional manager",
-            "why": "Once coaching is exhausted, formalise expectations via PIP with metrics directly linked to AI performance and business value. This creates accountability while protecting the project and providing documentation. It reflects modern performance management in technically complex, value-driven projects."
+            "text": "Agree a time-bound, documented improvement plan with data-quality KPIs tied to model accuracy and ESG outcomes, with the functional manager",
+            "why": "With coaching exhausted, formalise expectations via a documented plan with metrics linked to AI performance and value. It builds accountability and a record while protecting the project."
           }
         ],
         "distractors": [
           {
-            "text": "Move the analyst to a non-AI work package and bring in a contractor",
-            "trap": "Avoids addressing the performance issue and risks knowledge loss in a critical data domain."
+            "text": "Reassign the analyst to a non-AI package and bring in a contractor for the data stream",
+            "trap": "Premature solution: swaps the person out before a documented plan gives a fair, measured chance."
           },
           {
-            "text": "Publicly highlight data quality problems in sprint reviews to increase pressure",
-            "trap": "Damages psychological safety and is inappropriate for performance issues (Team Performance Domain)."
+            "text": "Add an automated data-validation gate so poor datasets are caught before model training",
+            "trap": "Symptom not root cause: screens outputs but does not address the analyst's performance."
           },
           {
-            "text": "Reduce the AI model scope to require less data quality",
-            "trap": "Compromises the core value proposition and sustainability benefits without proper stakeholder alignment."
+            "text": "Relax the model's data-quality requirements so current datasets are acceptable",
+            "trap": "Too narrow: protects throughput by lowering the bar and eroding the value proposition."
           }
         ],
-        "explanation": "A documented, time-bound improvement plan with AI-specific and value-linked metrics, agreed with the functional manager, is the correct next step. The 2026 exam expects you to adapt traditional performance tools to new contexts (AI accuracy, ESG metrics) while maintaining fairness and due process.",
+        "explanation": "A documented, time-bound plan with AI-specific, value-linked metrics agreed with the functional manager is the right next step, adapting performance tools to new contexts while keeping fairness and due process.",
         "domain": "People"
       },
       {
@@ -160,25 +160,25 @@
         "prompt": "The functional manager wants to reassign the analyst. Considering AI ethics governance, data capability building, and long-term sustainability goals, what should guide your recommendation?",
         "correct": [
           {
-            "text": "Recommend a decision that balances immediate project recovery with long-term data/AI capability development, knowledge retention, team health, and alignment to net-zero and AI ethics commitments",
-            "why": "Integrated decision-making across People, Process, and Business Environment domains. Reassignment is not just a resource move — it affects capability building, ethical AI governance, knowledge, and strategic ESG outcomes. The new exam rewards this holistic view."
+            "text": "Recommend a decision balancing immediate recovery with data/AI capability, knowledge retention, team health, and net-zero and ethics commitments",
+            "why": "Reassignment is not just a resource move; it affects capability building, ethical AI governance, knowledge, and ESG outcomes. Integrated People, Process, and Business Environment judgment is expected."
           }
         ],
         "distractors": [
           {
-            "text": "Accept reassignment immediately to protect short-term model accuracy",
-            "trap": "Short-term tactical fix that ignores capability development and strategic alignment."
+            "text": "Support the reassignment to protect short-term model accuracy",
+            "trap": "Too narrow: a short-term fix that ignores capability development and strategic alignment."
           },
           {
-            "text": "Insist on keeping the analyst and adding heavy oversight",
-            "trap": "Ignores the functional manager's input and may not be sustainable or fair."
+            "text": "Keep the analyst in place with heavy oversight and daily dataset checks",
+            "trap": "Symptom not root cause: added monitoring may be unsustainable and ignores the functional manager's input."
           },
           {
-            "text": "Propose replacing the analyst with an external AI specialist firm",
-            "trap": "Outsourcing decision without evaluating internal capability needs or cost-benefit in context of long-term strategy."
+            "text": "Replace the analyst with an external AI specialist firm for the whole data stream, since a proven vendor would remove the accuracy risk and let the project hit its downtime and net-zero targets on schedule",
+            "trap": "Premature solution: outsources before weighing internal capability needs and cost-benefit against long-term strategy."
           }
         ],
-        "explanation": "The best recommendation weighs multiple strategic factors: project recovery, capability building, knowledge retention, team health, and alignment with AI ethics + sustainability commitments. This reflects the increased Business Environment emphasis in the 2026 exam.",
+        "explanation": "The best recommendation weighs recovery, capability building, knowledge retention, team health, and alignment with AI ethics and sustainability together, reflecting the Business Environment emphasis.",
         "domain": "Process"
       }
     ],
@@ -205,25 +205,25 @@
         "prompt": "The steering committee is concerned about regulatory non-compliance and loss of funding eligibility. What should you do first?",
         "correct": [
           {
-            "text": "Assess the full impact of the delays on regulatory compliance, funding eligibility, ESG targets, project schedule, and overall business case",
-            "why": "Business Environment domain requires starting with strategic and external impact analysis (regulatory, funding, ESG reputation). This is the lens the 2026 exam uses for compliance-related performance issues."
+            "text": "Assess how the delays affect regulatory compliance, funding eligibility, ESG targets, and the business case",
+            "why": "The Business Environment domain requires starting with strategic and external impact - regulatory exposure, funding, ESG reputation - the lens for compliance-related performance issues."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately escalate to legal/compliance for a formal warning to the lead",
-            "trap": "Bypasses PM responsibility to analyse and attempt internal resolution first."
+            "text": "Escalate to legal and compliance so they can issue the lead a formal warning and log the missed deadlines on the project's regulatory risk register before the next audit window",
+            "trap": "Procedural deflection: routes to a formal warning before the PM analyses impact and tries internal resolution."
           },
           {
-            "text": "Reassign the procurement activities to another team member right away",
-            "trap": "Reactive move without impact assessment or root-cause understanding."
+            "text": "Reassign the green-supplier shortlisting to another team member to hit the deadline",
+            "trap": "Premature solution: swaps the owner before understanding impact or root cause."
           },
           {
-            "text": "Request an extension from regulators without internal analysis",
-            "trap": "External request before understanding internal options and true impact."
+            "text": "Ask the regulator for a deadline extension to relieve the schedule pressure",
+            "trap": "Too narrow: goes external before assessing internal options and true impact."
           }
         ],
-        "explanation": "Correct first step is comprehensive impact assessment from a Business Environment perspective. In the updated exam, compliance and sustainability questions test your ability to connect team performance directly to external obligations and strategic consequences.",
+        "explanation": "The correct first step is a comprehensive impact assessment from a Business Environment view, connecting the performance issue to external obligations and strategic consequences.",
         "domain": "Business Environment"
       },
       {
@@ -231,25 +231,25 @@
         "prompt": "After discussion, the procurement lead cites unclear sustainability criteria from the new regulations. Performance has not improved despite clarification. What is the appropriate next step?",
         "correct": [
           {
-            "text": "Agree a documented, time-bound improvement plan with clear deliverables for green supplier qualification, including support for interpreting new regulations, coordinated with the lead's functional manager",
-            "why": "When root cause includes capability/understanding gaps, a structured PIP with support is appropriate. It addresses both performance and the identified need while documenting efforts — standard PMP practice adapted to regulatory context."
+            "text": "Agree a documented, time-bound improvement plan with clear supplier-qualification deliverables and support for the new regulations, with the functional manager",
+            "why": "When root cause includes an understanding gap, a structured plan with support addresses performance and the identified need while documenting effort - standard practice in a regulatory context."
           }
         ],
         "distractors": [
           {
-            "text": "Send the lead on external sustainability certification training immediately",
-            "trap": "Training may help but should be part of a broader documented plan, not the sole action."
+            "text": "Enrol the lead in external sustainability certification training as the fix",
+            "trap": "Premature solution: training may help but should sit inside a broader documented plan, not stand alone."
           },
           {
-            "text": "Take over the procurement tasks yourself to meet the deadline",
-            "trap": "Micromanagement that avoids developing the team member and does not build sustainable capability."
+            "text": "Take over the shortlisting yourself to hit the compliance deadline",
+            "trap": "Symptom not root cause: meets one deadline but builds no capability and does not resolve performance."
           },
           {
-            "text": "Ignore the issue and proceed with non-compliant vendors to protect schedule",
-            "trap": "Unethical and high-risk approach that violates governance and ESG commitments."
+            "text": "Escalate to the lead's functional manager to handle the performance issue directly",
+            "trap": "Procedural deflection: hands off before agreeing an improvement plan the PM should drive with support."
           }
         ],
-        "explanation": "A documented, time-bound improvement plan that includes support for the regulatory knowledge gap is the balanced, professional next step. It demonstrates both accountability and development focus expected in People domain questions.",
+        "explanation": "A documented, time-bound plan that includes support for the regulatory knowledge gap is the balanced, professional step, showing both accountability and development.",
         "domain": "People"
       },
       {
@@ -257,25 +257,25 @@
         "prompt": "Despite the improvement plan, the lead continues to struggle with the volume and complexity of green supplier evaluation. The compliance deadline is approaching. What is the best recommendation to leadership?",
         "correct": [
           {
-            "text": "Recommend a combination of targeted support (additional analyst resource for evaluation) + phased reassignment of complex categories, while maintaining overall accountability and protecting compliance timeline and ESG commitments",
-            "why": "Integrated recommendation that protects critical compliance and value while supporting the individual and building capability. Reflects mature judgment across Business Environment, People, and Process domains."
+            "text": "Recommend targeted support plus phased reassignment of the most complex categories, keeping accountability while protecting the compliance timeline and ESG commitments",
+            "why": "This protects critical compliance and value while supporting the individual and preserving capability - mature judgment across Business Environment, People, and Process."
           }
         ],
         "distractors": [
           {
-            "text": "Request full termination of the procurement lead to eliminate risk",
-            "trap": "Overly harsh without exhausting reasonable support options; ignores knowledge retention."
+            "text": "Reassign all green-procurement work to a stronger team member to remove the compliance risk",
+            "trap": "Premature solution: full reassignment ignores knowledge retention and a fair, phased approach."
           },
           {
-            "text": "Delay the entire project until the lead improves",
-            "trap": "Disproportionate response that harms overall value delivery."
+            "text": "Bring in an external sustainability consultancy for the short term to secure compliance on the highest-risk supplier categories while the deadline is live, then hand the work back once the backlog clears",
+            "trap": "Too narrow: a short-term fix that builds no internal capability and skips strategic review."
           },
           {
-            "text": "Bypass internal processes and hire an external sustainability consultancy for the short term only",
-            "trap": "Short-term fix that may not build internal capability and could be costly without strategic review."
+            "text": "Request more time on the compliance deadline so the lead can catch up on the backlog",
+            "trap": "Symptom not root cause: buys time without addressing capacity or capability, and risks funding."
           }
         ],
-        "explanation": "The recommended approach shows balanced leadership: protect the non-negotiable compliance and ESG outcomes while providing reasonable support and minimising long-term capability loss. This is the type of nuanced decision the 2026 exam tests.",
+        "explanation": "The recommended approach protects the non-negotiable compliance and ESG outcomes while providing reasonable support and minimising capability loss - the nuanced balance the exam tests.",
         "domain": "Process"
       }
     ],
@@ -301,25 +301,25 @@
         "prompt": "During the Sprint Retrospective, the team avoids discussing the velocity drop directly. What should you do first as Scrum Master?",
         "correct": [
           {
-            "text": "Facilitate a safe, blame-free retrospective focused on data (velocity trend, Definition of Done adherence) and ask open questions about what is helping or hindering the team",
-            "why": "Servant leadership and psychological safety are core to the Team Performance Domain. Starting with data and facilitation (not accusation) encourages honest dialogue while modelling agile values."
+            "text": "Facilitate a safe, blame-free retrospective using data (velocity trend, DoD adherence) and open questions about what helps or hinders the team",
+            "why": "Servant leadership and psychological safety anchor the Team Performance Domain. Starting with data and facilitation, not accusation, invites honest dialogue and models agile values."
           }
         ],
         "distractors": [
           {
-            "text": "Privately confront the underperforming developer immediately after the retrospective",
-            "trap": "Public or immediate confrontation without team context can damage trust and psychological safety."
+            "text": "Meet the underperforming developer one-on-one straight after the retrospective to discuss the shortfall and agree how to bring their story-point completion back in line with the commitment",
+            "trap": "Wrong sequence: a 1:1 may follow, but singling out one person skips the team-level, data-based conversation."
           },
           {
-            "text": "Report the velocity drop directly to senior management as a performance issue",
-            "trap": "Bypasses team self-organization and agile principles of transparency within the team first."
+            "text": "Report the velocity drop to senior management as a performance concern",
+            "trap": "Procedural deflection: escalates before the team inspects and adapts transparently on its own."
           },
           {
-            "text": "Increase story point estimates for future sprints to 'fix' the velocity number",
-            "trap": "Gaming the metrics rather than addressing root cause — violates empirical process control."
+            "text": "Recalibrate story-point estimates so the velocity number recovers",
+            "trap": "Symptom not root cause: adjusts the metric instead of surfacing what is slowing the team."
           }
         ],
-        "explanation": "Correct approach protects the retrospective as a safe space and uses data to surface issues collaboratively. This aligns with agile values and PMP emphasis on team development.",
+        "explanation": "The correct approach protects the retrospective as a safe space and uses data to surface issues collaboratively, aligning with agile values and the emphasis on team development.",
         "domain": "People"
       },
       {
@@ -327,25 +327,25 @@
         "prompt": "One-on-one coaching reveals the developer is struggling with a new technology stack introduced mid-project and feels overwhelmed. What is the next best action?",
         "correct": [
           {
-            "text": "Work with the team and Product Owner to adjust sprint commitments, pair the developer with a mentor, and update the Definition of Done to include knowledge sharing for the new technology",
-            "why": "Agile teams are cross-functional and self-organizing. Supporting capability development while protecting the increment and value delivery is the balanced response (People + Process domains)."
+            "text": "Adjust sprint commitments with the team and Product Owner and pair the developer with a mentor on the new technology",
+            "why": "Agile teams are cross-functional and self-organizing. Supporting capability while protecting the increment and value delivery is the balanced response."
           }
         ],
         "distractors": [
           {
-            "text": "Remove the developer from the team immediately",
-            "trap": "Ignores root cause (skill gap) and team dynamics; violates due process and development focus."
+            "text": "Escalate to the resource manager to swap the developer for someone fluent in the new stack",
+            "trap": "Premature solution: removes the person before support addresses a known skill gap."
           },
           {
-            "text": "Tell the developer to 'figure it out' as they are senior",
-            "trap": "Ignores servant leadership and the reality of new technology introduction."
+            "text": "Move the new-technology stories off the developer to protect the sprint",
+            "trap": "Too narrow: protects one sprint but leaves the capability gap unaddressed."
           },
           {
-            "text": "Add more stories to the sprint to 'make up' for lost velocity",
-            "trap": "Overcommits the team and increases risk of further quality issues."
+            "text": "Bring in formal instructor-led training on the new stack before adjusting any commitments, so the developer is fully up to speed before taking on further stories in that technology",
+            "trap": "Wrong sequence: training can help, but sprint commitments and mentoring should not wait on it."
           }
         ],
-        "explanation": "The correct action combines support, realistic planning, and team capability building — core to sustainable agile delivery.",
+        "explanation": "The correct action combines support, realistic planning, and team capability building - core to sustainable agile delivery.",
         "domain": "People"
       },
       {
@@ -353,25 +353,25 @@
         "prompt": "Despite support, the next sprint still shows quality issues in the increment. The Product Owner wants to know how this affects the upcoming release value. What should you recommend?",
         "correct": [
           {
-            "text": "Inspect the current increment quality, update the release burndown with realistic projections, and facilitate a discussion with the Product Owner on scope trade-offs or release date adjustment to protect customer value",
-            "why": "Agile emphasizes delivering valuable increments. Transparent forecasting and collaborative decision-making with the Product Owner protects value while maintaining trust (Value Delivery + Stakeholder domains)."
+            "text": "Update the release burndown with realistic projections and work with the Product Owner on scope or date trade-offs to protect value",
+            "why": "Agile emphasizes delivering valuable increments. Transparent forecasting and collaborative decisions with the Product Owner protect value while keeping trust."
           }
         ],
         "distractors": [
           {
-            "text": "Promise the original release date will be met regardless",
-            "trap": "False commitment that damages credibility and ignores empirical reality."
+            "text": "Add a dedicated tester to clear the recurring quality issues before the release date so the increment reaches the Definition of Done without touching the committed scope or timeline",
+            "trap": "Premature solution: a staffing fix before the value and forecast impact is even discussed with the Product Owner."
           },
           {
-            "text": "Hide the quality issues from the Product Owner",
-            "trap": "Violates transparency principle and risks bigger problems later."
+            "text": "Reduce the release scope yourself to the items already meeting the DoD",
+            "trap": "Too narrow: descopes without the Product Owner, who owns value and prioritisation."
           },
           {
-            "text": "Blame the developer publicly in the Sprint Review",
-            "trap": "Destroys psychological safety and team morale."
+            "text": "Extend the sprint to give the increment time to reach the quality bar",
+            "trap": "Symptom not root cause: buys time without addressing the underlying quality driver or the release forecast."
           }
         ],
-        "explanation": "Correct recommendation focuses on transparency, realistic forecasting, and protecting customer value — key agile and PMP principles in the new exam.",
+        "explanation": "The correct recommendation focuses on transparency, realistic forecasting, and protecting customer value - key agile principles.",
         "domain": "Process"
       }
     ],
@@ -397,25 +397,25 @@
         "prompt": "The stakeholder approaches you directly demanding the change. What is your first response?",
         "correct": [
           {
-            "text": "Acknowledge the request, explain the current Sprint Goal and team capacity, and redirect them to the Product Owner for proper backlog prioritization and potential scope trade-off discussion",
-            "why": "Protects the sprint boundary (a core agile principle) while maintaining good stakeholder relationships. The Product Owner owns prioritization (Process + Stakeholder domains)."
+            "text": "Acknowledge the request, explain the current Sprint Goal, and redirect the stakeholder to the Product Owner for prioritization",
+            "why": "This protects the sprint boundary while keeping the relationship intact; the Product Owner owns prioritization."
           }
         ],
         "distractors": [
           {
-            "text": "Agree to add the item immediately to keep the stakeholder happy",
-            "trap": "Breaks sprint commitment and undermines team focus and predictability."
+            "text": "Bring the request into the team's next daily standup to see whether they have any slack to absorb it without breaking the Sprint Goal, then report back to the stakeholder with the team's read",
+            "trap": "Premature solution: engages the team on scope before the Product Owner prioritises it."
           },
           {
-            "text": "Tell the stakeholder it is impossible without discussion",
-            "trap": "Dismissive and damages relationships; agile values collaboration."
+            "text": "Log the request in the backlog yourself and tell the stakeholder it will be triaged",
+            "trap": "Too narrow: backlog ordering is the Product Owner's call, not the Scrum Master's."
           },
           {
-            "text": "Escalate immediately to senior management",
-            "trap": "Bypasses Product Owner authority and agile self-organization."
+            "text": "Raise the regulatory request with the Product Owner and sponsor together to expedite it",
+            "trap": "Wrong sequence: pulls in the sponsor before the Product Owner has assessed priority and trade-offs."
           }
         ],
-        "explanation": "Correct first action protects the sprint while keeping communication channels open through the proper role (Product Owner).",
+        "explanation": "The correct first action protects the sprint while keeping communication open through the proper role, the Product Owner.",
         "domain": "Process"
       },
       {
@@ -423,25 +423,25 @@
         "prompt": "The Product Owner agrees the new report is important but does not want to break the sprint. What is the best way forward?",
         "correct": [
           {
-            "text": "Facilitate a quick impact assessment with the team, identify what can be descoped or deferred from the current sprint, and negotiate a realistic plan with the stakeholder for the next sprint or as an expedited item if truly urgent",
-            "why": "Balances stakeholder needs with team sustainability. Uses transparency and inspection to find the best value-driven compromise (Agile principles + Business Environment awareness)."
+            "text": "Facilitate a quick impact assessment with the team, then negotiate a realistic plan with the stakeholder for the next sprint or an expedited item if truly urgent",
+            "why": "This balances stakeholder needs with team sustainability, using transparency and inspection to find the best value-driven option."
           }
         ],
         "distractors": [
           {
-            "text": "Force the team to work overtime to include everything",
-            "trap": "Unsustainable and damages long-term velocity and morale."
+            "text": "Swap the new report in for an equivalent backlog item so scope stays balanced",
+            "trap": "Premature solution: trades scope before the team assesses impact or the Product Owner confirms value."
           },
           {
-            "text": "Reject the change outright without exploring options",
-            "trap": "Ignores legitimate business needs and agile adaptability."
+            "text": "Have the Product Owner alone decide what to drop so the team keeps coding",
+            "trap": "Too narrow: excludes the team whose capacity and estimates the trade-off depends on."
           },
           {
-            "text": "Add the item and remove an equal amount of existing work without team input",
-            "trap": "Undermines self-organization and may remove higher-value items."
+            "text": "Defer the request entirely to the next sprint planning without assessing urgency",
+            "trap": "Procedural deflection: parks a possibly urgent regulatory item without checking how urgent it is."
           }
         ],
-        "explanation": "Correct approach uses collaboration and data-driven trade-offs to protect value and team health.",
+        "explanation": "The correct approach uses collaboration and data-driven trade-offs to protect value and team health.",
         "domain": "Process"
       }
     ],
@@ -466,25 +466,25 @@
         "prompt": "During a team meeting, members admit they sometimes skip steps in the DoD to meet deadlines. What should you do first?",
         "correct": [
           {
-            "text": "Facilitate a discussion on why the DoD is being bypassed, the impact on quality and customer trust, and what systemic issues (workload, tooling, pressure) are driving the behaviour",
-            "why": "Empirical process control requires transparency about problems. Understanding root cause before changing process or applying pressure is key (Process + People domains)."
+            "text": "Facilitate a discussion on why the DoD is being bypassed and what systemic issues (workload, tooling, pressure) are driving it",
+            "why": "Empirical process control needs transparency about problems. Understanding root cause before changing process or applying pressure is key."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately enforce the DoD strictly and punish non-compliance",
-            "trap": "Creates fear and hiding of problems rather than solving root cause."
+            "text": "Reinforce that the full DoD is mandatory and set up monitoring to check compliance on every item as it moves to Done, so the shortcuts causing the production incidents stop immediately",
+            "trap": "Premature solution: enforces the rule before understanding why the team is bypassing it."
           },
           {
-            "text": "Relax the DoD to reduce pressure",
-            "trap": "Sacrifices quality and long-term value for short-term speed."
+            "text": "Relax the DoD so the team can hit deadlines without skipping steps",
+            "trap": "Symptom not root cause: trades quality for speed instead of addressing the pressure."
           },
           {
-            "text": "Add more checkpoints and approvals to the workflow",
-            "trap": "Increases bureaucracy without addressing why people are bypassing existing controls."
+            "text": "Add review checkpoints and sign-offs to the workflow to stop items slipping through",
+            "trap": "Too narrow: more control gates ignore why existing controls are being skipped."
           }
         ],
-        "explanation": "Correct first step uses transparency and root-cause analysis — fundamental to agile and continuous improvement.",
+        "explanation": "The correct first step uses transparency and root-cause analysis - fundamental to agile and continuous improvement.",
         "domain": "Process"
       },
       {
@@ -492,25 +492,25 @@
         "prompt": "Root cause analysis shows the team is overloaded and some DoD steps (especially security scans) are slow and manual. What is the best improvement approach?",
         "correct": [
           {
-            "text": "Work with the team to improve tooling (automate security scans), negotiate realistic WIP limits with stakeholders, and evolve the DoD collaboratively so it is both valuable and achievable",
-            "why": "Sustainable agility comes from improving the system, not pressuring people. Automation + realistic limits + team ownership leads to better quality and flow (Lean + Agile principles)."
+            "text": "Work with the team to automate the slow security scans and set realistic WIP limits so the DoD stays valuable and achievable",
+            "why": "Sustainable agility comes from improving the system, not pressuring people. Automation and realistic limits with team ownership lift both quality and flow."
           }
         ],
         "distractors": [
           {
-            "text": "Hire more testers to enforce quality",
-            "trap": "Adds cost without fixing the underlying process and overload issues."
+            "text": "Bring in extra testers to run the manual security scans and clear the backlog of overloaded work quickly, giving the team breathing room while the current process stays as it is",
+            "trap": "Premature solution: adds cost and people before fixing the slow, manual process itself."
           },
           {
-            "text": "Make the DoD optional for 'urgent' items",
-            "trap": "Creates two standards and erodes quality culture."
+            "text": "Automate the security scans but keep current WIP and deadlines unchanged",
+            "trap": "Too narrow: fixes one bottleneck while leaving the overload that drives shortcuts."
           },
           {
-            "text": "Blame individuals for not following process",
-            "trap": "Ignores systemic issues and damages psychological safety."
+            "text": "Make the DoD flexible for urgent items so the team can move faster under pressure",
+            "trap": "Symptom not root cause: creates two quality standards instead of relieving the overload."
           }
         ],
-        "explanation": "Correct approach improves the system (tooling, limits, DoD ownership) — true continuous improvement in agile.",
+        "explanation": "The correct approach improves the system - tooling, limits, and DoD ownership - the essence of continuous improvement in agile.",
         "domain": "Process"
       }
     ],
@@ -535,25 +535,25 @@
         "prompt": "Agile team leads complain that governance requirements are slowing them down and adding no value. What should you do first?",
         "correct": [
           {
-            "text": "Map the minimum viable governance artifacts required for the compliance milestone against what the agile teams are already producing, identifying true gaps vs perceived overhead",
-            "why": "Business Environment + Process: First understand regulatory/compliance needs vs delivery reality before forcing changes. This prevents unnecessary bureaucracy while protecting compliance (key in hybrid environments)."
+            "text": "Map the compliance milestone's required governance artifacts against what the agile teams already produce to identify the real gaps",
+            "why": "Business Environment + Process: understand the true regulatory/compliance need versus delivery reality before changing anything, so you protect compliance without imposing bureaucracy the teams don't actually need."
           }
         ],
         "distractors": [
           {
-            "text": "Tell agile teams they must follow all governance rules without exception",
-            "trap": "Ignores agile principles and may create resentment or workarounds."
+            "text": "Ask the compliance officer which artifacts the upcoming audit actually requires, then relay that list to the teams",
+            "trap": "Too narrow: engages only the compliance function and hands down a list, without checking what agile artifacts already satisfy those needs."
           },
           {
-            "text": "Allow agile teams to skip governance documentation to maintain speed",
-            "trap": "Risks compliance failure and organizational governance requirements."
+            "text": "Draft a lightweight documentation template that maps each agile ceremony to a governance artifact, pilot it with one team, and refine it before rolling it out to the rest",
+            "trap": "Premature solution: builds and pilots a fix before understanding which artifacts genuinely carry compliance value and which are only perceived overhead."
           },
           {
-            "text": "Escalate immediately to the PMO for enforcement",
-            "trap": "Premature escalation before analysing what is truly needed."
+            "text": "Take the concern to the governance board to request a formal waiver of documentation for the agile teams",
+            "trap": "Procedural deflection: escalates for a waiver before doing the analysis that would show what is truly needed."
           }
         ],
-        "explanation": "Correct first step uses analysis to find the real overlap/gaps — essential in hybrid where both worlds must coexist.",
+        "explanation": "The best first step analyses the real overlap between required governance artifacts and existing agile outputs. The distractors are each reasonable but flawed: one engages only compliance, one jumps to a template, and one escalates before understanding the gap.",
         "domain": "Business Environment"
       },
       {
@@ -561,25 +561,25 @@
         "prompt": "Analysis shows some governance artifacts can be satisfied with existing agile artifacts (e.g., Definition of Done, sprint reviews) with minor additions. What is the best next step?",
         "correct": [
           {
-            "text": "Propose a tailored 'minimum viable governance' approach that reuses agile outputs where possible, adds only essential predictive artifacts, and gets agreement from both governance and delivery sides",
-            "why": "Hybrid success comes from tailoring, not forcing one methodology on the other. This balances compliance, speed, and value (Business Environment + Process integration)."
+            "text": "Propose a minimum-viable-governance approach that reuses agile artifacts and adds only the essential predictive ones, agreed by both sides",
+            "why": "Hybrid success comes from tailoring rather than forcing one paradigm on the other; reusing agile outputs and adding only what compliance truly requires, with joint agreement, balances speed and control."
           }
         ],
         "distractors": [
           {
-            "text": "Create a completely new parallel governance process for agile teams",
-            "trap": "Adds more overhead instead of reducing it."
+            "text": "Roll out the reused-artifact mapping now so teams stop duplicating documentation, and confirm audit fit afterward",
+            "trap": "Premature solution: implements the mapping before the governance owners confirm it actually satisfies the compliance milestone."
           },
           {
-            "text": "Force all agile teams to produce full predictive documentation",
-            "trap": "Kills agility and team motivation."
+            "text": "Have delivery leads formalize their Definition of Done as the governance evidence and submit it for the milestone",
+            "trap": "Too narrow: acts through delivery alone and skips governance/compliance sign-off that the artifacts are sufficient."
           },
           {
-            "text": "Ignore the compliance milestone and hope for the best",
-            "trap": "High-risk approach that can have serious organizational consequences."
+            "text": "Document the proposed mapping in the governance plan and table it for the next stage-gate review",
+            "trap": "Procedural deflection: parks a live, time-boxed decision in paperwork instead of getting both sides to agree now."
           }
         ],
-        "explanation": "Tailored, minimal viable governance that respects both paradigms is the hallmark of effective hybrid project management.",
+        "explanation": "A tailored, minimum-viable governance agreed by both governance and delivery is the hallmark of effective hybrid work. The distractors either act before agreement, engage only one side, or defer the decision to a gate.",
         "domain": "Process"
       }
     ],
@@ -604,25 +604,25 @@
         "prompt": "Stakeholders want to expand the first increment significantly. What should you do first?",
         "correct": [
           {
-            "text": "Clearly articulate the purpose of the MVP (learn fast, validate assumptions, deliver early value), show the impact of scope expansion on time-to-value, and facilitate a prioritization session to identify what truly must be in the first increment vs later ones",
-            "why": "Incremental delivery succeeds by protecting early value and learning. Expanding scope without discipline defeats the purpose (Value Delivery + Process domains)."
+            "text": "Restate the MVP's purpose of early value and fast learning, show expansion's time-to-value cost, and facilitate prioritizing what must ship first",
+            "why": "Incremental delivery protects early value and validated learning; making the time-to-value trade-off visible and prioritizing collaboratively keeps the increment disciplined without dismissing stakeholders."
           }
         ],
         "distractors": [
           {
-            "text": "Agree to include everything to keep stakeholders happy",
-            "trap": "Turns the MVP into a big-bang release and loses incremental benefits."
+            "text": "Offer to include the single most-requested feature in the first increment as a good-faith compromise, and commit to a fast-follow release for the remaining items to keep stakeholders on board",
+            "trap": "Premature solution: commits to a feature and a follow-up release as a compromise before assessing relative value or the impact on time-to-value."
           },
           {
-            "text": "Reject all additional requests without discussion",
-            "trap": "Damages relationships and may miss genuinely high-value items."
+            "text": "Ask the development team to size all the requested features first, then bring the estimates back to stakeholders",
+            "trap": "Wrong sequence: sizing precedes deciding what actually belongs in the increment, and it starts as a technical estimate rather than a value conversation."
           },
           {
-            "text": "Move the release date without stakeholder alignment",
-            "trap": "Hides the trade-off instead of making it visible."
+            "text": "Log the whole expansion as a scope change and route it to the change control board for a decision",
+            "trap": "Procedural deflection: sends a live prioritization call to a board instead of facilitating the trade-off directly."
           }
         ],
-        "explanation": "Correct first step protects the core purpose of incremental delivery while engaging stakeholders transparently.",
+        "explanation": "The best first step reframes the MVP's purpose and makes the trade-off visible before any expansion is accepted. The distractors are plausible but jump to a compromise, size before deciding, or defer the call to a board.",
         "domain": "Process"
       },
       {
@@ -630,25 +630,25 @@
         "prompt": "After discussion, some additional features have real business value. What is the best approach?",
         "correct": [
           {
-            "text": "Use MoSCoW or similar prioritization with the Product Owner and stakeholders to clearly separate Must have (for MVP), Should have, Could have, and Won't have for this increment. Release the true MVP on time and plan the next increment for high-value additions",
-            "why": "Incremental delivery requires ruthless prioritization to deliver value early while building the full solution over time. Clear categorization maintains discipline (Value Delivery focus in 2026 exam)."
+            "text": "Facilitate MoSCoW prioritization with the Product Owner and stakeholders, ship the Must-haves on time, and plan high-value items next",
+            "why": "Incremental delivery needs ruthless, shared prioritization: fixing this increment's Must-haves and scheduling genuinely valuable additions for later delivers value early while building the full solution over time."
           }
         ],
         "distractors": [
           {
-            "text": "Include everything and extend the timeline",
-            "trap": "Defeats the purpose of incremental delivery."
+            "text": "Add the features that clearly show business value into the current increment and shift the release date accordingly",
+            "trap": "Premature solution: commits features and moves the date before ranking them against the increment goal."
           },
           {
-            "text": "Deliver a compromised MVP missing core functionality",
-            "trap": "Fails to deliver real value and damages credibility."
+            "text": "Have the Product Owner set the increment's priorities alone and communicate the final decision to the wider stakeholders",
+            "trap": "Too narrow: sets priorities without the stakeholders who own the value claims that need testing."
           },
           {
-            "text": "Let the development team decide what to include",
-            "trap": "Removes business prioritization from the process."
+            "text": "Have the team produce detailed estimates for every proposed feature first, then decide which fit this increment",
+            "trap": "Wrong sequence: detailed estimation precedes agreeing what is even in scope, spending effort before prioritizing."
           }
         ],
-        "explanation": "Correct approach uses disciplined prioritization to protect early value delivery while planning future increments — core to incremental methodology.",
+        "explanation": "Disciplined MoSCoW prioritization with the Product Owner and stakeholders protects early value while queuing high-value work. The distractors add before ranking, exclude stakeholders, or estimate before prioritizing.",
         "domain": "Process"
       }
     ],
@@ -673,25 +673,25 @@
         "prompt": "Stakeholder feedback on the latest prototype is contradictory and low quality. What should you do first?",
         "correct": [
           {
-            "text": "Analyse the feedback collection process: Who is providing input? How is it gathered? Is it structured? Then facilitate a session with key users and the design team to clarify expectations and improve feedback quality",
-            "why": "Iterative projects live or die by effective feedback loops. First diagnose why the loop is broken (process, people, or method) before changing the prototype itself (Process + People domains)."
+            "text": "Examine how feedback is gathered and by whom, then convene key users and the design team to clarify expectations",
+            "why": "Iterative projects live or die by the feedback loop; diagnosing why the loop is broken (process, people, or method) before changing the prototype is what fixes the root cause."
           }
         ],
         "distractors": [
           {
-            "text": "Ignore conflicting feedback and proceed with the design team's preferred solution",
-            "trap": "Defeats the purpose of iterative feedback and risks building the wrong product."
+            "text": "Consolidate the conflicting comments into a single prioritized list and hand it to the design team",
+            "trap": "Premature solution: reconciles the messy output without fixing why the input is vague and conflicting."
           },
           {
-            "text": "Create more prototypes to 'test' which feedback is correct",
-            "trap": "Wastes cycles without fixing the root cause of poor feedback quality."
+            "text": "Interview only the lead user to get one authoritative view of what needs to change",
+            "trap": "Too narrow: relies on a single voice and misses the process problem across the wider user group."
           },
           {
-            "text": "Blame the users for giving bad feedback",
-            "trap": "Damages relationships and ignores the PM's role in facilitating better input."
+            "text": "Build the next prototype incorporating the strongest recurring themes from all three cycles, ship it to the same user group, and watch whether the quality of their feedback improves",
+            "trap": "Wrong sequence: iterates the artifact and re-tests it before repairing the method that produces the poor feedback."
           }
         ],
-        "explanation": "Correct first step diagnoses the feedback process itself — critical in iterative approaches where learning depends on quality input.",
+        "explanation": "The best first step diagnoses the feedback process itself. The distractors are each defensible but treat the symptom, narrow to one user, or iterate the prototype before fixing the loop.",
         "domain": "Process"
       },
       {
@@ -699,25 +699,25 @@
         "prompt": "Root cause: Feedback is collected via email without structure, and users have not been properly trained on how to give actionable input. What is the best improvement?",
         "correct": [
           {
-            "text": "Implement structured feedback sessions (e.g., usability testing with tasks + think-aloud protocol), train users on giving specific, actionable feedback, and create a feedback triage process with the design team",
-            "why": "Iterative success requires deliberate improvement of the learning loop. Structured methods + training + triage create sustainable, high-quality feedback (Process + People integration)."
+            "text": "Introduce task-based usability testing, coach users to give specific feedback, and set up a triage process with the design team",
+            "why": "Sustained iterative improvement combines structured methods, user coaching, and triage so the learning loop produces high-quality, actionable input cycle after cycle."
           }
         ],
         "distractors": [
           {
-            "text": "Switch to a waterfall approach because iteration is not working",
-            "trap": "Throws away the benefits of iteration instead of fixing the execution."
+            "text": "Replace the email inbox with a structured online feedback form so every response is captured consistently",
+            "trap": "Too narrow: improves the channel but leaves user skill and design-team triage unaddressed."
           },
           {
-            "text": "Have the design team decide what feedback to accept",
-            "trap": "Removes user voice and defeats the purpose of iterative validation."
+            "text": "Assign a business analyst to rewrite the vague comments into clear requirements after each cycle",
+            "trap": "Symptom not root cause: patches poor feedback downstream instead of improving how it is produced."
           },
           {
-            "text": "Reduce the number of prototype cycles to save time",
-            "trap": "Reduces learning opportunities when the problem is feedback quality, not quantity."
+            "text": "Run a full user-training program first and resume prototype cycles only once everyone is up to speed",
+            "trap": "Wrong sequence: blocks iteration on a training gate and relies on training alone without structured methods or triage."
           }
         ],
-        "explanation": "Correct action improves the system for gathering and using feedback — true iterative improvement.",
+        "explanation": "The best action improves the whole learning system—method, people, and triage. The distractors fix only the channel, patch the output downstream, or gate iteration on training alone.",
         "domain": "Process"
       }
     ],
@@ -742,25 +742,25 @@
         "prompt": "You discover that several 'minor' changes have been implemented without going through the change control process. What should you do first?",
         "correct": [
           {
-            "text": "Perform an impact analysis on all implemented changes (cost, schedule, risk, quality) and document the current baseline deviation before taking any corrective action",
-            "why": "In predictive projects, you must first understand the true current state against the approved baseline. Acting without data risks making poor decisions (Process domain – Monitor & Control)."
+            "text": "Run an impact analysis on the changes already made—cost, schedule, risk, quality—and document the baseline deviation",
+            "why": "In predictive projects you must first understand the true current state against the approved baseline; acting without that data risks poor corrective decisions."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately stop all work and enforce strict change control going forward",
-            "trap": "Reactive and may damage relationships without understanding the full picture."
+            "text": "Reinstate the change control board immediately and require formal requests for everything from now on",
+            "trap": "Premature solution: installs the process before quantifying how far the baseline has actually drifted."
           },
           {
-            "text": "Approve the changes retroactively to 'catch up'",
-            "trap": "Rewards bad behaviour and hides the real scope creep problem."
+            "text": "Ask the finance team to calculate the total budget overrun caused by the unauthorized changes and reconcile it against the approved cost baseline so you have a firm, defensible number",
+            "trap": "Too narrow: measures cost only, even if precisely, and ignores schedule, risk, and quality impacts on the baseline."
           },
           {
-            "text": "Blame the stakeholders for causing the problems",
-            "trap": "Damages relationships and does not solve the process failure."
+            "text": "Escalate the unauthorized changes to the sponsor and ask for direction before doing anything else",
+            "trap": "Procedural deflection: escalates before gathering the facts the sponsor would need to decide."
           }
         ],
-        "explanation": "Correct first step is data-driven assessment of actual impact — fundamental to controlling scope in predictive projects.",
+        "explanation": "The best first step is a full, data-driven impact analysis against the baseline. The distractors are each reasonable but act before measuring, look only at cost, or escalate before the facts are in.",
         "domain": "Process"
       },
       {
@@ -768,25 +768,25 @@
         "prompt": "Impact analysis shows significant deviation. The sponsor wants to know options. What is the best recommendation?",
         "correct": [
           {
-            "text": "Present options: (1) Formal change requests for all future changes with impact analysis, (2) Re-baseline the project with updated scope/cost/schedule after approved changes, or (3) De-scope lower-value items to recover baseline. Recommend option 2 with strong change control going forward",
-            "why": "Predictive projects require formal change control and baseline management. Offering data-driven options while recommending re-baselining + strict future control is professional and realistic (Process + Business Environment)."
+            "text": "Offer options—re-baseline, de-scope low-value items, or tighten change control—and recommend re-baselining with strict control ahead",
+            "why": "Predictive projects rely on formal change control and baseline management; presenting data-driven options while recommending re-baselining plus firm future control is professional and realistic."
           }
         ],
         "distractors": [
           {
-            "text": "Continue as is and absorb the changes",
-            "trap": "Leads to uncontrolled scope creep and likely project failure."
+            "text": "Recommend de-scoping low-value work to pull the project back to the original baseline",
+            "trap": "Too narrow: leans on a single lever that may not be feasible and ignores legitimately approved changes."
           },
           {
-            "text": "Reject all changes and return to original baseline",
-            "trap": "Ignores legitimate business needs and may not be feasible."
+            "text": "Re-baseline the project now with the new cost and schedule so reporting reflects reality",
+            "trap": "Premature solution: acts before the sponsor sees and chooses among the trade-offs."
           },
           {
-            "text": "Blame the change control process failure on the team",
-            "trap": "Avoids PM accountability for process enforcement."
+            "text": "Stand up a properly staffed change control board, brief it on the completed impact analysis, and let it deliberate and decide how to handle the deviation and all future changes",
+            "trap": "Procedural deflection: hands the recommendation the sponsor asked for to a committee instead of advising directly."
           }
         ],
-        "explanation": "Correct recommendation balances reality with proper process restoration — key in predictive environments.",
+        "explanation": "The best recommendation offers options and advises re-baselining with tightened control. The distractors fixate on one lever, act before the sponsor decides, or defer the call to a board.",
         "domain": "Process"
       }
     ],
@@ -811,25 +811,25 @@
         "prompt": "Senior management asks for an explanation of the EVM numbers. What should your first response include?",
         "correct": [
           {
-            "text": "Explain what SPI and CPI mean in plain language, show the trend over time, identify root causes (risks materialized + scope creep), and present the forecasted EAC with confidence level",
-            "why": "Effective reporting translates data into actionable insight. Explaining trends and root causes before proposing solutions demonstrates control (Process domain – Monitor & Control Project Work)."
+            "text": "Explain SPI and CPI in plain terms, show the trend and root causes, and present the forecast EAC",
+            "why": "Effective reporting translates data into insight: covering the meaning, the trend, the drivers, and the forecast before proposing solutions demonstrates real control."
           }
         ],
         "distractors": [
           {
-            "text": "Just present the raw numbers and say 'the project is behind'",
-            "trap": "Does not provide context or actionable information to decision makers."
+            "text": "Walk management through the SPI and CPI values and confirm the project is behind on both",
+            "trap": "Too narrow: states the status without the trend, root causes, or forecast decision-makers need."
           },
           {
-            "text": "Blame external factors only",
-            "trap": "Avoids taking ownership of what the PM can influence."
+            "text": "Present the forecast EAC alongside the detailed recovery plan you intend to run—resource changes, resequencing, and targeted scope trims—to close the gap and reassure management",
+            "trap": "Premature solution: leads with a fully worked fix before explaining what is driving the variances."
           },
           {
-            "text": "Promise recovery without analysis",
-            "trap": "Unrealistic commitment without understanding drivers."
+            "text": "Attribute the variances to the risks that have materialized and describe how you are mitigating them",
+            "trap": "Symptom not root cause: names one driver but omits scope creep and the overall trend picture."
           }
         ],
-        "explanation": "Correct approach educates stakeholders with clear interpretation and root cause — essential for earned value management.",
+        "explanation": "The best response interprets the indices, trend, drivers, and forecast together. The distractors report status only, jump to a fix, or attribute everything to risks alone.",
         "domain": "Process"
       },
       {
@@ -837,25 +837,25 @@
         "prompt": "Management wants to know recovery options. What is the most appropriate set of recommendations?",
         "correct": [
           {
-            "text": "Present a range of options: crashing critical path activities (with cost impact), fast-tracking (with risk impact), scope reduction of low-value items, and re-baselining with new EAC. Recommend a combination based on business priorities",
-            "why": "Predictive projects use formal techniques (crashing, fast-tracking, scope management) when EVM indicates trouble. Offering options with trade-offs shows mature control (Process domain)."
+            "text": "Offer crashing, fast-tracking, scope reduction, and re-baselining with their trade-offs, and recommend a combination by business priority",
+            "why": "Predictive recovery uses formal techniques with explicit trade-offs; presenting the range and recommending a priority-based combination shows mature control."
           }
         ],
         "distractors": [
           {
-            "text": "Recommend only adding more resources",
-            "trap": "Ignores other levers and may not be the most cost-effective."
+            "text": "Recommend crashing the critical path by adding resources to pull the schedule back on track",
+            "trap": "Too narrow: relies on one technique and ignores the cost overrun the CPI is signalling."
           },
           {
-            "text": "Recommend cancelling the project immediately",
-            "trap": "Extreme without exploring recovery options first."
+            "text": "Fast-track the remaining critical-path activities by overlapping the design and build phases to claw back the schedule slippage as quickly as possible, accepting the added rework and coordination risk",
+            "trap": "Premature solution: commits to a single technique, and its downside, before laying out the full set of trade-offs."
           },
           {
-            "text": "Hide the bad news and hope it improves",
-            "trap": "Unethical and damages trust when reality eventually surfaces."
+            "text": "Re-baseline the project to the new EAC so the performance indices reset against a realistic plan",
+            "trap": "Symptom not root cause: resets the baseline instead of recovering value against business priorities."
           }
         ],
-        "explanation": "Correct response uses multiple project management techniques with clear trade-off analysis — expected in predictive control questions.",
+        "explanation": "The best response offers the full set of recovery levers with trade-offs and a priority-based recommendation. The distractors each pick a single lever or reset the baseline instead of recovering.",
         "domain": "Process"
       }
     ],

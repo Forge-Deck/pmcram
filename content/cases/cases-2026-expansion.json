@@ -14,25 +14,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Run an objective diagnostic that compares current scope, schedule, cost, and quality performance against the baseline to find the root causes of the variance",
-            "why": "You cannot re-plan credibly until you know what is actually driving the slippage, so a fact-based diagnosis of the gap against the baseline comes before any corrective action."
+            "text": "Run a fact-based diagnostic comparing current performance against the baseline to find the root causes of the variance",
+            "why": "You cannot re-plan credibly until you know what is driving the slippage, so a fact-based diagnosis of the gap comes before any corrective action."
           }
         ],
         "distractors": [
           {
-            "text": "Add overtime and a night shift immediately so the team can catch up before the funding review",
-            "trap": "Crashing the schedule before diagnosing the cause spends money on symptoms and can worsen the morale problem that is already hurting delivery."
+            "text": "Re-plan the remaining schedule in a working session with the team, building in more realistic milestone durations and schedule buffers so the forecast the sponsor sees at the review is finally achievable",
+            "trap": "Premature solution: however realistic the new durations and buffers look, re-planning before diagnosing why the milestones slipped bakes the unknown causes into the new plan too."
           },
           {
-            "text": "Ask marketing to stop attending status meetings so they can no longer request new features",
-            "trap": "Excluding a key stakeholder attacks a symptom of weak change control and damages engagement rather than addressing the real cause."
+            "text": "Interview the sponsor and marketing to confirm that added features are what caused the milestones to slip",
+            "trap": "Too narrow: fixing on one suspected cause and one party pre-judges the answer before an objective look at scope, schedule, cost, and quality."
           },
           {
-            "text": "Re-baseline the schedule to today so the project shows green at the next status report",
-            "trap": "Resetting the baseline to hide variance is cosmetic, removes the data you need to diagnose, and misleads the funding decision."
+            "text": "Survey the team about morale and job-hunting so the people problem can be tackled before anything else",
+            "trap": "Symptom not root cause: low morale is likely a result of the slippage, so treating it first still leaves the driver undiagnosed."
           }
         ],
-        "explanation": "Recovering a troubled project starts with an honest diagnosis. Measuring actual performance against the baseline and finding root causes is the foundation for any defensible recovery plan or go/kill recommendation."
+        "explanation": "Recovering a troubled project starts with an honest diagnosis. Re-planning, chasing a suspected cause, or fixing morale may all follow, but measuring actual performance against the baseline to find root causes must come first and frames everything else."
       },
       {
         "prompt": "The diagnostic shows the dominant root cause is uncontrolled scope: marketing requests have been absorbed informally without re-estimating schedule or cost, and the team is constantly reworking. Which two actions best address this root cause?",
@@ -41,29 +41,29 @@
         "present": 5,
         "correct": [
           {
-            "text": "Establish and enforce integrated change control so every new request is assessed for schedule, cost, and quality impact before it is accepted",
+            "text": "Enforce integrated change control so every new request is assessed for schedule, cost, and quality impact before acceptance",
             "why": "Routing requests through change control stops uncontrolled absorption and makes the true cost of each addition visible to decision makers."
           },
           {
-            "text": "Reconfirm a prioritized scope baseline with the sponsor and marketing so the team works to an agreed set of must-have features",
+            "text": "Reconfirm a prioritized scope baseline with sponsor and marketing so the team works to agreed must-have features",
             "why": "Re-agreeing what is in and out gives the team a stable target and aligns stakeholders on what the recovery will actually deliver."
           }
         ],
         "distractors": [
           {
-            "text": "Accept all outstanding marketing requests now to avoid conflict, then deal with the schedule later",
-            "trap": "This is exactly the behavior that caused the slippage and defers the impact instead of controlling it."
+            "text": "Negotiate a temporary feature freeze with marketing that holds every new request until after the funding review, then stand up a triage queue to revisit the deferred ideas once funding is confirmed",
+            "trap": "Symptom not root cause: even a well-managed freeze with a triage queue blocks input for a while but never builds the governance that stops uncontrolled absorption."
           },
           {
-            "text": "Freeze all communication with marketing until after the funding review",
-            "trap": "Cutting off a key stakeholder destroys engagement and does nothing to fix how changes are governed."
+            "text": "Add a scope-tracking section to the status report so leadership can see every new request marketing makes",
+            "trap": "Procedural deflection: reporting the requests documents the problem but does not govern or re-agree scope."
           },
           {
-            "text": "Reassign the testers to development so more features ship before the gate",
-            "trap": "Starving quality activities to push features is what drove the rising defect count and would deepen the rework spiral."
+            "text": "Log each absorbed change as an issue and escalate the overall pattern to the change control board",
+            "trap": "Procedural deflection: escalating the backlog defers action to a board instead of establishing the control that prevents further change."
           }
         ],
-        "explanation": "The fix must match the root cause. Uncontrolled scope is addressed by re-agreeing a prioritized baseline and enforcing integrated change control, not by absorbing more work or sacrificing quality."
+        "explanation": "The fix must match the root cause. A prioritized baseline plus enforced integrated change control governs the uncontrolled absorption directly, whereas freezing features, adding reporting, or escalating the backlog only document or defer the problem."
       },
       {
         "prompt": "With change control in place and a prioritized scope agreed, the project manager builds the recovery plan. What is the most important thing to do so the plan is realistic and trusted?",
@@ -72,25 +72,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Re-estimate the remaining work bottom up with the team and create a re-baselined schedule and budget that leadership formally approves",
-            "why": "A recovery plan is credible only when it is rebuilt from current reality with the people doing the work and is formally approved as the new measurement baseline."
+            "text": "Re-estimate the remaining work bottom up with the team, then have leadership formally approve the re-baselined plan",
+            "why": "A recovery plan is credible only when rebuilt from current reality with the people doing the work and approved as the new measurement baseline."
           }
         ],
         "distractors": [
           {
-            "text": "Keep the original baseline and simply add resources until the math closes to the old end date",
-            "trap": "Forcing the numbers to fit an obsolete date repeats the optimism that created the problem and ignores the diagnosed causes."
+            "text": "Lock in the original end date first, then have the team plan the remaining work to hit it",
+            "trap": "Wrong sequence: fixing the date before estimating from reality repeats the top-down optimism that created the slippage."
           },
           {
-            "text": "Have the project manager privately set aggressive targets and tell the team to do their best",
-            "trap": "Top-down stretch targets the team had no part in setting undermine the morale and ownership the recovery depends on."
+            "text": "Have an outside planning expert rebuild the schedule quickly so a credible plan is ready for the gate",
+            "trap": "Too narrow: a plan the delivery team did not build lacks the ownership and ground truth realistic estimates require."
           },
           {
-            "text": "Publish the recovery plan to stakeholders before leadership reviews it so momentum builds",
-            "trap": "Committing to a plan before governance approves it bypasses the very gate the sponsor set up and risks promising what is not yet sanctioned."
+            "text": "Publish the draft recovery plan to stakeholders to build momentum before leadership formally reviews it",
+            "trap": "Wrong sequence: committing to the plan before governance approves it bypasses the very gate the sponsor established."
           }
         ],
-        "explanation": "Re-planning means rebuilding estimates from current conditions with the team, then having governance approve the new baseline. That is what makes the plan both realistic and trusted going into the funding decision."
+        "explanation": "A credible recovery plan is rebuilt from current reality with the team and then approved as the new baseline. Fixing the date first, outsourcing the estimate, or seeking momentum before approval all skip the ground-truth and ownership that make the plan trusted."
       },
       {
         "prompt": "At the six-week gate, the re-baselined plan shows the platform can still deliver positive value but only with more time and money, while a competing initiative promises higher returns for the same investment. How should the project manager frame the go/kill recommendation?",
@@ -99,25 +99,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Present the updated business case and forward-looking value of completion versus alternatives, and recommend the option that delivers the best value, treating money already spent as sunk",
-            "why": "A go/kill gate is a forward-looking value decision, so the recommendation should compare the remaining value of finishing against alternatives and ignore unrecoverable past spend."
+            "text": "Compare the forward-looking value of finishing against the alternative, treat past spend as sunk, and recommend the best-value option",
+            "why": "A go/kill gate is a forward-looking value decision, so the recommendation compares remaining value against alternatives and ignores unrecoverable past spend."
           }
         ],
         "distractors": [
           {
-            "text": "Recommend continuing because stopping now would waste everything already invested in the rebuild",
-            "trap": "This is the sunk cost fallacy; past spend is unrecoverable and must not drive a forward-looking funding decision."
+            "text": "Recommend continuing because the rebuild is nearly viable and stopping now would waste the investment already made",
+            "trap": "Sunk cost fallacy: past spend is unrecoverable and must not drive a forward-looking funding decision."
           },
           {
-            "text": "Recommend whichever option the loudest stakeholders in the room prefer to keep the peace",
-            "trap": "A funding gate is a value judgement grounded in the business case, not a popularity contest."
+            "text": "Present both options to leadership without a recommendation so the committee fully owns the funding decision",
+            "trap": "Procedural deflection: the sponsor asked the PM to take control, so withholding a reasoned recommendation defers accountability."
           },
           {
-            "text": "Avoid a recommendation and simply present raw status so leadership cannot blame the project manager",
-            "trap": "The sponsor explicitly asked the project manager to take control; withholding a reasoned recommendation abdicates that accountability."
+            "text": "Recommend continuing the loyalty rebuild because it is closest to done, the team has built real momentum, and cancelling now would hurt already-fragile morale and risk losing the people still on board",
+            "trap": "Symptom not root cause: schedule progress, momentum, and morale are real but are not the value basis a gate decision turns on."
           }
         ],
-        "explanation": "Stage gates exist to confirm continued business justification. The project manager should compare the remaining value of completion against alternatives, exclude sunk costs, and make a clear value-based recommendation, even if that means recommending the project be stopped."
+        "explanation": "Stage gates confirm continued business justification. The recommendation compares the remaining value of finishing against the alternative and excludes sunk costs. Schedule progress, morale, and committee ownership are real but are not the value basis the decision turns on."
       }
     ],
     "tags": [
@@ -146,25 +146,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Clarify the specific business problems and outcomes the executives expect the EPMO to improve, such as alignment, visibility, and resource contention",
-            "why": "The right PMO type and mandate follow from the outcomes the organization actually needs, so defining the problem to be solved comes before designing the structure."
+            "text": "Clarify the specific outcomes executives expect the EPMO to improve, such as alignment, visibility, and resource contention",
+            "why": "The right PMO type and mandate follow from the outcomes the organization actually needs, so defining the problem to solve comes before designing the structure."
           }
         ],
         "distractors": [
           {
-            "text": "Copy the PMO charter and operating model from a well-known competitor to save time",
-            "trap": "Importing another organization's model ignores this organization's specific pain points, maturity, and culture."
+            "text": "Interview the executive sponsors about their goals and design the EPMO mandate around what leadership wants",
+            "trap": "Too narrow: engaging only leadership misses the delivery managers whose adoption the EPMO will depend on."
           },
           {
-            "text": "Immediately mandate a single methodology that every project must follow next quarter",
-            "trap": "Imposing one method before understanding needs is exactly the heavy-handed behavior that earned the last PMO the project police label."
+            "text": "Assess the current project-management maturity across each acquired unit, mapping methods, tooling, and governance gaps, before defining the outcomes leadership wants the EPMO to improve",
+            "trap": "Wrong sequence: a maturity baseline helps later, but the target outcomes should frame the assessment, not follow it."
           },
           {
-            "text": "Hire a large central team first so the EPMO has the headcount to enforce standards",
-            "trap": "Staffing up to enforce before defining purpose builds an overhead function with no agreed value to deliver."
+            "text": "Benchmark PMO models at comparable insurers and adapt the best-fit operating model for this organization",
+            "trap": "Premature solution: benchmarking imports another org's structure before this org's specific pain points are defined."
           }
         ],
-        "explanation": "An effective PMO is designed around the outcomes leadership and teams need. Establishing the problem and target outcomes first lets the leader choose a fitting type and mandate rather than copying a structure or imposing control."
+        "explanation": "An effective PMO is designed around the outcomes leadership and teams need. Benchmarking, a maturity assessment, or interviewing only executives are each defensible but come after, and depend on, defining the specific problem the EPMO must solve."
       },
       {
         "prompt": "Leadership wants stronger strategic alignment and visibility across the portfolio, but delivery teams are mature and value their autonomy. Which PMO operating model best fits this situation?",
@@ -173,25 +173,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "A supportive and controlling blend that provides shared standards, coaching, templates, and portfolio reporting while leaving delivery decisions with capable teams",
-            "why": "Mature teams that need alignment and visibility are best served by enabling support and light governance rather than command and control, which preserves autonomy while giving leadership the portfolio view it wants."
+            "text": "A supportive-controlling blend giving shared standards, coaching, and portfolio reporting while leaving delivery decisions with capable teams",
+            "why": "Mature teams needing alignment and visibility are best served by enabling support and light governance, which preserves autonomy while giving leadership the portfolio view."
           }
         ],
         "distractors": [
           {
-            "text": "A directive PMO that takes over management of every project and assigns all project managers centrally",
-            "trap": "A fully directive model strips autonomy from mature teams and recreates the project police dynamic the organization is trying to escape."
+            "text": "A supportive PMO offering templates, training, and a best-practice library that teams draw on voluntarily",
+            "trap": "Too narrow: a purely enabling model cannot deliver the cross-portfolio reporting and resource arbitration leadership asked for."
           },
           {
-            "text": "A purely supportive repository that offers templates only, with no portfolio reporting or resource coordination",
-            "trap": "A templates-only function cannot deliver the cross-portfolio alignment, visibility, and resource arbitration leadership explicitly asked for."
+            "text": "A controlling PMO that mandates common standards and reviews compliance to guarantee consistency across the portfolio",
+            "trap": "Wrong emphasis: leading with mandated compliance on mature teams recreates the project-police dynamic the organization is escaping."
           },
           {
-            "text": "No PMO function at all, relying on each delivery manager to volunteer their own data when asked",
-            "trap": "Leaving coordination to ad hoc goodwill is the status quo that produced the inconsistency and resource collisions in the first place."
+            "text": "A directive PMO that centrally manages the highest-risk projects while leaving the rest to the teams",
+            "trap": "Too narrow: taking over delivery of some projects still strips autonomy and does not scale alignment across the whole portfolio."
           }
         ],
-        "explanation": "PMO types range from supportive to controlling to directive. For mature teams that need alignment and visibility without losing autonomy, a supportive-plus-controlling blend that enables teams and provides governance and reporting fits best."
+        "explanation": "PMO models range from supportive to controlling to directive. Mature teams needing alignment and visibility fit a supportive-controlling blend; a templates-only model cannot deliver the required reporting, while leading with control or taking over delivery recreates the project-police dynamic."
       },
       {
         "prompt": "The skeptical delivery managers fear the EPMO will again become an audit and reporting burden. Which two actions will best earn their adoption?",
@@ -210,19 +210,19 @@
         ],
         "distractors": [
           {
-            "text": "Issue a compliance scorecard ranking each project manager publicly so teams compete to follow the rules",
-            "trap": "Public compliance scoring is the punitive, police-style behavior that created distrust and will harden resistance."
+            "text": "Roll out the full standards and reporting templates first, then gather feedback from teams once they are in use",
+            "trap": "Wrong sequence: deploying before involving teams repeats the top-down imposition that bred distrust; co-design must come first."
           },
           {
-            "text": "Require every team to submit three new weekly reports immediately to prove the EPMO is active",
-            "trap": "Front-loading reporting overhead with no demonstrated benefit confirms the teams' worst fear about the new office."
+            "text": "Secure a visible executive mandate and communicate it so teams understand the EPMO has leadership backing",
+            "trap": "Too narrow: authority may win compliance but not genuine adoption, and it does not show the EPMO solves teams' problems."
           },
           {
-            "text": "Tell teams that executive sponsorship means adoption is mandatory and dissent will be escalated",
-            "trap": "Relying on authority and threats to force compliance wins grudging conformance, not genuine adoption, and damages engagement."
+            "text": "Establish a monthly governance forum where every team reports a standard status pack so cross-project issues, risks, and resource clashes surface to leadership in one consolidated view",
+            "trap": "Procedural deflection: a reporting forum adds the very overhead teams fear before the EPMO has earned credibility."
           }
         ],
-        "explanation": "Adoption is earned, not mandated. Co-designing standards with delivery teams and proving value by solving a real problem builds trust, whereas compliance scoring, added reporting, and authority threats reinforce the project police image."
+        "explanation": "Adoption is earned, not mandated. Co-designing standards and delivering a visible quick win build trust, whereas rolling out first, leaning on an executive mandate, or adding a reporting forum apply pressure or overhead before the EPMO has proven its value."
       },
       {
         "prompt": "A year in, executives ask how to judge whether the EPMO is succeeding. Which measure best reflects the EPMO's intended purpose?",
@@ -231,25 +231,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Improved delivery of strategic outcomes and benefits, such as better portfolio throughput, alignment to strategy, and realized business value",
+            "text": "Improved strategic outcomes, such as better portfolio throughput, alignment to strategy, and realized business value",
             "why": "An EPMO exists to improve strategic delivery and value realization, so its success is measured by business outcomes rather than internal activity."
           }
         ],
         "distractors": [
           {
-            "text": "The number of templates published and audits the EPMO completed during the year",
-            "trap": "Counting internal activity measures effort and control, not the strategic value the EPMO was created to deliver."
+            "text": "On-time and on-budget delivery rates across the whole portfolio, benchmarked against the baseline from before the EPMO existed to show how much delivery predictability has improved",
+            "trap": "Symptom not root cause: delivery efficiency can improve while strategic value and alignment, the EPMO's real purpose, do not."
           },
           {
-            "text": "The percentage of projects that fully comply with every mandated process step",
-            "trap": "High compliance can coexist with poor outcomes and rewards process for its own sake rather than value."
+            "text": "Adoption of the shared standards and reporting, measured by how many projects use the EPMO's processes",
+            "trap": "Too narrow: process adoption is an input; it shows uptake, not the strategic value the EPMO was created to deliver."
           },
           {
-            "text": "The size of the EPMO's headcount and budget compared with last year",
-            "trap": "Growth in overhead is an input cost, not evidence the office is improving delivery or strategic alignment."
+            "text": "Stakeholder satisfaction scores gathered from the executives and delivery managers the EPMO serves",
+            "trap": "Procedural deflection: satisfaction is a useful signal but measures perception, not realized business outcomes."
           }
         ],
-        "explanation": "A PMO should be evaluated on the outcomes it enables, not the activity it generates. Strategic alignment, portfolio throughput, and realized benefits show whether the EPMO is delivering value rather than merely policing process."
+        "explanation": "A PMO is judged by the outcomes it enables. Strategic alignment, throughput, and realized benefits show real value, whereas delivery rates, process adoption, and satisfaction scores each capture only a partial or input measure."
       }
     ],
     "tags": [
@@ -278,25 +278,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Exclude it as a sunk cost, because money already spent is unrecoverable and should not influence the choice among future options",
-            "why": "Sunk costs are unrecoverable and identical across all options, so including them would distort an objective comparison of future value."
+            "text": "Exclude it as a sunk cost, since money already spent is unrecoverable and identical across every option",
+            "why": "Sunk costs are unrecoverable and common to all options, so including them would distort an objective comparison of future value."
           }
         ],
         "distractors": [
           {
-            "text": "Add the study cost to every option except the one that reuses the study, to reward reuse",
-            "trap": "Selectively loading a sunk cost onto some options manufactures a bias toward reuse and is not objective analysis."
+            "text": "Weight the study cost lightly but keep it visible in every option's comparison, so the committee's analysis still reflects the total money the company has invested in modernization so far",
+            "trap": "Premature solution: any weighting of an unrecoverable cost still biases the comparison; sunk cost is excluded entirely, not discounted."
           },
           {
-            "text": "Pick the option that uses the study so the prior spending is not wasted",
-            "trap": "This is the sunk cost fallacy; the study money is gone regardless of which option is chosen."
+            "text": "Count the study cost only against the options that would have to redo that discovery work",
+            "trap": "Too narrow: the study is spent regardless of option, so loading it onto some options manufactures a false advantage."
           },
           {
-            "text": "Subtract the study cost from the benefits of the option that reuses it to make that option look stronger",
-            "trap": "Crediting a past expense to one option's benefits double counts and skews the comparison."
+            "text": "Favor the option that reuses the study so the discovery investment is not written off",
+            "trap": "Sunk cost fallacy: the study money is gone whichever option is chosen and should not sway the decision."
           }
         ],
-        "explanation": "Sunk costs are unrecoverable and common to all alternatives, so they are excluded from a project selection decision. Including them, in any direction, biases the comparison away from objective future value."
+        "explanation": "Sunk costs are unrecoverable and common to all alternatives, so they are excluded entirely. Weighting them lightly, loading them onto some options, or favoring reuse to recover them all bias the comparison away from objective future value."
       },
       {
         "prompt": "Option A returns higher cash flows but mostly in later years; Option B returns less overall but recovers its cost much sooner. The committee says long-term shareholder value is the priority. Which selection metric should carry the most weight?",
@@ -305,25 +305,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Net present value, because it captures total value created across the full horizon after discounting future cash flows to today",
+            "text": "Net present value, because it captures total value across the full horizon after discounting future cash flows to today",
             "why": "NPV measures the total economic value added over the life of the investment in present-day terms, which directly matches a long-term value priority."
           }
         ],
         "distractors": [
           {
-            "text": "Payback period, because the committee will prefer whichever option returns its money fastest",
-            "trap": "Payback ignores all cash flows after recovery and the time value of money, so it can reject the higher long-term value option."
+            "text": "Payback period, because recovering the investment quickly reduces exposure and frees up capital sooner",
+            "trap": "Wrong metric for the goal: payback ignores all cash flows after recovery and the time value of money, so it can reject the higher long-term-value option."
           },
           {
-            "text": "The raw undiscounted sum of cash inflows, because it shows the largest headline number",
-            "trap": "Ignoring discounting overstates distant cash flows and is not a sound basis for comparing options with different timing."
+            "text": "Internal rate of return, because the highest percentage return identifies the most efficient use of capital",
+            "trap": "Too narrow: IRR can mislead when options differ in scale or timing, so for total long-term value NPV is the sounder rule."
           },
           {
-            "text": "Lowest initial cost, because spending less up front is always the safer choice",
-            "trap": "Minimizing upfront cost ignores the benefits each option produces and can forgo far greater value."
+            "text": "Benefit-cost ratio, because the option with the highest ratio delivers the most value per dollar spent",
+            "trap": "Too narrow: BCR ranks efficiency per dollar, not total value created, so it can favor a smaller option over greater long-term value."
           }
         ],
-        "explanation": "When long-term value is the priority and cash flows have different timing, NPV is the strongest selection metric because it discounts the full stream of future cash flows to present value. Payback and undiscounted sums miss timing or later value."
+        "explanation": "With long-term value the priority and cash flows timed differently, NPV is strongest because it discounts the full future stream to present value. Payback, IRR, and BCR each capture speed, percentage return, or efficiency but not total value created."
       },
       {
         "prompt": "The committee also reviews benefit-cost ratios. Option A has a BCR of 1.4, Option B has a BCR of 0.9, and Option C has a BCR of 1.1. On the BCR measure alone, which options are financially justified?",
@@ -342,15 +342,15 @@
         ],
         "distractors": [
           {
-            "text": "Option B, because a BCR of 0.9 is close enough to break even to count",
-            "trap": "A BCR below 1 means costs exceed benefits; being near 1 does not make a value-destroying option justified."
+            "text": "Option B, because at 0.9 it is close enough to 1.0 to be treated as marginally acceptable",
+            "trap": "Symptom not root cause: a BCR below 1 means costs exceed benefits, and being near 1 does not make a value-destroying option justified."
           },
           {
-            "text": "None of them, because a BCR is only valid when it is exactly 1.0",
-            "trap": "A BCR of exactly 1 is merely break even; the decision rule is greater than 1, not equal to 1."
+            "text": "Only Option A, because a BCR needs a comfortable margin above 1.0 to count as justified",
+            "trap": "Too narrow: the decision rule is simply BCR greater than 1, and Option C at 1.1 clears it without needing a larger margin."
           }
         ],
-        "explanation": "A benefit-cost ratio above 1 means benefits exceed costs and the option is financially justified. Options A and C clear that bar; Option B at 0.9 destroys value and is not justified on BCR."
+        "explanation": "A benefit-cost ratio above 1 means benefits exceed costs and the option is justified. Options A and C clear that bar; B at 0.9 destroys value, and no extra margin above 1 is required for C."
       },
       {
         "prompt": "The committee selects Option A and now must decide whether to build the claims engine in-house or buy a vendor product. What is the soundest basis for this make-or-buy decision?",
@@ -359,25 +359,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Compare the total cost of ownership and the value, capability, and risk of building versus buying against the organization's needs and strategy",
+            "text": "Compare total cost of ownership, capability fit, and risk of building versus buying against the organization's needs and strategy",
             "why": "A make-or-buy decision weighs full lifecycle cost, capability fit, risk, and strategic factors such as control of a core capability, not just a single upfront price."
           }
         ],
         "distractors": [
           {
-            "text": "Choose whichever option has the lower purchase or build price quoted today",
-            "trap": "A single upfront figure ignores ongoing operating, support, and integration costs that dominate total cost of ownership."
+            "text": "Choose the option with the lower total price after carefully comparing the internal build estimate against the vendor's licensing quote for the same required functionality",
+            "trap": "Too narrow: even comparing both prices ignores ongoing operating, support, and integration costs that dominate total cost of ownership."
           },
           {
-            "text": "Always build in-house so the company never depends on an outside vendor",
-            "trap": "A blanket rule ignores cost, capability, and risk trade-offs and may waste resources rebuilding a commodity capability."
+            "text": "Buy the vendor product if it meets the functional requirements, since proven software lowers delivery risk",
+            "trap": "Too narrow: functional fit and speed are real factors but skip lifecycle cost and strategic control of a core capability."
           },
           {
-            "text": "Always buy so the project finishes faster regardless of long-term fit",
-            "trap": "Prioritizing speed alone ignores total cost of ownership, strategic control, and whether the product actually fits long-term needs."
+            "text": "Build in-house if the team has the capacity, to keep the claims engine as a strategic in-house asset",
+            "trap": "Wrong emphasis: strategic control matters but must be weighed against cost, capability, and risk, not assumed from spare capacity."
           }
         ],
-        "explanation": "Make-or-buy analysis compares total cost of ownership together with capability fit, risk, and strategic considerations such as whether the function is a core differentiator. A single price point or an absolute rule is not a sound basis."
+        "explanation": "Make-or-buy weighs total cost of ownership with capability fit, risk, and strategic control of a core capability. A single price, functional fit alone, or available capacity each ignore part of that lifecycle-and-strategy picture."
       }
     ],
     "tags": [
@@ -412,19 +412,19 @@
         ],
         "distractors": [
           {
-            "text": "Track only the total scrap dollars, since scrap is the most visible number",
-            "trap": "Scrap is just one internal failure cost; looking at it alone hides appraisal and external failure spending and the missing prevention investment."
+            "text": "Trend the scrap and rework dollars month over month and chart them against production volume, since internal failure is clearly the fastest-growing quality cost on the line right now",
+            "trap": "Too narrow: scrap is one internal-failure category, and alone it hides appraisal, external failure, and the missing prevention spend."
           },
           {
-            "text": "Compare the team's spending against the project contingency reserve",
-            "trap": "Contingency reserve covers identified risks and says nothing about how quality costs break down."
+            "text": "Break the spend down by department budget line so each cost center's quality spending is visible",
+            "trap": "Wrong tool: cost-center accounting shows who spends, not the prevention-appraisal-failure split that explains the quality problem."
           },
           {
-            "text": "Measure only the labor hours the inspectors charge each week",
-            "trap": "Inspector hours are one appraisal cost and ignore failure costs and prevention, so they cannot explain the quality problem."
+            "text": "Total the inspection and testing costs to quantify how much appraisal the line is paying for",
+            "trap": "Too narrow: appraisal is only one quadrant, and without failure and prevention costs it cannot reveal the imbalance."
           }
         ],
-        "explanation": "The cost of quality framework splits spending into cost of conformance, prevention and appraisal, and cost of nonconformance, internal and external failure. Categorizing this way is the first step to seeing that the line is paying heavily for appraisal and failure while under-investing in prevention."
+        "explanation": "The cost of quality framework splits spending into prevention, appraisal, internal failure, and external failure. Trending scrap, using cost-center lines, or totaling appraisal each look at one slice and miss the imbalance that categorizing the full picture reveals."
       },
       {
         "prompt": "The analysis shows high appraisal cost from inspection, high internal failure cost from scrap at the final gate, and external failure cost from returns, but almost nothing spent on prevention. The defects are being caught late or escaping entirely. What does this pattern most strongly indicate?",
@@ -433,25 +433,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "The process is relying on inspection to find defects rather than preventing them, so quality is not built into the process",
+            "text": "The process relies on inspection to catch defects rather than preventing them, so quality is not built into the process",
             "why": "Heavy appraisal and failure costs with negligible prevention spend is the classic signature of inspecting in quality instead of building it in."
           }
         ],
         "distractors": [
           {
-            "text": "Inspection is too weak and the only fix is to add more inspectors at the final gate",
-            "trap": "More inspection is more appraisal cost that still finds defects after they are made; it cannot stop them from being produced."
+            "text": "The final-gate inspection is working well because it is catching most defects before they ship",
+            "trap": "Symptom not root cause: catching defects late still incurs scrap and escapes, and detection leaves the cause untouched."
           },
           {
-            "text": "The defects are random noise and no systemic cause exists",
-            "trap": "A sustained, growing defect share is a signal of common-cause process problems, not random chance to be ignored."
+            "text": "Appraisal is under-resourced, so adding inspection earlier in the line will catch the defects sooner",
+            "trap": "Premature solution: more inspection is more appraisal cost that still finds defects after they are made, not before."
           },
           {
-            "text": "The product specification is too strict and should be loosened to reduce scrap",
-            "trap": "Relaxing specs on a medical device to mask a process problem trades a quality issue for a patient-safety and compliance risk."
+            "text": "The line needs tighter statistical control at the final gate to reject the borderline units more reliably",
+            "trap": "Wrong focus: tightening the last gate treats the symptom at the end of the line instead of the source producing defects."
           }
         ],
-        "explanation": "Modern quality thinking holds that quality is planned and built in, not inspected in. High appraisal and failure costs with no prevention spending shows the line is detecting defects late rather than preventing them at the source."
+        "explanation": "Quality is planned and built in, not inspected in. Heavy appraisal and failure costs with almost no prevention is the signature of relying on detection; praising the gate, adding earlier inspection, or tightening the last gate all treat symptoms, not the source."
       },
       {
         "prompt": "Before changing the process, the project manager wants to find the underlying source of the most frequent defect. Which two quality tools are most appropriate for this analysis?",
@@ -470,19 +470,19 @@
         ],
         "distractors": [
           {
-            "text": "A responsibility assignment matrix to confirm who signs off on the inspection report",
-            "trap": "A RACI clarifies roles but does nothing to find the technical root cause of a defect."
+            "text": "A control chart to see whether the calibration step is stable and within limits over time",
+            "trap": "Wrong sequence: a control chart shows whether a process is in control but does not rank defects or identify their causes."
           },
           {
-            "text": "A stakeholder power and interest grid to decide who to inform about the scrap rate",
-            "trap": "This is a stakeholder analysis tool, not a quality root-cause tool."
+            "text": "A check sheet to systematically tally how often each defect type occurs on the line by shift and workstation, building the frequency dataset the team will need",
+            "trap": "Premature: a check sheet gathers frequency data as an input to Pareto, not the analysis that pinpoints the vital few or their roots."
           },
           {
-            "text": "A procurement source selection scorecard to rank potential new inspectors",
-            "trap": "Selecting more inspectors doubles down on appraisal and never addresses why defects occur."
+            "text": "A scatter diagram to test whether one process variable correlates with the defect rate",
+            "trap": "Too narrow: a scatter diagram tests a single suspected relationship before the defect and its causes have been identified."
           }
         ],
-        "explanation": "Pareto analysis pinpoints the vital few defect types, and a cause-and-effect diagram traces the dominant one to its root causes. Together they direct improvement at the source rather than at detection."
+        "explanation": "Pareto pinpoints the vital few defect types and a cause-and-effect diagram traces the dominant one to its roots. Control charts, check sheets, and scatter diagrams are useful quality tools but each comes before or after this root-cause step, not in place of it."
       },
       {
         "prompt": "Root-cause analysis points to an unstable calibration step early in the line. Leadership still wants to fund more final-gate inspectors. What should the project manager recommend?",
@@ -491,25 +491,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Invest in prevention by stabilizing and controlling the calibration step so defects are not produced, which lowers appraisal and failure costs over time",
+            "text": "Invest in prevention by stabilizing the calibration step so defects are not produced, lowering appraisal and failure costs over time",
             "why": "Spending on prevention at the root cause stops defects from occurring and reduces the larger downstream appraisal and failure costs, which is the economic case for prevention over inspection."
           }
         ],
         "distractors": [
           {
-            "text": "Hire more final-gate inspectors as leadership prefers, since catching defects protects customers",
-            "trap": "Adding inspection raises appraisal cost and still lets internal and external failure costs continue because defects are still being made."
+            "text": "Add the final-gate inspectors leadership prefers as an interim safeguard while the calibration fix is scoped and funded, so no further defective units reach customers in the meantime",
+            "trap": "Symptom not root cause: even as a stopgap, more inspection raises appraisal cost and still lets defects be made."
           },
           {
-            "text": "Keep producing and simply scrap the defective units, since scrap is cheaper than process changes",
-            "trap": "Accepting ongoing scrap locks in internal failure cost and ignores the cheaper, durable fix of prevention."
+            "text": "Introduce a mid-line inspection right after calibration so unstable units are caught before further assembly",
+            "trap": "Premature solution: an extra checkpoint detects defects earlier but is still appraisal, not stabilization of the step."
           },
           {
-            "text": "Ship borderline units and handle complaints through returns to keep the launch on schedule",
-            "trap": "Trading quality for schedule on a medical device drives up external failure cost and creates serious safety and compliance exposure."
+            "text": "Run the calibration step in parallel on a second machine to raise throughput and dilute the defect rate",
+            "trap": "Wrong focus: adding capacity spreads the defective output rather than fixing the unstable process at its root."
           }
         ],
-        "explanation": "Preventing defects at the calibration root cause is more economical than inspecting and scrapping them later, because prevention reduces the much larger appraisal and failure costs. The PMI principle is that it is cheaper to build quality in than to inspect or rework it in."
+        "explanation": "Preventing defects at the calibration root cause is more economical than detecting them later, because prevention reduces the larger appraisal and failure costs. More inspection, a mid-line check, or added capacity manage or spread the symptom without fixing the source."
       }
     ],
     "tags": [
@@ -538,25 +538,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Build Awareness of why the change is needed and Desire to support it by having respected leaders explain the business reasons and what it means for each person.",
+            "text": "Build Awareness of why the change is needed and Desire to support it, with leaders explaining the reasons and personal impact.",
             "why": "ADKAR is sequential; people will not invest in learning a tool until they understand why the change matters and want to participate, so Awareness and Desire come before Knowledge."
           }
         ],
         "distractors": [
           {
-            "text": "Run more hands-on training classes so staff gain the Knowledge and Ability to use the new system.",
-            "trap": "Knowledge and Ability sit later in ADKAR; adding training before Awareness and Desire explains the low attendance already seen."
+            "text": "Run more hands-on training sessions so staff gain the Knowledge and Ability they need to use the new system.",
+            "trap": "Wrong sequence: Knowledge and Ability sit later in ADKAR, and training before Awareness and Desire explains the low attendance already seen."
           },
           {
-            "text": "Switch off the old spreadsheets immediately so people have no choice but to use the new system.",
-            "trap": "Forcing compliance creates Ability through pressure but skips Awareness and Desire, which usually deepens resistance and workarounds."
+            "text": "Introduce recognition and rewards for early adopters to reinforce the new behavior right from the start.",
+            "trap": "Wrong sequence: Reinforcement is the final ADKAR element and sustains a change people can already make, not one they do not yet want."
           },
           {
-            "text": "Add Reinforcement by introducing rewards for early adopters before anything else.",
-            "trap": "Reinforcement is the final ADKAR element and sustains a change that people can already make, not one they do not yet understand or want."
+            "text": "Improve the tool's usability and fix the specific friction points staff keep hitting in the new system before pushing firmwide adoption any further, so the experience stops working against you.",
+            "trap": "Premature solution: easing Ability barriers helps later but does not address the unmet Awareness and Desire driving the resistance."
           }
         ],
-        "explanation": "ADKAR moves through Awareness, Desire, Knowledge, Ability, and Reinforcement in order. Low training attendance and continued spreadsheet use are classic signs of unmet Awareness and Desire, so the project manager must address the why before the how."
+        "explanation": "ADKAR is sequential: Awareness, Desire, Knowledge, Ability, Reinforcement. Low attendance and continued spreadsheet use signal unmet Awareness and Desire, so more training, early rewards, or usability fixes all address later elements before the why is understood."
       },
       {
         "prompt": "To build momentum and credibility for the change, which two actions best reflect a Kotter-style approach? (Select 2)",
@@ -575,19 +575,19 @@
         ],
         "distractors": [
           {
-            "text": "Announce that adoption is complete as soon as the pilot team is live to project confidence.",
-            "trap": "Declaring victory too early is a classic Kotter failure mode that lets old habits return before the change is anchored."
+            "text": "Announce the rollout is complete once the pilot team is live to signal confidence to everyone.",
+            "trap": "Premature: declaring victory early is a classic Kotter failure that lets old habits return before the change is anchored."
           },
           {
-            "text": "Rely on a single all-staff email from the sponsor as the main communication channel.",
-            "trap": "One broadcast does not build a coalition or sustained urgency; change needs repeated, multi-channel engagement."
+            "text": "Send a detailed all-staff email from the sponsor explaining the vision as the main communication channel.",
+            "trap": "Too narrow: one broadcast does not build a coalition or sustained urgency; change needs repeated, multi-channel engagement."
           },
           {
-            "text": "Publish a list of teams with the lowest usage so peer pressure drives compliance.",
-            "trap": "Naming and shaming damages trust and psychological safety and undermines the voluntary buy-in Kotter aims to build."
+            "text": "Set firmwide adoption targets and track each team's usage in a dashboard reported to the sponsor.",
+            "trap": "Procedural deflection: measuring usage top-down applies pressure without building the coalition and visible wins that create momentum."
           }
         ],
-        "explanation": "Kotter's model emphasizes a guiding coalition and visible short-term wins to create momentum. Premature victory declarations, one-off broadcasts, and coercive tactics work against durable adoption."
+        "explanation": "Kotter emphasizes a guiding coalition and visible short-term wins to build momentum. Declaring victory early, relying on one broadcast, or tracking usage top-down each apply confidence or pressure without building the ownership that sustains change."
       },
       {
         "prompt": "Several long-serving staff say they feel they are losing a familiar way of working they trusted for years. Using the Bridges Transition model, what should the project manager do?",
@@ -596,25 +596,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Acknowledge the ending and the sense of loss, support people through the uncertain neutral zone with coaching and quick help, and clearly mark the new beginning.",
+            "text": "Acknowledge the ending and sense of loss, support people through the neutral zone with coaching, and clearly mark the new beginning.",
             "why": "Bridges focuses on the human psychological transition; naming the loss and supporting people through the neutral zone is how they reach a genuine new beginning."
           }
         ],
         "distractors": [
           {
-            "text": "Tell staff the old method is gone and they need to move on and focus on the deadline.",
-            "trap": "Dismissing the emotional ending ignores the transition entirely and tends to harden resistance."
+            "text": "Emphasize the new system's concrete benefits and the exciting new ways of working it unlocks, painting a vivid picture of the future so people move past the sense of loss more quickly.",
+            "trap": "Premature solution: selling the new beginning before acknowledging the ending skips the neutral zone people must work through."
           },
           {
-            "text": "Treat the comments as performance issues and refer the most vocal staff to their managers.",
-            "trap": "This reframes a normal transition reaction as misconduct, damaging trust and engagement."
+            "text": "Offer extra training and job aids so the long-serving staff quickly feel competent on the new tool.",
+            "trap": "Too narrow: competence support addresses Ability but not the emotional ending and loss Bridges says must be named first."
           },
           {
-            "text": "Focus only on hitting the technical go-live milestones and assume feelings will settle on their own.",
-            "trap": "Bridges distinguishes the external change event from the internal transition; ignoring the transition is why adoption stalls."
+            "text": "Pair each long-serving staff member with an early adopter to model the new beginning for them.",
+            "trap": "Wrong sequence: mentoring toward the new beginning helps later but skips acknowledging the ending and the neutral zone."
           }
         ],
-        "explanation": "Bridges separates the external change from the internal transition people experience: Ending and Loss, the Neutral Zone, and the New Beginning. Helping people through these states is essential to lasting adoption."
+        "explanation": "Bridges separates the external change from the internal transition: Ending and Loss, the Neutral Zone, and the New Beginning. Selling benefits, offering training, or pairing with adopters all reach for the new beginning before acknowledging the ending people must work through."
       },
       {
         "prompt": "Adoption has now climbed to about 80 percent and the sponsor wants to close the project. What should the project manager do to make the change stick?",
@@ -623,25 +623,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Put reinforcement in place: monitor usage metrics, recognize teams that have adopted, address backsliding, and embed the system into standard processes before disbanding support.",
+            "text": "Put reinforcement in place: monitor usage, recognize teams that adopted, address backsliding, and embed the system into standard processes.",
             "why": "Reinforcement is the final ADKAR element and prevents regression; measuring, recognizing, and embedding the change is how adoption becomes the new normal."
           }
         ],
         "distractors": [
           {
-            "text": "Declare the project complete and immediately release the change champions and support resources.",
-            "trap": "Removing support at 80 percent invites backsliding to old habits before the change is anchored."
+            "text": "Declare the project complete at 80 percent and redeploy the change champions to the next initiative.",
+            "trap": "Wrong sequence: removing support before the change is anchored invites backsliding to old habits."
           },
           {
-            "text": "Mandate a company policy that disciplines anyone still using spreadsheets.",
-            "trap": "Switching to punishment at the finish line undoes the trust built through engagement and treats reinforcement as enforcement."
+            "text": "Focus the remaining effort on converting the last 20 percent of holdouts through targeted training, one-on-one follow-up, and gentle encouragement from their team leads so adoption reaches full coverage.",
+            "trap": "Too narrow: chasing the holdouts without embedding and reinforcing the change lets the 80 percent already gained erode."
           },
           {
-            "text": "Leave the remaining 20 percent to their managers and consider the rollout done.",
-            "trap": "Handing off without measurement or embedded process means no reinforcement and likely erosion of the gains."
+            "text": "Hand ongoing adoption tracking to the line managers and close the project as delivered.",
+            "trap": "Procedural deflection: delegating without embedded process or reinforcement means no one sustains the change."
           }
         ],
-        "explanation": "Sustaining a change requires reinforcement: tracking adoption, celebrating progress, correcting backsliding, and embedding the new way into everyday processes. Closing support too early is a common cause of regression."
+        "explanation": "Sustaining change requires reinforcement: track adoption, recognize teams, correct backsliding, and embed the new way into standard processes. Declaring done, chasing only holdouts, or handing off tracking all remove support before the change is anchored."
       }
     ],
     "tags": [
@@ -674,19 +674,19 @@
         ],
         "distractors": [
           {
-            "text": "Gold plating: the team is adding extra value the customer did not ask for.",
-            "trap": "Gold plating comes from the delivery team exceeding requirements on its own; here an external stakeholder is driving the additions, which is scope creep."
+            "text": "Gold plating: extra work beyond the requirements is being delivered to the customer.",
+            "trap": "Concept confusion: gold plating originates inside the delivery team, whereas here an external stakeholder is driving the additions."
           },
           {
-            "text": "Progressive elaboration: the requirements are simply being refined as the project matures.",
-            "trap": "Progressive elaboration refines approved scope through proper channels; adding new fields and a new report outside change control is not refinement."
+            "text": "Progressive elaboration: the requirements are being refined in detail as the project matures.",
+            "trap": "Concept confusion: progressive elaboration refines approved scope through proper channels, not new work added outside change control."
           },
           {
-            "text": "A valid change, because the requests come from the customer side and the customer is always right.",
-            "trap": "Even legitimate-sounding requests must go through change control; acting on them informally is exactly what makes it scope creep."
+            "text": "Emergent requirements: legitimate new business needs are surfacing mid-build that the plan should now flex to absorb, the way adaptive projects welcome late value.",
+            "trap": "Concept confusion: needs may be legitimate, but absorbing them informally without assessment or approval is exactly what makes it scope creep."
           }
         ],
-        "explanation": "Scope creep is uncontrolled growth in scope from requests that skip the change control process. The source here is a stakeholder, and the work is being absorbed without assessment or approval."
+        "explanation": "Scope creep is uncontrolled growth from requests that skip change control. A stakeholder is driving these additions and they are absorbed without assessment, which distinguishes it from gold plating, progressive elaboration, or a legitimately governed emergent requirement."
       },
       {
         "prompt": "How should the project manager characterize the developer adding an animated dashboard the customer never requested?",
@@ -701,19 +701,19 @@
         ],
         "distractors": [
           {
-            "text": "Scope creep: the scope is expanding without control.",
-            "trap": "Scope creep is driven by external requests; this extra work originates inside the team with no one asking for it, which is gold plating."
+            "text": "Scope creep: the project's scope is expanding beyond the baseline without control.",
+            "trap": "Concept confusion: scope creep is driven by external requests, but this extra work originates inside the team with no one asking."
           },
           {
-            "text": "Value delivery: any extra feature that delights the customer is a benefit worth keeping.",
-            "trap": "Unrequested features are not authorized value; they add cost, schedule, and quality risk and can disappoint if they were never wanted."
+            "text": "Value delivery: the team is proactively adding features that could delight the customer.",
+            "trap": "Concept confusion: unrequested features are not authorized value; they add cost and risk and may disappoint if never wanted."
           },
           {
-            "text": "Continuous improvement: the developer is enhancing quality beyond the baseline.",
-            "trap": "Quality means conformance to requirements, not exceeding them; building beyond spec is gold plating, not a quality gain."
+            "text": "Continuous improvement: the developer is enhancing the product beyond the baseline quality.",
+            "trap": "Concept confusion: quality means conformance to requirements, not exceeding them; building beyond spec is gold plating."
           }
         ],
-        "explanation": "Gold plating is the team voluntarily exceeding requirements. It is internally generated, unlike scope creep, and it consumes resources and introduces risk without delivering authorized value."
+        "explanation": "Gold plating is the team voluntarily exceeding requirements. It is internally generated, unlike scope creep, and unrequested features are not authorized value or a quality gain; they consume resources and add risk."
       },
       {
         "prompt": "The new usage report the stakeholder wants does appear genuinely useful to the business. What is the correct way to handle it?",
@@ -722,25 +722,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Have the request submitted as a change request and run it through integrated change control so its impact on scope, cost, and schedule is assessed before any work proceeds.",
+            "text": "Submit it as a change request through integrated change control so its scope, cost, and schedule impact is assessed first.",
             "why": "Even valuable additions must be evaluated and approved through change control so the impact is understood and the baselines stay current."
           }
         ],
         "distractors": [
           {
-            "text": "Let the developers keep building it since it is small and clearly helpful.",
-            "trap": "Small and helpful is still uncontrolled change; skipping change control is how scope creep takes hold."
+            "text": "Approve the report yourself since its business value is obvious, then update the scope baseline and let the developers who already started it carry on so the useful feature is not delayed.",
+            "trap": "Premature solution: even a valuable change needs integrated change control to assess impact before it is authorized and re-baselined."
           },
           {
-            "text": "Refuse the request outright because it is not in the current scope baseline.",
-            "trap": "Flatly refusing a legitimate need is poor stakeholder management; the right move is to evaluate it through change control, not reject it."
+            "text": "Add it to the product backlog and prioritize it in a future release so the useful idea is not lost.",
+            "trap": "Too narrow: parking it skips assessing its impact and the change control decision the current baseline requires."
           },
           {
-            "text": "Let the development team decide whether it is worth doing.",
-            "trap": "Authorizing scope changes is not the team's call; it belongs to the change control board or designated authority."
+            "text": "Ask the sponsor to approve the new report directly so the useful feature is not delayed.",
+            "trap": "Procedural deflection: going straight to the sponsor bypasses the integrated change control process where impact is assessed."
           }
         ],
-        "explanation": "A potentially valuable change is still a change. The project manager routes it through the integrated change control process so the impact is assessed and an authorized decision is made before work begins."
+        "explanation": "A valuable change is still a change. It goes through integrated change control so its impact is assessed and an authorized decision is made. Approving it yourself, parking it in the backlog, or going straight to the sponsor all skip that governed assessment."
       },
       {
         "prompt": "What is the best way for the project manager to deal with the developer's unrequested animated dashboard?",
@@ -749,25 +749,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Coach the developer to stop work beyond the baseline, park or remove the unrequested feature, and reinforce delivering exactly to the agreed requirements.",
+            "text": "Coach the developer to stop work beyond the baseline, remove the unrequested feature, and reinforce delivering to the agreed requirements.",
             "why": "Gold plating should be stopped because it adds cost and risk without authorized value; the team is realigned to the approved scope."
           }
         ],
         "distractors": [
           {
-            "text": "Keep the dashboard as a free bonus for the customer since the work is already done.",
-            "trap": "Keeping unrequested work normalizes gold plating and carries forward its added maintenance and quality risk."
+            "text": "Submit a change request to formally add the dashboard so the effort already spent is not wasted.",
+            "trap": "Premature solution: no one requested it, so there is no business need for change control; the fix is to stop and realign."
           },
           {
-            "text": "Submit a change request to formally add the dashboard so the extra effort is not wasted.",
-            "trap": "No one requested this feature, so there is no justified business need to put through change control; the fix is to stop and realign, not to retro-authorize it."
+            "text": "Keep the finished dashboard since it is already built and may impress the customer at no extra cost.",
+            "trap": "Value confusion: keeping unrequested work normalizes gold plating and carries forward its maintenance and quality risk."
           },
           {
-            "text": "Bill the customer for the additional dashboard work as a value-added extra.",
-            "trap": "Charging for work the customer never asked for damages trust and still does not address the underlying gold plating."
+            "text": "Ask the developer to simplify the dashboard so it adds less risk while still keeping the extra feature.",
+            "trap": "Symptom not root cause: trimming the feature treats the symptom, but building beyond the baseline at all is what should stop."
           }
         ],
-        "explanation": "Gold plating is corrected by realigning the team to the scope baseline. Because no stakeholder requested the feature, there is no basis to formalize it; the work is stopped and the developer is coached toward conformance to requirements."
+        "explanation": "Gold plating is corrected by stopping the work and realigning to the baseline. Because no one requested the feature, there is no business need to formalize it, keep it, or merely trim it; the team is coached back to conformance with requirements."
       }
     ],
     "tags": [
@@ -794,25 +794,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Record it in the risk register, written as cause, risk event, and effect, and assign a risk owner to monitor and manage it.",
+            "text": "Record it in the risk register as cause, event, and effect, and assign an owner to monitor and manage it.",
             "why": "Identified risks are documented in the risk register with a clear cause-event-effect statement and an owner, which is the entry point of the risk process."
           }
         ],
         "distractors": [
           {
-            "text": "Immediately purchase insurance to cover any losses if the cutover fails.",
-            "trap": "Jumping to a transfer response skips identification and analysis; you do not yet know the priority or the best strategy."
+            "text": "Extend the contractor's engagement now, before the specialist commits elsewhere, to lock in their availability through the entire cutover window and the days of stabilization that follow.",
+            "trap": "Premature solution: jumping to a response skips identification and analysis, so you do not yet know the priority or best strategy."
           },
           {
-            "text": "Quietly add a few extra days of buffer to the schedule and say nothing.",
-            "trap": "Padding estimates hides the risk instead of documenting and managing it transparently, and undermines reserve discipline."
+            "text": "Assess the probability and impact of losing the specialist before recording anything formally.",
+            "trap": "Wrong sequence: analysis comes after the risk is captured; recording it with an owner is the entry point that precedes assessment."
           },
           {
-            "text": "Wait until closer to the cutover date when there is more information before doing anything.",
-            "trap": "Delaying documentation lets a known threat go unmanaged; risks are recorded and tracked as soon as they are identified."
+            "text": "Cross-train a second engineer immediately so the project is not dependent on one contractor.",
+            "trap": "Premature solution: cross-training may be the right response later, but acting before the risk is logged and analyzed is out of sequence."
           }
         ],
-        "explanation": "The first step once a risk is identified is to capture it in the risk register with a structured statement and an assigned owner, so it can be analyzed and managed rather than forgotten or hidden."
+        "explanation": "The first step once a risk is identified is to capture it in the risk register with a cause-event-effect statement and an owner. Extending the contractor or cross-training may be right later, and analysis follows, but recording it is the entry point."
       },
       {
         "prompt": "With several risks now on the register, how should the project manager decide how much attention this one deserves relative to the others?",
@@ -827,19 +827,19 @@
         ],
         "distractors": [
           {
-            "text": "Run a quantitative Monte Carlo simulation across the whole schedule before doing anything else.",
-            "trap": "Quantitative modeling is heavier and usually follows qualitative screening; it is not the first prioritization step for a single emerging risk."
+            "text": "Run a quantitative Monte Carlo simulation across the schedule to rank this risk precisely.",
+            "trap": "Wrong sequence: quantitative modeling is heavier and follows qualitative screening; it is not the first prioritization step."
           },
           {
-            "text": "Calculate the expected monetary value of the risk and place it directly in the budget.",
-            "trap": "EMV is a quantitative technique; prioritization here starts with a qualitative probability and impact assessment, not a dollar figure."
+            "text": "Calculate the risk's expected monetary value and use the figure to set its priority.",
+            "trap": "Wrong tool: EMV is a quantitative technique; prioritization starts with a qualitative probability-and-impact assessment, not a dollar figure."
           },
           {
-            "text": "Skip analysis and respond now, since losing the specialist is obviously the biggest threat.",
-            "trap": "Skipping prioritization assumes the answer; even a serious-looking risk is assessed for probability and impact so responses are proportionate."
+            "text": "Compare this risk only against the cutover deadline, since a fixed date makes it the top threat.",
+            "trap": "Too narrow: assuming the ranking skips assessing probability and impact so responses stay proportionate across all risks."
           }
         ],
-        "explanation": "Qualitative risk analysis rates probability and impact to prioritize risks. It is the quick screening step that decides which risks justify deeper analysis or an active response."
+        "explanation": "Qualitative analysis rates probability and impact to prioritize risks quickly. Monte Carlo and EMV are heavier quantitative techniques that follow screening, and assuming the deadline makes it top skips the proportionate assessment."
       },
       {
         "prompt": "The risk ranks as a high-priority threat. Which response strategy best fits the situation?",
@@ -848,25 +848,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Mitigate the threat by extending the contractor through the cutover window and cross-training a second engineer as backup to reduce the probability and impact.",
+            "text": "Mitigate by extending the contractor through the cutover and cross-training a backup engineer to reduce probability and impact.",
             "why": "Mitigation reduces the probability or impact of a threat; securing the specialist and building a backup directly lowers both."
           }
         ],
         "distractors": [
           {
-            "text": "Accept the risk passively and deal with it only if the specialist actually becomes unavailable.",
+            "text": "Escalate the risk to the sponsor and the steering committee, since a third-party contractor's availability sits outside the project's direct control and may need their leverage to resolve.",
+            "trap": "Procedural deflection: escalation is for risks beyond project authority, but extending a contract and cross-training are within the PM's control."
+          },
+          {
+            "text": "Transfer the risk by buying insurance or a penalty-backed contract to cover a failed cutover.",
+            "trap": "Wrong strategy: transfer shifts financial impact but does not keep the specialist available; the project can reduce the threat directly."
+          },
+          {
+            "text": "Accept the risk and prepare a fallback to reschedule the cutover if the specialist is unavailable.",
             "trap": "Passive acceptance leaves a high-priority threat to a near-irreversible deadline unmanaged when proactive reduction is feasible."
-          },
-          {
-            "text": "Exploit the risk so the project is certain to capture its upside.",
-            "trap": "Exploit is an opportunity strategy; this is a threat, so an opportunity response is the wrong category entirely."
-          },
-          {
-            "text": "Escalate the risk to the sponsor because availability of a contractor is outside the project's control.",
-            "trap": "Escalation is for risks outside the project's authority; extending a contract and cross-training are squarely within the project manager's control."
           }
         ],
-        "explanation": "Threat strategies are escalate, avoid, transfer, mitigate, and accept. Because the project can act directly to reduce probability and impact, mitigation through contract extension and cross-training fits best. Exploit applies only to opportunities."
+        "explanation": "Threat strategies are escalate, avoid, transfer, mitigate, and accept. Because the project can act directly to reduce probability and impact, mitigation fits; escalation, transfer, and acceptance each hand off or leave a controllable threat unmanaged."
       },
       {
         "prompt": "After mitigation, some residual risk remains and the planned responses cost money. Which funding source should the project manager use for these planned risk responses?",
@@ -875,25 +875,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Contingency reserve, which funds responses to identified risks, is part of the cost baseline, and is controlled by the project manager.",
+            "text": "Contingency reserve, which funds responses to identified risks, sits in the cost baseline under the project manager's control.",
             "why": "Contingency reserves cover known risks with planned responses and sit inside the cost baseline under the project manager's authority."
           }
         ],
         "distractors": [
           {
-            "text": "Management reserve, since any risk funding should be kept outside the project manager's control.",
-            "trap": "Management reserve is for unknown-unknowns, sits outside the cost baseline, and needs sponsor or management approval to use; it is not for planned responses to identified risks."
+            "text": "Management reserve, since risk funding should sit outside the project manager's direct control.",
+            "trap": "Concept confusion: management reserve is for unknown-unknowns, sits outside the cost baseline, and is not for planned responses to identified risks."
           },
           {
-            "text": "Pad each individual task estimate so the money is hidden in the work packages.",
-            "trap": "Padding estimates destroys transparency and reserve discipline; identified-risk responses belong in a visible contingency reserve."
+            "text": "The project's existing schedule and cost slack, quietly absorbing the response costs within the current work-package estimates so no extra reserve has to be requested or drawn down.",
+            "trap": "Too narrow: relying on undistinguished slack hides the reserve; identified-risk responses belong in a visible contingency reserve."
           },
           {
-            "text": "Request a separate line in the sponsor's capital budget outside the project entirely.",
-            "trap": "Planned responses to identified risks are funded from contingency within the cost baseline, not from an external budget line."
+            "text": "A separate risk budget requested from the sponsor so the response money is tracked apart from the project.",
+            "trap": "Procedural deflection: planned responses to identified risks are funded from contingency within the cost baseline, not an external line."
           }
         ],
-        "explanation": "Contingency reserves fund planned responses to identified, known risks and are part of the cost baseline controlled by the project manager. Management reserves cover unforeseen, unknown risks, sit outside the baseline, and require management approval to access."
+        "explanation": "Contingency reserves fund planned responses to identified risks and sit in the cost baseline under the project manager. Management reserve covers unknown-unknowns and needs approval, while hiding money in slack or an external line breaks reserve discipline."
       }
     ],
     "tags": [
@@ -920,25 +920,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "The team is in the early forming and storming stages, where uncertainty about roles and some conflict over ownership are normal and expected.",
+            "text": "The team is in the early forming and storming stages, where role uncertainty and some conflict over ownership are normal.",
             "why": "Caution, role confusion, dependence on the leader, and early disagreements are textbook signs of the forming and storming stages of team development."
           }
         ],
         "distractors": [
           {
-            "text": "The team is dysfunctional, and the project manager should request replacements for the members who are arguing.",
-            "trap": "Treating normal early-stage friction as dysfunction and swapping people prevents the team from ever maturing."
+            "text": "The team is norming, since the open disagreement shows members are now comfortable challenging each other.",
+            "trap": "Misread stage: a team still deferring every decision and unsure of roles has not yet normed; this is early-stage friction."
           },
           {
-            "text": "The team is performing, and the disagreement is healthy debate between high-trust peers.",
-            "trap": "A team that defers all decisions and is still unsure of roles is not yet performing; reading it that way leads to under-supporting them."
+            "text": "The team is performing, and the debate over ownership is healthy challenge among high-trust peers.",
+            "trap": "Misread stage: a team that defers all decisions and is unsure of roles is not performing, which leads to under-supporting them."
           },
           {
-            "text": "It is a personality clash between two individuals that has nothing to do with team development.",
-            "trap": "Framing storming-stage conflict as a mere personality clash misses that this is a predictable phase the team needs help moving through."
+            "text": "It is a localized personality clash between the two members who argued over integration testing, rather than a developmental stage the whole team is moving through together.",
+            "trap": "Too narrow: framing storming-stage conflict as a personality clash misses that it is a predictable phase the team needs help through."
           }
         ],
-        "explanation": "Tuckman describes forming, storming, norming, performing, and adjourning. The behaviors here -- caution, role confusion, leader dependence, and early conflict -- place the team in forming and storming, which the project manager should expect and guide, not punish."
+        "explanation": "Tuckman runs forming, storming, norming, performing, and adjourning. Caution, role confusion, leader dependence, and early conflict place this team in forming and storming; reading it as norming, performing, or a personality clash misjudges the stage."
       },
       {
         "prompt": "Applying situational leadership to a team at this stage of development, which leadership style is most appropriate?",
@@ -953,19 +953,19 @@
         ],
         "distractors": [
           {
-            "text": "Fully delegate decisions to the team right away so they take ownership and grow faster.",
-            "trap": "Delegating suits a mature, performing team; delegating to a forming team that already defers everything will increase confusion and slippage."
+            "text": "Delegate decisions to the team now so they take ownership and mature more quickly.",
+            "trap": "Wrong style: delegating suits a mature team; for a forming team that already defers everything it increases confusion and slippage."
           },
           {
-            "text": "Step back and take a hands-off, laissez-faire approach so the team self-organizes on its own.",
-            "trap": "A hands-off style abandons an early team that needs direction; it is delegation without the readiness to support it."
+            "text": "Take a supporting role, backing the team's own decisions while staying largely hands-off on direction.",
+            "trap": "Wrong style: a low-direction supporting stance leaves an early team without the structure it needs to clarify roles."
           },
           {
-            "text": "Use a purely directive, command-and-control style with no coaching or explanation.",
-            "trap": "Pure command and control supplies direction but no development; situational leadership pairs direction with coaching so maturity grows."
+            "text": "Give firm, directive instructions on every task without spending time coaching or explaining.",
+            "trap": "Wrong style: pure command supplies direction but no development; situational leadership pairs direction with coaching so maturity grows."
           }
         ],
-        "explanation": "Situational leadership matches style to team readiness. An early, low-maturity team needs high direction and supportive coaching to clarify roles and build capability, not full delegation or a hands-off stance."
+        "explanation": "Situational leadership matches style to readiness. An early, low-maturity team needs high direction plus coaching to clarify roles and build capability; delegating, a hands-off supporting stance, or pure command each supply too little direction or too little development."
       },
       {
         "prompt": "Which two concrete actions will best help develop this team and resolve the confusion over who owns integration testing? (Select 2)",
@@ -984,19 +984,19 @@
         ],
         "distractors": [
           {
-            "text": "Identify which of the two members is at fault for the argument and note it for their performance review.",
-            "trap": "Assigning blame for normal storming-stage conflict harms trust and avoids fixing the underlying role ambiguity."
+            "text": "Assign integration testing to whichever of the two members has the most relevant experience yourself, and announce it in the next stand-up to settle the dispute immediately and unblock the team.",
+            "trap": "Premature solution: imposing an owner resolves the symptom but skips building the shared role clarity and norms the team needs."
           },
           {
-            "text": "Require that every decision continue to route through the project manager to keep things consistent.",
-            "trap": "Permanently centralizing decisions reinforces the dependence that is holding the team back rather than developing it."
+            "text": "Hold a team-building social session to improve rapport before addressing the role questions.",
+            "trap": "Too narrow: rapport helps, but it does not resolve the concrete role ambiguity behind the integration-testing dispute."
           },
           {
             "text": "Escalate the integration-testing disagreement to the sponsor to decide who is right.",
-            "trap": "Escalating an internal role question the project manager can resolve abdicates the team-development responsibility and overburdens the sponsor."
+            "trap": "Procedural deflection: escalating an internal role question the PM can resolve abdicates the team-development responsibility."
           }
         ],
-        "explanation": "Building a team charter and clarifying roles with a RACI are direct, developmental actions that give an early team the structure it needs and resolve the ownership ambiguity behind the conflict."
+        "explanation": "A team-built charter and a RACI give an early team shared norms and explicit ownership, resolving the testing dispute at its root. Imposing an owner, a social session, or escalating to the sponsor each skip the developmental step or the role clarity needed."
       },
       {
         "prompt": "Despite the clarified roles, the two members clash again in a meeting over how integration testing should be run. What conflict-handling approach should the project manager use?",
@@ -1005,25 +1005,25 @@
         "present": 4,
         "correct": [
           {
-            "text": "Facilitate a collaborate and problem-solve discussion that surfaces both members' underlying concerns and works toward a solution both can support.",
+            "text": "Facilitate a collaborative problem-solving discussion that surfaces both members' underlying concerns and works toward a solution both support.",
             "why": "Collaborating, or problem solving, addresses the real issue and produces durable, win-win agreements, which is the most effective conflict mode for team development."
           }
         ],
         "distractors": [
           {
-            "text": "Smooth the situation over by emphasizing agreements and asking them to drop the disagreement for now.",
-            "trap": "Smoothing or accommodating papers over the issue; the conflict will resurface because the underlying concern is unresolved."
+            "text": "Broker a compromise in which each member gives some ground and integration testing is split between them along agreed boundaries, so both feel heard and the team can move forward without further delay.",
+            "trap": "Compromising splits the difference without resolving the underlying concern, so a workable but weaker approach results."
           },
           {
-            "text": "Force a resolution by deciding the testing approach yourself and directing both members to follow it.",
-            "trap": "Forcing may end the argument quickly but breeds resentment and does not develop the team's ability to resolve conflict."
+            "text": "Decide the testing approach yourself and direct both members to follow your call.",
+            "trap": "Forcing ends the argument quickly but breeds resentment and does not build the team's ability to resolve conflict."
           },
           {
-            "text": "Withdraw from the conflict and let the two members sort it out between themselves over time.",
-            "trap": "Avoiding or withdrawing leaves a recurring conflict unmanaged during a fragile development stage that needs active facilitation."
+            "text": "Emphasize their shared goals and ask them to set the disagreement aside for now.",
+            "trap": "Smoothing papers over the issue; the conflict resurfaces because the underlying concern is unresolved."
           }
         ],
-        "explanation": "Among the conflict modes -- collaborating, compromising, smoothing, forcing, and withdrawing -- collaborating and problem solving best resolves the root issue and strengthens the team, whereas smoothing, forcing, and withdrawing leave the conflict to recur."
+        "explanation": "Among the conflict modes, collaborating best resolves the root issue and strengthens the team. Compromising, forcing, and smoothing may end the argument but split the difference, breed resentment, or leave the underlying concern to recur."
       }
     ],
     "tags": [
