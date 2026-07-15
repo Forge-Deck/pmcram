@@ -1948,5 +1948,25 @@
   ],
   "Tier": "Core glossary",
   "Source": "PMBOK Guide Sixth Edition, Estimate Costs - Bid Analysis"
+ },
+ {
+  "Term": "Graduated Fixed Price",
+  "Core Meaning": "A graduated fixed-price contract is an agile-friendly agreement whose fixed price adjusts up or down based on when the work is delivered relative to a target date.",
+  "Depth": "Standard",
+  "Expansion": "The parties agree a target delivery date and a base price, plus a higher rate for early delivery and a lower rate for late delivery, so buyer and seller share the risk and reward of schedule performance. It aligns incentives around timely completion without the buyer carrying all the risk of a firm-fixed-price deal or the seller bearing it alone. It is one of several agile contracting models used when scope is expected to evolve but a firm commercial envelope is still needed.",
+  "Deep Dive": null,
+  "Contrast": "Fixed price incentive fee - a graduated fixed price scales the price itself by delivery timing, while FPIF keeps a fixed price and adds a separate incentive fee for meeting performance targets.",
+  "Example": "A vendor and client agree a graduated fixed-price contract: the base fee applies at the target date, with a 10 percent bonus for delivery a month early and a 10 percent reduction if a month late.",
+  "Synonyms": [
+   "Graduated fixed-price contract"
+  ],
+  "Related Terms": [
+   "Fixed price contract",
+   "Fixed price incentive fee",
+   "Agile contracting",
+   "Time and materials contract"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]

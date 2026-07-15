@@ -3289,5 +3289,45 @@
   ],
   "Tier": "Adjacent concept",
   "Source": "PMBOK Guide Seventh Edition - models and methods supporting delivery, uncertainty, and stakeholder-centered problem solving"
+ },
+ {
+  "Term": "ESVP",
+  "Core Meaning": "ESVP is a retrospective warm-up in which team members anonymously declare their attitude toward the session as Explorer, Shopper, Vacationer, or Prisoner.",
+  "Depth": "Standard",
+  "Expansion": "Facilitators use ESVP at the start of a retrospective to read the room and adapt the session. Explorers are eager to learn and improve, Shoppers will happily leave with one good idea, Vacationers are glad to be away from routine work but only loosely engaged, and Prisoners feel forced to attend. Responses are collected anonymously and shown as an aggregate so no individual is exposed. A high share of Vacationers or Prisoners signals low engagement or psychological safety, prompting the facilitator to adjust the format or address it before continuing.",
+  "Deep Dive": null,
+  "Contrast": "Plus/Delta - ESVP gauges participants engagement and mood before a retrospective, while Plus/Delta captures what went well and what to change during it.",
+  "Example": "Before a sprint retrospective the Scrum Master runs an anonymous ESVP poll and, seeing several Prisoners, opens by clarifying how the teams input will actually shape the next sprint.",
+  "Synonyms": [
+   "Explorer Shopper Vacationer Prisoner"
+  ],
+  "Related Terms": [
+   "Retrospective",
+   "Sprint retrospective",
+   "Psychological safety",
+   "Facilitation"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Remember the Future",
+  "Core Meaning": "Remember the Future is a forward-looking retrospective (futurespective) technique in which the team imagines a future point where the work has succeeded and describes what made it so.",
+  "Depth": "Standard",
+  "Expansion": "Rather than reviewing the past, participants mentally travel to a date after a successful release and remember the actions, decisions, and conditions that led to that success. Framing the goal as already achieved makes it easier for people to surface concrete enablers and commitments than an open-ended question about how to succeed. The outputs become candidate actions or working agreements for the coming period. It is the mirror image of a pre-mortem, which imagines failure to surface risks.",
+  "Deep Dive": null,
+  "Contrast": "Pre-mortem - Remember the Future imagines success and works backward to the enablers, whereas a pre-mortem imagines failure to expose risks before they occur.",
+  "Example": "At iteration planning the team imagines the demo two months out has gone perfectly and lists what they must have done - automated tests, early stakeholder reviews - then turns those into commitments.",
+  "Synonyms": [
+   "Futurespective"
+  ],
+  "Related Terms": [
+   "Retrospective",
+   "Pre-mortem",
+   "Iteration planning",
+   "Working agreement"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]
