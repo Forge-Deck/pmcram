@@ -144,6 +144,45 @@
         },
         "blocks": [
           {
+            "kind": "terms",
+            "title": "Prioritise beyond probability x impact",
+            "note": "Two risks can score the same on probability x impact yet rank very differently once urgency, connectivity, and detectability are weighed.",
+            "items": [
+              {
+                "code": "Urgency",
+                "text": "How soon a response is needed before the window to act closes."
+              },
+              {
+                "code": "Proximity",
+                "text": "How soon the risk could actually hit the project."
+              },
+              {
+                "code": "Dormancy",
+                "text": "How long between the event occurring and its impact becoming visible."
+              },
+              {
+                "code": "Manageability",
+                "text": "How readily the owner can influence or control the risk."
+              },
+              {
+                "code": "Detectability",
+                "text": "How easily the risk can be spotted before it bites."
+              },
+              {
+                "code": "Connectivity",
+                "text": "How linked it is to other risks - a trigger for cascades."
+              },
+              {
+                "code": "Strategic impact",
+                "text": "Effect on the organisation's strategic goals, beyond this project."
+              },
+              {
+                "code": "Propinquity",
+                "text": "How significant the risk feels to the stakeholders affected."
+              }
+            ]
+          },
+          {
             "kind": "tip",
             "title": "Exam cue",
             "tone": "accent",

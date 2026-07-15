@@ -2653,5 +2653,77 @@
   ],
   "Tier": "Adjacent concept",
   "Source": "PMBOK Guide Seventh Edition — Team Performance Domain (team culture and high-performing teams)"
+ },
+ {
+  "Term": "Cialdini's Six Principles of Persuasion",
+  "Core Meaning": "Cialdini's six principles of persuasion - reciprocity, commitment and consistency, social proof, authority, liking, and scarcity - describe the psychological levers that make people more likely to agree.",
+  "Depth": "Standard",
+  "Expansion": "Robert Cialdini identified six drivers a project manager can use ethically to build stakeholder support: reciprocity (people repay favours), commitment and consistency (people honour prior public agreements), social proof (people follow their peers), authority (people defer to credible experts), liking (people say yes to those they trust), and scarcity (people value what is limited). The intent is transparent, ethical influence that earns genuine agreement, not manipulation.",
+  "Deep Dive": null,
+  "Contrast": "Formal authority - Cialdini's principles win voluntary agreement through influence, whereas formal authority compels action through positional power.",
+  "Example": "To gain buy-in for a new process, a project manager shows that a respected peer team already adopted it (social proof) and secures a small public commitment from each lead.",
+  "Synonyms": [
+   "Cialdini principles of influence",
+   "Six principles of persuasion"
+  ],
+  "Related Terms": [
+   "Stakeholder engagement",
+   "Negotiation",
+   "Emotional intelligence",
+   "Influencing"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Hawthorne effect",
+  "Core Meaning": "The Hawthorne effect is the tendency of people to change their behaviour, usually improving performance, simply because they know they are being observed or measured.",
+  "Depth": "Standard",
+  "Expansion": "Named after studies at the Hawthorne Works, it warns that attention and measurement can themselves alter results, so a short-term lift may not reflect a durable change. For project managers it cuts both ways: visibility and genuine interest can motivate a team, but metrics under close scrutiny can be gamed, so performance data should be read with care.",
+  "Deep Dive": null,
+  "Contrast": "Observer effect is the broad idea that measuring something disturbs it; the Hawthorne effect is the specific case where people improve because they know they are being watched.",
+  "Example": "Task throughput jumps the week a manager starts publishing a daily dashboard, then settles back once the novelty of being watched fades.",
+  "Related Terms": [
+   "Team performance",
+   "Metrics",
+   "Motivation theory"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "HIPPO",
+  "Core Meaning": "HIPPO - the Highest Paid Person's Opinion - is a decision anti-pattern where a choice is driven by the most senior person's view rather than by evidence or the expertise of the people closest to the work.",
+  "Depth": "Standard",
+  "Expansion": "When a room defers to seniority or pay grade, data, user feedback, and the team's judgement get overridden. Data-informed and agile cultures guard against it by making decisions transparent, inviting dissent, and grounding choices in evidence. A project manager counters a HIPPO decision by surfacing the relevant data and giving quieter voices a structured way to contribute.",
+  "Deep Dive": null,
+  "Contrast": "Data-informed decision - a HIPPO decision follows the most senior opinion, whereas a data-informed decision follows evidence and analysis.",
+  "Example": "A sponsor overrules the team's tested estimate with a gut-feel date; recognising the HIPPO pattern, the project manager brings historical velocity data back into the conversation.",
+  "Synonyms": [
+   "Highest Paid Person's Opinion"
+  ],
+  "Related Terms": [
+   "Decision-making",
+   "Cognitive bias",
+   "Servant leadership"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Theory Z",
+  "Core Meaning": "Theory Z, proposed by William Ouchi, is a management style built on long-term employment, consensus-based decision-making, and holistic concern for employees, aiming to lift loyalty and productivity.",
+  "Depth": "Standard",
+  "Expansion": "It extends McGregor's Theory X and Theory Y by blending Japanese and American management practices: stable employment, slow evaluation and promotion, shared responsibility for decisions, and care for the whole person rather than just their output. The intended result is high trust, motivation, and long-term commitment. On the exam it appears alongside Theory X and Theory Y as a motivation and leadership model.",
+  "Deep Dive": null,
+  "Contrast": "Theory Y assumes people are self-motivated and seek responsibility; Theory Z adds the organisational commitments - job security, consensus decisions, and holistic care - that sustain that motivation over the long term.",
+  "Example": "A firm applying Theory Z rotates staff slowly through roles, decides major changes by team consensus, and invests in long-term development to retain expertise.",
+  "Related Terms": [
+   "Theory X and Theory Y",
+   "Motivation theory",
+   "Maslow hierarchy of needs"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]

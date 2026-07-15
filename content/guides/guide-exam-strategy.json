@@ -208,6 +208,40 @@
             ]
           },
           {
+            "kind": "table",
+            "title": "Keyword cheat-sheet",
+            "rows": [
+              {
+                "key": "First / next",
+                "value": "Start by assessing or reviewing; 'next' resumes from where the scenario stops, not the start of the whole process."
+              },
+              {
+                "key": "Best / most appropriate",
+                "value": "Every option is plausible - pick the strongest, most PMI-aligned one and drop the merely acceptable."
+              },
+              {
+                "key": "Always / never / must / only",
+                "value": "Usually a distractor; sound judgement is contextual, not absolute."
+              },
+              {
+                "key": "Prevent / avoid recurrence",
+                "value": "Fix the root cause or process (preventive action, lessons learned), not just the symptom."
+              },
+              {
+                "key": "Least likely / EXCEPT",
+                "value": "Inverted logic - hunt the wrong or worst option, and read them all."
+              },
+              {
+                "key": "Agile cues (backlog, sprint, Product Owner)",
+                "value": "Favour collaboration, transparency, and empowering a self-managing team."
+              },
+              {
+                "key": "Predictive cues (baseline, CCB, WBS)",
+                "value": "Favour integrated change control and reviewing the relevant plan or baseline."
+              }
+            ]
+          },
+          {
             "kind": "tip",
             "title": "Exam tip",
             "text": "On 'first' questions, 'first' almost always means assess, review, or clarify - not decide, escalate, or implement."

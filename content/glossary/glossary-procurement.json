@@ -1968,5 +1968,46 @@
   ],
   "Tier": "Practitioner term",
   "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Design-Build",
+  "Core Meaning": "Design-Build is a delivery method in which a single contract makes one party responsible for both designing and constructing the deliverable.",
+  "Depth": "Standard",
+  "Expansion": "Because design and construction sit with one accountable provider, the buyer has a single point of responsibility, overlap between design and build can shorten the schedule, and much of the delivery risk shifts to the contractor. The trade-off is less buyer control over design detail and a need for well-defined performance requirements up front. It is common in construction and engineering projects.",
+  "Deep Dive": null,
+  "Contrast": "Design-Bid-Build separates design and construction into two contracts, whereas Design-Build combines them under one provider.",
+  "Example": "A hospital owner awards a single Design-Build contract so one firm is accountable for both the design and the finished building against agreed performance criteria.",
+  "Synonyms": [
+   "DB"
+  ],
+  "Related Terms": [
+   "Design-Bid-Build",
+   "Turnkey contract",
+   "Statement of work",
+   "Fixed price contract"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "Design-Bid-Build",
+  "Core Meaning": "Design-Bid-Build is a delivery method in which the buyer contracts the design first, then competitively bids the construction as a separate contract based on that completed design.",
+  "Depth": "Standard",
+  "Expansion": "The three sequential phases - design, bid, then build - give the buyer maximum control over the design and a clear price through competitive tender, at the cost of a longer overall schedule and a split of responsibility that can lead to disputes between designer and builder. It is the traditional construction delivery route.",
+  "Deep Dive": null,
+  "Contrast": "Design-Build combines design and construction under one accountable provider, whereas Design-Bid-Build keeps them as separate, sequential contracts for greater buyer control.",
+  "Example": "A council has its bridge designed by an engineering firm, then tenders the construction separately to the lowest qualified bidder using that design.",
+  "Synonyms": [
+   "DBB",
+   "Traditional delivery method"
+  ],
+  "Related Terms": [
+   "Design-Build",
+   "Invitation for bid",
+   "Statement of work",
+   "Fixed price contract"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]

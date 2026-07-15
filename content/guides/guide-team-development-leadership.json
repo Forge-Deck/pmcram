@@ -71,6 +71,33 @@
             ]
           },
           {
+            "kind": "table",
+            "title": "Lead each stage differently",
+            "note": "Teams can slip back a stage when membership or context changes - re-read the stage and adjust your style rather than assuming steady progress.",
+            "rows": [
+              {
+                "key": "Forming",
+                "value": "Directing - give clear direction, goals, and structure."
+              },
+              {
+                "key": "Storming",
+                "value": "Coaching - mediate, clarify roles, and keep the goal visible."
+              },
+              {
+                "key": "Norming",
+                "value": "Supporting - share decisions and reinforce working agreements."
+              },
+              {
+                "key": "Performing",
+                "value": "Delegating - step back, let the team self-manage, and clear blockers."
+              },
+              {
+                "key": "Adjourning",
+                "value": "Releasing - recognise contribution, capture lessons, and transition people well."
+              }
+            ]
+          },
+          {
             "kind": "tip",
             "title": "Cue",
             "tone": "good",
@@ -189,6 +216,20 @@
             ]
           },
           {
+            "kind": "terms",
+            "title": "Two more people-behaviour models",
+            "items": [
+              {
+                "code": "Theory Z",
+                "text": "Ouchi's model: long-term employment, consensus decisions, and whole-person care build the loyalty that sustains Theory Y."
+              },
+              {
+                "code": "Hawthorne effect",
+                "text": "People improve when they know they are watched; attention can motivate, but metrics under scrutiny can be gamed - read the data with care."
+              }
+            ]
+          },
+          {
             "kind": "tip",
             "title": "Herzberg trap",
             "tone": "warn",
@@ -247,6 +288,37 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "kind": "terms",
+            "title": "Cialdini's six levers of influence",
+            "note": "Use these to earn genuine agreement, not to pressure - influence, not manipulation.",
+            "items": [
+              {
+                "code": "Reciprocity",
+                "text": "People repay favours - give help and value first."
+              },
+              {
+                "code": "Commitment",
+                "text": "People honour prior public agreements - secure small, visible commitments."
+              },
+              {
+                "code": "Social proof",
+                "text": "People follow peers - show that similar teams already do it."
+              },
+              {
+                "code": "Authority",
+                "text": "People defer to credible experts - bring in the right sponsor or specialist."
+              },
+              {
+                "code": "Liking",
+                "text": "People say yes to those they trust - build rapport and listen."
+              },
+              {
+                "code": "Scarcity",
+                "text": "People value what is limited - be honest about real time or resource constraints."
               }
             ]
           },
@@ -631,6 +703,32 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "kind": "table",
+            "title": "If you must remove a team member",
+            "rows": [
+              {
+                "key": "1. Document",
+                "value": "Record the specific performance or conduct issue with facts and dates, not opinions."
+              },
+              {
+                "key": "2. Support first",
+                "value": "Give feedback, coaching, and a fair chance to improve - unless it is a serious ethics or safety breach."
+              },
+              {
+                "key": "3. Follow policy",
+                "value": "Work with HR and the resource or functional manager; respect contracts and organisational process."
+              },
+              {
+                "key": "4. Communicate",
+                "value": "Notify affected stakeholders and plan knowledge transfer to limit disruption."
+              },
+              {
+                "key": "5. Update artifacts",
+                "value": "Adjust the resource plan, RACI, and risk register, and capture the lesson learned."
               }
             ]
           }

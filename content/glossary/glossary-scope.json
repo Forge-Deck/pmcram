@@ -2722,5 +2722,25 @@
   ],
   "Tier": "Core glossary",
   "Source": "PMBOK Guide Sixth Edition, Project Scope Management - Plan Scope Management process"
+ },
+ {
+  "Term": "Crawford slip method",
+  "Core Meaning": "The Crawford slip method is a structured group technique in which participants write ideas individually on slips that are then collected and grouped, gathering a lot of input quickly while reducing groupthink.",
+  "Depth": "Standard",
+  "Expansion": "A facilitator poses a clear question and everyone writes short responses independently, often over several rounds; the anonymous slips are then sorted into themes and prioritised. Because contributions are private and simultaneous, it surfaces more ideas than open discussion and stops dominant voices or seniority from steering the result. It is useful for requirements gathering, risk identification, and lessons-learned sessions.",
+  "Deep Dive": null,
+  "Contrast": "Brainstorming builds ideas out loud and can be swayed by dominant voices, whereas the Crawford slip method collects ideas privately and simultaneously to reduce that bias.",
+  "Example": "To surface project risks without the loudest voices dominating, a facilitator runs a Crawford slip round and clusters the written risks into themes.",
+  "Synonyms": [
+   "Crawford slip writing"
+  ],
+  "Related Terms": [
+   "Brainstorming",
+   "Nominal group technique",
+   "Affinity diagram",
+   "Requirements gathering"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]

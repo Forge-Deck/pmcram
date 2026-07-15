@@ -1,0 +1,98 @@
+[
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "The stem ends with 'what should the project manager do FIRST?' - what is it really testing?",
+    "back": "Sequence. 'First' rewards the earliest sound step - usually assess the situation, gather information, or review the plan and root cause - before acting, escalating, or changing anything.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "medium",
+    "tip": "First = start by understanding, not by doing."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "How should 'BEST' or 'MOST appropriate' change how you read the options?",
+    "back": "Every option may be defensible - you are picking the strongest, most PMI-aligned action (collaborative, proactive, process-aware), not the only correct one. Eliminate the merely acceptable.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "medium",
+    "tip": "Best = compare good answers, not right vs wrong."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "What do absolutes - 'always', 'never', 'must', 'only', 'guarantee' - usually signal in an option?",
+    "back": "A likely distractor. Real project judgement is contextual, so options with rigid absolutes are often wrong. Prefer answers that adapt to the situation.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "easy",
+    "tip": "Extremes are usually traps."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "The stem asks what to do 'NEXT' - how is that different from 'first'?",
+    "back": "'Next' means something has already happened; choose the logical following step from where the scenario stops, not the very first step of the whole process.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "medium",
+    "tip": "Anchor 'next' to where the story actually stops."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "A stem says 'to PREVENT this from happening again' - which direction does that point you?",
+    "back": "Toward a proactive, root-cause or process fix - a preventive action, updating the plan, or lessons learned - not a one-off correction of the current symptom.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "medium",
+    "tip": "'Prevent / avoid recurrence' = fix the cause and the process."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "The stem says 'LEAST likely' or 'EXCEPT' - what has to change in how you answer?",
+    "back": "The logic is inverted: you are hunting the one wrong or worst option among mostly-right ones. Read every option and flip your usual filter.",
+    "tags": ["Exam", "Strategy", "Keywords"],
+    "difficulty": "medium",
+    "tip": "Negative stems reverse the question - slow down."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "Keywords like backlog, sprint, Product Owner, velocity, or retrospective in a stem tell you what?",
+    "back": "The context is agile / adaptive - favour answers about collaboration, backlog refinement, transparency, and empowering a self-managing team over plan-driven control.",
+    "tags": ["Exam", "Strategy", "Agile"],
+    "difficulty": "medium",
+    "tip": "Match the answer to the delivery approach the keywords signal."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "Keywords like baseline, change control board, WBS, or approved plan signal which approach?",
+    "back": "Predictive / plan-driven - favour answers that follow integrated change control, review the relevant baseline or plan, and respect formal governance.",
+    "tags": ["Exam", "Strategy", "Predictive"],
+    "difficulty": "medium",
+    "tip": "Baselines + CCB = predictive cues."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "When two answers both look right, which PMI pattern breaks the tie?",
+    "back": "Collaborate and analyse before acting; act through the agreed process; escalate only when it is beyond your authority. Prefer the answer that engages the right people and addresses the cause.",
+    "tags": ["Exam", "Strategy", "Mindset"],
+    "difficulty": "hard",
+    "tip": "Collaborate -> analyse -> act via process -> escalate last."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "A stem mentions a conflict, complaint, or upset team member - what lens should you use?",
+    "back": "People-first: favour a direct conversation, coaching, and facilitation to understand and resolve the issue at the lowest level, before process steps or escalation.",
+    "tags": ["Exam", "Strategy", "People"],
+    "difficulty": "medium",
+    "tip": "A human problem usually needs a conversation, not a document."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "An option involves hiding a defect, misreporting status, or treating someone unfairly - what do you do with it?",
+    "back": "Eliminate it immediately. Anything dishonest, non-transparent, or unfair fails the PMI Code of Ethics, no matter how efficient it sounds.",
+    "tags": ["Exam", "Strategy", "Ethics"],
+    "difficulty": "easy",
+    "tip": "Ethics is a hard filter - delete unethical options first."
+  },
+  {
+    "deck": "Exam Keywords & Question Signals",
+    "front": "A stem gives you numbers (CPI 0.8, SPI 1.1) - what is it really asking?",
+    "back": "Interpret, don't just compute: CPI below 1 = over budget, SPI below 1 = behind schedule (above 1 is the reverse). Decide what the indices mean for the decision before choosing an action.",
+    "tags": ["Exam", "Strategy", "Earned Value"],
+    "difficulty": "medium",
+    "tip": "Read what the number means for the project, then act."
+  }
+]

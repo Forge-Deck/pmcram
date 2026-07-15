@@ -981,5 +981,27 @@
   ],
   "Tier": "Core glossary",
   "Source": "PMBOK Guide, interpersonal and team skills (active listening)"
+ },
+ {
+  "Term": "Traffic-light status reporting",
+  "Core Meaning": "Traffic-light (RAG) reporting summarises the status of a project, workstream, or metric using red, amber, and green so its health can be read at a glance.",
+  "Depth": "Standard",
+  "Expansion": "Green means on track, amber (yellow in US usage) means at risk or needs watching, and red means off track and needing intervention. RAG status gives executives a fast, scannable read across many items and is usually paired with a short narrative explaining why an item is amber or red and what is being done. Agreed thresholds matter, or the colours become subjective.",
+  "Deep Dive": null,
+  "Contrast": "An earned-value index such as CPI or SPI gives a precise numerical measure of performance, whereas a RAG status is a quick qualitative signal that usually sits on top of such measures.",
+  "Example": "A programme dashboard shows the integration workstream as amber with a note that a supplier delay is being escalated, while the other workstreams are green.",
+  "Synonyms": [
+   "RAG status",
+   "RAG reporting",
+   "Red-Amber-Green status"
+  ],
+  "Related Terms": [
+   "Status report",
+   "Dashboard",
+   "Work performance report",
+   "Information radiator"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]

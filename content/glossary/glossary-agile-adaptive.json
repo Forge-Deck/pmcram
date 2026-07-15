@@ -3329,5 +3329,27 @@
   ],
   "Tier": "Practitioner term",
   "Source": "not a formal PMI glossary entry"
+ },
+ {
+  "Term": "3-5-3 rule",
+  "Core Meaning": "The 3-5-3 rule is a memory aid for the structure of Scrum: 3 accountabilities, 5 events, and 3 artifacts.",
+  "Depth": "Standard",
+  "Expansion": "The three accountabilities are the Product Owner, the Scrum Master, and the Developers; the five events are the Sprint itself plus Sprint Planning, the Daily Scrum, the Sprint Review, and the Sprint Retrospective; and the three artifacts are the Product Backlog, the Sprint Backlog, and the Increment. It is an informal aid for recalling the framework's moving parts, not an official Scrum Guide term. The current Scrum Guide uses accountabilities rather than roles.",
+  "Deep Dive": null,
+  "Contrast": "The 3-5-3 rule counts Scrum's components, whereas the empirical pillars - transparency, inspection, and adaptation - explain why those components exist.",
+  "Example": "Coaching a new team, the Scrum Master uses the 3-5-3 rule to walk through who is accountable for what, which events to hold, and which artifacts to keep current.",
+  "Synonyms": [
+   "3-5-3 of Scrum"
+  ],
+  "Related Terms": [
+   "Scrum",
+   "Product Owner",
+   "Scrum Master",
+   "Sprint",
+   "Product backlog",
+   "Increment"
+  ],
+  "Tier": "Practitioner term",
+  "Source": "not a formal PMI glossary entry"
  }
 ]
