@@ -712,6 +712,20 @@
             ]
           },
           {
+            "kind": "terms",
+            "title": "Retrospective techniques",
+            "items": [
+              {
+                "code": "ESVP",
+                "text": "Explorer, Shopper, Vacationer, Prisoner - an anonymous opener that reads how engaged people feel before the retro, so the facilitator can adapt the session."
+              },
+              {
+                "code": "RtF",
+                "text": "Remember the Future - a futurespective: imagine the goal already achieved, then work backward to the decisions and actions that made it succeed."
+              }
+            ]
+          },
+          {
             "kind": "tip",
             "title": "Exam tip",
             "text": "If quality problems appear at the end of every sprint, strengthen the Definition of Done, improve testing and integration, and address the root cause rather than extending every sprint.",

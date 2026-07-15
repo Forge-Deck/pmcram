@@ -187,6 +187,10 @@
               {
                 "code": "FPEPA",
                 "text": "Fixed Price with Economic Price Adjustment - price adjusts for defined external economics."
+              },
+              {
+                "code": "GFP",
+                "text": "Graduated Fixed Price - price scales up for early and down for late delivery; shares schedule risk and reward (agile contracting)."
               }
             ]
           },
