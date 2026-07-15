@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JSON builder — PM Cram question/v1</title>
+<meta name="description" content="A client-side tool that turns plain inputs into a valid question/v1 JSON record for PM Cram — the most common single-answer practice question. No libraries, works offline.">
+<link rel="icon" type="image/png" href="./assets/favicon.png">
+<link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site">
+    <img src="./assets/wordmark.png" alt="PM Cram">
+  </header>
+
+  <nav class="site" aria-label="Primary">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="./contributing.html">Contribute</a>
+      <a href="./converter.html" class="active" aria-current="page">JSON builder</a>
+      <a href="./readme.html">README</a>
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>
+    </div>
+  </nav>
+
+  <div class="doc-head">
+    <div class="wrap">
+      <h1>Question JSON builder</h1>
+      <p>Fill in the fields and this tool builds a valid <code>question/v1</code> record — a single-answer practice question, the most common type. Everything runs in your browser; nothing is sent anywhere.</p>
+    </div>
+  </div>
+
+  <div class="doc-body">
+    <div class="wrap">
+      <div class="callout warn" style="margin-top:0">
+        <span class="lbl">Golden rule</span>
+        <p>Make every distractor a plausible "right-but-not-best" action, and make sure your <strong>correct answer is not the longest or most detailed option</strong> — length telegraphs the key.</p>
+      </div>
+
+      <div class="conv-grid">
+        <!-- FORM -->
+        <div class="form-panel">
+          <div class="row2">
+            <div class="field">
+              <label for="domain">Domain <span class="req">*</span></label>
+              <select id="domain">
+                <option value="People">People</option>
+                <option value="Process" selected>Process</option>
+                <option value="Business Environment">Business Environment</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="difficulty">Difficulty <span class="hint">(optional)</span></label>
+              <select id="difficulty">
+                <option value="">— none —</option>
+                <option value="easy">easy</option>
+                <option value="medium">medium</option>
+                <option value="hard">hard</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="topic">Topic <span class="hint">(optional)</span></label>
+            <input type="text" id="topic" placeholder="e.g. Critical Path">
+          </div>
+
+          <div class="field">
+            <label for="prompt">Prompt <span class="req">*</span></label>
+            <textarea id="prompt" placeholder="A stakeholder asks to add a feature mid-sprint. What should the project manager do first?"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="alts">Alternate wordings <span class="hint">(optional — one per line, each becomes an extra equivalent prompt)</span></label>
+            <textarea id="alts" placeholder="Mid-iteration a new requirement arrives. What is the best first action?"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="correct">Correct answer <span class="req">*</span></label>
+            <input type="text" id="correct" placeholder="Assess the change's impact and route it through change control.">
+          </div>
+          <div class="field">
+            <label for="why">Why it's correct <span class="hint">(optional but recommended)</span></label>
+            <textarea id="why" placeholder="Scope changes go through integrated change control, not ad-hoc."></textarea>
+          </div>
+
+          <div class="field">
+            <label>Distractors <span class="hint">(min 2 — each a plausible wrong answer + the trap it represents)</span></label>
+            <div id="distractors"></div>
+            <button type="button" class="btn ghost" id="addDistractor">+ Add distractor</button>
+          </div>
+
+          <div class="field">
+            <label for="explanation">Explanation <span class="hint">(optional — overall rationale shown after answering)</span></label>
+            <textarea id="explanation" placeholder="Evaluate impact, then let change control decide."></textarea>
+          </div>
+
+          <div class="field">
+            <label for="contributor">Your GitHub handle <span class="hint">(optional — for attribution)</span></label>
+            <input type="text" id="contributor" placeholder="your-github-handle">
+          </div>
+        </div>
+
+        <!-- OUTPUT -->
+        <div class="out-panel">
+          <ul class="warns" id="warns"></ul>
+          <div class="out-head">
+            <h3>question/v1 JSON</h3>
+            <div>
+              <span class="copied" id="copied">Copied!</span>
+              <button type="button" class="btn" id="copyBtn">Copy JSON</button>
+            </div>
+          </div>
+          <pre id="out"><code id="outCode"></code></pre>
+          <p class="mini-note">Files under <code>content/questions/</code> are JSON arrays, so this record is wrapped in <code>[ … ]</code> — paste it into a new file, or add it as another element of an existing array.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site">
+    <div class="wrap">
+      <a href="https://forge-deck.github.io/pmcram-legal/support/">Support</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/terms/">Terms</a>·
+      <a href="https://github.com/Forge-Deck/pmcram">Open-source content</a>
+      <p class="disc">PM Cram is an independent study aid. It is not affiliated with, authorised or endorsed by the Project Management Institute, Inc. “PMP”, “PMI” and “PMBOK” are marks of the Project Management Institute, Inc.</p>
+      <p class="disc">© PM Cram · Forge-Deck</p>
+    </div>
+  </footer>
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(id){ return document.getElementById(id); };
+  var distractorsEl = $("distractors");
+
+  var seed = [
+    { text: "Add it immediately to keep the stakeholder happy.", trap: "Bypasses change control; uncontrolled scope creep." },
+    { text: "Reject it outright as out of scope.", trap: "Refusing to evaluate is as wrong as accepting blindly." },
+    { text: "Defer it to the next phase without analysis.", trap: "Still skips impact assessment." }
+  ];
+
+  function makeRow(text, trap){
+    var wrap = document.createElement("div");
+    wrap.className = "distractor";
+
+    var head = document.createElement("div");
+    head.className = "drow";
+    var label = document.createElement("b");
+    label.className = "dlabel";
+    var rm = document.createElement("button");
+    rm.type = "button";
+    rm.className = "rm";
+    rm.textContent = "Remove";
+    rm.addEventListener("click", function(){
+      wrap.parentNode.removeChild(wrap);
+      renumber();
+      render();
+    });
+    head.appendChild(label);
+    head.appendChild(rm);
+
+    var tInput = document.createElement("input");
+    tInput.type = "text";
+    tInput.className = "d-text";
+    tInput.placeholder = "Distractor text (a plausible but wrong action)";
+    tInput.value = text || "";
+    tInput.addEventListener("input", render);
+
+    var trInput = document.createElement("input");
+    trInput.type = "text";
+    trInput.className = "d-trap";
+    trInput.placeholder = "Trap — why it's wrong (optional)";
+    trInput.value = trap || "";
+    trInput.style.marginTop = "7px";
+    trInput.addEventListener("input", render);
+
+    wrap.appendChild(head);
+    wrap.appendChild(tInput);
+    wrap.appendChild(trInput);
+    distractorsEl.appendChild(wrap);
+  }
+
+  function renumber(){
+    var labels = distractorsEl.querySelectorAll(".dlabel");
+    for (var i = 0; i < labels.length; i++){ labels[i].textContent = "Distractor " + (i + 1); }
+  }
+
+  function val(id){ return ($(id).value || "").trim(); }
+
+  function buildRecord(){
+    var rec = {};
+    rec.schema = "question/v1";
+    rec.domain = val("domain");
+
+    var difficulty = val("difficulty");
+    var topic = val("topic");
+    if (difficulty) rec.difficulty = difficulty;
+    if (topic) rec.topic = topic;
+
+    // prompts = [prompt, ...alternates]
+    var prompt = val("prompt");
+    var alts = val("alts").split(/\r?\n/).map(function(s){ return s.trim(); }).filter(Boolean);
+    var prompts = [];
+    if (prompt) prompts.push(prompt);
+    for (var a = 0; a < alts.length; a++){ prompts.push(alts[a]); }
+
+    // gather distractors (only rows with text)
+    var texts = distractorsEl.querySelectorAll(".d-text");
+    var traps = distractorsEl.querySelectorAll(".d-trap");
+    var dist = [];
+    for (var i = 0; i < texts.length; i++){
+      var t = (texts[i].value || "").trim();
+      if (!t) continue;
+      var d = { text: t };
+      var tr = (traps[i].value || "").trim();
+      if (tr) d.trap = tr;
+      dist.push(d);
+    }
+
+    rec.type = "single";
+    rec.select = 1;
+    rec.present = 1 + dist.length; // correct shown + all distractors
+    rec.prompts = prompts;
+
+    var correctText = val("correct");
+    var why = val("why");
+    var correctObj = {};
+    if (correctText) correctObj.text = correctText;
+    if (why) correctObj.why = why;
+    rec.correct = correctText ? [correctObj] : [];
+
+    rec.distractors = dist;
+
+    var explanation = val("explanation");
+    if (explanation) rec.explanation = explanation;
+
+    var contributor = val("contributor");
+    if (contributor) rec.contributor = contributor;
+
+    return rec;
+  }
+
+  function validate(rec){
+    var w = [];
+    if (!rec.prompts.length) w.push("Add a prompt.");
+    if (!rec.correct.length) w.push("Add the correct answer.");
+    if (rec.distractors.length < 2) w.push("Add at least 2 distractors (you have " + rec.distractors.length + ").");
+    if (rec.present <= rec.select) w.push("present must be greater than select — add more distractors.");
+    return w;
+  }
+
+  var lastJSON = "[]";
+
+  function render(){
+    renumber();
+    var rec = buildRecord();
+    lastJSON = JSON.stringify([rec], null, 2);
+    $("outCode").textContent = lastJSON;
+
+    var warns = validate(rec);
+    var ul = $("warns");
+    ul.innerHTML = "";
+    for (var i = 0; i < warns.length; i++){
+      var li = document.createElement("li");
+      li.textContent = warns[i];
+      ul.appendChild(li);
+    }
+  }
+
+  // copy
+  $("copyBtn").addEventListener("click", function(){
+    var done = function(){
+      var c = $("copied");
+      c.classList.add("show");
+      setTimeout(function(){ c.classList.remove("show"); }, 1400);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(lastJSON).then(done, fallbackCopy);
+    } else {
+      fallbackCopy();
+    }
+    function fallbackCopy(){
+      var ta = document.createElement("textarea");
+      ta.value = lastJSON;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      try { document.execCommand("copy"); done(); } catch(e){}
+      document.body.removeChild(ta);
+    }
+  });
+
+  $("addDistractor").addEventListener("click", function(){ makeRow("", ""); renumber(); render(); });
+
+  // wire top-level inputs
+  ["domain","difficulty","topic","prompt","alts","correct","why","explanation","contributor"].forEach(function(id){
+    var el = $(id);
+    el.addEventListener("input", render);
+    el.addEventListener("change", render);
+  });
+
+  // seed initial rows
+  for (var s = 0; s < seed.length; s++){ makeRow(seed[s].text, seed[s].trap); }
+  // seed sample prompt/correct so the preview is populated
+  $("prompt").value = "A stakeholder asks to add a feature mid-sprint. What should the project manager do first?";
+  $("correct").value = "Assess the change's impact and route it through the change-control process.";
+  $("why").value = "Scope changes go through integrated change control, not ad-hoc.";
+  $("topic").value = "Change Control";
+  $("difficulty").value = "medium";
+  $("explanation").value = "Evaluate impact, then let change control decide.";
+  renumber();
+  render();
+})();
+</script>
+</body>
+</html>

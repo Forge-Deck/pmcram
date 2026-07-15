@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>README — PM Cram open content</title>
+<meta name="description" content="A point-in-time mirror of the PM Cram open-content repository README: how the app uses the repo, layout, content types and local workflow.">
+<link rel="icon" type="image/png" href="./assets/favicon.png">
+<link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site">
+    <img src="./assets/wordmark.png" alt="PM Cram">
+  </header>
+
+  <nav class="site" aria-label="Primary">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="./contributing.html">Contribute</a>
+      <a href="./converter.html">JSON builder</a>
+      <a href="./readme.html" class="active" aria-current="page">README</a>
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>
+    </div>
+  </nav>
+
+  <div class="doc-head">
+    <div class="wrap doc">
+      <h1>PM Cram — open content</h1>
+      <p>Study content for the PM Cram: PMP Prep app — glossary terms, flashcards, practice questions, study guides, sequencing and multi-step case questions.</p>
+    </div>
+  </div>
+
+  <div class="doc-body">
+    <div class="wrap doc">
+      <div class="callout accent">
+        <span class="lbl">Mirror</span>
+        <p>This page mirrors the repository <code>README.md</code>. The source of truth is <a href="https://github.com/Forge-Deck/pmcram/blob/main/README.md"><code>README.md</code> on GitHub</a> — if anything here looks out of date, that file wins.</p>
+      </div>
+
+      <blockquote>
+        <p><strong>Independent PMP revision content. Not affiliated with or endorsed by PMI.</strong> PMP and PMI are marks of the Project Management Institute, Inc. Citations reference PMI standards for study purposes only; no PMI text is reproduced.</p>
+      </blockquote>
+
+      <h2>How the app uses this repo</h2>
+      <ol>
+        <li>On sync, the app reads <code>content/manifest.json</code> (a CI-generated per-file index with sha256 hashes). For a first sync or when many files changed it downloads the single-file <code>content/bundle.json</code> payload — the entire library in one request. For incremental updates it fetches only the files whose sha256 changed since the last sync.</li>
+        <li>Records from each file are <strong>merged into a local store</strong> keyed by <code>id</code> (questions/cards) or <code>Term</code> (glossary).</li>
+        <li>The merged store is <strong>cached on-device</strong> (filesystem, not AsyncStorage) so the app works offline between syncs.</li>
+      </ol>
+      <p>Because the app merges <em>all</em> files, <strong>content is added by dropping in new files — not by editing big ones.</strong> See <a href="#append-only-model">Append-only model</a>.</p>
+      <blockquote>
+        <p>The app points at this repo via <code>DEFAULT_CONFIG</code> in <code>src/content/sync.ts</code> — currently <code>owner: Forge-Deck</code>, <code>repo: pmcram</code>, <code>branch: main</code>. If you move it, update those three values.</p>
+      </blockquote>
+
+      <h2>Repository layout</h2>
+      <pre><code>content/
+  glossary/        # glossary terms — these double as flashcards
+  questions/       # practice / exam questions (dynamically assembled)
+  decks/           # OPTIONAL standalone flashcards (formulas, mnemonics)
+  guides/          # OPTIONAL read-and-absorb study guides (mindset, agile, strategy)
+  sequences/       # OPTIONAL drag-to-order ("put the steps in sequence") questions
+  cases/           # OPTIONAL multi-step case studies (one scenario, linked questions)
+  figuregen/       # OPTIONAL dynamic point-and-click templates (rolled into random variants)
+  schema/          # JSON Schemas used by CI + contributors to validate
+    glossary.schema.json
+    question.schema.json
+    deck.schema.json
+    guide.schema.json
+    sequence.schema.json
+    case.schema.json
+    figuregen.schema.json
+  bundle.json      # CI-generated full-content payload — the whole library in one file (do not edit by hand)
+  manifest.json    # CI-generated per-file index with sha256 hashes (do not edit by hand)
+scripts/
+  validate.mjs           # validates every file against the schemas (+ cross-field checks)
+  generate-bundle.mjs    # regenerates content/bundle.json (full payload)
+  generate-manifest.mjs  # regenerates content/manifest.json (per-file index; `npm run manifest` runs both)
+.github/workflows/
+  validate.yml     # runs validation on every PR and push
+  manifest.yml     # regenerates + commits bundle.json + manifest.json on merge to main
+CONTRIBUTING.md
+README.md</code></pre>
+      <p>Every <code>.json</code> file under <code>glossary/</code>, <code>questions/</code>, <code>decks/</code>, <code>guides/</code>, <code>sequences/</code>, <code>cases/</code>, and <code>figuregen/</code> is a <strong>JSON array of records</strong>.</p>
+
+      <h2>Content types</h2>
+
+      <h3>Glossary terms (= flashcards)</h3>
+      <p>Follow <code>schema/glossary.schema.json</code> and the exact field order: <code>Term, Core Meaning, Depth, Expansion, Deep Dive, Contrast, Example, Related Terms, Tier, Source</code>. In the app the <strong>Term is the flashcard front</strong> and Core Meaning / Expansion is the back.</p>
+      <ul>
+        <li><code>Deep Dive</code> is <code>null</code> unless <code>Depth</code> is <code>Foundational</code>.</li>
+        <li><strong>STRICT JSON:</strong> never put a <code>"</code> inside a string value — use single quotes for any inner quote. In <code>Source</code>, write the standard name and term plainly, no quotation marks.</li>
+        <li>A <code>Core glossary</code> term must cite a real PMI source. <code>not a formal PMI glossary entry</code> is only valid for the <code>Practitioner term</code> tier.</li>
+      </ul>
+
+      <h3>Standard questions (<code>question/v1</code>, dynamically assembled)</h3>
+      <p>Follow <code>schema/question.schema.json</code>. <strong>Options are never stored as a fixed A/B/C/D list.</strong> Each question stores the correct answer(s) and a <em>pool</em> of wrong answers, and the app builds + shuffles the visible options at runtime.</p>
+      <p><strong>Assembly rule:</strong> render <code>present</code> options = all of <code>correct</code> (when <code>correct.length === select</code>) + a random sample of <code>present - select</code> distractors, then shuffle. (For a <code>single</code> question, <code>correct</code> may itself be a <em>pool</em> of interchangeable correct phrasings — the app shows one at random. For <code>multi</code>, <code>correct.length</code> must equal <code>select</code>, so every correct answer is shown.)</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Want</th><th>Set</th></tr></thead>
+        <tbody>
+          <tr><td>1 correct of 4</td><td><code>type:single, select:1, present:4</code>, ≥3 distractors</td></tr>
+          <tr><td>Choose 2 of 6</td><td><code>type:multi, select:2, present:6</code>, <code>correct</code> has 2, ≥4 distractors</td></tr>
+          <tr><td>Choose 4 of 6</td><td><code>type:multi, select:4, present:6</code>, <code>correct</code> has 4, ≥2 distractors</td></tr>
+          <tr><td>"Which is NOT…"</td><td><code>type:single, select:1</code>, the odd-one-out is the single <code>correct</code></td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Required: <code>domain</code>, <code>type</code>, <code>select</code>, <code>present</code>, <code>prompts</code>, <code>correct</code>, <code>distractors</code>.</strong> You do <strong>not</strong> need to write an <code>id</code> — the app derives a stable one from the question's content, so contributors never have to invent or track ids. (<code>why</code>, <code>trap</code>, <code>explanation</code>, <code>references</code> are optional too — a bare question still works, scored right/wrong; adding rationale is most of the study value.) Each <code>correct[]</code> item is <code>{ text, why? }</code>; each <code>distractors[]</code> item is <code>{ text, trap? }</code>. Categorise with <code>domain</code> + <code>subDomain</code> — see <a href="#sub-category-taxonomy">Sub-category taxonomy</a>.</p>
+      <pre><code>{
+  "schema": "question/v1", "domain": "Process", "subDomain": "Scope Management",
+  "type": "single", "select": 1, "present": 4,
+  "prompts": [
+    "A stakeholder asks to add a feature mid-sprint. What should the PM do first?",
+    "Mid-iteration a new requirement arrives. What is the best first action?"
+  ],
+  "correct":     [ { "text": "Assess the change's impact and route it through the change-control process.", "why": "Scope changes go through integrated change control, not ad-hoc." } ],
+  "distractors": [
+    { "text": "Add it immediately to keep the stakeholder happy.", "trap": "Bypasses change control; uncontrolled scope creep." },
+    { "text": "Reject it outright as out of scope.", "trap": "Refusing to evaluate is as wrong as accepting blindly." },
+    { "text": "Defer it to the next project phase without analysis.", "trap": "Still skips impact assessment." }
+  ],
+  "explanation": "Evaluate impact, then let change control decide.",
+  "references": ["PMBOK Guide, Perform Integrated Change Control"]
+}</code></pre>
+
+      <h3>Dynamic pooled-correct questions</h3>
+      <p>A higher-variance flavour of the standard question, used for the <code>questions-dynamic-*</code> banks (ids prefixed <code>dyn-</code>) and the larger <code>questions-scenarios-*</code> banks (provenance-neutral ids). Together these make up the <strong>4,058 group-keyed questions</strong> that carry a <code>group</code> field. Same <code>question/v1</code> schema — no new fields — but authored so the runtime engine can draw a fresh-feeling variant every time:</p>
+      <ul>
+        <li><strong><code>prompts[]</code></strong> — several equivalent wordings of the same scenario; the engine picks <strong>one</strong> at random.</li>
+        <li><strong><code>correct[]</code></strong> — a <strong>POOL of interchangeable correct answers</strong> (typically 3), each <code>{ text, why }</code>. For a <code>single</code> question the engine surfaces just <code>select</code> (one) of them, so the "right answer" wording rotates. Every entry must be fully correct on its own.</li>
+        <li><strong><code>distractors[]</code></strong> — a <strong>large POOL</strong> (often 8–10), each <code>{ text, trap }</code>. The engine samples <code>present - select</code> of them, so the wrong set varies between draws.</li>
+        <li><strong><code>group</code></strong> — a variant-group key. Questions sharing a <code>group</code> are phrasings of the <strong>same</strong> concept and are <strong>never both served</strong> in one mock or focused batch.</li>
+        <li><strong><code>select</code> / <code>present</code></strong> — as for standard questions (usually <code>single</code>, <code>select:1</code>, <code>present:4</code>).</li>
+      </ul>
+      <p><strong>How it renders:</strong> the engine samples one <code>prompt</code> + <code>select</code> from <code>correct</code> + <code>present-select</code> from <code>distractors</code>, then <strong>shuffles</strong>. The chosen option's per-option <code>why</code> (correct) or <code>trap</code> (distractor) renders as <strong>inline feedback</strong> on review.</p>
+      <p><strong>STYLE expectations (these are what make a dynamic/group-keyed question fair):</strong></p>
+      <ul>
+        <li><strong>All four served options must read as equally-legitimate PMP actions.</strong> Distractors are wrong on <strong>target, sequence, owner, scope, or timing</strong> — not because they're obviously silly. No absolutes ("always/never/immediately"), no covert/unethical tells, no self-justifying phrasing that telegraphs the key.</li>
+        <li><strong>Per-draw LENGTH PARITY.</strong> Because only one <code>correct</code> and a sample of distractors are shown together, the <em>correct answer must not be the longest or most detailed option</em>. Rule of thumb: <strong>at most 2 distractors may be shorter than the longest correct</strong> — keep all four options comparable in length and specificity so length never signals the answer.</li>
+      </ul>
+      <pre><code>{
+  "schema": "question/v1", "id": "dyn-impostor-syndrome", "domain": "People",
+  "type": "single", "select": 1, "present": 4, "group": "impostor-syndrome",
+  "subDomain": "Lead Project Team",
+  "prompts": [
+    "A highly competent team member persistently doubts their accomplishments and fears exposure as a fraud despite clear evidence of skill. Which pattern is this?",
+    "A senior engineer who has delivered major projects still fears colleagues will discover they lack real expertise. Which pattern is this?"
+  ],
+  "correct": [
+    { "text": "Impostor Syndrome — the mirror of the Dunning-Kruger effect, where the least skilled are the most overconfident.",
+      "why": "Skilled people underestimate their competence — the inverse of Dunning-Kruger." },
+    { "text": "This is Impostor Syndrome: skilled people doubt their competence, the inverse of Dunning-Kruger.",
+      "why": "The defining feature is competent self-doubt despite evidence of skill." }
+  ],
+  "distractors": [
+    { "text": "This is the Dunning-Kruger effect, where the most competent people persistently doubt themselves.",
+      "trap": "Names the counterpart: Dunning-Kruger is overconfidence in the unskilled." },
+    { "text": "This reflects the Peter Principle — the person was promoted beyond their competence.",
+      "trap": "Peter Principle is rising to incompetence; here the person IS competent and merely doubts it." },
+    { "text": "This is a classic symptom of burnout from sustained high performance without recovery.",
+      "trap": "Burnout is exhaustion; the defining feature here is fear of being exposed as a fraud." }
+  ],
+  "explanation": "Impostor Syndrome is the evidence-defying belief by capable people that they are frauds."
+}</code></pre>
+
+      <h3>Specialised question banks (acronyms, formulae, charts &amp; tools)</h3>
+      <p>These are <strong>not a different schema</strong> — they are ordinary <code>question/v1</code> records, grouped into their own curated files, that drill one recall skill. They are distinguished by their <code>topic</code> and file name, not by any special field:</p>
+      <ul>
+        <li><strong><code>questions-acronyms.json</code></strong> — "what does WBS stand for" expand-the-acronym recall (<code>topic: "Acronyms &amp; Abbreviations"</code>, <code>subtopic</code> = the acronym).</li>
+        <li><strong><code>questions-formulae.json</code></strong> — EVM/finance calculation questions with numeric prompts and worked <code>why</code> (<code>topic: "Formulae &amp; Calculations"</code>). Use <code>decks/</code> cards for the formula <em>reference</em>; use these questions to <em>test</em> the calculation.</li>
+        <li><strong><code>questions-charts-and-tools.json</code></strong> — "which chart/tool fits this need" recognition questions (<code>topic: "Charts &amp; Visual Tools"</code>).</li>
+      </ul>
+      <p>Author them exactly like standard questions (single-select, <code>present:4</code>, one <code>correct</code>, ≥3 distractors, each distractor's <code>trap</code> naming the confusion). They still carry <code>domain</code> + <code>subDomain</code> for tracking.</p>
+
+      <h3 id="sub-category-taxonomy">Sub-category taxonomy</h3>
+      <p>Every question (standard, dynamic, specialised, case step, sequence, figuregen) is categorised by two fields:</p>
+      <ul>
+        <li><strong><code>domain</code></strong> — the top-level PMP ECO domain: <code>People</code>, <code>Process</code>, or <code>Business Environment</code>.</li>
+        <li><strong><code>subDomain</code></strong> — one of the <strong>26 canonical sub-categories</strong> below. This is what powers per-topic weak-area tracking, so pick the single best fit.</li>
+      </ul>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Domain</th><th>Sub-categories (<code>subDomain</code>)</th></tr></thead>
+        <tbody>
+          <tr><td><strong>People</strong></td><td>Build Shared Vision · Manage Conflict · Lead Project Team · Engage Stakeholders · Align Expectations · Manage Expectations · Knowledge Transfer · Communication Management</td></tr>
+          <tr><td><strong>Process</strong></td><td>Integrated Planning · Scope Management · Value Delivery · Resource Management · Procurement Management · Financial Management · Quality Management · Schedule Management · Project Monitoring · Project Closure</td></tr>
+          <tr><td><strong>Business Environment</strong></td><td>Establish Governance · Compliance Management · Change Control · Manage Impediments · Risk Management · Continuous Improvement · Support Org Change · Monitor External Environment</td></tr>
+        </tbody>
+      </table></div>
+      <p><strong>Assignment rule.</strong> Choose the <code>domain</code> by the item's <em>dominant theme</em>, then the closest <code>subDomain</code>. Anything centred on <strong>risk, governance, compliance, external environment, organisational change, change control, or impediments → Business Environment</strong> — even when it also touches people or process. <strong>Risk is decisive:</strong> if managing uncertainty/risk is the core of the item, it is <code>Business Environment → Risk Management</code> regardless of surface topic.</p>
+
+      <h3>Custom flashcards (<code>decks/</code>)</h3>
+      <p>Only for content that isn't a glossary term (formulas, mnemonics). Follow <code>schema/deck.schema.json</code> (<code>front</code> / <code>back</code>), grouped by a <code>deck</code> name (the app lists each deck for focused study).</p>
+      <p>Cards can be <strong>enriched</strong> beyond plain front/back — all optional:</p>
+      <ul>
+        <li><strong><code>formula</code></strong> — the equation, shown prominently above the answer (e.g. <code>"CPI = EV / AC"</code>).</li>
+        <li><strong><code>legend</code></strong> — a variable key: <code>[{ "symbol": "EV", "meaning": "Earned Value" }, …]</code>.</li>
+        <li><strong><code>figure</code></strong> — an explanatory diagram/graph, same model as guides (<code>svg</code> inline markup using <code>currentColor</code>, or an <code>image</code> path, plus a <code>caption</code>).</li>
+        <li><strong><code>tip</code></strong> — an accent exam-tip callout.</li>
+      </ul>
+      <p>The <code>back</code> uses the same light formatting as guides: a <strong>blank line</strong> starts a new paragraph, and lines beginning with <code>- </code> render as a bullet list.</p>
+      <pre><code>{
+  "deck": "PMP Formulae",
+  "front": "Cost Performance Index (CPI)",
+  "formula": "CPI = EV / AC",
+  "legend": [
+    { "symbol": "EV", "meaning": "Earned Value" },
+    { "symbol": "AC", "meaning": "Actual Cost" }
+  ],
+  "back": "Cost efficiency.\n\n- > 1.0 → under budget\n- < 1.0 → over budget",
+  "figure": { "svg": "&lt;svg viewBox='0 0 320 110' …&gt;…&lt;/svg&gt;", "caption": "Above 1.0 is good." },
+  "tip": "Above 1.0 is always good for CPI and SPI."
+}</code></pre>
+      <p>The front is the prompt (e.g. the formula's name); <code>formula</code> is revealed on the <strong>back</strong>, so recall still works.</p>
+
+      <h3>Study guides (<code>guides/</code>)</h3>
+      <p>Read-and-absorb material that isn't recall-tested — mindset, agile, exam strategy, charts &amp; diagrams. Follow <code>schema/guide.schema.json</code>. A guide has a <code>title</code> (its natural key), a <code>category</code>, and an array of <code>sections</code>, each with a <code>heading</code>, a <code>body</code>, an optional <code>tip</code> (highlighted exam-tip callout), and an optional <code>figure</code>.</p>
+      <p>Guides with <code>"category": "Exam"</code> appear in the dedicated <strong>Exam Prep</strong> screen in the app and are excluded from the main Guides list. All other categories appear in the main Guides list, filterable by topic tag.</p>
+      <p>Body formatting is deliberately simple (no markdown): a <strong>blank line</strong> starts a new paragraph, and lines beginning with <code>- </code> render as a bullet list.</p>
+      <pre><code>{
+  "title": "The PMP Mindset",
+  "category": "Mindset",
+  "summary": "How PMI expects a project manager to think.",
+  "sections": [
+    { "heading": "Assess before you act",
+      "body": "Gather the facts and review the plan before deciding.\n\n- Don't react\n- Investigate first",
+      "tip": "The first step is usually to investigate, not to act or escalate.",
+      "figure": { "svg": "&lt;svg viewBox='0 0 320 180' …&gt;…&lt;/svg&gt;", "caption": "Optional diagram." } }
+  ]
+}</code></pre>
+
+      <h3>Sequencing questions (<code>sequences/</code>)</h3>
+      <p>Drag-to-order questions. Follow <code>schema/sequence.schema.json</code>. Store a <code>prompt</code> and a <code>steps[]</code> array <strong>in the correct order</strong> — the app shuffles them and the user drags them back into sequence. Each step has <code>text</code> and an optional one-line <code>note</code> (shown on review). <code>id</code> is optional (derived). 3–8 steps.</p>
+      <pre><code>{
+  "prompt": "Order the steps for handling an underperforming team member.",
+  "domain": "People",
+  "steps": [
+    { "text": "Hold a private 1:1 to understand the cause", "note": "Start supportively and in private." },
+    { "text": "Document expectations and follow up" },
+    { "text": "Agree a Performance Improvement Plan" }
+  ],
+  "explanation": "Coach and document before escalating; replacement is the last resort."
+}</code></pre>
+
+      <h3>Multi-step cases (<code>cases/</code>)</h3>
+      <p>One shared scenario with several linked questions answered in order. Follow <code>schema/case.schema.json</code>. Store a <code>scenario</code> and a <code>steps[]</code> array; <strong>each step is a mini-question</strong> with its own <code>prompt</code>, <code>correct[]</code> and <code>distractors[]</code> (same shape as a normal question, so options still shuffle). The app pins the scenario, reveals one step at a time, and <strong>only unlocks the next step once the current one is answered</strong>. Optional per-step <code>domain</code>/<code>label</code>. <code>id</code> is optional (derived). 2–8 steps.</p>
+      <pre><code>{
+  "title": "Underperformer on a hybrid project",
+  "scenario": "You are leading a hybrid digital-transformation project …",
+  "steps": [
+    {
+      "label": "Business Environment focus",
+      "prompt": "The sponsor worries delays threaten ESG targets. What do you do first?",
+      "correct":     [ { "text": "Analyse the impact on value, benefits and ESG alignment", "why": "…" } ],
+      "distractors": [ { "text": "Request a replacement from HR", "trap": "…" } ],
+      "domain": "Business Environment"
+    }
+  ]
+}</code></pre>
+
+      <h3>Dynamic figure / point-and-click templates (<code>figuregen/</code>)</h3>
+      <p>A 2026-style interactive figure authored as a <strong>template</strong> that the app rolls into a fresh randomised variant each time — no app build needed to add or edit one. Follow <code>schema/figuregen.schema.json</code>. A template declares random <code>vars</code>, optional <code>derived</code> values + a re-roll <code>guard</code>, a <code>draw</code> list of figure primitives (or a named <code>chart</code> style), and an answer block whose fields are <strong>expressions</strong> evaluated against the roll.</p>
+      <p>Required on every record: <code>schema</code> (<code>"figuregen/v1"</code>), <code>id</code> (kebab-case), <code>kind</code>, <code>domain</code>, <code>viewBox</code> (<code>[w, h]</code>), <code>prompt</code>. The three core interaction <strong>kinds</strong> are <code>hotspot</code>, <code>choice</code>, and <code>dragdrop</code>; the enum also allows the chart-driven kinds <code>gantt</code>, <code>pareto</code>, and <code>assign</code>. See the worked templates in <code>content/figuregen/</code>.</p>
+      <pre><code>{
+  "schema": "figuregen/v1", "id": "cost-of-quality", "kind": "hotspot", "domain": "Process",
+  "viewBox": [270, 204], "prompt": "Tap the largest cost of NONconformance.",
+  "vars": { "v": { "sampleInt": [6, 24], "count": 4 } },
+  "guard": "v[2] != v[3]",
+  "derived": { "worst": "v[2] > v[3] ? 2 : 3", "bars": "[['Prevention',v[0]],['Appraisal',v[1]],['Internal',v[2]],['External',v[3]]]" },
+  "draw": [ { "op": "repeat", "over": "bars", "as": "b", "do": [ { "op": "rect", "x": "30 + i*60", "y": "168 - 138*b[1]/26", "w": 46, "h": "138*b[1]/26" } ] } ],
+  "regions": { "repeat": "bars", "as": "b", "items": [ { "id": "i", "x": "30 + i*60", "y": 30, "w": 46, "h": 138, "correct": "i == worst" } ] }
+}</code></pre>
+
+      <h2 id="append-only-model">Append-only model</h2>
+      <ul>
+        <li><strong>Adding content?</strong> Create a <strong>new file</strong> (e.g. <code>questions/contrib-2026-06-yourhandle.json</code>). Don't append to the large curated files.</li>
+        <li><strong>Fixing an error?</strong> Edit the record <strong>in the file where it lives</strong> — corrections are the one time you edit existing files.</li>
+        <li>Records are keyed by <code>id</code> (questions / cards / sequences / cases — derived from the record's content when you don't set one), <code>Term</code> (glossary), or <code>title</code> (guides); if two share a key, the <strong>last one merged wins</strong>. Don't duplicate an existing key — CI rejects duplicates.</li>
+      </ul>
+
+      <h2>Working locally</h2>
+      <pre><code>npm install                          # one-time: installs the validator (ajv)
+npm run validate                     # alias for: node scripts/validate.mjs
+npm run bundle                       # alias for: node scripts/generate-bundle.mjs (full payload only)
+npm run manifest                     # alias for: generate-bundle.mjs && generate-manifest.mjs (runs both)</code></pre>
+      <p>Or call the scripts directly:</p>
+      <pre><code>node scripts/validate.mjs            # validate every file against the schemas + cross-field checks
+node scripts/generate-bundle.mjs     # regenerate content/bundle.json (full-content payload)
+node scripts/generate-manifest.mjs   # regenerate content/manifest.json (per-file index; CI runs both on merge)</code></pre>
+      <p><strong>Contributor workflow:</strong> edit or add a JSON file → run <code>node scripts/validate.mjs</code> and make sure it passes → regenerate with <code>npm run manifest</code> → open a PR. CI runs the same validation on every pull request and push; on push to <code>main</code> it <strong>regenerates and commits <code>content/bundle.json</code> + <code>content/manifest.json</code></strong> for you. See <a href="./contributing.html">the contributing guide</a> to submit a file.</p>
+
+      <h2>Licensing</h2>
+      <p>The study content in this repository, including glossary terms, practice questions, and flashcard deck content under <code>content/</code>, is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+      <p>This license applies only to the open study content in this repository. It does not apply to the PM Cram app source code, app design, user interface, trademarks, branding, commercial services, or any private application infrastructure.</p>
+      <p>Repository scripts, schemas, and workflow files are licensed separately under the MIT License unless stated otherwise.</p>
+      <p>All contributed study content must be original wording. PMI references may be cited for study purposes, but PMI copyrighted text must not be copied or reproduced.</p>
+      <h3>Contribution licensing</h3>
+      <p>By submitting content to this repository, you agree that your contribution is licensed under CC BY 4.0 and may be used, displayed, adapted, redistributed, and commercialised as part of the PM Cram app and related study services.</p>
+
+      <p class="mini-note">This is a point-in-time mirror. The canonical version lives at <a href="https://github.com/Forge-Deck/pmcram/blob/main/README.md">Forge-Deck/pmcram · README.md</a>.</p>
+    </div>
+  </div>
+
+  <footer class="site">
+    <div class="wrap">
+      <a href="https://forge-deck.github.io/pmcram-legal/support/">Support</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/terms/">Terms</a>·
+      <a href="https://github.com/Forge-Deck/pmcram">Open-source content</a>
+      <p class="disc">PM Cram is an independent study aid. It is not affiliated with, authorised or endorsed by the Project Management Institute, Inc. “PMP”, “PMI” and “PMBOK” are marks of the Project Management Institute, Inc.</p>
+      <p class="disc">© PM Cram · Forge-Deck</p>
+    </div>
+  </footer>
+</body>
+</html>

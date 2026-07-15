@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contribute content — PM Cram authoring guide</title>
+<meta name="description" content="A friendly, thorough guide to authoring open PMP study content for PM Cram: practice questions, dynamic pools, case studies, sequencing, figuregen interactives, guides and exam tips — with copyable JSON examples.">
+<link rel="icon" type="image/png" href="./assets/favicon.png">
+<link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site">
+    <img src="./assets/wordmark.png" alt="PM Cram">
+  </header>
+
+  <nav class="site" aria-label="Primary">
+    <div class="wrap">
+      <a href="./">Home</a>
+      <a href="./contributing.html" class="active" aria-current="page">Contribute</a>
+      <a href="./converter.html">JSON builder</a>
+      <a href="./readme.html">README</a>
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>
+    </div>
+  </nav>
+
+  <div class="doc-head">
+    <div class="wrap doc">
+      <h1>Contribute study content</h1>
+      <p>PM Cram's study content is open-source JSON. Anyone can add a question, a case study, a guide or a flashcard by dropping a small JSON file into the repo and opening a pull request. This guide shows you exactly how each content type is shaped, with real, copyable examples.</p>
+      <div class="type-nav">
+        <a href="#how">How it works</a>
+        <a href="#golden">Golden rule</a>
+        <a href="#questions">Questions</a>
+        <a href="#dynamic">Static vs dynamic</a>
+        <a href="#cases">Cases</a>
+        <a href="#sequences">Sequencing</a>
+        <a href="#figuregen">Figuregen</a>
+        <a href="#guides">Guides</a>
+        <a href="#exam">Exam tips</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="doc-body">
+    <div class="wrap doc">
+
+      <!-- ============ HOW IT WORKS ============ -->
+      <section id="how">
+        <h2>How contributing works</h2>
+        <p>The content lives as plain JSON under <code>content/</code> in the <a href="https://github.com/Forge-Deck/pmcram">Forge-Deck/pmcram</a> repository. There's no CMS and no build step to learn — you edit text files.</p>
+        <ol>
+          <li><strong>Fork</strong> the repo on GitHub.</li>
+          <li><strong>Add or edit a JSON file</strong> in the right folder for your content type (<code>content/questions/</code>, <code>content/cases/</code>, and so on). Adding new content? Create a <em>new</em> file (e.g. <code>content/questions/contrib-2026-07-yourhandle.json</code>) rather than editing the big curated banks. Fixing a mistake? Edit the record where it lives.</li>
+          <li><strong>Open a pull request.</strong> CI validates every file against the JSON Schemas automatically, so you'll know within a minute if something's off.</li>
+        </ol>
+        <div class="callout accent">
+          <span class="lbl">Three things that surprise first-timers</span>
+          <p><strong>Files are JSON arrays.</strong> Every content file is a <code>[ … ]</code> array of records, even if it holds just one. You add content by appending a record to the array (or creating a new file that is a one-element array).</p>
+          <p><strong><code>id</code> is optional everywhere.</strong> The app derives a stable content-hash id from each record, so you never have to invent or track ids. Only set an <code>id</code> to <em>pin a correctable identity</em> (must be kebab-case) — and never reuse one that already exists.</p>
+          <p><strong>Every record may carry <code>contributor</code></strong> — your GitHub handle, for attribution. It's optional and never affects grading.</p>
+        </div>
+        <p>You don't have to run anything locally, but if you want to check your work before pushing, <code>npm install</code> then <code>npm run validate</code> runs the same checks CI does. <code>npm run manifest</code> regenerates the index — but CI regenerates it on merge, so you can skip it.</p>
+      </section>
+
+      <!-- ============ GOLDEN RULE ============ -->
+      <section id="golden">
+        <h2>The golden rule for options</h2>
+        <p>This applies to <strong>every</strong> question type that has options — practice questions, dynamic pools, and case steps. It's the single most important thing that separates a fair PMP question from a giveaway.</p>
+        <div class="callout warn">
+          <span class="lbl">Read this before writing any distractor</span>
+          <p><strong>1. Distractors must be plausible "right-but-not-best" actions</strong> — things a competent PM might genuinely consider, that are wrong on <em>target, sequence, owner, scope or timing</em>, not because they're obviously silly. Common failure modes to lean on:</p>
+          <ul>
+            <li><strong>Too narrow</strong> — solves part of the problem, misses the rest.</li>
+            <li><strong>Premature solution</strong> — jumps to fixing before assessing.</li>
+            <li><strong>Wrong sequence</strong> — a real step, but not the <em>first</em> one.</li>
+            <li><strong>Procedural deflection</strong> — escalate / raise a change request when you should first investigate.</li>
+            <li><strong>Symptom, not root cause</strong> — treats the surface issue.</li>
+          </ul>
+          <p><strong>2. The correct answer must NOT be the longest or most-detailed option.</strong> If the key is always the wordiest, length telegraphs it. Keep all options comparable in length and specificity.</p>
+          <p><strong>3. Never rely on order.</strong> Options are assembled and shuffled at runtime — never write "A/B/C/D", "the first option", or "all of the above". The app renders the correct answer plus a random sample of distractors and shuffles them.</p>
+        </div>
+        <p>No absolutes ("always", "never", "immediately"), no unethical tells, and no self-justifying phrasing in a distractor that gives the game away. If a served set of four options doesn't read as four legitimate PMP moves, it's too easy.</p>
+      </section>
+
+      <!-- ============ QUESTIONS ============ -->
+      <section id="questions">
+        <h2>1 · Practice questions</h2>
+        <p><span class="chip">content/questions/</span> <span class="chip">schema: "question/v1"</span></p>
+        <p>The workhorse. A single- or multi-select question that the app assembles at runtime: it renders <code>present</code> options made of the correct answer(s) plus a random sample of distractors, then shuffles. That's why you store a <em>pool</em>, not a fixed list.</p>
+
+        <h4>Required fields</h4>
+        <ul>
+          <li><code>domain</code> <span class="req">required</span> — one of <code>People</code>, <code>Process</code>, <code>Business Environment</code>.</li>
+          <li><code>type</code> <span class="req">required</span> — <code>single</code> (choose one) or <code>multi</code> (choose N).</li>
+          <li><code>select</code> <span class="req">required</span> — how many the user picks (integer, <code>1</code> for single).</li>
+          <li><code>present</code> <span class="req">required</span> — total options shown. Must be <code>&gt; select</code> and <code>&le; correct.length + distractors.length</code>. Typically <code>4</code>.</li>
+          <li><code>prompts</code> <span class="req">required</span> — an array of one or more <em>equivalent</em> wordings; the app picks one at random.</li>
+          <li><code>correct</code> <span class="req">required</span> — array of <code>{ text, why? }</code>. For <code>single</code> this is a pool of interchangeable correct phrasings (the app shows one); for <code>multi</code>, its length must equal <code>select</code>.</li>
+          <li><code>distractors</code> <span class="req">required</span> — array of <code>{ text, trap? }</code>. Provide <strong>more than needed</strong>; the app samples <code>present - select</code> of them.</li>
+        </ul>
+        <h4>Useful optional fields</h4>
+        <p><span class="chip">difficulty</span> <span class="chip">topic</span> <span class="chip">subtopic</span> <span class="chip">subDomain</span> <span class="chip">eco_task</span> <span class="chip">explanation</span> <span class="chip">references</span> <span class="chip">signals</span> <span class="chip">trace</span> <span class="chip">rules</span> <span class="chip">tags</span> <span class="chip">group</span> <span class="chip">contributor</span></p>
+        <p>A bare question (no <code>why</code>/<code>trap</code>/<code>explanation</code>) still works and is scored right/wrong — but the per-option rationale is where most of the study value lives, so add it when you can.</p>
+
+        <h4>Minimal real example</h4>
+        <pre><code>[
+  {
+    "schema": "question/v1",
+    "domain": "Process",
+    "subDomain": "Schedule Management",
+    "difficulty": "medium",
+    "topic": "Critical Path",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "prompts": [
+      "Two weeks into execution, an activity on the critical path slips by three days. What should the project manager do first?"
+    ],
+    "correct": [
+      { "text": "Analyse the schedule impact and identify options such as fast-tracking or crashing before committing.",
+        "why": "You assess the impact and evaluate compression options before choosing a response." }
+    ],
+    "distractors": [
+      { "text": "Crash the delayed activity by adding resources to recover the three days.",
+        "trap": "Premature solution — crashing adds cost and should follow impact analysis, not precede it." },
+      { "text": "Update the baseline finish date to reflect the three-day slip.",
+        "trap": "Changing the baseline without change control hides the variance instead of managing it." },
+      { "text": "Report the slippage to the sponsor and ask how to proceed.",
+        "trap": "Procedural deflection — escalating before you have analysed options and a recommendation." }
+    ],
+    "explanation": "First quantify the impact on the critical path, then evaluate compression options; act, escalate or re-baseline only after that.",
+    "references": ["PMBOK Guide, Schedule Management"],
+    "contributor": "your-github-handle"
+  }
+]</code></pre>
+        <div class="callout">
+          <span class="lbl">Tips</span>
+          <ul>
+            <li>Notice the correct answer isn't the longest — the "crash" distractor is just as detailed.</li>
+            <li>Every distractor's <code>trap</code> names the exact failure mode (premature solution, no change control, procedural deflection).</li>
+            <li>Want "choose 2 of 6"? Set <code>type:"multi", select:2, present:6</code>, put exactly 2 items in <code>correct</code>, and give ≥4 distractors.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============ STATIC VS DYNAMIC ============ -->
+      <section id="dynamic">
+        <h2>2 · Static vs dynamic questions</h2>
+        <p>These are <strong>the same <code>question/v1</code> schema</strong> — there is no separate "dynamic" type. The difference is entirely in how much pool you author.</p>
+        <ul>
+          <li><strong>Static</strong> — one <code>prompt</code>, one correct phrasing, just enough distractors. Every exposure is identical. Great for crisp factual recall.</li>
+          <li><strong>Dynamic</strong> — a <em>pool</em>: multiple <code>prompts</code>, several interchangeable <code>correct</code> phrasings, and extra <code>distractors</code>. The engine draws one prompt + one correct + a sample of distractors and shuffles, so each exposure feels fresh.</li>
+        </ul>
+        <p>Use <code>group</code> to tie variants of one concept together. Questions that share a <code>group</code> are treated as phrasings of the same idea, so a mock or focused batch <strong>never serves two of them at once</strong>.</p>
+        <div class="callout warn">
+          <span class="lbl">Per-draw length parity</span>
+          <p>Because only one correct answer and a <em>sample</em> of distractors appear together, the correct answer must never be the longest of the four shown. Rule of thumb: at most two distractors may be shorter than the longest correct phrasing — keep them all comparable.</p>
+        </div>
+        <pre><code>[
+  {
+    "schema": "question/v1",
+    "id": "dyn-single-point-of-accountability",
+    "domain": "People",
+    "subDomain": "Lead Project Team",
+    "type": "single",
+    "select": 1,
+    "present": 4,
+    "group": "raci-accountable-count",
+    "prompts": [
+      "A team is confused about a deliverable because two people are both marked Accountable on the RACI chart. What is the core problem?",
+      "On a RACI chart, one task lists two names in the Accountable column. Why is this a defect?"
+    ],
+    "correct": [
+      { "text": "Each task should have exactly one Accountable person, so a single owner can be held answerable.",
+        "why": "RACI allows many Responsible, but only one Accountable per task — otherwise ownership is ambiguous." },
+      { "text": "Accountability must sit with a single person per task; two 'A's leaves no clear owner.",
+        "why": "The defining RACI rule is one Accountable per row." }
+    ],
+    "distractors": [
+      { "text": "Both names should be moved to the Responsible column so the work is shared.",
+        "trap": "Fixes the symptom by reshuffling letters but ignores the one-Accountable rule." },
+      { "text": "The Consulted and Informed roles are missing, which is what causes the confusion.",
+        "trap": "Wrong target — the defect is the duplicate Accountable, not the C/I columns." },
+      { "text": "A RACI chart is the wrong tool here; a responsibility histogram would be clearer.",
+        "trap": "Deflects to another tool instead of correcting the accountability error." },
+      { "text": "The task simply needs a deadline added so the two owners know when to deliver.",
+        "trap": "Adds an unrelated attribute; timing was never the issue." }
+    ],
+    "explanation": "RACI permits multiple Responsible parties but exactly one Accountable per task; two 'A's is the defect."
+  }
+]</code></pre>
+        <p class="mini-note">Same schema as example 1 — it just carries more <code>prompts</code>, more <code>correct</code>, more <code>distractors</code>, and a <code>group</code> key.</p>
+      </section>
+
+      <!-- ============ CASES ============ -->
+      <section id="cases">
+        <h2>3 · Case studies</h2>
+        <p><span class="chip">content/cases/</span> <span class="chip">schema: "case/v1"</span></p>
+        <p>One shared <code>scenario</code> plus a <code>steps</code> array (2–8 steps). Each step is a mini-question with its own options. The app pins the scenario, reveals one step at a time, and only unlocks the next step once the current one is answered — so later steps can't spoil earlier ones. The golden rule for options applies to every step.</p>
+        <h4>Fields</h4>
+        <ul>
+          <li><code>scenario</code> <span class="req">required</span> — the shared situation, shown above every step.</li>
+          <li><code>steps</code> <span class="req">required</span> — 2–8 mini-questions. Each step needs <code>prompt</code>, <code>correct[]</code>, <code>distractors[]</code>; optional per-step <code>label</code>, <code>type</code>, <code>select</code>, <code>present</code>, <code>domain</code>, <code>topic</code>, <code>explanation</code>, <code>references</code>.</li>
+          <li>Optional top level: <span class="chip">title</span> <span class="chip">domain</span> <span class="chip">topic</span> <span class="chip">difficulty</span> <span class="chip">tags</span> <span class="chip">contributor</span></li>
+        </ul>
+        <pre><code>[
+  {
+    "schema": "case/v1",
+    "title": "Vendor slippage on a hybrid rollout",
+    "domain": "Process",
+    "difficulty": "medium",
+    "scenario": "You are leading a hybrid CRM rollout. A key integration vendor has quietly fallen two sprints behind, and your sponsor has just heard about it from a stakeholder rather than from you.",
+    "steps": [
+      {
+        "label": "First response",
+        "prompt": "What should you do first now that the sponsor knows about the delay?",
+        "correct": [
+          { "text": "Gather the facts on the vendor's actual status and schedule impact before responding.",
+            "why": "You investigate and quantify the impact before communicating or acting." }
+        ],
+        "distractors": [
+          { "text": "Apologise to the sponsor and promise to recover the two sprints.",
+            "trap": "Commits to a recovery you have not yet analysed." },
+          { "text": "Issue a formal notice to the vendor threatening penalty clauses.",
+            "trap": "Escalates contractually before establishing the facts." },
+          { "text": "Add the delay to the risk register and continue as planned.",
+            "trap": "Logs the symptom but takes no action on a risk that has already occurred." }
+        ],
+        "domain": "Process"
+      },
+      {
+        "label": "Governance",
+        "prompt": "Analysis confirms the delay threatens a contractual go-live date. What is the best next move?",
+        "correct": [
+          { "text": "Raise it through integrated change control with impact options for the sponsor to decide.",
+            "why": "A schedule-baseline threat with contractual stakes belongs in change control." }
+        ],
+        "distractors": [
+          { "text": "Quietly fast-track internal tasks to absorb the vendor's slippage.",
+            "trap": "Hides a governance-level issue and absorbs risk without authority." },
+          { "text": "Replace the vendor immediately to protect the go-live date.",
+            "trap": "Premature and disproportionate before options are weighed." }
+        ],
+        "domain": "Business Environment"
+      }
+    ]
+  }
+]</code></pre>
+      </section>
+
+      <!-- ============ SEQUENCES ============ -->
+      <section id="sequences">
+        <h2>4 · Sequencing</h2>
+        <p><span class="chip">content/sequences/</span> <span class="chip">schema: "sequence/v1"</span></p>
+        <p>A drag-to-order question. You store the steps <strong>in the correct order</strong>; the app shuffles them and the user drags them back. 3–8 steps. Each step is <code>{ text, note? }</code> — the optional <code>note</code> is a one-line rationale shown on review for that step's position.</p>
+        <ul>
+          <li><code>prompt</code> <span class="req">required</span> — the instruction.</li>
+          <li><code>steps</code> <span class="req">required</span> — 3–8 steps in correct order.</li>
+          <li>Optional: <span class="chip">domain</span> <span class="chip">topic</span> <span class="chip">difficulty</span> <span class="chip">explanation</span> <span class="chip">tags</span> <span class="chip">contributor</span></li>
+        </ul>
+        <pre><code>[
+  {
+    "schema": "sequence/v1",
+    "prompt": "Order the steps of the Perform Integrated Change Control flow after a change request is raised.",
+    "domain": "Business Environment",
+    "topic": "Change Control",
+    "steps": [
+      { "text": "Record the change request in the change log", "note": "Every request is logged before it is assessed." },
+      { "text": "Assess the impact on scope, schedule, cost and risk", "note": "Evaluate before deciding." },
+      { "text": "Submit the analysed request to the change control board", "note": "The CCB, not the PM alone, decides." },
+      { "text": "Communicate the decision and update the affected plans", "note": "Approved changes update baselines; rejected ones are still recorded." }
+    ],
+    "explanation": "Log, assess, decide via the CCB, then communicate and update — a request is never actioned before impact analysis."
+  }
+]</code></pre>
+      </section>
+
+      <!-- ============ FIGUREGEN ============ -->
+      <section id="figuregen">
+        <h2>5 · Interactives / figuregen</h2>
+        <p><span class="chip">content/figuregen/</span> <span class="chip">schema: "figuregen/v1"</span></p>
+        <p>The advanced one. A figuregen record is a <strong>template</strong>, not a fixed question: it declares random variables and the app's figuregen engine <em>rolls</em> a fresh randomised variant each time it's served. Many numeric fields are <strong>expression strings</strong> evaluated against the rolled scope (e.g. <code>"30 + i*60"</code>). The engine draws the figure and grades taps/drags/choices against those expressions.</p>
+        <p>Every record needs <code>schema</code> (<code>"figuregen/v1"</code>), <code>id</code> (kebab-case), <code>kind</code>, <code>domain</code>, <code>viewBox</code> (<code>[w, h]</code>) and <code>prompt</code>. The <code>kind</code> is one of <code>hotspot</code> · <code>choice</code> · <code>dragdrop</code> · <code>gantt</code> · <code>pareto</code> · <code>assign</code>.</p>
+        <div class="callout accent">
+          <span class="lbl">Start from a template, not a blank file</span>
+          <p>Figuregen is expression-driven and genuinely complex — draw ops, chart styles, guards, derived values. Rather than authoring one from scratch, <strong>open an existing file in <code>content/figuregen/</code></strong>, copy the closest <code>kind</code>, and adapt its numbers and text. The worked templates there are the real reference.</p>
+        </div>
+        <p>The simplest kind is <code>choice</code> — a multiple-choice question <em>about</em> a small figure. Its answer block is <code>choices[]</code>, each <code>{ text, correct, why? }</code>, where <code>correct</code> is an expression that is true for the right option:</p>
+        <pre><code>[
+  {
+    "schema": "figuregen/v1",
+    "id": "network-float-choice",
+    "kind": "choice",
+    "domain": "Process",
+    "topic": "Critical Path",
+    "viewBox": [280, 160],
+    "prompt": "Activity B has an early start of 4 and a late start of 9. How much total float does it have?",
+    "vars": { "es": { "sampleInt": [2, 6] }, "slack": { "sampleInt": [3, 7] } },
+    "derived": { "ls": "es + slack" },
+    "draw": [
+      { "op": "rect", "x": 40, "y": 50, "w": 60, "h": 40 },
+      { "op": "text", "x": 70, "y": 75, "text": "B" }
+    ],
+    "choices": [
+      { "text": "slack", "correct": true, "why": "Total float = late start minus early start." },
+      { "text": "es", "correct": false, "why": "That is the early start, not the float." },
+      { "text": "ls", "correct": false, "why": "That is the late start, not the float." },
+      { "text": "0", "correct": false, "why": "Zero float would put the activity on the critical path." }
+    ]
+  }
+]</code></pre>
+        <p class="mini-note">A <code>hotspot</code> template swaps <code>choices</code> for <code>regions[]</code> (<code>{ id, x, y, w, h, correct, label?, why? }</code>) so the user taps the correct area; <code>dragdrop</code> adds <code>tokens[]</code> dragged onto those regions. Again — copy a real one from <code>content/figuregen/</code>.</p>
+      </section>
+
+      <!-- ============ GUIDES ============ -->
+      <section id="guides">
+        <h2>6 · Guides</h2>
+        <p><span class="chip">content/guides/</span> <span class="chip">schema: "guide/v1"</span></p>
+        <p>Read-and-absorb study material — mindset, agile, strategy, cheat sheets. A guide is identified by its <code>title</code> (a natural key that dedupes case-insensitively), a <code>category</code>, and an array of <code>sections</code>.</p>
+        <ul>
+          <li><code>title</code> <span class="req">required</span>, <code>category</code> <span class="req">required</span>, <code>sections</code> <span class="req">required</span>.</li>
+          <li>Each section: <code>heading</code> + <code>body</code> required; optional <code>tip</code>, <code>figure</code>, <code>blocks</code>, <code>signals</code>, <code>trace</code>, <code>rules</code>, <code>kicker</code>.</li>
+          <li>Give every guide a punchy <code>intro</code> (the card teaser in the Guides list) and a <code>summary</code>.</li>
+        </ul>
+        <div class="callout">
+          <span class="lbl">Body formatting (no markdown)</span>
+          <p><code>body</code> is plain text with two rules only: a <strong>blank line</strong> starts a new paragraph, and a line starting with <code>- </code> becomes a bullet. There is no markdown parser, so don't use <code>#</code>, <code>**bold**</code>, or links in <code>body</code>.</p>
+        </div>
+        <p>For richer layout, a section can carry <code>blocks</code> — ordered structured blocks of kind <code>tip</code> · <code>steps</code> · <code>cards</code> · <code>table</code> · <code>terms</code> · <code>formulas</code>. Figures are inline <code>svg</code> (single-quoted attributes, <code>currentColor</code> for theming) or a raster <code>image</code> path.</p>
+        <pre><code>[
+  {
+    "schema": "guide/v1",
+    "title": "Reading Earned Value at a Glance",
+    "category": "Formulae",
+    "summary": "Turn EV, PV and AC into a one-look health check.",
+    "intro": "CV and SV tell you where you stand; CPI and SPI tell you how fast the gap is growing. Learn to read all four in seconds.",
+    "sections": [
+      {
+        "heading": "The four numbers that matter",
+        "body": "Earned value analysis compares what you planned, what you did, and what it cost.\n\n- PV — the budgeted cost of work planned by now\n- EV — the budgeted cost of work actually completed\n- AC — what that completed work really cost",
+        "tip": "Variances (CV, SV) are money and schedule differences; indices (CPI, SPI) are ratios. Negative variance and an index below 1.0 both mean 'behind'.",
+        "blocks": [
+          {
+            "kind": "formulas",
+            "title": "Core EVM formulas",
+            "lines": [
+              "CV = EV - AC",
+              "SV = EV - PV",
+              "CPI = EV / AC",
+              "SPI = EV / PV"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]</code></pre>
+      </section>
+
+      <!-- ============ EXAM TIPS ============ -->
+      <section id="exam">
+        <h2>7 · Exam tips</h2>
+        <p><span class="chip">content/guides/</span> <span class="chip">schema: "guide/v1"</span> <span class="chip">category: "Exam"</span></p>
+        <p>Exam tips aren't a separate type — they're just guides with <code>"category": "Exam"</code>. The app surfaces those in its dedicated <strong>Exam Prep</strong> tab and keeps them out of the main Guides list. Keep them tactical and heuristic: quick decision rules, trap-spotting, time management.</p>
+        <pre><code>[
+  {
+    "schema": "guide/v1",
+    "title": "When in doubt, investigate first",
+    "category": "Exam",
+    "summary": "The single most reliable PMP tie-breaker.",
+    "intro": "Stuck between two good options? PMI almost always rewards understanding the situation before acting on it.",
+    "sections": [
+      {
+        "heading": "The investigate-first heuristic",
+        "body": "When two answers both look reasonable, prefer the one that gathers facts or assesses impact over the one that acts, escalates, or blames.\n\n- 'Meet with the team to understand the cause' usually beats 'reassign the work'\n- 'Assess the impact' usually beats 'submit a change request'\n- Escalation is rarely the first step",
+        "tip": "Watch for absolutes in the options — 'always', 'never', 'immediately' are usually traps."
+      }
+    ]
+  }
+]</code></pre>
+      </section>
+
+      <!-- ============ CTA ============ -->
+      <div class="cta-box">
+        <h3 style="margin:.1em 0 .3em;color:var(--navy)">Not sure your JSON is right?</h3>
+        <p class="section-sub" style="margin:0 auto 4px">Fill in a short form and get a valid <code>question/v1</code> record you can paste straight into a file.</p>
+        <a class="btn" href="./converter.html">Try the JSON builder →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="site">
+    <div class="wrap">
+      <a href="https://forge-deck.github.io/pmcram-legal/support/">Support</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/privacy/">Privacy</a>·
+      <a href="https://forge-deck.github.io/pmcram-legal/terms/">Terms</a>·
+      <a href="https://github.com/Forge-Deck/pmcram">Open-source content</a>
+      <p class="disc">PM Cram is an independent study aid. It is not affiliated with, authorised or endorsed by the Project Management Institute, Inc. “PMP”, “PMI” and “PMBOK” are marks of the Project Management Institute, Inc.</p>
+      <p class="disc">© PM Cram · Forge-Deck</p>
+    </div>
+  </footer>
+</body>
+</html>
