@@ -1,0 +1,62 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Agile Scaling Frameworks",
+    "category": "Agile",
+    "summary": "Recognise the major agile scaling frameworks by their core ideas and keywords, treat scaling as a tailoring decision, and avoid over-engineering multi-team work.",
+    "intro": "Spot SoS, LeSS, SAFe, Nexus, and DA by their keywords - and know when not to scale at all.",
+    "topics": ["Agile", "Delivery Approaches"],
+    "tags": ["agile", "scaling", "hybrid", "delivery", "exam"],
+    "sections": [
+      {
+        "heading": "Why and when to scale",
+        "body": "- Scale when several teams share one product, one value stream, or tightly coupled deliverables - not just because the organisation is large.\n- Coordination cost rises non-linearly: more handoffs, dependencies, and integration risk mean slower flow if teams stay isolated.\n- On the current exam, scaling is a tailoring choice - PMBOK 8 stresses principles, performance domains, and fit-for-purpose process, not a mandate to adopt a named framework.\n- Prefer the lightest structure that protects delivery: get single-team practices right first, then add cross-team coordination only when complexity truly demands it.\n- Exam keywords: multi-team product, dependency management, integration risk, and do not over-scale.",
+        "tip": "If one backlog and informal dependency chats would work, don't invent a scaling framework."
+      },
+      {
+        "heading": "Scrum of Scrums",
+        "body": "- A lightweight 'team of teams' sync: each team sends a representative to surface dependencies, blockers, and integration issues.\n- The focus is coordination and risk, not status theatre - representatives speak for their team and carry decisions back.\n- It is often the first scaling step once a few teams share one product.\n- It adds minimal new roles or artifacts and extends existing events rather than replacing them.\n- Recognition cues: Scrum of Scrums, ambassadors or representatives, dependency sync, lightest-weight scaling.",
+        "tip": "Scrum of Scrums = simple multi-team coordination; know the idea, not a ceremony script."
+      },
+      {
+        "heading": "LeSS (Large-Scale Scrum)",
+        "body": "- Minimalist scaling: keep Scrum and add as little structure as possible.\n- The classic pattern is one Product Owner, one Product Backlog, and a shared Definition of Done across the teams building one product.\n- Teams stay feature-oriented and cross-functional; the aim is to cut overhead, not add management layers.\n- Coordination comes from the shared backlog, joint refinement, and multi-team events - not heavy portfolio machinery.\n- Exam cues: descaling, one backlog and one PO, pure Scrum at scale, avoid unnecessary process.",
+        "tip": "LeSS = the same Scrum over a wider product; 'minimal extras' is the keyword story."
+      },
+      {
+        "heading": "SAFe (Scaled Agile Framework)",
+        "body": "- Enterprise-oriented and the most prescriptive of the common frameworks - many roles, events, and layered structure.\n- Familiar levels: Team, Program (the Agile Release Train, or ART, with PI Planning), Large Solution, and Portfolio.\n- The Agile Release Train aligns multiple teams to a shared cadence, vision, and program-increment goals.\n- It is best known for large organisations needing portfolio alignment, fixed planning horizons, and formal coordination.\n- Exam reality: name the levels, the ART, and PI Planning; deep role catalogues are rarely tested.",
+        "tip": "SAFe = heavyweight, ART + PI Planning, the most rules and hierarchy of the popular options."
+      },
+      {
+        "heading": "Nexus and Disciplined Agile",
+        "body": "- Nexus builds on Scrum for roughly 3 to 9 teams delivering one product; a Nexus Integration Team owns cross-team integration and dependency risk.\n- It keeps a single Product Owner and backlog focus while adding integration-centric events and artifacts.\n- Disciplined Agile (DA) is a toolkit and decision framework rather than one fixed method - it helps a team choose its Way of Working (WoW) from many practices.\n- DA is pragmatic and hybrid-friendly: it guides choices instead of prescribing one recipe for the whole organisation.\n- Exam cues: Nexus = integration team + Scrum at scale; DA = choose your WoW, a process-decision toolkit.",
+        "tip": "Match the keyword - Nexus 'integration', DA 'WoW / toolkit' - and stop there unless the question digs deeper."
+      },
+      {
+        "heading": "The frameworks at a glance",
+        "body": "Use this as a recognition map - match the scenario's size, formality, and integration pain to the framework name. The best choice still sits under tailoring: the lightest fit that solves the coordination problem.",
+        "blocks": [
+          {
+            "kind": "terms",
+            "title": "Name, core idea, and weight",
+            "items": [
+              { "code": "Scrum of Scrums", "text": "Representatives sync dependencies; few teams, early scaling; low ceremony." },
+              { "code": "LeSS", "text": "One PO, one backlog, shared Definition of Done; one product, several Scrum teams; low to moderate." },
+              { "code": "Nexus", "text": "Scrum plus an integration team; about 3 to 9 teams on one product; moderate." },
+              { "code": "SAFe", "text": "Enterprise trains and PI cadence; large org, portfolio alignment; highly prescriptive." },
+              { "code": "Disciplined Agile", "text": "Choose a fit-for-purpose Way of Working; varied or hybrid contexts; a flexible toolkit." }
+            ]
+          }
+        ],
+        "tip": "The exam rewards recognition - name, core idea, and weight - not framework-certification depth."
+      },
+      {
+        "heading": "Scaling pitfalls and the PM takeaway",
+        "body": "- Too much process too early: adopting SAFe-level structure when Scrum of Scrums or basic backlog hygiene would do kills speed and morale.\n- Lost team autonomy: over-centralising decisions recreates waterfall under an agile label ('faux-agile').\n- Dependency gridlock: many teams, unclear ownership, and late integration - counter it with a shared Definition of Done, frequent integration, and explicit dependency management.\n- Framework worship: copying roles and events without value delivery fails performance-domain thinking.\n- PM takeaway: scale only when multi-team complexity demands it, and tailor coordination to risk, size, and hybrid reality - not to a brand name.",
+        "tip": "Prefer the smallest scaling step that restores flow; 'start simple' is a valid PMP answer."
+      }
+    ],
+    "source": "PM Cram - aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "schema": "guide/v1",
+    "title": "Project Communications Management",
+    "category": "Process",
+    "summary": "Communications management makes the PM the hub of tailored, two-way information flow - plans, methods, channels, listening, and reporting cut risk across predictive, agile, and hybrid delivery.",
+    "intro": "How PMs spend most of their time: plans, channels, methods, listening, and reports that keep every stakeholder aligned - predictive, agile, or hybrid.",
+    "topics": ["Communications", "People", "Process"],
+    "tags": ["communications", "people", "process", "agile", "predictive", "exam"],
+    "sections": [
+      {
+        "heading": "What communications management is",
+        "body": "- Communications management is the deliberate planning, creation, distribution, storage, and retrieval of project information so the right people get the right message at the right time.\n- The project manager is the communication hub - PMs are often said to spend around 90% of their time communicating: leading, aligning, resolving, and reporting.\n- Good communication is proactive (anticipate needs), transparent (share enough to build trust), and tailored (format, channel, and depth match the audience and delivery approach).\n- In the PMBOK 8 mindset this cuts across principles (engage stakeholders, tailor) and the Stakeholder and Team performance domains - it is not a single isolated process.\n- Across predictive, agile, and hybrid work it stays a primary lever for coordination, risk reduction, and value - not optional admin.",
+        "tip": "If an option casts the PM as a passive message-forwarder, reject it - the hub owns clarity and flow."
+      },
+      {
+        "heading": "The communications management plan",
+        "body": "- The plan answers: what information is needed, who needs it, why, when and how often it goes out, which method or channel is used, and who owns creating and sending it.\n- It covers formal and informal paths, escalation routes, meeting cadence, glossary or terminology needs, and how feedback and issues are captured.\n- Stakeholder analysis feeds it: power, interest, influence, and information needs decide who gets a summary versus full detail.\n- It is living - update it when stakeholders, the delivery approach, tools, or constraints change.\n- In agile and hybrid settings it may be lighter (team working agreements, Definition of Done) but still explicit about who hears what.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "What a good plan pins down",
+            "rows": [
+              { "key": "What / why", "value": "The content and purpose of each message." },
+              { "key": "Who", "value": "The audience, and the owner who sends and receives it." },
+              { "key": "When / how often", "value": "Cadence, plus the triggers for ad-hoc updates." },
+              { "key": "How", "value": "Method (interactive, push, pull) and medium." }
+            ]
+          }
+        ],
+        "tip": "Items that list 'what, who, when, how, owner' are pointing at the communications management plan."
+      },
+      {
+        "heading": "Communication methods: interactive, push, pull",
+        "body": "- Interactive communication is two-way and in real time (meetings, calls, workshops, video) - best when a decision, negotiation, or shared understanding is needed.\n- Push communication is one-way outbound (email, status reports, memos) - efficient for broadcasting known information when dialogue is not required.\n- Pull communication lets people retrieve content when they need it (intranet, wiki, dashboards, portals) - suited to large audiences or large volumes of reference material.\n- Choose by urgency, complexity, sensitivity, audience size, and whether you need confirmation of understanding; high-stakes or ambiguous topics favour interactive methods.\n- Methods combine - an interactive workshop, then a push summary, then a pull archive for ongoing access.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Match the method to the need",
+            "rows": [
+              { "key": "Interactive (two-way)", "value": "Decisions, conflict, complex or sensitive topics." },
+              { "key": "Push (sender to receiver)", "value": "Alerts, routine status, notifications." },
+              { "key": "Pull (receiver retrieves)", "value": "Reference material, metrics, large groups." }
+            ]
+          }
+        ],
+        "tip": "'Confirm understanding / negotiate / resolve' points to interactive; 'FYI broadcast' to push; 'self-serve archive' to pull."
+      },
+      {
+        "heading": "The communication channels formula",
+        "body": "- The number of potential two-way channels among n people is n(n-1)/2 - each pair of people is one channel.\n- Worked example: 5 people give 5 x 4 / 2 = 10 channels; 6 people give 6 x 5 / 2 = 15. Going from 5 to 6 people adds five channels, not one.\n- Channels grow faster than headcount, so bigger teams and stakeholder sets raise the risk of miscommunication, delay, and inconsistency unless the flow is deliberately structured.\n- Tame it with clear ownership (RACI), a hub-and-spoke through the PM or product owner, defined cadences, shared artifacts, and fewer ad-hoc side channels for critical decisions.\n- Exam items often ask you to compute channels before and after adding a stakeholder, or to explain why communication effort spikes as a team grows.",
+        "tip": "For any 'how many channels' item, compute n(n-1)/2 - more channels means more communication risk."
+      },
+      {
+        "heading": "The sender-receiver model and barriers",
+        "body": "- Communication runs encode, transmit, decode: the sender encodes meaning into a message, sends it through a medium, and the receiver decodes it into understanding.\n- Noise is anything that distorts the message - technical (poor connection), semantic (ambiguous words), psychological (bias, stress), or environmental (distraction).\n- Common barriers include language differences, cultural norms, jargon and acronyms, geographic or organisational distance, and technology mismatch or overload.\n- Overcome them by simplifying language, defining terms, choosing media that fit the audience, checking assumptions, and closing the loop with confirmation - not just transmitting harder.\n- Cultural and virtual contexts need extra care: explicit norms, inclusive scheduling, and written follow-up of verbal decisions.",
+        "tip": "If a message was 'sent' but not understood, it failed at decode or noise - fix it with feedback, not a louder push."
+      },
+      {
+        "heading": "Active listening and feedback",
+        "body": "- Active listening means full attention, paraphrasing, clarifying questions, and reading both content and emotion - not just waiting to reply.\n- It reduces rework and conflict and is a core People-domain interpersonal skill on the exam.\n- Feedback loops confirm receipt and meaning: 'what I heard is... does that match your intent?' turns one-way transmission into shared understanding.\n- Written confirmation after verbal agreements - especially in virtual meetings - guards against memory and noise.\n- Build psychological safety so people surface confusion early; silence is not agreement or comprehension.",
+        "tip": "'Ensure understanding' answers favour paraphrasing, questions, and confirmation - not more slides or longer emails."
+      },
+      {
+        "heading": "Reporting: status, progress, forecast",
+        "body": "- Status reports where the work is now against the plan; progress reports what was completed over a period; forecasts project future performance (finish dates, costs, remaining work).\n- Work performance reports package analysed performance data into information people can act on - for steering and stakeholder updates.\n- RAG (red-amber-green) traffic-light status gives at-a-glance health; always pair the colour with its driver and the action, or the signal is empty.\n- Dashboards and information radiators - task boards, burndown or burnup, cumulative flow - make the current truth ambient and cut status-meeting overhead, especially in agile and hybrid teams.\n- Tailor depth: executives usually want exceptions and forecasts; teams want actionable detail and blockers.",
+        "blocks": [
+          {
+            "kind": "table",
+            "title": "Match the verb to the report",
+            "rows": [
+              { "key": "Status", "value": "Where are we now?" },
+              { "key": "Progress", "value": "What moved since the last update?" },
+              { "key": "Forecast", "value": "Where are we headed?" }
+            ]
+          }
+        ],
+        "tip": "Status, progress, and forecast are different - match the exam's verb to the right report."
+      },
+      {
+        "heading": "Tailoring by stakeholder and delivery approach",
+        "body": "- Tailor frequency, formality, channel, and detail to each stakeholder's needs, influence, and preference - one generic weekly email rarely suits everyone.\n- Agile-leaning work favours face-to-face or high-fidelity video, co-location where possible, osmotic communication (picking up context by overhearing), information radiators, and low ceremony.\n- Predictive work leans on formal, cadenced written reports, baselined documentation, and change communication through defined paths.\n- Hybrid blends both - team radiators plus formal sponsor packets and gated reporting to the wider organisation.\n- Distributed teams balance synchronous (live decisions and relationship-building) with asynchronous (recordings, threads, shared docs across time zones); design for inclusion - rotate meeting times, publish agendas early, and never let decisions live only in side chats.",
+        "tip": "Agile cues point to interactive + radiators + low ceremony; predictive cues to a formal written cadence; hybrid to both, on purpose."
+      }
+    ],
+    "source": "PM Cram - aligned to the current PMBOK Guide and PMI Examination Content Outline."
+  }
+]
