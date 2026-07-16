@@ -5,8 +5,17 @@
     "category": "Agile",
     "summary": "Recognise the major agile scaling frameworks by their core ideas and keywords, treat scaling as a tailoring decision, and avoid over-engineering multi-team work.",
     "intro": "Spot SoS, LeSS, SAFe, Nexus, and DA by their keywords - and know when not to scale at all.",
-    "topics": ["Agile", "Delivery Approaches"],
-    "tags": ["agile", "scaling", "hybrid", "delivery", "exam"],
+    "topics": [
+      "Agile",
+      "Delivery Approaches"
+    ],
+    "tags": [
+      "agile",
+      "scaling",
+      "hybrid",
+      "delivery",
+      "exam"
+    ],
     "sections": [
       {
         "heading": "Why and when to scale",
@@ -41,11 +50,26 @@
             "kind": "terms",
             "title": "Name, core idea, and weight",
             "items": [
-              { "code": "Scrum of Scrums", "text": "Representatives sync dependencies; few teams, early scaling; low ceremony." },
-              { "code": "LeSS", "text": "One PO, one backlog, shared Definition of Done; one product, several Scrum teams; low to moderate." },
-              { "code": "Nexus", "text": "Scrum plus an integration team; about 3 to 9 teams on one product; moderate." },
-              { "code": "SAFe", "text": "Enterprise trains and PI cadence; large org, portfolio alignment; highly prescriptive." },
-              { "code": "Disciplined Agile", "text": "Choose a fit-for-purpose Way of Working; varied or hybrid contexts; a flexible toolkit." }
+              {
+                "code": "SoS",
+                "text": "Scrum of Scrums - representatives sync dependencies; few teams, early scaling; low ceremony."
+              },
+              {
+                "code": "LeSS",
+                "text": "One PO, one backlog, shared Definition of Done; one product, several Scrum teams; low to moderate."
+              },
+              {
+                "code": "Nexus",
+                "text": "Scrum plus an integration team; about 3 to 9 teams on one product; moderate."
+              },
+              {
+                "code": "SAFe",
+                "text": "Enterprise trains and PI cadence; large org, portfolio alignment; highly prescriptive."
+              },
+              {
+                "code": "DA",
+                "text": "Disciplined Agile - choose a fit-for-purpose Way of Working; varied or hybrid contexts; a flexible toolkit."
+              }
             ]
           }
         ],

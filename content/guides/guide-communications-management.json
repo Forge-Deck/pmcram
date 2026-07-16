@@ -5,8 +5,19 @@
     "category": "Process",
     "summary": "Communications management makes the PM the hub of tailored, two-way information flow - plans, methods, channels, listening, and reporting cut risk across predictive, agile, and hybrid delivery.",
     "intro": "How PMs spend most of their time: plans, channels, methods, listening, and reports that keep every stakeholder aligned - predictive, agile, or hybrid.",
-    "topics": ["Communications", "People", "Process"],
-    "tags": ["communications", "people", "process", "agile", "predictive", "exam"],
+    "topics": [
+      "Communications",
+      "People",
+      "Process"
+    ],
+    "tags": [
+      "communications",
+      "people",
+      "process",
+      "agile",
+      "predictive",
+      "exam"
+    ],
     "sections": [
       {
         "heading": "What communications management is",
@@ -21,10 +32,22 @@
             "kind": "table",
             "title": "What a good plan pins down",
             "rows": [
-              { "key": "What / why", "value": "The content and purpose of each message." },
-              { "key": "Who", "value": "The audience, and the owner who sends and receives it." },
-              { "key": "When / how often", "value": "Cadence, plus the triggers for ad-hoc updates." },
-              { "key": "How", "value": "Method (interactive, push, pull) and medium." }
+              {
+                "key": "What / why",
+                "value": "The content and purpose of each message."
+              },
+              {
+                "key": "Who",
+                "value": "The audience, and the owner who sends and receives it."
+              },
+              {
+                "key": "When / how often",
+                "value": "Cadence, plus the triggers for ad-hoc updates."
+              },
+              {
+                "key": "How",
+                "value": "Method (interactive, push, pull) and medium."
+              }
             ]
           }
         ],
@@ -38,9 +61,18 @@
             "kind": "table",
             "title": "Match the method to the need",
             "rows": [
-              { "key": "Interactive (two-way)", "value": "Decisions, conflict, complex or sensitive topics." },
-              { "key": "Push (sender to receiver)", "value": "Alerts, routine status, notifications." },
-              { "key": "Pull (receiver retrieves)", "value": "Reference material, metrics, large groups." }
+              {
+                "key": "Interactive",
+                "value": "Two-way, real time - decisions, conflict, complex or sensitive topics."
+              },
+              {
+                "key": "Push",
+                "value": "One-way outbound - alerts, routine status, notifications."
+              },
+              {
+                "key": "Pull",
+                "value": "Receiver retrieves - reference material, metrics, large groups."
+              }
             ]
           }
         ],
@@ -69,9 +101,18 @@
             "kind": "table",
             "title": "Match the verb to the report",
             "rows": [
-              { "key": "Status", "value": "Where are we now?" },
-              { "key": "Progress", "value": "What moved since the last update?" },
-              { "key": "Forecast", "value": "Where are we headed?" }
+              {
+                "key": "Status",
+                "value": "Where are we now?"
+              },
+              {
+                "key": "Progress",
+                "value": "What moved since the last update?"
+              },
+              {
+                "key": "Forecast",
+                "value": "Where are we headed?"
+              }
             ]
           }
         ],
